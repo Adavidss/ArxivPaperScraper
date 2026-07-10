@@ -1,0 +1,99 @@
+name: Digest (scrape, summarize, deploy)
+
+# Daily pipeline: fetch new papers for followed authors, generate Gemini bites,
+# commit data/ back (state + LLM output persist), build the static site with
+# data baked in, deploy to GitHub Pages.
+on:
+  schedule:
+    - cron: "30 6 * * *" # 06:30 UTC ≈ 1:30-2:30am ET, hours after arXiv's ~8pm ET announce
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      # Deliberately NOT data/** — only follows.json. The pipeline's own data
+      # commit uses GITHUB_TOKEN (never chains workflows) + [skip ci]; a
+      # follows.json edit from the app (PAT commit) DOES trigger a rebuild.
+      - "frontend/**"
+      - "scraper/**"
+      - "data/follows.json"
+      - ".github/workflows/digest.yml"
+
+permissions:
+  contents: write # commit data/ back
+  pages: write
+  id-token: write
+
+# Queue runs instead of cancelling — a cancelled run wastes Gemini quota.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            scraper/package-lock.json
+            frontend/package-lock.json
+
+      - name: Install scraper deps
+        run: npm install --no-audit --no-fund
+        working-directory: scraper
+
+      - name: Run digest pipeline
+        run: npx tsx src/main.ts
+        working-directory: scraper
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Commit data back
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "data: digest $(date -u +%F) [skip ci]"
+            # A follows.json edit from the app may have landed mid-run; the
+            # files are disjoint, so a rebase merges cleanly.
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Install frontend deps
+        run: npm install --no-audit --no-fund
+        working-directory: frontend
+
+      - name: Bake data into site (minus pipeline-private state)
+        run: |
+          mkdir -p frontend/public/data
+          rsync -a --delete --exclude state.json data/ frontend/public/data/
+
+      - name: Build static site
+        run: npm run build
+        working-directory: frontend
+
+      - run: touch frontend/out/.nojekyll
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/out
+
+  deploy:
+    needs: digest
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

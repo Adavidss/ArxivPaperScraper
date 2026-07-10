@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArXiv Digest - Automatic Research Paper Tracker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #0f0f0f;
+            color: #e0e0e0;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 1.1em;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background: #1a1a2e;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            border: 1px solid #2a2a3e;
+        }
+
+        .panel h2 {
+            color: #00d2ff;
+            margin-bottom: 20px;
+            font-size: 1.4em;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #aaa;
+            font-size: 0.9em;
+        }
+
+        input[type="text"], 
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            background: #0f0f1f;
+            border: 1px solid #2a2a3e;
+            border-radius: 8px;
+            color: #e0e0e0;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #00d2ff;
+            box-shadow: 0 0 0 2px rgba(0, 210, 255, 0.2);
+        }
+
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        button {
+            background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0, 210, 255, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            background: #444;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .author-list {
+            margin-top: 20px;
+        }
+
+        .author-item {
+            background: #0f0f1f;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .author-item:hover {
+            background: #1f1f2f;
+            transform: translateX(5px);
+        }
+
+        .author-name {
+            font-weight: 500;
+            color: #00d2ff;
+        }
+
+        .author-aliases {
+            font-size: 0.85em;
+            color: #888;
+            margin-top: 5px;
+        }
+
+        .remove-btn {
+            background: #dc3545;
+            padding: 5px 15px;
+            font-size: 0.85em;
+            width: auto;
+            margin: 0;
+        }
+
+        .remove-btn:hover {
+            background: #c82333;
+            box-shadow: 0 5px 20px rgba(220, 53, 69, 0.4);
+        }
+
+        .digest-content {
+            background: #0f0f1f;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 20px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .paper-entry {
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #2a2a3e;
+            opacity: 0;
+            animation: fadeIn 0.5s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .paper-entry:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .paper-title {
+            color: #00d2ff;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .paper-authors {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+
+        .paper-date {
+            color: #666;
+            font-size: 0.85em;
+            margin-bottom: 15px;
+        }
+
+        .paper-summary {
+            background: #1a1a2e;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 3px solid #00d2ff;
+            margin-top: 15px;
+        }
+
+        .paper-link {
+            color: #3a7bd5;
+            text-decoration: none;
+            font-size: 0.9em;
+            display: inline-block;
+            margin-top: 10px;
+            transition: color 0.3s ease;
+        }
+
+        .paper-link:hover {
+            color: #00d2ff;
+            text-decoration: underline;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+        }
+
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+            border: 2px solid #00d2ff;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .error {
+            background: rgba(220, 53, 69, 0.1);
+            border: 1px solid #dc3545;
+            color: #dc3545;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .info {
+            background: rgba(0, 210, 255, 0.1);
+            border: 1px solid #00d2ff;
+            color: #00d2ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .success {
+            background: rgba(40, 167, 69, 0.1);
+            border: 1px solid #28a745;
+            color: #28a745;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .settings-section {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #2a2a3e;
+        }
+
+        .settings-section h3 {
+            color: #00d2ff;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .no-papers {
+            text-align: center;
+            color: #666;
+            padding: 40px;
+            font-style: italic;
+        }
+
+        .progress-bar {
+            background: #0f0f1f;
+            border-radius: 10px;
+            height: 10px;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease;
+            border-radius: 10px;
+        }
+
+        .status-message {
+            text-align: center;
+            margin-top: 10px;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0f0f1f;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #2a2a3e;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3a3a4e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ArXiv Digest</h1>
+            <p class="subtitle">Automatic research paper tracking with AI-powered summaries</p>
+        </header>
+
+        <div class="main-content">
+            <div class="panel">
+                <h2>Author Tracking</h2>
+                
+                <div class="input-group">
+                    <label for="authorName">Author Name</label>
+                    <input type="text" id="authorName" placeholder="e.g., Ronald Walsworth">
+                </div>
+
+                <div class="input-group">
+                    <label for="authorAliases">Name Variations (comma-separated)</label>
+                    <textarea id="authorAliases" placeholder="e.g., R. Walsworth, R.L. Walsworth, Ronald L. Walsworth"></textarea>
+                </div>
+
+                <button onclick="addAuthor()">Add Author</button>
+
+                <div class="author-list" id="authorList"></div>
+
+                <div class="settings-section">
+                    <h3>Settings</h3>
+                    <div class="input-group">
+                        <label for="daysBack">Days to Look Back</label>
+                        <input type="number" id="daysBack" value="30" min="1" max="365">
+                    </div>
+                    <div class="input-group">
+                        <label for="maxResults">Max Papers per Author</label>
+                        <input type="number" id="maxResults" value="50" min="1" max="100">
+                    </div>
+                    <button onclick="generateDigest()" id="generateBtn">Generate Digest</button>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Research Digest</h2>
+                <div id="digestOutput">
+                    <div class="info">
+                        Add authors to track and click "Generate Digest" to automatically fetch and summarize their recent papers from ArXiv.
+                    </div>
+                </div>
+                <div class="progress-bar" id="progressBar" style="display: none;">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="status-message" id="statusMessage"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Store tracked authors
+        let trackedAuthors = [];
+        let isProcessing = false;
+
+        // Load saved data
+        function loadSavedData() {
+            const saved = localStorage.getItem('arxivTrackedAuthors');
+            if (saved) {
+                trackedAuthors = JSON.parse(saved);
+                renderAuthorList();
+            }
+        }
+
+        // Save data
+        function saveData() {
+            localStorage.setItem('arxivTrackedAuthors', JSON.stringify(trackedAuthors));
+        }
+
+        // Add author
+        function addAuthor() {
+            const nameInput = document.getElementById('authorName');
+            const aliasesInput = document.getElementById('authorAliases');
+            
+            const name = nameInput.value.trim();
+            if (!name) {
+                alert('Please enter an author name');
+                return;
+            }
+
+            const aliases = aliasesInput.value
+                .split(',')
+                .map(a => a.trim())
+                .filter(a => a.length > 0);
+
+            trackedAuthors.push({
+                name: name,
+                aliases: aliases
+            });
+
+            nameInput.value = '';
+            aliasesInput.value = '';
+            
+            saveData();
+            renderAuthorList();
+        }
+
+        // Remove author
+        function removeAuthor(index) {
+            trackedAuthors.splice(index, 1);
+            saveData();
+            renderAuthorList();
+        }
+
+        // Render author list
+        function renderAuthorList() {
+            const list = document.getElementById('authorList');
+            list.innerHTML = '';
+
+            if (trackedAuthors.length === 0) {
+                list.innerHTML = '<div class="no-papers">No authors tracked yet</div>';
+                return;
+            }
+
+            trackedAuthors.forEach((author, index) => {
+                const item = document.createElement('div');
+                item.className = 'author-item';
+                
+                const info = document.createElement('div');
+                info.innerHTML = `
+                    <div class="author-name">${author.name}</div>
+                    ${author.aliases.length > 0 ? 
+                        `<div class="author-aliases">Also as: ${author.aliases.join(', ')}</div>` : 
+                        ''}
+                `;
+                
+                const removeBtn = document.createElement('button');
+                removeBtn.className = 'remove-btn';
+                removeBtn.textContent = 'Remove';
+                removeBtn.onclick = () => removeAuthor(index);
+                
+                item.appendChild(info);
+                item.appendChild(removeBtn);
+                list.appendChild(item);
+            });
+        }
+
+        // Update progress
+        function updateProgress(current, total, message) {
+            const progressBar = document.getElementById('progressBar');
+            const progressFill = document.getElementById('progressFill');
+            const statusMessage = document.getElementById('statusMessage');
+            
+            progressBar.style.display = 'block';
+            const percentage = (current / total) * 100;
+            progressFill.style.width = percentage + '%';
+            statusMessage.textContent = message;
+        }
+
+        // Hide progress
+        function hideProgress() {
+            document.getElementById('progressBar').style.display = 'none';
+            document.getElementById('statusMessage').textContent = '';
+        }
+
+        // Fetch with CORS proxy - try multiple proxies
+        async function fetchWithProxy(url) {
+            const proxies = [
+                url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+                url => `https://cors-anywhere.herokuapp.com/${url}`,
+                url => `https://crossorigin.me/${url}`,
+                url => `https://cors-proxy.htmldriven.com/?url=${encodeURIComponent(url)}`,
+                url => `https://thingproxy.freeboard.io/fetch/${url}`
+            ];
+            
+            let lastError;
+            
+            for (const proxyFunc of proxies) {
+                try {
+                    const proxyUrl = proxyFunc(url);
+                    console.log(`Trying proxy: ${proxyUrl.substring(0, 50)}...`);
+                    
+                    const response = await fetch(proxyUrl, {
+                        method: 'GET',
+                        headers: {
+                            'Accept': 'application/xml, text/xml, */*'
+                        }
+                    });
+                    
+                    if (response.ok) {
+                        const text = await response.text();
+                        // Verify it's XML
+                        if (text.includes('<?xml') || text.includes('<feed')) {
+                            return text;
+                        }
+                    }
+                } catch (error) {
+                    console.error('Proxy error:', error);
+                    lastError = error;
+                }
+            }
+            
+            throw new Error(`All proxies failed. Last error: ${lastError?.message || 'Unknown error'}`);
+        }
+
+        // Parse ArXiv date
+        function parseArxivDate(dateStr) {
+            // ArXiv dates can be in format: 2024-01-15T12:34:56Z
+            return new Date(dateStr);
+        }
+
+        // Generate digest
+        async function generateDigest() {
+            if (trackedAuthors.length === 0) {
+                alert('Please add at least one author to track');
+                return;
+            }
+
+            if (isProcessing) {
+                alert('Already processing. Please wait...');
+                return;
+            }
+
+            isProcessing = true;
+            const generateBtn = document.getElementById('generateBtn');
+            generateBtn.disabled = true;
+            generateBtn.textContent = 'Processing...';
+
+            const digestOutput = document.getElementById('digestOutput');
+            digestOutput.innerHTML = '<div class="loading">Fetching papers from ArXiv...</div>';
+
+            const daysBack = parseInt(document.getElementById('daysBack').value) || 30;
+            const maxResults = parseInt(document.getElementById('maxResults').value) || 50;
+            const cutoffDate = new Date();
+            cutoffDate.setDate(cutoffDate.getDate() - daysBack);
+
+            const allPapers = [];
+            let totalSearches = 0;
+
+            // Count total searches
+            trackedAuthors.forEach(author => {
+                totalSearches += 1 + author.aliases.length;
+            });
+
+            let currentSearch = 0;
+
+            try {
+                // Search for papers from each author
+                for (const author of trackedAuthors) {
+                    const searchNames = [author.name, ...author.aliases];
+                    
+                    for (const searchName of searchNames) {
+                        currentSearch++;
+                        updateProgress(currentSearch, totalSearches, `Searching for ${searchName}...`);
+                        
+                        const query = `au:"${searchName}"`;
+                        const url = `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(query)}&sortBy=submittedDate&sortOrder=descending&max_results=${maxResults}`;
+                        
+                        try {
+                            const xmlText = await fetchWithProxy(url);
+                            const parser = new DOMParser();
+                            const xml = parser.parseFromString(xmlText, 'text/xml');
+                            
+                            const entries = xml.getElementsByTagName('entry');
+                            
+                            for (let i = 0; i < entries.length; i++) {
+                                const entry = entries[i];
+                                const publishedStr = entry.getElementsByTagName('published')[0]?.textContent;
+                                if (!publishedStr) continue;
+                                
+                                const publishedDate = parseArxivDate(publishedStr);
+                                
+                                // Check if paper is within date range
+                                if (publishedDate >= cutoffDate) {
+                                    const title = entry.getElementsByTagName('title')[0]?.textContent.trim();
+                                    const summary = entry.getElementsByTagName('summary')[0]?.textContent.trim();
+                                    const id = entry.getElementsByTagName('id')[0]?.textContent;
+                                    
+                                    if (!title || !summary || !id) continue;
+                                    
+                                    const authorElements = entry.getElementsByTagName('author');
+                                    const authors = [];
+                                    for (let j = 0; j < authorElements.length; j++) {
+                                        const nameElement = authorElements[j].getElementsByTagName('name')[0];
+                                        if (nameElement) {
+                                            authors.push(nameElement.textContent);
+                                        }
+                                    }
+                                    
+                                    // Check if we already have this paper
+                                    if (!allPapers.some(p => p.id === id)) {
+                                        allPapers.push({
+                                            id: id,
+                                            title: title,
+                                            authors: authors,
+                                            summary: summary,
+                                            publishedDate: publishedDate,
+                                            trackedAuthor: author.name
+                                        });
+                                    }
+                                }
+                            }
+                        } catch (error) {
+                            console.error(`Error fetching papers for ${searchName}:`, error);
+                        }
+                        
+                        // Rate limiting - wait between requests
+                        await new Promise(resolve => setTimeout(resolve, 1000));
+                    }
+                }
+
+                // Sort papers by date
+                allPapers.sort((a, b) => b.publishedDate - a.publishedDate);
+
+                // Display results
+                await displayDigest(allPapers);
+
+            } catch (error) {
+                digestOutput.innerHTML = `<div class="error">Error generating digest: ${error.message}</div>`;
+            } finally {
+                isProcessing = false;
+                generateBtn.disabled = false;
+                generateBtn.textContent = 'Generate Digest';
+                hideProgress();
+            }
+        }
+
+        // Generate AI summary using Claude
+        async function generateAISummary(paper) {
+            try {
+                // Check if Claude API is available
+                if (typeof window.claude !== 'undefined' && window.claude.complete) {
+                    const prompt = `
+                    Please provide a concise, 2-3 sentence summary of this research paper that highlights the key findings and significance. Focus on what the researchers discovered and why it matters.
+                    
+                    Title: ${paper.title}
+                    
+                    Abstract: ${paper.summary}
+                    
+                    Respond with ONLY the summary, no additional text or formatting.
+                    `;
+                    
+                    const summary = await window.claude.complete(prompt);
+                    return summary.trim();
+                } else {
+                    // Fallback to enhanced rule-based summary
+                    return generateFallbackSummary(paper);
+                }
+            } catch (error) {
+                console.error('Error generating AI summary:', error);
+                return generateFallbackSummary(paper);
+            }
+        }
+
+        // Enhanced fallback summary generation
+        function generateFallbackSummary(paper) {
+            const abstract = paper.summary;
+            const sentences = abstract.match(/[^.!?]+[.!?]+/g) || [];
+            
+            if (sentences.length <= 3) {
+                return abstract;
+            }
+            
+            // Look for key sentences that indicate main findings
+            const importanceKeywords = ['demonstrate', 'show', 'find', 'present', 'propose', 'develop', 'achieve', 'discover', 'reveal'];
+            const noveltyKeywords = ['novel', 'new', 'first', 'improve', 'significant', 'breakthrough', 'advance', 'state-of-the-art'];
+            const resultKeywords = ['result', 'performance', 'accuracy', 'efficiency', 'effective', 'outperform'];
+            
+            let summary = [];
+            
+            // Find the main claim/finding
+            const mainFinding = sentences.find(s => 
+                importanceKeywords.some(k => s.toLowerCase().includes(k))
+            );
+            if (mainFinding) summary.push(mainFinding.trim());
+            
+            // Find novelty statement
+            const novelty = sentences.find(s => 
+                noveltyKeywords.some(k => s.toLowerCase().includes(k)) && !summary.includes(s)
+            );
+            if (novelty && summary.length < 2) summary.push(novelty.trim());
+            
+            // Find results/impact
+            const results = sentences.find(s => 
+                resultKeywords.some(k => s.toLowerCase().includes(k)) && !summary.includes(s)
+            );
+            if (results && summary.length < 3) summary.push(results.trim());
+            
+            // If we don't have enough, take the first sentences
+            if (summary.length < 2) {
+                summary = sentences.slice(0, 2).map(s => s.trim());
+            }
+            
+            return summary.join(' ');
+        }
+
+        // Display digest
+        async function displayDigest(papers) {
+            const digestOutput = document.getElementById('digestOutput');
+            
+            if (papers.length === 0) {
+                digestOutput.innerHTML = `
+                    <div class="info">
+                        No papers found from tracked authors in the last ${document.getElementById('daysBack').value} days.
+                        Try increasing the "Days to Look Back" setting.
+                    </div>
+                `;
+                return;
+            }
+
+            digestOutput.innerHTML = `<div class="loading">Generating AI summaries for ${papers.length} papers...</div>`;
+
+            let html = `<div class="digest-content">`;
+            html += `<h3 class="success">Found ${papers.length} paper${papers.length !== 1 ? 's' : ''} from the last ${document.getElementById('daysBack').value} days</h3>`;
+            
+            // Generate summaries for all papers
+            let processedPapers = 0;
+            const paperElements = [];
+            
+            for (const paper of papers) {
+                processedPapers++;
+                updateProgress(processedPapers, papers.length, `Summarizing paper ${processedPapers} of ${papers.length}...`);
+                
+                const summary = await generateAISummary(paper);
+                
+                const paperHtml = `
+                    <div class="paper-entry" style="animation-delay: ${processedPapers * 0.1}s">
+                        <div class="paper-title">${paper.title}</div>
+                        <div class="paper-authors">${paper.authors.join(', ')}</div>
+                        <div class="paper-date">Published: ${paper.publishedDate.toLocaleDateString()} (${paper.publishedDate.toLocaleTimeString()})</div>
+                        <div class="paper-summary">
+                            <strong>AI Summary:</strong> ${summary}
+                        </div>
+                        <a href="${paper.id}" target="_blank" class="paper-link">View on ArXiv →</a>
+                    </div>
+                `;
+                
+                paperElements.push(paperHtml);
+                
+                // Update display every 3 papers
+                if (processedPapers % 3 === 0 || processedPapers === papers.length) {
+                    html = `<div class="digest-content">`;
+                    html += `<h3 class="success">Found ${papers.length} paper${papers.length !== 1 ? 's' : ''} from the last ${document.getElementById('daysBack').value} days</h3>`;
+                    html += paperElements.join('');
+                    html += `</div>`;
+                    digestOutput.innerHTML = html;
+                }
+                
+                // Small delay to avoid overwhelming the API
+                if (window.claude && window.claude.complete) {
+                    await new Promise(resolve => setTimeout(resolve, 500));
+                }
+            }
+            
+            html += `</div>`;
+            digestOutput.innerHTML = html;
+            hideProgress();
+        }
+
+        // Initialize
+        loadSavedData();
+
+        // Add keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' && e.ctrlKey) {
+                generateDigest();
+            }
+        });
+    </script>
+</body>
+</html>

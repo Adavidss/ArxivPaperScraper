@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArXiv Digest v12 - Automatic Research Paper Tracker</title>
+    <style>
+        /* ----------  GLOBAL STYLES  ---------- */
+        * {margin:0;padding:0;box-sizing:border-box;}
+        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;background:#0f0f0f;color:#e0e0e0;min-height:100vh;line-height:1.6;}
+        .container{max-width:1200px;margin:0 auto;padding:20px;}
+        header{text-align:center;margin-bottom:40px;padding:40px 0;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);border-radius:15px;box-shadow:0 10px 30px rgba(0,0,0,.5);}h1{font-size:2.5em;margin-bottom:10px;background:linear-gradient(45deg,#00d2ff,#3a7bd5);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+        .subtitle{color:#888;font-size:1.1em;}
+        .main-content{display:grid;grid-template-columns:1fr 2fr;gap:30px;margin-bottom:30px;}@media(max-width:768px){.main-content{grid-template-columns:1fr;}}
+        .panel{background:#1a1a2e;padding:25px;border-radius:12px;box-shadow:0 5px 20px rgba(0,0,0,.3);border:1px solid #2a2a3e;}
+        .panel h2{color:#00d2ff;margin-bottom:20px;font-size:1.4em;}
+        .input-group{margin-bottom:20px;}label{display:block;margin-bottom:8px;color:#aaa;font-size:.9em}
+        input[type=text],input[type=number],textarea{width:100%;padding:12px;background:#0f0f1f;border:1px solid #2a2a3e;border-radius:8px;color:#e0e0e0;font-size:1em;transition:all .3s ease;}
+        input[type=text]:focus,input[type=number]:focus,textarea:focus{outline:none;border-color:#00d2ff;box-shadow:0 0 0 2px rgba(0,210,255,.2);}textarea{min-height:100px;resize:vertical;}
+        button{background:linear-gradient(45deg,#00d2ff,#3a7bd5);color:#fff;border:none;padding:12px 24px;border-radius:8px;font-size:1em;font-weight:600;cursor:pointer;transition:all .3s ease;width:100%;margin-top:10px;}button:hover{transform:translateY(-2px);box-shadow:0 5px 20px rgba(0,210,255,.4);}button:active{transform:translateY(0);}button:disabled{background:#444;cursor:not-allowed;transform:none;box-shadow:none;}
+        .author-list{margin-top:20px;}.author-item{background:#0f0f1f;padding:15px;border-radius:8px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center;transition:all .3s ease;}.author-item:hover{background:#1f1f2f;transform:translateX(5px);} .author-name{font-weight:500;color:#00d2ff;}.author-aliases{font-size:.85em;color:#888;margin-top:5px;} .remove-btn{background:#dc3545;padding:5px 15px;font-size:.85em;width:auto;margin:0;}.remove-btn:hover{background:#c82333;box-shadow:0 5px 20px rgba(220,53,69,.4);} 
+        .digest-content{background:#0f0f1f;padding:25px;border-radius:8px;margin-top:20px;max-height:600px;overflow-y:auto;} .paper-entry{margin-bottom:30px;padding-bottom:30px;border-bottom:1px solid #2a2a3e;opacity:0;animation:fadeIn .5s ease forwards;}@keyframes fadeIn{to{opacity:1}}.paper-entry:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0;} .paper-title{color:#00d2ff;font-size:1.2em;margin-bottom:10px;line-height:1.4;} .paper-authors{color:#888;font-size:.9em;margin-bottom:8px;} .paper-date{color:#666;font-size:.85em;margin-bottom:15px;} .paper-summary{background:#1a1a2e;padding:15px;border-radius:8px;border-left:3px solid #00d2ff;margin-top:15px;} .paper-link{color:#3a7bd5;text-decoration:none;font-size:.9em;display:inline-block;margin-top:10px;transition:color .3s ease;} .paper-link:hover{color:#00d2ff;text-decoration:underline;}
+        .loading{text-align:center;padding:40px;color:#888;}.loading::after{content:'';display:inline-block;width:20px;height:20px;margin-left:10px;border:2px solid #00d2ff;border-radius:50%;border-top-color:transparent;animation:spin 1s linear infinite;}@keyframes spin{to{transform:rotate(360deg);}}
+        .error{background:rgba(220,53,69,.1);border:1px solid #dc3545;color:#dc3545;padding:15px;border-radius:8px;margin-top:20px;} .info{background:rgba(0,210,255,.1);border:1px solid #00d2ff;color:#00d2ff;padding:15px;border-radius:8px;margin-top:20px;} .success{background:rgba(40,167,69,.1);border:1px solid #28a745;color:#28a745;padding:15px;border-radius:8px;margin-top:20px;}
+        .settings-section{margin-top:30px;padding-top:30px;border-top:1px solid #2a2a3e;} .settings-section h3{color:#00d2ff;margin-bottom:15px;font-size:1.1em;}
+        .no-papers{text-align:center;color:#666;padding:40px;font-style:italic;}
+        .progress-bar{background:#0f0f1f;border-radius:10px;height:10px;margin-top:20px;overflow:hidden;}.progress-fill{background:linear-gradient(45deg,#00d2ff,#3a7bd5);height:100%;width:0%;transition:width .3s ease;border-radius:10px;} .status-message{text-align:center;margin-top:10px;color:#888;font-size:.9em;}
+        .overview-section{background:#1a1a2e;padding:20px;border-radius:8px;border-left:3px solid #ffc107;margin-top:15px;} .overview-section-title{color:#ffc107;font-size:1.3em;font-weight:600;margin-bottom:15px;border-bottom:1px solid #2a2a3e;padding-bottom:8px;} .data-entry{background:#0f0f1f;padding:15px;border-radius:8px;margin-bottom:15px;border-left:3px solid #28a745;} .data-title{color:#28a745;font-weight:600;margin-bottom:10px;font-size:1.1em;} .data-categories{color:#888;font-size:.85em;margin-bottom:15px;} .data-category{margin-bottom:20px;background:#1a1a2e;padding:12px;border-radius:6px;border-left:2px solid #00d2ff;} .data-description{color:#888;font-size:.8em;font-style:italic;margin-left:8px;} .data-content{color:#e0e0e0;font-size:.95em;} .data-value{font-family:monospace;background:#2a2a3e;padding:4px 8px;border-radius:4px;color:#00d2ff;margin-right:8px;font-weight:600;} .data-context{color:#888;font-size:.8em;font-style:italic;} .data-item{background:#0f0f1f;margin:8px 0;padding:10px;border-radius:4px;border-left:2px solid #28a745;} .data-meaning{color:#ccc;font-size:.9em;margin-top:5px;line-height:1.4;} .significance-indicator{font-size:1.1em;margin-left:5px;}
+        .connection-item{background:rgba(255,193,7,.1);padding:12px;border-radius:6px;margin-bottom:10px;border:1px solid rgba(255,193,7,.3);} .connection-type{color:#ffc107;font-weight:600;margin-bottom:5px;}
+        ::-webkit-scrollbar{width:10px;}::-webkit-scrollbar-track{background:#0f0f1f;}::-webkit-scrollbar-thumb{background:#2a2a3e;border-radius:5px;}::-webkit-scrollbar-thumb:hover{background:#3a3a4e;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ArXiv Digest v12</h1>
+            <p class="subtitle">Automatic research paper tracking with AI-powered summaries and analysis</p>
+        </header>
+
+        <!-- ----------  MAIN PANELS  ---------- -->
+        <div class="main-content">
+            <!--  AUTHOR PANEL  -->
+            <div class="panel">
+                <h2>Author Tracking</h2>
+                <div class="input-group">
+                    <label for="authorName">Author Name</label>
+                    <input type="text" id="authorName" placeholder="e.g., Ronald Walsworth">
+                </div>
+                <div class="input-group">
+                    <label for="authorAliases">Name Variations (comma-separated)</label>
+                    <textarea id="authorAliases" placeholder="e.g., R. Walsworth, R.L. Walsworth, Ronald L. Walsworth"></textarea>
+                </div>
+                <button onclick="addAuthor()">Add Author</button>
+                <div class="author-list" id="authorList"></div>
+                <!-- SETTINGS -->
+                <div class="settings-section">
+                    <h3>Settings</h3>
+                    <div class="input-group">
+                        <label for="daysBack">Days to Look Back</label>
+                        <input type="number" id="daysBack" value="30" min="1" max="365">
+                    </div>
+                    <div class="input-group">
+                        <label for="maxResults">Max Papers per Author</label>
+                        <input type="number" id="maxResults" value="50" min="1" max="100">
+                    </div>
+                    <button onclick="generateDigest()" id="generateBtn">Generate Digest</button>
+                </div>
+            </div>
+            <!--  DIGEST PANEL  -->
+            <div class="panel">
+                <h2>Research Digest</h2>
+                <div id="digestOutput">
+                    <div class="info">Add authors to track and click "Generate Digest" to automatically fetch and summarize their recent papers from ArXiv.</div>
+                </div>
+                <div class="progress-bar" id="progressBar" style="display:none;"><div class="progress-fill" id="progressFill"></div></div>
+                <div class="status-message" id="statusMessage"></div>
+            </div>
+        </div>
+        <!--  OVERVIEW  -->
+        <div class="panel" style="margin-top:30px;">
+            <h2>Overall Overview</h2>
+            <div id="overviewOutput"><div class="info">Generate a digest first to see connections and patterns across all papers.</div></div>
+        </div>
+        <!--  DATA  -->
+        <div class="panel" style="margin-top:30px;">
+            <h2>Data from Papers</h2>
+            <div id="dataOutput"><div class="info">Generate a digest first to extract key data and results from the papers.</div></div>
+        </div>
+    </div>
+
+    <!-- ----------  SCRIPT  ---------- -->
+    <script>
+    /* --------------------  STATE  -------------------- */
+    let trackedAuthors = [];
+    let isProcessing   = false;
+    let currentPapers  = [];   // cache for analysis
+
+    /* --------------------  LOCAL STORAGE  -------------------- */
+    function loadSavedData(){
+        const saved = localStorage.getItem('arxivTrackedAuthors');
+        if(saved){trackedAuthors = JSON.parse(saved);renderAuthorList();}
+    }
+    function saveData(){localStorage.setItem('arxivTrackedAuthors',JSON.stringify(trackedAuthors));}
+
+    /* --------------------  AUTHOR LIST  -------------------- */
+    function addAuthor(){
+        const name    = document.getElementById('authorName').value.trim();
+        const aliases = document.getElementById('authorAliases').value.split(',').map(a=>a.trim()).filter(a=>a.length>0);
+        if(!name){alert('Please enter an author name');return;}
+        trackedAuthors.push({name,aliases});
+        document.getElementById('authorName').value='';document.getElementById('authorAliases').value='';
+        saveData();renderAuthorList();}
+    function removeAuthor(idx){trackedAuthors.splice(idx,1);saveData();renderAuthorList();}
+    function renderAuthorList(){
+        const list=document.getElementById('authorList');list.innerHTML='';
+        if(trackedAuthors.length===0){list.innerHTML='<div class="no-papers">No authors tracked yet</div>';return;}
+        trackedAuthors.forEach((a,i)=>{
+            const item=document.createElement('div');item.className='author-item';
+            item.innerHTML=`<div><div class="author-name">${a.name}</div>${a.aliases.length?`<div class="author-aliases">Also as: ${a.aliases.join(', ')}</div>`:''}</div>`;
+            const btn=document.createElement('button');btn.textContent='Remove';btn.className='remove-btn';btn.onclick=()=>removeAuthor(i);
+            item.appendChild(btn);list.appendChild(item);});
+    }
+
+    /* --------------------  PROGRESS BAR  -------------------- */
+    function updateProgress(cur,total,msg){
+        document.getElementById('progressBar').style.display='block';
+        document.getElementById('progressFill').style.width=`${(cur/total)*100}%`;
+        document.getElementById('statusMessage').textContent=msg;
+    }
+    function hideProgress(){document.getElementById('progressBar').style.display='none';document.getElementById('statusMessage').textContent='';}
+
+    /* --------------------  NETWORK HELPERS  -------------------- */
+    const proxyList=[
+        u=>`https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+        u=>`https://thingproxy.freeboard.io/fetch/${u}`,
+        u=>`https://cors-proxy.htmldriven.com/?url=${encodeURIComponent(u)}`,
+        u=>`https://cors-anywhere.herokuapp.com/${u}`
+    ];
+    async function fetchWithProxy(url){
+        let lastErr;
+        for(const makeProxy of proxyList){
+            try{
+                const resp=await fetch(makeProxy(url),{headers:{'Accept':'application/xml, text/xml, */*'}});
+                if(resp.ok){const txt=await resp.text();if(/<feed|<\?xml/.test(txt))return txt;}
+            }catch(e){lastErr=e;}
+        }
+        throw new Error(`All proxies failed. Last error: ${lastErr?.message||'unknown'}`);
+    }
+
+    /* --------------------  PDF CONTENT EXTRACTION  -------------------- */
+    async function fetchPDFContent(arxivId){
+        // Extract arxiv ID from full URL if needed
+        const id = arxivId.replace('http://arxiv.org/abs/', '').replace('https://arxiv.org/abs/', '');
+        const pdfUrl = `https://arxiv.org/pdf/${id}.pdf`;
+        
+        try {
+            // Try multiple PDF text extraction approaches
+            const extractionMethods = [
+                () => fetchPDFTextFromProxy(pdfUrl),
+                () => fetchDetailedAbstract(arxivId)
+            ];
+            
+            for (const method of extractionMethods) {
+                try {
+                    const result = await method();
+                    if (result) return result;
+                } catch (e) {
+                    console.warn('PDF extraction method failed:', e);
+                }
+            }
+            
+            return await fetchDetailedAbstract(arxivId);
+        } catch (error) {
+            console.warn(`Could not fetch PDF for ${id}:`, error);
+            return null;
+        }
+    }
+
+    async function fetchPDFTextFromProxy(pdfUrl) {
+        // Try to extract text using various proxy services
+        const textExtractionServices = [
+            `https://api.allorigins.win/raw?url=${encodeURIComponent(`https://pdftotext.herokuapp.com/pdf?url=${encodeURIComponent(pdfUrl)}`)}`,
+            `https://thingproxy.freeboard.io/fetch/https://pdf-extract.com/api/extract?url=${encodeURIComponent(pdfUrl)}`
+        ];
+        
+        for (const service of textExtractionServices) {
+            try {
+                const response = await fetch(service);
+                if (response.ok) {
+                    const text = await response.text();
+                    if (text.length > 100) { // Basic sanity check
+                        return parseExtractedPDFText(text);
+                    }
+                }
+            } catch (e) {
+                console.warn('PDF text extraction service failed:', e);
+            }
+        }
+        return null;
+    }
+
+    function parseExtractedPDFText(fullText) {
+        // Extract key sections from PDF text
+        const sections = {
+            abstract: extractSection(fullText, ['abstract', 'summary']),
+            introduction: extractSection(fullText, ['introduction', '1. introduction']),
+            methodology: extractSection(fullText, ['method', 'approach', 'methodology', 'experimental setup']),
+            results: extractSection(fullText, ['results', 'findings', 'evaluation', 'experiments']),
+            conclusion: extractSection(fullText, ['conclusion', 'conclusions', 'discussion']),
+            figures: extractFigureReferences(fullText),
+            tables: extractTableReferences(fullText)
+        };
+        
+        return {
+            fullText: fullText.slice(0, 10000), // Limit size
+            ...sections
+        };
+    }
+
+    function extractSection(text, keywords) {
+        const lowerText = text.toLowerCase();
+        for (const keyword of keywords) {
+            const index = lowerText.indexOf(keyword.toLowerCase());
+            if (index !== -1) {
+                // Extract next 500-1000 characters after section header
+                const sectionStart = index;
+                const nextSectionIndex = findNextSectionStart(lowerText, sectionStart + keyword.length);
+                const sectionEnd = nextSectionIndex !== -1 ? nextSectionIndex : sectionStart + 1000;
+                return text.slice(sectionStart, Math.min(sectionEnd, sectionStart + 1000)).trim();
+            }
+        }
+        return null;
+    }
+
+    function findNextSectionStart(text, startIndex) {
+        const sectionHeaders = ['abstract', 'introduction', 'method', 'results', 'conclusion', 'references'];
+        let nearestIndex = -1;
+        for (const header of sectionHeaders) {
+            const index = text.indexOf(header, startIndex);
+            if (index !== -1 && (nearestIndex === -1 || index < nearestIndex)) {
+                nearestIndex = index;
+            }
+        }
+        return nearestIndex;
+    }
+
+    function extractFigureReferences(text) {
+        const figureRegex = /figure\s+(\d+)[:\.]?\s*([^\.]+\.)/gi;
+        const matches = [];
+        let match;
+        while ((match = figureRegex.exec(text)) !== null) {
+            matches.push({
+                number: match[1],
+                caption: match[2].trim(),
+                context: text.slice(Math.max(0, match.index - 100), match.index + match[0].length + 100)
+            });
+        }
+        return matches;
+    }
+
+    function extractTableReferences(text) {
+        const tableRegex = /table\s+(\d+)[:\.]?\s*([^\.]+\.)/gi;
+        const matches = [];
+        let match;
+        while ((match = tableRegex.exec(text)) !== null) {
+            matches.push({
+                number: match[1],
+                caption: match[2].trim(),
+                context: text.slice(Math.max(0, match.index - 100), match.index + match[0].length + 100)
+            });
+        }
+        return matches;
+    }
+
+    async function fetchDetailedAbstract(arxivId) {
+        try {
+            const id = arxivId.replace('http://arxiv.org/abs/', '').replace('https://arxiv.org/abs/', '');
+            const url = `https://export.arxiv.org/api/query?id_list=${id}`;
+            const xml = await fetchWithProxy(url);
+            const doc = new DOMParser().parseFromString(xml, 'text/xml');
+            const entry = doc.querySelector('entry');
+            
+            if (entry) {
+                return {
+                    fullAbstract: entry.querySelector('summary')?.textContent.trim(),
+                    categories: Array.from(entry.querySelectorAll('category')).map(cat => cat.getAttribute('term')),
+                    comment: entry.querySelector('arxiv\\:comment, comment')?.textContent.trim(),
+                    doi: entry.querySelector('arxiv\\:doi, doi')?.textContent.trim()
+                };
+            }
+        } catch (error) {
+            console.warn(`Could not fetch detailed info for ${arxivId}:`, error);
+        }
+        return null;
+    }
+
+    /* --------------------  FIELD CONTEXT ANALYSIS  -------------------- */
+    async function fetchRelatedFieldPapers(categories, excludeIds = []) {
+        if (!categories || categories.length === 0) return [];
+        
+        const relatedPapers = [];
+        const primaryCategory = categories[0]; // Use the first category as primary
+        
+        try {
+            // Search for recent papers in the same field
+            const searchQuery = `cat:${primaryCategory}`;
+            const url = `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(searchQuery)}&sortBy=submittedDate&sortOrder=descending&max_results=20`;
+            
+            const xml = await fetchWithProxy(url);
+            const doc = new DOMParser().parseFromString(xml, 'text/xml');
+            
+            doc.querySelectorAll('entry').forEach(entry => {
+                const id = entry.querySelector('id')?.textContent.trim();
+                if (!id || excludeIds.includes(id)) return;
+                
+                const publishedDate = new Date(entry.querySelector('published').textContent);
+                const cutoff = new Date();
+                cutoff.setDate(cutoff.getDate() - 90); // Last 3 months
+                
+                if (publishedDate >= cutoff) {
+                    relatedPapers.push({
+                        id,
+                        title: entry.querySelector('title').textContent.trim(),
+                        authors: Array.from(entry.querySelectorAll('author name')).map(n => n.textContent),
+                        summary: entry.querySelector('summary').textContent.trim(),
+                        publishedDate
+                    });
+                }
+            });
+        } catch (error) {
+            console.warn('Error fetching related field papers:', error);
+        }
+        
+        return relatedPapers.slice(0, 10); // Limit to 10 most recent
+    }
+
+    /* --------------------  DATE PARSER  -------------------- */
+    function parseArxivDate(str){return new Date(str);} // ISO 8601
+
+    /* --------------------  DIGEST GENERATION  -------------------- */
+    async function generateDigest(){
+        if(trackedAuthors.length===0){alert('Please add at least one author to track');return;}
+        if(isProcessing){alert('Already processing. Please wait...');return;}
+        isProcessing=true;document.getElementById('generateBtn').disabled=true;document.getElementById('generateBtn').textContent='Processing...';
+        document.getElementById('digestOutput').innerHTML='<div class="loading">Fetching papers from ArXiv...</div>';
+
+        const daysBack = Number(document.getElementById('daysBack').value)||30;
+        const maxResults = Number(document.getElementById('maxResults').value)||50;
+        const cutoff=new Date();cutoff.setDate(cutoff.getDate()-daysBack);
+
+        const papers=[];let totalQueries=0;trackedAuthors.forEach(a=>{totalQueries+=1+a.aliases.length;});let current=0;
+
+        try{
+            for(const author of trackedAuthors){
+                for(const searchName of [author.name,...author.aliases]){
+                    current++;updateProgress(current,totalQueries,`Searching for ${searchName}...`);
+                    const query=`au:"${searchName}"`;
+                    const url=`https://export.arxiv.org/api/query?search_query=${encodeURIComponent(query)}&sortBy=submittedDate&sortOrder=descending&max_results=${maxResults}`;
+                    try{
+                        const xml=await fetchWithProxy(url);
+                        const doc=new DOMParser().parseFromString(xml,'text/xml');
+                        doc.querySelectorAll('entry').forEach(entry=>{
+                            const published=parseArxivDate(entry.querySelector('published').textContent);
+                            if(published<cutoff)return;
+                            const id=entry.querySelector('id')?.textContent.trim();
+                            if(!id||papers.some(p=>p.id===id))return;
+                            const paper = {
+                                id,
+                                title:entry.querySelector('title').textContent.trim(),
+                                authors:Array.from(entry.querySelectorAll('author name')).map(n=>n.textContent),
+                                summary:entry.querySelector('summary').textContent.trim(),
+                                publishedDate:published,
+                                trackedAuthor:author.name,
+                                categories: Array.from(entry.querySelectorAll('category')).map(cat => cat.getAttribute('term')),
+                                comment: entry.querySelector('arxiv\\:comment, comment')?.textContent?.trim(),
+                                pdfContent: null // Will be populated later
+                            };
+                            papers.push(paper);
+                        });
+                    }catch(e){console.error(`Error for ${searchName}`,e);}
+                    await new Promise(r=>setTimeout(r,500)); // gentle throttle
+                }
+            }
+            papers.sort((a,b)=>b.publishedDate-a.publishedDate);currentPapers=papers;
+            await displayDigest(papers);
+        }catch(err){document.getElementById('digestOutput').innerHTML=`<div class="error">${err.message}</div>`;}
+        finally{isProcessing=false;document.getElementById('generateBtn').disabled=false;document.getElementById('generateBtn').textContent='Generate Digest';hideProgress();}
+    }
+
+    /* --------------------  AI & FALLBACK SUMMARIES  -------------------- */
+    async function generateAISummary(paper){
+        // Fetch PDF content for richer analysis
+        if (!paper.pdfContent) {
+            paper.pdfContent = await fetchPDFContent(paper.id);
+        }
+        
+        if(window.claude?.complete){
+            const additionalInfo = paper.pdfContent ? 
+                `\n\nCategories: ${paper.categories?.join(', ') || 'N/A'}\nComment: ${paper.comment || 'N/A'}` : '';
+            const prompt=`Please provide a concise, 2-3 sentence summary highlighting key findings, methodology, and significance.\n\nTitle: ${paper.title}\n\nAbstract: ${paper.summary}${additionalInfo}\n\nRespond with ONLY the summary.`;
+            try{return (await window.claude.complete(prompt)).trim();}catch(e){console.error('Claude error',e);} }
+        return generateFallbackSummary(paper);
+    }
+    function generateFallbackSummary(paper){
+        const sents=(paper.summary.match(/[^.!?]+[.!?]+/g)||[]).map(s=>s.trim()); if(sents.length<=3)return paper.summary;
+        const pick=(keywords)=>sents.find(s=>keywords.some(k=>s.toLowerCase().includes(k)));
+        const summary=[];
+        const imp=pick(['demonstrate','show','find','present','propose','develop','achieve','discover','reveal']);if(imp)summary.push(imp);
+        const nov=pick(['novel','new','first','improve','significant','breakthrough','advance','state-of-the-art']);if(nov&&!summary.includes(nov))summary.push(nov);
+        const res=pick(['result','performance','accuracy','efficiency','effective','outperform']);if(res&&summary.length<3)summary.push(res);
+        return summary.slice(0,3).join(' ')||sents.slice(0,2).join(' ');
+    }
+
+    /* --------------------  OVERVIEW  -------------------- */
+    async function generateOverallOverview(papers){
+        if(papers.length<2)return 'Need at least 2 papers to generate connections and overview.';
+        
+        // Enhanced analysis with categories and deeper connections
+        const analysis = await analyzeResearchConnections(papers);
+        
+        // Fetch related papers from the broader field for context
+        const allCategories = [...new Set(papers.flatMap(p => p.categories || []))];
+        const excludeIds = papers.map(p => p.id);
+        const relatedFieldPapers = await fetchRelatedFieldPapers(allCategories, excludeIds);
+        
+        if(window.claude?.complete){
+            const enrichedData = papers.map((p,i) => {
+                const categories = p.categories?.join(', ') || 'N/A';
+                const comment = p.comment ? ` (${p.comment.slice(0,100)}...)` : '';
+                const pdfSections = p.pdfContent?.methodology || p.pdfContent?.results ? 
+                    `\nMethodology: ${(p.pdfContent.methodology || '').slice(0,200)}\nResults: ${(p.pdfContent.results || '').slice(0,200)}` : '';
+                return `Paper ${i+1}: "${p.title}"\nCategories: ${categories}\nAuthors: ${p.authors.slice(0,3).join(', ')}${p.authors.length > 3 ? '...' : ''}\nAbstract: ${p.summary.slice(0,300)}...${comment}${pdfSections}`;
+            }).join('\n\n');
+            
+            const fieldContext = relatedFieldPapers.length > 0 ? 
+                `\n\nRecent papers in the field for comparison:\n${relatedFieldPapers.slice(0,5).map((p,i) => 
+                    `Field Paper ${i+1}: "${p.title}"\nAuthors: ${p.authors.slice(0,2).join(', ')}\nAbstract: ${p.summary.slice(0,150)}...`
+                ).join('\n\n')}` : '';
+            
+            const prompt = `Analyze these research papers in the context of the broader field and provide a comprehensive overview:
+
+## Field Positioning & Novel Contributions
+Compare the tracked papers to recent work in the field. How do they advance beyond current state-of-the-art? What gaps do they fill?
+
+## Methodological Innovations & Comparisons  
+Analyze methodological approaches and compare to standard techniques in the field. Identify novel methods and improvements.
+
+## Results Significance & Impact Assessment
+Evaluate the significance of results compared to recent benchmarks and establish performance improvements over existing work.
+
+## Cross-Paper Technical Synergies
+Identify technical connections, complementary methodologies, and potential for combined approaches.
+
+## Research Trajectory & Future Directions
+Assess how these works position the field for future developments and identify emerging research directions.
+
+Tracked Papers:\n\n${enrichedData}${fieldContext}
+
+Provide specific technical comparisons, cite paper titles, and explain the significance of contributions in context.`;
+            
+            try{
+                const result = await window.claude.complete(prompt);
+                return formatAdvancedOverviewOutput(result.trim(), analysis, relatedFieldPapers);
+            }catch(e){
+                console.error('Claude overview error',e);
+                return generateEnhancedFallbackOverview(papers, analysis, relatedFieldPapers);
+            }
+        }
+        return generateEnhancedFallbackOverview(papers, analysis, relatedFieldPapers);
+    }
+
+    async function analyzeResearchConnections(papers) {
+        const analysis = {
+            categoryGroups: {},
+            authorCollaborations: [],
+            methodologyOverlaps: [],
+            citationNetworks: [],
+            temporalTrends: {}
+        };
+        
+        // Group by categories
+        papers.forEach(p => {
+            if (p.categories) {
+                p.categories.forEach(cat => {
+                    if (!analysis.categoryGroups[cat]) analysis.categoryGroups[cat] = [];
+                    analysis.categoryGroups[cat].push(p);
+                });
+            }
+        });
+        
+        // Find author collaborations
+        papers.forEach((p1, i) => {
+            papers.forEach((p2, j) => {
+                if (i < j) {
+                    const sharedAuthors = p1.authors.filter(a => p2.authors.includes(a));
+                    if (sharedAuthors.length > 0) {
+                        analysis.authorCollaborations.push({
+                            paper1: p1,
+                            paper2: p2,
+                            sharedAuthors,
+                            strength: sharedAuthors.length / Math.min(p1.authors.length, p2.authors.length)
+                        });
+                    }
+                }
+            });
+        });
+        
+        // Analyze temporal trends
+        const monthGroups = {};
+        papers.forEach(p => {
+            const month = p.publishedDate.toISOString().slice(0, 7);
+            if (!monthGroups[month]) monthGroups[month] = [];
+            monthGroups[month].push(p);
+        });
+        analysis.temporalTrends = monthGroups;
+        
+        return analysis;
+    }
+
+    function formatAdvancedOverviewOutput(content, analysis, relatedPapers) {
+        // Add visual formatting and structure
+        let formatted = content
+            .replace(/## /g, '<h3 class="overview-section-title">')
+            .replace(/\n(?=<h3)/g, '</div>\n<div class="overview-section">')
+            .replace(/\n/g, '<br>');
+        
+        // Wrap in sections
+        formatted = `<div class="overview-section">${formatted}</div>`;
+        
+        // Add field context section
+        if (relatedPapers.length > 0) {
+            const fieldContextHtml = `
+                <div class="overview-section">
+                    <h3 class="overview-section-title">Broader Field Context</h3>
+                    <strong>Recent Publications in Related Categories:</strong><br>
+                    ${relatedPapers.slice(0,3).map(paper => 
+                        `<div class="connection-item" style="background:rgba(58,123,213,.1);border-color:rgba(58,123,213,.3);">
+                            <div class="connection-type" style="color:#3a7bd5;">Field Reference</div>
+                            "${paper.title}"<br>
+                            <small>Authors: ${paper.authors.slice(0,2).join(', ')} | ${paper.publishedDate.toLocaleDateString()}</small>
+                        </div>`
+                    ).join('')}
+                </div>`;
+            formatted += fieldContextHtml;
+        }
+        
+        // Add collaboration network visualization
+        if (analysis.authorCollaborations.length > 0) {
+            const networkHtml = `
+                <div class="overview-section">
+                    <h3 class="overview-section-title">Internal Collaboration Network</h3>
+                    ${analysis.authorCollaborations.map(collab => 
+                        `<div class="connection-item">
+                            <div class="connection-type">Strong Collaboration (${collab.sharedAuthors.length} shared authors)</div>
+                            "${collab.paper1.title.slice(0,50)}..." ↔ "${collab.paper2.title.slice(0,50)}..."<br>
+                            <small>Shared: ${collab.sharedAuthors.join(', ')}</small>
+                        </div>`
+                    ).join('')}
+                </div>`;
+            formatted += networkHtml;
+        }
+        
+        return formatted;
+    }
+
+    function generateEnhancedFallbackOverview(papers, analysis, relatedPapers = []) {
+        let overview = `<div class="overview-section">
+            <h3 class="overview-section-title">Field Positioning & Novel Contributions</h3>
+            Analysis of ${papers.length} tracked papers in context of ${relatedPapers.length} recent field publications.`;
+        
+        // Category analysis with field comparison
+        const topCategories = Object.entries(analysis.categoryGroups)
+            .sort(([,a], [,b]) => b.length - a.length)
+            .slice(0, 5);
+        
+        if (topCategories.length > 0) {
+            overview += `<br><br><strong>Research Categories Represented:</strong><br>`;
+            topCategories.forEach(([cat, papers]) => {
+                const fieldPapersInCat = relatedPapers.filter(p => 
+                    p.summary.toLowerCase().includes(cat.toLowerCase()) || 
+                    cat.toLowerCase().includes('cs.') || cat.toLowerCase().includes('physics')
+                ).length;
+                overview += `• ${cat}: ${papers.length} tracked papers`;
+                if (fieldPapersInCat > 0) overview += ` (${fieldPapersInCat} recent field papers)`;
+                overview += `<br>`;
+            });
+        }
+        
+        overview += `</div>`;
+        
+        // Field comparison section
+        if (relatedPapers.length > 0) {
+            overview += `<div class="overview-section">
+                <h3 class="overview-section-title">Methodological Innovations & Comparisons</h3>
+                <strong>Position Relative to Recent Field Work:</strong><br>`;
+            
+            const commonThemes = findCommonThemes(papers, relatedPapers);
+            if (commonThemes.length > 0) {
+                overview += `<div class="connection-item" style="background:rgba(58,123,213,.1);border-color:rgba(58,123,213,.3);">
+                    <div class="connection-type" style="color:#3a7bd5;">Shared Research Themes</div>
+                    ${commonThemes.join(', ')}<br>
+                    <small>These themes appear in both tracked papers and recent field publications</small>
+                </div>`;
+            }
+            
+            overview += `<br><strong>Recent Field Context (Last 3 months):</strong><br>`;
+            relatedPapers.slice(0,3).forEach(paper => {
+                overview += `<div class="connection-item" style="background:rgba(58,123,213,.1);border-color:rgba(58,123,213,.3);">
+                    <div class="connection-type" style="color:#3a7bd5;">Field Reference</div>
+                    "${paper.title.slice(0,60)}..."<br>
+                    <small>${paper.authors.slice(0,2).join(', ')} | ${paper.publishedDate.toLocaleDateString()}</small>
+                </div>`;
+            });
+            overview += `</div>`;
+        }
+        
+        // Collaboration analysis
+        if (analysis.authorCollaborations.length > 0) {
+            overview += `<div class="overview-section">
+                <h3 class="overview-section-title">Cross-Paper Technical Synergies</h3>
+                <strong>Internal Collaboration Network:</strong><br>`;
+            
+            analysis.authorCollaborations.forEach(collab => {
+                overview += `<div class="connection-item">
+                    <div class="connection-type">Research Collaboration (${collab.sharedAuthors.length} shared authors)</div>
+                    "${collab.paper1.title.slice(0,40)}..." ↔ "${collab.paper2.title.slice(0,40)}..."<br>
+                    <small>Authors: ${collab.sharedAuthors.join(', ')}</small>
+                </div>`;
+            });
+            overview += `</div>`;
+        }
+        
+        // Temporal trends with field context
+        const sortedMonths = Object.keys(analysis.temporalTrends).sort();
+        if (sortedMonths.length > 1) {
+            overview += `<div class="overview-section">
+                <h3 class="overview-section-title">Research Trajectory & Future Directions</h3>
+                <strong>Publication Activity Timeline:</strong><br>`;
+            sortedMonths.forEach(month => {
+                const count = analysis.temporalTrends[month].length;
+                const fieldCount = relatedPapers.filter(p => 
+                    p.publishedDate.toISOString().slice(0,7) === month
+                ).length;
+                overview += `• ${month}: ${count} tracked paper${count > 1 ? 's' : ''}`;
+                if (fieldCount > 0) overview += ` (${fieldCount} field papers)`;
+                overview += `<br>`;
+            });
+            overview += `</div>`;
+        }
+        
+        return overview;
+    }
+
+    function findCommonThemes(trackedPapers, fieldPapers) {
+        const themes = ['neural', 'quantum', 'machine learning', 'optimization', 'deep learning', 
+                       'transformer', 'attention', 'generative', 'reinforcement', 'supervised',
+                       'unsupervised', 'adversarial', 'convolutional', 'graph', 'embedding'];
+        
+        const trackedText = trackedPapers.map(p => `${p.title} ${p.summary}`).join(' ').toLowerCase();
+        const fieldText = fieldPapers.map(p => `${p.title} ${p.summary}`).join(' ').toLowerCase();
+        
+        return themes.filter(theme => 
+            trackedText.includes(theme) && fieldText.includes(theme)
+        );
+    }
+
+    /* --------------------  DATA EXTRACTION  -------------------- */
+    function extractComprehensiveData(paper) {
+        const sources = [
+            paper.title,
+            paper.summary, 
+            paper.comment || '',
+            paper.pdfContent?.results || '',
+            paper.pdfContent?.methodology || '',
+            paper.pdfContent?.abstract || '',
+            paper.pdfContent?.fullText || ''
+        ].filter(Boolean);
+        
+        const text = sources.join(' ');
+        
+        // Comprehensive patterns for experimental data extraction
+        const patterns = {
+            performanceMetrics: {
+                regex: /(accuracy|precision|recall|f1[-\s]?score|auc|mse|rmse|mae|loss|error\s+rate)[\s:=]*([±+-]?\d+(?:\.\d+)?)\s*%?/gi,
+                description: "Model performance and evaluation metrics"
+            },
+            improvements: {
+                regex: /(improve[sd]?|increase[sd]?|enhance[sd]?|boost[sd]?|outperform[sd]?|better\s+than|superior\s+to)[\s\w]*?(?:by\s+)?([±+-]?\d+(?:\.\d+)?)\s*(%|fold|times?|×|dB)/gi,
+                description: "Performance improvements over baselines"
+            },
+            comparisons: {
+                regex: /(vs\.?|versus|compared\s+to|relative\s+to|baseline|state[-\s]?of[-\s]?the[-\s]?art)[\s\w]*?([±+-]?\d+(?:\.\d+)?)\s*(%|fold|times?|×|dB)/gi,
+                description: "Comparative performance against other methods"
+            },
+            statisticalSignificance: {
+                regex: /(p[-\s]?value|confidence\s+interval|standard\s+deviation|std|significance|chi[-\s]?square)[\s=<>]*([±+-]?\d+(?:\.\d+)?(?:e[+-]?\d+)?)/gi,
+                description: "Statistical significance and confidence measures"
+            },
+            experimentalConditions: {
+                regex: /(temperature|pressure|voltage|current|frequency|wavelength|power|energy|dose)[\s:=]*([±+-]?\d+(?:\.\d+)?(?:e[+-]?\d+)?)\s*([°]?[CFK]|Pa|kPa|MPa|GPa|V|mV|kV|A|mA|μA|Hz|kHz|MHz|GHz|THz|nm|μm|mm|cm|W|mW|kW|J|eV|keV|MeV|GeV)/gi,
+                description: "Experimental setup and operating conditions"
+            },
+            datasetSizes: {
+                regex: /(dataset|training\s+set|test\s+set|validation\s+set|samples?|instances?|examples?)[\s\w]*?(\d+(?:,\d+)*(?:k|K|M|million|billion)?)/gi,
+                description: "Dataset sizes and training data statistics"
+            },
+            timingResults: {
+                regex: /(training\s+time|inference\s+time|execution\s+time|runtime|latency|throughput)[\s:=]*([±+-]?\d+(?:\.\d+)?(?:e[+-]?\d+)?)\s*(s|ms|μs|ns|min|hr|h|fps|ops\/s|samples\/s)/gi,
+                description: "Computational performance and timing measurements"
+            },
+            figureData: {
+                regex: /(figure\s+\d+|fig\.?\s+\d+|table\s+\d+)[\s\w]*?shows?[\s\w]*?([±+-]?\d+(?:\.\d+)?)\s*(%|fold|×|dB|orders?\s+of\s+magnitude)/gi,
+                description: "Quantitative data referenced in figures and tables"
+            },
+            modelArchitecture: {
+                regex: /(parameters?|weights?|layers?|neurons?|hidden\s+units?)[\s:=]*(\d+(?:,\d+)*(?:k|K|M|B|billion|million)?)/gi,
+                description: "Model architecture specifications"
+            },
+            resourceUsage: {
+                regex: /(memory|ram|gpu|cpu|storage|disk)[\s\w]*?(\d+(?:\.\d+)?)\s*(GB?|MB?|TB?|cores?|hours?)/gi,
+                description: "Computational resource requirements"
+            }
+        };
+        
+        const extractedData = {};
+        
+        Object.entries(patterns).forEach(([category, pattern]) => {
+            const matches = [];
+            let match;
+            while ((match = pattern.regex.exec(text)) !== null) {
+                const contextStart = Math.max(0, match.index - 80);
+                const contextEnd = Math.min(text.length, match.index + match[0].length + 80);
+                const fullContext = text.slice(contextStart, contextEnd).trim();
+                
+                matches.push({
+                    value: match[2] || match[1],
+                    unit: match[3] || '',
+                    rawMatch: match[0],
+                    context: fullContext,
+                    description: pattern.description,
+                    significance: assessSignificance(match[0], fullContext)
+                });
+            }
+            if (matches.length > 0) {
+                extractedData[category] = matches;
+            }
+        });
+        
+        // Extract figure and table references with data
+        if (paper.pdfContent?.figures) {
+            extractedData.figureReferences = paper.pdfContent.figures.map(fig => ({
+                number: fig.number,
+                caption: fig.caption,
+                context: fig.context,
+                description: "Figure captions and descriptions"
+            }));
+        }
+        
+        if (paper.pdfContent?.tables) {
+            extractedData.tableReferences = paper.pdfContent.tables.map(table => ({
+                number: table.number,
+                caption: table.caption,
+                context: table.context,
+                description: "Table captions and data descriptions"
+            }));
+        }
+        
+        return extractedData;
+    }
+
+    function assessSignificance(match, context) {
+        const highSignificanceKeywords = ['significant', 'substantial', 'dramatic', 'breakthrough', 'novel', 'first', 'state-of-the-art'];
+        const contextLower = context.toLowerCase();
+        
+        if (highSignificanceKeywords.some(keyword => contextLower.includes(keyword))) {
+            return 'high';
+        }
+        
+        if (contextLower.includes('compared') || contextLower.includes('baseline') || contextLower.includes('versus')) {
+            return 'comparative';
+        }
+        
+        return 'standard';
+    }
+
+    async function buildDataEntries(papers) {
+        const container = document.getElementById('dataOutput');
+        container.innerHTML = '<div class="loading">Extracting experimental data and figures from papers...</div>';
+        
+        if (papers.length === 0) {
+            container.innerHTML = '<div class="info">No data extracted</div>';
+            return;
+        }
+        
+        container.innerHTML = '';
+        let hasData = false;
+        
+        for (const paper of papers) {
+            // Fetch PDF content for more comprehensive data extraction
+            if (!paper.pdfContent) {
+                paper.pdfContent = await fetchPDFContent(paper.id);
+            }
+            
+            const data = extractComprehensiveData(paper);
+            
+            if (Object.keys(data).length > 0) {
+                hasData = true;
+                const entry = document.createElement('div');
+                entry.className = 'data-entry';
+                
+                let dataHtml = `<div class="data-title">${paper.title}</div>`;
+                dataHtml += `<div class="data-categories">Categories: ${paper.categories?.join(', ') || 'N/A'} | Published: ${paper.publishedDate.toLocaleDateString()}</div>`;
+                
+                // Prioritize the most important data categories
+                const priorityOrder = [
+                    'performanceMetrics', 'improvements', 'comparisons', 
+                    'figureReferences', 'tableReferences', 'statisticalSignificance',
+                    'timingResults', 'modelArchitecture', 'datasetSizes',
+                    'experimentalConditions', 'resourceUsage', 'figureData'
+                ];
+                
+                priorityOrder.forEach(category => {
+                    if (data[category] && data[category].length > 0) {
+                        const items = data[category];
+                        const categoryDisplay = formatCategoryName(category);
+                        
+                        dataHtml += `<div class="data-category">
+                            <strong>${categoryDisplay}:</strong>
+                            <span class="data-description">${items[0].description || ''}</span><br>`;
+                        
+                        items.slice(0, 5).forEach(item => { // Limit to 5 most relevant items
+                            const significanceIcon = getSignificanceIcon(item.significance);
+                            const cleanValue = cleanDataValue(item.value, item.unit);
+                            const meaningfulContext = extractMeaningfulContext(item.context, item.rawMatch);
+                            
+                            dataHtml += `<div class="data-item">
+                                <span class="data-value">${cleanValue}</span>
+                                <span class="significance-indicator">${significanceIcon}</span>
+                                <div class="data-meaning">${meaningfulContext}</div>
+                            </div>`;
+                        });
+                        
+                        dataHtml += `</div>`;
+                    }
+                });
+                
+                // Add figure and table summaries if available
+                if (paper.pdfContent?.figures?.length > 0) {
+                    dataHtml += `<div class="data-category">
+                        <strong>Key Figures:</strong>
+                        <span class="data-description">Visual data and experimental results</span><br>`;
+                    paper.pdfContent.figures.slice(0, 3).forEach(fig => {
+                        dataHtml += `<div class="data-item">
+                            <span class="data-value">Figure ${fig.number}</span>
+                            <div class="data-meaning">${fig.caption}</div>
+                        </div>`;
+                    });
+                    dataHtml += `</div>`;
+                }
+                
+                entry.innerHTML = dataHtml;
+                container.appendChild(entry);
+            }
+        }
+        
+        if (!hasData) {
+            container.innerHTML = '<div class="no-papers">No experimental data found. This could be due to limited PDF access or papers being primarily theoretical. Try adding more empirical research papers.</div>';
+        }
+    }
+
+    function formatCategoryName(category) {
+        const nameMap = {
+            'performanceMetrics': 'Performance Results',
+            'improvements': 'Performance Improvements',
+            'comparisons': 'Comparative Analysis',
+            'statisticalSignificance': 'Statistical Validation',
+            'experimentalConditions': 'Experimental Setup',
+            'datasetSizes': 'Dataset Information',
+            'timingResults': 'Computational Performance',
+            'figureData': 'Figure Data',
+            'modelArchitecture': 'Model Specifications',
+            'resourceUsage': 'Resource Requirements',
+            'figureReferences': 'Referenced Figures',
+            'tableReferences': 'Referenced Tables'
+        };
+        return nameMap[category] || category.charAt(0).toUpperCase() + category.slice(1);
+    }
+
+    function getSignificanceIcon(significance) {
+        const icons = {
+            'high': '🌟',
+            'comparative': '📊',
+            'standard': '📈'
+        };
+        return icons[significance] || '📊';
+    }
+
+    function cleanDataValue(value, unit) {
+        if (!value) return 'N/A';
+        
+        // Clean up the value display
+        const cleanValue = value.toString().replace(/^[^\d]*/, '').replace(/[^\d\.\-\+e]/g, '');
+        if (!cleanValue) return value;
+        
+        const numValue = parseFloat(cleanValue);
+        if (isNaN(numValue)) return value;
+        
+        // Format large numbers
+        if (numValue >= 1000000) {
+            return `${(numValue / 1000000).toFixed(1)}M ${unit}`;
+        } else if (numValue >= 1000) {
+            return `${(numValue / 1000).toFixed(1)}K ${unit}`;
+        }
+        
+        return `${numValue} ${unit}`.trim();
+    }
+
+    function extractMeaningfulContext(context, rawMatch) {
+        if (!context) return 'No context available';
+        
+        // Find the sentence containing the measurement
+        const sentences = context.split(/[.!?]+/);
+        const relevantSentence = sentences.find(s => s.includes(rawMatch)) || sentences[0];
+        
+        // Clean and truncate for display
+        let meaning = relevantSentence.trim().replace(/\s+/g, ' ');
+        if (meaning.length > 120) {
+            meaning = meaning.slice(0, 120) + '...';
+        }
+        
+        // Add interpretation hints
+        if (meaning.toLowerCase().includes('accuracy') || meaning.toLowerCase().includes('precision')) {
+            return `🎯 ${meaning}`;
+        } else if (meaning.toLowerCase().includes('improve') || meaning.toLowerCase().includes('better')) {
+            return `📈 ${meaning}`;
+        } else if (meaning.toLowerCase().includes('time') || meaning.toLowerCase().includes('speed')) {
+            return `⚡ ${meaning}`;
+        } else if (meaning.toLowerCase().includes('significant') || meaning.toLowerCase().includes('novel')) {
+            return `⭐ ${meaning}`;
+        }
+        
+        return meaning;
+    }
+
+    /* --------------------  DIGEST DISPLAY  -------------------- */
+    async function displayDigest(papers){
+        const digest=document.getElementById('digestOutput');digest.innerHTML='';if(papers.length===0){digest.innerHTML='<div class="no-papers">No recent papers found.</div>';return;}
+        // Build digest entries sequentially to keep DOM responsive
+        for(const p of papers){
+            const div=document.createElement('div');div.className='paper-entry';
+            const summary=await generateAISummary(p);
+            div.innerHTML=`<div class="paper-title">${p.title}</div>
+                            <div class="paper-authors">${p.authors.join(', ')}</div>
+                            <div class="paper-date">${p.publishedDate.toLocaleDateString()}</div>
+                            <div class="paper-summary">${summary}</div>
+                            <a href="${p.id}" target="_blank" class="paper-link">Read on arXiv »</a>`;
+            digest.appendChild(div);
+        }
+        // Overview
+        const overview=document.getElementById('overviewOutput');overview.innerHTML='<div class="loading">Analysing connections…</div>';
+        const overviewText = await generateOverallOverview(papers);
+        // Check if the overview text already contains HTML formatting
+        if (overviewText.includes('<div class="overview-section">')) {
+            overview.innerHTML = overviewText;
+        } else {
+            overview.innerHTML = `<div class="overview-section">${overviewText.replace(/\n/g,'<br>')}</div>`;
+        }
+        // Data facts
+        await buildDataEntries(papers);
+    }
+
+    /* --------------------  INIT  -------------------- */
+    document.addEventListener('DOMContentLoaded',loadSavedData);
+    </script>
+</body>
+</html>

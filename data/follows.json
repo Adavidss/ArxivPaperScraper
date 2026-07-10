@@ -1,0 +1,17 @@
+{
+ "version": 1,
+ "authors": [
+  {
+   "id": "ronald-walsworth",
+   "name": "Ronald Walsworth",
+   "aliases": ["R. Walsworth", "R. L. Walsworth", "Ronald L. Walsworth"]
+  }
+ ],
+ "extraCategories": ["quant-ph"],
+ "settings": {
+  "lookbackDays": 60,
+  "maxPerAuthor": 25,
+  "forYouPerDay": 6,
+  "windowDays": 75
+ }
+}

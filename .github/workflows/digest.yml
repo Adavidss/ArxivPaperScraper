@@ -59,9 +59,11 @@ jobs:
           git add data/
           if ! git diff --cached --quiet; then
             git commit -m "data: digest $(date -u +%F) [skip ci]"
-            # A follows.json edit from the app may have landed mid-run; the
-            # files are disjoint, so a rebase merges cleanly.
-            git pull --rebase origin main
+            # A follows.json edit may land mid-run (disjoint file — merges
+            # cleanly). A racing data commit (rerun/dispatch overlap) conflicts
+            # on data files; this run's output is newest, so it wins (-X theirs
+            # keeps the REPLAYED commit's side during a rebase).
+            git pull --rebase -X theirs origin main
             git push
           fi
 

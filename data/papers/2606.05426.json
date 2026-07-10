@@ -83,5 +83,8 @@
   ],
   "difficulty": 4,
   "readSeconds": 75
+ },
+ "figure": {
+  "url": "https://arxiv.org/html/2606.05426v1/x1.png"
  }
 }

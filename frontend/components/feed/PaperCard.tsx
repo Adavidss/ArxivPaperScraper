@@ -12,6 +12,7 @@ import type { FeedItem, GlossaryEntry, PaperDetail } from "@/lib/data-schema";
 import { usePaperDetail, useStoreVersion } from "@/lib/hooks";
 import { snapScrollTo } from "@/lib/scroll";
 import { isSaved, markDepth, toggleSaved } from "@/lib/store";
+import { categoryHue, CoverArt } from "./CoverArt";
 import { Icons } from "@/components/ui/icons";
 import { TermText } from "@/components/learn/TermText";
 
@@ -125,7 +126,14 @@ export function PaperCard({
           </span>
         )}
         <span className="ml-auto flex items-center gap-2 text-muted">
-          <span className="font-mono text-[10px]">{item.primaryCategory}</span>
+          <span className="flex items-center gap-1 font-mono text-[10px]">
+            <span
+              aria-hidden
+              className="h-1.5 w-1.5 rounded-full"
+              style={{ background: `hsl(${categoryHue(item.primaryCategory)} 70% 55%)` }}
+            />
+            {item.primaryCategory}
+          </span>
           <span aria-label={`difficulty ${item.difficulty} of 5`} className="tracking-tighter">
             {"●".repeat(item.difficulty)}
             <span className="opacity-30">{"●".repeat(5 - item.difficulty)}</span>
@@ -251,10 +259,23 @@ function BitePane({
   const glossary = bite?.glossary ?? [];
   return (
     <>
-      <h2 className="font-display text-[26px] font-semibold leading-[1.18] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:4] overflow-hidden">
+      {/* Visual layer: the paper's first figure, else generative cover art. */}
+      <div className="relative mb-3 h-40 shrink-0 overflow-hidden rounded-xl border border-border">
+        {item.figureUrl ? (
+          <img
+            src={item.figureUrl}
+            alt=""
+            loading="lazy"
+            className="h-full w-full bg-white object-contain p-1.5"
+          />
+        ) : (
+          <CoverArt seed={item.id} category={item.primaryCategory} className="h-full w-full" />
+        )}
+      </div>
+      <h2 className="font-display text-[22px] font-semibold leading-[1.18] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:3] overflow-hidden">
         {item.hook}
       </h2>
-      <ul className="mt-3 flex min-h-0 flex-col gap-2.5">
+      <ul className="mt-2.5 flex min-h-0 flex-col gap-2">
         {(bite?.tldr ?? []).map((line, i) => (
           <li key={i} className="flex gap-2 text-[15px] leading-snug">
             <span className="mt-0.5 shrink-0 text-accent">▸</span>

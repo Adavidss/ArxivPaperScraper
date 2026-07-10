@@ -1,12 +1,15 @@
 "use client";
 
-// Settings: follows editor (PAT-synced to data/follows.json in the repo),
-// For-You preferences, GitHub connection, backup, and pipeline status.
+// Settings: follows/keywords/discovery/pipeline editors (always editable —
+// with a PAT changes sync straight to GitHub; without one they queue locally
+// and a one-tap "Apply on GitHub" flow copies the finished follows.json into
+// the web editor), appearance, backup, and pipeline status.
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { loadFollows, loadMeta } from "@/lib/api";
 import type { FollowedAuthor, FollowsFile, MetaFile } from "@/lib/data-schema";
 import {
+  applyOps,
   authorSlug,
   dispatchDigest,
   type FollowOp,
@@ -27,6 +30,11 @@ import { Icons } from "@/components/ui/icons";
 import { PageShell } from "@/components/ui/PageShell";
 
 const REPO_URL = "https://github.com/Adavidss/ArxivPaperScraper";
+const EDIT_URL = `${REPO_URL}/edit/main/data/follows.json`;
+// Classic token with repo scope covers contents + workflow dispatch — one
+// click, generate, paste. (Fine-grained works too; instructions below.)
+const NEW_TOKEN_URL =
+  "https://github.com/settings/tokens/new?scopes=repo&description=Daily%20Drop%20sync";
 
 type SyncStatus =
   | { kind: "idle" }
@@ -34,6 +42,8 @@ type SyncStatus =
   | { kind: "polling"; sinceBuildId: string; label: string }
   | { kind: "ok"; label: string }
   | { kind: "error"; label: string };
+
+const getPendingOps = () => (getSync().pendingFollowOps ?? []) as FollowOp[];
 
 export default function SettingsPage() {
   useStoreVersion();
@@ -48,13 +58,27 @@ export default function SettingsPage() {
   const [keywordInput, setKeywordInput] = useState("");
   const [categoriesInput, setCategoriesInput] = useState("");
   const [editingCategories, setEditingCategories] = useState(false);
+  const [pipe, setPipe] = useState({ lookbackDays: "", maxPerAuthor: "", forYouPerDay: "" });
   const fileRef = useRef<HTMLInputElement>(null);
   const settings = getSettings();
   const pat = settings.pat;
   const theme = (settings.theme as ThemeId) || DEFAULT_THEME;
+  const pendingCount = getPendingOps().length;
 
+  // Load the published follows and replay any locally-queued edits on top so
+  // the page always shows what the user intends.
   useEffect(() => {
-    loadFollows().then(setFollows).catch(() => setFollows(null));
+    loadFollows()
+      .then((f) => {
+        const withPending = applyOps(f, getPendingOps());
+        setFollows(withPending);
+        setPipe({
+          lookbackDays: String(withPending.settings.lookbackDays),
+          maxPerAuthor: String(withPending.settings.maxPerAuthor),
+          forYouPerDay: String(withPending.settings.forYouPerDay),
+        });
+      })
+      .catch(() => setFollows(null));
   }, []);
 
   // Papers matched per followed author (from the published window).
@@ -85,9 +109,20 @@ export default function SettingsPage() {
     };
   }, [status]);
 
+  /**
+   * Apply edits: optimistic UI always; with a PAT push to GitHub, without one
+   * queue the ops locally for the "Apply on GitHub" flow (or a later connect).
+   */
   const runOps = async (ops: FollowOp[], optimistic: (f: FollowsFile) => FollowsFile) => {
-    if (!pat) return;
     setFollows((f) => (f ? optimistic(f) : f));
+    if (!pat) {
+      updateSync({ pendingFollowOps: [...getPendingOps(), ...ops] });
+      setStatus({
+        kind: "ok",
+        label: "Saved here — apply it on GitHub below (or connect sync) to take effect",
+      });
+      return;
+    }
     setStatus({ kind: "working", label: "Committing to GitHub…" });
     try {
       const next = await syncFollowOps(pat, ops);
@@ -98,8 +133,7 @@ export default function SettingsPage() {
         label: "Committed — rebuilding your feed (~3 min)",
       });
     } catch (e) {
-      const pending = (getSync().pendingFollowOps ?? []) as FollowOp[];
-      updateSync({ pendingFollowOps: [...pending, ...ops] });
+      updateSync({ pendingFollowOps: [...getPendingOps(), ...ops] });
       setStatus({ kind: "error", label: `${(e as Error).message} — queued for retry` });
     }
   };
@@ -119,13 +153,6 @@ export default function SettingsPage() {
       ...f,
       authors: [...f.authors, author],
     }));
-  };
-
-  const retryPending = () => {
-    const pending = (getSync().pendingFollowOps ?? []) as FollowOp[];
-    if (!pending.length || !pat) return;
-    updateSync({ pendingFollowOps: [] });
-    void runOps(pending, (f) => f);
   };
 
   const addKeyword = () => {
@@ -150,15 +177,58 @@ export default function SettingsPage() {
     }));
   };
 
-  const pendingCount = ((getSync().pendingFollowOps ?? []) as FollowOp[]).length;
-  const authorSnippet = JSON.stringify(
-    { id: "author-slug", name: "Full Name", aliases: ["F. Name", "Full M. Name"] },
-    null,
-    1,
-  );
+  const savePipeline = () => {
+    const clamp = (v: string, lo: number, hi: number, dflt: number) => {
+      const n = Math.round(Number(v));
+      return Number.isFinite(n) && n > 0 ? Math.max(lo, Math.min(hi, n)) : dflt;
+    };
+    const next = {
+      lookbackDays: clamp(pipe.lookbackDays, 3, 365, 60),
+      maxPerAuthor: clamp(pipe.maxPerAuthor, 5, 100, 25),
+      forYouPerDay: clamp(pipe.forYouPerDay, 0, 20, 6),
+    };
+    setPipe({
+      lookbackDays: String(next.lookbackDays),
+      maxPerAuthor: String(next.maxPerAuthor),
+      forYouPerDay: String(next.forYouPerDay),
+    });
+    void runOps([{ op: "set-settings", settings: next }], (f) => ({
+      ...f,
+      settings: { ...f.settings, ...next },
+    }));
+  };
+
+  const retryPending = () => {
+    const pending = getPendingOps();
+    if (!pending.length || !pat) return;
+    updateSync({ pendingFollowOps: [] });
+    void runOps(pending, (f) => f);
+  };
+
+  /** No-PAT apply: copy the finished follows.json, open the GitHub editor. */
+  const applyOnGitHub = () => {
+    if (!follows) return;
+    navigator.clipboard
+      ?.writeText(`${JSON.stringify(follows, null, 1)}\n`)
+      .catch(() => {});
+    window.open(EDIT_URL, "_blank", "noopener");
+    setStatus({
+      kind: "ok",
+      label: "JSON copied — select everything in the editor, paste, commit",
+    });
+  };
 
   // PAT/theme branches derive from localStorage — never prerender them.
   if (!mounted) return <PageShell title="Settings">{null}</PageShell>;
+
+  const pipeDirty =
+    follows &&
+    (pipe.lookbackDays !== String(follows.settings.lookbackDays) ||
+      pipe.maxPerAuthor !== String(follows.settings.maxPerAuthor) ||
+      pipe.forYouPerDay !== String(follows.settings.forYouPerDay));
+
+  const inputCls =
+    "rounded-lg border border-border bg-canvas px-3 py-2 text-fg placeholder:text-muted focus:border-accent focus:outline-none";
 
   return (
     <PageShell title="Settings">
@@ -178,21 +248,61 @@ export default function SettingsPage() {
         </p>
       )}
 
+      {/* Pending edits (no PAT yet) */}
+      {pendingCount > 0 && !pat && (
+        <div className="rounded-2xl border border-gold/40 bg-surface p-4">
+          <p className="text-sm font-medium text-gold">
+            {pendingCount} change{pendingCount === 1 ? "" : "s"} saved on this
+            device — not live yet
+          </p>
+          <p className="mt-1 text-[11px] text-muted">
+            Apply them by pasting the updated follows.json on GitHub, or
+            connect sync below and they push automatically.
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={applyOnGitHub}
+              className="rounded-lg bg-gradient-to-r from-accent to-accent-2 px-3 py-2 text-sm font-semibold text-canvas"
+            >
+              Copy JSON &amp; open GitHub
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                updateSync({ pendingFollowOps: [] });
+                setStatus({ kind: "ok", label: "Queue cleared" });
+              }}
+              className="rounded-lg border border-border px-3 py-2 text-sm text-muted transition hover:text-fg"
+            >
+              Mark applied / discard
+            </button>
+          </div>
+        </div>
+      )}
+      {pendingCount > 0 && pat && (
+        <button
+          type="button"
+          onClick={retryPending}
+          className="w-full rounded-xl border border-gold/40 bg-gold/10 px-3 py-2 text-xs text-gold"
+        >
+          {pendingCount} queued edit{pendingCount === 1 ? "" : "s"} — tap to sync
+        </button>
+      )}
+
       {/* Follows */}
       <section className="rounded-2xl border border-border bg-surface p-4">
         <div className="flex items-center justify-between">
           <h2 className="text-xs font-bold uppercase tracking-widest text-muted">
             Followed authors
           </h2>
-          {pat && (
-            <button
-              type="button"
-              onClick={() => setShowAdd((s) => !s)}
-              className="flex items-center gap-1 rounded-lg border border-accent/40 px-2.5 py-1 text-xs font-medium text-accent"
-            >
-              <Icons.Plus size={14} /> Follow
-            </button>
-          )}
+          <button
+            type="button"
+            onClick={() => setShowAdd((s) => !s)}
+            className="flex items-center gap-1 rounded-lg border border-accent/40 px-2.5 py-1 text-xs font-medium text-accent"
+          >
+            <Icons.Plus size={14} /> Follow
+          </button>
         </div>
 
         <ul className="mt-3 flex flex-col gap-2">
@@ -221,21 +331,19 @@ export default function SettingsPage() {
               >
                 {matchCounts.get(a.id) ?? 0} papers
               </span>
-              {pat && (
-                <button
-                  type="button"
-                  aria-label={`Unfollow ${a.name}`}
-                  onClick={() =>
-                    runOps([{ op: "remove-author", id: a.id }], (f) => ({
-                      ...f,
-                      authors: f.authors.filter((x) => x.id !== a.id),
-                    }))
-                  }
-                  className="shrink-0 rounded-lg p-1.5 text-muted transition hover:text-fg"
-                >
-                  <Icons.X size={16} />
-                </button>
-              )}
+              <button
+                type="button"
+                aria-label={`Unfollow ${a.name}`}
+                onClick={() =>
+                  runOps([{ op: "remove-author", id: a.id }], (f) => ({
+                    ...f,
+                    authors: f.authors.filter((x) => x.id !== a.id),
+                  }))
+                }
+                className="shrink-0 rounded-lg p-1.5 text-muted transition hover:text-fg"
+              >
+                <Icons.X size={16} />
+              </button>
             </li>
           ))}
           {follows === null && (
@@ -249,13 +357,13 @@ export default function SettingsPage() {
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder="Full name, e.g. Ronald Walsworth"
-              className="rounded-lg border border-border bg-canvas px-3 py-2 text-fg placeholder:text-muted focus:border-accent focus:outline-none"
+              className={inputCls}
             />
             <input
               value={aliases}
               onChange={(e) => setAliases(e.target.value)}
               placeholder="Aliases, comma-separated (R. Walsworth, …)"
-              className="rounded-lg border border-border bg-canvas px-3 py-2 text-fg placeholder:text-muted focus:border-accent focus:outline-none"
+              className={inputCls}
             />
             <p className="text-[11px] text-muted">
               arXiv matches exact strings — add the name variants they publish
@@ -267,43 +375,9 @@ export default function SettingsPage() {
               disabled={!name.trim()}
               className="rounded-lg bg-gradient-to-r from-accent to-accent-2 px-3 py-2 text-sm font-semibold text-canvas disabled:opacity-40"
             >
-              Follow &amp; sync
+              Follow
             </button>
           </div>
-        )}
-
-        {!pat && (
-          <div className="mt-3 rounded-xl border border-border bg-surface-2 p-3 text-xs text-muted">
-            <p>
-              Connect GitHub below to follow/unfollow from here — or edit{" "}
-              <a
-                className="text-accent underline underline-offset-2"
-                href={`${REPO_URL}/edit/main/data/follows.json`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                follows.json on GitHub
-              </a>
-              .
-            </p>
-            <button
-              type="button"
-              onClick={() => navigator.clipboard?.writeText(authorSnippet)}
-              className="mt-2 rounded-lg border border-border px-2.5 py-1.5 text-xs transition hover:text-fg"
-            >
-              Copy author JSON snippet
-            </button>
-          </div>
-        )}
-
-        {pendingCount > 0 && pat && (
-          <button
-            type="button"
-            onClick={retryPending}
-            className="mt-3 w-full rounded-xl border border-gold/40 bg-gold/10 px-3 py-2 text-xs text-gold"
-          >
-            {pendingCount} queued edit{pendingCount === 1 ? "" : "s"} — tap to retry
-          </button>
         )}
       </section>
 
@@ -323,46 +397,42 @@ export default function SettingsPage() {
               className="flex items-center gap-1 rounded-full border border-accent/30 bg-accent/10 px-2.5 py-1 text-xs text-accent"
             >
               #{kw}
-              {pat && (
-                <button
-                  type="button"
-                  aria-label={`Unfollow keyword ${kw}`}
-                  onClick={() =>
-                    runOps([{ op: "remove-keyword", keyword: kw }], (f) => ({
-                      ...f,
-                      keywords: (f.keywords ?? []).filter((k) => k !== kw),
-                    }))
-                  }
-                  className="-mr-1 rounded-full p-0.5 opacity-70 transition hover:opacity-100"
-                >
-                  <Icons.X size={12} />
-                </button>
-              )}
+              <button
+                type="button"
+                aria-label={`Unfollow keyword ${kw}`}
+                onClick={() =>
+                  runOps([{ op: "remove-keyword", keyword: kw }], (f) => ({
+                    ...f,
+                    keywords: (f.keywords ?? []).filter((k) => k !== kw),
+                  }))
+                }
+                className="-mr-1 rounded-full p-0.5 opacity-70 transition hover:opacity-100"
+              >
+                <Icons.X size={12} />
+              </button>
             </span>
           ))}
           {follows && (follows.keywords ?? []).length === 0 && (
             <span className="text-xs text-muted">none yet</span>
           )}
         </div>
-        {pat && (
-          <div className="mt-3 flex gap-2">
-            <input
-              value={keywordInput}
-              onChange={(e) => setKeywordInput(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && addKeyword()}
-              placeholder='e.g. "quantum sensing"'
-              className="min-w-0 flex-1 rounded-lg border border-border bg-canvas px-3 py-2 text-fg placeholder:text-muted focus:border-accent focus:outline-none"
-            />
-            <button
-              type="button"
-              onClick={addKeyword}
-              disabled={!keywordInput.trim()}
-              className="rounded-lg border border-accent/40 bg-accent/10 px-3 py-2 text-sm font-medium text-accent disabled:opacity-40"
-            >
-              Follow
-            </button>
-          </div>
-        )}
+        <div className="mt-3 flex gap-2">
+          <input
+            value={keywordInput}
+            onChange={(e) => setKeywordInput(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && addKeyword()}
+            placeholder="e.g. quantum sensing"
+            className={`min-w-0 flex-1 ${inputCls}`}
+          />
+          <button
+            type="button"
+            onClick={addKeyword}
+            disabled={!keywordInput.trim()}
+            className="rounded-lg border border-accent/40 bg-accent/10 px-3 py-2 text-sm font-medium text-accent disabled:opacity-40"
+          >
+            Follow
+          </button>
+        </div>
       </section>
 
       {/* Discovery */}
@@ -394,7 +464,7 @@ export default function SettingsPage() {
                 onChange={(e) => setCategoriesInput(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && saveCategories()}
                 placeholder="comma-separated, e.g. quant-ph, cs.LG"
-                className="min-w-0 flex-1 rounded-lg border border-border bg-canvas px-3 py-2 font-mono text-sm text-fg placeholder:font-sans placeholder:text-muted focus:border-accent focus:outline-none"
+                className={`min-w-0 flex-1 font-mono text-sm placeholder:font-sans ${inputCls}`}
               />
               <button
                 type="button"
@@ -412,7 +482,7 @@ export default function SettingsPage() {
                   {follows?.extraCategories.join(", ") || "none (no discovery)"}
                 </span>
               </p>
-              {pat && follows && (
+              {follows && (
                 <button
                   type="button"
                   onClick={() => {
@@ -427,6 +497,40 @@ export default function SettingsPage() {
             </div>
           )}
         </div>
+      </section>
+
+      {/* Pipeline */}
+      <section className="rounded-2xl border border-border bg-surface p-4">
+        <h2 className="text-xs font-bold uppercase tracking-widest text-muted">Pipeline</h2>
+        <div className="mt-3 grid grid-cols-3 gap-2">
+          {(
+            [
+              ["lookbackDays", "lookback days"],
+              ["maxPerAuthor", "max per query"],
+              ["forYouPerDay", "discovery / day"],
+            ] as const
+          ).map(([key, label]) => (
+            <label key={key} className="text-[10px] uppercase tracking-wider text-muted">
+              {label}
+              <input
+                type="number"
+                inputMode="numeric"
+                value={pipe[key]}
+                onChange={(e) => setPipe((p) => ({ ...p, [key]: e.target.value }))}
+                className={`mt-1 w-full font-mono text-sm ${inputCls}`}
+              />
+            </label>
+          ))}
+        </div>
+        {pipeDirty && (
+          <button
+            type="button"
+            onClick={savePipeline}
+            className="mt-3 rounded-lg border border-accent/40 bg-accent/10 px-3 py-2 text-sm font-medium text-accent"
+          >
+            Save pipeline settings
+          </button>
+        )}
       </section>
 
       {/* Appearance */}
@@ -473,20 +577,34 @@ export default function SettingsPage() {
         </h2>
         {!pat ? (
           <div className="mt-3 flex flex-col gap-2">
+            <p className="text-[11px] text-muted">
+              Optional but nice: with a token, every edit above commits and
+              rebuilds your feed automatically.
+            </p>
+            <a
+              href={NEW_TOKEN_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-1 self-start rounded-lg border border-accent/40 bg-accent/10 px-3 py-2 text-sm font-medium text-accent"
+            >
+              Create a token (1 click) <Icons.External size={13} />
+            </a>
             <input
               type="password"
               value={patInput}
               onChange={(e) => setPatInput(e.target.value)}
-              placeholder="Fine-grained personal access token"
-              className="rounded-lg border border-border bg-canvas px-3 py-2 font-mono text-sm text-fg placeholder:font-sans placeholder:text-muted focus:border-accent focus:outline-none"
+              placeholder="Paste token here"
+              className={`font-mono text-sm placeholder:font-sans ${inputCls}`}
             />
             <details className="text-[11px] text-muted">
-              <summary className="cursor-pointer text-accent">How to create one</summary>
+              <summary className="cursor-pointer text-accent">
+                Prefer a fine-grained token?
+              </summary>
               <ol className="mt-1 list-decimal pl-4 leading-relaxed">
                 <li>GitHub → Settings → Developer settings → Fine-grained tokens</li>
                 <li>Repository access: only ArxivPaperScraper</li>
                 <li>Permissions: Contents Read&amp;Write, Actions Read&amp;Write</li>
-                <li>The token stays in this browser&apos;s localStorage only.</li>
+                <li>Either way, the token stays in this browser&apos;s localStorage.</li>
               </ol>
             </details>
             <button
@@ -497,7 +615,7 @@ export default function SettingsPage() {
                 if (await validatePat(patInput.trim())) {
                   updateSettings({ pat: patInput.trim() });
                   setPatInput("");
-                  setStatus({ kind: "ok", label: "Connected" });
+                  setStatus({ kind: "ok", label: "Connected — queued edits will sync" });
                 } else {
                   setStatus({ kind: "error", label: "Token can't access the repo" });
                 }

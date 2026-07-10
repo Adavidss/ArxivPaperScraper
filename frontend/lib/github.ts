@@ -4,7 +4,7 @@
 // GET before every PUT, so a sha race (e.g. with the nightly data commit)
 // merges cleanly on retry.
 
-import type { FollowedAuthor, FollowsFile } from "./data-schema";
+import type { FollowedAuthor, FollowsFile, FollowsSettings } from "./data-schema";
 
 const REPO = "Adavidss/ArxivPaperScraper";
 const FILE_PATH = "data/follows.json";
@@ -16,7 +16,8 @@ export type FollowOp =
   | { op: "edit-author"; author: FollowedAuthor }
   | { op: "add-keyword"; keyword: string }
   | { op: "remove-keyword"; keyword: string }
-  | { op: "set-categories"; categories: string[] };
+  | { op: "set-categories"; categories: string[] }
+  | { op: "set-settings"; settings: Partial<FollowsSettings> };
 
 export function applyOps(doc: FollowsFile, ops: FollowOp[]): FollowsFile {
   const next: FollowsFile = JSON.parse(JSON.stringify(doc));
@@ -36,6 +37,8 @@ export function applyOps(doc: FollowsFile, ops: FollowOp[]): FollowsFile {
       next.keywords = next.keywords.filter(
         (k) => k.toLowerCase() !== o.keyword.toLowerCase(),
       );
+    } else if (o.op === "set-settings") {
+      next.settings = { ...next.settings, ...o.settings };
     } else {
       next.extraCategories = o.categories;
     }
@@ -100,7 +103,9 @@ export async function syncFollowOps(pat: string, ops: FollowOp[]): Promise<Follo
                 ? `follow keyword "${o.keyword}"`
                 : o.op === "remove-keyword"
                   ? `unfollow keyword "${o.keyword}"`
-                  : "update categories",
+                  : o.op === "set-settings"
+                    ? "update pipeline settings"
+                    : "update categories",
       )
       .join(", ");
     const res = await gh(pat, `/contents/${FILE_PATH}`, {

@@ -11,7 +11,12 @@ import {
   FORYOU_MAX_AGE_DAYS,
   loadConfig,
 } from "./config";
-import { fetchAuthorPapers, fetchCategoryPapers, fetchKeywordPapers } from "./arxiv";
+import {
+  fetchAuthorPapers,
+  fetchCategoryPapers,
+  fetchFirstFigure,
+  fetchKeywordPapers,
+} from "./arxiv";
 import { GeminiClient, QuotaExhaustedError } from "./gemini";
 import { extractiveBite } from "./fallback";
 import { loadPapers, loadState, retagFollowedAuthors, writeAll } from "./store";
@@ -254,6 +259,8 @@ async function main() {
     },
     source: c.source,
     matchedKeywords: c.matchedKeywords,
+    // Preserve an already-fetched figure across retries/version bumps.
+    figure: papers.get(c.raw.id)?.figure,
     withdrawn,
     biteStatus,
     bite,
@@ -306,6 +313,24 @@ async function main() {
       firstSeen: state.processed[c.raw.id]?.firstSeen ?? cfg.today,
     };
     retrySet.delete(c.raw.id);
+  }
+
+  // --- 6b. first-figure extraction (the cards' visual layer) -----------------------
+  // Politely fetch each unchecked paper's HTML render for its first figure;
+  // capped per run so backfills spread across days. figure === undefined
+  // means "never checked", null means "checked, none".
+  const FIGURES_PER_RUN = 25;
+  const needFigure = [...papers.values()]
+    .filter((p) => p.figure === undefined && !p.withdrawn)
+    .sort((a, b) => b.published.localeCompare(a.published))
+    .slice(0, FIGURES_PER_RUN);
+  for (const p of needFigure) {
+    const url = await fetchFirstFigure(p.id);
+    p.figure = url ? { url } : null;
+  }
+  if (needFigure.length) {
+    const found = needFigure.filter((p) => p.figure).length;
+    console.log(`figures: checked ${needFigure.length}, found ${found}`);
   }
 
   // --- 7. daily overview ----------------------------------------------------------

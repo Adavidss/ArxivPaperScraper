@@ -93,5 +93,8 @@
   ],
   "difficulty": 3,
   "readSeconds": 75
+ },
+ "figure": {
+  "url": "https://arxiv.org/html/2607.08587v1/ntof_neutron_spectrum.png"
  }
 }

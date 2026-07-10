@@ -116,6 +116,11 @@ export interface PaperDetail {
   source: PaperSource;
   /** Followed keywords this paper matched (empty for author/discovery hits). */
   matchedKeywords: string[];
+  /**
+   * First content figure from the paper's arXiv HTML render.
+   * undefined = not checked yet · null = checked, none available.
+   */
+  figure?: { url: string } | null;
   /** Tombstone: kept in the feed so client read-state never dangles. */
   withdrawn: boolean;
   biteStatus: BiteStatus;
@@ -134,6 +139,8 @@ export interface FeedItem {
   followedIds: string[];
   /** Followed keywords this paper matched. */
   matchedKeywords: string[];
+  /** First paper figure to show on the card, if the HTML render has one. */
+  figureUrl: string | null;
   primaryCategory: string;
   /** YYYY-MM-DD (announcement-relevant date). */
   published: string;

@@ -94,6 +94,7 @@ const toFeedItem = (p: PaperDetail): FeedItem => ({
   authorsLine: authorsLine(p.authors),
   followedIds: [...new Set(p.authors.flatMap((a) => (a.followedId ? [a.followedId] : [])))],
   matchedKeywords: p.matchedKeywords ?? [],
+  figureUrl: p.figure?.url ?? null,
   primaryCategory: p.primaryCategory,
   published: p.published.slice(0, 10),
   difficulty: p.bite.difficulty,

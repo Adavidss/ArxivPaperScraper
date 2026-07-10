@@ -19,7 +19,10 @@ const parser = new XMLParser({
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 let lastRequestAt = 0;
-async function throttledFetch(url: string): Promise<string> {
+/** Polite fetch: one lane, ≥3s spacing, retries on network/5xx. 4xx returns. */
+async function throttledFetch(
+  url: string,
+): Promise<{ status: number; text: string; finalUrl: string }> {
   let lastError: unknown;
   for (let attempt = 0; attempt <= RETRY_DELAYS_MS.length; attempt++) {
     const wait = lastRequestAt + ARXIV_THROTTLE_MS - Date.now();
@@ -27,10 +30,8 @@ async function throttledFetch(url: string): Promise<string> {
     lastRequestAt = Date.now();
     try {
       const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
-      if (!res.ok) throw new Error(`arXiv HTTP ${res.status}`);
-      const text = await res.text();
-      if (!text.includes("<feed")) throw new Error("arXiv: not an Atom feed");
-      return text;
+      if (res.status >= 500) throw new Error(`arXiv HTTP ${res.status}`);
+      return { status: res.status, text: await res.text(), finalUrl: res.url };
     } catch (err) {
       lastError = err;
       if (attempt < RETRY_DELAYS_MS.length) await sleep(RETRY_DELAYS_MS[attempt]);
@@ -78,7 +79,9 @@ function parseEntry(entry: Record<string, unknown>): RawPaper | null {
 
 async function query(params: Record<string, string>): Promise<RawPaper[]> {
   const url = `${API}?${new URLSearchParams(params)}`;
-  const xml = await throttledFetch(url);
+  const { status, text: xml } = await throttledFetch(url);
+  if (status !== 200) throw new Error(`arXiv HTTP ${status}`);
+  if (!xml.includes("<feed")) throw new Error("arXiv: not an Atom feed");
   const doc = parser.parse(xml);
   const entries = (doc?.feed?.entry ?? []) as Array<Record<string, unknown>>;
   return entries
@@ -123,4 +126,28 @@ export function fetchCategoryPapers(
     sortOrder: "descending",
     max_results: String(maxResults),
   });
+}
+
+/**
+ * First content figure of a paper's arXiv HTML render (LaTeXML marks real
+ * figure images with class "ltx_graphics"). Returns an absolute image URL,
+ * or null when the paper has no HTML render or no figures.
+ */
+export async function fetchFirstFigure(id: string): Promise<string | null> {
+  try {
+    const { status, text, finalUrl } = await throttledFetch(
+      `https://arxiv.org/html/${id}`,
+    );
+    if (status !== 200) return null;
+    for (const tag of text.matchAll(/<img[^>]*>/g)) {
+      if (!tag[0].includes("ltx_graphics")) continue;
+      const src = tag[0].match(/src="([^"]+)"/)?.[1];
+      if (!src || src.startsWith("data:")) continue;
+      // Resolve exactly as the browser would against the page URL.
+      return new URL(src, finalUrl).href;
+    }
+    return null;
+  } catch {
+    return null;
+  }
 }

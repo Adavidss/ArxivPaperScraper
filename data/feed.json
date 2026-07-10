@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-10T05:41:13.635Z",
+ "generatedAt": "2026-07-10T06:04:58.884Z",
  "windowDays": 75,
  "items": [
   {
@@ -9,6 +9,7 @@
    "authorsLine": "Vendrell, López +13",
    "followedIds": [],
    "matchedKeywords": [],
+   "figureUrl": null,
    "primaryCategory": "quant-ph",
    "published": "2026-07-09",
    "difficulty": 4,
@@ -24,6 +25,7 @@
    "authorsLine": "Munné, Cieśliński +2",
    "followedIds": [],
    "matchedKeywords": [],
+   "figureUrl": "https://arxiv.org/html/2607.08762v1/x1.png",
    "primaryCategory": "quant-ph",
    "published": "2026-07-09",
    "difficulty": 4,
@@ -39,6 +41,7 @@
    "authorsLine": "Li, Geng +14",
    "followedIds": [],
    "matchedKeywords": [],
+   "figureUrl": null,
    "primaryCategory": "cond-mat.mes-hall",
    "published": "2026-07-09",
    "difficulty": 5,
@@ -54,6 +57,7 @@
    "authorsLine": "Li, Wu",
    "followedIds": [],
    "matchedKeywords": [],
+   "figureUrl": "https://arxiv.org/html/2607.08702v1/x1.png",
    "primaryCategory": "cond-mat.mes-hall",
    "published": "2026-07-09",
    "difficulty": 5,
@@ -69,6 +73,7 @@
    "authorsLine": "Holt, Goryachev +2",
    "followedIds": [],
    "matchedKeywords": [],
+   "figureUrl": "https://arxiv.org/html/2607.08668v1/x1.png",
    "primaryCategory": "cond-mat.mtrl-sci",
    "published": "2026-07-09",
    "difficulty": 3,
@@ -84,6 +89,7 @@
    "authorsLine": "Giomataris, Jeanneau +3",
    "followedIds": [],
    "matchedKeywords": [],
+   "figureUrl": "https://arxiv.org/html/2607.08587v1/ntof_neutron_spectrum.png",
    "primaryCategory": "physics.ins-det",
    "published": "2026-07-09",
    "difficulty": 3,
@@ -101,6 +107,7 @@
     "ronald-walsworth"
    ],
    "matchedKeywords": [],
+   "figureUrl": "https://arxiv.org/html/2607.01615v1/x1.png",
    "primaryCategory": "quant-ph",
    "published": "2026-07-02",
    "difficulty": 3,
@@ -118,6 +125,7 @@
     "ronald-walsworth"
    ],
    "matchedKeywords": [],
+   "figureUrl": "https://arxiv.org/html/2606.23621v1/x1.png",
    "primaryCategory": "physics.ins-det",
    "published": "2026-06-22",
    "difficulty": 4,
@@ -135,6 +143,7 @@
     "ronald-walsworth"
    ],
    "matchedKeywords": [],
+   "figureUrl": "https://arxiv.org/html/2606.05426v1/x1.png",
    "primaryCategory": "cond-mat.mes-hall",
    "published": "2026-06-03",
    "difficulty": 4,
@@ -152,6 +161,7 @@
     "ronald-walsworth"
    ],
    "matchedKeywords": [],
+   "figureUrl": null,
    "primaryCategory": "cond-mat.mtrl-sci",
    "published": "2026-06-02",
    "difficulty": 3,

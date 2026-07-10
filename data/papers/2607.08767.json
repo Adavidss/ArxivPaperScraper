@@ -65,21 +65,40 @@
  },
  "source": "foryou",
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-07-10T04:04:27.489Z",
-  "hook": "Hardware teams building fault-tolerant quantum computers (FTQCs) must decide which imperfections to suppress, and that…",
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-10T04:51:37.778Z",
+  "hook": "Plaquette simulates quantum computer errors directly from hardware physics, outperforming standard Pauli models.",
   "tldr": [
-   "We present Plaquette, a theoretical framework and software suite that computes the logical performance of fault-tolerant architectures directly from the…",
-   "In Plaquette, a hardware error model is specified once, as Kraus operators, Hamiltonian-Lindblad dynamics, or an experimentally reconstructed quantum channel,…",
-   "Hardware teams building fault-tolerant quantum computers (FTQCs) must decide which imperfections to suppress, and that decision requires the logical…"
+   "They developed Plaquette, a software framework that calculates the logical performance of quantum computers using realistic, hardware-specific noise models.",
+   "They built four sampler classes, including the new XPauli sampler, to handle complex errors like qubit leakage, coherent over-rotations, and heating.",
+   "They validated the samplers against exact simulations, proving that standard Pauli twirling can fail to accurately predict error thresholds."
   ],
-  "whyItMatters": "",
-  "eli5": "",
+  "whyItMatters": "Building a real-world quantum computer requires knowing exactly how physical hardware errors affect logical stability. This tool helps physicists design better error-correction strategies tailored to actual superconducting, neutral-atom, or trapped-ion hardware.",
+  "eli5": "Imagine trying to build a windproof house, but your simulation only tests for simple, steady breezes. In reality, you have to deal with swirling gusts, sudden drafts, and humidity. Plaquette is like a highly realistic wind tunnel simulator that lets engineers test their quantum 'house' against the messy, real-world physics of their building blocks.",
   "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 40
+  "glossary": [
+   {
+    "term": "fault-tolerant quantum computer",
+    "shortDef": "A quantum computer designed to correct its own physical errors using quantum error-correcting codes.",
+    "eli5Def": "A quantum computer that can fix its own mistakes on the fly so it doesn't ruin its calculations.",
+    "wikiTitle": "Fault-tolerant quantum computer"
+   },
+   {
+    "term": "Kraus operators",
+    "shortDef": "Mathematical operators used to describe the state changes of an open quantum system interacting with its environment.",
+    "eli5Def": "Mathematical tools used to describe how a quantum system gets messed up by interacting with the outside world.",
+    "wikiTitle": "Quantum operation"
+   },
+   {
+    "term": "Pauli twirling",
+    "shortDef": "An approximation technique that simplifies complex quantum noise into simpler, stochastic Pauli errors.",
+    "eli5Def": "A trick that turns complicated, messy quantum errors into simpler, random errors that are easier to calculate.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
  }
 }

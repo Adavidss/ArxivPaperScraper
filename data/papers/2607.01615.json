@@ -33,21 +33,46 @@
  },
  "source": "follow",
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-07-10T04:04:27.489Z",
-  "hook": "All-optical (AO) microwave-free magnetometry using nitrogen-vacancy (NV) centers in diamond simplifies experimental…",
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-10T04:51:37.778Z",
+  "hook": "A new pulsed all-optical diamond sensor protocol achieves a 10x lower noise floor without microwave hardware.",
   "tldr": [
-   "To address these challenges, we introduce a pulsed AO protocol that employs two PL measurements within an optical pulse to suppress common-mode noise.",
-   "While continuous-wave (cw) detection of AO photoluminescence (PL) changes is commonly employed, its performance is susceptible to systematic fluctuations such…",
-   "These findings provide insights into optimizing NV-diamond samples for effective AO operation across diverse applications."
+   "They developed a pulsed all-optical magnetometry protocol using nitrogen-vacancy (NV) centers in diamond to suppress systematic optical intensity noise.",
+   "They implemented a dual photoluminescence measurement scheme within a single optical pulse to cancel out common-mode noise at near-zero magnetic fields.",
+   "They demonstrated a 10-fold improvement in the low-frequency noise floor and mapped how optimal pulse timing depends on NV defect concentration."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
+  "whyItMatters": "Eliminating microwave control makes quantum diamond sensors much simpler, cheaper, and safer to use with biological samples. This noise-reduction technique makes these simplified sensors precise enough for real-world applications.",
+  "eli5": "Imagine trying to read a sign through a flickering flashlight. By taking two quick mental snapshots during each flash and comparing them, you can cancel out the flickering and read the sign clearly. This method does exactly that with laser light to measure tiny magnetic fields.",
+  "keyNumbers": [
+   {
+    "value": "10x",
+    "label": "noise floor improvement",
+    "context": "Achieved in the low-frequency noise floor compared to conventional continuous-wave all-optical techniques."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "nitrogen-vacancy center",
+    "shortDef": "An atom-scale defect in diamond used as a highly sensitive quantum sensor.",
+    "eli5Def": "A tiny, natural defect in diamond that acts like a microscopic compass and glows when you shine a laser on it.",
+    "wikiTitle": "Nitrogen-vacancy center"
+   },
+   {
+    "term": "magnetometry",
+    "shortDef": "The measurement of magnetic field strength and direction.",
+    "eli5Def": "The science of measuring magnetic fields, like using a super-sensitive compass.",
+    "wikiTitle": "Magnetometer"
+   },
+   {
+    "term": "common-mode noise",
+    "shortDef": "Undesired signal fluctuations that affect all measurements equally.",
+    "eli5Def": "Background static or shaking that affects everything at the same time, which can be subtracted to find the real signal.",
+    "wikiTitle": "Common-mode signal"
+   }
+  ],
   "difficulty": 3,
-  "readSeconds": 39
+  "readSeconds": 65
  }
 }

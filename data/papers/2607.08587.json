@@ -36,21 +36,62 @@
  },
  "source": "foryou",
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-07-10T04:04:27.489Z",
-  "hook": "A neutron-sensitive sampling calorimeter based on alternating lead absorber and gadolinium-loaded liquid scintillator…",
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-10T04:51:37.778Z",
+  "hook": "A new gadolinium-loaded calorimeter improves hadronic energy resolution from 21.8% to 13.3% by capturing neutrons.",
   "tldr": [
-   "Event-by-event analyses further reveal a clear relationship between the prompt calorimetric response and the delayed neutron observable, demonstrating that…",
-   "These results demonstrate the potential of gadolinium-loaded sampling calorimeters to recover part of the invisible hadronic energy and significantly improve…",
-   "A six-layer Pb/LAB-Gd calorimeter exposed to 10~GeV protons is studied to characterize its neutron response and evaluate its impact on calorimetric performance."
+   "They simulated a novel sampling calorimeter that pairs lead absorbers with gadolinium-loaded liquid scintillators to detect delayed neutron signals.",
+   "Using Geant4 Monte Carlo simulations, they exposed a six-layer calorimeter model to 10 GeV protons to track prompt and delayed energy deposits.",
+   "They found that delayed energy correlates with neutron capture, allowing a simple correction that drastically improves energy resolution."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
+  "whyItMatters": "Measuring the energy of subatomic particles is notoriously difficult because a large fraction of their energy is lost to 'invisible' nuclear processes. This design offers a practical way to recover that lost information, potentially upgrading the precision of future particle colliders.",
+  "eli5": "Imagine trying to weigh a box of bouncy balls by listening to them hit the floor. Some balls bounce immediately, but others get trapped and rattle around for a while before stopping. By listening to those late, delayed rattles (like detecting delayed neutrons), we get a much more accurate measurement of how many balls were in the box.",
+  "keyNumbers": [
+   {
+    "value": "10 GeV",
+    "label": "Proton energy",
+    "context": "The energy of the proton beam used in the Geant4 simulations to test the calorimeter."
+   },
+   {
+    "value": "21.8%",
+    "label": "Uncorrected energy resolution",
+    "context": "The baseline prompt-energy resolution of the calorimeter before applying the neutron-capture correction."
+   },
+   {
+    "value": "13.3%",
+    "label": "Corrected energy resolution",
+    "context": "The improved energy resolution achieved after applying a simple nonlinear event-by-event correction."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Hadronic Calorimeter",
+    "shortDef": "An instrument that measures the energy of hadrons by absorbing them and detecting the resulting particle showers.",
+    "eli5Def": "A giant, dense block used in physics labs to stop fast-moving particles and measure how much energy they had.",
+    "wikiTitle": "Calorimeter (particle physics)"
+   },
+   {
+    "term": "Gadolinium-loaded liquid scintillator",
+    "shortDef": "A liquid that flashes light when hit by radiation, enhanced with gadolinium to highly attract and capture neutrons.",
+    "eli5Def": "A special glowing liquid mixed with a metal that acts like a magnet for stray neutrons, making them easy to spot.",
+    "wikiTitle": "Liquid scintillator"
+   },
+   {
+    "term": "Geant4",
+    "shortDef": "A software toolkit used to simulate the passage of particles through matter using Monte Carlo methods.",
+    "eli5Def": "A highly accurate physics simulator program used by scientists to predict how particles will behave inside a detector.",
+    "wikiTitle": "Geant4"
+   },
+   {
+    "term": "Neutron moderation",
+    "shortDef": "The process by which fast neutrons slow down through collisions with light atomic nuclei.",
+    "eli5Def": "Bumping fast-moving neutrons into other atoms to slow them down, like a pinball losing speed as it hits bumpers.",
+    "wikiTitle": "Neutron moderator"
+   }
+  ],
   "difficulty": 3,
-  "readSeconds": 40
+  "readSeconds": 75
  }
 }

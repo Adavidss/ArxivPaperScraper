@@ -32,21 +32,46 @@
  },
  "source": "foryou",
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-07-10T04:04:27.489Z",
-  "hook": "Phenomena that slip beyond the grasp of our classical intuition reveal uniquely quantum effects that deepen our…",
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-10T04:51:37.778Z",
+  "hook": "Quantum steering reaches 100% typicality for random two-qubit states as the number of measurements increases.",
   "tldr": [
-   "Phenomena that slip beyond the grasp of our classical intuition reveal uniquely quantum effects that deepen our understanding of the physical world and enable…",
-   "One such phenomenon is quantum steering, whereby measurements performed by one party influence the conditional states of another when the two share an…",
-   "We provide a detailed characterization of $\\mathcal{P}_S$ across different state ensembles and specific families, including Bell-diagonal and Werner states,…"
+   "They calculated the probability of observing quantum steering in generic two-qubit states using random projective measurements.",
+   "They derived analytical formulas for Werner states and ran numerical simulations for larger measurement settings and random state ensembles.",
+   "They discovered that steering probability increases systematically with more measurements, far exceeding the limits of Bell nonlocality."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 42
+  "whyItMatters": "Quantum steering is a vital resource for secure quantum communication. Knowing that steering is highly typical—meaning it occurs naturally in almost all random states with enough measurements—makes it much easier to exploit in real-world quantum networks.",
+  "eli5": "Imagine you and a friend have a pair of magic dice. When you roll yours, it instantly forces your friend's die to land on a matching number, even if they are far away. This study shows that if you look at these magic pairs in enough different ways, this spooky connection is almost always guaranteed to show up.",
+  "keyNumbers": [
+   {
+    "value": "100%",
+    "label": "Genuine typicality limit",
+    "context": "The steering probability approached by random states with minimal environmental coupling as the number of measurement settings increases."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "quantum steering",
+    "shortDef": "A quantum phenomenon where measurements on one entangled particle steer the state of another distant particle.",
+    "eli5Def": "A quantum connection where measuring one particle instantly changes what we know about its distant partner.",
+    "wikiTitle": "Quantum steering"
+   },
+   {
+    "term": "Bell nonlocality",
+    "shortDef": "The inability of local hidden variable theories to reproduce the correlations of quantum mechanics.",
+    "eli5Def": "The proof that quantum particles can be connected in ways that defy everyday physics, showing no hidden local rules are at play.",
+    "wikiTitle": "Bell's theorem"
+   },
+   {
+    "term": "Werner states",
+    "shortDef": "A class of quantum states that interpolate between a maximally entangled state and completely random noise.",
+    "eli5Def": "A mixture of perfectly connected quantum particles and completely random, messy noise.",
+    "wikiTitle": "Werner state"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
  }
 }

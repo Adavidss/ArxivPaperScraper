@@ -18,11 +18,17 @@ export interface Config {
 export const ARXIV_THROTTLE_MS = 3000; // arXiv ToS: ≤1 request / 3s
 export const RETRY_DELAYS_MS = [5_000, 15_000, 45_000];
 export const BITE_BATCH_SIZE = 4;
-/** Tried in order; drop down the chain on quota exhaustion (429). */
+/**
+ * Tried in order; drop down the chain on quota exhaustion (429) or a
+ * retired-model 404. The "-latest" names are Google's stable aliases that
+ * auto-track the current flash generation — verified working 2026-07-10
+ * (flash-latest → gemini-3.5-flash), while the pinned 2.x names had started
+ * returning 404 for new keys.
+ */
 export const MODEL_CHAIN = [
-  "gemini-2.5-flash",
-  "gemini-2.5-flash-lite",
-  "gemini-2.0-flash",
+  "gemini-flash-latest",
+  "gemini-flash-lite-latest",
+  "gemini-3.1-flash-lite",
 ];
 export const FORYOU_MAX_AGE_DAYS = 7;
 export const FORYOU_FETCH_PER_CATEGORY = 15;

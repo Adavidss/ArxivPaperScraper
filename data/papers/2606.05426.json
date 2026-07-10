@@ -48,21 +48,40 @@
  },
  "source": "follow",
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-07-10T04:04:27.489Z",
-  "hook": "Magnetic field fluctuations on nanometer length scales manifest in a diverse range of phenomena -- electron and spin…",
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-10T04:51:37.778Z",
+  "hook": "A new quantum 'dressing' technique lets diamond sensors analyze high-frequency magnetic signals at the nanoscale.",
   "tldr": [
-   "We demonstrate this approach by using NV centers to detect both coherent and noisy nanoscale spin wave dynamics in a magnetic yttrium-iron-garnet (YIG) thin…",
-   "Measuring these phenomena requires sensors with a challenging combination of broad spectral bandwidth, high sensitivity, and nanoscale spatial resolution.",
-   "Our technique generalizes to other qubit platforms, providing a versatile framework for nanoscale spectroscopy across diverse physical and chemical systems."
+   "They developed a nanoscale magnetic spectrum analyzer to overcome the speed limits of conventional quantum control sequences.",
+   "They exposed a diamond nitrogen-vacancy qubit to a microwave dressing field during a dynamical decoupling sequence.",
+   "They successfully detected both coherent and noisy spin wave dynamics in a magnetic thin film over a broad frequency range."
   ],
-  "whyItMatters": "",
-  "eli5": "",
+  "whyItMatters": "Standard quantum sensors are too slow to detect high-frequency magnetic signals. This technique acts like a frequency converter, opening up nanoscale chemical analysis and material science at previously unreachable speeds.",
+  "eli5": "Imagine trying to film a humming bird's wings with a slow camera. By using a special microwave 'strobe light' effect, the researchers slow down the fast magnetic vibrations so their quantum camera can easily capture them.",
   "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 41
+  "glossary": [
+   {
+    "term": "dressed states",
+    "shortDef": "Quantum states of a system that are modified by a continuous external electromagnetic field.",
+    "eli5Def": "A quantum particle that is constantly bathed in light or microwaves, changing how it behaves and reacts to the world.",
+    "wikiTitle": "Dressed state"
+   },
+   {
+    "term": "dynamical decoupling",
+    "shortDef": "A technique that uses timed pulses to protect a quantum state from environmental noise.",
+    "eli5Def": "Flipping a quantum coin back and forth very quickly so that random outside noise doesn't ruin its state.",
+    "wikiTitle": "Dynamical decoupling"
+   },
+   {
+    "term": "spin wave",
+    "shortDef": "A propagating disturbance in the magnetization of a magnetic material.",
+    "eli5Def": "A wave of magnetic tipping that travels through a material, like a 'wave' created by fans in a sports stadium.",
+    "wikiTitle": "Spin wave"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 75
  }
 }

@@ -157,6 +157,8 @@ export interface BiteInput {
 export class GeminiClient {
   calls = 0;
   private modelIndex = 0;
+  /** Models that rejected thinkingConfig — retried without it. */
+  private noThinkingConfig = new Set<string>();
   constructor(private apiKey: string) {}
 
   get model(): string {
@@ -167,7 +169,11 @@ export class GeminiClient {
   private async callJson(prompt: string, schema: object): Promise<unknown> {
     while (this.modelIndex < MODEL_CHAIN.length) {
       const model = MODEL_CHAIN[this.modelIndex];
-      for (let attempt = 0; attempt < 3; attempt++) {
+      for (let attempt = 0; attempt < 4; attempt++) {
+        // Current flash models "think" by default and thoughts consume
+        // maxOutputTokens — ask for none; if a model rejects the knob (400),
+        // drop it for that model and rely on the larger token budget.
+        const sendThinking = !this.noThinkingConfig.has(model);
         let res: Response;
         try {
           this.calls++;
@@ -183,38 +189,51 @@ export class GeminiClient {
                 temperature: 0.3,
                 responseMimeType: "application/json",
                 responseSchema: schema,
-                maxOutputTokens: 8192,
+                maxOutputTokens: 16384,
+                ...(sendThinking ? { thinkingConfig: { thinkingBudget: 0 } } : {}),
               },
             }),
           });
         } catch {
-          await sleep(4000); // network blip — retry same model
+          await sleep(5000); // network blip — retry same model
           continue;
         }
         if (res.status === 429) break; // quota — next model in chain
+        if (res.status === 400 && sendThinking) {
+          // Probably the thinkingConfig knob — retry this model without it.
+          this.noThinkingConfig.add(model);
+          console.warn(`gemini: ${model} rejected thinkingConfig, retrying without`);
+          continue;
+        }
         if (res.status === 400 || res.status === 404) {
           // Unknown/retired model name — skip down the chain.
           console.warn(`gemini: ${model} rejected (${res.status}), trying next`);
           break;
         }
         if (!res.ok) {
-          await sleep(4000 * (attempt + 1)); // 5xx — transient
+          // 5xx / 503 "high demand" — transient; cron isn't latency-sensitive.
+          console.warn(`gemini: ${model} HTTP ${res.status}, retry ${attempt + 1}`);
+          await sleep(8000 * (attempt + 1));
           continue;
         }
         const body = (await res.json()) as {
-          candidates?: Array<{ content?: { parts?: Array<{ text?: string }> } }>;
+          candidates?: Array<{
+            content?: { parts?: Array<{ text?: string; thought?: boolean }> };
+          }>;
         };
+        // Thinking models may emit thought parts before the JSON — drop them.
         const text = body.candidates?.[0]?.content?.parts
-          ?.map((p) => p.text ?? "")
+          ?.filter((p) => !p.thought)
+          .map((p) => p.text ?? "")
           .join("");
         if (!text) {
-          await sleep(2000); // empty candidate (safety block etc.) — retry once
+          await sleep(3000); // empty candidate (safety block etc.) — retry
           continue;
         }
         try {
           return JSON.parse(text);
         } catch {
-          await sleep(2000); // malformed JSON — retry
+          await sleep(3000); // malformed/clipped JSON — retry
           continue;
         }
       }

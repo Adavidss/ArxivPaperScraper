@@ -131,6 +131,64 @@ export function CaughtUpSlide({
   );
 }
 
+export function WeekendSlide({ reviewDue }: { reviewDue: number }) {
+  return (
+    <div className="flex h-full flex-col items-center justify-center gap-4 rounded-2xl border border-border bg-surface px-6 text-center">
+      <Icons.Moon size={40} className="text-muted" />
+      <div>
+        <h2 className="font-display text-2xl font-semibold">No drop today</h2>
+        <p className="mt-1 text-sm text-muted">
+          arXiv rests on weekends — your streak does too.
+        </p>
+      </div>
+      <div className="flex w-full max-w-xs flex-col gap-2 pt-1">
+        {reviewDue > 0 && (
+          <Link
+            href="/concepts/review"
+            className="rounded-xl border border-accent/40 bg-accent/10 px-4 py-2.5 text-sm font-medium text-accent"
+          >
+            Review {reviewDue} concept{reviewDue === 1 ? "" : "s"}
+          </Link>
+        )}
+        <Link
+          href="/saved"
+          className="rounded-xl border border-border px-4 py-2.5 text-sm text-muted"
+        >
+          Revisit saved papers
+        </Link>
+      </div>
+      <p className="text-xs text-muted">swipe up to re-browse the week ↑</p>
+    </div>
+  );
+}
+
+export function ConnectionSlide({
+  body,
+  items,
+}: {
+  body: string;
+  items: Array<{ id: string; hook: string; authorsLine: string }>;
+}) {
+  return (
+    <div className="flex h-full flex-col justify-center gap-4 rounded-2xl border border-gold/40 bg-surface px-5">
+      <p className="text-[10px] font-bold uppercase tracking-widest text-gold">
+        These papers are circling the same problem
+      </p>
+      <p className="font-display text-lg leading-snug">{body}</p>
+      <div className="flex flex-col gap-2">
+        {items.slice(0, 2).map((i) => (
+          <div key={i.id} className="rounded-xl border border-border bg-surface-2 px-3 py-2">
+            <p className="text-sm leading-snug [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2] overflow-hidden">
+              {i.hook}
+            </p>
+            <p className="mt-0.5 text-[11px] text-muted">{i.authorsLine}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export function ReviewPromoSlide({ due }: { due: number }) {
   return (
     <div className="flex h-full flex-col items-center justify-center gap-4 rounded-2xl border border-accent/30 bg-surface px-6 text-center">

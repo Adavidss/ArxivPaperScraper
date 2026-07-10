@@ -12,6 +12,17 @@ export function useStoreVersion(): number {
   return useSyncExternalStore(subscribeStore, storeVersion, () => 0);
 }
 
+/**
+ * True after client mount. Pages whose first paint depends on localStorage
+ * must gate on this — the static prerender has no store, and rendering
+ * store-derived UI immediately causes hydration mismatches.
+ */
+export function useMounted(): boolean {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  return mounted;
+}
+
 export interface DropState {
   meta: MetaFile | null;
   feed: FeedFile | null;

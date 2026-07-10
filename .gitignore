@@ -9,3 +9,4 @@ frontend/public/data/
 *.log
 .env
 .env.*
+* 2.*

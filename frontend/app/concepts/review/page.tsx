@@ -6,6 +6,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { useMounted } from "@/lib/hooks";
 import {
   type ConceptEntry,
   completeReviewSession,
@@ -19,10 +20,12 @@ import { Icons } from "@/components/ui/icons";
 const SESSION_MAX = 5;
 
 export default function ReviewPage() {
-  // The queue is frozen at mount so grading doesn't reshuffle mid-session.
+  const mounted = useMounted();
+  // The queue is frozen at first client render so grading doesn't reshuffle
+  // mid-session (and the static prerender never sees localStorage).
   const queue = useMemo<Array<[string, ConceptEntry]>>(
-    () => getDueConcepts().slice(0, SESSION_MAX),
-    [],
+    () => (mounted ? getDueConcepts().slice(0, SESSION_MAX) : []),
+    [mounted],
   );
   const [idx, setIdx] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -42,6 +45,8 @@ export default function ReviewPage() {
       setIdx(idx + 1);
     }
   };
+
+  if (!mounted) return <Full>{null}</Full>;
 
   if (queue.length === 0) {
     return (

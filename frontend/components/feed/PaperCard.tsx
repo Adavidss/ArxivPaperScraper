@@ -191,7 +191,8 @@ export function PaperCard({
             type="button"
             aria-label="Share"
             onClick={() => {
-              const url = `https://arxiv.org/abs/${item.id}`;
+              const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+              const url = `${location.origin}${base}/paper/?id=${encodeURIComponent(item.id)}`;
               if (navigator.share)
                 navigator.share({ title: item.title, text: item.hook, url }).catch(() => {});
               else navigator.clipboard?.writeText(`${item.hook}\n${url}`).catch(() => {});

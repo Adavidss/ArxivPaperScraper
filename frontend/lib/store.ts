@@ -59,6 +59,8 @@ export interface SyncData {
   openedBuildId?: string;
   /** Drop date of the last caught-up celebration (once per day). */
   celebratedDrop?: string;
+  /** Follow edits that failed to push (offline etc.) — retried from Settings. */
+  pendingFollowOps?: unknown[];
 }
 
 export interface StatsData {

@@ -5,7 +5,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { useStoreVersion } from "@/lib/hooks";
+import { useMounted, useStoreVersion } from "@/lib/hooks";
 import {
   type ConceptEntry,
   getConcepts,
@@ -24,11 +24,12 @@ const GROUPS: Array<{ label: string; match: (box: number) => boolean }> = [
 
 export default function ConceptsPage() {
   useStoreVersion();
+  const mounted = useMounted();
   const [open, setOpen] = useState<[string, ConceptEntry] | null>(null);
-  const concepts = Object.entries(getConcepts()).sort(
-    (a, b) => b[1].addedAt - a[1].addedAt,
-  );
-  const due = getDueConcepts().length;
+  const concepts = mounted
+    ? Object.entries(getConcepts()).sort((a, b) => b[1].addedAt - a[1].addedAt)
+    : [];
+  const due = mounted ? getDueConcepts().length : 0;
 
   return (
     <PageShell
@@ -47,7 +48,7 @@ export default function ConceptsPage() {
         </Link>
       }
     >
-      {concepts.length === 0 && (
+      {mounted && concepts.length === 0 && (
         <p className="rounded-2xl border border-border bg-surface p-6 text-center text-sm text-muted">
           Tap any <span className="term-btn">underlined term</span> in a paper,
           then &ldquo;Save to Concepts&rdquo; — your personal glossary builds

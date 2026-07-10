@@ -4,7 +4,7 @@
 // authors/categories. All numbers only count up; no red, no comparisons.
 
 import { useMemo } from "react";
-import { useDrop, useStoreVersion } from "@/lib/hooks";
+import { useDrop, useMounted, useStoreVersion } from "@/lib/hooks";
 import {
   computeStreak,
   getConcepts,
@@ -21,6 +21,7 @@ const dayKey = (d: Date) => d.toISOString().slice(0, 10);
 
 export default function StatsPage() {
   useStoreVersion();
+  const mounted = useMounted();
   const drop = useDrop();
 
   const streakData = getStreakData();
@@ -92,6 +93,10 @@ export default function StatsPage() {
 
   const maxBar = Math.max(1, ...weekBars.map((b) => b.count));
   const estMinutes = Math.round((readTotal * 45) / 60);
+
+  // Everything here derives from localStorage — never render it into the
+  // static prerender (hydration mismatch).
+  if (!mounted) return <PageShell title="Stats">{null}</PageShell>;
 
   return (
     <PageShell title="Stats">

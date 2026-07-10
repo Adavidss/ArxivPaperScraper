@@ -79,6 +79,61 @@ textarea {
   cursor: pointer;
 }
 
+/* In-app arXiv HTML reader: restyle the LaTeXML markup for our dark theme. */
+.reader-content {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-fg);
+}
+.reader-content h1,
+.reader-content h2,
+.reader-content h3,
+.reader-content h4 {
+  font-family: var(--font-display);
+  line-height: 1.25;
+  margin: 1.4em 0 0.5em;
+  font-weight: 600;
+}
+.reader-content h1 { font-size: 1.5rem; }
+.reader-content h2 { font-size: 1.2rem; }
+.reader-content h3 { font-size: 1.05rem; }
+.reader-content p { margin: 0.7em 0; }
+.reader-content a { color: var(--color-accent); }
+.reader-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.75em auto;
+  border-radius: 8px;
+  background: #fff;
+}
+.reader-content figure {
+  margin: 1.25em 0;
+}
+.reader-content figcaption {
+  font-size: 12px;
+  color: var(--color-muted);
+  margin-top: 0.4em;
+}
+.reader-content table {
+  display: block;
+  overflow-x: auto;
+  font-size: 13px;
+  border-collapse: collapse;
+}
+.reader-content td,
+.reader-content th {
+  border: 1px solid var(--color-border);
+  padding: 4px 8px;
+}
+.reader-content math {
+  font-size: 1.05em;
+}
+.reader-content .ltx_authors,
+.reader-content .ltx_bibliography {
+  font-size: 13px;
+  color: var(--color-muted);
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

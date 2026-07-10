@@ -8,6 +8,7 @@
 // the header counts and celebration.
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { GlossaryEntry, PaperDetail } from "@/lib/data-schema";
 import { buildFeed } from "@/lib/feed";
@@ -26,7 +27,14 @@ import { TAB_BAR_SPACE } from "@/components/ui/TabBar";
 import { FeedHeader } from "./FeedHeader";
 import { FeedPager, type PagerHandle } from "./FeedPager";
 import { PaperCard } from "./PaperCard";
-import { CaughtUpSlide, EndSlide, OverviewSlide, ReviewPromoSlide } from "./slides";
+import {
+  CaughtUpSlide,
+  ConnectionSlide,
+  EndSlide,
+  OverviewSlide,
+  ReviewPromoSlide,
+  WeekendSlide,
+} from "./slides";
 import { TermSheet } from "@/components/learn/TermSheet";
 
 /** Pager position survives tab switches within the session. */
@@ -38,9 +46,37 @@ const STALE_AFTER_MS = 48 * 3600 * 1000;
 export function Feed() {
   const drop = useDrop();
   useStoreVersion();
+  const router = useRouter();
   const pagerRef = useRef<PagerHandle>(null);
   const [activeIdx, setActiveIdx] = useState(0);
   const [term, setTerm] = useState<{ entry: GlossaryEntry; paper: PaperDetail | null } | null>(null);
+  const [define, setDefine] = useState<{ text: string; x: number; y: number } | null>(null);
+  const [coachDismissed, setCoachDismissed] = useState(false);
+
+  // First run → onboarding.
+  useEffect(() => {
+    if (!getSettings().onboarded) router.replace("/welcome");
+  }, [router]);
+
+  // Long-press text selection → floating "Define" pill (Wikipedia mode).
+  useEffect(() => {
+    const onSel = () => {
+      const sel = window.getSelection();
+      if (!sel || sel.isCollapsed) {
+        setDefine(null);
+        return;
+      }
+      const text = sel.toString().trim();
+      if (!text || text.length > 60 || text.split(/\s+/).length > 5) {
+        setDefine(null);
+        return;
+      }
+      const rect = sel.getRangeAt(0).getBoundingClientRect();
+      setDefine({ text, x: rect.left + rect.width / 2, y: rect.top });
+    };
+    document.addEventListener("selectionchange", onSel);
+    return () => document.removeEventListener("selectionchange", onSel);
+  }, []);
 
   // Build once per data load — deliberately NOT re-run on read-state changes.
   const built = useMemo(() => {
@@ -81,8 +117,13 @@ export function Feed() {
     const t = setTimeout(() => markRead(slide.item.id), READ_DWELL_MS);
     return () => clearTimeout(t);
   }, [activeIdx, built]);
+  const coachAnchor = useRef<number | null>(null);
   useEffect(() => {
-    if (built) sessionIndex = activeIdx;
+    if (built) {
+      if (coachAnchor.current === null) coachAnchor.current = activeIdx;
+      else if (activeIdx !== coachAnchor.current) setCoachDismissed(true);
+      sessionIndex = activeIdx;
+    }
   }, [activeIdx, built]);
 
   // ---- render states ----------------------------------------------------------
@@ -179,6 +220,10 @@ export function Feed() {
               />
             ) : slide.type === "overview" ? (
               <OverviewSlide overview={slide.overview} />
+            ) : slide.type === "weekend" ? (
+              <WeekendSlide reviewDue={slide.reviewDue} />
+            ) : slide.type === "connection" ? (
+              <ConnectionSlide body={slide.body} items={slide.items} />
             ) : slide.type === "caughtup" ? (
               <CaughtUpSlide
                 active={i === activeIdx}
@@ -233,6 +278,42 @@ export function Feed() {
             </button>
           </div>
         </div>
+      )}
+
+      {/* First-session coach mark */}
+      {!coachDismissed &&
+        !sealed &&
+        activeSlide?.type === "paper" &&
+        Object.keys(readMap).length <= 1 && (
+          <div className="pointer-events-none absolute inset-x-0 bottom-20 z-20 flex justify-center">
+            <p className="animate-fade-in rounded-full bg-canvas/85 px-4 py-2 text-xs text-fg/90 backdrop-blur">
+              swipe up ↑ next paper · swipe left ← go deeper
+            </p>
+          </div>
+        )}
+
+      {/* Selection "Define" pill */}
+      {define && !term && (
+        <button
+          type="button"
+          className="fixed z-40 -translate-x-1/2 -translate-y-full rounded-full border border-accent/50 bg-canvas px-3 py-1.5 text-xs font-medium text-accent shadow-lg"
+          style={{ left: define.x, top: Math.max(60, define.y - 8) }}
+          onClick={() => {
+            setTerm({
+              entry: {
+                term: define.text,
+                shortDef: "",
+                eli5Def: "",
+                wikiTitle: define.text,
+              },
+              paper: null,
+            });
+            setDefine(null);
+            window.getSelection()?.removeAllRanges();
+          }}
+        >
+          Define &ldquo;{define.text.length > 24 ? `${define.text.slice(0, 24)}…` : define.text}&rdquo;
+        </button>
       )}
 
       <TermSheet

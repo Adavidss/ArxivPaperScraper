@@ -4,7 +4,7 @@
 // bookmark) to fill this.
 
 import { useMemo, useState } from "react";
-import { useDrop, useStoreVersion } from "@/lib/hooks";
+import { useDrop, useMounted, useStoreVersion } from "@/lib/hooks";
 import { getSavedMap, toggleSaved } from "@/lib/store";
 import { Icons } from "@/components/ui/icons";
 import { PageShell } from "@/components/ui/PageShell";
@@ -12,15 +12,17 @@ import { PageShell } from "@/components/ui/PageShell";
 export default function SavedPage() {
   const drop = useDrop();
   useStoreVersion();
+  const mounted = useMounted();
   const [query, setQuery] = useState("");
 
   const rows = useMemo(() => {
+    if (!mounted) return [];
     const saved = getSavedMap();
     const byId = new Map(drop.feed?.items.map((i) => [i.id, i]) ?? []);
     return Object.entries(saved)
       .sort((a, b) => b[1].at - a[1].at)
       .map(([id, entry]) => ({ id, at: entry.at, item: byId.get(id) ?? null }));
-  }, [drop.feed]);
+  }, [drop.feed, mounted]);
 
   const q = query.trim().toLowerCase();
   const filtered = q
@@ -47,7 +49,7 @@ export default function SavedPage() {
         </div>
       )}
 
-      {rows.length === 0 && (
+      {mounted && rows.length === 0 && (
         <p className="rounded-2xl border border-border bg-surface p-6 text-center text-sm text-muted">
           Nothing saved yet. Double-tap any card in the feed (or hit the
           bookmark) to keep it here.

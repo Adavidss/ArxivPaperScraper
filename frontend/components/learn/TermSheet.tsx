@@ -31,15 +31,23 @@ export function TermSheet({
     setSavedNow(false);
     setWiki(null);
     setEncounters(bumpEncounter(entry.term));
+    // Wikipedia mode (selection "Define"): no precomputed definition — the
+    // article summary IS the definition, so fetch it immediately.
+    if (!entry.shortDef && entry.wikiTitle) {
+      setWiki("loading");
+      fetchWikiSummary(entry.wikiTitle).then(setWiki);
+    }
   }, [entry]);
 
   if (!entry) return null;
   const inLibrary = savedNow || Boolean(getConcepts()[conceptSlug(entry.term)]);
 
   const save = () => {
+    const wikiFirstSentence =
+      wiki && wiki !== "loading" ? `${wiki.extract.split(". ")[0]}.` : "";
     saveConcept({
       term: entry.term,
-      shortDef: entry.shortDef,
+      shortDef: entry.shortDef || wikiFirstSentence || entry.term,
       eli5Def: entry.eli5Def,
       wikiTitle: entry.wikiTitle,
       paperId: paper?.id ?? "",
@@ -89,21 +97,25 @@ export function TermSheet({
       <div className="flex flex-col gap-3 pb-1">
         <p className="text-[15px] leading-relaxed">{entry.shortDef}</p>
 
-        <button
-          type="button"
-          onClick={() => setEli5Open((o) => !o)}
-          className="flex items-center gap-1 self-start text-xs font-bold uppercase tracking-widest text-accent"
-        >
-          Like you&apos;re five
-          <Icons.ChevronDown
-            size={14}
-            className={`transition-transform ${eli5Open ? "rotate-180" : ""}`}
-          />
-        </button>
-        {eli5Open && (
-          <p className="animate-fade-in text-[15px] leading-relaxed text-fg/90">
-            {entry.eli5Def}
-          </p>
+        {entry.eli5Def && (
+          <>
+            <button
+              type="button"
+              onClick={() => setEli5Open((o) => !o)}
+              className="flex items-center gap-1 self-start text-xs font-bold uppercase tracking-widest text-accent"
+            >
+              Like you&apos;re five
+              <Icons.ChevronDown
+                size={14}
+                className={`transition-transform ${eli5Open ? "rotate-180" : ""}`}
+              />
+            </button>
+            {eli5Open && (
+              <p className="animate-fade-in text-[15px] leading-relaxed text-fg/90">
+                {entry.eli5Def}
+              </p>
+            )}
+          </>
         )}
 
         {encounters >= 3 && !inLibrary && (

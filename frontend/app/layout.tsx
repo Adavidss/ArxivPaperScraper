@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { TabBarLive } from "@/components/ui/TabBarLive";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -22,7 +23,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-canvas text-fg">{children}</body>
+      <body className="bg-canvas text-fg">
+        {children}
+        <TabBarLive />
+      </body>
     </html>
   );
 }

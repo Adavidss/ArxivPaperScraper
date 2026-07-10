@@ -37,7 +37,7 @@
  "biteStatus": "fallback",
  "bite": {
   "model": "extractive",
-  "generatedAt": "2026-07-10T03:44:10.232Z",
+  "generatedAt": "2026-07-10T04:04:27.489Z",
   "hook": "We use whispering-gallery-mode analysis to characterise the microwave dielectric properties of single-crystal TeO$_2$…",
   "tldr": [
    "Loss measurements reveal quality factors as high as $9\\times10^6$ and minimum loss tangents approaching $3\\times10^{-8}$, placing TeO$_2$ among promising…",

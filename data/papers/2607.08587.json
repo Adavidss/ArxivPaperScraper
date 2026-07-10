@@ -39,7 +39,7 @@
  "biteStatus": "fallback",
  "bite": {
   "model": "extractive",
-  "generatedAt": "2026-07-10T03:44:10.232Z",
+  "generatedAt": "2026-07-10T04:04:27.489Z",
   "hook": "A neutron-sensitive sampling calorimeter based on alternating lead absorber and gadolinium-loaded liquid scintillator…",
   "tldr": [
    "Event-by-event analyses further reveal a clear relationship between the prompt calorimetric response and the delayed neutron observable, demonstrating that…",

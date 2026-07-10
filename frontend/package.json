@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3030",
+    "dev": "next dev -p 3040",
     "build": "next build",
     "typecheck": "tsc --noEmit",
     "preview": "rm -rf .preview && mkdir -p .preview/ArxivPaperScraper && cp -R out/. .preview/ArxivPaperScraper/ && npx --yes serve .preview -l 3030"

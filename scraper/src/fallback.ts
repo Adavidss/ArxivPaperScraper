@@ -24,20 +24,24 @@ function trimTo(s: string, max: number): string {
 
 export function extractiveBite(paper: RawPaper, nowIso: string): Bite {
   const sents = sentences(paper.abstract);
-  const pick = (re: RegExp, used: Set<number>): string | null => {
-    const i = sents.findIndex((s, idx) => !used.has(idx) && re.test(s));
+  const used = new Set<number>();
+  // Pick by keyword class, falling back to a positional sentence — always
+  // consuming the index so the three bullets can never repeat.
+  const pick = (re: RegExp, fallbackIdx: number): string | null => {
+    let i = sents.findIndex((s, idx) => !used.has(idx) && re.test(s));
+    if (i === -1 && fallbackIdx >= 0 && !used.has(fallbackIdx)) i = fallbackIdx;
     if (i === -1) return null;
     used.add(i);
     return sents[i];
   };
 
-  const used = new Set<number>();
-  const did = pick(IMPORTANCE, used) ?? sents[0] ?? paper.title;
-  used.add(sents.indexOf(did));
-  const how = pick(NOVELTY, used) ?? sents[1] ?? "";
-  const found = pick(RESULTS, used) ?? sents[sents.length - 1] ?? "";
+  const did = pick(IMPORTANCE, 0) ?? paper.title;
+  const how = pick(NOVELTY, 1);
+  const found = pick(RESULTS, sents.length - 1);
 
-  const tldr = [did, how, found].map((s) => trimTo(s, 160));
+  const tldr = [did, how, found]
+    .filter((s): s is string => Boolean(s))
+    .map((s) => trimTo(s, 160));
   const words = tldr.join(" ").split(/\s+/).length;
 
   return {

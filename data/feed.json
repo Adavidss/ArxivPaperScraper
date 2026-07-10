@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-10T03:48:35.492Z",
+ "generatedAt": "2026-07-10T04:04:27.489Z",
  "windowDays": 75,
  "items": [
   {
@@ -97,7 +97,7 @@
    "primaryCategory": "quant-ph",
    "published": "2026-07-02",
    "difficulty": 3,
-   "readSeconds": 41,
+   "readSeconds": 39,
    "source": "follow",
    "biteStatus": "fallback",
    "withdrawn": false

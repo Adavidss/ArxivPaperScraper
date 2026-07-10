@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-10T05:21:51.451Z",
+ "generatedAt": "2026-07-10T05:41:13.635Z",
  "windowDays": 75,
  "items": [
   {
@@ -8,6 +8,7 @@
    "hook": "Plaquette simulates quantum computer errors directly from hardware physics, outperforming standard Pauli models.",
    "authorsLine": "Vendrell, López +13",
    "followedIds": [],
+   "matchedKeywords": [],
    "primaryCategory": "quant-ph",
    "published": "2026-07-09",
    "difficulty": 4,
@@ -22,6 +23,7 @@
    "hook": "Quantum steering reaches 100% typicality for random two-qubit states as the number of measurements increases.",
    "authorsLine": "Munné, Cieśliński +2",
    "followedIds": [],
+   "matchedKeywords": [],
    "primaryCategory": "quant-ph",
    "published": "2026-07-09",
    "difficulty": 4,
@@ -36,6 +38,7 @@
    "hook": "A thermodynamic phase transition in moiré graphene occurs below 150 mK, ruling out edge-state theories.",
    "authorsLine": "Li, Geng +14",
    "followedIds": [],
+   "matchedKeywords": [],
    "primaryCategory": "cond-mat.mes-hall",
    "published": "2026-07-09",
    "difficulty": 5,
@@ -50,6 +53,7 @@
    "hook": "New lattice models with custom quantum geometry host exotic states like Moore-Read and fractional Chern insulators.",
    "authorsLine": "Li, Wu",
    "followedIds": [],
+   "matchedKeywords": [],
    "primaryCategory": "cond-mat.mes-hall",
    "published": "2026-07-09",
    "difficulty": 5,
@@ -64,6 +68,7 @@
    "hook": "Single-crystal TeO2 cooled to 20 mK achieves an ultra-low microwave loss tangent approaching 3e-8.",
    "authorsLine": "Holt, Goryachev +2",
    "followedIds": [],
+   "matchedKeywords": [],
    "primaryCategory": "cond-mat.mtrl-sci",
    "published": "2026-07-09",
    "difficulty": 3,
@@ -78,6 +83,7 @@
    "hook": "A new gadolinium-loaded calorimeter improves hadronic energy resolution from 21.8% to 13.3% by capturing neutrons.",
    "authorsLine": "Giomataris, Jeanneau +3",
    "followedIds": [],
+   "matchedKeywords": [],
    "primaryCategory": "physics.ins-det",
    "published": "2026-07-09",
    "difficulty": 3,
@@ -94,6 +100,7 @@
    "followedIds": [
     "ronald-walsworth"
    ],
+   "matchedKeywords": [],
    "primaryCategory": "quant-ph",
    "published": "2026-07-02",
    "difficulty": 3,
@@ -110,6 +117,7 @@
    "followedIds": [
     "ronald-walsworth"
    ],
+   "matchedKeywords": [],
    "primaryCategory": "physics.ins-det",
    "published": "2026-06-22",
    "difficulty": 4,
@@ -126,6 +134,7 @@
    "followedIds": [
     "ronald-walsworth"
    ],
+   "matchedKeywords": [],
    "primaryCategory": "cond-mat.mes-hall",
    "published": "2026-06-03",
    "difficulty": 4,
@@ -142,6 +151,7 @@
    "followedIds": [
     "ronald-walsworth"
    ],
+   "matchedKeywords": [],
    "primaryCategory": "cond-mat.mtrl-sci",
    "published": "2026-06-02",
    "difficulty": 3,

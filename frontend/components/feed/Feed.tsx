@@ -172,6 +172,7 @@ export function Feed() {
     ![0, 6].includes(new Date().getDay());
 
   return (
+    <>
     <Shell>
       <FeedHeader
         dropDate={built.dropDate}
@@ -316,12 +317,16 @@ export function Feed() {
         </button>
       )}
 
-      <TermSheet
-        entry={term?.entry ?? null}
-        paper={term?.paper ?? null}
-        onClose={() => setTerm(null)}
-      />
     </Shell>
+
+    {/* Sibling of Shell, not a child: Shell is a fixed-position stacking
+        context that would trap the sheet's z-index under the tab bar. */}
+    <TermSheet
+      entry={term?.entry ?? null}
+      paper={term?.paper ?? null}
+      onClose={() => setTerm(null)}
+    />
+    </>
   );
 }
 

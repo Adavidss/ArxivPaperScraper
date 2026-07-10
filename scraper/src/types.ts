@@ -25,6 +25,7 @@ export interface RawPaper {
 export interface Candidate {
   raw: RawPaper;
   followedIds: string[];
+  matchedKeywords: string[];
   source: PaperSource;
   kind: "new" | "version-bump" | "retry";
 }

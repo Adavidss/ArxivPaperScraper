@@ -52,6 +52,8 @@ export interface SettingsData {
   eli5Default?: boolean;
   showForYou?: boolean;
   onboarded?: boolean;
+  /** "mono-dark" (default) | "mono-light" | "classic". */
+  theme?: string;
 }
 
 export interface SyncData {

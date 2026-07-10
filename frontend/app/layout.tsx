@@ -22,11 +22,15 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0a0a12",
+  themeColor: "#000000",
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
 };
+
+// Applies the saved theme before first paint (default: mono-dark). Kept as a
+// parser-blocking inline script so non-default themes never flash.
+const THEME_BOOT = `(function(){try{var t=JSON.parse(localStorage.getItem("ab:settings")||"{}").theme;document.documentElement.setAttribute("data-theme",t||"mono-dark");}catch(e){document.documentElement.setAttribute("data-theme","mono-dark");}})()`;
 
 export default function RootLayout({
   children,
@@ -36,6 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-canvas text-fg">
+        <script dangerouslySetInnerHTML={{ __html: THEME_BOOT }} />
         {children}
         <TabBarLive />
         <SWRegister />

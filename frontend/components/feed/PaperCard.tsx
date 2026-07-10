@@ -102,6 +102,10 @@ export function PaperCard({
             <span className="text-[8px]">●</span>
             {item.authorsLine.split(",")[0]}
           </span>
+        ) : (item.matchedKeywords ?? []).length > 0 ? (
+          <span className="min-w-0 truncate font-medium text-accent">
+            #{item.matchedKeywords[0]}
+          </span>
         ) : (
           <span className="flex items-center gap-1 font-medium text-gem">
             ◆ {gem ? "Today's gem" : "For you"}

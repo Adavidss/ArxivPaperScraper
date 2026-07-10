@@ -30,7 +30,12 @@ export interface FollowsSettings {
 export interface FollowsFile {
   version: 1;
   authors: FollowedAuthor[];
-  /** Categories always included in For-You beyond those inferred from follows. */
+  /** Followed topic keywords; each is searched as an exact phrase (all:"…"). */
+  keywords: string[];
+  /**
+   * The ONLY categories the For-You tail draws from — nothing is inferred.
+   * Empty array = no discovery papers at all.
+   */
   extraCategories: string[];
   settings: FollowsSettings;
 }
@@ -109,6 +114,8 @@ export interface PaperDetail {
   doi: string | null;
   links: PaperLinks;
   source: PaperSource;
+  /** Followed keywords this paper matched (empty for author/discovery hits). */
+  matchedKeywords: string[];
   /** Tombstone: kept in the feed so client read-state never dangles. */
   withdrawn: boolean;
   biteStatus: BiteStatus;
@@ -125,6 +132,8 @@ export interface FeedItem {
   /** Display line, e.g. "Walsworth, Smith +4". */
   authorsLine: string;
   followedIds: string[];
+  /** Followed keywords this paper matched. */
+  matchedKeywords: string[];
   primaryCategory: string;
   /** YYYY-MM-DD (announcement-relevant date). */
   published: string;

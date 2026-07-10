@@ -11,7 +11,7 @@ import {
   FORYOU_MAX_AGE_DAYS,
   loadConfig,
 } from "./config";
-import { fetchAuthorPapers, fetchCategoryPapers } from "./arxiv";
+import { fetchAuthorPapers, fetchCategoryPapers, fetchKeywordPapers } from "./arxiv";
 import { GeminiClient, QuotaExhaustedError } from "./gemini";
 import { extractiveBite } from "./fallback";
 import { loadPapers, loadState, retagFollowedAuthors, writeAll } from "./store";
@@ -44,9 +44,9 @@ const detailToRaw = (p: PaperDetail): RawPaper => ({
 
 async function main() {
   const cfg = loadConfig();
-  const { authors, extraCategories, settings } = cfg.follows;
+  const { authors, keywords, extraCategories, settings } = cfg.follows;
   console.log(
-    `digest: ${cfg.nowIso} — ${authors.length} author(s), gemini key: ${cfg.geminiApiKey ? "present" : "MISSING (extractive fallback only)"}`,
+    `digest: ${cfg.nowIso} — ${authors.length} author(s), ${keywords.length} keyword(s), gemini key: ${cfg.geminiApiKey ? "present" : "MISSING (extractive fallback only)"}`,
   );
 
   const state = loadState(cfg.dataDir);
@@ -74,6 +74,7 @@ async function main() {
             candidates.set(raw.id, {
               raw,
               followedIds: [author.id],
+              matchedKeywords: [],
               source: "follow",
               kind: "new",
             });
@@ -83,6 +84,37 @@ async function main() {
       } catch (err) {
         console.warn(`arxiv: alias "${alias}" FAILED, skipping — ${(err as Error).message}`);
       }
+    }
+  }
+
+  // --- 1b. followed keywords ---------------------------------------------------
+  // Keyword papers are part of the daily drop (source "follow"), same as
+  // author papers — these are topics the user explicitly follows.
+  for (const keyword of keywords) {
+    try {
+      const results = await fetchKeywordPapers(keyword, settings.maxPerAuthor);
+      let kept = 0;
+      for (const raw of results) {
+        if (raw.published < lookbackCutoff) continue;
+        kept++;
+        const existing = candidates.get(raw.id);
+        if (existing) {
+          if (!existing.matchedKeywords.includes(keyword))
+            existing.matchedKeywords.push(keyword);
+          if (raw.version > existing.raw.version) existing.raw = raw;
+        } else {
+          candidates.set(raw.id, {
+            raw,
+            followedIds: [],
+            matchedKeywords: [keyword],
+            source: "follow",
+            kind: "new",
+          });
+        }
+      }
+      console.log(`arxiv: all:"${keyword}" → ${results.length} results, ${kept} in lookback`);
+    } catch (err) {
+      console.warn(`arxiv: keyword "${keyword}" FAILED, skipping — ${(err as Error).message}`);
     }
   }
 
@@ -98,15 +130,9 @@ async function main() {
   }
 
   // --- 2. For-You category pool ----------------------------------------------
-  const catCounts = new Map<string, number>();
-  const bump = (cat: string) => catCounts.set(cat, (catCounts.get(cat) ?? 0) + 1);
-  for (const p of papers.values()) if (p.source === "follow") bump(p.primaryCategory);
-  for (const c of candidates.values()) bump(c.raw.primaryCategory);
-  const topCats = [...catCounts]
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, FORYOU_CATEGORY_COUNT)
-    .map(([cat]) => cat);
-  const cats = [...new Set([...topCats, ...extraCategories])];
+  // Discovery draws ONLY from categories the user explicitly configured —
+  // nothing is inferred from their papers. No categories = no For-You.
+  const cats = [...new Set(extraCategories)].slice(0, FORYOU_CATEGORY_COUNT);
   const forYouCutoff = new Date(
     Date.now() - FORYOU_MAX_AGE_DAYS * 86_400_000,
   ).toISOString();
@@ -145,7 +171,13 @@ async function main() {
       const raw = list[i];
       if (seenForYou.has(raw.id)) continue;
       seenForYou.add(raw.id);
-      forYou.push({ raw, followedIds: [], source: "foryou", kind: "new" });
+      forYou.push({
+        raw,
+        followedIds: [],
+        matchedKeywords: [],
+        source: "foryou",
+        kind: "new",
+      });
       if (forYou.length >= forYouBudget) break outer;
     }
     if (!any) break;
@@ -163,7 +195,13 @@ async function main() {
     if (workBound.has(id)) continue;
     const p = papers.get(id);
     if (!p || p.withdrawn) continue;
-    retries.push({ raw: detailToRaw(p), followedIds: [], source: p.source, kind: "retry" });
+    retries.push({
+      raw: detailToRaw(p),
+      followedIds: [],
+      matchedKeywords: p.matchedKeywords ?? [],
+      source: p.source,
+      kind: "retry",
+    });
   }
 
   // --- 4. work list, capped ----------------------------------------------------
@@ -215,6 +253,7 @@ async function main() {
       html: `https://arxiv.org/html/${c.raw.id}`,
     },
     source: c.source,
+    matchedKeywords: c.matchedKeywords,
     withdrawn,
     biteStatus,
     bite,
@@ -303,6 +342,16 @@ async function main() {
 
   // --- 8. write --------------------------------------------------------------------
   retagFollowedAuthors(papers, authors);
+  // Keywords can newly match papers that were already summarized — merge the
+  // tags onto the stored copies (removal keeps historical tags, harmless).
+  for (const c of candidates.values()) {
+    if (!c.matchedKeywords.length) continue;
+    const stored = papers.get(c.raw.id);
+    if (!stored) continue;
+    stored.matchedKeywords = [
+      ...new Set([...(stored.matchedKeywords ?? []), ...c.matchedKeywords]),
+    ];
+  }
   state.retryQueue = [...retrySet].filter((id) => papers.has(id));
   state.lastRun = {
     at: cfg.nowIso,

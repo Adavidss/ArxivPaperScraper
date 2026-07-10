@@ -1,20 +1,21 @@
 @import "tailwindcss";
 
-/* Design tokens — dark-first. Semantic color law (from the v12 prototype,
-   promoted to a system): cyan = paper/actionable · amber = synthesis/meta ·
-   green = evidence/numbers · violet = discovery. */
+/* Design tokens. Default theme = "Mono dark": pure black & white with
+   grayscale hierarchy. Two more themes override the same variables via
+   html[data-theme]: "mono-light" (white & black) and "classic" (the original
+   cyan/amber/green/violet system, kept on hand as a setting). */
 @theme {
-  --color-canvas: #0a0a12;
-  --color-surface: #14141f;
-  --color-surface-2: #1a1a2e;
-  --color-border: #2a2a3e;
-  --color-fg: #e7e7ef;
-  --color-muted: #8e8ea0;
-  --color-accent: #00d2ff;
-  --color-accent-2: #3a7bd5;
-  --color-gold: #ffc107;
-  --color-data: #34d399;
-  --color-gem: #a78bfa;
+  --color-canvas: #000000;
+  --color-surface: #101010;
+  --color-surface-2: #1a1a1a;
+  --color-border: #2e2e2e;
+  --color-fg: #f2f2f2;
+  --color-muted: #969696;
+  --color-accent: #ffffff;
+  --color-accent-2: #c9c9c9;
+  --color-gold: #dcdcdc;
+  --color-data: #f2f2f2;
+  --color-gem: #a8a8a8;
 
   --font-display: "Source Serif 4", ui-serif, Georgia, "Times New Roman", serif;
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -39,9 +40,42 @@
   }
 }
 
+/* "White and black" mono theme. */
+html[data-theme="mono-light"] {
+  --color-canvas: #ffffff;
+  --color-surface: #f5f5f5;
+  --color-surface-2: #ebebeb;
+  --color-border: #d4d4d4;
+  --color-fg: #141414;
+  --color-muted: #6e6e6e;
+  --color-accent: #000000;
+  --color-accent-2: #3c3c3c;
+  --color-gold: #2b2b2b;
+  --color-data: #111111;
+  --color-gem: #555555;
+  color-scheme: light;
+}
+
+/* The original cyan UI, kept as an optional setting. */
+html[data-theme="classic"] {
+  --color-canvas: #0a0a12;
+  --color-surface: #14141f;
+  --color-surface-2: #1a1a2e;
+  --color-border: #2a2a3e;
+  --color-fg: #e7e7ef;
+  --color-muted: #8e8ea0;
+  --color-accent: #00d2ff;
+  --color-accent-2: #3a7bd5;
+  --color-gold: #ffc107;
+  --color-data: #34d399;
+  --color-gem: #a78bfa;
+  color-scheme: dark;
+}
+
 html {
   background: var(--color-canvas);
   color: var(--color-fg);
+  color-scheme: dark;
 }
 
 body {

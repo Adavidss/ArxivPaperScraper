@@ -99,6 +99,19 @@ export function fetchAuthorPapers(
   });
 }
 
+/** Recent papers matching a followed keyword phrase, newest first. */
+export function fetchKeywordPapers(
+  keyword: string,
+  maxResults: number,
+): Promise<RawPaper[]> {
+  return query({
+    search_query: `all:"${keyword}"`,
+    sortBy: "submittedDate",
+    sortOrder: "descending",
+    max_results: String(maxResults),
+  });
+}
+
 /** Recent papers in one arXiv category, newest first (For-You pool). */
 export function fetchCategoryPapers(
   category: string,

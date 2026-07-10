@@ -13,7 +13,7 @@ import {
   syncFollowOps,
   validatePat,
 } from "@/lib/github";
-import { useDrop, useStoreVersion } from "@/lib/hooks";
+import { useDrop, useMounted, useStoreVersion } from "@/lib/hooks";
 import {
   exportBackup,
   getSettings,
@@ -22,6 +22,7 @@ import {
   updateSettings,
   updateSync,
 } from "@/lib/store";
+import { applyTheme, DEFAULT_THEME, THEMES, type ThemeId } from "@/lib/theme";
 import { Icons } from "@/components/ui/icons";
 import { PageShell } from "@/components/ui/PageShell";
 
@@ -36,6 +37,7 @@ type SyncStatus =
 
 export default function SettingsPage() {
   useStoreVersion();
+  const mounted = useMounted();
   const drop = useDrop();
   const [follows, setFollows] = useState<FollowsFile | null>(null);
   const [status, setStatus] = useState<SyncStatus>({ kind: "idle" });
@@ -43,9 +45,13 @@ export default function SettingsPage() {
   const [name, setName] = useState("");
   const [aliases, setAliases] = useState("");
   const [patInput, setPatInput] = useState("");
+  const [keywordInput, setKeywordInput] = useState("");
+  const [categoriesInput, setCategoriesInput] = useState("");
+  const [editingCategories, setEditingCategories] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
   const settings = getSettings();
   const pat = settings.pat;
+  const theme = (settings.theme as ThemeId) || DEFAULT_THEME;
 
   useEffect(() => {
     loadFollows().then(setFollows).catch(() => setFollows(null));
@@ -122,12 +128,37 @@ export default function SettingsPage() {
     void runOps(pending, (f) => f);
   };
 
+  const addKeyword = () => {
+    const kw = keywordInput.trim();
+    if (!kw) return;
+    setKeywordInput("");
+    void runOps([{ op: "add-keyword", keyword: kw }], (f) => ({
+      ...f,
+      keywords: [...(f.keywords ?? []), kw],
+    }));
+  };
+
+  const saveCategories = () => {
+    const cats = categoriesInput
+      .split(",")
+      .map((c) => c.trim())
+      .filter(Boolean);
+    setEditingCategories(false);
+    void runOps([{ op: "set-categories", categories: cats }], (f) => ({
+      ...f,
+      extraCategories: cats,
+    }));
+  };
+
   const pendingCount = ((getSync().pendingFollowOps ?? []) as FollowOp[]).length;
   const authorSnippet = JSON.stringify(
     { id: "author-slug", name: "Full Name", aliases: ["F. Name", "Full M. Name"] },
     null,
     1,
   );
+
+  // PAT/theme branches derive from localStorage — never prerender them.
+  if (!mounted) return <PageShell title="Settings">{null}</PageShell>;
 
   return (
     <PageShell title="Settings">
@@ -276,29 +307,163 @@ export default function SettingsPage() {
         )}
       </section>
 
-      {/* For-You */}
+      {/* Keywords */}
+      <section className="rounded-2xl border border-border bg-surface p-4">
+        <h2 className="text-xs font-bold uppercase tracking-widest text-muted">
+          Followed keywords
+        </h2>
+        <p className="mt-1 text-[11px] text-muted">
+          Each keyword is searched daily as an exact phrase — its new papers
+          join your drop alongside your authors&apos;.
+        </p>
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {(follows?.keywords ?? []).map((kw) => (
+            <span
+              key={kw}
+              className="flex items-center gap-1 rounded-full border border-accent/30 bg-accent/10 px-2.5 py-1 text-xs text-accent"
+            >
+              #{kw}
+              {pat && (
+                <button
+                  type="button"
+                  aria-label={`Unfollow keyword ${kw}`}
+                  onClick={() =>
+                    runOps([{ op: "remove-keyword", keyword: kw }], (f) => ({
+                      ...f,
+                      keywords: (f.keywords ?? []).filter((k) => k !== kw),
+                    }))
+                  }
+                  className="-mr-1 rounded-full p-0.5 opacity-70 transition hover:opacity-100"
+                >
+                  <Icons.X size={12} />
+                </button>
+              )}
+            </span>
+          ))}
+          {follows && (follows.keywords ?? []).length === 0 && (
+            <span className="text-xs text-muted">none yet</span>
+          )}
+        </div>
+        {pat && (
+          <div className="mt-3 flex gap-2">
+            <input
+              value={keywordInput}
+              onChange={(e) => setKeywordInput(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && addKeyword()}
+              placeholder='e.g. "quantum sensing"'
+              className="min-w-0 flex-1 rounded-lg border border-border bg-canvas px-3 py-2 text-fg placeholder:text-muted focus:border-accent focus:outline-none"
+            />
+            <button
+              type="button"
+              onClick={addKeyword}
+              disabled={!keywordInput.trim()}
+              className="rounded-lg border border-accent/40 bg-accent/10 px-3 py-2 text-sm font-medium text-accent disabled:opacity-40"
+            >
+              Follow
+            </button>
+          </div>
+        )}
+      </section>
+
+      {/* Discovery */}
       <section className="rounded-2xl border border-border bg-surface p-4">
         <h2 className="text-xs font-bold uppercase tracking-widest text-muted">Discovery</h2>
+        <p className="mt-1 text-[11px] text-muted">
+          Off unless you say otherwise: discovery papers come ONLY from the
+          categories listed here. Leave it empty for a follows-only feed.
+        </p>
         <label className="mt-3 flex items-center justify-between gap-3 text-sm">
           <span>
-            For-You tail after the drop
+            Show the For-You tail after the drop
             <span className="block text-[11px] text-muted">
-              a few fresh papers from your categories — capped daily, never a goal
+              capped daily, always after the finish line, never a goal
             </span>
           </span>
           <input
             type="checkbox"
             checked={settings.showForYou ?? true}
             onChange={(e) => updateSettings({ showForYou: e.target.checked })}
-            className="h-5 w-5 accent-[#00d2ff]"
+            className="h-5 w-5 accent-accent"
           />
         </label>
-        {follows && (
-          <p className="mt-3 text-[11px] text-muted">
-            Extra categories: {follows.extraCategories.join(", ") || "none"} —
-            inferred categories come from your follows&apos; recent papers.
-          </p>
-        )}
+        <div className="mt-3">
+          {editingCategories ? (
+            <div className="flex gap-2">
+              <input
+                value={categoriesInput}
+                onChange={(e) => setCategoriesInput(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && saveCategories()}
+                placeholder="comma-separated, e.g. quant-ph, cs.LG"
+                className="min-w-0 flex-1 rounded-lg border border-border bg-canvas px-3 py-2 font-mono text-sm text-fg placeholder:font-sans placeholder:text-muted focus:border-accent focus:outline-none"
+              />
+              <button
+                type="button"
+                onClick={saveCategories}
+                className="rounded-lg border border-accent/40 bg-accent/10 px-3 py-2 text-sm font-medium text-accent"
+              >
+                Save
+              </button>
+            </div>
+          ) : (
+            <div className="flex items-center justify-between gap-2">
+              <p className="text-xs text-muted">
+                Categories:{" "}
+                <span className="font-mono text-fg">
+                  {follows?.extraCategories.join(", ") || "none (no discovery)"}
+                </span>
+              </p>
+              {pat && follows && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setCategoriesInput(follows.extraCategories.join(", "));
+                    setEditingCategories(true);
+                  }}
+                  className="shrink-0 rounded-lg border border-border px-2.5 py-1 text-xs text-muted transition hover:text-fg"
+                >
+                  Edit
+                </button>
+              )}
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* Appearance */}
+      <section className="rounded-2xl border border-border bg-surface p-4">
+        <h2 className="text-xs font-bold uppercase tracking-widest text-muted">Appearance</h2>
+        <div className="mt-3 grid grid-cols-3 gap-2">
+          {THEMES.map((t) => (
+            <button
+              key={t.id}
+              type="button"
+              aria-pressed={theme === t.id}
+              onClick={() => {
+                updateSettings({ theme: t.id });
+                applyTheme(t.id);
+              }}
+              className={`rounded-xl border p-3 text-left transition ${
+                theme === t.id ? "border-accent bg-accent/10" : "border-border"
+              }`}
+            >
+              <span
+                className="mb-2 flex h-6 w-full overflow-hidden rounded-md border border-border"
+                aria-hidden
+              >
+                {(t.id === "mono-dark"
+                  ? ["#000", "#f2f2f2", "#969696"]
+                  : t.id === "mono-light"
+                    ? ["#fff", "#141414", "#6e6e6e"]
+                    : ["#0a0a12", "#00d2ff", "#ffc107"]
+                ).map((c) => (
+                  <span key={c} className="h-full flex-1" style={{ background: c }} />
+                ))}
+              </span>
+              <span className="block text-xs font-semibold">{t.label}</span>
+              <span className="block text-[10px] text-muted">{t.desc}</span>
+            </button>
+          ))}
+        </div>
       </section>
 
       {/* GitHub sync */}

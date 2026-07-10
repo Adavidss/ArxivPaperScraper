@@ -35,9 +35,12 @@ The contract for all of these lives in `frontend/lib/data-schema.ts`.
    `GEMINI_API_KEY` (Settings → Secrets and variables → Actions).
 2. **Pages**: Settings → Pages → Source: **GitHub Actions** (the workflow also
    tries to enable this itself on first run).
-3. **Follows**: edit `data/follows.json` (authors + name-variant aliases —
-   arXiv matches exact strings, so include e.g. `"R. Walsworth"` and
-   `"Ronald L. Walsworth"`).
+3. **Follows**: edit `data/follows.json` — authors (with name-variant
+   aliases: arXiv matches exact strings, so include e.g. `"R. Walsworth"`
+   and `"Ronald L. Walsworth"`) and `keywords` (exact phrases searched
+   daily; their papers join the drop). `extraCategories` is the ONLY source
+   of For-You discovery papers — leave it empty for a follows-only feed;
+   nothing is ever inferred.
 4. Optional, for editing follows from your phone: create a **fine-grained PAT**
    scoped to this repo only, with **Contents: Read & Write** and
    **Actions: Read & Write**, and paste it into the app's Settings. Follow
@@ -55,6 +58,12 @@ cd frontend && npm install
 cp -R ../data public/data && rm -f public/data/state.json   # local data for dev
 npm run dev
 ```
+
+## Appearance
+
+Default theme is **Mono dark** (black & white). **Mono light** (white &
+black) and **Classic** (the original cyan look) are available in Settings →
+Appearance.
 
 ## Anti-doomscroll guarantees
 

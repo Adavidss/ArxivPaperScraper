@@ -14,10 +14,13 @@ export type FollowOp =
   | { op: "add-author"; author: FollowedAuthor }
   | { op: "remove-author"; id: string }
   | { op: "edit-author"; author: FollowedAuthor }
+  | { op: "add-keyword"; keyword: string }
+  | { op: "remove-keyword"; keyword: string }
   | { op: "set-categories"; categories: string[] };
 
 export function applyOps(doc: FollowsFile, ops: FollowOp[]): FollowsFile {
   const next: FollowsFile = JSON.parse(JSON.stringify(doc));
+  next.keywords ??= []; // older follows.json predates keywords
   for (const o of ops) {
     if (o.op === "add-author") {
       if (!next.authors.some((a) => a.id === o.author.id)) next.authors.push(o.author);
@@ -25,6 +28,14 @@ export function applyOps(doc: FollowsFile, ops: FollowOp[]): FollowsFile {
       next.authors = next.authors.filter((a) => a.id !== o.id);
     } else if (o.op === "edit-author") {
       next.authors = next.authors.map((a) => (a.id === o.author.id ? o.author : a));
+    } else if (o.op === "add-keyword") {
+      const kw = o.keyword.trim();
+      if (kw && !next.keywords.some((k) => k.toLowerCase() === kw.toLowerCase()))
+        next.keywords.push(kw);
+    } else if (o.op === "remove-keyword") {
+      next.keywords = next.keywords.filter(
+        (k) => k.toLowerCase() !== o.keyword.toLowerCase(),
+      );
     } else {
       next.extraCategories = o.categories;
     }
@@ -85,7 +96,11 @@ export async function syncFollowOps(pat: string, ops: FollowOp[]): Promise<Follo
             ? `unfollow ${o.id}`
             : o.op === "edit-author"
               ? `edit ${o.author.name}`
-              : "update categories",
+              : o.op === "add-keyword"
+                ? `follow keyword "${o.keyword}"`
+                : o.op === "remove-keyword"
+                  ? `unfollow keyword "${o.keyword}"`
+                  : "update categories",
       )
       .join(", ");
     const res = await gh(pat, `/contents/${FILE_PATH}`, {

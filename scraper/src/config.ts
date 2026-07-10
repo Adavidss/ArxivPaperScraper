@@ -35,10 +35,15 @@ export const FORYOU_FETCH_PER_CATEGORY = 15;
 export const FORYOU_CATEGORY_COUNT = 3;
 
 export function loadConfig(): Config {
-  const dataDir = fileURLToPath(new URL("../../data/", import.meta.url));
+  // DATA_DIR override lets tests run against a scratch copy.
+  const dataDir =
+    process.env.DATA_DIR ?? fileURLToPath(new URL("../../data/", import.meta.url));
   const follows = JSON.parse(
     readFileSync(join(dataDir, "follows.json"), "utf8"),
   ) as FollowsFile;
+  // Older follows.json may predate these fields.
+  follows.keywords ??= [];
+  follows.extraCategories ??= [];
   const now = new Date();
   return {
     follows,

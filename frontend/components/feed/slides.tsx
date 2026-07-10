@@ -70,14 +70,16 @@ export function CaughtUpSlide({
     fired.current = true;
     updateSync({ celebratedDrop: dropDate });
     if (!prefersReducedMotion()) {
-      import("canvas-confetti").then(({ default: confetti }) => {
-        confetti({
-          particleCount: 90,
-          spread: 75,
-          origin: { y: 0.7 },
-          colors: ["#00d2ff", "#3a7bd5", "#ffc107", "#34d399"],
-        });
-      });
+      Promise.all([import("canvas-confetti"), import("@/lib/theme")]).then(
+        ([{ default: confetti }, { themeColors }]) => {
+          confetti({
+            particleCount: 90,
+            spread: 75,
+            origin: { y: 0.7 },
+            colors: themeColors(),
+          });
+        },
+      );
     }
   }, [active, allRead, dropDate]);
 

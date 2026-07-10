@@ -1,0 +1,53 @@
+{
+ "id": "2607.01615",
+ "version": 1,
+ "title": "Noise Suppression via Pulsed All-Optical Magnetometry with Nitrogen-Vacancy Ensembles",
+ "authors": [
+  {
+   "name": "Xiechen Zheng"
+  },
+  {
+   "name": "Jeyson Támara-Isaza"
+  },
+  {
+   "name": "John W. Blanchard"
+  },
+  {
+   "name": "Ronald L. Walsworth",
+   "followedId": "ronald-walsworth"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-02T02:32:04Z",
+ "updated": "2026-07-02T02:32:04Z",
+ "abstract": "All-optical (AO) microwave-free magnetometry using nitrogen-vacancy (NV) centers in diamond simplifies experimental design and broadens sample compatibility. While continuous-wave (cw) detection of AO photoluminescence (PL) changes is commonly employed, its performance is susceptible to systematic fluctuations such as optical intensity noise. To address these challenges, we introduce a pulsed AO protocol that employs two PL measurements within an optical pulse to suppress common-mode noise. At near-zero magnetic field, we experimentally demonstrate that the pulsed AO protocol resolves AO-PL contrast features arising from NV-NV cross-relaxation, achieving up to 10$\\times$ improvement in the low-frequency noise floor compared to conventional cw AO techniques. We further investigate the dependence of AO-PL contrast on PL readout timing and the dark time duration $τ$ between optical pulses, with the optimal $τ$ varying based on NV concentrations. These findings provide insights into optimizing NV-diamond samples for effective AO operation across diverse applications.",
+ "comment": "9 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.01615",
+  "pdf": "https://arxiv.org/pdf/2607.01615",
+  "html": "https://arxiv.org/html/2607.01615"
+ },
+ "source": "follow",
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-07-10T03:44:10.232Z",
+  "hook": "All-optical (AO) microwave-free magnetometry using nitrogen-vacancy (NV) centers in diamond simplifies experimental…",
+  "tldr": [
+   "To address these challenges, we introduce a pulsed AO protocol that employs two PL measurements within an optical pulse to suppress common-mode noise.",
+   "While continuous-wave (cw) detection of AO photoluminescence (PL) changes is commonly employed, its performance is susceptible to systematic fluctuations such…",
+   "While continuous-wave (cw) detection of AO photoluminescence (PL) changes is commonly employed, its performance is susceptible to systematic fluctuations such…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 41
+ }
+}

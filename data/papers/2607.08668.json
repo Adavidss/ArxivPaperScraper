@@ -1,0 +1,54 @@
+{
+ "id": "2607.08668",
+ "version": 1,
+ "title": "Microwave Studies of Single Crystal TeO2 at Cryogenic Temperatures",
+ "authors": [
+  {
+   "name": "Timothy Holt"
+  },
+  {
+   "name": "Maxim Goryachev"
+  },
+  {
+   "name": "William Campbell"
+  },
+  {
+   "name": "Michael E. Tobar"
+  }
+ ],
+ "categories": [
+  "cond-mat.mtrl-sci",
+  "physics.app-ph",
+  "physics.ins-det"
+ ],
+ "primaryCategory": "cond-mat.mtrl-sci",
+ "published": "2026-07-09T16:35:09Z",
+ "updated": "2026-07-09T16:35:09Z",
+ "abstract": "We use whispering-gallery-mode analysis to characterise the microwave dielectric properties of single-crystal TeO$_2$ at cryogenic temperatures and compare its loss performance with other low-loss dielectric materials. Finite-element modelling is combined with measurements at room temperature, 4 K, and 20 mK to develop accurate cryogenic simulations and extract the anisotropic dielectric permittivities, giving $\\varepsilon_\\parallel=25.75\\pm0.08$ and $\\varepsilon_\\perp=20.90\\pm0.07$. Loss measurements reveal quality factors as high as $9\\times10^6$ and minimum loss tangents approaching $3\\times10^{-8}$, placing TeO$_2$ among promising low-loss dielectrics for cryogenic microwave applications. Electron-spin-resonance spectroscopy further indicates a clean spin environment, while identifying distinct spin systems consistent with the known properties of the crystal.",
+ "comment": "10 pafes, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08668",
+  "pdf": "https://arxiv.org/pdf/2607.08668",
+  "html": "https://arxiv.org/html/2607.08668"
+ },
+ "source": "foryou",
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-07-10T03:44:10.232Z",
+  "hook": "We use whispering-gallery-mode analysis to characterise the microwave dielectric properties of single-crystal TeO$_2$…",
+  "tldr": [
+   "Loss measurements reveal quality factors as high as $9\\times10^6$ and minimum loss tangents approaching $3\\times10^{-8}$, placing TeO$_2$ among promising…",
+   "07$.",
+   "We use whispering-gallery-mode analysis to characterise the microwave dielectric properties of single-crystal TeO$_2$ at cryogenic temperatures and compare…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 33
+ }
+}

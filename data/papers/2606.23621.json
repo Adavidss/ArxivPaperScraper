@@ -1,0 +1,81 @@
+{
+ "id": "2606.23621",
+ "version": 1,
+ "title": "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers",
+ "authors": [
+  {
+   "name": "Daniel G. Ang"
+  },
+  {
+   "name": "Jiashen Tang"
+  },
+  {
+   "name": "Maximilian Shen"
+  },
+  {
+   "name": "Michael Titze"
+  },
+  {
+   "name": "Gavishta Liyanage"
+  },
+  {
+   "name": "Jordan Chapman"
+  },
+  {
+   "name": "Chinmay Bharathulwar"
+  },
+  {
+   "name": "Andrew T. Gilpin"
+  },
+  {
+   "name": "Tanguy Terlier"
+  },
+  {
+   "name": "Edward S. Bielejec"
+  },
+  {
+   "name": "Vsevolod Ivanov"
+  },
+  {
+   "name": "Ronald L. Walsworth",
+   "followedId": "ronald-walsworth"
+  }
+ ],
+ "categories": [
+  "physics.ins-det",
+  "cond-mat.mes-hall",
+  "cond-mat.mtrl-sci",
+  "hep-ex",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.ins-det",
+ "published": "2026-06-22T17:18:37Z",
+ "updated": "2026-06-22T17:18:37Z",
+ "abstract": "Understanding particle-induced damage tracks in solid-state materials underpins emerging applications in rare-event detection and quantum defect engineering. Resolving these tracks requires multi-scale readout, from event localization at the millimeter scale to track-morphology reconstruction at the nanoscale. Nitrogen-vacancy (NV) centers in diamond provide such a platform, combining optical localization with quantum sensing of track morphology. Here, we implant sub-MeV carbon ions into nitrogen-rich diamond and detect individual recoil events via spatially localized NV formation. We develop a simulation framework that explains the observed NV yield and predicts that directional information is retained in the NV distribution after annealing. Machine learning further recovers much of the information lost to defect diffusion and limited NV yield, improving head-tail classification to a level comparable to pre-annealed vacancy tracks. Measurements of NV spin coherence indicate compatibility with nanoscale track reconstruction via NV strain mapping and magnetic gradient-based techniques. These results identify promising pathways toward NV-diamond directional detectors for rare events, while the track-modeling framework has broader implications for paleodetection and quantum material synthesis.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2606.23621",
+  "pdf": "https://arxiv.org/pdf/2606.23621",
+  "html": "https://arxiv.org/html/2606.23621"
+ },
+ "source": "follow",
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-07-10T03:44:10.232Z",
+  "hook": "Understanding particle-induced damage tracks in solid-state materials underpins emerging applications in rare-event…",
+  "tldr": [
+   "We develop a simulation framework that explains the observed NV yield and predicts that directional information is retained in the NV distribution after…",
+   "Resolving these tracks requires multi-scale readout, from event localization at the millimeter scale to track-morphology reconstruction at the nanoscale.",
+   "These results identify promising pathways toward NV-diamond directional detectors for rare events, while the track-modeling framework has broader implications…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "2606.05426",
+ "version": 1,
+ "title": "A nanoscale magnetic spectrum analyzer based on qubit dressed states",
+ "authors": [
+  {
+   "name": "Jan Rueschkamp"
+  },
+  {
+   "name": "Shantam Ravan"
+  },
+  {
+   "name": "Daniel Fernandez"
+  },
+  {
+   "name": "Nazar Delegan"
+  },
+  {
+   "name": "F. Joseph Heremans"
+  },
+  {
+   "name": "David D. Awschalom"
+  },
+  {
+   "name": "Ronald L. Walsworth",
+   "followedId": "ronald-walsworth"
+  },
+  {
+   "name": "Nikola Maksimovic"
+  },
+  {
+   "name": "Amir Yacoby"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-06-03T20:48:12Z",
+ "updated": "2026-06-03T20:48:12Z",
+ "abstract": "Magnetic field fluctuations on nanometer length scales manifest in a diverse range of phenomena -- electron and spin dynamics in materials and devices, quantum many-body systems, and molecular chemistry. Measuring these phenomena requires sensors with a challenging combination of broad spectral bandwidth, high sensitivity, and nanoscale spatial resolution. Nitrogen-vacancy (NV) centers, atom-like quantum sensors in diamond, possess the requisite sensitivity and nanoscale sensing volume, but are typically limited in bandwidth by the practical speed of the applied quantum control sequence. Here, we overcome this limitation by exposing the NV qubit to a microwave dressing field during a dynamical decoupling sequence, which both amplifies and frequency-mixes target signals at arbitrary frequencies into the detection band of the dynamical decoupling protocol. We demonstrate this approach by using NV centers to detect both coherent and noisy nanoscale spin wave dynamics in a magnetic yttrium-iron-garnet (YIG) thin film over a broad frequency range. Our technique generalizes to other qubit platforms, providing a versatile framework for nanoscale spectroscopy across diverse physical and chemical systems.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2606.05426",
+  "pdf": "https://arxiv.org/pdf/2606.05426",
+  "html": "https://arxiv.org/html/2606.05426"
+ },
+ "source": "follow",
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-07-10T03:44:10.232Z",
+  "hook": "Magnetic field fluctuations on nanometer length scales manifest in a diverse range of phenomena -- electron and spin…",
+  "tldr": [
+   "We demonstrate this approach by using NV centers to detect both coherent and noisy nanoscale spin wave dynamics in a magnetic yttrium-iron-garnet (YIG) thin…",
+   "Measuring these phenomena requires sensors with a challenging combination of broad spectral bandwidth, high sensitivity, and nanoscale spatial resolution.",
+   "Our technique generalizes to other qubit platforms, providing a versatile framework for nanoscale spectroscopy across diverse physical and chemical systems."
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 41
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "2606.03738",
+ "version": 1,
+ "title": "Demonstrating magnetic memory in iron-rhodium structures using a quantum diamond microscope",
+ "authors": [
+  {
+   "name": "Kristine V. Ung"
+  },
+  {
+   "name": "Gregory M. Stephen"
+  },
+  {
+   "name": "Nicholas A. Blumenschein"
+  },
+  {
+   "name": "Alexander J. Edwards"
+  },
+  {
+   "name": "Samuel W. LaGasse"
+  },
+  {
+   "name": "Steven P. Bennett"
+  },
+  {
+   "name": "Aubrey T. Hanbicki"
+  },
+  {
+   "name": "Ronald L. Walsworth",
+   "followedId": "ronald-walsworth"
+  },
+  {
+   "name": "Adam L. Friedman"
+  },
+  {
+   "name": "Paul V. Petruzzi"
+  }
+ ],
+ "categories": [
+  "cond-mat.mtrl-sci",
+  "physics.ins-det"
+ ],
+ "primaryCategory": "cond-mat.mtrl-sci",
+ "published": "2026-06-02T14:53:35Z",
+ "updated": "2026-06-02T14:53:35Z",
+ "abstract": "Iron-rhodium (FeRh) has a first-order phase transition near room temperature between antiferromagnetic (AFM) and ferromagnetic (FM) phases, making it a promising material for magnetic memory technologies like heat-assisted magnetic recording (HAMR). It has a comparatively sharper phase transition and lower writing temperature than alternative materials, implying less thermal engineering constraints and an increase in write/read head lifetime. Despite great effort, however, AFM-based magnetic memory using FeRh has not yet been realized. Here, we employ both wide-field and scanning nanoscale quantum diamond microscopes (QDMs) to image directly the magnetic field of a patterned FeRh thin film structure under ambient conditions, demonstrating a magnetic recording technique that is reliable and robust. We experimentally identify coupling between the Néel and magnetization vector directions; and also, that the magnetic orientation of the FM phase uniquely determines the Néel vector in the AFM phase, due to pinned uncompensated magnetic moments (UMMs) in the FeRh structure. Thus, the magnetic orientation is maintained when the system is cycled between AFM and FM phases, providing the foundation for a practical, AFM-based magnetic memory.",
+ "comment": "12 pages, 6 figures, to be submitted to Nature Materials",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2606.03738",
+  "pdf": "https://arxiv.org/pdf/2606.03738",
+  "html": "https://arxiv.org/html/2606.03738"
+ },
+ "source": "follow",
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-07-10T03:44:10.232Z",
+  "hook": "Iron-rhodium (FeRh) has a first-order phase transition near room temperature between antiferromagnetic (AFM) and…",
+  "tldr": [
+   "Iron-rhodium (FeRh) has a first-order phase transition near room temperature between antiferromagnetic (AFM) and ferromagnetic (FM) phases, making it a…",
+   "It has a comparatively sharper phase transition and lower writing temperature than alternative materials, implying less thermal engineering constraints and an…",
+   "Thus, the magnetic orientation is maintained when the system is cycled between AFM and FM phases, providing the foundation for a practical, AFM-based magnetic…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 42
+ }
+}

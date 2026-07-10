@@ -1,0 +1,52 @@
+{
+ "id": "2607.08762",
+ "version": 1,
+ "title": "Typicality of Steering for Two-qubit States",
+ "authors": [
+  {
+   "name": "Gerard Anglès Munné"
+  },
+  {
+   "name": "Paweł Cieśliński"
+  },
+  {
+   "name": "Tamás Vértesi"
+  },
+  {
+   "name": "Wiesław Laskowski"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-09T17:56:34Z",
+ "updated": "2026-07-09T17:56:34Z",
+ "abstract": "Phenomena that slip beyond the grasp of our classical intuition reveal uniquely quantum effects that deepen our understanding of the physical world and enable advances in information processing, particularly in quantum communication and computation. One such phenomenon is quantum steering, whereby measurements performed by one party influence the conditional states of another when the two share an entangled quantum system. If the observed correlations cannot be explained by a local hidden state model, the state is said to be steerable. In this work, we investigate the typicality of this behavior: given a generic two-qubit state and $m$ Haar-random projective measurements, what is the probability of observing steering? We derive analytical expressions for the steering probability $\\mathcal{P}_S$ of Werner states in two- and three-setting scenarios, the latter restricted to coplanar projective measurements on the Bloch sphere. For larger numbers of settings and various random states ensembles, we perform numerical analyses showing that $\\mathcal{P}_S$ increases systematically with the number of measurements and substantially exceeds the corresponding probabilities associated with Bell nonlocality. Our results demonstrate that random states with minimal environmental coupling exhibit a high probability of steering for finite $m$ and approach genuine typicality, $\\mathcal{P}_S=100\\%$, as the number of settings increases. We provide a detailed characterization of $\\mathcal{P}_S$ across different state ensembles and specific families, including Bell-diagonal and Werner states, identifying those with the greatest non-classical potential and highlighting their relevance for protocols in which steering serves as a key resource.",
+ "comment": "12 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08762",
+  "pdf": "https://arxiv.org/pdf/2607.08762",
+  "html": "https://arxiv.org/html/2607.08762"
+ },
+ "source": "foryou",
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-07-10T03:44:10.232Z",
+  "hook": "Phenomena that slip beyond the grasp of our classical intuition reveal uniquely quantum effects that deepen our…",
+  "tldr": [
+   "Phenomena that slip beyond the grasp of our classical intuition reveal uniquely quantum effects that deepen our understanding of the physical world and enable…",
+   "One such phenomenon is quantum steering, whereby measurements performed by one party influence the conditional states of another when the two share an…",
+   "We provide a detailed characterization of $\\mathcal{P}_S$ across different state ensembles and specific families, including Bell-diagonal and Werner states,…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 42
+ }
+}

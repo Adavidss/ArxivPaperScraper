@@ -1,0 +1,47 @@
+{
+ "id": "2607.08702",
+ "version": 1,
+ "title": "Quantum-Geometric Design of Lattice Generalized Landau Levels",
+ "authors": [
+  {
+   "name": "Bohao Li"
+  },
+  {
+   "name": "Fengcheng Wu"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-07-09T17:07:13Z",
+ "updated": "2026-07-09T17:07:13Z",
+ "abstract": "We design lattice models with tailored quantum geometry, including generalized Landau levels (LLs) satisfying the integrated trace condition and higher-Chern bands with ideal quantum geometry. Our models with $N=2$, $3$, and $4$ sublattices include a generalized Haldane model ($N=2$ honeycomb lattice model) with Gaussian-decaying hoppings realizable in twisted bilayer MoTe$_2$, and $N \\geq 3$ models with exponentially decaying hoppings. Exact diagonalization reveals fractional Chern insulators in the generalized zeroth LL bands of all three models, a Moore-Read state in the generalized first LL band of the $N=4$ model, and various interaction-driven topological phases$\\unicode{x2013}$including integer and fractional anomalous Hall crystals and a multicomponent Halperin state$\\unicode{x2013}$in the ideal higher-Chern band of the $N=3$ model. Informed by quantum geometry, our work provides a pathway for lattice realizations of Landau-level and beyond-Landau-level physics.",
+ "comment": "6+12 pages, 4+13 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08702",
+  "pdf": "https://arxiv.org/pdf/2607.08702",
+  "html": "https://arxiv.org/html/2607.08702"
+ },
+ "source": "foryou",
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-07-10T03:44:10.232Z",
+  "hook": "We design lattice models with tailored quantum geometry, including generalized Landau levels (LLs) satisfying the…",
+  "tldr": [
+   "We design lattice models with tailored quantum geometry, including generalized Landau levels (LLs) satisfying the integrated trace condition and higher-Chern…",
+   "Exact diagonalization reveals fractional Chern insulators in the generalized zeroth LL bands of all three models, a Moore-Read state in the generalized first…",
+   "Informed by quantum geometry, our work provides a pathway for lattice realizations of Landau-level and beyond-Landau-level physics."
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

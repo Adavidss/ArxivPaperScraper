@@ -1,0 +1,154 @@
+{
+ "generatedAt": "2026-07-10T03:45:07.230Z",
+ "windowDays": 75,
+ "items": [
+  {
+   "id": "2607.08767",
+   "title": "Plaquette: A hardware-aware design platform for fault-tolerant quantum computers",
+   "hook": "Hardware teams building fault-tolerant quantum computers (FTQCs) must decide which imperfections to suppress, and that…",
+   "authorsLine": "Vendrell, López +13",
+   "followedIds": [],
+   "primaryCategory": "quant-ph",
+   "published": "2026-07-09",
+   "difficulty": 3,
+   "readSeconds": 40,
+   "source": "foryou",
+   "biteStatus": "fallback",
+   "withdrawn": false
+  },
+  {
+   "id": "2607.08762",
+   "title": "Typicality of Steering for Two-qubit States",
+   "hook": "Phenomena that slip beyond the grasp of our classical intuition reveal uniquely quantum effects that deepen our…",
+   "authorsLine": "Munné, Cieśliński +2",
+   "followedIds": [],
+   "primaryCategory": "quant-ph",
+   "published": "2026-07-09",
+   "difficulty": 3,
+   "readSeconds": 42,
+   "source": "foryou",
+   "biteStatus": "fallback",
+   "withdrawn": false
+  },
+  {
+   "id": "2607.08710",
+   "title": "Competing Chern states revealed by quasiparticle charging in moiré rhombohedral graphene",
+   "hook": "Moiré materials realize a versatile platform for exploring the physics of fractional Chern insulators (FCIs).",
+   "authorsLine": "Li, Geng +14",
+   "followedIds": [],
+   "primaryCategory": "cond-mat.mes-hall",
+   "published": "2026-07-09",
+   "difficulty": 3,
+   "readSeconds": 40,
+   "source": "foryou",
+   "biteStatus": "fallback",
+   "withdrawn": false
+  },
+  {
+   "id": "2607.08702",
+   "title": "Quantum-Geometric Design of Lattice Generalized Landau Levels",
+   "hook": "We design lattice models with tailored quantum geometry, including generalized Landau levels (LLs) satisfying the…",
+   "authorsLine": "Li, Wu",
+   "followedIds": [],
+   "primaryCategory": "cond-mat.mes-hall",
+   "published": "2026-07-09",
+   "difficulty": 3,
+   "readSeconds": 40,
+   "source": "foryou",
+   "biteStatus": "fallback",
+   "withdrawn": false
+  },
+  {
+   "id": "2607.08668",
+   "title": "Microwave Studies of Single Crystal TeO2 at Cryogenic Temperatures",
+   "hook": "We use whispering-gallery-mode analysis to characterise the microwave dielectric properties of single-crystal TeO$_2$…",
+   "authorsLine": "Holt, Goryachev +2",
+   "followedIds": [],
+   "primaryCategory": "cond-mat.mtrl-sci",
+   "published": "2026-07-09",
+   "difficulty": 3,
+   "readSeconds": 33,
+   "source": "foryou",
+   "biteStatus": "fallback",
+   "withdrawn": false
+  },
+  {
+   "id": "2607.08587",
+   "title": "A Novel Hadronic Calorimeter With A Direct Neutron Readout",
+   "hook": "A neutron-sensitive sampling calorimeter based on alternating lead absorber and gadolinium-loaded liquid scintillator…",
+   "authorsLine": "Giomataris, Jeanneau +3",
+   "followedIds": [],
+   "primaryCategory": "physics.ins-det",
+   "published": "2026-07-09",
+   "difficulty": 3,
+   "readSeconds": 40,
+   "source": "foryou",
+   "biteStatus": "fallback",
+   "withdrawn": false
+  },
+  {
+   "id": "2607.01615",
+   "title": "Noise Suppression via Pulsed All-Optical Magnetometry with Nitrogen-Vacancy Ensembles",
+   "hook": "All-optical (AO) microwave-free magnetometry using nitrogen-vacancy (NV) centers in diamond simplifies experimental…",
+   "authorsLine": "Walsworth, Zheng +2",
+   "followedIds": [
+    "ronald-walsworth"
+   ],
+   "primaryCategory": "quant-ph",
+   "published": "2026-07-02",
+   "difficulty": 3,
+   "readSeconds": 41,
+   "source": "follow",
+   "biteStatus": "fallback",
+   "withdrawn": false
+  },
+  {
+   "id": "2606.23621",
+   "title": "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers",
+   "hook": "Understanding particle-induced damage tracks in solid-state materials underpins emerging applications in rare-event…",
+   "authorsLine": "Walsworth, Ang +10",
+   "followedIds": [
+    "ronald-walsworth"
+   ],
+   "primaryCategory": "physics.ins-det",
+   "published": "2026-06-22",
+   "difficulty": 3,
+   "readSeconds": 40,
+   "source": "follow",
+   "biteStatus": "fallback",
+   "withdrawn": false
+  },
+  {
+   "id": "2606.05426",
+   "title": "A nanoscale magnetic spectrum analyzer based on qubit dressed states",
+   "hook": "Magnetic field fluctuations on nanometer length scales manifest in a diverse range of phenomena -- electron and spin…",
+   "authorsLine": "Walsworth, Rueschkamp +7",
+   "followedIds": [
+    "ronald-walsworth"
+   ],
+   "primaryCategory": "cond-mat.mes-hall",
+   "published": "2026-06-03",
+   "difficulty": 3,
+   "readSeconds": 41,
+   "source": "follow",
+   "biteStatus": "fallback",
+   "withdrawn": false
+  },
+  {
+   "id": "2606.03738",
+   "title": "Demonstrating magnetic memory in iron-rhodium structures using a quantum diamond microscope",
+   "hook": "Iron-rhodium (FeRh) has a first-order phase transition near room temperature between antiferromagnetic (AFM) and…",
+   "authorsLine": "Walsworth, Ung +8",
+   "followedIds": [
+    "ronald-walsworth"
+   ],
+   "primaryCategory": "cond-mat.mtrl-sci",
+   "published": "2026-06-02",
+   "difficulty": 3,
+   "readSeconds": 42,
+   "source": "follow",
+   "biteStatus": "fallback",
+   "withdrawn": false
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "2607.08710",
+ "version": 1,
+ "title": "Competing Chern states revealed by quasiparticle charging in moiré rhombohedral graphene",
+ "authors": [
+  {
+   "name": "Hongyuan Li"
+  },
+  {
+   "name": "Zuhan Geng"
+  },
+  {
+   "name": "Junseok Seo"
+  },
+  {
+   "name": "Chenxi Xu"
+  },
+  {
+   "name": "Yifan Jiang"
+  },
+  {
+   "name": "Shenyong Ye"
+  },
+  {
+   "name": "Zhenqi Hua"
+  },
+  {
+   "name": "Jiabin Xie"
+  },
+  {
+   "name": "Lujin Min"
+  },
+  {
+   "name": "Kenji Watanabe"
+  },
+  {
+   "name": "Takashi Taniguchi"
+  },
+  {
+   "name": "Kenji Yasuda"
+  },
+  {
+   "name": "Xiaomeng Liu"
+  },
+  {
+   "name": "Long Ju"
+  },
+  {
+   "name": "Jie Shan"
+  },
+  {
+   "name": "Kin Fai Mak"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-07-09T17:20:31Z",
+ "updated": "2026-07-09T17:20:31Z",
+ "abstract": "Moiré materials realize a versatile platform for exploring the physics of fractional Chern insulators (FCIs). The recently observed evolution from FCIs to an extended quantum anomalous Hall background upon lowering the electronic temperature in moiré rhombohedral graphene (mRG)8 raises a fundamental question: Is it caused by a failure to equilibrate the edge states of an FCI or by a genuine phase transition in the bulk from an FCI to a generalized anomalous Hall crystal? Here we address this question by probing quasiparticle charging in a mesoscopic mRG antidot device and by bulk resistance measurements, both of which are bulk-sensitive and free from complications from edge states. Tunneling to the mRG antidot reveals quasiparticles carrying one electron charge for both Chern states at filling factors ν=1 and 2/3 at low temperatures. Temperature dependence measurements of the bulk resistance near ν=2/3 further suggest a thermodynamic phase transition from an FCI to a generalized anomalous Hall crystal at temperatures below about 150mK. The results clearly exclude the edge state equilibration scenario and favor the phase transition scenario. Our work establishes mesoscopic probes as a powerful approach to uncover competing ground states in moiré materials and provides a basis for probing fractionalized excitations in FCIs.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08710",
+  "pdf": "https://arxiv.org/pdf/2607.08710",
+  "html": "https://arxiv.org/html/2607.08710"
+ },
+ "source": "foryou",
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-07-10T03:44:10.232Z",
+  "hook": "Moiré materials realize a versatile platform for exploring the physics of fractional Chern insulators (FCIs).",
+  "tldr": [
+   "Moiré materials realize a versatile platform for exploring the physics of fractional Chern insulators (FCIs).",
+   "The recently observed evolution from FCIs to an extended quantum anomalous Hall background upon lowering the electronic temperature in moiré rhombohedral…",
+   "Our work establishes mesoscopic probes as a powerful approach to uncover competing ground states in moiré materials and provides a basis for probing…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

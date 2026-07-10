@@ -5,6 +5,12 @@ on:
     branches: [main]
   pull_request:
 
+# Public repo: CI runs on fork PRs, so keep the token read-only. (Fork PRs
+# never receive secrets, and digest.yml is unreachable from forks — its
+# triggers are schedule, dispatch, and pushes to main only.)
+permissions:
+  contents: read
+
 jobs:
   scraper:
     runs-on: ubuntu-latest

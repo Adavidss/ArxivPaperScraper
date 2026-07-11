@@ -1,0 +1,76 @@
+{
+ "id": "2607.08713",
+ "version": 1,
+ "title": "Approaching Carnot Efficiency at Finite Power in an Experimentally Feasible Quantum Heat Engine",
+ "authors": [
+  {
+   "name": "Shogo Toma"
+  },
+  {
+   "name": "Atsushi Noguchi"
+  },
+  {
+   "name": "Ken Funo"
+  },
+  {
+   "name": "Hiroyasu Tajima"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-09T17:24:27Z",
+ "updated": "2026-07-09T17:24:27Z",
+ "abstract": "Whether a heat engine can approach Carnot efficiency while maintaining finite power is a fundamental question in finite-time thermodynamics. For classical Markovian heat engines with local interactions, the power-efficiency trade-off forbids an asymptotic approach to Carnot efficiency at finite power. In quantum systems, by contrast, degeneracy, symmetry, and collective jumps have been theoretically predicted to enable such an asymptotic attainment by enhancing activity. It has remained open, however, whether this mechanism can be realized in an experimentally implementable heat engine. In this Letter, we propose a superconducting-circuit heat engine that emulates the collective enhancement, thereby enabling an asymptotic approach to Carnot efficiency at finite power. This result demonstrates that, in an implementable model, such an enhanced dissipative mechanism circumvents the power-efficiency trade-off of classical Markovian engines. Our work connects abstract bounds in finite-time thermodynamics to a concrete circuit-QED platform and suggests a route toward quantum-device design based on collectively enhanced dissipative processes.",
+ "comment": "20 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08713",
+  "pdf": "https://arxiv.org/pdf/2607.08713",
+  "html": "https://arxiv.org/html/2607.08713"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.08713v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-11T08:21:12.318Z",
+  "hook": "A new superconducting circuit design beats classical limits to approach ideal Carnot efficiency while maintaining finite power.",
+  "tldr": [
+   "Proposed a novel superconducting-circuit heat engine designed to emulate collective quantum enhancement.",
+   "Modeled the system to show that collective dissipative processes can bypass the classical power-efficiency trade-off.",
+   "Demonstrated an experimentally feasible route to achieving near-Carnot efficiency at finite power using circuit-QED."
+  ],
+  "whyItMatters": "Classical physics dictates that an engine must run infinitely slowly to reach maximum efficiency (Carnot efficiency). This quantum design breaks that rule, paving the way for ultra-efficient quantum technologies and practical quantum thermodynamic devices.",
+  "eli5": "Normally, if you want a car engine to be perfectly efficient and waste zero fuel, you have to drive infinitely slowly, which is useless. This paper designs a quantum engine using superconducting circuits where the quantum parts work together like a synchronized team, allowing it to run highly efficiently while still moving at a useful speed.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Carnot efficiency",
+    "shortDef": "The maximum theoretical efficiency that any thermodynamic engine can achieve during a reversible cycle.",
+    "eli5Def": "The absolute gold standard of engine efficiency, where absolutely no energy is wasted as useless heat.",
+    "wikiTitle": "Carnot's theorem (thermodynamics)"
+   },
+   {
+    "term": "circuit-QED",
+    "shortDef": "The study of the interaction between light and matter using superconducting artificial atoms and microwave resonators.",
+    "eli5Def": "A technology where scientists use tiny superconducting chips to control quantum light and matter like Lego bricks.",
+    "wikiTitle": "Circuit quantum electrodynamics"
+   },
+   {
+    "term": "Markovian",
+    "shortDef": "A process where the future state depends only on the current state, with no memory of past states.",
+    "eli5Def": "A system that lives entirely in the moment, completely forgetting its past history.",
+    "wikiTitle": "Markov chain"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

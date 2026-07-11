@@ -1,0 +1,76 @@
+{
+ "id": "2607.08708",
+ "version": 1,
+ "title": "Absence of quantum advantage for approximate spin glass optimization",
+ "authors": [
+  {
+   "name": "Dries Sels"
+  },
+  {
+   "name": "Flaviano Morone"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.dis-nn"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-09T17:18:19Z",
+ "updated": "2026-07-09T17:18:19Z",
+ "abstract": "We perform a semiclassical, large-spin S, analysis of the quantum approximate optimization algorithm (QAOA) on the Sherrington-Kirkpatrick (SK) model, using the truncated Wigner approximation. Fixing the QAOA angles to their previously determined optimal S=1/2 values, we observe a non-monotonic dependence of the final energy on the spin. At small S the semiclassics is dominated by noise, while the large-S limit is constrained by the exponential growth of the initial fluctuations. For a depth-p QAOA one achieves the optimal balance at S of order p, resulting in a convergence of the final energy to the Parisi value like log(p)/p. We find that the semiclassics slightly outperforms the true spin-1/2 QAOA, and thus suggest they both converge to the Parisi value in the same way. Finally, removing all the initial noise, and re-optimizing the parameters to account for that change, results in superior performance with 1/p convergence.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08708",
+  "pdf": "https://arxiv.org/pdf/2607.08708",
+  "html": "https://arxiv.org/html/2607.08708"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.08708v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-11T08:21:12.318Z",
+  "hook": "Semiclassical models match or beat quantum algorithms at solving complex spin glass optimization problems.",
+  "tldr": [
+   "Analyzed the Quantum Approximate Optimization Algorithm (QAOA) on the Sherrington-Kirkpatrick model using a semiclassical approximation.",
+   "Used the truncated Wigner approximation with large-spin S, fixing QAOA angles to their optimal spin-1/2 values to study energy convergence.",
+   "Found semiclassics slightly outperforms true spin-1/2 QAOA, with both converging to the Parisi value, showing no quantum advantage."
+  ],
+  "whyItMatters": "This challenges the belief that quantum computers are inherently superior for solving complex optimization problems, showing that classical approximations can perform just as well or better.",
+  "eli5": "Imagine trying to find the lowest point in a massive, bumpy mountain range. Quantum computers use a special trick to explore many paths at once, but researchers found that a clever classical simulation using simplified physics rules can find the bottom just as fast, if not faster.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "QAOA",
+    "shortDef": "Quantum Approximate Optimization Algorithm, a hybrid quantum-classical algorithm for solving optimization problems.",
+    "eli5Def": "A recipe that uses a quantum computer to find near-perfect answers to really hard puzzles.",
+    "wikiTitle": "Quantum Approximate Optimization Algorithm"
+   },
+   {
+    "term": "Sherrington-Kirkpatrick model",
+    "shortDef": "A mathematical model of a spin glass with long-range disordered magnetic interactions.",
+    "eli5Def": "A grid of tiny magnets that are all pushing and pulling on each other in a messy, complicated way.",
+    "wikiTitle": "Sherrington–Kirkpatrick model"
+   },
+   {
+    "term": "Truncated Wigner approximation",
+    "shortDef": "A semiclassical method that models quantum dynamics by adding classical noise to initial states.",
+    "eli5Def": "A way to simulate quantum physics on a normal computer by pretending the quantum particles are just classical objects with a bit of random shaking.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Parisi value",
+    "shortDef": "The exact ground state energy of the Sherrington-Kirkpatrick spin glass model in the thermodynamic limit.",
+    "eli5Def": "The absolute lowest possible energy state that a messy system of magnets can settle into.",
+    "wikiTitle": "Giorgio Parisi"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

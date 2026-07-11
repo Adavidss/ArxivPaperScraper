@@ -1,0 +1,95 @@
+{
+ "id": "2607.08709",
+ "version": 1,
+ "title": "Robust One-Sided Device-Independent Quantum Key Distribution via High-Dimensional Steering",
+ "authors": [
+  {
+   "name": "Monika Mothsara"
+  },
+  {
+   "name": "Suraj Goel"
+  },
+  {
+   "name": "Bohnishikha Ghosh"
+  },
+  {
+   "name": "Vatshal Srivastav"
+  },
+  {
+   "name": "Will McCutcheon"
+  },
+  {
+   "name": "Mehul Malik"
+  },
+  {
+   "name": "Gláucia Murta"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-09T17:18:46Z",
+ "updated": "2026-07-09T17:18:46Z",
+ "abstract": "Quantum key distribution (QKD) brings the promise of communication with information-theoretic security but is limited in practice due to its susceptibility to noise, losses, and device imperfections. To address these challenges, we propose a robust high-dimensional (HD) one-sided device-independent QKD (1sDI-QKD) protocol and present a proof-of-principle experimental implementation using photons entangled in the transverse-spatial degree-of-freedom. We develop a systematic security analysis of HD 1sDI-QKD protocols, leveraging quantum steering to certify security, and evaluate achievable secret key rates for different measurement configurations and system dimensions using reverse reconciliation. Our analysis shows that increasing the dimension enhances robustness against both noise and loss. We then demonstrate the key experimental building blocks required for implementing the protocol: (a) a high-quality source of high-dimensional photonic entanglement, and (b) a fully programmable, high-dimensional multi-outcome measurement device operating in up to dimension 11. Using these components, we obtain positive key rates for all investigated dimensions under the fair-sampling assumption, with the highest key rates achieved for dimension d=7. Finally, we discuss the steps required for a practical, loophole-free implementation of 1sDI-QKD in realistic regimes of loss and noise.",
+ "comment": "15+10 pages, 15 figures, 7 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08709",
+  "pdf": "https://arxiv.org/pdf/2607.08709",
+  "html": "https://arxiv.org/html/2607.08709"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.08709v1/fig1v3sg.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-11T08:21:12.318Z",
+  "hook": "Using 11-dimensional photon measurements, researchers achieved secure quantum key distribution that resists noise and loss.",
+  "tldr": [
+   "Proposed a robust high-dimensional one-sided device-independent quantum key distribution (1sDI-QKD) protocol.",
+   "Developed a security analysis based on quantum steering and tested it experimentally using spatial-mode entangled photons.",
+   "Demonstrated a programmable measurement device operating up to dimension 11, achieving peak key rates at dimension 7."
+  ],
+  "whyItMatters": "Quantum communication is highly sensitive to real-world noise and hardware flaws. By using high-dimensional states (like 11-sided quantum dice instead of 2-sided coins), this protocol makes quantum encryption much more secure and practical for real-world networks.",
+  "eli5": "Imagine sending a secret code using coins that can only be heads or tails; a little bit of wind can easily flip them and ruin the message. Instead, this team used 11-sided quantum dice. Because there are more options, the message is much harder for static noise to corrupt and much safer from hackers.",
+  "keyNumbers": [
+   {
+    "value": "11",
+    "label": "maximum dimension",
+    "context": "The maximum dimension of the fully programmable multi-outcome measurement device operated in the experiment."
+   },
+   {
+    "value": "7",
+    "label": "optimal dimension",
+    "context": "The dimension at which the highest secret key rates were experimentally achieved."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "quantum key distribution",
+    "shortDef": "A secure communication method that uses quantum mechanics to share cryptographic keys.",
+    "eli5Def": "A way of sending secret passwords using quantum particles, so that any eavesdropping attempt instantly breaks the particles and alerts you.",
+    "wikiTitle": "Quantum key distribution"
+   },
+   {
+    "term": "quantum steering",
+    "shortDef": "A quantum phenomenon where measurements on one particle can non-locally influence the state of an entangled partner.",
+    "eli5Def": "A spooky quantum link where doing something to one particle instantly changes what its partner particle is allowed to do.",
+    "wikiTitle": "Quantum steering"
+   },
+   {
+    "term": "reverse reconciliation",
+    "shortDef": "An error-correction phase in QKD where the sender corrects their key based on information sent by the receiver.",
+    "eli5Def": "A clever way for two people to fix mistakes in their secret passwords over a public channel without letting hackers steal the key.",
+    "wikiTitle": "Information reconciliation"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

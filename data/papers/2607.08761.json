@@ -1,0 +1,67 @@
+{
+ "id": "2607.08761",
+ "version": 1,
+ "title": "Irreducible Geometry of Higher-Order Correlator Families",
+ "authors": [
+  {
+   "name": "Kaito Kobayashi"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-09T17:56:23Z",
+ "updated": "2026-07-09T17:56:23Z",
+ "abstract": "Programmable quantum simulators are beginning to access correlators of increasing complexity, ranging from four-point out-of-time-ordered correlators to even higher-order many-body correlators. The theoretical framework for interpreting such data, however, remains comparatively underdeveloped. Although a variety of higher-order correlators can be constructed straightforwardly, their physical meaning is often difficult to infer. A further complication is that different correlators are generally not independent: some may be mutually redundant, while others may encode genuinely distinct information. These features make it necessary to analyze correlators not as isolated quantities, but as a structured family. In this work, we develop a geometric framework for the collective analysis of higher-order correlator families. By representing correlators as inner products between operator words, we recast each family as a geometry in operator space. The key idea is to introduce conditioning subspaces that separate this geometry into reducible information, already explained by a chosen resolved sector, and irreducible information, encoded in the residual correlator geometry. Focusing on the latter component, we define irreducible volume profiles that quantify how broadly the unexplained part of a correlator family spreads over independent geometric directions. This perspective leads to several complementary forms of conditioning. Canonical conditioning optimally explains a correlator family. Targeted conditioning fixes the resolved sector to isolate a chosen physical feature. Krylov and cross conditioning extend the framework from a single correlator family to comparisons among correlator geometries. Our framework reveals irreducible structures hidden at the level of individual correlator values and establishes correlator geometry as a higher-level description of quantum many-body dynamics.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08761",
+  "pdf": "https://arxiv.org/pdf/2607.08761",
+  "html": "https://arxiv.org/html/2607.08761"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.08761v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-11T08:21:12.318Z",
+  "hook": "Quantum simulators measure complex many-body data, but a new geometric framework finally decodes what it all means.",
+  "tldr": [
+   "Developed a geometric framework to analyze complex, higher-order quantum correlator families collectively rather than as isolated values.",
+   "Represented correlators as inner products in operator space, using conditioning subspaces to isolate redundant from genuinely new physical information.",
+   "Introduced conditioning methods (canonical, targeted, Krylov, cross) that quantify unexplained data and compare different quantum dynamics."
+  ],
+  "whyItMatters": "As quantum simulators grow more powerful, they generate highly complex data that physicists struggle to interpret. This framework provides the mathematical 'lens' needed to extract clean, non-redundant physical insights from advanced quantum experiments.",
+  "eli5": "Imagine trying to understand a 3D object by looking at dozens of flat 2D shadows cast on a wall. Some shadows overlap and tell you the same thing, while others show you brand-new details. This research acts like a computer program that automatically sorts through all those shadows, throws away the repeat information, and builds a perfect 3D model of what is actually happening.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "correlator",
+    "shortDef": "A mathematical expectation value measuring how quantum variables at different points or times depend on each other.",
+    "eli5Def": "A measure of how much a change in one part of a quantum system affects another part far away.",
+    "wikiTitle": "Correlation function (quantum field theory)"
+   },
+   {
+    "term": "operator space",
+    "shortDef": "A vector space where the elements are quantum mechanical operators rather than state vectors.",
+    "eli5Def": "A mathematical playground where the rules and actions we can perform on quantum particles are treated like points on a map.",
+    "wikiTitle": "Operator space"
+   },
+   {
+    "term": "Krylov conditioning",
+    "shortDef": "An extension of the geometric framework to compare dynamical evolution across different operator families.",
+    "eli5Def": "A way to compare how different quantum systems change over time by looking at how their mathematical shapes stretch.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

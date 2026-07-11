@@ -1,0 +1,81 @@
+{
+ "id": "2607.08697",
+ "version": 1,
+ "title": "Quantifying randomness with measurement incompatibility",
+ "authors": [
+  {
+   "name": "Sebastian Schlösser"
+  },
+  {
+   "name": "Pauli Jokinen"
+  },
+  {
+   "name": "Martin Plávala"
+  },
+  {
+   "name": "Leevi Leppäjärvi"
+  },
+  {
+   "name": "Leonardo S. V. Santos"
+  },
+  {
+   "name": "Roope Uola"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-09T16:54:26Z",
+ "updated": "2026-07-09T16:54:26Z",
+ "abstract": "We present a trade-off between the amount of observed measurement incompatibility and the capabilities of a classical Eavesdropper in a prepare-and-measure scenario. The result is based on a qualitative connection between measurement incompatibility and randomness generation together with the utilization of incompatibility witnesses as randomness certificates. This allows one to use a geometric measure of incompatibility, the generalised robustness, to bound Eve's strategies through a semi-definite program, while providing an explicit protocol for generating randomness from any set of incompatible measurements. By translating the result to quantum steering, we find a tight connection between steerability and randomness generation in a setting using any finite number of measurement inputs. We further show how our techniques can be generalised to scenarios where Eve has a quantum memory by using a dimensional generalisation of joint measurability.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08697",
+  "pdf": "https://arxiv.org/pdf/2607.08697",
+  "html": "https://arxiv.org/html/2607.08697"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.08697v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-11T08:21:12.318Z",
+  "hook": "Quantum measurement incompatibility can be used to mathematically lock out eavesdroppers and guarantee true randomness.",
+  "tldr": [
+   "Established a quantitative trade-off between observed measurement incompatibility and a classical eavesdropper's capabilities.",
+   "Used incompatibility witnesses as randomness certificates and bounded the eavesdropper's strategies via semi-definite programming.",
+   "Proved a tight connection between quantum steerability and randomness generation, extending the model to quantum-memory eavesdroppers."
+  ],
+  "whyItMatters": "This provides a concrete way to generate guaranteed, unhackable random numbers, which are the bedrock of secure modern cryptography and private communications.",
+  "eli5": "If you roll a normal die, a super-spy with a high-speed camera might predict the outcome. But if you use quantum particles that cannot be measured at the same time, the laws of physics guarantee the result is 100% unpredictable to anyone.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Measurement incompatibility",
+    "shortDef": "The inability to simultaneously measure certain quantum observables without mutual disturbance.",
+    "eli5Def": "The quantum rule that you cannot perfectly measure two different things about a particle, like its speed and its position, at the exact same time.",
+    "wikiTitle": "Complementarity (physics)"
+   },
+   {
+    "term": "Quantum steering",
+    "shortDef": "A quantum phenomenon where measurements on one system can non-locally affect the state of another.",
+    "eli5Def": "A spooky quantum link where doing something to one particle instantly changes what we can know about its distant partner.",
+    "wikiTitle": "Quantum steering"
+   },
+   {
+    "term": "Semi-definite program",
+    "shortDef": "A subfield of optimization that optimizes a linear function over the intersection of a cone of positive semidefinite matrices.",
+    "eli5Def": "A powerful math tool used to find the absolute best solution to a complex problem with many constraints.",
+    "wikiTitle": "Semidefinite programming"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -4,11 +4,31 @@
   {
    "id": "ronald-walsworth",
    "name": "Ronald Walsworth",
-   "aliases": ["R. Walsworth", "R. L. Walsworth", "Ronald L. Walsworth"]
+   "aliases": [
+    "R. Walsworth",
+    "R. L. Walsworth",
+    "Ronald L. Walsworth"
+   ]
+  },
+  {
+   "id": "daniel-g-ang",
+   "name": "Daniel G. Ang",
+   "aliases": []
+  },
+  {
+   "id": "john-w-blanchard",
+   "name": "John W. Blanchard",
+   "aliases": []
   }
  ],
- "keywords": [],
- "extraCategories": ["quant-ph"],
+ "keywords": [
+  "SABRE",
+  "PHIP",
+  "NV NMR"
+ ],
+ "extraCategories": [
+  "quant-ph"
+ ],
  "settings": {
   "lookbackDays": 60,
   "maxPerAuthor": 25,

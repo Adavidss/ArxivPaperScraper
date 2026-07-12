@@ -6,8 +6,13 @@
 // the web editor), appearance, backup, and pipeline status.
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { loadFollows, loadMeta } from "@/lib/api";
-import type { FollowedAuthor, FollowsFile, MetaFile } from "@/lib/data-schema";
+import { loadFollows, loadMeta, loadSuggestions } from "@/lib/api";
+import type {
+  AuthorSuggestion,
+  FollowedAuthor,
+  FollowsFile,
+  MetaFile,
+} from "@/lib/data-schema";
 import {
   applyOps,
   authorSlug,
@@ -18,7 +23,9 @@ import {
 } from "@/lib/github";
 import { useDrop, useMounted, useStoreVersion } from "@/lib/hooks";
 import {
+  dismissSuggestion,
   exportBackup,
+  getDismissedSuggestions,
   getSettings,
   getSync,
   importBackup,
@@ -59,6 +66,7 @@ export default function SettingsPage() {
   const [categoriesInput, setCategoriesInput] = useState("");
   const [editingCategories, setEditingCategories] = useState(false);
   const [pipe, setPipe] = useState({ lookbackDays: "", maxPerAuthor: "", forYouPerDay: "" });
+  const [people, setPeople] = useState<AuthorSuggestion[]>([]);
   const fileRef = useRef<HTMLInputElement>(null);
   const settings = getSettings();
   const pat = settings.pat;
@@ -79,6 +87,10 @@ export default function SettingsPage() {
         });
       })
       .catch(() => setFollows(null));
+    loadSuggestions().then((s) => {
+      const hidden = new Set(getDismissedSuggestions());
+      setPeople(s.suggestions.filter((x) => !hidden.has(x.slug)));
+    });
   }, []);
 
   // Papers matched per followed author (from the published window).
@@ -380,6 +392,70 @@ export default function SettingsPage() {
           </div>
         )}
       </section>
+
+      {/* Author discovery */}
+      {people.length > 0 && (
+        <section className="rounded-2xl border border-gem/30 bg-surface p-4">
+          <h2 className="text-xs font-bold uppercase tracking-widest text-gem">
+            People you might follow
+          </h2>
+          <p className="mt-1 text-[11px] text-muted">
+            Mined from your recent window — co-authors of your people first.
+          </p>
+          <ul className="mt-3 flex flex-col gap-2">
+            {people.slice(0, 5).map((s) => (
+              <li
+                key={s.slug}
+                className="flex items-center gap-2 rounded-xl border border-border bg-surface-2 px-3 py-2.5"
+              >
+                <div className="min-w-0 flex-1">
+                  <p className="text-sm font-medium">{s.name}</p>
+                  <p className="truncate text-[11px] text-muted">
+                    {s.coAuthoredWith.length
+                      ? `co-author · ${s.paperCount} paper${s.paperCount === 1 ? "" : "s"} together`
+                      : s.viaKeywords.length
+                        ? `matches #${s.viaKeywords[0]}`
+                        : s.viaCategories.join(", ")}
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => {
+                    dismissSuggestion(s.slug);
+                    setPeople((p) => p.filter((x) => x.slug !== s.slug));
+                    void runOps(
+                      [
+                        {
+                          op: "add-author",
+                          author: { id: s.slug, name: s.name, aliases: [] },
+                        },
+                      ],
+                      (f) => ({
+                        ...f,
+                        authors: [...f.authors, { id: s.slug, name: s.name, aliases: [] }],
+                      }),
+                    );
+                  }}
+                  className="shrink-0 rounded-lg border border-gem/40 bg-gem/10 px-2.5 py-1 text-xs font-medium text-gem"
+                >
+                  + Follow
+                </button>
+                <button
+                  type="button"
+                  aria-label={`Dismiss ${s.name}`}
+                  onClick={() => {
+                    dismissSuggestion(s.slug);
+                    setPeople((p) => p.filter((x) => x.slug !== s.slug));
+                  }}
+                  className="shrink-0 rounded-lg p-1.5 text-muted transition hover:text-fg"
+                >
+                  <Icons.X size={16} />
+                </button>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {/* Keywords */}
       <section className="rounded-2xl border border-border bg-surface p-4">

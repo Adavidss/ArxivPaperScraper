@@ -31,37 +31,37 @@
  "biteStatus": "ok",
  "bite": {
   "model": "gemini-flash-latest",
-  "generatedAt": "2026-07-11T08:21:12.318Z",
-  "hook": "Quantum simulators measure complex many-body data, but a new geometric framework finally decodes what it all means.",
+  "generatedAt": "2026-07-12T17:45:21.092Z",
+  "hook": "A new geometric framework maps complex quantum simulator data into operator space to isolate truly new information.",
   "tldr": [
-   "Developed a geometric framework to analyze complex, higher-order quantum correlator families collectively rather than as isolated values.",
-   "Represented correlators as inner products in operator space, using conditioning subspaces to isolate redundant from genuinely new physical information.",
-   "Introduced conditioning methods (canonical, targeted, Krylov, cross) that quantify unexplained data and compare different quantum dynamics."
+   "Developed a geometric framework to collectively analyze families of complex, higher-order quantum correlators.",
+   "Represented correlators as inner products in operator space and used conditioning subspaces to separate redundant information from irreducible information.",
+   "Introduced irreducible volume profiles and conditioning methods to quantify unexplained quantum dynamics and compare different correlator geometries."
   ],
-  "whyItMatters": "As quantum simulators grow more powerful, they generate highly complex data that physicists struggle to interpret. This framework provides the mathematical 'lens' needed to extract clean, non-redundant physical insights from advanced quantum experiments.",
-  "eli5": "Imagine trying to understand a 3D object by looking at dozens of flat 2D shadows cast on a wall. Some shadows overlap and tell you the same thing, while others show you brand-new details. This research acts like a computer program that automatically sorts through all those shadows, throws away the repeat information, and builds a perfect 3D model of what is actually happening.",
+  "whyItMatters": "As quantum simulators grow more powerful, they generate highly complex data that is difficult to interpret. This framework provides a systematic way to filter out redundant data and isolate genuinely new physical phenomena in quantum systems.",
+  "eli5": "Imagine trying to understand a complex 3D shape by looking at shadows cast from different angles. Some shadows give you the exact same information, while others show you something brand new. This method acts like a filter that ignores the repetitive shadows, leaving only the unique views that help you map the true shape of quantum behavior.",
   "keyNumbers": [],
   "glossary": [
    {
     "term": "correlator",
-    "shortDef": "A mathematical expectation value measuring how quantum variables at different points or times depend on each other.",
-    "eli5Def": "A measure of how much a change in one part of a quantum system affects another part far away.",
+    "shortDef": "A mathematical expectation value measuring how different points or particles in a system behave in relation to each other.",
+    "eli5Def": "A measurement that tells you if two or more distant particles are dancing in sync or moving completely independently.",
     "wikiTitle": "Correlation function (quantum field theory)"
    },
    {
-    "term": "operator space",
-    "shortDef": "A vector space where the elements are quantum mechanical operators rather than state vectors.",
-    "eli5Def": "A mathematical playground where the rules and actions we can perform on quantum particles are treated like points on a map.",
-    "wikiTitle": "Operator space"
+    "term": "quantum simulator",
+    "shortDef": "An active quantum device designed to mimic and study the behavior of complex quantum systems.",
+    "eli5Def": "A highly controllable quantum computer built specifically to act out and study the physics of other quantum materials.",
+    "wikiTitle": "Quantum simulator"
    },
    {
-    "term": "Krylov conditioning",
-    "shortDef": "An extension of the geometric framework to compare dynamical evolution across different operator families.",
-    "eli5Def": "A way to compare how different quantum systems change over time by looking at how their mathematical shapes stretch.",
-    "wikiTitle": null
+    "term": "operator space",
+    "shortDef": "A mathematical vector space where the elements are quantum operators rather than state vectors.",
+    "eli5Def": "A mathematical playground where the actions we can perform on a quantum system are treated like points on a map.",
+    "wikiTitle": "Operator space"
    }
   ],
   "difficulty": 4,
-  "readSeconds": 55
+  "readSeconds": 65
  }
 }

@@ -4,7 +4,7 @@
 // swipeable) → carry-over unread ≤7d → caught-up (the finish line, ALWAYS
 // before For-You) → review promo → For-You tail (hard-capped) → end.
 
-import type { FeedFile, FeedItem, OverviewFile } from "./data-schema";
+import type { AuthorSuggestion, FeedFile, FeedItem, OverviewFile } from "./data-schema";
 import type { ReadEntry } from "./store";
 
 export const FORYOU_TAIL_CAP = 10;
@@ -16,6 +16,7 @@ export type Slide =
   | { type: "connection"; body: string; items: FeedItem[] }
   | { type: "caughtup" }
   | { type: "reviewpromo"; due: number }
+  | { type: "suggest"; suggestion: AuthorSuggestion }
   | { type: "end" };
 
 export interface BuiltFeed {
@@ -46,17 +47,24 @@ export function buildFeed(
   readMap: Record<string, ReadEntry>,
   reviewDue: number,
   showForYou = true,
+  suggestions: AuthorSuggestion[] = [],
   today = new Date().toISOString().slice(0, 10),
 ): BuiltFeed {
   const items = feed.items.filter((i) => !i.withdrawn);
   const follows = items.filter((i) => i.source === "follow");
 
-  // The drop = the most recent announce date among followed papers (falls back
-  // to the newest item at all so a follows-less feed still renders).
-  const dropDate = follows[0]?.published ?? items[0]?.published ?? null;
+  // "The drop" groups by ANNOUNCEMENT (pipeline firstSeen), not submission
+  // date — arXiv announces papers days after submission. Older cached feeds
+  // predate firstSeen; fall back to published.
+  const seen = (i: FeedItem): string => i.firstSeen ?? i.published;
+  const dropDate = follows.length
+    ? follows.map(seen).sort().at(-1)!
+    : items.length
+      ? items.map(seen).sort().at(-1)!
+      : null;
 
   const todays = follows
-    .filter((i) => i.published === dropDate)
+    .filter((i) => seen(i) === dropDate)
     .sort((a, b) =>
       b.followedIds.length !== a.followedIds.length
         ? b.followedIds.length - a.followedIds.length
@@ -70,9 +78,9 @@ export function buildFeed(
     ? follows
         .filter(
           (i) =>
-            i.published !== dropDate &&
+            seen(i) !== dropDate &&
             !readMap[i.id] &&
-            daysBetween(i.published, dropDate) <= 30,
+            daysBetween(seen(i), dropDate) <= 30,
         )
         .slice(0, 12)
     : [];
@@ -127,6 +135,13 @@ export function buildFeed(
   slides.push({ type: "caughtup" });
 
   if (reviewDue >= 3) slides.push({ type: "reviewpromo", due: reviewDue });
+
+  // One person-to-follow card per day, rotating with the drop date — a
+  // variable reward in the bonus tail, never part of the goal.
+  if (suggestions.length) {
+    const pick = suggestions[hashCode(`sg-${dropDate ?? "x"}`) % suggestions.length];
+    slides.push({ type: "suggest", suggestion: pick });
+  }
 
   forYou.forEach((item, i) =>
     slides.push({ type: "paper", item, carryOver: false, gem: i === gemIndex }),

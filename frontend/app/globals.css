@@ -168,6 +168,87 @@ textarea {
   color: var(--color-muted);
 }
 
+/* --- feed juice ------------------------------------------------------------
+   Card content "settles" with a quick stagger when its slide snaps active;
+   subtle enough to read as physics, not a reveal (cards stay fully visible
+   while scrolling past). The global reduced-motion block below disables all
+   of it. */
+@keyframes settle {
+  from {
+    opacity: 0.35;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.ju .ju-1,
+.ju .ju-2,
+.ju .ju-3,
+.ju .ju-4 {
+  animation: settle 0.38s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+}
+.ju .ju-2 {
+  animation-delay: 0.06s;
+}
+.ju .ju-3 {
+  animation-delay: 0.12s;
+}
+.ju .ju-4 {
+  animation-delay: 0.18s;
+}
+
+/* Figure banner parallax — --py is driven by the pager's scroll handler. */
+.parallax-img {
+  transform: translateY(var(--py, 0px)) scale(1.12);
+  will-change: transform;
+}
+
+/* Shine sweep across the author badge when its card is active. */
+@keyframes shine-sweep {
+  from {
+    transform: translateX(-130%) skewX(-18deg);
+  }
+  to {
+    transform: translateX(230%) skewX(-18deg);
+  }
+}
+.ju .shine::after {
+  content: "";
+  position: absolute;
+  inset: -2px auto -2px 0;
+  width: 45%;
+  background: linear-gradient(
+    100deg,
+    transparent,
+    color-mix(in oklab, var(--color-fg) 22%, transparent),
+    transparent
+  );
+  animation: shine-sweep 1.1s ease-out 0.35s 1 both;
+}
+
+/* NEW badge shimmer — a slow sheen over a small gradient chip. */
+@keyframes new-sheen {
+  0%,
+  55% {
+    background-position: 130% 0;
+  }
+  100% {
+    background-position: -30% 0;
+  }
+}
+.new-badge {
+  background-image: linear-gradient(
+    100deg,
+    var(--color-accent) 35%,
+    color-mix(in oklab, var(--color-accent) 55%, #fff) 50%,
+    var(--color-accent) 65%
+  );
+  background-size: 250% 100%;
+  animation: new-sheen 2.6s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

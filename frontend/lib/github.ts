@@ -5,6 +5,7 @@
 // merges cleanly on retry.
 
 import type { FollowedAuthor, FollowsFile, FollowsSettings } from "./data-schema";
+import { getSettings, getSync, updateSync } from "./store";
 
 const REPO = "Adavidss/ArxivPaperScraper";
 const FILE_PATH = "data/follows.json";
@@ -142,4 +143,25 @@ export async function validatePat(pat: string): Promise<boolean> {
   } catch {
     return false;
   }
+}
+
+/**
+ * Fire-and-forget follow edit from anywhere in the app (e.g. the suggestion
+ * slide): syncs immediately when a PAT is connected, otherwise queues the ops
+ * for Settings' "Copy JSON & open GitHub" / connect flow.
+ */
+export async function queueOrSyncOps(ops: FollowOp[]): Promise<"synced" | "queued"> {
+  const pat = getSettings().pat;
+  if (pat) {
+    try {
+      await syncFollowOps(pat, ops);
+      return "synced";
+    } catch {
+      /* fall through to queue */
+    }
+  }
+  updateSync({
+    pendingFollowOps: [...((getSync().pendingFollowOps ?? []) as FollowOp[]), ...ops],
+  });
+  return "queued";
 }

@@ -34,40 +34,40 @@
  "biteStatus": "ok",
  "bite": {
   "model": "gemini-flash-latest",
-  "generatedAt": "2026-07-11T08:21:12.318Z",
+  "generatedAt": "2026-07-12T17:45:21.092Z",
   "hook": "Semiclassical models match or beat quantum algorithms at solving complex spin glass optimization problems.",
   "tldr": [
    "Analyzed the Quantum Approximate Optimization Algorithm (QAOA) on the Sherrington-Kirkpatrick model using a semiclassical approximation.",
    "Used the truncated Wigner approximation with large-spin S, fixing QAOA angles to their optimal spin-1/2 values to study energy convergence.",
-   "Found semiclassics slightly outperforms true spin-1/2 QAOA, with both converging to the Parisi value, showing no quantum advantage."
+   "Found that semiclassics slightly outperforms true quantum QAOA, with both converging to the optimal Parisi value at a rate of log(p)/p."
   ],
-  "whyItMatters": "This challenges the belief that quantum computers are inherently superior for solving complex optimization problems, showing that classical approximations can perform just as well or better.",
-  "eli5": "Imagine trying to find the lowest point in a massive, bumpy mountain range. Quantum computers use a special trick to explore many paths at once, but researchers found that a clever classical simulation using simplified physics rules can find the bottom just as fast, if not faster.",
+  "whyItMatters": "This study challenges the assumed quantum advantage in optimization tasks, showing that classical approximations can perform just as well as, or even better than, quantum computers for these complex problems.",
+  "eli5": "Imagine trying to find the lowest point in a rugged mountain range. Quantum computers try to use quantum physics to find it, but a clever classical simulation that mimics quantum physics with a bit of noise can find the valley just as fast, proving we might not need fancy quantum hardware for this task.",
   "keyNumbers": [],
   "glossary": [
    {
     "term": "QAOA",
     "shortDef": "Quantum Approximate Optimization Algorithm, a hybrid quantum-classical algorithm for solving optimization problems.",
-    "eli5Def": "A recipe that uses a quantum computer to find near-perfect answers to really hard puzzles.",
+    "eli5Def": "A recipe that uses a quantum computer to find near-perfect answers to tricky puzzle problems.",
     "wikiTitle": "Quantum Approximate Optimization Algorithm"
    },
    {
     "term": "Sherrington-Kirkpatrick model",
-    "shortDef": "A mathematical model of a spin glass with long-range disordered magnetic interactions.",
-    "eli5Def": "A grid of tiny magnets that are all pushing and pulling on each other in a messy, complicated way.",
+    "shortDef": "A mathematical model of a spin glass with infinite-range random interactions.",
+    "eli5Def": "A model of magnetic atoms that are all fighting to point in different directions, making it very hard to find a stable state.",
     "wikiTitle": "Sherrington–Kirkpatrick model"
    },
    {
     "term": "Truncated Wigner approximation",
-    "shortDef": "A semiclassical method that models quantum dynamics by adding classical noise to initial states.",
-    "eli5Def": "A way to simulate quantum physics on a normal computer by pretending the quantum particles are just classical objects with a bit of random shaking.",
-    "wikiTitle": null
+    "shortDef": "A semiclassical method that models quantum dynamics using classical trajectories with added noise.",
+    "eli5Def": "A trick where we pretend quantum particles are just classical objects, but we add a little bit of random shaking to mimic quantum uncertainty.",
+    "wikiTitle": "Semiclassical physics"
    },
    {
     "term": "Parisi value",
-    "shortDef": "The exact ground state energy of the Sherrington-Kirkpatrick spin glass model in the thermodynamic limit.",
-    "eli5Def": "The absolute lowest possible energy state that a messy system of magnets can settle into.",
-    "wikiTitle": "Giorgio Parisi"
+    "shortDef": "The exact ground state energy of the Sherrington-Kirkpatrick spin glass model.",
+    "eli5Def": "The absolute lowest possible energy state for a complex, messy magnetic system.",
+    "wikiTitle": "Spin glass"
    }
   ],
   "difficulty": 4,

@@ -141,6 +141,12 @@ export interface FeedItem {
   matchedKeywords: string[];
   /** First paper figure to show on the card, if the HTML render has one. */
   figureUrl: string | null;
+  /**
+   * Date the pipeline first saw this paper (YYYY-MM-DD) — the announcement
+   * signal that defines "today's drop" (submission `published` can lag the
+   * announce by days).
+   */
+  firstSeen: string;
   primaryCategory: string;
   /** YYYY-MM-DD (announcement-relevant date). */
   published: string;
@@ -182,6 +188,33 @@ export interface OverviewFile {
   /** Empty array beats forced connections. */
   connections: OverviewConnection[];
   paperIds: string[];
+}
+
+// ---------------------------------------------------------------------------
+// data/suggestions.json — author discovery, recomputed every run
+
+/** A not-yet-followed author the pipeline thinks the user would like. */
+export interface AuthorSuggestion {
+  name: string;
+  /** Slugified name — dedupe/dismiss key. */
+  slug: string;
+  score: number;
+  /** Followed-author ids this person co-authored with (strongest signal). */
+  coAuthoredWith: string[];
+  /** Followed keywords whose matches they appear in. */
+  viaKeywords: string[];
+  /** Discovery categories they're active in. */
+  viaCategories: string[];
+  /** Up to 3 recent paper ids, newest first. */
+  paperIds: string[];
+  /** Titles for the first 1-2 of paperIds (card display). */
+  recentTitles: string[];
+  paperCount: number;
+}
+
+export interface SuggestionsFile {
+  generatedAt: string;
+  suggestions: AuthorSuggestion[];
 }
 
 // ---------------------------------------------------------------------------

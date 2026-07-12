@@ -293,6 +293,16 @@ function recordQualifiedDay(): void {
   set("streak", data);
 }
 
+// --- author suggestions ------------------------------------------------------------
+
+/** Suggestion slugs the user followed or waved off — never shown again. */
+export const getDismissedSuggestions = () => get<string[]>("dismissed", []);
+
+export function dismissSuggestion(slug: string): void {
+  const list = getDismissedSuggestions();
+  if (!list.includes(slug)) set("dismissed", [...list, slug]);
+}
+
 // --- settings / sync -------------------------------------------------------------
 
 export const getSettings = () => get<SettingsData>("settings", {});

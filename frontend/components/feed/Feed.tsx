@@ -10,11 +10,13 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { GlossaryEntry, PaperDetail } from "@/lib/data-schema";
+import { loadSuggestions } from "@/lib/api";
+import type { AuthorSuggestion, GlossaryEntry, PaperDetail } from "@/lib/data-schema";
 import { buildFeed } from "@/lib/feed";
 import { useDrop, useStoreVersion } from "@/lib/hooks";
 import {
   computeStreak,
+  getDismissedSuggestions,
   getDueConcepts,
   getReadMap,
   getSettings,
@@ -33,6 +35,7 @@ import {
   EndSlide,
   OverviewSlide,
   ReviewPromoSlide,
+  SuggestSlide,
   WeekendSlide,
 } from "./slides";
 import { TermSheet } from "@/components/learn/TermSheet";
@@ -78,18 +81,28 @@ export function Feed() {
     return () => document.removeEventListener("selectionchange", onSel);
   }, []);
 
+  // Author discovery pool — dismissed/followed people filtered at load.
+  const [suggestions, setSuggestions] = useState<AuthorSuggestion[] | null>(null);
+  useEffect(() => {
+    loadSuggestions().then((s) => {
+      const dismissed = new Set(getDismissedSuggestions());
+      setSuggestions(s.suggestions.filter((x) => !dismissed.has(x.slug)));
+    });
+  }, []);
+
   // Build once per data load — deliberately NOT re-run on read-state changes.
   const built = useMemo(() => {
-    if (!drop.feed) return null;
+    if (!drop.feed || suggestions === null) return null;
     return buildFeed(
       drop.feed,
       drop.overview,
       getReadMap(),
       getDueConcepts().length,
       getSettings().showForYou ?? true,
+      suggestions,
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [drop.feed, drop.overview]);
+  }, [drop.feed, drop.overview, suggestions]);
 
   const initialIndex = useMemo(
     () => sessionIndex ?? built?.firstUnreadIndex ?? 0,
@@ -238,6 +251,8 @@ export function Feed() {
               />
             ) : slide.type === "reviewpromo" ? (
               <ReviewPromoSlide due={slide.due} />
+            ) : slide.type === "suggest" ? (
+              <SuggestSlide suggestion={slide.suggestion} />
             ) : (
               <EndSlide readToday={readTodayCount} />
             )}

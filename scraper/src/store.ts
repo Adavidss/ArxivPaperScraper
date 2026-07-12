@@ -12,6 +12,7 @@ import {
 } from "node:fs";
 import { join } from "node:path";
 import type {
+  AuthorSuggestion,
   FeedFile,
   FeedItem,
   FollowedAuthor,
@@ -21,6 +22,7 @@ import type {
   PaperDetail,
   RunStatus,
   StateFile,
+  SuggestionsFile,
 } from "./types";
 import { paperFileId } from "./types";
 
@@ -87,7 +89,7 @@ export function retagFollowedAuthors(
   }
 }
 
-const toFeedItem = (p: PaperDetail): FeedItem => ({
+const toFeedItem = (p: PaperDetail, firstSeen: string): FeedItem => ({
   id: p.id,
   title: p.title,
   hook: p.bite.hook,
@@ -95,6 +97,7 @@ const toFeedItem = (p: PaperDetail): FeedItem => ({
   followedIds: [...new Set(p.authors.flatMap((a) => (a.followedId ? [a.followedId] : [])))],
   matchedKeywords: p.matchedKeywords ?? [],
   figureUrl: p.figure?.url ?? null,
+  firstSeen,
   primaryCategory: p.primaryCategory,
   published: p.published.slice(0, 10),
   difficulty: p.bite.difficulty,
@@ -112,6 +115,8 @@ export interface WriteInput {
   state: StateFile;
   /** Today's overview, if one was generated this run. */
   overview: OverviewFile | null;
+  /** Author discovery, recomputed from the window every run. */
+  suggestions: AuthorSuggestion[];
   runStatus: RunStatus;
 }
 
@@ -153,7 +158,12 @@ export function writeAll(input: WriteInput): { feed: FeedFile; meta: MetaFile } 
     .reverse();
 
   const items = [...papers.values()]
-    .map(toFeedItem)
+    .map((p) =>
+      toFeedItem(
+        p,
+        (state.processed[p.id]?.firstSeen ?? p.published).slice(0, 10),
+      ),
+    )
     .sort((a, b) =>
       a.published === b.published
         ? b.id.localeCompare(a.id)
@@ -161,6 +171,11 @@ export function writeAll(input: WriteInput): { feed: FeedFile; meta: MetaFile } 
     );
   const feed: FeedFile = { generatedAt: nowIso, windowDays, items };
   writeJson(join(dataDir, "feed.json"), feed);
+
+  writeJson(join(dataDir, "suggestions.json"), {
+    generatedAt: nowIso,
+    suggestions: input.suggestions,
+  } satisfies SuggestionsFile);
 
   const meta: MetaFile = {
     schemaVersion: 1,

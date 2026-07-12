@@ -40,37 +40,37 @@
  "biteStatus": "ok",
  "bite": {
   "model": "gemini-flash-latest",
-  "generatedAt": "2026-07-11T08:21:12.318Z",
-  "hook": "A new superconducting circuit design beats classical limits to approach ideal Carnot efficiency while maintaining finite power.",
+  "generatedAt": "2026-07-12T17:45:21.092Z",
+  "hook": "A new superconducting-circuit design bypasses classical limits to approach perfect Carnot efficiency at finite power.",
   "tldr": [
-   "Proposed a novel superconducting-circuit heat engine designed to emulate collective quantum enhancement.",
-   "Modeled the system to show that collective dissipative processes can bypass the classical power-efficiency trade-off.",
-   "Demonstrated an experimentally feasible route to achieving near-Carnot efficiency at finite power using circuit-QED."
+   "Proposed a superconducting-circuit heat engine that emulates collective quantum enhancement.",
+   "Utilized collective dissipative processes to bypass the power-efficiency trade-off of classical Markovian engines.",
+   "Demonstrated that Carnot efficiency can be asymptotically approached while maintaining non-zero power output."
   ],
-  "whyItMatters": "Classical physics dictates that an engine must run infinitely slowly to reach maximum efficiency (Carnot efficiency). This quantum design breaks that rule, paving the way for ultra-efficient quantum technologies and practical quantum thermodynamic devices.",
-  "eli5": "Normally, if you want a car engine to be perfectly efficient and waste zero fuel, you have to drive infinitely slowly, which is useless. This paper designs a quantum engine using superconducting circuits where the quantum parts work together like a synchronized team, allowing it to run highly efficiently while still moving at a useful speed.",
+  "whyItMatters": "In classical physics, a heat engine can only reach maximum (Carnot) efficiency if it runs infinitely slowly, meaning it produces zero power. This quantum design breaks that rule, paving the way for highly efficient quantum technologies and practical quantum-device design.",
+  "eli5": "Normally, a car engine has to choose: go super fast (high power) or get amazing gas mileage (high efficiency). You can't have both. This quantum engine uses a special team-up effect among quantum particles to achieve near-perfect efficiency without slowing down to a crawl.",
   "keyNumbers": [],
   "glossary": [
    {
     "term": "Carnot efficiency",
-    "shortDef": "The maximum theoretical efficiency that any thermodynamic engine can achieve during a reversible cycle.",
-    "eli5Def": "The absolute gold standard of engine efficiency, where absolutely no energy is wasted as useless heat.",
+    "shortDef": "The maximum theoretical efficiency that any heat engine can achieve under the laws of thermodynamics.",
+    "eli5Def": "The absolute limit on how much heat energy an engine can turn into useful work, with zero waste.",
     "wikiTitle": "Carnot's theorem (thermodynamics)"
    },
    {
-    "term": "circuit-QED",
-    "shortDef": "The study of the interaction between light and matter using superconducting artificial atoms and microwave resonators.",
-    "eli5Def": "A technology where scientists use tiny superconducting chips to control quantum light and matter like Lego bricks.",
-    "wikiTitle": "Circuit quantum electrodynamics"
+    "term": "Markovian",
+    "shortDef": "Describing a process where the future state depends only on the current state, not on its past history.",
+    "eli5Def": "A system with no memory, where what happens next depends only on how things look right now.",
+    "wikiTitle": "Markov property"
    },
    {
-    "term": "Markovian",
-    "shortDef": "A process where the future state depends only on the current state, with no memory of past states.",
-    "eli5Def": "A system that lives entirely in the moment, completely forgetting its past history.",
-    "wikiTitle": "Markov chain"
+    "term": "circuit-QED",
+    "shortDef": "The study of light-matter interaction using superconducting qubits coupled to microwave resonators.",
+    "eli5Def": "A technology where scientists use tiny superconducting chips to control quantum light and matter like Lego bricks.",
+    "wikiTitle": "Circuit quantum electrodynamics"
    }
   ],
   "difficulty": 3,
-  "readSeconds": 50
+  "readSeconds": 55
  }
 }

@@ -88,18 +88,29 @@ export function PaperCard({
   };
 
   const fallback = item.biteStatus === "fallback";
+  // Freshness = when the paper ARRIVED in the feed (pipeline firstSeen), not
+  // its submission date — arXiv announces days after submission.
+  const ageDays = Math.max(
+    0,
+    Math.round(
+      (Date.now() -
+        Date.parse(`${item.firstSeen ?? item.published}T12:00:00Z`)) /
+        86_400_000,
+    ),
+  );
+  const fresh = ageDays <= 1 && !carryOver;
 
   return (
     <div
       className={`relative flex h-full flex-col overflow-hidden rounded-2xl border bg-surface ${
         gem ? "border-gem/60 shadow-[0_0_24px_-6px_var(--color-gem)]" : "border-border"
-      }`}
+      } ${active ? "ju" : ""}`}
       onPointerUp={handleTap}
     >
       {/* Badges row */}
       <div className="flex items-center gap-2 px-4 pt-3 text-xs">
         {item.followedIds.length > 0 ? (
-          <span className="flex items-center gap-1.5 font-medium text-accent">
+          <span className="shine relative flex items-center gap-1.5 overflow-hidden rounded-full font-medium text-accent">
             <span className="text-[8px]">●</span>
             {item.authorsLine.split(",")[0]}
           </span>
@@ -110,6 +121,15 @@ export function PaperCard({
         ) : (
           <span className="flex items-center gap-1 font-medium text-gem">
             ◆ {gem ? "Today's gem" : "For you"}
+          </span>
+        )}
+        {fresh ? (
+          <span className="new-badge rounded-full px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-canvas">
+            New
+          </span>
+        ) : (
+          <span className="font-mono text-[10px] text-muted">
+            {ageDays === 0 ? "today" : `${ageDays}d`}
           </span>
         )}
         {carryOver && (
@@ -259,23 +279,32 @@ function BitePane({
   const glossary = bite?.glossary ?? [];
   return (
     <>
-      {/* Visual layer: the paper's first figure, else generative cover art. */}
-      <div className="relative mb-3 h-40 shrink-0 overflow-hidden rounded-xl border border-border">
+      {/* Visual layer: the paper's first figure, else generative cover art.
+          The inner element over-scales slightly so the pager-driven --py
+          parallax never exposes edges. */}
+      <div
+        data-parallax
+        className="ju-1 relative mb-3 h-40 shrink-0 overflow-hidden rounded-xl border border-border"
+      >
         {item.figureUrl ? (
           <img
             src={item.figureUrl}
             alt=""
             loading="lazy"
-            className="h-full w-full bg-white object-contain p-1.5"
+            className="parallax-img h-full w-full bg-white object-contain p-1.5"
           />
         ) : (
-          <CoverArt seed={item.id} category={item.primaryCategory} className="h-full w-full" />
+          <CoverArt
+            seed={item.id}
+            category={item.primaryCategory}
+            className="parallax-img h-full w-full"
+          />
         )}
       </div>
-      <h2 className="font-display text-[22px] font-semibold leading-[1.18] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:3] overflow-hidden">
+      <h2 className="ju-2 font-display text-[22px] font-semibold leading-[1.18] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:3] overflow-hidden">
         {item.hook}
       </h2>
-      <ul className="mt-2.5 flex min-h-0 flex-col gap-2">
+      <ul className="ju-3 mt-2.5 flex min-h-0 flex-col gap-2">
         {(bite?.tldr ?? []).map((line, i) => (
           <li key={i} className="flex gap-2 text-[15px] leading-snug">
             <span className="mt-0.5 shrink-0 text-accent">▸</span>
@@ -290,7 +319,7 @@ function BitePane({
           ))}
       </ul>
       {bite && bite.keyNumbers.length > 0 && (
-        <div className="mt-auto flex flex-wrap gap-2 pt-3">
+        <div className="ju-4 mt-auto flex flex-wrap gap-2 pt-3">
           {bite.keyNumbers.slice(0, 3).map((k) => (
             <KeyNumberPill key={k.value + k.label} value={k.value} label={k.label} context={k.context} />
           ))}

@@ -8,6 +8,7 @@ import type {
   MetaFile,
   OverviewFile,
   PaperDetail,
+  SuggestionsFile,
 } from "./data-schema";
 import { paperFileId } from "./data-schema";
 
@@ -35,3 +36,10 @@ export const loadOverview = (date: string) =>
   loadJSON<OverviewFile>(`overviews/${date}.json`);
 
 export const loadFollows = () => loadJSON<FollowsFile>("follows.json");
+
+/** Author discovery — tolerant of deploys that predate the file. */
+export const loadSuggestions = (): Promise<SuggestionsFile> =>
+  loadJSON<SuggestionsFile>("suggestions.json").catch(() => ({
+    generatedAt: "",
+    suggestions: [],
+  }));

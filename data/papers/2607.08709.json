@@ -48,48 +48,48 @@
  "biteStatus": "ok",
  "bite": {
   "model": "gemini-flash-latest",
-  "generatedAt": "2026-07-11T08:21:12.318Z",
-  "hook": "Using 11-dimensional photon measurements, researchers achieved secure quantum key distribution that resists noise and loss.",
+  "generatedAt": "2026-07-12T17:45:21.092Z",
+  "hook": "Using 11-dimensional photon entanglement, researchers achieved secure quantum key distribution robust against noise and loss.",
   "tldr": [
-   "Proposed a robust high-dimensional one-sided device-independent quantum key distribution (1sDI-QKD) protocol.",
-   "Developed a security analysis based on quantum steering and tested it experimentally using spatial-mode entangled photons.",
-   "Demonstrated a programmable measurement device operating up to dimension 11, achieving peak key rates at dimension 7."
+   "Proposed a robust high-dimensional one-sided device-independent QKD protocol using quantum steering.",
+   "Developed a systematic security analysis and implemented a proof-of-principle experiment using spatial photon entanglement.",
+   "Demonstrated positive key rates in up to 11 dimensions, with the highest key rates achieved at dimension 7."
   ],
-  "whyItMatters": "Quantum communication is highly sensitive to real-world noise and hardware flaws. By using high-dimensional states (like 11-sided quantum dice instead of 2-sided coins), this protocol makes quantum encryption much more secure and practical for real-world networks.",
-  "eli5": "Imagine sending a secret code using coins that can only be heads or tails; a little bit of wind can easily flip them and ruin the message. Instead, this team used 11-sided quantum dice. Because there are more options, the message is much harder for static noise to corrupt and much safer from hackers.",
+  "whyItMatters": "Quantum communication promises unhackable security, but real-world noise and untrusted hardware can compromise it. This protocol allows secure communication even if one party's measurement device is completely untrusted, and using higher dimensions makes the connection much more resilient to interference.",
+  "eli5": "Imagine sending a secret code using light. Usually, static on the line or bad equipment can ruin the secret. By using photons that can exist in 11 different 'shapes' instead of just 2, this system can tolerate lots of static and still guarantee that no one is eavesdropping.",
   "keyNumbers": [
    {
     "value": "11",
-    "label": "maximum dimension",
+    "label": "Maximum dimension",
     "context": "The maximum dimension of the fully programmable multi-outcome measurement device operated in the experiment."
    },
    {
     "value": "7",
-    "label": "optimal dimension",
-    "context": "The dimension at which the highest secret key rates were experimentally achieved."
+    "label": "Optimal dimension",
+    "context": "The dimension at which the highest secret key rates were achieved in the experiment."
    }
   ],
   "glossary": [
    {
     "term": "quantum key distribution",
-    "shortDef": "A secure communication method that uses quantum mechanics to share cryptographic keys.",
-    "eli5Def": "A way of sending secret passwords using quantum particles, so that any eavesdropping attempt instantly breaks the particles and alerts you.",
+    "shortDef": "A secure communication method that uses quantum mechanics to share a cryptographic key.",
+    "eli5Def": "A way of sending secret passwords using quantum particles, where any attempt to spy on the password automatically alerts the users.",
     "wikiTitle": "Quantum key distribution"
    },
    {
     "term": "quantum steering",
-    "shortDef": "A quantum phenomenon where measurements on one particle can non-locally influence the state of an entangled partner.",
-    "eli5Def": "A spooky quantum link where doing something to one particle instantly changes what its partner particle is allowed to do.",
+    "shortDef": "An intermediate form of quantum nonlocality where one party can influence another's state through local measurements.",
+    "eli5Def": "A quantum trick where measuring one entangled particle instantly changes and verifies the state of its partner far away.",
     "wikiTitle": "Quantum steering"
    },
    {
     "term": "reverse reconciliation",
-    "shortDef": "An error-correction phase in QKD where the sender corrects their key based on information sent by the receiver.",
-    "eli5Def": "A clever way for two people to fix mistakes in their secret passwords over a public channel without letting hackers steal the key.",
+    "shortDef": "An information-reconciliation step in QKD where the sender corrects errors based on information from the receiver.",
+    "eli5Def": "A cleanup process where the sender adjusts their data to match the receiver's, ensuring they both have the exact same secret key.",
     "wikiTitle": "Information reconciliation"
    }
   ],
   "difficulty": 3,
-  "readSeconds": 55
+  "readSeconds": 60
  }
 }

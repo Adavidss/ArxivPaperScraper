@@ -20,6 +20,7 @@ import {
 import { GeminiClient, QuotaExhaustedError } from "./gemini";
 import { extractiveBite } from "./fallback";
 import { loadPapers, loadState, retagFollowedAuthors, writeAll } from "./store";
+import { computeSuggestions } from "./suggest";
 import type {
   Bite,
   BiteStatus,
@@ -386,6 +387,17 @@ async function main() {
   };
   const runStatus: RunStatus =
     quotaExhausted || fallbacksThisRun > 0 ? "partial" : "ok";
+
+  // --- 8b. author discovery -------------------------------------------------------
+  const suggestions = computeSuggestions([...papers.values()], cfg.follows);
+  if (suggestions.length)
+    console.log(
+      `suggest: ${suggestions.length} authors, top: ${suggestions
+        .slice(0, 3)
+        .map((s) => `${s.name} (${s.score})`)
+        .join(", ")}`,
+    );
+
   const { feed, meta } = writeAll({
     dataDir: cfg.dataDir,
     nowIso: cfg.nowIso,
@@ -393,6 +405,7 @@ async function main() {
     papers,
     state,
     overview,
+    suggestions,
     runStatus,
   });
   console.log(

@@ -45,33 +45,33 @@
  "biteStatus": "ok",
  "bite": {
   "model": "gemini-flash-latest",
-  "generatedAt": "2026-07-11T08:21:12.318Z",
-  "hook": "Quantum measurement incompatibility can be used to mathematically lock out eavesdroppers and guarantee true randomness.",
+  "generatedAt": "2026-07-12T17:45:21.092Z",
+  "hook": "Quantum measurement incompatibility can be used to mathematically guarantee and certify true randomness.",
   "tldr": [
-   "Established a quantitative trade-off between observed measurement incompatibility and a classical eavesdropper's capabilities.",
-   "Used incompatibility witnesses as randomness certificates and bounded the eavesdropper's strategies via semi-definite programming.",
-   "Proved a tight connection between quantum steerability and randomness generation, extending the model to quantum-memory eavesdroppers."
+   "Investigated the relationship between quantum measurement incompatibility and the ability to generate secure randomness.",
+   "Used incompatibility witnesses and semidefinite programming to bound a classical eavesdropper's strategies in a prepare-and-measure setup.",
+   "Proved a tight connection between quantum steerability and randomness generation, extending the method to eavesdroppers with quantum memory."
   ],
-  "whyItMatters": "This provides a concrete way to generate guaranteed, unhackable random numbers, which are the bedrock of secure modern cryptography and private communications.",
-  "eli5": "If you roll a normal die, a super-spy with a high-speed camera might predict the outcome. But if you use quantum particles that cannot be measured at the same time, the laws of physics guarantee the result is 100% unpredictable to anyone.",
+  "whyItMatters": "True randomness is vital for secure cryptography. This research provides a concrete way to prove that generated numbers are genuinely random and completely secure from eavesdroppers, using fundamental quantum properties.",
+  "eli5": "If you roll a normal die, a supercomputer that knows exactly how you threw it could predict the outcome. But by using quantum measurements that cannot be done at the same time, we can make a 'die' that is physically impossible for anyone, even a spy with a supercomputer, to predict.",
   "keyNumbers": [],
   "glossary": [
    {
     "term": "Measurement incompatibility",
-    "shortDef": "The inability to simultaneously measure certain quantum observables without mutual disturbance.",
-    "eli5Def": "The quantum rule that you cannot perfectly measure two different things about a particle, like its speed and its position, at the exact same time.",
-    "wikiTitle": "Complementarity (physics)"
+    "shortDef": "The inability to simultaneously perform or define certain quantum measurements.",
+    "eli5Def": "The quantum rule that you cannot perfectly measure two different things, like speed and position, at the exact same time.",
+    "wikiTitle": "Quantum measurement"
    },
    {
     "term": "Quantum steering",
-    "shortDef": "A quantum phenomenon where measurements on one system can non-locally affect the state of another.",
-    "eli5Def": "A spooky quantum link where doing something to one particle instantly changes what we can know about its distant partner.",
+    "shortDef": "A phenomenon where measurements on one entangled particle seem to choose the state of another distant particle.",
+    "eli5Def": "A quantum trick where measuring one particle instantly changes what we can know about its distant partner.",
     "wikiTitle": "Quantum steering"
    },
    {
-    "term": "Semi-definite program",
+    "term": "Semidefinite program",
     "shortDef": "A subfield of optimization that optimizes a linear function over the intersection of a cone of positive semidefinite matrices.",
-    "eli5Def": "A powerful math tool used to find the absolute best solution to a complex problem with many constraints.",
+    "eli5Def": "A powerful math tool used to find the best possible solution to complex, multi-sided problems.",
     "wikiTitle": "Semidefinite programming"
    }
   ],

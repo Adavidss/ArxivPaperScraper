@@ -1,12 +1,13 @@
 "use client";
 
 // Non-paper slides: daily overview (front page), caught-up finish line,
-// review promo, end-of-feed floor.
+// review promo, author suggestion, end-of-feed floor.
 
 import Link from "next/link";
-import { useEffect, useRef } from "react";
-import type { OverviewFile } from "@/lib/data-schema";
-import { getSync, updateSync } from "@/lib/store";
+import { useEffect, useRef, useState } from "react";
+import type { AuthorSuggestion, OverviewFile } from "@/lib/data-schema";
+import { queueOrSyncOps } from "@/lib/github";
+import { dismissSuggestion, getSync, updateSync } from "@/lib/store";
 import { Icons } from "@/components/ui/icons";
 
 const prefersReducedMotion = () =>
@@ -207,6 +208,97 @@ export function ReviewPromoSlide({ due }: { due: number }) {
       >
         Start review
       </Link>
+    </div>
+  );
+}
+
+/** Author discovery: one person per day, follow in one tap, never a goal. */
+export function SuggestSlide({ suggestion }: { suggestion: AuthorSuggestion }) {
+  const [state, setState] = useState<"idle" | "following" | "done" | "dismissed">("idle");
+
+  const reason = suggestion.coAuthoredWith.length
+    ? `Co-author on ${suggestion.paperCount} paper${suggestion.paperCount === 1 ? "" : "s"} with people you follow`
+    : suggestion.viaKeywords.length
+      ? `Keeps showing up in #${suggestion.viaKeywords[0]}`
+      : `Active in ${suggestion.viaCategories.join(", ")}`;
+
+  const follow = async () => {
+    setState("following");
+    dismissSuggestion(suggestion.slug);
+    const result = await queueOrSyncOps([
+      {
+        op: "add-author",
+        author: { id: suggestion.slug, name: suggestion.name, aliases: [] },
+      },
+    ]);
+    setState("done");
+    void result;
+  };
+
+  if (state === "dismissed") {
+    return (
+      <div className="flex h-full items-center justify-center rounded-2xl border border-border bg-surface">
+        <p className="text-sm text-muted">Okay — fewer like this. Swipe on ↑</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="relative flex h-full flex-col justify-center overflow-hidden rounded-2xl border border-gem/40 bg-surface px-6">
+      <div className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-gem/15 blur-3xl" />
+      <p className="text-[10px] font-bold uppercase tracking-widest text-gem">
+        People · suggested for you
+      </p>
+      <h2 className="mt-2 font-display text-[30px] font-semibold leading-tight">
+        {suggestion.name}
+      </h2>
+      <p className="mt-1.5 text-sm text-fg/85">{reason}</p>
+
+      {suggestion.recentTitles.length > 0 && (
+        <div className="mt-4 flex flex-col gap-2">
+          {suggestion.recentTitles.slice(0, 2).map((t) => (
+            <p
+              key={t}
+              className="border-l-2 border-gem/40 pl-3 text-[13px] leading-snug text-muted [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2] overflow-hidden"
+            >
+              {t}
+            </p>
+          ))}
+        </div>
+      )}
+
+      <div className="mt-6 flex items-center gap-2">
+        {state === "done" ? (
+          <p className="rounded-xl border border-data/40 bg-data/10 px-4 py-2.5 text-sm font-medium text-data">
+            Following ✓ — papers arrive with the next refresh
+          </p>
+        ) : (
+          <>
+            <button
+              type="button"
+              disabled={state === "following"}
+              onClick={follow}
+              className="rounded-xl bg-gem px-5 py-2.5 text-sm font-semibold text-canvas disabled:opacity-60"
+            >
+              {state === "following" ? "Following…" : "+ Follow"}
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                dismissSuggestion(suggestion.slug);
+                setState("dismissed");
+              }}
+              className="rounded-xl border border-border px-4 py-2.5 text-sm text-muted transition hover:text-fg"
+            >
+              Not for me
+            </button>
+          </>
+        )}
+      </div>
+      <p className="mt-3 text-[11px] text-muted">
+        Mined from your window: co-authorships weigh most, then keyword and
+        category overlap.
+      </p>
     </div>
   );
 }

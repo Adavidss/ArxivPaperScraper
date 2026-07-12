@@ -31,6 +31,7 @@ import {
 import { TAB_BAR_SPACE } from "@/components/ui/TabBar";
 import { Icons } from "@/components/ui/icons";
 import { TermSheet } from "@/components/learn/TermSheet";
+import { PaperGame } from "@/components/games/PaperGame";
 import { ScrollCard } from "./ScrollCard";
 
 export function ScrollFeed() {
@@ -47,6 +48,7 @@ export function ScrollFeed() {
   const [term, setTerm] = useState<{ entry: GlossaryEntry; paper: PaperDetail | null } | null>(
     null,
   );
+  const [playing, setPlaying] = useState<PaperDetail | null>(null);
 
   useEffect(() => {
     if (!getSettings().onboarded) router.replace("/welcome");
@@ -182,7 +184,11 @@ export function ScrollFeed() {
             {/* Followed stream, suggestion card woven in */}
             {live.followed.map((item, i) => (
               <div key={item.id} className="flex flex-col gap-3">
-                <ScrollCard item={item} onTerm={(entry, paper) => setTerm({ entry, paper })} />
+                <ScrollCard
+                  item={item}
+                  onTerm={(entry, paper) => setTerm({ entry, paper })}
+                  onPlay={setPlaying}
+                />
                 {i === 4 && suggestion && (
                   <SuggestCard
                     suggestion={suggestion}
@@ -220,6 +226,7 @@ export function ScrollFeed() {
                     key={item.id}
                     item={item}
                     onTerm={(entry, paper) => setTerm({ entry, paper })}
+                    onPlay={setPlaying}
                   />
                 ))}
                 <button
@@ -241,6 +248,7 @@ export function ScrollFeed() {
         paper={term?.paper ?? null}
         onClose={() => setTerm(null)}
       />
+      {playing && <PaperGame detail={playing} onClose={() => setPlaying(null)} />}
     </>
   );
 }

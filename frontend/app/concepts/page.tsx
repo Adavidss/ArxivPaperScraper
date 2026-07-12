@@ -5,7 +5,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { fmtMs } from "@/lib/games";
+import { fmtMs, resolveGameSource } from "@/lib/games";
 import { useMounted, useStoreVersion } from "@/lib/hooks";
 import {
   type ConceptEntry,
@@ -13,6 +13,7 @@ import {
   getDueConcepts,
   getGames,
   removeConcept,
+  updateSettings,
 } from "@/lib/store";
 import { BottomSheet } from "@/components/ui/BottomSheet";
 import { Icons } from "@/components/ui/icons";
@@ -61,7 +62,32 @@ export default function ConceptsPage() {
       {/* Play — the point: learn these like it's a game */}
       {mounted && (
         <section>
-          <h2 className="mb-2 text-xs font-bold uppercase tracking-widest text-muted">Play</h2>
+          <div className="mb-2 flex items-center justify-between">
+            <h2 className="text-xs font-bold uppercase tracking-widest text-muted">Play</h2>
+            <div className="flex gap-1" role="radiogroup" aria-label="Game term source">
+              {(
+                [
+                  ["library", "My library"],
+                  ["feed", "From the feed"],
+                ] as const
+              ).map(([value, label]) => (
+                <button
+                  key={value}
+                  type="button"
+                  role="radio"
+                  aria-checked={resolveGameSource() === value}
+                  onClick={() => updateSettings({ gameSource: value })}
+                  className={`rounded-full border px-2.5 py-1 text-[11px] transition ${
+                    resolveGameSource() === value
+                      ? "border-accent bg-accent/10 font-medium text-accent"
+                      : "border-border text-muted"
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
           <div className="grid grid-cols-2 gap-2">
             <Link
               href="/concepts/quiz"
@@ -89,8 +115,11 @@ export default function ConceptsPage() {
             </Link>
           </div>
           <p className="mt-2 text-[11px] text-muted">
-            Games pull from your library — and from today&apos;s papers, so
-            there&apos;s always something to play.
+            {resolveGameSource() === "library"
+              ? "Playing from your saved concepts (topped up from the feed when short)."
+              : "Playing from today's papers — save terms to build your own set."}{" "}
+            Every enriched card also has its own ▶ Play — a game built from
+            that paper.
           </p>
         </section>
       )}

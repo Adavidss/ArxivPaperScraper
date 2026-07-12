@@ -11,6 +11,7 @@ import { loadLivePaper } from "@/lib/arxiv-live";
 import type { GlossaryEntry, PaperDetail } from "@/lib/data-schema";
 import { useStoreVersion } from "@/lib/hooks";
 import { isSaved, markRead, toggleSaved } from "@/lib/store";
+import { PaperGame } from "@/components/games/PaperGame";
 import { TermSheet } from "@/components/learn/TermSheet";
 import { TermText } from "@/components/learn/TermText";
 import { Icons } from "@/components/ui/icons";
@@ -20,6 +21,7 @@ function PaperInner() {
   const [paper, setPaper] = useState<PaperDetail | null>(null);
   const [missing, setMissing] = useState(false);
   const [term, setTerm] = useState<GlossaryEntry | null>(null);
+  const [playing, setPlaying] = useState(false);
   useStoreVersion();
 
   useEffect(() => {
@@ -202,10 +204,19 @@ function PaperInner() {
         <p className="mt-3 text-sm leading-relaxed text-fg/90">{paper.abstract}</p>
       </section>
 
-      <div className="flex items-center gap-3 pb-4">
+      <div className="flex flex-wrap items-center gap-3 pb-4">
+        {paper.biteStatus === "ok" && paper.bite.glossary.length > 0 && (
+          <button
+            type="button"
+            onClick={() => setPlaying(true)}
+            className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-accent to-accent-2 px-4 py-2.5 text-sm font-semibold text-canvas"
+          >
+            <Icons.Brain size={16} /> Play this paper
+          </button>
+        )}
         <Link
           href={`/read/?id=${encodeURIComponent(paper.id)}`}
-          className="rounded-xl bg-gradient-to-r from-accent to-accent-2 px-4 py-2.5 text-sm font-semibold text-canvas"
+          className="rounded-xl border border-accent/40 bg-accent/10 px-4 py-2.5 text-sm font-medium text-accent"
         >
           Read in app
         </Link>
@@ -220,6 +231,7 @@ function PaperInner() {
       </div>
 
       <TermSheet entry={term} paper={paper} onClose={() => setTerm(null)} />
+      {playing && <PaperGame detail={paper} onClose={() => setPlaying(false)} />}
     </main>
   );
 }

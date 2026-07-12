@@ -9,6 +9,7 @@ import type { GlossaryEntry, PaperDetail } from "@/lib/data-schema";
 import { bumpEncounter, conceptSlug, getConcepts, saveConcept } from "@/lib/store";
 import { fetchWikiSummary, wikiSearchUrl, type WikiSummary } from "@/lib/wiki";
 import { BottomSheet } from "@/components/ui/BottomSheet";
+import { TermDrill } from "@/components/games/TermDrill";
 import { Icons } from "@/components/ui/icons";
 
 export function TermSheet({
@@ -24,11 +25,13 @@ export function TermSheet({
   const [savedNow, setSavedNow] = useState(false);
   const [wiki, setWiki] = useState<WikiSummary | null | "loading" | "miss">(null);
   const [encounters, setEncounters] = useState(0);
+  const [drill, setDrill] = useState(false);
 
   useEffect(() => {
     if (!entry) return;
     setEli5Open(false);
     setSavedNow(false);
+    setDrill(false);
     setWiki(null);
     setEncounters(bumpEncounter(entry.term));
     // Wikipedia mode (selection "Define"): no precomputed definition — the
@@ -67,6 +70,19 @@ export function TermSheet({
     setWiki(result ?? "miss");
   };
 
+  if (drill) {
+    return (
+      <TermDrill
+        entry={entry}
+        paper={paper}
+        onClose={() => {
+          setDrill(false);
+          onClose();
+        }}
+      />
+    );
+  }
+
   return (
     <BottomSheet
       open
@@ -74,18 +90,43 @@ export function TermSheet({
       title={<span className="font-mono text-accent">{entry.term}</span>}
       footer={
         <div className="flex items-center gap-2">
-          <button
-            type="button"
-            onClick={save}
-            disabled={inLibrary}
-            className={`flex-1 rounded-xl px-4 py-2.5 text-sm font-semibold transition ${
-              inLibrary
-                ? "border border-data/40 bg-data/10 text-data"
-                : "bg-gradient-to-r from-accent to-accent-2 text-canvas"
-            }`}
-          >
-            {inLibrary ? "In your library ✓" : "+ Save to Concepts"}
-          </button>
+          {entry.shortDef ? (
+            <button
+              type="button"
+              onClick={() => setDrill(true)}
+              className="flex-1 rounded-xl bg-gradient-to-r from-accent to-accent-2 px-4 py-2.5 text-sm font-semibold text-canvas"
+            >
+              ▶ Play to learn
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={save}
+              disabled={inLibrary}
+              className={`flex-1 rounded-xl px-4 py-2.5 text-sm font-semibold transition ${
+                inLibrary
+                  ? "border border-data/40 bg-data/10 text-data"
+                  : "bg-gradient-to-r from-accent to-accent-2 text-canvas"
+              }`}
+            >
+              {inLibrary ? "In your library ✓" : "+ Save to Concepts"}
+            </button>
+          )}
+          {entry.shortDef && (
+            <button
+              type="button"
+              onClick={save}
+              disabled={inLibrary}
+              aria-label={inLibrary ? "In your library" : "Save to Concepts"}
+              className={`rounded-xl border px-3 py-2.5 text-sm transition ${
+                inLibrary
+                  ? "border-data/40 bg-data/10 text-data"
+                  : "border-border text-muted hover:text-fg"
+              }`}
+            >
+              {inLibrary ? "✓" : "+ Save"}
+            </button>
+          )}
           <button
             type="button"
             onClick={loadWiki}

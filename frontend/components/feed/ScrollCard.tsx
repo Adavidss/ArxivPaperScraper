@@ -20,9 +20,12 @@ const READ_DWELL_MS = 1800;
 export function ScrollCard({
   item,
   onTerm,
+  onPlay,
 }: {
   item: LiveItem;
   onTerm: (entry: GlossaryEntry, paper: PaperDetail | null) => void;
+  /** Launch the per-paper game (enriched cards only). */
+  onPlay?: (detail: PaperDetail) => void;
 }) {
   useStoreVersion();
   const ref = useRef<HTMLElement>(null);
@@ -182,6 +185,15 @@ export function ScrollCard({
 
         {/* Actions */}
         <div className="mt-1 flex items-center gap-1 border-t border-border pt-2">
+          {detail && onPlay && detail.bite.glossary.length > 0 && (
+            <button
+              type="button"
+              onClick={() => onPlay(detail)}
+              className="flex items-center gap-1 rounded-lg bg-accent/10 px-2.5 py-1.5 text-xs font-medium text-accent"
+            >
+              <Icons.Brain size={15} /> Play
+            </button>
+          )}
           <button
             type="button"
             aria-pressed={saved}

@@ -54,6 +54,8 @@ export interface SettingsData {
   onboarded?: boolean;
   /** "mono-dark" (default) | "mono-light" | "classic". */
   theme?: string;
+  /** Where games draw terms from: "library" | "feed" (unset = auto). */
+  gameSource?: string;
 }
 
 export interface SyncData {
@@ -236,10 +238,23 @@ export interface GamesData {
   matchRuns: number;
   /** Best match completion time in ms (0 = never finished one). */
   matchBestMs: number;
+  /** Per-paper games completed. */
+  paperRuns: number;
+  paperBestPct: number;
+  /** Single-term drills completed. */
+  drillRuns: number;
 }
 
 export const getGames = () =>
-  get<GamesData>("games", { quizRuns: 0, quizBestPct: 0, matchRuns: 0, matchBestMs: 0 });
+  get<GamesData>("games", {
+    quizRuns: 0,
+    quizBestPct: 0,
+    matchRuns: 0,
+    matchBestMs: 0,
+    paperRuns: 0,
+    paperBestPct: 0,
+    drillRuns: 0,
+  });
 
 /** Finishing a game counts as a learning day, same as a review session. */
 export function recordQuizRun(pct: number): void {
@@ -255,6 +270,22 @@ export function recordMatchRun(ms: number): void {
     matchRuns: g.matchRuns + 1,
     matchBestMs: g.matchBestMs === 0 ? ms : Math.min(g.matchBestMs, ms),
   });
+  recordQualifiedDay();
+}
+
+export function recordPaperRun(pct: number): void {
+  const g = getGames();
+  set("games", {
+    ...g,
+    paperRuns: (g.paperRuns ?? 0) + 1,
+    paperBestPct: Math.max(g.paperBestPct ?? 0, pct),
+  });
+  recordQualifiedDay();
+}
+
+export function recordDrillRun(): void {
+  const g = getGames();
+  set("games", { ...g, drillRuns: (g.drillRuns ?? 0) + 1 });
   recordQualifiedDay();
 }
 

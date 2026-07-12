@@ -1,0 +1,69 @@
+{
+ "id": "2607.08686",
+ "version": 1,
+ "title": "Instability of the undecidable behavior of the spectral gap in 1D",
+ "authors": [
+  {
+   "name": "Laura Castilla-Castellano"
+  },
+  {
+   "name": "Angelo Lucia"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-09T16:48:59Z",
+ "updated": "2026-07-09T16:48:59Z",
+ "abstract": "The problem of determining the existence of a spectral gap in a lattice quantum spin system was previously shown to be undecidable for one [J. Bausch et al., \"Undecidability of the spectral gap in one dimension\", Physical Review X 10 (2020)] or more dimensions [T. S. Cubitt et al., \"Undecidability of the spectral gap\", Nature 528 (2015) and Forum of Mathematics Pi, 10 (2022)]. In this work, we focus on the 1-dimensional result, showing that the constructed family with undecidable behavior is extremely sensitive to perturbations. In particular, for any $\\varepsilon > 0$, there exists a 1-local, rank 1, perturbation with norm $O(\\varepsilon)$, such that the spectral gap problem for the family in [J. Bausch et al., \"Undecidability of the spectral gap in one dimension\", Physical Review X 10 (2020)] now becomes decidable.",
+ "comment": "18 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08686",
+  "pdf": "https://arxiv.org/pdf/2607.08686",
+  "html": "https://arxiv.org/html/2607.08686"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.08686v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T08:40:03.019Z",
+  "hook": "The famous proof that 1D quantum spectral gaps are undecidable is highly unstable, becoming decidable under tiny perturbations.",
+  "tldr": [
+   "They investigated the mathematical stability of the spectral gap problem in one-dimensional quantum spin systems.",
+   "They analyzed a previously constructed family of 1D systems known to have an undecidable spectral gap under small perturbations.",
+   "They proved that adding a tiny, rank-1 perturbation of norm O(ε) makes the spectral gap problem completely decidable."
+  ],
+  "whyItMatters": "In physics, 'undecidable' means there is no possible algorithm that can always tell us if a system has a spectral gap. Showing that this undecidability instantly vanishes with a tiny nudge suggests that real-world, noisy physical systems might not suffer from this mathematical roadblock.",
+  "eli5": "Imagine a maze that is mathematically proven to be impossible for any computer to solve. The researchers showed that if you nudge just one wall by a microscopic amount, the maze suddenly becomes incredibly easy for a computer to map out.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "spectral gap",
+    "shortDef": "The energy difference between a quantum system's lowest energy state (ground state) and its first excited state.",
+    "eli5Def": "The energy step a quantum particle has to jump to get out of its absolute quietest, lowest-energy state.",
+    "wikiTitle": "Spectral gap (physics)"
+   },
+   {
+    "term": "undecidable",
+    "shortDef": "A decision problem for which it is proved to be impossible to construct an algorithm that always leads to a correct yes-or-no answer.",
+    "eli5Def": "A math puzzle that is so tricky, it is physically impossible to write a computer program that can always solve it.",
+    "wikiTitle": "Undecidable problem"
+   },
+   {
+    "term": "perturbation",
+    "shortDef": "A small alteration or disturbance to a physical system's governing equations or Hamiltonian.",
+    "eli5Def": "A tiny nudge, bump, or imperfection added to a system that slightly changes how it behaves.",
+    "wikiTitle": "Perturbation theory"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

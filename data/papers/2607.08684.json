@@ -1,0 +1,65 @@
+{
+ "id": "2607.08684",
+ "version": 1,
+ "title": "Entanglement Wedge Reconstruction without Holographic Quantum Error Correction",
+ "authors": [
+  {
+   "name": "Seiji Terashima"
+  }
+ ],
+ "categories": [
+  "hep-th",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-th",
+ "published": "2026-07-09T16:47:19Z",
+ "updated": "2026-07-09T16:47:19Z",
+ "abstract": "Bulk reconstruction is a central problem in AdS/CFT, and entanglement wedge reconstruction is its subregion version. We argue that this subregion statement should be separated from the stronger holographic quantum error correction interpretation, in which one region-independent logical bulk operator has code-preserving representatives in several boundary regions. A simple locality argument shows that such a common reconstruction must commute with the code-preserving local algebras in the complementary regions. This is the mechanism realized in HaPPY-type codes: the erased regions are blind to a protected logical algebra. An ordinary finite $N$ holographic CFT does not have such a protected invisible sector for supergravity fields. Its low-energy local observables, in particular, suitably smeared stress tensors, detect the physical support and gravitational dressing of ordinary bulk operators, up to possible center or superselection data. Thus, there is no such holographic quantum error correction and the $N=\\infty$ agreement of global and subregion HKLL formulae is a free-theory statement. What remains is entanglement wedge reconstruction without holographic quantum error correction, or subregion complementarity: each boundary region has its own code-preserving low-energy algebra and its own region-adapted bulk interpretation, rather than a shared logical operator.",
+ "comment": "18 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08684",
+  "pdf": "https://arxiv.org/pdf/2607.08684",
+  "html": "https://arxiv.org/html/2607.08684"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T08:40:03.019Z",
+  "hook": "Holographic quantum error correction might not exist in ordinary, finite-N quantum gravity systems.",
+  "tldr": [
+   "They analyzed the relationship between subregion bulk reconstruction and holographic quantum error correction in AdS/CFT.",
+   "They used a locality argument to show how shared logical operators must commute with complementary boundary algebras.",
+   "They found that finite-N CFTs lack protected invisible sectors, meaning subregion complementarity exists without shared error-correcting codes."
+  ],
+  "whyItMatters": "For years, physicists have used the math of quantum error-correcting codes to explain how space and gravity emerge from quantum entanglement. This paper challenges that popular view, suggesting that different regions of space have their own independent descriptions rather than sharing a single, protected quantum code.",
+  "eli5": "Imagine a book where two different people can read different chapters to reconstruct the same secret message. This paper argues that in real quantum gravity, there is no shared secret message; instead, each person just gets their own unique, local story.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "AdS/CFT",
+    "shortDef": "Anti-de Sitter / Conformal Field Theory correspondence; a theoretical equivalence between gravity in a bulk space and a quantum theory on its boundary.",
+    "eli5Def": "A physics 'hologram' theory showing that gravity inside a 3D bubble can be perfectly described by quantum physics written on the 2D surface of the bubble.",
+    "wikiTitle": "AdS/CFT correspondence"
+   },
+   {
+    "term": "entanglement wedge reconstruction",
+    "shortDef": "The protocol for reconstructing operators in a specific region of the bulk space using only a subregion of the boundary CFT.",
+    "eli5Def": "The math rulebook for figuring out what is happening in a specific slice of the 3D gravity bubble using only a slice of the 2D surface.",
+    "wikiTitle": "Entanglement wedge reconstruction"
+   },
+   {
+    "term": "quantum error correction",
+    "shortDef": "Methods used to protect quantum information from errors due to environmental noise and decoherence.",
+    "eli5Def": "A clever way of backing up quantum information by spreading it across multiple particles, so if one gets messed up, the data isn't lost.",
+    "wikiTitle": "Quantum error correction"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 70
+ }
+}

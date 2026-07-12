@@ -1,0 +1,68 @@
+{
+ "id": "2607.08655",
+ "version": 1,
+ "title": "Temperature Beyond Equilibrium in Isolated Quantum Many-Body Systems and Their Subsystems",
+ "authors": [
+  {
+   "name": "Maurizio Fagotti"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-09T16:24:55Z",
+ "updated": "2026-07-09T16:24:55Z",
+ "abstract": "Temperature is one of the central concepts of thermodynamics, yet its meaning away from equilibrium remains elusive. This problem is particularly acute in isolated quantum many-body systems: their states evolve unitarily, need not be close to equilibrium, and can retain energy coherence, a feature with no classical thermodynamic analogue. A non-stationary quantum state contains two kinds of energy fluctuations. One is associated with energy populations and has the usual thermodynamic interpretation; the other arises from coherence between energy sectors and drives time dependence. We propose that temperature, also out of equilibrium, locates the state within the family of regular states compatible with its energy-coherence structure. This leads to a natural definition of temperature for regular nonequilibrium states. The resulting inverse temperature is not generally the derivative of thermodynamic entropy with respect to energy. Indeed the principle of maximum entropy does not extend in its usual form; it is replaced by a principle of minimum discrimination information. We also develop the corresponding theory for subsystems, where temperature cannot in general be inferred from the reduced state alone. Instead, it is determined by the induced local thermodynamic structure, with boundary ambiguities removed in the thermodynamic limit.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08655",
+  "pdf": "https://arxiv.org/pdf/2607.08655",
+  "html": "https://arxiv.org/html/2607.08655"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.08655v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T08:40:03.019Z",
+  "hook": "A new thermodynamic framework redefines 'temperature' for isolated quantum systems far from equilibrium.",
+  "tldr": [
+   "They investigated how to define and calculate temperature for isolated quantum many-body systems that are out of equilibrium.",
+   "They separated energy fluctuations into population-based and coherence-based types, using a principle of minimum discrimination information.",
+   "They established a definition of temperature based on energy-coherence structures, extending the theory to local subsystems."
+  ],
+  "whyItMatters": "Temperature is easy to define when things are still and balanced, but in the fast-moving quantum world, systems are rarely in equilibrium. This research provides a rigorous mathematical tool to define temperature in active, changing quantum systems, which is crucial for developing quantum engines and materials.",
+  "eli5": "If you stir a hot cup of soup, it's easy to measure its temperature. But if you have a quantum soup where particles are in multiple states at once, standard thermometers fail; this paper finds a new way to read the temperature by looking at how 'entangled' and active the quantum states are.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "equilibrium",
+    "shortDef": "A state of balance where macroscopic properties of a system remain constant over time.",
+    "eli5Def": "When a system has completely settled down and stopped changing, like a hot cup of coffee that has cooled to room temperature.",
+    "wikiTitle": "Thermodynamic equilibrium"
+   },
+   {
+    "term": "coherence",
+    "shortDef": "The existence of definite phase relations between different states in a quantum superposition.",
+    "eli5Def": "When quantum particles are perfectly in sync with each other, allowing them to exist in multiple states at the same time.",
+    "wikiTitle": "Coherence (physics)"
+   },
+   {
+    "term": "minimum discrimination information",
+    "shortDef": "A principle in information theory and statistics that minimizes the divergence between two probability distributions.",
+    "eli5Def": "A rule for finding the most unbiased guess about a system by choosing the option that assumes the least amount of extra, unproven information.",
+    "wikiTitle": "Principle of minimum discrimination information"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

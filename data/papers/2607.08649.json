@@ -1,0 +1,87 @@
+{
+ "id": "2607.08649",
+ "version": 1,
+ "title": "Extracting conformal data from Loschmidt echoes after critical quenches",
+ "authors": [
+  {
+   "name": "Aleix Bou-Comas"
+  },
+  {
+   "name": "Stefano Carignano"
+  },
+  {
+   "name": "Sergio Cerezo-Roquebrún"
+  },
+  {
+   "name": "Esperanza Lopez"
+  },
+  {
+   "name": "Luca Tagliacozzo"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "cond-mat.str-el",
+  "hep-th"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-09T16:19:42Z",
+ "updated": "2026-07-09T16:19:42Z",
+ "abstract": "Conformal field theory provides universal predictions for Loschmidt amplitudes following quenches from product states to critical Hamiltonians. Building on this observation, we develop a route to extracting conformal data from real-time dynamics without preparing critical low-energy states. After analytic continuation, the Loschmidt amplitude is described by a boundary-CFT partition function on a strip, whose transverse transfer matrix encodes both the boundary operator spectrum and the central charge. Local space-time perturbations of the amplitude are governed by equilibrium correlation functions, and therefore provide access to critical exponents. In parallel, generalized temporal entropies exhibit scaling with time analogous to the equilibrium scaling of spatial entanglement entropy. We show that the low-lying boundary spectrum can be reconstructed from the system-size dependence of finite-chain Loschmidt echoes, whose damped oscillations encode differences of boundary scaling dimensions. Finally, we propose a finite-size scaling protocol that can extract these quantities from simulations or experiments on state-of-the-art quantum platforms.",
+ "comment": "24 pages, 12 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08649",
+  "pdf": "https://arxiv.org/pdf/2607.08649",
+  "html": "https://arxiv.org/html/2607.08649"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.08649v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T08:40:03.019Z",
+  "hook": "Extract critical quantum exponents and central charges directly from real-time dynamics without cooling systems.",
+  "tldr": [
+   "Researchers developed a theoretical method to extract conformal field theory data from the real-time dynamics of quantum systems after a sudden quench.",
+   "They mapped the Loschmidt amplitude to a boundary CFT partition function on a strip, using its transfer matrix to analyze boundary spectrums and scaling.",
+   "They found that damped oscillations in finite-chain Loschmidt echoes encode boundary scaling dimensions, allowing extraction of critical exponents."
+  ],
+  "whyItMatters": "This method bypasses the extremely difficult task of preparing low-energy critical states in quantum simulators, unlocking a simpler way to study quantum phase transitions using existing hardware.",
+  "eli5": "Imagine trying to figure out how a bell is shaped. Instead of carefully cooling it down to look at its atomic structure, you just strike it and listen to how the vibrations fade away over time. This research shows that the fading 'echoes' of a disturbed quantum system contain all the secret mathematical rules of its phase transitions.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Loschmidt echo",
+    "shortDef": "A measure of the sensitivity of quantum time evolution to perturbations, or how well a system returns to its start.",
+    "eli5Def": "A quantum 'echo' that measures how closely a system can return to its original state after being sent forward and backward in time.",
+    "wikiTitle": "Loschmidt echo"
+   },
+   {
+    "term": "Conformal field theory",
+    "shortDef": "A quantum field theory that is invariant under conformal transformations, describing systems at critical points.",
+    "eli5Def": "A special set of physics rules for systems that look exactly the same no matter how much you zoom in or zoom out.",
+    "wikiTitle": "Conformal field theory"
+   },
+   {
+    "term": "Quantum quench",
+    "shortDef": "The rapid adjustment of a quantum system's parameters, forcing it out of equilibrium.",
+    "eli5Def": "Suddenly changing the environment of a quantum system, like abruptly flipping a switch, to watch how it reacts.",
+    "wikiTitle": "Quantum quench"
+   },
+   {
+    "term": "Central charge",
+    "shortDef": "A real number that characterizes a conformal field theory, representing its degrees of freedom.",
+    "eli5Def": "A number that acts like a count of the 'channels' or ways energy can flow through a quantum system at its critical point.",
+    "wikiTitle": "Central charge"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

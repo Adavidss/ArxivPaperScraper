@@ -1,0 +1,79 @@
+{
+ "id": "2607.08638",
+ "version": 1,
+ "title": "Symmetry as a route to generalized bosonic Kitaev chains",
+ "authors": [
+  {
+   "name": "Gideon Lee"
+  },
+  {
+   "name": "Tony Jin"
+  },
+  {
+   "name": "Aashish A. Clerk"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-09T16:13:20Z",
+ "updated": "2026-07-09T16:13:20Z",
+ "abstract": "The bosonic Kitaev chain (BKC) model is a deceptively simple looking quadratic pairing Hamiltonian. Despite being purely Hermitian, it exhibits a number of striking non-Hermitian topological phenomena, including skin effects. We show here how symmetries play a key role in this model, and how identifying these allows one to develop generalized BKC-like models. We emphasize the surprising fact that any quadratic bosonic pairing Hamiltonian with a sublattice (chiral) symmetry necessarily has a dynamical matrix with an effective time reversal symmetry. This symmetry is unrelated to physical time-reversal, but enables non-trivial topological invariants. We also discuss how this symmetry is unrelated to another key property of the BKC, the decoupling of quadrature dynamics. This feature can instead be connected to a distinct symmetry, namely an effective particle-hole symmetry of the dynamical matrix. We discuss non-trivial generalized BKC models that only keep one of these two effective symmetries intact. We also provide a classification of all translationally-invariant 1D pairing Hamiltonians, and show connections between the BKC and a well-studied non-Hermitian fermionic system, the symplectic Hatano-Nelson model.",
+ "comment": "19 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08638",
+  "pdf": "https://arxiv.org/pdf/2607.08638",
+  "html": "https://arxiv.org/html/2607.08638"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.08638v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T08:40:03.019Z",
+  "hook": "A hidden effective time-reversal symmetry is mathematically guaranteed in any chiral quadratic bosonic pairing system.",
+  "tldr": [
+   "The authors analyzed the role of symmetries in the bosonic Kitaev chain (BKC) to construct generalized topological models.",
+   "They mathematically classified 1D translationally-invariant pairing Hamiltonians and mapped the BKC to the Hatano-Nelson model.",
+   "They discovered that sublattice symmetry forces an effective time-reversal symmetry, enabling non-trivial topological invariants."
+  ],
+  "whyItMatters": "Understanding these hidden symmetries allows physicists to design new topological quantum materials and devices, like robust one-way amplifiers, using bosons (like light or sound) instead of fermions.",
+  "eli5": "Normally, waves like light travel equally in both directions. By finding hidden mathematical symmetries in a chain of quantum particles, scientists can design 'one-way streets' where waves can only travel forward, even if you try to bounce them back.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Bosonic Kitaev chain",
+    "shortDef": "A 1D model of coupled bosons exhibiting non-Hermitian topological phases and skin effects.",
+    "eli5Def": "A chain of quantum particles (bosons) that can host strange phenomena, like all of its waves piling up at one end.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Non-Hermitian",
+    "shortDef": "Describing quantum systems that gain or lose energy, leading to complex energy eigenvalues.",
+    "eli5Def": "A way to describe quantum systems that leak energy to, or absorb energy from, the outside world.",
+    "wikiTitle": "Non-Hermitian quantum mechanics"
+   },
+   {
+    "term": "Skin effect",
+    "shortDef": "The localization of an extensive number of eigenstates at the boundaries of a non-Hermitian system.",
+    "eli5Def": "A strange quantum crowding effect where almost all the waves in a material get squeezed onto its outer edge.",
+    "wikiTitle": "Non-Hermitian skin effect"
+   },
+   {
+    "term": "Chiral symmetry",
+    "shortDef": "A symmetry of a Hamiltonian that anti-commutes with a unitary operator, often splitting a lattice into two sublattices.",
+    "eli5Def": "A structural balance in a grid of atoms where you can split them into two alternating groups that mirror each other's behavior.",
+    "wikiTitle": "Chiral symmetry"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 80
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "date": "2026-07-12",
+ "generatedAt": "2026-07-12T08:40:03.019Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum Frontiers: From Hardware to Holography",
+ "summary": "Today's research spans the entire quantum stack, from hardware innovations that dramatically accelerate atom array assembly to deep theoretical insights into thermodynamics, topological symmetries, and the mathematical stability of spectral gaps.",
+ "themes": [
+  {
+   "title": "Quantum Hardware & Control",
+   "body": "Researchers have developed an FPGA-based electronic control system that bypasses PC-loop latencies, cutting feedback time to 282 microseconds and boosting the preparation of defect-free 10-atom arrays to a 95.4% success rate.",
+   "paperIds": [
+    "2607.08687"
+   ]
+  },
+  {
+   "title": "Theoretical Foundations & Holography",
+   "body": "New theoretical work challenges assumptions in quantum gravity and mathematical physics, showing that subregion complementarity in finite-N CFTs can exist without error-correcting codes, and that the undecidability of 1D spectral gaps is highly unstable.",
+   "paperIds": [
+    "2607.08684",
+    "2607.08686"
+   ]
+  },
+  {
+   "title": "Dynamics, Symmetries & Thermodynamics",
+   "body": "Advances in quantum many-body systems introduce a new thermodynamic framework for out-of-equilibrium temperatures, a method to extract conformal data from real-time Loschmidt echoes, and a symmetry-based route to generalized bosonic Kitaev chains.",
+   "paperIds": [
+    "2607.08655",
+    "2607.08649",
+    "2607.08638"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers explore the boundary physics of quantum systems, with one extracting conformal field theory data from real-time dynamics and the other analyzing subregion reconstruction in holographic CFTs.",
+   "paperIds": [
+    "2607.08649",
+    "2607.08684"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2607.08687",
+  "2607.08686",
+  "2607.08684",
+  "2607.08655",
+  "2607.08649",
+  "2607.08638"
+ ]
+}

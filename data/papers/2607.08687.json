@@ -1,0 +1,128 @@
+{
+ "id": "2607.08687",
+ "version": 1,
+ "title": "Low-latency FPGA-based electronic control system for fast preparation of defect-free atom arrays",
+ "authors": [
+  {
+   "name": "Ya-Dong Hu"
+  },
+  {
+   "name": "Dong-Qi Ma"
+  },
+  {
+   "name": "Tian-Yang Zhang"
+  },
+  {
+   "name": "Liang Chen"
+  },
+  {
+   "name": "Yi-Chen Zhang"
+  },
+  {
+   "name": "Xiao-Kang Zhong"
+  },
+  {
+   "name": "Wen-Yi Zhu"
+  },
+  {
+   "name": "Hong-Jie Fan"
+  },
+  {
+   "name": "Qing-Xuan Jie"
+  },
+  {
+   "name": "Yan-Lei Zhang"
+  },
+  {
+   "name": "Gang Li"
+  },
+  {
+   "name": "Xi-Feng Ren"
+  },
+  {
+   "name": "Xu-Liang Zhang"
+  },
+  {
+   "name": "Guang-Can Guo"
+  },
+  {
+   "name": "Zhu-Bo Wang"
+  },
+  {
+   "name": "Chang-Ling Zou"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-09T16:49:29Z",
+ "updated": "2026-07-09T16:49:29Z",
+ "abstract": "The scalability of neutral atom quantum computing demands integrated electronic control systems with low latency, modular architecture, and real-time feedback capability. Here, we present an FPGA-based electronic control system that eliminates the PC from the feedback loop, integrating photon counting, real-time decision-making, and waveform generation within a unified PXIe architecture. The system achieves a total feedback latency of $282\\,\\mathrm{μs}$ and is validated in practical experiments by assembling defect-free atom arrays from 24 stochastically loaded optical tweezers. A single-round rearrangement achieves a filling fraction of $\\sim96\\%$, while feedback-controlled iterative rearrangement over five rounds boosts the success probability for generating a 10-atom defect-free array from $65.7\\%$ to $95.4\\%$. This system establishes the electronic infrastructure necessary for mid-circuit measurement and real-time quantum error correction on neutral-atom platforms.",
+ "comment": "8 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.08687",
+  "pdf": "https://arxiv.org/pdf/2607.08687",
+  "html": "https://arxiv.org/html/2607.08687"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.08687v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T08:40:03.019Z",
+  "hook": "A new FPGA control system cuts feedback latency to 282 μs, boosting atom array assembly success to 95.4%.",
+  "tldr": [
+   "They developed an FPGA-based electronic control system that removes the PC from the feedback loop to speed up neutral-atom quantum computing.",
+   "They integrated photon counting, real-time decision-making, and waveform generation within a unified PXIe hardware architecture.",
+   "They achieved a 282 μs feedback latency, raising the success rate of preparing a 10-atom defect-free array from 65.7% to 95.4% over five rounds."
+  ],
+  "whyItMatters": "Scaling up neutral-atom quantum computers requires incredibly fast, real-time control to correct errors and rearrange atoms before they lose their quantum states. This hardware-level feedback bypasses slow PC processing, clearing a major bottleneck for practical quantum error correction.",
+  "eli5": "Imagine trying to arrange a grid of marbles on a shaking table using a robotic arm, but you can only see where they are through a slow camera. By putting the 'brain' of the camera directly inside the robotic arm's motor, you can react instantly to place the marbles perfectly before they roll away.",
+  "keyNumbers": [
+   {
+    "value": "282 μs",
+    "label": "feedback latency",
+    "context": "The total time taken by the FPGA system to count photons, make a decision, and generate a control waveform."
+   },
+   {
+    "value": "95.4%",
+    "label": "success probability",
+    "context": "The probability of successfully generating a defect-free 10-atom array after five rounds of feedback-controlled rearrangement."
+   },
+   {
+    "value": "65.7%",
+    "label": "initial success probability",
+    "context": "The baseline success rate for preparing the 10-atom array before applying the iterative feedback loop."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "FPGA",
+    "shortDef": "Field-Programmable Gate Array; an integrated circuit designed to be configured by a customer after manufacturing.",
+    "eli5Def": "A computer chip that can physically rewire its own internal connections on the fly to perform specific tasks incredibly fast.",
+    "wikiTitle": "Field-programmable gate array"
+   },
+   {
+    "term": "neutral atom quantum computing",
+    "shortDef": "A quantum computing approach using uncharged atoms trapped by laser beams as qubits.",
+    "eli5Def": "A way of building quantum computers where individual, neutral atoms are held in place by tiny tractor beams of light.",
+    "wikiTitle": "Neutral atom quantum computer"
+   },
+   {
+    "term": "PXIe",
+    "shortDef": "PCI eXtensions for Instrumentation Express; a modular, high-performance PC-based platform for test and measurement.",
+    "eli5Def": "A heavy-duty industrial plug-and-play system that lets different high-speed electronic boards talk to each other almost instantly.",
+    "wikiTitle": "PCI eXtensions for Instrumentation"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 65
+ }
+}

@@ -7,7 +7,7 @@
 import { useEffect, useState } from "react";
 import type { GlossaryEntry, PaperDetail } from "@/lib/data-schema";
 import { bumpEncounter, conceptSlug, getConcepts, saveConcept } from "@/lib/store";
-import { fetchWikiSummary, type WikiSummary } from "@/lib/wiki";
+import { fetchWikiSummary, wikiSearchUrl, type WikiSummary } from "@/lib/wiki";
 import { BottomSheet } from "@/components/ui/BottomSheet";
 import { Icons } from "@/components/ui/icons";
 
@@ -22,7 +22,7 @@ export function TermSheet({
 }) {
   const [eli5Open, setEli5Open] = useState(false);
   const [savedNow, setSavedNow] = useState(false);
-  const [wiki, setWiki] = useState<WikiSummary | null | "loading">(null);
+  const [wiki, setWiki] = useState<WikiSummary | null | "loading" | "miss">(null);
   const [encounters, setEncounters] = useState(0);
 
   useEffect(() => {
@@ -35,7 +35,7 @@ export function TermSheet({
     // article summary IS the definition, so fetch it immediately.
     if (!entry.shortDef && entry.wikiTitle) {
       setWiki("loading");
-      fetchWikiSummary(entry.wikiTitle).then(setWiki);
+      fetchWikiSummary(entry.wikiTitle).then((w) => setWiki(w ?? "miss"));
     }
   }, [entry]);
 
@@ -44,7 +44,9 @@ export function TermSheet({
 
   const save = () => {
     const wikiFirstSentence =
-      wiki && wiki !== "loading" ? `${wiki.extract.split(". ")[0]}.` : "";
+      wiki && wiki !== "loading" && wiki !== "miss"
+        ? `${wiki.extract.split(". ")[0]}.`
+        : "";
     saveConcept({
       term: entry.term,
       shortDef: entry.shortDef || wikiFirstSentence || entry.term,
@@ -58,9 +60,11 @@ export function TermSheet({
   };
 
   const loadWiki = async () => {
-    if (!entry.wikiTitle) return;
     setWiki("loading");
-    setWiki(await fetchWikiSummary(entry.wikiTitle));
+    // Prefer the pipeline's exact title, but fall back to the term itself —
+    // wikiTitle is sometimes null even when an article exists.
+    const result = await fetchWikiSummary(entry.wikiTitle || entry.term);
+    setWiki(result ?? "miss");
   };
 
   return (
@@ -82,15 +86,13 @@ export function TermSheet({
           >
             {inLibrary ? "In your library ✓" : "+ Save to Concepts"}
           </button>
-          {entry.wikiTitle && (
-            <button
-              type="button"
-              onClick={loadWiki}
-              className="rounded-xl border border-border px-4 py-2.5 text-sm text-muted transition hover:text-fg"
-            >
-              Wikipedia
-            </button>
-          )}
+          <button
+            type="button"
+            onClick={loadWiki}
+            className="rounded-xl border border-border px-4 py-2.5 text-sm text-muted transition hover:text-fg"
+          >
+            Wikipedia
+          </button>
         </div>
       }
     >
@@ -127,7 +129,22 @@ export function TermSheet({
         {wiki === "loading" && (
           <div className="h-14 animate-pulse rounded-lg bg-surface-2" />
         )}
-        {wiki && wiki !== "loading" && (
+        {wiki === "miss" && (
+          <div className="animate-fade-in rounded-lg border border-border bg-surface-2 p-3">
+            <p className="text-sm text-muted">
+              No Wikipedia article matches this exact phrase.
+            </p>
+            <a
+              href={wikiSearchUrl(entry.term)}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-2 inline-flex items-center gap-1 text-xs text-accent"
+            >
+              Search Wikipedia <Icons.External size={12} />
+            </a>
+          </div>
+        )}
+        {wiki && wiki !== "loading" && wiki !== "miss" && (
           <div className="animate-fade-in rounded-lg border border-border bg-surface-2 p-3">
             <p className="text-sm leading-relaxed text-fg/90">{wiki.extract}</p>
             <a

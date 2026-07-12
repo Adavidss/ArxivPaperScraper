@@ -26,10 +26,12 @@ export function ScrollCard({
 }) {
   useStoreVersion();
   const ref = useRef<HTMLElement>(null);
-  const [seen, setSeen] = useState(false);
-  const detail = usePaperDetail(item.id, seen);
+  // Enrichment loads on mount — NEVER gate content on IntersectionObserver:
+  // backgrounded tabs suppress IO callbacks entirely, which left cards
+  // un-enriched (and, worse, opacity-0) until the tab was refocused.
+  const detail = usePaperDetail(item.id, true);
 
-  // In-view once → load enrichment + one-time rise; dwell ≥60% → read.
+  // IO is only the read-dwell signal (≥60% visible for ~2s = read).
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
@@ -37,7 +39,6 @@ export function ScrollCard({
     const io = new IntersectionObserver(
       (entries) => {
         for (const e of entries) {
-          if (e.intersectionRatio > 0 && !seen) setSeen(true);
           if (e.intersectionRatio >= 0.6) {
             dwell ??= setTimeout(() => markRead(item.id), READ_DWELL_MS);
           } else if (dwell) {
@@ -46,14 +47,13 @@ export function ScrollCard({
           }
         }
       },
-      { threshold: [0, 0.6], rootMargin: "200px 0px" },
+      { threshold: [0, 0.6] },
     );
     io.observe(el);
     return () => {
       io.disconnect();
       if (dwell) clearTimeout(dwell);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [item.id]);
 
   const bite = detail?.bite;
@@ -75,9 +75,9 @@ export function ScrollCard({
   return (
     <article
       ref={ref}
-      className={`overflow-hidden rounded-2xl border bg-surface transition-opacity ${
+      className={`animate-fade-in overflow-hidden rounded-2xl border bg-surface transition-opacity ${
         item.source === "foryou" ? "border-gem/25" : "border-border"
-      } ${seen ? "animate-fade-in" : "opacity-0"} ${read ? "opacity-80" : ""}`}
+      } ${read ? "opacity-80" : ""}`}
     >
       {/* Visual: real figure when enriched, cover art otherwise. */}
       <Link href={`/paper/?id=${item.id}`} className="block">

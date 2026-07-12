@@ -227,6 +227,37 @@ export function completeReviewSession(): void {
   recordQualifiedDay();
 }
 
+// --- learning games ------------------------------------------------------------
+
+export interface GamesData {
+  quizRuns: number;
+  /** Best quiz score, percent 0-100. */
+  quizBestPct: number;
+  matchRuns: number;
+  /** Best match completion time in ms (0 = never finished one). */
+  matchBestMs: number;
+}
+
+export const getGames = () =>
+  get<GamesData>("games", { quizRuns: 0, quizBestPct: 0, matchRuns: 0, matchBestMs: 0 });
+
+/** Finishing a game counts as a learning day, same as a review session. */
+export function recordQuizRun(pct: number): void {
+  const g = getGames();
+  set("games", { ...g, quizRuns: g.quizRuns + 1, quizBestPct: Math.max(g.quizBestPct, pct) });
+  recordQualifiedDay();
+}
+
+export function recordMatchRun(ms: number): void {
+  const g = getGames();
+  set("games", {
+    ...g,
+    matchRuns: g.matchRuns + 1,
+    matchBestMs: g.matchBestMs === 0 ? ms : Math.min(g.matchBestMs, ms),
+  });
+  recordQualifiedDay();
+}
+
 export const getStats = () => get<StatsData>("stats", { sessions: 0, mastered: 0 });
 
 // --- streak --------------------------------------------------------------------

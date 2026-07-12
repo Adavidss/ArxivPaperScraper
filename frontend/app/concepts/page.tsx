@@ -5,11 +5,13 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { fmtMs } from "@/lib/games";
 import { useMounted, useStoreVersion } from "@/lib/hooks";
 import {
   type ConceptEntry,
   getConcepts,
   getDueConcepts,
+  getGames,
   removeConcept,
 } from "@/lib/store";
 import { BottomSheet } from "@/components/ui/BottomSheet";
@@ -54,6 +56,43 @@ export default function ConceptsPage() {
           then &ldquo;Save to Concepts&rdquo; — your personal glossary builds
           itself.
         </p>
+      )}
+
+      {/* Play — the point: learn these like it's a game */}
+      {mounted && (
+        <section>
+          <h2 className="mb-2 text-xs font-bold uppercase tracking-widest text-muted">Play</h2>
+          <div className="grid grid-cols-2 gap-2">
+            <Link
+              href="/concepts/quiz"
+              className="rounded-2xl border border-accent/30 bg-surface p-4 transition hover:border-accent/60"
+            >
+              <Icons.Brain size={22} className="text-accent" />
+              <p className="mt-2 font-display text-base font-semibold">Term Quiz</p>
+              <p className="mt-0.5 text-[11px] text-muted">
+                {getGames().quizBestPct > 0
+                  ? `best ${getGames().quizBestPct}%`
+                  : "definition → pick the term"}
+              </p>
+            </Link>
+            <Link
+              href="/concepts/match"
+              className="rounded-2xl border border-gem/30 bg-surface p-4 transition hover:border-gem/60"
+            >
+              <Icons.Cards size={22} className="text-gem" />
+              <p className="mt-2 font-display text-base font-semibold">Match</p>
+              <p className="mt-0.5 text-[11px] text-muted">
+                {getGames().matchBestMs > 0
+                  ? `best ${fmtMs(getGames().matchBestMs)}`
+                  : "pair terms & meanings"}
+              </p>
+            </Link>
+          </div>
+          <p className="mt-2 text-[11px] text-muted">
+            Games pull from your library — and from today&apos;s papers, so
+            there&apos;s always something to play.
+          </p>
+        </section>
       )}
 
       {GROUPS.map(({ label, match }) => {

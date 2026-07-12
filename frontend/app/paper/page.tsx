@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useState } from "react";
 import { loadPaper } from "@/lib/api";
+import { loadLivePaper } from "@/lib/arxiv-live";
 import type { GlossaryEntry, PaperDetail } from "@/lib/data-schema";
 import { useStoreVersion } from "@/lib/hooks";
 import { isSaved, markRead, toggleSaved } from "@/lib/store";
@@ -28,7 +29,51 @@ function PaperInner() {
         setPaper(p);
         markRead(p.id);
       })
-      .catch(() => setMissing(true));
+      .catch(async () => {
+        // Not enriched (yet) — build a live view straight from arXiv so every
+        // paper in the stream opens instantly.
+        try {
+          const live = await loadLivePaper(id);
+          if (!live) throw new Error("not found");
+          setPaper({
+            id: live.id,
+            version: live.version,
+            title: live.title,
+            authors: live.authorNames.map((name) => ({ name })),
+            categories: [live.primaryCategory],
+            primaryCategory: live.primaryCategory,
+            published: live.published,
+            updated: live.updatedAt,
+            abstract: live.abstract,
+            comment: null,
+            doi: null,
+            links: {
+              abs: `https://arxiv.org/abs/${live.id}`,
+              pdf: `https://arxiv.org/pdf/${live.id}`,
+              html: `https://arxiv.org/html/${live.id}`,
+            },
+            source: "foryou",
+            matchedKeywords: [],
+            withdrawn: false,
+            biteStatus: "fallback",
+            bite: {
+              hook: live.title,
+              tldr: [],
+              whyItMatters: "",
+              eli5: "",
+              keyNumbers: [],
+              glossary: [],
+              difficulty: 3,
+              readSeconds: 60,
+              model: "live",
+              generatedAt: "",
+            },
+          });
+          markRead(live.id);
+        } catch {
+          setMissing(true);
+        }
+      });
   }, [id]);
 
   if (!id || missing)

@@ -1,59 +1,18 @@
-// Follows sync from the phone: a fine-grained PAT (this repo only; Contents
-// R/W + Actions R/W) lets the app commit data/follows.json and trigger the
-// digest workflow. Edits are queued as OPERATIONS and replayed onto a fresh
-// GET before every PUT, so a sha race (e.g. with the nightly data commit)
-// merges cleanly on retry.
+// Optional GitHub sync — enrichment only. The feed no longer depends on the
+// repo: follows live in localStorage and take effect instantly. When a PAT is
+// connected we quietly mirror them into data/follows.json so the nightly
+// pipeline knows whom to enrich (AI bites, figures, suggestions), and expose
+// a "run enrichment now" dispatch.
 
-import type { FollowedAuthor, FollowsFile, FollowsSettings } from "./data-schema";
-import { getSettings, getSync, updateSync } from "./store";
+import type { FollowsFile } from "./data-schema";
+import type { ClientFollows } from "./store";
 
 const REPO = "Adavidss/ArxivPaperScraper";
 const FILE_PATH = "data/follows.json";
 const API = `https://api.github.com/repos/${REPO}`;
 
-export type FollowOp =
-  | { op: "add-author"; author: FollowedAuthor }
-  | { op: "remove-author"; id: string }
-  | { op: "edit-author"; author: FollowedAuthor }
-  | { op: "add-keyword"; keyword: string }
-  | { op: "remove-keyword"; keyword: string }
-  | { op: "set-categories"; categories: string[] }
-  | { op: "set-settings"; settings: Partial<FollowsSettings> };
-
-export function applyOps(doc: FollowsFile, ops: FollowOp[]): FollowsFile {
-  const next: FollowsFile = JSON.parse(JSON.stringify(doc));
-  next.keywords ??= []; // older follows.json predates keywords
-  for (const o of ops) {
-    if (o.op === "add-author") {
-      if (!next.authors.some((a) => a.id === o.author.id)) next.authors.push(o.author);
-    } else if (o.op === "remove-author") {
-      next.authors = next.authors.filter((a) => a.id !== o.id);
-    } else if (o.op === "edit-author") {
-      next.authors = next.authors.map((a) => (a.id === o.author.id ? o.author : a));
-    } else if (o.op === "add-keyword") {
-      const kw = o.keyword.trim();
-      if (kw && !next.keywords.some((k) => k.toLowerCase() === kw.toLowerCase()))
-        next.keywords.push(kw);
-    } else if (o.op === "remove-keyword") {
-      next.keywords = next.keywords.filter(
-        (k) => k.toLowerCase() !== o.keyword.toLowerCase(),
-      );
-    } else if (o.op === "set-settings") {
-      next.settings = { ...next.settings, ...o.settings };
-    } else {
-      next.extraCategories = o.categories;
-    }
-  }
-  return next;
-}
-
 export const authorSlug = (name: string): string =>
   name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-
-interface GhFile {
-  sha: string;
-  content: string;
-}
 
 async function gh(pat: string, path: string, init?: RequestInit): Promise<Response> {
   return fetch(`${API}${path}`, {
@@ -78,47 +37,40 @@ const b64decode = (s: string) =>
 async function getFollowsFile(pat: string): Promise<{ doc: FollowsFile; sha: string }> {
   const res = await gh(pat, `/contents/${FILE_PATH}?ref=main`);
   if (!res.ok) throw new Error(`GitHub read failed (HTTP ${res.status})`);
-  const file = (await res.json()) as GhFile;
+  const file = (await res.json()) as { sha: string; content: string };
   return { doc: JSON.parse(b64decode(file.content)) as FollowsFile, sha: file.sha };
 }
 
 /**
- * Apply ops onto the freshest follows.json and PUT it back. One sha-conflict
- * retry (re-GET, replay, re-PUT). The PAT-authored push itself triggers the
- * digest workflow via its follows.json path filter — no dispatch needed.
+ * Mirror the client follows into the repo (preserving pipeline settings the
+ * client doesn't own). One sha-conflict retry; callers treat failure as
+ * "enrichment lags", never as feed breakage.
  */
-export async function syncFollowOps(pat: string, ops: FollowOp[]): Promise<FollowsFile> {
+export async function syncFollowsSnapshot(
+  pat: string,
+  client: ClientFollows,
+  settingsPatch?: Partial<FollowsFile["settings"]>,
+): Promise<void> {
   let lastErr: Error | null = null;
   for (let attempt = 0; attempt < 2; attempt++) {
     const { doc, sha } = await getFollowsFile(pat);
-    const next = applyOps(doc, ops);
-    const summary = ops
-      .map((o) =>
-        o.op === "add-author"
-          ? `follow ${o.author.name}`
-          : o.op === "remove-author"
-            ? `unfollow ${o.id}`
-            : o.op === "edit-author"
-              ? `edit ${o.author.name}`
-              : o.op === "add-keyword"
-                ? `follow keyword "${o.keyword}"`
-                : o.op === "remove-keyword"
-                  ? `unfollow keyword "${o.keyword}"`
-                  : o.op === "set-settings"
-                    ? "update pipeline settings"
-                    : "update categories",
-      )
-      .join(", ");
+    const next: FollowsFile = {
+      ...doc,
+      authors: client.authors,
+      keywords: client.keywords,
+      extraCategories: client.categories,
+      settings: { ...doc.settings, ...settingsPatch },
+    };
     const res = await gh(pat, `/contents/${FILE_PATH}`, {
       method: "PUT",
       body: JSON.stringify({
-        message: `follows: ${summary}`,
+        message: "follows: sync from app",
         content: b64encode(`${JSON.stringify(next, null, 1)}\n`),
         sha,
         branch: "main",
       }),
     });
-    if (res.ok) return next;
+    if (res.ok) return;
     if (res.status !== 409 && res.status !== 422)
       throw new Error(`GitHub write failed (HTTP ${res.status})`);
     lastErr = new Error(`GitHub write conflict (HTTP ${res.status})`);
@@ -126,7 +78,7 @@ export async function syncFollowOps(pat: string, ops: FollowOp[]): Promise<Follo
   throw lastErr ?? new Error("GitHub write failed");
 }
 
-/** "Refresh now": dispatch the digest workflow without an edit. */
+/** "Run enrichment now": dispatch the digest workflow. */
 export async function dispatchDigest(pat: string): Promise<void> {
   const res = await gh(pat, `/actions/workflows/digest.yml/dispatches`, {
     method: "POST",
@@ -143,25 +95,4 @@ export async function validatePat(pat: string): Promise<boolean> {
   } catch {
     return false;
   }
-}
-
-/**
- * Fire-and-forget follow edit from anywhere in the app (e.g. the suggestion
- * slide): syncs immediately when a PAT is connected, otherwise queues the ops
- * for Settings' "Copy JSON & open GitHub" / connect flow.
- */
-export async function queueOrSyncOps(ops: FollowOp[]): Promise<"synced" | "queued"> {
-  const pat = getSettings().pat;
-  if (pat) {
-    try {
-      await syncFollowOps(pat, ops);
-      return "synced";
-    } catch {
-      /* fall through to queue */
-    }
-  }
-  updateSync({
-    pendingFollowOps: [...((getSync().pendingFollowOps ?? []) as FollowOp[]), ...ops],
-  });
-  return "queued";
 }

@@ -293,6 +293,25 @@ function recordQualifiedDay(): void {
   set("streak", data);
 }
 
+// --- follows (client-side source of truth) -----------------------------------------
+// The feed is assembled LIVE from these — editing them changes the feed on the
+// next render, no repo round-trip. The repo's follows.json is only the
+// enrichment pipeline's copy, synced quietly in the background when a PAT is
+// connected.
+
+export interface ClientFollows {
+  authors: Array<{ id: string; name: string; aliases: string[] }>;
+  keywords: string[];
+  categories: string[];
+}
+
+/** null until the one-time seed from the published follows.json has run. */
+export const getFollows = () => get<ClientFollows | null>("follows", null);
+
+export function setFollows(next: ClientFollows): void {
+  set("follows", next);
+}
+
 // --- author suggestions ------------------------------------------------------------
 
 /** Suggestion slugs the user followed or waved off — never shown again. */
@@ -315,7 +334,17 @@ export const updateSync = (patch: Partial<SyncData>) =>
 
 // --- backup ------------------------------------------------------------------------
 
-const EXPORT_KEYS = ["read", "saved", "concepts", "encounters", "streak", "stats", "sync"];
+const EXPORT_KEYS = [
+  "read",
+  "saved",
+  "concepts",
+  "encounters",
+  "streak",
+  "stats",
+  "sync",
+  "follows",
+  "dismissed",
+];
 
 /** Everything except settings.pat (never write the token to a shareable file). */
 export function exportBackup(): string {

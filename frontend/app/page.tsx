@@ -1,5 +1,5 @@
-import { Feed } from "@/components/feed/Feed";
+import { ScrollFeed } from "@/components/feed/ScrollFeed";
 
 export default function TodayPage() {
-  return <Feed />;
+  return <ScrollFeed />;
 }

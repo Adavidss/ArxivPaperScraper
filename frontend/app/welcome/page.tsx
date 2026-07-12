@@ -1,24 +1,41 @@
 "use client";
 
-// First-run onboarding: the promise, the gesture grammar, follows, and
-// optional GitHub sync. Three screens, skippable.
+// First-run onboarding: the promise, follow-your-people (instant), and the
+// enrichment note. Three screens, skippable.
 
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { loadFollows } from "@/lib/api";
-import type { FollowsFile } from "@/lib/data-schema";
-import { updateSettings } from "@/lib/store";
+import { ensureFollows } from "@/lib/arxiv-live";
+import { authorSlug } from "@/lib/github";
+import { getFollows, setFollows, updateSettings } from "@/lib/store";
 import { Icons } from "@/components/ui/icons";
 
 export default function WelcomePage() {
   const router = useRouter();
   const [step, setStep] = useState(0);
-  const [follows, setFollows] = useState<FollowsFile | null>(null);
+  const [name, setName] = useState("");
+  const [names, setNames] = useState<string[]>([]);
 
   useEffect(() => {
-    loadFollows().then(setFollows).catch(() => null);
+    void ensureFollows().then((f) => setNames(f.authors.map((a) => a.name)));
   }, []);
+
+  const addName = () => {
+    const trimmed = name.trim();
+    if (!trimmed || names.includes(trimmed)) return;
+    setNames((n) => [...n, trimmed]);
+    setName("");
+    const follows = getFollows() ?? { authors: [], keywords: [], categories: [] };
+    if (!follows.authors.some((a) => a.id === authorSlug(trimmed))) {
+      setFollows({
+        ...follows,
+        authors: [
+          ...follows.authors,
+          { id: authorSlug(trimmed), name: trimmed, aliases: [] },
+        ],
+      });
+    }
+  };
 
   const finish = () => {
     updateSettings({ onboarded: true });
@@ -50,16 +67,14 @@ export default function WelcomePage() {
               Daily Drop
             </h1>
             <p className="max-w-xs text-[15px] leading-relaxed text-fg/90">
-              Your daily research drop. New papers from the people you follow,
-              distilled into bites you can read in under a minute — then it{" "}
-              <span className="text-accent">ends</span>. No feed to drown in.
+              A live stream of new papers from the people and topics you
+              follow — scroll it like a feed, learn the hard terms in one tap,
+              and it <span className="text-accent">ends</span> when you&apos;re
+              caught up.
             </p>
             <div className="flex flex-col gap-3 rounded-2xl border border-border bg-surface p-5 text-left text-sm">
               <p className="flex items-center gap-3">
-                <span className="w-8 text-center text-lg">↑</span> swipe up — next paper
-              </p>
-              <p className="flex items-center gap-3">
-                <span className="w-8 text-center text-lg">←</span> swipe left — go deeper
+                <span className="w-8 text-center text-lg">↕</span> scroll — the day&apos;s papers
               </p>
               <p className="flex items-center gap-3">
                 <span className="w-8 text-center text-lg">👆</span>
@@ -68,7 +83,7 @@ export default function WelcomePage() {
                 </span>
               </p>
               <p className="flex items-center gap-3">
-                <span className="w-8 text-center text-lg">👆👆</span> double-tap — save
+                <span className="w-8 text-center text-lg">▸</span> go deeper — bites, ELI5, full paper
               </p>
             </div>
           </>
@@ -77,46 +92,55 @@ export default function WelcomePage() {
         {step === 1 && (
           <>
             <Icons.Cards size={40} className="text-accent" />
-            <h2 className="font-display text-2xl font-semibold">People, not algorithms</h2>
+            <h2 className="font-display text-2xl font-semibold">Follow your people</h2>
             <p className="max-w-xs text-[15px] leading-relaxed text-fg/90">
-              The pipeline checks arXiv once a day for new papers by your
-              followed authors and writes the bites overnight.
+              Their papers appear the moment you add them — no waiting, no sync.
             </p>
-            {follows && follows.authors.length > 0 && (
+            <div className="flex w-full max-w-xs gap-2">
+              <input
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && addName()}
+                placeholder="e.g. Ronald Walsworth"
+                className="min-w-0 flex-1 rounded-lg border border-border bg-surface px-3 py-2.5 text-fg placeholder:text-muted focus:border-accent focus:outline-none"
+              />
+              <button
+                type="button"
+                onClick={addName}
+                disabled={!name.trim()}
+                className="rounded-lg border border-accent/40 bg-accent/10 px-3 py-2 text-sm font-medium text-accent disabled:opacity-40"
+              >
+                Follow
+              </button>
+            </div>
+            {names.length > 0 && (
               <div className="flex max-w-xs flex-wrap justify-center gap-1.5">
-                {follows.authors.map((a) => (
+                {names.map((n) => (
                   <span
-                    key={a.id}
+                    key={n}
                     className="rounded-full border border-accent/30 bg-accent/10 px-3 py-1 text-xs text-accent"
                   >
-                    ● {a.name}
+                    ● {n}
                   </span>
                 ))}
               </div>
             )}
             <p className="max-w-xs text-xs text-muted">
-              Follow or unfollow anytime in Settings — changes rebuild your feed
-              in about three minutes.
+              Add keywords and discovery topics anytime in Settings.
             </p>
           </>
         )}
 
         {step === 2 && (
           <>
-            <Icons.Refresh size={40} className="text-accent" />
-            <h2 className="font-display text-2xl font-semibold">Sync from your phone</h2>
+            <Icons.Sparkles size={40} className="text-accent" />
+            <h2 className="font-display text-2xl font-semibold">Cards get smarter overnight</h2>
             <p className="max-w-xs text-[15px] leading-relaxed text-fg/90">
-              Optional: paste a fine-grained GitHub token in Settings to
-              follow/unfollow from here and trigger refreshes. Without it, you
-              can always edit the follow list on GitHub.
+              A nightly pipeline writes AI bites, ELI5 explainers, glossaries
+              and pulls each paper&apos;s first figure — cards upgrade in
+              place. Connect GitHub in Settings if you want it to track your
+              follows automatically.
             </p>
-            <Link
-              href="/settings"
-              onClick={() => updateSettings({ onboarded: true })}
-              className="rounded-xl border border-accent/40 bg-accent/10 px-4 py-2.5 text-sm font-medium text-accent"
-            >
-              Open Settings
-            </Link>
           </>
         )}
       </div>
@@ -126,7 +150,7 @@ export default function WelcomePage() {
         onClick={() => (step < 2 ? setStep(step + 1) : finish())}
         className="rounded-xl bg-gradient-to-r from-accent to-accent-2 px-4 py-3.5 font-semibold text-canvas"
       >
-        {step < 2 ? "Next" : "Open today's drop"}
+        {step < 2 ? "Next" : "Open your feed"}
       </button>
     </main>
   );

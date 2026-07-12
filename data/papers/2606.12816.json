@@ -1,0 +1,89 @@
+{
+ "id": "2606.12816",
+ "version": 3,
+ "title": "Graph Reinforcement Learning for Calibration-Aware Quantum Circuit Routing",
+ "authors": [
+  {
+   "name": "Yash Vardhan Tomar"
+  },
+  {
+   "name": "Dheeraj Peddireddy"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.ET",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-06-11T02:21:49Z",
+ "updated": "2026-06-25T14:09:45Z",
+ "abstract": "Quantum circuit routing is a key step in compiling programs for noisy intermediate-scale quantum processors. Routes that appear efficient by standard overhead metrics can still lose fidelity when they pass through poorly calibrated couplers. We study a calibration-aware graph reinforcement-learning router that uses same-day IBM Heron r2 calibration data to choose hardware-edge SWAPs. We train the policy with proximal policy optimization and evaluate it with exact simulated fidelity across nine Munich Quantum Toolkit (MQT) Bench circuits and three calibration snapshots. Across these evaluations, pooled mean exact fidelity is $0.727$, compared with $0.440$ for SABRE-best20 and $0.481$ for target-aware SABRE. We observed that fidelity gains came with higher routed two-qubit counts and were concentrated in 5 qubit and 8 qubit circuit families; under the fixed tree action graph, all 10 qubit families favored SABRE-best20. Overall, our results show that calibration-aware learned routing can improve fidelity beyond gate-count-driven compilation.",
+ "comment": "Submitted to IEEE Quantum Week International Workshop on AI for Circuit Synthesis, Optimization, and Discovery 2026. Code is available: https://github.com/YTomar79/calibration-aware-rl-routing",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2606.12816",
+  "pdf": "https://arxiv.org/pdf/2606.12816",
+  "html": "https://arxiv.org/html/2606.12816"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2606.12816v3/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T18:08:29.310Z",
+  "hook": "Reinforcement learning boosts quantum circuit fidelity to 0.727 by routing around poorly calibrated hardware.",
+  "tldr": [
+   "They developed a graph reinforcement learning router that uses daily calibration data to guide quantum circuit compilation.",
+   "They trained the policy using Proximal Policy Optimization and tested it on IBM Heron r2 hardware calibration snapshots.",
+   "They achieved a pooled mean exact fidelity of 0.727, significantly outperforming the standard SABRE-best20 baseline of 0.440."
+  ],
+  "whyItMatters": "Quantum computers are highly sensitive to noise, and their physical connections drift out of calibration daily. By teaching an AI to route quantum information around the 'sickest' parts of the chip using fresh daily data, we can run much more reliable quantum programs.",
+  "eli5": "Think of a quantum computer like a city roadmap where some roads get potholes that change every day. Instead of using the shortest route on paper, this AI looks at today's pothole report and guides the quantum information along the smoothest roads, keeping the data safe.",
+  "keyNumbers": [
+   {
+    "value": "0.727",
+    "label": "Mean exact fidelity",
+    "context": "Achieved by the proposed calibration-aware reinforcement learning router"
+   },
+   {
+    "value": "0.440",
+    "label": "Mean exact fidelity",
+    "context": "Achieved by the standard SABRE-best20 baseline"
+   },
+   {
+    "value": "0.481",
+    "label": "Mean exact fidelity",
+    "context": "Achieved by the target-aware SABRE baseline"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "quantum circuit routing",
+    "shortDef": "The process of mapping logical qubits to physical qubits on a hardware layout using SWAP gates.",
+    "eli5Def": "Moving quantum information around a computer chip so that the right parts can talk to each other.",
+    "wikiTitle": null
+   },
+   {
+    "term": "fidelity",
+    "shortDef": "A measure of how close a quantum state is to the ideal, noise-free target state.",
+    "eli5Def": "A score of how perfect and error-free a quantum calculation is.",
+    "wikiTitle": "Fidelity of quantum states"
+   },
+   {
+    "term": "Proximal Policy Optimization",
+    "shortDef": "A popular reinforcement learning algorithm used to train stable policy functions.",
+    "eli5Def": "A training method for AI that helps it learn by trial and error without making wild, unstable changes to its strategy.",
+    "wikiTitle": "Proximal Policy Optimization"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 65
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "2605.21662",
+ "version": 1,
+ "title": "Fidelity-Aware Frequency Allocation and Transpilation Co-Design for Tunable Coupler Quantum Systems",
+ "authors": [
+  {
+   "name": "Dylan VanAllen"
+  },
+  {
+   "name": "Evan McKinney"
+  },
+  {
+   "name": "Israa G. Yusuf"
+  },
+  {
+   "name": "Girgis Falstin"
+  },
+  {
+   "name": "Gaurav Agarwal"
+  },
+  {
+   "name": "Jason Pollack"
+  },
+  {
+   "name": "Michael Hatridge"
+  },
+  {
+   "name": "Alex K. Jones"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-05-20T19:13:50Z",
+ "updated": "2026-05-20T19:13:50Z",
+ "abstract": "Frequency crowding is a fundamental limitation in superconducting quantum architectures, particularly in tunable-coupler systems. We present a framework that explicitly models both coherent spectator-induced errors and incoherent lifetime effects through an error budgeting approach. Using this model, we analyze how frequency crowding impacts gate fidelity as module size and connectivity scale, and formulate a constrained optimization problem to assign qubit and coupler frequencies under realistic separation and hardware constraints. We demonstrate scalable frequency allocation strategies that minimize spectator-induced errors. We further show that increasing qubit count and coupling density within a module leads to a fidelity-connectivity tradeoff. To explore the benefits at the system scale, we have developed a noise-aware transpilation approach called FINESSE, which minimizes error by selecting high-fidelity paths that satisfy connectivity via SWAP insertion while jointly optimizing downstream gate execution. We demonstrate this physics-informed architecture-transpilation co-design approach for a SNAIL-based third-order coupler that natively realizes the $\\sqrt{iSWAP}$ basis with frequency aware gate fidelities. On SNAIL architectures, FINESSE achieves an average 8.9% reduction in log-infidelity cost and 6.8% reduction in circuit depth vs. SABRE. We also compare results on IBM Brisbane's architecture.",
+ "comment": "14 pages, 16 figures, prepared initially for ASPLOS",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2605.21662",
+  "pdf": "https://arxiv.org/pdf/2605.21662",
+  "html": "https://arxiv.org/html/2605.21662"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2605.21662v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T18:08:29.310Z",
+  "hook": "A new quantum co-design framework slashes error rates by 8.9% and circuit depth by 6.8% on SNAIL architectures.",
+  "tldr": [
+   "They modeled frequency crowding errors in tunable-coupler quantum systems to optimize qubit and coupler frequency assignments.",
+   "They developed FINESSE, a noise-aware transpilation approach that selects high-fidelity paths and optimizes gate execution.",
+   "They achieved an 8.9% reduction in log-infidelity cost and a 6.8% reduction in circuit depth compared to the standard SABRE compiler."
+  ],
+  "whyItMatters": "As quantum computers scale up, packing more qubits together causes them to interfere with each other. This co-design approach helps squeeze higher performance out of existing hardware without needing to physically rebuild the chips.",
+  "eli5": "Imagine trying to have dozens of private conversations in a small, crowded room. If everyone speaks at a similar pitch, it becomes a noisy mess; this is called frequency crowding. This new system acts like a smart seating planner and translator, assigning unique voice pitches to speakers and mapping out the quietest paths for messages to travel.",
+  "keyNumbers": [
+   {
+    "value": "8.9%",
+    "label": "reduction in log-infidelity cost",
+    "context": "Achieved by the FINESSE framework on SNAIL-based architectures compared to the SABRE compiler."
+   },
+   {
+    "value": "6.8%",
+    "label": "reduction in circuit depth",
+    "context": "Achieved by FINESSE, meaning quantum programs run faster and experience less environmental decay."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "frequency crowding",
+    "shortDef": "Overlapping operating frequencies in quantum processors that cause unwanted crosstalk between qubits.",
+    "eli5Def": "When qubits are tuned too close to the same 'radio station', making them accidentally interfere with each other.",
+    "wikiTitle": "Crosstalk (electronics)"
+   },
+   {
+    "term": "transpilation",
+    "shortDef": "The process of translating an abstract quantum circuit into physical instructions optimized for specific hardware.",
+    "eli5Def": "Translating a general recipe so it works perfectly with the exact pots, pans, and stove temperature of a specific kitchen.",
+    "wikiTitle": "Source-to-source compiler"
+   },
+   {
+    "term": "SNAIL",
+    "shortDef": "Superconducting Nonlinear Asymmetric Inductive Element, a type of dipole element used for quantum coupling.",
+    "eli5Def": "A specialized superconducting loop that acts like a highly adjustable traffic controller for quantum information.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 75
+ }
+}

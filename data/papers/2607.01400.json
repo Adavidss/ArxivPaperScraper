@@ -1,0 +1,95 @@
+{
+ "id": "2607.01400",
+ "version": 2,
+ "title": "A global predicted-fMRI drive signal from TRIBE does not predict YouTube replay heatmaps",
+ "authors": [
+  {
+   "name": "Barada Sahu"
+  },
+  {
+   "name": "Shivesh Pandey"
+  }
+ ],
+ "categories": [
+  "cs.SE",
+  "cs.LG",
+  "q-bio.NC"
+ ],
+ "primaryCategory": "cs.SE",
+ "published": "2026-07-01T19:03:17Z",
+ "updated": "2026-07-04T08:51:34Z",
+ "abstract": "Deep multimodal brain-encoding models now predict fMRI responses to naturalistic video with high accuracy; whether their predicted neural signals also forecast behavioral engagement is unknown. We run TRIBE, the winning model of the 2025 Algonauts challenge (Llama-3.2 + V-JEPA 2 + Wav2Vec-BERT), on 48 YouTube videos and reduce its predicted cortical response to a per-second engagement curve, the global field power. Correlated against each video's \"most replayed\" heatmap, a proxy for re-watch, it shows no evidence of prediction: the pooled position-controlled partial correlation is +0.058 (95% CI [-0.04, 0.15]; t(47)=1.21, p=0.23), and not above simple loudness/motion baselines. The raw correlation is also near zero; the moderate values for music videos are an onset-replay artifact. The null holds across six cortical-network readouts, value/salience ROIs, and a permutation test; a supervised leave-one-video-out probe appears to reach r=0.47 but collapses to a temporal-shape artifact under a proper position control. Running the probe on TRIBE's input streams reveals at most a small, borderline visual-stream signal (matched vs. mismatched p=0.004-0.06) and none in audio, text, or the predicted cortex. The inter-subject-correlation readout, the closest prior positive result, is unavailable from the subject-averaged released model, so we fit our own per-subject encoders on the Algonauts fMRI (validated in-domain at r=0.15 and cross-domain, Friends-to-film, at r=0.10); the predicted ISC still does not track re-watch (r=-0.04, p=0.34). We bound rather than merely fail to reject the null: a Bayes factor gives moderate evidence for it (BF01=3.2), an equivalence test excludes effects above r=0.14, and the target's split-half reliability (0.82; ceiling r=0.9) rules out a noisy-label artifact. We release code, a video-ID manifest, and a heatmap-acquisition method robust to YouTube's SABR streaming.",
+ "comment": "12 pages, 2 figures. v2: adds equivalence and Bayes-factor bounds, split-half reliability ceiling, a supervised probe with proper position control, a per-input-stream dissociation, and ISC discussion. Code, video-ID manifest, and per-video results: https://github.com/mercurialsolo/tribe-replay-heatmaps",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.01400",
+  "pdf": "https://arxiv.org/pdf/2607.01400",
+  "html": "https://arxiv.org/html/2607.01400"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.01400v2/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T18:08:29.310Z",
+  "hook": "A top brain-encoding AI model fails to predict which parts of YouTube videos people actually re-watch.",
+  "tldr": [
+   "They tested whether TRIBE, a winning brain-encoding AI model, could predict human video engagement using simulated fMRI brain signals.",
+   "They ran TRIBE on 48 YouTube videos, calculated a global engagement curve, and compared it to real YouTube 'most replayed' heatmaps.",
+   "They found zero evidence of prediction, with a near-zero correlation (+0.058) that did not beat simple baselines like loudness or motion."
+  ],
+  "whyItMatters": "While AI models are getting incredibly good at predicting how our brains physically react to sights and sounds, this study reveals a major gap: predicting a brain's activity doesn't easily translate to predicting real-world human behavior and attention.",
+  "eli5": "Imagine an AI that can perfectly guess which parts of your brain light up when you watch a movie. You might think we could use this AI to predict which movie scenes are so exciting that people will rewind to watch them again. Surprisingly, this study found that the AI's brain predictions couldn't guess what people re-watched at all.",
+  "keyNumbers": [
+   {
+    "value": "+0.058",
+    "label": "Partial correlation",
+    "context": "The pooled position-controlled correlation between predicted brain signals and YouTube replay heatmaps"
+   },
+   {
+    "value": "0.82",
+    "label": "Split-half reliability",
+    "context": "The reliability of the target replay data, ruling out a noisy-label artifact"
+   },
+   {
+    "value": "3.2",
+    "label": "Bayes factor (BF01)",
+    "context": "Provides moderate statistical evidence in favor of the null hypothesis"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "brain-encoding models",
+    "shortDef": "Computational models that predict neural activity in response to sensory stimuli.",
+    "eli5Def": "Computer programs designed to guess how a brain will react when a person sees or hears something.",
+    "wikiTitle": null
+   },
+   {
+    "term": "global field power",
+    "shortDef": "A measure of the overall strength of electrical or predicted activity across the brain at a given time.",
+    "eli5Def": "A single number that represents how loud or active the whole brain is at any exact moment.",
+    "wikiTitle": "Electroencephalography"
+   },
+   {
+    "term": "Bayes factor",
+    "shortDef": "A ratio comparing the predictive power of two competing statistical hypotheses.",
+    "eli5Def": "A math tool that tells us how much more we should believe one idea over another based on the data.",
+    "wikiTitle": "Bayes factor"
+   },
+   {
+    "term": "equivalence test",
+    "shortDef": "A statistical test used to determine if an observed effect is practically equal to zero.",
+    "eli5Def": "A math test used to prove that a difference is so tiny that it basically doesn't matter.",
+    "wikiTitle": "Equivalence test"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 75
+ }
+}

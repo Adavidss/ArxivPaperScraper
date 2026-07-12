@@ -1,11 +1,31 @@
 {
- "generatedAt": "2026-07-12T18:03:55.635Z",
+ "generatedAt": "2026-07-12T18:08:29.310Z",
  "suggestions": [
+  {
+   "name": "Sabre Kais",
+   "slug": "sabre-kais",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2606.00877",
+    "2605.19114"
+   ],
+   "recentTitles": [
+    "Topological Edge States from Molecular Chirality: A General Framework for Dimerized Dipolar Arrays",
+    "Drive-Only Interaction Engineering via Dynamical Freezing"
+   ],
+   "paperCount": 2
+  },
   {
    "name": "Xiechen Zheng",
    "slug": "xiechen-zheng",
    "score": 3,
    "coAuthoredWith": [
+    "john-w-blanchard",
     "ronald-walsworth"
    ],
    "viaKeywords": [],
@@ -23,6 +43,7 @@
    "slug": "jeyson-t-mara-isaza",
    "score": 3,
    "coAuthoredWith": [
+    "john-w-blanchard",
     "ronald-walsworth"
    ],
    "viaKeywords": [],
@@ -32,40 +53,6 @@
    ],
    "recentTitles": [
     "Noise Suppression via Pulsed All-Optical Magnetometry with Nitrogen-Vacancy Ensembles"
-   ],
-   "paperCount": 1
-  },
-  {
-   "name": "John W. Blanchard",
-   "slug": "john-w-blanchard",
-   "score": 3,
-   "coAuthoredWith": [
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2607.01615"
-   ],
-   "recentTitles": [
-    "Noise Suppression via Pulsed All-Optical Magnetometry with Nitrogen-Vacancy Ensembles"
-   ],
-   "paperCount": 1
-  },
-  {
-   "name": "Daniel G. Ang",
-   "slug": "daniel-g-ang",
-   "score": 3,
-   "coAuthoredWith": [
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2606.23621"
-   ],
-   "recentTitles": [
-    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
    ],
    "paperCount": 1
   },
@@ -74,6 +61,7 @@
    "slug": "jiashen-tang",
    "score": 3,
    "coAuthoredWith": [
+    "daniel-g-ang",
     "ronald-walsworth"
    ],
    "viaKeywords": [],
@@ -91,6 +79,7 @@
    "slug": "maximilian-shen",
    "score": 3,
    "coAuthoredWith": [
+    "daniel-g-ang",
     "ronald-walsworth"
    ],
    "viaKeywords": [],
@@ -108,6 +97,7 @@
    "slug": "michael-titze",
    "score": 3,
    "coAuthoredWith": [
+    "daniel-g-ang",
     "ronald-walsworth"
    ],
    "viaKeywords": [],
@@ -125,6 +115,7 @@
    "slug": "gavishta-liyanage",
    "score": 3,
    "coAuthoredWith": [
+    "daniel-g-ang",
     "ronald-walsworth"
    ],
    "viaKeywords": [],
@@ -142,6 +133,7 @@
    "slug": "jordan-chapman",
    "score": 3,
    "coAuthoredWith": [
+    "daniel-g-ang",
     "ronald-walsworth"
    ],
    "viaKeywords": [],
@@ -159,6 +151,25 @@
    "slug": "chinmay-bharathulwar",
    "score": 3,
    "coAuthoredWith": [
+    "daniel-g-ang",
+    "ronald-walsworth"
+   ],
+   "viaKeywords": [],
+   "viaCategories": [],
+   "paperIds": [
+    "2606.23621"
+   ],
+   "recentTitles": [
+    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
+   ],
+   "paperCount": 1
+  },
+  {
+   "name": "Andrew T. Gilpin",
+   "slug": "andrew-t-gilpin",
+   "score": 3,
+   "coAuthoredWith": [
+    "daniel-g-ang",
     "ronald-walsworth"
    ],
    "viaKeywords": [],

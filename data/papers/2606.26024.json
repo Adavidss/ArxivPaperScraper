@@ -1,0 +1,77 @@
+{
+ "id": "2606.26024",
+ "version": 1,
+ "title": "Matrix Approximation of Bachelier Option Prices and Greeks under Stochastic Volatility models",
+ "authors": [
+  {
+   "name": "Elisa Alòs"
+  },
+  {
+   "name": "Òscar Burés"
+  }
+ ],
+ "categories": [
+  "q-fin.PR"
+ ],
+ "primaryCategory": "q-fin.PR",
+ "published": "2026-06-24T16:50:47Z",
+ "updated": "2026-06-24T16:50:47Z",
+ "abstract": "In this paper, we present a numerical method for option pricing and the computation of Greeks under stochastic volatility Bachelier-type models, based on elementary linear algebra. The method allows option prices and Greeks to be computed for infinitely many strikes (within a range of convergence) by evaluating only a finite number of expectations, independent of the number of strikes. For the SABR model, we derive an explicit range of convergence. Numerical examples are provided for both the SABR and the rough Bergomi models.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2606.26024",
+  "pdf": "https://arxiv.org/pdf/2606.26024",
+  "html": "https://arxiv.org/html/2606.26024"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2606.26024v1/price_sabr_rho03.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T18:08:29.310Z",
+  "hook": "A new matrix method calculates option prices and Greeks for infinite strikes using only finite expectations.",
+  "tldr": [
+   "They developed a numerical method for pricing financial options and calculating Greeks under stochastic volatility models.",
+   "They used elementary linear algebra and matrix approximations to evaluate a finite number of expectations independent of the strike count.",
+   "They derived an explicit convergence range for the SABR model and demonstrated the method on both SABR and rough Bergomi models."
+  ],
+  "whyItMatters": "In financial markets, pricing options across many different target prices (strikes) is computationally expensive. This method allows banks and traders to calculate these values instantly for infinitely many strikes using simple, fast linear algebra.",
+  "eli5": "Imagine you want to guess the price of a stock option for a hundred different target prices. Normally, you'd have to do a hundred separate, slow math problems. This new method uses a clever math trick to solve just a few problems, and then instantly fills in the answers for all the rest.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Greeks",
+    "shortDef": "Quantities representing the sensitivity of the price of derivatives to change in underlying parameters.",
+    "eli5Def": "Numbers that tell investors how much an option's price will wiggle when things like stock prices, time, or volatility change.",
+    "wikiTitle": "Greeks (finance)"
+   },
+   {
+    "term": "stochastic volatility",
+    "shortDef": "Models where the volatility of an asset price is treated as a random process over time.",
+    "eli5Def": "A way of modeling markets where the speed and size of stock price swings change randomly over time.",
+    "wikiTitle": "Stochastic volatility"
+   },
+   {
+    "term": "SABR model",
+    "shortDef": "A stochastic volatility model widely used in interest rate derivatives markets.",
+    "eli5Def": "A popular math formula used by Wall Street to predict how prices and market swings behave.",
+    "wikiTitle": "SABR volatility model"
+   },
+   {
+    "term": "rough Bergomi model",
+    "shortDef": "A modern stochastic volatility model where volatility is driven by a fractional Brownian motion.",
+    "eli5Def": "A advanced math model that captures the rough, jagged way that market volatility actually changes in real life.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

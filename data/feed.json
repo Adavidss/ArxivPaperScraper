@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-12T18:03:55.635Z",
+ "generatedAt": "2026-07-12T18:08:29.310Z",
  "windowDays": 75,
  "items": [
   {
@@ -309,11 +309,31 @@
    "withdrawn": false
   },
   {
+   "id": "2607.04292",
+   "title": "Agentic SABRE: An Uncertainty-Aware Neuro-Symbolic Multi-Agent Framework for Adaptive Ransomware Detection",
+   "hook": "Agentic SABRE achieves a perfect 1.0 AUC on semantic ransomware datasets while slashing false escalations by 4.9%.",
+   "authorsLine": "Kabuye, Issac +1",
+   "followedIds": [],
+   "matchedKeywords": [
+    "SABRE"
+   ],
+   "figureUrl": "https://arxiv.org/html/2607.04292v1/Figures/Prop_Agentic_Sabre_08_11_2025.png",
+   "firstSeen": "2026-07-12",
+   "primaryCategory": "cs.AI",
+   "published": "2026-07-05",
+   "difficulty": 4,
+   "readSeconds": 65,
+   "source": "follow",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
    "id": "2607.01615",
    "title": "Noise Suppression via Pulsed All-Optical Magnetometry with Nitrogen-Vacancy Ensembles",
    "hook": "A new pulsed all-optical diamond sensor protocol achieves a 10x lower noise floor without microwave hardware.",
-   "authorsLine": "Walsworth, Zheng +2",
+   "authorsLine": "Blanchard, Walsworth +2",
    "followedIds": [
+    "john-w-blanchard",
     "ronald-walsworth"
    ],
    "matchedKeywords": [],
@@ -328,11 +348,50 @@
    "withdrawn": false
   },
   {
+   "id": "2607.01400",
+   "title": "A global predicted-fMRI drive signal from TRIBE does not predict YouTube replay heatmaps",
+   "hook": "A top brain-encoding AI model fails to predict which parts of YouTube videos people actually re-watch.",
+   "authorsLine": "Sahu, Pandey",
+   "followedIds": [],
+   "matchedKeywords": [
+    "SABRE"
+   ],
+   "figureUrl": "https://arxiv.org/html/2607.01400v2/x1.png",
+   "firstSeen": "2026-07-12",
+   "primaryCategory": "cs.SE",
+   "published": "2026-07-01",
+   "difficulty": 3,
+   "readSeconds": 75,
+   "source": "follow",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2606.26024",
+   "title": "Matrix Approximation of Bachelier Option Prices and Greeks under Stochastic Volatility models",
+   "hook": "A new matrix method calculates option prices and Greeks for infinite strikes using only finite expectations.",
+   "authorsLine": "Alòs, Burés",
+   "followedIds": [],
+   "matchedKeywords": [
+    "SABRE"
+   ],
+   "figureUrl": "https://arxiv.org/html/2606.26024v1/price_sabr_rho03.png",
+   "firstSeen": "2026-07-12",
+   "primaryCategory": "q-fin.PR",
+   "published": "2026-06-24",
+   "difficulty": 4,
+   "readSeconds": 60,
+   "source": "follow",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
    "id": "2606.23621",
    "title": "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers",
    "hook": "Machine learning and diamond quantum defects can reconstruct the collision tracks of sub-MeV carbon ions.",
-   "authorsLine": "Walsworth, Ang +10",
+   "authorsLine": "Ang, Walsworth +10",
    "followedIds": [
+    "daniel-g-ang",
     "ronald-walsworth"
    ],
    "matchedKeywords": [],
@@ -342,6 +401,63 @@
    "published": "2026-06-22",
    "difficulty": 4,
    "readSeconds": 70,
+   "source": "follow",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2606.12816",
+   "title": "Graph Reinforcement Learning for Calibration-Aware Quantum Circuit Routing",
+   "hook": "Reinforcement learning boosts quantum circuit fidelity to 0.727 by routing around poorly calibrated hardware.",
+   "authorsLine": "Tomar, Peddireddy",
+   "followedIds": [],
+   "matchedKeywords": [
+    "SABRE"
+   ],
+   "figureUrl": "https://arxiv.org/html/2606.12816v3/x1.png",
+   "firstSeen": "2026-07-12",
+   "primaryCategory": "quant-ph",
+   "published": "2026-06-11",
+   "difficulty": 3,
+   "readSeconds": 65,
+   "source": "follow",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2606.09649",
+   "title": "Parahydrogen Cooling of Nuclear Spin Chains at Hypogeomagnetic Fields",
+   "hook": "Researchers cooled nuclear spins in a 12-spin chain down to 52 mK using parahydrogen at ultra-low magnetic fields.",
+   "authorsLine": "Kiryutin, Markelov +4",
+   "followedIds": [],
+   "matchedKeywords": [
+    "SABRE"
+   ],
+   "figureUrl": "https://arxiv.org/html/2606.09649v1/x1.png",
+   "firstSeen": "2026-07-12",
+   "primaryCategory": "quant-ph",
+   "published": "2026-06-08",
+   "difficulty": 4,
+   "readSeconds": 75,
+   "source": "follow",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2606.07666",
+   "title": "Hardware-aware Low-latency Quantum Compilation with Data-driven Lightweight Error Detection for Early Fault-Tolerant Systems",
+   "hook": "A new quantum compiler boosts algorithmic success rates by up to 68% using lightweight error detection.",
+   "authorsLine": "Chongder",
+   "followedIds": [],
+   "matchedKeywords": [
+    "SABRE"
+   ],
+   "figureUrl": "https://arxiv.org/html/2606.07666v1/fig1_compiler_flowchart-1.png",
+   "firstSeen": "2026-07-12",
+   "primaryCategory": "quant-ph",
+   "published": "2026-06-04",
+   "difficulty": 3,
+   "readSeconds": 65,
    "source": "follow",
    "biteStatus": "ok",
    "withdrawn": false
@@ -379,6 +495,82 @@
    "primaryCategory": "cond-mat.mtrl-sci",
    "published": "2026-06-02",
    "difficulty": 3,
+   "readSeconds": 70,
+   "source": "follow",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2606.00877",
+   "title": "Topological Edge States from Molecular Chirality: A General Framework for Dimerized Dipolar Arrays",
+   "hook": "Molecular chirality can naturally create topological edge states where opposite edges host opposite handedness.",
+   "authorsLine": "Akbar, Raza +1",
+   "followedIds": [],
+   "matchedKeywords": [
+    "SABRE"
+   ],
+   "figureUrl": "https://arxiv.org/html/2606.00877v1/figure1aa.png",
+   "firstSeen": "2026-07-12",
+   "primaryCategory": "quant-ph",
+   "published": "2026-05-30",
+   "difficulty": 5,
+   "readSeconds": 70,
+   "source": "follow",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2605.21960",
+   "title": "dSABRE: A SABRE-Style Router for Multi-Core Distributed Quantum Computers",
+   "hook": "New dSABRE router slashes quantum teleportation costs by up to 68% in multi-core quantum computers.",
+   "authorsLine": "Li",
+   "followedIds": [],
+   "matchedKeywords": [
+    "SABRE"
+   ],
+   "figureUrl": "https://arxiv.org/html/2605.21960v1/fig/sanjiang.jpg",
+   "firstSeen": "2026-07-12",
+   "primaryCategory": "quant-ph",
+   "published": "2026-05-21",
+   "difficulty": 3,
+   "readSeconds": 60,
+   "source": "follow",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2605.21662",
+   "title": "Fidelity-Aware Frequency Allocation and Transpilation Co-Design for Tunable Coupler Quantum Systems",
+   "hook": "A new quantum co-design framework slashes error rates by 8.9% and circuit depth by 6.8% on SNAIL architectures.",
+   "authorsLine": "VanAllen, McKinney +6",
+   "followedIds": [],
+   "matchedKeywords": [
+    "SABRE"
+   ],
+   "figureUrl": "https://arxiv.org/html/2605.21662v1/x1.png",
+   "firstSeen": "2026-07-12",
+   "primaryCategory": "quant-ph",
+   "published": "2026-05-20",
+   "difficulty": 4,
+   "readSeconds": 75,
+   "source": "follow",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2605.19114",
+   "title": "Drive-Only Interaction Engineering via Dynamical Freezing",
+   "hook": "Dynamically freezing a helper qubit lets researchers switch quantum interactions on and off using only drive signals.",
+   "authorsLine": "Xie, Duan +1",
+   "followedIds": [],
+   "matchedKeywords": [
+    "SABRE"
+   ],
+   "figureUrl": "https://arxiv.org/html/2605.19114v1/x1.png",
+   "firstSeen": "2026-07-12",
+   "primaryCategory": "quant-ph",
+   "published": "2026-05-18",
+   "difficulty": 4,
    "readSeconds": 70,
    "source": "follow",
    "biteStatus": "ok",

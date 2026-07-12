@@ -1,0 +1,74 @@
+{
+ "id": "2605.19114",
+ "version": 1,
+ "title": "Drive-Only Interaction Engineering via Dynamical Freezing",
+ "authors": [
+  {
+   "name": "Songbo Xie"
+  },
+  {
+   "name": "Jiheng Duan"
+  },
+  {
+   "name": "Sabre Kais"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-05-18T21:01:12Z",
+ "updated": "2026-05-18T21:01:12Z",
+ "abstract": "Freezing is usually used to suppress unwanted dynamics, but it can also be used to engineer interactions. We introduce freezing-induced interaction engineering, a drive-only control paradigm in which dynamically freezing an auxiliary subsystem reshapes the effective Hamiltonian of the remaining degrees of freedom. As a concrete realization, we consider a three-qubit architecture where a driven modulator $M$ is coupled to one of two target qubits, $Q_1$, while $Q_1$ and $Q_2$ retain a fixed native exchange-type interaction. When $M$ is frozen in a dressed eigenstate, its projection renormalizes the local Hamiltonian of $Q_1$. This makes the dressed-frame detuning between $Q_1$ and $Q_2$ controllable by the drive frequency. The native interaction can then be switched between two regimes: an interaction-off regime with large dressed-frame detuning, and an interaction-on regime with resonant exchange. In the interaction-on regime, the protocol realizes an iSWAP gate using the native $Q_1Q_2$ coupling. Full lab-frame simulations show high-fidelity iSWAP dynamics and strong interaction suppression in the interaction-off regime. By combining native-coupling gate speed with drive-only operational simplicity, freezing-induced interaction engineering provides a route toward fast, drive-controlled entangling gates in fixed-frequency quantum architectures.",
+ "comment": "5 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2605.19114",
+  "pdf": "https://arxiv.org/pdf/2605.19114",
+  "html": "https://arxiv.org/html/2605.19114"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2605.19114v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T18:08:29.310Z",
+  "hook": "Dynamically freezing a helper qubit lets researchers switch quantum interactions on and off using only drive signals.",
+  "tldr": [
+   "They designed a drive-only control method that uses dynamical freezing of an auxiliary qubit to reshape a quantum system's Hamiltonian.",
+   "They simulated a three-qubit setup where driving a modulator qubit controls the energy detuning between two target qubits.",
+   "They achieved high-fidelity iSWAP gates and strong interaction suppression without needing physically tunable couplers."
+  ],
+  "whyItMatters": "Building quantum computers with physically tunable parts adds massive hardware complexity and noise. Doing the tuning purely with control lasers or microwaves simplifies the chip design, paving the way for more reliable quantum processors.",
+  "eli5": "Imagine two pendulums that normally swing together because they are tied by a string. By shaking a third helper pendulum at just the right rhythm, you can freeze it in place, which tricks the other two into ignoring each other or swinging in perfect sync on command.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "dynamical freezing",
+    "shortDef": "Using external periodic driving to suppress the natural time-evolution or state-changing of a quantum system.",
+    "eli5Def": "Shaking a quantum particle so rapidly and precisely that it gets locked in place, unable to change its state.",
+    "wikiTitle": "Quantum Zeno effect"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator representing the total energy of a physical system, dictating how the system changes over time.",
+    "eli5Def": "The master rulebook that describes all the energy in a system and dictates how everything will move and interact.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "iSWAP gate",
+    "shortDef": "A fundamental two-qubit entangling gate that swaps qubit states while introducing a specific phase shift.",
+    "eli5Def": "A quantum move that swaps the states of two qubits while giving them a coordinated mathematical twist.",
+    "wikiTitle": "Quantum logic gate"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 70
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "2606.07666",
+ "version": 1,
+ "title": "Hardware-aware Low-latency Quantum Compilation with Data-driven Lightweight Error Detection for Early Fault-Tolerant Systems",
+ "authors": [
+  {
+   "name": "Sumit Chongder"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.AR",
+  "cs.DC",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-06-04T04:30:28Z",
+ "updated": "2026-06-04T04:30:28Z",
+ "abstract": "Noisy intermediate-scale quantum (NISQ) processors are entering an early fault-tolerance regime where full quantum error correction carries prohibitive resource costs, yet lightweight error detection can meaningfully improve algorithmic success rates. Existing compilation and error-detection toolchains treat these concerns in isolation, with no principled way to balance detection overhead against success probability under latency constraints. We present an integrated hardware-aware compilation and data-driven quantum error-detection (QED) framework that jointly optimises qubit mapping, SWAP insertion, and syndrome-schedule placement via a noise-weighted cost function and a learned multi-objective scheduler. Simulation experiments on an HPC cluster using GPU-accelerated density-matrix simulation (NVIDIA cuQuantum SDK) across VQE, phase-estimation, and Grover benchmarks, three noise profiles, and circuit sizes of 6-20 qubits (depths 10-160), show that joint co-design raises algorithmic success probability by up to 68 percent (95 percent CI: 60 percent to 76 percent) over SABRE on an 8-qubit VQE instance with post-selection.",
+ "comment": "16 pages, 15 figures, Springer LNCS format. Code available at https://github.com/Sumitchongder/quantum-hw-aware-pipeline",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2606.07666",
+  "pdf": "https://arxiv.org/pdf/2606.07666",
+  "html": "https://arxiv.org/html/2606.07666"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2606.07666v1/fig1_compiler_flowchart-1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T18:08:29.310Z",
+  "hook": "A new quantum compiler boosts algorithmic success rates by up to 68% using lightweight error detection.",
+  "tldr": [
+   "They developed an integrated, hardware-aware quantum compilation and lightweight error-detection framework.",
+   "They co-designed qubit mapping, SWAP insertion, and error-syndrome scheduling using a noise-weighted cost function and a learned scheduler.",
+   "They demonstrated up to a 68% increase in success probability over the standard SABRE compiler on an 8-qubit VQE benchmark."
+  ],
+  "whyItMatters": "Building fully error-corrected quantum computers is still years away. This lightweight approach bridges the gap, allowing today's noisy quantum processors to run complex algorithms with much higher reliability without massive hardware overhead.",
+  "eli5": "Think of a quantum computer like a delivery truck driving on a bumpy road where packages might break. Instead of building an expensive, armored truck, this software smart-maps the route and schedules quick check-ins to catch and discard broken packages, making sure the final delivery is correct.",
+  "keyNumbers": [
+   {
+    "value": "68 percent",
+    "label": "Maximum success probability increase",
+    "context": "The improvement in algorithmic success rate achieved over the SABRE compiler on an 8-qubit VQE instance."
+   },
+   {
+    "value": "6-20",
+    "label": "Qubit range",
+    "context": "The size of the quantum circuits simulated to benchmark the compilation framework."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "NISQ",
+    "shortDef": "Noisy Intermediate-Scale Quantum; the current era of quantum processors that lack full error correction.",
+    "eli5Def": "Today's quantum computers, which have enough qubits to do cool things but are still prone to making mistakes due to environmental noise.",
+    "wikiTitle": "Noisy Intermediate-Scale Quantum Era"
+   },
+   {
+    "term": "Quantum compilation",
+    "shortDef": "The process of translating high-level quantum algorithms into physical instructions for quantum hardware.",
+    "eli5Def": "Translating a high-level computer program into the exact, step-by-step physical nudges a quantum chip needs to execute it.",
+    "wikiTitle": "Quantum compilation"
+   },
+   {
+    "term": "Post-selection",
+    "shortDef": "An error-mitigation technique where experimental runs that trigger error flags are discarded.",
+    "eli5Def": "Throwing away the results of a calculation if a warning light goes off during the run, keeping only the clean runs.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 65
+ }
+}

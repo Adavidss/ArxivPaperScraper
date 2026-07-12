@@ -1,0 +1,80 @@
+{
+ "id": "2605.21960",
+ "version": 1,
+ "title": "dSABRE: A SABRE-Style Router for Multi-Core Distributed Quantum Computers",
+ "authors": [
+  {
+   "name": "Sanjiang Li"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.ET"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-05-21T03:47:25Z",
+ "updated": "2026-05-21T03:47:25Z",
+ "abstract": "Minimising EPR consumption is the dominant objective when routing a quantum circuit on a distributed quantum computer (DQC). We present dSABRE, a SABRE-style router for multi-core processors that, on each iteration of a lookahead-driven loop, first resolves any intra-core front-layer gates by SWAP scoring and only falls back to scoring inter-core teleportation candidates when the intra-core front is empty. Three mechanisms drive the improvement over the state of the art: a five-term gate-centric teleportation score that generalises the local SWAP heuristic to the inter-core setting, whose explicit capacity-penalty term keeps the scorer from teleporting into saturated cores; a proactive congestion-relief pass that redistributes idle qubits out of high-demand cores before deadlock; and a BFS-layer construction of the inter-core extended set that respects DAG dependencies layer by layer rather than mixing wires in topological order. Across 18 MQT-Bench circuits at 25, 36, and 64 logical qubits, dSABRE reduces geometric-mean EPR consumption by 41-44% over TeleSABRE and by 16-68% over the gate-teleportation-based pytket-dqc, using standard Qiskit SabreLayout for the initial layout. A large-circuit QFT sweep at 100-360 qubits confirms scalability. Code and online appendices are available at https://github.com/ebony72/dsabre.",
+ "comment": "12 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2605.21960",
+  "pdf": "https://arxiv.org/pdf/2605.21960",
+  "html": "https://arxiv.org/html/2605.21960"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2605.21960v1/fig/sanjiang.jpg"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T18:08:29.310Z",
+  "hook": "New dSABRE router slashes quantum teleportation costs by up to 68% in multi-core quantum computers.",
+  "tldr": [
+   "They designed dSABRE, a routing algorithm optimized for multi-core distributed quantum computers.",
+   "They implemented a five-term scoring system, a proactive congestion-relief pass, and a layer-by-layer BFS construction.",
+   "They reduced EPR pair consumption by 41-44% over TeleSABRE and by 16-68% over pytket-dqc across 18 benchmark circuits."
+  ],
+  "whyItMatters": "To scale up, quantum computers must link multiple smaller chips together using quantum teleportation. Because teleportation is incredibly expensive, this router's massive reduction in communication overhead is a major step toward practical, large-scale quantum networks.",
+  "eli5": "Imagine a supercomputer made of several smaller chips. To talk to each other, they have to use expensive 'teleportation' links. This new software acts like a smart traffic controller, keeping tasks local whenever possible and preventing traffic jams before they start.",
+  "keyNumbers": [
+   {
+    "value": "41-44%",
+    "label": "EPR reduction vs TeleSABRE",
+    "context": "The range of reduction in EPR pair consumption achieved by dSABRE compared to the TeleSABRE router."
+   },
+   {
+    "value": "16-68%",
+    "label": "EPR reduction vs pytket-dqc",
+    "context": "The range of reduction in EPR pair consumption achieved by dSABRE compared to the pytket-dqc compiler."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "EPR pair",
+    "shortDef": "Einstein-Podolsky-Rosen pair; a pair of maximally entangled qubits used as a resource for quantum teleportation.",
+    "eli5Def": "Two quantum particles that are perfectly linked across space, used as fuel to teleport quantum information from one chip to another.",
+    "wikiTitle": "Bell state"
+   },
+   {
+    "term": "Distributed quantum computer",
+    "shortDef": "A quantum computing architecture composed of multiple quantum processor cores connected via quantum links.",
+    "eli5Def": "A system where several small quantum chips work together as one giant computer by sending quantum info back and forth.",
+    "wikiTitle": "Distributed quantum computing"
+   },
+   {
+    "term": "Quantum routing",
+    "shortDef": "The process of moving quantum information to physical qubits where gates can be executed.",
+    "eli5Def": "The art of shuffling quantum data around a chip so that the right pieces can meet up and interact.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

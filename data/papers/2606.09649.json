@@ -1,0 +1,106 @@
+{
+ "id": "2606.09649",
+ "version": 1,
+ "title": "Parahydrogen Cooling of Nuclear Spin Chains at Hypogeomagnetic Fields",
+ "authors": [
+  {
+   "name": "Alexey Kiryutin"
+  },
+  {
+   "name": "Danil Markelov"
+  },
+  {
+   "name": "Ivan Zhukov"
+  },
+  {
+   "name": "Erik Van Dyke"
+  },
+  {
+   "name": "Alexandra Yurkovskaya"
+  },
+  {
+   "name": "Danila Barskiy"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.chem-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-06-08T15:40:59Z",
+ "updated": "2026-06-08T15:40:59Z",
+ "abstract": "Solution-state molecular nuclear spin networks are promising quantum simulators because their scalar-coupling Hamiltonians are chemically programmable, precisely measurable, and coherent at room temperature. Their main limitation for quantum information science is initialization: thermal Boltzmann polarization produces highly mixed, high-entropy states. Here, we use parahydrogen-based Signal Amplification by Reversible Exchange (SABRE) at hypogeomagnetic fields (i.e., magnetic fields below Earth field) to hyperpolarize the chemically engineered 12-spin chain [U-13C,15N]-butyronitrile. SABRE generates percent-level 13C and 15N polarization and prepares non-equilibrium multi-spin orders across the network. A von Neumann entropy analysis of such a hyperpolarized system shows that, at the optimal transfer field of 0.52 uT, the full spin system could reach S/k = 8.274, compared with S/k = 8.318 for the unpolarized reference, giving (S-Sth)/k = -0.043. Experimentally, nuclear spin temperatures of 52 mK and 257 mK are achieved for 15N and 13C subensembles, respectively. The larger entropy deficit of the full network than of individual subsystems indicates correlated multi-spin order beyond single-spin polarizations. Rapid field cycling to 9.4 T enables site-resolved NMR readout, while the precisely determined coupling network provides an experimentally benchmarked Hamiltonian for testing quantum-simulation, quantum-control, and Hamiltonian-learning protocols.",
+ "comment": "15 pages, 3 figures, 1 table",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2606.09649",
+  "pdf": "https://arxiv.org/pdf/2606.09649",
+  "html": "https://arxiv.org/html/2606.09649"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2606.09649v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-12T18:08:29.310Z",
+  "hook": "Researchers cooled nuclear spins in a 12-spin chain down to 52 mK using parahydrogen at ultra-low magnetic fields.",
+  "tldr": [
+   "They initialized a chemically engineered 12-spin chain molecule using parahydrogen-based hyperpolarization at hypogeomagnetic fields.",
+   "They utilized SABRE at a 0.52 uT transfer field and performed rapid field cycling to 9.4 T for site-resolved NMR readout.",
+   "They achieved nuclear spin temperatures of 52 mK for nitrogen-15 and 257 mK for carbon-13, revealing correlated multi-spin order."
+  ],
+  "whyItMatters": "Initializing quantum systems with low entropy is a major hurdle for quantum computing. This work shows that chemical engineering and weak magnetic fields can cool molecular spin networks to near absolute zero, creating a highly controllable testbed for quantum simulations.",
+  "eli5": "Imagine trying to use a row of compass needles as computer bits, but they are all shaking wildly from heat. By using a special form of hydrogen gas and a magnetic field weaker than Earth's, scientists managed to freeze these tiny molecular compasses into a highly organized, chilled-out state.",
+  "keyNumbers": [
+   {
+    "value": "0.52 uT",
+    "label": "Optimal transfer field",
+    "context": "The ultra-weak magnetic field used to maximize polarization transfer to the spin network."
+   },
+   {
+    "value": "52 mK",
+    "label": "Nitrogen-15 spin temperature",
+    "context": "The extremely cold effective temperature achieved for the nitrogen-15 nuclear spins."
+   },
+   {
+    "value": "257 mK",
+    "label": "Carbon-13 spin temperature",
+    "context": "The effective temperature achieved for the carbon-13 nuclear spins in the chain."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "SABRE",
+    "shortDef": "Signal Amplification by Reversible Exchange; a technique to hyperpolarize nuclear spins using parahydrogen.",
+    "eli5Def": "A method that uses a special, highly ordered form of hydrogen gas to temporarily transfer its orderliness to other molecules, making them highly visible.",
+    "wikiTitle": "SABRE (chemistry)"
+   },
+   {
+    "term": "Hypogeomagnetic field",
+    "shortDef": "A magnetic field that is significantly weaker than the Earth's natural magnetic field.",
+    "eli5Def": "An environment where the magnetic field is almost entirely shielded, making it much weaker than what we experience on Earth.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Hyperpolarization",
+    "shortDef": "The preparation of nuclear spin states with alignment far exceeding the thermal equilibrium limit.",
+    "eli5Def": "Forcing almost all the tiny magnetic spins in a material to point in the same direction, way more than they normally would at room temperature.",
+    "wikiTitle": "Hyperpolarization (physics)"
+   },
+   {
+    "term": "von Neumann entropy",
+    "shortDef": "A measure of the quantum state's disorder or lack of information.",
+    "eli5Def": "A mathematical way to measure how messy and disorganized a quantum system is.",
+    "wikiTitle": "Von Neumann entropy"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 75
+ }
+}

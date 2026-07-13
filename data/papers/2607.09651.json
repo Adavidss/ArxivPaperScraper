@@ -1,0 +1,67 @@
+{
+ "id": "2607.09651",
+ "version": 1,
+ "title": "Local Determinacy of Quantum Master Equations and a Mechanical Interpretation of the Multi-Mode Jaynes-Cummings and Central Spin Models",
+ "authors": [
+  {
+   "name": "Jaeha Lee"
+  },
+  {
+   "name": "Miku Ishizaki"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-10T17:49:49Z",
+ "updated": "2026-07-10T17:49:49Z",
+ "abstract": "We propose a novel formulation of master equations for open systems wherein the evolution of a state is determined solely by its local behaviour at any point of time. Specifically, our formulation allows for a local interpretation of the workings of beyond-Markovian dynamics as opposed to the more common conception that non-Markovian state evolution is affected by its cumulative past history. Quite interestingly, local determinacy is found prevalent in quantum dynamics. We illustrate the advantages of our coordinate-free formulation with exact analyses on two physically relevant models.",
+ "comment": "5 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.09651",
+  "pdf": "https://arxiv.org/pdf/2607.09651",
+  "html": "https://arxiv.org/html/2607.09651"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-13T09:55:20.510Z",
+  "hook": "Non-Markovian quantum systems can be modeled using only their current local state, bypassing complex history tracking.",
+  "tldr": [
+   "The authors proposed a new formulation of quantum master equations for open systems.",
+   "They developed a coordinate-free, locally determined framework to interpret beyond-Markovian dynamics.",
+   "They demonstrated that this local formulation exactly solves the multi-mode Jaynes-Cummings and Central Spin models."
+  ],
+  "whyItMatters": "Usually, predicting the future of complex quantum systems requires knowing their entire past history. This new method shows we can often predict the future using only local, present-moment information, simplifying quantum simulations.",
+  "eli5": "Normally, to predict where a rolling ball will go next, you might think you need to know its entire path. This paper shows that you actually only need to look at the slope of the hill right under the ball at this exact second.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "quantum master equations",
+    "shortDef": "Equations of motion describing the time evolution of an open quantum system.",
+    "eli5Def": "Math formulas that describe how a quantum system changes when it interacts with the outside world.",
+    "wikiTitle": "Quantum master equation"
+   },
+   {
+    "term": "non-Markovian",
+    "shortDef": "Stochastic processes where the future state depends on past states, not just the present.",
+    "eli5Def": "A system with a 'memory,' where what happens next depends on what happened in the past.",
+    "wikiTitle": "Markovian"
+   },
+   {
+    "term": "Jaynes-Cummings model",
+    "shortDef": "A theoretical model describing the interaction of a two-level atom with a single quantized cavity mode.",
+    "eli5Def": "A classic physics model that describes a single atom interacting with a single particle of light.",
+    "wikiTitle": "Jaynes–Cummings model"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

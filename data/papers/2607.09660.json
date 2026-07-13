@@ -1,0 +1,69 @@
+{
+ "id": "2607.09660",
+ "version": 1,
+ "title": "Nonlinear particle detectors across the Rindler firewall",
+ "authors": [
+  {
+   "name": "Matheus H. Zambianco"
+  },
+  {
+   "name": "Eduardo Martín-Martínez"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "gr-qc",
+  "hep-th"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-10T17:59:23Z",
+ "updated": "2026-07-10T17:59:23Z",
+ "abstract": "We investigate Unruh-DeWitt detectors coupled to composite observables of a quantum scalar field, including quadratic coupling to the field momentum and coupling to the local energy density. We develop a distributional framework for evaluating the corresponding detector response functions and apply it to detectors crossing the Rindler firewall. While we recover the finite response of the derivative-coupling model, we show that quadratic momentum coupling leads to ill-defined products of distributions and unavoidable formal $δ(0)$-type divergences. Since the local energy-density response is closely tied to the quadratic momentum response, our results provide strong evidence that the standard sharp firewall model is incompatible with nonlinear detector couplings to local observables. Our analysis further suggests that these pathologies originate from the discontinuous severing of correlations across the Rindler horizon, rather than from the detector model itself.",
+ "comment": "29 pages, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.09660",
+  "pdf": "https://arxiv.org/pdf/2607.09660",
+  "html": "https://arxiv.org/html/2607.09660"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-13T09:55:20.510Z",
+  "hook": "Standard sharp firewall models break down when particle detectors use realistic, nonlinear quantum couplings.",
+  "tldr": [
+   "The authors investigated how Unruh-DeWitt detectors coupled to composite quantum field observables behave across a Rindler firewall.",
+   "They developed a mathematical distributional framework to evaluate detector response functions for quadratic momentum and local energy density couplings.",
+   "They discovered that quadratic momentum coupling leads to unavoidable, mathematically ill-defined infinities at the firewall boundary."
+  ],
+  "whyItMatters": "This research reveals a fundamental mathematical incompatibility in how we model black hole horizons and firewalls, suggesting that the sudden cutting off of quantum correlations at a horizon is physically unrealistic.",
+  "eli5": "Imagine a thermometer trying to measure the temperature at the edge of a black hole. If the thermometer is designed to measure complex, real-world energy patterns, the math says it will break down and read 'infinity' because the edge is modeled as too sharp of a cut.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Unruh-DeWitt detector",
+    "shortDef": "A localized quantum system used as a model to detect particles in quantum field theory.",
+    "eli5Def": "A simple, theoretical 'thermometer' that physicists use to see if a quantum field has particles in it.",
+    "wikiTitle": "Unruh effect"
+   },
+   {
+    "term": "Rindler firewall",
+    "shortDef": "A hypothetical highly energetic boundary or horizon in accelerating reference frames.",
+    "eli5Def": "An imaginary, super-hot wall of energy that appears to an observer who is accelerating incredibly fast through space.",
+    "wikiTitle": "Firewall (physics)"
+   },
+   {
+    "term": "distributional framework",
+    "shortDef": "A mathematical approach using generalized functions (like the Dirac delta) to handle singularities.",
+    "eli5Def": "A special type of math used to deal with values that suddenly spike to infinity at a single point.",
+    "wikiTitle": "Generalized function"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

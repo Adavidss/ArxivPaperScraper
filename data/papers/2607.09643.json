@@ -1,0 +1,64 @@
+{
+ "id": "2607.09643",
+ "version": 1,
+ "title": "Optimality of the free quantum evolution: the general case with nodes",
+ "authors": [
+  {
+   "name": "Laura M. Morato"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-10T17:39:51Z",
+ "updated": "2026-07-10T17:39:51Z",
+ "abstract": "Extending and refining a preceding work, the free evolution of a quantum wave function, with fixed initial and final modulus, is considered in the general case where nodes are allowed. The method is based on considering a suitable simple functional related to the quadratic optimal transport cost in discrete time. Under reasonable assumptions it is shown that, if nodes are present, the free evolution of the wave function with fixed initial and final modulus is a sort of local minimum. If no nodes are present the minimum is global, suggesting intrinsic instability of the nodes in a free quantum evolution.",
+ "comment": "23 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.09643",
+  "pdf": "https://arxiv.org/pdf/2607.09643",
+  "html": "https://arxiv.org/html/2607.09643"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-13T09:55:20.510Z",
+  "hook": "Nodes in a free quantum wave function act as local minima, suggesting they are intrinsically unstable.",
+  "tldr": [
+   "The researcher analyzed the free evolution of a quantum wave function with fixed initial and final modulus, allowing for the presence of nodes.",
+   "They used a mathematical method based on a simple functional related to the quadratic optimal transport cost in discrete time.",
+   "They proved that wave functions with nodes act as local minima, whereas those without nodes achieve a global minimum, indicating node instability."
+  ],
+  "whyItMatters": "Understanding the stability of nodes in quantum wave functions helps physicists predict how quantum states evolve over time without collapsing or losing coherence.",
+  "eli5": "Imagine a wave of water sloshing in a pool. The 'nodes' are the quiet spots where the water doesn't move at all. This study shows that these quiet spots are naturally unstable, like balancing a marble on top of a hill where the slightest nudge will make it roll away.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "wave function",
+    "shortDef": "A mathematical description of the quantum state of an isolated quantum system.",
+    "eli5Def": "A mathematical rulebook that tells us the probability of finding a quantum particle in different places.",
+    "wikiTitle": "Wave function"
+   },
+   {
+    "term": "nodes",
+    "shortDef": "Points along a standing wave where the wave has minimum (or zero) amplitude.",
+    "eli5Def": "Places in a wave where there is absolutely no movement or probability of finding a particle.",
+    "wikiTitle": "Node (physics)"
+   },
+   {
+    "term": "optimal transport",
+    "shortDef": "A geometry-based problem of finding the most efficient way to move mass from one configuration to another.",
+    "eli5Def": "Finding the absolute cheapest and shortest way to move a pile of dirt from one shape into another shape.",
+    "wikiTitle": "Transportation theory (mathematics)"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

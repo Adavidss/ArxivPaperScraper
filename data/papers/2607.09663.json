@@ -1,0 +1,78 @@
+{
+ "id": "2607.09663",
+ "version": 1,
+ "title": "Phase-switchable nonreciprocal entanglement via magnon squeezing in ring-cavity optomagnomechanics",
+ "authors": [
+  {
+   "name": "Z. Imara"
+  },
+  {
+   "name": "A. El Allati"
+  },
+  {
+   "name": "A. Belfakir"
+  },
+  {
+   "name": "K. El Anouz"
+  },
+  {
+   "name": "I. P. Castillo"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-10T17:59:57Z",
+ "updated": "2026-07-10T17:59:57Z",
+ "abstract": "Cavity optomagnomechanics provides a versatile platform to explore macroscopic quantum correlations, particularly nonreciprocal entanglement. In this work, we propose a theoretical scheme to generate switchable bipartite and tripartite entanglement in an optomagnomechanical ring cavity by exploiting phase-controlled magnon squeezing. Indeed, two spatially separated ferrimagnetic YIG microbridges become entangled through their magnetostriction-mediated coupling to mechanical motion and a common cavity field via radiation-pressure interaction. The squeezing process introduces two phase-dependent contributions to the magnon response, namely an effective detuning shift $Δ_{θ_j}$ and a quadrature-damping contribution $κ_{θ_j}$, both of which reverse sign upon a $π$ phase shift, providing an in situ control to switch the entanglement response. The nonreciprocal entanglement is defined operationally through the asymmetric entanglement response under the phase reversal $θ_j \\to θ_j + π$, quantified by normalized contrast ratios $C_E$ and $C_{\\mathcal{R}}$, which measure the relative difference between the entanglement obtained at $θ_j$ and at the phase-reversed configuration $θ_j+π$. The resulting phase-tuning method provides a flexible and robust route to achieve high-contrast bipartite and tripartite entanglement within stable parameter regions, establishing magnon squeezing as a practical quantum resource for switchable quantum correlations in hybrid platforms.",
+ "comment": "7 figures. Accepted for publication in Phys. Rev. A",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.09663",
+  "pdf": "https://arxiv.org/pdf/2607.09663",
+  "html": "https://arxiv.org/html/2607.09663"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.09663v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-13T09:55:20.510Z",
+  "hook": "A new ring-cavity setup uses magnon squeezing to switch quantum entanglement on and off with a simple phase shift.",
+  "tldr": [
+   "The authors proposed a theoretical scheme to generate switchable bipartite and tripartite entanglement in an optomagnomechanical ring cavity.",
+   "They modeled two YIG microbridges coupled to mechanical motion and a cavity field, using phase-controlled magnon squeezing to introduce phase-dependent responses.",
+   "They found that a simple pi phase shift reverses the sign of the magnon response, enabling high-contrast, nonreciprocal control of quantum entanglement."
+  ],
+  "whyItMatters": "This provides a highly flexible and robust way to control quantum entanglement in hybrid systems, which is a crucial step toward building scalable quantum networks and processors.",
+  "eli5": "Imagine two tiny magnets connected by light and sound waves. By twisting the phase of the light like a dial, we can instantly turn their quantum connection (entanglement) on or off, or even make it one-way.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "optomagnomechanics",
+    "shortDef": "The study of interactions between light, mechanical vibrations, and magnetic excitations (magnons).",
+    "eli5Def": "A field of physics where scientists use light, tiny vibrations, and magnetic waves to talk to each other inside a small chip.",
+    "wikiTitle": null
+   },
+   {
+    "term": "magnon squeezing",
+    "shortDef": "A quantum state preparation that reduces uncertainty in one magnetic property at the expense of another.",
+    "eli5Def": "Squeezing a balloon so it gets very thin in one direction but longer in another, making one property of a magnet extremely precise.",
+    "wikiTitle": "Squeezed coherent state"
+   },
+   {
+    "term": "nonreciprocal",
+    "shortDef": "A system behavior that is asymmetric when the direction of propagation or excitation is reversed.",
+    "eli5Def": "A one-way street for physics, where signals can travel from A to B, but not from B to A.",
+    "wikiTitle": "Non-reciprocal electromagnetism"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

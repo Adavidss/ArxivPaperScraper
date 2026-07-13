@@ -1,0 +1,77 @@
+{
+ "id": "2607.09639",
+ "version": 1,
+ "title": "A Quantum Path to Partial Differential Equations",
+ "authors": [
+  {
+   "name": "Xiantao Li"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math.NA"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-10T17:36:20Z",
+ "updated": "2026-07-10T17:36:20Z",
+ "abstract": "Partial differential equations are a promising application area for fault-tolerant quantum algorithms, but the subject lies between two communities with different languages: numerical analysis and quantum computation. These lecture notes provide a numerically grounded introduction for readers entering from either field. Block encoding is the organizing principle: once a discretized differential operator is embedded in a unitary, primitives such as quantum singular value transformation, Hamiltonian simulation, linear combinations of unitaries, amplitude amplification, and measurement can be assembled into algorithms for elliptic, hyperbolic, and parabolic PDEs. Each chapter begins with a standard finite difference or finite element discretization and follows the full pipeline from the continuous PDE to quantum encoding, transformation, and extraction of a quantity of interest. Particular attention is paid to the factors governing end-to-end performance, including discretization error, state preparation, normalization, postselection, and measurement cost. A final chapter introduces nonlinear problems through Carleman and Koopman-von Neumann linearizations. The aim is not a comprehensive survey or a claim of universal quantum advantage, but a mathematically transparent entry point and a shared vocabulary for researchers in both communities.",
+ "comment": "140 pages. Lecture notes on quantum algorithms for PDEs. Comments and corrections welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.09639",
+  "pdf": "https://arxiv.org/pdf/2607.09639",
+  "html": "https://arxiv.org/html/2607.09639"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-13T09:55:20.510Z",
+  "hook": "Bridge the gap between numerical analysis and quantum computing to solve complex differential equations.",
+  "tldr": [
+   "The author developed a comprehensive, 140-page lecture series introducing quantum algorithms for solving partial differential equations.",
+   "The work maps standard finite difference and finite element discretizations to quantum primitives like block encoding and Hamiltonian simulation.",
+   "It provides a unified mathematical pipeline from continuous PDEs to quantum state extraction, including nonlinear linearization techniques."
+  ],
+  "whyItMatters": "Partial differential equations model everything from weather patterns to aerodynamics. Quantum algorithms could eventually solve these equations exponentially faster than classical supercomputers.",
+  "eli5": "Scientists use complex math equations to predict things like the weather, but these equations are too hard for normal computers. This guide acts as a dictionary to help quantum computer scientists and math experts work together to solve these giant puzzles.",
+  "keyNumbers": [
+   {
+    "value": "140",
+    "label": "pages",
+    "context": "The total length of these comprehensive lecture notes on quantum algorithms for PDEs."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "partial differential equations",
+    "shortDef": "Equations that relate multivariable functions to their partial derivatives, modeling physical phenomena.",
+    "eli5Def": "Math equations used to describe how things change over space and time, like how heat spreads through a metal rod.",
+    "wikiTitle": "Partial differential equation"
+   },
+   {
+    "term": "block encoding",
+    "shortDef": "A technique to embed a non-unitary matrix into a larger unitary matrix for quantum processing.",
+    "eli5Def": "A clever trick to hide a difficult math problem inside a larger, easier quantum puzzle so the quantum computer can solve it.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Hamiltonian simulation",
+    "shortDef": "The task of approximating the time-evolution operator of a quantum system on a quantum computer.",
+    "eli5Def": "Using a quantum computer to mimic how a real-world quantum system changes over time.",
+    "wikiTitle": "Quantum simulator"
+   },
+   {
+    "term": "Carleman linearization",
+    "shortDef": "A method to embed a finite-dimensional system of nonlinear differential equations into an infinite-dimensional linear system.",
+    "eli5Def": "A mathematical trick that turns a curvy, complicated nonlinear problem into a straight, easier-to-solve linear problem.",
+    "wikiTitle": "Carleman linearization"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 65
+ }
+}

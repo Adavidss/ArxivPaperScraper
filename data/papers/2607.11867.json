@@ -1,0 +1,79 @@
+{
+ "id": "2607.11867",
+ "version": 1,
+ "title": "Paraparticles intrinsically exhibit Hardy-space breakdown",
+ "authors": [
+  {
+   "name": "Kejun Liu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "math.CV"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-13T17:53:30Z",
+ "updated": "2026-07-13T17:53:30Z",
+ "abstract": "The memory kernel of an open quantum system obeys Kramers--Kronig (KK) relations if and only if its Laplace transform is analytic in the upper half-plane -- a property known as Hardy-space analyticity. Here we show that non-unitary exchange statistics, the defining property of paraparticles, intrinsically breaks Hardy-space analyticity. The metric $η$ that guarantees a real closed-system spectrum for these particles necessarily differs from the physical Born inner product ($\\|η- I\\|_F / \\|I\\|_F = 0.51$) -- a mathematical consequence of the R-matrix's non-unitarity, not a parameter choice. This metric is a \"shadow metric\": Schur's lemma forces it to commute with every bilinear observable, making the distortion physically invisible in the closed system. But when the paraparticle is coupled to a bath, any coupling operator that lies outside the symmetry algebra -- that is, any interaction that sees the internal flavour structure -- exposes the distortion. The memory kernel then develops upper-half-plane poles at coupling $g_c \\approx 0.1$, breaking standard dispersion relations before the closed-system spectrum complexifies. Fermions and bosons, whose exchange is unitary ($η= I$ as an analytic fact of the canonical anticommutation algebra), are immune at any coupling, because there is no distortion to expose. The violation is intrinsic: it distinguishes non-unitary exchange statistics from ordinary particle statistics at the level of the memory kernel's analytic structure.",
+ "comment": "8 pages main + 13 pages Supplemental Material, 3 figures. Data and code: [Liu, K. (2026). Data and code for \"Paraparticles intrinsically exhibit Hardy-space breakdown\" [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.21342378",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.11867",
+  "pdf": "https://arxiv.org/pdf/2607.11867",
+  "html": "https://arxiv.org/html/2607.11867"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.11867v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-14T08:37:36.516Z",
+  "hook": "Paraparticles intrinsically break Hardy-space analyticity, exposing a hidden 0.51 metric distortion.",
+  "tldr": [
+   "The author investigated the mathematical properties of the memory kernel in open quantum systems containing paraparticles.",
+   "They proved that non-unitary exchange statistics in paraparticles force a metric distortion that breaks Hardy-space analyticity.",
+   "They found that while this distortion is invisible in closed systems, coupling to an external bath exposes it, breaking standard dispersion relations."
+  ],
+  "whyItMatters": "In physics, we assume all fundamental particles are either bosons or fermions. Paraparticles are theoretical particles with exotic 'middle-ground' statistics; this paper reveals a fundamental mathematical breakdown in how they interact with their environments, offering a new way to theoretically test or rule out their existence.",
+  "eli5": "Imagine a toy that looks perfectly normal when sitting on a shelf, but as soon as you plug it into a wall outlet, it behaves in a bizarre, forbidden way. Paraparticles are like this toy—their weird math is hidden until they interact with the outside world.",
+  "keyNumbers": [
+   {
+    "value": "0.51",
+    "label": "Metric distortion value",
+    "context": "The calculated difference between the metric eta and the physical Born inner product"
+   },
+   {
+    "value": "0.1",
+    "label": "Critical coupling constant",
+    "context": "The coupling strength gc where the memory kernel develops upper-half-plane poles"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "paraparticles",
+    "shortDef": "Hypothetical particles that obey parastatistics, generalizing the familiar Bose-Einstein and Fermi-Dirac statistics.",
+    "eli5Def": "Exotic, theoretical particles that do not follow the normal rules of being either social (like bosons) or antisocial (like fermions).",
+    "wikiTitle": "Parastatistics"
+   },
+   {
+    "term": "Hardy-space analyticity",
+    "shortDef": "A property where a function's Laplace transform is analytic (smooth and well-behaved) in the upper half-plane.",
+    "eli5Def": "A mathematical rule ensuring that cause always precedes effect in physical systems, meaning things cannot happen before they are triggered.",
+    "wikiTitle": "Hardy space"
+   },
+   {
+    "term": "Kramers–Kronig relations",
+    "shortDef": "Mathematical properties connecting the real and imaginary parts of certain complex functions, rooted in causality.",
+    "eli5Def": "A set of math rules that link how a material absorbs energy to how it bends light, ensuring the universe respects cause-and-effect.",
+    "wikiTitle": "Kramers–Kronig relations"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

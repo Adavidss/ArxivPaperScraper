@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-13T09:55:20.510Z",
+ "generatedAt": "2026-07-14T08:37:36.516Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -17,6 +17,27 @@
    "recentTitles": [
     "Topological Edge States from Molecular Chirality: A General Framework for Dimerized Dipolar Arrays",
     "Drive-Only Interaction Engineering via Dynamical Freezing"
+   ],
+   "paperCount": 2
+  },
+  {
+   "name": "Martin B. Plenio",
+   "slug": "martin-b-plenio",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "PHIP"
+   ],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2607.11723",
+    "2607.08767"
+   ],
+   "recentTitles": [
+    "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization",
+    "Plaquette: A hardware-aware design platform for fault-tolerant quantum computers"
    ],
    "paperCount": 2
   },
@@ -149,24 +170,6 @@
   {
    "name": "Chinmay Bharathulwar",
    "slug": "chinmay-bharathulwar",
-   "score": 3,
-   "coAuthoredWith": [
-    "daniel-g-ang",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2606.23621"
-   ],
-   "recentTitles": [
-    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
-   ],
-   "paperCount": 1
-  },
-  {
-   "name": "Andrew T. Gilpin",
-   "slug": "andrew-t-gilpin",
    "score": 3,
    "coAuthoredWith": [
     "daniel-g-ang",

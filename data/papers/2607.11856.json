@@ -1,0 +1,93 @@
+{
+ "id": "2607.11856",
+ "version": 1,
+ "title": "Trotter error compensation with polylogarithmic precision and nested-commutator scaling without ancillas",
+ "authors": [
+  {
+   "name": "Xinzhao Wang"
+  },
+  {
+   "name": "Shuo Zhou"
+  },
+  {
+   "name": "Ziruo Wang"
+  },
+  {
+   "name": "Pei Zeng"
+  },
+  {
+   "name": "Jinzhao Sun"
+  },
+  {
+   "name": "Qi Zhao"
+  },
+  {
+   "name": "Tom Gur"
+  },
+  {
+   "name": "Tongyang Li"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-13T17:42:25Z",
+ "updated": "2026-07-13T17:42:25Z",
+ "abstract": "Product formulas are among the most practical approaches to Hamiltonian simulation, requiring no ancillary qubits and exhibiting error bounds governed by nested commutators rather than only by Hamiltonian norms. Their circuit size, however, scales polynomially with the inverse precision. We develop a high-order nested-commutator compensation (HNCC) algorithm that preserves the main advantages of product formulas while achieving polylogarithmic precision dependence in the circuit size and the standard $\\mathcal{O}(\\varepsilon^{-2})$ sampling cost. HNCC uses a truncated Baker--Campbell--Hausdorff expansion to represent high-order Trotter errors by products of nested commutators and compensates these errors at the superoperator level through randomly sampled Pauli-rotation channels, avoiding Hadamard tests and ancillary qubits. For a fixed $K$-th order product formula applied to a $k$-local Hamiltonian on $N$ qubits with $Γ$ Pauli terms and local interaction strength $g_0$, HNCC estimates $\\operatorname{tr}[Oe^{-\\mathrm{i} tH}ρe^{\\mathrm{i} tH}]$ to additive precision $\\varepsilon\\|O\\|$ using $\\mathcal{O}(\\varepsilon^{-2})$ repetitions and a maximum gate count per circuit of $\\mathcal{O}(N^{\\frac{2}{2K+1}} (k g_0 t \\log(1/\\varepsilon))^{1+\\frac{1}{2K+1}} k(Γ+\\log(1/\\varepsilon)))$. The resulting time dependence matches that of a product formula of order $2K+1$. Finite-size resource estimates for the periodic Heisenberg chain indicate that HNCC achieves the lowest CNOT and $T$-gate counts per circuit among the product-formula-based methods considered.",
+ "comment": "25 pages, 4 figures, 2 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.11856",
+  "pdf": "https://arxiv.org/pdf/2607.11856",
+  "html": "https://arxiv.org/html/2607.11856"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.11856v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-14T08:37:36.516Z",
+  "hook": "A new quantum simulation algorithm achieves polylogarithmic precision without needing any extra ancillary qubits.",
+  "tldr": [
+   "They developed a high-order nested-commutator compensation (HNCC) algorithm to improve quantum Hamiltonian simulation.",
+   "They used a truncated Baker-Campbell-Hausdorff expansion to represent Trotter errors and compensated them using randomly sampled Pauli-rotation channels.",
+   "They achieved polylogarithmic precision dependence in circuit size and demonstrated the lowest CNOT and T-gate counts for the periodic Heisenberg chain."
+  ],
+  "whyItMatters": "Simulating quantum systems is a primary goal of quantum computing, but current methods either require extra qubits (ancillas) or suffer from high error rates. This method achieves high precision and low gate counts without needing any extra qubits, making it highly practical for near-term quantum hardware.",
+  "eli5": "Imagine trying to copy a complex drawing by tracing it in small, straight steps. Usually, to make the drawing look perfectly smooth, you have to take a massive number of tiny steps, which is exhausting. This new method uses a clever math trick to predict where the errors in your steps will happen and corrects them on the fly, giving you a highly accurate drawing with much less effort.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Hamiltonian simulation",
+    "shortDef": "The process of using a quantum computer to mimic the physical evolution of a quantum system over time.",
+    "eli5Def": "Using a quantum computer to act like a digital laboratory, showing how molecules or materials change over time.",
+    "wikiTitle": "Quantum simulator"
+   },
+   {
+    "term": "Ancillary qubits",
+    "shortDef": "Extra, temporary qubits used in quantum algorithms to assist in calculations without storing the final result.",
+    "eli5Def": "Extra scratch paper used during a math problem that you throw away once you get the final answer.",
+    "wikiTitle": "Ancilla cell"
+   },
+   {
+    "term": "Trotter error",
+    "shortDef": "The mathematical error introduced when approximating the continuous evolution of a system using discrete steps.",
+    "eli5Def": "The small errors that pile up when you try to approximate a smooth, curving path using a series of short, straight lines.",
+    "wikiTitle": "Lie–Trotter product formula"
+   },
+   {
+    "term": "Baker–Campbell–Hausdorff expansion",
+    "shortDef": "A mathematical formula used to express the product of two non-commuting matrix exponentials as a single exponential.",
+    "eli5Def": "A mathematical rulebook that helps scientists calculate what happens when the order of physical actions matters.",
+    "wikiTitle": "Baker–Campbell–Hausdorff formula"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

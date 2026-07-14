@@ -1,0 +1,78 @@
+{
+ "id": "2607.11857",
+ "version": 1,
+ "title": "Noise Resilience of Quantum Key Distribution Protocols Secured Against Independent Attacks With One-Way Communication",
+ "authors": [
+  {
+   "name": "Adam Bílek"
+  },
+  {
+   "name": "Ryszard Kukulski"
+  },
+  {
+   "name": "Paulina Lewandowska"
+  },
+  {
+   "name": "Łukasz Pawela"
+  },
+  {
+   "name": "Zbigniew Puchała"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-13T17:42:52Z",
+ "updated": "2026-07-13T17:42:52Z",
+ "abstract": "We investigate the resilience to noise of single-qubit quantum key distribution (QKD) protocols in the scenario of security against independent eavesdropping attacks and key distillation based on one-way classical communication. To this end, we introduce a noise-based metric that quantifies the efficiency of QKD protocols. Within this framework, we analyze the maximal noise levels that allow Alice and Bob to asymptotically establish a secure secret key. Using this assumption, we compare the noise tolerance of general single-qubit QKD protocols, in particular the BB84, B92, E91, and six-state protocols. Our main result determines the noise level threshold for QKD allowing one to distill an asymptotically secure secret key. Additionally, we demonstrate that the six-state protocol achieves the greatest resistance to noise while simultaneously yielding a higher post-selection efficiency than the other analyzed single-qubit protocols, confirming its robustness within the considered security model. Finally, we perform an analysis of the proposed noise-based metric and the conventional quantum bit error rate (QBER) metric.",
+ "comment": "19 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.11857",
+  "pdf": "https://arxiv.org/pdf/2607.11857",
+  "html": "https://arxiv.org/html/2607.11857"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.11857v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-14T08:37:36.516Z",
+  "hook": "The six-state QKD protocol beats BB84, B92, and E91 in noise resistance and post-selection efficiency.",
+  "tldr": [
+   "The authors evaluated the noise resilience of single-qubit quantum key distribution (QKD) protocols under independent attacks.",
+   "They introduced a new noise-based metric to calculate the maximum noise levels that still allow secure key generation.",
+   "They proved that the six-state protocol is the most robust against noise and offers higher post-selection efficiency than its competitors."
+  ],
+  "whyItMatters": "Quantum cryptography promises unbreakable security, but real-world quantum channels are noisy, which can disrupt the keys. Knowing which protocol tolerates the most noise helps engineers build more reliable, long-distance quantum communication networks.",
+  "eli5": "Imagine trying to whisper a secret password to a friend across a windy room. This study compares different 'whispering codes' to find out which one lets you successfully share the password even when the wind is howling.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "quantum key distribution",
+    "shortDef": "A secure communication method that uses quantum mechanics to enable two parties to produce a shared random secret key.",
+    "eli5Def": "A way of sending secret codes using individual particles of light, where any attempt by a spy to eavesdrop automatically ruins the code and alerts you.",
+    "wikiTitle": "Quantum key distribution"
+   },
+   {
+    "term": "BB84",
+    "shortDef": "The first quantum key distribution protocol, proposed by Charles Bennett and Gilles Brassard in 1984.",
+    "eli5Def": "The original and most famous recipe for sending secure quantum keys using polarized light particles.",
+    "wikiTitle": "BB84"
+   },
+   {
+    "term": "quantum bit error rate",
+    "shortDef": "The ratio of incorrect qubits received to the total number of qubits transmitted in a quantum channel.",
+    "eli5Def": "A percentage score of how many mistakes or glitches occurred while sending quantum information.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

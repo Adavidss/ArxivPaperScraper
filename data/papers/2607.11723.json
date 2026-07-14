@@ -1,0 +1,116 @@
+{
+ "id": "2607.11723",
+ "version": 1,
+ "title": "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization",
+ "authors": [
+  {
+   "name": "Bogdan A. Rodin"
+  },
+  {
+   "name": "Anna Parker"
+  },
+  {
+   "name": "Laurynas Dagys"
+  },
+  {
+   "name": "Vitaly Kozinenko"
+  },
+  {
+   "name": "Martin Korzeczek"
+  },
+  {
+   "name": "Martin B. Plenio"
+  },
+  {
+   "name": "Salvatore Mamone"
+  },
+  {
+   "name": "Rokas Šakalys"
+  },
+  {
+   "name": "Federico De Biasi"
+  },
+  {
+   "name": "Ran Wei"
+  },
+  {
+   "name": "Pinelopi Moutzouri"
+  },
+  {
+   "name": "Lyndon Emsley"
+  },
+  {
+   "name": "Stephan Knecht"
+  },
+  {
+   "name": "James Eills"
+  },
+  {
+   "name": "Ilai Schwartz"
+  }
+ ],
+ "categories": [
+  "physics.chem-ph"
+ ],
+ "primaryCategory": "physics.chem-ph",
+ "published": "2026-07-13T15:48:59Z",
+ "updated": "2026-07-13T15:48:59Z",
+ "abstract": "The recent advent of hyperpolarization techniques, which can enhance NMR signals by several orders of magnitude relative to thermally polarized samples, has enabled applications traditionally out of reach due to the inherently low sensitivity of NMR techniques. However, a high barrier to entry remains, as most hyperpolarization approaches either require complex instrumentation or are applicable only to a relatively small set of molecules. Here we introduce PHIPNOE, a platform that directly addresses both limitations. PHIPNOE is based on parahydrogen-induced polarization (PHIP), which is well-established as a scalable route to hyperpolarization requiring minimal instrumentation, but has been mostly restricted to molecules that undergo specific chemical reactions. We overcome this barrier by tailoring PHIP to create highly polarized, highly concentrated solutions of one specific molecule, which acts as an intermediate source of polarization. This 'source molecule' then distributes polarization to a broad range of target molecules mixed into the solution, via the spin polarization-induced nuclear Overhauser effect (SPINOE). We investigate chemical influences on PHIPNOE, and develop a predictive model to estimate enhancement based on molecular mass and T1 relaxation times. A complete run from PHIP hyperpolarization to PHIPNOE polarization transfer and signal detection takes less than one minute, the approach does not require any modifications to the NMR spectrometer, and enhancements are repeatable across molecular classes. PHIPNOE thus enables applications including single-shot multidimensional NMR, real-time monitoring of dynamic processes, and, with 300-fold signal amplification demonstrated on a benchtop spectrometer, practical low-field NMR, where we show enhanced sensitivity in detecting per- and polyfluoroalkyl substances (PFAS).",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.11723",
+  "pdf": "https://arxiv.org/pdf/2607.11723",
+  "html": "https://arxiv.org/html/2607.11723"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "PHIP"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.11723v1/Figures/mixture_singleshot_inept_JE.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-14T08:37:36.516Z",
+  "hook": "A new NMR technique amplifies signals 300-fold on a benchtop spectrometer, detecting PFAS in under a minute.",
+  "tldr": [
+   "Researchers developed PHIPNOE, a platform that transfers nuclear spin polarization from a highly polarized 'source' molecule to other target molecules in solution.",
+   "They used parahydrogen-induced polarization (PHIP) to hyperpolarize the source molecule, which then distributed its polarization via the nuclear Overhauser effect.",
+   "They achieved 300-fold signal amplification on a benchtop spectrometer, enabling rapid, repeatable detection of PFAS and other chemicals without hardware modifications."
+  ],
+  "whyItMatters": "Nuclear Magnetic Resonance (NMR) is incredibly powerful but suffers from low sensitivity, usually requiring massive, expensive superconducting magnets. This method brings high-sensitivity chemical analysis to portable, benchtop devices, making real-time environmental and medical monitoring practical.",
+  "eli5": "Imagine trying to hear a whisper in a noisy room; that is what normal NMR is like. Instead of building a giant megaphone, this technique uses a 'loudspeaker' molecule that absorbs energy and then whispers it directly into the ears of all the other molecules nearby, making them easy to hear on a simple microphone.",
+  "keyNumbers": [
+   {
+    "value": "300-fold",
+    "label": "Signal amplification",
+    "context": "Demonstrated on a benchtop spectrometer to detect PFAS"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "hyperpolarization",
+    "shortDef": "A method to temporarily boost nuclear spin alignment far beyond thermal equilibrium to dramatically increase NMR signals.",
+    "eli5Def": "A trick that forces almost all the tiny magnetic spins in a sample to point the same way, making their collective signal much stronger and easier to detect.",
+    "wikiTitle": "Hyperpolarization (physics)"
+   },
+   {
+    "term": "parahydrogen-induced polarization",
+    "shortDef": "A chemical hyperpolarization technique using parahydrogen, a specific spin isomer of hydrogen, to boost NMR signals.",
+    "eli5Def": "Using a special, highly organized form of hydrogen gas to pass its magnetic order onto other molecules during a chemical reaction.",
+    "wikiTitle": "Parahydrogen-induced polarization"
+   },
+   {
+    "term": "nuclear Overhauser effect",
+    "shortDef": "The transfer of spin polarization from one nuclear spin population to another via space-mediated interactions.",
+    "eli5Def": "A magnetic domino effect where one spinning atom nudges its neighbor through space, passing along its magnetic orientation.",
+    "wikiTitle": "Nuclear Overhauser effect"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 65
+ }
+}

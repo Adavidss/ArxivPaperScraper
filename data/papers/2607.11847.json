@@ -1,0 +1,86 @@
+{
+ "id": "2607.11847",
+ "version": 1,
+ "title": "Optimal tomography of bosonic and fermionic Gaussian states",
+ "authors": [
+  {
+   "name": "Senrui Chen"
+  },
+  {
+   "name": "Marco Fanizza"
+  },
+  {
+   "name": "Filippo Girardi"
+  },
+  {
+   "name": "Ludovico Lami"
+  },
+  {
+   "name": "Francesco Anna Mele"
+  },
+  {
+   "name": "Michael Walter"
+  },
+  {
+   "name": "Freek Witteveen"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.other",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-13T17:37:46Z",
+ "updated": "2026-07-13T17:37:46Z",
+ "abstract": "The sample complexity is the minimum number of copies required to learn an accurate classical description of a quantum state. Bosonic and fermionic Gaussian quantum states are families of quantum states that play a key role in quantum science and technology, from quantum optics and many-body physics to quantum chemistry, quantum computing, and quantum information theory. Despite their importance, their sample complexity had not been fully determined. We settle this open problem and show that both bosonic and fermionic Gaussian states can be learned using a number of copies that scales quadratically in the number of modes, regardless of whether the state is pure or mixed, and independently of any energy bound on the state. We derive these results by using the representation theory of Gaussian unitaries and by putting forth a generalization of the random purification channel to this setting and beyond.",
+ "comment": "61 pages, 1 figure. This paper subsumes and supersedes arXiv:2512.16878 and arXiv:2512.15690",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.11847",
+  "pdf": "https://arxiv.org/pdf/2607.11847",
+  "html": "https://arxiv.org/html/2607.11847"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.11847v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-14T08:37:36.516Z",
+  "hook": "The sample complexity of learning bosonic and fermionic Gaussian states scales quadratically with the number of modes.",
+  "tldr": [
+   "They investigated the minimum number of physical copies (sample complexity) needed to fully reconstruct Gaussian quantum states.",
+   "They used the representation theory of Gaussian unitaries and a new random purification channel generalization.",
+   "They proved that both bosonic and fermionic Gaussian states can be learned with a quadratic scaling in the number of modes."
+  ],
+  "whyItMatters": "Gaussian states are the backbone of quantum optics, chemistry, and quantum computing. Knowing exactly how many measurements are needed to reconstruct them helps experimentalists design highly efficient verification protocols for quantum technologies.",
+  "eli5": "If you want to map out a complex quantum state, you have to measure many identical copies of it. This research proves that for a very important family of quantum states, the number of copies you need only grows as the square of the system's size, making it much easier to study than previously feared.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Sample complexity",
+    "shortDef": "The number of training samples or physical copies of a state required to learn a target function or state description.",
+    "eli5Def": "The minimum number of tries or physical copies you need to figure out how a system works.",
+    "wikiTitle": "Sample complexity"
+   },
+   {
+    "term": "Bosonic and fermionic",
+    "shortDef": "The two fundamental classes of quantum particles, obeying symmetric and antisymmetric statistics respectively.",
+    "eli5Def": "The two main families of particles in the universe: bosons (like light, which love to crowd together) and fermions (like electrons, which demand their own space).",
+    "wikiTitle": "Identical particles"
+   },
+   {
+    "term": "Quantum tomography",
+    "shortDef": "The process of reconstructing the complete quantum state of a system through a series of measurements.",
+    "eli5Def": "Taking many different 2D snapshots of a quantum object from different angles to build a complete 3D model of it.",
+    "wikiTitle": "Quantum tomography"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 70
+ }
+}

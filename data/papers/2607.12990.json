@@ -1,0 +1,83 @@
+{
+ "id": "2607.12990",
+ "version": 1,
+ "title": "A Noise-Aware Quantum Algorithm for Credit Valuation Adjustments on Real Quantum Hardware",
+ "authors": [
+  {
+   "name": "Guillem Borràs Espert"
+  },
+  {
+   "name": "Francisco Gómez Casanova"
+  },
+  {
+   "name": "Luis de Pedro Sánchez"
+  },
+  {
+   "name": "Senaida Hernández Santana"
+  },
+  {
+   "name": "Pablo Serrano Molinero"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "q-fin.CP"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-14T17:41:11Z",
+ "updated": "2026-07-14T17:41:11Z",
+ "abstract": "Credit Valuation Adjustment (CVA) requires repeated risk-neutral expectation estimation, making it a natural test bed for quantum amplitude estimation, whose coherent amplification can in principle reduce Monte Carlo sampling cost. Whether this advantage survives realistic financial encoding and noisy hardware remains open. We develop an end-to-end, noise-aware quantum workflow for CVA, covering market calibration, discretisation, oracle construction, hardware execution and error-budget analysis. The model combines a correlated two-asset exposure with discount and default factors, encoded through a QCBM-based joint time-market distribution and controlled payoff rotations. We introduce contrast-aware Bayesian iterative quantum amplitude estimation (CABIQAE), which incorporates experimentally calibrated Grover-contrast loss into Bayesian inference and circuit-depth selection. Hardware-calibrated experiments show that CABIQAE exploits the limited amplification available on current devices more effectively than noise-agnostic alternatives and achieves a much lower classical post-processing runtime than the noise-aware BAE baseline. The analysis further decomposes the total CVA error into statistical, encoding, discretisation and hardware contributions. The full CVA oracle remains limited by circuit depth and discretisation resolution.",
+ "comment": "56 pages, 14 figures, 18 tables. Includes supplementary appendices with implementation details, extended results, calibration data, and quantum-resource analysis",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.12990",
+  "pdf": "https://arxiv.org/pdf/2607.12990",
+  "html": "https://arxiv.org/html/2607.12990"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-15T08:56:20.920Z",
+  "hook": "A new noise-aware quantum algorithm makes financial risk calculations on real quantum hardware faster and more accurate.",
+  "tldr": [
+   "They developed an end-to-end quantum workflow to calculate Credit Valuation Adjustment (CVA) on noisy quantum hardware.",
+   "They introduced CABIQAE, an algorithm incorporating experimentally calibrated Grover-contrast loss into Bayesian inference.",
+   "They found that CABIQAE exploits limited hardware amplification better than noise-agnostic methods and cuts classical runtime."
+  ],
+  "whyItMatters": "Financial institutions spend massive computing power calculating risk. This research brings practical quantum computing closer to finance by showing how to run complex risk algorithms on today's imperfect, noisy quantum chips.",
+  "eli5": "Calculating financial risk is like predicting the weather for thousands of scenarios at once. Quantum computers can do this fast, but today's chips are very 'noisy' and make mistakes. This new algorithm acts like a smart noise-canceling headphone, filtering out the hardware errors to get the right financial answers much faster.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Credit Valuation Adjustment",
+    "shortDef": "A financial metric measuring the market value of counterparty credit risk.",
+    "eli5Def": "An adjustment to a financial contract's price to account for the risk that the other party might go bankrupt.",
+    "wikiTitle": "Credit valuation adjustment"
+   },
+   {
+    "term": "Quantum Amplitude Estimation",
+    "shortDef": "A quantum algorithm that estimates a parameter with a quadratic speedup over classical Monte Carlo methods.",
+    "eli5Def": "A quantum trick that lets us find the average outcome of a complex simulation much faster than a normal computer can.",
+    "wikiTitle": "Quantum amplitude estimation"
+   },
+   {
+    "term": "QCBM",
+    "shortDef": "Quantum Circuit Born Machine, a generative quantum model used to learn probability distributions.",
+    "eli5Def": "A quantum algorithm that learns to generate realistic patterns of data, like stock market fluctuations.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Bayesian inference",
+    "shortDef": "A method of statistical inference in which Bayes' theorem is used to update the probability for a hypothesis.",
+    "eli5Def": "A smart way of updating your guesses as you get more and more real-world clues.",
+    "wikiTitle": "Bayesian inference"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 70
+ }
+}

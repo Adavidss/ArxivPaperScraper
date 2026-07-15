@@ -1,0 +1,109 @@
+{
+ "id": "2607.13008",
+ "version": 1,
+ "title": "High-fidelity entanglement of polar molecules by dynamic geometric control",
+ "authors": [
+  {
+   "name": "Scarlett S. Yu"
+  },
+  {
+   "name": "Avikar Periwal"
+  },
+  {
+   "name": "Jiaqi You"
+  },
+  {
+   "name": "Zirui Liu"
+  },
+  {
+   "name": "Qinshu Lyu"
+  },
+  {
+   "name": "Youngju Cho"
+  },
+  {
+   "name": "Loïc Anderegg"
+  },
+  {
+   "name": "Eunmi Chae"
+  },
+  {
+   "name": "John M. Doyle"
+  }
+ ],
+ "categories": [
+  "physics.atom-ph",
+  "cond-mat.quant-gas",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.atom-ph",
+ "published": "2026-07-14T17:51:29Z",
+ "updated": "2026-07-14T17:51:29Z",
+ "abstract": "In quantum information systems made of optical tweezer arrays of ultracold molecules, thermal motion of molecules degrades the coherence of their interactions, which limits entanglement fidelity and the concomitant scientific applicability of these systems. We show that by controlling the geometry of the dipolar interaction, even when a molecule occupies many motional states in the tweezer, coherence can be preserved. We characterize several geometries that suppress sensitivity to thermal fluctuations. We further use programmable, coherence-preserving motion of the molecules during entanglement to refocus dephasing from relative positional jitter of the tweezers, which is relevant even on the 10 nm scale. These methods yield substantially improved dipolar coherence and enable generation of two-molecule entanglement with a Bell state fidelity of $\\mathcal{F}= 0.976^{+0.008}_{-0.011}$ in directly laser-cooled molecules.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.13008",
+  "pdf": "https://arxiv.org/pdf/2607.13008",
+  "html": "https://arxiv.org/html/2607.13008"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.13008v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-15T08:56:20.920Z",
+  "hook": "Physicists achieve a 0.976 Bell state entanglement fidelity in laser-cooled molecules by beating thermal jitter.",
+  "tldr": [
+   "They designed a method to preserve quantum coherence in optical tweezers by dynamically controlling the geometry of molecular dipolar interactions.",
+   "They used programmable, coherence-preserving molecular motion during entanglement to actively refocus dephasing caused by nanometer-scale tweezer jitter.",
+   "They demonstrated a high-fidelity two-molecule entangled Bell state with a fidelity of 0.976 in directly laser-cooled polar molecules."
+  ],
+  "whyItMatters": "Entangling molecules is notoriously difficult because their thermal motion scrambles quantum information. Overcoming this barrier is a major leap toward using ultracold molecules for robust quantum computing and high-precision physical simulators.",
+  "eli5": "Imagine trying to choreograph a synchronized dance between two people on moving trampolines; their bouncing makes it hard to stay in sync. Scientists solved this by changing the angles and timing of how the dancers interact, canceling out the shaking so they can perform a perfect duet.",
+  "keyNumbers": [
+   {
+    "value": "0.976",
+    "label": "Bell state fidelity",
+    "context": "The achieved entanglement fidelity of two directly laser-cooled polar molecules, with an upper bound error of +0.008 and lower of -0.011."
+   },
+   {
+    "value": "10 nm",
+    "label": "Jitter scale",
+    "context": "The scale of relative positional jitter between optical tweezers that the motion-refocusing technique successfully corrects."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "entanglement",
+    "shortDef": "A quantum phenomenon where particles share a joint state, regardless of distance.",
+    "eli5Def": "A magical-seeming connection where two tiny particles become partners, so that doing something to one instantly affects the other, even if they are far apart.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "optical tweezer",
+    "shortDef": "A scientific instrument using a highly focused laser beam to hold and manipulate microscopic objects.",
+    "eli5Def": "A tiny tractor beam made of laser light that can grab and hold onto a single atom or molecule in empty space.",
+    "wikiTitle": "Optical tweezers"
+   },
+   {
+    "term": "Bell state",
+    "shortDef": "A specific quantum state representing the simplest and most maximially entangled state of two qubits.",
+    "eli5Def": "The gold standard of quantum connection, where two particles are as perfectly and strongly linked together as physically possible.",
+    "wikiTitle": "Bell state"
+   },
+   {
+    "term": "dipolar interaction",
+    "shortDef": "An electromagnetic interaction between two permanent or induced dipoles.",
+    "eli5Def": "The way two tiny magnets pull or push on each other depending on which way they are pointing.",
+    "wikiTitle": "Electric dipole-dipole attraction"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 75
+ }
+}

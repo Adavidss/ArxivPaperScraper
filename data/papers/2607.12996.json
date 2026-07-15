@@ -1,0 +1,78 @@
+{
+ "id": "2607.12996",
+ "version": 1,
+ "title": "Expressibility and trainability of a two-dimensional pairwise quantum-circuit ansatz",
+ "authors": [
+  {
+   "name": "Shuai Zhang"
+  },
+  {
+   "name": "Wei Liu"
+  },
+  {
+   "name": "Ji-Chong Yang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-14T17:47:25Z",
+ "updated": "2026-07-14T17:47:25Z",
+ "abstract": "Parameterized quantum circuits~(PQCs) constitute a central building block of variational quantum algorithms~(VQAs) and quantum machine learning~(QML) methods. Existing ansatz designs often adopt hardware-agnostic or simplified 1D chain/ring entanglement patterns. However, as quantum hardware continues to develop, native 2D connectivity patterns, such as planar superconducting-qubit architectures, are becoming increasingly important. Inspired by this hardware structure, we construct a native 2D pairwise ansatz and compare its expressibility and trainability with representative 1D ansatze at identical layer depths, despite their different circuit depths. For the fixed 16-qubit system, the 2D ansatz has the smallest KL divergence at $L=1$ and $2$, and its second-order frame potential approaches the theoretical lower bound more rapidly at shallow layer counts than the frame potentials of the three 1D ansatze. We also evaluate the gradient variance of the Pauli-$Z$-string expectation value $\\langle Z_0\\otimes\\cdots\\otimes Z_{15}\\rangle$ with respect to the first $R_y$ angle. For this Pauli-$Z$ string and fixed parameter, the gradient variance is smaller for the 2D circuit at $L=1$--$4$. The differences narrow at $L=5$, and the four ansatze yield statistically compatible variances at $L=6$.",
+ "comment": "25 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.12996",
+  "pdf": "https://arxiv.org/pdf/2607.12996",
+  "html": "https://arxiv.org/html/2607.12996"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.12996v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-15T08:56:20.920Z",
+  "hook": "A native 2D quantum circuit design outperforms traditional 1D chains in expressibility at shallow depths.",
+  "tldr": [
+   "They constructed a native 2D pairwise quantum-circuit ansatz designed to match the physical layout of modern 2D superconducting chips.",
+   "They compared its performance against three representative 1D ansatze using a fixed 16-qubit system.",
+   "They found that the 2D ansatz achieved lower KL divergence and approached theoretical limits faster at shallow layer counts (L=1 to 4)."
+  ],
+  "whyItMatters": "Most quantum algorithms are designed for simple 1D lines of qubits, but real quantum hardware is increasingly built as 2D grids. Designing algorithms that natively match this 2D layout makes quantum computers much more powerful and easier to train with fewer errors.",
+  "eli5": "If you arrange computers in a grid instead of a single straight line, they can talk to their neighbors much faster. This study shows that designing software specifically for a 2D grid makes quantum programs run better and find answers with fewer steps.",
+  "keyNumbers": [
+   {
+    "value": "16",
+    "label": "qubit system size",
+    "context": "The fixed number of qubits used to evaluate and compare the 2D and 1D circuit architectures."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "ansatz",
+    "shortDef": "An assumed or structured mathematical setup used as a starting point to solve a problem.",
+    "eli5Def": "A smart guess or template that scientists use as a starting point to solve a tricky math or physics puzzle.",
+    "wikiTitle": "Ansatz"
+   },
+   {
+    "term": "KL divergence",
+    "shortDef": "Kullback-Leibler divergence, a measure of how one probability distribution differs from a second.",
+    "eli5Def": "A mathematical way to measure how different two probability charts or patterns are from each other.",
+    "wikiTitle": "Kullback–Leibler divergence"
+   },
+   {
+    "term": "frame potential",
+    "shortDef": "A mathematical quantity used to measure how close a set of quantum states is to being truly random.",
+    "eli5Def": "A tool that tells scientists if their quantum computer is exploring all possible options or getting stuck in just a few.",
+    "wikiTitle": "Quantum state t-design"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 75
+ }
+}

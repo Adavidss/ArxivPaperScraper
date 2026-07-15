@@ -1,0 +1,72 @@
+{
+ "id": "2607.12999",
+ "version": 1,
+ "title": "Spin Chain Quantum Communication on a Trapped-Ion Processor",
+ "authors": [
+  {
+   "name": "Madhumita Sarkar"
+  },
+  {
+   "name": "Trinity Pointon"
+  },
+  {
+   "name": "Sougato Bose"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-14T17:48:53Z",
+ "updated": "2026-07-14T17:48:53Z",
+ "abstract": "Efficient communication between distant qubits is one of the central challenges in scaling quantum processors. Although engineered spin chain protocols have been extensively investigated theoretically, their experimental realization has remained comparatively limited. Here, we experimentally realize engineered quantum communication protocols through digitally simulated spin Hamiltonian on IonQ's Forte 1/ Forte Enterprise 1 trapped-ion quantum processor. Combining exact numerical simulations with quantum hardware experiments, we benchmark uniform nearest-neighbour and engineered coupling profiles and demonstrate that engineered interactions significantly enhance the fidelity of quantum state transfer. We further show that exploiting the commutation structure of the spin Hamiltonian enables a parallel Trotter decomposition that more faithfully reproduces the target dynamics while substantially reducing the circuit depth and execution time compared to the conventional sequential implementations. Our results demonstrate that programmable quantum processors can effectively realize and efficiently implement quantum communication protocols, bringing Hamiltonian-based quantum communication closer to practical quantum technologies.",
+ "comment": "9 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.12999",
+  "pdf": "https://arxiv.org/pdf/2607.12999",
+  "html": "https://arxiv.org/html/2607.12999"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.12999v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-15T08:56:20.920Z",
+  "hook": "Engineered spin chains on IonQ's trapped-ion hardware significantly boost quantum communication fidelity.",
+  "tldr": [
+   "They experimentally realized engineered quantum communication protocols using digitally simulated spin Hamiltonians.",
+   "They compared uniform nearest-neighbor coupling against engineered coupling profiles on IonQ's Forte processors.",
+   "They found that engineered interactions and a parallel Trotter decomposition drastically reduced circuit depth and improved state transfer fidelity."
+  ],
+  "whyItMatters": "To build large-scale quantum computers, different parts of the chip must talk to each other reliably. This research demonstrates a highly efficient, hardware-friendly way to send quantum information across a processor without needing complex, error-prone routing circuits.",
+  "eli5": "Imagine trying to send a whisper down a line of people. If everyone just passes it normally, the message gets garbled; but if you carefully tune how loudly and quickly each person speaks, the whisper travels perfectly and much faster.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "spin chain",
+    "shortDef": "A model of interacting quantum spins, often used to study quantum state transfer.",
+    "eli5Def": "A line of tiny quantum magnets that can pass magnetic signals down the row like a bucket brigade.",
+    "wikiTitle": "Spin chain"
+   },
+   {
+    "term": "trapped-ion",
+    "shortDef": "A quantum computing architecture using electromagnetic fields to suspend charged atoms.",
+    "eli5Def": "A type of quantum computer that holds individual charged atoms floating in mid-air using electric fields and controls them with lasers.",
+    "wikiTitle": "Trapped ion quantum computer"
+   },
+   {
+    "term": "Trotter decomposition",
+    "shortDef": "A mathematical method used to approximate the evolution of a quantum system on a digital computer.",
+    "eli5Def": "A trick used to simulate complex quantum physics by breaking a big, continuous change down into tiny, easy-to-calculate steps.",
+    "wikiTitle": "Lie–product formula"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 70
+ }
+}

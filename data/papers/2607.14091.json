@@ -1,0 +1,88 @@
+{
+ "id": "2607.14091",
+ "version": 1,
+ "title": "Pair-Partition Constructions for CPM-Based Quantum LDPC Codes",
+ "authors": [
+  {
+   "name": "Koki Okada"
+  },
+  {
+   "name": "Kenta Kasai"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-15T17:59:52Z",
+ "updated": "2026-07-15T17:59:52Z",
+ "abstract": "We construct binary Calderbank--Shor--Steane (CSS) quantum low-density parity-check (LDPC) codes from circulant permutation matrices (CPMs). The construction is parameterized by column weight J, row weight L, and prime lift size P. A J x J array of pair partitions imposes linear paired-difference equations on the CPM exponents. These equations give CSS orthogonality. The main finite examples reported here are the (J,L)=(4,12)-regular girth-six code [[372,130,16]] with rate 0.349, and the (J,L)=(4,14)-regular girth-six code [[518,228,16]] with rate 0.440. We also record (J,L)=(3,8)-regular girth-six instances [[472,122,14]] and [[488,126,14]], with lift sizes P=59 and P=61, respectively. The stated distances are established for the fixed matrices by exhaustive low-weight exclusion together with explicit non-stabilizer witnesses.",
+ "comment": "12 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.14091",
+  "pdf": "https://arxiv.org/pdf/2607.14091",
+  "html": "https://arxiv.org/html/2607.14091"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-16T08:42:14.070Z",
+  "hook": "New quantum LDPC codes achieve a distance of 16 with rates up to 0.440 using circulant permutation matrices.",
+  "tldr": [
+   "They constructed binary CSS quantum LDPC codes using circulant permutation matrices parameterized by column/row weights and prime lift sizes.",
+   "They applied a J x J array of pair partitions to impose linear paired-difference equations on CPM exponents to ensure CSS orthogonality.",
+   "They discovered regular girth-six codes including a [[372,130,16]] code and a [[518,228,16]] code, verifying distances via low-weight exclusion."
+  ],
+  "whyItMatters": "Quantum low-density parity-check (LDPC) codes are crucial for building fault-tolerant quantum computers because they dramatically reduce the physical qubit overhead needed for error correction.",
+  "eli5": "Imagine trying to send a secret message where some letters might get smudged. By arranging the letters in a highly structured grid using mathematical rules, we can easily spot and fix any errors. This research finds a new, highly efficient grid pattern to protect fragile quantum information from getting corrupted.",
+  "keyNumbers": [
+   {
+    "value": "0.349",
+    "label": "code rate",
+    "context": "achieved by the (J,L)=(4,12)-regular girth-six code [[372,130,16]]"
+   },
+   {
+    "value": "0.440",
+    "label": "code rate",
+    "context": "achieved by the (J,L)=(4,14)-regular girth-six code [[518,228,16]]"
+   },
+   {
+    "value": "59",
+    "label": "lift size P",
+    "context": "used for the (J,L)=(3,8)-regular girth-six instance [[472,122,14]]"
+   },
+   {
+    "value": "61",
+    "label": "lift size P",
+    "context": "used for the (J,L)=(3,8)-regular girth-six instance [[488,126,14]]"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "CSS codes",
+    "shortDef": "A class of quantum error-correcting codes constructed from two classical linear codes.",
+    "eli5Def": "A special recipe for quantum security that fixes bit flips and phase flips separately using classical computer rules.",
+    "wikiTitle": "CSS code"
+   },
+   {
+    "term": "LDPC codes",
+    "shortDef": "Low-density parity-check codes where each parity check involves only a small number of code symbols.",
+    "eli5Def": "An error-checking system where each clue only looks at a few letters, making it super fast and easy to solve.",
+    "wikiTitle": "Low-density parity-check code"
+   },
+   {
+    "term": "Circulant permutation matrix",
+    "shortDef": "A square matrix where each row is a cyclic shift of the row above it by one element.",
+    "eli5Def": "A grid of numbers where each row is just the previous row shifted over by one spot, like a repeating loop.",
+    "wikiTitle": "Circulant matrix"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

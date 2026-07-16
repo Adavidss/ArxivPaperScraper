@@ -1,0 +1,84 @@
+{
+ "id": "2607.14063",
+ "version": 1,
+ "title": "Reshaping quantum annealing landscapes with diagonal catalysts",
+ "authors": [
+  {
+   "name": "Andrés N. Cáliz"
+  },
+  {
+   "name": "Carlos Ramon-Escandell"
+  },
+  {
+   "name": "Finnley Paolella"
+  },
+  {
+   "name": "Josep Bosch"
+  },
+  {
+   "name": "Jan Nogué"
+  },
+  {
+   "name": "Arnau Riera"
+  },
+  {
+   "name": "Jordi Riu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-15T17:35:56Z",
+ "updated": "2026-07-15T17:35:56Z",
+ "abstract": "Quantum annealing is often limited by population trapped in local minima many spin flips from the solution. We introduce a mathematical framework to understand the connection between energy and Hamming distance in optimization problems. Using this, we build ZZ-catalysts from ground-state patterns of small frustration-free subproblems that make configurations far from the solution less energetically competitive. On sparse problems they multiply the near-solution probability at short sweeps, with gains persisting on fully-connected models and tunable via subproblem choice.",
+ "comment": "20 pages, 13 figures and 2 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.14063",
+  "pdf": "https://arxiv.org/pdf/2607.14063",
+  "html": "https://arxiv.org/html/2607.14063"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.14063v1/figures/catalyst_paperV4.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-16T08:42:14.070Z",
+  "hook": "New ZZ-catalysts reshape quantum annealing landscapes to prevent solvers from getting trapped in wrong answers.",
+  "tldr": [
+   "The authors developed a mathematical framework linking energy and Hamming distance to improve quantum annealing.",
+   "They constructed ZZ-catalysts using ground-state patterns of small, frustration-free subproblems.",
+   "They found these catalysts multiply the probability of finding near-solutions in short sweeps for both sparse and fully-connected models."
+  ],
+  "whyItMatters": "Quantum annealers are powerful tools for solving complex optimization problems, but they often get stuck in 'almost right' answers. This new method reshapes the energy landscape, making it much easier for the quantum computer to slide into the absolute best solution.",
+  "eli5": "Imagine trying to roll a marble into a deep cup on a bumpy tray, but it keeps getting stuck in shallow dents far away. These researchers figured out how to temporarily fill in those wrong dents so the marble is guided straight to the winning cup.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum annealing",
+    "shortDef": "A quantum computing method used to find the global minimum of a given objective function.",
+    "eli5Def": "Using quantum physics to find the absolute best solution to a massive puzzle by letting the system naturally settle into its lowest energy state.",
+    "wikiTitle": "Quantum annealing"
+   },
+   {
+    "term": "Hamming distance",
+    "shortDef": "The number of positions at which corresponding symbols in two equal-length strings differ.",
+    "eli5Def": "A measure of how different two answers are, counted by how many individual switches you would have to flip to turn one into the other.",
+    "wikiTitle": "Hamming distance"
+   },
+   {
+    "term": "Catalyst (quantum)",
+    "shortDef": "An additional term added to a quantum Hamiltonian to avoid local minima without changing the final target problem.",
+    "eli5Def": "A temporary helper force added to the quantum computer to keep it from getting stuck in dead ends during its calculation.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

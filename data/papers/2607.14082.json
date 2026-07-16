@@ -1,0 +1,90 @@
+{
+ "id": "2607.14082",
+ "version": 1,
+ "title": "Building Shor's Algorithm in Lean: An Agentic Formalization of Quantum Attacks on RSA-2048 and P-256",
+ "authors": [
+  {
+   "name": "Lei Zhang"
+  },
+  {
+   "name": "Yusheng Zhao"
+  },
+  {
+   "name": "Hongshun Yao"
+  },
+  {
+   "name": "Xin Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-15T17:56:58Z",
+ "updated": "2026-07-15T17:56:58Z",
+ "abstract": "Large language models are increasingly assisting with demanding formal theorem-proving tasks, particularly when grounded in machine-checked libraries such as Lean. Agentic systems further amplify this process by searching, reusing, and extending existing formal developments to uncover new discoveries. In quantum computing, Shor's algorithm and its variants present such a demanding case for Lean formalization. In this work, we formalize this algorithm family in Lean through agentic formalization: software agents analyze sources, write Lean code and repair proofs, with human review of the scientific claims and machine checking of the resulting formal proofs. Our formalization develops the mathematical foundations for analyzing quantum attacks in two cryptographic settings: a 2048-bit modulus in the RSA-2048 and the standardized elliptic curve over a 256-bit prime field (P-256). To support these analyses, the formalization ranges from quantum algorithms for order finding to reversible quantum circuits for modular and elliptic-curve arithmetic. Based on [Quantum 5, 433] and [ASIACRYPT 2017, 241--270], we formalize the logical resource estimates for RSA-2048 and P-256, respectively, and provide additional estimates of classical operations. We expect the results pave the way for broader machine-checked quantum cryptanalysis and represent a step toward AI-assisted design and verification of quantum algorithms.",
+ "comment": "21 pages, including appendix; 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.14082",
+  "pdf": "https://arxiv.org/pdf/2607.14082",
+  "html": "https://arxiv.org/html/2607.14082"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-16T08:42:14.070Z",
+  "hook": "AI agents have successfully formalized Shor's quantum attacks on RSA-2048 and P-256 cryptography in Lean.",
+  "tldr": [
+   "Researchers formalized Shor's quantum algorithm family in the Lean proof assistant to analyze attacks on modern cryptographic standards.",
+   "They used an agentic AI system to write Lean code, repair proofs, and analyze sources, backed by human review and machine checking.",
+   "The team successfully formalized logical resource estimates and quantum circuits for attacking RSA-2048 and the P-256 elliptic curve."
+  ],
+  "whyItMatters": "As quantum computers grow, we must precisely understand their threat to our current encryption. Using AI to mathematically prove how these quantum attacks work ensures our security estimates are 100% correct and free of human calculation errors.",
+  "eli5": "Imagine trying to write a massive, flawless instruction manual for a futuristic machine that doesn't fully exist yet. Instead of doing it all by hand, the researchers used smart AI assistants to write and double-check the math rules in a special language that computers can verify with absolute certainty.",
+  "keyNumbers": [
+   {
+    "value": "2048",
+    "label": "RSA modulus bits",
+    "context": "The size of the RSA cryptographic key analyzed for quantum attacks."
+   },
+   {
+    "value": "256",
+    "label": "Elliptic curve prime field bits",
+    "context": "The key size of the standardized P-256 elliptic curve analyzed in the formalization."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Shor's algorithm",
+    "shortDef": "A quantum computer algorithm capable of finding the prime factors of an integer in polynomial time.",
+    "eli5Def": "A super-fast math trick that only quantum computers can run, which can easily crack the secret codes used to secure the internet.",
+    "wikiTitle": "Shor's algorithm"
+   },
+   {
+    "term": "Lean",
+    "shortDef": "A functional programming language and interactive theorem prover.",
+    "eli5Def": "A special computer program that acts like an ultra-strict math teacher, checking every single step of a proof to make sure there are zero mistakes.",
+    "wikiTitle": "Lean (proof assistant)"
+   },
+   {
+    "term": "Agentic Formalization",
+    "shortDef": "Using autonomous AI agents to write, debug, and complete formal mathematical proofs.",
+    "eli5Def": "Letting AI software act like an independent worker that writes and fixes computer code to prove math theorems.",
+    "wikiTitle": null
+   },
+   {
+    "term": "RSA-2048",
+    "shortDef": "A widely used public-key encryption standard utilizing a 2048-bit security key.",
+    "eli5Def": "One of the most common digital locks used today to protect online banking and secure messages.",
+    "wikiTitle": "RSA (cryptosystem)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 75
+ }
+}

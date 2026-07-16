@@ -1,6 +1,28 @@
 {
- "generatedAt": "2026-07-15T08:56:20.920Z",
+ "generatedAt": "2026-07-16T08:42:14.070Z",
  "suggestions": [
+  {
+   "name": "Vsevolod Ivanov",
+   "slug": "vsevolod-ivanov",
+   "score": 4,
+   "coAuthoredWith": [
+    "daniel-g-ang",
+    "ronald-walsworth"
+   ],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2607.14083",
+    "2606.23621"
+   ],
+   "recentTitles": [
+    "Cluster-configurational study of G-center in Silicon",
+    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
+   ],
+   "paperCount": 2
+  },
   {
    "name": "Sabre Kais",
    "slug": "sabre-kais",
@@ -152,24 +174,6 @@
   {
    "name": "Jordan Chapman",
    "slug": "jordan-chapman",
-   "score": 3,
-   "coAuthoredWith": [
-    "daniel-g-ang",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2606.23621"
-   ],
-   "recentTitles": [
-    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
-   ],
-   "paperCount": 1
-  },
-  {
-   "name": "Chinmay Bharathulwar",
-   "slug": "chinmay-bharathulwar",
    "score": 3,
    "coAuthoredWith": [
     "daniel-g-ang",

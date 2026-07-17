@@ -1,0 +1,75 @@
+{
+ "id": "2607.15276",
+ "version": 1,
+ "title": "Locality of deep thermalisation through the lens of entanglement teleportation",
+ "authors": [
+  {
+   "name": "Saptarshi Mandal"
+  },
+  {
+   "name": "Alan Sherry"
+  },
+  {
+   "name": "Sthitadhi Roy"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.dis-nn",
+  "cond-mat.stat-mech",
+  "hep-th"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-16T17:59:16Z",
+ "updated": "2026-07-16T17:59:16Z",
+ "abstract": "Deep thermalisation characterises the emergence of universal quantum state ensembles on subsystems due to projective measurements on their complement. We study the notion of locality, or lack thereof, in this phenomenon by considering a subsystem partitioned into two disjoint subregions which remain causally disconnected at all times under unitary dynamics. We show that the onset of deep thermalisation in this geometry is fundamentally bounded by measurement-induced entanglement teleportation between the subregions. While measurements on the environment generate entanglement across the disconnected partitions -- suggesting an apparent non-locality -- we demonstrate that generic locally interacting systems exhibit an emergent locality. Specifically, the timescales for both deep thermalisation and entanglement teleportation scale logarithmically with the distance separating the subregions. Exceptions to this include special circuits where the randomness of the measurement outcomes is perfectly transmitted to the ensemble of states of the subsystem, conditioned on the outcomes; in such cases the timescale for deep thermalisation is finite leading to genuine non-locality.",
+ "comment": "7 pages, 3 figures + Supplementary Material (3 pages, 1 figure)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15276",
+  "pdf": "https://arxiv.org/pdf/2607.15276",
+  "html": "https://arxiv.org/html/2607.15276"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.15276v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-17T08:36:51.812Z",
+  "hook": "In generic quantum systems, deep thermalisation timescales scale logarithmically with distance.",
+  "tldr": [
+   "They studied the role of locality in deep thermalisation by partitioning a subsystem into two causally disconnected, disjoint subregions.",
+   "They modeled the system's unitary dynamics and environment measurements to track entanglement teleportation between the subregions.",
+   "They found that deep thermalisation is bounded by entanglement teleportation, with both timescales scaling logarithmically with distance."
+  ],
+  "whyItMatters": "Understanding how quantum systems thermalize locally helps us design more stable quantum computers and simulators, revealing how information leaks or scrambles across seemingly disconnected regions.",
+  "eli5": "Imagine two separate rooms that are completely soundproofed so no signals can pass between them. If we measure the air outside both rooms, we can suddenly create a spooky quantum link between them. This study shows that even with this spooky link, it still takes a predictable amount of time—growing with the distance between the rooms—for the quantum states inside to mix up and look completely random.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "deep thermalisation",
+    "shortDef": "The emergence of universal quantum state ensembles on a subsystem due to measurements on its environment.",
+    "eli5Def": "When measuring the outside of a quantum system forces the inside part to look completely scrambled and random.",
+    "wikiTitle": null
+   },
+   {
+    "term": "entanglement teleportation",
+    "shortDef": "The transfer of quantum entanglement between two distant, disconnected systems via measurement.",
+    "eli5Def": "Using a middleman's measurements to instantly share a spooky quantum connection between two far-apart objects.",
+    "wikiTitle": "Quantum teleportation"
+   },
+   {
+    "term": "unitary dynamics",
+    "shortDef": "The time evolution of an isolated quantum system that preserves its total probability.",
+    "eli5Def": "The natural, predictable way a quantum system changes over time without losing any of its information.",
+    "wikiTitle": "Unitary operator"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

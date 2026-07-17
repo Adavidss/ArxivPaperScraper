@@ -1,0 +1,76 @@
+{
+ "id": "2607.15184",
+ "version": 1,
+ "title": "Backpropagating Pauli Propagation",
+ "authors": [
+  {
+   "name": "Sheng-Hsuan Lin"
+  },
+  {
+   "name": "Etienne Granet"
+  },
+  {
+   "name": "Kevin Hémery"
+  },
+  {
+   "name": "Henrik Dreyer"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-16T16:35:38Z",
+ "updated": "2026-07-16T16:35:38Z",
+ "abstract": "We develop a backpropagation algorithm for evaluating parameter gradients in quantum circuits using Pauli propagation simulation. The method has computational complexity comparable to that of standard sparse Pauli simulation techniques, while producing gradients whose accuracy is of the same order as the corresponding observable expectation values. By exploiting the reversibility of quantum circuits, the algorithm reduces the memory cost by a factor of $\\mathcal{O}(n_\\text{param})$ compared with conventional reverse-mode automatic differentiation, where $n_\\text{param}$ denotes the number of parameters in the circuit. Compared with finite difference methods, the algorithm is $\\mathcal{O}(n_\\text{param})$ more efficient in function evaluations. These features enable efficient and accurate classical optimization of quantum circuits for applications such as state preparation and time-evolution compression, while also allowing operator-complexity measures such as the operator stabilizer Rényi entropy to be monitored and regularized during optimization. We demonstrate the method by optimizing low-energy state-preparation circuits for transverse-field Ising models in one, two, and three dimensions and for the three-dimensional Heisenberg model, and by compressing two-dimensional time-evolution circuits.",
+ "comment": "14+6 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15184",
+  "pdf": "https://arxiv.org/pdf/2607.15184",
+  "html": "https://arxiv.org/html/2607.15184"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.15184v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-17T08:36:51.812Z",
+  "hook": "A new backpropagation algorithm slashes the memory cost of optimizing quantum circuits by a factor of O(n_param).",
+  "tldr": [
+   "The authors developed a backpropagation algorithm for calculating parameter gradients in quantum circuits using Pauli propagation.",
+   "They utilized the reversibility of quantum circuits to compute gradients with high accuracy and minimal memory overhead.",
+   "They demonstrated the method by optimizing low-energy state-preparation circuits and compressing 2D time-evolution circuits."
+  ],
+  "whyItMatters": "Training quantum computers to solve complex chemistry or physics problems requires finding the perfect settings for their circuits. This algorithm makes that tuning process vastly faster and less memory-intensive on classical computers.",
+  "eli5": "When teaching a computer how to solve a maze, it helps to trace your steps backward from the exit. This new method lets classical computers trace quantum circuits backward to find the best settings without running out of memory.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "backpropagation",
+    "shortDef": "An algorithm used to calculate gradients of a loss function, crucial for training neural networks and circuits.",
+    "eli5Def": "A way of working backward from a mistake to figure out exactly which dials to turn to make the system smarter next time.",
+    "wikiTitle": "Backpropagation"
+   },
+   {
+    "term": "Pauli propagation",
+    "shortDef": "A method of simulating quantum systems by tracking how Pauli operators evolve over time.",
+    "eli5Def": "A math trick that tracks how quantum information changes by looking at simple, fundamental quantum rules.",
+    "wikiTitle": "Pauli matrices"
+   },
+   {
+    "term": "automatic differentiation",
+    "shortDef": "A set of techniques to numerically evaluate the exact derivative of a function specified by a computer program.",
+    "eli5Def": "A smart calculator tool that automatically figures out the exact rate of change for any computer code you write.",
+    "wikiTitle": "Automatic differentiation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

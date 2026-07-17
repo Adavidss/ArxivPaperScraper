@@ -1,0 +1,50 @@
+{
+ "date": "2026-07-17",
+ "generatedAt": "2026-07-17T08:36:51.812Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum Frontiers: From Network Fiber to Entanglement Math",
+ "summary": "Today's research spans the entire quantum stack, from physical hardware defects and metropolitan-scale networks to foundational mathematical proofs of entropy and circuit optimization. Together, these papers advance our ability to scale, measure, and theoretically model quantum information systems.",
+ "themes": [
+  {
+   "title": "Quantum Networks and Hardware Realities",
+   "body": "Researchers are tackling the physical challenges of quantum scaling. This includes demonstrating a stable, continuous 150-hour six-user metropolitan quantum network and identifying Coulomb blockade in microscopic metallic grains as a major source of circuit decoherence.",
+   "paperIds": [
+    "2607.15262",
+    "2607.15252"
+   ]
+  },
+  {
+   "title": "Entanglement Dynamics and Detection",
+   "body": "New theoretical and practical frameworks are improving how we understand and measure entanglement. Work includes bounding deep thermalisation timescales via entanglement teleportation and bypassing state tomography to measure 2-qubit and 3-qubit entanglement directly.",
+   "paperIds": [
+    "2607.15276",
+    "2607.15201"
+   ]
+  },
+  {
+   "title": "Optimization and Information Theory",
+   "body": "Mathematical foundations of quantum computing see major updates. A new backpropagation algorithm slashes the memory cost of optimizing quantum circuits, while a separate proof narrows the unresolved interval for the additivity of minimum output Rényi entropy.",
+   "paperIds": [
+    "2607.15184",
+    "2607.15210"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "While paper 2607.15201 designs efficient circuits to directly measure entanglement, paper 2607.15184 introduces a backpropagation algorithm to optimize quantum circuits with minimal memory overhead.",
+   "paperIds": [
+    "2607.15201",
+    "2607.15184"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2607.15276",
+  "2607.15262",
+  "2607.15252",
+  "2607.15210",
+  "2607.15201",
+  "2607.15184"
+ ]
+}

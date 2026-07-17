@@ -1,0 +1,107 @@
+{
+ "id": "2607.15262",
+ "version": 1,
+ "title": "Dynamic Entanglement Distribution for Multi-User and Multi-Protocol Quantum Networking",
+ "authors": [
+  {
+   "name": "Rui Wang"
+  },
+  {
+   "name": "Marcus J. Clark"
+  },
+  {
+   "name": "Obada Alia"
+  },
+  {
+   "name": "Sima Bahrani"
+  },
+  {
+   "name": "Djeylan Aktas"
+  },
+  {
+   "name": "Matej Peranić"
+  },
+  {
+   "name": "Mario Stipčević"
+  },
+  {
+   "name": "Martin Lončarić"
+  },
+  {
+   "name": "John Rarity"
+  },
+  {
+   "name": "Siddarth K. Joshi"
+  },
+  {
+   "name": "Dimitra Simeonidou"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-16T17:54:43Z",
+ "updated": "2026-07-16T17:54:43Z",
+ "abstract": "Dynamic entanglement distribution is a key requirement for scalable, multi-user and multi-protocol quantum networks. We demonstrate a metropolitan-scale entanglement-based quantum communication network enabled by a quantum reconfigurable optical add-drop multiplexer (q-ROADM), which dynamically distributes polarisation-entangled photon pairs from a broadband source to six users over deployed campus and metropolitan fibre. The network supports programmable full-mesh, partial-mesh and sliced sub-network configurations, enabling flexible allocation of entanglement resources according to link condition and service requirement. We demonstrate stable six-user full-mesh operation over more than 150 hours, compare full-mesh and time-shared partial-mesh strategies under different source and detector conditions, and realise quantum network slicing with optional/additional interconnection links. We also show that the same infrastructure can support different quantum protocols by showcasing Secure Inaugural Authentication-Transfer (SIAT) combined with Network flooding over multiple paths to improve the security of onboarding a new user. These results demonstrate a q-ROADM-enabled entanglement distribution architecture as a novel route towards reconfigurable, service-oriented quantum networking over optical fibre infrastructure.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15262",
+  "pdf": "https://arxiv.org/pdf/2607.15262",
+  "html": "https://arxiv.org/html/2607.15262"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.15262v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-17T08:36:51.812Z",
+  "hook": "Researchers demonstrated a stable six-user quantum network operating continuously for over 150 hours.",
+  "tldr": [
+   "They built a metropolitan-scale quantum communication network using a quantum reconfigurable optical add-drop multiplexer.",
+   "They distributed polarization-entangled photons from a broadband source to six users over deployed metropolitan fiber.",
+   "They achieved stable 150-hour operation and successfully integrated secure user onboarding protocols over multiple paths."
+  ],
+  "whyItMatters": "This is a major step toward a practical, scalable quantum internet, showing that existing city fiber-optic lines can dynamically route quantum security keys to multiple users simultaneously.",
+  "eli5": "Think of a quantum network like a secure postal service. Instead of building separate roads for every single person, the researchers built a smart traffic controller that can dynamically route secure, entangled light particles to six different houses using the city's existing fiber cables.",
+  "keyNumbers": [
+   {
+    "value": "6",
+    "label": "network users",
+    "context": "The number of users over deployed campus and metropolitan fiber receiving distributed entangled photon pairs."
+   },
+   {
+    "value": "150",
+    "label": "hours of operation",
+    "context": "The duration of stable, continuous full-mesh network operation demonstrated in the study."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "q-ROADM",
+    "shortDef": "Quantum reconfigurable optical add-drop multiplexer used to route quantum light signals.",
+    "eli5Def": "A smart routing switch for quantum light that can change where signals go without disrupting them.",
+    "wikiTitle": "Optical add-drop multiplexer"
+   },
+   {
+    "term": "entanglement distribution",
+    "shortDef": "The process of sharing entangled quantum particles among distant users in a network.",
+    "eli5Def": "Sending out pairs of connected quantum particles to different people so they can share a secure link.",
+    "wikiTitle": "Quantum network"
+   },
+   {
+    "term": "quantum network slicing",
+    "shortDef": "Multiplexing virtualized, independent quantum network portioning on a single physical infrastructure.",
+    "eli5Def": "Carving up one physical quantum network into private, custom-made virtual lanes for different users.",
+    "wikiTitle": "Network slicing"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

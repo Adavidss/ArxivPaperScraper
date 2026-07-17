@@ -1,0 +1,84 @@
+{
+ "id": "2607.15201",
+ "version": 1,
+ "title": "Entanglement Detection for Two-Qubit and Three-Qubit Pure States via Unitary Transformations and Ancilla State Measurements",
+ "authors": [
+  {
+   "name": "Yu-Hang Liu"
+  },
+  {
+   "name": "Yuan-Hong Tao"
+  },
+  {
+   "name": "Yi-Wen Liu"
+  },
+  {
+   "name": "Ying-Huan Zhou"
+  },
+  {
+   "name": "Shao-Ming Fei"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-16T16:57:50Z",
+ "updated": "2026-07-16T16:57:50Z",
+ "abstract": "Quantum entanglement is the fundamental hallmark of quantum mechanics and a core resource for realizing long-distance quantum communication and scalable linear quantum computing. Accordingly, the precise detection and quantitative quantification of entanglement constitute a foundational and critical problem in quantum information theory. To date, researchers have proposed numerous sufficient conditions for entanglement detection as well as a variety of entanglement measures to characterize the entanglement strength of quantum states; nevertheless, efficient and direct measurement schemes for core entanglement parameters remain underdeveloped. Based on unitary transformations and auxiliary measurements, this paper proposes a set of quantum circuit schemes capable of directly measuring the bipartite concurrence and the tripartite 3-tangle entanglement measure. By introducing auxiliary qubits and constructing specific controlled unitary operations, the proposed scheme maps the analytical expressions of the two entanglement measures onto the measurement probabilities of output states from quantum circuits. It enables efficient and direct quantitative measurement of bipartite and tripartite entanglement without performing full quantum state tomography. This work provides a feasible technical route for the experimental characterization of entanglement properties and lays a groundwork for the practical deployment of multipartite entanglement resources in quantum information processing.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15201",
+  "pdf": "https://arxiv.org/pdf/2607.15201",
+  "html": "https://arxiv.org/html/2607.15201"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.15201v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-17T08:36:51.812Z",
+  "hook": "New quantum circuits measure 2-qubit and 3-qubit entanglement directly, skipping slow state tomography.",
+  "tldr": [
+   "The researchers designed quantum circuit schemes to directly measure bipartite concurrence and tripartite 3-tangle entanglement.",
+   "They introduced auxiliary qubits and controlled unitary operations to map entanglement formulas directly onto output measurement probabilities.",
+   "They successfully bypassed the need for full quantum state tomography, enabling efficient and direct quantitative entanglement measurements."
+  ],
+  "whyItMatters": "Measuring quantum entanglement usually requires reconstructing the entire quantum state, which is incredibly slow and resource-heavy. This direct measurement shortcut could accelerate the development of scalable quantum computers and secure long-distance quantum networks.",
+  "eli5": "Imagine trying to figure out how tangled a ball of yarn is. Instead of taking the whole ball apart and measuring every single loop, this new method lets you pull on just a couple of loose ends to instantly see how knotted it is.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "quantum entanglement",
+    "shortDef": "A quantum phenomenon where particles remain connected so actions on one instantly affect the other.",
+    "eli5Def": "A magical-seeming connection where two tiny particles act like twins that always know what the other is doing, even if they are far apart.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "quantum state tomography",
+    "shortDef": "The process of reconstructing the complete quantum state of a system through multiple measurements.",
+    "eli5Def": "Taking a massive number of 3D photos of a quantum particle from every possible angle to figure out exactly what it looks like.",
+    "wikiTitle": "Quantum tomography"
+   },
+   {
+    "term": "concurrence",
+    "shortDef": "A mathematical measure used to quantify the degree of entanglement between two qubits.",
+    "eli5Def": "A score from 0 to 1 that tells you exactly how strongly two quantum particles are linked together.",
+    "wikiTitle": "Concurrence (quantum informatics)"
+   },
+   {
+    "term": "3-tangle",
+    "shortDef": "An entanglement measure specifically designed for three-qubit quantum states.",
+    "eli5Def": "A special math score that measures the unique, shared connection when three quantum particles are tangled together as a trio.",
+    "wikiTitle": "Three-tangle"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

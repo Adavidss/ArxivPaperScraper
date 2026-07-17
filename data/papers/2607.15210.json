@@ -1,0 +1,83 @@
+{
+ "id": "2607.15210",
+ "version": 1,
+ "title": "Counterexamples to additivity of minimum output $p$-Rényi entropy of quantum channels for $p>3/4$ and $0\\leq p<1/4$",
+ "authors": [
+  {
+   "name": "Debbie Leung"
+  },
+  {
+   "name": "Benjamin Lovitz"
+  },
+  {
+   "name": "Peixue Wu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "math.PR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-16T17:08:47Z",
+ "updated": "2026-07-16T17:08:47Z",
+ "abstract": "Additivity of minimum output entropies is a central problem in quantum information theory. Nonadditivity is known for every Rényi order $p>1$, at the von Neumann point $p=1$, and near $p=0$, while most of the interval $0<p<1$ has remained open. We prove that for every Rényi order $p$ satisfying either $p>3/4$ or $0\\leq p<1/4$, there exist finite-dimensional projection-induced quantum channels such that additivity of the minimum output $p$-Rényi entropy fails. The proof combines two correlated random-projection constructions: a product-conjugate Bell-state witness for $p>3/4$, and a transpose-complement rank-defect witness for $p<1/4$. Thus the unresolved part of $0<p<1$ is reduced to $[1/4,3/4]$. Our estimates also improve the output dimension threshold for additivity violation of minimum output von Neumann entropy, first established in Belinschi, Collins and Nechida.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15210",
+  "pdf": "https://arxiv.org/pdf/2607.15210",
+  "html": "https://arxiv.org/html/2607.15210"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-17T08:36:51.812Z",
+  "hook": "Additivity of minimum output Rényi entropy fails for the intervals p > 3/4 and 0 ≤ p < 1/4.",
+  "tldr": [
+   "They investigated the open mathematical problem of additivity for minimum output Rényi entropy in quantum channels.",
+   "They constructed two correlated random-projection witnesses: a product-conjugate Bell-state and a transpose-complement rank-defect.",
+   "They proved that additivity fails for Rényi orders p > 3/4 and 0 ≤ p < 1/4, narrowing the unresolved interval to [1/4, 3/4]."
+  ],
+  "whyItMatters": "This resolves a major chunk of a long-standing open problem in quantum information theory, helping us understand the fundamental limits of how much information quantum channels can transmit.",
+  "eli5": "Imagine you have two communication pipes. You would expect that sending messages through both together wouldn't create any weird, extra noise compared to sending them separately. This paper mathematically proves that for certain quantum pipes, this common-sense rule actually breaks down.",
+  "keyNumbers": [
+   {
+    "value": "3/4",
+    "label": "upper Rényi order threshold",
+    "context": "The Rényi order above which the authors proved that additivity of minimum output entropy fails."
+   },
+   {
+    "value": "1/4",
+    "label": "lower Rényi order threshold",
+    "context": "The Rényi order below which (down to 0) the authors proved that additivity of minimum output entropy fails."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Rényi entropy",
+    "shortDef": "A family of functionals generalizing Shannon entropy, used to measure quantum uncertainty.",
+    "eli5Def": "A mathematical ruler used to measure how messy, random, or spread-out a quantum state is.",
+    "wikiTitle": "Rényi entropy"
+   },
+   {
+    "term": "quantum channel",
+    "shortDef": "A mathematical model of a physical process that transmits or processes quantum information.",
+    "eli5Def": "A quantum wire or pipe that carries delicate quantum information from one place to another.",
+    "wikiTitle": "Quantum channel"
+   },
+   {
+    "term": "additivity",
+    "shortDef": "The property where the combined capacity or minimum entropy of two channels equals the sum of their individual parts.",
+    "eli5Def": "The idea that two systems combined behave exactly like the sum of their individual parts, with no weird bonus effects.",
+    "wikiTitle": "Additivity of map capacities"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

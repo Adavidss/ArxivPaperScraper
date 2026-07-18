@@ -1,0 +1,69 @@
+{
+ "id": "2607.15151",
+ "version": 1,
+ "title": "Superadditivity for Entanglement-Assisted Communication",
+ "authors": [
+  {
+   "name": "Hao-Chung Cheng"
+  },
+  {
+   "name": "Mario Berta"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-16T15:52:04Z",
+ "updated": "2026-07-16T15:52:04Z",
+ "abstract": "The entanglement-assisted capacity of a quantum channel admits an additive single-letter characterization, implying that joint encodings across channel uses cannot increase the ultimate communication rate. Here, we show that this additive picture does not extend to communication reliability. Specifically, we prove that the Petz-Rényi channel information can be strictly superadditive for every $α\\in[1/2,1)$, yielding a genuine multi-copy enhancement of the entanglement-assisted random-coding error exponent, even though the entanglement-assisted capacity remains additive. We establish this phenomenon analytically already for measurement channels, which are entanglement-breaking and have additive unassisted capacity. Remarkably, this strict superadditivity is witnessed by a separable, classically correlated two-copy channel-input marginal, demonstrating that no entanglement between the transmitted systems is required. Our results show that, although correlations across channel uses cannot increase the ultimate rate of entanglement-assisted communication, they can enhance its reliability.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15151",
+  "pdf": "https://arxiv.org/pdf/2607.15151",
+  "html": "https://arxiv.org/html/2607.15151"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-18T08:22:17.772Z",
+  "hook": "Correlations across quantum channel uses can boost communication reliability even when capacity remains additive.",
+  "tldr": [
+   "The authors investigated the superadditivity of communication reliability in entanglement-assisted quantum channels.",
+   "They analytically analyzed Petz-Rényi channel information and random-coding error exponents for measurement channels.",
+   "They proved that strict superadditivity occurs for every alpha in [1/2, 1), requiring only separable, classically correlated inputs."
+  ],
+  "whyItMatters": "This discovery challenges the assumption that additive capacities imply no benefit from joint encodings, showing that classical correlations can still make quantum communication much more reliable.",
+  "eli5": "Imagine sending messages through a noisy pipe. While you cannot fit more total words through the pipe by linking your messages together, linking them does make it much less likely that a word gets scrambled or lost.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Entanglement-assisted capacity",
+    "shortDef": "The maximum rate of classical information transmission over a quantum channel when sender and receiver share entanglement.",
+    "eli5Def": "The speed limit for sending normal messages using a quantum connection where both sides share pre-linked quantum particles.",
+    "wikiTitle": "Entanglement-assisted capacity"
+   },
+   {
+    "term": "Superadditivity",
+    "shortDef": "A phenomenon where the combined capacity or performance of two systems is greater than the sum of their individual parts.",
+    "eli5Def": "A magical effect where putting two things together gives you a result that is greater than just adding them up separately.",
+    "wikiTitle": "Superadditivity"
+   },
+   {
+    "term": "Petz-Rényi channel information",
+    "shortDef": "A mathematical quantity used to measure information transmission and error rates in quantum channels.",
+    "eli5Def": "A math tool used to calculate how much information survives and how many errors happen when sending quantum signals.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "2607.15160",
+ "version": 1,
+ "title": "Parameter-Shift Rules for Gradients in Boson Sampling Experiments",
+ "authors": [
+  {
+   "name": "Marius Trudeau"
+  },
+  {
+   "name": "Pierre-Emmanuel Emeriau"
+  },
+  {
+   "name": "Nicolás Quesada"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-16T16:04:15Z",
+ "updated": "2026-07-16T16:04:15Z",
+ "abstract": "Using a robust photon loss model for photonic quantum experiments, we derive $n-$th order parameter-shift rules for computing gradients of Fock boson sampling transition probabilities where $n$ photons are sent into a lossy interferometer. We also show that in general it is not possible to generalize this gradient recipe to the case of Gaussian boson sampling. Only in the specific case where the transmission matrix of the interferometer can be factorized as a diagonal loss matrix premultiplied by a pure unitary it is possible to obtain parameter-shift rules with a finite order given by twice the total number of photons detected. We demonstrate the efficacy of the proposed method by comparing its performance against finite differences on real hardware.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15160",
+  "pdf": "https://arxiv.org/pdf/2607.15160",
+  "html": "https://arxiv.org/html/2607.15160"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.15160v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-18T08:22:17.772Z",
+  "hook": "New parameter-shift rules unlock exact gradient calculations for lossy boson sampling experiments.",
+  "tldr": [
+   "They derived mathematical rules to calculate exact gradients for photon loss models in quantum optics experiments.",
+   "They formulated n-th order parameter-shift rules for Fock boson sampling and analyzed their applicability to Gaussian boson sampling.",
+   "They proved that general Gaussian boson sampling cannot use these rules, except when the loss matrix factorizes with a pure unitary."
+  ],
+  "whyItMatters": "To train quantum computers using light, we need to calculate gradients (slopes) of quantum states. This work provides the exact mathematical recipe to do this on real, imperfect hardware that suffers from photon loss.",
+  "eli5": "If you are climbing a hill in the dark, you need to feel which way is up to take the next step. This research gives quantum computers a precise way to feel that slope, even when some of their light particles get lost along the way.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "parameter-shift rule",
+    "shortDef": "A method to calculate exact gradients of quantum circuits by evaluating them at shifted parameter values.",
+    "eli5Def": "A trick to find the slope of a hill by taking one step forward and one step backward and comparing the heights.",
+    "wikiTitle": "Quantum machine learning"
+   },
+   {
+    "term": "boson sampling",
+    "shortDef": "A specialized quantum computation model using identical photons passing through a network of beam splitters.",
+    "eli5Def": "A quantum pinball machine where light particles bounce through paths to solve math problems that are too hard for normal computers.",
+    "wikiTitle": "Boson sampling"
+   },
+   {
+    "term": "unitary",
+    "shortDef": "An operation on a quantum state that preserves its total probability and is fully reversible.",
+    "eli5Def": "A perfect, lossless transformation where no information or energy is destroyed, like a perfect mirror reflection.",
+    "wikiTitle": "Unitary operator"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

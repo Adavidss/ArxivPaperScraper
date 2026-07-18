@@ -1,0 +1,50 @@
+{
+ "date": "2026-07-18",
+ "generatedAt": "2026-07-18T08:22:17.772Z",
+ "model": "gemini-flash-latest",
+ "headline": "Advances in Quantum Simulation, Codes, and Dynamics",
+ "summary": "Today's research highlights key breakthroughs in quantum physics and quantum computing. Researchers have developed faster tensor-network contraction methods, designed practical error-correcting codes, and proposed novel ways to drive superconductivity and analyze quantum many-body scars.",
+ "themes": [
+  {
+   "title": "Quantum Computing and Error Correction",
+   "body": "New developments in quantum information theory introduce highly practical CSS quantum codes with bounded stabilizer weights and establish exact parameter-shift rules for calculating gradients in lossy boson sampling experiments.",
+   "paperIds": [
+    "2607.15159",
+    "2607.15160"
+   ]
+  },
+  {
+   "title": "Many-Body Dynamics and Simulation",
+   "body": "Innovative approaches to simulating and driving quantum systems emerge, featuring a 100x faster tensor-network contraction algorithm for 2D systems and a theoretical protocol to stabilize superconductivity in moiré heterostructures using dissipation.",
+   "paperIds": [
+    "2607.15158",
+    "2607.15169"
+   ]
+  },
+  {
+   "title": "Quantum Information and Scars",
+   "body": "Theoretical studies deepen our understanding of quantum states, mapping quantum many-body scars to periodic orbits in spin chains and proving strict superadditivity in entanglement-assisted communication channels.",
+   "paperIds": [
+    "2607.15132",
+    "2607.15151"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers address classical simulation limits of quantum systems: one accelerates 2D tensor-network contractions (iPEPS) on GPUs, while the other defines the mathematical boundaries of gradient calculations in boson sampling.",
+   "paperIds": [
+    "2607.15158",
+    "2607.15160"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2607.15169",
+  "2607.15160",
+  "2607.15159",
+  "2607.15158",
+  "2607.15151",
+  "2607.15132"
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "2607.15169",
+ "version": 1,
+ "title": "Driven-dissipative superconductivity in moiré heterostructure without attraction",
+ "authors": [
+  {
+   "name": "Tsung-Sheng Huang"
+  },
+  {
+   "name": "Atac Imamoglu"
+  },
+  {
+   "name": "Mohammad Hafezi"
+  },
+  {
+   "name": "Sebastian Diehl"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "cond-mat.mes-hall",
+  "cond-mat.mtrl-sci",
+  "cond-mat.supr-con",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-07-16T16:17:45Z",
+ "updated": "2026-07-16T16:17:45Z",
+ "abstract": "Dissipative preparation of quantum order offers a route to superconductivity that does not rely on enhancing attractive interactions. Here we propose a driven-dissipative protocol to prepare superconductivity as a stationary state of a two-dimensional moiré heterostructure. The key ingredient is a bilayer moiré platform in which the layer degree of freedom acts as a pseudospin, allowing the pseudospin structure required for pairing to be implemented through optically induced spatial operations. This preparation scheme requires local dissipation, which we show to arises naturally from weakly dispersive bosonic modes in the heterostructure. In contrast, in the opposite regime of collective dissipation, the same platform exhibits an early-time superradiant burst. Our results establish driven-dissipative moiré heterostructures as a promising platform for preparing superconductivity, while also revealing a connection between steady-state pairing and transient superradiance.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15169",
+  "pdf": "https://arxiv.org/pdf/2607.15169",
+  "html": "https://arxiv.org/html/2607.15169"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.15169v1/Fig_1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-18T08:22:17.772Z",
+  "hook": "Physicists propose a way to trigger superconductivity using optical driving and dissipation instead of attraction.",
+  "tldr": [
+   "They designed a theoretical protocol to prepare superconductivity as a stable, stationary state in a 2D moiré heterostructure.",
+   "They used the layer degree of freedom in a bilayer moiré platform as a pseudospin, driving it optically and relying on local dissipation from bosonic modes.",
+   "They found that local dissipation successfully stabilizes steady-state pairing, whereas collective dissipation leads to a transient superradiant burst."
+  ],
+  "whyItMatters": "Superconductivity usually requires cooling materials to extreme temperatures to force electrons to attract. This protocol bypasses the need for attractive interactions entirely, opening a new path to engineer quantum states on demand using light.",
+  "eli5": "Imagine trying to get a crowd of people to dance in perfect unison. Instead of waiting for them to naturally want to hold hands, you turn on a rhythmic flashing light and open a side door for tired people to leave. This steady rhythm and natural filtering forces everyone left on the floor into a synchronized dance.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "moiré heterostructure",
+    "shortDef": "A material made of stacked 2D layers slightly rotated to create a giant interference pattern.",
+    "eli5Def": "Two sheets of mesh laid on top of each other and slightly twisted, creating a new, larger pattern that changes how electrons behave.",
+    "wikiTitle": "Moiré materials"
+   },
+   {
+    "term": "driven-dissipative",
+    "shortDef": "A quantum system kept in a steady state by balancing external energy input with energy loss.",
+    "eli5Def": "A system that stays organized because energy is constantly being pumped in and leaking out, like a water fountain.",
+    "wikiTitle": "Open quantum system"
+   },
+   {
+    "term": "superradiance",
+    "shortDef": "A cooperative phenomenon where a group of emitters releases a short, intense burst of light.",
+    "eli5Def": "When a crowd of people all clap together at once in a single, massive burst of sound instead of clapping randomly.",
+    "wikiTitle": "Superradiance"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

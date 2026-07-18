@@ -1,0 +1,79 @@
+{
+ "id": "2607.15158",
+ "version": 1,
+ "title": "Fast two-dimensional tensor-network contraction via subspace iteration",
+ "authors": [
+  {
+   "name": "Yining Zhang"
+  },
+  {
+   "name": "Philippe Corboz"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-07-16T16:00:54Z",
+ "updated": "2026-07-16T16:00:54Z",
+ "abstract": "The corner transfer matrix renormalization group (CTMRG) is one of the standard contraction methods for infinite projected entangled-pair states (iPEPS), but its computational cost is dominated by repeated truncated singular value decompositions (SVDs). We introduce subspace-iteration CTMRG (SI-CTMRG), a QR-based projector construction that replaces each large-matrix SVD with an SVD of a much smaller matrix. The resulting algorithm shifts the dominant cost from decompositions to tensor contractions, making it highly suited to GPU acceleration and yielding speedups of up to two orders of magnitude over standard CTMRG. We demonstrate the efficiency and accuracy of the method for the triangular-lattice Heisenberg antiferromagnet, reaching state-of-the-art iPEPS results on a single H100 GPU in approximately 10 hours of computation.",
+ "comment": "8 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15158",
+  "pdf": "https://arxiv.org/pdf/2607.15158",
+  "html": "https://arxiv.org/html/2607.15158"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-18T08:22:17.772Z",
+  "hook": "Subspace-iteration CTMRG delivers up to 100x speedups for 2D tensor-network contractions on GPUs.",
+  "tldr": [
+   "They developed a faster algorithm for contracting infinite projected entangled-pair states (iPEPS) in 2D quantum systems.",
+   "They replaced large-matrix singular value decompositions (SVDs) with a QR-based projector construction and small-matrix SVDs.",
+   "They achieved state-of-the-art results for the triangular-lattice Heisenberg antiferromagnet in just 10 hours on a single GPU."
+  ],
+  "whyItMatters": "Simulating quantum materials in 2D is notoriously difficult and computationally expensive. This algorithm slashes simulation times from weeks to hours, allowing researchers to rapidly discover and analyze exotic quantum phases of matter.",
+  "eli5": "Imagine trying to solve a massive puzzle where every piece depends on every other piece. Instead of looking at the whole puzzle at once, this method focuses on small, smart groups of pieces, letting a powerful graphics card solve it 100 times faster.",
+  "keyNumbers": [
+   {
+    "value": "100",
+    "label": "maximum speedup factor",
+    "context": "The algorithm yields speedups of up to two orders of magnitude over standard CTMRG."
+   },
+   {
+    "value": "10",
+    "label": "hours of computation",
+    "context": "Time required on a single H100 GPU to reach state-of-the-art iPEPS results for the triangular-lattice Heisenberg antiferromagnet."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "tensor-network contraction",
+    "shortDef": "The process of multiplying multi-dimensional arrays to compute physical properties of quantum systems.",
+    "eli5Def": "A mathematical way of gluing together many small pieces of quantum data to find the big picture of how a material behaves.",
+    "wikiTitle": "Tensor network"
+   },
+   {
+    "term": "iPEPS",
+    "shortDef": "Infinite projected entangled-pair states, a tensor network ansatz for 2D quantum states on infinite lattices.",
+    "eli5Def": "A mathematical grid used to describe how particles in an infinitely large flat sheet are connected to each other.",
+    "wikiTitle": "PEPS"
+   },
+   {
+    "term": "singular value decomposition",
+    "shortDef": "A matrix factorization method used to truncate and compress quantum information.",
+    "eli5Def": "A way of simplifying a massive table of numbers by keeping only the most important patterns and throwing away the noise.",
+    "wikiTitle": "Singular value decomposition"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "2607.15159",
+ "version": 1,
+ "title": "LDGM-Based Quantum Codes for Fault-Tolerant Quantum Computation",
+ "authors": [
+  {
+   "name": "Yumin Li"
+  },
+  {
+   "name": "Kejing Liu"
+  },
+  {
+   "name": "Hanqing Lou"
+  },
+  {
+   "name": "Javier Garcia-Frias"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-16T16:02:16Z",
+ "updated": "2026-07-16T16:02:16Z",
+ "abstract": "We construct a new family of Calderbank-Shor-Steane (CSS) codes using the generator and parity-check matrices of Low-Density Generator Matrix (LDGM) codes, with row operations applied to both matrices in order to achieve the desired quantum rate. Decoding is performed in an iterative manner, by applying message passing over the associated graph, and discrete Density Evolution (DDE) is used to optimize performance in the depolarizing channel. The proposed construction offers high flexibility and easiness in the design, producing quantum codes that possess excellent error correction capabilities. By properly designing the structure of the code, we are able to control and bound the weight of the stabilizer generators to a small value, which results in codes particularly well suited for fault-tolerant quantum computation. At the same time, these codes achieve very good performance in terms of error correction capability.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15159",
+  "pdf": "https://arxiv.org/pdf/2607.15159",
+  "html": "https://arxiv.org/html/2607.15159"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-18T08:22:17.772Z",
+  "hook": "A new family of CSS quantum codes limits stabilizer weights to enable highly practical fault-tolerant computing.",
+  "tldr": [
+   "They constructed a new family of Calderbank-Shor-Steane (CSS) quantum error-correcting codes.",
+   "They applied row operations to Low-Density Generator Matrix (LDGM) codes and optimized them using discrete Density Evolution.",
+   "They created highly flexible codes with bounded stabilizer generator weights and excellent error-correction performance."
+  ],
+  "whyItMatters": "Quantum computers are highly prone to errors from environmental noise. This new class of codes makes it easier to detect and fix those errors without requiring overly complex quantum operations, bringing practical quantum computing closer.",
+  "eli5": "Quantum computers are like fragile glass towers that break easily. These new codes act like a smart scaffolding system that holds the tower together, using very simple and light supports that are easy to adjust.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "CSS codes",
+    "shortDef": "A class of quantum error-correcting codes constructed from two classical linear codes.",
+    "eli5Def": "A special way of organizing quantum information so we can fix both flip-flops (bit flips) and phase-shifts independently.",
+    "wikiTitle": "CSS code"
+   },
+   {
+    "term": "LDGM codes",
+    "shortDef": "Low-Density Generator Matrix codes, a class of linear codes with sparse generator matrices.",
+    "eli5Def": "A classical error-checking system where each piece of data is only connected to a few check-points, making it fast to verify.",
+    "wikiTitle": "Low-density parity-check code"
+   },
+   {
+    "term": "stabilizer generator",
+    "shortDef": "Operators used to define and detect errors in a quantum error-correcting code without destroying the state.",
+    "eli5Def": "A silent alarm system that checks if our quantum bits have glitched without actually looking at the secret data inside them.",
+    "wikiTitle": "Stabilizer code"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

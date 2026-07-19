@@ -1,0 +1,76 @@
+{
+ "id": "2607.15093",
+ "version": 1,
+ "title": "A magnetic monopole in a superfluid bubble",
+ "authors": [
+  {
+   "name": "Marianna Sorba"
+  },
+  {
+   "name": "Andrea Richaud"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-07-16T15:03:34Z",
+ "updated": "2026-07-16T15:03:34Z",
+ "abstract": "Magnetic monopoles lie at the crossroads of gauge fields, topology, geometric phases, and charge quantization, yet they remain elusive as fundamental particles. Here we show that an emergent Dirac-monopole framework arises naturally from the dynamics of massive quantum vortices in a spherical superfluid shell. Their dynamics is formally equivalent to that of interacting charged particles constrained to a sphere in the field of a magnetic monopole. The monopole charge is fixed by the superfluid density and automatically satisfies Dirac's quantization condition. The emergent monopole description predicts cyclotron-like vortex motion, in quantitative agreement with Gross--Pitaevskii simulations. We further show that topological frustration induced by two like-charged polar vortices gives rise to the formation of an equatorial vortex necklace, a configuration reminiscent of the polygonal cyclone clusters observed around Jupiter's poles, before its subsequent breakup through a Kelvin--Helmholtz-like instability. Within this framework, the vortex necklace may be viewed as a quantized analogue of Wu--Yang gauge patching. Our results establish spherical superfluids as a versatile platform for realizing and exploring fundamental aspects of Dirac-monopole physics.",
+ "comment": "9 pages (including 3 figures) + 10 pages (including 5 figures) of Sup. Mat",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15093",
+  "pdf": "https://arxiv.org/pdf/2607.15093",
+  "html": "https://arxiv.org/html/2607.15093"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.15093v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-19T08:55:00.115Z",
+  "hook": "Vortices in a spherical superfluid shell behave exactly like electric charges orbiting a magnetic monopole.",
+  "tldr": [
+   "They modeled the dynamics of massive quantum vortices constrained to a spherical superfluid bubble.",
+   "They mapped the vortex equations of motion to those of charged particles on a sphere in a magnetic monopole field.",
+   "They discovered cyclotron-like motion and a self-assembling equatorial vortex necklace that eventually breaks up via instability."
+  ],
+  "whyItMatters": "Magnetic monopoles—isolated north or south magnetic poles—have never been found as fundamental particles. This work shows we can create and study their exact physics in laboratory superfluids, opening a new window into quantum topology.",
+  "eli5": "Imagine a tiny, hollow bubble of super-cold liquid that flows without friction. If you create tiny whirlpools on this bubble, they push and pull on each other in the exact same way magnets would if you could chop a magnet in half to get a single, isolated pole.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "magnetic monopole",
+    "shortDef": "A hypothetical particle that is a magnet with only one pole (either north or south).",
+    "eli5Def": "A magnet that has only a North pole or only a South pole, which is normally impossible because cutting a magnet just makes two smaller magnets.",
+    "wikiTitle": "Magnetic monopole"
+   },
+   {
+    "term": "superfluid",
+    "shortDef": "A state of matter that behaves like a fluid with zero viscosity and zero friction.",
+    "eli5Def": "A super-cold liquid that is so slippery it can flow uphill, squeeze through microscopic holes, and spin forever without slowing down.",
+    "wikiTitle": "Superfluidity"
+   },
+   {
+    "term": "quantum vortex",
+    "shortDef": "A quantized whirlpool in a superfluid where the circulation is restricted to integer multiples of Planck's constant.",
+    "eli5Def": "A tiny, microscopic whirlpool in a superfluid that can only spin at very specific, pre-approved speeds.",
+    "wikiTitle": "Quantized vortex"
+   },
+   {
+    "term": "Kelvin–Helmholtz instability",
+    "shortDef": "An instability that occurs when there is velocity shear in a single continuous fluid or a velocity difference across an interface.",
+    "eli5Def": "The wavy, turbulent pattern that forms when two fluids slide past each other at different speeds, like wind blowing over water to create waves.",
+    "wikiTitle": "Kelvin–Helmholtz instability"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

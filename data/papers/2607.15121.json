@@ -1,0 +1,87 @@
+{
+ "id": "2607.15121",
+ "version": 1,
+ "title": "Quantum Lock-In Detection via Successive Adiabatic Evolution",
+ "authors": [
+  {
+   "name": "Kangze Li"
+  },
+  {
+   "name": "Siqi Chen"
+  },
+  {
+   "name": "Hao Zhang"
+  },
+  {
+   "name": "Jiazhao Tian"
+  },
+  {
+   "name": "Liantuan Xiao"
+  },
+  {
+   "name": "Gerardo Adesso"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-16T15:29:48Z",
+ "updated": "2026-07-16T15:29:48Z",
+ "abstract": "In recent years, quantum lock-in detection has emerged as a promising technique to accurately detect weak signals submerged in background noise. However, the signal-to-noise ratio of existing protocols is severely limited by spectral leakage resulting from control operations implemented in pulse form. Here, we propose a general protocol for realizing quantum lock-in detection by employing successive quantum adiabatic evolution. In our protocol, the signal modulation is achieved by adiabatically controlling the time evolution of the quantum probe, which enables the implementation of triangular modulation functions. The realization of triangular-wave modulation fundamentally solves the problem of spectral leakage and facilitates the extraction of the complete characteristics of the target signals. We present a practical implementation scheme of adiabatic quantum lock-in detection based on nitrogen-vacancy centers in diamond, and demonstrate that the proposed protocol possesses strong resilience against experimental imperfections. Our results establish adiabatic quantum lock-in detection as a robust and experimentally accessible approach to detection of weak alternating signals in noisy environments, thus promoting the advance of real-world quantum sensing technologies.",
+ "comment": "14 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15121",
+  "pdf": "https://arxiv.org/pdf/2607.15121",
+  "html": "https://arxiv.org/html/2607.15121"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.15121v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-19T08:55:00.115Z",
+  "hook": "A new quantum lock-in detection protocol uses adiabatic evolution to completely eliminate spectral leakage.",
+  "tldr": [
+   "They designed a general protocol for quantum lock-in detection to extract weak alternating signals from heavy background noise.",
+   "They used successive quantum adiabatic evolution of a probe to implement smooth, triangular-wave modulation functions.",
+   "They demonstrated that this triangular modulation solves spectral leakage and is highly resilient to experimental errors in NV centers."
+  ],
+  "whyItMatters": "Quantum sensors can detect incredibly weak magnetic and electric fields, but noise often drowns out the signal. This method makes these sensors far more precise and practical for real-world medical imaging and materials science.",
+  "eli5": "Imagine trying to hear a faint whisper in a noisy room. Traditional methods turn your hearing on and off in sharp, jerky steps, which creates confusing echoes. This new method smoothly turns your hearing up and down like a triangle wave, letting you hear the whisper perfectly without any echoes.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "lock-in detection",
+    "shortDef": "A technique used to extract a signal with a known carrier wave from an extremely noisy environment.",
+    "eli5Def": "A trick where you tune your detector to blink at the exact same speed as the signal you want to find, making everything else look blurry and fade away.",
+    "wikiTitle": "Lock-in amplifier"
+   },
+   {
+    "term": "spectral leakage",
+    "shortDef": "The spilling of signal energy into adjacent frequency bins, caused by sharp transitions or finite windows.",
+    "eli5Def": "When a sharp, sudden change in a signal creates fake extra frequencies, like a sudden loud clap making a ringing sound that wasn't actually there.",
+    "wikiTitle": "Spectral leakage"
+   },
+   {
+    "term": "adiabatic evolution",
+    "shortDef": "A gradual change in a quantum system's external conditions allowing it to remain in its instantaneous ground state.",
+    "eli5Def": "Changing a quantum system so slowly and smoothly that it never gets jarred out of its comfortable, lowest-energy state.",
+    "wikiTitle": "Adiabatic theorem"
+   },
+   {
+    "term": "nitrogen-vacancy center",
+    "shortDef": "A point defect in a diamond lattice used as a highly sensitive quantum sensor.",
+    "eli5Def": "A tiny, intentional defect in a diamond that acts like a single trapped atom, which we can use as an ultra-sensitive microscopic compass.",
+    "wikiTitle": "Nitrogen-vacancy center"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

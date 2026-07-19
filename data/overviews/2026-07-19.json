@@ -1,0 +1,38 @@
+{
+ "date": "2026-07-19",
+ "generatedAt": "2026-07-19T08:55:00.115Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum Dynamics, Vortices, and Tensor Networks",
+ "summary": "Today's research spans diverse quantum frontiers, introducing a sparse solver for tensor networks, a robust quantum lock-in detection protocol, and a mapping of superfluid vortex dynamics to magnetic monopoles.",
+ "themes": [
+  {
+   "title": "Quantum Simulation & Critical Systems",
+   "body": "A new implicit sparse linear solver for 2D tensor networks reveals that matrix product state approximations of critical systems deviate from conformal field theory predictions, resolving the physical origin of finite entanglement scaling.",
+   "paperIds": [
+    "2607.15124"
+   ]
+  },
+  {
+   "title": "Quantum Sensing & Dynamics",
+   "body": "Innovations in quantum control and fluid dynamics bring a lock-in detection protocol using adiabatic evolution to eliminate spectral leakage, alongside a model mapping spherical superfluid vortex dynamics to charges orbiting a magnetic monopole.",
+   "paperIds": [
+    "2607.15121",
+    "2607.15093"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers leverage geometric and topological constraints—one using spherical boundary conditions to emulate monopole fields, the other using adiabatic paths to shape modulation functions.",
+   "paperIds": [
+    "2607.15093",
+    "2607.15121"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2607.15124",
+  "2607.15121",
+  "2607.15093"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "id": "2607.15124",
+ "version": 1,
+ "title": "On the origin of finite entanglement scaling",
+ "authors": [
+  {
+   "name": "Luke Hodgkiss"
+  },
+  {
+   "name": "Laurens Lootens"
+  },
+  {
+   "name": "Atsushi Ueda"
+  },
+  {
+   "name": "Bram Vanhecke"
+  },
+  {
+   "name": "Frank Verstraete"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el",
+  "hep-lat"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-16T15:33:30Z",
+ "updated": "2026-07-16T15:33:30Z",
+ "abstract": "The concept of finite entanglement scaling forms one of the pillars on which the tensor network ecosystem is built. In this paper, we resolve the open problem of determining the actual perturbations induced by matrix product state approximations of critical systems, and we demonstrate that these can be quite different than the ones predicted by conformal field theory. To that aim, we develop a sparse linear solver to calculate the forward and backward derivatives of 2-dimensional tensor networks with respect to their defining parameters in an implicit way. This algorithm is of independent interest as it provides a primitive for the variational optimization of projected entangled pair states that circumvents the instabilities plaguing traditional automatic differentiation methods.",
+ "comment": "5 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.15124",
+  "pdf": "https://arxiv.org/pdf/2607.15124",
+  "html": "https://arxiv.org/html/2607.15124"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-19T08:55:00.115Z",
+  "hook": "A new sparse solver reveals that tensor network approximations of critical systems differ from CFT predictions.",
+  "tldr": [
+   "They investigated the actual physical perturbations induced when approximating critical quantum systems using matrix product states.",
+   "They developed an implicit sparse linear solver to calculate forward and backward derivatives of 2D tensor networks.",
+   "They resolved the origin of finite entanglement scaling and bypassed the numerical instabilities of traditional automatic differentiation."
+  ],
+  "whyItMatters": "Understanding how tensor networks approximate critical systems is vital for simulating quantum materials. This new algorithm makes the optimization of complex 2D quantum states much more stable and reliable.",
+  "eli5": "Imagine trying to paint a smooth, infinite landscape on a tiny canvas. To fit it, you have to make compromises, which creates tiny distortions. This research figures out exactly what those distortions look like and provides a new mathematical tool to clean up the picture without the computer crashing.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "finite entanglement scaling",
+    "shortDef": "How physical properties scale when limiting entanglement in tensor network simulations of critical systems.",
+    "eli5Def": "A rule for how our computer simulations change when we limit how much quantum information different parts of the system can share.",
+    "wikiTitle": null
+   },
+   {
+    "term": "matrix product state",
+    "shortDef": "A tensor network ansatz used to efficiently represent 1D quantum states with local entanglement.",
+    "eli5Def": "A clever mathematical chain used to describe a line of quantum particles without needing an impossibly large computer memory.",
+    "wikiTitle": "Matrix product state"
+   },
+   {
+    "term": "conformal field theory",
+    "shortDef": "A quantum field theory invariant under conformal transformations, describing critical systems.",
+    "eli5Def": "A set of physics rules that look the same no matter how much you zoom in or out, perfect for describing systems right at a tipping point.",
+    "wikiTitle": "Conformal field theory"
+   },
+   {
+    "term": "projected entangled pair states",
+    "shortDef": "A 2D generalization of matrix product states used to simulate strongly correlated quantum systems.",
+    "eli5Def": "A grid-like mathematical structure used to simulate 2D quantum materials, like flat sheets of atoms.",
+    "wikiTitle": "PEPS (tensor networks)"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

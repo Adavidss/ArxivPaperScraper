@@ -1,0 +1,79 @@
+{
+ "id": "2607.16110",
+ "version": 1,
+ "title": "Combinatorial aspects of holographic quantum secret sharing",
+ "authors": [
+  {
+   "name": "Ning Bao"
+  },
+  {
+   "name": "Keiichiro Furuya"
+  },
+  {
+   "name": "Jacob March"
+  }
+ ],
+ "categories": [
+  "hep-th",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-th",
+ "published": "2026-07-17T16:44:01Z",
+ "updated": "2026-07-17T16:44:01Z",
+ "abstract": "We introduce combinatorial holographic quantum secret sharing (CHQSS) for a bulk subregion in AdS$_3$/CFT$_2$ to study how logical information of the bulk subregion is encoded in the boundary and protected from erasures of boundary subregions. We introduce a distance, a reconstruction threshold, and a secret threshold to characterize CHQSS schemes. We present the phase transitions of multipartite entanglement wedges in a symmetric setup and observe multiple distinct phase transition points. The distance and thresholds depend on the holographic phase and the choice of bulk subregion. We derive the maximum distance. Moreover, we derive the relations between the distance and the thresholds. We construct a family of CHQSS schemes in the symmetric setting that includes perfect threshold CHQSS and perfect non-threshold CHQSS.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.16110",
+  "pdf": "https://arxiv.org/pdf/2607.16110",
+  "html": "https://arxiv.org/html/2607.16110"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.16110v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-20T09:42:54.476Z",
+  "hook": "A new combinatorial model of holographic quantum secret sharing reveals multiple phase transitions in AdS3/CFT2.",
+  "tldr": [
+   "They introduced Combinatorial Holographic Quantum Secret Sharing (CHQSS) to study how bulk information is protected in AdS/CFT.",
+   "They defined distance, reconstruction, and secret thresholds, analyzing multipartite entanglement wedge phase transitions in a symmetric setup.",
+   "They derived the maximum distance, established relations between thresholds, and constructed perfect threshold and non-threshold schemes."
+  ],
+  "whyItMatters": "This work bridges quantum gravity and quantum information theory, showing how the fabric of spacetime itself might naturally protect quantum information like a highly secure, distributed cryptographic key.",
+  "eli5": "Imagine tearing a secret diary page into pieces and giving them to friends so that any three friends together can read it, but any two learn absolutely nothing. This paper uses the physics of gravity and extra dimensions to design and understand these ultimate secret-sharing systems.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "holographic quantum secret sharing",
+    "shortDef": "A protocol where quantum information in a higher-dimensional bulk spacetime is securely distributed across boundary regions.",
+    "eli5Def": "A way to hide a quantum secret inside a 3D space so that you can only reconstruct it by combining specific pieces of its 2D boundary.",
+    "wikiTitle": null
+   },
+   {
+    "term": "AdS/CFT correspondence",
+    "shortDef": "A conjectured relationship mapping a gravity theory in a bulk space to a quantum field theory on its boundary.",
+    "eli5Def": "The idea that a 3D universe with gravity can be perfectly projected and described as a flat 2D hologram without gravity on its outer edge.",
+    "wikiTitle": "AdS/CFT correspondence"
+   },
+   {
+    "term": "entanglement wedge",
+    "shortDef": "The region of bulk spacetime reconstructed from a specific subregion of the boundary in holographic duality.",
+    "eli5Def": "The specific chunk of the 3D interior that a particular piece of the 2D boundary has 'access' to or knows about.",
+    "wikiTitle": "Entanglement wedge reconstruction"
+   },
+   {
+    "term": "secret sharing",
+    "shortDef": "A method for distributing a secret among a group of participants, each of whom is allocated a share of the secret.",
+    "eli5Def": "Splitting a secret code into pieces so that you need a minimum number of people to cooperate to unlock it.",
+    "wikiTitle": "Secret sharing"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 80
+ }
+}

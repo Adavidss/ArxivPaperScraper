@@ -1,0 +1,148 @@
+{
+ "id": "2607.16151",
+ "version": 1,
+ "title": "Radiopurity material assays and radiation exposure projections for superconducting qubit measurements at SNOLAB",
+ "authors": [
+  {
+   "name": "Y. Ahmed"
+  },
+  {
+   "name": "B. Binoy"
+  },
+  {
+   "name": "R. Bunker"
+  },
+  {
+   "name": "D. Chauhan"
+  },
+  {
+   "name": "P. Delsing"
+  },
+  {
+   "name": "R. Germond"
+  },
+  {
+   "name": "J. Hall"
+  },
+  {
+   "name": "Z. Hong"
+  },
+  {
+   "name": "A. Iqbal"
+  },
+  {
+   "name": "V. Iyer"
+  },
+  {
+   "name": "A. Klepikova"
+  },
+  {
+   "name": "A. Kubik"
+  },
+  {
+   "name": "S. P. Mantry"
+  },
+  {
+   "name": "A. C. Masuskapoe"
+  },
+  {
+   "name": "C. C. Monk"
+  },
+  {
+   "name": "G. Peng"
+  },
+  {
+   "name": "P. Qin"
+  },
+  {
+   "name": "W. Rau"
+  },
+  {
+   "name": "T. Reynolds"
+  },
+  {
+   "name": "M. Stukel"
+  },
+  {
+   "name": "C. M. Wilson"
+  },
+  {
+   "name": "B. Zatschler"
+  },
+  {
+   "name": "S. Zatschler"
+  },
+  {
+   "name": "A. Zuniga"
+  }
+ ],
+ "categories": [
+  "physics.ins-det",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.ins-det",
+ "published": "2026-07-17T17:33:44Z",
+ "updated": "2026-07-17T17:33:44Z",
+ "abstract": "Interactions of cosmic rays and other forms of ionizing radiation pose a significant challenge to the reliable operation of state-of-the-art quantum devices and error correction in quantum computing based on superconducting circuits which are typically fabricated on semiconductor substrates. Shielded by 2 km of rock overburden, the Cryogenic Underground TEst facility (CUTE) at SNOLAB provides a unique ultra-low radiation environment to probe the performance of quantum technologies with a particular interest in quantum coherence studies. In this article, we present the findings of an extensive material assaying program in preparation for the first underground operation of superconducting qubits at SNOLAB. The radioactivity levels identified by the material assays enter a thorough Monte Carlo study based on the Geant4 particle physics tracking code. From these simulations, we estimate the rates of energy deposits from radiogenic sources expected for a quantum-device assembly operated in the CUTE facility. We further characterize the spectral components of the projected background and identify the dominant particle interaction types. Finally, we outline how crystal dynamics simulations using the G4CMP solid-state physics extension for Geant4 can inform the community-wide efforts to identify effective strategies to mitigate the effects of high-energy particle impacts.",
+ "comment": "44 pages, 11 figures, 15 tables including appendices. To be submitted to the Journal of Instrumentation",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.16151",
+  "pdf": "https://arxiv.org/pdf/2607.16151",
+  "html": "https://arxiv.org/html/2607.16151"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.16151v1/bulk_assays.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-20T09:42:54.476Z",
+  "hook": "Buried under 2 km of rock, scientists are mapping radiation to protect superconducting qubits from cosmic interference.",
+  "tldr": [
+   "The authors characterized the radiopurity of materials for the CUTE facility at SNOLAB to prepare for underground qubit operations.",
+   "They performed extensive material assays and ran Geant4 Monte Carlo simulations to model energy deposits from radiogenic sources.",
+   "They estimated the expected radiation background, identified dominant particle interactions, and outlined mitigation strategies using G4CMP."
+  ],
+  "whyItMatters": "Cosmic rays and trace radioactivity constantly disrupt superconducting qubits, causing errors that ruin quantum calculations. Testing these devices deep underground helps researchers design shields that will make future quantum computers stable on the surface.",
+  "eli5": "Imagine trying to build a house of cards during a windstorm. To study how to block the wind, scientists are building their quantum computer deep inside a giant underground mine where the rock blocks out the 'wind' of cosmic rays.",
+  "keyNumbers": [
+   {
+    "value": "2 km",
+    "label": "rock overburden",
+    "context": "the depth of the SNOLAB facility providing natural shielding from cosmic rays"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "radiopurity",
+    "shortDef": "The measure of how free a material is from radioactive impurities.",
+    "eli5Def": "How clean a material is from tiny, natural radioactive elements that spit out unwanted energy.",
+    "wikiTitle": null
+   },
+   {
+    "term": "superconducting qubit",
+    "shortDef": "A quantum bit made from superconducting circuits that operate at near absolute zero.",
+    "eli5Def": "A tiny, frozen electronic loop that can store quantum information by letting electricity flow forever without resistance.",
+    "wikiTitle": "Superconducting quantum computing"
+   },
+   {
+    "term": "Monte Carlo study",
+    "shortDef": "A computerized mathematical technique that uses random sampling to simulate complex physical systems.",
+    "eli5Def": "Using a computer to roll virtual dice millions of times to predict how particles will bounce around in real life.",
+    "wikiTitle": "Monte Carlo method"
+   },
+   {
+    "term": "Geant4",
+    "shortDef": "A software toolkit used to simulate the passage of particles through matter.",
+    "eli5Def": "A famous computer program that acts like a video game engine for physics, tracking how radiation travels through different materials.",
+    "wikiTitle": "Geant4"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "2607.16166",
+ "version": 1,
+ "title": "Fast logical operations in quantum LDPC codes using simple resource states",
+ "authors": [
+  {
+   "name": "Mark Webster"
+  },
+  {
+   "name": "Nicolas Delfosse"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-17T17:46:54Z",
+ "updated": "2026-07-17T17:46:54Z",
+ "abstract": "Quantum LPDC codes provide a substantial reduction in qubit overhead required for fault-tolerant quantum computation compared to surface code, thanks to their high encoding rate. However, operating simultaneously on multiple logical qubits encoded in the same block is more challenging and may slow down logical operations. Prior work addresses this problem by designing complex resource states to perform logical measurements in LDPC codes. Here, we propose an approach that only consumes cat states. Whereas previous work on cat-based measurements focuses on a single logical measurement, we design a protocol for the joint measurement of $\\ell$ commuting logical operators. The key ingredient is the design of a scheduler code determining the measurement sequence and allowing for the decoding of all logical measurement outcomes. Numerical simulations with the LDPC codes Q70 and Q102 of the walking cat architecture show a speed-up of nearly $3\\times$ over Viterbi measurements for the measurement of $\\ell=20$ commuting logical operators. Combining our fast logical measurements with a new variant of the CliNR partial error correction scheme, we achieve a speed up of up to up to $74\\times$ for random Clifford circuits. Our approach also applies to non-Clifford gates, producing a speed up of up to $5\\times$ for Toffoli gates.",
+ "comment": "14 pages, 4 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.16166",
+  "pdf": "https://arxiv.org/pdf/2607.16166",
+  "html": "https://arxiv.org/html/2607.16166"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.16166v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-20T09:42:54.476Z",
+  "hook": "A new quantum LDPC protocol speeds up random Clifford circuits by up to 74x using simple cat states.",
+  "tldr": [
+   "The authors designed a protocol for the joint measurement of multiple commuting logical operators in quantum LDPC codes using only simple cat states.",
+   "They introduced a scheduler code to determine the measurement sequence and combined it with a new variant of the CliNR partial error correction scheme.",
+   "They achieved up to a 74x speed-up for random Clifford circuits and a 5x speed-up for Toffoli gates compared to previous measurement methods."
+  ],
+  "whyItMatters": "Quantum LDPC codes drastically reduce the physical qubits needed for quantum computing, but they suffer from slow logical operations. This work removes that bottleneck, bringing highly efficient, fault-tolerant quantum computers much closer to reality.",
+  "eli5": "Imagine trying to read 20 books at the same time. Instead of opening and closing each book one by one, this new method uses a clever scheduling system to read parts of all the books at once, making the whole process up to 74 times faster.",
+  "keyNumbers": [
+   {
+    "value": "3x",
+    "label": "speed-up factor",
+    "context": "achieved over Viterbi measurements for the joint measurement of 20 commuting logical operators"
+   },
+   {
+    "value": "74x",
+    "label": "maximum speed-up",
+    "context": "achieved for random Clifford circuits by combining fast logical measurements with a new CliNR variant"
+   },
+   {
+    "value": "5x",
+    "label": "non-Clifford speed-up",
+    "context": "achieved for Toffoli gates using the proposed approach"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "LDPC codes",
+    "shortDef": "Low-Density Parity-Check codes used for highly efficient quantum error correction.",
+    "eli5Def": "A smart way to pack and protect quantum information so it doesn't get corrupted, using far fewer extra qubits than older methods.",
+    "wikiTitle": "Low-density parity-check code"
+   },
+   {
+    "term": "cat states",
+    "shortDef": "A highly entangled quantum state, typically of the form (|00...0> + |11...1>)/sqrt(2).",
+    "eli5Def": "A special group of qubits that are perfectly linked together, named after Schrödinger's famous cat that is alive and dead at the same time.",
+    "wikiTitle": "Greenberger–Horne–Zeilinger state"
+   },
+   {
+    "term": "Clifford circuits",
+    "shortDef": "Quantum circuits consisting only of gates that map the Pauli group to itself.",
+    "eli5Def": "A basic set of quantum operations that are easy to simulate on normal computers but form the backbone of quantum error correction.",
+    "wikiTitle": "Clifford group"
+   },
+   {
+    "term": "Toffoli gates",
+    "shortDef": "A universal 3-qubit quantum gate that performs a controlled-controlled-NOT operation.",
+    "eli5Def": "A quantum rule that flips a third switch only if the first two switches are turned on. It is crucial for building complex quantum programs.",
+    "wikiTitle": "Toffoli gate"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

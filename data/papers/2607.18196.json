@@ -1,0 +1,74 @@
+{
+ "id": "2607.18196",
+ "version": 1,
+ "title": "Hardware Robustness of Sample-Based Quantum Diagonalization",
+ "authors": [
+  {
+   "name": "Ahatesham Bhuiyan"
+  },
+  {
+   "name": "Cheng Chu"
+  },
+  {
+   "name": "Qian Lou"
+  },
+  {
+   "name": "Mengxin Zheng"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-20T17:36:08Z",
+ "updated": "2026-07-20T17:36:08Z",
+ "abstract": "Sample-based Quantum Diagonalization (SQD) is a hybrid quantum-classical method that replaces variational optimization with a self-consistent recovery loop over QPU samples. Although SQD is considered robust to noisy samples and imperfect classical inputs, its robustness across practical deployment choices has not been systematically analyzed. As a result, shot budgets, qubit layouts, noise mitigation strategies, and the coupled-cluster singles and doubles (CCSD) amplitudes that initialize the ansatz are often chosen without clear empirical guidance. We analyze SQD robustness on IBM Heron hardware across these dimensions. Structured CCSD-amplitude perturbations, including complete zeroing, produce only modest energy shifts from the clean baseline. Differences across layouts and noise-mitigation settings are large in the first recovery iteration but narrow within a few iterations. Accuracy saturates at moderate shot budgets, while very large budgets slightly worsen recovered energies, likely because working-set selection limits the value of additional samples. These results identify where SQD provides genuine deployment robustness and where its limits remain.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.18196",
+  "pdf": "https://arxiv.org/pdf/2607.18196",
+  "html": "https://arxiv.org/html/2607.18196"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-21T09:11:52.813Z",
+  "hook": "A quantum particle hopping on a chiral Cayley tree reveals a bizarre 'semi-fractal' state of matter.",
+  "tldr": [
+   "They modeled a quantum particle hopping on an infinite, bipartite Cayley tree with singular weak-link disorder.",
+   "They solved the cavity equations for the propagator using population dynamics to analyze the local density of states.",
+   "They discovered a 'semi-fractal' regime where wave functions occupy a large area but behave like a multifractal."
+  ],
+  "whyItMatters": "Understanding how quantum waves spread or freeze in complex, tree-like networks helps us design better materials for quantum information routing and understand the fundamental limits of quantum transport.",
+  "eli5": "Imagine a maze that branches out like a tree. If you put a quantum particle in it, it can spread out like a wave. The researchers found that under certain conditions, the particle spreads across the entire tree, but its peaks are so sharp and scattered that it behaves like a complex, self-repeating fractal.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Cayley tree",
+    "shortDef": "A symmetric, loop-free connected graph where every node has the same number of neighbors.",
+    "eli5Def": "A network that branches out continuously like a family tree, with no paths looping back on themselves.",
+    "wikiTitle": "Bethe lattice"
+   },
+   {
+    "term": "Chiral symmetry",
+    "shortDef": "A symmetry in bipartite lattices that pairs positive and negative energy states.",
+    "eli5Def": "A special balance in a system where every high-energy state has a perfect mirror-image low-energy state.",
+    "wikiTitle": "Chiral symmetry"
+   },
+   {
+    "term": "Multifractal",
+    "shortDef": "A system requiring a continuous spectrum of exponents to describe its scaling behavior.",
+    "eli5Def": "An object or pattern that is self-similar, but has different fractal rules depending on where you look.",
+    "wikiTitle": "Multifractal system"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

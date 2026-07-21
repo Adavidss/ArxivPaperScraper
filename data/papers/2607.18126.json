@@ -1,0 +1,89 @@
+{
+ "id": "2607.18126",
+ "version": 1,
+ "title": "CutBackdoor: A Circuit Cut Triggered Backdoor Attack on Variational Quantum Algorithms",
+ "authors": [
+  {
+   "name": "Ahatesham Bhuiyan"
+  },
+  {
+   "name": "Hoang Ngo"
+  },
+  {
+   "name": "Cheng Chu"
+  },
+  {
+   "name": "Qian Lou"
+  },
+  {
+   "name": "Lei Jiang"
+  },
+  {
+   "name": "My T. Thai"
+  },
+  {
+   "name": "Mengxin Zheng"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-20T16:20:12Z",
+ "updated": "2026-07-20T16:20:12Z",
+ "abstract": "Variational Quantum Algorithms (VQAs) are a leading paradigm for near-term quantum computing, combining parameterized quantum circuits with classical optimization across quantum chemistry, combinatorial optimization, and quantum machine learning. Since real-world VQA deployments routinely require circuits that exceed available hardware capacity, quantum circuit cutting has become an indispensable execution strategy, and pre-trained parameters are increasingly distributed through public repositories, introducing supply-chain security risks that have received little attention. Prior quantum backdoor attacks either introduce detectable circuit modifications or depend on device-specific noise, and none consider circuit cutting as an attack surface. We present CutBackdoor, the first parameter-supply-chain backdoor that uses cut circuit execution from CutQC as the deployment-time trigger against VQAs. Under noisy finite-shot circuit-cut execution, poisoned parameters preserve full-circuit validation performance while substantially increasing cut-path reconstruction error, without any circuit modification. The trigger activates when a resource-limited victim responds to a qubit-capacity mismatch by invoking the cutting workflow, requiring no attacker presence at deployment. We provide a theoretical analysis and empirically validate it across varying shot budgets. Evaluation across multiple VQA benchmarks on IBM quantum backends demonstrates cut-path energy amplification of $1.3\\times$ to $2.9\\times$ \\revA{over clean baselines on the VQE and VQD benchmarks while maintaining small stealthiness error on the full-circuit path. The cut-path gap persists across the evaluated backends and cut placements under matched compilation; Zero-Noise Extrapolation provides only partial mitigation, and the diagonal-cost QAOA benchmark delineates the attack's structural boundary",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.18126",
+  "pdf": "https://arxiv.org/pdf/2607.18126",
+  "html": "https://arxiv.org/html/2607.18126"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-21T09:11:52.813Z",
+  "hook": "CutBackdoor is the first backdoor attack triggering a 1.3x to 2.9x energy error when quantum circuits are cut.",
+  "tldr": [
+   "They developed CutBackdoor, a parameter-supply-chain backdoor attack targeting Variational Quantum Algorithms (VQAs).",
+   "They poisoned pre-trained parameters so that they behave normally on full circuits but fail catastrophically when the circuit is cut to fit smaller hardware.",
+   "They demonstrated on IBM backends that the attack amplifies cut-path energy errors by 1.3x to 2.9x without modifying the circuit structure."
+  ],
+  "whyItMatters": "Because near-term quantum computers have very few qubits, developers frequently 'cut' large circuits to run them on smaller chips. This research reveals a major security vulnerability where attackers can hide malicious triggers inside open-source quantum AI models.",
+  "eli5": "Imagine downloading a blueprint for a giant Lego castle. If you build the whole thing, it looks perfect. But if you don't have enough space and try to build it in two separate halves to connect later, a hidden flaw in the blueprint causes the halves to completely mismatch and collapse.",
+  "keyNumbers": [
+   {
+    "value": "1.3x to 2.9x",
+    "label": "Cut-path energy amplification",
+    "context": "The range of energy error amplification observed over clean baselines on the VQE and VQD benchmarks during the attack."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Variational Quantum Algorithms",
+    "shortDef": "Hybrid algorithms that use both classical computers and quantum circuits to solve optimization problems.",
+    "eli5Def": "A team-up where a classical computer and a quantum computer work together, taking turns to solve tough chemistry or math problems.",
+    "wikiTitle": "Variational quantum eigensolver"
+   },
+   {
+    "term": "circuit cutting",
+    "shortDef": "A technique to divide a large quantum circuit into smaller sub-circuits that fit on smaller hardware.",
+    "eli5Def": "Slicing a giant quantum program into smaller pieces so they can run on smaller, cheaper quantum computers, then gluing the results back together.",
+    "wikiTitle": null
+   },
+   {
+    "term": "backdoor attack",
+    "shortDef": "A malicious modification that causes a system to behave badly only when a specific trigger is present.",
+    "eli5Def": "A secret trapdoor left by a hacker that keeps a program working normally until a specific, secret trigger makes it misbehave.",
+    "wikiTitle": "Backdoor (computing)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 80
+ }
+}

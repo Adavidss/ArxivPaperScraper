@@ -1,0 +1,55 @@
+{
+ "id": "2607.18179",
+ "version": 1,
+ "title": "Semi-fractality and localization on a chiral Cayley tree",
+ "authors": [
+  {
+   "name": "Carlo Vanoni"
+  },
+  {
+   "name": "Vladimir E. Kravtsov"
+  },
+  {
+   "name": "Boris L. Altshuler"
+  }
+ ],
+ "categories": [
+  "cond-mat.dis-nn",
+  "cond-mat.stat-mech",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.dis-nn",
+ "published": "2026-07-20T17:16:17Z",
+ "updated": "2026-07-20T17:16:17Z",
+ "abstract": "We study a quantum particle hopping on an infinite Cayley tree with nearest-neighbor hopping amplitudes drawn from a distribution singular as $|t|^{-a}$ near weak links and no on-site disorder. Because the graph is bipartite, the model has chiral symmetry, which strongly affects the statistics of eigenstates at the center of the spectrum. Using population dynamics to solve the cavity equations for the propagator, we analyze the distribution of the local density of states and show that it develops broad power-law tails. These tails imply an unusual form of wave-function statistics, which we call semi-fractality: the eigenstates occupy an extensive fraction of the system, but their higher moments behave as in a multifractal state. We find that the symmetry properties of the local-density-of-states distribution are not fixed only by the symmetry class, but vary continuously with the exponent controlling the power-law hopping distribution. As this exponent is changed, the system crosses from a semi-fractal regime to a localized one. At the transition, the wave functions realize an extreme intermediate form that we call semi-localized, simultaneously extended in their support but localized according to higher moments.",
+ "comment": "12 pages, 13 figures. Comments are welcome!",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.18179",
+  "pdf": "https://arxiv.org/pdf/2607.18179",
+  "html": "https://arxiv.org/html/2607.18179"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.18179v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-07-21T09:11:52.813Z",
+  "hook": "We study a quantum particle hopping on an infinite Cayley tree with nearest-neighbor hopping amplitudes drawn from a…",
+  "tldr": [
+   "Using population dynamics to solve the cavity equations for the propagator, we analyze the distribution of the local density of states and show that it…",
+   "Because the graph is bipartite, the model has chiral symmetry, which strongly affects the statistics of eigenstates at the center of the spectrum.",
+   "At the transition, the wave functions realize an extreme intermediate form that we call semi-localized, simultaneously extended in their support but localized…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 43
+ }
+}

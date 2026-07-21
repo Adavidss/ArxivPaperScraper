@@ -1,0 +1,111 @@
+{
+ "id": "2607.18204",
+ "version": 1,
+ "title": "QuantiSpect: A Structure-Aware Lightweight 3D CNN Pre-Decoder for Scalable Surface Code Quantum Error Correction",
+ "authors": [
+  {
+   "name": "Pan Gao"
+  },
+  {
+   "name": "Xu-Sheng Xu"
+  },
+  {
+   "name": "Ji-Ze Han"
+  },
+  {
+   "name": "Jing-Wei Wen"
+  },
+  {
+   "name": "Ling Qian"
+  },
+  {
+   "name": "Xu-Dong Lv"
+  },
+  {
+   "name": "Run-Qing Zhang"
+  },
+  {
+   "name": "Xiao-Xiao Hu"
+  },
+  {
+   "name": "Gui-Lu Long"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-20T17:43:08Z",
+ "updated": "2026-07-20T17:43:08Z",
+ "abstract": "Real-time decoding is a critical bottleneck for large-scale fault-tolerant quantum computing. AI-based neural pre-decoders locally correct most physical errors before passing residual syndromes to a global decoder, enabling sub-microsecond latencies. However, existing architectures carry significant overhead from dense 3D convolutions. We present QuantiSpect, a lightweight 3D convolutional neural network (CNN) pre-decoder for the rotated surface code, built on the decoding pipeline of Chamberland et al. The key idea is to replace the dense 3D convolutions with three parallel branches in each residual block: a depthwise spatial branch, a depthwise temporal branch, and a grouped spatio-temporal branch, followed by a squeeze-and-excitation channel gate. This reflects the structure of surface code errors, where spatial and temporal syndrome correlations are partially separable. On a unified 4xA100 GPU benchmark, QuantiSpect matches the receptive field of the Accurate baseline at R=13 while using ~2.71x fewer parameters (0.663M vs 1.80M) and ~2.84x fewer per-voxel convolutional MACs. It matches Accurate's circuit-level threshold and accuracy at moderate and large code distances, reduces the logical error rate by up to ~1.85x relative to uncorrelated PyMatching at d=13, p=0.5%, and speeds up the PyMatching decode by up to 3.11x at d=23. We also explored enlarging the receptive field by adding blocks. Even at R=21, the model uses only 1.18M parameters, fewer than both the R=13 Accurate baseline (1.80M) and the R=17 dense model (4.22M), despite its larger receptive field. This expanded variant significantly outperforms the Accurate model, raising the circuit-level threshold to ~0.80% and further reducing the logical error rate. Together, both variants show that a structure-aware factorized design is an effective, parameter-efficient alternative to a dense one for decoding the surface code.",
+ "comment": "22 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.18204",
+  "pdf": "https://arxiv.org/pdf/2607.18204",
+  "html": "https://arxiv.org/html/2607.18204"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.18204v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-21T09:11:52.813Z",
+  "hook": "QuantiSpect decodes quantum errors with up to 2.84x fewer operations and 2.71x fewer parameters.",
+  "tldr": [
+   "They designed a lightweight 3D CNN pre-decoder, QuantiSpect, to speed up real-time quantum error correction.",
+   "They replaced dense 3D convolutions with three parallel, factorized spatial, temporal, and spatio-temporal branches.",
+   "They matched baseline accuracy while reducing parameters by ~2.71x, speeding up PyMatching decodes by up to 3.11x."
+  ],
+  "whyItMatters": "Quantum computers need to correct errors in microseconds to be useful. This lightweight neural network design dramatically cuts down the computational power needed to find and fix those errors in real time.",
+  "eli5": "Quantum computers are highly prone to mistakes, like a phone line with static. To fix this, we use smart helper programs, but they are often too slow and heavy. This new method splits the problem into simpler, parallel tasks—looking separately at where errors happen in space and when they happen in time—making the cleanup process much faster and lighter.",
+  "keyNumbers": [
+   {
+    "value": "2.71x",
+    "label": "parameter reduction",
+    "context": "QuantiSpect uses 0.663M parameters compared to 1.80M for the Accurate baseline at R=13."
+   },
+   {
+    "value": "2.84x",
+    "label": "fewer MACs",
+    "context": "The model reduces per-voxel convolutional multiply-accumulate operations compared to the baseline."
+   },
+   {
+    "value": "3.11x",
+    "label": "decoding speedup",
+    "context": "QuantiSpect speeds up the PyMatching global decoder at code distance d=23."
+   },
+   {
+    "value": "0.80%",
+    "label": "circuit-level threshold",
+    "context": "An expanded variant with a larger receptive field of R=21 raises the threshold to this level."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Surface code",
+    "shortDef": "A topological quantum error-correcting code where qubits are arranged on a 2D square lattice.",
+    "eli5Def": "A grid-like layout for quantum bits that helps protect fragile quantum information from getting corrupted.",
+    "wikiTitle": "Toric code"
+   },
+   {
+    "term": "Pre-decoder",
+    "shortDef": "A fast, local processing step that filters out simple errors before a global decoder runs.",
+    "eli5Def": "A quick-acting helper that cleans up the easy mistakes first, so the main brain doesn't get overwhelmed.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Receptive field",
+    "shortDef": "The window of input data that a specific neural network layer can 'see' and extract features from.",
+    "eli5Def": "How much of the surrounding picture a computer program can look at at one time to make a decision.",
+    "wikiTitle": "Receptive field"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 65
+ }
+}

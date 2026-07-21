@@ -1,0 +1,81 @@
+{
+ "id": "2607.18215",
+ "version": 1,
+ "title": "Non-Abelian Gauge Field Mechanics",
+ "authors": [
+  {
+   "name": "Ivan Velkovsky"
+  },
+  {
+   "name": "Carlos Camacho"
+  },
+  {
+   "name": "Tomoki Ozawa"
+  },
+  {
+   "name": "Hannah Price"
+  },
+  {
+   "name": "Bryce Gadway"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "cond-mat.other",
+  "physics.class-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-07-20T17:49:00Z",
+ "updated": "2026-07-20T17:49:00Z",
+ "abstract": "Non-Abelian gauge fields play a key role in describing the behavior of particles whose motion is coupled to internal degrees of freedom, such as their spin. Here, we experimentally realize a tuneable non-Abelian gauge field in an active mechanical lattice by using pairs of oscillators to encode a local pseudo-spin for each site, with inter-site spin-dependent couplings engineered via real-time measurement and feedback. We experimentally extract Wilson-loop observables in our set-up and hence demonstrate that we can create a genuinely non-Abelian gauge field. We then exploit the controllability of our mechanical lattice to engineer non-reciprocal hoppings to explore non-Hermitian non-Abelian gauge potentials. For a two-dimensional (2D) lattice, we demonstrate that the non-Hermiticity can manifest in direction-dependent Wilson loops for a single plaquette, while for a one-dimensional (1D) system, we show that a non-Abelian gauge potential can switch the localization of non-Hermitian skin modes between opposite ends of a chain. Our work establishes active mechanical lattices as a flexible and programmable platform for probing non-Abelian gauge fields and exploring their interplay with non-Hermitian dynamics.",
+ "comment": "7 Pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.18215",
+  "pdf": "https://arxiv.org/pdf/2607.18215",
+  "html": "https://arxiv.org/html/2607.18215"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.18215v1/2Dherm.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-21T09:11:52.813Z",
+  "hook": "Researchers built a non-Abelian gauge field in a mechanical lattice of oscillators, steering wave localization.",
+  "tldr": [
+   "They engineered a tunable non-Abelian gauge field in an active mechanical lattice of coupled physical oscillators.",
+   "They used real-time measurement and feedback to program spin-dependent couplings and non-reciprocal hoppings.",
+   "They successfully extracted Wilson-loop observables and showed that the gauge potential can switch the localization of skin modes."
+  ],
+  "whyItMatters": "This work bridges abstract quantum field theory and classical mechanics, showing we can control energy flow in macroscopic materials using the same mathematics that describes fundamental subatomic forces.",
+  "eli5": "Imagine a grid of swinging pendulums where how one swings affects its neighbor, but the rules of this connection change depending on the direction of the swing. By carefully measuring the pendulums and using motors to nudge them in real time, scientists made the system behave like it was influenced by a complex, quantum-like force field. This allowed them to force all the vibrations to pile up at one specific end of the grid.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Non-Abelian gauge field",
+    "shortDef": "A force field where the order of physical operations or interactions matters.",
+    "eli5Def": "A force field where doing action A then action B gives a different result than doing B then A, like rotating a Rubik's cube.",
+    "wikiTitle": "Yang–Mills theory"
+   },
+   {
+    "term": "Wilson loop",
+    "shortDef": "A gauge-invariant observable obtained from the holonomy of the gauge connection around a closed loop.",
+    "eli5Def": "A mathematical measurement taken by tracing a closed path through a force field to see how much an object's state changed during the trip.",
+    "wikiTitle": "Wilson loop"
+   },
+   {
+    "term": "Non-Hermitian",
+    "shortDef": "Describing physical systems that lose or gain energy, violating standard conservation laws.",
+    "eli5Def": "A system where energy is not perfectly saved, meaning things can fade away or get amplified as they move.",
+    "wikiTitle": "Non-Hermitian quantum mechanics"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

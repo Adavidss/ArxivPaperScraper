@@ -1,0 +1,99 @@
+{
+ "id": "2607.19287",
+ "version": 1,
+ "title": "A general estimation framework for continuous-variable systems",
+ "authors": [
+  {
+   "name": "Luca Innocenti"
+  },
+  {
+   "name": "Simone Artini"
+  },
+  {
+   "name": "Diana A. Chisholm"
+  },
+  {
+   "name": "Salvatore Lorenzo"
+  },
+  {
+   "name": "Alessandro Ferraro"
+  },
+  {
+   "name": "G. Massimo Palma"
+  },
+  {
+   "name": "Mauro Paternostro"
+  },
+  {
+   "name": "Gabriele Lo Monaco"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-21T16:58:41Z",
+ "updated": "2026-07-21T16:58:41Z",
+ "abstract": "We show that informational completeness, while sufficient to have a bijection between ideal measurement probabilities and quantum states, does not guarantee statistically stable reconstruction from finite measurement data. To address this problem, we develop a general estimation theory for continuous-variable systems in which stable reconstructibility is characterized by the POVM effects forming a measurement frame. Informational completeness is therefore necessary, but not sufficient, for stable reconstruction. Our framework is based on measurement frames in a $σ$-regularized operator geometry, where the reference state $σ$ encodes prior information about relevant features of the measured states. For any fixed measurement scheme, observables may be inaccessible, weakly reconstructible only through estimators with divergent variance, or stably reconstructible by finite-variance unbiased estimators. The relevant regime is determined by the range of the POVM synthesis operator. Our framework provides practical methods for constructing estimators and gives an operational interpretation of singular quasiprobability distributions, including the Glauber-Sudarshan $P$ representation: quasiprobabilities act as unbiased estimators for associated observables, and their singularities reflect a pathological feature of the corresponding measurement: its lack of loewr frame bound. We furthermore show how this formalism naturally provides operational regularization procedures tied to prior information. Overall, our framework provides a unified view of continuous-variable tomography, quasiprobability representations, and classical-shadow estimation.",
+ "comment": "60 pages, very few figures; comments welcome!",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.19287",
+  "pdf": "https://arxiv.org/pdf/2607.19287",
+  "html": "https://arxiv.org/html/2607.19287"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.19287v1/figures/trichotomy.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-22T09:11:18.998Z",
+  "hook": "Informational completeness isn't enough: quantum state reconstruction can fail without frame bounds.",
+  "tldr": [
+   "Developed a general estimation framework for continuous-variable quantum state tomography.",
+   "Framed stable reconstructibility using POVM measurement frames within a regularized operator geometry.",
+   "Proved that informational completeness alone permits infinite-variance estimators, requiring frame bounds."
+  ],
+  "whyItMatters": "Reconstructing quantum states from limited measurement data is crucial for quantum computing and sensing. Knowing when state estimation is statistically stable prevents huge experimental errors and infinite variance.",
+  "eli5": "Imagine taking pictures of an object from every angle, but some angles are so blurry that small camera noise ruins the final 3D model. Just having all the angles isn't enough if some photos are unreliable. This framework gives exact rules for when measurements are clean enough to build a stable reconstruction.",
+  "keyNumbers": [
+   {
+    "value": "60",
+    "label": "Pages",
+    "context": "Length of the manuscript comment"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Informational completeness",
+    "shortDef": "Property where a set of measurements uniquely identifies any quantum state.",
+    "eli5Def": "Having enough clues to uniquely identify a suspect, assuming your clues are perfectly accurate.",
+    "wikiTitle": "Quantum tomography"
+   },
+   {
+    "term": "POVM",
+    "shortDef": "Positive Operator-Valued Measure, a general mathematical formulation of a quantum measurement.",
+    "eli5Def": "A set of customizable digital filters used to measure a quantum system.",
+    "wikiTitle": "Positive-operator valued measure"
+   },
+   {
+    "term": "Quasiprobability distribution",
+    "shortDef": "A probability-like representation of quantum states that can take negative or singular values.",
+    "eli5Def": "A state map that acts like a probability distribution, but allows negative numbers to capture quantum weirdness.",
+    "wikiTitle": "Quasiprobability distribution"
+   },
+   {
+    "term": "Glauber-Sudarshan P representation",
+    "shortDef": "A quasiprobability distribution describing the quantum state of a light field.",
+    "eli5Def": "A mathematical tool for mapping quantum light waves into classical-looking wave patterns.",
+    "wikiTitle": "Glauber–Sudarshan P representation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

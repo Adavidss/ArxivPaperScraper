@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-21T09:11:52.813Z",
+ "generatedAt": "2026-07-22T09:11:18.998Z",
  "suggestions": [
   {
    "name": "Vsevolod Ivanov",
@@ -41,6 +41,66 @@
     "Drive-Only Interaction Engineering via Dynamical Freezing"
    ],
    "paperCount": 2
+  },
+  {
+   "name": "Cheng Chu",
+   "slug": "cheng-chu",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2607.19318",
+    "2607.18196",
+    "2607.18126"
+   ],
+   "recentTitles": [
+    "SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming",
+    "Hardware Robustness of Sample-Based Quantum Diagonalization"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Qian Lou",
+   "slug": "qian-lou",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2607.19318",
+    "2607.18196",
+    "2607.18126"
+   ],
+   "recentTitles": [
+    "SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming",
+    "Hardware Robustness of Sample-Based Quantum Diagonalization"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Mengxin Zheng",
+   "slug": "mengxin-zheng",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2607.19318",
+    "2607.18196",
+    "2607.18126"
+   ],
+   "recentTitles": [
+    "SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming",
+    "Hardware Robustness of Sample-Based Quantum Diagonalization"
+   ],
+   "paperCount": 3
   },
   {
    "name": "Martin B. Plenio",
@@ -120,60 +180,6 @@
   {
    "name": "Maximilian Shen",
    "slug": "maximilian-shen",
-   "score": 3,
-   "coAuthoredWith": [
-    "daniel-g-ang",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2606.23621"
-   ],
-   "recentTitles": [
-    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
-   ],
-   "paperCount": 1
-  },
-  {
-   "name": "Michael Titze",
-   "slug": "michael-titze",
-   "score": 3,
-   "coAuthoredWith": [
-    "daniel-g-ang",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2606.23621"
-   ],
-   "recentTitles": [
-    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
-   ],
-   "paperCount": 1
-  },
-  {
-   "name": "Gavishta Liyanage",
-   "slug": "gavishta-liyanage",
-   "score": 3,
-   "coAuthoredWith": [
-    "daniel-g-ang",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2606.23621"
-   ],
-   "recentTitles": [
-    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
-   ],
-   "paperCount": 1
-  },
-  {
-   "name": "Jordan Chapman",
-   "slug": "jordan-chapman",
    "score": 3,
    "coAuthoredWith": [
     "daniel-g-ang",

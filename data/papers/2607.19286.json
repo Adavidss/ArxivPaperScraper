@@ -1,0 +1,93 @@
+{
+ "id": "2607.19286",
+ "version": 1,
+ "title": "Steady States of a Single Trapped-Ion Spin Coupled to an Engineered Non-Markovian Bath",
+ "authors": [
+  {
+   "name": "Anthony Vogliano"
+  },
+  {
+   "name": "Lewis Hahn"
+  },
+  {
+   "name": "Fabien Lefebvre"
+  },
+  {
+   "name": "Jingwen Zhu"
+  },
+  {
+   "name": "Sakshee Patil"
+  },
+  {
+   "name": "Mahmood Sabooni"
+  },
+  {
+   "name": "Zhexuan Gong"
+  },
+  {
+   "name": "Rajibul Islam"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-21T16:58:37Z",
+ "updated": "2026-07-21T16:58:37Z",
+ "abstract": "Quantum simulation of open quantum systems offers a pathway towards better understanding various non-equilibrium physics that would otherwise be challenging to study. Most open quantum systems studied are modeled as obeying the Markov approximation, where the bath into which the system dissipates information is assumed to be unaffected by the system-bath interaction. However, real baths are in general influenced by this interaction to some degree, and some systems which exist in structured non-Markovian environments can display novel behavior as a result. Here we utilize a trapped ion quantum simulator to simulate a single spin-$1/2$ driven-dissipative system with a non-Markovian dissipation channel, and experimentally compare steady-states to those from an analogous Markovian bath. We observe that a non-Markovian dissipative channel can dramatically change the steady-state even for a single qubit, to a regime inaccessible for Markovian dissipation. This demonstrates the added richness available to quantum systems in structured environments. The techniques used here are compatible with many-body extensions of the model, which can not be simulated efficiently on a classical computer in general. Our work also opens up new possibilities in quantum reservoir engineering beyond the Markovian regime.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.19286",
+  "pdf": "https://arxiv.org/pdf/2607.19286",
+  "html": "https://arxiv.org/html/2607.19286"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.19286v1/DSSPT_img/Markov_basic_fig.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-22T09:11:18.998Z",
+  "hook": "A single qubit coupled to a memory-retaining bath reaches steady states impossible under Markovian dissipation.",
+  "tldr": [
+   "Simulated a single spin coupled to an engineered non-Markovian dissipation channel using trapped ions.",
+   "Compared the experimental steady states of the non-Markovian environment against a standard Markovian bath.",
+   "Discovered that non-Markovian environments unlock steady-state regimes impossible under standard dissipation."
+  ],
+  "whyItMatters": "Most quantum hardware models assume environments forget interactions instantly, but real physical environments retain memory. Understanding non-Markovian dynamics allows researchers to engineer richer quantum states and better quantum simulators.",
+  "eli5": "Imagine cooling a cup of hot coffee in a room that remembers its temperature, so heat bounces back into the cup instead of disappearing forever. Scientists used a trapped atom to test this memory effect and found the atom settled into entirely new stable conditions. This opens new ways to control quantum systems in complex real-world environments.",
+  "keyNumbers": [
+   {
+    "value": "1/2",
+    "label": "Spin magnitude",
+    "context": "Magnitude of the single driven-dissipative spin system"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Non-Markovian process",
+    "shortDef": "A process where future evolution depends on past history, meaning the environment retains memory.",
+    "eli5Def": "A memory effect where what happens next depends on everything that happened before, not just the present moment.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Trapped ion",
+    "shortDef": "An atom with a net electric charge held in place by electromagnetic fields for quantum simulation.",
+    "eli5Def": "A single charged atom levitated in place using electric fields so scientists can control it with lasers.",
+    "wikiTitle": "Trapped ion quantum computer"
+   },
+   {
+    "term": "Steady state",
+    "shortDef": "A state reached by a dynamical system where its properties remain constant over time.",
+    "eli5Def": "A balanced condition where incoming and outgoing energy match, so the system stops changing.",
+    "wikiTitle": "Steady state"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

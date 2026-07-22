@@ -35,21 +35,57 @@
   "url": "https://arxiv.org/html/2607.18179v1/x1.png"
  },
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-07-21T09:11:52.813Z",
-  "hook": "We study a quantum particle hopping on an infinite Cayley tree with nearest-neighbor hopping amplitudes drawn from a…",
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-22T09:11:18.998Z",
+  "hook": "Quantum particles on a chiral Cayley tree display semi-fractality and tunable wave-function localization.",
   "tldr": [
-   "Using population dynamics to solve the cavity equations for the propagator, we analyze the distribution of the local density of states and show that it…",
-   "Because the graph is bipartite, the model has chiral symmetry, which strongly affects the statistics of eigenstates at the center of the spectrum.",
-   "At the transition, the wave functions realize an extreme intermediate form that we call semi-localized, simultaneously extended in their support but localized…"
+   "Analyzed quantum particle hopping on an infinite chiral Cayley tree with singular random hop strengths.",
+   "Solved cavity equations for the propagator using population dynamics to find local density of states.",
+   "Discovered a semi-fractal state where wave functions cover extensive space while higher moments act multifractal."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 43
+  "whyItMatters": "Understanding how quantum wave functions spread or freeze across complex networks helps explain quantum transport and phase transitions in disordered materials.",
+  "eli5": "Think of water spreading through a tree branch network where some twigs are extremely thin and hard to cross. Instead of just splashing everywhere or freezing in one spot, the wave spreads broadly while keeping dense spike patterns. Changing how hard the twigs are to cross lets researchers switch the quantum particle between spreading and getting stuck.",
+  "keyNumbers": [
+   {
+    "value": "12",
+    "label": "Pages",
+    "context": "Length of the manuscript comment"
+   },
+   {
+    "value": "13",
+    "label": "Figures",
+    "context": "Number of figures included in the paper comment"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Cayley tree",
+    "shortDef": "A symmetric tree-like graph structure where every node branches out with a constant number of neighbors.",
+    "eli5Def": "A perfectly branching tree graph where every intersection splits into the exact same number of paths.",
+    "wikiTitle": "Bethe lattice"
+   },
+   {
+    "term": "Chiral symmetry",
+    "shortDef": "A structural symmetry in bipartite graphs that pairs positive and negative energy states.",
+    "eli5Def": "A balanced left-right style mirror symmetry in energy levels caused by a two-sided grid structure.",
+    "wikiTitle": "Chiral symmetry"
+   },
+   {
+    "term": "Multifractal",
+    "shortDef": "A complex structure exhibiting continuous scaling exponents rather than a single fractal dimension.",
+    "eli5Def": "A geometric pattern that looks bumpy and detailed in different ways depending on how closely you zoom in.",
+    "wikiTitle": "Multifractal system"
+   },
+   {
+    "term": "Local density of states",
+    "shortDef": "The density of available quantum states per unit energy at a specific physical location.",
+    "eli5Def": "A measure of how many open spots a quantum particle has to land on at a specific point.",
+    "wikiTitle": "Density of states"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
  }
 }

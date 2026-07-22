@@ -1,0 +1,129 @@
+{
+ "id": "2607.19319",
+ "version": 1,
+ "title": "Dark matter searches with a 13 meV threshold superconducting sensor array",
+ "authors": [
+  {
+   "name": "Christopher Albert"
+  },
+  {
+   "name": "Lanqing Yuan"
+  },
+  {
+   "name": "Jacob Harris"
+  },
+  {
+   "name": "Ritoban Basu Thakur"
+  },
+  {
+   "name": "Andrew Bear"
+  },
+  {
+   "name": "Karl K. Berggren"
+  },
+  {
+   "name": "Christopher Cappiello"
+  },
+  {
+   "name": "Christopher Curwen"
+  },
+  {
+   "name": "Peter Day"
+  },
+  {
+   "name": "Byeong H. Eom"
+  },
+  {
+   "name": "Arjun Ghosh"
+  },
+  {
+   "name": "William Ho"
+  },
+  {
+   "name": "Nikita Klimovich"
+  },
+  {
+   "name": "Henry G. LeDuc"
+  },
+  {
+   "name": "Karthik Ramanathan"
+  },
+  {
+   "name": "Alejandro Simon"
+  }
+ ],
+ "categories": [
+  "hep-ex",
+  "astro-ph.IM",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-ex",
+ "published": "2026-07-21T17:39:52Z",
+ "updated": "2026-07-21T17:39:52Z",
+ "abstract": "Many well-motivated dark matter models predict meV-scale energy deposits in interactions with terrestrial experiments, but this regime is challenging to probe due to a lack of mature single-quantum detectors. Here we report results from QUALIPHIDE (QUAntum LImited PHotons In the Dark Experiment), a cryogenic dark matter search using a $41$-pixel array of energy-resolving microwave kinetic inductance detectors with a $13$ meV threshold, simultaneously used to look for both conversion photons from THz wavelength hidden photon dark matter and phonons from particle-like light dark matter interactions. The experimental design, with on- and off-focus pixels for the hidden photon search, allows for a data-driven background model, giving the experiment discovery potential. A blind analysis of $22$ hours of data shows no significant excess, setting the strongest constraints on the hidden photon kinetic mixing parameter $χ$ over the mass range of $13$-$90$ meV/$c^2$, reaching $1.5\\times10^{-12}$ at $50$ meV/$c^2$. These data also yield among the first terrestrial limits on dark matter scattering off nuclei and electrons, down to $5$ MeV/$c^2$ and $20$ keV/$c^2$, respectively. The low threshold also enables future study of the low-energy excess limiting cryogenic detectors and, as we project, will allow for a terahertz-scale QCD axion search with a magnetic field.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.19319",
+  "pdf": "https://arxiv.org/pdf/2607.19319",
+  "html": "https://arxiv.org/html/2607.19319"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.19319v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-22T09:11:18.998Z",
+  "hook": "QUALIPHIDE set world-record dark matter constraints using a sensor array with a tiny 13 meV energy threshold.",
+  "tldr": [
+   "Searched for hidden photons and light dark matter using ultra-sensitive cryogenic detector arrays.",
+   "Ran a blind 22-hour search with a 41-pixel kinetic inductance detector array having a 13 meV energy threshold.",
+   "Found no signal excess, setting leading bounds on kinetic mixing down to 1.5x10^-12 at 50 meV/c^2."
+  ],
+  "whyItMatters": "Dark matter makes up most of the universe's mass, but finding light dark matter requires sensors sensitive to minuscule energy deposits.",
+  "eli5": "Scientists built a super-cold, highly sensitive camera array designed to feel the tiniest whisper of invisible dark matter particles hitting it. They didn't spot dark matter yet, but proved their sensor can detect fainter signals than ever before.",
+  "keyNumbers": [
+   {
+    "value": "13 meV",
+    "label": "Energy threshold",
+    "context": "Detection threshold of the 41-pixel sensor array."
+   },
+   {
+    "value": "1.5x10^-12",
+    "label": "Kinetic mixing limit",
+    "context": "Tightest limit on hidden photon kinetic mixing parameter χ achieved at 50 meV/c^2."
+   },
+   {
+    "value": "22 hours",
+    "label": "Observation time",
+    "context": "Duration of blind data analyzed during the dark matter search."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Kinetic inductance detector",
+    "shortDef": "Ultra-sensitive superconducting photon detector using change in inductance upon energy absorption.",
+    "eli5Def": "A super-chilled electronic sensor that registers microscopic bursts of light energy.",
+    "wikiTitle": "Kinetic inductance detector"
+   },
+   {
+    "term": "Hidden photon",
+    "shortDef": "Hypothetical dark matter candidate particle similar to a heavy, weakly coupled photon.",
+    "eli5Def": "A dark, invisible version of light particles that might make up dark matter.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Axion",
+    "shortDef": "Hypothetical elementary particle proposed to resolve the strong CP problem and account for dark matter.",
+    "eli5Def": "A predicted ultra-light particle that could explain why the universe has so much dark matter.",
+    "wikiTitle": "Axion"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

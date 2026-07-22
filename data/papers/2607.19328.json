@@ -1,0 +1,111 @@
+{
+ "id": "2607.19328",
+ "version": 1,
+ "title": "Quantum Synchronization",
+ "authors": [
+  {
+   "name": "Parvinder Solanki"
+  },
+  {
+   "name": "Albert Cabot"
+  },
+  {
+   "name": "Fernando Iemini"
+  },
+  {
+   "name": "Federico Carollo"
+  },
+  {
+   "name": "Midhun Krishna"
+  },
+  {
+   "name": "Yeshma Ibrahim"
+  },
+  {
+   "name": "Michal Hajdušek"
+  },
+  {
+   "name": "Igor Lesanovsky"
+  },
+  {
+   "name": "Rosario Fazio"
+  },
+  {
+   "name": "Roberta Zambrini"
+  },
+  {
+   "name": "Sai Vinjanampathy"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.quant-gas",
+  "cond-mat.stat-mech",
+  "physics.atom-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-21T17:50:31Z",
+ "updated": "2026-07-21T17:50:31Z",
+ "abstract": "Natural and engineered classical systems are replete with examples of synchronization, understood as the adjustment of rhythms of physical systems. Such synchronization is at the heart of the stability of several classical technologies, such as mechanical bridges and electrical networks. Given the advent of quantum simulation and computation technologies, it is natural to study a quantum analogue of synchronization and explore novel applications. This review surveys synchronization in few and many-body quantum systems, measures that quantify them, and their applications to quantum technologies.",
+ "comment": "49 pages, 13 figures, comments welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.19328",
+  "pdf": "https://arxiv.org/pdf/2607.19328",
+  "html": "https://arxiv.org/html/2607.19328"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.19328v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-22T09:11:18.998Z",
+  "hook": "This review surveys quantum synchronization, revealing how quantum systems adjust their rhythms for novel tech.",
+  "tldr": [
+   "Reviewed how quantum systems, both few-body and many-body, adjust their rhythms in lockstep.",
+   "Surveyed quantum synchronization measures and theoretical frameworks across quantum technologies.",
+   "Categorized how quantum synchronization can stabilize and enhance future quantum devices."
+  ],
+  "whyItMatters": "Just as synchronized clocks stabilized early mechanical and electrical grids, quantum synchronization could stabilize upcoming quantum computational networks.",
+  "eli5": "Imagine fireflies flashing in unison or pendulum clocks ticking at the exact same rhythm. This review explores how tiny quantum particles do the same trick together to build better quantum machines.",
+  "keyNumbers": [
+   {
+    "value": "49",
+    "label": "Pages",
+    "context": "Total length of the comprehensive survey review paper."
+   },
+   {
+    "value": "13",
+    "label": "Figures",
+    "context": "Illustrative diagrams included in the review article."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum synchronization",
+    "shortDef": "Adjustment of rhythms and phases between interacting quantum physical systems.",
+    "eli5Def": "When tiny quantum particles lock their natural tick-tock patterns into harmony.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Quantum simulation",
+    "shortDef": "Using controlled quantum systems to model complex physical phenomena.",
+    "eli5Def": "Building a manageable quantum computer to act out the behavior of hard-to-study atoms.",
+    "wikiTitle": "Quantum simulator"
+   },
+   {
+    "term": "Many-body system",
+    "shortDef": "A physical system consisting of many interacting microscopic particles.",
+    "eli5Def": "A big group of particles that all bump into and influence one another.",
+    "wikiTitle": "Many-body problem"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

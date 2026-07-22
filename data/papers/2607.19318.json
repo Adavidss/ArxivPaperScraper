@@ -1,0 +1,93 @@
+{
+ "id": "2607.19318",
+ "version": 1,
+ "title": "SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming",
+ "authors": [
+  {
+   "name": "Ahmed Azaz Humdoon"
+  },
+  {
+   "name": "Cheng Chu"
+  },
+  {
+   "name": "Lei Jiang"
+  },
+  {
+   "name": "Qian Lou"
+  },
+  {
+   "name": "Mengxin Zheng"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-21T17:38:52Z",
+ "updated": "2026-07-21T17:38:52Z",
+ "abstract": "The Variational Quantum Eigensolver (VQE) is a leading algorithm for estimating molecular ground-state energies on near-term quantum hardware, with applications spanning quantum chemistry, materials science, and drug discovery. As VQE workloads are increasingly deployed through cloud-based ``VQE-as-a-service'' pipelines, they become exposed to adversaries such as compromised service components, malicious co-tenants, or insiders in the transpilation stack, any of which can corrupt results before they reach the user. A range of attacks on variational quantum circuits has been proposed, but each has been studied in isolation: some on quantum classifiers with accuracy-based metrics, others on variational quantum algorithms with energy-error metrics. This lack of a common evaluation setup makes their relative severity difficult to compare and leaves the security of VQE poorly characterized. In this work, we present \\textbf{VQE-AdvBench}, the first unified red-teaming benchmark for the Variational Quantum Eigensolver, systematizing these attacks under a single evaluation protocol to rigorously assess VQE's adversarial robustness. We organize attacks along a black-, gray-, and white-box access taxonomy, and evaluate seven representative attack scenarios -- the QTrojan circuit backdoor, the QDoor parameter backdoor, parameter-space adaptations of FGSM and PGD, and three QNBAD noise-induced variants -- over a fixed molecule-ansatz-backend-metric configuration, on H$_2$ and H$_3^+$ across five noise-calibrated IBM backends. Our results reveal a clear severity ordering: noise-induced attacks that manipulate the Zero-Noise Extrapolation (ZNE) pipeline are the most damaging (up to 8.84$\\times$ error amplification), followed by the QTrojan circuit-level backdoor (7.52$\\times$), while the QDoor parameter-level backdoor is the least effective, yielding only marginal amplification (up to 1.37$\\times$).",
+ "comment": "Accepted by QCE26 2nd Workshop on QC Security, Privacy & Resilience (Q-Sec)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.19318",
+  "pdf": "https://arxiv.org/pdf/2607.19318",
+  "html": "https://arxiv.org/html/2607.19318"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-22T09:11:18.998Z",
+  "hook": "Manipulating quantum error mitigation can amplify cloud quantum computing errors up to 8.84x in cyberattacks.",
+  "tldr": [
+   "Evaluated security vulnerabilities of the Variational Quantum Eigensolver algorithm under red-team attacks.",
+   "Created VQE-AdvBench to test seven black-, gray-, and white-box attack scenarios across five IBM backends.",
+   "Discovered that manipulating Zero-Noise Extrapolation caused the most damage, amplifying errors by up to 8.84x."
+  ],
+  "whyItMatters": "As quantum algorithms run on shared cloud hardware, malicious co-tenants or components could corrupt chemistry and materials science calculations.",
+  "eli5": "When people rent quantum computers over the internet, bad actors could subtly tamper with the software pipeline. Researchers tested different hacking tricks and found that messing with noise-cleanup systems causes the biggest errors.",
+  "keyNumbers": [
+   {
+    "value": "8.84x",
+    "label": "Max error amplification",
+    "context": "Error amplification caused by attacks manipulating the Zero-Noise Extrapolation pipeline."
+   },
+   {
+    "value": "7.52x",
+    "label": "QTrojan error amplification",
+    "context": "Maximum error amplification from circuit-level backdoor attacks."
+   },
+   {
+    "value": "7",
+    "label": "Attack scenarios",
+    "context": "Total representative attack scenarios evaluated in the VQE-AdvBench benchmark."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Variational Quantum Eigensolver",
+    "shortDef": "A hybrid quantum-classical algorithm used to calculate molecular ground-state energies.",
+    "eli5Def": "A smart recipe that uses both normal computers and quantum computers to study molecules.",
+    "wikiTitle": "Variational quantum eigensolver"
+   },
+   {
+    "term": "Zero-Noise Extrapolation",
+    "shortDef": "An error mitigation technique that estimates noise-free quantum computation results.",
+    "eli5Def": "A math trick that estimates what a quantum calculation would look like if the machine had zero noise.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Red-teaming",
+    "shortDef": "Rigorous adversarial testing of security vulnerabilities in systems.",
+    "eli5Def": "Pretending to be a hacker to find security weak spots before real attackers do.",
+    "wikiTitle": "Red team"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

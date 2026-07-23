@@ -1,0 +1,88 @@
+{
+ "id": "2607.20333",
+ "version": 1,
+ "title": "Collective Electronic Entanglement via Infrared Cavity-Induced Vibronic Transduction",
+ "authors": [
+  {
+   "name": "Vivek Yadav"
+  },
+  {
+   "name": "Bar Cohn"
+  },
+  {
+   "name": "Shmuel Sufrin"
+  },
+  {
+   "name": "Uri Peskin"
+  },
+  {
+   "name": "Lev Chuntonov"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.chem-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-22T16:20:31Z",
+ "updated": "2026-07-22T16:20:31Z",
+ "abstract": "Polaritonic architectures seek to engineer molecular properties by hybridizing localized degrees of freedom with delocalized optical cavity fields. However, scaling laws impose a severe bottleneck on N-molecule collective strong coupling: because each molecule contributes only a fractional share to the collective state, localized responses undergo O(1/N) ensemble dilution. We demonstrate a violation of this scaling using fluorescence-encoded infrared spectroscopy of molecular ensembles under vibrational strong coupling, where macroscopically synchronized electronic responses scale as O(1). This scale-invariance reveals a regime of vibronic quantum transduction, where non-local vibrational entanglement is translated into collective electronic entanglement. By demonstrating the generation of macroscopically entangled electronic states from vibro-polaritons without an O(1/N) penalty, these results provide a scalable framework for room-temperature quantum technologies and coherent steering of non-adiabatic chemical pathways.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.20333",
+  "pdf": "https://arxiv.org/pdf/2607.20333",
+  "html": "https://arxiv.org/html/2607.20333"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-23T09:10:19.597Z",
+  "hook": "Infrared cavity coupling bypassed the standard 1/N dilution limit, enabling scale-invariant O(1) molecular entanglement.",
+  "tldr": [
+   "Investigated how to generate scalable collective electronic entanglement across molecular ensembles inside optical cavities.",
+   "Used fluorescence-encoded infrared spectroscopy on molecular ensembles undergoing vibrational strong coupling.",
+   "Bypassed the usual 1/N ensemble dilution penalty, achieving scale-invariant O(1) electronic entanglement."
+  ],
+  "whyItMatters": "Quantum effects typically fade fast when spread across large groups of molecules. Overcoming this bottleneck enables room-temperature quantum technologies and precise optical control over chemical reactions.",
+  "eli5": "Normally, trying to share a single quantum connection across a huge crowd dilutes the effect until everyone gets almost nothing. This team found a trick using light mirrors to keep every molecule strongly entangled, no matter how big the crowd gets.",
+  "keyNumbers": [
+   {
+    "value": "O(1)",
+    "label": "observed scaling",
+    "context": "scale-invariant collective electronic response achieved without dilution"
+   },
+   {
+    "value": "O(1/N)",
+    "label": "standard scaling limit",
+    "context": "conventional dilution penalty expected for N-molecule ensembles"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Vibrational strong coupling",
+    "shortDef": "A state where light inside a cavity strongly hybridizes with molecular vibrational modes.",
+    "eli5Def": "Trapping light and molecular motion together so tightly they merge into a new hybrid state.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Polariton",
+    "shortDef": "A hybrid quasiparticle formed by strong coupling between photons and material excitations.",
+    "eli5Def": "A particle created by blending a light wave with atomic movement.",
+    "wikiTitle": "Polariton"
+   },
+   {
+    "term": "Quantum transduction",
+    "shortDef": "The conversion of quantum information from one physical form or frequency to another.",
+    "eli5Def": "Translating a quantum message from one form of energy into another without losing the signal.",
+    "wikiTitle": "Quantum transduction"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

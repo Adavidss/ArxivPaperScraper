@@ -1,0 +1,94 @@
+{
+ "id": "2607.20377",
+ "version": 1,
+ "title": "Statevector-Referenced Geometry Survival of a Four-Qubit ZZ Quantum Kernel on IBM Quantum Hardware: A Fixed-Subset Diagnostic Across Three Execution Configurations",
+ "authors": [
+  {
+   "name": "Rostyslav Sipakov"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-22T17:05:42Z",
+ "updated": "2026-07-22T17:05:42Z",
+ "abstract": "Quantum-kernel methods encode a dataset's geometry in a Gram matrix, so learning claims on hardware kernels assume the intended geometry survives execution. We measure that survival for one frozen four-qubit ZZ feature-map kernel on $N=24$ real indoor air-quality windows, reconstructed on ibm_fez (1024 shots per circuit) under baseline, dynamical decoupling alone, and gate twirling alone, each a single non-interleaved job. Every configuration returned a complete, finite, positive-semidefinite Gram matrix and preserved the centered statevector geometry to a substantial but incomplete descriptive degree (full-matrix centered kernel alignment, CKA, 0.933-0.989). Gate twirling was most faithful on every reported geometry axis, with the only jackknife-resolved improvement over baseline (persisted Spearman, mean absolute error, and full-matrix CKA diagnostics); dynamical decoupling alone was not separated from baseline at the frozen-window scale. Residual hardware distortion, not finite sampling, dominates the discrepancy. Yet fidelity and label alignment were reversed: the most faithful configuration had the lowest centered kernel-target alignment, which sits at or below label-permutation references for statevector and hardware alike. We read the small hardware uplift as a normalization property of the non-affine distortion, not captured signal. These are descriptive results for single jobs on one backend, not causal mitigation-efficacy estimates; no quantum-advantage, hardware-classifier-superiority, or forecasting claim is made. Implementation fidelity and task relevance are distinct axes; hardware quantum machine-learning studies should report both.",
+ "comment": "3 supplementary notes. Code and data available at Zenodo: https://doi.org/10.5281/zenodo.21438523. Preprint also available at Preprints.org: https://doi.org/10.20944/preprints202607.1645.v1",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.20377",
+  "pdf": "https://arxiv.org/pdf/2607.20377",
+  "html": "https://arxiv.org/html/2607.20377"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.20377v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-23T09:10:19.597Z",
+  "hook": "Gate twirling preserved quantum kernel geometry up to 0.989 CKA, yet task relevance remained no better than random chance.",
+  "tldr": [
+   "Measured how well quantum machine learning dataset geometry survives execution on IBM hardware using a 4-qubit ZZ kernel.",
+   "Ran 1024 shots on IBM Fez across baseline, dynamical decoupling, and gate twirling configurations using 24 air-quality data windows.",
+   "Gate twirling best preserved statevector geometry (CKA 0.933–0.989), but higher fidelity surprisingly reduced target alignment to near-random levels."
+  ],
+  "whyItMatters": "Building faithful quantum hardware doesn't automatically make quantum algorithms useful. Researchers must evaluate hardware execution fidelity and actual machine learning task utility side-by-side.",
+  "eli5": "Imagine taking a photo of a map with a high-resolution camera; making the picture sharper doesn't help if the map itself leads to the wrong destination. The researchers showed that reducing hardware errors on a quantum computer didn't actually help it make better real-world predictions.",
+  "keyNumbers": [
+   {
+    "value": "4",
+    "label": "qubits",
+    "context": "size of the quantum kernel feature map evaluated"
+   },
+   {
+    "value": "24",
+    "label": "air-quality windows",
+    "context": "indoor dataset instances evaluated on hardware"
+   },
+   {
+    "value": "1024",
+    "label": "shots",
+    "context": "number of executions per circuit on ibm_fez"
+   },
+   {
+    "value": "0.933-0.989",
+    "label": "CKA score range",
+    "context": "full-matrix centered kernel alignment preserved across hardware setups"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum kernel",
+    "shortDef": "A technique mapping classical data into quantum state space to measure relationships.",
+    "eli5Def": "A mathematical tool that translates normal data into quantum shapes to compare them.",
+    "wikiTitle": "Quantum machine learning"
+   },
+   {
+    "term": "Gate twirling",
+    "shortDef": "An error mitigation method that converts systematic quantum hardware noise into random noise.",
+    "eli5Def": "Shuffling quantum instructions randomly to prevent hardware glitches from biasing the final answer.",
+    "wikiTitle": "Randomized benchmarking"
+   },
+   {
+    "term": "Dynamical decoupling",
+    "shortDef": "A sequence of fast control pulses used to protect quantum bits from environmental interference.",
+    "eli5Def": "Flipping a quantum particle back and forth quickly so outside disturbance cancels out.",
+    "wikiTitle": "Dynamical decoupling"
+   },
+   {
+    "term": "Centered kernel alignment",
+    "shortDef": "A statistical metric (0 to 1) measuring the similarity between two data similarity matrices.",
+    "eli5Def": "A score showing how closely two different mapping methods group the exact same data.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

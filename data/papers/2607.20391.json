@@ -1,0 +1,74 @@
+{
+ "id": "2607.20391",
+ "version": 1,
+ "title": "Qoreo: Choreographic Programming for Quantum Distributed Systems",
+ "authors": [
+  {
+   "name": "Jennifer Paykin"
+  },
+  {
+   "name": "Steven Baldasty"
+  },
+  {
+   "name": "Joseph P. Near"
+  },
+  {
+   "name": "Christian Skalka"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.PL"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-22T17:25:15Z",
+ "updated": "2026-07-22T17:25:15Z",
+ "abstract": "Programming distributed quantum systems requires multiple actors to coordinate precise sequences of quantum operations, classical communication, and entanglement generation. Writing such protocols directly as distributed processes is tedious and error-prone, and subtle mismatches can cause deadlock or silently incorrect quantum states. We present Qoreo, a choreographic programming language for quantum distributed systems in which an entire protocol is expressed as single, global program (a choreography) rather than as a collection of independent actor processes. Qoreo includes a local quantum language with linear types that enforce the no-cloning principle; a choreographic language that combines local quantum computation with inter-actor classical and quantum communication; and a process language for individual network nodes. We prove type safety for choreographies, guaranteeing that well-typed programs implement well-defined quantum operations, and we define endpoint projection~(EPP), which automatically derives a network of independent processes from any choreography. We prove EPP sound and complete with respect to the choreographic semantics; as a corollary, every well-typed choreography projects to a deadlock-free process network. The metatheory of Qoreo is fully mechanized in Rocq, and we provide an extraction pipeline to NetQASM for simulation and deployment on quantum network hardware.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.20391",
+  "pdf": "https://arxiv.org/pdf/2607.20391",
+  "html": "https://arxiv.org/html/2607.20391"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-23T09:10:19.597Z",
+  "hook": "Qoreo lets programmers write global quantum protocols that project into guaranteed deadlock-free node networks.",
+  "tldr": [
+   "Designed Qoreo, a choreographic programming language for distributed quantum network protocols.",
+   "Applied linear types to prevent quantum cloning and mechanized endpoint projection proofs in Rocq.",
+   "Proved well-typed programs generate deadlock-free node networks and targetable NetQASM code."
+  ],
+  "whyItMatters": "Hand-writing distributed quantum software easily leads to communication deadlocks or corrupted states; automated global compilation eliminates these bugs.",
+  "eli5": "Instead of writing individual instruction lists for every single dancer, you write one master dance script, and a computer automatically hands each dancer error-free steps.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Choreographic programming",
+    "shortDef": "A paradigm where cooperative concurrent systems are programmed from a global viewpoint.",
+    "eli5Def": "Writing one master program for an entire network instead of separate scripts for every computer.",
+    "wikiTitle": "Choreographic programming"
+   },
+   {
+    "term": "No-cloning theorem",
+    "shortDef": "A fundamental rule of quantum mechanics stating that an unknown quantum state cannot be duplicated.",
+    "eli5Def": "A rule of nature saying you cannot make an exact copy of a secret quantum message.",
+    "wikiTitle": "No-cloning theorem"
+   },
+   {
+    "term": "Type safety",
+    "shortDef": "A programming language feature preventing type errors and ensuring program execution semantics.",
+    "eli5Def": "A guardrail in computer code that catches silly mistakes before you run the program.",
+    "wikiTitle": "Type safety"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

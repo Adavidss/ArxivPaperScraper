@@ -1,0 +1,90 @@
+{
+ "id": "2607.21555",
+ "version": 1,
+ "title": "Enhancing Entanglement Purification with Shared Randomness",
+ "authors": [
+  {
+   "name": "Allen Zang"
+  },
+  {
+   "name": "Bikun Li"
+  },
+  {
+   "name": "Xinan Chen"
+  },
+  {
+   "name": "Eric Chitambar"
+  },
+  {
+   "name": "Liang Jiang"
+  },
+  {
+   "name": "Martin Suchara"
+  },
+  {
+   "name": "Tian Zhong"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-23T17:37:35Z",
+ "updated": "2026-07-23T17:37:35Z",
+ "abstract": "Entanglement purification protocols (EPPs) are essential for improving entanglement fidelity to support fault-tolerant distributed quantum information processing. Practical entanglement sources are often heterogeneous and source labels may be unavailable at the EPP layer. We show that classical shared randomness, together with buffer memories, can enhance entanglement purification when source labels are unavailable, without state characterization or EPP circuit optimization. The strategy is to accumulate multiple entanglement distribution rounds and then use shared randomness to shuffle all the stored entangled states before packaging them as inputs to the EPP. For any $n$ Werner sources and any fixed $n$-to-1 bilocal Clifford EPP, we prove that accumulating and shuffling improves the expected success probability and the success-weighted output Bell fidelity over the baseline without accumulating and shuffling, for every $n$, for every finite number of accumulation rounds and in the asymptotic limit, and the improvement increases monotonically with the number of accumulation rounds.",
+ "comment": "32 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21555",
+  "pdf": "https://arxiv.org/pdf/2607.21555",
+  "html": "https://arxiv.org/html/2607.21555"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.21555v1/figures/schematics2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-24T09:04:33.643Z",
+  "hook": "Shuffling stored quantum states with shared randomness boosts entanglement purification success without custom circuit tuning.",
+  "tldr": [
+   "Researchers developed a method to improve quantum entanglement purification without state labels or customized circuits.",
+   "They stored noisy entangled states in buffer memories and shuffled them using shared classical randomness before filtering.",
+   "For all n Werner sources and fixed Clifford protocols, shuffling strictly increased fidelity and success probability."
+  ],
+  "whyItMatters": "Distributed quantum networks rely on clean entanglement across noisy links; this protocol boosts quantum signal quality using simple classical randomness.",
+  "eli5": "Imagine receiving a deck of mixed-up playing cards from different senders. By putting them in a holding box and rolling dice to shuffle them together before sorting, you end up with matched sets much faster.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Entanglement purification",
+    "shortDef": "A protocol that extracts high-fidelity entangled pairs from a collection of noisy, low-fidelity ones.",
+    "eli5Def": "A process that takes several low-quality quantum connections and combines them into one ultra-clear connection.",
+    "wikiTitle": "Entanglement purification"
+   },
+   {
+    "term": "Shared randomness",
+    "shortDef": "Identical random sequence information accessible simultaneously to distant parties.",
+    "eli5Def": "Two people far apart rolling identical dice at the same time using a pre-shared codebook.",
+    "wikiTitle": "Shared randomness"
+   },
+   {
+    "term": "Werner state",
+    "shortDef": "A class of bipartite quantum states that mix a pure maximally entangled state with unpolarized noise.",
+    "eli5Def": "A quantum link that is partly perfect communication and partly useless static background noise.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Clifford group",
+    "shortDef": "A set of quantum operations that map Pauli operators to Pauli operators, useful in error correction.",
+    "eli5Def": "A special set of simple quantum maneuvers that are easy to build and control reliably.",
+    "wikiTitle": "Clifford group"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

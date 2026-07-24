@@ -1,0 +1,110 @@
+{
+ "id": "2607.21563",
+ "version": 1,
+ "title": "Fault-tolerant quantum algorithms for simulating atomic nuclei",
+ "authors": [
+  {
+   "name": "James Benstead"
+  },
+  {
+   "name": "Michael Garn"
+  },
+  {
+   "name": "Neil Gaspar"
+  },
+  {
+   "name": "Sean Greenaway"
+  },
+  {
+   "name": "Angus Kan"
+  },
+  {
+   "name": "Lloyd La Ronde"
+  },
+  {
+   "name": "Chandan Sarma"
+  },
+  {
+   "name": "Paul Stevenson"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "nucl-th"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-23T17:47:56Z",
+ "updated": "2026-07-23T17:47:56Z",
+ "abstract": "To maximize the value of fault-tolerant quantum computers, it is essential to develop concrete applications beyond well-established domains such as chemistry and condensed-matter physics. Here we construct and compile quantum algorithms to simulate the structure of atomic nuclei -- a topic that has received relatively little attention from the quantum computing community despite its similarities to the electronic structure problem in chemistry -- via effective shell-model Hamiltonians and no-core-shell-model Hamiltonians with three-body interactions derived from chiral effective field theory. Furthermore, we provide quantum resource estimates, in terms of Toffoli gate and qubit counts, for these algorithms, which, to our knowledge, are the first such estimates for fault-tolerant quantum simulation of atomic nuclei. Notably, the estimates for $^{32}$Mg and $^{219}$At shell-model Hamiltonians are comparable to recent estimates of Femoco simulations, a standard benchmark in chemistry. For no-core-shell-model Hamiltonians suitable for light nuclei (up to $^{40}$Ca or so), we find that resource requirements are significantly higher, suggesting that more bespoke strategies are required to make such simulations practicable. Throughout this work, we draw upon the similarities between nuclear and electronic structure problems, while also highlighting challenges that are specific to the former. We hope this work will spur long-term collaborations between the nuclear and quantum computing community with the ultimate goal of realizing useful nuclear simulations on quantum computers.",
+ "comment": "20 pages, 10 figures, 14 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21563",
+  "pdf": "https://arxiv.org/pdf/2607.21563",
+  "html": "https://arxiv.org/html/2607.21563"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.21563v1/walk.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-24T09:04:33.643Z",
+  "hook": "Quantum simulations of 32Mg and 219At nuclei require gate counts comparable to standard chemistry benchmarks like Femoco.",
+  "tldr": [
+   "Researchers developed and compiled fault-tolerant quantum algorithms to simulate the structure of atomic nuclei.",
+   "They used effective shell-model and no-core-shell-model Hamiltonians with chiral effective field theory interactions.",
+   "Simulations for 32Mg and 219At match chemistry benchmarks, but light nuclei like 40Ca demand much higher quantum resources."
+  ],
+  "whyItMatters": "Simulating atomic nuclei on quantum computers could unlock new insights into nuclear physics, expanding quantum utility beyond chemistry and condensed matter.",
+  "eli5": "Imagine building a detailed LEGO model of an atom's core using instructions meant for chemistry molecules. Simple nuclei fit standard building blocks easily, but bigger light nuclei need millions of extra pieces and new building strategies.",
+  "keyNumbers": [
+   {
+    "value": "32Mg",
+    "label": "Magnesium isotope simulated",
+    "context": "Shell-model Hamiltonian resource estimate target"
+   },
+   {
+    "value": "219At",
+    "label": "Astatine isotope simulated",
+    "context": "Shell-model Hamiltonian comparable in difficulty to Femoco"
+   },
+   {
+    "value": "40Ca",
+    "label": "Calcium isotope limit",
+    "context": "Upper limit for light nuclei in no-core-shell-model simulations"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Fault-tolerant quantum computing",
+    "shortDef": "Quantum computing capable of operating accurately despite hardware noise and errors.",
+    "eli5Def": "A super-smart quantum computer with automatic spelling check so errors never ruin the answer.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Shell model",
+    "shortDef": "A nuclear model describing nucleons occupying discrete energy levels inside the nucleus.",
+    "eli5Def": "A model that treats protons and neutrons in an atom like planets sitting in specific orbital lanes.",
+    "wikiTitle": "Nuclear shell model"
+   },
+   {
+    "term": "Toffoli gate",
+    "shortDef": "A 3-qubit reversible logic gate essential for universal quantum computation.",
+    "eli5Def": "A basic quantum light switch that only turns on if two other switches are flipped first.",
+    "wikiTitle": "Toffoli gate"
+   },
+   {
+    "term": "Femoco",
+    "shortDef": "Iron-molybdenum cofactor, a complex molecule used as a benchmark for quantum simulation.",
+    "eli5Def": "A complex molecule in bacteria that serves as a standard test puzzle for quantum computers.",
+    "wikiTitle": "FeMoco"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "2607.21583",
+ "version": 1,
+ "title": "Complexity transition in the Dicke model of light-matter interaction",
+ "authors": [
+  {
+   "name": "Yicheng Zhang"
+  },
+  {
+   "name": "Erhai Zhao"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-07-23T17:57:15Z",
+ "updated": "2026-07-23T17:57:15Z",
+ "abstract": "Tuning the coupling strength $g$ of an interacting quantum system may drive a sudden change in its ground-state or thermal properties. To identify and grasp non-analytical, or even discontinuous, transitions in far-from-equilibrium dynamics proves more challenging. Recently Krylov complexity $C_K$ has offered fresh insights about operator growth, thermalization, and chaos in quantum dynamics. Yet it remains unclear if, and how, changing $g$ can trigger a sharp transition in the complexity measures. Here we present evidence for such a transition by mapping out the complexity phase diagram of the paradigmatic Dicke model describing two-level atoms coupled to a cavity photon mode. Two qualitatively different regimes of dynamics are identified and characterized. At the transition, the slope of $C_K$ changes suddenly to coincide with a jump in the Krylov entropy. We elucidate the nature of the regime change from the wave packet dynamics in Krylov space, where a particle is confined by a roughly linear potential but hops as if it lives in a Rindler reference frame. The competition between confinement, which leads to bouncing, and deconfinement by Rindler hopping, which leads to the destruction of wave packet analogous to gravitational spaghettification, is sensitive to the disorder in Lanczos coefficients. The framework outlined here can be applied to other quantum many-body systems.",
+ "comment": "12 pages, 12 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21583",
+  "pdf": "https://arxiv.org/pdf/2607.21583",
+  "html": "https://arxiv.org/html/2607.21583"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.21583v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-24T09:04:33.643Z",
+  "hook": "Sharp dynamical phase transitions in Krylov complexity are uncovered in the light-matter Dicke model.",
+  "tldr": [
+   "Mapped the Krylov complexity phase diagram for the Dicke model of atoms interacting with cavity photons.",
+   "Discovered a sudden slope change in Krylov complexity accompanied by a jump in Krylov entropy.",
+   "Explained the transition using wave packet dynamics under competing linear potential confinement and frame hopping."
+  ],
+  "whyItMatters": "Understanding how chaos and quantum information spread across interacting light-matter systems helps physicists control quantum phase transitions far from equilibrium.",
+  "eli5": "Imagine a ball bouncing inside a bowl. If you push it hard enough, the way it moves suddenly changes from clean bounces to chaotic tearing, like getting stretched by intense gravity.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Dicke model",
+    "shortDef": "A quantum optics model describing an ensemble of two-level atoms interacting with a light mode.",
+    "eli5Def": "A theoretical recipe showing how a group of simplified atoms interacts with trapped light.",
+    "wikiTitle": "Dicke model"
+   },
+   {
+    "term": "Krylov complexity",
+    "shortDef": "A metric measuring how an operator grows and spreads over time in Hilbert space.",
+    "eli5Def": "A scorecard that tracks how complicated a quantum signal gets as it spreads around.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Lanczos algorithm",
+    "shortDef": "An iterative method used to adaptively build a tridiagonal basis for linear operators.",
+    "eli5Def": "A math shortcut for simplifying gigantic grid problems into manageable lines.",
+    "wikiTitle": "Lanczos algorithm"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "id": "2607.21584",
+ "version": 1,
+ "title": "Flow-based Phase-space Tomography of Continuous-variable Quantum States",
+ "authors": [
+  {
+   "name": "Owen Dugan"
+  },
+  {
+   "name": "Rumen Dangovski"
+  },
+  {
+   "name": "Peter Y. Lu"
+  },
+  {
+   "name": "Di Luo"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-23T17:57:22Z",
+ "updated": "2026-07-23T17:57:22Z",
+ "abstract": "Continuous-variable quantum state tomography is limited by the cost of resolving non-Gaussian structure in high-dimensional phase space. We introduce QST-Flow, a quantum state tomography framework via flow-based generative modeling that represents experimentally accessible phase-space quasiprobability distributions with normalized, samplable neural densities rather than a truncated density matrix. The framework has two variants: QST-QFlow models the positive Husimi-$Q$ function with a single normalizing flow, while QST-WFlow models sign-changing Wigner functions as a trainable difference of two normalized flows. This construction preserves quasiprobability normalization and enables exact density evaluation, direct sampling, and importance-sampled learning from finite phase-space measurements without a fixed grid. Benchmarks on non-Gaussian cat, binomial, Gottesman-Kitaev-Preskill, number, and Fock states show accurate single-mode reconstructions, extension to multimode states, robustness on noisy Wigner data, and improved reconstruction error compared with prior machine-learning tomography methods. QST-Flow opens a promising route toward scalable, measurement-efficient phase-space tomography of nonclassical bosonic systems.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21584",
+  "pdf": "https://arxiv.org/pdf/2607.21584",
+  "html": "https://arxiv.org/html/2607.21584"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.21584v1/figures/figure1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-24T09:04:33.643Z",
+  "hook": "QST-Flow uses generative neural network flows to reconstruct continuous quantum states directly from experimental data.",
+  "tldr": [
+   "Created a framework called QST-Flow using normalizing flows to represent high-dimensional continuous quantum states.",
+   "Modeled positive states with single flows and sign-changing Wigner functions using a difference of two normalized flows.",
+   "Reconstructed non-Gaussian states accurately without needing fixed computational grids or density matrix truncation."
+  ],
+  "whyItMatters": "Measuring continuous-variable quantum systems usually requires huge computational grids and state approximations that scale poorly. This approach enables direct, scalable reading of complex quantum information used in advanced quantum optics and computing.",
+  "eli5": "Instead of taking thousands of grid pictures to map out a foggy room, this approach uses a smart generator function that learns the exact shape of the fog directly from a few scattered light measurements.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum state tomography",
+    "shortDef": "Reconstructing the full quantum state of a system from experimental measurements.",
+    "eli5Def": "Rebuilding a complete 3D model of a quantum system by taking many partial snapshots.",
+    "wikiTitle": "Quantum state tomography"
+   },
+   {
+    "term": "Normalizing flow",
+    "shortDef": "A generative model transform that converts simple distributions into complex ones.",
+    "eli5Def": "A mathematical machine that warps a simple random shape into a precise, complicated distribution.",
+    "wikiTitle": "Flow-based generative model"
+   },
+   {
+    "term": "Wigner quasiprobability distribution",
+    "shortDef": "A phase-space representation of a quantum state that can take negative values.",
+    "eli5Def": "A quantum map showing position and momentum, where negative areas signal quantum behavior.",
+    "wikiTitle": "Wigner quasiprobability distribution"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

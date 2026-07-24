@@ -1,0 +1,73 @@
+{
+ "id": "2607.21569",
+ "version": 1,
+ "title": "A geometric framework for spin relaxation",
+ "authors": [
+  {
+   "name": "Sophia N. Fricke"
+  },
+  {
+   "name": "Kieren A. Harkins"
+  },
+  {
+   "name": "Ashok Ajoy"
+  },
+  {
+   "name": "Jeffrey A. Reimer"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-23T17:50:26Z",
+ "updated": "2026-07-23T17:50:26Z",
+ "abstract": "Spin relaxation is conventionally described by two independent phenomenological rates - longitudinal ($R_1$) and transverse ($R_2$) - whose separation obscures a deeper structural unity. Here we develop a geometric framework in which dissipation is represented by a single covariant relaxation tensor acting in Liouville space, from which $R_1$ and $R_2$ emerge as complementary projections. This tensor structure is not merely formal but is experimentally accessible through pulse sequences that probe noncommuting directions in spin space. Using hyperpolarized $^{13}C$ spins in diamond with nitrogen-vacancy centers, we show that commuting pulse trains yield effective relaxation matrices that are approximately diagonal, while noncommuting sequences produce off-diagonal components that vary with transmitter frequency offset and pulse ordering, providing evidence that relaxation is a directional process governed by a tensor rather than a pair of scalar rates. Complementary measurements of geometric phase demonstrate that noncommuting dynamics introduce ordering-dependent effects that are separable from dissipation, consistent with the interpretation of relaxation as geometric transport on the state manifold. This framework unifies Bloch, Redfield, and Lindblad descriptions within a coordinate-independent formulation and provides a natural language for relaxation in driven, anisotropic, and non-equilibrium spin systems.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21569",
+  "pdf": "https://arxiv.org/pdf/2607.21569",
+  "html": "https://arxiv.org/html/2607.21569"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-24T09:04:33.643Z",
+  "hook": "Experiments on diamond NV centers reframe spin relaxation as directional transport governed by a unified tensor.",
+  "tldr": [
+   "Developed a geometric framework treating spin relaxation as a single covariant tensor in Liouville space.",
+   "Tested noncommuting pulse sequences on hyperpolarized diamond carbon-13 spins connected to NV centers.",
+   "Demonstrated off-diagonal relaxation matrix components, proving relaxation depends on pulse ordering and direction."
+  ],
+  "whyItMatters": "Replacing separate longitudinal and transverse rates with a single geometric tensor offers better precision for nuclear magnetic resonance (NMR) and quantum sensing in complex materials.",
+  "eli5": "Instead of measuring wind speed only north-south and east-west separately, scientists built a 3D compass that captures the exact direction and swirl of how spinning tops lose their speed.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Nitrogen-vacancy center",
+    "shortDef": "A point defect in diamond used as a magnetic sensor and quantum memory qubit.",
+    "eli5Def": "A tiny missing carbon atom next to a nitrogen atom in diamond that acts like an accessible quantum spin.",
+    "wikiTitle": "Nitrogen-vacancy center"
+   },
+   {
+    "term": "Liouville space",
+    "shortDef": "A vector space formed by density operators acting on a quantum state space.",
+    "eli5Def": "A mathematical playground where state mixtures and changes are drawn as geometric directions.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Spin relaxation",
+    "shortDef": "The process by which non-equilibrium magnetic moments return to thermal equilibrium.",
+    "eli5Def": "How aligned spinning particles gradually lose their alignment and slow down.",
+    "wikiTitle": "Relaxation (NMR)"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

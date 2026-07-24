@@ -1,0 +1,272 @@
+{
+ "id": "2607.21554",
+ "version": 1,
+ "title": "Strategic Plan for Neutral Atom Quantum Computation",
+ "authors": [
+  {
+   "name": "Adrian J. Menssen"
+  },
+  {
+   "name": "Tout Wang"
+  },
+  {
+   "name": "Michael Gullans"
+  },
+  {
+   "name": "Tom Manovitz"
+  },
+  {
+   "name": "Jacob M. Taylor"
+  },
+  {
+   "name": "Jason Cong"
+  },
+  {
+   "name": "Josiah Sinclair"
+  },
+  {
+   "name": "Ziv Aqua"
+  },
+  {
+   "name": "Daniel J. Blumenthal"
+  },
+  {
+   "name": "J. Pablo Bonilla Ataides"
+  },
+  {
+   "name": "Johannes Borregaard"
+  },
+  {
+   "name": "Antoine Browaeys"
+  },
+  {
+   "name": "Paola Cappellaro"
+  },
+  {
+   "name": "Soonwon Choi"
+  },
+  {
+   "name": "Alexandre Cooper"
+  },
+  {
+   "name": "Robin Côté"
+  },
+  {
+   "name": "Jacob P. Covey"
+  },
+  {
+   "name": "Alexandre Dauphin"
+  },
+  {
+   "name": "Ivana Dimitrova"
+  },
+  {
+   "name": "Matt Eichenfield"
+  },
+  {
+   "name": "Dirk Englund"
+  },
+  {
+   "name": "Jacob Freedman"
+  },
+  {
+   "name": "Akihisa Goban"
+  },
+  {
+   "name": "Brandon Grinkemeyer"
+  },
+  {
+   "name": "Andi Gu"
+  },
+  {
+   "name": "Ruonan Han"
+  },
+  {
+   "name": "Dominik Hangleiter"
+  },
+  {
+   "name": "Aram W. Harrow"
+  },
+  {
+   "name": "Liang Jiang"
+  },
+  {
+   "name": "Eun-ah Kim"
+  },
+  {
+   "name": "Felix W. Knollmann"
+  },
+  {
+   "name": "Aleksander Kubica"
+  },
+  {
+   "name": "Thierry Lahaye"
+  },
+  {
+   "name": "Lucas Lassabliere"
+  },
+  {
+   "name": "Joonho Lee"
+  },
+  {
+   "name": "Bingzhao Li"
+  },
+  {
+   "name": "Mo Li"
+  },
+  {
+   "name": "Wan-Hsuan Lin"
+  },
+  {
+   "name": "Mikhail D. Lukin"
+  },
+  {
+   "name": "Varun Menon"
+  },
+  {
+   "name": "Thomas Propson"
+  },
+  {
+   "name": "Akbar Safari"
+  },
+  {
+   "name": "Mark Saffman"
+  },
+  {
+   "name": "Pascal Scholl"
+  },
+  {
+   "name": "Alexander Schuckert"
+  },
+  {
+   "name": "Giulia Semeghini"
+  },
+  {
+   "name": "Jonathan Simon"
+  },
+  {
+   "name": "David Spierings"
+  },
+  {
+   "name": "Daniel Bochen Tan"
+  },
+  {
+   "name": "Shai Tsesses"
+  },
+  {
+   "name": "Vladan Vuletic"
+  },
+  {
+   "name": "Hanrui Wang"
+  },
+  {
+   "name": "Hanyu Wang"
+  },
+  {
+   "name": "Susanne Yelin"
+  },
+  {
+   "name": "Johannes Zeiher"
+  },
+  {
+   "name": "Hengyun Zhouckert"
+  },
+  {
+   "name": "Giulia Semeghini"
+  },
+  {
+   "name": "Jonathan Simon"
+  },
+  {
+   "name": "David Spierings"
+  },
+  {
+   "name": "Daniel Bochen Tan"
+  },
+  {
+   "name": "Shai Tsesses"
+  },
+  {
+   "name": "Vladan Vuletic"
+  },
+  {
+   "name": "Hanrui Wang"
+  },
+  {
+   "name": "Hanyu Wang"
+  },
+  {
+   "name": "Susanne Yelin"
+  },
+  {
+   "name": "Johannes Zeiher"
+  },
+  {
+   "name": "Hengyun Zhou"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.atom-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-23T17:36:19Z",
+ "updated": "2026-07-23T17:36:19Z",
+ "abstract": "We present a strategic plan for neutral atom quantum computation, bringing together hardware development and theory advancements to achieve the goal of practical quantum advantage. The concept of practical quantum advantage is defined, along with how to verify claims of advantage, and approaches to designing quantum algorithms that deliver practical advantage. Future directions for neutral atom quantum processor hardware are described: scaling-up system size, Qubit encodings and atomic platforms, going further below threshold with neutral-atom logical-qubit performance, continuous reloading of qubits, and fast readout. We also explore opportunities for scalable integrated photonic control technologies. Alongside hardware advancements, new developments in quantum error correction and compilation of quantum circuits are proposed. Finally, we examine the opportunity of networking multiple neutral atom quantum processors together to perform distributed quantum computing and overcome possible limitations of a single system.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21554",
+  "pdf": "https://arxiv.org/pdf/2607.21554",
+  "html": "https://arxiv.org/html/2607.21554"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.21554v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-24T09:04:33.643Z",
+  "hook": "A new roadmap outlines how neutral-atom quantum processors can achieve practical quantum advantage through hardware and networking.",
+  "tldr": [
+   "Researchers outlined a comprehensive strategic roadmap to achieve practical quantum advantage using neutral atoms.",
+   "They synthesized developments in atomic hardware, photonic control, quantum error correction, and multi-processor networking.",
+   "They established clear criteria for verifying advantage and identified core hardware priorities like continuous qubit reloading."
+  ],
+  "whyItMatters": "Neutral atoms are a leading quantum computing hardware platform; a clear strategic framework accelerates the transition from laboratory demos to real-world utility.",
+  "eli5": "Think of this like a blueprint for building the ultimate supercomputer out of floating, trapped atoms. It maps out how to upgrade the atomic hardware, write better software, and plug multiple quantum machines together.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Neutral atom quantum computing",
+    "shortDef": "Quantum processing using uncharged individual atoms held in place by laser beams.",
+    "eli5Def": "Building a quantum computer by trapping single floating atoms inside invisible laser tractor beams.",
+    "wikiTitle": "Neutral atom quantum computer"
+   },
+   {
+    "term": "Quantum advantage",
+    "shortDef": "The threshold where a quantum computer solves a practical problem faster or better than any classical supercomputer.",
+    "eli5Def": "The moment a quantum computer solves a useful real-world task that no regular supercomputer can match.",
+    "wikiTitle": "Quantum supremacy"
+   },
+   {
+    "term": "Quantum error correction",
+    "shortDef": "Methods to protect quantum information from errors caused by environmental noise.",
+    "eli5Def": "A system of backup checks that fixes delicate quantum data before static ruins the calculation.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Integrated photonics",
+    "shortDef": "Microchips that manipulate light signals instead of electrical currents on a miniature scale.",
+    "eli5Def": "Tiny computer chips that route laser beams through microscopic glass tubes instead of wires.",
+    "wikiTitle": "Photonic integrated circuit"
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 50
+ }
+}

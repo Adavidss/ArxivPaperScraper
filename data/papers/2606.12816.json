@@ -1,6 +1,6 @@
 {
  "id": "2606.12816",
- "version": 3,
+ "version": 4,
  "title": "Graph Reinforcement Learning for Calibration-Aware Quantum Circuit Routing",
  "authors": [
   {
@@ -17,9 +17,9 @@
  ],
  "primaryCategory": "quant-ph",
  "published": "2026-06-11T02:21:49Z",
- "updated": "2026-06-25T14:09:45Z",
- "abstract": "Quantum circuit routing is a key step in compiling programs for noisy intermediate-scale quantum processors. Routes that appear efficient by standard overhead metrics can still lose fidelity when they pass through poorly calibrated couplers. We study a calibration-aware graph reinforcement-learning router that uses same-day IBM Heron r2 calibration data to choose hardware-edge SWAPs. We train the policy with proximal policy optimization and evaluate it with exact simulated fidelity across nine Munich Quantum Toolkit (MQT) Bench circuits and three calibration snapshots. Across these evaluations, pooled mean exact fidelity is $0.727$, compared with $0.440$ for SABRE-best20 and $0.481$ for target-aware SABRE. We observed that fidelity gains came with higher routed two-qubit counts and were concentrated in 5 qubit and 8 qubit circuit families; under the fixed tree action graph, all 10 qubit families favored SABRE-best20. Overall, our results show that calibration-aware learned routing can improve fidelity beyond gate-count-driven compilation.",
- "comment": "Submitted to IEEE Quantum Week International Workshop on AI for Circuit Synthesis, Optimization, and Discovery 2026. Code is available: https://github.com/YTomar79/calibration-aware-rl-routing",
+ "updated": "2026-07-23T02:14:40Z",
+ "abstract": "Quantum circuit routing is a key step in compiling programs for noisy intermediate-scale quantum processors, particularly superconducting devices whose sparse fixed coupling makes routing a central compilation cost. Routes that appear efficient by standard overhead metrics such as SWAP count, routed two-qubit count, and depth can still lose fidelity when they pass through poorly calibrated couplers. We study a calibration-aware graph reinforcement-learning router that uses same-day calibration data from superconducting IBM Heron r2 processors to choose hardware-edge SWAPs. We train the policy with proximal policy optimization and evaluate it with exact simulated fidelity across nine Munich Quantum Toolkit (MQT) Bench circuits and three calibration snapshots. Across these evaluations, pooled mean exact fidelity is 0.727, compared with 0.440 for SWAP-based bidirectional heuristic search (SABRE)-best20 and 0.481 for target-aware SABRE. We observe that fidelity gains come with higher routed two-qubit counts and are concentrated in 5 qubit and 8 qubit circuit families; under the fixed tree action graph, all 10 qubit families favor SABRE-best20. Overall, our results show that calibration-aware learned routing can improve fidelity beyond gate-count-driven compilation, by roughly 0.25 to 0.29 in absolute mean fidelity over the SABRE-family baselines.",
+ "comment": "IEEE International Conference on Quantum Computing and Engineering AI4QC Workshop (QCE 2026)",
  "doi": null,
  "links": {
   "abs": "https://arxiv.org/abs/2606.12816",
@@ -37,53 +37,53 @@
  "biteStatus": "ok",
  "bite": {
   "model": "gemini-flash-latest",
-  "generatedAt": "2026-07-12T18:08:29.310Z",
-  "hook": "Reinforcement learning boosts quantum circuit fidelity to 0.727 by routing around poorly calibrated hardware.",
+  "generatedAt": "2026-07-24T09:04:33.643Z",
+  "hook": "Graph RL quantum routing using daily calibration data achieves 0.727 fidelity, outperforming SABRE baselines by ~0.28.",
   "tldr": [
-   "They developed a graph reinforcement learning router that uses daily calibration data to guide quantum circuit compilation.",
-   "They trained the policy using Proximal Policy Optimization and tested it on IBM Heron r2 hardware calibration snapshots.",
-   "They achieved a pooled mean exact fidelity of 0.727, significantly outperforming the standard SABRE-best20 baseline of 0.440."
+   "Trained a graph reinforcement learning agent to route quantum circuits using real-time hardware calibration data.",
+   "Evaluated proximal policy optimization against SABRE algorithms on IBM Heron r2 quantum processors across 9 benchmark circuits.",
+   "Achieved a mean exact fidelity of 0.727 compared to 0.440 for SABRE-best20, though gate counts were higher."
   ],
-  "whyItMatters": "Quantum computers are highly sensitive to noise, and their physical connections drift out of calibration daily. By teaching an AI to route quantum information around the 'sickest' parts of the chip using fresh daily data, we can run much more reliable quantum programs.",
-  "eli5": "Think of a quantum computer like a city roadmap where some roads get potholes that change every day. Instead of using the shortest route on paper, this AI looks at today's pothole report and guides the quantum information along the smoothest roads, keeping the data safe.",
+  "whyItMatters": "Quantum computers often lose accuracy when algorithms route operations through noisy, poorly calibrated hardware components. Incorporating daily hardware health reports directly into compiler decisions significantly improves final calculation accuracy.",
+  "eli5": "Imagine navigating a city using a GPS that not only picks the shortest path but also checks real-time pothole reports. Even if the clean route is slightly longer, avoiding bad roads ensures your package arrives intact.",
   "keyNumbers": [
    {
     "value": "0.727",
     "label": "Mean exact fidelity",
-    "context": "Achieved by the proposed calibration-aware reinforcement learning router"
+    "context": "Achieved by the graph reinforcement learning router across benchmark circuits"
    },
    {
     "value": "0.440",
-    "label": "Mean exact fidelity",
-    "context": "Achieved by the standard SABRE-best20 baseline"
+    "label": "SABRE-best20 fidelity",
+    "context": "Baseline fidelity metric using standard heuristic quantum routing"
    },
    {
-    "value": "0.481",
-    "label": "Mean exact fidelity",
-    "context": "Achieved by the target-aware SABRE baseline"
+    "value": "0.25 to 0.29",
+    "label": "Absolute fidelity gain",
+    "context": "Improvement over standard SABRE-family compiler baselines"
    }
   ],
   "glossary": [
    {
-    "term": "quantum circuit routing",
-    "shortDef": "The process of mapping logical qubits to physical qubits on a hardware layout using SWAP gates.",
-    "eli5Def": "Moving quantum information around a computer chip so that the right parts can talk to each other.",
+    "term": "Quantum circuit routing",
+    "shortDef": "Mapping virtual quantum gates onto physical hardware connectivity graphs.",
+    "eli5Def": "Rearranging instructions so physical quantum bits can talk to each other directly.",
     "wikiTitle": null
    },
    {
-    "term": "fidelity",
-    "shortDef": "A measure of how close a quantum state is to the ideal, noise-free target state.",
-    "eli5Def": "A score of how perfect and error-free a quantum calculation is.",
-    "wikiTitle": "Fidelity of quantum states"
+    "term": "Proximal Policy Optimization",
+    "shortDef": "A model-free reinforcement learning algorithm used to train stable control policies.",
+    "eli5Def": "A method for teaching an AI by giving rewards while making sure it doesn't change its strategy too wildly at once.",
+    "wikiTitle": "Proximal Policy Optimization"
    },
    {
-    "term": "Proximal Policy Optimization",
-    "shortDef": "A popular reinforcement learning algorithm used to train stable policy functions.",
-    "eli5Def": "A training method for AI that helps it learn by trial and error without making wild, unstable changes to its strategy.",
-    "wikiTitle": "Proximal Policy Optimization"
+    "term": "SWAP gate",
+    "shortDef": "A quantum gate operation that exchanges the quantum states of two qubits.",
+    "eli5Def": "An instruction that swaps the places of two quantum particles.",
+    "wikiTitle": "Controlled NOT gate"
    }
   ],
   "difficulty": 3,
-  "readSeconds": 65
+  "readSeconds": 60
  }
 }

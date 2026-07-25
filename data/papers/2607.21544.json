@@ -1,0 +1,104 @@
+{
+ "id": "2607.21544",
+ "version": 1,
+ "title": "The trainability of photonic quantum circuits",
+ "authors": [
+  {
+   "name": "Alexander Makarovskiy"
+  },
+  {
+   "name": "Adam Taylor"
+  },
+  {
+   "name": "Zhenghao Li"
+  },
+  {
+   "name": "Michael Hanks"
+  },
+  {
+   "name": "Aubrey Clark"
+  },
+  {
+   "name": "M. S. Kim"
+  },
+  {
+   "name": "Ian Walmsley"
+  },
+  {
+   "name": "William Clements"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-23T17:31:09Z",
+ "updated": "2026-07-23T17:31:09Z",
+ "abstract": "Variational quantum algorithms are a leading approach to near-term quantum computing, but their scalability can be limited by barren plateaus and the sampling cost of resolving small changes in the loss landscape. Here, we study the trainability of passive linear-optical quantum circuits and introduce a framework based on the ratio of sample variance to circuit variance. This ratio determines the number of circuit samples required to resolve local loss differences and gradients to proportional accuracy. We apply this framework to photon-number observables and identify both trainable and non-trainable regimes. Supported by analytic results and a numerically observed polynomial decay of the circuit variance, we find that fixed-order photon-number polynomials require only polynomially many samples as the system size grows, whereas high-order polynomials and observables based on output probabilities generally require exponentially many samples. Within the trainable regime, we further identify classes of observables in which quantum estimation achieves a polynomial speed-up over multiple classical methods. Within this family, neural network observables provide one practical construction that allow measurement outcomes to be efficiently processed into the desired polynomial. These results establish photonic variational quantum computing as a promising platform for near-term applications.",
+ "comment": "53 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21544",
+  "pdf": "https://arxiv.org/pdf/2607.21544",
+  "html": "https://arxiv.org/html/2607.21544"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.21544v1/Figure1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-25T08:31:36.262Z",
+  "hook": "Photonic quantum circuits stay trainable when using fixed-order polynomial observables instead of output probabilities.",
+  "tldr": [
+   "They analyzed what makes photonic quantum circuits trainable in variational quantum algorithms.",
+   "They introduced a framework comparing sample variance to circuit variance across photon-number observables.",
+   "They showed low-order polynomials require polynomial samples, while high-order ones scale exponentially."
+  ],
+  "whyItMatters": "Variational quantum computing is essential for near-term quantum applications, but hard to train. Identifying exactly which measurements keep algorithms scalable provides a blueprint for practical quantum advantage on light-based computers.",
+  "eli5": "Training a quantum computer can feel like searching for a needle in a pitch-black haystack because tiny changes are hard to measure. This work shows that measuring light particles in a specific simple way keeps the lights on so the computer can actually learn.",
+  "keyNumbers": [
+   {
+    "value": "53",
+    "label": "Pages",
+    "context": "Length of the full manuscript including appendix and figures."
+   },
+   {
+    "value": "10",
+    "label": "Figures",
+    "context": "Total number of figures illustrating analytic and numerical results."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Variational Quantum Algorithm",
+    "shortDef": "A hybrid quantum-classical algorithm that iteratively optimizes quantum circuit parameters.",
+    "eli5Def": "A team effort where a regular computer gives instructions and a quantum computer tests them to solve hard problems.",
+    "wikiTitle": "Variational quantum eigensolver"
+   },
+   {
+    "term": "Barren Plateaus",
+    "shortDef": "Regions in a quantum optimization landscape where gradients vanish exponentially.",
+    "eli5Def": "A flat landscape where every direction looks identical, making it impossible to know which way to walk.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Linear-Optical Quantum Circuit",
+    "shortDef": "A quantum processing circuit that uses photons and optical components like beam splitters.",
+    "eli5Def": "A quantum computer that processes information using particles of light bouncing through lenses and mirrors.",
+    "wikiTitle": "Linear optical quantum computing"
+   },
+   {
+    "term": "Photon-Number Observables",
+    "shortDef": "Physical properties measured by counting individual particles of light emitted by the circuit.",
+    "eli5Def": "Counting how many tiny specks of light land on a detector at the end of a test.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "id": "2607.21528",
+ "version": 1,
+ "title": "Probing the nonlocality of Landau levels in GaAs quantum wells through modified Purcell factors, Lamb shifts and dipole emitted spectra",
+ "authors": [
+  {
+   "name": "Lara Greten"
+  },
+  {
+   "name": "Sabrina Meyer"
+  },
+  {
+   "name": "Christina Schröder"
+  },
+  {
+   "name": "Andreas Knorr"
+  },
+  {
+   "name": "Stephen Hughes"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-07-23T17:15:01Z",
+ "updated": "2026-07-23T17:15:01Z",
+ "abstract": "In a two-dimensional electron gas, a strong perpendicular magnetic field confines electrons to quantized cyclotron orbits, giving rise to Landau levels with discrete orbit radii. Even the smallest Landau orbit, set by the magnetic length, spans tens of nanometers for fields of a few Tesla, imposing an intrinsic nonlocal response to electromagnetic excitations. From a microscopic theory of the nonlocal susceptibility, we derive the Green's function, the central quantity governing all electromagnetic interactions, and evaluate Purcell factors, Lamb shifts, and emission spectra from a proximal dipole emitter beyond the Markov and rotating-wave approximations. Significant nonlocal effects resulting from spatial dispersion of the Landau level response modify the response for experimentally relevant situations up to distances of hundreds of nanometers and, in particular, brighten locally dipole-forbidden transitions due to near-field gradients at multiples of the cyclotron frequency. The relevant length scales are typical of state-of-the-art nanostructured terahertz architectures, and some of our nonlocal features are consistent with recent experiments using Landau level polaritons.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21528",
+  "pdf": "https://arxiv.org/pdf/2607.21528",
+  "html": "https://arxiv.org/html/2607.21528"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.21528v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-25T08:31:36.262Z",
+  "hook": "Spatial dispersion in Landau levels brightens forbidden quantum transitions at distances up to hundreds of nanometers.",
+  "tldr": [
+   "Modeled the nonlocal electromagnetic response of Landau levels in 2D electron gases under magnetic fields.",
+   "Derived the system's Green's function to compute Purcell factors, Lamb shifts, and dipole emission spectra beyond standard approximations.",
+   "Found that spatial dispersion alters quantum interactions up to hundreds of nanometers away and brightens forbidden optical transitions."
+  ],
+  "whyItMatters": "Understanding nonlocal quantum interactions in two-dimensional materials is essential for engineering high-precision nanostructured terahertz devices and light-matter interfaces.",
+  "eli5": "When electrons move in strong magnetic fields, their orbits act like wide antennas rather than tiny dots. This spread-out shape allows them to pick up light signals over surprisingly long distances and activate normally hidden light frequencies.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Landau levels",
+    "shortDef": "Quantized energy states for charged particles moving in a perpendicular magnetic field.",
+    "eli5Def": "Energy steps that electrons are forced onto when spinning inside a strong magnetic field.",
+    "wikiTitle": "Landau levels"
+   },
+   {
+    "term": "Nonlocality",
+    "shortDef": "A property where electromagnetic response depends on spatial distribution, not just a single point.",
+    "eli5Def": "When an event at one exact spot directly influences the surrounding area instead of staying local.",
+    "wikiTitle": "Nonlocal response"
+   },
+   {
+    "term": "Purcell factor",
+    "shortDef": "The enhancement of a light emitter's spontaneous emission rate by its environment.",
+    "eli5Def": "How much faster a tiny light source can flash when placed near special materials.",
+    "wikiTitle": "Purcell effect"
+   },
+   {
+    "term": "Cyclotron frequency",
+    "shortDef": "The natural frequency at which a charged particle orbits perpendicular to a magnetic field.",
+    "eli5Def": "The speed at which a charged particle spins around in circles inside a magnetic field.",
+    "wikiTitle": "Cyclotron resonance"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "2607.21524",
+ "version": 1,
+ "title": "Unified theory of classical and quantum semiparametric efficiency",
+ "authors": [
+  {
+   "name": "Mankei Tsang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math.ST"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-23T17:05:24Z",
+ "updated": "2026-07-23T17:05:24Z",
+ "abstract": "In classical and quantum statistics, high-dimensional unknown parameters are abundant and it is often prudent to make minimal assumptions about them using so-called semiparametric models. To attack a wide range of semiparametric problems in one broad stroke, we present a unified treatment of statistical efficiency for classical and quantum semiparametric models, generalizing the Cramér-Rao and Helstrom bounds beyond finite-dimensional parameters. We introduce the fundamental concepts in abstract and geometric terms before applying them to many examples, covering general classical and quantum models as well as the paradigmatic special cases of Gaussian and Poisson fields. We give an in-depth treatment of channels in the semiparametric efficiency theory and advocate the use of the singular value decomposition to elucidate the statistical effects of channels. To demonstrate the utility of the formalism, we apply it to coherent and incoherent optical imaging problems, assuming an arbitrary field or intensity on the object plane without parametric assumptions. Our formalism enables us to compute classical and quantum limits to coherent and incoherent imaging resolution in statistical terms. For subdiffraction incoherent imaging, we demonstrate that spatial-mode demultiplexing can be far superior to direct imaging in estimating generalized Fourier coefficients and come closer to the quantum limits. We envision our theory becoming an essential tool for both classical and quantum statistics with useful applications to sensing and imaging, whenever minimal assumptions about a high-dimensional parameter should be made.",
+ "comment": "85 pages, 19 figures. Comments welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21524",
+  "pdf": "https://arxiv.org/pdf/2607.21524",
+  "html": "https://arxiv.org/html/2607.21524"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-25T08:31:36.262Z",
+  "hook": "A unified semiparametric theory sets new classical and quantum precision limits for super-resolution optical imaging.",
+  "tldr": [
+   "Developed a unified statistical efficiency framework for classical and quantum semiparametric estimation problems.",
+   "Extended fundamental bounds beyond finite dimensions using geometric concepts and singular value decomposition.",
+   "Proved that spatial-mode demultiplexing approaches quantum performance limits far better than direct imaging in subdiffraction microscopy."
+  ],
+  "whyItMatters": "Establishing physical statistical bounds without strict parametric assumptions allows engineers to design sensors and super-resolution microscopes that operate at the theoretical limits of physics.",
+  "eli5": "When taking ultra-sharp images, scientists often have to guess unknown background details. This new mathematical framework gives the absolute best recipe for measuring fine details without making risky guesses.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Semiparametric model",
+    "shortDef": "A statistical model combining finite-dimensional parameters of interest with infinite-dimensional unknown features.",
+    "eli5Def": "A math recipe where you focus on measuring a few important numbers while making minimal assumptions about background details.",
+    "wikiTitle": "Semiparametric model"
+   },
+   {
+    "term": "Cramér-Rao bound",
+    "shortDef": "A fundamental lower bound on the variance of estimators of a deterministic parameter.",
+    "eli5Def": "The absolute limit on how precise a measurement can possibly be given noisy data.",
+    "wikiTitle": "Cramér–Rao bound"
+   },
+   {
+    "term": "Spatial-mode demultiplexing",
+    "shortDef": "A technique that separates optical fields into distinct spatial shapes or modes before detection.",
+    "eli5Def": "Sorting light waves by their shape patterns before measuring them to see finer image details.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Subdiffraction imaging",
+    "shortDef": "Imaging methods that achieve spatial resolution below the classical optical diffraction limit.",
+    "eli5Def": "Taking clear pictures of objects that are smaller than the light waves used to see them.",
+    "wikiTitle": "Super-resolution microscopy"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

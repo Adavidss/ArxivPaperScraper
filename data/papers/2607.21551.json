@@ -1,0 +1,68 @@
+{
+ "id": "2607.21551",
+ "version": 1,
+ "title": "Unconditional Unclonable Encryption",
+ "authors": [
+  {
+   "name": "Prabhanjan Ananth"
+  },
+  {
+   "name": "Amit Sahai"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-23T17:35:44Z",
+ "updated": "2026-07-23T17:35:44Z",
+ "abstract": "We give an unconditional construction of information-theoretically secure one-time private-key unclonable encryption scheme for one-bit messages, with efficient encryption and decryption and exponentially small unclonable-indistinguishability advantage.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21551",
+  "pdf": "https://arxiv.org/pdf/2607.21551",
+  "html": "https://arxiv.org/html/2607.21551"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-25T08:31:36.262Z",
+  "hook": "Researchers built an unconditionally secure, unclonable quantum encryption scheme for one-bit messages.",
+  "tldr": [
+   "They constructed an unconditionally secure, unclonable private-key encryption scheme for one-bit messages.",
+   "They used quantum mechanics to achieve information-theoretic security with efficient encryption and decryption.",
+   "They proved the scheme has an exponentially small unclonable-indistinguishability advantage."
+  ],
+  "whyItMatters": "Quantum mechanics allows creation of digital information that cannot be copied or eavesdropped on without detection. This proof shows unclonable encryption is mathematically guaranteed without relying on unproven computational assumptions.",
+  "eli5": "Imagine sending a secret message written on a magic bubble. If an eavesdropper tries to copy the bubble, it pops and destroys the copy attempt. This paper proves a way to make these uncopyable messages completely unbreakable.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Unclonable Encryption",
+    "shortDef": "Encryption where ciphertext cannot be split into two working decryptable pieces.",
+    "eli5Def": "A secret message encoded so that two people cannot copy and read it at the same time.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Information-Theoretic Security",
+    "shortDef": "Security guaranteed by mathematics and physics, independent of computing power.",
+    "eli5Def": "A lock so secure that even a supercomputer with infinite time can never break it.",
+    "wikiTitle": "Information-theoretic security"
+   },
+   {
+    "term": "Indistinguishability Advantage",
+    "shortDef": "A measure of an attacker's ability to distinguish between encrypted messages.",
+    "eli5Def": "How much better an eavesdropper is at guessing a secret than just randomly flipping a coin.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

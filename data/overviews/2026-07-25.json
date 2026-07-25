@@ -1,0 +1,50 @@
+{
+ "date": "2026-07-25",
+ "generatedAt": "2026-07-25T08:31:36.262Z",
+ "model": "gemini-flash-latest",
+ "headline": "Advances in Quantum Verification, Cryptography, and Optics",
+ "summary": "Today's research explores formal theoretical boundaries across quantum information, optics, and condensed matter physics. Studies range from proving unconditional quantum encryption and establishing trainability limits to benchmarking AI on formal quantum mathematics. Collectively, these papers deepen our understanding of quantum capabilities and physical measurement limits.",
+ "themes": [
+  {
+   "title": "Quantum Algorithms & Formal Proofs",
+   "body": "New theoretical studies address scalability in quantum computing by establishing polynomial trainability conditions for photonic circuits and creating Lean 4 benchmarks to test AI capabilities in proving quantum theorems.",
+   "paperIds": [
+    "2607.21544",
+    "2607.21533"
+   ]
+  },
+  {
+   "title": "Information & Estimation Limits",
+   "body": "Researchers push foundational theoretical limits, proving unconditionally secure unclonable encryption using quantum mechanics and unifying classical-quantum semiparametric efficiency bounds for subdiffraction optical imaging.",
+   "paperIds": [
+    "2607.21551",
+    "2607.21524"
+   ]
+  },
+  {
+   "title": "Nonlocality & Non-Hermitian Systems",
+   "body": "Investigating spatial and topological phenomena in condensed matter, work shows non-Hermitian critical chains retain gap sensitivity near exceptional points, while Landau levels exhibit spatial dispersion that brightens forbidden transitions.",
+   "paperIds": [
+    "2607.21536",
+    "2607.21528"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Papers 2607.21544 and 2607.21533 address key formal guarantees in quantum software and theory, focusing on photonic circuit trainability bounds and AI agent performance on formal Lean 4 quantum proofs.",
+   "paperIds": [
+    "2607.21544",
+    "2607.21533"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2607.21551",
+  "2607.21544",
+  "2607.21536",
+  "2607.21533",
+  "2607.21528",
+  "2607.21524"
+ ]
+}

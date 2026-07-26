@@ -1,0 +1,132 @@
+{
+ "id": "2607.21487",
+ "version": 1,
+ "title": "An on-chip programmable mechano-quantum transducer",
+ "authors": [
+  {
+   "name": "Xinrui Zhang"
+  },
+  {
+   "name": "Wei Liu"
+  },
+  {
+   "name": "Duanyu Ma"
+  },
+  {
+   "name": "Lin-Ke Xie"
+  },
+  {
+   "name": "Nai-Jie Guo"
+  },
+  {
+   "name": "Zhongtao Gou"
+  },
+  {
+   "name": "Yifan Wang"
+  },
+  {
+   "name": "Jianxin Xu"
+  },
+  {
+   "name": "Xiaoguang Luo"
+  },
+  {
+   "name": "Zhao Mu"
+  },
+  {
+   "name": "Honglong Chang"
+  },
+  {
+   "name": "Weizheng Yuan"
+  },
+  {
+   "name": "Jian-Shun Tang"
+  },
+  {
+   "name": "Chuan-Feng Li"
+  },
+  {
+   "name": "Guangcan Guo"
+  },
+  {
+   "name": "Tao Ye"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-07-23T16:28:17Z",
+ "updated": "2026-07-23T16:28:17Z",
+ "abstract": "Solid-state spin defects encode local perturbations as measurable shifts in spin-transition frequencies, but mechanical actuation and quantum readout remain physically separated, resulting in a discrete measurement setup. Integrating these functions requires an on-site mechano-quantum interface that programs the lattice state of a defect host and quantitatively maps it onto the spin Hamiltonian. Here we first report an on-chip programmable mechano-quantum transducer (OCPMQT) that integrates voltage-defined micromechanical actuation with in situ spin-frequency readout in a two-dimensional van der Waals quantum-defect host. Mechanically programmed lattice states are encoded as shifts in the axial zero-field splitting parameter and resolved by optically detected magnetic resonance (ODMR) spectroscopy. Within a chip volume of 2.05*10^-2 cm^3, the transducer accesses ODMR-inferred strains as low as 0.0080% and delivers a volumetric force density of approximately 2.6*104 N/m^-3. A micromechanical-to-spin-Hamiltonian framework links on-chip electromechanics, interfacial strain transfer, and strain-spin coupling, enabling the electrical control micromechanical input to be measured directly as spin-frequency response.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21487",
+  "pdf": "https://arxiv.org/pdf/2607.21487",
+  "html": "https://arxiv.org/html/2607.21487"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-26T08:58:51.070Z",
+  "hook": "An on-chip quantum transducer detects strains as low as 0.0080% within a tiny volume of 2.05*10^-2 cm^3.",
+  "tldr": [
+   "Built an on-chip programmable mechano-quantum transducer integrating mechanical actuation and spin readout.",
+   "Combined voltage-driven micromechanics with optically detected magnetic resonance in a van der Waals defect host.",
+   "Measured strains down to 0.0080% with a force density of 2.6*10^4 N/m^3 in a 2.05*10^-2 cm^3 device volume."
+  ],
+  "whyItMatters": "Miniaturizing quantum sensors onto a single integrated chip bridges physical forces directly to quantum spin states. This paves the way for ultra-compact, highly sensitive quantum pressure and strain sensors for advanced electronics.",
+  "eli5": "Imagine putting tiny squeezers and special light-reading quantum compasses onto the same microchip. By turning a voltage knob, the chip squeezes itself slightly, and the quantum compass immediately senses the tiny stretch through laser light.",
+  "keyNumbers": [
+   {
+    "value": "2.05*10^-2 cm^3",
+    "label": "chip volume",
+    "context": "total device footprint containing the integrated transducer"
+   },
+   {
+    "value": "0.0080%",
+    "label": "minimum strain",
+    "context": "lowest ODMR-inferred lattice strain resolved by the transducer"
+   },
+   {
+    "value": "2.6*104 N/m^-3",
+    "label": "volumetric force density",
+    "context": "force per unit volume delivered by the transducer"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Optically Detected Magnetic Resonance",
+    "shortDef": "An optical technique for measuring electron spin resonance by monitoring changes in fluorescence intensity.",
+    "eli5Def": "A way to read out a tiny particle's magnetic alignment by shining light on it and watching how brightly it glows.",
+    "wikiTitle": "Optically detected magnetic resonance"
+   },
+   {
+    "term": "Van der Waals materials",
+    "shortDef": "Layered 2D materials held together by weak interplanar van der Waals forces.",
+    "eli5Def": "Ultra-thin materials made of stacked atomic sheets, like microscopic sticky notes.",
+    "wikiTitle": "Van der Waals heterostructure"
+   },
+   {
+    "term": "Zero-field splitting",
+    "shortDef": "Energy level separation of spin states in the absence of an applied magnetic field.",
+    "eli5Def": "The natural energy gap between different spin directions when no outside magnet is around.",
+    "wikiTitle": "Zero field splitting"
+   },
+   {
+    "term": "Transducer",
+    "shortDef": "A device that converts one form of energy or signal into another.",
+    "eli5Def": "A gadget that turns one type of signal (like squeezing or voltage) into another (like light or frequency).",
+    "wikiTitle": "Transducer"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

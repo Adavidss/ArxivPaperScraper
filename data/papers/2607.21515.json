@@ -1,0 +1,101 @@
+{
+ "id": "2607.21515",
+ "version": 1,
+ "title": "Extended Single-Atom Tweezer Arrays in High-Cooperativity Cavity-QED",
+ "authors": [
+  {
+   "name": "Thomas Picot"
+  },
+  {
+   "name": "Clément Raphin"
+  },
+  {
+   "name": "Marcel Kern"
+  },
+  {
+   "name": "Pierre-Antoine Bourdel"
+  },
+  {
+   "name": "Théo Ahamdach"
+  },
+  {
+   "name": "Jakob Reichel"
+  },
+  {
+   "name": "Romain Long"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-23T17:00:37Z",
+ "updated": "2026-07-23T17:00:37Z",
+ "abstract": "A central challenge for cavity-QED-based quantum technologies is to make high-cooperativity optical interfaces compatible with site-resolved arrays of single atoms. Here, we demonstrate optical tweezer arrays of individual $^{87}$Rb atoms inside a fiber Fabry-Perot microcavity with single-atom cooperativity $\\mathcal{C} \\sim 90$. We combine background-free site-resolved fluorescence imaging of extended arrays with collective coupling to a common cavity mode for arrays with a mean atom number up to $\\bar{N} \\simeq 36$. These results establish a high-cooperativity platform for many-body cavity-QED with site-resolved detection and control.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21515",
+  "pdf": "https://arxiv.org/pdf/2607.21515",
+  "html": "https://arxiv.org/html/2607.21515"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.21515v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-26T08:58:51.070Z",
+  "hook": "Researchers achieved single-atom cooperativity of ~90 for arrays of up to 36 rubidium atoms inside a microcavity.",
+  "tldr": [
+   "Demonstrated site-resolved optical tweezer arrays of individual rubidium-87 atoms inside a fiber Fabry-Perot microcavity.",
+   "Combined background-free site-resolved fluorescence imaging with collective coupling to a common cavity optical mode.",
+   "Achieved a single-atom cooperativity of ~90 for extended arrays with a mean atom number up to approximately 36."
+  ],
+  "whyItMatters": "Coupling individually controllable atoms to a shared light cavity is crucial for building scalable quantum computers and simulators. This platform successfully bridges single-particle precision with multi-particle quantum interaction.",
+  "eli5": "Imagine holding individual marbles in mid-air using invisible tractor beams, then placing them inside a mirror box that bounces light back and forth. The mirror box lets all the marbles talk to each other through light, while special cameras let scientists check on each marble individually.",
+  "keyNumbers": [
+   {
+    "value": "~90",
+    "label": "single-atom cooperativity",
+    "context": "achieved inside a fiber Fabry-Perot microcavity"
+   },
+   {
+    "value": "~36",
+    "label": "mean atom number",
+    "context": "maximum average size of extended atom arrays coupled to the cavity"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Cavity-QED",
+    "shortDef": "Study of light-matter interactions where light is confined inside an optical resonator.",
+    "eli5Def": "A setup with mirrors that traps light so photons interact strongly with atoms.",
+    "wikiTitle": "Cavity quantum electrodynamics"
+   },
+   {
+    "term": "Optical tweezer",
+    "shortDef": "A tightly focused laser beam used to trap and manipulate microscopic neutral atoms.",
+    "eli5Def": "A microscopic tractor beam made of light that can hold a single atom in place.",
+    "wikiTitle": "Optical tweezers"
+   },
+   {
+    "term": "Cooperativity",
+    "shortDef": "A dimensionless parameter measuring the interaction strength between an atom and a cavity mode.",
+    "eli5Def": "A score showing how strongly an atom and a light bounce talk to each other compared to losing energy.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Fabry-Perot microcavity",
+    "shortDef": "An optical resonator made of two opposing tiny mirrors designed to trap photons.",
+    "eli5Def": "Two tiny facing mirrors that bounce light back and forth in a very small space.",
+    "wikiTitle": "Fabry–Pérot interferometer"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "id": "2607.21501",
+ "version": 1,
+ "title": "Flow of local sensitivity in a spin chain coupled to a bosonic bath",
+ "authors": [
+  {
+   "name": "Marcin Płodzień"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.quant-gas"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-23T16:50:01Z",
+ "updated": "2026-07-23T16:50:01Z",
+ "abstract": "We study how local sensitivity to an encoded parameter, captured by the quantum Fisher information, flows between a spin chain, a coupled bosonic bath, and their quantum correlations, where we treat the bath as a full many-body quantum system beyond the Lindbladian approximation. We analyze how the coupling symmetry determines the destination of the departed sensitivity directly at the level of the Hamiltonian. We consider an excitation-exchanging Jaynes--Cummings coupling, which preserves the total number of excitations, and a spin-excitation-conserving Holstein coupling. We find that the Holstein coupling leaves the bath with no first-order information about the phase and stores the lost sensitivity entirely in spin--bath correlations, whereas the Jaynes--Cummings coupling passes this sensitivity to the bath, in full for a single excitation. The bath spectrum then governs whether the sensitivity ever returns to the spins. It revives fully and periodically when the coupled-system frequencies share a common period, but when those frequencies disperse the departed share dephases across the bath modes and never returns. We note that a transported metrological register loses more sensitivity than its arrival fidelity implies.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.21501",
+  "pdf": "https://arxiv.org/pdf/2607.21501",
+  "html": "https://arxiv.org/html/2607.21501"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.21501v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-26T08:58:51.070Z",
+  "hook": "Quantum sensing information can leak into surrounding environments, but coupling symmetry decides if it ever returns.",
+  "tldr": [
+   "Analyzed how parameter sensitivity flows between a spin chain, a quantum bath, and their correlations beyond standard approximations.",
+   "Modeled full many-body Hamiltonians with excitation-exchanging Jaynes-Cummings and spin-excitation-conserving Holstein couplings.",
+   "Found that Holstein coupling keeps information in spin-bath correlations, while Jaynes-Cummings transfers it to bath modes."
+  ],
+  "whyItMatters": "Understanding how quantum sensors lose measurement precision to their environment is essential for designing resilient quantum devices. It reveals that basic fidelity alone does not capture how much sensing signal has actually been lost.",
+  "eli5": "Imagine trying to keep a secret written on a delicate string of spinning tops that interact with a noisy room. Depending on how the tops connect to the room, the secret might hide in subtle interactions between them, or scatter into the room where it might disperse forever.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Fisher Information",
+    "shortDef": "A metric quantifying the maximum precision attainable when estimating a parameter using a quantum state.",
+    "eli5Def": "A measurement score showing how much useful information a quantum system holds about a secret variable.",
+    "wikiTitle": "Quantum Fisher information"
+   },
+   {
+    "term": "Bosonic bath",
+    "shortDef": "An environment composed of many quantum harmonic oscillators interacting with a central system.",
+    "eli5Def": "A surrounding crowd of particles or vibrations that can absorb energy and information from a quantum system.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Jaynes-Cummings coupling",
+    "shortDef": "A model describing energy exchange between a two-level quantum system and a cavity mode.",
+    "eli5Def": "A rule where a quantum particle and light swap energy back and forth like passing a ball.",
+    "wikiTitle": "Jaynes–Cummings model"
+   },
+   {
+    "term": "Holstein coupling",
+    "shortDef": "An interaction model where spin states influence environmental modes without changing total spin excitations.",
+    "eli5Def": "An interaction where a particle shakes its surroundings without losing its own energy state.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

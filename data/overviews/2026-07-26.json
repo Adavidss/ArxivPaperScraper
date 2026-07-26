@@ -1,0 +1,38 @@
+{
+ "date": "2026-07-26",
+ "generatedAt": "2026-07-26T08:58:51.070Z",
+ "model": "gemini-flash-latest",
+ "headline": "Advances in Cavity QED, Quantum Transducers & Sensing",
+ "summary": "Today's papers explore physical platforms for quantum technology, ranging from multi-atom cavity QED arrays to integrated mechano-quantum sensing devices. They investigate how quantum information and sensitivity propagate across spins, bosonic baths, and micro-mechanical strains.",
+ "themes": [
+  {
+   "title": "Cavity QED with Atom Tweezers",
+   "body": "Researchers demonstrate site-resolved optical tweezer arrays of up to 36 rubidium atoms inside a fiber Fabry-Perot microcavity, achieving high single-atom cooperativity alongside individual spin control.",
+   "paperIds": [
+    "2607.21515"
+   ]
+  },
+  {
+   "title": "Spin Systems for Quantum Sensing",
+   "body": "Studies investigate spin dynamics in open environments and solid-state hosts, demonstrating strain transducing in van der Waals defect hosts and mapping quantum sensitivity flow across spin chains coupled to bosonic baths.",
+   "paperIds": [
+    "2607.21501",
+    "2607.21487"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers investigate spin couplings to external modes for sensing, contrasting theoretical sensitivity flow in bosonic baths with practical strain transduction in defect centers.",
+   "paperIds": [
+    "2607.21501",
+    "2607.21487"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2607.21515",
+  "2607.21501",
+  "2607.21487"
+ ]
+}

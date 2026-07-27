@@ -1,0 +1,80 @@
+{
+ "id": "2607.22516",
+ "version": 1,
+ "title": "Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency Support",
+ "authors": [
+  {
+   "name": "Peiyong Wang"
+  },
+  {
+   "name": "Udaya Parampalli"
+  },
+  {
+   "name": "Casey R. Myers"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.AI",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-24T17:39:14Z",
+ "updated": "2026-07-24T17:39:14Z",
+ "abstract": "A central design principle in modern machine learning and artificial intelligence is to align a model's inductive bias with the structure of its input data. For matrix-valued inputs, relevant matrix-level relationships can be characterised through spectral values and spectral subspaces; however, common coordinate-wise rotation-gate data-encoding unitaries used in most quantum machine learning models do not explicitly construct such a matrix-level representation. We introduce Quantum Spectral Models (QSMs), in which we construct the generator of the data-encoding unitary directly from each input matrix. We study three QSM variants based on symmetric, global block, and non-overlapping patch-local block Hamiltonians. Their outputs admit truncated Fourier representations in which input-dependent spectral gaps supply candidate phase carriers, while spectral subspaces help determine their coefficients. We evaluate the QSMs and comparison quantum models on two matrix representations of Pendigits and two controlled synthetic tasks defined by spectral statistics. At the largest evaluated circuit depth, QSM variants lead the tested quantum models in mean test accuracy across all four benchmarks. The patch-local QSM leads on Pendigits, whereas the global block-Hamiltonian QSM leads on the controlled spectral tasks. Ablations show a task-dependent reversal: subspace-preserving controls perform better on Pendigits, whereas spectral-value-only controls lead among the tested ablations on the synthetic tasks. Together, these results shed new light on quantum machine-learning model design by showing how input-conditioned spectral representations can provide an analysable inductive bias, while offering a broader perspective on structure-aware model design in machine learning and artificial intelligence.",
+ "comment": "53 pages, many figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.22516",
+  "pdf": "https://arxiv.org/pdf/2607.22516",
+  "html": "https://arxiv.org/html/2607.22516"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.22516v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-27T10:27:22.093Z",
+  "hook": "Quantum Spectral Models construct encoding unitaries directly from input matrices, leading quantum ML benchmarks.",
+  "tldr": [
+   "Introduced Quantum Spectral Models (QSMs) that construct data-encoding unitaries directly from matrix inputs.",
+   "Evaluated three QSM variants using symmetric, global block, and patch-local block Hamiltonian architectures.",
+   "Demonstrated top test accuracy over baseline quantum models across Pendigits and synthetic spectral benchmarks."
+  ],
+  "whyItMatters": "Standard quantum machine learning encodes data scalar-by-scalar, ignoring matrix-level structural relationships. Aligning quantum circuit operations with the spectral structure of input data significantly boosts learning performance and accuracy.",
+  "eli5": "Most quantum AI models translate raw numbers into spinning quantum controls one number at a time without looking at the big picture. This new method shapes quantum controls using the natural frequency patterns of entire data tables at once, making the model much better at recognizing complex patterns.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Data reuploading",
+    "shortDef": "A quantum machine learning technique of repeatedly feeding data into consecutive circuit layers.",
+    "eli5Def": "A trick where input data is passed into a quantum computer multiple times to help it learn complex patterns.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Inductive bias",
+    "shortDef": "The set of assumptions a learning algorithm uses to predict outputs for unseen data.",
+    "eli5Def": "The built-in assumptions a computer model uses to help it learn patterns faster and more accurately.",
+    "wikiTitle": "Inductive bias"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy and driving dynamics of a quantum system.",
+    "eli5Def": "The mathematical engine that defines how energy moves and changes inside a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Unitary transformation",
+    "shortDef": "A reversible quantum gate operation that preserves vector norms and probabilities.",
+    "eli5Def": "An operation on a quantum computer that rotates quantum states without losing any information.",
+    "wikiTitle": "Unitary transformation"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

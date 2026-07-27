@@ -1,0 +1,86 @@
+{
+ "id": "2607.22522",
+ "version": 1,
+ "title": "Exact Neural-Network Representations of the Motzkin States",
+ "authors": [
+  {
+   "name": "Runde Zha"
+  },
+  {
+   "name": "Yuntian Gu"
+  },
+  {
+   "name": "Chaohui Fan"
+  },
+  {
+   "name": "Jia-lin Chen"
+  },
+  {
+   "name": "Hai-Jun Liao"
+  },
+  {
+   "name": "Tao Xiang"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-07-24T17:50:44Z",
+ "updated": "2026-07-24T17:50:44Z",
+ "abstract": "Motzkin spin chains are paradigmatic frustration-free one-dimensional quantum systems whose ground states feature exactly solvable combinatorial structures and exotic, area-law-violating entanglement scaling. Specifically, colorless Motzkin states exhibit critical logarithmic entanglement divergence \\(\\log N\\) with system size \\(N\\), while their colorful counterparts host supercritical sublinear \\(\\sqrt{N}\\) entanglement growth. Such unconventional entanglement behaviors place these states well beyond the expressive capability of standard matrix product states, which are fundamentally constrained by the entanglement area law. Here, we systematically construct exact, training-free neural-network representations for both colorless and colorful Motzkin states across four mainstream architectures, including recurrent, feedforward, convolutional, and transformer networks. Our core design leverages a causal prefix-sum module, implementable via recurrent updates, feedforward mappings, or masked attention layers, combined with position-selective rectified linear gates that enforce the Motzkin height constraints. For the colorful states, we further introduce a dedicated causal stack module that explicitly encodes the last-in-first-out color-matching rule. Our results demonstrate that neural architectures can accurately capture highly non-trivial entanglement features inaccessible to conventional tensor networks, providing prototypic examples for benchmarking and a constructive design framework for future neural-network quantum state developments targeting strongly entangled quantum systems.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.22522",
+  "pdf": "https://arxiv.org/pdf/2607.22522",
+  "html": "https://arxiv.org/html/2607.22522"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-27T10:27:22.093Z",
+  "hook": "Exact, training-free neural networks can capture sublinear sqrt(N) entanglement in colorful Motzkin spin chains.",
+  "tldr": [
+   "Constructed exact, training-free neural-network representations for colorless and colorful Motzkin quantum spin chains.",
+   "Combined causal prefix-sum modules, position-selective ReLU gates, and causal stack modules across four architectures.",
+   "Demonstrated neural networks can capture supercritical entanglement scaling beyond standard tensor network limits."
+  ],
+  "whyItMatters": "Simulating complex quantum materials often fails because quantum entanglement causes computational resource demands to explode. Proving neural networks can exactly model exotic entanglement scaling opens new pathways for modeling quantum matter.",
+  "eli5": "Imagine trying to double-check matching parentheses in a massive sentence. Simple memory tricks fail as the sentence gets huge, but by building custom matching rules into AI architectures, researchers proved neural networks can track these quantum rules perfectly without needing training.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Motzkin spin chain",
+    "shortDef": "A 1D quantum system whose ground states feature solvable combinatorial structures.",
+    "eli5Def": "A line of quantum particles whose connections follow mathematical rules similar to valid arrangements of parentheses.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Entanglement area law",
+    "shortDef": "Property where quantum entanglement scales with boundary area rather than total volume.",
+    "eli5Def": "A rule stating that quantum connections in physical systems usually only grow with the size of the boundary.",
+    "wikiTitle": "Entropy of entanglement"
+   },
+   {
+    "term": "Tensor network",
+    "shortDef": "Factorization method used to efficiently represent high-dimensional quantum states.",
+    "eli5Def": "A mathematical tool used to simplify complex quantum systems by breaking them into smaller connected blocks.",
+    "wikiTitle": "Tensor network"
+   },
+   {
+    "term": "Rectified Linear Unit (ReLU)",
+    "shortDef": "An activation function defined as the positive part of its input argument.",
+    "eli5Def": "A simple mathematical filter in neural networks that lets positive numbers pass through while turning negative numbers to zero.",
+    "wikiTitle": "Rectifier (neural networks)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "id": "2607.22503",
+ "version": 1,
+ "title": "Correlated Coherent Errors in Stabilizer Codes: A General Cumulant Framework and Interference-Based Error Suppression",
+ "authors": [
+  {
+   "name": "Rohan N Rajmohan"
+  },
+  {
+   "name": "Antoine Brillant"
+  },
+  {
+   "name": "Peter Groszkowski"
+  },
+  {
+   "name": "Alireza Seif"
+  },
+  {
+   "name": "Jens Koch"
+  },
+  {
+   "name": "Aashish Clerk"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-24T17:16:19Z",
+ "updated": "2026-07-24T17:16:19Z",
+ "abstract": "Coherent errors in stabilizer codes are often correlated across qubits and QEC cycles. Having a general analytical treatment of such noise would thus be extremely valuable. We derive here the exact logical channel induced by repeated QEC cycles under correlated coherent $Z$ noise, and develop a broadly general cumulant-expansion framework that yields a tractable expression for the noise-averaged logical infidelity. Crucially, this expression is non-perturbative in the noise, and applies to arbitrary stabilizer codes and correlation structures. It reveals a feature with no analogue in standard stochastic Pauli error models: the induced channel depends on which stabilizer eigenspace is chosen as the codespace. Exploiting this, we introduce protected stabilizer eigenspace (PROSE) encoding, an error-suppression strategy that selects the optimal codespace. We show that this eigenspace can be efficiently identified in many relevant situations. Further, when combined with logical Pauli twirling, PROSE matches or outperforms standard error suppression techniques (dynamical decoupling, Pauli twirling of physical qubits). We also show that noise correlations, usually assumed to be harmful to QEC, can instead be a resource: with the right encoding, even positive correlations reduce the logical infidelity below the uncorrelated baseline. Our results offer a new, broadly applicable lens on correlated coherent noise in stabilizer codes.",
+ "comment": "27 pages, 11 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.22503",
+  "pdf": "https://arxiv.org/pdf/2607.22503",
+  "html": "https://arxiv.org/html/2607.22503"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.22503v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-27T10:27:22.093Z",
+  "hook": "Noise correlations in quantum computers can actually be a resource, reducing logical errors below uncorrelated levels.",
+  "tldr": [
+   "Analyzed correlated coherent Z noise in stabilizer codes to calculate noise-averaged logical infidelity exact channels.",
+   "Developed a non-perturbative cumulant-expansion framework and a novel protected stabilizer eigenspace (PROSE) encoding.",
+   "Found that selecting optimal stabilizer eigenspaces reduces error and turns harmful noise correlations into a resource."
+  ],
+  "whyItMatters": "Coherent noise is a major bottleneck for quantum computing because systematic errors build up much faster than random noise. By turning correlated errors into an advantage, this method could significantly reduce physical hardware demands for practical fault tolerance.",
+  "eli5": "Imagine trying to keep a tower of blocks standing while someone shakes the table rhythmically. Instead of fighting every shake randomly, you lean the tower slightly so the rhythmic shakes push it back into balance. By carefully choosing how to store the quantum information, systematic noise cancels itself out.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Stabilizer Code",
+    "shortDef": "A class of quantum error-correcting codes defined by a set of commuting operators called stabilizers.",
+    "eli5Def": "A clever way to spread one piece of quantum information across multiple physical particles to protect it from damage.",
+    "wikiTitle": "Stabilizer code"
+   },
+   {
+    "term": "Coherent Error",
+    "shortDef": "Systematic, deterministic quantum errors caused by imperfect control fields rather than random environment interactions.",
+    "eli5Def": "A steady, predictable drift in a quantum system rather than completely random noise.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Quantum Error Correction",
+    "shortDef": "Techniques used to protect quantum information from errors due to decoherence and physical noise.",
+    "eli5Def": "A set of rules for constantly checking and fixing mistakes in a quantum computer without destroying secret data.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Cumulant Expansion",
+    "shortDef": "A mathematical framework used to approximate complex statistical correlations by expanding statistical moments.",
+    "eli5Def": "A mathematical tool for breaking down complicated group interactions into simpler, manageable pieces.",
+    "wikiTitle": "Cumulant"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

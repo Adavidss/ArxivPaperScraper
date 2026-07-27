@@ -1,0 +1,85 @@
+{
+ "id": "2607.22526",
+ "version": 1,
+ "title": "Optomechanical systems with a Fano membrane in the middle",
+ "authors": [
+  {
+   "name": "Lei Du"
+  },
+  {
+   "name": "Aymeric Frerejean"
+  },
+  {
+   "name": "Witlef Wieczorek"
+  },
+  {
+   "name": "Janine Splettstoesser"
+  },
+  {
+   "name": "Juliette Monsel"
+  }
+ ],
+ "categories": [
+  "physics.optics",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.optics",
+ "published": "2026-07-24T17:56:54Z",
+ "updated": "2026-07-24T17:56:54Z",
+ "abstract": "Conventional membrane-in-the-middle (MIM) optomechanical systems offer limited control over the optical linewidth, which can limit their performance when operating in the unresolved-sideband regime. We investigate cavity optomechanics with a photonic-crystal Fano membrane placed at the center of a Fabry-Pérot (FP) cavity. In contrast to a conventional dielectric membrane, the photonic-crystal membrane supports a localized optical resonance, which hybridizes with the cavity field and enables spectral engineering of the relevant optical modes. Besides the usual dispersive optomechanical coupling associated with cavity-length changes, the membrane motion also modifies the Fano-mode resonance and its hybridization with the cavity field. We consider two limits set by the membrane reflectivity: a transparent-membrane regime with a single FP-like mode, and a reflective-membrane regime with two coupled subcavity modes. In the latter case, only the symmetric cavity mode hybridizes with the Fano mode, while the antisymmetric mode remains decoupled. Using quantum Langevin equations together with a transfer-matrix description of the optical scattering problem, we show that the Fano-induced hybridization can generate narrow optical normal modes that remain efficiently accessible to the external drive for experimentally realistic parameters. These modes can provide effective sideband resolution and enable ground-state cooling of the membrane motion even when the bare cavity is in the unresolved-sideband regime. Our results establish Fano MIM systems as a promising platform for spectral and optomechanical engineering.",
+ "comment": "22 pages, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.22526",
+  "pdf": "https://arxiv.org/pdf/2607.22526",
+  "html": "https://arxiv.org/html/2607.22526"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.22526v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-27T10:27:22.093Z",
+  "hook": "Placing a photonic-crystal Fano membrane in a cavity enables ground-state cooling in unresolved-sideband regimes.",
+  "tldr": [
+   "Studied optomechanics using a photonic-crystal Fano membrane placed at the center of a Fabry-Pérot optical cavity.",
+   "Modeled mode hybridization using quantum Langevin equations and an optical transfer-matrix scattering description.",
+   "Showed Fano hybridization creates narrow optical normal modes enabling ground-state cooling in unresolved-sideband limits."
+  ],
+  "whyItMatters": "Cooling mechanical motion to its quantum ground state is essential for ultra-sensitive sensors and quantum memory, but traditional cavity designs hit severe limits. Fano membranes offer a way to bypass these limits by custom engineering optical modes.",
+  "eli5": "Imagine tuning a guitar string where the sound normally fades out too quickly to control precisely. By placing a custom patterned filter inside the sound chamber, you can lock onto a super crisp frequency, allowing you to freeze the string's vibrations down to their quietest quantum state.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Fano resonance",
+    "shortDef": "A scattering phenomenon producing asymmetric line shapes through wave interference.",
+    "eli5Def": "A special type of wave interference that creates very sharp tuning peaks instead of broad smooth ones.",
+    "wikiTitle": "Fano resonance"
+   },
+   {
+    "term": "Optomechanics",
+    "shortDef": "The interaction between optical radiation pressure and mechanical motion.",
+    "eli5Def": "The science of using light beams to push, pull, measure, or cool vibrating physical objects.",
+    "wikiTitle": "Cavity optomechanics"
+   },
+   {
+    "term": "Unresolved-sideband regime",
+    "shortDef": "Operating regime where optical cavity decay rate exceeds the mechanical vibration frequency.",
+    "eli5Def": "A setup where light leaks out of a cavity faster than the object completes a single vibration cycle.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Quantum Langevin equations",
+    "shortDef": "Equations describing quantum system dynamics subject to damping and noise.",
+    "eli5Def": "Mathematical rules explaining how tiny quantum objects move when affected by friction and random noise.",
+    "wikiTitle": "Quantum Langevin equation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

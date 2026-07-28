@@ -1,0 +1,85 @@
+{
+ "id": "2607.24718",
+ "version": 1,
+ "title": "Coincidence free certification and quantification of spatial entanglement with stimulated parametric down conversion",
+ "authors": [
+  {
+   "name": "M. G. Damaceno"
+  },
+  {
+   "name": "G. H. dos Santos"
+  },
+  {
+   "name": "N. Rubiano da Silva"
+  },
+  {
+   "name": "S. P. Walborn"
+  },
+  {
+   "name": "P. H. Souto Ribeiro"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-27T17:54:15Z",
+ "updated": "2026-07-27T17:54:15Z",
+ "abstract": "Using stimulated emission, a photon pair source can be characterized by seeding the signal mode with a bright classical beam and measuring the stimulated idler field, thus replacing two-photon coincidence counting with classical intensity detection. We apply this approach to the continuous transverse spatial degrees of freedom of a down conversion source and show that it is possible to certify spatial entanglement with only intensity measurements. We demonstrate this capability through variance-based entanglement and steering witnesses, as well as the Fedorov ratio. This method is useful for studying entanglement properties of photon pair sources in conditions where alignment and photon counting measurements are difficult and time-consuming.",
+ "comment": "8 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.24718",
+  "pdf": "https://arxiv.org/pdf/2607.24718",
+  "html": "https://arxiv.org/html/2607.24718"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.24718v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-28T09:18:40.321Z",
+  "hook": "Seeding photon sources with bright light allows spatial entanglement certification using simple intensity detectors.",
+  "tldr": [
+   "Certified spatial quantum entanglement using classical intensity measurements instead of coincidence counting.",
+   "Seeded the signal mode of a parametric down-conversion source with a bright beam to measure the stimulated idler field.",
+   "Proved entanglement and quantum steering using variance witnesses and the Fedorov ratio without photon counters."
+  ],
+  "whyItMatters": "Traditional quantum optics relies on slow, tedious single-photon coincidence counting that is hard to align. Replacing photon counters with bright classical light detectors drastically simplifies testing quantum sources for real-world applications.",
+  "eli5": "Finding twin light particles usually requires listening for two tiny clicks at the exact same time, which is like trying to hear two drops of rain in a storm. Instead, the researchers shone a bright flashlight down one path to boost the other signal into a loud burst of light. This lets them verify the twins' special quantum connection using ordinary camera sensors rather than ultra-sensitive microphone-like counters.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Stimulated emission",
+    "shortDef": "A process where an incoming photon stimulates an atom or system to emit a second photon identical to the first.",
+    "eli5Def": "When a light particle nudges an excited atom to create an exact copy of itself.",
+    "wikiTitle": "Stimulated emission"
+   },
+   {
+    "term": "Parametric down-conversion",
+    "shortDef": "An optical process that splits a high-energy photon into a pair of lower-energy entangled photons.",
+    "eli5Def": "A special crystal trick that breaks one high-energy light particle into two twin lower-energy particles.",
+    "wikiTitle": "Spontaneous parametric down-conversion"
+   },
+   {
+    "term": "Quantum steering",
+    "shortDef": "A form of quantum nonlocality where measurements on one particle steer the state of an entangled partner.",
+    "eli5Def": "A quantum connection where measuring one particle instantly changes or controls its distant twin's properties.",
+    "wikiTitle": "Quantum steering"
+   },
+   {
+    "term": "Fedorov ratio",
+    "shortDef": "A quantitative ratio used to measure continuous-variable spatial entanglement in photon pairs.",
+    "eli5Def": "A mathematical score that measures how strongly two twin light particles are entangled in space.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "2607.24714",
+ "version": 1,
+ "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
+ "authors": [
+  {
+   "name": "Fabian Kreppel"
+  },
+  {
+   "name": "Reza Salkhordeh"
+  },
+  {
+   "name": "Ferdinand Schmidt-Kaler"
+  },
+  {
+   "name": "André Brinkmann"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.AI",
+  "cs.ET"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-27T17:51:18Z",
+ "updated": "2026-07-27T17:51:18Z",
+ "abstract": "Trapped-ion quantum computers rely on shuttling compilers, which cast an input algorithm into a sequence of ion-qubit movements within a given architecture. We present the first study in which a single frontier large language model (LLM), Claude Opus 4.7, generates and iteratively refines the full Python code of shuttling compilers from written specifications. We start with a compiler for (i) a linear segmented trap, extend it to (ii) a trap with junctions, and finally achieve efficient compilation for (iii) a broad class of connected trap graphs. The compilers for the more general cases are seeded with code from the previous ones. We benchmark the LLM-generated compilers against state-of-the-art hand-crafted ones using a common suite of quantum circuits. The number of shuttling timesteps is reduced by up to 76% for (i) and up to 39% for (ii). For the broad case (iii) of freely connected architectures, we find large variations in the required number of shuttling timesteps, depending on the connectivity. A densely connected, junction-rich architecture yields an order-of-magnitude reduction in shuttling timesteps compared to a corridor-like one. Repeating the complete generation and evaluation with a second frontier LLM, Claude Fable 5, reproduces these findings, with the Fable 5 compilers surpassing the hand-crafted ones more often on the largest circuits. Our results show that an unmodified frontier LLM can produce working, correct, and competitive shuttling compilers without additional manual algorithmic engineering, thus reducing the development time for new architectures from several months to a few days.",
+ "comment": "56 pages, 6 figures, 7 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.24714",
+  "pdf": "https://arxiv.org/pdf/2607.24714",
+  "html": "https://arxiv.org/html/2607.24714"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-28T09:18:40.321Z",
+  "hook": "Unmodified LLMs built quantum compilers that reduced ion-shuttling timesteps by up to 76% over human designs.",
+  "tldr": [
+   "Prompted frontier LLMs to write Python compilers that route physical ion qubits in trapped-ion quantum computers.",
+   "Used Claude Opus 4.7 and Fable 5 to iteratively refine code from linear traps to complex connected trap architectures.",
+   "Reduced shuttling steps by up to 76% and cut architecture compiler development time from months to a few days."
+  ],
+  "whyItMatters": "Designing software to physically move quantum bits around a chip normally takes months of specialized human engineering. Showing that general LLMs can automate this cuts quantum hardware deployment timelines from months to days.",
+  "eli5": "Trapped-ion quantum computers work like a crowded parking lot where physical atom-bits must constantly shuffle around to talk to each other. Instead of human engineers spending months writing traffic-control software, an AI wrote the full program in days and routed the atoms up to 76% faster.",
+  "keyNumbers": [
+   {
+    "value": "76%",
+    "label": "Shuttling timestep reduction",
+    "context": "Maximum reduction achieved by LLM-generated compilers for linear segmented trap architectures."
+   },
+   {
+    "value": "39%",
+    "label": "Junction trap improvement",
+    "context": "Maximum shuttling timestep reduction achieved for traps with junctions."
+   },
+   {
+    "value": "months to days",
+    "label": "Development time reduction",
+    "context": "Cut time required to build compilers for new hardware architectures."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Trapped-ion quantum computer",
+    "shortDef": "A quantum computer architecture using charged atoms suspended in electromagnetic fields as qubits.",
+    "eli5Def": "A quantum computer that uses suspended, electrically charged atoms as its tiny memory bits.",
+    "wikiTitle": "Trapped-ion quantum computer"
+   },
+   {
+    "term": "Quantum circuit",
+    "shortDef": "A computational routine consisting of a sequence of quantum logic gates operating on qubits.",
+    "eli5Def": "A step-by-step recipe of instructions given to a quantum computer to solve a problem.",
+    "wikiTitle": "Quantum circuit"
+   },
+   {
+    "term": "Shuttling compiler",
+    "shortDef": "Software translating quantum circuits into physical movement sequences of ion qubits across a trap.",
+    "eli5Def": "A traffic controller program that plans how physical atom-bits slide around inside a quantum chip.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 65
+ }
+}

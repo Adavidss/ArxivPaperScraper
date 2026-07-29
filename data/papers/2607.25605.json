@@ -1,0 +1,66 @@
+{
+ "id": "2607.25605",
+ "version": 1,
+ "title": "Computational Extraction of Legal Causes via al-Sabr wa al-Taqsim: A Set-Theoretic Formalization for Closed Fiqh Chapters",
+ "authors": [
+  {
+   "name": "Elnaser Abdelwahab"
+  }
+ ],
+ "categories": [
+  "cs.AI"
+ ],
+ "primaryCategory": "cs.AI",
+ "published": "2026-07-28T11:33:54Z",
+ "updated": "2026-07-28T11:33:54Z",
+ "abstract": "This paper presents a set-theoretic formalization of the classical usuli method of al-Sabr wa al-Taqsim (Examination and Division) for extracting legal causes ('ilal) within closed chapters of jurisprudence. A computational algorithm is introduced that extracts minimal operational rules from a truth table of juristic verdicts. The principal result is that, given a complete truth table for a closed chapter, the algorithm computes the minimal structural generators of the ruling and eliminates all logically redundant attributes. The resulting structures constitute admissible candidate causes for subsequent juristic evaluation. The framework is conditional upon the availability of a finite school-relative concept vocabulary and a complete ruling table for the chapter under investigation.",
+ "comment": "16 pages. Published in Journal Academica, Vol. 15, No. 1, 2026, pp. 3-18. Includes an Arabic-language computational analysis of Tayammum in the Shafi'i school",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.25605",
+  "pdf": "https://arxiv.org/pdf/2607.25605",
+  "html": "https://arxiv.org/html/2607.25605"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-29T09:23:26.332Z",
+  "hook": "A set-theoretic algorithm extracts minimal legal rules and eliminates redundancies in Islamic jurisprudence.",
+  "tldr": [
+   "Formalized the classical Islamic legal method of al-Sabr wa al-Taqsim using set theory and truth tables.",
+   "Built an algorithm to extract minimal operational rules from a complete truth table of juristic verdicts.",
+   "Proved the method identifies minimal structural generators of legal rulings while removing redundant attributes."
+  ],
+  "whyItMatters": "Translating traditional juristic reasoning into formal set theory allows computer science methods to analyze legal structures. It builds a bridge between classical Islamic jurisprudence and algorithmic verification.",
+  "eli5": "Legal rules can get messy with lots of overlapping conditions. By turning legal logic into a truth grid, a computer can automatically cross out unnecessary details to find the exact core reason behind a law.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "al-Sabr wa al-Taqsim",
+    "shortDef": "A classical usuli juristic method of systematic examination and division to isolate legal causes.",
+    "eli5Def": "A step-by-step logic puzzle scholars use to test and discard wrong reasons until only the real legal cause remains.",
+    "wikiTitle": null
+   },
+   {
+    "term": "'ilal",
+    "shortDef": "The effective legal causes or underlying rationales behind juristic rulings in Islamic law.",
+    "eli5Def": "The core reason or condition that makes a specific legal rule apply.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Truth table",
+    "shortDef": "A mathematical table used in logic to compute the truth values of statements from their inputs.",
+    "eli5Def": "A master chart showing every possible combination of true/false inputs and their final results.",
+    "wikiTitle": "Truth table"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

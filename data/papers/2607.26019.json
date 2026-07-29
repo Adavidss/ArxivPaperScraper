@@ -1,0 +1,93 @@
+{
+ "id": "2607.26019",
+ "version": 1,
+ "title": "Predicting the Slow Drift of Nuclear Spin Noise in Semiconductor Spin Qubits",
+ "authors": [
+  {
+   "name": "Wayne M. Witzel"
+  },
+  {
+   "name": "Jesse J. Lutz"
+  },
+  {
+   "name": "Matthew D. Grace"
+  },
+  {
+   "name": "Natalie D. Foster"
+  },
+  {
+   "name": "Ryan M. Jock"
+  },
+  {
+   "name": "Dwight R. Luhman"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-07-28T17:31:27Z",
+ "updated": "2026-07-28T17:31:27Z",
+ "abstract": "The dynamics of a nuclear spin bath generates magnetic noise that is a key contributor to the decoherence of electron spin qubits in electrostatically-defined quantum dots. In this paper, we extend the cluster correlation expansion (CCE) technique, which has proven useful for predicting solid-state qubit coherence times across various settings but is limited to shorter time scales, to incorporate stochastic treatments of cluster dynamics in order to efficiently predict slow drifting Overhauser fields over longer time scales. This approach combines quantum evolution with classical rate matrices to enable simulation across a wide range of temporal regimes required to simulate, for example, the long-time convergence of the ergodic $T_2^*$ from Ramsey experiments. Our methodology is validated against experimental data from various silicon spin qubit systems, demonstrating a strong agreement between simulation and measurement of Ramsey experiments presented in the form of $T_2^*$ versus averaging time, autocorrelation functions, as well as power spectral densities. Furthermore, we demonstrate significant back-action effects through modeling and experiment; specifically, the dynamics of the nuclear spin bath depends upon the electron spin occupation schedule. Finally, our modeling quantitatively predicts the benefits from compensating for the slow drift of Overhauser fields in qubit operations. Our findings indicate that compensating for an Overhauser rotation measured $Δt$ in the past results in an effective $T_2^*$, which we denote $\\tilde{T}_2^*(Δt)$ for clarity, under certain scenarios of interest, can be one or two orders of magnitude larger than the ergodic $T_2^*$ if the Overhauser rotation is re-characterized every 100 milliseconds; that is, $\\tilde{T}_2^*(Δt = 100~{\\rm ms})$ can be $10$ to $100$ times larger than $T_2^*$.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.26019",
+  "pdf": "https://arxiv.org/pdf/2607.26019",
+  "html": "https://arxiv.org/html/2607.26019"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.26019v1/Figures/Figure1a.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-29T09:23:26.332Z",
+  "hook": "Correcting magnetic noise every 100 ms can extend silicon spin qubit coherence times by up to 100x.",
+  "tldr": [
+   "Extended cluster correlation expansion to predict slow Overhauser field drift in semiconductor spin qubits.",
+   "Combined quantum evolution with classical rate matrices while accounting for electron spin back-action.",
+   "Proved that re-characterizing Overhauser rotation every 100 ms boosts effective T2* coherence by 10x to 100x."
+  ],
+  "whyItMatters": "Slowly drifting magnetic noise from surrounding atomic nuclei is a chief enemy of silicon quantum computers. Quantifying and actively compensating for this slow drift unlocks orders-of-magnitude improvements in qubit stability.",
+  "eli5": "Quantum bits in silicon are like microscopic compass needles shaken by thousands of tiny neighboring atomic magnets. By measuring how those atomic magnets slowly drift and re-adjusting every tenth of a second, the compass stays steady 100 times longer.",
+  "keyNumbers": [
+   {
+    "value": "100 ms",
+    "label": "Re-characterization interval",
+    "context": "Time interval between Overhauser rotation measurements required for major coherence gains"
+   },
+   {
+    "value": "10 to 100",
+    "label": "T2* improvement factor",
+    "context": "Fold increase in effective coherence time achieved by compensating for slow magnetic drift"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Overhauser field",
+    "shortDef": "An effective magnetic field exerted on an electron spin by the sum of surrounding nuclear spins.",
+    "eli5Def": "A collective magnetic push created by thousands of tiny atomic cores surrounding a quantum bit.",
+    "wikiTitle": "Overhauser effect"
+   },
+   {
+    "term": "Cluster correlation expansion",
+    "shortDef": "A theoretical approach to simulate decoherence by breaking spin interactions into small clusters.",
+    "eli5Def": "A math method that estimates quantum noise by looking at small isolated groups of interacting atoms.",
+    "wikiTitle": null
+   },
+   {
+    "term": "T2* coherence time",
+    "shortDef": "The time scale over which a quantum superposition dephases due to environmental magnetic noise.",
+    "eli5Def": "How long a quantum bit can store its information accurately before environmental noise ruins it.",
+    "wikiTitle": "Spin-spin relaxation"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

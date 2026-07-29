@@ -1,0 +1,75 @@
+{
+ "id": "2607.26028",
+ "version": 1,
+ "title": "A Spectral Proof of the Hypergraph Moore Bound",
+ "authors": [
+  {
+   "name": "Alexander Schmidhuber"
+  },
+  {
+   "name": "Matthew B. Hastings"
+  }
+ ],
+ "categories": [
+  "math.CO",
+  "cs.DM",
+  "quant-ph"
+ ],
+ "primaryCategory": "math.CO",
+ "published": "2026-07-28T17:38:31Z",
+ "updated": "2026-07-28T17:38:31Z",
+ "abstract": "A nonempty subfamily of a $k$-uniform hypergraph is an \\emph{even cover} if every vertex lies in an even number of its hyperedges; for $k=2$ these are edge-disjoint unions of cycles, so the minimum size of an even cover is the natural hypergraph analogue of girth. We prove Feige's 2008 conjecture on the hypergraph Moore bound: there are absolute constants $A$ and $C$ (independent of $k$) such that for every $k\\ge3$ and every $1\\le\\ell\\le n$, any $k$-uniform hypergraph on $n$ vertices with more than $C\\,n^{k/2}/\\ell^{k/2-1}$ hyperedges contains an even cover of size at most $A\\,\\ell\\log(en/\\ell)$. Our proof is based on sharp spectral bounds for Kikuchi matrices, which we expect to be of independent interest; we apply them to the refutation of random constraint satisfaction problems in a companion paper.",
+ "comment": "14 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.26028",
+  "pdf": "https://arxiv.org/pdf/2607.26028",
+  "html": "https://arxiv.org/html/2607.26028"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-29T09:23:26.332Z",
+  "hook": "Mathematicians proved Feige's 2008 hypergraph Moore bound conjecture using spectral bounds on Kikuchi matrices.",
+  "tldr": [
+   "Proved Feige's 2008 conjecture establishing the hypergraph Moore bound for k-uniform hypergraphs.",
+   "Utilized sharp spectral bounds on Kikuchi matrices to bound hypergraph edge densities.",
+   "Demonstrated that dense hypergraphs always contain small even covers bounded by O(l log(en/l))."
+  ],
+  "whyItMatters": "This result resolves a long-standing open problem in theoretical computer science and combinatorics. The underlying Kikuchi matrix techniques are powerful tools that aid in proving bounds for complex constraint satisfaction problems.",
+  "eli5": "In a network where lines group several dots together at once instead of just two, if you draw enough group lines, you are guaranteed to form a small closed loop where every dot is wrapped an even number of times.",
+  "keyNumbers": [
+   {
+    "value": "2008",
+    "label": "Conjecture year",
+    "context": "Year Feige originally proposed the hypergraph Moore bound conjecture"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Hypergraph",
+    "shortDef": "A generalization of a graph where an edge can connect any arbitrary number of vertices.",
+    "eli5Def": "A network where connections can wrap around whole groups of dots at once instead of connecting just two dots.",
+    "wikiTitle": "Hypergraph"
+   },
+   {
+    "term": "Even cover",
+    "shortDef": "A subset of hyperedges such that every vertex belongs to an even number of those hyperedges.",
+    "eli5Def": "A sub-group of net connections where every single included dot is touched an even number of times.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Kikuchi matrices",
+    "shortDef": "High-dimensional block matrices used to bound spectrum properties of sparse hypergraphs.",
+    "eli5Def": "Large mathematical grids that help measure hidden structural patterns in complex networks.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

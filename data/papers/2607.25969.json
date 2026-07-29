@@ -1,0 +1,75 @@
+{
+ "id": "2607.25969",
+ "version": 1,
+ "title": "Solvable Quantum Circuits with non-Markovian Influence Matrices",
+ "authors": [
+  {
+   "name": "Samuel H. Pickering"
+  },
+  {
+   "name": "Max McGinley"
+  },
+  {
+   "name": "Bhavik Kumar"
+  },
+  {
+   "name": "Bruno Bertini"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "math-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-07-28T16:51:26Z",
+ "updated": "2026-07-28T16:51:26Z",
+ "abstract": "Influence matrices encode the action exerted on local subsystems by the rest of an extended quantum many-body system during their evolution. Thus, knowledge of the influence matrix facilitates computationally efficient simulations of local dynamics. Here we propose a new systematic approach to generating quantum circuits with complex dynamics for which the influence matrices can be written down exactly. In contrast to previous frameworks of this kind, such as dual-unitary circuits, the resulting influence matrices are non-Markovian, exhibiting nontrivial temporal correlations. We explicitly construct a broad family of circuits of this kind, based on dressing free-fermion (matchgate) circuits with appropriately chosen interaction terms. We show that, contrary to previous solvable instances, these circuits produce patterns of correlations that closely resemble that of typical many-body systems. Our approach can be directly interpreted in terms of an error correction scheme where the terms breaking the solvability of the influence matrices play the role of errors.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.25969",
+  "pdf": "https://arxiv.org/pdf/2607.25969",
+  "html": "https://arxiv.org/html/2607.25969"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-29T09:23:26.332Z",
+  "hook": "Physicists engineered exact quantum circuits whose memory-dependent environments mimic realistic chaotic quantum matter.",
+  "tldr": [
+   "Created a systematic method to construct solvable quantum circuits with non-Markovian influence matrices.",
+   "Dressed integrable free-fermion (matchgate) circuits with specifically chosen interaction terms.",
+   "Showed these circuits reproduce realistic correlation patterns of generic many-body systems while remaining exact."
+  ],
+  "whyItMatters": "Simulating complex, interacting quantum systems usually requires heavy approximations. Finding exact mathematical models that retain realistic memory dynamics gives researchers a crucial benchmark for quantum hardware.",
+  "eli5": "Usually, simple math problems are easy to solve but boring, while interesting chaotic problems are impossible to solve on paper. The authors found a trick to add interaction 'spices' to a simple circuit, making it look complex and realistic while still keeping it solvable with pencil and paper.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Influence matrix",
+    "shortDef": "A tensor framework describing how an surrounding environment exerts forces on a local quantum system.",
+    "eli5Def": "A mathematical map showing how a large surrounding environment influences a small particle inside it over time.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Non-Markovian process",
+    "shortDef": "A stochastic process whose future behavior explicitly depends on its past history.",
+    "eli5Def": "A process with a memory, where what happens next depends on everything that happened before.",
+    "wikiTitle": "Markov property"
+   },
+   {
+    "term": "Matchgate",
+    "shortDef": "A class of two-qubit quantum gates that allow efficient classical simulation of non-interacting fermions.",
+    "eli5Def": "Special building blocks for quantum circuits that behave simply enough for standard computers to simulate easily.",
+    "wikiTitle": "Matchgate"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

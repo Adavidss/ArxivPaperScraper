@@ -1,0 +1,88 @@
+{
+ "id": "2607.27185",
+ "version": 1,
+ "title": "Sharp Bounds on Ground State Energy of the SYK Model",
+ "authors": [
+  {
+   "name": "Arpon Basu"
+  },
+  {
+   "name": "Pravesh K. Kothari"
+  },
+  {
+   "name": "Siddhant Midha"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math.PR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-29T17:54:18Z",
+ "updated": "2026-07-29T17:54:18Z",
+ "abstract": "We study the Sachdev-Ye-Kitaev (SYK) Hamiltonian $H_{\\operatorname{SYK}}$ on $n$ Majorana modes with $k$-body interactions, and prove that $\\mathbb{E}\\|H_{\\operatorname{SYK}}\\|_{\\operatorname{op}} = (1 - o(1))\\cdot\\sqrt{2n}/k$ for super-constant $k\\leq o(\\sqrt{n})$, where the expectation is over the disorder variables in the Hamiltonian. This confirms the predictions due to Garcia-Garcia, Jia and Verbaarschot'18 and answers a question posed in Feng, Tian and Wei'19. Our results extend to the sparse SYK Hamiltonian. As a corollary, we obtain that the dissipative quantum algorithm of Basso, Chen and Dalzell'24 provably computes the ground state energy of the SYK Hamiltonian up to an $O(1)$-multiplicative factor for all $k < \\sqrt{n}/4$. Our key technical idea is identifying an explicit, deterministic linear operator $\\mathsf{x}$ such that a fixed quadratic form of $\\mathsf{x}^{2\\ell}$ exactly equals the expected trace moments of the SYK Hamiltonian for every $n$ and $k$. This linear operator can be naturally viewed as a \\emph{twisted} model of bosons on the space of hyperedges of a hypergraph. The problem thus reduces to identifying the spectral edge of $\\mathsf{x}$, which we show is dominated by the spectrum of a natural ${n \\choose k}$-dimensional matrix from the \\emph{Johnson} scheme and is straightforward to compute using known results. To show that our bound is sharp, we construct a witness state with a large quadratic form on $\\mathsf{x}$ and transform it into a certificate of a lower bound on the largest quadratic form on $H_{\\operatorname{SYK}}$.",
+ "comment": "Comments welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.27185",
+  "pdf": "https://arxiv.org/pdf/2607.27185",
+  "html": "https://arxiv.org/html/2607.27185"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-30T09:15:22.936Z",
+  "hook": "A new proof pinpoints the exact ground state energy bound of the SYK model as (1 - o(1)) * sqrt(2n)/k.",
+  "tldr": [
+   "They proved sharp bounds on the expected operator norm (ground state energy) of the SYK model for k-body interactions.",
+   "They introduced a deterministic linear operator representing a twisted model of bosons to map trace moments to a Johnson scheme.",
+   "They confirmed 2018 predictions for SYK ground state energy and proved a dissipative quantum algorithm succeeds for k < sqrt(n)/4."
+  ],
+  "whyItMatters": "The SYK model is a cornerstone in theoretical physics linking quantum chaos to black hole gravity. Finding exact energy bounds helps computer scientists and physicists understand when quantum algorithms can simulate quantum gravity models.",
+  "eli5": "Physicists use a simplified mathematical model called SYK to study how black holes store and scramble quantum information. This paper solves a long-standing math puzzle by finding the exact minimum energy level of this system.",
+  "keyNumbers": [
+   {
+    "value": "(1 - o(1))*sqrt(2n)/k",
+    "label": "Expected ground state energy bound",
+    "context": "Proven expected operator norm of the SYK Hamiltonian for super-constant k <= o(sqrt(n))"
+   },
+   {
+    "value": "k < sqrt(n)/4",
+    "label": "Algorithm interaction bound",
+    "context": "Condition under which a dissipative quantum algorithm provably computes ground state energy within an O(1) factor"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "SYK Model",
+    "shortDef": "Sachdev-Ye-Kitaev model, a quantum mechanical model describing strongly interacting particles with random couplings.",
+    "eli5Def": "A mathematical model of chaotic particles used by physicists to study quantum black holes.",
+    "wikiTitle": "Sachdev–Ye–Kitaev model"
+   },
+   {
+    "term": "Majorana Fermion",
+    "shortDef": "A fermion that is its own antiparticle, commonly used to construct non-abelian anyons in topological quantum computing.",
+    "eli5Def": "A special type of particle that acts as its own twin opposite.",
+    "wikiTitle": "Majorana fermion"
+   },
+   {
+    "term": "Ground State Energy",
+    "shortDef": "The lowest possible energy state that a quantum mechanical system can occupy.",
+    "eli5Def": "The lowest energy level a physical system can drop to when it cools down completely.",
+    "wikiTitle": "Ground state"
+   },
+   {
+    "term": "Johnson Scheme",
+    "shortDef": "An association scheme in algebraic combinatorics based on subsets of a fixed set.",
+    "eli5Def": "A mathematical framework for organizing and counting overlapping groups of items.",
+    "wikiTitle": "Association scheme"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

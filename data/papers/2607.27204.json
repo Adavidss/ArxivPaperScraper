@@ -1,0 +1,93 @@
+{
+ "id": "2607.27204",
+ "version": 1,
+ "title": "Fault-Tolerant Logical Operations and Efficient State Preparation in Modular Quantum Architectures with Noisy Interfaces",
+ "authors": [
+  {
+   "name": "Siddardha Chelluri"
+  },
+  {
+   "name": "Riccardo Mengoni"
+  },
+  {
+   "name": "Tom Darras"
+  },
+  {
+   "name": "Julien Laurat"
+  },
+  {
+   "name": "Eleni Diamanti"
+  },
+  {
+   "name": "Ioannis Lavdas"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-29T17:59:57Z",
+ "updated": "2026-07-29T17:59:57Z",
+ "abstract": "Modular quantum computing is a leading paradigm for scaling quantum computation beyond the resource limitations of monolithic devices. In this architecture, multiple quantum processing units (QPUs), employing identical or distinct qubit modalities, are interconnected via shared entanglement. Here, we investigate how errors at module interfaces and within individual QPUs affect fault-tolerant computation when qubits are encoded using the rotated surface code. Going beyond the logical-memory benchmark, we perform circuit-level simulations of fault-tolerant nonlocal CNOT gates implemented via lattice surgery between QPUs connected by noisy Bell pairs, and analyze the resulting logical error rates. Our results show that interfaces can tolerate noise up to an order of magnitude higher than intra-QPU noise, with only a minor reduction in the fault-tolerance threshold. We further develop an efficient protocol for preparing distributed fault-tolerant logical GHZ states, reducing ancilla overhead, time, and nonlocal Bell-pair consumption. We show that ancilla minimization in this setting is equivalent to a vertex-cover problem on an associated graph, and introduce a polynomial-time heuristic algorithm for finding low-overhead solutions. Our results provide quantitative evidence that distributed quantum error correction can enable scalable, fault-tolerant quantum computation in modular architectures.",
+ "comment": "10 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.27204",
+  "pdf": "https://arxiv.org/pdf/2607.27204",
+  "html": "https://arxiv.org/html/2607.27204"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.27204v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-30T09:15:22.936Z",
+  "hook": "Quantum chip interfaces can tolerate up to 10x more noise than internal hardware without breaking fault tolerance.",
+  "tldr": [
+   "They studied fault-tolerant operations and state preparation across modular quantum processing units connected by noisy links.",
+   "They ran circuit-level surface-code simulations of CNOT gates and framed ancilla state minimization as a graph vertex-cover problem.",
+   "They found that inter-chip interfaces tolerate noise an order of magnitude higher than internal noise with minor threshold loss."
+  ],
+  "whyItMatters": "Building a single giant quantum chip is incredibly hard due to manufacturing limits. Proving that noisy connections between smaller chips still allow error-free computing makes multi-chip quantum supercomputers viable.",
+  "eli5": "Instead of trying to build one giant super-brain chip, scientists connect lots of smaller smart chips together with cables. This paper shows the cables can be surprisingly noisy and imperfect without ruining the teamwork of the chips.",
+  "keyNumbers": [
+   {
+    "value": "an order of magnitude",
+    "label": "Interface noise tolerance ratio",
+    "context": "Maximum interface noise tolerable compared to internal QPU noise before fault tolerance degrades significantly"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Modular Quantum Computing",
+    "shortDef": "An architecture connecting multiple smaller quantum processors via entanglement to act as one computer.",
+    "eli5Def": "Building a large quantum computer by linking small quantum chips together with network cables.",
+    "wikiTitle": "Quantum network"
+   },
+   {
+    "term": "Surface Code",
+    "shortDef": "A quantum error-correcting code that arranges qubits on a 2D grid to protect information.",
+    "eli5Def": "A grid layout of quantum bits that works like a spell-checker to fix errors automatically.",
+    "wikiTitle": "Toric code"
+   },
+   {
+    "term": "GHZ State",
+    "shortDef": "A highly entangled quantum state involving three or more particles.",
+    "eli5Def": "A special state where a group of quantum particles are all tied together in complete unison.",
+    "wikiTitle": "Greenberger–Horne–Zeilinger state"
+   },
+   {
+    "term": "Vertex Cover Problem",
+    "shortDef": "An NP-hard computer science problem of finding the smallest set of vertices that touches every edge in a graph.",
+    "eli5Def": "Finding the fewest guards needed to watch all the hallways in a building layout.",
+    "wikiTitle": "Vertex cover"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

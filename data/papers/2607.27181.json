@@ -1,0 +1,73 @@
+{
+ "id": "2607.27181",
+ "version": 1,
+ "title": "Reconfigurable Optical Platform for One-way Quantum Communication Complexity",
+ "authors": [
+  {
+   "name": "Francesco Mazzoncini"
+  },
+  {
+   "name": "Hugo Defienne"
+  },
+  {
+   "name": "Romain Alléaume"
+  },
+  {
+   "name": "Sylvain Gigan"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-29T17:51:41Z",
+ "updated": "2026-07-29T17:51:41Z",
+ "abstract": "Demonstrating a practical quantum advantage remains a central goal in quantum information science. While quantum computational supremacy is still technologically demanding, communication complexity offers a promising route to showcase quantum advantage with current photonic platforms. Here we introduce a reconfigurable optical platform for one-way quantum communication complexity based on multimode fibers and wavefront shaping. We experimentally validate it by implementing a genuine one-way quantum communication complexity problem for which an exponential quantum--classical communication separation is known. Complementary numerical simulations show that the same reconfigurable decoding architecture can support more general one-way communication tasks with comparable performance, while also offering a route to higher-dimensional implementations without increasing hardware complexity. Together, these results establish multimode-fiber wavefront shaping as a versatile hardware platform for one-way quantum communication complexity and provide a concrete roadmap toward more demanding protocols, where stronger quantum--classical separations could enable practical demonstrations of quantum advantage.",
+ "comment": "25 pages, 9 figures, 3 tables; includes Supplementary Material",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.27181",
+  "pdf": "https://arxiv.org/pdf/2607.27181",
+  "html": "https://arxiv.org/html/2607.27181"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-30T09:15:22.936Z",
+  "hook": "A new optical platform using multimode fibers demonstrates exponential quantum advantage in communication complexity.",
+  "tldr": [
+   "Built and experimentally validated a reconfigurable optical platform for one-way quantum communication complexity.",
+   "Used multimode optical fibers paired with spatial light wavefront shaping to decode higher-dimensional quantum states.",
+   "Demonstrated an exponential quantum-classical communication separation and scaling without extra hardware complexity."
+  ],
+  "whyItMatters": "While building universal quantum computers remains technologically difficult, quantum communication can demonstrate real exponential advantages over classical networks using existing optical fiber technology.",
+  "eli5": "Imagine sending a secret message across a room. By using smart light-shaping tricks inside standard fiber-optic cables, you can send far less data overall than any classical system would require to do the exact same job.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Communication complexity",
+    "shortDef": "The study of the minimum amount of data two parties must exchange to solve a shared computational task.",
+    "eli5Def": "Measuring how little talking two people need to do to solve a joint puzzle.",
+    "wikiTitle": "Communication complexity"
+   },
+   {
+    "term": "Multimode fiber",
+    "shortDef": "An optical fiber designed to transmit multiple light modes or light paths simultaneously.",
+    "eli5Def": "A thick optical cable that lets many different beams of light travel through it at the same time.",
+    "wikiTitle": "Multi-mode optical fiber"
+   },
+   {
+    "term": "Wavefront shaping",
+    "shortDef": "A technique that controls the phase and amplitude spatial distribution of light passing through scattering media.",
+    "eli5Def": "Using liquid crystal screens to steer and tweak light waves so they focus properly after passing through a blurry glass tube.",
+    "wikiTitle": "Wavefront shaping"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

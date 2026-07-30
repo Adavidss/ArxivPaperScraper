@@ -1,0 +1,76 @@
+{
+ "id": "2607.27195",
+ "version": 1,
+ "title": "Very Strong Irreversibility of Quantum Entanglement",
+ "authors": [
+  {
+   "name": "Tulja Varun Kondra"
+  },
+  {
+   "name": "Raphael Brinster"
+  },
+  {
+   "name": "Hermann Kampermann"
+  },
+  {
+   "name": "Dagmar Bruß"
+  },
+  {
+   "name": "Nikolai Wyderka"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-29T17:58:04Z",
+ "updated": "2026-07-29T17:58:04Z",
+ "abstract": "The manipulation of quantum entanglement is fundamentally irreversible: some mixed entangled states require pure entanglement for their preparation, although no pure entanglement can be recovered from them by local operations and classical communication. This irreversibility is known to persist even under the maximal class of operations that do not generate entanglement, revealing a fundamental distinction between entanglement theory and thermodynamics. We construct cases for which any attempt to restore reversibility necessarily incurs an error that increases exponentially with the number of copies. Technically, we demonstrate a strict separation between the exponential strong-converse distillable entanglement and the exponential strong-converse entanglement cost. Our result resolves a conjecture posed by Lami and Regula (Nat. Phys. 19, 184-189 (2023)) and strengthens it by showing that the irreversibility of entanglement persists even at the level of polynomially (in the number of copies) growing error. We further derive a semidefinite-programming lower bound on the exponential strong-converse cost under non-entangling operations. Finally, for the class of completely PPT-preserving operations, we construct analytically solvable families of antisymmetric states exhibiting the exponential strong-converse irreversibility. Remarkably, to our knowledge, no analogous separation between exponential strong converse cost and the analogous distillable entanglement is currently known even under the more restrictive class of LOCC operations.",
+ "comment": "6+16 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.27195",
+  "pdf": "https://arxiv.org/pdf/2607.27195",
+  "html": "https://arxiv.org/html/2607.27195"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-30T09:15:22.936Z",
+  "hook": "Restoring quantum entanglement after transformation incurs an error that grows exponentially with particle copy count.",
+  "tldr": [
+   "They proved that quantum entanglement manipulation is strictly irreversible, resolving a recent conjecture by Lami & Regula.",
+   "They proved a separation between strong-converse distillable entanglement and cost using SDPs and antisymmetric states.",
+   "They found that any attempt to reverse entanglement transformations results in errors that grow exponentially with copy count."
+  ],
+  "whyItMatters": "Unlike classical thermodynamics where energy conversions can sometimes be reversed without loss, quantum entanglement has a permanent directional cost. This fundamental limit dictates how future quantum communication networks must manage their resources.",
+  "eli5": "Imagine turning an ice cube into liquid water, but every time you try to freeze it back, a bit of water vanishes into thin air. The authors proved that in the quantum world, this loss isn't just a minor mistake—it gets exponentially worse the more items you try to fix.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Entanglement",
+    "shortDef": "A phenomenon where quantum particles remain interconnected such that actions on one instantly affect another.",
+    "eli5Def": "A magical-seeming bond between particles where what happens to one affects the other instantly.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "Distillable Entanglement",
+    "shortDef": "The rate at which pure, maximally entangled states can be extracted from noisy, mixed quantum states.",
+    "eli5Def": "The amount of pure, perfect quantum entanglement you can extract from a messy dataset.",
+    "wikiTitle": "Entanglement distillation"
+   },
+   {
+    "term": "Semidefinite Programming",
+    "shortDef": "A subfield of convex optimization dealing with the optimization of a linear function over positive semidefinite matrices.",
+    "eli5Def": "A powerful mathematical method used to find the best possible answer to complex geometry-like problems.",
+    "wikiTitle": "Semidefinite programming"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 70
+ }
+}

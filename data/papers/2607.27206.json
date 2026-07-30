@@ -1,0 +1,78 @@
+{
+ "id": "2607.27206",
+ "version": 1,
+ "title": "Practical Quantum Topological Data Analysis with Applications to High-Dimensional Feature Extraction and Time Series Analysis",
+ "authors": [
+  {
+   "name": "Jason Iaconis"
+  },
+  {
+   "name": "Sayonee Ray"
+  },
+  {
+   "name": "Samwel Sekwao"
+  },
+  {
+   "name": "Claudio Girotto"
+  },
+  {
+   "name": "Martin Roetteler"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-29T17:59:59Z",
+ "updated": "2026-07-29T17:59:59Z",
+ "abstract": "Topological data analysis (TDA) provides a powerful framework for extracting information about the shape of complex, unstructured data, but the classical cost of computing high dimensional topological features limits its application. Quantum algorithms for TDA offer a route around this bottleneck, yet existing approaches typically focus on exact or high precision Betti number estimation, making the regime for practical quantum advantage appear narrow. Here, we instead frame quantum TDA as a feature-extraction method for downstream data analysis by extracting low-order spectral information from the combinatorial Laplacian as a proxy for high-dimensional topology. We support this perspective from both the application and algorithmic sides. First, we show that higher-order TDA features improve predictive performance in two time-series applications: functional MRI analysis for neurodegenerative disease classification and financial time-series analysis for identifying market instability. Second, we develop a moment-based quantum algorithm and show that low-order moments, including the relative trace, are strongly correlated with high-dimensional Betti information, even when the relative Betti number is small. Finally, we present circuit constructions, resource estimates, quantum-classical crossover projections, and experimental results from a Barium development system similar to the forthcoming IonQ Tempo line, extracting Laplacian-derived observables from graph instances and quantitatively comparing them with exact Betti information. Together, these results establish quantum TDA as a practical approach for extracting topological features from classically challenging data",
+ "comment": "38 pages, 24 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.27206",
+  "pdf": "https://arxiv.org/pdf/2607.27206",
+  "html": "https://arxiv.org/html/2607.27206"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.27206v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-30T09:15:22.936Z",
+  "hook": "Quantum TDA extracts higher-order features from brain fMRI and financial time series using Laplacian moments.",
+  "tldr": [
+   "They framed quantum topological data analysis as a practical feature-extraction method rather than an exact Betti-number estimator.",
+   "They developed a moment-based quantum algorithm computing Laplacian spectral observables, testing it on fMRI, market data, and IonQ hardware.",
+   "They found that low-order Laplacian moments strongly correlate with high-dimensional topology and improve classification performance in time series."
+  ],
+  "whyItMatters": "Analyzing the hidden shape of complex data usually takes prohibitive computing power. Using quantum hardware to extract simple spectral proxies makes topological analysis practical for real-world tasks like diagnosing brain diseases.",
+  "eli5": "Imagine trying to map every single room inside a massive castle; it takes forever. Instead of mapping everything, you clap your hands and listen to the echo to quickly judge the shape of the castle. This quantum trick uses fast mathematical echoes to spot complex patterns in data.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Topological Data Analysis",
+    "shortDef": "A technique using concepts from topology to analyze the structural shape of high-dimensional data sets.",
+    "eli5Def": "A way of finding hidden shapes and loops in big piles of complicated data.",
+    "wikiTitle": "Topological data analysis"
+   },
+   {
+    "term": "Combinatorial Laplacian",
+    "shortDef": "A matrix representing graph structure used to compute spectral topological features of data.",
+    "eli5Def": "A mathematical tool that describes how points in a network are connected to each other.",
+    "wikiTitle": "Discrete Laplace operator"
+   },
+   {
+    "term": "Betti Number",
+    "shortDef": "Topological invariants that count the number of high-dimensional holes in a geometric space.",
+    "eli5Def": "Numbers that count how many holes or empty tunnels exist inside a shape.",
+    "wikiTitle": "Betti number"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

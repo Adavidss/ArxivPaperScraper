@@ -1,0 +1,89 @@
+{
+ "id": "2607.27184",
+ "version": 1,
+ "title": "Robust quantum state certification and uncertainty principles for total influence",
+ "authors": [
+  {
+   "name": "Andrea Coladangelo"
+  },
+  {
+   "name": "Jerry Li"
+  },
+  {
+   "name": "Joseph Slote"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-29T17:53:23Z",
+ "updated": "2026-07-29T17:53:23Z",
+ "abstract": "We show that nonadaptive single-qubit Pauli measurements suffice to test whether an unknown $n$-qubit state $ρ$ is $\\varepsilon$-close to or $O(\\varepsilon)$-far from an ideal target state $|ψ\\rangle$, for all but a $2^{-Ω(n)}$ fraction of target states. The test uses $O(\\varepsilon^{-2}\\log(1/δ))$ copies of $ρ$ to achieve confidence $1-δ$, which is information-theoretically optimal even among protocols with arbitrary joint measurements. The main technical innovation is an uncertainty principle for weighted generalizations of the total influence of Boolean functions. As a simple example, the unweighted variant states that $\\mathbf{Inf}[f]+\\mathbf{Inf}[\\widehat{f}] = Ω(n)$, which is a natural hypercube analogue of the Heisenberg uncertainty principle (here $\\widehat{\\,\\cdot\\,}$ denotes the $2^{-n/2}$-normalized Fourier transform). The weighted case generalizes $\\mathbf{Inf}[\\,\\cdot\\,]$ and $\\mathbf{Inf}[\\,\\widehat{\\,\\cdot\\,}\\,]$ to Dirichlet energies associated with Glauber dynamics for certain dual measures on the cube.",
+ "comment": "73 + 3 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.27184",
+  "pdf": "https://arxiv.org/pdf/2607.27184",
+  "html": "https://arxiv.org/html/2607.27184"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.27184v1/experiment.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-30T09:15:22.936Z",
+  "hook": "Single-qubit Pauli measurements suffice to test almost all n-qubit quantum states with optimal sample efficiency.",
+  "tldr": [
+   "Showed that nonadaptive single-qubit Pauli measurements can test if an unknown state matches a target state for almost all targets.",
+   "Proved an uncertainty principle for total influence and Fourier transforms of Boolean functions on hypercubes.",
+   "Achieved optimal sample efficiency O(ε⁻² log(1/δ)) matching protocols with arbitrary joint measurements."
+  ],
+  "whyItMatters": "Quantum state certification typically requires complex, multi-qubit joint measurements. Proving simple single-qubit checks are optimal drastically reduces the experimental hardware needed to verify quantum states.",
+  "eli5": "Checking if a quantum computer created the right complex state is like inspecting a huge building. Instead of needing hyper-advanced scanning machinery, this paper proves you can inspect bricks one by one and still get a near-perfect answer.",
+  "keyNumbers": [
+   {
+    "value": "2^{-Ω(n)}",
+    "label": "Failure target fraction",
+    "context": "The test works for all target states except this tiny exponential fraction"
+   },
+   {
+    "value": "O(\\varepsilon^{-2}\\log(1/δ))",
+    "label": "Required state copies",
+    "context": "Number of state copies needed to achieve state certification with confidence 1-δ"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Pauli measurements",
+    "shortDef": "Single-qubit quantum measurements performed along the basic X, Y, or Z spatial axes.",
+    "eli5Def": "Simple checks on individual quantum particles to see which direction they are pointing.",
+    "wikiTitle": "Pauli matrices"
+   },
+   {
+    "term": "Total influence",
+    "shortDef": "A measure of how sensitive a Boolean function's output is to changes in its individual input bits.",
+    "eli5Def": "A measure of how much a single voter can flip the outcome of a group decision.",
+    "wikiTitle": "Analysis of Boolean functions"
+   },
+   {
+    "term": "Glauber dynamics",
+    "shortDef": "A stochastic process used to model the step-by-step state changes of interacting particles on a lattice.",
+    "eli5Def": "A computer simulation game where particles randomly flip colors depending on what their neighbors are doing.",
+    "wikiTitle": "Glauber dynamics"
+   },
+   {
+    "term": "Dirichlet energy",
+    "shortDef": "A mathematical quantity measuring how smoothly a function changes across a space or graph.",
+    "eli5Def": "A single number that tells you how bumpy or uneven a mathematical surface is.",
+    "wikiTitle": "Dirichlet energy"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

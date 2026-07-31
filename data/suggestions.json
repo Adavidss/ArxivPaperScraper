@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T09:15:22.936Z",
+ "generatedAt": "2026-07-31T09:25:07.922Z",
  "suggestions": [
   {
    "name": "Vsevolod Ivanov",
@@ -41,6 +41,26 @@
     "Drive-Only Interaction Engineering via Dynamical Freezing"
    ],
    "paperCount": 2
+  },
+  {
+   "name": "Liang Jiang",
+   "slug": "liang-jiang",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2607.28605",
+    "2607.21555",
+    "2607.21554"
+   ],
+   "recentTitles": [
+    "Logical computation with canonical lifted product codes",
+    "Enhancing Entanglement Purification with Shared Randomness"
+   ],
+   "paperCount": 3
   },
   {
    "name": "Cheng Chu",
@@ -162,24 +182,6 @@
   {
    "name": "Jiashen Tang",
    "slug": "jiashen-tang",
-   "score": 3,
-   "coAuthoredWith": [
-    "daniel-g-ang",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2606.23621"
-   ],
-   "recentTitles": [
-    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
-   ],
-   "paperCount": 1
-  },
-  {
-   "name": "Maximilian Shen",
-   "slug": "maximilian-shen",
    "score": 3,
    "coAuthoredWith": [
     "daniel-g-ang",

@@ -1,0 +1,94 @@
+{
+ "id": "2607.28605",
+ "version": 1,
+ "title": "Logical computation with canonical lifted product codes",
+ "authors": [
+  {
+   "name": "Han Zheng"
+  },
+  {
+   "name": "Guo Zheng"
+  },
+  {
+   "name": "Liang Jiang"
+  },
+  {
+   "name": "Qian Xu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-30T17:55:34Z",
+ "updated": "2026-07-30T17:55:34Z",
+ "abstract": "High-rate quantum low-density parity-check (qLDPC) codes encode many logical qubits with low physical-qubit overhead, but realizing efficient fault-tolerant computation on such dense encodings remains a major challenge. Generic, code-agnostic techniques such as code surgery and gate teleportation apply broadly, but are difficult to make modular, low-overhead, and fully certifiable on complex high-rate codes whose structure is left unexploited. Here we overcome these obstacles by co-designing the code together with its logical instruction set for a broad family of \\emph{canonical} lifted-product (LP) codes with cyclic symmetry. We show that these codes admit a \\emph{canonical logical basis}, in which conjugate logical operators are organized into rows and columns of cyclic orbits inherited directly from the underlying classical codes, analogous to the structure that makes hypergraph-product codes so tractable. This canonical basis unlocks a complete logical instruction set, including constant-depth automorphism and fold-transversal Clifford gates, modular graph code surgeries built from a constant number of reusable seed surgery gadgets or a compact canonical extractor, highly parallel logical Pauli-product measurements, and parallel magic-state injection. For example, a $[[1122,148,\\leq\\!20]]$ (resp. $[[4350,1224,\\leq\\!20]]$) LP code requires only two (resp. four) seed surgery gadgets, while arbitrary high-weight logical measurements can be implemented using a full extractor smaller than half of the data code block. These results advance the frontier of fault-tolerant quantum computation on ultra-high-rate quantum architectures.",
+ "comment": "4 Figures and 5 tables, 22 page + 40 page appendix",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28605",
+  "pdf": "https://arxiv.org/pdf/2607.28605",
+  "html": "https://arxiv.org/html/2607.28605"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-31T09:25:07.922Z",
+  "hook": "A [[1122,148,<=20]] quantum code requires only two seed gadgets for modular code surgery and logic gates.",
+  "tldr": [
+   "Co-designed canonical lifted-product qLDPC codes alongside their complete logical instruction set.",
+   "Organized conjugate logical operators into cyclic orbits inherited directly from classical underlying codes.",
+   "Achieved modular code surgery needing as few as two seed gadgets for high-rate quantum architectures."
+  ],
+  "whyItMatters": "Packing many logical qubits into physical chips while running complex programs with low overhead is the key bottleneck to building practical quantum supercomputers.",
+  "eli5": "Instead of building a unique custom bridge between every room in a giant skyscraper, this design uses standardized elevator shafts that handle all traffic effortlessly.",
+  "keyNumbers": [
+   {
+    "value": "[[1122,148,<=20]]",
+    "label": "Code parameters",
+    "context": "First exemplar LP code specs (physical qubits, logical qubits, distance)"
+   },
+   {
+    "value": "2",
+    "label": "Seed surgery gadgets",
+    "context": "Gadgets needed for the [[1122,148,<=20]] LP code"
+   },
+   {
+    "value": "[[4350,1224,<=20]]",
+    "label": "Code parameters",
+    "context": "Second exemplar LP code specs"
+   },
+   {
+    "value": "4",
+    "label": "Seed surgery gadgets",
+    "context": "Gadgets needed for the [[4350,1224,<=20]] LP code"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "qLDPC code",
+    "shortDef": "Quantum low-density parity-check code with sparse check matrices.",
+    "eli5Def": "A quantum error-correcting layout where each check bit only looks at a few nearby data bits.",
+    "wikiTitle": "Quantum low-density parity-check code"
+   },
+   {
+    "term": "Gate teleportation",
+    "shortDef": "A technique to apply quantum gates using entangled states and measurement.",
+    "eli5Def": "A trick to perform a quantum instruction on a bit without touching it directly, using pre-shared quantum links.",
+    "wikiTitle": "Quantum teleportation"
+   },
+   {
+    "term": "Magic-state injection",
+    "shortDef": "A protocol to introduce special non-Clifford states into fault-tolerant codes for universal computation.",
+    "eli5Def": "Feeding special pre-cooked quantum ingredients into an error-protected computer to unlock advanced math.",
+    "wikiTitle": "Magic state distillation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

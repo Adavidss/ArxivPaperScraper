@@ -1,0 +1,86 @@
+{
+ "id": "2607.28600",
+ "version": 1,
+ "title": "SymFT: Universal Fault-Tolerant Quantum Circuit Simulation via Symbolic Clifford--Pauli Frames and Stabilizer Coordinates",
+ "authors": [
+  {
+   "name": "Wang Fang"
+  },
+  {
+   "name": "Huazhe Lou"
+  },
+  {
+   "name": "Riling Li"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-30T17:51:54Z",
+ "updated": "2026-07-30T17:51:54Z",
+ "abstract": "Fault-tolerant protocols often consist largely of stabilizer subcircuits, yet the non-Clifford operations required for universality make exact sampling costly. We present SymFT, a high-throughput simulator for Clifford-dominated circuits with Pauli rotations, stochastic Pauli noise, mid-circuit Pauli measurements, and measurement-record-controlled Pauli feedback. It combines two ideas. First, symbolic Clifford--Pauli frame factorization reduces branch-probability sampling to Pauli rotations and measurement projectors, with noise and feedback represented by symbolic signs. Since the residual Clifford and Pauli frames are unitary, they do not affect branch probabilities and need not be applied in every shot. Second, adaptive stabilizer-coordinate planning uses a shared stabilizer--destabilizer tableau to define the basis and stores only the active non-stabilizer degrees of freedom in a dynamically sized dense active-state vector. It resolves basis changes once and emits direct multi-coordinate sampling instructions, thereby avoiding per-shot tableau updates and localization-induced Clifford transformations of the dense vector. Across the tested pure-Clifford and near-Clifford circuits, SymFT achieves state-of-the-art sampling performance. On a single CPU core, it is $2.51\\text{--}2.56\\times$ faster than Stim for surface-code circuits and $1.86\\text{--}3.51\\times$ faster than Clifft for magic-state cultivation and distillation circuits. For the tested cultivation circuits, its sampling throughput also exceeds that of our previous simulator, SOFT, by more than two orders of magnitude.",
+ "comment": "28 pages, 1 figure. SymFT is the second-generation successor to SOFT, see GitHub repository: https://github.com/haoliri0/SOFT",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28600",
+  "pdf": "https://arxiv.org/pdf/2607.28600",
+  "html": "https://arxiv.org/html/2607.28600"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-31T09:25:07.922Z",
+  "hook": "SymFT quantum circuit simulator runs up to 2.56x faster than Stim and over 100x faster than SOFT on a single CPU core.",
+  "tldr": [
+   "Created SymFT, a classical simulator for fault-tolerant quantum circuits containing Clifford gates and Pauli operations.",
+   "Used symbolic frame factorization and adaptive stabilizer-coordinate planning to avoid repetitive per-shot tableau updates.",
+   "Outperformed Stim by 2.51–2.56x on surface codes and beat previous simulator SOFT by over two orders of magnitude."
+  ],
+  "whyItMatters": "Designing reliable quantum computers requires simulating fault-tolerant algorithms on ordinary supercomputers. Speeding up these classical simulations by orders of magnitude drastically cuts the time needed to test quantum error-correction designs.",
+  "eli5": "Testing future quantum computers on standard CPUs is usually super slow. SymFT acts like a smart shortcut calculator that skips useless repetitive algebra, allowing a single computer core to simulate quantum error checks hundreds of times faster.",
+  "keyNumbers": [
+   {
+    "value": "2.51–2.56x",
+    "label": "Speedup vs Stim",
+    "context": "Sampling speed gain for surface-code circuits on a single CPU core"
+   },
+   {
+    "value": "1.86–3.51x",
+    "label": "Speedup vs Clifft",
+    "context": "Sampling speed gain for magic-state cultivation and distillation circuits"
+   },
+   {
+    "value": ">100x",
+    "label": "Speedup vs SOFT",
+    "context": "Throughput improvement over the authors' previous simulator on cultivation circuits"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Surface code",
+    "shortDef": "A 2D spatial arrangement of physical qubits used for robust quantum error correction.",
+    "eli5Def": "A checkerboard-like grid of quantum bits that works together to detect and fix calculation errors.",
+    "wikiTitle": "Toric code"
+   },
+   {
+    "term": "Magic state distillation",
+    "shortDef": "A routine that purifies noisy quantum states into high-fidelity states necessary for fault-tolerant computation.",
+    "eli5Def": "A filtering process that turns messy quantum ingredients into pure, high-quality ingredients needed for complex quantum math.",
+    "wikiTitle": "Magic state distillation"
+   },
+   {
+    "term": "Stabilizer code",
+    "shortDef": "A class of quantum error-correcting codes defined by simultaneous eigenspaces of commuting Pauli operators.",
+    "eli5Def": "A system that keeps quantum data safe by constantly checking simple symmetry rules across groups of qubits.",
+    "wikiTitle": "Stabilizer code"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "2607.28621",
+ "version": 1,
+ "title": "Lifting Lifted Product Codes",
+ "authors": [
+  {
+   "name": "Yuta Hirasaki"
+  },
+  {
+   "name": "Jong Yeon Lee"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-30T17:59:18Z",
+ "updated": "2026-07-30T17:59:18Z",
+ "abstract": "Lifted product (LP) codes form an important class of quantum error correcting codes with favorable code parameters. We introduce a systematic construction of LP code families based on group extensions and graph lifts. The construction increases the code size while preserving the local structure of the Tanner graph, and relates code parameters, logical operators, and fault-tolerant logical-operation gadgets within the families through chain and cochain maps. As a first application, we obtain LP codes with better code parameters than previously reported ones. We then demonstrate that code-surgery gadgets can be transferred across the selected finite lifts through chain maps and, in several cases, implemented with lower space overhead. We also develop parallel product surgery for lifted clustered cyclic codes. Finally, we propose lifting as a systematic first step toward defining thermodynamic families for algebraically defined qLDPC codes without an underlying Euclidean lattice. For several base codes and selected lifts, coherent information exhibits finite-size crossings, while our results also indicate that additional conditions are needed to determine a unique family.",
+ "comment": "25 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28621",
+  "pdf": "https://arxiv.org/pdf/2607.28621",
+  "html": "https://arxiv.org/html/2607.28621"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.28621v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-31T09:25:07.922Z",
+  "hook": "New lifted product quantum codes boost code size while preserving graph structure and reducing code surgery overhead.",
+  "tldr": [
+   "Introduced a systematic framework to construct quantum error-correcting codes using group extensions and graph lifts.",
+   "Used chain and cochain maps to preserve Tanner graph structure while scaling code size and mapping fault-tolerant gadgets.",
+   "Achieved better code parameters than previously reported and reduced space overhead for code-surgery gadgets."
+  ],
+  "whyItMatters": "Quantum computers need error correction to handle noise, and finding efficient ways to scale quantum codes makes physical hardware far more practical.",
+  "eli5": "Imagine scaling up a modular Lego building using identical blueprint tiles. You get a much bigger structure without re-engineering how individual blocks connect together.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Lifted product codes",
+    "shortDef": "Quantum error-correcting codes constructed using algebraic lifting techniques.",
+    "eli5Def": "A method to build big quantum error-checking grids out of smaller, easier-to-design pieces.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Code surgery",
+    "shortDef": "A method for executing logic gates between quantum error-correcting codes by merging or splitting them.",
+    "eli5Def": "Connecting and disconnecting sections of quantum codes like dynamic Lego pieces to do operations.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Tanner graph",
+    "shortDef": "A bipartite graph representing relationships between sub-bits and parity checks in error-correcting codes.",
+    "eli5Def": "A map showing which check-bits monitor which data-bits in an error-checking puzzle.",
+    "wikiTitle": "Tanner graph"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

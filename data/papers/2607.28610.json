@@ -1,0 +1,79 @@
+{
+ "id": "2607.28610",
+ "version": 1,
+ "title": "Learning Arbitrary Lindbladians from Time Evolution",
+ "authors": [
+  {
+   "name": "Zhili Chen"
+  },
+  {
+   "name": "Zhan Yu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.DS"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-30T17:58:01Z",
+ "updated": "2026-07-30T17:58:01Z",
+ "abstract": "We study the problem of learning an unknown Markovian open-system generator from access to its physical time evolution. This generator, called a Lindbladian, contains Hamiltonian and dissipative coefficients indexed by an exponentially large family of possible Pauli terms. We propose an efficient algorithm that learns arbitrary Lindbladians from time evolution under minimal assumptions. For a Lindbladian of dynamical strength at most $Λ$, the algorithm estimates every coefficient to error $ε$ using $\\widetilde O(Λ^2/ε^2)$ experiments and $\\widetilde O(Λ/ε^2)$ total evolution time, together with polynomial classical running time. The algorithm consists of two nonadaptive, ancilla-free, and control-free stages: 1. The support-learning stage outputs a candidate support of size $\\mathrm{poly}(Λ/η)$ that contains every Hamiltonian and dissipative coordinate of magnitude at least $η$, using $\\widetilde O(Λ^2/η^2)$ experiments with preparations of product Pauli eigenstates and single-qubit Pauli measurements. 2.The coefficient-learning stage estimates all coefficients in any candidate support of size $M$ to error $ε$, using $\\widetilde O(Λ^2\\log M/ε^{2})$ experiments with preparations of random stabilizer states and measurements in random Clifford bases. Composing the two stages identifies and estimates every coefficient of an arbitrary Lindbladian in polynomial time. The experiment-count and total-evolution-time scalings match the lower bounds up to logarithmic factors, so the algorithm is nearly optimal for learning arbitrary Lindbladians.",
+ "comment": "45 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28610",
+  "pdf": "https://arxiv.org/pdf/2607.28610",
+  "html": "https://arxiv.org/html/2607.28610"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-31T09:25:07.922Z",
+  "hook": "An efficient algorithm estimates open quantum system generators in optimal time using minimal assumptions.",
+  "tldr": [
+   "Created a two-stage algorithm to learn arbitrary open-system Lindbladian generators from physical time evolution.",
+   "Used nonadaptive support finding with product states followed by coefficient estimation using random stabilizer states.",
+   "Achieved near-optimal experiment counts and total evolution time matching theoretical lower bounds up to logarithmic factors."
+  ],
+  "whyItMatters": "Understanding noise in real quantum devices is crucial for building reliable quantum hardware, and this method reconstructs noise dynamics efficiently.",
+  "eli5": "If an engine has hidden friction and rattles, you can figure out every faulty part by testing how it responds to simple starting tweaks. This algorithm plays specific test notes to map out all the hidden quantum noise.",
+  "keyNumbers": [
+   {
+    "value": "O~(Λ^2/ε^2)",
+    "label": "Experiments required",
+    "context": "Total experiments needed to estimate every coefficient to error ε"
+   },
+   {
+    "value": "O~(Λ/ε^2)",
+    "label": "Total evolution time",
+    "context": "Total physical evolution time required across experiments"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Lindbladian",
+    "shortDef": "A mathematical operator describing the time evolution of open quantum systems with noise and dissipation.",
+    "eli5Def": "A math formula that calculates how quantum systems lose energy and get noisy over time.",
+    "wikiTitle": "Quantum Lindblad equation"
+   },
+   {
+    "term": "Stabilizer state",
+    "shortDef": "A special quantum state that is an eigenstate of a set of commuting Pauli operators.",
+    "eli5Def": "A specific type of well-behaved quantum state that is easy to keep track of and measure.",
+    "wikiTitle": "Stabilizer code"
+   },
+   {
+    "term": "Clifford basis",
+    "shortDef": "A measurement basis defined by operations in the Clifford group.",
+    "eli5Def": "A standard set of measuring angles that play nicely with quantum error correction tools.",
+    "wikiTitle": "Clifford group"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

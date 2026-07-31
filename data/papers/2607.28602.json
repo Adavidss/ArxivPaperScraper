@@ -1,0 +1,86 @@
+{
+ "id": "2607.28602",
+ "version": 1,
+ "title": "Pauli Encodings & Unclonable Encryption",
+ "authors": [
+  {
+   "name": "Pierre Botteron"
+  },
+  {
+   "name": "Sébastien Designolle"
+  },
+  {
+   "name": "Omar Fawzi"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-30T17:54:03Z",
+ "updated": "2026-07-30T17:54:03Z",
+ "abstract": "The unclonable bit question asks whether quantum encryption can prevent an adversary from producing two systems that both reveal the plaintext once the key is disclosed. We introduce and study Pauli Encodings, a simple class of one-bit encryption schemes whose ciphertexts are normalized eigenspace projectors of Pauli strings. For every Pauli Encoding with K Pauli strings, we prove a universal lower bound $1/2+1/(2\\sqrt{K})$ on the optimal monogamy-of-entanglement winning probability, together with sharper bounds for several structured families. We then establish two limitations of natural approaches to unclonable security. First, if the Pauli strings are restricted to strings of X and Z of length n, the encoding is not secure. Second, we identify a universal 3/4 obstruction showing that arguments based only on pairwise guessing marginals cannot establish unclonable-indistinguishable security. When the Pauli strings all pairwise anticommute, the protocol becomes the one studied in [Quantum 10, 2157 (2026)]. We exploit the symmetry of this protocol to solve the third level of the natural semidefinite programming relaxation obtaining an asymptotic upper bound of approximately 0.5556 on the winning probability. Finally, we prove strong unclonable-indistinguishable security against bounded-local-dimension adversaries and strong indistinguishability security for several efficient Pauli families. First-level NPA computations provide additional numerical evidence towards the strong unclonable-indistinguishable security.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28602",
+  "pdf": "https://arxiv.org/pdf/2607.28602",
+  "html": "https://arxiv.org/html/2607.28602"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-31T09:25:07.922Z",
+  "hook": "Pauli Encodings place a 1/2+1/(2√K) lower bound on quantum encryption security against cloning attacks.",
+  "tldr": [
+   "Introduced Pauli Encodings, a class of single-bit quantum encryption schemes using eigenspace projectors of Pauli strings.",
+   "Analyzed unclonable security using monogamy-of-entanglement bounds, semidefinite programming relaxations, and NPA computations.",
+   "Proved a universal winning lower bound of 1/2+1/(2√K), a 3/4 security obstruction, and an asymptotic upper bound near 0.5556."
+  ],
+  "whyItMatters": "Quantum physics allows encryption that cannot be cloned, but constructing practical schemes remains difficult. This paper uncovers fundamental mathematical limits and secure designs for copy-protected quantum data.",
+  "eli5": "Imagine trying to send a secret message on a magic bubble that pops if someone tries to duplicate it. Researchers created a simple mathematical recipe for these magic bubbles and figured out exactly how hard it is for an eavesdropper to copy them.",
+  "keyNumbers": [
+   {
+    "value": "1/2+1/(2√K)",
+    "label": "Universal lower bound",
+    "context": "Optimal monogamy-of-entanglement winning probability for K Pauli strings"
+   },
+   {
+    "value": "3/4",
+    "label": "Security obstruction",
+    "context": "Universal limit for security arguments relying only on pairwise guessing marginals"
+   },
+   {
+    "value": "0.5556",
+    "label": "Asymptotic upper bound",
+    "context": "Winning probability limit for pairwise anticommuting Pauli strings"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Unclonable encryption",
+    "shortDef": "Quantum encryption preventing an attacker from making two ciphertext copies that both reveal plaintext once decrypted.",
+    "eli5Def": "A secret quantum message designed so that nobody can photocopy it into two readable messages.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Monogamy of entanglement",
+    "shortDef": "A property of quantum mechanics stating that a system cannot be fully entangled with two independent systems at once.",
+    "eli5Def": "If two quantum particles are secret best friends, neither one can be equally close best friends with a third particle.",
+    "wikiTitle": "Monogamy of entanglement"
+   },
+   {
+    "term": "Pauli matrices",
+    "shortDef": "A set of three 2x2 complex matrices that describe quantum spin operations on qubits.",
+    "eli5Def": "Basic mathematical building blocks used to flip or rotate quantum bits.",
+    "wikiTitle": "Pauli matrices"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

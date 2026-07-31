@@ -1,0 +1,71 @@
+{
+ "id": "2607.28620",
+ "version": 1,
+ "title": "On Optimal Measurement-State Preparation via Geometric Transport of the Squeezing Ellipse",
+ "authors": [
+  {
+   "name": "Vsevolod Salakhutdinov"
+  },
+  {
+   "name": "Nikolay Kalinin"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.app-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-30T17:59:17Z",
+ "updated": "2026-07-30T17:59:17Z",
+ "abstract": "Preparation of optimal measurement states is a key requirement in quantum metrology utilizing squeezed states. We discuss a geometric framework that transforms an initially misaligned squeezed input into a measurement-optimal state in SU(2)-symmetric systems. Within this framework, the orientation of the squeezing ellipse constitutes an additional geometric degree of freedom and evolves as the mean state follows a controlled trajectory on the unit sphere. The resulting rotation of the ellipse is determined by the geometry of the path and, for the relevant class of transformations, depends on the solid angle enclosed by the trajectory, establishing a connection with the geometric phase. The discussed framework is applicable to different physical platforms. As a particular example, we consider polarization-squeezed light and outline a possible implementation using a continuously varying birefringent element.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28620",
+  "pdf": "https://arxiv.org/pdf/2607.28620",
+  "html": "https://arxiv.org/html/2607.28620"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.28620v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-07-31T09:25:07.922Z",
+  "hook": "A geometric framework uses solid angles to rotate squeezing ellipses, optimizing quantum measurement states.",
+  "tldr": [
+   "Developed a geometric transport framework to align squeezed input states for optimal quantum measurements.",
+   "Tracked the orientation of the squeezing ellipse as the mean state moves on a unit sphere, linking it to solid angles.",
+   "Demonstrated that ellipse rotation depends on enclosed solid angles and mapped the concept to polarization-squeezed light."
+  ],
+  "whyItMatters": "Improving quantum sensing precision requires precisely controlled light states, enabling better sensors for medicine, astronomy, and navigation.",
+  "eli5": "Imagine spinning a globe while trying to keep a flashlight beam pointed in a precise direction. By sweeping along specific curved paths on the sphere, the beam's angle aligns perfectly at the end.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Squeezed state",
+    "shortDef": "A quantum state of light with reduced uncertainty in one physical variable at the cost of increased uncertainty in another.",
+    "eli5Def": "Light tweaked so its noise is squeezed super thin in one direction, making measurements much more precise.",
+    "wikiTitle": "Squeezed states of light"
+   },
+   {
+    "term": "Geometric phase",
+    "shortDef": "A phase difference acquired by a system during a cyclic evolution dependent on the geometry of its parameter space.",
+    "eli5Def": "A twist gained by an object simply because of the curved path it traveled, not how fast it moved.",
+    "wikiTitle": "Geometric phase"
+   },
+   {
+    "term": "Quantum metrology",
+    "shortDef": "The study of making high-precision measurements using quantum mechanics features.",
+    "eli5Def": "Using quantum physics tricks to build the most sensitive measuring tools possible.",
+    "wikiTitle": "Quantum metrology"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "id": "2607.28579",
+ "version": 1,
+ "title": "Quantum Chaos and Diffusive Transport from Geometric Randomness",
+ "authors": [
+  {
+   "name": "Bibek Saha"
+  },
+  {
+   "name": "Abhishek Dhar"
+  },
+  {
+   "name": "Sthitadhi Roy"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "cond-mat.dis-nn",
+  "cond-mat.mes-hall",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-07-30T17:39:19Z",
+ "updated": "2026-07-30T17:39:19Z",
+ "abstract": "The physics of quantum chaos and diffusive transport is typically studied in settings with microscopic disorder or many-body interactions. In this Letter, we demonstrate that these phenomena can arise purely from geometric randomness. By studying non-interacting quantum particles on random locally tree-like layered graphs with uniform couplings, we show that the geometric randomness and effective graph dimensionality dictates the presence of chaotic dynamics or lack thereof. These graphs can be considered as structurally disordered generalisations of regular square lattices or ladders, or equivalently as multi-component one-dimensional chains with random links between the components. We find that an extensive layer size yields robust quantum chaos, level repulsion, and diffusive transport. Conversely, in the quasi-one-dimensional limit, we find the coexistence of extensive number of localised and delocalised states -- this leads to suppressed level repulsion accompanied by the latter driving ballistic transport. These results establish geometric randomness as a fundamental and independent mechanism for generating and tuning quantum chaos.",
+ "comment": "8 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28579",
+  "pdf": "https://arxiv.org/pdf/2607.28579",
+  "html": "https://arxiv.org/html/2607.28579"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.28579v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-01T08:41:15.664Z",
+  "hook": "Quantum chaos and diffusive transport can arise purely from geometric randomness without microscopic disorder.",
+  "tldr": [
+   "Investigated quantum chaos and particle transport driven solely by network structural randomness.",
+   "Simulated non-interacting quantum particles moving on random locally tree-like layered graphs.",
+   "Discovered that large layer sizes produce robust quantum chaos, while quasi-1D limits cause localized and ballistic states."
+  ],
+  "whyItMatters": "It demonstrates that chaotic quantum behavior does not require complex particle-particle collisions or material impurities, proving spatial geometry alone is sufficient.",
+  "eli5": "Usually, quantum particles scramble because they hit impurities or collide with each other. Here, scientists showed that running through a maze with random connections is enough to induce chaos.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum chaos",
+    "shortDef": "The study of quantum physical systems whose classical counterparts exhibit chaotic dynamic behavior.",
+    "eli5Def": "When tiny quantum particles behave in wild, unpredictable ways caused by their environment.",
+    "wikiTitle": "Quantum chaos"
+   },
+   {
+    "term": "Diffusive transport",
+    "shortDef": "Particle or energy movement driven by random scattering along concentration gradients.",
+    "eli5Def": "Particles spreading out gradually like a drop of food coloring in a glass of water.",
+    "wikiTitle": "Diffusion"
+   },
+   {
+    "term": "Level repulsion",
+    "shortDef": "A property of chaotic quantum systems where neighboring energy levels avoid crossing.",
+    "eli5Def": "Energy levels keeping their distance from one another, like similar magnet poles pushing apart.",
+    "wikiTitle": "Random matrix theory"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

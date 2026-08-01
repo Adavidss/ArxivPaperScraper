@@ -1,0 +1,95 @@
+{
+ "id": "2607.28548",
+ "version": 1,
+ "title": "Quantum Computing Enabled ab initio Molecular Dynamics Simulations",
+ "authors": [
+  {
+   "name": "Susanta Das"
+  },
+  {
+   "name": "Subhamoy Bhowmik"
+  },
+  {
+   "name": "Zhen Li"
+  },
+  {
+   "name": "Milana Bazayeva"
+  },
+  {
+   "name": "Danil Kaliakin"
+  },
+  {
+   "name": "Akhil Shajan"
+  },
+  {
+   "name": "Kenneth M. Merz"
+  }
+ ],
+ "categories": [
+  "physics.chem-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.chem-ph",
+ "published": "2026-07-30T17:17:40Z",
+ "updated": "2026-07-30T17:17:40Z",
+ "abstract": "We demonstrate a quantum-classical workflow for ab initio molecular dynamics (AIMD) in which quantum measurements from a chemistry-inspired LUCJ ansatz are post-processed using Sample-based Quantum Diagonalization (SQD) to recover determinant subspaces and deliver energies and analytical nuclear gradients for dynamics. As an exact benchmark, we use full configuration interaction (FCI) in the STO-3G basis, enabling a direct assessment of the accuracy of SQD. In gas-phase benchmarks, SQD reproduces FCI energies and gradients to within 1 kcal mol$^{-1}$ of the FCI reference and yields stable AIMD trajectories. In explicit-solvent QM/MM simulations, SQD retains this agreement, matching FCI energy fluctuations and RMS gradient profiles and reproducing solute-solvent structure as quantified by radial distribution functions. Overall, these benchmarks establish LUCJ+SQD as a practical route for integrating current quantum hardware into QM/MM molecular dynamics and provide an early demonstration of condensed-phase QM/MM dynamics driven by a quantum electronic-structure engine.",
+ "comment": "45 pages, 7 figures. Supporting Information included as an ancillary file",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28548",
+  "pdf": "https://arxiv.org/pdf/2607.28548",
+  "html": "https://arxiv.org/html/2607.28548"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-01T08:41:15.664Z",
+  "hook": "A quantum-classical workflow matches exact theoretical benchmarks to within 1 kcal/mol in molecular simulations.",
+  "tldr": [
+   "Created a hybrid quantum-classical workflow to execute accurate ab initio molecular dynamics simulations.",
+   "Combined quantum ansatz measurements with Sample-based Quantum Diagonalization and benchmarked against exact calculations.",
+   "Matched exact benchmark energies within 1 kcal/mol and reproduced stable molecular dynamics in gas and liquid phases."
+  ],
+  "whyItMatters": "Simulating how chemical reactions unfold requires tracking complex quantum forces between atoms. Demonstrating accurate quantum-driven simulations brings practical drug discovery and chemistry on quantum hardware a step closer.",
+  "eli5": "Imagine predicting how water molecules bump into each other using a supercomputer. Scientists built a turbocharged quantum engine that calculates atomic forces super accurately, letting them run realistic movies of molecules in liquid.",
+  "keyNumbers": [
+   {
+    "value": "1 kcal mol^-1",
+    "label": "Energy precision limit",
+    "context": "Agreement between SQD and exact full configuration interaction benchmark energies and gradients."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Ab initio molecular dynamics",
+    "shortDef": "Simulating atom trajectories by calculating electron interactions directly from fundamental quantum physics.",
+    "eli5Def": "Creating a physics-accurate movie of moving atoms by calculating forces from scratch at every frame.",
+    "wikiTitle": "Ab initio molecular dynamics"
+   },
+   {
+    "term": "Full configuration interaction",
+    "shortDef": "An exact quantum chemistry method accounting for all electron interactions within a given quantum basis.",
+    "eli5Def": "The exact gold-standard answer for how electrons behave, used to double-check faster approximations.",
+    "wikiTitle": "Full configuration interaction"
+   },
+   {
+    "term": "QM/MM simulations",
+    "shortDef": "Hybrid modeling combining quantum physics for active reaction sites with classical physics for surroundings.",
+    "eli5Def": "Using complex quantum math for the main reaction center while treating surrounding liquid with simpler physical rules.",
+    "wikiTitle": "QM/MM"
+   },
+   {
+    "term": "Radial distribution function",
+    "shortDef": "A statistical measure describing how particle density varies as a function of distance from a target particle.",
+    "eli5Def": "A mathematical map showing how neighboring molecules cluster around a central atom.",
+    "wikiTitle": "Radial distribution function"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

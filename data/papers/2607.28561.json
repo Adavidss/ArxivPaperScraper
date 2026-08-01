@@ -1,0 +1,70 @@
+{
+ "id": "2607.28561",
+ "version": 1,
+ "title": "Statistically secure uncloneable encryption of arbitrary messages",
+ "authors": [
+  {
+   "name": "Archishna Bhattacharyya"
+  },
+  {
+   "name": "Anne Broadbent"
+  },
+  {
+   "name": "Eric Culf"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-30T17:27:40Z",
+ "updated": "2026-07-30T17:27:40Z",
+ "abstract": "Unconditional uncloneable encryption of a single bit with efficient encryption and decryption is now possible. However, whether the extension to messages of arbitrary length achieves statistical security remains to be known. Using the fact that the encoding bases for the single-bit scheme known to be secure consist of a subset of the Clifford unitaries, we show that this scheme can be upgraded to achieve unconditional uncloneable encryption for messages of arbitrary length, with encoding time polynomial in the message length and security parameter. This establishes that one-time uncloneable encryption of arbitrary messages enjoys statistical security.",
+ "comment": "11 pages, no figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28561",
+  "pdf": "https://arxiv.org/pdf/2607.28561",
+  "html": "https://arxiv.org/html/2607.28561"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-01T08:41:15.664Z",
+  "hook": "Unconditional quantum encryption that prevents ciphertext copying now works for messages of arbitrary length.",
+  "tldr": [
+   "Upgraded a single-bit quantum encryption scheme to unconditionally protect arbitrary-length messages from illegal cloning.",
+   "Exploited Clifford unitaries encoding bases to build a polynomial-time encoding scheme with statistical security.",
+   "Proved that one-time uncloneable encryption of arbitrary-length messages achieves full statistical security."
+  ],
+  "whyItMatters": "Quantum physics allows data to be encrypted such that an adversary cannot copy it without destroying it. Proving this works for multi-bit messages makes copy-protected quantum communication theoretically practical.",
+  "eli5": "Imagine writing a secret note on a magic sheet of paper that shatters into dust if anyone tries to photocopy it. Scientists previously knew how to write a single 'yes' or 'no' on this paper, but now they proved you can write entire letters without anyone copying them.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Uncloneable encryption",
+    "shortDef": "An encryption scheme where physics prevents an adversary from making copies of the ciphertext.",
+    "eli5Def": "A way to lock up a message so that no one can photocopy the locked box.",
+    "wikiTitle": "No-cloning theorem"
+   },
+   {
+    "term": "Clifford unitaries",
+    "shortDef": "A class of quantum logic operations that transform Pauli operators into other Pauli operators efficiently.",
+    "eli5Def": "A specific set of digital building blocks used to scramble and unscramble quantum data.",
+    "wikiTitle": "Clifford group"
+   },
+   {
+    "term": "Statistical security",
+    "shortDef": "Security against adversaries with infinite computing power, up to a tiny, negligible chance of failure.",
+    "eli5Def": "Protection so strong that even a magic supercomputer with infinite time could almost never break it.",
+    "wikiTitle": "Information-theoretic security"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "id": "2607.28572",
+ "version": 1,
+ "title": "Quantum Fidelity-per-Cost: A Metric for Evaluation of Quantum Computing Systems",
+ "authors": [
+  {
+   "name": "Siddarth Shinde"
+  },
+  {
+   "name": "Jakub Szefer"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.ET",
+  "cs.PF"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-30T17:36:23Z",
+ "updated": "2026-07-30T17:36:23Z",
+ "abstract": "Cloud-accessible quantum computing has made hardware comparison not only a physics benchmark but also a practical purchasing decision. Cost-aware comparison of quantum computers remains underexplored and is difficult to do under the heterogeneous billing models offered by various cloud-based quantum computing providers. This paper makes two main contributions to enable price-aware comparison of quantum computers. First, this work presents a cross-provider measurement study of quantum circuit execution fidelity spanning 14 cloud QPU access-path entries (12 distinct physical QPUs) across four cloud access paths: Amazon Web Services (AWS) cloud, IBM Quantum Runtime (IBM) cloud, IQM Resonance (IQM) cloud, and Oxford Quantum Circuits (OQC) cloud. Second, this work proposes and analyzes a cost-aware score, Quantum Fidelity-per-Cost (QFC), which combines Kullback--Leibler (KL) divergence from an ideal output distribution, shot count, and monetary cost into one possible metric under a documented billing model. The main empirical observation from this work is that cost-aware ranking can differ from purely fidelity-based evaluation of quantum computers, and that users may select different quantum computing backends when they consider price in their selection, as opposed to selection based on fidelity alone. This work shows that the ranking is stable under reweighting of the metric, and that a device's billing model, not its hardware, governs how its score scales with shot count. Reported QFC values change as new machines come online or as providers revise their prices.",
+ "comment": "7 pages, 4 figures, 3 tables. Accepted at IEEE International Conference on Quantum Computing and Engineering (QCE) 2026",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28572",
+  "pdf": "https://arxiv.org/pdf/2607.28572",
+  "html": "https://arxiv.org/html/2607.28572"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.28572v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-01T08:41:15.664Z",
+  "hook": "Factoring monetary price into quantum computer benchmarks fundamentally reshuffles hardware performance rankings.",
+  "tldr": [
+   "Introduced Quantum Fidelity-per-Cost (QFC) to evaluate cloud quantum processors by price and quality.",
+   "Measured output distribution fidelity across 14 cloud access paths and 12 physical QPUs on 4 cloud providers.",
+   "Found that ranking hardware by cost yields significantly different top choices than ranking by fidelity alone."
+  ],
+  "whyItMatters": "As quantum computing transitions to commercial cloud services, organizations need realistic economic metrics to balance calculation accuracy against execution costs.",
+  "eli5": "Renting quantum computer time is like renting sports cars: the fastest car might be way too expensive, so a slightly slower car at half the price is actually a smarter choice.",
+  "keyNumbers": [
+   {
+    "value": "14",
+    "label": "Cloud QPU access paths",
+    "context": "Evaluated access-path entries spanning AWS, IBM, IQM, and OQC clouds"
+   },
+   {
+    "value": "12",
+    "label": "Distinct physical QPUs",
+    "context": "Individual quantum chips benchmarked in the cross-provider study"
+   },
+   {
+    "value": "4",
+    "label": "Cloud access platforms",
+    "context": "Provider environments tested: AWS, IBM Quantum Runtime, IQM Resonance, and OQC"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum Fidelity",
+    "shortDef": "A measure of how closely a real quantum computer output matches the ideal theoretical state.",
+    "eli5Def": "A score showing how accurately a quantum computer solved a problem without errors.",
+    "wikiTitle": "Fidelity of quantum states"
+   },
+   {
+    "term": "KL divergence",
+    "shortDef": "A statistical measure of how much one probability distribution differs from a reference distribution.",
+    "eli5Def": "A formula that measures how different two sets of probability results are from each other.",
+    "wikiTitle": "Kullback–Leibler divergence"
+   },
+   {
+    "term": "QPU",
+    "shortDef": "Quantum Processing Unit, the physical hardware chip that executes quantum algorithms.",
+    "eli5Def": "The main quantum processor chip inside a quantum computer.",
+    "wikiTitle": "Quantum computing"
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 45
+ }
+}

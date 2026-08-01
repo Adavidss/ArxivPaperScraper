@@ -1,0 +1,105 @@
+{
+ "id": "2607.28570",
+ "version": 1,
+ "title": "Benchmarking Quantum Simulations of the Lipkin-Meshkov-Glick Model Using Large Tensor Networks",
+ "authors": [
+  {
+   "name": "Maggie Bao"
+  },
+  {
+   "name": "Rushil Dandamudi"
+  },
+  {
+   "name": "Jerimiah Wright"
+  },
+  {
+   "name": "Joan Étude Arrow"
+  },
+  {
+   "name": "Henry Zou"
+  },
+  {
+   "name": "Vardaan Sahgal"
+  },
+  {
+   "name": "Brian J. McDermott"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-30T17:34:48Z",
+ "updated": "2026-07-30T17:34:48Z",
+ "abstract": "As quantum computing matures, it is critical to benchmark its real-world problem solving performance against competitive classical methods, such as tensor networks. In this work, we leverage the Density Matrix Renormalization Group (DMRG) algorithm to compute ground state energies of the Lipkin Meshkov Glick (LMG) model as a comparative benchmark against popular noisy intermediate-scale (NISQ) algorithms like the Variational Quantum Eigensolver (VQE) and Sample-Based Quantum Diagonalization (SQD) method. By running DMRG on the NERSC Perlmutter supercomputer, we provide one of the largest LMG ground state energy datasets in literature, containing accurate ground state energies for systems up to 1400 particles. We compare these results with VQE and SQD implementations on an IBM Eagle quantum computer for comparison. VQE achieved results within 1 percent error for 6 particles, while exceeding that threshold for all other values while SQD extended that range to 17 particles, suggesting that in a noisy intermediate scale quantum era, subspace-based approaches may strike the best balance between accuracy, circuit depth, and noise resilience.",
+ "comment": "22 pages, 20 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28570",
+  "pdf": "https://arxiv.org/pdf/2607.28570",
+  "html": "https://arxiv.org/html/2607.28570"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.28570v1/pictures/dmrg/verification/example_analysis_x100/dmrg_stat_plot.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-01T08:41:15.664Z",
+  "hook": "Classical tensor networks solved 1400-particle systems, while quantum processors hit 1% error limits at 17 particles.",
+  "tldr": [
+   "Benchmarked NISQ quantum algorithms against classical tensor networks for LMG ground state energies.",
+   "Ran classical DMRG simulations for up to 1400 particles and tested VQE and SQD on an IBM Eagle QPU.",
+   "Showed VQE stayed under 1% error up to 6 particles, while SQD extended that range to 17 particles."
+  ],
+  "whyItMatters": "It offers a realistic snapshot of quantum computing progress, highlighting that current noisy quantum processors still lag far behind classical supercomputers on structured physics problems.",
+  "eli5": "Scientists raced a classical supercomputer against a quantum computer at calculating atomic energies. The supercomputer easily handled 1,400 atoms, while the quantum computer struggled past 17 atoms due to hardware noise.",
+  "keyNumbers": [
+   {
+    "value": "1400",
+    "label": "Maximum particle count",
+    "context": "System size calculated using classical DMRG on the NERSC Perlmutter supercomputer"
+   },
+   {
+    "value": "1%",
+    "label": "Error threshold",
+    "context": "Accuracy target used to evaluate quantum algorithm performance"
+   },
+   {
+    "value": "6",
+    "label": "VQE particle limit",
+    "context": "Maximum system size where VQE maintained under 1% energy error"
+   },
+   {
+    "value": "17",
+    "label": "SQD particle limit",
+    "context": "Maximum system size where SQD maintained under 1% energy error"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "DMRG",
+    "shortDef": "Density Matrix Renormalization Group, a variational numerical algorithm for 1D quantum systems.",
+    "eli5Def": "A clever supercomputer technique that simplifies complex quantum math to find low energy states.",
+    "wikiTitle": "Density matrix renormalization group"
+   },
+   {
+    "term": "VQE",
+    "shortDef": "Variational Quantum Eigensolver, a hybrid quantum-classical algorithm used to find low energy states.",
+    "eli5Def": "A team-up method where a quantum computer and standard computer work together to guess lowest energy levels.",
+    "wikiTitle": "Variational quantum eigensolver"
+   },
+   {
+    "term": "SQD",
+    "shortDef": "Sample-Based Quantum Diagonalization, a subspace quantum method for finding ground states.",
+    "eli5Def": "An advanced quantum algorithm trick that filters out noise to analyze sub-parts of a problem.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

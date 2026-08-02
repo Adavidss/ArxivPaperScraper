@@ -1,0 +1,83 @@
+{
+ "id": "2607.28541",
+ "version": 1,
+ "title": "A Provable Oracle-Free Quantum Algorithm for Nonlinear Dynamics on Hybrid Oscillator-Qubit Processors",
+ "authors": [
+  {
+   "name": "Kausthubh Chandramouli"
+  },
+  {
+   "name": "Yan Li"
+  },
+  {
+   "name": "Yuan Liu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-30T17:10:47Z",
+ "updated": "2026-07-30T17:10:47Z",
+ "abstract": "We develop a hybrid qubit--qumode algorithm for nonlinear ordinary differential equations of the form $\\dot{\\mathbf{x}}=\\mathbf{f}(\\mathbf{x})$ with drift of polynomial degree~$L$. Following the Fokker--Planck route of Tennie and Magri, the algorithm propagates the state density and returns the deterministic trajectory as the peak of that density in the small-noise limit. The discretised generator is carried into a parametrised family of Schrödinger equations by the warped-phase transformation of Jin, Liu, and Yu, and the Fourier-mode parameter of that family is placed on a single continuous-variable qumode. Our central structural result is that the Hermitian parts $H_{1}$ and $H_{2}$ of the discretised generator admit a bipartite Pauli decomposition that sorts the non-zero Pauli strings into $\\mathcal{O}(\\log N)$ mutually commuting families and factorises each family into a diagonal of degree at most $L$ tensored with a fixed rank-two bond operator. The factorisation renders each family exponential an exact product of $\\mathcal{O}(n^{L})$ monomial-controlled momentum displacements, with no intra-family Trotter error. On a $d$-dimensional grid of $N=2^{n}$ points per axis the circuit costs $\\mathcal{O}(d^{L+1}n^{L+2})$ gates per Trotter step. No sparse-access oracle and no block encoding is invoked: every gate is fixed in closed form by the polynomial coefficients of the drift. We also prove a bound on the numerical abscissa $λ_{\\max}(H_{1})$ that fixes the recovery domain of the warped-phase transform and the post-selection cost. A classical simulation on two nonlinear benchmarks confirms the structural theorems, the shifted recovery, and the accuracy-per-resource advantage of the continuous-variable coupling over a discretised mode register.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28541",
+  "pdf": "https://arxiv.org/pdf/2607.28541",
+  "html": "https://arxiv.org/html/2607.28541"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.28541v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-02T08:56:04.796Z",
+  "hook": "A new hybrid quantum algorithm solves nonlinear dynamics without oracles, using O(d^{L+1} n^{L+2}) gates per step.",
+  "tldr": [
+   "Developed an oracle-free hybrid quantum algorithm to simulate nonlinear differential equations on qubit-oscillator hardware.",
+   "Mapped probability density onto continuous qumodes using a warped-phase transform and bipartite Pauli decomposition.",
+   "Eliminated Trotter error within families and achieved exact closed-form gate steps scaling as O(d^{L+1} n^{L+2})."
+  ],
+  "whyItMatters": "Simulating nonlinear dynamics on quantum hardware usually requires complex black-box oracles or heavy approximations. By removing oracles, this method makes simulating real-world physical and engineering systems far more practical on hybrid quantum hardware.",
+  "eli5": "Predicting complex systems like fluid turbulence usually forces quantum computers to consult external lookup tables. This new trick encodes the problem directly into continuous quantum waves, acting like a tailored slide rule that calculates smooth motion without outside help.",
+  "keyNumbers": [
+   {
+    "value": "O(d^{L+1}n^{L+2})",
+    "label": "Gate complexity per step",
+    "context": "Circuit cost per Trotter step on a d-dimensional grid of N=2^n points per axis"
+   },
+   {
+    "value": "O(log N)",
+    "label": "Commuting families",
+    "context": "Number of mutually commuting families into which non-zero Pauli strings are sorted"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Qumode",
+    "shortDef": "A continuous-variable quantum state, analogous to a harmonic oscillator.",
+    "eli5Def": "Instead of being a 0 or 1 switch like a qubit, a qumode can dial smoothly like a volume knob.",
+    "wikiTitle": "Continuous-variable quantum information"
+   },
+   {
+    "term": "Trotter error",
+    "shortDef": "Approximation error caused by splitting non-commuting quantum operations into discrete steps.",
+    "eli5Def": "The mistake made when blending two cooking steps rapidly instead of doing them both simultaneously.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Fokker-Planck equation",
+    "shortDef": "A differential equation describing how a probability density distribution changes over time.",
+    "eli5Def": "A mathematical rule that tracks how a cloud of dust or heat spreads out in space.",
+    "wikiTitle": "Fokker–Planck equation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

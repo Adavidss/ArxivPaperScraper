@@ -1,0 +1,81 @@
+{
+ "id": "2607.28524",
+ "version": 1,
+ "title": "Exact chiral symmetry with quantum signal processing",
+ "authors": [
+  {
+   "name": "Henry Lamm"
+  },
+  {
+   "name": "Alessandro Roggero"
+  },
+  {
+   "name": "Hersh Singh"
+  },
+  {
+   "name": "Luca Spagnoli"
+  }
+ ],
+ "categories": [
+  "hep-lat",
+  "nucl-th",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-lat",
+ "published": "2026-07-30T17:00:58Z",
+ "updated": "2026-07-30T17:00:58Z",
+ "abstract": "We give a quantum signal processing (QSP) algorithm for the overlap fermion Hamiltonian which preserves the Ginsparg-Wilson relation up to a controllable error $ε_e$. Quantum simulations of Dirac fermions with exact chiral symmetry are thus nearly free: applying the overlap Hamiltonian costs only a factor logarithmic in $ε_e$ more than the Wilson-Dirac Hamiltonian. Comparing to domain-wall fermions, a mild overhead is found in circuit complexity while reducing qubit costs. We show how QSP effectively constructs an extra dimension when simulating the overlap operator, illustrating that the scaling of quantum algorithms reflects the deeper physics of overlap fermions arising at the boundary of domain-wall fermions.",
+ "comment": "10 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28524",
+  "pdf": "https://arxiv.org/pdf/2607.28524",
+  "html": "https://arxiv.org/html/2607.28524"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-02T08:56:04.796Z",
+  "hook": "Simulating Dirac fermions with exact chiral symmetry costs only log(1/ε_e) more than approximate models.",
+  "tldr": [
+   "Designed a Quantum Signal Processing algorithm for the overlap fermion Hamiltonian in quantum simulation.",
+   "Polynomial-approximated the overlap operator while maintaining the exact Ginsparg-Wilson symmetry condition.",
+   "Achieved logarithmic error scaling in gate cost while using significantly fewer qubits than domain-wall methods."
+  ],
+  "whyItMatters": "Preserving fundamental physical symmetries like chiral symmetry is crucial for accurate quantum simulations of particle physics. This algorithm makes high-precision subatomic physics simulations significantly cheaper on quantum computers.",
+  "eli5": "Simulating subatomic particles usually forces scientists to choose between perfect physical symmetry rules and computer memory. This method acts like an ultra-efficient compression trick, keeping physical laws exact while saving valuable quantum memory.",
+  "keyNumbers": [
+   {
+    "value": "10",
+    "label": "Manuscript page count",
+    "context": "Total length of the research article describing the QSP overlap algorithm"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Chiral symmetry",
+    "shortDef": "A physical symmetry where laws remain unchanged under left- and right-handed particle transformations.",
+    "eli5Def": "A rule where a physical system behaves identically whether viewed directly or through a mirror.",
+    "wikiTitle": "Chiral symmetry"
+   },
+   {
+    "term": "Quantum Signal Processing",
+    "shortDef": "A technique manipulating quantum system eigenvalues using sequences of single-qubit rotations.",
+    "eli5Def": "A method of fine-tuning quantum operations by turning a single dial back and forth in a specific rhythm.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Ginsparg-Wilson relation",
+    "shortDef": "A mathematical condition allowing lattice formulations of quantum field theory to preserve chiral symmetry.",
+    "eli5Def": "A mathematical rule that preserves mirror symmetry even when space is broken into discrete grid points.",
+    "wikiTitle": "Ginsparg–Wilson fermion"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

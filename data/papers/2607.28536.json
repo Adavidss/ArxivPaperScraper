@@ -1,0 +1,76 @@
+{
+ "id": "2607.28536",
+ "version": 1,
+ "title": "When quantum thermal states look classical",
+ "authors": [
+  {
+   "name": "Harald Putterman"
+  },
+  {
+   "name": "Alexander Zlokapa"
+  },
+  {
+   "name": "Jordan Cotler"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-30T17:04:09Z",
+ "updated": "2026-07-30T17:04:09Z",
+ "abstract": "At high temperature, quantum Gibbs states retain several classical features of the maximally mixed state: the absence of entanglement, the absence of magic, analyticity of the partition function, correlation decay, and algorithmic tractability. We prove new and sharp bounds showing that these features persist down to finite temperatures independent of system size, but fail at distinct inverse-temperature scales, forming a hierarchy of classical-to-quantum transitions. Our results hold for long-range Pauli interactions with bounded strength at every site. Despite such all-to-all interactions, we show that the death of entanglement occurs at constant temperature, resolving an open question of Rouze, Franca and Alhambra (STOC'25). We give a polynomial-time classical algorithm that prepares Gibbs states up to the death of entanglement transition. Notably, this is asymptotically colder than temperatures at which quantum Gibbs samplers are known to mix quickly, as well as the original separability temperature of Bakshi et al. (FOCS'24), which we improve to be tight up to constants. At asymptotically even colder temperatures, we show that the Gibbs state remains in the thermodynamic infinite-temperature phase. This leads to polynomial-time classical algorithms for estimating thermal expectations despite both entanglement and magic, and the resolution of a correlation decay conjecture of Harrow, Mehraban and Soleimanifar (STOC'20).",
+ "comment": "97 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.28536",
+  "pdf": "https://arxiv.org/pdf/2607.28536",
+  "html": "https://arxiv.org/html/2607.28536"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-02T08:56:04.796Z",
+  "hook": "Entanglement dies at a constant finite temperature regardless of system size, enabling fast classical simulations.",
+  "tldr": [
+   "Mapped out the hierarchy of classical-to-quantum phase transitions in thermal states with long-range interactions.",
+   "Derived tight mathematical bounds showing when entanglement, magic, and correlations disappear at finite temperatures.",
+   "Proved entanglement dies at constant temperature and provided polynomial-time classical algorithms to prepare Gibbs states."
+  ],
+  "whyItMatters": "Understanding when quantum systems start acting classically reveals the fundamental boundary of quantum computing advantage. It shows that standard classical supercomputers can simulate surprisingly cold quantum materials without needing a full quantum computer.",
+  "eli5": "When things get hot, quantum particles stop acting weird and begin behaving like regular marbles. This paper pinpoints the exact temperature threshold where quantum entanglement melts away, showing classical computers can still simulate those systems easily.",
+  "keyNumbers": [
+   {
+    "value": "97",
+    "label": "Manuscript page count",
+    "context": "Length of the manuscript detailing mathematical proofs of thermal classical-to-quantum transitions"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Gibbs state",
+    "shortDef": "The thermal equilibrium probability distribution of a quantum mechanical system.",
+    "eli5Def": "The stable state a physical system settles into when left at a fixed temperature.",
+    "wikiTitle": "Thermal quantum state"
+   },
+   {
+    "term": "Quantum entanglement",
+    "shortDef": "A phenomenon where quantum particles remain intrinsically linked regardless of distance.",
+    "eli5Def": "A pair of magic dice that always land on the same number no matter how far apart they are.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "Quantum magic",
+    "shortDef": "A resource quantifying how non-classical a quantum state is beyond simple stabilizer operations.",
+    "eli5Def": "The secret ingredient that gives quantum computers their special computational speedup.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

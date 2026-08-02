@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-01T08:41:15.664Z",
+ "generatedAt": "2026-08-02T08:56:04.796Z",
  "windowDays": 75,
  "items": [
   {
@@ -202,6 +202,57 @@
    "published": "2026-07-30",
    "difficulty": 4,
    "readSeconds": 60,
+   "source": "foryou",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2607.28541",
+   "title": "A Provable Oracle-Free Quantum Algorithm for Nonlinear Dynamics on Hybrid Oscillator-Qubit Processors",
+   "hook": "A new hybrid quantum algorithm solves nonlinear dynamics without oracles, using O(d^{L+1} n^{L+2}) gates per step.",
+   "authorsLine": "Chandramouli, Li +1",
+   "followedIds": [],
+   "matchedKeywords": [],
+   "figureUrl": "https://arxiv.org/html/2607.28541v1/x1.png",
+   "firstSeen": "2026-08-02",
+   "primaryCategory": "quant-ph",
+   "published": "2026-07-30",
+   "difficulty": 4,
+   "readSeconds": 60,
+   "source": "foryou",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2607.28536",
+   "title": "When quantum thermal states look classical",
+   "hook": "Entanglement dies at a constant finite temperature regardless of system size, enabling fast classical simulations.",
+   "authorsLine": "Putterman, Zlokapa +1",
+   "followedIds": [],
+   "matchedKeywords": [],
+   "figureUrl": null,
+   "firstSeen": "2026-08-02",
+   "primaryCategory": "quant-ph",
+   "published": "2026-07-30",
+   "difficulty": 3,
+   "readSeconds": 50,
+   "source": "foryou",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2607.28524",
+   "title": "Exact chiral symmetry with quantum signal processing",
+   "hook": "Simulating Dirac fermions with exact chiral symmetry costs only log(1/ε_e) more than approximate models.",
+   "authorsLine": "Lamm, Roggero +2",
+   "followedIds": [],
+   "matchedKeywords": [],
+   "figureUrl": null,
+   "firstSeen": "2026-08-02",
+   "primaryCategory": "hep-lat",
+   "published": "2026-07-30",
+   "difficulty": 4,
+   "readSeconds": 55,
    "source": "foryou",
    "biteStatus": "ok",
    "withdrawn": false
@@ -2529,25 +2580,6 @@
    "published": "2026-05-20",
    "difficulty": 4,
    "readSeconds": 75,
-   "source": "follow",
-   "biteStatus": "ok",
-   "withdrawn": false
-  },
-  {
-   "id": "2605.19114",
-   "title": "Drive-Only Interaction Engineering via Dynamical Freezing",
-   "hook": "Dynamically freezing a helper qubit lets researchers switch quantum interactions on and off using only drive signals.",
-   "authorsLine": "Xie, Duan +1",
-   "followedIds": [],
-   "matchedKeywords": [
-    "SABRE"
-   ],
-   "figureUrl": "https://arxiv.org/html/2605.19114v1/x1.png",
-   "firstSeen": "2026-07-12",
-   "primaryCategory": "quant-ph",
-   "published": "2026-05-18",
-   "difficulty": 4,
-   "readSeconds": 70,
    "source": "follow",
    "biteStatus": "ok",
    "withdrawn": false

@@ -1,0 +1,50 @@
+{
+ "date": "2026-08-03",
+ "generatedAt": "2026-08-03T10:24:56.776Z",
+ "model": "gemini-flash-latest",
+ "headline": "Advances in Quantum Tomography, Complexity, and Dynamics",
+ "summary": "Today's papers explore fundamental limits and practical tools across quantum information theory and hardware. Highlights include improved sample bounds for shadow tomography and spectrum estimation, alongside advancements in kXOR computational speedups, non-Gaussianity metrics, and hybrid electromechanical cavity designs.",
+ "themes": [
+  {
+   "title": "Quantum Tomography & State Estimation",
+   "body": "New theoretical limits refine quantum state learning. Papers demonstrate online shadow tomography matching classical adaptive analysis rates, prove near-quadratic sample lower bounds for spectrum estimation, and introduce system-size-independent measures of non-Gaussianity.",
+   "paperIds": [
+    "2607.29686",
+    "2607.29680",
+    "2607.29670"
+   ]
+  },
+  {
+   "title": "Algorithmic Speedups & Integrability",
+   "body": "Mathematical structure yields performance guarantees. The Kikuchi hierarchy provides sharp bounds and quartic quantum speedups for kXOR, while the Reshetikhin condition is proven necessary and sufficient for Yang-Baxter integrability in quantum spin chains.",
+   "paperIds": [
+    "2607.29672",
+    "2607.29660"
+   ]
+  },
+  {
+   "title": "Nanomechanical Quantum Hardware",
+   "body": "Solid-state quantum devices see key improvements with release-free phononic crystal cavities that suppress thermal noise directly on substrate while maintaining strong microwave electromechanical coupling and high cooperativity.",
+   "paperIds": [
+    "2607.29666"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers delineate fundamental sample complexity boundaries in quantum state estimation, contrasting the sub-logarithmic sample dependence of shadow tomography with the near-full tomography hardness of spectrum estimation.",
+   "paperIds": [
+    "2607.29686",
+    "2607.29680"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2607.29686",
+  "2607.29680",
+  "2607.29672",
+  "2607.29670",
+  "2607.29666",
+  "2607.29660"
+ ]
+}

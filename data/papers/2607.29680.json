@@ -1,0 +1,82 @@
+{
+ "id": "2607.29680",
+ "version": 1,
+ "title": "Spectrum Estimation is Almost as Hard as Tomography",
+ "authors": [
+  {
+   "name": "Marco Fanizza"
+  },
+  {
+   "name": "Ryan O'Donnell"
+  },
+  {
+   "name": "Chirag Wadhwa"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.DS"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-31T17:57:03Z",
+ "updated": "2026-07-31T17:57:03Z",
+ "abstract": "We study the sample complexity of estimating and testing fundamental unitarily invariant properties of unknown quantum states; namely, the tasks of spectrum estimation, von Neumann entropy estimation, and rank-testing. For $d$-dimensional states, and for every $γ>0$, we prove a sample complexity lower bound of $Ω(d^{2-γ})$ for spectrum estimation to constant sorted total-variation error, entropy estimation to constant additive error, and rank-testing to constant trace distance. Our hard instances are constructed from sandwiched products of Haar-random projectors, suitably normalized using a novel technique that lets us derive explicit expressions for high-order tensor moments of the resultant states. These moments can be expressed as symmetric functions of Jucys--Murphy elements of the symmetric group algebra. To show that two such mixtures are indistinguishable, we analyze the log-likelihood ratio and perform moment-matching, i.e., we set its low-order Jucys--Murphy components to zero. Indistinguishability is then obtained by bounding an $f$-divergence through the high-order components; the non-zero high-order terms and concentration of functions of Haar-random unitaries also imply separations in typical spectra, entropies, and ranks, proving all our lower bounds.",
+ "comment": "46 pages, no figures or tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.29680",
+  "pdf": "https://arxiv.org/pdf/2607.29680",
+  "html": "https://arxiv.org/html/2607.29680"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-03T10:24:56.776Z",
+  "hook": "Estimating a quantum state's spectrum requires Ω(d^(2-γ)) samples, making it almost as hard as full quantum tomography.",
+  "tldr": [
+   "Proved a near-quadratic sample complexity lower bound for estimating quantum state spectrum, entropy, and rank.",
+   "Analyzed log-likelihood ratios of state mixtures built from sandwiched Haar-random projectors using Jucys-Murphy elements.",
+   "Found that estimating unitarily invariant properties requires Ω(d^(2-γ)) samples, nearly matching full tomography."
+  ],
+  "whyItMatters": "Physicists hoped that learning summary statistics (like entropy) of a quantum system would require far fewer copies than learning its full detailed state. This result proves that shortcut generally does not exist.",
+  "eli5": "Imagine trying to guess the list of test scores in a classroom without knowing who got which score. You might think this general summary is much easier to figure out than naming every student's exact score. This paper proves that for quantum systems, figuring out the summary takes almost as many clues as learning every exact detail.",
+  "keyNumbers": [
+   {
+    "value": "Omega(d^{2-gamma})",
+    "label": "Sample complexity lower bound",
+    "context": "Required sample copies to estimate spectrum, entropy, or rank for d-dimensional quantum states."
+   },
+   {
+    "value": "46",
+    "label": "Page count",
+    "context": "Length of the paper without figures or tables."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum Tomography",
+    "shortDef": "The process of fully reconstructing an unknown quantum state using measurements on many identical copies.",
+    "eli5Def": "Building a complete model of a hidden quantum object by taking pictures from every possible angle.",
+    "wikiTitle": "Quantum tomography"
+   },
+   {
+    "term": "von Neumann Entropy",
+    "shortDef": "A fundamental measure of the uncertainty or mixedness contained within a quantum state.",
+    "eli5Def": "A score showing how messy or disorganized a quantum particle's hidden information is.",
+    "wikiTitle": "Von Neumann entropy"
+   },
+   {
+    "term": "Jucys-Murphy Elements",
+    "shortDef": "Elements in symmetric group algebra used to analyze representation theory and quantum tensor moments.",
+    "eli5Def": "Special mathematical building blocks that make counting combinations in complex symmetric patterns easier.",
+    "wikiTitle": "Jucys–Murphy element"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 70
+ }
+}

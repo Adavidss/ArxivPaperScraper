@@ -1,0 +1,80 @@
+{
+ "id": "2607.29686",
+ "version": 1,
+ "title": "Online Shadow Tomography Matching the Classical Bounds",
+ "authors": [
+  {
+   "name": "Sitan Chen"
+  },
+  {
+   "name": "Ryan O'Donnell"
+  },
+  {
+   "name": "Angelos Pelecanos"
+  },
+  {
+   "name": "John Wright"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.DS"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-31T17:59:54Z",
+ "updated": "2026-07-31T17:59:54Z",
+ "abstract": "In \\emph{Online Shadow Tomography}, we are given copies of an unknown $d$-dimensional quantum state $ρ$, an adversary (adaptively) proposes a sequence of bounded observables $A^{(1)},\\ldots,A^{(m)}$, and after each $A^{(t)}$ is given we must estimate $\\Tr(A^{(t)}ρ)$ to within $\\pm ε$. This is the direct quantum generalization of the classical problem of \\emph{Adaptive Data Analysis}. %The ``offline'' case, in which $A^{(1)}, \\ldots, A^{(m)}$ are given upfront, is also a well-studied problem. The main goal is to minimize the number of copies, $n$, required. Prior results for online Shadow Tomography were suboptimal in all three parameters $m, d, ε$, lagging behind the best known and classical rates~\\cite{bassily2021algorithmic}, for which there is some evidence of optimality. In this work, we finally close this gap, giving a pair of algorithms matching the classical rates. The bound on the left is the first to achieve $o(\\log^2 m)$-dependence together with $\\poly(\\log(d)/\\eps)$; moreover, it improves all three exponents even in the \\emph{Offline} Shadow Tomography setting. The bound on the right is known to be optimal among bounds independent of~$d$, and improves the best prior result by a $\\sqrt{m} \\log m$ factor. The key to our proof is a new framework for quantifying post-measurement damage, based on the quantum Efron--Stein decomposition.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.29686",
+  "pdf": "https://arxiv.org/pdf/2607.29686",
+  "html": "https://arxiv.org/html/2607.29686"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-03T10:24:56.776Z",
+  "hook": "New algorithms for online shadow tomography match classical rates, improving prior bounds by up to a sqrt(m) log m factor.",
+  "tldr": [
+   "Developed online shadow tomography algorithms that match classical adaptive data analysis rates.",
+   "Created a new framework to quantify post-measurement damage using the quantum Efron-Stein decomposition.",
+   "Closed the theoretical gap, achieving o(log² m) sample dependence and improving previous bounds by up to a sqrt(m) log m factor."
+  ],
+  "whyItMatters": "Measuring quantum states destructively alters them, making adaptive measurements difficult. Matching classical data bounds proves quantum tracking can be done just as efficiently.",
+  "eli5": "Imagine trying to inspect a delicate glass sculpture with touch sensors without breaking it. Every time you touch it to answer a question, you risk nudging it out of place. This new strategy lets scientists answer thousands of questions in a row while damaging the quantum sculpture as little as possible.",
+  "keyNumbers": [
+   {
+    "value": "sqrt(m) log m",
+    "label": "Improvement factor",
+    "context": "Improvement in sample efficiency over prior dimension-independent online bounds."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Online Shadow Tomography",
+    "shortDef": "Estimating properties of an unknown quantum state from a sequential, adaptive series of measurements.",
+    "eli5Def": "Asking a quantum state a series of questions one by one, where each question depends on previous answers.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Trace",
+    "shortDef": "The sum of matrix diagonal entries, representing the expected value of an observable on a quantum state.",
+    "eli5Def": "A mathematical tool to calculate the average measurement outcome for a quantum particle.",
+    "wikiTitle": "Trace (linear algebra)"
+   },
+   {
+    "term": "Efron-Stein Decomposition",
+    "shortDef": "A variance-bounding method from classical probability extended here to quantify post-measurement quantum damage.",
+    "eli5Def": "A mathematical tool that tracks how much a small change or measurement disturbs a large system.",
+    "wikiTitle": "Efron–Stein inequality"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "id": "2607.29666",
+ "version": 1,
+ "title": "Release-free phononic crystal with strong microwave coupling",
+ "authors": [
+  {
+   "name": "Joey Frey"
+  },
+  {
+   "name": "Paul Burger"
+  },
+  {
+   "name": "Trond Hjerpekjøn Haug"
+  },
+  {
+   "name": "Johan Kolvik"
+  },
+  {
+   "name": "Raphaël Van Laer"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall",
+  "physics.app-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-07-31T17:50:46Z",
+ "updated": "2026-07-31T17:50:46Z",
+ "abstract": "Phonons hold promise for storing and transferring quantum information, including in mechanically-mediated quantum interconnects between superconducting qubits and light. Phononic crystal cavities confine gigahertz sound to micron-scale volumes well matched to near-infrared light. So far, these devices have typically been suspended to suppress phononic radiation loss into the substrate, but suspension limits thermal anchoring leading to excess noise. Release-free phononic crystals have emerged as a way to address this challenge -- but had yet to be shown compatible with strong electromechanical interactions. Here, we demonstrate a release-free phononic crystal cavity strongly coupled to a high-impedance microwave resonator, with an electromechanical coupling rate $g_\\mathrm{em}/(2π) \\approx 30\\,\\text{MHz}$ that exceeds both the mechanical and microwave loss rates, leading to a cooperativity up to $\\mathcal{C} \\approx 180$ on resonance. In addition, our lithium niobate phononic crystals reach quality factors above $10^4$ at millikelvin temperature on both silicon and sapphire substrates. Our results establish release-free phononic crystals as compact, scalable interfaces between microwaves and gigahertz sound for emerging sensing, communication, and computing systems.",
+ "comment": "19 pages, 16 figures, 2 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2607.29666",
+  "pdf": "https://arxiv.org/pdf/2607.29666",
+  "html": "https://arxiv.org/html/2607.29666"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2607.29666v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-03T10:24:56.776Z",
+  "hook": "Release-free phononic crystal cavity achieves ~30 MHz electromechanical coupling and cooperativity up to 180.",
+  "tldr": [
+   "Designed release-free phononic crystal cavities directly on substrate to suppress thermal noise without suspending devices.",
+   "Coupled lithium niobate phononic cavities on silicon and sapphire substrates to high-impedance microwave resonators.",
+   "Achieved electromechanical coupling of ~30 MHz, resonant cooperativity up to ~180, and quality factors above 10^4 at mK temperatures."
+  ],
+  "whyItMatters": "Non-suspended phononic devices prevent thermal noise and overheating in quantum hardware. This brings robust, scalable acoustic-based quantum interconnects closer to reality.",
+  "eli5": "Imagine holding a tuning fork in mid-air on a thin string so it rings clearly, but because it floats, it overheats easily. Researchers glued the tuning fork firmly to a base using precise patterns, keeping it cool while preserving its clear sound.",
+  "keyNumbers": [
+   {
+    "value": "~30 MHz",
+    "label": "Electromechanical coupling rate",
+    "context": "Exceeds both mechanical and microwave loss rates"
+   },
+   {
+    "value": "~180",
+    "label": "Cooperativity",
+    "context": "Achieved on resonance"
+   },
+   {
+    "value": ">10^4",
+    "label": "Quality factor",
+    "context": "Lithium niobate phononic crystals at millikelvin temperatures"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Phononic crystal",
+    "shortDef": "An engineered material structure designed to control and manipulate acoustic sound waves.",
+    "eli5Def": "A material patterned with tiny holes that trap and direct sound vibrations.",
+    "wikiTitle": "Phononic crystal"
+   },
+   {
+    "term": "Cooperativity",
+    "shortDef": "A dimensionless measure of interaction strength relative to dissipation in coupled systems.",
+    "eli5Def": "A score measuring how strongly two systems exchange energy before losing it.",
+    "wikiTitle": "Cooperativity"
+   },
+   {
+    "term": "Lithium niobate",
+    "shortDef": "A piezoelectric crystal widely used to convert between electrical signals and acoustic waves.",
+    "eli5Def": "A special crystal that turns electric pulses into physical sound waves and vice versa.",
+    "wikiTitle": "Lithium niobate"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

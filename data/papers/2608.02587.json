@@ -1,0 +1,73 @@
+{
+ "id": "2608.02587",
+ "version": 1,
+ "title": "Entanglement of flower states",
+ "authors": [
+  {
+   "name": "Samrat Sen"
+  },
+  {
+   "name": "Ludovico Lami"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-03T17:56:25Z",
+ "updated": "2026-08-03T17:56:25Z",
+ "abstract": "The mysterious nature of entanglement, one of the most prominent exquisitely quantum phenomena, is reflected in its intricate operational structure, with a hierarchy of classes of free operations that enable its manipulation at different levels of effectiveness. Here we use the class of 'flower states', parametrised by their (even) local dimension $2k$, to shine light on some aspects of this varied landscape. We compute all the main entanglement measures for flower states, uncovering a large gap between all forms of distillable entanglement, equal to 1 ebit independently of the local dimension, and the entanglement cost under local operations and classical communication (LOCC), known to be equal to $\\log\\big(2\\sqrt{k}\\big)$. Even under the strictly more powerful class of non-entangling (NE) operations, we show that their cost is still equal to $\\log\\big(1+\\sqrt{k}\\big)$, only about an ebit less than for LOCCs. This result, which we prove by calculating the recently introduced tempered entanglement negativity for these states, demonstrates the largest known 'irreversibility gap', i.e. the difference between distillable entanglement and entanglement cost, under NE operations, equal to $Θ\\big(\\frac12 \\log d\\big)$, with $d$ being the local dimension. A notable consequence is that the celebrated squashed entanglement is not a monotone under NE operations. Finally, we compute the exact cost under LOCC operations for flower states; this is given by the Schmidt number, which turns out to be additive over multiple copies and equal to $\\min_{r|k} \\log\\left( r + \\frac{k}{r} \\right)$; for prime $k$ this reduces to $\\log(k+1)$, about twice the standard LOCC cost. These last results leverage the uncertainty relations over cyclic groups proved by Tao and Meshulam.",
+ "comment": "5+16 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.02587",
+  "pdf": "https://arxiv.org/pdf/2608.02587",
+  "html": "https://arxiv.org/html/2608.02587"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-04T09:22:34.198Z",
+  "hook": "Flower states reveal the largest known entanglement irreversibility gap of Θ(1/2 log d) under NE operations.",
+  "tldr": [
+   "Analyzed entanglement measures and operational costs for quantum flower states across different operational classes.",
+   "Calculated tempered entanglement negativity, Schmidt numbers, and uncertainty relations over cyclic groups.",
+   "Discovered a large irreversibility gap of Θ(1/2 log d) under NE operations and showed squashed entanglement is non-monotone."
+  ],
+  "whyItMatters": "Entanglement is a resource like energy, but converting between different types of quantum entanglement isn't always reversible. Identifying states with maximum loss during conversion helps scientists understand fundamental boundaries in quantum communication.",
+  "eli5": "Imagine changing money into game tickets and back. Usually you lose a small fee, but for 'flower states', converting them loses almost all their value in one direction. It proves quantum entanglement behaves very differently from regular money or energy.",
+  "keyNumbers": [
+   {
+    "value": "1",
+    "label": "Ebit limit",
+    "context": "Distillable entanglement of flower states regardless of local dimension"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Distillable entanglement",
+    "shortDef": "The maximum amount of pure singlet states that can be extracted from a quantum state.",
+    "eli5Def": "How many pure, useful quantum links you can squeeze out of a noisy quantum connection.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "LOCC",
+    "shortDef": "Local Operations and Classical Communication, a standard framework in quantum information.",
+    "eli5Def": "Two separate lab scientists talking on standard phones while working on their own quantum pieces.",
+    "wikiTitle": "LOCC"
+   },
+   {
+    "term": "Squashed entanglement",
+    "shortDef": "An information-theoretic measure of quantum entanglement satisfying strong properties like monotonicity.",
+    "eli5Def": "A metric used to count quantum entanglement that mathematically behaves very smoothly.",
+    "wikiTitle": "Squashed entanglement"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

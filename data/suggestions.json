@@ -1,6 +1,28 @@
 {
- "generatedAt": "2026-08-03T10:24:56.776Z",
+ "generatedAt": "2026-08-04T09:22:34.198Z",
  "suggestions": [
+  {
+   "name": "Martin B. Plenio",
+   "slug": "martin-b-plenio",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "PHIP"
+   ],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2608.02517",
+    "2607.11723",
+    "2607.08767"
+   ],
+   "recentTitles": [
+    "Thermalization of open quantum systems with pseudomodes",
+    "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization"
+   ],
+   "paperCount": 3
+  },
   {
    "name": "Vsevolod Ivanov",
    "slug": "vsevolod-ivanov",
@@ -102,27 +124,6 @@
     "Hardware Robustness of Sample-Based Quantum Diagonalization"
    ],
    "paperCount": 3
-  },
-  {
-   "name": "Martin B. Plenio",
-   "slug": "martin-b-plenio",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "PHIP"
-   ],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2607.11723",
-    "2607.08767"
-   ],
-   "recentTitles": [
-    "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization",
-    "Plaquette: A hardware-aware design platform for fault-tolerant quantum computers"
-   ],
-   "paperCount": 2
   },
   {
    "name": "Xiechen Zheng",

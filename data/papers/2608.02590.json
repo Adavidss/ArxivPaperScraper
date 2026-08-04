@@ -1,0 +1,77 @@
+{
+ "id": "2608.02590",
+ "version": 1,
+ "title": "Optimal Quantum de Finetti Theorems via Argmax Rounding",
+ "authors": [
+  {
+   "name": "Fernando Granha Jeronimo"
+  },
+  {
+   "name": "Pei Wu"
+  },
+  {
+   "name": "Haochen Xu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-03T17:57:15Z",
+ "updated": "2026-08-03T17:57:15Z",
+ "abstract": "We prove optimal finite quantum de Finetti upper bounds. Given a bosonic state $ρ_N\\in D(\\mathrm{Sym}^N(\\mathbb C^d))$, there is a probability measure $ν$ on the unit sphere such that \\[ \\left\\| ρ_N^{(2)}-\\int |u\\rangle\\langle u|^{\\otimes 2}\\,dν(u) \\right\\|_1 \\le \\frac{\\sqrt{d-1}}{N-1}. \\] By purification, the bosonic theorem also gives the optimal $O(d/N)$ upper bound for arbitrary exchangeable states. These results settle the dimension dependence left open by Christandl, König, Mitchison, and Renner (CMP 2007). The proof casts de Finetti approximation as sum-of-squares rounding and applies the argmax method of Jeronimo, Wu, and Xu (manuscript 2026). More generally, $t$-site marginals satisfy $O(t\\sqrt d/N)$ bosonic and $O(td/N)$ permutation-invariant bounds. Our proof formulates de Finetti approximation as the integrality gap of a symmetric-extension semidefinite program and rounds an optimum by the argmax principle. The sharp bounds have several consequences. For every fixed $\\varepsilon\\in(0,1)$, we construct a channel with input dimension $D=\\exp(O_\\varepsilon(\\sqrt d\\log d))=\\exp(o(d))$ whose outputs are $\\varepsilon$-close to separable states of local dimension $d$ and whose image contains every such separable state, thereby refuting Watrous's disentangler conjecture. We also obtain deterministic $\\exp(\\widetilde O(\\sqrt d/\\varepsilon))$-time algorithms for explicit Best Separable State without perfect completeness and for trace-distance separability testing. Finally, spectral truncation gives the first dimension-free bosonic de Finetti theorem in Hilbert--Schmidt distance, with the optimal rate $Θ(N^{-1/2})$ when the dimension may grow.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.02590",
+  "pdf": "https://arxiv.org/pdf/2608.02590",
+  "html": "https://arxiv.org/html/2608.02590"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-04T09:22:34.198Z",
+  "hook": "New optimal quantum de Finetti bounds disprove Watrous's long-standing disentangler conjecture.",
+  "tldr": [
+   "Proved optimal finite quantum de Finetti upper bounds using sum-of-squares rounding via an argmax principle.",
+   "Formulated de Finetti approximation as an integrality gap of a symmetric-extension SDP and rounded the optimum.",
+   "Refuted Watrous's disentangler conjecture and established deterministic exponential-time algorithms for separability."
+  ],
+  "whyItMatters": "Quantum de Finetti theorems explain when many identical quantum particles act independently. Settling these bounds solves long-standing open questions in quantum complexity and disproves a major conjecture about quantum channels.",
+  "eli5": "If you have a huge bag of identical secret quantum toys, when can you treat each toy as completely independent? This paper gives the exact mathematical limit for when that assumption works. In doing so, it also proved a famous quantum rule guess wrong.",
+  "keyNumbers": [
+   {
+    "value": "O(d/N)",
+    "label": "Upper bound",
+    "context": "Optimal error bound for arbitrary exchangeable states"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "De Finetti theorem",
+    "shortDef": "A theorem describing conditions under which exchangeable variables act as independent identically distributed ones.",
+    "eli5Def": "A rule saying that if a bunch of items look completely interchangeable, they behave like independent coin flips.",
+    "wikiTitle": "De Finetti's theorem"
+   },
+   {
+    "term": "Separable state",
+    "shortDef": "A quantum state without entanglement that can be written as a mixture of product states.",
+    "eli5Def": "A multi-part quantum system where each part acts independently without spooky quantum links.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "Semidefinite program",
+    "shortDef": "A subfield of convex optimization that optimizes a linear function over semidefinite matrices.",
+    "eli5Def": "A high-powered math solver used to find the best arrangement under flexible geometric constraints.",
+    "wikiTitle": "Semidefinite programming"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

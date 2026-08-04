@@ -1,0 +1,72 @@
+{
+ "id": "2608.02600",
+ "version": 1,
+ "title": "Nearly tight lower bounds for estimating quantum functionals: Uhlmann fidelity, trace distance, and von Neumann entropy",
+ "authors": [
+  {
+   "name": "Qisheng Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-03T17:59:11Z",
+ "updated": "2026-08-03T17:59:11Z",
+ "abstract": "In this paper, we present a unified framework for proving lower bounds for estimating functionals of quantum states. We therefore resolve several open problems by establishing lower bounds that match known upper bounds: we show that it requires $\\widetildeΩ(N^2)$ samples to estimate the Uhlmann fidelity, trace distance, and von Neumann entropy. Moreover, they immediately imply matching query lower bounds of $\\widetildeΩ(N)$ by quantum sample-to-query lifting. These lower bounds imply the near-optimality of a dozen quantum algorithms since 2016.",
+ "comment": "19 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.02600",
+  "pdf": "https://arxiv.org/pdf/2608.02600",
+  "html": "https://arxiv.org/html/2608.02600"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-04T09:22:34.198Z",
+  "hook": "Estimating core quantum properties takes ~N² samples, proving a dozen quantum algorithms optimal since 2016.",
+  "tldr": [
+   "Developed a unified framework to establish sample and query lower bounds for estimating quantum state properties.",
+   "Proved sample bounds directly and applied quantum sample-to-query lifting to derive matching query lower bounds.",
+   "Showed ~Ω(N²) samples and ~Ω(N) queries are strictly required, proving a dozen quantum algorithms since 2016 are near-optimal."
+  ],
+  "whyItMatters": "Knowing the fundamental limits of quantum algorithms prevents researchers from trying to build impossible shortcuts. It confirms that several existing quantum state estimation tools are already as fast as mathematically possible.",
+  "eli5": "Imagine trying to guess how a loaded dice behaves by rolling it. This paper proves you mathematically must roll it a specific minimum number of times to get an accurate answer. No clever trick or quantum magic can ever reduce the required rolls below this boundary.",
+  "keyNumbers": [
+   {
+    "value": "2016",
+    "label": "Benchmark year",
+    "context": "Algorithms published since this year were proven near-optimal"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Uhlmann fidelity",
+    "shortDef": "A measure of similarity between two quantum states.",
+    "eli5Def": "A scale from 0 to 1 showing how close two quantum recipes are to being identical.",
+    "wikiTitle": "Fidelity of quantum states"
+   },
+   {
+    "term": "Trace distance",
+    "shortDef": "A metric quantifying how distinguishable two quantum states are.",
+    "eli5Def": "How easily a detector can tell two different quantum items apart.",
+    "wikiTitle": "Trace distance"
+   },
+   {
+    "term": "von Neumann entropy",
+    "shortDef": "An extension of classical entropy concepts to quantum systems.",
+    "eli5Def": "A number measuring how chaotic or uncertain a quantum system is.",
+    "wikiTitle": "Von Neumann entropy"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

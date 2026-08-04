@@ -1,0 +1,95 @@
+{
+ "id": "2608.02517",
+ "version": 1,
+ "title": "Thermalization of open quantum systems with pseudomodes",
+ "authors": [
+  {
+   "name": "R. Kevin Kessing"
+  },
+  {
+   "name": "Thibaut Lacroix"
+  },
+  {
+   "name": "Susana F. Huelga"
+  },
+  {
+   "name": "Martin B. Plenio"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "physics.chem-ph",
+  "physics.comp-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-03T17:13:22Z",
+ "updated": "2026-08-03T17:13:22Z",
+ "abstract": "Pseudomode approaches allow for an exact and unapproximated description of a quantum system interacting arbitrarily strongly with a bath. In general, a system coupled to pseudomodes will not thermalize to the system's Gibbs state: This is to be expected when the system-bath coupling is non-perturbative, but conflicts with common thermodynamic intuition when the system-bath coupling is asymptotically weak. We explore under which circumstances pseudomode models satisfy detailed balance (and subsequently thermalize to the system Gibbs state) and how specific choices of parameters can force \"weak\" detailed balance that is restricted to a limited frequency range. A combination of Hermitian and non-Hermitian pseudomodes that yields a flat effective-temperature profile is also considered. The results and criteria established here are relevant for the construction of pseudomode models in contexts where thermodynamic consistency is required.",
+ "comment": "12+12 pages, 5+2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.02517",
+  "pdf": "https://arxiv.org/pdf/2608.02517",
+  "html": "https://arxiv.org/html/2608.02517"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.02517v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-04T09:22:34.198Z",
+  "hook": "Pseudomode models of open quantum systems can fail to reach thermal equilibrium, defying common thermodynamic intuition.",
+  "tldr": [
+   "Investigated why quantum systems modeled with pseudomodes often fail to thermalize to an expected Gibbs state.",
+   "Analyzed detailed balance conditions and combined Hermitian and non-Hermitian pseudomodes to shape temperature profiles.",
+   "Identified criteria to enforce detailed balance and construct thermodynamically consistent pseudomode models."
+  ],
+  "whyItMatters": "To build accurate quantum computers and simulators, physicists use shortcut models called pseudomodes. Understanding when these mathematical shortcuts break thermodynamic laws prevents unphysical mistakes in quantum technology design.",
+  "eli5": "Imagine putting hot soup in a room, but the mathematical trick you used to simulate the room causes the soup to never reach room temperature. Researchers figured out why this simulation trick fails physics rules and how to fix it so the soup cools down correctly.",
+  "keyNumbers": [
+   {
+    "value": "12+12",
+    "label": "Pages",
+    "context": "Length reported in the paper comments (12 main pages + 12 appendix pages)."
+   },
+   {
+    "value": "5+2",
+    "label": "Figures",
+    "context": "Figure count reported in the paper comments (5 main figures + 2 appendix figures)."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Thermalization",
+    "shortDef": "The process where a system reaches thermal equilibrium with its surrounding environment.",
+    "eli5Def": "When a cold drink warms up to match the room temperature over time.",
+    "wikiTitle": "Thermalization"
+   },
+   {
+    "term": "Pseudomodes",
+    "shortDef": "Fictitious quantum harmonic oscillators used to simplify the mathematical modeling of an environment.",
+    "eli5Def": "Fake helper particles introduced in math equations to make simulating an environment easier.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Detailed balance",
+    "shortDef": "An equilibrium condition where forward and reverse process transition rates exactly balance out.",
+    "eli5Def": "A balanced state where just as many things enter a room as leave it, keeping conditions steady.",
+    "wikiTitle": "Detailed balance"
+   },
+   {
+    "term": "Gibbs state",
+    "shortDef": "The standard equilibrium probability distribution of a thermodynamic system at a fixed temperature.",
+    "eli5Def": "The natural state of balance an object settles into when sitting at a constant temperature.",
+    "wikiTitle": "Thermal quantum state"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

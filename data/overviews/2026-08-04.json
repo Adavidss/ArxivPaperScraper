@@ -1,0 +1,57 @@
+{
+ "date": "2026-08-04",
+ "generatedAt": "2026-08-04T09:22:34.198Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum Bounds, Argmax Rounding, and Thermodynamic Limits",
+ "summary": "Today's research highlights fundamental theoretical breakthroughs in quantum state estimation and entanglement limits alongside new mathematical tools for optimization. Papers introduce an argmax principle for Sum-of-Squares relaxations, resolve long-standing quantum conjectures, and establish thermodynamic constraints on open quantum engines and pseudomode dynamics.",
+ "themes": [
+  {
+   "title": "SoS Relaxations & Argmax Rounding",
+   "body": "An argmax principle for sphere optimization provides tighter bounds for Sum-of-Squares relaxations. When applied to symmetric-extension SDPs, it establishes optimal quantum de Finetti bounds and disproves Watrous's long-standing disentangler conjecture.",
+   "paperIds": [
+    "2608.02594",
+    "2608.02590"
+   ]
+  },
+  {
+   "title": "Open Systems & Quantum Thermodynamics",
+   "body": "Investigations into open quantum dynamics show how cavity squeezing can fuel two-qubit heat engines beyond standard limits, while revealing conditions under which pseudomode models fail—or can be constructed—to reach proper thermal equilibrium.",
+   "paperIds": [
+    "2608.02521",
+    "2608.02517"
+   ]
+  },
+  {
+   "title": "Quantum State Estimation & Entanglement Limits",
+   "body": "New foundational bounds establish near-tight ~Ω(N²) sample limits for estimating core quantum functionals like entropy and fidelity. Meanwhile, flower states demonstrate a massive operational entanglement irreversibility gap under NE operations.",
+   "paperIds": [
+    "2608.02600",
+    "2608.02587"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Paper 2608.02590 directly utilizes the argmax principle for Sum-of-Squares relaxations introduced in 2608.02594 to round symmetric-extension SDPs, yielding optimal quantum de Finetti bounds.",
+   "paperIds": [
+    "2608.02594",
+    "2608.02590"
+   ]
+  },
+  {
+   "body": "Both 2608.02521 and 2608.02517 address thermodynamic consistency in open quantum systems, evaluating non-Markovian bath interactions and detailed balance conditions.",
+   "paperIds": [
+    "2608.02521",
+    "2608.02517"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2608.02600",
+  "2608.02594",
+  "2608.02590",
+  "2608.02587",
+  "2608.02521",
+  "2608.02517"
+ ]
+}

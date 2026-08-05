@@ -1,0 +1,59 @@
+{
+ "date": "2026-08-05",
+ "generatedAt": "2026-08-05T09:20:06.012Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum Advantage, Networked Photonics, and Robust AI",
+ "summary": "Today's papers explore boundaries between classical and quantum computing, spanning theoretical separations over LLMs to efficient simulation tricks on matrix hardware. Meanwhile, advances in photonic waveguides and multinode protocols boost quantum networking capabilities. On the AI front, multi-agent systems offer practical solutions for deployment-time out-of-distribution detection.",
+ "themes": [
+  {
+   "title": "Quantum vs. Classical Computational Bounds",
+   "body": "New theoretical and practical results explore the classical-quantum border: proving shallow quantum circuits beat classical LLMs, showing exponential communication bounds in star networks, and accelerating circuit simulations on real-valued NPUs.",
+   "paperIds": [
+    "2608.03962",
+    "2608.03986",
+    "2608.03987"
+   ]
+  },
+  {
+   "title": "Photonic Quantum Hardware & Network Protocols",
+   "body": "Research in optical quantum systems spans new 2 μm photon-pair waveguide chips, a multinode 'quantum telephone' protocol resolving network signal loss, and first-principles modeling of atomic energy shifts in rotating cavities.",
+   "paperIds": [
+    "2608.03963",
+    "2608.03950",
+    "2608.03997"
+   ]
+  },
+  {
+   "title": "Adaptive Multi-Agent AI Deployment",
+   "body": "Addressing catastrophic detector inversion, SABRE uses LLM multi-agent evaluation on tiny sampled datasets to reliably select out-of-distribution detectors on a strict query budget.",
+   "paperIds": [
+    "2608.02959"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both 2608.03962 and 2608.03986 establish formal theoretical limits proving where classical architectures, from LLMs to classical network messages, fail to efficiently match quantum capabilities.",
+   "paperIds": [
+    "2608.03962",
+    "2608.03986"
+   ]
+  },
+  {
+   "body": "While 2608.03950 develops on-chip 2 μm photon sources, 2608.03963 presents network-level protocols to characterize photon loss and channel metrics across multi-node optical fiber links.",
+   "paperIds": [
+    "2608.03950",
+    "2608.03963"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2608.02959",
+  "2608.03997",
+  "2608.03987",
+  "2608.03986",
+  "2608.03963",
+  "2608.03962",
+  "2608.03950"
+ ]
+}

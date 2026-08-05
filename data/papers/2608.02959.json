@@ -1,0 +1,82 @@
+{
+ "id": "2608.02959",
+ "version": 1,
+ "title": "SABRE: A Multi-Agent Approach for Selecting Out-of-Distribution Detectors Under a Budget",
+ "authors": [
+  {
+   "name": "Mary Wisell"
+  },
+  {
+   "name": "Salimeh Sekeh"
+  }
+ ],
+ "categories": [
+  "cs.MA"
+ ],
+ "primaryCategory": "cs.MA",
+ "published": "2026-08-03T23:48:56Z",
+ "updated": "2026-08-03T23:48:56Z",
+ "abstract": "Post-hoc out-of-distribution (OOD) detection for vision-language models assumes that a detector chosen on a benchmark stays reliable once deployed. We show this fails across domains: on a single frozen encoder, a detector that leads in one domain can invert in another, scoring in-distribution inputs as more anomalous than genuine outliers, and the best detector changes from domain to domain, so no fixed choice is reliable throughout. We introduce SABRE (Selective Agentic Budgeted Reliability Ensemble,) which replaces this fixed choice with per-regime selection at inference. Three language-model agents reason over a library of post-hoc detectors under a bounded query budget: a Selector chooses which detector to consult next, a Reporter consolidates the evidence for each input, and an Analyst calibrates detector reliability on a small labeled sample held out from the deployment domain and disjoint from the test data, weighting selection and aggregation without ever observing a scored input's label. The library includes four multimodal density detectors we propose. Inferring the operating regime from data, SABRE tracks the strongest detector in each domain without prior knowledge of it, recovering reliable detection where a conventional detector inverts and converging to that detector where it is sound. A component analysis shows the agents are complementary: the Reporter's feedback yields consistent gains, and the Analyst's calibration is decisive against inversion, ruling out unreliable detectors so that aggregation no longer cancels the sound ones. Since no fixed rule can be trusted across domains, reliability must be established at deployment rather than assumed from a benchmark, and SABRE shows this can be done automatically.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.02959",
+  "pdf": "https://arxiv.org/pdf/2608.02959",
+  "html": "https://arxiv.org/html/2608.02959"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.02959v1/Figures/SABRE_method.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-05T09:20:06.012Z",
+  "hook": "An out-of-distribution AI detector that leads in one domain can completely invert in another, mislabeling normal data.",
+  "tldr": [
+   "Built SABRE, a multi-agent system that dynamically selects reliable out-of-distribution AI detectors at deployment time.",
+   "Used three LLM agents to evaluate a detector library using a tiny labeled sample under a strict query budget.",
+   "Proved SABRE tracks top detectors per domain and prevents catastrophic detector inversion without prior domain knowledge."
+  ],
+  "whyItMatters": "AI anomaly detectors often fail quietly when deployed in new real-world settings. Dynamically vetting detectors on the fly ensures AI safety guardrails stay reliable.",
+  "eli5": "Imagine a security guard who works great in a library, but in a stadium gets confused and starts arresting innocent guests. SABRE acts like a smart supervisor that tests guards on a few sample situations first to pick the right guard for each room.",
+  "keyNumbers": [
+   {
+    "value": "3",
+    "label": "LLM agents",
+    "context": "Collaborative agents (Selector, Reporter, Analyst) that evaluate and calibrate detectors"
+   },
+   {
+    "value": "4",
+    "label": "New detectors",
+    "context": "Multimodal density detectors proposed and added to SABRE's selection library"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Out-of-Distribution Detection",
+    "shortDef": "Identifying input data that differs significantly from a model's training data.",
+    "eli5Def": "Spotting brand-new things the AI was never trained on so it does not guess wildly.",
+    "wikiTitle": "Anomaly detection"
+   },
+   {
+    "term": "Vision-Language Model",
+    "shortDef": "An AI model trained to process and relate both images and text simultaneously.",
+    "eli5Def": "An AI program that can look at pictures and read text at the same time.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Multi-Agent System",
+    "shortDef": "A computerized system composed of multiple interacting intelligent agents.",
+    "eli5Def": "A group of specialized AI bots working together to solve a complex problem.",
+    "wikiTitle": "Multi-agent system"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

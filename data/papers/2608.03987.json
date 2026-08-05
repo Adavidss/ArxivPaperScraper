@@ -1,0 +1,99 @@
+{
+ "id": "2608.03987",
+ "version": 1,
+ "title": "Realified tensor networks: quantum circuit simulation on real-valued matrix accelerators",
+ "authors": [
+  {
+   "name": "Yusheng Zhao"
+  },
+  {
+   "name": "Xiwei Pan"
+  },
+  {
+   "name": "Enji Xiong"
+  },
+  {
+   "name": "Chengkai Zhu"
+  },
+  {
+   "name": "Jinguo Liu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-04T17:51:06Z",
+ "updated": "2026-08-04T17:51:06Z",
+ "abstract": "Tensor-network contraction simulates quantum circuits, but modern matrix accelerators (NPUs, TPUs) expose only real GEMM pipelines, so the complex networks of quantum simulation must be reconstructed in software. We resolve the mismatch by a realification rewrite that maps any complex tensor network to a real one. At each merge of two complex tensors, a rank-3 structure tensor realizes Gauss's three-multiplication (3M) formula; contractions with one or no complex operand need only two or one real products. We prove a tight cost law: overhead $1 + 2m + r$ in real multiplications, where $m$ and $r$ are the volume fractions of two- and one-complex-operand contractions, never exceeding $3\\times$ relative to real contraction, with every intermediate at most doubled in size. On 67 circuits (random, Clifford+$T$, QAOA, VQE), the law holds across the real-to-complex range and complex-gate placement, not count, governs cost. Contraction orders transfer from the complex network with a relative arithmetic-cost gap below $5\\times 10^{-4}$ on 66 of 67 circuits; the exception closes under a few steps of low-temperature simulated annealing. On an Ascend 910 NPU the rewrite beat both the four-real-GEMM baseline and a per-GEMM Gauss lowering on all twelve random circuits and on 52 of 55 structured cells (three cells slower by at most 12\\%); the four-GEMM baseline was slower by a median $1.7\\times$ (random) and $1.4\\times$ (structured). Realification makes complex tensor-network contraction native to real-only matrix engines.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.03987",
+  "pdf": "https://arxiv.org/pdf/2608.03987",
+  "html": "https://arxiv.org/html/2608.03987"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.03987v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-05T09:20:06.012Z",
+  "hook": "Converting complex quantum simulation tensors to real matrices speeds up AI chip calculations by up to 1.7x.",
+  "tldr": [
+   "Created a realification rewrite mapping complex quantum tensor networks onto real-only matrix hardware.",
+   "Used a rank-3 structure tensor implementing Gauss's 3-multiplication trick to minimize arithmetic overhead.",
+   "Demonstrated speedups up to 1.7x on an Ascend 910 NPU across 67 quantum circuit benchmarks."
+  ],
+  "whyItMatters": "AI accelerators like TPUs and NPUs handle real numbers blazingly fast but struggle with quantum mechanics' complex numbers. This bridge lets standard AI chips simulate quantum computers faster.",
+  "eli5": "AI chips are like calculators that only understand regular numbers, but quantum physics uses imaginary numbers. Instead of making the chip translate every step, this method rewrites the whole quantum problem into standard numbers first.",
+  "keyNumbers": [
+   {
+    "value": "3x",
+    "label": "Overhead cap",
+    "context": "Theoretical upper bound on real multiplication overhead relative to real contraction"
+   },
+   {
+    "value": "67",
+    "label": "Circuits tested",
+    "context": "Quantum circuit benchmarks evaluated across random, Clifford+T, QAOA, and VQE types"
+   },
+   {
+    "value": "1.7x",
+    "label": "Median speedup",
+    "context": "Performance gain over the four-real-GEMM baseline on random circuits using Ascend 910 NPU"
+   },
+   {
+    "value": "52 of 55",
+    "label": "Structured wins",
+    "context": "Structured test cases where realification beat conventional matrix lowered baselines"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Tensor Network",
+    "shortDef": "A mathematical structure breaking high-dimensional quantum states into smaller connected tensors.",
+    "eli5Def": "A way to break down gigantic quantum calculations into connected mini-puzzles.",
+    "wikiTitle": "Tensor network"
+   },
+   {
+    "term": "GEMM",
+    "shortDef": "General Matrix Multiply, the primary matrix multiplication routine in computing hardware.",
+    "eli5Def": "The fundamental grid-multiplication math engine that drives modern computer chips.",
+    "wikiTitle": "Matrix multiplication"
+   },
+   {
+    "term": "Simulated Annealing",
+    "shortDef": "A probabilistic optimization technique for finding global optima in complex search spaces.",
+    "eli5Def": "A trial-and-error search trick inspired by heating and slowly cooling metal to find ideal layouts.",
+    "wikiTitle": "Simulated annealing"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

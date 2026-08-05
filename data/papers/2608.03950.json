@@ -1,0 +1,103 @@
+{
+ "id": "2608.03950",
+ "version": 1,
+ "title": "Joint spectral characterization of SPDC photon pairs near 2 $μ$m in (Al)GaAs-on-insulator waveguides",
+ "authors": [
+  {
+   "name": "Alexandre Z. Leger"
+  },
+  {
+   "name": "Emil Z. Ulsig"
+  },
+  {
+   "name": "Samuel E. Fontaine"
+  },
+  {
+   "name": "Dileep V. Reddy"
+  },
+  {
+   "name": "Eric J. Stanton"
+  },
+  {
+   "name": "Lynden K. Shalm"
+  },
+  {
+   "name": "Richard P. Mirin"
+  },
+  {
+   "name": "Martin J. Stevens"
+  },
+  {
+   "name": "J. E. Sipe"
+  },
+  {
+   "name": "Nicolas Volet"
+  },
+  {
+   "name": "Deny R. Hamel"
+  }
+ ],
+ "categories": [
+  "physics.optics",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.optics",
+ "published": "2026-08-04T17:14:20Z",
+ "updated": "2026-08-04T17:14:20Z",
+ "abstract": "Integrated photon-pair sources are a core component of chip-based quantum computing, communication, and metrology. Although such sources have been demonstrated at conventional telecom wavelengths, the 2 $μ$m band remains comparatively less explored, despite offering advantages for free-space quantum communication, low-loss transmission in emerging fiber networks, and integration with silicon photonic platforms. In this paper, we demonstrate spontaneous parametric down-conversion (SPDC) in straight GaAs- and AlGaAs-on-insulator waveguides. This platform offers strong second-order nonlinearity and geometry-tunable dispersion, which are advantageous for efficient on-chip pair generation. Measurements of the joint spectral intensity and heralded second-order correlation function show broadband emission around 2 $μ$m with strong spectral anti-correlations. To our knowledge, this is the first direct joint-spectral characterization of an integrated SPDC source in this wavelength regime.",
+ "comment": "14 pages, 8 figures, 2 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.03950",
+  "pdf": "https://arxiv.org/pdf/2608.03950",
+  "html": "https://arxiv.org/html/2608.03950"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.03950v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-05T09:20:06.012Z",
+  "hook": "Researchers performed the first direct joint-spectral characterization of on-chip photon-pair sources near 2 μm.",
+  "tldr": [
+   "They demonstrated and characterized photon-pair generation on an integrated semiconductor chip in the 2 μm wavelength band.",
+   "They fabricated GaAs- and AlGaAs-on-insulator waveguides and measured joint spectral intensity and photon correlations.",
+   "They observed broadband photon emission near 2 μm with strong spectral anti-correlations suitable for quantum tech."
+  ],
+  "whyItMatters": "Most quantum photonics operates at standard telecom wavelengths, but the 2 μm band offers lower loss in next-gen fibers and better performance for free-space satellite quantum networks.",
+  "eli5": "Scientists built a microscopic light factory on a tiny chip that splits single laser photons into pairs of twin quantum photons at a new color band.",
+  "keyNumbers": [
+   {
+    "value": "2 μm",
+    "label": "Target wavelength",
+    "context": "Wavelength band near which photon pairs are generated in the semiconductor waveguides"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Spontaneous parametric down-conversion",
+    "shortDef": "A nonlinear optical process where one high-energy photon splits into a pair of lower-energy entangled photons.",
+    "eli5Def": "A special crystal trick where one incoming photon splits into two twin quantum photons.",
+    "wikiTitle": "Spontaneous parametric down-conversion"
+   },
+   {
+    "term": "Waveguide",
+    "shortDef": "A physical structure that guides optical waves along a specific path on a chip.",
+    "eli5Def": "A tiny optical pipe on a microchip that keeps light traveling along a precise path.",
+    "wikiTitle": "Waveguide"
+   },
+   {
+    "term": "Gallium arsenide",
+    "shortDef": "A semiconductor material with high optical nonlinearity used for photonic chips.",
+    "eli5Def": "A special material used to make high-speed electronic and light-emitting microchips.",
+    "wikiTitle": "Gallium arsenide"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

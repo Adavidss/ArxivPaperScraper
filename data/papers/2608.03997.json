@@ -1,0 +1,75 @@
+{
+ "id": "2608.03997",
+ "version": 1,
+ "title": "Non-Relativistic Quantum Electrodynamics of Atoms in a Rotating Ring Cavity",
+ "authors": [
+  {
+   "name": "Jarrod T. Reilly"
+  },
+  {
+   "name": "Murray J. Holland"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-04T17:55:53Z",
+ "updated": "2026-08-04T17:55:53Z",
+ "abstract": "In this paper, we derive a quantum optics model in a non-inertial rotating ring cavity from first principles. We begin with the Dirac equation in curved spacetime, add minimal coupling to the electromagnetic field, and then find the Dirac Hamiltonian for the generalized Born metric. We then formally take the non-relativistic limit by way of Foldy-Wouthuysen transformations and project onto a fermionic Fock space for the atoms' electrons, protons, and neutrons. Focusing on a protium atom, we next move from a minimal coupling gauge to a multipole expansion gauge by taking a Power-Zienau-Woolley transformation under the dipole and long-wavelength approximations. Here, we find additional terms from the rotation of the system including a rotation-induced hyperfine shift of the atomic transition which could possibly be observed experimentally even for small rotation rates. Making the electric dipole, two-level, and rotating-wave approximations, we arrive at a Jaynes-Cummings-like Hamiltonian which also accounts for rotational effects, such as the rotation-induced hyperfine shift and the Sagnac shift for the cavity's counterpropagating modes.",
+ "comment": "25 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.03997",
+  "pdf": "https://arxiv.org/pdf/2608.03997",
+  "html": "https://arxiv.org/html/2608.03997"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.03997v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-05T09:20:06.012Z",
+  "hook": "Rotating an atomic cavity creates a measurable shift in an atom's optical energy levels, even at low rotation rates.",
+  "tldr": [
+   "Derived a first-principles quantum optics model for atoms constrained inside a rotating ring cavity.",
+   "Applied relativistic Dirac equations, Foldy-Wouthuysen transforms, and multipole expansions to protium atoms.",
+   "Discovered a rotation-induced hyperfine shift in atomic energy alongside Sagnac shifts in cavity light modes."
+  ],
+  "whyItMatters": "Understanding how rotational motion alters fundamental quantum interactions is vital for building next-generation atomic gyroscopes and ultra-precise quantum sensors.",
+  "eli5": "If you spin a box containing a tuning fork, the rotation subtly changes the sound pitch the fork produces. Physicists calculated how spinning a mirror box changes the precise light frequencies an atom inside absorbs.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Dirac Equation",
+    "shortDef": "A relativistic quantum wave equation describing spin-1/2 elementary particles.",
+    "eli5Def": "A math rule describing how ultra-fast quantum particles behave under relativity.",
+    "wikiTitle": "Dirac equation"
+   },
+   {
+    "term": "Hyperfine Structure",
+    "shortDef": "Small energy level shifts in atoms caused by interactions with nuclear spin.",
+    "eli5Def": "Tiny tweaks to an atom's energy levels caused by its center acting like a mini magnet.",
+    "wikiTitle": "Hyperfine structure"
+   },
+   {
+    "term": "Jaynes-Cummings Model",
+    "shortDef": "A theoretical model describing a two-level atom interacting with a quantized light mode.",
+    "eli5Def": "The basic math equation showing how a single atom trades energy with light trapped in a box.",
+    "wikiTitle": "Jaynes-Cummings model"
+   },
+   {
+    "term": "Sagnac Effect",
+    "shortDef": "An optical phase shift induced by rotation in ring-shaped light paths.",
+    "eli5Def": "The way light beams traveling in opposite circles get out of sync when the ring spins.",
+    "wikiTitle": "Sagnac effect"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

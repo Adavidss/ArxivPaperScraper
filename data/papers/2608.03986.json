@@ -1,0 +1,72 @@
+{
+ "id": "2608.03986",
+ "version": 1,
+ "title": "A lower bound on the classical simulation cost of star-network correlations",
+ "authors": [
+  {
+   "name": "Martin J. Renner"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-04T17:51:05Z",
+ "updated": "2026-08-04T17:51:05Z",
+ "abstract": "It is well established that quantum strategies outperform classical ones in several communication tasks. We study the quantum communication complexity of correlations arising from joint measurements on quantum systems distributed across a star network, where several parties each send a quantum system to a central node. We introduce an exclusion task that can be solved perfectly when each party sends a quantum $d$-level system, but would require a large classical message otherwise. In fact, the task cannot be solved with certainty if each of the $n$ parties sends a classical message with less than $n^{(d-1)}$ symbols. This implies an advantage of using quantum over classical messages in that scenario that scales with both, the dimension of the quantum system and the number of systems measured simultaneously. As an application, this shows that no finite-size classical description of a qubit suffices to reproduce the statistics of a joint measurement on sufficiently many qubits.",
+ "comment": "5+4 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.03986",
+  "pdf": "https://arxiv.org/pdf/2608.03986",
+  "html": "https://arxiv.org/html/2608.03986"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.03986v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-05T09:20:06.012Z",
+  "hook": "Simulating quantum star-network correlations classically requires messages scaling exponentially with network size.",
+  "tldr": [
+   "Proved a mathematical lower bound on classical communication costs in star-shaped quantum networks.",
+   "Designed an exclusion task that quantum systems solve easily but forces large classical message sizes.",
+   "Proved no finite-size classical qubit model can reproduce joint quantum measurement statistics."
+  ],
+  "whyItMatters": "This proves a fundamental performance gap between quantum and classical communication networks, showing quantum links can coordinate complex tasks using dramatically less data.",
+  "eli5": "Imagine a group of friends trying to coordinate a secret signal by texting a central hub. Using quantum signals, they can send tiny texts and always succeed. To match that success with regular text messages, their messages would have to become absurdly long.",
+  "keyNumbers": [
+   {
+    "value": "n^(d-1)",
+    "label": "Minimum symbols",
+    "context": "Required classical message symbol count to guarantee solving the exclusion task across n parties with d-level systems"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum Communication Complexity",
+    "shortDef": "The study of how much quantum information is required to solve distributed tasks.",
+    "eli5Def": "Measuring how many quantum messages separated computers must swap to solve a puzzle together.",
+    "wikiTitle": "Communication complexity"
+   },
+   {
+    "term": "Star Network",
+    "shortDef": "A network topology where all peripheral nodes connect directly to one central node.",
+    "eli5Def": "A network setup where every device talks only to one central station.",
+    "wikiTitle": "Star network"
+   },
+   {
+    "term": "Qubit",
+    "shortDef": "The basic unit of quantum information, analogous to a classical bit.",
+    "eli5Def": "The quantum version of a regular computer bit, capable of existing as 0, 1, or both simultaneously.",
+    "wikiTitle": "Qubit"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

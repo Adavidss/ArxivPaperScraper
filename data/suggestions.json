@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-04T09:22:34.198Z",
+ "generatedAt": "2026-08-05T09:20:06.012Z",
  "suggestions": [
   {
    "name": "Martin B. Plenio",
@@ -44,6 +44,26 @@
     "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
    ],
    "paperCount": 2
+  },
+  {
+   "name": "Yusheng Zhao",
+   "slug": "yusheng-zhao",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2608.03987",
+    "2607.21533",
+    "2607.14082"
+   ],
+   "recentTitles": [
+    "Realified tensor networks: quantum circuit simulation on real-valued matrix accelerators",
+    "Benchmarking Agents for Proving Theorems in Quantum Algorithms and Quantum Information"
+   ],
+   "paperCount": 3
   },
   {
    "name": "Liang Jiang",
@@ -164,24 +184,6 @@
   {
    "name": "Jiashen Tang",
    "slug": "jiashen-tang",
-   "score": 3,
-   "coAuthoredWith": [
-    "daniel-g-ang",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2606.23621"
-   ],
-   "recentTitles": [
-    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
-   ],
-   "paperCount": 1
-  },
-  {
-   "name": "Maximilian Shen",
-   "slug": "maximilian-shen",
    "score": 3,
    "coAuthoredWith": [
     "daniel-g-ang",

@@ -1,0 +1,77 @@
+{
+ "id": "2608.03962",
+ "version": 1,
+ "title": "Separating quantum circuits from classical LLMs",
+ "authors": [
+  {
+   "name": "Srinivasan Arunachalam"
+  },
+  {
+   "name": "Arkopal Dutt"
+  },
+  {
+   "name": "Hari Krovi"
+  },
+  {
+   "name": "Rik Sengupta"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.AI",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-04T17:28:24Z",
+ "updated": "2026-08-04T17:28:24Z",
+ "abstract": "Modern large language models - transformers and diffusion language models - are built around two canonical algorithmic tasks: prediction and generation. We prove unconditional separations between low-depth quantum computation and the corresponding bounded-resource classical language-model architectures in both regimes. Concretely, we exhibit the following: 1. Distributional separation. We give a distribution that is sampleable by $\\textsf{QNC}^0$ circuits (i.e., a family of constant-depth quantum circuits consisting of bounded fan-in gates) that no constant-round diffusion language model ($\\textsf{DLM}$) with shallow scheduling and denoising can sample within constant distance, even when allowed sublinear chain-of-thought and output-token revision/remasking events, the very features modern $\\textsf{DLM}$s rely on. 2. Functional separation. We exhibit a function computable in $\\land \\circ \\textsf{QNC}^0[\\log\\log n]$ (i.e., a family of O$(\\log\\log n)$-depth $\\textsf{QNC}^0$ circuits, where $n$ is the input length, followed by a single classical $\\mathsf{AND}$ gate) such that any constant-depth decoder-only transformer computing the function must be large: it would have to have width $n^{Ω(1)}$. Together, our work initiates the study of quantum advantage in the era of large language models.",
+ "comment": "60 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.03962",
+  "pdf": "https://arxiv.org/pdf/2608.03962",
+  "html": "https://arxiv.org/html/2608.03962"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.03962v1/transformer-architecture.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-05T09:20:06.012Z",
+  "hook": "Shallow quantum circuits can outperform classical AI transformers and diffusion language models on specific tasks.",
+  "tldr": [
+   "They proved mathematical separations showing shallow quantum circuits outperform classical language model architectures.",
+   "They designed specific generation and prediction tasks and analyzed theoretical performance limits for both systems.",
+   "They proved shallow quantum circuits can sample distributions diffusion models fail at and match transformers that need huge width."
+  ],
+  "whyItMatters": "As AI language models grow, understanding their theoretical limits compared to quantum hardware shows where quantum computers offer true fundamental computational advantages over modern AI.",
+  "eli5": "Imagine a tiny quantum computer solving a puzzle in one quick step, while even the smartest classical AI chatbot would need a giant brain to solve the same puzzle.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "QNC0",
+    "shortDef": "A class of constant-depth quantum circuits made of quantum gates with limited inputs.",
+    "eli5Def": "A quantum circuit so short that all its operations happen almost at the exact same instant.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Transformer",
+    "shortDef": "A deep learning architecture relying on self-attention mechanisms to process sequential data like text.",
+    "eli5Def": "The core AI engine powering modern tools like ChatGPT to understand context in text.",
+    "wikiTitle": "Transformer (deep learning architecture)"
+   },
+   {
+    "term": "Diffusion model",
+    "shortDef": "A generative AI model that creates text by iteratively removing noise from random representations.",
+    "eli5Def": "An AI that starts with a messy, blurry image of text and iteratively cleans it up into clear words.",
+    "wikiTitle": "Diffusion model"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

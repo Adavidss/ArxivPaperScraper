@@ -1,0 +1,81 @@
+{
+ "id": "2608.03963",
+ "version": 1,
+ "title": "A quantum game of telephone",
+ "authors": [
+  {
+   "name": "Arefur Rahman"
+  },
+  {
+   "name": "Matthew L. Stevens"
+  },
+  {
+   "name": "Cory M. Nunn"
+  },
+  {
+   "name": "Daniel E. Jones"
+  },
+  {
+   "name": "Brian T. Kirby"
+  },
+  {
+   "name": "Joseph M. Lukens"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-04T17:28:28Z",
+ "updated": "2026-08-04T17:28:28Z",
+ "abstract": "Characterizing multinode quantum networks without ubiquitous local entanglement sources presents significant experimental challenges. We introduce ``quantum telephone,'' an iterative ancilla-assisted process tomography protocol that leverages intermediate detection events, effectively treating previously probed links as ancillae for subsequent links. Implemented on a deployed multinode fiber network, we observe noisy intermediate channels create fundamental parameter degeneracies that compound inference errors under sequential estimation. Counterintuitively, the inclusion of downstream near-unitary channels provides boundary constraints that, when used in tandem with global inference, can resolve ambiguity in channels earlier in the sequence. By compensating for localized information loss, this approach obviates the strict full-rank requirements of standard ancilla-assisted process tomography, even when intermediate states become completely depolarized. Overall, quantum telephone offers a hardware-efficient and information-maximizing path toward characterizing complex quantum networks with limited resources.",
+ "comment": "11 pages, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.03963",
+  "pdf": "https://arxiv.org/pdf/2608.03963",
+  "html": "https://arxiv.org/html/2608.03963"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.03963v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-05T09:20:06.012Z",
+  "hook": "A new 'quantum telephone' protocol uses downstream channels to fix data loss earlier in a fiber quantum network.",
+  "tldr": [
+   "They developed and deployed 'quantum telephone,' a protocol to characterize multinode quantum networks without local entanglement.",
+   "They treated previously measured links as quantum probes for next links and combined local data with global boundary constraints.",
+   "They found downstream channels resolve parameter ambiguities from earlier losses, even when intermediate states completely depolarize."
+  ],
+  "whyItMatters": "Measuring complex quantum networks usually requires complex, expensive local entanglement sources at every node. This protocol lets researchers fully audit multi-node quantum networks using simpler hardware.",
+  "eli5": "Imagine passing a message down a line of people where early people whisper unclearly. Instead of re-whispering, you check what the last person heard to figure out what the early whispers must have been.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Ancilla state",
+    "shortDef": "An extra auxiliary quantum bit used to help perform operations or measurements on primary qubits.",
+    "eli5Def": "A temporary helper particle brought in to check or fix other particles without altering their main job.",
+    "wikiTitle": "Ancilla state"
+   },
+   {
+    "term": "Quantum process tomography",
+    "shortDef": "A technique to fully reconstruct and describe the behavior of a quantum channel or system.",
+    "eli5Def": "A complete medical scan, but for seeing exactly how a quantum machine alters quantum information.",
+    "wikiTitle": "Quantum process tomography"
+   },
+   {
+    "term": "Depolarizing channel",
+    "shortDef": "A quantum noise model where a state is lost and replaced with completely random noise.",
+    "eli5Def": "A noisy phone line that totally scrambles a message into static noise.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "2608.05092",
+ "version": 1,
+ "title": "Perfect Games in Dimension-Bounded Communication",
+ "authors": [
+  {
+   "name": "E. Zambrini Cruzeiro"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-05T17:28:44Z",
+ "updated": "2026-08-05T17:28:44Z",
+ "abstract": "Perfect prepare-and-measure games exhibit an all-or-nothing quantum advantage: a quantum system of dimension $d$ satisfies every prescribed winning constraint, whereas a classical $d$-level message cannot. We establish two structural results for such forbidden-output support constraints. First, every binary-output support game reduces exactly to a conflict graph: perfect classical realization with a $d$-level message is equivalent to $d$-colorability, perfect $d$-dimensional quantum realization is equivalent to a $d$-dimensional orthogonal representation, and the minimum number of Bob inputs realizing a fixed conflict graph is its edge biclique-cover number. Second, for an arbitrary finite output alphabet, every perfect qubit strategy admits a perfect classical-bit realization. As a flagship application, the $13$-ray qutrit graph yields a compressed game $(X,Y,B)=(13,8,2)$ with $C_3=39<Q_3=S=40$, and eight Bob inputs are minimal among all binary-output realizations of that graph. Graph extensions demonstrate the mechanism in every dimension, while Torpedo and antidistinguishability games illustrate the genuinely nonbinary regime. These results connect exact communication, graph coloring, contextuality, state exclusion, and zero-error information theory.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.05092",
+  "pdf": "https://arxiv.org/pdf/2608.05092",
+  "html": "https://arxiv.org/html/2608.05092"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-06T09:23:29.613Z",
+  "hook": "A 13-ray quantum graph proves quantum systems outperform classical messages of the same dimension without any errors.",
+  "tldr": [
+   "They mapped perfect communication games with forbidden outputs to graph theory problems.",
+   "They connected classical winning strategies to graph coloring and quantum strategies to orthogonal vector representations.",
+   "They proved qubit games offer no advantage over classical bits, but qutrit systems yield exact quantum advantage."
+  ],
+  "whyItMatters": "Understanding exact quantum advantages in communication helps design zero-error quantum protocols and cryptographic tools. It links quantum mechanics directly to fundamental problems in graph theory and computer science.",
+  "eli5": "Imagine playing a secret messaging game where you can only send a single colored marble to a friend. Quantum mechanics lets you send a quantum marble that can perfectly solve puzzle rules that a normal colored marble could never clear without making mistakes.",
+  "keyNumbers": [
+   {
+    "value": "13",
+    "label": "Qutrit graph rays",
+    "context": "Number of rays in the qutrit graph used to construct the compressed game"
+   },
+   {
+    "value": "39 vs 40",
+    "label": "Classical vs Quantum score",
+    "context": "Classical score C_3=39 is strictly smaller than quantum score Q_3=40"
+   },
+   {
+    "value": "8",
+    "label": "Minimal Bob inputs",
+    "context": "Minimum number of Bob inputs required for binary-output realization of the graph"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Conflict graph",
+    "shortDef": "A graph representing constraints where adjacent nodes cannot share certain outcomes.",
+    "eli5Def": "A network map where connected dots represent rules about what choices cannot happen together.",
+    "wikiTitle": "Graph theory"
+   },
+   {
+    "term": "Qutrit",
+    "shortDef": "A three-level quantum system capable of existing in superpositions of three states.",
+    "eli5Def": "A quantum coin with three sides instead of two that can exist in a mix of all three at once.",
+    "wikiTitle": "Qutrit"
+   },
+   {
+    "term": "Biclique-cover number",
+    "shortDef": "The minimum number of complete bipartite subgraphs needed to cover all edges of a graph.",
+    "eli5Def": "The smallest number of two-sided group maps needed to cover every connection in a graph.",
+    "wikiTitle": "Bipartite dimension"
+   },
+   {
+    "term": "Quantum advantage",
+    "shortDef": "The ability of quantum devices to solve problems faster or more accurately than classical systems.",
+    "eli5Def": "When a quantum computer solves a puzzle in a way a regular computer never can.",
+    "wikiTitle": "Quantum supremacy"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

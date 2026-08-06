@@ -1,0 +1,85 @@
+{
+ "id": "2608.05052",
+ "version": 1,
+ "title": "Constructing Non-Hermitian Theories with Tunable Exceptional Points and Controlled State Purification",
+ "authors": [
+  {
+   "name": "Soumya Kanti Pal"
+  },
+  {
+   "name": "Rupak Majumder"
+  },
+  {
+   "name": "Shamik Gupta"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-05T17:00:23Z",
+ "updated": "2026-08-05T17:00:23Z",
+ "abstract": "Exceptional points (EP's) are a hallmark of non-Hermitian quantum systems. We show that momentum-space deformation provides a general design principle for creating and controlling EP's in quadratic many-body Hamiltonians. We identify universal criteria for the momentum sectors to host EP's and the corresponding critical deformation strengths, while revealing that a single momentum-sector EP induces quite remarkably an exponential proliferation of many-body eigenvector coalescences. We further establish EP's as a universal mechanism for purifying arbitrary mixed quantum states, uncovering distinct purification regimes and a fundamental odd-even system-size dichotomy in the thermodynamic limit. Our framework also provides a systematic reverse-engineering protocol for generating short- and long-range, reciprocal and nonreciprocal non-Hermitian quantum matter, together with an explicit Lindblad embedding. These results thus establish momentum-space deformation as a unified route to exceptional-point engineering and controlled design of many-body non-Hermitian quantum systems.",
+ "comment": "9+7 pages, 4 Figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.05052",
+  "pdf": "https://arxiv.org/pdf/2608.05052",
+  "html": "https://arxiv.org/html/2608.05052"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.05052v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-06T09:23:29.613Z",
+  "hook": "Deforming quantum momentum creates singular points that exponentially collapse complex quantum states into pure ones.",
+  "tldr": [
+   "They developed a momentum-space deformation method to design and control exceptional points in quantum systems.",
+   "They analyzed quadratic many-body Hamiltonians to derive universal criteria for exceptional point creation and state purification.",
+   "They discovered that a single momentum exceptional point causes an exponential wave of quantum state mergers."
+  ],
+  "whyItMatters": "Controlling non-Hermitian quantum systems enables precise manipulation of noisy quantum states. This general design framework opens new avenues for quantum state purification and open quantum system engineering.",
+  "eli5": "Imagine a messy box of colored lights where tweaking the system's motion acts like a funnel, merging all colors into one pure beam. This technique gives scientists a dial to clean up noisy quantum information automatically.",
+  "keyNumbers": [
+   {
+    "value": "4",
+    "label": "Figures",
+    "context": "Number of illustrative figures provided in the paper"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Exceptional point",
+    "shortDef": "A singularity in non-Hermitian systems where eigenvalues and eigenvectors simultaneously collapse.",
+    "eli5Def": "A special tipping point where different quantum states merge completely into one.",
+    "wikiTitle": "Exceptional point"
+   },
+   {
+    "term": "Non-Hermitian quantum mechanics",
+    "shortDef": "A quantum framework modeling open systems with gain and loss through non-self-adjoint operators.",
+    "eli5Def": "A way to study quantum systems that exchange energy or particles with their surroundings.",
+    "wikiTitle": "Non-Hermitian quantum mechanics"
+   },
+   {
+    "term": "State purification",
+    "shortDef": "The process of converting a noisy, mixed quantum state into a clean, pure quantum state.",
+    "eli5Def": "Taking a messy mix of quantum possibilities and boiling it down to a single pure state.",
+    "wikiTitle": "Quantum state"
+   },
+   {
+    "term": "Lindblad embedding",
+    "shortDef": "A mathematical formulation mapping non-Hermitian dynamics into open system Lindblad equations.",
+    "eli5Def": "A standard mathematical recipe for describing how a quantum system interacts with its environment.",
+    "wikiTitle": "Lindblad equation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

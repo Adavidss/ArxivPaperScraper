@@ -1,0 +1,77 @@
+{
+ "id": "2608.05147",
+ "version": 1,
+ "title": "Fast Quantum Interconnects via Neutral Atom Ensembles",
+ "authors": [
+  {
+   "name": "Sina Zeytinoglu"
+  },
+  {
+   "name": "Wenchao Xu"
+  },
+  {
+   "name": "Thomas Pohl"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.atom-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-05T17:59:38Z",
+ "updated": "2026-08-05T17:59:38Z",
+ "abstract": "Distributing entanglement between distant qubits is a crucial element of scalable quantum computing. Here, we describe a scalable quantum interconnect that generates remote entanglement at rates approaching those compatible with two-qubit gates of current neutral-atom quantum processors. The proposed approach exploits the strong dipole-dipole interactions between atomic Rydberg states to generate entanglement between stationary qubits and propagating photons, without the need for an optical cavity. We provide a thorough description of the optimal conditions for the developed entanglement-generation protocol for realistic experimental parameters and demonstrate that entanglement-generation rates $\\gtrsim 3\\times 10^5$ s$^{-1}$ can be achieved using Rydberg states of ytterbium atoms. Given the inherent scalability and design flexibility of the proposed interconnect, our results suggest a promising approach towards distributed networks based on neutral-atom quantum architectures.",
+ "comment": "5 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.05147",
+  "pdf": "https://arxiv.org/pdf/2608.05147",
+  "html": "https://arxiv.org/html/2608.05147"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-06T09:23:29.613Z",
+  "hook": "Neutral atom interconnects achieve entanglement rates over 300,000 per second without needing an optical cavity.",
+  "tldr": [
+   "Proposed a cavity-free quantum interconnect that links stationary atomic qubits to moving photons.",
+   "Used strong dipole-dipole interactions between Rydberg states in ytterbium atom ensembles.",
+   "Achieved remote entanglement rates exceeding 300,000 per second, matching fast two-qubit gates."
+  ],
+  "whyItMatters": "Interconnecting distant quantum processors rapidly without complex optical cavities is key to scaling up neutral-atom quantum computers.",
+  "eli5": "Imagine connecting two computers using light signals instead of wires. By using excited atoms as precise antennas, scientists created a ultra-fast wireless link between quantum hardware components.",
+  "keyNumbers": [
+   {
+    "value": "3×10⁵ s⁻¹",
+    "label": "Entanglement rate",
+    "context": "Achieved using Rydberg states of ytterbium atoms without an optical cavity"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Rydberg state",
+    "shortDef": "An atom excited to a high energy level with widely separated electron orbits.",
+    "eli5Def": "An atom puffed up like a balloon because its electron is pushed super far away from the center.",
+    "wikiTitle": "Rydberg atom"
+   },
+   {
+    "term": "Quantum interconnect",
+    "shortDef": "A device linking separate quantum systems or processors using photons.",
+    "eli5Def": "A special cable or link that lets distant quantum computers talk to each other without ruining their quantum memory.",
+    "wikiTitle": "Quantum network"
+   },
+   {
+    "term": "Ytterbium",
+    "shortDef": "A chemical element commonly used in atomic clocks and quantum computing.",
+    "eli5Def": "A specific type of metal atom that works really well for precise quantum experiments.",
+    "wikiTitle": "Ytterbium"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

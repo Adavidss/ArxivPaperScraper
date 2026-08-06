@@ -1,0 +1,82 @@
+{
+ "id": "2608.05110",
+ "version": 1,
+ "title": "Representational separation between unitary and channel quantum generative models via shared classical randomness at shallow depth",
+ "authors": [
+  {
+   "name": "Arunava Majumder"
+  },
+  {
+   "name": "Marius Krumm"
+  },
+  {
+   "name": "Hendrik Poulsen Nautrup"
+  },
+  {
+   "name": "Hans J. Briegel"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.AI",
+  "cs.LG",
+  "stat.ML"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-05T17:44:36Z",
+ "updated": "2026-08-05T17:44:36Z",
+ "abstract": "Near-term quantum hardware limits circuit depth and often imposes geometrically local connectivity for quantum generative models, restricting the output distributions accessible to shallow unitary Born models. Introducing stochasticity into a unitary quantum Born model can improve the empirical generative performance of the resulting channel model and, for a restricted small-scale architecture, has been proven to represent a strictly larger family of distributions than its unitary counterpart. However, whether such randomness provides a provable separation at fixed shallow depth for arbitrarily large systems has remained open. Here, we show that shared classical randomness, a comparatively weak resource from entanglement theory, is sufficient to establish such a strict scalable representational separation over the corresponding shallow unitary Born model. More specifically, we augment bounded-connectivity shallow unitary circuits, followed by computational-basis measurements, with spatially separated local Pauli operations, whose joint application is controlled by a single classically sampled random bit. The resulting shallow-depth channel model generates long-range correlations in the classical output distribution that no purely unitary shallow-depth model with bounded connectivity can reproduce. For one-dimensional nearest-neighbour architectures, reproducing such distributions with a purely unitary model can require depth $Ω(N)$ in the worst case. We further show that measurement-based quantum computation (MBQC) provides a natural implementation of the required shared classical randomness through suitable adaptation of the random measurement outcomes. Numerical experiments on MBQC-based generative models support the analytical results.",
+ "comment": "33 pages, 9 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.05110",
+  "pdf": "https://arxiv.org/pdf/2608.05110",
+  "html": "https://arxiv.org/html/2608.05110"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-06T09:23:29.613Z",
+  "hook": "Flipping a single random coin lets shallow quantum circuits generate complex correlations that otherwise need depth Ω(N).",
+  "tldr": [
+   "Proved that classical randomness expands the power of shallow quantum generative circuits.",
+   "Added local Pauli operations controlled by a single random bit to shallow unitary quantum models.",
+   "Found channel models create long-range correlations requiring deep circuits in purely unitary models."
+  ],
+  "whyItMatters": "Near-term quantum computers are restricted to shallow circuit depths, so finding simple classical tricks to boost their generative power is extremely valuable for practical quantum AI.",
+  "eli5": "Think of a quantum circuit like a group of dancers doing short quick moves. By letting them all flip a single shared coin before starting, they can coordinate long-distance patterns that would otherwise require a long, complicated routine.",
+  "keyNumbers": [
+   {
+    "value": "Ω(N)",
+    "label": "Worst-case circuit depth",
+    "context": "Required by purely unitary 1D nearest-neighbor models to reproduce correlations created by channel models"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Generative model",
+    "shortDef": "A probabilistic model designed to generate new data samples matching a learned distribution.",
+    "eli5Def": "A computer program trained to generate new images, text, or data patterns resembling real examples.",
+    "wikiTitle": "Generative model"
+   },
+   {
+    "term": "Quantum channel",
+    "shortDef": "A mathematical mapping describing open quantum system dynamics including noise and randomness.",
+    "eli5Def": "A quantum operation that can mix in random classical coin flips alongside quantum physics steps.",
+    "wikiTitle": "Quantum channel"
+   },
+   {
+    "term": "Measurement-based quantum computation",
+    "shortDef": "A model of quantum computing where computation proceeds via measurements on an entangled state.",
+    "eli5Def": "A way to do quantum computing by starting with a giant web of entangled qubits and measuring them one by one.",
+    "wikiTitle": "Measurement-based quantum computation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

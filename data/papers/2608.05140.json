@@ -1,0 +1,92 @@
+{
+ "id": "2608.05140",
+ "version": 1,
+ "title": "A fractional quantum Hall factory on quantum processors: constant-depth preparation of clustered non-Abelian states",
+ "authors": [
+  {
+   "name": "Cheng Xu"
+  },
+  {
+   "name": "Ching Hua Lee"
+  },
+  {
+   "name": "Hong-Hao Tu"
+  },
+  {
+   "name": "Yang Zhang"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-08-05T17:57:39Z",
+ "updated": "2026-08-05T17:57:39Z",
+ "abstract": "Non-Abelian anyons arise as exotic excitations in fractional quantum Hall (FQH) matter and have proved very elusive to realize in conventional platforms. In this work, we show that on a programmable quantum hardware platform, the more exotic FQH excitations are the less costly ones to prepare: clustered non-Abelian FQH states admit parallel quantum preparation circuits whose two-qubit depth is independent of system size, while constructing the more common Abelian Laughlin state requires a sequential circuit chain with linear depth. The centerpiece of this work is our new systematic framework for cataloging possible FQH states and preparing them on quantum circuits at unprecedented scale and variety. Our prepared parafermionic Read--Rezayi $\\mathbb{Z}_3$ state holds depth 3 from 8 to 118 qubits, and full root sampling extends to a 154-qubit, 104-electron Read--Rezayi $\\mathbb{Z}_4$ state. In all, our demonstrated 18-family catalog of prepared FQH states extends to all 156 qubits of an IBM Heron processor, limited only by existing hardware scale. Measurements on the prepared states recover the expected fractional quasihole charges, with the charge estimator exact in every symmetry-selected shot for the clustered states, and braiding data of the non-Abelian $e/4$ quasihole measured via interferometric extensions. Our work establishes a scalable route to studying FQH physics on quantum processors and opens new avenues for preparing and probing non-Abelian topological matter far beyond the reach of conventional platforms.",
+ "comment": "16.5 pages, 11 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.05140",
+  "pdf": "https://arxiv.org/pdf/2608.05140",
+  "html": "https://arxiv.org/html/2608.05140"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.05140v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-06T09:23:29.613Z",
+  "hook": "Exotic non-Abelian quantum states were prepared across a 156-qubit processor in a circuit depth of just 3.",
+  "tldr": [
+   "Built a quantum circuit framework to prepare exotic non-Abelian fractional quantum Hall states.",
+   "Mapped state families onto IBM Heron 156-qubit processors using parallel, size-independent circuit depth.",
+   "Prepared Read-Rezayi states in constant depth 3 across up to 154 qubits and observed non-Abelian quasihole braiding."
+  ],
+  "whyItMatters": "Non-Abelian anyons are fundamental to fault-tolerant topological quantum computing, but previously seemed harder to create than simple quantum states.",
+  "eli5": "Usually, making complex topological materials on a computer takes longer as the system grows. Researchers found a clever shortcut that lets them build exotic quantum states instantly, no matter how big the system is.",
+  "keyNumbers": [
+   {
+    "value": "3",
+    "label": "Circuit depth",
+    "context": "Maintained for Read-Rezayi Z3 state across 8 to 118 qubits"
+   },
+   {
+    "value": "156",
+    "label": "Qubits used",
+    "context": "Demonstrated across an entire IBM Heron processor for an 18-family catalog"
+   },
+   {
+    "value": "154",
+    "label": "Qubit state size",
+    "context": "Size of the prepared 104-electron Read-Rezayi Z4 state"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Non-Abelian anyon",
+    "shortDef": "A particle-like excitation whose quantum state depends on the swapping order with others.",
+    "eli5Def": "Particles whose order of swapping around matters, leaving a memory of how they moved.",
+    "wikiTitle": "Anyon"
+   },
+   {
+    "term": "Fractional quantum Hall effect",
+    "shortDef": "A physical phenomenon where electrons in two dimensions form topological quantum fluid states.",
+    "eli5Def": "A state where electrons crowd together in two dimensions and act like they split into fractional charges.",
+    "wikiTitle": "Fractional quantum Hall effect"
+   },
+   {
+    "term": "Circuit depth",
+    "shortDef": "The number of sequential time steps required to execute a quantum algorithm.",
+    "eli5Def": "The total number of steps a quantum computer needs to complete a recipe.",
+    "wikiTitle": "Quantum logic gate"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

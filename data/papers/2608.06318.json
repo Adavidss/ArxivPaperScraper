@@ -1,0 +1,96 @@
+{
+ "id": "2608.06318",
+ "version": 1,
+ "title": "Breaking Memory Bottlenecks in Quantum Control Systems for More Precise Experiments and Higher Throughput Computing",
+ "authors": [
+  {
+   "name": "Yicheng Guang"
+  },
+  {
+   "name": "Neel Vora"
+  },
+  {
+   "name": "Yilun Xu"
+  },
+  {
+   "name": "Yueqi Chen"
+  },
+  {
+   "name": "Gang Huang"
+  }
+ ],
+ "categories": [
+  "cs.AR",
+  "cs.ET",
+  "quant-ph"
+ ],
+ "primaryCategory": "cs.AR",
+ "published": "2026-08-06T17:32:22Z",
+ "updated": "2026-08-06T17:32:22Z",
+ "abstract": "As quantum computing continues to demonstrate promise and attract growing attention, there is an increasing need for more precise experiments to advance the development of quantum devices, as well as higher circuit throughput to validate more domain applications. However, this need is hindered by a memory bottleneck at the quantum control system layer, arising from limited on-chip BRAM capacity and the non-deterministic latency of DRAM. To break this bottleneck, we present Ant-Q, a memory hierarchy design that integrates DRAM with BRAM to support pipelined quantum circuit execution while ensuring deterministic inter-circuit timing. We evaluated Ant-Q using 26 real-world experimental and computing circuits. The results show that Ant-Q supports deep circuits for 1Q and 2Q Randomized Benchmarking and reduces the overhead of circuit loading and readout uplink relative to execution time from 22.90%-1417.05% to near zero. Ant-Q is being integrated into QubiC 3.0, with part of its functionalities already available.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06318",
+  "pdf": "https://arxiv.org/pdf/2608.06318",
+  "html": "https://arxiv.org/html/2608.06318"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.06318v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-07T07:52:45.848Z",
+  "hook": "Ant-Q reduces quantum circuit loading and readout overheads from up to 1417% down to near zero.",
+  "tldr": [
+   "Designed Ant-Q, a memory architecture for quantum control systems to remove execution bottlenecks.",
+   "Combined high-capacity DRAM with fast on-chip BRAM to enable pipelined quantum execution with deterministic timing.",
+   "Reduced circuit loading and readout overhead from 22.90%-1417.05% down to near zero across 26 test circuits."
+  ],
+  "whyItMatters": "Control hardware driving quantum processors suffers from severe memory bottlenecks that waste time between operations. Fixing this allows quantum computers to execute longer, deeper algorithms without long idle delays.",
+  "eli5": "Imagine a chef who has to walk to a distant warehouse for every single ingredient while cooking. Ant-Q gives the chef a large pantry right in the kitchen, so they can keep cooking complex recipes without stopping.",
+  "keyNumbers": [
+   {
+    "value": "22.90%-1417.05%",
+    "label": "Original overhead range",
+    "context": "Circuit loading and readout overhead relative to execution time before Ant-Q"
+   },
+   {
+    "value": "Near zero",
+    "label": "Optimized overhead",
+    "context": "Circuit loading and readout overhead relative to execution time achieved by Ant-Q"
+   },
+   {
+    "value": "26",
+    "label": "Test circuits",
+    "context": "Real-world experimental and computing circuits used to evaluate Ant-Q"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "BRAM",
+    "shortDef": "Block RAM, small and fast memory built directly on control hardware chips.",
+    "eli5Def": "A tiny, lightning-fast scratchpad located directly on the computer chip.",
+    "wikiTitle": null
+   },
+   {
+    "term": "DRAM",
+    "shortDef": "Dynamic RAM, high-capacity main system memory with non-deterministic access speed.",
+    "eli5Def": "A large storage room that holds tons of information but takes longer to fetch from.",
+    "wikiTitle": "Dynamic random-access memory"
+   },
+   {
+    "term": "Randomized Benchmarking",
+    "shortDef": "An experimental technique measuring quantum operation error rates using random gate sequences.",
+    "eli5Def": "Testing a quantum computer by giving it random instructions to see how often it makes mistakes.",
+    "wikiTitle": "Randomized benchmarking"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

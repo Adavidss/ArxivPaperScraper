@@ -1,0 +1,85 @@
+{
+ "id": "2608.06326",
+ "version": 1,
+ "title": "Multi-State Geometry of Density Matrices and Rectification Sum Rules",
+ "authors": [
+  {
+   "name": "Barry Bradlyn"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "cond-mat.str-el",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-08-06T17:38:53Z",
+ "updated": "2026-08-06T17:38:53Z",
+ "abstract": "The geometry of quantum states has emerged as a key ingredient in understanding the linear and nonlinear responses of quantum materials. To date, however, the connection between geometry and nonlinear response is best understood for clean, noninteracting systems at zero temperature. In this work, we develop a theory of multi-state geometry for density matrices and use it to derive sum rules for second-order rectification, making no assumptions about the strength of disorder or interactions. We first show that perturbation theory for thermal density matrices gives rise to two dual information-theoretic connections and an almost complex structure. We introduce a complex, quantum generalization of the Amari-Chentsov tensor of classical information theory, the cQAC tensor, which captures the multi-state geometry of the perturbed density matrix. We derive a zero-temperature sum rule for the frequency-integrated DC rectification response of an insulator as a difference between a ground state third cumulant and the complex distortion tensor, a multi-state geometric quantity built from the cQAC tensor. This generalizes known single-particle sum rules for the shift and nonlinear Hall currents to many-body systems and general perturbations. Specializing to the shift current, we resolve the geometric contribution for multiband insulators into particle-like and hole-like terms. We verify the sum rule numerically in a generalized Kane-Mele model, finding that the geometric contribution can dominate the integrated response. Finally, we show that although the splitting of the sum rule into cumulant and geometric contributions does not survive at nonzero temperature, the measured sum rule for insulators differs from its zero-temperature form by corrections exponentially small in the gap, allowing low-temperature rectification measurements to probe the multi-state geometry of insulators.",
+ "comment": "29 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06326",
+  "pdf": "https://arxiv.org/pdf/2608.06326",
+  "html": "https://arxiv.org/html/2608.06326"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.06326v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-07T07:52:45.848Z",
+  "hook": "Multi-state quantum geometry yields exact sum rules for non-linear optical rectification in interacting materials.",
+  "tldr": [
+   "Developed a multi-state geometric framework for quantum density matrices to derive non-linear rectification sum rules.",
+   "Extended classical information theory by introducing a complex quantum generalization of the Amari-Chentsov tensor.",
+   "Proved that frequency-integrated DC rectification in insulators depends on ground state cumulants and geometric distortion."
+  ],
+  "whyItMatters": "Non-linear optical responses in novel quantum materials power next-generation light sensors and solar cells, and this work reveals how intrinsic quantum geometry shapes these electric currents even under heavy material disorder.",
+  "eli5": "Think of a quantum material as a landscape with hills and valleys that push electrons around when light hits them. This research gives a master formula that calculates total electricity generated based purely on the curved shape of that quantum landscape.",
+  "keyNumbers": [
+   {
+    "value": "29",
+    "label": "Pages",
+    "context": "Length of the paper"
+   },
+   {
+    "value": "3",
+    "label": "Figures",
+    "context": "Figures included in the work"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Density matrix",
+    "shortDef": "A matrix describing the statistical quantum state of a physical system in pure or mixed states.",
+    "eli5Def": "A ledger keeping track of both quantum superposition probabilities and ordinary random uncertainty.",
+    "wikiTitle": "Density matrix"
+   },
+   {
+    "term": "Rectification",
+    "shortDef": "The conversion of an alternating light wave or field into a steady direct electric current.",
+    "eli5Def": "Turning back-and-forth light vibrations into a one-way flow of electricity.",
+    "wikiTitle": "Rectifier"
+   },
+   {
+    "term": "Amari-Chentsov tensor",
+    "shortDef": "A tensor in information geometry measuring metric changes in statistical distributions.",
+    "eli5Def": "A mathematical ruler used to measure how curved a family of probability distributions is.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Kane-Mele model",
+    "shortDef": "A 2D theoretical lattice model that exhibits the quantum spin Hall effect.",
+    "eli5Def": "A theoretical 2D material model where electrons flow along edges without losing energy.",
+    "wikiTitle": "Kane–Mele model"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

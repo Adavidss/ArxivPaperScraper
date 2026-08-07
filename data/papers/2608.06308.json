@@ -1,0 +1,75 @@
+{
+ "id": "2608.06308",
+ "version": 1,
+ "title": "On Optimal Quantum Data Hiding and Maximal Separable Ball",
+ "authors": [
+  {
+   "name": "Zhi Li"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-06T17:23:27Z",
+ "updated": "2026-08-06T17:23:27Z",
+ "abstract": "Quantum data hiding asks how much distinguishing power can be lost when global measurements are restricted to local measurements and classical communication. In this work, we establish sharp results and improved bounds for several natural classes of restricted measurements. For bipartite systems on $\\mathbb C^n\\otimes\\mathbb C^m$, we prove that the optimal data-hiding ratios against separable and LOCC measurements are both $\\min\\{n,m\\}$. This result follows from a stronger result that, for every $2\\le p\\le\\infty$, the largest centered Schatten $p$-ball whose associated binary measurements are implementable by finite-round LOCC has radius $\\min\\{n,m\\}^{2/p-1}$. This strengthens the classic separable-ball theorems, while also providing an explicit finite-round LOCC implementation. For Alice-first one-way LOCC with Alice's local dimension equal to $n$, we prove that the optimal ratio is $(1+o(1))n$, with the upper bound obtained from a Gaussian rank-one POVM. For local operations without communication, we improve the universal upper bound to $(π\\sqrt3/4+o(1))\\min\\{n,m\\}$.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06308",
+  "pdf": "https://arxiv.org/pdf/2608.06308",
+  "html": "https://arxiv.org/html/2608.06308"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-07T07:52:45.848Z",
+  "hook": "Restricting quantum measurements to local operations limits state distinguishing power by a factor of min{n,m}.",
+  "tldr": [
+   "Established sharp mathematical bounds on quantum data hiding under restricted measurement classes.",
+   "Analyzed the maximal separable ball size using explicit finite-round local protocols and Schatten norms.",
+   "Proved that the optimal data-hiding ratio for LOCC and separable measurements is exactly min{n,m}."
+  ],
+  "whyItMatters": "Quantum data hiding allows information to be stored across multiple particles so local observers cannot read it without collaborating. Determining exact bounds helps establish hard mathematical limits for quantum cryptographic protocols.",
+  "eli5": "Imagine splitting a secret message between two friends in different rooms. Even if they can talk on the phone, certain quantum rules prevent them from putting the secret together unless they bring their pieces to the same room.",
+  "keyNumbers": [
+   {
+    "value": "min{n,m}",
+    "label": "Optimal data-hiding ratio",
+    "context": "Ratio against separable and LOCC measurements on bipartite C^n x C^m systems"
+   },
+   {
+    "value": "(π√3/4+o(1))min{n,m}",
+    "label": "Local measurement bound",
+    "context": "Improved universal upper bound for local operations without communication"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum Data Hiding",
+    "shortDef": "Encoding classical secrets in quantum states such that local measurements cannot read them.",
+    "eli5Def": "Hiding a message across multiple quantum pieces so single pieces reveal no secrets.",
+    "wikiTitle": null
+   },
+   {
+    "term": "LOCC",
+    "shortDef": "Local Operations and Classical Communication, a quantum protocol class where parties act locally and chat classically.",
+    "eli5Def": "A game rule where players in different rooms can only touch their own objects and phone each other.",
+    "wikiTitle": "LOCC"
+   },
+   {
+    "term": "POVM",
+    "shortDef": "Positive Operator-Valued Measure, the most general mathematical formulation of a quantum measurement.",
+    "eli5Def": "A mathematical formula describing every possible way to measure a quantum object.",
+    "wikiTitle": "POVM"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

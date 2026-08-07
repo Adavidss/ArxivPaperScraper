@@ -1,0 +1,90 @@
+{
+ "id": "2608.06359",
+ "version": 1,
+ "title": "Bell nonlocality from twisted statistics",
+ "authors": [
+  {
+   "name": "Ivana Đorđ ević"
+  },
+  {
+   "name": "Jovan Potrebić"
+  },
+  {
+   "name": "Aleksandra Gočanin"
+  },
+  {
+   "name": "Dragoljub Gočanin"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-06T17:55:50Z",
+ "updated": "2026-08-06T17:55:50Z",
+ "abstract": "We investigate Bell correlations for a free real quantum scalar field on the noncommutative Moyal plane. Although the free field dynamics and the one-particle sector remain unchanged, the deformation enters through twisted multiparticle statistics and its Fock-space dressing representation. A classical external source coupled locally to the twist-dressed quantum field prepares coherent superpositions of momentum-pair configurations propagating toward two spacelike-separated laboratories. The momentum-dependent twist phases are generally nonfactorizable and generate entanglement between the corresponding wave-packet modes. We show that suitable local mode measurements lead to a violation of the CHSH Bell inequality. The resulting correlations provide an operational probe of the noncommutative structure encoded in the multiparticle sector of the quantum field.",
+ "comment": "12 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06359",
+  "pdf": "https://arxiv.org/pdf/2608.06359",
+  "html": "https://arxiv.org/html/2608.06359"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-07T07:52:45.848Z",
+  "hook": "Twisted statistics on a non-commutative space can induce momentum entanglement and violate the CHSH Bell inequality.",
+  "tldr": [
+   "Investigated whether non-commutative quantum field theory can generate non-local Bell correlations.",
+   "Modeled a free scalar field on a Moyal plane with local external sources creating momentum-pair states using twisted statistics.",
+   "Showed that momentum-dependent twist phases generate entanglement, causing local measurements to violate the CHSH inequality."
+  ],
+  "whyItMatters": "This result provides a concrete way to test whether spacetime has a non-commutative geometry at tiny scales by searching for quantum entanglement signatures.",
+  "eli5": "Imagine playing a game where two dice rolls are linked not by physical wires, but by a subtle twist in how spacetime itself is woven. By checking how your rolls match up across long distances, you can prove spacetime has that hidden grainy structure.",
+  "keyNumbers": [
+   {
+    "value": "12",
+    "label": "Pages",
+    "context": "Length of the manuscript"
+   },
+   {
+    "value": "1",
+    "label": "Figure",
+    "context": "Illustrative figure in the paper"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Moyal plane",
+    "shortDef": "A mathematical space where coordinate operators fail to commute with one another.",
+    "eli5Def": "A map grid where x and y coordinates act like quantum particles that cannot be pinned down at the same time.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Twisted statistics",
+    "shortDef": "Deformed particle exchange rules arising from non-commutative spacetime symmetries.",
+    "eli5Def": "Modified rules for swapping identical particles that pick up extra phase shifts depending on their motion.",
+    "wikiTitle": null
+   },
+   {
+    "term": "CHSH inequality",
+    "shortDef": "A mathematical test bound used to detect quantum entanglement and non-local correlations.",
+    "eli5Def": "A strict statistical limit that classical objects must obey, but entangled quantum particles can break.",
+    "wikiTitle": "CHSH inequality"
+   },
+   {
+    "term": "Fock space",
+    "shortDef": "An algebraic state space used to describe physical systems with variable numbers of particles.",
+    "eli5Def": "A big quantum library where each floor holds states containing a different number of particles.",
+    "wikiTitle": "Fock space"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

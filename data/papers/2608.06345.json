@@ -1,0 +1,82 @@
+{
+ "id": "2608.06345",
+ "version": 1,
+ "title": "Dimension-Free Polylogarithmic Quantum Shadow Tomography from Sequential Pretty-Good Measurements",
+ "authors": [
+  {
+   "name": "Fernando Granha Jeronimo"
+  },
+  {
+   "name": "Qizhao Huang"
+  },
+  {
+   "name": "Lenny Liu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-06T17:51:13Z",
+ "updated": "2026-08-06T17:51:13Z",
+ "abstract": "\\textit{Shadow tomography} is a fundamental problem in quantum information theory. Given multiple copies of an unknown $d$-dimensional quantum state $ρ$ and a known collection of observables ${E_1,\\ldots,E_m}$, the goal is to estimate all expectation values $\\{\\Tr(ρE_i)\\}_{i=1}^m$ to additive accuracy $\\varepsilon$ with probability at least $1-δ$. An elusive open question from the seminal shadow tomography work of Aaronson (STOC'18) is whether this task admits a dimension-independent sample complexity with only polylogarithmic dependence on $m$, as suggested by the best-known lower bounds. In this work, we give a quantum protocol for shadow tomography with sample complexity \\[ O\\left( \\frac{1}{\\varepsilon^2} \\frac{(\\log (m/δ))^4} {(\\log\\log (m/δ))^3} \\right), \\] which is polylogarithmic in the number of observables and independent of the dimension of the unknown state thereby answering Aaronson's original question while also providing an exponential improvement in the prior best dimension independent sample complexity of shadow tomography from Sinha (STOC'25). Our approach first reduces the general shadow-tomography problem to a finite-ensemble estimation problem via a minimax argument. We then develop an observable-independent protocol that repeatedly applies the pretty-good measurement and updates the priori distribution over the finite ensemble according to the measurement outcomes. A refined tail analysis of the resulting estimation error yields simultaneous accuracy guarantees for all observables.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06345",
+  "pdf": "https://arxiv.org/pdf/2608.06345",
+  "html": "https://arxiv.org/html/2608.06345"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-07T07:52:45.848Z",
+  "hook": "Shadow tomography requires zero state-dimension dependence and only polylogarithmic samples in the observable count.",
+  "tldr": [
+   "Solved Scott Aaronson's 2018 open problem on dimension-independent quantum shadow tomography sample complexity.",
+   "Used a minimax reduction to finite ensembles, combined with repeated pretty-good measurements and tail analysis.",
+   "Proved a sample complexity scaling as O((log(m/delta))^4 / (eps^2 (log log(m/delta))^3)), exponentially better than prior bounds."
+  ],
+  "whyItMatters": "Fully characterizing giant quantum computers normally requires exponentially many measurements, but this proves you can measure thousands of state properties with a small, dimension-independent number of samples.",
+  "eli5": "Imagine trying to guess the exact ingredients of a giant soup pot using only a few spoons. This paper proves you can accurately test thousands of recipes with almost the same small number of spoons, no matter how huge the pot is.",
+  "keyNumbers": [
+   {
+    "value": "O(1/\\varepsilon^2 (\\log(m/\\delta))^4 / (",
+    "label": "Sample complexity",
+    "context": "Dimension-independent upper bound for shadow tomography"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Shadow tomography",
+    "shortDef": "Predicting many properties of an unknown quantum state using a small number of measurements.",
+    "eli5Def": "Taking quick snapshots of a quantum state to answer lots of future questions without destroying it.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Pretty-good measurement",
+    "shortDef": "A specific measurement scheme in quantum information optimized for state discrimination.",
+    "eli5Def": "A clever shortcut measurement that gives almost the best possible guess when trying to identify a state.",
+    "wikiTitle": "Pretty-good measurement"
+   },
+   {
+    "term": "Sample complexity",
+    "shortDef": "The minimum number of physical state copies required to achieve a desired estimation accuracy.",
+    "eli5Def": "How many identical copies of a system you need to test before you can trust your answer.",
+    "wikiTitle": "Sample complexity"
+   },
+   {
+    "term": "Minimax",
+    "shortDef": "A decision rule strategy that minimizes the possible loss for a worst-case scenario.",
+    "eli5Def": "A strategy that guarantees the best possible outcome even if nature hands you the absolute worst case.",
+    "wikiTitle": "Minimax"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "id": "2608.06303",
+ "version": 1,
+ "title": "Impact of Nonlinearities on Local Kinetic and Thermokinetic Uncertainty Relations in Bosonic Transport",
+ "authors": [
+  {
+   "name": "Didrik Palmqvist"
+  },
+  {
+   "name": "Luca Magazzù"
+  },
+  {
+   "name": "Milena Grifoni"
+  },
+  {
+   "name": "Janine Splettstoesser"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-06T17:21:51Z",
+ "updated": "2026-08-06T17:21:51Z",
+ "abstract": "The precision of transport observables can be bounded by the entropy production and the activity of the transport process via kinetic and thermokinetic uncertainty relations. In linear bosonic systems, such uncertainty relations can provide tight bounds when the activity is replaced by a local activity of the measurement contact of interest---even in the strong-coupling regime. How much nonlinearities (or interactions) impact the validity and predictiveness of these local bounds and how much this impact depends on the concrete definition of activity are open questions that we address for two experimentally relevant model systems, a harmonic oscillator network and the intrinsically nonlinear spin-boson model. We thereby provide experimentally testable predictions on how nonlinearities impact or even break local kinetic and thermokinetic precision bounds.",
+ "comment": "17 pages, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06303",
+  "pdf": "https://arxiv.org/pdf/2608.06303",
+  "html": "https://arxiv.org/html/2608.06303"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.06303v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-08T07:30:36.009Z",
+  "hook": "Nonlinearities in quantum transport can break key local kinetic and thermokinetic uncertainty relations.",
+  "tldr": [
+   "They analyzed how system interactions and nonlinearities affect local kinetic and thermokinetic uncertainty bounds.",
+   "They modeled heat and particle transport in two systems: a harmonic oscillator network and a nonlinear spin-boson model.",
+   "They found that nonlinear interactions significantly alter and can even violate local precision bounds established for linear transport."
+  ],
+  "whyItMatters": "Thermodynamic uncertainty relations set fundamental trade-offs between precision and energy dissipation in nanoscale devices. Understanding when these bounds break down is crucial for designing efficient quantum heat engines and sensors.",
+  "eli5": "Think of measuring how smoothly water flows through a complex pipe system where warm water makes the pipes swell and change shape. Simple rules predicting flow jitter based on energy loss work well for rigid pipes, but non-rigid, interactive pipes break those simple predictions.",
+  "keyNumbers": [
+   {
+    "value": "17",
+    "label": "Pages",
+    "context": "Length of the manuscript"
+   },
+   {
+    "value": "7",
+    "label": "Figures",
+    "context": "Number of figures in the manuscript"
+   },
+   {
+    "value": "2",
+    "label": "Model systems",
+    "context": "Experimentally relevant systems analyzed in the paper"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Kinetic uncertainty relation",
+    "shortDef": "A bound relating the precision of a thermodynamic current to the dynamical activity of the system.",
+    "eli5Def": "A rule saying that to measure a flow more precisely, a system must undergo a minimum amount of activity.",
+    "wikiTitle": "Thermodynamic uncertainty relation"
+   },
+   {
+    "term": "Spin-boson model",
+    "shortDef": "A quantum model describing a two-state system interacting with a bath of harmonic oscillators.",
+    "eli5Def": "A simple theoretical model of a single two-way quantum switch surrounded by vibrating energy particles.",
+    "wikiTitle": "Spin-boson model"
+   },
+   {
+    "term": "Thermokinetic uncertainty relation",
+    "shortDef": "Precision bounds on transport observables combining kinetic activity and entropy production.",
+    "eli5Def": "A formula setting the absolute limit on precision based on both energy waste and internal movement rate.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

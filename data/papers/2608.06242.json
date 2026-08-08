@@ -1,0 +1,84 @@
+{
+ "id": "2608.06242",
+ "version": 1,
+ "title": "Exponential logical-error reduction in quantum memories via optimal syndrome-measurement timing",
+ "authors": [
+  {
+   "name": "Tobias Haug"
+  },
+  {
+   "name": "Kishor Bharti"
+  },
+  {
+   "name": "Leandro Aolita"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-06T16:27:55Z",
+ "updated": "2026-08-06T16:27:55Z",
+ "abstract": "Syndrome-measurements timing is usually treated as a fixed clock cycle of a quantum error-correcting code. For quantum memories, however, the intra-measurement interval is itself an optimizable control parameter: measuring too rarely allows idling errors to accumulate, whereas measuring too often introduces measurement-induced faults. We propose a phenomenological logical-noise model for this trade-off and analytically show that the optimal syndrome-measurements interval scales inversely proportionally with the code distance and that this produces an exponential reduction of logical-error rates in the distance relative to constant-interval schedules. Furthermore, for time-dependent idling noise, we develop an adaptive timing strategy based on the measured syndrome activity that outperforms every fixed-interval protocol, with largest gains for short but strong noise bursts. Simulations of rotated surface-code memories with matching decoding validate the phenomenological model, the distance-dependent optimum, and the adaptive-strategy improvement. Moreover, with the experimental noise parameters reported by Google in Nature 638 (2025), our model predicts reductions in logical-error rates per unit time of up to $40\\%$.",
+ "comment": "7+15 pages, 2+7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06242",
+  "pdf": "https://arxiv.org/pdf/2608.06242",
+  "html": "https://arxiv.org/html/2608.06242"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.06242v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-08T07:30:36.009Z",
+  "hook": "Optimizing measurement timing in quantum memories exponentially cuts logical errors, offering up to 40% error reduction.",
+  "tldr": [
+   "Analyzed quantum memory measurement timing to minimize idling errors and measurement noise.",
+   "Developed an analytical logical-noise model and adaptive timing strategy based on measured syndrome activity.",
+   "Showed optimal measurement intervals decrease with code distance, predicting up to 40% lower logical-error rates on Google hardware."
+  ],
+  "whyItMatters": "Quantum computers rely on error correction to operate without crashing, but checking for errors too frequently actually introduces new faults. This research shows that dynamically timing checks can significantly lower error rates on existing hardware.",
+  "eli5": "Imagine checking on a cake in the oven to make sure it is not burning. If you check too rarely, it burns; if you open the oven door too often, the heat escapes and ruins it. By timing oven checks around how sensitive the batter is and adjusting during kitchen heat spikes, the cake bakes with far fewer mistakes.",
+  "keyNumbers": [
+   {
+    "value": "40%",
+    "label": "Error rate reduction",
+    "context": "Predicted reduction in logical-error rates per unit time using Google experimental noise parameters"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Syndrome measurement",
+    "shortDef": "A quantum measurement designed to detect errors without destroying the stored quantum information.",
+    "eli5Def": "A quick, safe check to see if something went wrong without ruining the secret message.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Logical error rate",
+    "shortDef": "The frequency at which an error occurs in encoded quantum information that the system fails to correct.",
+    "eli5Def": "How often a team makes a mistake despite having backup plans.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Code distance",
+    "shortDef": "A structural parameter of an error-correcting code indicating its capacity to detect and fix errors.",
+    "eli5Def": "The number of extra security guards you assign to protect a single piece of information.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Surface code",
+    "shortDef": "A grid-based architecture for quantum error correction highly suited for planar physical hardware.",
+    "eli5Def": "Arranging quantum pieces like a chessboard so neighbor pieces catch each other's mistakes.",
+    "wikiTitle": "Toric code"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

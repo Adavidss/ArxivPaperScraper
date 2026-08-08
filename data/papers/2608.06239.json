@@ -1,0 +1,84 @@
+{
+ "id": "2608.06239",
+ "version": 1,
+ "title": "Fundamental limits of parameter estimation with heralded optical non-Gaussian states generated from Gaussian resources",
+ "authors": [
+  {
+   "name": "Shohei Kiryu"
+  },
+  {
+   "name": "Kazufumi Tanji"
+  },
+  {
+   "name": "Yoshihiro Ueda"
+  },
+  {
+   "name": "Kosuke Fukui"
+  },
+  {
+   "name": "Masahiro Takeoka"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-06T16:26:35Z",
+ "updated": "2026-08-06T16:26:35Z",
+ "abstract": "Non-Gaussian states can exhibit large quantum Fisher information (QFI) in quantum sensing. In optical systems, however, its generation is often probabilistic via the boson-sampling type conditional operation and thus its generation rate is limited. This probabilistic generation of non-Gaussian resource should be taken into account for evaluation of the sensing performance. Then a natural question arising is whether the use of heralded probabilistic non-Gaussian states is better than that of the original deterministic Gaussian states for quantum sensing. In this paper, we answer to this question for single-parameter phase-estimation. By using photon-number conservation in passive linear optical systems, we show that heralded state preparation before parameter encoding can be mapped to a postselection problem after parameter encoding for phase estimation. This mapping allows the success probability of heralding to be included naturally in the metrological performance. We introduce an effective quantum Fisher information (EQFI), defined as the success-probability-weighted QFI of the heralded outputs, and prove that it cannot exceed the QFI of the original Gaussian inputs. The result highlights the importance of resource counting in quantum sensing toward better understanding of the resource efficient advantage of optical quantum sensing.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06239",
+  "pdf": "https://arxiv.org/pdf/2608.06239",
+  "html": "https://arxiv.org/html/2608.06239"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.06239v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-08T07:30:36.009Z",
+  "hook": "Heralded non-Gaussian states offer no metrological advantage over original Gaussian states once success rate is counted.",
+  "tldr": [
+   "Investigated whether probabilistic non-Gaussian quantum states outperform Gaussian states in optical phase estimation.",
+   "Mapped state preparation to postselection using photon-number conservation and introduced success-probability-weighted EQFI.",
+   "Proved that effective quantum Fisher information cannot exceed the original Gaussian resource limit when accounting for success rate."
+  ],
+  "whyItMatters": "Quantum sensors use special states of light to make hyper-precise measurements, but preparing complex non-Gaussian states works only probabilistically. This proof reveals that discarding failed state-generation attempts removes any precision advantage over simpler, reliable light states.",
+  "eli5": "Imagine a scratch-off lottery ticket that pays double, but you have to throw away nine out of ten tickets before playing. Even though a winning filtered ticket gives a bigger reward, your total payout per dollar spent does not improve because of all the discarded tickets.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Fisher Information",
+    "shortDef": "A metric measuring the maximum statistical sensitivity attainable when estimating a parameter from a quantum state.",
+    "eli5Def": "A score that tells you how much useful detail a quantum state holds.",
+    "wikiTitle": "Quantum Fisher information"
+   },
+   {
+    "term": "Gaussian state",
+    "shortDef": "A standard quantum state of light whose optical phase space distribution follows a normal Gaussian curve.",
+    "eli5Def": "A common, easy-to-make light state with smooth, predictable behavior.",
+    "wikiTitle": "Gaussian quantum state"
+   },
+   {
+    "term": "Heralded state preparation",
+    "shortDef": "A probabilistic quantum preparation process that outputs a confirmation signal when successful.",
+    "eli5Def": "Waiting for a signal light to flash so you know a trick worked.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Phase estimation",
+    "shortDef": "A quantum metrology technique used to measure tiny physical distances or refractive index changes.",
+    "eli5Def": "Measuring ultra-small shifts by checking how light waves align.",
+    "wikiTitle": "Quantum phase estimation algorithm"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "2608.06304",
+ "version": 1,
+ "title": "Time-Reversal Selection Rules for Quantum Error Correction",
+ "authors": [
+  {
+   "name": "Eric Kubischta"
+  },
+  {
+   "name": "Ian Teixeira"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-06T17:21:55Z",
+ "updated": "2026-08-06T17:21:55Z",
+ "abstract": "We apply time-reversal symmetry to quantum codes and show that it imposes parity selection rules on the physical error algebra. A time-reversal-invariant logical qubit on an odd number of spins is a Kramers doublet, forcing every even-weight Pauli to act as a scalar. Consequently, all even-weight Knill--Laflamme conditions hold automatically, so single-qubit error detection implies correction. We then reinterpret the Rains shadow enumerator through time reversal: each coefficient is a sum of error-resolved overlaps between a code and its time-reversed image.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06304",
+  "pdf": "https://arxiv.org/pdf/2608.06304",
+  "html": "https://arxiv.org/html/2608.06304"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-08T07:30:36.009Z",
+  "hook": "Time-reversal symmetry in odd-spin quantum codes automatically satisfies even-weight error correction rules.",
+  "tldr": [
+   "They applied time-reversal symmetry to quantum error-correcting codes to derive physical error parity selection rules.",
+   "They modeled a logical qubit on an odd number of spins as a Kramers doublet to analyze how Pauli errors act on the system.",
+   "They found that even-weight error conditions hold automatically, meaning single-qubit error detection implies full error correction."
+  ],
+  "whyItMatters": "Designing quantum error correction usually requires checking every possible error type manually. Showing that fundamental physical symmetries automatically satisfy correction conditions simplifies building fault-tolerant quantum hardware.",
+  "eli5": "Imagine trying to protect a secret message by writing it across several dynamic cards that flip according to exact mirror rules. Because of the mirror symmetry, any subtle smudge on an even number of cards cancels itself out, making errors much easier to fix.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Kramers doublet",
+    "shortDef": "A quantum state pair degenerate under time-reversal symmetry in half-integer spin systems.",
+    "eli5Def": "A twin pair of quantum states that stay indistinguishable because flipping time back and forth keeps them balanced.",
+    "wikiTitle": "Kramers' theorem"
+   },
+   {
+    "term": "Knill-Laflamme conditions",
+    "shortDef": "Mathematical conditions required for a quantum error-correcting code to successfully correct a set of errors.",
+    "eli5Def": "A checklist of rules a quantum safeguard must pass to guarantee it can undo accidental noise.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Rains shadow enumerator",
+    "shortDef": "A mathematical tool used to bound and evaluate the performance of quantum error-correcting codes.",
+    "eli5Def": "A mathematical formula that counts how code errors overlap with shadow-like reflections of themselves.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

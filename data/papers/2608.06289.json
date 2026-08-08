@@ -1,0 +1,84 @@
+{
+ "id": "2608.06289",
+ "version": 1,
+ "title": "Nonlinear Compton scattering in a quantized pump field",
+ "authors": [
+  {
+   "name": "Kenan Qu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "hep-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-06T17:14:54Z",
+ "updated": "2026-08-06T17:14:54Z",
+ "abstract": "We develop a fully quantized theory of nonlinear Compton scattering driven by a single-mode quantum field. Exact quantum-Volkov states retain pump depletion, back-action, and final-state correlations through displaced or squeezed-displaced Fock-state ladders. A finite Fock-state pump produces discrete photon-transfer edges and a terminal spectral cutoff. In the bright, weakly depleted regime, the exact theory reduces to a Wigner-function weighted-average of scattering probabilities evaluated at fixed complex field amplitudes, with ordinary and generalized Bessel functions describing the harmonic structure for circular and linear polarization, respectively. For squeezed coherent light, the squeezing angle controls the high-energy emission through photon-number fluctuations.",
+ "comment": "15 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06289",
+  "pdf": "https://arxiv.org/pdf/2608.06289",
+  "html": "https://arxiv.org/html/2608.06289"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.06289v1/Fig1_Ladder2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-08T07:30:36.009Z",
+  "hook": "A fully quantized Compton scattering theory reveals discrete photon-transfer edges and terminal spectral cutoffs.",
+  "tldr": [
+   "They developed a fully quantized theory of nonlinear Compton scattering driven by a single-mode quantum field.",
+   "They used exact quantum-Volkov states with displaced and squeezed Fock-state ladders to track pump depletion and back-action.",
+   "They discovered discrete photon-transfer edges, spectral cutoffs, and squeezed-light control over high-energy emission."
+  ],
+  "whyItMatters": "High-intensity laser-electron interactions are usually modeled using classical electromagnetic fields. Treating the laser field fully quantum-mechanically reveals new phenomena like photon cutoffs and quantum noise control, relevant for next-generation light sources.",
+  "eli5": "Imagine throwing a ball through a squirt gun's water jet; usually, people treat the water stream like a continuous smooth river. This study treats the water as individual droplets, showing that the exact count and fluctuations of droplets change how hard the ball bounces back.",
+  "keyNumbers": [
+   {
+    "value": "15",
+    "label": "Pages",
+    "context": "Length of the manuscript"
+   },
+   {
+    "value": "3",
+    "label": "Figures",
+    "context": "Number of figures included"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Nonlinear Compton scattering",
+    "shortDef": "High-energy scattering where electrons absorb multiple laser photons before emitting a single photon.",
+    "eli5Def": "A process where an electron absorbs many light particles at once from a laser and spits out one high-energy ray.",
+    "wikiTitle": "Nonlinear Compton scattering"
+   },
+   {
+    "term": "Fock state",
+    "shortDef": "A quantum state with an exact, well-defined number of particles or photons.",
+    "eli5Def": "A quantum box containing an exact, unvarying count of light particles.",
+    "wikiTitle": "Fock state"
+   },
+   {
+    "term": "Squeezed coherent light",
+    "shortDef": "Quantum light with quantum noise reduced in one variable at the expense of another.",
+    "eli5Def": "A beam of light engineered so its energy variations are squeezed tighter than normal background noise.",
+    "wikiTitle": "Squeezed states of light"
+   },
+   {
+    "term": "Wigner function",
+    "shortDef": "A quasi-probability distribution used to represent quantum states in phase space.",
+    "eli5Def": "A special map that shows a particle's location and speed in quantum mechanics simultaneously.",
+    "wikiTitle": "Wigner quasiprobability distribution"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

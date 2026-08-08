@@ -1,0 +1,107 @@
+{
+ "id": "2608.06258",
+ "version": 1,
+ "title": "Approximate Quantum Error Correction at Chiral Topological Edges",
+ "authors": [
+  {
+   "name": "Yuntai Song"
+  },
+  {
+   "name": "Zejun Liu"
+  },
+  {
+   "name": "Zhencheng Wang"
+  },
+  {
+   "name": "Jong Yeon Lee"
+  },
+  {
+   "name": "Bowen Shi"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el",
+  "hep-th"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-06T16:48:36Z",
+ "updated": "2026-08-06T16:48:36Z",
+ "abstract": "Topologically ordered phases naturally realize quantum error correction through nonlocal encoding of quantum information. More recently, conformal field theories have been shown to realize approximate quantum error-correcting codes, but such constructions generally require fine tuning to criticality. Here we introduce a family of approximate quantum error-correcting codes realized by the chiral edges of two-dimensional topologically ordered phases. The proposed encoding combines the robustness of a gapped topological bulk with the flexibility of gapless edge conformal field theories. To characterize its robustness, we study coherent-information loss under local erasure. We derive an exact expression relating coherent-information loss to relative entropy, reducing the recoverability problem to universal properties of the edge theory. This leads to power-law scaling of coherent-information loss with the size of the erased region. We further show that, for geometrically local erasures near one edge, the two-dimensional chiral edge code is at least as robust as the dimensionally reduced CFT code, and is strictly more robust in several representative examples. For Abelian code subspaces, we further construct a power-law-range recovery map supported on the erased region together with a power-law-range buffer; this recovery map depends only on the code subspace, not on the unknown encoded state. We provide numerical calculations for lattice realizations of compact free boson and Ising CFT examples that support the theoretical predictions of the power-law exponents.",
+ "comment": "35 pages, 20 figures, 3 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06258",
+  "pdf": "https://arxiv.org/pdf/2608.06258",
+  "html": "https://arxiv.org/html/2608.06258"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.06258v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-08T07:30:36.009Z",
+  "hook": "2D topological edges create flexible quantum codes where erasure recovery scales as a universal power law.",
+  "tldr": [
+   "They created approximate quantum error-correcting codes utilizing 2D topological phase chiral edges without fine-tuning.",
+   "They analyzed coherent-information loss under local erasure and related recoverability to CFT relative entropy.",
+   "They proved power-law scaling of error loss and built a state-independent recovery map with a buffer region."
+  ],
+  "whyItMatters": "Quantum error correction typically requires rigid lattice structures. Using the naturally protected edges of topological materials creates flexible, robust quantum memories that tolerate local physical damage with predictable power-law recovery.",
+  "eli5": "Imagine storing a movie along the active border of a special protective blanket instead of deep inside it. Even if someone snips away a piece of the border, the surrounding edge patterns let you reconstruct the missing frames smoothly without needing state secrets.",
+  "keyNumbers": [
+   {
+    "value": "2D",
+    "label": "Spatial dimension",
+    "context": "Dimension of the topologically ordered phases"
+   },
+   {
+    "value": "35",
+    "label": "Pages",
+    "context": "Length of the paper"
+   },
+   {
+    "value": "20",
+    "label": "Figures",
+    "context": "Number of figures in the manuscript"
+   },
+   {
+    "value": "3",
+    "label": "Tables",
+    "context": "Number of data tables provided"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Conformal field theory",
+    "shortDef": "A quantum field theory invariant under scale and angle-preserving conformal transformations.",
+    "eli5Def": "A mathematical model for physics systems that look identical regardless of how close you zoom in.",
+    "wikiTitle": "Conformal field theory"
+   },
+   {
+    "term": "Topological order",
+    "shortDef": "A pattern of long-range quantum entanglement in quantum phases beyond symmetry breaking.",
+    "eli5Def": "A global quantum structure where information is stored in the overall shape rather than single particles.",
+    "wikiTitle": "Topological order"
+   },
+   {
+    "term": "Coherent information",
+    "shortDef": "A measure of the quantum state information preserved through a noisy quantum channel.",
+    "eli5Def": "A score showing how much pure quantum secret survives after passing through noise or damage.",
+    "wikiTitle": "Coherent information"
+   },
+   {
+    "term": "Relative entropy",
+    "shortDef": "A measure of the statistical distance between two probability or quantum density distributions.",
+    "eli5Def": "A mathematical gauge measuring how distinguishable two quantum states or outcomes are.",
+    "wikiTitle": "Quantum relative entropy"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 70
+ }
+}

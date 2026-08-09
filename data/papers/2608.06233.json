@@ -1,0 +1,101 @@
+{
+ "id": "2608.06233",
+ "version": 1,
+ "title": "Anyon-Impurity Bound States in Quantum-Engineered Fractional Chern Insulators",
+ "authors": [
+  {
+   "name": "Botao Wang"
+  },
+  {
+   "name": "Amit Vashisht"
+  },
+  {
+   "name": "Felix A. Palm"
+  },
+  {
+   "name": "Fabian Grusdt"
+  },
+  {
+   "name": "Laurens Vanderstraeten"
+  },
+  {
+   "name": "Nathan Goldman"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "cond-mat.quant-gas",
+  "cond-mat.str-el",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-08-06T16:20:29Z",
+ "updated": "2026-08-06T16:20:29Z",
+ "abstract": "Mobile impurities provide a powerful means of probing correlated and topological quantum matter, through their dressing by the surrounding medium and the practical probes granting access to the resulting composite object. Motivated by the recent observation of anyon-impurity composites in the solid state, as well as recent realizations of Laughlin-type states in engineered lattice systems, we investigate the formation of a bound state between a mobile impurity and a single pinned quasihole in the interacting Harper-Hofstadter model deep in the fractional Chern insulator regime. Combining analytical arguments with large-scale numerical simulations, we characterize the structure, energetics, and stability of hybrid anyon-impurity bound states, and show that their binding energy provides direct access to the fractional charge of the quasihole under conditions that we identify. We further demonstrate that the composite object can be coherently transported by externally steering the quasihole pinning potential. Our results establish a realistic pathway for controlled anyon-impurity manipulation in quantum-engineered platforms, enabling experimentally feasible protocols for braiding.",
+ "comment": "5.5+4 pages, 4+5 figures, comments are welcome!",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06233",
+  "pdf": "https://arxiv.org/pdf/2608.06233",
+  "html": "https://arxiv.org/html/2608.06233"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.06233v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-09T07:34:54.282Z",
+  "hook": "Binding a mobile impurity to a quasihole reveals fractional charge and opens a route to controlled anyon braiding.",
+  "tldr": [
+   "Investigated hybrid bound states formed between a mobile impurity and a single pinned quasihole in a fractional Chern insulator.",
+   "Combined analytical modeling with large-scale numerical simulations of the interacting Harper-Hofstadter model.",
+   "Proved impurity binding energy measures quasihole fractional charge and showed the pair can be moved for braiding."
+  ],
+  "whyItMatters": "Manipulating individual anyons via bound impurities provides a concrete experimental roadmap toward topological quantum computing using robust braiding operations.",
+  "eli5": "Imagine sticky quasiparticles that act like tiny fractions of an electron floating inside a quantum liquid. By sticking a tiny impurity particle to one of these fractional bubbles, scientists can drag them around like leash-bound pets. Moving these pairs in specific patterns lets us dance them around each other to store super-secure quantum data.",
+  "keyNumbers": [
+   {
+    "value": "5.5+4",
+    "label": "Manuscript length",
+    "context": "Total pages across main paper and supplement as listed in comment"
+   },
+   {
+    "value": "4+5",
+    "label": "Figure count",
+    "context": "Total figures across main paper and supplement as listed in comment"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Anyon",
+    "shortDef": "A two-dimensional quasiparticle that obeys fractional quantum statistics.",
+    "eli5Def": "A weird particle in 2D space that remembers how it swapped places with another particle.",
+    "wikiTitle": "Anyon"
+   },
+   {
+    "term": "Fractional Chern insulator",
+    "shortDef": "A lattice state exhibiting fractional quantum Hall physics without external magnetic fields.",
+    "eli5Def": "A special quantum material where electrons form fractional quasiparticles on a grid.",
+    "wikiTitle": "Fractional quantum Hall effect"
+   },
+   {
+    "term": "Quasihole",
+    "shortDef": "A localized missing particle in a quantum fluid carrying fractional charge.",
+    "eli5Def": "A bubble or empty spot in a dense quantum liquid that acts like a fractional particle.",
+    "wikiTitle": "Quasiparticle"
+   },
+   {
+    "term": "Braiding",
+    "shortDef": "Exchanging topological quasiparticles to execute quantum logic operations.",
+    "eli5Def": "Dancing quantum particles around each other in circles to process quantum info.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

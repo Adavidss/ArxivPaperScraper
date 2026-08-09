@@ -1,0 +1,86 @@
+{
+ "id": "2608.06235",
+ "version": 1,
+ "title": "Global vs. Product Observables in Bipartite Quantum Systems: The Sharp Bound",
+ "authors": [
+  {
+   "name": "Zhi Li"
+  },
+  {
+   "name": "Xiaofei Shi"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math.FA"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-06T16:22:36Z",
+ "updated": "2026-08-06T16:22:36Z",
+ "abstract": "To probe a bipartite quantum system, one may use arbitrary global operators or restrict to product operators acting separately on the two subsystems. We determine the sharp universal comparison between the resulting norms. For every $z\\in M_n\\otimes M_m$, we prove $\\|z\\|_1\\leq\\sqrt{2}\\min\\{n,m\\}\\|z\\|_\\varepsilon$, where $\\|\\cdot\\|_1$ is the trace norm and $\\|\\cdot\\|_\\varepsilon$ is the injective tensor norm associated with the trace norms on $M_n$ and $M_m$. To prove the upper bound, we establish an $L_1$ noncommutative Khintchine inequality whose random coefficients are the entries of a Haar unitary. We also show that the coefficient $\\sqrt{2}$ is sharp. As applications, we show that the same sharp constant governs the gap between bipartite correlation measured in trace norm and that measured by a correlation function, and obtain an improved universal upper bound for quantum data hiding. The upper bound has also been formalized and machine-checked in Lean.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.06235",
+  "pdf": "https://arxiv.org/pdf/2608.06235",
+  "html": "https://arxiv.org/html/2608.06235"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-09T07:34:54.282Z",
+  "hook": "A sharp bound with constant √2 proves the exact gap between global and local measurements in quantum systems.",
+  "tldr": [
+   "Determined the exact universal upper bound comparing global and local product measurement norms in bipartite quantum systems.",
+   "Established a non-commutative Khintchine inequality with Haar unitaries and machine-checked the upper bound in Lean.",
+   "Proved a sharp constant of √2 min(n,m) relates trace and injective tensor norms, improving quantum data hiding bounds."
+  ],
+  "whyItMatters": "Understanding the exact mathematical gap between global measurements and local observations is crucial for quantum information theory and securing quantum data hiding protocols.",
+  "eli5": "Imagine trying to inspect a box using two separate side-cameras versus a 3D camera that sees everything at once. This work proves a strict mathematical limit on how much information the two separate cameras miss compared to the full 3D view. It is like proving exactly how much detail you lose when looking at two shadows instead of the real object.",
+  "keyNumbers": [
+   {
+    "value": "√2",
+    "label": "Sharp constant",
+    "context": "Determines the exact scale factor in the universal norm inequality"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Bipartite system",
+    "shortDef": "A quantum system made of two distinct subsystems.",
+    "eli5Def": "A quantum setup split into two separate parts, like two entangled particles.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Trace norm",
+    "shortDef": "A matrix norm summing all singular values of an operator.",
+    "eli5Def": "A way to measure the total size of a quantum state across all directions.",
+    "wikiTitle": "Trace class"
+   },
+   {
+    "term": "Injective tensor norm",
+    "shortDef": "A norm measuring operator strength under local product operations.",
+    "eli5Def": "A ruler that only measures what observers can see separately on each part.",
+    "wikiTitle": "Tensor product of Banach spaces"
+   },
+   {
+    "term": "Quantum data hiding",
+    "shortDef": "A technique storing quantum information so local measurements cannot access it.",
+    "eli5Def": "Hiding a secret in two split quantum pieces so nobody can read it without combining them.",
+    "wikiTitle": "Quantum data hiding"
+   },
+   {
+    "term": "Lean",
+    "shortDef": "An interactive theorem prover and programming language.",
+    "eli5Def": "A computer program that double-checks mathematical proofs to ensure zero errors.",
+    "wikiTitle": "Lean (proof assistant)"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "id": "2608.07428",
+ "version": 1,
+ "title": "QMIMO: Circuit Based Quantum MIMO Design with Variational Receiver",
+ "authors": [
+  {
+   "name": "Sayeda Bipanchi Ahmed"
+  },
+  {
+   "name": "Bikash K. Behera"
+  },
+  {
+   "name": "Mandar Thatte"
+  },
+  {
+   "name": "Prasanta K. Panigrahi"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-07T17:16:07Z",
+ "updated": "2026-08-07T17:16:07Z",
+ "abstract": "This paper investigates a quantum extension of classical Multiple-Input Multiple-Output (MIMO) communication in which the conventional linear channel model is replaced by a parameterized multi-qubit unitary transformation. Within this framework, interference is represented through coherent quantum interactions rather than additive signal coupling. To recover transmitted information, a Variational Quantum Circuit (VQC) receiver is introduced that learns an approximate inverse channel transformation through supervised variational optimization. The proposed system is evaluated under realistic noisy intermediate-scale quantum (NISQ) conditions incorporating depolarizing noise, thermal relaxation, and measurement imperfections, and its performance is compared with that of standard classical detection methods. The results reveal a trade-off between the two approaches: classical detectors achieve substantially lower bit-error rates across much of the investigated parameter range but exhibit pronounced performance degradation for specific channel configurations, whereas the VQC receiver maintains a more uniform error profile as channel complexity increases, albeit at a higher average BER. These findings suggest that variational quantum receivers are not a direct replacement for classical detection methods, but rather a complementary approach that may offer increased performance stability in communication scenarios characterized by strong coupling and complex interference patterns.",
+ "comment": "37 pages, 15 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.07428",
+  "pdf": "https://arxiv.org/pdf/2608.07428",
+  "html": "https://arxiv.org/html/2608.07428"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.07428v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-10T08:14:05.984Z",
+  "hook": "A quantum wireless receiver maintains steady performance under complex interference where classical methods fail.",
+  "tldr": [
+   "Modeled a quantum MIMO wireless communication system paired with a variational quantum circuit receiver.",
+   "Simulated channel recovery under realistic noisy quantum computing conditions against classical detectors.",
+   "Found classical detectors have lower average error, but the quantum receiver stays stable under complex interference."
+  ],
+  "whyItMatters": "Next-generation wireless networks face severe interference that crashes traditional mathematical receivers. Variational quantum receivers provide a resilient alternative that stays reliable when signals couple heavily.",
+  "eli5": "A standard car drives fast on smooth roads but gets stuck in deep mud. An all-terrain vehicle goes at a steady slow speed no matter how bad the mud gets, ensuring you always arrive safely.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "MIMO",
+    "shortDef": "Wireless communication technology using multiple transmit and receive antennas.",
+    "eli5Def": "Using several antennas at once to send and receive bigger chunks of wireless data.",
+    "wikiTitle": "MIMO"
+   },
+   {
+    "term": "Variational Quantum Circuit",
+    "shortDef": "A quantum circuit with tunable parameters optimized using classical algorithms.",
+    "eli5Def": "A flexible quantum program that learns and tunes itself to solve specific problems.",
+    "wikiTitle": null
+   },
+   {
+    "term": "NISQ",
+    "shortDef": "Noisy Intermediate-Scale Quantum era characterized by non-fault-tolerant qubits.",
+    "eli5Def": "Today's early quantum computers that work but still make frequent noise errors.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

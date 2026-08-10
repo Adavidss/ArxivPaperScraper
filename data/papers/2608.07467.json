@@ -1,0 +1,79 @@
+{
+ "id": "2608.07467",
+ "version": 1,
+ "title": "Quantum de Sitter and Analytically Continued Chern Simons Theory",
+ "authors": [
+  {
+   "name": "Stephon Alexander"
+  },
+  {
+   "name": "Kenneth Blakey"
+  }
+ ],
+ "categories": [
+  "hep-th",
+  "gr-qc",
+  "hep-ph",
+  "math-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-th",
+ "published": "2026-08-07T17:58:42Z",
+ "updated": "2026-08-07T17:58:42Z",
+ "abstract": "We give a Lefschetz thimble definition of the Chern--Simons--Kodama wavefunctional in Lorentzian self-dual gravity with positive cosmological constant. By complexifying the connection and choosing the Lefschetz thimble attached to the self-dual de~Sitter saddle, Witten's analytic continuation of Chern--Simons theory replaces the real contour, on which the defining integral is at best conditionally convergent, by an absolutely convergent integration cycle and yields a controlled semiclassical expansion. The relevant integrand is the full holomorphic exponential $e^{I}$, with $I=κY_{\\rm CS}+(\\text{source})$, and the steepest descent flow is governed by the Morse function $h=\\operatorname{Re} I$. In the homogeneous isotropic de Sitter reduction, the construction reproduces the Hartle--Hawking Airy wavefunction. In the Bianchi~IX truncation, we take the Lefschetz thimble attached to the expanding de~Sitter saddle (the contracting branch defines a conjugate Lefschetz thimble); within this sector, the symmetric configuration is the only critical point for $Λ>0$. The corresponding Lefschetz thimble contains one trace direction with the FRW Airy structure and two anisotropic shear directions that are real-Gaussian damped at leading quadratic order. This gives a finite Bianchi~IX wavefunction which, to leading order, is the FRW Airy factor multiplied by a real anisotropy Gaussian. Thus, the Airy behavior is not an artifact of the one-dimensional minisuperspace reduction, but the leading form of the wavefunction on the Lefschetz thimble. We also discuss how the Lefschetz thimble prescription interfaces with Lorentzian reality conditions.",
+ "comment": "30 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.07467",
+  "pdf": "https://arxiv.org/pdf/2608.07467",
+  "html": "https://arxiv.org/html/2608.07467"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.07467v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-10T08:14:05.984Z",
+  "hook": "Using complex integration cycles, researchers resolved convergence issues in gravity wavefunctions for de Sitter space.",
+  "tldr": [
+   "Formulated a Lefschetz thimble definition for the Chern-Simons-Kodama wavefunctional in Lorentzian self-dual gravity.",
+   "Replaced conditionally convergent integrals with absolutely convergent integration cycles via analytic continuation.",
+   "Showed that the Hartle-Hawking Airy structure persists beyond 1D models as a leading form on the Lefschetz thimble."
+  ],
+  "whyItMatters": "Defining a consistent quantum description of an expanding universe like ours is one of physics' deepest challenges. Solving mathematical convergence issues brings physicists closer to a rigorous theory of quantum cosmology.",
+  "eli5": "Calculating probabilities in quantum cosmology often involves integrals that bounce around forever without settling on a clear answer. By shifting the path of integration into complex mathematical dimensions, physicists can finally get finite, well-behaved numbers.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Lefschetz Thimble",
+    "shortDef": "A complex integration path chosen along steepest descent curves to ensure integral convergence.",
+    "eli5Def": "A special mathematical path through higher dimensions that prevents numbers from blowing up to infinity.",
+    "wikiTitle": "Picard–Lefschetz theory"
+   },
+   {
+    "term": "De Sitter Space",
+    "shortDef": "A mathematical model of a universe undergoing constant exponential expansion with positive cosmological constant.",
+    "eli5Def": "A model of an expanding universe that gets bigger and bigger over time.",
+    "wikiTitle": "De Sitter space"
+   },
+   {
+    "term": "Chern-Simons Theory",
+    "shortDef": "A 3D topological quantum field theory useful in describing gauge theories and quantum gravity.",
+    "eli5Def": "A mathematical rulebook that helps physicists study shapes and forces in quantum physics.",
+    "wikiTitle": "Chern–Simons theory"
+   },
+   {
+    "term": "Bianchi IX Truncation",
+    "shortDef": "An anisotropic cosmological model allowing different expansion rates in different directions.",
+    "eli5Def": "A model universe that stretches out like a squished balloon rather than expanding equally everywhere.",
+    "wikiTitle": "Bianchi classification"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

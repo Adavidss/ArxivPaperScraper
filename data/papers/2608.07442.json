@@ -1,0 +1,89 @@
+{
+ "id": "2608.07442",
+ "version": 1,
+ "title": "Phase-Noise-Induced Heating in Optical Lattices",
+ "authors": [
+  {
+   "name": "Jean Paul Nohra"
+  },
+  {
+   "name": "Cyprien Daix"
+  },
+  {
+   "name": "Joris Verstraten"
+  },
+  {
+   "name": "Maxime Dixmerias"
+  },
+  {
+   "name": "Tim de Jongh"
+  },
+  {
+   "name": "Bruno Peaudecerf"
+  },
+  {
+   "name": "Fabrice Gerbier"
+  },
+  {
+   "name": "Tarik Yefsah"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-08-07T17:25:02Z",
+ "updated": "2026-08-07T17:25:02Z",
+ "abstract": "We experimentally and theoretically study the origin of heating in optical lattices by disentangling the respective roles of intensity and phase noise depending on the lattice parameters. While intensity noise is widely identified as a major limiting factor, we show that phase noise can become the dominant heating source, especially for light atoms and deep optical lattices. We provide a simple theoretical framework to predict the phase-noise-induced heating from the power spectral density of the laser phase noise, which can be measured experimentally. We show that such predictions can accurately reproduce the measured heating rates of lithium-6 atoms in a triangular lattice. Our approach is readily generalized to other lattice geometries and atomic species.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.07442",
+  "pdf": "https://arxiv.org/pdf/2608.07442",
+  "html": "https://arxiv.org/html/2608.07442"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.07442v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-10T08:14:05.984Z",
+  "hook": "Phase noise, rather than intensity noise, can dominate heating in deep optical lattices with light atoms like lithium-6.",
+  "tldr": [
+   "Investigated the origins of atom heating in optical lattices by isolating laser phase noise from intensity noise.",
+   "Developed a theoretical model predicting heating rates directly from measurable laser phase noise power spectrums.",
+   "Validated predictions experimentally by accurately reproducing heating rates of lithium-6 atoms in a triangular lattice."
+  ],
+  "whyItMatters": "Quantum simulators use lasers to trap ultra-cold atoms, but unintended laser noise heats the atoms and destroys fragile quantum states. Identifying phase noise as a primary culprit helps experimentalists build cleaner, longer-lasting quantum simulators.",
+  "eli5": "Holding ultra-cold atoms in laser beams is like balancing marbles on egg cartons made of light. If the light jitterbugs side-to-side, it shakes the marbles and heats them up even faster than if the light were flickering in brightness.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Optical Lattice",
+    "shortDef": "An egg-carton-like potential energy landscape created by interfering laser beams to trap atoms.",
+    "eli5Def": "A grid made of intersecting laser light that traps cold atoms in place like eggs in a carton.",
+    "wikiTitle": "Optical lattice"
+   },
+   {
+    "term": "Phase Noise",
+    "shortDef": "Rapid, random fluctuations in the phase of a wave or laser signal.",
+    "eli5Def": "Tiny, random shifts back and forth in the timing or rhythm of a laser wave.",
+    "wikiTitle": "Phase noise"
+   },
+   {
+    "term": "Power Spectral Density",
+    "shortDef": "Function showing how the power of a signal or noise is distributed across frequencies.",
+    "eli5Def": "A chart showing how much noise is happening at low pitches versus high pitches.",
+    "wikiTitle": "Spectral density"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

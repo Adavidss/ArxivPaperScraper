@@ -1,0 +1,100 @@
+{
+ "id": "2608.07435",
+ "version": 1,
+ "title": "SABRE: Scalable and Automated Benchmarking of VLMs under Stress",
+ "authors": [
+  {
+   "name": "Zixuan Lan"
+  },
+  {
+   "name": "Luzhe Sun"
+  },
+  {
+   "name": "Matthew R. Walter"
+  },
+  {
+   "name": "Jiawei Zhou"
+  }
+ ],
+ "categories": [
+  "cs.CV",
+  "cs.AI",
+  "cs.CL"
+ ],
+ "primaryCategory": "cs.CV",
+ "published": "2026-08-07T17:21:04Z",
+ "updated": "2026-08-07T17:21:04Z",
+ "abstract": "Vision-language models (VLMs) are improving rapidly, but benchmark development lags behind, making weaknesses hard to identify. Building stress tests is costly: samples must satisfy controlled conditions, remain answerable, and challenge current models. We present SABRE, a scalable, automated pipeline that converts a Test Primer (a Markdown Task Design with Data Schema) into structured specifications, generated or edited images, and question-answer pairs. Automated filtering removes candidates solved by a Filtering VLM, while human review verifies candidate validity and supports annotation correction and localized image repair. We instantiate SABRE-Prior to test whether VLMs follow visual evidence instead of relying on world priors -- learned expectations about familiar objects and scenes. Its 600 images and 1,000 questions span Context (unexpected entities in familiar scenes), Texture (counterfactual materials), Attribute (noncanonical component counts), and Language Elicitation (answers suggested by language but unsupported by the image). Across six VLMs, macro-average accuracy ranges from 17.8% to 31.3% (22.6% mean). A real-image Attribute control is comparably difficult for the Filtering VLM. SABRE-Counting and SABRE-Spatial pilots show that the workflow supports other stress-test settings. These results establish SABRE as a reusable framework for constructing and refreshing VLM stress tests rather than a single fixed benchmark.",
+ "comment": "22 pages, 10 figures. Code and resources will be available at https://zesearch.github.io/vlm-SABRE/",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.07435",
+  "pdf": "https://arxiv.org/pdf/2608.07435",
+  "html": "https://arxiv.org/html/2608.07435"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.07435v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-10T08:14:05.984Z",
+  "hook": "Testing top VLMs on images that defy common visual priors drops their accuracy down to a range of 17.8% to 31.3%.",
+  "tldr": [
+   "Built SABRE, an automated pipeline converting task designs into structured specs, synthetic images, and visual stress tests.",
+   "Filtered candidate test cases using automated VLM filters and human review, targeting context, texture, and component counts.",
+   "Found that tested VLMs struggle significantly against counterfactual visual evidence, scoring between 17.8% and 31.3% accuracy."
+  ],
+  "whyItMatters": "Vision-language models often rely on shortcut assumptions about the world rather than actual image content. Automated stress testing reveals these hidden blind spots before AI models are deployed in safety-critical visual tasks.",
+  "eli5": "Imagine an AI looking at a photo of a green dog and guessing it is a grass patch because dogs usually are not green. SABRE automatically creates strange pictures like this to check if AI models actually look closely at what is in front of them or if they just guess based on habit.",
+  "keyNumbers": [
+   {
+    "value": "17.8% to 31.3%",
+    "label": "accuracy range",
+    "context": "macro-average accuracy range across six tested VLMs under SABRE stress tests"
+   },
+   {
+    "value": "22.6%",
+    "label": "mean accuracy",
+    "context": "mean macro-average accuracy across tested VLMs under stress"
+   },
+   {
+    "value": "600",
+    "label": "images",
+    "context": "number of images created in the SABRE-Prior stress test"
+   },
+   {
+    "value": "1,000",
+    "label": "questions",
+    "context": "number of question-answer pairs in the SABRE-Prior test"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Vision-Language Models (VLMs)",
+    "shortDef": "AI models trained to understand both images and text simultaneously.",
+    "eli5Def": "Computer brains that can look at pictures and talk about what they see in human language.",
+    "wikiTitle": "Multimodal AI"
+   },
+   {
+    "term": "World Priors",
+    "shortDef": "Learned expectations about common patterns and objects in standard scenes.",
+    "eli5Def": "Assumptions you make because of how things usually look, like expecting trees to be green.",
+    "wikiTitle": "Prior probability"
+   },
+   {
+    "term": "Counterfactual",
+    "shortDef": "Conditions or features that contradict expected reality or typical scenarios.",
+    "eli5Def": "Imagining or making something that goes against how the real world normally works.",
+    "wikiTitle": "Counterfactual conditional"
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 45
+ }
+}

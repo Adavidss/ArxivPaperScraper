@@ -1,0 +1,88 @@
+{
+ "id": "2608.07431",
+ "version": 1,
+ "title": "Designer Codes from GALA: Compact, Self-Dual, and Rate-1/2 QEC on Reconfigurable Atom Arrays",
+ "authors": [
+  {
+   "name": "Willers Yang"
+  },
+  {
+   "name": "Casey Duckering"
+  },
+  {
+   "name": "Arpit Dua"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-07T17:17:22Z",
+ "updated": "2026-08-07T17:17:22Z",
+ "abstract": "High rate quantum low-density parity-check codes on reconfigurable neutral-atom arrays can reduce the overhead of quantum error correction, but near-term devices support only hundreds of qubits with limited reconfigurability from a few crossed acousto-optic deflectors (AOD). A practical code must be compact in addition to low-overhead, with checks and logical gates mapping onto hardware-compatible physical instructions. We introduce the GALA codes, or Group-Action Lifts with Active orthogonality, that lifts over a product group $G = H_k \\times C_m$ (or $H_k \\ltimes C_m^k$). The small non-abelian factor $H_k$ supplies active orthogonality, reaching $1/2$ rate with above-weight distance, while the large abelian factor $C_m$ supplies symmetries that give code automorphisms and explicit, simple AOD move schedules. Hardware compatibility and logical capability thereby become customizable inputs to a code search rather than properties verified post-hoc, making GALA designer codes by construction. The GALA family contains several previously discovered rate-1/2 Kasai codes of Ref. [arXiv:2601.08824, arXiv:2604.16209] while exposing simpler parameter bounds, logical operations, and ZX-dual variants with AOD-compatible fold-transversal Clifford gates. Our search yields a compact self-dual $[[132, 30, 12]]$ with a small number of $4$-cycles (almost girth-6) and below $10^{-8}$ logical error rate (LER) for memory at $10^{-3}$ physical error rate, 3.1ms syndrome-extraction cycle and transversal Clifford gates; a girth-6, rate-$1/2$ $[[672, 336, 12]]$ with a 6.76ms cycle with below $10^{-10}$ LER (extrapolated) and rate-$1/2$ barrier-breaking $[[1752, 880, 14]]$ and $[[2232, 1120, 16]]$ with exactly certified distances greater than check weights and all smaller than previously known hardware compatible rate-1/2 codes.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.07431",
+  "pdf": "https://arxiv.org/pdf/2608.07431",
+  "html": "https://arxiv.org/html/2608.07431"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.07431v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-10T08:14:05.984Z",
+  "hook": "New GALA quantum error codes drop logical error rates below 10^-10 on neutral-atom arrays.",
+  "tldr": [
+   "Designed GALA quantum error-correction codes tailored for reconfigurable neutral-atom architectures.",
+   "Embedded hardware movements directly into group-action algebraic code structures to simplify checks.",
+   "Achieved ultra-low logical error rates below 10^-8 to 10^-10 while maintaining fast extraction cycles."
+  ],
+  "whyItMatters": "Fault-tolerant quantum computing requires enormous qubit overheads. Designing codes that directly fit physical hardware movements vastly reduces qubit waste and accelerates practical quantum error correction.",
+  "eli5": "Think of packing a suitcase: instead of stuffing items randomly and rearranging later, you design boxes that fit the trunk perfectly so checking them takes zero wasted space.",
+  "keyNumbers": [
+   {
+    "value": "<10^-8",
+    "label": "Logical error rate",
+    "context": "Memory LER for the [[132, 30, 12]] code at 10^-3 physical error rate"
+   },
+   {
+    "value": "<10^-10",
+    "label": "Extrapolated LER",
+    "context": "Logical error rate achieved by the girth-6 [[672, 336, 12]] code"
+   },
+   {
+    "value": "3.1ms",
+    "label": "Syndrome cycle time",
+    "context": "Extraction cycle duration for the compact [[132, 30, 12]] code"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum error correction",
+    "shortDef": "Techniques used to protect quantum information from noise and operational errors.",
+    "eli5Def": "A smart method to fix mistakes made by delicate quantum computers so results stay reliable.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Neutral-atom array",
+    "shortDef": "A quantum computing platform using uncharged atoms trapped and moved by lasers.",
+    "eli5Def": "A system where laser tweezers hold tiny neutral atoms to act as quantum bits.",
+    "wikiTitle": null
+   },
+   {
+    "term": "qLDPC code",
+    "shortDef": "Quantum low-density parity-check code offering low overhead error protection.",
+    "eli5Def": "An efficient pattern for checking quantum errors using minimal extra connections.",
+    "wikiTitle": "Low-density parity-check code"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

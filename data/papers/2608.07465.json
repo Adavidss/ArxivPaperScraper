@@ -1,0 +1,76 @@
+{
+ "id": "2608.07465",
+ "version": 1,
+ "title": "Entanglement Mpemba Effect",
+ "authors": [
+  {
+   "name": "Ruicheng Bao"
+  },
+  {
+   "name": "Yue Liu"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-08-07T17:58:36Z",
+ "updated": "2026-08-07T17:58:36Z",
+ "abstract": "Generating entanglement rapidly and reliably is essential for quantum information processing, communication, and metrology. Dissipative preparation is attractive because engineered reservoirs robustly drive a system toward an entangled target, yet relaxation can carry a substantial time cost. Here we formulate the entanglement Mpemba effect, whereby an initially less entangled state overtakes a more entangled state under the same open-system dynamics. This effect turns initial-state engineering into a route for faster preparation without altering the dissipative protocol. We derive a general criterion for the reversal from the relaxation spectrum, applicable even when entanglement evolves nonmonotonically. A reversal of deterministic local operations and classical communication (LOCC)-reachability preorder provides a measure-independent certificate of reversed entanglement order. Exactly solvable models show that initial-state selection can substantially shorten the time required to reach high entanglement. We further propose an experimentally relevant trapped-ion protocol that can realize the entanglement Mpemba effect.",
+ "comment": "6 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.07465",
+  "pdf": "https://arxiv.org/pdf/2608.07465",
+  "html": "https://arxiv.org/html/2608.07465"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.07465v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-10T08:14:05.984Z",
+  "hook": "An initially less entangled quantum state can overtake a more entangled state, speeding up quantum preparation.",
+  "tldr": [
+   "Formulated the entanglement Mpemba effect where a less entangled state overtakes a more entangled one during relaxation.",
+   "Derived a general criterion for entanglement order reversal using the relaxation spectrum of open quantum systems.",
+   "Proposed a trapped-ion experimental protocol demonstrating that state selection can drastically cut preparation time."
+  ],
+  "whyItMatters": "Rapidly generating quantum entanglement is essential for building practical quantum computers and sensors. Leveraging this Mpemba-like anomaly allows scientists to reach target entangled states much faster without building complex new hardware.",
+  "eli5": "Just like warm water can sometimes freeze faster than cold water, a system that starts out less entangled can sometimes reach full quantum entanglement faster than one that started out ahead.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Mpemba Effect",
+    "shortDef": "The counterintuitive phenomenon where a warmer system cools or relaxes faster than an initially cooler one.",
+    "eli5Def": "The weird phenomenon where hotter water sometimes freezes faster than colder water.",
+    "wikiTitle": "Mpemba effect"
+   },
+   {
+    "term": "Quantum Entanglement",
+    "shortDef": "A quantum phenomenon where particles remain intrinsically linked regardless of distance.",
+    "eli5Def": "A special connection between tiny particles where what happens to one instantly affects the other.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "LOCC",
+    "shortDef": "Local Operations and Classical Communication; protocol framework defining allowed quantum state manipulations.",
+    "eli5Def": "Rules for changing quantum states when labs can only perform local experiments and phone each other.",
+    "wikiTitle": "Local operations and classical communication"
+   },
+   {
+    "term": "Open Quantum System",
+    "shortDef": "Time evolution of a quantum system interacting with an external environment or reservoir.",
+    "eli5Def": "How a small quantum system changes when it interacts with its surrounding environment.",
+    "wikiTitle": "Open quantum system"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

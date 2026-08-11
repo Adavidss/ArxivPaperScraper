@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-10T08:14:05.984Z",
+ "generatedAt": "2026-08-11T07:46:37.578Z",
  "suggestions": [
   {
    "name": "Martin B. Plenio",
@@ -22,6 +22,25 @@
     "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization"
    ],
    "paperCount": 3
+  },
+  {
+   "name": "Sabre Kais",
+   "slug": "sabre-kais",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2608.08798",
+    "2606.00877"
+   ],
+   "recentTitles": [
+    "Symmetry Constraints Regularize Neural Quantum State Learning",
+    "Topological Edge States from Molecular Chirality: A General Framework for Dimerized Dipolar Arrays"
+   ],
+   "paperCount": 2
   },
   {
    "name": "Vsevolod Ivanov",
@@ -178,24 +197,6 @@
    ],
    "recentTitles": [
     "Noise Suppression via Pulsed All-Optical Magnetometry with Nitrogen-Vacancy Ensembles"
-   ],
-   "paperCount": 1
-  },
-  {
-   "name": "Jiashen Tang",
-   "slug": "jiashen-tang",
-   "score": 3,
-   "coAuthoredWith": [
-    "daniel-g-ang",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2606.23621"
-   ],
-   "recentTitles": [
-    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
    ],
    "paperCount": 1
   }

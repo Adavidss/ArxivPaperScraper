@@ -1,0 +1,97 @@
+{
+ "id": "2608.09904",
+ "version": 1,
+ "title": "Surface passivation for narrowing optical linewidth of silicon T centers in nanophotonic devices",
+ "authors": [
+  {
+   "name": "Fariba Islam"
+  },
+  {
+   "name": "Chang-Min Lee"
+  },
+  {
+   "name": "Kyu-Young Kim"
+  },
+  {
+   "name": "Sorah Fischer"
+  },
+  {
+   "name": "Purbita Purkayastha"
+  },
+  {
+   "name": "Edo Waks"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-10T17:49:28Z",
+ "updated": "2026-08-10T17:49:28Z",
+ "abstract": "Silicon T centers are promising spin-photon interfaces in solid-state platforms for telecom-compatible, scalable quantum information technologies. A major challenge for T centers in nanophotonics is spectral diffusion, where fluctuations in the local electric-field environment from surface and bulk charge states broaden the optical transition and reduce photon indistinguishability. Strategies that directly suppress spectral diffusion are therefore critical for improving T-center-based quantum photonic devices. Here, we use atomic-layer-deposited Al2O3 to passivate the silicon surface and demonstrate a systematic narrowing of T center optical linewidths. Across our measurements, Al2O3 passivation reduces the T center emission linewidth by up to 57%. Complementary above-bandgap illumination and spectral hole burning measurements show that the remaining linewidth contains a significant spectral-diffusion component caused by adjacent charge traps, while placing an upper bound of approximately 75 MHz on the homogeneous linewidth. This work provides a CMOS-compatible path toward generating indistinguishable photons from silicon T centers for scalable quantum photonic applications.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.09904",
+  "pdf": "https://arxiv.org/pdf/2608.09904",
+  "html": "https://arxiv.org/html/2608.09904"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-11T07:46:37.578Z",
+  "hook": "Passivating silicon surfaces with atomic-layer aluminum oxide reduces quantum T-center optical linewidths by up to 57%.",
+  "tldr": [
+   "Suppressed spectral diffusion in silicon T-center quantum spin-photon interfaces using surface passivation.",
+   "Deposited an atomic layer of Al2O3 onto silicon nanophotonic surfaces and performed spectral hole burning measurements.",
+   "Achieved up to a 57% reduction in optical linewidth and placed an upper bound of 75 MHz on homogeneous linewidth."
+  ],
+  "whyItMatters": "Silicon T centers emit light at standard telecommunication wavelengths, making them ideal for a quantum internet. Reducing electrical noise on the silicon surface brings us closer to creating identical, high-quality photons needed for long-distance quantum networks.",
+  "eli5": "Imagine trying to hear a clean musical note while standing next to static noise from a television screen. Coating the silicon chip with a microscopic shield quieted the electric noise, making the quantum light source emit a much purer tone.",
+  "keyNumbers": [
+   {
+    "value": "57%",
+    "label": "linewidth reduction",
+    "context": "maximum reduction in T center emission linewidth achieved via Al2O3 passivation"
+   },
+   {
+    "value": "75 MHz",
+    "label": "linewidth upper bound",
+    "context": "homogeneous linewidth ceiling established via spectral hole burning"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Surface passivation",
+    "shortDef": "A chemical process that renders a material surface less reactive and reduces electrical surface states.",
+    "eli5Def": "Adding a protective coating to a surface to stop unwanted chemical or electrical interference.",
+    "wikiTitle": "Passivation (chemistry)"
+   },
+   {
+    "term": "Spectral diffusion",
+    "shortDef": "Fluctuations in emitted photon frequencies caused by fluctuating electric fields in the local environment.",
+    "eli5Def": "Random electrical jitter that causes a light source to drift slightly in color over time.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Atomic layer deposition",
+    "shortDef": "A thin-film deposition technique that deposits chemical layers one single layer of atoms at a time.",
+    "eli5Def": "A ultra-precise painting method that coats materials one single atomic sheet at a time.",
+    "wikiTitle": "Atomic layer deposition"
+   },
+   {
+    "term": "Silicon T center",
+    "shortDef": "A specific color center defect in silicon comprising two carbon atoms and one hydrogen atom with a bound electron spin.",
+    "eli5Def": "A microscopic defect in silicon crystals that can hold onto quantum information and send it out as light.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

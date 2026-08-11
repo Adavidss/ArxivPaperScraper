@@ -1,0 +1,92 @@
+{
+ "id": "2608.08798",
+ "version": 1,
+ "title": "Symmetry Constraints Regularize Neural Quantum State Learning",
+ "authors": [
+  {
+   "name": "Turbasu Chatterjee"
+  },
+  {
+   "name": "Manas Sajjan"
+  },
+  {
+   "name": "Songbo Xie"
+  },
+  {
+   "name": "Elliott Love"
+  },
+  {
+   "name": "Vinit Singh"
+  },
+  {
+   "name": "Bojko N. Bakalov"
+  },
+  {
+   "name": "Sabre Kais"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-09T16:23:06Z",
+ "updated": "2026-08-09T16:23:06Z",
+ "abstract": "Neural quantum states (NQS) offer highly expressive variational wavefunctions, but their optimization is frequently bottlenecked by redundant parameters and poorly conditioned landscapes. We demonstrate that embedding Hamiltonian symmetries directly into the variational parameterization geometrically regularizes this learning problem. For Boltzmann-family NQS, we enforce symmetries by tying local Pauli-$Z$ generators along physical geometric orbits, analytically collapsing the trainable coefficient space prior to optimization. To quantify the resulting optimization geometry, we introduce a geometric metric built on the Jacobian and Hessian of the optimization landscape. This framework evaluates the fraction of the physically accessible state space that corresponds to high-quality, low-energy solutions. Evaluating our approach on transverse-field Ising (TFIM) and XXZ spin chains shows that symmetry compilation excises the vast majority of parameters while maintaining ground-state accuracy within the resolution of the reported benchmarks. In large TFIM systems, strong spatial constraints compress thousands of parameters down to tens, delivering substantial runtime accelerations. Our geometric diagnostics indicate that symmetry produces a more favorable target-aware geometry by concentrating the reachable state space around low-energy solutions while retaining broad target basins. Together, our results indicate that symmetry compilation concentrates the expressive power of NQS on states relevant to the target problem, thereby reducing model size and training cost without sacrificing accuracy.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.08798",
+  "pdf": "https://arxiv.org/pdf/2608.08798",
+  "html": "https://arxiv.org/html/2608.08798"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.08798v1/x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-11T07:46:37.578Z",
+  "hook": "Symmetry compilation slashes AI quantum state model parameters from thousands to tens while maintaining accuracy.",
+  "tldr": [
+   "Embedded physical Hamiltonian symmetries directly into neural quantum state variational parameterizations.",
+   "Tied local Pauli-Z generators along physical geometric orbits for Boltzmann-family models and evaluated landcape metrics.",
+   "Compressed thousands of parameters down to tens in TFIM systems while preserving ground-state accuracy."
+  ],
+  "whyItMatters": "Neural networks simulating quantum systems often waste massive computing power on redundant parameters. By enforcing physical symmetries directly into the model architecture, researchers can vastly accelerate quantum simulations without losing precision.",
+  "eli5": "Imagine trying to draw a symmetrical snowflake from scratch using thousands of random pencil strokes. If you lock the paper so every stroke automatically repeats across all symmetrical points, you only need to draw a tiny section. This trick lets neural networks learn complex quantum physics using a fraction of the parameters.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Neural quantum states",
+    "shortDef": "Variational quantum wavefunctions parameterized by artificial neural networks.",
+    "eli5Def": "Using artificial intelligence models to describe how subatomic particles behave.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Transverse-field Ising model",
+    "shortDef": "A model of magnetic spins in an external transverse magnetic field.",
+    "eli5Def": "A simplified grid of tiny magnets pushed around by an outside magnetic force.",
+    "wikiTitle": "Transverse-field Ising model"
+   },
+   {
+    "term": "Pauli matrices",
+    "shortDef": "A set of three 2x2 complex matrices used to describe quantum spin operator components.",
+    "eli5Def": "Mathematical tools used to describe which way a particle's quantum spin points.",
+    "wikiTitle": "Pauli matrices"
+   },
+   {
+    "term": "Ground state",
+    "shortDef": "The lowest-energy state of a quantum mechanical system.",
+    "eli5Def": "The calmest, lowest-energy state a physical system can settle into.",
+    "wikiTitle": "Ground state"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

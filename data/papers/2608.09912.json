@@ -1,0 +1,89 @@
+{
+ "id": "2608.09912",
+ "version": 1,
+ "title": "Learning Clifford-structured quantum unitaries and Hamiltonians",
+ "authors": [
+  {
+   "name": "Arkopal Dutt"
+  },
+  {
+   "name": "Dale Jacobs"
+  },
+  {
+   "name": "John Jeang"
+  },
+  {
+   "name": "Saeed Mehraban"
+  },
+  {
+   "name": "Vladimir Podolskii"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-10T17:54:14Z",
+ "updated": "2026-08-10T17:54:14Z",
+ "abstract": "Learning algorithms for structured quantum unitaries and Hamiltonians have primarily considered classes of processes that are local or sparse in the Pauli basis. We turn our attention to learning $n$-qubit quantum unitaries $U$ and Hamiltonians $H$, given query access to $U$ or the unitary evolution of $H$, that may be dense in the Pauli basis but still admit concise Clifford decompositions. Specifically, we consider unitaries (or Hamiltonians) of the form $U = \\sum_i α_i C_i$ over Cliffords $C_i$ with bounded Clifford extent $\\sum_i |α_i|$. To extract this Clifford structure, we introduce an agnostic tomography protocol for Clifford unitaries that given query access to an unknown unitary $U$ with optimal Clifford fidelity $\\textsf{opt}$, outputs a Clifford unitary witnessing fidelity $\\geq \\textsf{opt} - \\varepsilon$ for some error $\\varepsilon > 0$, in time $\\textsf{poly}(n,(1/\\varepsilon)^{\\log(1/\\varepsilon)})$. We then apply this protocol to obtain tomography protocols for unitaries and Hamiltonians that have bounded Clifford extent. This extends learnability of Hamiltonians from those with sparse Pauli decompositions to those that are dense (i.e., has sparsity $Ω(2^n)$) in the Pauli basis but are Clifford structured.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.09912",
+  "pdf": "https://arxiv.org/pdf/2608.09912",
+  "html": "https://arxiv.org/html/2608.09912"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-11T07:46:37.578Z",
+  "hook": "A new quantum algorithm learns dense Hamiltonians with over 2^n Pauli terms by exploiting hidden Clifford structure.",
+  "tldr": [
+   "Developed an agnostic quantum tomography protocol to learn Clifford-structured quantum unitaries and Hamiltonians.",
+   "Extracted structure using an agnostic query protocol running in time polynomial in qubit count and quasipolynomial in error.",
+   "Expanded Hamiltonian learnability from sparse Pauli models to dense systems with sparsity scaling as Ω(2^n)."
+  ],
+  "whyItMatters": "Learning the governing equations of complex quantum systems is usually exponentially hard. By discovering structure in Clifford operations, this method allows scientists to efficiently characterize dense quantum systems previously thought unlearnable.",
+  "eli5": "Trying to learn how a complex quantum machine works is like guessing a recipe with trillions of ingredients. This algorithm finds secret shortcuts in special quantum building blocks, making it vastly faster to figure out the full recipe.",
+  "keyNumbers": [
+   {
+    "value": "Ω(2^n)",
+    "label": "Pauli basis sparsity",
+    "context": "density of quantum Hamiltonians now learnable via Clifford structure"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum tomography",
+    "shortDef": "The process of reconstructing the unknown state or operation of a quantum system from measurements.",
+    "eli5Def": "Taking many quick snapshots of a quantum system to build a complete 3D picture of how it works.",
+    "wikiTitle": "Quantum tomography"
+   },
+   {
+    "term": "Clifford group",
+    "shortDef": "A set of quantum operations that map Pauli operators into other Pauli operators under conjugation.",
+    "eli5Def": "A friendly group of basic quantum moves that can be easily simulated on regular computers.",
+    "wikiTitle": "Clifford group"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a quantum system that dictates its time evolution.",
+    "eli5Def": "The master equation that describes total energy and controls how a quantum system changes over time.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Pauli matrices",
+    "shortDef": "A set of three 2x2 complex matrices describing quantum spin interactions.",
+    "eli5Def": "The basic building blocks used to describe rotation and flips in quantum bits.",
+    "wikiTitle": "Pauli matrices"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

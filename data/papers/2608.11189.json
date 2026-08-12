@@ -1,0 +1,75 @@
+{
+ "id": "2608.11189",
+ "version": 1,
+ "title": "Floquet Green's functions for lattice electrons driven by Gaussian quantum light",
+ "authors": [
+  {
+   "name": "Atsushi Ono"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "cond-mat.mes-hall",
+  "physics.optics",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-08-11T17:50:00Z",
+ "updated": "2026-08-11T17:50:00Z",
+ "abstract": "We formulate Floquet Green's functions for noninteracting single-band lattice electrons driven by a reservoir-stabilized single-mode Gaussian quantum light source. The source is prescribed externally and is not updated by the many-electron polarization, while an active electronic probe still conditions the source evolution through the Peierls coupling. The two time arguments of a Green's function share one source history: the lesser and greater components are obtained by convolving a shared-history four-endpoint kernel with the continuous bath kernels before the final source trace, while the bath canonical anticommutation relation yields an equal-time covariance that seeds the retarded and advanced one-leg propagations. The Peierls coupling is treated nonperturbatively within the prescribed-source model, and classical Floquet theory is recovered in the appropriate limit. Numerical calculations on a minimal one-dimensional model show finite-coupling quantum-source corrections beyond a prescribed classical drive, together with spectral reconstruction and occupancy redistribution for squeezed vacuum and squeezed coherent sources. The squeezing parameter and phase provide additional control knobs, beyond classical amplitude modulation, for both sideband structure and occupied weight. This work provides a theoretical framework for quantum Floquet engineering of condensed matter with an externally prescribed quantum light source.",
+ "comment": "35 pages, 14 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.11189",
+  "pdf": "https://arxiv.org/pdf/2608.11189",
+  "html": "https://arxiv.org/html/2608.11189"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.11189v1/fig_coherent_lam1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-12T08:00:29.038Z",
+  "hook": "Quantum squeezed light offers new control knobs beyond classical amplitude drives for Floquet engineering.",
+  "tldr": [
+   "Formulated Floquet Green's functions for lattice electrons driven by Gaussian quantum light sources.",
+   "Treated Peierls coupling nonperturbatively using reservoir-stabilized quantum light sources.",
+   "Showed spectral reconstruction, occupancy redistribution, and new sideband control via light squeezing."
+  ],
+  "whyItMatters": "Floquet engineering uses light to temporarily change the properties of solid materials. Using quantum light instead of classical lasers gives researchers finer, unprecedented control over electronic behavior in future devices.",
+  "eli5": "If you push a playground swing with a steady rhythm, you change how it moves. Pushing it with quantum light gives you secret extra dials, like squishing the light's fluctuations, to control wild swing patterns.",
+  "keyNumbers": [
+   {
+    "value": "1D",
+    "label": "Model dimensionality",
+    "context": "Dimension of the minimal lattice model used for numerical calculations"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Floquet theory",
+    "shortDef": "A mathematical framework for analyzing linear differential equations with periodic coefficients.",
+    "eli5Def": "A math tool used to study systems that repeat in a regular rhythm, like a swinging pendulum.",
+    "wikiTitle": "Floquet theory"
+   },
+   {
+    "term": "Peierls coupling",
+    "shortDef": "A method modeling how electromagnetic vector potentials affect electron hopping in a lattice.",
+    "eli5Def": "A mathematical rule describing how light shifts the way electrons jump between neighboring atoms.",
+    "wikiTitle": "Peierls substitution"
+   },
+   {
+    "term": "Squeezed coherent state",
+    "shortDef": "A quantum state of light where quantum uncertainty in one variable is reduced below the standard limit.",
+    "eli5Def": "Light tailored so its quantum noise is squished in one direction, making it quieter than normal light.",
+    "wikiTitle": "Squeezed coherent state"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

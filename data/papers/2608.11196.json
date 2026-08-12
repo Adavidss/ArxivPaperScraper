@@ -1,0 +1,74 @@
+{
+ "id": "2608.11196",
+ "version": 1,
+ "title": "Work distribution for strongly coupled many-body open quantum systems",
+ "authors": [
+  {
+   "name": "H. T. M. Nghiem"
+  },
+  {
+   "name": "T. A. Costi"
+  },
+  {
+   "name": "S. Campbell"
+  },
+  {
+   "name": "A. K. Mitchell"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-11T17:53:53Z",
+ "updated": "2026-08-11T17:53:53Z",
+ "abstract": "The non-equilibrium quantum thermodynamics of many-body open systems is notoriously rich, especially in the strong-coupling regime where strong system-bath correlations develop and interactions produce non-perturbative effects. Such systems can be described by `quantum impurity models' where the system and bath are treated on an equal footing as a single composite. Paradigmatic examples are the spin-boson and Anderson impurity models, in which system degrees of freedom interact with either bosonic or fermionic gapless baths. Here we study the quantum work distribution function (WDF) of such systems following a quench. Capturing the full continuum of many-body excitations in the WDF requires a non-perturbative solution of the underlying non-equilibrium quantum impurity problem. For this purpose, we extend the time-dependent numerical renormalization group (TDNRG) approach to the calculation of the WDF, which applies directly in the thermodynamic limit, can be used for arbitrary quench amplitudes at zero or finite temperature, and provides exponentially fine low-energy resolution. Our numerically-exact solution reveals power-law threshold behavior due to the Anderson orthogonality catastrophe when the work approaches its minimum value, with universal scaling collapse of the distribution below an emergent low-energy scale induced by system-bath correlations.",
+ "comment": "8 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.11196",
+  "pdf": "https://arxiv.org/pdf/2608.11196",
+  "html": "https://arxiv.org/html/2608.11196"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-12T08:00:29.038Z",
+  "hook": "Anderson catastrophe causes power-law threshold behavior in strongly coupled quantum work distributions.",
+  "tldr": [
+   "Studied work distribution functions in strongly coupled open quantum systems following a quench.",
+   "Extended the time-dependent numerical renormalization group to calculate non-equilibrium work distributions.",
+   "Discovered power-law threshold behavior from the Anderson catastrophe and universal low-energy scaling collapse."
+  ],
+  "whyItMatters": "Understanding non-equilibrium thermodynamics in strongly coupled quantum systems is crucial for designing nanoscale quantum engines and molecular devices. It reveals universal physical behaviors that emerge when quantum systems interact strongly with their surroundings.",
+  "eli5": "Imagine pulling a tiny heavy spoon through a thick bowl of honey. The way heat and work spread through both the spoon and the honey follows specific, universal mathematical patterns whenever you tug it suddenly.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum impurity model",
+    "shortDef": "A theoretical model describing a localized quantum system interacting with a continuous environment.",
+    "eli5Def": "A model of a tiny quantum object attached to a massive sea of surrounding particles.",
+    "wikiTitle": "Anderson impurity model"
+   },
+   {
+    "term": "Anderson orthogonality catastrophe",
+    "shortDef": "An abrupt shift in a quantum bath's ground state caused by a small local perturbation.",
+    "eli5Def": "Like dropping a tiny pebble into a lake and having every single drop of water rearrange itself completely.",
+    "wikiTitle": "Anderson's orthogonality catastrophe"
+   },
+   {
+    "term": "Numerical renormalization group",
+    "shortDef": "A computational technique used to solve quantum impurity models across multiple energy scales.",
+    "eli5Def": "A special computational zoom lens that lets scientists look at quantum forces at both big and tiny energy scales.",
+    "wikiTitle": "Numerical renormalization group"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

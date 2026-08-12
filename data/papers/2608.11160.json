@@ -1,0 +1,93 @@
+{
+ "id": "2608.11160",
+ "version": 1,
+ "title": "Quantum Codes with Arbitrary Z-Rotation logical Gates and Applications to Fault-Tolerant Code Switching",
+ "authors": [
+  {
+   "name": "Reza Dastbasteh"
+  },
+  {
+   "name": "Ruben M. Otxoa"
+  },
+  {
+   "name": "Pedro M. Crespo"
+  },
+  {
+   "name": "Josu Etxezarreta Martinez"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-11T17:17:51Z",
+ "updated": "2026-08-11T17:17:51Z",
+ "abstract": "A technique for realizing a universal set of fault-tolerant quantum operations is the code switching method, which leverages two quantum codes with complementary sets of transversal gates. To date, the application of this technique has been largely limited to families of color codes supporting a logical $T$ gate. No analogous code switching protocols exist for many other prominent families, such as rotated surface codes, or for finer $Z$-rotation gates. In this work, we first utilize the doubling technique as a unified framework to construct a class of quantum color codes encoding a single logical qubit with an arbitrarily large minimum distance, enabling the transversal realization of arbitrary small logical $Z$-rotation gates. We investigate the structural properties of this code family, demonstrating that they improve upon the parameters of state-of-the-art triorthogonal codes, achieve lower qubit overhead compared to certain known color codes, and admit single-shot decoding of $Z$-syndromes via meta-checks. Furthermore, we show that this framework extends beyond color codes; specifically, it enables the generation of $r$-orthogonal quantum codes, $r \\ge 2$, that inherit the local geometry of rotated surface codes. We then provide an overhead optimization protocol alongside several candidate codes tailored for realizing logical $Z$-rotation gates within rotated surface codes. Finally, we extend the fault-tolerant code switching protocol based on transversal CNOT gates to incorporate fault-tolerant realization of $Z$-rotation gates at any level of the Clifford hierarchy for geometries compatible with rotated surface codes. We present the first demonstration of fault-tolerant magic state preparation by means of code switching within a distance-three rotated surface code using a total footprint of only 45 physical qubits, and evaluate its performance through a simulation.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.11160",
+  "pdf": "https://arxiv.org/pdf/2608.11160",
+  "html": "https://arxiv.org/html/2608.11160"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.11160v1/Color_code2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-12T08:00:29.038Z",
+  "hook": "A new code-switching technique achieves fault-tolerant magic state preparation using just 45 physical qubits.",
+  "tldr": [
+   "Designed a quantum error-correcting framework enabling arbitrary logical Z-rotation gates across code families.",
+   "Applied a doubling technique to build r-orthogonal quantum codes compatible with surface code geometries.",
+   "Demonstrated fault-tolerant magic state preparation in distance-three surface codes using only 45 physical qubits."
+  ],
+  "whyItMatters": "To run useful algorithms, quantum computers need fault-tolerant operations that do not destroy delicate quantum information. This method dramatically lowers the hardware footprint required to perform precise logical operations on surface codes.",
+  "eli5": "Executing precise quantum calculations is like playing piano while wearing thick oven mitts. Code switching lets quantum computers swap between two specialized mitts—one for holding keys steady and one for playing fine notes—using far fewer physical keys.",
+  "keyNumbers": [
+   {
+    "value": "45",
+    "label": "Physical qubit count",
+    "context": "Total physical qubits needed for fault-tolerant magic state preparation"
+   },
+   {
+    "value": "3",
+    "label": "Code distance",
+    "context": "Distance of the rotated surface code used in the demonstration"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Code switching",
+    "shortDef": "A method of converting quantum information between different error-correcting codes.",
+    "eli5Def": "Translating a message into a different secret language to perform a trick that's impossible in the first one.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Surface code",
+    "shortDef": "A 2D spatial arrangement of physical qubits optimized for quantum error correction.",
+    "eli5Def": "A grid layout of qubits that work together to protect sensitive quantum information from errors.",
+    "wikiTitle": "Toric code"
+   },
+   {
+    "term": "Clifford hierarchy",
+    "shortDef": "A classification system for quantum operations based on their error propagation.",
+    "eli5Def": "A ladder ranking quantum rules from simple error-safe moves to complex, powerful moves.",
+    "wikiTitle": "Clifford hierarchy"
+   },
+   {
+    "term": "Magic state",
+    "shortDef": "A specially prepared auxiliary state enabling non-Clifford operations in quantum computing.",
+    "eli5Def": "A carefully pre-crafted quantum state used as a key to unlock advanced calculations.",
+    "wikiTitle": "Magic state distillation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

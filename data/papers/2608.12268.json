@@ -1,0 +1,72 @@
+{
+ "id": "2608.12268",
+ "version": 1,
+ "title": "A Unified Quantum Interferometric Framework for Interaction-Free Measurement and Delayed-Choice Experiments",
+ "authors": [
+  {
+   "name": "Hitesh Awasthi"
+  },
+  {
+   "name": "Sandeep Mishra"
+  },
+  {
+   "name": "Anirban Pathak"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-12T17:08:23Z",
+ "updated": "2026-08-12T17:08:23Z",
+ "abstract": "A theoretical unified interferometric framework is developed for interaction-free measurement (IFM) and delayed-choice (DC) experiments. The proposed model leads to a quantum circuit based architecture in which an ancillary qubit coherently controls the interaction between a photon and a bomb, allowing the system to evolve in a superposition of interaction and non-interaction regimes. The ancillary control qubit serves as a quantum switch that continuously interpolates between IFM and DC behavior, revealing a common operational origin for both phenomena. We demonstrate that both the phenomena can be realized within this framework through controlled quantum-gate operations. The analysis shows that the framework enables a continuous transition between the particle-like and wave-like behavior in DC setup. The framework is shown to be consistent with standard quantum mechanics, preserving unitary evolution, quantum superposition and the measurement postulate.",
+ "comment": "A theoretical unified interferometric framework is developed for interaction-free measurement (IFM) and delayed-choice (DC) experiments",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.12268",
+  "pdf": "https://arxiv.org/pdf/2608.12268",
+  "html": "https://arxiv.org/html/2608.12268"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.12268v1/Optical.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-13T08:01:47.375Z",
+  "hook": "A single quantum circuit unifies interaction-free measurement and delayed-choice quantum experiments.",
+  "tldr": [
+   "Created a unified quantum circuit framework uniting interaction-free measurements and delayed-choice experiments.",
+   "Used an ancillary control qubit as a quantum switch that smoothly modulates photon-object interactions in superposition.",
+   "Demonstrated continuous interpolation between wave-like and particle-like behaviors while maintaining standard quantum rules."
+  ],
+  "whyItMatters": "Unifying basic quantum optical phenomena under a single circuit scheme simplifies quantum control protocols and deepens our grasp of quantum measurement paradoxes.",
+  "eli5": "Physicists used to view detecting objects without touching them and altering photon history as two separate tricks. This circuit acts like a single dial that smoothly turns one trick into the other.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Interaction-free measurement",
+    "shortDef": "A quantum technique where the presence of an object is detected without interacting with it directly.",
+    "eli5Def": "Spotting an obstacle in the dark without bouncing a single photon off it.",
+    "wikiTitle": "Interaction-free measurement"
+   },
+   {
+    "term": "Delayed-choice experiment",
+    "shortDef": "A quantum thought experiment demonstrating light's ability to act as a wave or particle after traversing a setup.",
+    "eli5Def": "An experiment showing light decides whether to act like a wave or particle after its journey has already started.",
+    "wikiTitle": "Wheeler's delayed-choice experiment"
+   },
+   {
+    "term": "Superposition",
+    "shortDef": "A core quantum principle where a physical system exists in a linear combination of multiple states simultaneously.",
+    "eli5Def": "The ability of a tiny particle to exist in multiple different conditions at the exact same time.",
+    "wikiTitle": "Quantum superposition"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

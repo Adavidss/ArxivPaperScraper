@@ -1,0 +1,94 @@
+{
+ "id": "2608.11561",
+ "version": 1,
+ "title": "Spatially Resolving the Pre-Thermal Anatomy of a Driven Bosonic Fluid",
+ "authors": [
+  {
+   "name": "Shantam Ravan"
+  },
+  {
+   "name": "Aaron Müller"
+  },
+  {
+   "name": "Johannes Cremer"
+  },
+  {
+   "name": "Jonathan Curtis"
+  },
+  {
+   "name": "Daniel Fernandez"
+  },
+  {
+   "name": "Ronald Walsworth",
+   "followedId": "ronald-walsworth"
+  },
+  {
+   "name": "Eugene Demler"
+  },
+  {
+   "name": "Amir Yacoby"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-08-12T01:54:53Z",
+ "updated": "2026-08-12T01:54:53Z",
+ "abstract": "Understanding how coherently driven quantum many-body systems redistribute energy prior to thermal equilibrium remains a central challenge in many-body physics. Here, we utilize nitrogen-vacancy (NV) magnetometry to perform micron-scale spatial imaging of room-temperature magnon dynamics in a yttrium iron garnet (YIG) thin film. We resolve a hierarchy of discrete parametric scattering events that serve as deterministic stepping stones toward thermalization. By applying a two-tone wave-mixing protocol, we first isolate the elementary four-magnon interaction and extract its coupling strength via the spatial growth of the scattering product. We then drive the system with an intense single-frequency excitation near ferromagnetic resonance, revealing that magnon-magnon interactions trigger a spontaneous, multi-generation scattering cascade. We demonstrate that in each generation, the dominant scattering channels correspond to one of the out-scattered magnons being in the slow magnon regime, reminiscent of the enhancement of optical nonlinearities in slow light systems. We capture this dynamics quantitatively using a near field magnonics framework and extract the cascade order and nonlinear coefficients directly from power-dependent frequency shifts. By revealing the multi-stage dynamical process through which monochromatic injected magnons evolve toward equilibrium, our work establishes spatially resolved magnonics as a powerful platform for visualizing non-equilibrium many-body kinetics.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.11561",
+  "pdf": "https://arxiv.org/pdf/2608.11561",
+  "html": "https://arxiv.org/html/2608.11561"
+ },
+ "source": "follow",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.11561v1/Figure1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-13T08:01:47.375Z",
+  "hook": "NV magnetometry maps how driven magnons cascade toward thermal equilibrium in yttrium iron garnet thin films.",
+  "tldr": [
+   "Imaged pre-thermal magnon scattering dynamics in a yttrium iron garnet thin film using nitrogen-vacancy magnetometry.",
+   "Used two-tone wave mixing and single-frequency excitation to measure four-magnon interactions and multi-generation cascades.",
+   "Discovered that dominant scattering channels rely on slow magnons, mirroring optical non-linearities in slow-light systems."
+  ],
+  "whyItMatters": "Understanding how quantum fluid excitations redistribute energy before reaching thermal equilibrium is essential for developing low-loss spin-based quantum devices and spintronics.",
+  "eli5": "Imagine dropping a pebble into water and watching ripples break into smaller, distinct wavelets before the surface smooths out completely. Researchers used a quantum magnetic sensor to film these tiny ripple cascades inside a magnetic film in real time.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "NV magnetometry",
+    "shortDef": "A sensing technique using nitrogen-vacancy center defects in diamond to image local magnetic fields.",
+    "eli5Def": "Using microscopic defects in diamonds like tiny compasses to map out magnetic fields.",
+    "wikiTitle": "Nitrogen-vacancy center"
+   },
+   {
+    "term": "Magnon",
+    "shortDef": "A quasiparticle representing collective excitations of electron spin structure in a crystal lattice.",
+    "eli5Def": "A wave of flipping magnetic alignment traveling through a solid material.",
+    "wikiTitle": "Magnon"
+   },
+   {
+    "term": "Yttrium iron garnet",
+    "shortDef": "A synthetic garnet crystal material with exceptional magnetic properties used in spintronic devices.",
+    "eli5Def": "A synthetic crystal that acts as an ultra-smooth highway for magnetic spin waves.",
+    "wikiTitle": "Yttrium iron garnet"
+   },
+   {
+    "term": "Thermalization",
+    "shortDef": "The physical process by which a system reaches thermal equilibrium through energy redistribution.",
+    "eli5Def": "How excited energy gradually spreads out until everything settles to the same temperature.",
+    "wikiTitle": "Thermalization"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

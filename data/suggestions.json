@@ -1,6 +1,63 @@
 {
- "generatedAt": "2026-08-12T08:00:29.038Z",
+ "generatedAt": "2026-08-13T08:01:47.375Z",
  "suggestions": [
+  {
+   "name": "Shantam Ravan",
+   "slug": "shantam-ravan",
+   "score": 6,
+   "coAuthoredWith": [
+    "ronald-walsworth"
+   ],
+   "viaKeywords": [],
+   "viaCategories": [],
+   "paperIds": [
+    "2608.11561",
+    "2606.05426"
+   ],
+   "recentTitles": [
+    "Spatially Resolving the Pre-Thermal Anatomy of a Driven Bosonic Fluid",
+    "A nanoscale magnetic spectrum analyzer based on qubit dressed states"
+   ],
+   "paperCount": 2
+  },
+  {
+   "name": "Daniel Fernandez",
+   "slug": "daniel-fernandez",
+   "score": 6,
+   "coAuthoredWith": [
+    "ronald-walsworth"
+   ],
+   "viaKeywords": [],
+   "viaCategories": [],
+   "paperIds": [
+    "2608.11561",
+    "2606.05426"
+   ],
+   "recentTitles": [
+    "Spatially Resolving the Pre-Thermal Anatomy of a Driven Bosonic Fluid",
+    "A nanoscale magnetic spectrum analyzer based on qubit dressed states"
+   ],
+   "paperCount": 2
+  },
+  {
+   "name": "Amir Yacoby",
+   "slug": "amir-yacoby",
+   "score": 6,
+   "coAuthoredWith": [
+    "ronald-walsworth"
+   ],
+   "viaKeywords": [],
+   "viaCategories": [],
+   "paperIds": [
+    "2608.11561",
+    "2606.05426"
+   ],
+   "recentTitles": [
+    "Spatially Resolving the Pre-Thermal Anatomy of a Driven Bosonic Fluid",
+    "A nanoscale magnetic spectrum analyzer based on qubit dressed states"
+   ],
+   "paperCount": 2
+  },
   {
    "name": "Martin B. Plenio",
    "slug": "martin-b-plenio",
@@ -143,62 +200,6 @@
     "Hardware Robustness of Sample-Based Quantum Diagonalization"
    ],
    "paperCount": 3
-  },
-  {
-   "name": "Mengxin Zheng",
-   "slug": "mengxin-zheng",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2607.19318",
-    "2607.18196",
-    "2607.18126"
-   ],
-   "recentTitles": [
-    "SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming",
-    "Hardware Robustness of Sample-Based Quantum Diagonalization"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Xiechen Zheng",
-   "slug": "xiechen-zheng",
-   "score": 3,
-   "coAuthoredWith": [
-    "john-w-blanchard",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2607.01615"
-   ],
-   "recentTitles": [
-    "Noise Suppression via Pulsed All-Optical Magnetometry with Nitrogen-Vacancy Ensembles"
-   ],
-   "paperCount": 1
-  },
-  {
-   "name": "Jeyson Támara-Isaza",
-   "slug": "jeyson-t-mara-isaza",
-   "score": 3,
-   "coAuthoredWith": [
-    "john-w-blanchard",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2607.01615"
-   ],
-   "recentTitles": [
-    "Noise Suppression via Pulsed All-Optical Magnetometry with Nitrogen-Vacancy Ensembles"
-   ],
-   "paperCount": 1
   }
  ]
 }

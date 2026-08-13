@@ -1,0 +1,84 @@
+{
+ "id": "2608.12312",
+ "version": 1,
+ "title": "Interface phases and dynamics in two-dimensional quantum magnets: A \"holographic\" approach from universality to quantum simulation",
+ "authors": [
+  {
+   "name": "Abhishodh Prakash"
+  },
+  {
+   "name": "Jaydev Singh Rao"
+  },
+  {
+   "name": "Siddharth A. Parameswaran"
+  },
+  {
+   "name": "Alessio Lerose"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "cond-mat.quant-gas",
+  "cond-mat.str-el",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-08-12T17:57:53Z",
+ "updated": "2026-08-12T17:57:53Z",
+ "abstract": "We introduce a framework to classify quantum phases, phase transitions, and non-equilibrium dynamics of interfaces separating ordered bulk domains in 2D quantum magnets - equivalently, confining strings in dual lattice gauge theories - based on effective 1D Hamiltonians governing geometric fluctuations. Building on a \"holographic\" approach from [Phys. Rev. Lett. 129, 120601 (2022)], here reinterpreted as an exact bosonization, we uncover a rich quantum phase structure, with a variety of stiff and rough interface phases described by gapped and gapless 1D ground states, respectively, all distinguishable through the statistics of 2D wave-function snapshots. Our framework allows us to predict distinct spatiotemporal scaling laws for non-equilibrium curvature-driven interface dynamics across parameter space, which can be readily probed in existing experiments. We finally show that our approach enables the unprecedented experimental opportunity of directly measuring charge full counting statistics and symmetry-resolved properties of an encoded 1D system, as we explicitly demonstrate by numerically simulating a neutral-atom array experiment.",
+ "comment": "21+7 pages, 7+1 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.12312",
+  "pdf": "https://arxiv.org/pdf/2608.12312",
+  "html": "https://arxiv.org/html/2608.12312"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.12312v1/combined.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-13T08:01:47.375Z",
+  "hook": "A 1D holographic framework maps interface phases and non-equilibrium dynamics in 2D quantum magnets.",
+  "tldr": [
+   "Developed an effective 1D Hamiltonian framework to classify 2D quantum magnet domain interface phases and dynamics.",
+   "Used exact bosonization to relate geometric interface fluctuations to gapped and gapless 1D ground states.",
+   "Predicted dynamic scaling laws and simulated measuring charge counting statistics in neutral-atom arrays."
+  ],
+  "whyItMatters": "Translating complex 2D domain interface dynamics into simpler 1D models makes it possible to simulate high-dimensional quantum magnet behavior on current neutral-atom quantum computers.",
+  "eli5": "Imagine tracking the wavy boundary between two different patterns on a rug. Instead of analyzing the entire 2D rug, researchers showed you can describe the boundary's wiggles like a 1D vibrating guitar string, making complex quantum simulation much easier.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Bosonization",
+    "shortDef": "A mathematical procedure that maps interacting fermionic quantum field theories into bosonic theories.",
+    "eli5Def": "A mathematical trick that rewrites complex electron interactions into simpler wave-like forms.",
+    "wikiTitle": "Bosonization"
+   },
+   {
+    "term": "Lattice gauge theory",
+    "shortDef": "A formulation of gauge theories on a discrete space-time grid, used to study strongly interacting field theories.",
+    "eli5Def": "A model that places fundamental physical forces on a grid to make quantum physics easier to calculate.",
+    "wikiTitle": "Lattice gauge theory"
+   },
+   {
+    "term": "Neutral atom array",
+    "shortDef": "An experimental quantum simulator platform trapping neutral atoms in optical tweezers.",
+    "eli5Def": "A grid of individual uncharged atoms held in mid-air using laser tweezers to build quantum devices.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Full counting statistics",
+    "shortDef": "A statistical framework describing the probability distribution of particle or charge transfers in quantum transport.",
+    "eli5Def": "A method to count every single charge or particle transferred over time rather than just taking an average.",
+    "wikiTitle": "Full counting statistics"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

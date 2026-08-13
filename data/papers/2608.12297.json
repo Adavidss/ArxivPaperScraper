@@ -1,0 +1,70 @@
+{
+ "id": "2608.12297",
+ "version": 1,
+ "title": "Eigenstate Preparation Through Near-Optimal Eigenprobability Filtering",
+ "authors": [
+  {
+   "name": "Po-Wei Huang"
+  },
+  {
+   "name": "Bence Bakó"
+  },
+  {
+   "name": "Bálint Koczor"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-12T17:39:15Z",
+ "updated": "2026-08-12T17:39:15Z",
+ "abstract": "Quantum simulation is expected to be a main application of quantum computers with realistic utility in quantum chemistry, materials science and beyond. However, preparing excited or general eigenstates is a central challenge, particularly when the desired eigenvalue is not known in advance, or when the overlap with the initial state is insufficient. We introduce the Dominant Eigenstate Filtering via Eigenprobability Amplification and Thresholding (DEFEAT) algorithm that identifies and filters the eigenstate with the largest overlap with the supplied initial state. Our key observation is that we do not need prior knowledge of the target eigenvalue, as we construct efficient twirling superoperators that map initial states to eigenprobability density operators $ρ$, diagonal in the Hamiltonian eigenbasis and encoding its spectral weights, alongside its block-encoding implementation. Our crucial innovation is the quadratic amplification of probabilities via the factorisation $ρ=ρ_{\\rm sqrt}^\\daggerρ_{\\rm sqrt}$, analogous to the recently introduced sum-of-squares spectral amplification (SOSSA), which we use here to amplify the separation between dominant and subdominant components. Thresholding then yields the dominant-eigenstate projector. Compared with conventional phase estimation, DEFEAT improves the dependence on the overlap with the initial state while requiring substantially fewer ancillary qubits. We prove that the query complexity of the filtering step is optimal up to logarithmic factors and establish a complementary lower bound for eigenstate preparation under purified query access to $ρ$. We validate in numerical simulations that the convergence rate of DEFEAT matches our theoretical results. Our results provide a general eigenvalue-agnostic primitive for dominant eigenstate filtering and preparation, and for estimating properties of dominant eigenstates.",
+ "comment": "18+29 pages, 11 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.12297",
+  "pdf": "https://arxiv.org/pdf/2608.12297",
+  "html": "https://arxiv.org/html/2608.12297"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-13T08:01:47.375Z",
+  "hook": "The DEFEAT quantum algorithm prepares target eigenstates without prior knowledge of their eigenvalues.",
+  "tldr": [
+   "Developed the DEFEAT algorithm to identify and filter Hamiltonian eigenstates with maximal overlap from initial states.",
+   "Utilized twirling superoperators and quadratic probability amplification via sum-of-squares factorisation with thresholding.",
+   "Achieved near-optimal query complexity for filtering target eigenstates while requiring significantly fewer ancillary qubits."
+  ],
+  "whyItMatters": "Preparing accurate quantum energy states is essential for simulating chemistry and materials on quantum hardware, but existing methods often require knowing exact target energies in advance.",
+  "eli5": "Finding specific energy states on a quantum computer normally requires knowing the exact answer beforehand. This algorithm acts like an auto-tuning filter that isolates and cleans up the target state automatically.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Eigenstate",
+    "shortDef": "A state of a quantum system that yields a definite value when a corresponding physical quantity is measured.",
+    "eli5Def": "A pure, stable condition that a quantum particle lands in when measured.",
+    "wikiTitle": "Quantum state"
+   },
+   {
+    "term": "Query complexity",
+    "shortDef": "The number of queries to an input database or oracle required by an algorithm.",
+    "eli5Def": "A mathematical score measuring how many computational steps an algorithm takes to solve a problem.",
+    "wikiTitle": "Query complexity"
+   },
+   {
+    "term": "Ancillary qubit",
+    "shortDef": "An extra qubit used in a quantum circuit to perform auxiliary operations.",
+    "eli5Def": "A temporary scratchpad qubit used to assist in complex quantum calculations.",
+    "wikiTitle": "Ancilla bit"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

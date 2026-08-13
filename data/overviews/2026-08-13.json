@@ -1,0 +1,61 @@
+{
+ "date": "2026-08-13",
+ "generatedAt": "2026-08-13T08:01:47.375Z",
+ "model": "gemini-flash-latest",
+ "headline": "Advances in Quantum Sensing, Simulation, and Algorithms",
+ "summary": "Today's papers span experimental quantum sensing techniques and theoretical breakthroughs in correlated quantum matter. Highlights include NV magnetometry of magnon dynamics and benchtop NMR hyperpolarization alongside new algorithms for eigenstate preparation and topological phase transitions.",
+ "themes": [
+  {
+   "title": "Quantum Dynamics & Topology",
+   "body": "Theoretical frameworks tackle strongly correlated phases, exploring two-impurity Kondo quantum criticality, effective 1D holographic models for 2D quantum magnet interfaces, and SymTFT constructions for non-abelian anyon transitions.",
+   "paperIds": [
+    "2608.12317",
+    "2608.12312",
+    "2608.12303"
+   ]
+  },
+  {
+   "title": "High-Precision Quantum Sensing",
+   "body": "Experimental and optical approaches push measurement limits, from NV magnetometry mapping pre-thermal magnon cascades in thin films to SABRE NMR signal boosting on benchtop hardware and diffractive optical networks reaching quantum imaging limits.",
+   "paperIds": [
+    "2608.11561",
+    "2608.10044",
+    "2608.12300"
+   ]
+  },
+  {
+   "title": "Quantum Circuits & Eigenstate Algorithms",
+   "body": "New quantum computing and optical circuit designs introduce near-optimal algorithms like DEFEAT for eigenstate preparation and unified interferometric circuits smoothly interpolating wave-particle behaviors in interaction-free setups.",
+   "paperIds": [
+    "2608.12297",
+    "2608.12268"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Papers 2608.12312 and 2608.12317 both map low-dimensional quantum magnetic phenomena, leveraging numerical and field-theoretic tools to analyze how boundary or impurity entanglement controls phase dynamics.",
+   "paperIds": [
+    "2608.12312",
+    "2608.12317"
+   ]
+  },
+  {
+   "body": "Papers 2608.11561 and 2608.10044 demonstrate significant practical enhancements in magnetic resonance and spintronic sensing, scaling up signal detection via NV magnetometry and benchtop hyperpolarization.",
+   "paperIds": [
+    "2608.11561",
+    "2608.10044"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2608.11561",
+  "2608.10044",
+  "2608.12317",
+  "2608.12312",
+  "2608.12303",
+  "2608.12300",
+  "2608.12297",
+  "2608.12268"
+ ]
+}

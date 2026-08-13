@@ -1,0 +1,77 @@
+{
+ "id": "2608.12317",
+ "version": 1,
+ "title": "Probing Impurity Quantum Criticality with Entanglement Witnesses",
+ "authors": [
+  {
+   "name": "Mateo Cárdenes Wuttig"
+  },
+  {
+   "name": "Andrew J. Millis"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "cond-mat.mes-hall",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-08-12T17:59:06Z",
+ "updated": "2026-08-12T17:59:06Z",
+ "abstract": "Entanglement is a defining feature of quantum mechanics, and its relation to quantum criticality is of considerable current interest. Here we show that measurable spin and charge fluctuations provide an entanglement witness of quantum criticality in the two-impurity Kondo model, which has experimental realizations in terms of coupled quantum dots and magnetic impurities added to surfaces. We use density-matrix renormalization group and numerical renormalization group calculations to resolve the non-Fermi-liquid critical point separating two independently Kondo-screened impurities from an inter-impurity singlet and interpret it as a change in the dominant entanglement partner of each local moment: from entanglement of the local moment with an extended set of conduction-electron degrees of freedom to entanglement with the other impurity. This reorganization is accompanied by a singular response of the impurity-bath entanglement and the inter-impurity susceptibility. We show how the same structure is encoded in the quantum Fisher information of collective spin and charge operators at zero and finite temperatures, connecting the entanglement picture to experimentally accessible dynamical response functions. Our results establish impurity systems as controlled settings in which quantum-critical entanglement can be detected through measurable correlations, and provide further insight into the possibility of understanding heavy-fermion physics in terms of entanglement.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.12317",
+  "pdf": "https://arxiv.org/pdf/2608.12317",
+  "html": "https://arxiv.org/html/2608.12317"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.12317v1/figure1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-13T08:01:47.375Z",
+  "hook": "Spin and charge fluctuations act as entanglement witnesses for quantum criticality in two-impurity Kondo models.",
+  "tldr": [
+   "Demonstrated that spin and charge fluctuations serve as measurable entanglement witnesses in quantum impurity systems.",
+   "Used DMRG and NRG numerical methods to analyze the non-Fermi-liquid critical point in two-impurity Kondo systems.",
+   "Showed quantum critical transitions reorganize entanglement from conduction electrons to the neighboring impurity."
+  ],
+  "whyItMatters": "Detecting quantum entanglement directly in solid-state experiments helps untangle complex quantum phase transitions and strongly correlated materials like heavy-fermion systems.",
+  "eli5": "Imagine two tiny magnetic particles sitting in a sea of moving electrons. As conditions change, each particle stops holding hands with the surrounding crowd of electrons and suddenly reaches out to hold hands directly with the other particle.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Kondo effect",
+    "shortDef": "Scattering of conduction electrons by magnetic impurities, forming a screened singlet state at low temperatures.",
+    "eli5Def": "When electrons in a metal team up to cloud over and hide a magnetic particle.",
+    "wikiTitle": "Kondo effect"
+   },
+   {
+    "term": "Quantum criticality",
+    "shortDef": "A phase transition between different quantum ground states at zero absolute temperature driven by quantum fluctuations.",
+    "eli5Def": "A dramatic shift in a material's quantum behavior triggered at absolute zero temperature.",
+    "wikiTitle": "Quantum critical point"
+   },
+   {
+    "term": "Entanglement witness",
+    "shortDef": "An observable operator whose expectation value detects the presence of quantum entanglement in a system.",
+    "eli5Def": "A measurable physical property that proves two quantum particles are linked together.",
+    "wikiTitle": "Entanglement witness"
+   },
+   {
+    "term": "Density matrix renormalization group",
+    "shortDef": "A numerical variational algorithm used to compute low-energy states of strongly correlated 1D quantum systems.",
+    "eli5Def": "A powerful computer algorithm that simplifies calculations for complex quantum chains.",
+    "wikiTitle": "Density matrix renormalization group"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

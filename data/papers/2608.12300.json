@@ -1,0 +1,72 @@
+{
+ "id": "2608.12300",
+ "version": 1,
+ "title": "Quantum-limited imaging using diffractive optical neural networks",
+ "authors": [
+  {
+   "name": "Aakash Warke"
+  },
+  {
+   "name": "Aonan Zhang"
+  },
+  {
+   "name": "A. I. Lvovsky"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-12T17:45:04Z",
+ "updated": "2026-08-12T17:45:04Z",
+ "abstract": "We cast general imaging as multiparameter quantum estimation of band-limited spatial-frequency amplitudes. For separable (single-copy) measurements, we compute precision limits using semidefinite programming to evaluate the Nagaoka-Hayashi Cramér-Rao bound. We then introduce an architecture for a measurement apparatus based on diffractive optical neural networks and photon counting that saturates this bound. Extending the framework to arbitrary objects and many amplitudes, we show image reconstructions in which our architecture recovers fine features at the quantum limit, outperforming direct imaging. Together, these results open a scalable route to saturating multiparameter quantum limits in superresolution microscopy, telescopy, and remote sensing.",
+ "comment": "13 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.12300",
+  "pdf": "https://arxiv.org/pdf/2608.12300",
+  "html": "https://arxiv.org/html/2608.12300"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.12300v1/WZL_Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-13T08:01:47.375Z",
+  "hook": "A diffractive optical neural network architecture saturates fundamental quantum limits in multiparameter optical imaging.",
+  "tldr": [
+   "Framed general imaging as multiparameter quantum estimation and designed an apparatus to hit fundamental precision limits.",
+   "Combined diffractive optical neural networks with photon counting and evaluated limits using Nagaoka-Hayashi Cramér-Rao bounds.",
+   "Reconstructed fine object features at the quantum limit, outperforming conventional direct imaging systems."
+  ],
+  "whyItMatters": "Reaching fundamental quantum limits in optical precision allows superresolution microscopy and astronomy to capture sharper detail without increasing light exposure.",
+  "eli5": "Standard camera sensors lose delicate quantum light information when photons hit them. By passing light through a physical optical neural network before counting photons, this system extracts maximum detail.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Cramér-Rao bound",
+    "shortDef": "A theoretical lower bound on the variance of unbiased parameter estimators.",
+    "eli5Def": "A mathematical rule that defines the absolute best accuracy any measurement can ever achieve.",
+    "wikiTitle": "Cramér–Rao bound"
+   },
+   {
+    "term": "Photon counting",
+    "shortDef": "A technique where individual light quanta are detected as discrete events.",
+    "eli5Def": "Measuring light by counting its individual quantum particles one by one.",
+    "wikiTitle": "Photon counting"
+   },
+   {
+    "term": "Optical neural network",
+    "shortDef": "A physical device using optical components to perform neural network operations.",
+    "eli5Def": "A light-based processing device that calculates mathematical operations instantly as light passes through it.",
+    "wikiTitle": "Optical neural network"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

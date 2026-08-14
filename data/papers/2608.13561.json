@@ -1,0 +1,96 @@
+{
+ "id": "2608.13561",
+ "version": 1,
+ "title": "Experimental Quantum Key Distribution in an Indefinite Causal Order",
+ "authors": [
+  {
+   "name": "Yann Valibouse"
+  },
+  {
+   "name": "Martí Cladera-Rosselló"
+  },
+  {
+   "name": "Michael Antesberger"
+  },
+  {
+   "name": "Hector Spencer-Wood"
+  },
+  {
+   "name": "Kyrylo Simonov"
+  },
+  {
+   "name": "Patrik Sund"
+  },
+  {
+   "name": "Mathieu Bozzio"
+  },
+  {
+   "name": "Philip Walther"
+  },
+  {
+   "name": "Lee A. Rozema"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-13T17:59:58Z",
+ "updated": "2026-08-13T17:59:58Z",
+ "abstract": "In quantum physics the order in which different operations occur can be placed in superposition. The resulting processes have an indefinite causal order and are both of fundamental interest and can be viewed as a novel quantum resource that enables a variety of new protocols. Here we report an experimental implementation of one such protocol, where we perform BB84-like quantum cryptography by placing Alice and Bob's measurement-and-preparation operations in a photonic quantum SWITCH. By embedding Alice and Bob within the quantum SWITCH, the protocol achieves an average eavesdropper detection probability of $0.15 \\pm 0.02$ per shared qubit, with eavesdropper detection performed through measurements of the control qubit rather than by comparing the key. Unlike the standard BB84 and related schemes, which detect eavesdropping by publicly revealing and discarding a fraction of the raw key, our approach requires no disclosure of key material: every retained qubit can, in principle, be tested for eavesdropping while remaining available for key generation. The experiment relies on a new measurement technique that allows the polarization of a photon to be measured inside the quantum SWITCH without destroying path coherence. Although the present implementation does not yet constitute a secure quantum key distribution protocol, owing to the post-selection required for measurements within the quantum SWITCH, it provides a proof of principle that indefinite causal order can be exploited to detect eavesdropping without sacrificing key bits.",
+ "comment": "21 pages, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.13561",
+  "pdf": "https://arxiv.org/pdf/2608.13561",
+  "html": "https://arxiv.org/html/2608.13561"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.13561v1/img/diagram1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-14T07:57:41.827Z",
+  "hook": "Putting Alice and Bob in an indefinite causal order detects eavesdroppers with 15% probability per qubit without key loss.",
+  "tldr": [
+   "Implemented a quantum key distribution protocol in a photonic quantum SWITCH with indefinite causal order.",
+   "Measured control qubits directly to detect eavesdropping rather than sacrificing portions of the raw key.",
+   "Achieved an eavesdropper detection probability of 0.15 ± 0.02 per shared qubit without destroying path coherence."
+  ],
+  "whyItMatters": "Traditional quantum cryptography throws away a large portion of secret keys just to check for eavesdroppers; exploiting indefinite causal order could allow every transmitted photon to contribute to the secure key.",
+  "eli5": "Normally, Alice sends a message to Bob in a fixed sequence, and they must reveal some letters to check if someone peeked. Here, they place the order of sending and receiving into a quantum blur, allowing them to spot a spy through a separate control signal without giving away any secret letters.",
+  "keyNumbers": [
+   {
+    "value": "0.15 ± 0.02",
+    "label": "eavesdropper detection probability",
+    "context": "average probability per shared qubit without comparing or discarding key bits"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Indefinite Causal Order",
+    "shortDef": "A quantum phenomenon where the sequence of operations exists in a superposition rather than a fixed order.",
+    "eli5Def": "A setup where event A happens before B and event B happens before A at the same time in a quantum blur.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Quantum SWITCH",
+    "shortDef": "A quantum device that routes target states through operations in an order determined by a control qubit.",
+    "eli5Def": "A quantum junction box that uses a control photon to mix up the order in which two people touch a message.",
+    "wikiTitle": null
+   },
+   {
+    "term": "BB84",
+    "shortDef": "The first quantum key distribution scheme, developed by Charles Bennett and Gilles Brassard in 1984.",
+    "eli5Def": "The classic recipe for creating unbreakable secret passwords using light particles.",
+    "wikiTitle": "BB84"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

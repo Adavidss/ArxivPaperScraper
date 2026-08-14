@@ -1,0 +1,70 @@
+{
+ "id": "2608.13528",
+ "version": 1,
+ "title": "Ambient unitaries don't enable shallow group designs",
+ "authors": [
+  {
+   "name": "Maxwell West"
+  },
+  {
+   "name": "M. Cerezo"
+  },
+  {
+   "name": "Martin Larocca"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-13T17:46:20Z",
+ "updated": "2026-08-13T17:46:20Z",
+ "abstract": "Characterising the efficiency with which designs over various subsets of the unitary group may be constructed is an important goal of quantum information theory. While it is now known that approximate unitary designs can be realised in depth logarithmic in the system size, it has recently been shown that ensembles of local nearest-neighbour sublinear-depth one-dimensional circuits over the matchgate, orthogonal, and symplectic groups cannot form approximate 2-designs over their parent groups; similarly, sublinear-depth ensembles of Cliffords cannot form a Clifford 4-design. In this note we show that this remarkable exponential separation is not merely an artefact of restricting to ensembles consisting of unitaries from the subgroups themselves, but rather that no ensemble of local nearest-neighbour sublinear-depth unitaries can realise approximate designs in the aforementioned cases, even when employing \"ambient\" unitaries from beyond the subgroup itself (possibly acting on ancilla qubits). This implies that various natural tomography and benchmarking schemes which involves sampling from these groups suffer from a dramatic circuit depth overhead compared to similar protocols which involve sampling from the full unitary group. We additionally conclude that, in all of the above cases, the known linear-depth design constructions are up to constant factors optimal.",
+ "comment": "10 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.13528",
+  "pdf": "https://arxiv.org/pdf/2608.13528",
+  "html": "https://arxiv.org/html/2608.13528"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-14T07:57:41.827Z",
+  "hook": "Sublinear-depth 1D circuits cannot form group designs for matchgates, Cliffords, or orthogonal groups—even with ancillas.",
+  "tldr": [
+   "Investigated whether using ambient unitaries or ancillas helps form approximate group designs at sublinear depth.",
+   "Analyzed 1D local nearest-neighbour circuit ensembles over matchgate, orthogonal, symplectic, and Clifford groups.",
+   "Proved an exponential separation: ambient gates cannot bypass depth limits, confirming linear depth is strictly optimal."
+  ],
+  "whyItMatters": "Quantum benchmarking and tomography depend on sampling random operations. Proving that full linear depth is unavoidable for structured subgroups exposes fundamental runtime bottlenecks compared to the full unitary group.",
+  "eli5": "To test if a quantum computer works, you scramble qubits using random operations. This study proves that certain useful families of operations take a lot more time to scramble properly, and no shortcut or helper qubit can speed it up.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Unitary t-design",
+    "shortDef": "A probability distribution over unitaries that matches the full group's average up to t-th moments.",
+    "eli5Def": "A small, curated set of random operations that behaves statistically like the infinite pool of all possible operations.",
+    "wikiTitle": "Unitary t-design"
+   },
+   {
+    "term": "Clifford group",
+    "shortDef": "The group of quantum operations that map Pauli operators to Pauli operators.",
+    "eli5Def": "A basic, easy-to-simulate set of quantum gates essential for error correction.",
+    "wikiTitle": "Clifford group"
+   },
+   {
+    "term": "Matchgate",
+    "shortDef": "Two-qubit unitaries that represent non-interacting fermions and are classically simulable.",
+    "eli5Def": "A specific type of quantum gate that models particles that do not strongly interact with one another.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

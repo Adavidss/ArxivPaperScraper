@@ -1,0 +1,72 @@
+{
+ "id": "2608.13551",
+ "version": 1,
+ "title": "Every PPT channel has finite entanglement-breaking index",
+ "authors": [
+  {
+   "name": "Sang-Jun Park"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "math.OA"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-13T17:59:28Z",
+ "updated": "2026-08-13T17:59:28Z",
+ "abstract": "We prove that every PPT linear map has finite entanglement-breaking index, thereby establishing the eventual entanglement-breaking property of PPT channels in full generality. Furthermore, by utilizing completely positive maps with low entanglement dimensionality, we show that a large family of PPT maps, which strictly containing the class of 2-superpositive maps, has entanglement-breaking index bounded above by 3, uniformly in the dimension. In particular, these results provide strong evidence that the PPT-cubed conjecture may hold in full generality.",
+ "comment": "14 pages, 0 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.13551",
+  "pdf": "https://arxiv.org/pdf/2608.13551",
+  "html": "https://arxiv.org/html/2608.13551"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-14T07:57:41.827Z",
+  "hook": "Every PPT quantum channel is proven to eventually break entanglement, with a broad class doing so in at most 3 steps.",
+  "tldr": [
+   "Proved that all positive partial transpose (PPT) linear maps have a finite entanglement-breaking index.",
+   "Showed a large family of PPT maps strictly containing 2-superpositive maps has an index bounded above by 3.",
+   "Provided strong theoretical support that the long-standing PPT-cubed conjecture holds in full generality."
+  ],
+  "whyItMatters": "Understanding when repeated noise completely destroys quantum entanglement is fundamental to setting theoretical limits on quantum communication and long-distance quantum networks.",
+  "eli5": "Entanglement links particles in a delicate quantum relationship. This proof shows that running signals through a specific, well-behaved type of noisy channel will always break that quantum link completely after a finite number of repeats—often in just three rounds.",
+  "keyNumbers": [
+   {
+    "value": "3",
+    "label": "entanglement-breaking index bound",
+    "context": "uniform upper bound for a broad family of PPT maps containing 2-superpositive maps"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "PPT Channel",
+    "shortDef": "A quantum channel whose Choi matrix remains positive under partial transposition.",
+    "eli5Def": "A communication channel that preserves a specific mathematical symmetry related to quantum state positivity.",
+    "wikiTitle": "Peres–Horodecki criterion"
+   },
+   {
+    "term": "Entanglement-Breaking Channel",
+    "shortDef": "A quantum channel that completely destroys entanglement between the input system and any reference system.",
+    "eli5Def": "A noisy pipe that ruins all quantum links connected to the particles passing through it.",
+    "wikiTitle": "Entanglement-breaking channel"
+   },
+   {
+    "term": "PPT-Cubed Conjecture",
+    "shortDef": "The conjecture stating that composing any PPT channel with itself three times yields an entanglement-breaking channel.",
+    "eli5Def": "A famous mathematical guess that passing a quantum signal through the same symmetric noisy channel 3 times always destroys all entanglement.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

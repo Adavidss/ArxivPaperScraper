@@ -1,0 +1,83 @@
+{
+ "id": "2608.13118",
+ "version": 1,
+ "title": "Branch and Bound for Relational Verification of Neural Networks",
+ "authors": [
+  {
+   "name": "Kota Fukuda"
+  },
+  {
+   "name": "Zhenya Zhang"
+  },
+  {
+   "name": "Guanqin Zhang"
+  },
+  {
+   "name": "Jianjun Zhao"
+  }
+ ],
+ "categories": [
+  "cs.LG"
+ ],
+ "primaryCategory": "cs.LG",
+ "published": "2026-08-13T11:47:46Z",
+ "updated": "2026-08-13T11:47:46Z",
+ "abstract": "Verification of neural networks against relational specifications, such as global robustness, is crucial for safety-critical applications of cyber-physical systems (CPS), given their increasing adoption of AI components. Compared to simple trace properties (e.g., local robustness), verifying relational specifications requires reasoning about the relationship between multiple network inferences, which brings significant technical challenges. Existing research has explored abstraction techniques based on sound and convex over-approximation of neural network outputs; however, since these approaches are inherently incomplete and may raise false alarms, they further underscore the need of effective abstraction refinement. In this paper, we propose a branch-and-bound (BaB) framework to mitigate the issue, which iteratively splits the problem until all sub-problems are verified. Specifically, our BaB framework features splitting of relational neurons rather than individual neurons as prior works do, and as the core of our technique, we devise a relational neuron selection strategy based on the dual formulation of the verification problem, which allows us to efficiently select the (most likely) optimal relational neuron that maximizes the refinement brought by problem splitting. We evaluate SaBRe on 817 verification problems across ACAS Xu, MNIST-F, MNIST-C, CIFAR and GTSRB. The results show that SaBRe outperforms different baseline approaches, in terms of the number of solved instances and verification efficiency, which demonstrates the effectiveness of our proposed techniques.",
+ "comment": "The full version of the paper accepted by EMSOFT 2026",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.13118",
+  "pdf": "https://arxiv.org/pdf/2608.13118",
+  "html": "https://arxiv.org/html/2608.13118"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.13118v1/image/diffpoly.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-14T07:57:41.827Z",
+  "hook": "New SaBRe framework verifies relational neural network properties faster by splitting relational neurons across 817 tests.",
+  "tldr": [
+   "Built a branch-and-bound verification framework for relational properties like global neural network robustness.",
+   "Split relational neuron pairs instead of single neurons using a dual-formulation selection strategy.",
+   "Evaluated on 817 verification tasks across standard datasets, outperforming baseline approaches in speed and solved instances."
+  ],
+  "whyItMatters": "As neural networks are deployed in safety-critical systems like autonomous vehicles and aviation, proving that multiple outputs maintain consistent safety relationships is essential to prevent catastrophic failures.",
+  "eli5": "Imagine trying to prove that driving slightly faster won't suddenly cause an autopilot system to make a wildly different steering decision. Instead of checking every single calculation inside the AI one-by-one, this tool groups related calculations together to test if they stay safe under all conditions.",
+  "keyNumbers": [
+   {
+    "value": "817",
+    "label": "verification problems",
+    "context": "evaluated across ACAS Xu, MNIST-F, MNIST-C, CIFAR, and GTSRB benchmarks"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Branch and Bound",
+    "shortDef": "An algorithm design paradigm for discrete and combinatorial optimization problems that divides problems into subproblems.",
+    "eli5Def": "A strategy that breaks a huge puzzle into smaller branches and skips branches that clearly do not hold the right answer.",
+    "wikiTitle": "Branch and bound"
+   },
+   {
+    "term": "Relational Verification",
+    "shortDef": "Formal verification comparing properties across two or more executions of a program or model.",
+    "eli5Def": "Testing how two different runs of the same program relate to each other, like checking if small input changes cause large output shifts.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Over-approximation",
+    "shortDef": "Enclosing the set of possible outputs in a simpler bounding shape to guarantee sound safety analysis.",
+    "eli5Def": "Drawing a simple box around complicated data to make sure no possible output escapes uninspected.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "2608.13543",
+ "version": 1,
+ "title": "Clifford Circuit Synthesis for Distributed Quantum Architectures with Arbitrary Network Topology",
+ "authors": [
+  {
+   "name": "Tuomas Laakkonen"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-13T17:55:40Z",
+ "updated": "2026-08-13T17:55:40Z",
+ "abstract": "To achieve large-scale fault-tolerant quantum computation, it may be easier to combine many small sets of qubits than to construct a single large set. For example via quantum error correction with block codes, or distributed quantum processors utilizing shared entanglement. In these regimes, the time or error budget of the overall quantum computation may be dominated by non-local operations. Hence, it is worthwhile to minimize the number of these operations. We consider the case where both non-local and local connectivity may be arbitrarily restricted, and give an asymptotically optimal synthesis method for distributed CNOT and Clifford circuits, based on block-matrix Gaussian elimination. We extend this to all Clifford+RZ circuits by generalizing the Pauli exponential circuit representation; this naturally integrates with existing methods for optimizing T-count. As an application, we show how to implement CNOT circuits in a CSS code encoding n logical qubits in k blocks using O(nk) inter-block transversal CNOTs and intra-block Pauli measurements.",
+ "comment": "42 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.13543",
+  "pdf": "https://arxiv.org/pdf/2608.13543",
+  "html": "https://arxiv.org/html/2608.13543"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-14T07:57:41.827Z",
+  "hook": "Asymptotically optimal Clifford synthesis reduces costly non-local operations across arbitrary quantum network topologies.",
+  "tldr": [
+   "Developed an optimal circuit synthesis method for distributed CNOT and Clifford gates across arbitrary networks.",
+   "Used block-matrix Gaussian elimination and generalized Pauli exponentials to extend optimization to Clifford+RZ circuits.",
+   "Demonstrated CSS code CNOT implementation with O(nk) inter-block transversal operations across k blocks for n logical qubits."
+  ],
+  "whyItMatters": "Scaling up quantum computers often relies on linking multiple smaller quantum chips, where communication between chips is the primary source of latency and errors.",
+  "eli5": "When building a super-fast quantum computer out of several small processor chips, sending signals between chips is slow and prone to mistakes. This work creates an efficient compiler that arranges operations so chips talk to each other as few times as possible.",
+  "keyNumbers": [
+   {
+    "value": "O(nk)",
+    "label": "inter-block transversal CNOTs",
+    "context": "required to implement CNOT circuits on CSS codes with n logical qubits across k blocks"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Clifford Circuit",
+    "shortDef": "A quantum circuit composed exclusively of Hadamard, Phase, and CNOT gates.",
+    "eli5Def": "A basic set of quantum logic gates that are easy to model on normal computers and crucial for error correction.",
+    "wikiTitle": "Clifford group"
+   },
+   {
+    "term": "CNOT Gate",
+    "shortDef": "Controlled-NOT gate; a two-qubit operation performing a NOT on the target if the control qubit is |1⟩.",
+    "eli5Def": "A two-particle switch that flips the second particle only if the first particle is turned on.",
+    "wikiTitle": "Controlled NOT gate"
+   },
+   {
+    "term": "CSS Code",
+    "shortDef": "Calderbank-Shor-Steane code; a quantum error-correcting code constructed from two classical linear codes.",
+    "eli5Def": "A popular blueprint for protecting fragile quantum data from errors using classical error-checking codes.",
+    "wikiTitle": "CSS code"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "2608.13462",
+ "version": 1,
+ "title": "Aperiodicity is sufficient for macroscopic thermalization",
+ "authors": [
+  {
+   "name": "Amit Vikram"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "hep-th",
+  "math-ph",
+  "nlin.CD"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-13T16:44:17Z",
+ "updated": "2026-08-13T16:44:17Z",
+ "abstract": "We identify a general mechanism for the finite-time thermalization of macroscopic observables, such as coarse-grained charge densities, in terms of elementary forms of the quantum dynamics of initial states: (1) aperiodicity, which provides a computable measure of (2) a dynamical partially ergodic exploration of the Hilbert space. Specifically, this mechanism predicts the equilibration of all (concentrated) macroscopic observables, in almost all states in an initial ensemble and almost all times within finite and longer intervals, given only the observable-independent information that the return probability of the ensemble of initial states is small over a finite time range. As a special case, it also accesses standard results on equilibration over infinitely long times in terms of (stronger versions of) the effective dimension of initial state delocalization in the energy eigenbasis. Our results incorporate macroscopic thermalization into the domain of operational quantum statistical mechanics, recently developed to provide finitely computable criteria for microscopic thermalization. We discuss an overall characterization of this approach as establishing connections between (1) the decay of a (theoretically or experimentally) computable probe indicating memorylessness, (2) a fundamental invariant mechanism in terms of the alignment of observables or states in the Hilbert space, and (3) predicting different natural forms of (classical and) quantum thermalization, most of which rigorously recover conventional eigenstate-based descriptions of infinite-time thermalization as a special case but provide stronger accessible predictions over finite observation times in the thermodynamic limit.",
+ "comment": "41 pages, 1 table, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.13462",
+  "pdf": "https://arxiv.org/pdf/2608.13462",
+  "html": "https://arxiv.org/html/2608.13462"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-15T07:08:00.666Z",
+  "hook": "A small return probability over finite time is sufficient to guarantee macroscopic thermalization in quantum systems.",
+  "tldr": [
+   "Identified a general mechanism showing that aperiodicity drives finite-time thermalization of macroscopic observables.",
+   "Demonstrated that a small return probability over finite time bounds ensure almost all observables reach equilibrium.",
+   "Bridged operational quantum statistical mechanics with conventional infinite-time eigenstate thermalization results."
+  ],
+  "whyItMatters": "Explaining how quantum systems naturally reach thermodynamic equilibrium over realistic timeframes solves a longstanding foundation problem uniting quantum mechanics and everyday thermodynamics.",
+  "eli5": "If you drop milk into coffee, it mixes completely rather than returning to a clean drop. This paper mathematically proves that as long as a quantum system is unlikely to reset to its exact starting point, all big observable features are guaranteed to settle into equilibrium.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Thermalization",
+    "shortDef": "The process by which a physical system reaches thermal equilibrium with uniform macroscopic properties.",
+    "eli5Def": "The natural process where hot and cold things even out until everything settles into a steady temperature.",
+    "wikiTitle": "Thermalization"
+   },
+   {
+    "term": "Hilbert Space",
+    "shortDef": "An abstract vector space with an inner product that contains all possible quantum states of a system.",
+    "eli5Def": "The mathematical playing field that holds every possible state a quantum particle could ever be in.",
+    "wikiTitle": "Hilbert space"
+   },
+   {
+    "term": "Ergodicity",
+    "shortDef": "The property of a dynamical system whereby time averages equal space averages over the phase space.",
+    "eli5Def": "When a moving system explores every accessible nook and cranny of its possible states over time.",
+    "wikiTitle": "Ergodicity"
+   },
+   {
+    "term": "Macroscopic Observable",
+    "shortDef": "A coarse-grained physical property measurable at large scales, such as density, pressure, or total magnetization.",
+    "eli5Def": "A large-scale property you can measure from the outside, like temperature or pressure, without tracking individual atoms.",
+    "wikiTitle": "Observable"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

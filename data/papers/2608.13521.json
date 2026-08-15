@@ -1,0 +1,106 @@
+{
+ "id": "2608.13521",
+ "version": 1,
+ "title": "Exponential quantum advantage for learning signals with a single qubit",
+ "authors": [
+  {
+   "name": "Ishaan Kannan"
+  },
+  {
+   "name": "Sridhar Prabhu"
+  },
+  {
+   "name": "Saeed A. Khan"
+  },
+  {
+   "name": "Mandar M. Sohoni"
+  },
+  {
+   "name": "Xingrui Song"
+  },
+  {
+   "name": "Saswata Roy"
+  },
+  {
+   "name": "Alen Senanian"
+  },
+  {
+   "name": "Valla Fatemi"
+  },
+  {
+   "name": "Peter L. McMahon"
+  },
+  {
+   "name": "Jordan Cotler"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-13T17:40:39Z",
+ "updated": "2026-08-13T17:40:39Z",
+ "abstract": "Quantum technology has the potential to transform scientific discovery, but quantum advantages often require processing capabilities well beyond the reach of experimental platforms. We show that coupling a single controllable qubit to an otherwise conventional sensor can exponentially reduce the number of measurements required to learn classical signals. These rigorous quantum advantages apply to fundamental sensing tasks, including learning Fourier coefficients, extracting temporal correlations from time-varying signals, and estimating transformations of physical observables. Using a superconducting cavity--qubit architecture, we experimentally demonstrate $10^7$-fold reductions in the number of measurements required for Fourier-amplitude and time-varying signal learning. Our $\\textit{quantum feature sensing}$ algorithms further enable orders-of-magnitude improvements in simulations of weak-signal dark matter detection and wireless communication applications. These quantum advantages are derived from Quantum Phase-Space Inference (Q$Ψ$), a unifying theory of quantum-enhanced experiments that simultaneously converts a set of experimental objectives and constraints into tight lower bounds and optimal quantum-enhanced learning algorithms while producing a certificate of quantum advantage. Q$Ψ$ extends beyond the regimes captured by quantum Fisher information and provides a framework for systematically identifying rigorous quantum advantages in practical experimental tasks. Together, our results establish that near-term quantum technology can exponentially enhance our ability to learn from classical signals.",
+ "comment": "131 pages, including 7 pages of main text, 4 main figures, and 8 supplementary figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.13521",
+  "pdf": "https://arxiv.org/pdf/2608.13521",
+  "html": "https://arxiv.org/html/2608.13521"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.13521v1/Exponential_Sensing_Fig_1_V2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-15T07:08:00.666Z",
+  "hook": "Coupling a single controllable qubit to a sensor cuts required measurements for learning classical signals by 10,000,000x.",
+  "tldr": [
+   "Showed that pairing a single qubit with a standard sensor yields an exponential reduction in measurements needed to learn classical signals.",
+   "Developed the Quantum Phase-Space Inference (QΨ) framework and tested it on a superconducting cavity-qubit hardware platform.",
+   "Demonstrated a 10^7-fold measurement reduction for learning Fourier amplitudes and time-varying signals, aiding dark matter sensing."
+  ],
+  "whyItMatters": "Quantum advantages usually require massive, error-corrected quantum computers. This shows that even a single near-term qubit can drastically accelerate signal detection in fields like astrophysics and wireless communications.",
+  "eli5": "Imagine trying to identify a mystery song played across the room by taking millions of tiny audio snapshots. By adding just one helper qubit, your microphone can process the whole tune at once, needing only a single snapshot instead of millions.",
+  "keyNumbers": [
+   {
+    "value": "10^7-fold",
+    "label": "measurement reduction",
+    "context": "Experimentally achieved drop in sample complexity for Fourier-amplitude and time-varying signal learning."
+   },
+   {
+    "value": "1",
+    "label": "qubits required",
+    "context": "Number of controllable qubits needed alongside a conventional sensor to unlock exponential advantage."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Qubit",
+    "shortDef": "The fundamental unit of quantum information, capable of existing in superpositions of 0 and 1.",
+    "eli5Def": "A quantum version of a computer bit that can be 0, 1, or both at the same time.",
+    "wikiTitle": "Qubit"
+   },
+   {
+    "term": "Quantum Fisher Information",
+    "shortDef": "A metric bounding the ultimate parameter estimation precision attainable with quantum systems.",
+    "eli5Def": "A formula telling you the absolute highest precision a quantum measurement can reach.",
+    "wikiTitle": "Quantum Fisher information"
+   },
+   {
+    "term": "Fourier Coefficients",
+    "shortDef": "Numbers representing the amplitudes and phases of specific frequency components in a signal.",
+    "eli5Def": "The ingredient list that tells you how much of each pure frequency tone makes up a complex sound.",
+    "wikiTitle": "Fourier series"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

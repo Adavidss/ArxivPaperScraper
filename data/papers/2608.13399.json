@@ -1,0 +1,90 @@
+{
+ "id": "2608.13399",
+ "version": 1,
+ "title": "Field-Widened Multimode Interferometer with Long Time-Bin Delay Using a Multi-Pass Herriott Cell",
+ "authors": [
+  {
+   "name": "Ramy Tannous"
+  },
+  {
+   "name": "Stéphane Vinet"
+  },
+  {
+   "name": "Kaylee Sherk"
+  },
+  {
+   "name": "Kimia Mohammadi"
+  },
+  {
+   "name": "Thomas Jennewein"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-13T15:58:17Z",
+ "updated": "2026-08-13T15:58:17Z",
+ "abstract": "Interference of optical signals in free-space channels requires optical receivers to support many spatial modes due to atmospheric turbulence, typically necessitating adaptive optics systems. Field-widened interferometers offer a passive alternative, making them particularly attractive for time-bin encoded signals with delays on the order of one nanosecond. Here, we demonstrate a field-widened, multimode interferometer design that achieves a high interference visibility for spatially multimode beams with large time bin separations. The interference of the multimode beams is enabled using a multi-pass Herriott cell that enables a very long path separation with a small form-factor. The design is tested using both numerical ray-tracing simulations and proof-of-principle demonstrations. We create a prototype interferometer with a path length difference of 12ns and determine that it maintains a high interference visibility with a large field-of-view of $0.4^{\\circ}$.",
+ "comment": "17 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.13399",
+  "pdf": "https://arxiv.org/pdf/2608.13399",
+  "html": "https://arxiv.org/html/2608.13399"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.13399v1/hc_analytical_n_l.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-15T07:08:00.666Z",
+  "hook": "A compact optical interferometer maintains high visibility over a 12 ns delay across a wide 0.4° field-of-view.",
+  "tldr": [
+   "Designed a passive, field-widened multimode interferometer for turbulent free-space quantum channels.",
+   "Integrated a multi-pass Herriott cell to achieve long optical path delays in a compact physical footprint.",
+   "Demonstrated a prototype with a 12 ns time-bin delay that preserves high visibility across a 0.4° field-of-view."
+  ],
+  "whyItMatters": "Atmospheric turbulence normally scrambles quantum signals sent through the air unless bulky, active correction optics are used; this passive design solves the problem compactly.",
+  "eli5": "When light travels through the air, turbulence makes it blurry and misaligned like looking through wavy glass. This device acts like a special hallway of mirrors that keeps the light beams in sync even if they wobble or arrive at different angles.",
+  "keyNumbers": [
+   {
+    "value": "12 ns",
+    "label": "Path length difference",
+    "context": "The time delay achieved in the prototype interferometer using the Herriott cell."
+   },
+   {
+    "value": "0.4°",
+    "label": "Field-of-view",
+    "context": "The wide angular acceptance over which high interference visibility is maintained."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Herriott Cell",
+    "shortDef": "An optical multipass absorption cell using two concave mirrors to fold a long path into a small space.",
+    "eli5Def": "A pair of curved mirrors that bounces a light beam back and forth dozens of times in a small box.",
+    "wikiTitle": "Herriott cell"
+   },
+   {
+    "term": "Interference Visibility",
+    "shortDef": "A measure of the contrast of optical interference fringes indicating signal coherence.",
+    "eli5Def": "A measure of how clear and crisp the light wave pattern is.",
+    "wikiTitle": "Interferometric visibility"
+   },
+   {
+    "term": "Time-Bin Encoding",
+    "shortDef": "Encoding quantum information into the relative arrival times of optical photon pulses.",
+    "eli5Def": "Storing digital or quantum data based on whether a light particle arrives early or late.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

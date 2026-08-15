@@ -1,0 +1,75 @@
+{
+ "id": "2608.13493",
+ "version": 1,
+ "title": "Quantum correlations and Basis-Independent Coherence Distribution in Two Gravitational Cat States",
+ "authors": [
+  {
+   "name": "Mostafa Mansour"
+  },
+  {
+   "name": "Mansoura Oumennana"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-13T17:23:04Z",
+ "updated": "2026-08-13T17:23:04Z",
+ "abstract": "We study the distribution of quantum correlations and basis-independent coherence in a pair of massive particles confined in a double-well potential and coupled through their mutual Newtonian gravitational interaction. Non-classical correlations are characterized using Bures distance of entanglement and quantum discord, while coherence is quantified through the square root of the quantum Jensen--Shannon divergence (QJSD) from the maximally mixed state, yielding a measure that is invariant under arbitrary unitary transformations and is therefore genuinely basis-independent. The total coherence $C_T$ decomposes into two operationally distinct contributions: the collective coherence $C_C$, which captures quantum correlations between the two subsystems, and the localized coherence $C_L$, which captures the intrinsic quantum coherence of each individual subsystem. We analyze how temperature $T$, the gravitational coupling $Δ$, and the single-particle energy scale $w$ govern the redistribution of coherence between its collective and localized components. Our results show that $C_L$ is more robust against thermal fluctuations than $C_C$, and that increasing $Δ$ preferentially enhances collective coherence by strengthening gravitationally induced inter-particle correlations.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.13493",
+  "pdf": "https://arxiv.org/pdf/2608.13493",
+  "html": "https://arxiv.org/html/2608.13493"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.13493v1/Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-15T07:08:00.666Z",
+  "hook": "Gravity between two quantum cat states selectively strengthens collective quantum coherence over individual coherence.",
+  "tldr": [
+   "Investigated quantum correlations and basis-independent coherence in two massive particles interacting purely via gravity.",
+   "Decomposed total coherence into collective and localized parts using the quantum Jensen-Shannon divergence.",
+   "Found that localized coherence resists thermal noise better, while stronger gravitational coupling selectively boosts collective coherence."
+  ],
+  "whyItMatters": "Probing how gravity interacts with quantum superpositions helps scientists design tabletop experiments to test whether gravity is fundamentally quantum or classical.",
+  "eli5": "Picture two massive particles put into 'Schrödinger's cat' states next to each other. As they pull on each other with gravity, their quantum weirdness links up into a shared team coherence rather than staying isolated.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Cat State",
+    "shortDef": "A quantum superposition of two macroscopically distinct or opposite states.",
+    "eli5Def": "A physical object trapped in two opposite states at the same time, like being in two places at once.",
+    "wikiTitle": "Cat state"
+   },
+   {
+    "term": "Quantum Discord",
+    "shortDef": "A measure of non-classical correlations between quantum systems beyond standard entanglement.",
+    "eli5Def": "A way to measure quantum connectedness between particles even when they aren't fully entangled.",
+    "wikiTitle": "Quantum discord"
+   },
+   {
+    "term": "Quantum Coherence",
+    "shortDef": "The property of quantum systems to exhibit interference due to definite phase relationships.",
+    "eli5Def": "The delicate wave-like behavior that allows quantum particles to do multiple things simultaneously.",
+    "wikiTitle": "Coherence (physics)"
+   },
+   {
+    "term": "Bures Distance",
+    "shortDef": "A geometric distance metric between quantum density operators used to quantify entanglement.",
+    "eli5Def": "A mathematical ruler used to measure how different two quantum states are from each other.",
+    "wikiTitle": "Bures metric"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

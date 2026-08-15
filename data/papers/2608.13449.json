@@ -1,0 +1,72 @@
+{
+ "id": "2608.13449",
+ "version": 1,
+ "title": "Spectral Localization Principle for Entanglement Harvesting",
+ "authors": [
+  {
+   "name": "Hao Xu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "gr-qc",
+  "hep-th"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-13T16:33:26Z",
+ "updated": "2026-08-13T16:33:26Z",
+ "abstract": "We propose a unified physical principle for entanglement harvesting: the entanglement that two localized detectors can extract from a quantum field is determined solely by how localized the field's effective spectral density is. We demonstrate this in an analytically solvable model of two qubits coupled to a leaky single-mode cavity, which in turn couples to a continuous electromagnetic bath, and derive the maximum harvestable concurrence in closed form, $\\mathcal{C}_{\\max}(Q)=2e^{-π/(2Q)}(1+e^{-π/(2Q)})/(1+3e^{-π/Q})$, where $Q\\equiv|Δ|/κ$ is the ratio of the qubit-cavity detuning $Δ$ to the cavity linewidth $κ$. In the high-$Q$ limit, $\\mathcal{C}_{\\max}\\simeq1-π^{2}/(16Q^{2})$, so the entanglement is robust against cavity loss; in the low-$Q$ limit it decays exponentially to zero, consistent with the irreversible-reservoir character of a continuous field, where maximal entanglement is unattainable. Since $Q$ is proportional to the inverse participation ratio (IPR) of the effective spectral density, it is the single dimensionless parameter governing the crossover from deterministic gate-based entanglement ($Q\\to\\infty$) to vacuum harvesting ($Q\\to0$). Our framework operationalizes the Reeh-Schlieder theorem by quantifying the fraction of vacuum correlations accessible to localized detectors. It also reveals a formal correspondence of the maximal concurrence with the IPR, analogous to the conductivity-participation-ratio relation in Anderson localization. The predicted $\\mathcal{C}_{\\max}(Q)$ curve is, in principle, directly observable in superconducting circuit QED experiments.",
+ "comment": "9 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.13449",
+  "pdf": "https://arxiv.org/pdf/2608.13449",
+  "html": "https://arxiv.org/html/2608.13449"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-15T07:08:00.666Z",
+  "hook": "A single parameter explains how much quantum entanglement can be harvested from empty vacuum vs. optical cavities.",
+  "tldr": [
+   "Proposed a unified principle governing how localized detectors harvest entanglement from quantum fields.",
+   "Modeled two qubits coupled to a leaky cavity and a continuous bath to solve for maximal concurrence analytically.",
+   "Found that the ratio of qubit detuning to cavity linewidth governs the crossover from deterministic gates to vacuum harvesting."
+  ],
+  "whyItMatters": "It establishes an exact mathematical link between vacuum energy harvesting and standard quantum gates, offering a clear roadmap for superconducting circuit experiments.",
+  "eli5": "Imagine trying to tune into a radio station in a noisy room. If your tuner is sharp, you catch a clear signal with no loss; if it's too broad, the background noise washes the connection out. The authors found the exact math for how this tuning sharpness lets two quantum devices share secret entanglement.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Entanglement Harvesting",
+    "shortDef": "Extracting quantum entanglement from the vacuum state of a quantum field using localized detectors.",
+    "eli5Def": "Pulling quantum connection out of seemingly empty space using tiny quantum sensors.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Concurrence",
+    "shortDef": "A measure of quantum entanglement between two qubit states ranging from 0 to 1.",
+    "eli5Def": "A score from 0 (none) to 1 (perfect) measuring how entangled two quantum bits are.",
+    "wikiTitle": "Concurrence (quantum computing)"
+   },
+   {
+    "term": "Circuit QED",
+    "shortDef": "Studying light-matter interaction via superconducting artificial atoms coupled to microwave resonators.",
+    "eli5Def": "A way to build quantum chips where artificial atoms interact with microwave light.",
+    "wikiTitle": "Circuit quantum electrodynamics"
+   },
+   {
+    "term": "Reeh-Schlieder Theorem",
+    "shortDef": "A quantum field theory theorem showing the vacuum contains non-local correlations across space.",
+    "eli5Def": "A physics rule proving that empty space contains hidden connections linking different regions together.",
+    "wikiTitle": "Reeh–Schlieder theorem"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "2608.13342",
+ "version": 1,
+ "title": "Quantum-Inspired Phase Bicoherence Spectroscopy: A Framework for Detecting Universal Textural Angular Order Across Multi-Modal Complex Datasets",
+ "authors": [
+  {
+   "name": "Zheng Xing"
+  },
+  {
+   "name": "Chan-Tong Lam"
+  },
+  {
+   "name": "Xiaochen Yuan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.ET"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-13T15:14:11Z",
+ "updated": "2026-08-13T15:14:11Z",
+ "abstract": "Classical image analysis routinely discards structurally meaningful orientation signatures encoded within Fourier phase, which are easily corrupted by local cellular rotation. Although quantum-inspired data processing offers new avenues for complex signal characterization, practical tools for directly extracting gauge-invariant angular correlations without explicit phase reconstruction remain scarce. Here we introduce Quantum Phase Bicoherence (QPBC) spectroscopy, a novel quantum-interferometric framework for capturing gauge-invariant angular order. The method embeds image angular sectors into a nine-qubit entangled state and probes three-body bicoherence via an ancilla, yielding 16 interpretable readout channels. We validate our framework on three independent public multi-modal imaging datasets covering fluorescence (BBBC021), bright-field (BBBC041) and histopathology (PathMNIST). QPBC consistently resolves angular-phase order and discriminates distinct biological phenotypes with high statistical significance. After principal-axis alignment, the optimal probing frequency universally converges, driven by Fourier directional sensitivity; negative-control experiments fully eliminate discriminative capacity, demonstrating frequency tuning acts as an on-off switch. Cross-dataset benchmarks confirm QPBC outperforms conventional Fourier-phase statistics, where inherent inversion symmetry serves as a built-in pipeline self-check. QPBC delivers a universal, classically unachievable quantitative texture observable, establishes interpretable quantum morphometry, and broadens the toolbox for quantum-inspired analysis applicable to diverse multi-modal microscopic measurements.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.13342",
+  "pdf": "https://arxiv.org/pdf/2608.13342",
+  "html": "https://arxiv.org/html/2608.13342"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.13342v1/Fig1_Concept.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-16T07:09:25.081Z",
+  "hook": "A quantum-inspired 9-qubit framework extracts hidden biological cell textures that classical Fourier methods discard.",
+  "tldr": [
+   "Developed Quantum Phase Bicoherence spectroscopy to extract gauge-invariant angular order from complex microscopic images.",
+   "Mapped image angular sectors into a 9-qubit entangled state and measured 3-body bicoherence through an ancilla across 16 channels.",
+   "Demonstrated superior phenotype discrimination across fluorescence, bright-field, and histopathology imaging datasets."
+  ],
+  "whyItMatters": "Important biological cues in medical scans often get lost because rotating cells scrambles Fourier phase information. This quantum-inspired tool recovers subtle structural textures, improving automated disease and cell diagnosis.",
+  "eli5": "When cells rotate under a microscope, standard image analysis loses track of directional textures like swirls or stripes. This method uses quantum-math tricks to look at three points at once, keeping the texture pattern clear no matter how the cell is turned.",
+  "keyNumbers": [
+   {
+    "value": "9",
+    "label": "qubits",
+    "context": "Number of qubits in the entangled state embedding image angular sectors."
+   },
+   {
+    "value": "16",
+    "label": "readout channels",
+    "context": "Interpretable readout channels yielded by probing three-body bicoherence via an ancilla."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Bicoherence",
+    "shortDef": "A higher-order statistical measure capturing phase coupling and non-linear interactions across frequencies.",
+    "eli5Def": "A way to check if different rhythmic patterns in an image are dancing in sync with each other.",
+    "wikiTitle": "Bispectrum"
+   },
+   {
+    "term": "Ancilla",
+    "shortDef": "An auxiliary qubit used in quantum computing to facilitate measurements or operations without destroying data.",
+    "eli5Def": "An extra helper qubit used temporarily to inspect other qubits without disturbing them.",
+    "wikiTitle": "Ancilla bit"
+   },
+   {
+    "term": "Gauge-invariant",
+    "shortDef": "A property of a system that remains unchanged under specific coordinate or phase transformations.",
+    "eli5Def": "A feature that stays exactly the same even if you rotate or shift the perspective.",
+    "wikiTitle": "Gauge invariance"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

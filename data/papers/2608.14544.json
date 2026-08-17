@@ -1,0 +1,69 @@
+{
+ "id": "2608.14544",
+ "version": 1,
+ "title": "GPU implementation of mixed quantum-classical Liouville molecular dynamics without momentum jump",
+ "authors": [
+  {
+   "name": "Koji Ando"
+  }
+ ],
+ "categories": [
+  "physics.chem-ph",
+  "cond-mat.mtrl-sci",
+  "physics.comp-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.chem-ph",
+ "published": "2026-08-14T17:58:01Z",
+ "updated": "2026-08-14T17:58:01Z",
+ "abstract": "We implemented on GPU a mixed quantum-classical Liouville molecular dynamics simulation based on a momentum-jump-free theory. The trajectory spawning that was previously implemented on CPU for sampling enhancement was eliminated to avoid the overhead of thread divergence and dynamic memory allocation on the GPU. This achieved a speedup of an order of magnitude compared to the CPU computation with spawning, as well as a linear scaling with respect to the number of sampling trajectories.",
+ "comment": "4 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.14544",
+  "pdf": "https://arxiv.org/pdf/2608.14544",
+  "html": "https://arxiv.org/html/2608.14544"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.14544v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17T07:34:02.655Z",
+  "hook": "Achieved a 10x speedup and linear scaling by implementing mixed quantum-classical molecular dynamics on a GPU.",
+  "tldr": [
+   "Implemented mixed quantum-classical Liouville molecular dynamics simulations directly on a graphics processing unit (GPU).",
+   "Removed trajectory spawning to eliminate GPU bottlenecks like thread divergence and dynamic memory allocation.",
+   "Achieved a magnitude of order speedup over CPU computation and linear scaling with sampling trajectories."
+  ],
+  "whyItMatters": "Running quantum-classical simulations faster allows scientists to model chemical reactions and materials science problems that were previously too computationally expensive.",
+  "eli5": "Supercomputers need to juggle thousands of tiny particle paths at once. By rewriting the math rules to stop splitting paths in a messy way, the computer can run these complex molecular simulations ten times faster on a graphics card.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Liouville molecular dynamics",
+    "shortDef": "A framework for simulating quantum and classical mechanics together using phase space distribution functions.",
+    "eli5Def": "A set of physics equations used to track how molecules move and change when they follow quantum rules.",
+    "wikiTitle": "Quantum-classical Liouville equation"
+   },
+   {
+    "term": "Thread divergence",
+    "shortDef": "A GPU inefficiency where parallel threads take different execution paths, forcing sequential processing.",
+    "eli5Def": "When a computer chip tries to do many things at once, but individual lanes get stuck waiting for each other because they are doing different tasks.",
+    "wikiTitle": "Branch divergence"
+   },
+   {
+    "term": "Trajectory spawning",
+    "shortDef": "A sampling enhancement technique where simulation paths branch out during execution.",
+    "eli5Def": "Creating duplicate versions of a simulated path to explore more possible outcomes.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

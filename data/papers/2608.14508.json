@@ -1,0 +1,76 @@
+{
+ "id": "2608.14508",
+ "version": 1,
+ "title": "Universal aspects of bulk density of states in non-Hermitian lattices",
+ "authors": [
+  {
+   "name": "Mykhailo Pavliuk"
+  },
+  {
+   "name": "Askar Iliasov"
+  },
+  {
+   "name": "Emil J. Bergholtz"
+  },
+  {
+   "name": "Tomáš Bzdušek"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-08-14T17:22:43Z",
+ "updated": "2026-08-14T17:22:43Z",
+ "abstract": "Non-Hermitian lattice Hamiltonians generally exhibit strong boundary sensitivity, with periodic and open boundary conditions producing distinct density of states (DOS) in the complex-energy plane. This has led to the view that extended non-Hermitian systems lack a unique bulk DOS, with different prescriptions representing inequivalent bulk physics. Here, we show that this apparent ambiguity is largely illusory. For any finite-range tight-binding Hamiltonian, we establish a universal bulk structure: all DOS definitions arising as thermodynamic limits of finite systems share identical multipole moments and generate identical bulk dynamics at finite times and for observables measured far from boundaries. This universality is intimately tied to the thermodynamic Green's functions, which we show to be independent of the boundary condition for large enough complex frequencies. Among all equivalent descriptions, we identify the Brown measure - obtained via Hermitization and resolvent analysis - as a canonical and convenient representative of the bulk DOS, defined directly from the infinite-volume Hamiltonian. We further show that point-gap topology imposes additional universal constraints: boundary-dependent Green's functions are forced to coincide throughout topologically trivial point gaps. This, in particular, provides a systematic criterion, valid in arbitrary dimension, for determining where and how eigenvalues of different boundary truncations can accumulate in the complex plane, and precisely delineates the regime in which the DOS ambiguity retains physical significance.",
+ "comment": "17 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.14508",
+  "pdf": "https://arxiv.org/pdf/2608.14508",
+  "html": "https://arxiv.org/html/2608.14508"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.14508v1/figure.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17T07:34:02.655Z",
+  "hook": "Proved that non-Hermitian lattices share a universal bulk density of states despite boundary sensitivities.",
+  "tldr": [
+   "Investigated density of states (DOS) differences caused by boundary conditions in non-Hermitian lattice Hamiltonians.",
+   "Proved that finite-range tight-binding systems share identical multipole moments and bulk dynamics in the thermodynamic limit.",
+   "Identified the Brown measure as a canonical representative of the bulk DOS and linked point-gap topology to boundary constraints."
+  ],
+  "whyItMatters": "Resolving apparent contradictions in non-Hermitian physics helps physicists understand open quantum systems and lasers with loss or gain.",
+  "eli5": "Normally, systems behave differently at their edges compared to their insides. Researchers found that for a huge class of quantum systems, the insides actually follow a universal, predictable set of rules no matter how the edges are cut.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "The master equation that tells you all the energy states and rules of a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Green's functions",
+    "shortDef": "Mathematical tools used to solve differential equations and describe propagation in many-body systems.",
+    "eli5Def": "A mathematical map showing how a disturbance spreads out across a system over time.",
+    "wikiTitle": "Green's function"
+   },
+   {
+    "term": "Brown measure",
+    "shortDef": "A probability measure used in operator algebra to describe the spectrum of non-normal operators.",
+    "eli5Def": "A mathematical tool that helps organize and measure complex energy states in tricky systems.",
+    "wikiTitle": "Brown measure"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

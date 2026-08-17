@@ -1,0 +1,78 @@
+{
+ "id": "2608.14469",
+ "version": 1,
+ "title": "Current fluctuations in a non-additive open quantum system: breakdown of the quantum-jump approach",
+ "authors": [
+  {
+   "name": "Ilia Khomchenko"
+  },
+  {
+   "name": "Saulo V. Moreira"
+  },
+  {
+   "name": "Emanuel Schwarzhans"
+  },
+  {
+   "name": "Mark T. Mitchison"
+  },
+  {
+   "name": "Tony J. G. Apollaro"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-14T16:50:35Z",
+ "updated": "2026-08-14T16:50:35Z",
+ "abstract": "Open quantum system dynamics is efficiently described by the quantum master equation formalism. Therein, quantum master equations in Lindblad form constitute an important subclass describing Markovian dynamics. When an open quantum system is in an out-of-equilibrium state, an exchange of particles between the open system and reservoirs takes place yielding to a non-zero average net current and associated current fluctuations, which can be characterised with the quantum jump formalism for quantum master equations expressed in Lindblad form. However, a large class of quantum master equations cannot be described by Lindblad dynamics. Here we assess the validity and the effectiveness of the quantum jump formalism when the dissipators in the quantum master equation describe a non-additive, open quantum system dynamics. We find that an additive unravelling of the non-additive quantum master equation does not generate a completely-positive dynamics in the scenario of perfect jump detection. Nevertheless, allowing for an imperfect jump detection scenario, we find that an additive unravelling is possible that reproduces the current and the fluctuations obtained via the Landauer-Büttiker formalism.",
+ "comment": "Comments are welcome!",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.14469",
+  "pdf": "https://arxiv.org/pdf/2608.14469",
+  "html": "https://arxiv.org/html/2608.14469"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.14469v1/local_phase_diagram_positive_rates.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17T07:34:02.655Z",
+  "hook": "An additive unravelling fails for non-additive quantum master equations unless imperfect jump detection is allowed.",
+  "tldr": [
+   "We assessed the validity and effectiveness of the quantum jump formalism when dissipators describe non-additive open quantum system dynamics.",
+   "We tested whether additive unravellings of non-additive quantum master equations generate completely-positive dynamics under perfect and imperfect jump detection.",
+   "We found that additive unravelling fails for perfect detection but successfully reproduces currents and fluctuations under imperfect detection via the Landauer-Büttiker formalism."
+  ],
+  "whyItMatters": "Understanding how quantum systems exchange particles and fluctuate when traditional approximations break down is vital for the accurate simulation and control of nanoscale quantum devices.",
+  "eli5": "Imagine trying to track water spilling out of a bucket using a set of rules that assume the leaks never interact with each other. When the leaks actually influence one another, your simple rules fail completely unless you add some fuzziness or imperfection into how you measure the drops.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Lindblad form",
+    "shortDef": "A mathematical structure for quantum master equations describing Markovian open system dynamics.",
+    "eli5Def": "A standard rulebook scientists use to calculate how a quantum system changes when it interacts with its environment over time.",
+    "wikiTitle": "Lindblad equation"
+   },
+   {
+    "term": "Landauer-Büttiker formalism",
+    "shortDef": "A theoretical framework used to calculate electrical current and transport in quantum systems.",
+    "eli5Def": "A set of math formulas used to figure out how particles flow from one place to another through tiny quantum pathways.",
+    "wikiTitle": "Landauer formula"
+   },
+   {
+    "term": "Quantum jump formalism",
+    "shortDef": "A method to simulate open quantum system trajectories by modeling discrete state changes.",
+    "eli5Def": "A way of watching a quantum system by pretending it experiences sudden, random jumps when it interacts with the outside world.",
+    "wikiTitle": "Quantum jump method"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

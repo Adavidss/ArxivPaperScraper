@@ -1,0 +1,71 @@
+{
+ "id": "2608.14476",
+ "version": 1,
+ "title": "A Fixed Universal Determinant is Variationally Complete for Continuum Fermions",
+ "authors": [
+  {
+   "name": "Giuseppe Carleo"
+  },
+  {
+   "name": "Riccardo Rossi"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "math-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-08-14T16:54:47Z",
+ "updated": "2026-08-14T16:54:47Z",
+ "abstract": "How many Slater determinants does an accurate variational description of interacting fermions require? Exact expansions in a finite basis need combinatorially many, and state-of-the-art fermionic neural quantum states stack growing numbers of them. We prove that, in the norms that govern variational calculations, at most two are needed, independently of the number of particles and of the target accuracy. A single universal Slater determinant-specified in advance, independent of both the system and the state-multiplied by a smooth bosonic wave function approximates any fermionic wave function in up to three spatial dimensions in the first-order Sobolev norm, which controls the variational energy. Reaching the second-order Sobolev norm-for Coulomb interactions, the domain of the Hamiltonian, which bounds the variance of the local energy at the core of variational Monte Carlo-requires at most one additional fixed determinant, and only in three dimensions. Antisymmetry therefore costs at most two universal determinants and no expressiveness: generalized Slater-Jastrow neural quantum states are variationally complete.",
+ "comment": "4 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.14476",
+  "pdf": "https://arxiv.org/pdf/2608.14476",
+  "html": "https://arxiv.org/html/2608.14476"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.14476v1/capacity_schematic.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17T07:34:02.655Z",
+  "hook": "Proved that at most two universal Slater determinants are variationally complete for continuum fermions.",
+  "tldr": [
+   "Addressed how many Slater determinants are needed for an accurate variational description of interacting fermions.",
+   "Proved mathematically that at most two universal determinants are required independently of particle number or accuracy.",
+   "Demonstrated that generalized Slater-Jastrow neural quantum states are variationally complete without losing expressiveness."
+  ],
+  "whyItMatters": "This mathematical guarantee simplifies how neural networks and computers simulate quantum chemistry and complex materials.",
+  "eli5": "To simulate crowded quantum particles like electrons, scientists usually need to stack a massive number of equations together. This paper proves you actually only ever need two universal master templates to describe any system accurately.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Slater determinant",
+    "shortDef": "An expression that describes the wave function of multi-fermion systems while obeying exchange antisymmetry.",
+    "eli5Def": "A mathematical formula used to bundle up electrons together while respecting the rule that no two identical electrons can share the same state.",
+    "wikiTitle": "Slater determinant"
+   },
+   {
+    "term": "Sobolev norm",
+    "shortDef": "A mathematical measure used to evaluate functions and their derivatives up to a certain order.",
+    "eli5Def": "A strict scoring system that checks both the values of a function and how fast it changes.",
+    "wikiTitle": "Sobolev space"
+   },
+   {
+    "term": "Variational Monte Carlo",
+    "shortDef": "A numerical method used to approximate the ground state wave function of a quantum system.",
+    "eli5Def": "A computer simulation method that guesses many possible quantum states to find the one with the lowest energy.",
+    "wikiTitle": "Quantum Monte Carlo"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

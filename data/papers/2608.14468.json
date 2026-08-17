@@ -1,0 +1,93 @@
+{
+ "id": "2608.14468",
+ "version": 1,
+ "title": "To $\\mathcal{PT}$ or not to $\\mathcal{PT}$: Noise-induced escape and nonlinear-damping stabilization in a parity-time dimer",
+ "authors": [
+  {
+   "name": "Richelle Jade L. Tuquero"
+  },
+  {
+   "name": "Kilian Seibold"
+  },
+  {
+   "name": "Oded Zilberberg"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-14T16:48:56Z",
+ "updated": "2026-08-14T16:48:56Z",
+ "abstract": "Parity-time ($\\mathcal{PT}$) symmetric systems exhibit long-lived excitations by balancing gain and loss in coupled resonators, driving extensive theoretical interest and diverse experimental realizations. Realistic physical implementations, however, inevitably introduce nonlinearities and noise. This mandates a rigorous reevaluation of their global long-time dynamics. In this work, we show that Hamiltonian Duffing nonlinearity restricts the $\\mathcal{PT}$-unbroken phase to a finite, nonattracting region of phase space. Consequently, unavoidable fluctuations drive first-passage escape into runaway trajectories. This renders the linearly $\\mathcal{PT}$-unbroken phase a purely transient phenomenon. We then recover global stochastic stability by introducing two-photon loss on the gain oscillator. This nonlinear damping explicitly breaks exact $\\mathcal{PT}$ symmetry while supplying genuine phase-space attraction, generating a bistable regime where a low-amplitude orbit mimicking the original linear state coexists with a high-amplitude limit cycle. Thus, we establish a revised origin for stability in non-Hermitian experiments: the observed long-time stochastic stability is governed by inherent restoring dissipation rather than the spectral $\\mathcal{PT}$ symmetry itself.",
+ "comment": "6 pages (main), 3 figures (main) + Supplemental Material (6 pages, 2 figures)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.14468",
+  "pdf": "https://arxiv.org/pdf/2608.14468",
+  "html": "https://arxiv.org/html/2608.14468"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.14468v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17T07:34:02.655Z",
+  "hook": "Hamiltonian Duffing nonlinearity restricts the PT-unbroken phase to a finite, nonattracting region of phase space.",
+  "tldr": [
+   "We analyzed the global long-time dynamics of parity-time symmetric systems in the presence of realistic nonlinearities and noise.",
+   "We evaluated stochastic stability by examining how Hamiltonian Duffing nonlinearity and fluctuations drive escape into runaway trajectories.",
+   "We found that introducing two-photon loss on the gain oscillator recovers global stochastic stability, proving stability stems from restoring dissipation rather than spectral symmetry."
+  ],
+  "whyItMatters": "Parity-time symmetry is a major paradigm in modern optics and quantum physics, and knowing what truly stabilizes these systems prevents misinterpretations of experimental data.",
+  "eli5": "Imagine trying to balance a ball precisely on the peak of a steep hill by using a clever system of winds pushing it equally from both sides. In reality, random gusts and hidden bumps mean the ball will eventually roll away, unless you add a physical friction trap that catches it.",
+  "keyNumbers": [
+   {
+    "value": "6",
+    "label": "Pages in main text",
+    "context": "Length of the main manuscript"
+   },
+   {
+    "value": "3",
+    "label": "Main figures",
+    "context": "Number of figures included in the main text"
+   },
+   {
+    "value": "6",
+    "label": "Supplemental pages",
+    "context": "Length of the supplemental material"
+   },
+   {
+    "value": "2",
+    "label": "Supplemental figures",
+    "context": "Number of figures in the supplemental material"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Parity-time symmetry",
+    "shortDef": "A symmetry condition in physics balancing spatial reflection and time reversal, often using gain and loss.",
+    "eli5Def": "A clever balancing act in physics where adding energy in one place matches energy lost somewhere else, creating stable waves.",
+    "wikiTitle": "PT symmetry"
+   },
+   {
+    "term": "Duffing nonlinearity",
+    "shortDef": "A non-linear restoring force term in oscillators that changes how systems behave at large amplitudes.",
+    "eli5Def": "A spring-like force that gets extra stiff or weird when stretched too far, making regular wave patterns break down.",
+    "wikiTitle": "Duffing equation"
+   },
+   {
+    "term": "Phase space",
+    "shortDef": "A multidimensional space representing all possible states of a dynamical system.",
+    "eli5Def": "A giant map where every single point describes the exact position and momentum of a system at a given moment.",
+    "wikiTitle": "Phase space"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 65
+ }
+}

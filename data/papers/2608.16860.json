@@ -1,0 +1,78 @@
+{
+ "id": "2608.16860",
+ "version": 1,
+ "title": "Classical Adversarial Fault-Tolerance and PCPs",
+ "authors": [
+  {
+   "name": "Anurag Anshu"
+  },
+  {
+   "name": "Nikolas P. Breuckmann"
+  },
+  {
+   "name": "Louis Golowich"
+  },
+  {
+   "name": "Quynh T. Nguyen"
+  },
+  {
+   "name": "Umesh Vazirani"
+  }
+ ],
+ "categories": [
+  "cs.CC",
+  "cs.IT",
+  "quant-ph"
+ ],
+ "primaryCategory": "cs.CC",
+ "published": "2026-08-17T17:43:54Z",
+ "updated": "2026-08-17T17:43:54Z",
+ "abstract": "We show how to compile an arbitrary classical circuit into a fault-tolerant circuit, which performs the desired computation even when an almost-linear number of bits are adversarially chosen and corrupted in each timestep. Using a variant of this fault-tolerance scheme that only detects (rather than corrects) corruptions, we give a new construction of probabilistically checkable proofs (PCPs) for NP with polylogarithmic query complexity. This PCP construction from fault-tolerance presents a promising candidate for quantization by the work of Anshu, Breuckmann, and Nguyen (STOC'24), who provided a roadmap for constructing quantum PCPs via fault-tolerance.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.16860",
+  "pdf": "https://arxiv.org/pdf/2608.16860",
+  "html": "https://arxiv.org/html/2608.16860"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18T07:20:50.170Z",
+  "hook": "Compile an arbitrary classical circuit into a fault-tolerant circuit robust against an almost-linear number of corrupted bits.",
+  "tldr": [
+   "We compiled an arbitrary classical circuit into a fault-tolerant circuit that handles an almost-linear number of adversarially corrupted bits per timestep.",
+   "We used a variant of this fault-tolerance scheme that only detects corruptions rather than correcting them.",
+   "We constructed new probabilistically checkable proofs (PCPs) for NP with polylogarithmic query complexity."
+  ],
+  "whyItMatters": "This breakthrough bridges classical fault tolerance and proof verification, offering a promising foundation for building quantum PCPs.",
+  "eli5": "Imagine trying to send a secret message through a room full of pranksters who swap out letters. This paper shows how to wrap your message in special error-detecting armor so you can still read the original intent even if a huge fraction of it gets messed with maliciously.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "circuit",
+    "shortDef": "A network of logic gates that process bits to perform a computation.",
+    "eli5Def": "A maze of tiny switches that takes input data and flips them around to calculate an answer.",
+    "wikiTitle": "Digital circuit"
+   },
+   {
+    "term": "probabilistically checkable proofs",
+    "shortDef": "Proofs that can be verified by checking only a few randomly chosen parts.",
+    "eli5Def": "A massive homework book that a teacher can grade correctly by just spot-checking three random lines.",
+    "wikiTitle": "Probabilistically checkable proof"
+   },
+   {
+    "term": "polylogarithmic",
+    "shortDef": "Growing at a rate bounded by a polynomial in the logarithm of the input size.",
+    "eli5Def": "A growth rate that stays extremely small even when the problem gets immensely huge.",
+    "wikiTitle": "Polylogarithmic time"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

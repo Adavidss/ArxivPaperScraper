@@ -1,0 +1,76 @@
+{
+ "id": "2608.16835",
+ "version": 1,
+ "title": "Classical-limit formula for matrix elements between bound states of distinct one-dimensional potentials",
+ "authors": [
+  {
+   "name": "K. Beloy"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.atom-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-17T17:21:58Z",
+ "updated": "2026-08-17T17:21:58Z",
+ "abstract": "A classical-limit formula is derived for matrix elements between bound states of distinct one-dimensional potentials. We leave open the physical interpretation of the potentials, but generally envision them to be Born-Oppenheimer-type potentials with the position variable $x$ identifying with a slowly evolving degree of freedom of the system. For instance, $x$ could represent the internuclear separation in a diatomic molecule, with the potentials being potential energy curves for different electronic states. In this scenario, the matrix elements could be, e.g., conventional Franck-Condon factors. To test the derived formula, we assume functional forms for the potentials and operator that afford analytical solutions for the matrix elements. As the classical limit is approached, the computed matrix elements exhibit a clear tendency towards the classical-limit formula, providing strong validation for the formula. In future work, we anticipate using the formula to model inhomogeneous excitation spectra of atoms in one-dimensional optical lattices, with an eye towards improved optical lattice clock performance.",
+ "comment": "11 pages, 4 figures",
+ "doi": "10.1103/kyjq-2fc4",
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.16835",
+  "pdf": "https://arxiv.org/pdf/2608.16835",
+  "html": "https://arxiv.org/html/2608.16835"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18T07:20:50.170Z",
+  "hook": "Derived a new classical-limit formula for matrix elements between bound states of distinct one-dimensional potentials.",
+  "tldr": [
+   "Derived a classical-limit formula for matrix elements between bound states of distinct one-dimensional potentials.",
+   "Tested the formula by assuming functional forms that allow analytical solutions and checking convergence.",
+   "Found that computed matrix elements exhibit a clear tendency toward the classical-limit formula as the limit is approached."
+  ],
+  "whyItMatters": "This formula provides a new mathematical tool that could eventually help model atomic excitation spectra and improve the performance of optical lattice clocks.",
+  "eli5": "Imagine trying to calculate how a quantum system shifts between different energy shapes. This paper creates a shortcut formula that works when the quantum details blur into simpler classical physics, much like looking at a choppy ocean from an airplane so it smooths out.",
+  "keyNumbers": [
+   {
+    "value": "11",
+    "label": "Pages",
+    "context": "Length of the research paper"
+   },
+   {
+    "value": "4",
+    "label": "Figures",
+    "context": "Number of figures included in the manuscript"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Matrix elements",
+    "shortDef": "Mathematical quantities representing the probability or transition rate between quantum states.",
+    "eli5Def": "A score that tells you how likely it is for a quantum system to jump from one state to another.",
+    "wikiTitle": "Matrix element"
+   },
+   {
+    "term": "Bound states",
+    "shortDef": "Quantum states where a particle is confined in a region of space.",
+    "eli5Def": "A particle trapped in a specific area, like a marble stuck rolling back and forth at the bottom of a bowl.",
+    "wikiTitle": "Bound state"
+   },
+   {
+    "term": "Franck-Condon factors",
+    "shortDef": "Quantities that measure the overlap between vibrational wavefunctions in electronic transitions.",
+    "eli5Def": "A rule of thumb for how smoothly a molecule changes shape when its electrons get excited by light.",
+    "wikiTitle": "Franck–Condon principle"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

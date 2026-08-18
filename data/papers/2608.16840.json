@@ -1,0 +1,76 @@
+{
+ "id": "2608.16840",
+ "version": 1,
+ "title": "Global Minimax Readout of a Qubit Direction",
+ "authors": [
+  {
+   "name": "Abbas Taherpour"
+  },
+  {
+   "name": "Amirhossein Taherpour"
+  },
+  {
+   "name": "Tamer Khattab"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-17T17:26:32Z",
+ "updated": "2026-08-17T17:26:32Z",
+ "abstract": "We determine the exact worst-direction Fisher-information cost of using a parameter-independent readout to estimate an unknown qubit direction at known Bloch-vector length $η$. Every fixed-local architecture, including recorded classical randomization, heterogeneous single-copy measurements, and arbitrary outcome spaces, reduces exactly to a zero-barycenter probability measure on the Bloch ball. For every full-rank qubit and every trace-balanced spectral Fisher loss, the resulting minimax problem is rigid: the unique optimal aggregate design is the spin-coherent Haar positive-operator-valued measure (POVM). For $N$ copies, inverse-Fisher $A$ loss has the exact value $2/[Nf(η)]$, where $ f(η)= \\frac{2η-(1-η^2)\\log[(1+η)/(1-η)]}{4η}$. This uniqueness has an immediate finite-readout consequence. No finite-support measurement attains the unrestricted mixed-state optimum, while at the smallest globally regular support the tetrahedral symmetric informationally complete (SIC) measurement is uniquely $A$- and $D$-minimax, with exact worst-direction values. Relaxing the fixed-readout constraint separates the asymptotic resources: one-way local operations and classical communication (LOCC), unrestricted LOCC, and separable measurements have $A$-loss coefficient $4/η^2$, whereas collective measurements attain $2(1+η)/η^2$. We further classify the rigidity conditions for unequal contrasts and show that Haar uniqueness survives at the nonregular pure-state endpoint.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.16840",
+  "pdf": "https://arxiv.org/pdf/2608.16840",
+  "html": "https://arxiv.org/html/2608.16840"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18T07:20:50.170Z",
+  "hook": "For N copies, inverse-Fisher A loss has the exact value 2/[Nf(η)] where f(η) depends on Bloch-vector length η.",
+  "tldr": [
+   "We determined the exact worst-direction Fisher-information cost for estimating an unknown qubit direction.",
+   "We proved that the spin-coherent Haar positive-operator-valued measure is the unique optimal aggregate design.",
+   "We classified rigidity conditions and showed how resource requirements differ across various measurement frameworks."
+  ],
+  "whyItMatters": "It establishes the absolute physical limits on how precisely we can extract directional information from quantum systems.",
+  "eli5": "If you want to guess which way a microscopic quantum compass is pointing using limited clues, this paper figures out the absolute best measurement strategy and proves why it beats all others.",
+  "keyNumbers": [
+   {
+    "value": "2/[Nf(η)]",
+    "label": "Inverse-Fisher A loss",
+    "context": "Exact value for N copies given Bloch-vector length η."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Fisher information",
+    "shortDef": "A measure of the amount of information that an observable carries about an unknown parameter.",
+    "eli5Def": "A scorecard for how many helpful clues a measurement gives you about a hidden secret.",
+    "wikiTitle": "Fisher information"
+   },
+   {
+    "term": "Bloch ball",
+    "shortDef": "A geometric representation of the state space of a two-level quantum mechanical system.",
+    "eli5Def": "A sphere where every point represents a unique quantum state of a qubit.",
+    "wikiTitle": "Bloch sphere"
+   },
+   {
+    "term": "POVM",
+    "shortDef": "A generalization of quantum measurement where outcomes are described by positive operators.",
+    "eli5Def": "A flexible set of mathematical tools used to read out a quantum system.",
+    "wikiTitle": "POVM"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

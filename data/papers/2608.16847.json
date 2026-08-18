@@ -1,0 +1,75 @@
+{
+ "id": "2608.16847",
+ "version": 1,
+ "title": "Spectral Edge Rigidity of Quantum Chaotic States",
+ "authors": [
+  {
+   "name": "Joaquim Telles de Miranda"
+  },
+  {
+   "name": "Tobias Micklitz"
+  }
+ ],
+ "categories": [
+  "cond-mat.dis-nn",
+  "cond-mat.stat-mech",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.dis-nn",
+ "published": "2026-08-17T17:33:24Z",
+ "updated": "2026-08-17T17:33:24Z",
+ "abstract": "We determine the distribution of fidelity susceptibility for chaotic eigenstates at the spectral edge of Gaussian random-matrix ensembles. Previous work showed that, in the unitary class, the characteristic susceptibility scale of edge states grows as $D^{1/3}$, rather than proportionally to $D$ as in the spectral bulk, reflecting Airy-edge level rigidity. Extending a determinant-based framework introduced for bulk states, we derive the universal edge distributions for both the orthogonal and unitary ensembles. The two symmetry classes share the scaling variable $g/D^{1/3}$ and exhibit a symmetry-dependent cubic suppression of small susceptibilities, while their algebraic large-$g$ tails reflect the corresponding symmetry-dependent level repulsion. Although eigenvector statistics retain their random-matrix form throughout the spectrum, edge rigidity makes low-lying chaotic states parametrically less sensitive to generic perturbations than bulk states. Our results establish universal, symmetry-dependent spectral-edge fidelity-susceptibility statistics in systems whose chaotic dynamics extends down to the ground state.",
+ "comment": "9 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.16847",
+  "pdf": "https://arxiv.org/pdf/2608.16847",
+  "html": "https://arxiv.org/html/2608.16847"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18T07:20:50.170Z",
+  "hook": "Characteristic susceptibility scale of edge states grows as D^(1/3), reflecting Airy-edge level rigidity.",
+  "tldr": [
+   "We determined the distribution of fidelity susceptibility for chaotic eigenstates at the spectral edge of random-matrix ensembles.",
+   "We extended a determinant-based framework to derive universal edge distributions for both orthogonal and unitary ensembles.",
+   "We found that edge rigidity makes low-lying chaotic states parametrically less sensitive to perturbations than bulk states."
+  ],
+  "whyItMatters": "Understanding how quantum chaotic systems respond to changes at their boundaries helps physicists map out fundamental limits of quantum stability.",
+  "eli5": "Imagine a vibrating drum where most parts jiggle wildly, but the very edges are tightly locked down. This paper shows that quantum energy states at the edge are surprisingly stubborn and hard to shake up compared to states in the middle.",
+  "keyNumbers": [
+   {
+    "value": "D^{1/3}",
+    "label": "Susceptibility scale",
+    "context": "Growth rate of the characteristic susceptibility scale of edge states."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "fidelity susceptibility",
+    "shortDef": "A measure of how much a quantum state changes when the system is slightly perturbed.",
+    "eli5Def": "A score of how easily a delicate system gets knocked out of place when you poke it.",
+    "wikiTitle": null
+   },
+   {
+    "term": "eigenstate",
+    "shortDef": "A state of a system that does not change under the action of an operator except by a factor.",
+    "eli5Def": "A stable standing wave pattern of a quantum system.",
+    "wikiTitle": "Eigenvalues and eigenvectors"
+   },
+   {
+    "term": "random-matrix ensembles",
+    "shortDef": "Probability distributions over matrices used to model complex quantum systems.",
+    "eli5Def": "Collections of giant grids filled with random numbers that mimic chaotic physics.",
+    "wikiTitle": "Random matrix"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "2608.16815",
+ "version": 1,
+ "title": "Hundred-hertz quantum circuit iteration rate in a reusable neutral-atom array",
+ "authors": [
+  {
+   "name": "Liang Chen"
+  },
+  {
+   "name": "Wen-Yi Zhu"
+  },
+  {
+   "name": "Dong-Qi Ma"
+  },
+  {
+   "name": "Tian-Yang Zhang"
+  },
+  {
+   "name": "Zi-Jie Chen"
+  },
+  {
+   "name": "Yi-Chen Zhang"
+  },
+  {
+   "name": "Hong-Jie Fan"
+  },
+  {
+   "name": "Guang-Jie Chen"
+  },
+  {
+   "name": "Qing-Xuan Jie"
+  },
+  {
+   "name": "Wei-Zhou Cai"
+  },
+  {
+   "name": "Tian-Cai Zhang"
+  },
+  {
+   "name": "Luyan Sun"
+  },
+  {
+   "name": "Yan-Lei Zhang"
+  },
+  {
+   "name": "Xi-Feng Ren"
+  },
+  {
+   "name": "Guang-Can Guo"
+  },
+  {
+   "name": "Zhu-Bo Wang"
+  },
+  {
+   "name": "Ya-Dong Hu"
+  },
+  {
+   "name": "Gang Li"
+  },
+  {
+   "name": "Chang-Ling Zou"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-17T17:04:33Z",
+ "updated": "2026-08-17T17:04:33Z",
+ "abstract": "Neutral-atom quantum processors have rapidly advanced in scale and coherence, yet their practical performance remains constrained by limited quantum circuit iteration rates (qCIRs) and information throughput. Here we experimentally demonstrate a high-throughput neutral-atom system based on non-destructive readout and atom reuse. By integrating a chip-based photonic interface with a 10-qubit array, we implement non-destructive readout with a retention probability of 99.7%, and further achieve a raw qCIR of 101Hz and a post-selected qCIR of 74.8Hz. More importantly, we verify a general throughput optimization methodology and obtain a normalized Fisher information rate of 57.7Hz, improving the achievable throughput by more than one order of magnitude compared with conventional methods. Our results establish a practical route toward high-throughput neutral-atom quantum processors.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.16815",
+  "pdf": "https://arxiv.org/pdf/2608.16815",
+  "html": "https://arxiv.org/html/2608.16815"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.16815v1/Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18T07:20:50.170Z",
+  "hook": "Demonstrated a raw quantum circuit iteration rate of 101 Hz in a reusable neutral-atom quantum processor.",
+  "tldr": [
+   "Demonstrated a high-throughput neutral-atom quantum system using non-destructive readout and atom reuse.",
+   "Integrated a chip-based photonic interface with a 10-qubit array to preserve atoms with high retention probability.",
+   "Achieved a raw qCIR of 101 Hz and a normalized Fisher information rate of 57.7 Hz, boosting throughput."
+  ],
+  "whyItMatters": "Quantum computers are often slowed down by the need to reset and reload qubits; making them reusable dramatically speeds up how fast they can run computations.",
+  "eli5": "Instead of throwing away your building blocks and starting over every time you finish a puzzle, this technique lets you instantly reuse the same pieces, making the whole process more than ten times faster.",
+  "keyNumbers": [
+   {
+    "value": "10",
+    "label": "Qubits",
+    "context": "Size of the atom array used in the experiment"
+   },
+   {
+    "value": "99.7%",
+    "label": "Retention probability",
+    "context": "Success rate for keeping atoms intact during non-destructive readout"
+   },
+   {
+    "value": "101 Hz",
+    "label": "Raw qCIR",
+    "context": "Raw quantum circuit iteration rate achieved by the system"
+   },
+   {
+    "value": "74.8 Hz",
+    "label": "Post-selected qCIR",
+    "context": "Post-selected quantum circuit iteration rate"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Neutral-atom quantum processors",
+    "shortDef": "Quantum computers that use lasers to trap uncharged individual atoms in an array.",
+    "eli5Def": "Using invisible laser tweezers to hold tiny atoms in place like beads on an abacus to do math.",
+    "wikiTitle": "Quantum computer"
+   },
+   {
+    "term": "Non-destructive readout",
+    "shortDef": "Measuring the state of a qubit without destroying the atom or its quantum information.",
+    "eli5Def": "Checking what number is on a rolling die by looking at it without picking it up or knocking it over.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Fisher information rate",
+    "shortDef": "A metric quantifying the amount of useful information extracted per unit time.",
+    "eli5Def": "A speedometer measuring how fast you are gathering useful clues from an experiment.",
+    "wikiTitle": "Fisher information"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

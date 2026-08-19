@@ -1,0 +1,79 @@
+{
+ "id": "2608.18049",
+ "version": 1,
+ "title": "Long-time fermionic quantum transport with controlled full-state error using an adaptive reservoir-mode window",
+ "authors": [
+  {
+   "name": "Mikhail Umanskii"
+  },
+  {
+   "name": "Nataliya Arefyeva"
+  },
+  {
+   "name": "Georgy Sultanov"
+  },
+  {
+   "name": "Alexey Rubtsov"
+  },
+  {
+   "name": "Evgeny Polyakov"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-08-18T17:43:34Z",
+ "updated": "2026-08-18T17:43:34Z",
+ "abstract": "Real-time simulations of interacting nanostructures coupled to fermionic reservoirs can require a growing number of environmental degrees of freedom to retain long-lived correlations. We introduce tape-recorder coarse graining, which reorganizes each noninteracting lead into incoming, active, and outgoing modes. The device is propagated with the active modes, while outgoing modes are stochastically sampled and removed once their remaining integrated coupling falls below a prescribed threshold. For each outgoing-mode truncation, we derive a nonperturbative upper bound on the infidelity between the exact and truncated full device--reservoir states over any prescribed finite interval. The bound depends on the mode's remaining coupling weight and finite-interval response factors. Numerically, the active-mode count saturates in time at fixed relative threshold and grows logarithmically as the threshold is reduced. We benchmark the method on a two-site quantum point contact at zero temperature and maximal bias. For Lorentzian reservoirs, the dynamics agrees with converged HEOM calculations and the steady-state current with the Landauer--Büttiker result. For flat-band reservoirs with algebraically decaying correlations, it agrees with direct Schrödinger evolution before finite-size recurrences and reproduces the Landauer--Büttiker stationary current, while finite exponential HEOM decompositions remain unconverged. For interacting contacts, the method yields Coulomb-blockade peak splitting. In the noninteracting driven limit, it agrees with an exact Floquet Green-function calculation and reproduces coherent current suppression under periodic driving, which persists at finite Coulomb repulsion. Together, these benchmarks show that tape-recorder coarse graining enables practical long-time simulations of the full device--reservoir state in interacting fermionic transport.",
+ "comment": "28 pages, 12 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.18049",
+  "pdf": "https://arxiv.org/pdf/2608.18049",
+  "html": "https://arxiv.org/html/2608.18049"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.18049v1/elapsed_weight_basis_comparison.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19T07:21:23.492Z",
+  "hook": "We introduce tape-recorder coarse graining for real-time simulations of interacting nanostructures.",
+  "tldr": [
+   "Simulated long-time fermionic quantum transport by reorganizing leads into incoming, active, and outgoing modes.",
+   "Used stochastic sampling and truncation of outgoing modes once their integrated coupling falls below a threshold.",
+   "Derived a nonperturbative upper bound on the infidelity between exact and truncated states."
+  ],
+  "whyItMatters": "Simulating quantum materials over long time scales is computationally bottlenecked by environmental noise. This method makes long-time simulations of interacting quantum systems practical.",
+  "eli5": "Keeping track of a quantum particle interacting with a massive environment is like trying to record a massive orchestra with an infinite number of microphones. Instead of listening to everything forever, this method uses a moving 'tape recorder' that saves only the active notes and throws away old noise once it stops mattering.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Fermionic",
+    "shortDef": "Pertaining to fermions, particles like electrons that obey Fermi-Dirac statistics and the Pauli exclusion principle.",
+    "eli5Def": "Matter particles like electrons that refuse to occupy the exact same state at the exact same time.",
+    "wikiTitle": "Fermion"
+   },
+   {
+    "term": "Coarse graining",
+    "shortDef": "A simplification strategy that averages out fine-scale details to focus on larger-scale behavior.",
+    "eli5Def": "Zooming out so you see a smooth picture instead of tracking every single tiny pixel.",
+    "wikiTitle": "Coarse-graining"
+   },
+   {
+    "term": "Nonperturbative",
+    "shortDef": "Calculations that do not rely on small-parameter approximations.",
+    "eli5Def": "A math method that doesn't cheat by assuming changes are tiny; it handles wild, full-strength interactions directly.",
+    "wikiTitle": "Perturbation theory"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "2608.18065",
+ "version": 1,
+ "title": "Quantum Geometric Tensor Preconditioning for Stable Training of Recurrent Neural Quantum States",
+ "authors": [
+  {
+   "name": "Adil Attar"
+  },
+  {
+   "name": "Amine M. Aboussalah"
+  },
+  {
+   "name": "Mohamed Hibat-Allah"
+  }
+ ],
+ "categories": [
+  "cond-mat.dis-nn",
+  "cond-mat.str-el",
+  "physics.comp-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.dis-nn",
+ "published": "2026-08-18T17:54:08Z",
+ "updated": "2026-08-18T17:54:08Z",
+ "abstract": "Neural Quantum States (NQS) provide a powerful neural network-based variational framework for representing many-body wave functions and solving for ground states. Recurrent Neural Networks (RNNs) are particularly promising owing to their relatively low computational cost and their autoregressive property, which enables perfect sampling. Recently, RNNs have been reported to be unstable under curvature-based optimizers such as the minimum-step stochastic reconfiguration (minSR) method. In this paper, we address this perceived limitation and show that minSR can be stabilized through simple regularization techniques, enabling robust training of RNN-based NQS with only a few samples. Our approach outperforms the Adam optimizer on the one-dimensional transverse-field Ising model and the one-dimensional cluster state, and provides competitive results on the two-dimensional Heisenberg and $J_1-J_2$ models. This work offers a promising pathway for using modern optimization techniques with autoregressive NQS to address open questions in quantum simulation.",
+ "comment": "24 pages, 6 figures, 2 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.18065",
+  "pdf": "https://arxiv.org/pdf/2608.18065",
+  "html": "https://arxiv.org/html/2608.18065"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.18065v1/LL-tfim.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19T07:21:23.492Z",
+  "hook": "Applying quantum geometric tensor preconditioning successfully stabilizes recurrent neural network quantum state training.",
+  "tldr": [
+   "Addressed training instabilities of Recurrent Neural Networks (RNNs) under curvature-based optimizers for neural quantum states.",
+   "Stabilized the minimum-step stochastic reconfiguration method using simple regularization techniques.",
+   "Outperformed the Adam optimizer on 1D transverse-field Ising and cluster models while matching 2D Heisenberg results."
+  ],
+  "whyItMatters": "Simulating quantum physics using neural networks can unlock discoveries in materials science, but the software often crashes or trains poorly. This fix makes AI-driven quantum simulations stable and efficient.",
+  "eli5": "Training artificial intelligence to simulate quantum molecules is like teaching a robot to balance on a unicycle; it usually falls over easily. This research adds training wheels that keep the AI balanced so it can finish the job.",
+  "keyNumbers": [
+   {
+    "value": "24",
+    "label": "Pages",
+    "context": "Length of the manuscript"
+   },
+   {
+    "value": "6",
+    "label": "Figures",
+    "context": "Performance and benchmark charts"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Neural Quantum States",
+    "shortDef": "Using artificial neural networks to represent complex quantum wave functions.",
+    "eli5Def": "Using computer brain software to guess and simulate how quantum particles interact.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Recurrent Neural Networks",
+    "shortDef": "A class of artificial neural networks designed for sequential data using internal memory.",
+    "eli5Def": "An AI architecture that reads data step-by-step, remembering what it saw a moment ago.",
+    "wikiTitle": "Recurrent neural network"
+   },
+   {
+    "term": "Transverse-field Ising model",
+    "shortDef": "A mathematical model of interacting magnetic spins in a transverse magnetic field.",
+    "eli5Def": "A standard physics sandbox game filled with tiny magnetic compasses pointing up and down.",
+    "wikiTitle": "Ising model"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

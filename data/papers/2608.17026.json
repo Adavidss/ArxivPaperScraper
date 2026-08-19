@@ -1,0 +1,100 @@
+{
+ "id": "2608.17026",
+ "version": 1,
+ "title": "Eigenframe Synchronization in Disordered Driven Quantum Ensembles",
+ "authors": [
+  {
+   "name": "Saipriya Satyajit"
+  },
+  {
+   "name": "Zechuan Yin"
+  },
+  {
+   "name": "Jner Tzern Oon"
+  },
+  {
+   "name": "Katrijn Everaert"
+  },
+  {
+   "name": "Smriti Bhalerao"
+  },
+  {
+   "name": "John W. Blanchard",
+   "followedId": "john-w-blanchard"
+  },
+  {
+   "name": "Christopher Jarzynski"
+  },
+  {
+   "name": "Ronald L. Walsworth",
+   "followedId": "ronald-walsworth"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-17T18:23:50Z",
+ "updated": "2026-08-17T18:23:50Z",
+ "abstract": "Periodic driving underlies many forms of quantum control, including spin-based quantum sensing. However, in an ensemble sensor, one waveform must act on spins with different detunings, drive amplitudes, hyperfine environments, and local fields. Existing robust-control approaches to such disorder are usually framed in terms of coherence, effective Hamiltonians, filter functions, or refocusing. Here we identify a complementary geometric requirement for collective ensemble Floquet control: disorder realizations must share a common Floquet eigenframe. When this condition is met, initialization, protection, signal coupling, and readout are defined in one dressed basis, so the ensemble responds as a collective Floquet sensor rather than as an average over inequivalent driven members. We make this condition measurable with an eigenvector-based synchronization order parameter and a complementary fragmentation metric that quantify the alignment and spread of Floquet quantization axes across the ensemble. As one realization of this framework, we use a continuous counterdiabatic Floquet drive to derive synchronization criteria and predict resonance-governed breakdown at the first two low-order commensurabilities between the engineered Floquet gap and the drive modulation, with detuning and amplitude disorder producing distinct breakdown channels. Experiments on a nitrogen-vacancy (NV) ensemble in diamond verify the synchronized regime through long-lived collective oscillations, a two-dimensional disorder-robustness map, and breakdown resonances that shift with the modulation rate. Finally, we demonstrate a harmonic-free continuous-drive AC magnetometry protocol whose collective single-tone response is enabled by the synchronized Floquet eigenframe. These results establish Floquet eigenframe synchronization as a measurable condition for disorder-resilient collective control and quantum sensing.",
+ "comment": "12 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.17026",
+  "pdf": "https://arxiv.org/pdf/2608.17026",
+  "html": "https://arxiv.org/html/2608.17026"
+ },
+ "source": "follow",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.17026v1/images/AFS_adiabatic_sigma_Q_with_bloch_5_PRL.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19T07:21:23.492Z",
+  "hook": "Researchers achieved disorder-resilient quantum sensing in a diamond nitrogen-vacancy ensemble using a shared Floquet eigenframe.",
+  "tldr": [
+   "Identified a geometric requirement for collective ensemble Floquet control where disordered quantum systems share a common eigenframe.",
+   "Used a continuous counterdiabatic Floquet drive and tested it on a nitrogen-vacancy ensemble in diamond.",
+   "Demonstrated long-lived collective oscillations, robustness maps, and a harmonic-free AC magnetometry protocol."
+  ],
+  "whyItMatters": "Building better quantum sensors usually requires fighting against tiny imperfections in every atom or spin. This research shows that if you make all the disordered parts march to the exact same geometric beat, they act as one powerful collective sensor.",
+  "eli5": "Imagine a marching band where every musician plays a slightly different instrument out of tune. Instead of fixing every instrument individually, you play a specific rhythm that forces everyone's sound to lock into the exact same harmony, making the whole band sound like one giant, perfect instrument.",
+  "keyNumbers": [
+   {
+    "value": "12",
+    "label": "Pages",
+    "context": "Length of the research paper"
+   },
+   {
+    "value": "5",
+    "label": "Figures",
+    "context": "Visual data and experimental plots in the paper"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Floquet",
+    "shortDef": "Describes quantum systems subjected to periodic, repeating time-dependent driving forces.",
+    "eli5Def": "Like a playground swing that you push at the exact same rhythm every time to keep it going.",
+    "wikiTitle": "Floquet theory"
+   },
+   {
+    "term": "Nitrogen-vacancy center",
+    "shortDef": "A specific atomic defect in diamond used as a sensitive quantum probe.",
+    "eli5Def": "A tiny microscopic flaw trapped inside a diamond crystal that acts like a super-sensitive magnetic compass.",
+    "wikiTitle": "Nitrogen-vacancy center"
+   },
+   {
+    "term": "Magnetometry",
+    "shortDef": "The measurement of magnetic fields.",
+    "eli5Def": "Using high-tech tools to measure invisible magnetic forces around an object.",
+    "wikiTitle": "Magnetometer"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "id": "2608.18071",
+ "version": 1,
+ "title": "Ultrafast and high resolution spatial light modulation for cold atoms",
+ "authors": [
+  {
+   "name": "Alexander Dennisovich Deters"
+  },
+  {
+   "name": "Yanfei Li"
+  },
+  {
+   "name": "Alexander Douglas"
+  },
+  {
+   "name": "Markus Greiner"
+  },
+  {
+   "name": "Aaron W. Young"
+  }
+ ],
+ "categories": [
+  "physics.atom-ph",
+  "cond-mat.quant-gas",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.atom-ph",
+ "published": "2026-08-18T17:56:25Z",
+ "updated": "2026-08-18T17:56:25Z",
+ "abstract": "Programmable arrays of ultracold atoms are a leading platform for quantum computation and simulation, enabling state-of-the-art implementations of quantum error correction, and analog simulations of Hubbard models that address open problems in condensed matter physics. In these systems, all local control is mediated through precisely shaped optical fields, and so the challenge of managing many-body quantum states becomes an exercise in optical design. In particular, one wishes for fast, flexible control with low disorder and heating, and access to large arrays with many atoms. An ideal optical system therefore must generate arbitrary patterns with high spatial resolution and low disorder, and alter these patterns on a timescale that is faster than the relevant atomic dynamics. Here, we present an optical system that is comparable to previous approaches in scale, while advancing all other axes. We demonstrate arbitrary pattern generation with $10^{-3}$ intensity resolution, a frame rate of $>84$ MFPS (megaframes per second), and a spatial resolution of $83 \\times 52$ beam waists (with $11 \\times 52$ waists accessible via a single $40$ GHz electro-optic modulator). These capabilities unlock a new class of experiments. We develop and numerically validate a scheme for fully programmable Hubbard models, with time-dependent control over local chemical potentials, tunneling amplitudes, on-site interactions, and patterns of artificial magnetic flux. The same architecture performs fast, arbitrary permutations of tweezers in 2D, decoupling optical constraints from the design of high-rate error-correcting codes.",
+ "comment": "7+12 pages, 4+10 figures, 8 supplementary videos included as ancillary files",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.18071",
+  "pdf": "https://arxiv.org/pdf/2608.18071",
+  "html": "https://arxiv.org/html/2608.18071"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.18071v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19T07:21:23.492Z",
+  "hook": "New optical system projects programmable cold atom patterns at >84 megakrames per second with 10^-3 intensity resolution.",
+  "tldr": [
+   "Designed an ultrafast and high-resolution spatial light modulation system for controlling cold atom arrays.",
+   "Used a combination of optical design and a 40 GHz electro-optic modulator to shape optical fields.",
+   "Demonstrated 10^-3 intensity resolution, a frame rate over 84 MFPS, and spatial resolution up to 83 by 52 beam waists."
+  ],
+  "whyItMatters": "Controlling individual atoms with laser light is the backbone of advanced quantum computers and simulators. Faster, cleaner optical control lets scientists simulate complex materials and run quantum error correction much more efficiently.",
+  "eli5": "Think of a high-tech movie projector that can flash thousands of incredibly detailed pictures of laser traps every microsecond, moving tiny cold atoms around like chess pieces on a board faster than they have time to wiggle away.",
+  "keyNumbers": [
+   {
+    "value": "10^-3",
+    "label": "Intensity resolution",
+    "context": "Precision of the generated optical pattern intensities"
+   },
+   {
+    "value": ">84",
+    "label": "MFPS",
+    "context": "Megaframe per second frame rate of the optical system"
+   },
+   {
+    "value": "40",
+    "label": "GHz",
+    "context": "Modulator frequency used for the spatial light modulation"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Spatial light modulation",
+    "shortDef": "The ability to dynamically shape the wavefront and intensity of a light beam.",
+    "eli5Def": "Like a digital projector that paints custom shapes and patterns using laser light.",
+    "wikiTitle": "Spatial light modulator"
+   },
+   {
+    "term": "Cold atoms",
+    "shortDef": "Atoms cooled to temperatures near absolute zero using lasers and magnetic fields.",
+    "eli5Def": "A group of atoms brought to a near-complete standstill with lasers so scientists can study them like Lego blocks.",
+    "wikiTitle": "Atomic gas"
+   },
+   {
+    "term": "Electro-optic modulator",
+    "shortDef": "A device that uses electrical signals to alter properties of a light beam.",
+    "eli5Def": "A high-speed electronic gate that tweaks a laser beam instantly using electricity.",
+    "wikiTitle": "Electro-optic modulator"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

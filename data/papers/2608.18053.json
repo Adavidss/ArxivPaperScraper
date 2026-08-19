@@ -1,0 +1,82 @@
+{
+ "id": "2608.18053",
+ "version": 1,
+ "title": "A Complete Classification of Complex Hadamard Matrices of Order Six",
+ "authors": [
+  {
+   "name": "Mateo Cárdenes Wuttig"
+  },
+  {
+   "name": "Joseph Tindall"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "math.CO"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-18T17:46:58Z",
+ "updated": "2026-08-18T17:46:58Z",
+ "abstract": "Complex Hadamard matrices encode perfectly balanced unitary transformations. They underlie mutually unbiased quantum measurements and multiphoton interferometry. Their classification is complete through order five, but order six -- the first dimension in which several continuous families coexist with an isolated solution -- has remained open for decades. Here, we give a complete and exact finite-incidence classification of order-six complex Hadamard matrices up to standard equivalence. We first prove that every such matrix can be constructed from an initial dephased $3 \\times 3$ corner by a finite, branch-complete procedure. This supplies the global step missing from Szöllősi's dilation method and proves his conjecture: up to standard equivalence, every class outside Karlsson's three-parameter family and Tao's isolated matrix is recovered algebraically from a suitable corner. We then describe the geometry of the reconstruction from four initial phases and show that, except for Tao's isolated matrix and a single explicit Karlsson matrix, every class admits a representative obtained by solving one quadratic and one cubic equation in both the horizontal and vertical directions. Our work resolves the classification problem and provides a rigorous framework for further investigating order-six Hadamards, with applications to balanced six-mode interferometers and the study of mutually unbiased bases.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.18053",
+  "pdf": "https://arxiv.org/pdf/2608.18053",
+  "html": "https://arxiv.org/html/2608.18053"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.18053v1/seed_geometry.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19T07:21:23.492Z",
+  "hook": "We give a complete and exact finite-incidence classification of order-six complex Hadamard matrices.",
+  "tldr": [
+   "Classified all complex Hadamard matrices of order six, solving a problem open for decades.",
+   "Proved every such matrix can be constructed from an initial dephased 3x3 corner via a finite procedure.",
+   "Proved Szöllősi's conjecture by showing how classes are algebraically recovered from corners."
+  ],
+  "whyItMatters": "Complex Hadamard matrices underlie quantum measurements and multiphoton interferometry. Fully classifying order six—the first dimension where continuous families and isolated solutions coexist—resolves a decades-old mathematical problem.",
+  "eli5": "Imagine trying to sort every possible puzzle piece of a specific size into neat categories. Mathematicians had sorted smaller puzzle pieces easily, but order-six pieces were so messy and mixed that they remained unsolved for decades. This paper finally figures out the master recipe to build and classify every single one of them.",
+  "keyNumbers": [
+   {
+    "value": "six",
+    "label": "Order of matrices",
+    "context": "The first dimension where continuous families coexist with an isolated solution."
+   },
+   {
+    "value": "3x3",
+    "label": "Corner dimension",
+    "context": "The initial dephased corner from which every matrix can be constructed."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Hadamard matrix",
+    "shortDef": "A square matrix whose entries are plus or minus ones and whose rows are mutually orthogonal.",
+    "eli5Def": "A grid of numbers that are perfectly balanced against each other, like a super-organized tic-tac-toe board.",
+    "wikiTitle": "Hadamard matrix"
+   },
+   {
+    "term": "Interferometry",
+    "shortDef": "A technique using the pattern of superimposed waves to make precise measurements.",
+    "eli5Def": "Merging light waves together to look at interference patterns and learn about tiny objects.",
+    "wikiTitle": "Interferometry"
+   },
+   {
+    "term": "Unitary transformation",
+    "shortDef": "A linear transformation that preserves lengths and inner products in quantum mechanics.",
+    "eli5Def": "An operation that rotates or rearranges quantum states without losing or changing any total information.",
+    "wikiTitle": "Unitary transformation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

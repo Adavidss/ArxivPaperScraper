@@ -1,63 +1,6 @@
 {
- "generatedAt": "2026-08-18T07:20:50.170Z",
+ "generatedAt": "2026-08-19T07:21:23.492Z",
  "suggestions": [
-  {
-   "name": "Shantam Ravan",
-   "slug": "shantam-ravan",
-   "score": 6,
-   "coAuthoredWith": [
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2608.11561",
-    "2606.05426"
-   ],
-   "recentTitles": [
-    "Spatially Resolving the Pre-Thermal Anatomy of a Driven Bosonic Fluid",
-    "A nanoscale magnetic spectrum analyzer based on qubit dressed states"
-   ],
-   "paperCount": 2
-  },
-  {
-   "name": "Daniel Fernandez",
-   "slug": "daniel-fernandez",
-   "score": 6,
-   "coAuthoredWith": [
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2608.11561",
-    "2606.05426"
-   ],
-   "recentTitles": [
-    "Spatially Resolving the Pre-Thermal Anatomy of a Driven Bosonic Fluid",
-    "A nanoscale magnetic spectrum analyzer based on qubit dressed states"
-   ],
-   "paperCount": 2
-  },
-  {
-   "name": "Amir Yacoby",
-   "slug": "amir-yacoby",
-   "score": 6,
-   "coAuthoredWith": [
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2608.11561",
-    "2606.05426"
-   ],
-   "recentTitles": [
-    "Spatially Resolving the Pre-Thermal Anatomy of a Driven Bosonic Fluid",
-    "A nanoscale magnetic spectrum analyzer based on qubit dressed states"
-   ],
-   "paperCount": 2
-  },
   {
    "name": "Martin B. Plenio",
    "slug": "martin-b-plenio",
@@ -201,6 +144,62 @@
     "Hardware Robustness of Sample-Based Quantum Diagonalization"
    ],
    "paperCount": 3
+  },
+  {
+   "name": "Mengxin Zheng",
+   "slug": "mengxin-zheng",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2607.19318",
+    "2607.18196",
+    "2607.18126"
+   ],
+   "recentTitles": [
+    "SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming",
+    "Hardware Robustness of Sample-Based Quantum Diagonalization"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Saipriya Satyajit",
+   "slug": "saipriya-satyajit",
+   "score": 3,
+   "coAuthoredWith": [
+    "john-w-blanchard",
+    "ronald-walsworth"
+   ],
+   "viaKeywords": [],
+   "viaCategories": [],
+   "paperIds": [
+    "2608.17026"
+   ],
+   "recentTitles": [
+    "Eigenframe Synchronization in Disordered Driven Quantum Ensembles"
+   ],
+   "paperCount": 1
+  },
+  {
+   "name": "Zechuan Yin",
+   "slug": "zechuan-yin",
+   "score": 3,
+   "coAuthoredWith": [
+    "john-w-blanchard",
+    "ronald-walsworth"
+   ],
+   "viaKeywords": [],
+   "viaCategories": [],
+   "paperIds": [
+    "2608.17026"
+   ],
+   "recentTitles": [
+    "Eigenframe Synchronization in Disordered Driven Quantum Ensembles"
+   ],
+   "paperCount": 1
   }
  ]
 }

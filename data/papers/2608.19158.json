@@ -1,0 +1,86 @@
+{
+ "id": "2608.19158",
+ "version": 1,
+ "title": "Quantum Speedups Require Structure or Depth",
+ "authors": [
+  {
+   "name": "Guy Blanc"
+  },
+  {
+   "name": "Jordan Docter"
+  },
+  {
+   "name": "Carmen Strassle"
+  },
+  {
+   "name": "Li-Yang Tan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-19T17:42:10Z",
+ "updated": "2026-08-19T17:42:10Z",
+ "abstract": "One of the most basic conjectures in quantum complexity theory states that every $t$-query quantum algorithm can be simulated on most inputs by a $\\mathrm{poly}(t)$-query classical algorithm. If true, this would provide broad justification for the need for structure in quantum speedups. We settle this conjecture for parallel quantum algorithms, showing that every $t$-query $d$-round quantum algorithm can be simulated on most inputs with $t^{O(d^2)}$ classical queries. This suggests that for unstructured problems, superpolynomial speedups would require quantum circuits of superconstant depth, and exponential speedups would further require polynomial depth. In contrast, most known speedups for structured problems are achieved by highly parallel, low-depth algorithms. Our techniques also carry new implications for the status of $\\mathsf{BPP}$ vs. $\\mathsf{BQP}$ relative to a random oracle, a similarly longstanding problem.",
+ "comment": "FOCS 2026",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.19158",
+  "pdf": "https://arxiv.org/pdf/2608.19158",
+  "html": "https://arxiv.org/html/2608.19158"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-20T07:24:25.953Z",
+  "hook": "Quantum algorithms require high circuit depth or structured inputs to achieve superpolynomial speedups over classical code.",
+  "tldr": [
+   "Proved that parallel quantum algorithms with low rounds can be simulated classically on average.",
+   "Constructed a classical simulator requiring only t^{O(d^2)} queries for t-query, d-round quantum routines.",
+   "Demonstrated that unstructured quantum speedups demand superconstant or polynomial circuit depth."
+  ],
+  "whyItMatters": "It pinpoints the strict structural and circuit-depth constraints needed for quantum computers to truly outperform classical supercomputers.",
+  "eli5": "Quantum computers cannot easily beat regular computers on random puzzles unless they run for many sequential steps. Low-depth quantum shortcuts only work on puzzles with special hidden patterns.",
+  "keyNumbers": [
+   {
+    "value": "t^{O(d^2)}",
+    "label": "Classical query complexity",
+    "context": "Queries needed to classically simulate a t-query, d-round quantum algorithm on most inputs."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Query complexity",
+    "shortDef": "The number of oracle queries an algorithm makes to compute a function.",
+    "eli5Def": "How many questions an algorithm must ask a black-box database to solve a puzzle.",
+    "wikiTitle": "Query complexity"
+   },
+   {
+    "term": "BQP",
+    "shortDef": "Bounded-error Quantum Polynomial-time; the class of decision problems solvable by a polynomial-time quantum computer.",
+    "eli5Def": "The collection of all problems a realistic quantum computer can solve efficiently.",
+    "wikiTitle": "BQP"
+   },
+   {
+    "term": "BPP",
+    "shortDef": "Bounded-error Probabilistic Polynomial-time; the class of decision problems solvable by randomized classical computers.",
+    "eli5Def": "The class of problems that standard computers using randomness can solve quickly.",
+    "wikiTitle": "BPP (complexity)"
+   },
+   {
+    "term": "Random oracle",
+    "shortDef": "An oracle responding to every query with a uniformly chosen random response.",
+    "eli5Def": "A hypothetical black box that returns totally random answers to new questions.",
+    "wikiTitle": "Random oracle"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

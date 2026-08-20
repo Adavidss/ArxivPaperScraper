@@ -1,0 +1,75 @@
+{
+ "id": "2608.19130",
+ "version": 1,
+ "title": "Connectivity--Interference Competition in Coherent Transport on Percolated Hierarchical Small-World Networks",
+ "authors": [
+  {
+   "name": "Miquéias Jacinto Cirino"
+  },
+  {
+   "name": "Marcos César de Oliveira"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-19T17:26:32Z",
+ "updated": "2026-08-19T17:26:32Z",
+ "abstract": "Adding links generally improves classical transport by increasing the number of available paths. We show that coherent quantum transport can display the opposite behavior. Using continuous-time quantum walks on a percolated hierarchical small-world network, we identify a coherent overconnectivity penalty: root-to-boundary transport is maximized at intermediate bond probability and decreases as the network approaches full connectivity. The effect is quantified by the final-layer limiting probability $χ_N$ and by the penalty $P_Q=1-χ_N(p=1)/\\max_pχ_N(p)$, which measures the loss caused by making the architecture fully connected. The optimum results from a competition between shortcut-assisted spreading and interference-induced intra-layer recirculation. Spectral analysis shows that bond dilution creates motif-induced degeneracies and reorganizes the eigenstates connecting the root to the outermost layer. A comparison with dephased and classical transport shows that the non-monotonic landscape is not a purely geometrical percolation effect, but a coherent architecture-dependent phenomenon. These results provide a design principle for coherent transport in disordered photonic and quantum-network architectures.",
+ "comment": "6 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.19130",
+  "pdf": "https://arxiv.org/pdf/2608.19130",
+  "html": "https://arxiv.org/html/2608.19130"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.19130v1/figure-schematic_model.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-20T07:24:25.953Z",
+  "hook": "In quantum networks, adding more connections can actually reduce transport efficiency instead of improving it.",
+  "tldr": [
+   "Studied coherent quantum particle transport across percolated hierarchical small-world networks.",
+   "Simulated continuous-time quantum walks and analyzed energy spectra across varying bond connection probabilities.",
+   "Discovered that intermediate connectivity maximizes transport, whereas full connectivity causes destructive recirculation."
+  ],
+  "whyItMatters": "Designing efficient quantum internet architectures or photonic processors requires understanding that quantum interference penalizes over-connected network layouts.",
+  "eli5": "In a road network, adding more highways usually speeds up traffic. But for quantum particles behaving like waves, too many paths cause the waves to collide and trap each other in endless loops instead of reaching the destination.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Coherent transport",
+    "shortDef": "Movement of quantum states that preserves wave phase relationships and enables interference.",
+    "eli5Def": "Particles moving like crisp, unbroken ripples across a surface without getting scrambled.",
+    "wikiTitle": "Quantum decoherence"
+   },
+   {
+    "term": "Continuous-time quantum walk",
+    "shortDef": "Quantum counterpart of a classical random walk where particle propagation evolves continuously.",
+    "eli5Def": "A way quantum particles explore multiple network paths simultaneously over time.",
+    "wikiTitle": "Quantum walk"
+   },
+   {
+    "term": "Small-world network",
+    "shortDef": "A network structure where most nodes are connected via a small number of intermediary steps.",
+    "eli5Def": "A graph with handy shortcuts so any two points are just a few hops apart.",
+    "wikiTitle": "Small-world network"
+   },
+   {
+    "term": "Percolation",
+    "shortDef": "The study of the formation and connectivity of long-range paths in random graphs or networks.",
+    "eli5Def": "What happens when you randomly open or close roads until an entire city becomes traversable.",
+    "wikiTitle": "Percolation theory"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

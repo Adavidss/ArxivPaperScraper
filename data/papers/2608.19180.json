@@ -1,0 +1,96 @@
+{
+ "id": "2608.19180",
+ "version": 1,
+ "title": "Electrostriction in a Bose-Einstein Condensate of Dipolar Molecules",
+ "authors": [
+  {
+   "name": "Haneul Kwak"
+  },
+  {
+   "name": "Ian Stevenson"
+  },
+  {
+   "name": "Weijun Yuan"
+  },
+  {
+   "name": "Siwei Zhang"
+  },
+  {
+   "name": "Asaf Toprakci"
+  },
+  {
+   "name": "Lin Su"
+  },
+  {
+   "name": "Tijs Karman"
+  },
+  {
+   "name": "Sebastian Will"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "physics.atm-clus",
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-08-19T17:54:42Z",
+ "updated": "2026-08-19T17:54:42Z",
+ "abstract": "The recent creation of a Bose-Einstein condensate (BEC) of dipolar molecules has opened a new frontier for many-body quantum systems in which dipolar interactions can drive novel self-organization phenomena. Here, we observe electrostriction in a molecular BEC, an elliptical deformation driven by anisotropic dipolar interactions. We use double microwave dressing, involving $σ$- and $π$-polarized fields, to control non-axially symmetric dipolar interactions. We compare the experimental observations of electrostriction to a model based on an extended Gross-Pitaevskii equation and find excellent agreement in the regime of weak to moderate interactions. Using electrostriction, we demonstrate that the molecular BEC can be torqued by dynamically changing the orientation of the elliptical $σ$ microwave field. This provides a route to setting molecular quantum gases into rotation, opening opportunities to probe vorticity, superfluidity, and supersolidity in strongly dipolar matter.",
+ "comment": "8 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.19180",
+  "pdf": "https://arxiv.org/pdf/2608.19180",
+  "html": "https://arxiv.org/html/2608.19180"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.19180v1/Figure1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-20T07:24:25.953Z",
+  "hook": "Researchers dynamically torqued a molecular Bose-Einstein condensate using microwave-driven electrostriction.",
+  "tldr": [
+   "Observed electrostriction and applied dynamic torque in a Bose-Einstein condensate of dipolar molecules.",
+   "Engineered asymmetric dipolar interactions using dual sigma- and pi-polarized microwave dressing fields.",
+   "Matched experimental elliptical deformations to an extended Gross-Pitaevskii equation across weak-to-moderate coupling."
+  ],
+  "whyItMatters": "Controlling the shape and rotation of dipolar molecular condensates unlocks new ways to study exotic quantum states like supersolids and quantum vortices.",
+  "eli5": "Imagine a drop of magnetic liquid that you can stretch into an oval and spin around just by rotating an invisible microwave field. Scientists did this with ultracold molecules acting together as one giant quantum wave.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Bose-Einstein condensate",
+    "shortDef": "A state of matter where dilute particles cool near absolute zero and collapse into a single quantum state.",
+    "eli5Def": "A super-chilled cloud of particles that act in unison like one giant super-particle.",
+    "wikiTitle": "Bose–Einstein condensate"
+   },
+   {
+    "term": "Electrostriction",
+    "shortDef": "A mechanical deformation of a dielectric material caused by an applied electric field.",
+    "eli5Def": "When an object changes its physical shape because electric forces pull on its charges.",
+    "wikiTitle": "Electrostriction"
+   },
+   {
+    "term": "Gross-Pitaevskii equation",
+    "shortDef": "A non-linear equation describing the ground state of a system of identical bosons.",
+    "eli5Def": "The master physics formula used to predict how a supercold quantum cloud moves and changes shape.",
+    "wikiTitle": "Gross–Pitaevskii equation"
+   },
+   {
+    "term": "Supersolidity",
+    "shortDef": "A spatial quantum state of matter possessing both crystalline structure and frictionless superfluidity.",
+    "eli5Def": "A weird state of matter that is simultaneously a rigid crystal and a frictionless liquid.",
+    "wikiTitle": "Supersolid"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

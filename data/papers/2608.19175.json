@@ -1,0 +1,86 @@
+{
+ "id": "2608.19175",
+ "version": 1,
+ "title": "State--Generator Geometry of Open Quantum Systems: Compatibility and Covariant Transport",
+ "authors": [
+  {
+   "name": "Eric R. Bittner"
+  },
+  {
+   "name": "Carlos Silva-Acuna"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-19T17:52:08Z",
+ "updated": "2026-08-19T17:52:08Z",
+ "abstract": "We develop a geometry for transporting stationary-state response across the control space of an open quantum system. A physical model is represented by the ordered pair of its stationary state and dynamical generator. Embedding these pairs in a common ambient space induces a metric, a response one-form, and a closed two-form on the control manifold. The ambient space admits a canonical complex structure that exchanges state and generator directions, but the Liouvillian null-state condition restricts physical models to a submanifold that need not preserve this structure. For an amplitude-damped optical Bloch model, the metric and response two-form are compatible at the single point $ω=0$ and $g/Γ=1/\\sqrt{2}$; the physical manifold is non-Kähler elsewhere. The induced metric defines the Levi--Civita connection, geodesics, and parallel transport without requiring Kähler compatibility. We compute the connection by automatic differentiation through the stationary Liouvillian solve and recover the symbolic result to machine precision. A two-point calculation then shows that the resulting geodesic differs from linear interpolation in control space and follows a shorter path through the family of state--generator models. This geometry supplies the intrinsic derivative and transport structure needed to carry observable response, including multidimensional spectra, between admissible stationary models.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.19175",
+  "pdf": "https://arxiv.org/pdf/2608.19175",
+  "html": "https://arxiv.org/html/2608.19175"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.19175v1/figures/kahler_compatibility_ratio.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-20T07:24:25.953Z",
+  "hook": "A new geometric framework models state-generator transport in open quantum systems without requiring Kahler symmetry.",
+  "tldr": [
+   "Constructed a differential geometry on the control manifold of open quantum systems combining states and generators.",
+   "Used automatic differentiation through stationary Liouvillian solves to evaluate connections and geodesics.",
+   "Discovered that physical geodesics depart from linear interpolation to provide shorter control paths."
+  ],
+  "whyItMatters": "It establishes a mathematically rigorous path for transporting multidimensional quantum spectra and response functions across system parameters.",
+  "eli5": "Steering a quantum system that leaks energy is like navigating a curved surface. This paper builds a math map to find the shortest, true physical route to change system controls.",
+  "keyNumbers": [
+   {
+    "value": "ω=0",
+    "label": "Frequency parameter",
+    "context": "The single frequency value where metric and response two-form are compatible in the Bloch model."
+   },
+   {
+    "value": "1/√2",
+    "label": "g/Γ ratio",
+    "context": "The coupling-to-damping ratio for compatibility in an amplitude-damped optical Bloch model."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Open quantum system",
+    "shortDef": "A quantum-mechanical system that interacts with an external environment or reservoir.",
+    "eli5Def": "A quantum system that leaks or exchanges energy with the outside world.",
+    "wikiTitle": "Open quantum system"
+   },
+   {
+    "term": "Liouvillian",
+    "shortDef": "The superoperator generator governing the time evolution of open quantum density matrices.",
+    "eli5Def": "The math engine that describes how a leaky quantum system changes over time.",
+    "wikiTitle": "Lindbladian"
+   },
+   {
+    "term": "Levi-Civita connection",
+    "shortDef": "The unique torsion-free metric connection on a Riemannian manifold that preserves the metric.",
+    "eli5Def": "The standard rule for moving vectors smoothly along curved surfaces without twisting them.",
+    "wikiTitle": "Levi-Civita connection"
+   },
+   {
+    "term": "Geodesic",
+    "shortDef": "The shortest or stationary path between points on a curved manifold.",
+    "eli5Def": "The straightest possible line on a curved surface.",
+    "wikiTitle": "Geodesic"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

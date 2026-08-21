@@ -1,0 +1,92 @@
+{
+ "id": "2608.20327",
+ "version": 1,
+ "title": "Competing triangular and stripe supersolid orders in a dipolar quantum gas",
+ "authors": [
+  {
+   "name": "Karthik Chandrashekara"
+  },
+  {
+   "name": "Christian Gölzhäuser"
+  },
+  {
+   "name": "Lily Platt"
+  },
+  {
+   "name": "Jianshun Gao"
+  },
+  {
+   "name": "Julian Kusch"
+  },
+  {
+   "name": "Lennart Hoenen"
+  },
+  {
+   "name": "Manon Ballu"
+  },
+  {
+   "name": "Wyatt Kirkby"
+  },
+  {
+   "name": "Lauriane Chomaz"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-08-20T17:58:58Z",
+ "updated": "2026-08-20T17:58:58Z",
+ "abstract": "Supersolids are exotic quantum states in which long-range phase coherence coexists, and may interplay, with emergent spatial orders. A particularly rich phase diagram featuring several competing spatial orders is predicted for dipolar supersolids with two-dimensional crystals, yet the experimental observation of this structural variety has remained limited. Here we experimentally form competing triangular and stripe density-modulated states in a quantum gas of highly magnetic atoms confined in a surfboard-shaped trap by tuning contact interaction strength and dipole orientation. We define a structural order parameter and study its statistical behavior. Thereby, we identify both the triangular and stripe phases and the transition between them, the associated critical behavior being marked by enhanced non-Gaussian fluctuations. Furthermore, we observe each spatial structure in both the phase-coherent supersolid regime and the phase-incoherent insulating one, near and far from the unmodulated-to-modulated transition, respectively. Our results establish a versatile platform in which multiple phases of the two-dimensional-supersolid phase diagram, and more generally, intertwined symmetry-breaking phenomena, can be investigated.",
+ "comment": "15 pages, 11 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20327",
+  "pdf": "https://arxiv.org/pdf/2608.20327",
+  "html": "https://arxiv.org/html/2608.20327"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.20327v1/Figure1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-21T07:25:12.786Z",
+  "hook": "Physicists have directly observed competing triangular and stripe crystal orders in a dipolar quantum supersolid.",
+  "tldr": [
+   "Realized competing 2D crystalline orders in a magnetic quantum gas trapped in a surfboard-shaped geometry.",
+   "Tuned contact interaction strengths and dipole orientations to map out structural phase transitions.",
+   "Observed both triangular and stripe structures in coherent supersolid and incoherent insulating regimes."
+  ],
+  "whyItMatters": "Supersolids are counterintuitive states of matter that flow without friction while maintaining a rigid crystal structure. Mapping their multiple 2D structural phases offers insights into complex quantum materials.",
+  "eli5": "Imagine an ice cube that can also flow like liquid water without any friction. Scientists tuned magnetic atoms to form different crystal patterns—like stripes and triangles—while keeping this bizarre frictionless flow.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Supersolid",
+    "shortDef": "A state of matter that simultaneously exhibits crystalline structure and superfluidity.",
+    "eli5Def": "A bizarre material that has a rigid pattern like a crystal but flows with zero friction like a superfluid.",
+    "wikiTitle": "Supersolid"
+   },
+   {
+    "term": "Dipolar quantum gas",
+    "shortDef": "An ultracold gas where particle interactions are dominated by long-range dipole-dipole forces.",
+    "eli5Def": "A cloud of super-cold atoms that act like tiny compass needles interacting with each other.",
+    "wikiTitle": "Dipolar quantum gas"
+   },
+   {
+    "term": "Order parameter",
+    "shortDef": "A quantity indicating the presence or degree of order across a phase transition.",
+    "eli5Def": "A mathematical metric that tells you whether a system is organized into a pattern or disordered.",
+    "wikiTitle": "Order parameter"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

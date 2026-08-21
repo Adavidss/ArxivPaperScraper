@@ -1,0 +1,75 @@
+{
+ "id": "2608.20340",
+ "version": 1,
+ "title": "Group-theoretic treatment of strong light-matter coupling with an arbitrary number of excitations",
+ "authors": [
+  {
+   "name": "Antti Peltola"
+  },
+  {
+   "name": "Olli Siltanen"
+  },
+  {
+   "name": "Kimmo Luoma"
+  },
+  {
+   "name": "Konstantinos S. Daskalakis"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-20T17:59:59Z",
+ "updated": "2026-08-20T17:59:59Z",
+ "abstract": "Strong light-matter interactions in optical microcavities give rise to hybrid light-matter states known as polaritons. While actively used in modern technologies, theoretical descriptions of such systems are often restricted to the single-excitation case, limiting their ability to capture many-excitation physics and hindering further technological advancements. Here, by exploiting the combinatorial structure of quantum emitters, we investigate the Tavis-Cummings model with arbitrary number of excitations. We derive the structure and properties of its eigensystem and identify allowed radiative transitions in systems of realistic size scales. Our work reveals new behavior inaccessible to the few-excitation regime, while also providing a framework to reduce the computational complexity of similar systems with exponentially growing Hilbert spaces.",
+ "comment": "22 + 10 pages, 6 + 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20340",
+  "pdf": "https://arxiv.org/pdf/2608.20340",
+  "html": "https://arxiv.org/html/2608.20340"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.20340v1/Fig1.jpg"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-21T07:25:12.786Z",
+  "hook": "A group-theoretic approach solves the Tavis-Cummings model for arbitrary excitation counts in realistic system sizes.",
+  "tldr": [
+   "Modeled light-matter coupling for systems with arbitrary numbers of excitations rather than just single-excitation regimes.",
+   "Leveraged the combinatorial and group-theoretic structure of quantum emitters to solve the Tavis-Cummings eigensystem.",
+   "Uncovered multi-excitation radiative transitions while slashing computational complexity in exponentially large Hilbert spaces."
+  ],
+  "whyItMatters": "Most polaritonic technologies rely on simplified, single-photon models. Cracking the math for many excitations opens doors to accurate simulations of intense light-matter interactions in quantum devices.",
+  "eli5": "Imagine a room of people singing along to a single instrument. Old models could only predict the sound if one person sang at a time; this new method calculates the harmony when everyone sings at once without crashing the computer.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Polariton",
+    "shortDef": "A hybrid quasiparticle formed by the strong coupling of light and matter.",
+    "eli5Def": "A blend of light and matter that acts like its own unique particle.",
+    "wikiTitle": "Polariton"
+   },
+   {
+    "term": "Tavis-Cummings model",
+    "shortDef": "A quantum physics model describing multiple two-level atoms interacting with a single cavity mode.",
+    "eli5Def": "A math recipe for how a group of atoms shares light inside a reflective box.",
+    "wikiTitle": "Tavis-Cummings model"
+   },
+   {
+    "term": "Hilbert space",
+    "shortDef": "A mathematical vector space used to describe all possible states in quantum mechanics.",
+    "eli5Def": "A giant map showing every possible state a quantum system could ever be in.",
+    "wikiTitle": "Hilbert space"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

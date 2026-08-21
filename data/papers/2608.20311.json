@@ -1,0 +1,91 @@
+{
+ "id": "2608.20311",
+ "version": 1,
+ "title": "Imaging the vacuum fluctuations of a quantum field",
+ "authors": [
+  {
+   "name": "Yansheng Zhang"
+  },
+  {
+   "name": "Feiyang Wang"
+  },
+  {
+   "name": "Yi Jiang"
+  },
+  {
+   "name": "Alexander C. Jenkins"
+  },
+  {
+   "name": "Paul H. C. Wong"
+  },
+  {
+   "name": "Christoph Eigen"
+  },
+  {
+   "name": "Gehrig Carlse"
+  },
+  {
+   "name": "Zoran Hadzibabic"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "astro-ph.CO",
+  "hep-th",
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-08-20T17:49:29Z",
+ "updated": "2026-08-20T17:49:29Z",
+ "abstract": "Heisenberg uncertainties lead to inevitable fluctuations in the measurement outcomes for quantum-mechanical observables. For quantum fields, these uncertainties result in random spatial structures in snapshots of a field, even when the field is in its ground (vacuum) state. Such `vacuum fluctuations' are at the heart of a wide range of phenomena, from spontaneous decay processes to the Casimir force and Hawking radiation. Their existence is a key manifestation of the quantumness of the physical world, but usually it is only their consequences that are directly observed. Here, we directly observe spatial vacuum fluctuations of a bosonic quantum field. Our experiments are based on a homogeneous planar atomic Bose--Einstein condensate. The condensate comprises two coherently coupled interacting components (spin states), and the quantum field describes its spin degrees of freedom. In the regime where the interactions dominate over the coherent coupling, our system emulates a (massive relativistic) sine-Gordon field. Images of the field reveal simultaneous fluctuations on different length scales, with scale-dependent amplitudes consistent with theoretical predictions for a vacuum state. Observing such fluctuations in the sine-Gordon limit opens many possibilities for laboratory simulations of relativistic fields in regimes that are presently not theoretically tractable.",
+ "comment": "7 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20311",
+  "pdf": "https://arxiv.org/pdf/2608.20311",
+  "html": "https://arxiv.org/html/2608.20311"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.20311v1/Fig_1_x1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-21T07:25:12.786Z",
+  "hook": "Direct imaging captures spatial quantum vacuum fluctuations across multiple length scales in a Bose-Einstein condensate.",
+  "tldr": [
+   "Directly imaged spatial quantum vacuum fluctuations of a relativistic-analog quantum field in the ground state.",
+   "Coupled two spin states in a planar atomic Bose-Einstein condensate to emulate a sine-Gordon field.",
+   "Found scale-dependent fluctuation amplitudes that match theoretical predictions for empty quantum vacua."
+  ],
+  "whyItMatters": "Vacuum fluctuations drive spontaneous decay, Casimir forces, and Hawking radiation, but are usually inferred indirectly. Direct snapshots provide a testbed for studying intractable relativistic quantum field theories in the lab.",
+  "eli5": "According to quantum physics, truly 'empty' space is never completely still—it constantly boils with tiny ghost-like jitters. Scientists built a super-cold atom cloud to serve as a magnifying glass and took direct pictures of these jitters.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Vacuum fluctuations",
+    "shortDef": "Temporary random changes in energy occurring spontaneously in a quantum vacuum.",
+    "eli5Def": "Random, tiny quantum ripples that happen constantly even in completely empty space.",
+    "wikiTitle": "Quantum fluctuation"
+   },
+   {
+    "term": "Bose-Einstein condensate",
+    "shortDef": "A state of matter where dilute bosons cooled near absolute zero occupy the lowest quantum state.",
+    "eli5Def": "A cloud of atoms cooled so cold that they merge and act like a single giant super-atom.",
+    "wikiTitle": "Bose–Einstein condensate"
+   },
+   {
+    "term": "Sine-Gordon field",
+    "shortDef": "A non-linear relativistic quantum field theory model in 1+1 dimensions featuring solitons.",
+    "eli5Def": "A famous mathematical model used in physics to describe wave-like interactions in relativistic quantum fields.",
+    "wikiTitle": "Sine-Gordon equation"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

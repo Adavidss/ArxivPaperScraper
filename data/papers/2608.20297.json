@@ -1,0 +1,73 @@
+{
+ "id": "2608.20297",
+ "version": 1,
+ "title": "Parallel Quantum Advantage with Limited Adaptivity Requires Structure",
+ "authors": [
+  {
+   "name": "Qipeng Liu"
+  },
+  {
+   "name": "Saachi Mutreja"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-20T17:37:03Z",
+ "updated": "2026-08-20T17:37:03Z",
+ "abstract": "Aaronson and Ambainis (Theory of Computing, 2014) conjectured that quantum query algorithms admit efficient almost-everywhere classical simulation: for any $T$-query quantum algorithm, its acceptance probability can be approximated on a $(1-δ)$ fraction of inputs, up to $ε$ additive error, using $\\mathrm{poly}(T, 1/ε, 1/δ)$ classical queries. At a high level, the conjecture suggests that exponential quantum speedups are possible only on sufficiently structured inputs. In this work, we make progress on this conjecture by proving it for quantum algorithms that make massively parallel quantum queries. In contrast, Yamakawa and Zhandry (Journal of the ACM, 2024) showed that quantum algorithms restricted to parallel queries can still achieve exponential speedups over classical algorithms for sampling problems. We establish our simulation theorem by proving the stronger statement that parallel-query quantum algorithms cannot distinguish the uniform distribution over oracles from oracles drawn from so-called \"dense distributions\". Our main technical contribution is a coupling theorem that relates the uniform distribution over oracles to oracles drawn from dense distributions. We further extend this approach beyond the purely parallel setting, obtaining simulation theorems both for algorithms with a bounded quantum-query prefix followed by a massively parallel quantum-query stage, and for hybrid algorithms that make an arbitrary polynomial number of adaptive classical queries before the massively parallel quantum-query stage. Finally, using the parallel-query simulation theorem as a base case, we obtain simulation theorems for quantum algorithms with constant rounds of adaptivity.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20297",
+  "pdf": "https://arxiv.org/pdf/2608.20297",
+  "html": "https://arxiv.org/html/2608.20297"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21T07:25:12.786Z",
+  "hook": "Proved that parallel quantum algorithms admit efficient classical simulation, supporting the structured-input conjecture.",
+  "tldr": [
+   "Proved that quantum algorithms making massively parallel queries admit efficient almost-everywhere classical simulation.",
+   "Established a coupling theorem relating the uniform distribution over oracles to oracles drawn from dense distributions.",
+   "Extended simulation theorems to bounded quantum-query prefixes, hybrid algorithms, and constant rounds of adaptivity."
+  ],
+  "whyItMatters": "This helps clarify the true boundary between classical and quantum computing power, showing that massive quantum speedups require specific structural properties rather than just raw parallelism.",
+  "eli5": "Scientists want to know when quantum computers can truly beat normal computers. This paper shows that if a quantum computer asks all its questions at the same time in a parallel rush, a clever normal computer can usually mimic it, unless the problem has a very special secret structure.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum query algorithm",
+    "shortDef": "A model of quantum computation that counts how many times an algorithm must query an oracle.",
+    "eli5Def": "A step-by-step procedure where a quantum computer looks up answers in a black-box database.",
+    "wikiTitle": "Quantum query complexity"
+   },
+   {
+    "term": "Classical simulation",
+    "shortDef": "Emulating the behavior or output of a quantum system using standard classical computers.",
+    "eli5Def": "Using a regular laptop to successfully copy the results of a quantum computer.",
+    "wikiTitle": "Simulation"
+   },
+   {
+    "term": "Oracle",
+    "shortDef": "A black-box function that provides output for any given input in a single computational step.",
+    "eli5Def": "A magical 8-ball that instantly gives you the answer whenever you ask it a question.",
+    "wikiTitle": "Oracle machine"
+   },
+   {
+    "term": "Adaptivity",
+    "shortDef": "The ability of an algorithm to choose subsequent queries based on the results of previous ones.",
+    "eli5Def": "Deciding what question to ask next depending on the answer you just got.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "2608.20247",
+ "version": 1,
+ "title": "Jamming Extensions of Quantum Correlations Lead to Hidden Superluminal Signaling",
+ "authors": [
+  {
+   "name": "Ravishankar Ramanathan"
+  },
+  {
+   "name": "Xie Sicheng"
+  },
+  {
+   "name": "Michał Eckstein"
+  },
+  {
+   "name": "Paweł Horodecki"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-20T16:42:59Z",
+ "updated": "2026-08-20T16:42:59Z",
+ "abstract": "Relativistic causality in certain spacetime configurations permits jamming - superluminal causal influences that nevertheless do not enable superluminal signaling. We fully characterize the correlations compatible with relativistic causality (RC) by extending the operator framework of PRL 104, 140404. When the underlying state is required to be quantum, we prove that any nontrivial jamming - whether state-independent or state-dependent - necessarily leads to hidden superluminal signaling. Thus, the only consistent possibilities are standard quantum correlations without jamming or the full relativistically causal correlation set, with intermediate jamming extensions of quantum correlations leading to signaling. As an application of our characterization, we investigate the security of device-independent (DI) cryptographic primitives against adversaries constrained only by relativistic causality. We construct explicit RC attacks that break DI bit commitment and DI secret sharing in jamming geometries, even when these protocols remain secure against no-signaling adversaries. Our results show that security against relativistic adversaries requires behaviors to be specified together with the spacetime locations of their measurement events; input-output statistics alone are insufficient.",
+ "comment": "20 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20247",
+  "pdf": "https://arxiv.org/pdf/2608.20247",
+  "html": "https://arxiv.org/html/2608.20247"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-22T07:10:33.069Z",
+  "hook": "Trying to add relativistic 'jamming' to quantum mechanics forces hidden faster-than-light signaling.",
+  "tldr": [
+   "Fully characterized correlations allowed by relativistic causality across spacetime configurations.",
+   "Proved that adding any jamming to quantum states leads to hidden superluminal signaling.",
+   "Demonstrated attacks that break device-independent bit commitment and secret sharing in jamming setups."
+  ],
+  "whyItMatters": "This establishes strict fundamental limits on how quantum physics and relativity interact, proving that future ultra-secure cryptographic protocols must account for exact spacetime coordinates, not just statistical input-output data.",
+  "eli5": "Special relativity allows a weird trick called 'jamming,' where you can scramble someone else's messages faster than light without transmitting your own message. Researchers showed that if quantum particles try this trick, it accidentally leaks true faster-than-light signals, breaking otherwise secure quantum locks.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Relativistic Causality",
+    "shortDef": "The principle that cause must precede effect and signals cannot travel faster than light.",
+    "eli5Def": "Einstein's rule that nothing can send information faster than the speed of light.",
+    "wikiTitle": "Causality (physics)"
+   },
+   {
+    "term": "Jamming",
+    "shortDef": "Superluminal causal influence that alters remote outcomes without enabling direct signaling.",
+    "eli5Def": "Messing up someone's radio from afar faster than light, even though you can't broadcast your own voice to them.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Device-Independent Cryptography",
+    "shortDef": "Security protocols that remain secure without trusting the internal workings of hardware.",
+    "eli5Def": "A security system so foolproof it stays safe even if an enemy secretly built the lock.",
+    "wikiTitle": "Device-independent quantum cryptography"
+   },
+   {
+    "term": "Superluminal Signaling",
+    "shortDef": "Transmitting information faster than the speed of light.",
+    "eli5Def": "Sending a message to a friend quicker than a beam of light could get there.",
+    "wikiTitle": "Faster-than-light communication"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

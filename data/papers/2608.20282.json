@@ -1,0 +1,71 @@
+{
+ "id": "2608.20282",
+ "version": 1,
+ "title": "Quantum-mechanical wave functions in singular potentials: linear and nonlinear states",
+ "authors": [
+  {
+   "name": "Hidetsugu Sakaguchi"
+  },
+  {
+   "name": "Boris A. Malomed"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.quant-gas",
+  "nlin.PS"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-20T17:15:31Z",
+ "updated": "2026-08-20T17:15:31Z",
+ "abstract": "It is known that the attractive singular inverse-square potential gives rise to the critical quantum collapse in the framework of the three-dimensional (3D) linear Schroedinger equation. This article summarizes theoretical results which demonstrate suppression of the collapse, caused by this singular potential, and the creation of the otherwise missing ground state (GS) in a 3D gas of bosonic particles, carrying an electric dipole moment, which are pulled to the central electric charge, with repulsive contact interactions between the particles. In the mean-field approximation, the repulsive interactions are represented by the cubic term in the respective Gross-Pitaevskii (GP) equation. In addition to the GS, excited states with angular momentum are briefly considered too. Another topic considered in the article is 1D and 2D bound states in the linear Schroedinger and GP equations with the repulsive potential, which demonstrates a singularity at r --> infinity. A very recent result is that such a potential, growing faster than the negative harmonic-oscillator potential, produces a full spectrum of counter-intuitive normalizable (localized) bound states. The article puts forward perspectives for further studies of linear and nonlinear bound states existing under the action of the potentials with the singularity at r --> 0 or r --> infinity.",
+ "comment": "to be published as a perspective article in Advanced Physics Research",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20282",
+  "pdf": "https://arxiv.org/pdf/2608.20282",
+  "html": "https://arxiv.org/html/2608.20282"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.20282v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-22T07:10:33.069Z",
+  "hook": "Repulsive particle interactions prevent quantum collapse in singular attractive potentials, creating a stable ground state.",
+  "tldr": [
+   "Surveyed theoretical conditions for stabilizing quantum wave functions inside singular attractive and repulsive potentials.",
+   "Modeled 3D dipolar Bose gases and 1D/2D systems using the Gross-Pitaevskii and linear Schrödinger equations.",
+   "Showed repulsive contact interactions stop 3D quantum collapse, and infinitely growing potentials yield bound states."
+  ],
+  "whyItMatters": "Understanding how many-body interactions halt catastrophic physical collapses opens up new ways to engineer stable exotic states in quantum gases.",
+  "eli5": "In standard quantum physics, pulling atoms toward a super-sharp point makes them infinitely collapse. But when atoms naturally push against each other, they stop the crash and form a stable cloud.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Gross-Pitaevskii equation",
+    "shortDef": "Nonlinear equation describing the ground state of a quantum Bose-Einstein condensate.",
+    "eli5Def": "A master math equation that tracks how large groups of cold atoms behave together.",
+    "wikiTitle": "Gross–Pitaevskii equation"
+   },
+   {
+    "term": "Singular potential",
+    "shortDef": "A potential energy field that diverges to infinity at specific points or boundaries.",
+    "eli5Def": "A physical force field that becomes infinitely steep at certain locations.",
+    "wikiTitle": "Singular potential"
+   },
+   {
+    "term": "Quantum collapse",
+    "shortDef": "Catastrophic falling of a wave packet into an attractive singular center without a lower bound.",
+    "eli5Def": "When particles crash entirely toward a single point because attractive forces are too strong.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

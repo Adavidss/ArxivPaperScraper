@@ -1,0 +1,77 @@
+{
+ "id": "2608.20273",
+ "version": 1,
+ "title": "Analytical Solutions of the Generalized Klein-Gordon Oscillator in Som-Raychaudhuri Space-Time via the Extended Nikiforov-Uvarov Method",
+ "authors": [
+  {
+   "name": "Hale Karayer"
+  },
+  {
+   "name": "Tolga Celik"
+  },
+  {
+   "name": "Dogan Demirhan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-20T17:11:38Z",
+ "updated": "2026-08-20T17:11:38Z",
+ "abstract": "In this study, we present an analytical approach based on the extended Nikiforov-Uvarov method to solve the generalized Klein-Gordon oscillator in the presence of a uniform magnetic field within the Som-Raychaudhuri space-time. Exact eigenstate solutions are obtained for two distinct potential models, namely the linear potential and the Cornell potential. The corresponding energy eigenvalues are determined, and the associated eigenfunctions are analyzed and illustrated graphically.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20273",
+  "pdf": "https://arxiv.org/pdf/2608.20273",
+  "html": "https://arxiv.org/html/2608.20273"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-22T07:10:33.069Z",
+  "hook": "Researchers derived exact analytical solutions for the relativistic Klein-Gordon oscillator in rotating Som-Raychaudhuri spacetime.",
+  "tldr": [
+   "Studied relativistic Klein-Gordon oscillators under uniform magnetic fields in Som-Raychaudhuri spacetime.",
+   "Derived exact analytical solutions using the extended Nikiforov-Uvarov algebraic method for linear and Cornell potentials.",
+   "Obtained exact energy eigenvalues and graphically analyzed the resulting wave functions."
+  ],
+  "whyItMatters": "Exact mathematical solutions help physicists study how relativistic quantum particles interact with strong gravitational rotations and magnetic fields.",
+  "eli5": "Physicists figured out the exact step-by-step math for how spinless quantum particles vibrate inside a swirling, magnetized universe under specialized forces.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Klein-Gordon oscillator",
+    "shortDef": "A relativistic quantum harmonic oscillator model for spin-0 particles.",
+    "eli5Def": "A math model describing how relativistic quantum particles oscillate like springs.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Som-Raychaudhuri space-time",
+    "shortDef": "A cylindrical, rotating cosmological solution to Einstein's field equations with dust.",
+    "eli5Def": "A theoretical rotating universe model used in general relativity.",
+    "wikiTitle": "Van Stockum dust"
+   },
+   {
+    "term": "Cornell potential",
+    "shortDef": "A potential combining a Coulomb term with a linear confinement term.",
+    "eli5Def": "A specific energy shape often used to describe how quarks are glued together.",
+    "wikiTitle": "Quarkonium"
+   },
+   {
+    "term": "Nikiforov-Uvarov method",
+    "shortDef": "An analytical method for solving second-order linear differential equations.",
+    "eli5Def": "A mathematical recipe for solving complex physics wave equations cleanly.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

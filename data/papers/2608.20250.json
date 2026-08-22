@@ -1,0 +1,96 @@
+{
+ "id": "2608.20250",
+ "version": 1,
+ "title": "Logarithmic depth compression of Heisenberg Hamiltonian simulation by fan-out parallelization, with built-in error detection",
+ "authors": [
+  {
+   "name": "Artemiy Burov"
+  },
+  {
+   "name": "Clément Javerzac"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-20T16:46:41Z",
+ "updated": "2026-08-20T16:46:41Z",
+ "abstract": "Noisy intermediate-scale quantum computers are constrained by circuit depth, while product-formula simulation of spin systems leads to narrow and deep circuits. Here we introduce a fan-out-based gadget compiler that trades circuit depth for width in simulations of Heisenberg-type nuclear magnetic resonance (NMR) Hamiltonians. Each logical spin is encoded into a small repetition-code register sized by its interaction degree, so that all pairwise interactions of a given Pauli type execute in parallel after a logarithmic-depth CNOT fan-out, and the redundant registers provide error detection for post-selection at no additional algorithmic overhead. The central result is a fixed-protocol resource comparison of the two compilations, transpiled to heavy-hex superconducting and all-to-all trapped-ion targets across a set of NMR spin systems. For interaction graphs with a high-degree hub the volume-optimal schedule halves the two-qubit depth and reduces the volume 1.7-fold for the 13-spin demonstration, which on heavy-hex also lowers the two-qubit gate count, and the depth reduction rises to 2.5-fold on all-to-all for the highest-degree molecule studied. On all-to-all the two-qubit gate count rises for every system, so the volume reduction is a benefit on depth-limited hardware. The gain grows with the degree inhomogeneity of the interaction graph and vanishes for dense uniform graphs, where the optimum is the sequential circuit. We simulate the zero-field NMR spectrum of tetramethylsilane, a 13-spin star system. Under a noise model scaled from a published present-day processor calibration, the shallower gadget circuits match or surpass the sequential compilation only after post-selection on their built-in error detection, once error rates improve by one to one and a half orders of magnitude. We verify the spectra against an independent classical computation.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20250",
+  "pdf": "https://arxiv.org/pdf/2608.20250",
+  "html": "https://arxiv.org/html/2608.20250"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.20250v1/routing_decongestion.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-22T07:10:33.069Z",
+  "hook": "New quantum compiler cuts circuit depth up to 2.5x by trading width for speed with built-in error detection.",
+  "tldr": [
+   "Created a compiler that trades circuit depth for width to simulate Heisenberg NMR spin systems on quantum hardware.",
+   "Used repetition codes and logarithmic-depth CNOT fan-out to parallelize pairwise spin interactions across redundant registers.",
+   "Halved two-qubit depth for a 13-spin star system and reduced depth up to 2.5x on trapped-ion architectures."
+  ],
+  "whyItMatters": "Today's noisy quantum computers are severely limited by how long circuits can run before noise ruins the computation. Making circuits wider instead of deeper allows near-term hardware to simulate complex molecules and magnetic resonance spectra accurately.",
+  "eli5": "Imagine a single chef cooking a 13-course meal step by step; it takes hours and food gets cold. By cloning the recipe cards across multiple helper chefs who cook side-by-side, the whole meal finishes much faster before anything spoils.",
+  "keyNumbers": [
+   {
+    "value": "2.5-fold",
+    "label": "maximum depth reduction",
+    "context": "Achieved on all-to-all trapped-ion hardware for the highest-degree molecule studied."
+   },
+   {
+    "value": "1.7-fold",
+    "label": "quantum volume reduction",
+    "context": "Observed in the 13-spin tetramethylsilane demonstration."
+   },
+   {
+    "value": "13",
+    "label": "spins in demonstration system",
+    "context": "Simulated zero-field NMR spectrum of tetramethylsilane."
+   },
+   {
+    "value": "1 to 1.5",
+    "label": "orders of magnitude error improvement needed",
+    "context": "Required for gadget circuits to match or surpass sequential circuits under post-selection."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Heisenberg Hamiltonian",
+    "shortDef": "A mathematical model describing magnetic interactions between quantum spins.",
+    "eli5Def": "The rulebook that explains how tiny quantum magnets pull and push on each other.",
+    "wikiTitle": "Heisenberg model (quantum)"
+   },
+   {
+    "term": "Circuit Depth",
+    "shortDef": "The number of sequential time steps required to execute a quantum circuit.",
+    "eli5Def": "The total runtime of a quantum program from start to finish.",
+    "wikiTitle": "Quantum circuit"
+   },
+   {
+    "term": "Repetition Code",
+    "shortDef": "A basic error-detecting code that stores multiple copies of a single bit or qubit.",
+    "eli5Def": "Writing down three copies of a phone number so you can catch a mistake if one gets smudged.",
+    "wikiTitle": "Repetition code"
+   },
+   {
+    "term": "Post-Selection",
+    "shortDef": "Filtering computation runs to discard those where an error flag was triggered.",
+    "eli5Def": "Throwing away bad batches of cookies and only keeping the ones that baked perfectly.",
+    "wikiTitle": "Postselection"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

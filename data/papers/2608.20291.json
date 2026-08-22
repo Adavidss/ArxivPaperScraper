@@ -1,0 +1,94 @@
+{
+ "id": "2608.20291",
+ "version": 1,
+ "title": "Programmable cavity QED with a fiber-integrated atomic array",
+ "authors": [
+  {
+   "name": "Stephan Roschinski"
+  },
+  {
+   "name": "Johannes Schabbauer"
+  },
+  {
+   "name": "Franz von Silva-Tarouca"
+  },
+  {
+   "name": "Marvin Holten"
+  },
+  {
+   "name": "Damien Bloch"
+  },
+  {
+   "name": "Julian Léonard"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.quant-gas",
+  "physics.atom-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-20T17:32:41Z",
+ "updated": "2026-08-20T17:32:41Z",
+ "abstract": "Strong atom-photon interactions in optical cavities are a key resource for quantum information processing, quantum networking, and the exploration of quantum optical effects. Optical tweezer arrays offer scalable, site-resolved control of neutral atoms, but their integration with high-cooperativity cavity QED systems remains challenging. Here we combine a twelve-site $^{87}$Rb optical tweezer array with a high-cooperativity fiber Fabry-Pérot microcavity. The array is positioned within the cavity mode and individual sites are controlled with subwavelength precision, enabling continuous tuning of the single-atom coupling strength via deterministic displacement through the standing-wave field. For up to five atoms coupled to the cavity, we measure collectively enhanced vacuum Rabi splitting and implement cavity-based non-destructive readout of the number of coupled atoms. These results establish a scalable architecture for cavity-mediated entanglement generation and many-body cavity QED with single-atom control, and they lay the foundation for fiber-integrated quantum network nodes.",
+ "comment": "11 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20291",
+  "pdf": "https://arxiv.org/pdf/2608.20291",
+  "html": "https://arxiv.org/html/2608.20291"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.20291v1/Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-22T07:10:33.069Z",
+  "hook": "Researchers integrated a 12-site optical tweezer array into a fiber microcavity with subwavelength atom positioning.",
+  "tldr": [
+   "Combined a 12-site Rb-87 optical tweezer array with a high-cooperativity fiber Fabry-Perot microcavity.",
+   "Positioned individual atoms inside the cavity standing wave with subwavelength precision to tune atom-photon coupling.",
+   "Observed collectively enhanced vacuum Rabi splitting for up to 5 atoms and performed non-destructive atom counting."
+  ],
+  "whyItMatters": "This breakthrough provides a scalable hardware design that links programmable neutral-atom quantum processors directly with optical fiber networks.",
+  "eli5": "Imagine placing tiny individual atoms into exact spots between two microscopic mirrors using laser 'tweezers'. By wiggling the atoms into the brightest light zones, they talk strongly to trapped light particles without being knocked away.",
+  "keyNumbers": [
+   {
+    "value": "12",
+    "label": "tweezer sites",
+    "context": "Number of trap sites in the Rb-87 optical tweezer array"
+   },
+   {
+    "value": "5",
+    "label": "coupled atoms",
+    "context": "Maximum number of coupled atoms measured for collective Rabi splitting"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Cavity QED",
+    "shortDef": "Study of light-matter interactions inside reflective optical cavities.",
+    "eli5Def": "The science of making photons and atoms interact strongly inside tiny mirror chambers.",
+    "wikiTitle": "Cavity quantum electrodynamics"
+   },
+   {
+    "term": "Optical tweezer",
+    "shortDef": "Tightly focused laser beam used to trap and move microscopic neutral particles.",
+    "eli5Def": "A focused laser beam that holds and moves tiny atoms like tweezers.",
+    "wikiTitle": "Optical tweezers"
+   },
+   {
+    "term": "Vacuum Rabi splitting",
+    "shortDef": "Splitting of energy levels when an atom strongly couples to a cavity vacuum field.",
+    "eli5Def": "A signature frequency shift showing that an atom and light are trading energy back and forth.",
+    "wikiTitle": "Vacuum Rabi oscillation"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

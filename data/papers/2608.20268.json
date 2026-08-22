@@ -1,0 +1,104 @@
+{
+ "id": "2608.20268",
+ "version": 1,
+ "title": "Learning Potts Models and $Z_3$ Toric Codes: Higher and Ordinary Nishimori Criticality",
+ "authors": [
+  {
+   "name": "Rushikesh A. Patil"
+  },
+  {
+   "name": "Malte Pütz"
+  },
+  {
+   "name": "Rohit Mukherjee"
+  },
+  {
+   "name": "Guo-Yi Zhu"
+  },
+  {
+   "name": "Simon Trebst"
+  },
+  {
+   "name": "Andreas W. W. Ludwig"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "cond-mat.dis-nn",
+  "cond-mat.str-el",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-08-20T17:06:53Z",
+ "updated": "2026-08-20T17:06:53Z",
+ "abstract": "Motivated by a previous Ising study, we identify a ${\\it higher}$ Nishimori line in the learning phase diagram of the $2D$ $q$-state Potts model $(2 < q\\leq 4)$ under bond-energy measurements. This ${\\it higher}$ Nishimori line meets the critical temperature line of the Potts model, in a ${\\it higher}$ Nishimori critical point -- a tricritical point at finite inference strength that separates a paramagnetic, a ferromagnetic and a 'spin-glass' phase. With analytical tools, we discuss the general structure of the rich phase diagram, which contains two unstable and three stable fixed points, and obtain a number of exact results for universal quantities, including the decay exponent of the Edwards-Anderson correlator, using a Gaussian measurement protocol which allows for exact calculations. Using extensive numerical tools, we confirm these statements for a generic, discrete $q$-state measurement protocol and determine precise numerical estimates for the location of higher and ordinary Nishimori critical points as well as RG flows between the various fixed points. We also discuss the Casimir effective central charges of the critical points in the learning phase diagram, and their monotonic ${\\it decrease}$ along measurement-induced RG flows, as established non-perturbatively by the c-effective theorem and its extensions, and contrast it to the monotonic increase along the corresponding RG flows in the random-bond Potts model. Finally, we discuss a general argument based on ${\\it Elitzur's \\; theorem}$ that establishes stability of the ordinary Nishimori critical points in their respective learning phase diagrams. Equivalently, our results describe a monitored deformed $\\mathbb{Z}_q$ toric code where the tricritical ${\\it higher}$ Nishimori point is an 'information' critical point that separates stable quantum, classical, and no memory phases.",
+ "comment": "22 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20268",
+  "pdf": "https://arxiv.org/pdf/2608.20268",
+  "html": "https://arxiv.org/html/2608.20268"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-22T07:10:33.069Z",
+  "hook": "A 'higher' Nishimori critical point in 2D Potts models was mapped to information transitions in monitored Z_3 toric codes.",
+  "tldr": [
+   "Mapped the learning phase diagram of 2D q-state Potts models under bond measurements to deformed Z_q toric codes.",
+   "Utilized analytical Gaussian measurement protocols alongside extensive discrete numerical simulations.",
+   "Identified a higher Nishimori tricritical point separating quantum, classical, and destroyed memory phases."
+  ],
+  "whyItMatters": "This work uncovers fundamental limits on how quantum error-correcting codes preserve information when continuously probed or measured.",
+  "eli5": "When you repeatedly measure a quantum computer's memory grid, too much probing destroys data. This research pinpoints the exact tipping point between keeping quantum memory, degrading into classical memory, or losing it all.",
+  "keyNumbers": [
+   {
+    "value": "2 < q <= 4",
+    "label": "Potts states",
+    "context": "Range of states analyzed for the 2D Potts model and deformed toric code"
+   },
+   {
+    "value": "3",
+    "label": "stable fixed points",
+    "context": "Number of stable fixed points found in the learning phase diagram"
+   },
+   {
+    "value": "2",
+    "label": "unstable fixed points",
+    "context": "Number of unstable fixed points present in the learning phase diagram"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Potts model",
+    "shortDef": "A statistical physics model generalizing the Ising model to spins with q possible states.",
+    "eli5Def": "A grid of tiny compasses that can point in several preset directions instead of just two.",
+    "wikiTitle": "Potts model"
+   },
+   {
+    "term": "Toric code",
+    "shortDef": "A topological quantum error-correcting code defined on a 2D spin lattice.",
+    "eli5Def": "A smart way of organizing quantum bits on a grid so errors can be detected and fixed.",
+    "wikiTitle": "Toric code"
+   },
+   {
+    "term": "Nishimori line",
+    "shortDef": "A special symmetry line in disordered spin systems where exact statistical averages occur.",
+    "eli5Def": "A special math line where disordered physical systems behave with hidden simplicity.",
+    "wikiTitle": "Nishimori line"
+   },
+   {
+    "term": "Elitzur's theorem",
+    "shortDef": "A theorem stating that local gauge symmetries cannot be spontaneously broken.",
+    "eli5Def": "A physics rule guaranteeing that certain local grid symmetries remain unbroken.",
+    "wikiTitle": "Elitzur's theorem"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 70
+ }
+}

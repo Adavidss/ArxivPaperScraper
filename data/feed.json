@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-22T07:10:33.069Z",
+ "generatedAt": "2026-08-23T07:11:31.428Z",
  "windowDays": 75,
  "items": [
   {
@@ -202,6 +202,57 @@
    "published": "2026-08-20",
    "difficulty": 4,
    "readSeconds": 55,
+   "source": "foryou",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2608.20233",
+   "title": "Nonthermal Dynamics of a One-dimensional Rydberg-atom Chain with Constraint Four-body Interactions",
+   "hook": "Constrained four-body interactions in Rydberg chains create quantum scars that prevent thermalization.",
+   "authorsLine": "Yan, Li",
+   "followedIds": [],
+   "matchedKeywords": [],
+   "figureUrl": null,
+   "firstSeen": "2026-08-23",
+   "primaryCategory": "quant-ph",
+   "published": "2026-08-20",
+   "difficulty": 4,
+   "readSeconds": 45,
+   "source": "foryou",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2608.20227",
+   "title": "Hybrid Qubit-Rotor Quantum Systems: Clifford Structure, Universal Control, and Applications",
+   "hook": "Researchers establish universal quantum control and Clifford group structure for hybrid qubit-rotor systems.",
+   "authorsLine": "Luo, Kushwaha +2",
+   "followedIds": [],
+   "matchedKeywords": [],
+   "figureUrl": null,
+   "firstSeen": "2026-08-23",
+   "primaryCategory": "quant-ph",
+   "published": "2026-08-20",
+   "difficulty": 5,
+   "readSeconds": 50,
+   "source": "foryou",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2608.20209",
+   "title": "Rigorous existence and location of quantum phase transitions in lattice Hamiltonian systems",
+   "hook": "Any lattice quantum phase transition can be rigorously framed as a condensation in state space.",
+   "authorsLine": "Ostilli, Presilla",
+   "followedIds": [],
+   "matchedKeywords": [],
+   "figureUrl": null,
+   "firstSeen": "2026-08-23",
+   "primaryCategory": "quant-ph",
+   "published": "2026-08-20",
+   "difficulty": 4,
+   "readSeconds": 40,
    "source": "foryou",
    "biteStatus": "ok",
    "withdrawn": false
@@ -4519,25 +4570,6 @@
    "published": "2026-06-11",
    "difficulty": 3,
    "readSeconds": 60,
-   "source": "follow",
-   "biteStatus": "ok",
-   "withdrawn": false
-  },
-  {
-   "id": "2606.09649",
-   "title": "Parahydrogen Cooling of Nuclear Spin Chains at Hypogeomagnetic Fields",
-   "hook": "Researchers cooled nuclear spins in a 12-spin chain down to 52 mK using parahydrogen at ultra-low magnetic fields.",
-   "authorsLine": "Kiryutin, Markelov +4",
-   "followedIds": [],
-   "matchedKeywords": [
-    "SABRE"
-   ],
-   "figureUrl": "https://arxiv.org/html/2606.09649v1/x1.png",
-   "firstSeen": "2026-07-12",
-   "primaryCategory": "quant-ph",
-   "published": "2026-06-08",
-   "difficulty": 4,
-   "readSeconds": 75,
    "source": "follow",
    "biteStatus": "ok",
    "withdrawn": false

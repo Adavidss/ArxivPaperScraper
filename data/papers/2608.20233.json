@@ -1,0 +1,75 @@
+{
+ "id": "2608.20233",
+ "version": 1,
+ "title": "Nonthermal Dynamics of a One-dimensional Rydberg-atom Chain with Constraint Four-body Interactions",
+ "authors": [
+  {
+   "name": "Tianyi Yan"
+  },
+  {
+   "name": "Weibin Li"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.quant-gas",
+  "physics.atom-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-20T16:27:19Z",
+ "updated": "2026-08-20T16:27:19Z",
+ "abstract": "We investigate dynamics of a linear chain of Rydberg atoms driven by a constrained four-body interaction, where two neighboring atoms are excited simultaneously from the electronic ground state $|0\\rangle$ to Rydberg state $|1\\rangle$ only when their closest neighbors are in $|0\\rangle$ state. By employing an ansatz for the many-body ground state, the low-energy Hamiltonian is given by a tridiagonal form. The many-body ground state energy, which scales linearly with the chain length $L$, is obtained analytically in the thermodynamic limit and agrees with the one of the exact diagonalization. Our model supports quantum many-body scar eigenstates that are nearly equally spaced energetically. The scar states overlap strongly with the basis state $|\\mathbf{0}\\rangle=|0\\cdots 0\\rangle$. We show that the overlap distribution is tilted by the state-dependent four-body interaction. This leads to non-ergodic dynamics, evidenced by the revival of the initial state. The four-body constrained model can be realized with Rydberg atoms in a Peierls array with alternating bond lengths, where atoms on the shorter and longer bonds experience Rydberg blockade and antiblockade, respectively. Our study provides a pathway to explore constrained non-ergodic dynamics with four-body interactions by combining the Rydberg blockade and antiblockade.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20233",
+  "pdf": "https://arxiv.org/pdf/2608.20233",
+  "html": "https://arxiv.org/html/2608.20233"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-23T07:11:31.428Z",
+  "hook": "Constrained four-body interactions in Rydberg chains create quantum scars that prevent thermalization.",
+  "tldr": [
+   "Modeled a 1D chain of Rydberg atoms with strict four-body excitation rules.",
+   "Analytically derived the ground-state Hamiltonian and computed scar states, matching exact diagonalization.",
+   "Discovered non-ergodic dynamics and periodic state revivals, realizable via alternating Rydberg blockade and antiblockade."
+  ],
+  "whyItMatters": "Preventing quantum systems from thermalizing and losing information is crucial for building robust quantum memories and simulators.",
+  "eli5": "Normally, adding energy to a row of atoms scrambles their information like melting ice into water. Here, strict interaction rules trap the system in a loop, repeatedly bouncing back to its original pattern.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Rydberg atom",
+    "shortDef": "An atom excited to a very high principal quantum number, giving it huge size and strong interactions.",
+    "eli5Def": "An atom puffed up like an oversized balloon, making it feel other atoms from far away.",
+    "wikiTitle": "Rydberg atom"
+   },
+   {
+    "term": "Quantum many-body scar",
+    "shortDef": "Special eigenstates in a chaotic quantum system that avoid thermalization and retain memory of initial states.",
+    "eli5Def": "A few stubborn states in an otherwise chaotic system that refuse to melt into random noise.",
+    "wikiTitle": "Quantum scar"
+   },
+   {
+    "term": "Rydberg blockade",
+    "shortDef": "A mechanism where one excited Rydberg atom prevents nearby atoms from being excited due to strong shifts.",
+    "eli5Def": "A rule where one atom getting excited pushes all its immediate neighbors away from being excited.",
+    "wikiTitle": "Rydberg blockade"
+   },
+   {
+    "term": "Non-ergodic dynamics",
+    "shortDef": "Time evolution where a system fails to explore all accessible states and does not thermalize.",
+    "eli5Def": "When a system never fully mixes up its parts, keeping its original structure over time.",
+    "wikiTitle": "Ergodicity"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

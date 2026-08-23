@@ -1,0 +1,69 @@
+{
+ "id": "2608.20209",
+ "version": 1,
+ "title": "Rigorous existence and location of quantum phase transitions in lattice Hamiltonian systems",
+ "authors": [
+  {
+   "name": "Massimo Ostilli"
+  },
+  {
+   "name": "Carlo Presilla"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-20T16:09:27Z",
+ "updated": "2026-08-20T16:09:27Z",
+ "abstract": "We extend the analysis of the class of quantum phase transitions (QPTs) that can be interpreted as condensations in state space, first introduced in [M. Ostilli and C. Presilla, J. Phys. A 54, 055005 (2021)], by generalizing the arguments of [M. Ostilli and C. Presilla, Phys. Rev. Lett. 127, 040601 (2021)] to prove the existence and determine the location (via simple bounds) of QPTs in general one-parameter lattice Hamiltonians. Unlike our original formulation, this extension also encompasses second-order QPTs, for which we provide the explicit example of the transverse-field Ising model. Our analysis suggests that, under conditions typically satisfied in physical contexts, any QPT taking place in lattice systems can be interpreted as a condensation in state space.",
+ "comment": "16 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20209",
+  "pdf": "https://arxiv.org/pdf/2608.20209",
+  "html": "https://arxiv.org/html/2608.20209"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-23T07:11:31.428Z",
+  "hook": "Any lattice quantum phase transition can be rigorously framed as a condensation in state space.",
+  "tldr": [
+   "Extended the state-space condensation framework to prove the existence and location of quantum phase transitions.",
+   "Derived analytical bounds for one-parameter lattice Hamiltonians, including second-order transitions.",
+   "Demonstrated the method on the transverse-field Ising model, suggesting condensation underlies all lattice transitions."
+  ],
+  "whyItMatters": "Provides a unified, rigorous mathematical blueprint to locate and understand critical points in quantum materials without ad-hoc methods.",
+  "eli5": "Just like steam condensing into water droplets, changes in the fundamental magnetic states of solids can be viewed as quantum wavefunctions condensing into specific patterns.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum phase transition",
+    "shortDef": "A zero-temperature phase transition driven by quantum fluctuations upon tuning a physical parameter.",
+    "eli5Def": "A sudden change in a material's fundamental properties at absolute zero temperature.",
+    "wikiTitle": "Quantum phase transition"
+   },
+   {
+    "term": "Transverse-field Ising model",
+    "shortDef": "A standard model of interacting spins in a perpendicular magnetic field displaying quantum criticality.",
+    "eli5Def": "A classic grid of interacting magnetic arrows subjected to a sideways magnetic field.",
+    "wikiTitle": "Transverse-field Ising model"
+   },
+   {
+    "term": "State space",
+    "shortDef": "The Hilbert space of all possible quantum states that a physical system can occupy.",
+    "eli5Def": "The complete collection of every possible configuration a quantum system can have.",
+    "wikiTitle": "Hilbert space"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 40
+ }
+}

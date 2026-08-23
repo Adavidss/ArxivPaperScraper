@@ -1,0 +1,79 @@
+{
+ "id": "2608.20227",
+ "version": 1,
+ "title": "Hybrid Qubit-Rotor Quantum Systems: Clifford Structure, Universal Control, and Applications",
+ "authors": [
+  {
+   "name": "Dengyao Luo"
+  },
+  {
+   "name": "Arvin Kushwaha"
+  },
+  {
+   "name": "Mastawal Tirfe"
+  },
+  {
+   "name": "Bojko N. Bakalov"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-20T16:22:51Z",
+ "updated": "2026-08-20T16:22:51Z",
+ "abstract": "A $U(1)$ quantum rotor pairs a periodic angle with an integer-valued conjugate momentum, and occurs in molecular rotation, superconducting phase-charge circuits, and compact gauge fields. Coupling such a rotor coherently to qubits gives a hybrid register whose control structure is not inherited from either the oscillator-qubit or the qudit case. We develop a Clifford theory, together with a universal-control result, for registers of $n$ qubits and $r$ rotors. We classify all automorphisms of the hybrid phase space $\\mathbb{F}_2^{2n}\\times\\mathbb{Z}^r\\times\\mathbb{T}^r$ that preserve the Weyl commutation relations, and give an explicit finite Clifford circuit for each one. The classification is directional: rotor momentum parity may control qubit Pauli operations within the Clifford group, while every nonzero qubit-controlled rotor momentum shift is non-Clifford. It also yields normal forms for the mixed qubit-rotor couplings and the exact minimum number of elementary mixed gates needed to synthesize them. Adding a rotor cosine potential and one fixed qubit-rotor conditional phase to the local Clifford operations gives universal control on the full Hilbert space in the strong operator topology. We then apply this structure in three settings: an exact controlled-shift realization of gauge-covariant matter hopping, which is necessarily non-Clifford; rotor phase estimation with direct angle readout and probe optimization under momentum-support and energy constraints; and finite Fourier transforms on rotor momentum codes, where the one-rotor transform for $d=2^s$ compiles into $O(s)$ momentum-selective and controlled-shift instructions and each cross-register Fourier factor is implemented by one quadratic rotor Clifford gate.",
+ "comment": "61 pages, 7 figures, 7 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.20227",
+  "pdf": "https://arxiv.org/pdf/2608.20227",
+  "html": "https://arxiv.org/html/2608.20227"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-08-23T07:11:31.428Z",
+  "hook": "Researchers establish universal quantum control and Clifford group structure for hybrid qubit-rotor systems.",
+  "tldr": [
+   "Developed a Clifford framework and universal control criteria for registers combining qubits and U(1) quantum rotors.",
+   "Classified hybrid phase-space automorphisms and identified minimal gate sets needed to synthesize mixed couplings.",
+   "Applied the theory to gauge-matter hopping, rotor phase estimation, and O(s) finite Fourier transforms."
+  ],
+  "whyItMatters": "Hybrid architectures that mix discrete qubits with continuous-variable rotors offer richer computational spaces for simulating molecular dynamics and lattice gauge theories.",
+  "eli5": "Think of qubits as simple light switches and rotors as rotating volume dials. This work establishes the universal rulebook for choreographing both together flawlessly in a quantum computer.",
+  "keyNumbers": [
+   {
+    "value": "O(s)",
+    "label": "Fourier transform instruction complexity",
+    "context": "Complexity of compiling a one-rotor Fourier transform for d = 2^s into momentum-selective and controlled-shift gates."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Clifford group",
+    "shortDef": "The group of quantum gates that transform Pauli operators into other Pauli operators, crucial for error correction.",
+    "eli5Def": "A well-behaved set of standard building-block operations in quantum computing.",
+    "wikiTitle": "Clifford group"
+   },
+   {
+    "term": "Quantum rotor",
+    "shortDef": "A quantum system defined by a periodic angle and an integer conjugate angular momentum.",
+    "eli5Def": "A tiny quantum mechanical compass needle that can point in any circular direction.",
+    "wikiTitle": "Rigid rotor"
+   },
+   {
+    "term": "Universal control",
+    "shortDef": "The ability to generate any arbitrary unitary operation on a system's Hilbert space.",
+    "eli5Def": "Having the complete toolkit needed to perform literally any allowed computation.",
+    "wikiTitle": "Quantum logic gate"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

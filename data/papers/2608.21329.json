@@ -1,0 +1,84 @@
+{
+ "id": "2608.21329",
+ "version": 1,
+ "title": "Quantum annealing through a first-order phase transition: field theory approach",
+ "authors": [
+  {
+   "name": "Diego Andrés Rivera Orona"
+  },
+  {
+   "name": "Predrag Punoševac"
+  },
+  {
+   "name": "Nikolai A. Sinitsyn"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.other"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-21T17:36:42Z",
+ "updated": "2026-08-21T17:36:42Z",
+ "abstract": "Unlike second-order phase transitions, a first-order transition has a stage, in which a system is trapped in a metastable state. The decay of this state leads to abundant excitations over the ground state. We present a field theory for kinetics of defects emerging during quantum annealing computations. This theory predicts several power laws for the error generation rate during quantum annealing either though or near the first-order phase transition. Sharp changes between the power exponents are predicted for continuous parameter changes. Observation of this behavior would be a signature of first-order critical points and could help identify and avoid them for better computations. The driven Lipkin-Meshkov-Glick model (LMGm) serves as the minimal model of interacting Ising spins that demonstrates this behavior.",
+ "comment": "10 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.21329",
+  "pdf": "https://arxiv.org/pdf/2608.21329",
+  "html": "https://arxiv.org/html/2608.21329"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.21329v1/stages-pic.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24T07:39:01.097Z",
+  "hook": "A new field theory predicts power laws for error generation rates during quantum annealing through first-order phase transitions.",
+  "tldr": [
+   "They developed a field theory for the kinetics of defects emerging during quantum annealing computations.",
+   "They used the driven Lipkin-Meshkov-Glick model as a minimal model of interacting Ising spins.",
+   "They predicted power laws and sharp exponent changes that signal first-order critical points."
+  ],
+  "whyItMatters": "Quantum annealers can get stuck in dead ends during calculations; knowing how and why these errors happen helps engineers design better algorithms.",
+  "eli5": "Imagine rolling a ball down a bumpy hill. If there is a sudden cliff instead of a smooth slope, the ball gets trapped and creates a mess of vibrations, which this theory helps predict and avoid.",
+  "keyNumbers": [
+   {
+    "value": "10",
+    "label": "Pages",
+    "context": "Length of the paper"
+   },
+   {
+    "value": "3",
+    "label": "Figures",
+    "context": "Number of figures illustrating the results"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum annealing",
+    "shortDef": "An optimization metaheuristic using quantum fluctuations to find global minima.",
+    "eli5Def": "A computer searching for the lowest valley in a complex landscape by tunneling straight through hills instead of walking around them.",
+    "wikiTitle": "Quantum annealing"
+   },
+   {
+    "term": "First-order phase transition",
+    "shortDef": "A phase transition that involves a latent heat and discontinuous changes.",
+    "eli5Def": "A sudden, dramatic change in state, like water instantly freezing into ice while absorbing or releasing heat.",
+    "wikiTitle": "First-order phase transition"
+   },
+   {
+    "term": "Metastable state",
+    "shortDef": "A state of a dynamical system that persists for a long time unless disturbed.",
+    "eli5Def": "A ball sitting comfortably in a small groove halfway up a hill—stable for a moment, but not the lowest possible spot.",
+    "wikiTitle": "Metastability"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

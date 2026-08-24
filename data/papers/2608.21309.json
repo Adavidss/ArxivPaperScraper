@@ -1,0 +1,81 @@
+{
+ "id": "2608.21309",
+ "version": 1,
+ "title": "Tomographic Limits of the Petz Recovery Map",
+ "authors": [
+  {
+   "name": "Peter Sidajaya"
+  },
+  {
+   "name": "Clive Cenxin Aw"
+  },
+  {
+   "name": "Mingxuan Liu"
+  },
+  {
+   "name": "Valerio Scarani"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-21T17:12:33Z",
+ "updated": "2026-08-21T17:12:33Z",
+ "abstract": "The Petz recovery map is considered one of the key candidates for the quantum analogue of Bayesian inference and Jeffrey's conditionalization. Since, there seems to be a natural connection between Bayesian inference and the notion of state tomography, it is natural to ask if the Petz recovery can be used for this latter task. In this paper, we discuss such recent results on iterated Petz recovery and relate them to Bayesian approaches to quantum state tomography. We highlight the limitations of direct Petz iteration and show how an extended Petz construction, by lifting the inference problem to a classical distribution over candidate quantum states, recovers the structure of Bayesian and maximum likelihood tomography. This provides perspective on the modifications or nuances required for a Petz approach to quantum retrodiction to perform quantum state tomography.",
+ "comment": "8 pages (main text), 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.21309",
+  "pdf": "https://arxiv.org/pdf/2608.21309",
+  "html": "https://arxiv.org/html/2608.21309"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.21309v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24T07:39:01.097Z",
+  "hook": "Extended Petz construction recovers Bayesian and maximum likelihood tomography by lifting inference.",
+  "tldr": [
+   "Discussed recent results on iterated Petz recovery and related them to Bayesian approaches to quantum state tomography.",
+   "Highlighted the limitations of direct Petz iteration for quantum state tomography tasks.",
+   "Showed how an extended Petz construction lifts the inference problem to a classical distribution over candidate states."
+  ],
+  "whyItMatters": "Connecting quantum error recovery maps to standard Bayesian inference helps bridge disparate frameworks in quantum information, clarifying how we reconstruct unknown quantum states.",
+  "eli5": "Think of guessing the exact internal state of a mysterious black box by poking it repeatedly. This paper figures out why a standard mathematical tool for fixing quantum errors falls short when trying to map out the box, and how upgrading that tool makes it work like classical statistical guessing.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Petz recovery map",
+    "shortDef": "A key mathematical map considered the quantum analogue of classical Bayesian inference.",
+    "eli5Def": "A mathematical formula used to reverse or correct quantum information loss, much like updating beliefs with new clues.",
+    "wikiTitle": "Quantum relative entropy"
+   },
+   {
+    "term": "State tomography",
+    "shortDef": "The process of reconstructing the complete quantum state through measurements.",
+    "eli5Def": "Doing a complete medical scan of a quantum system to figure out its exact condition.",
+    "wikiTitle": "Quantum tomography"
+   },
+   {
+    "term": "Bayesian inference",
+    "shortDef": "A statistical method where probabilities are updated as more evidence becomes available.",
+    "eli5Def": "Updating your guess about a secret as you collect more clues.",
+    "wikiTitle": "Bayesian inference"
+   },
+   {
+    "term": "Quantum retrodiction",
+    "shortDef": "The process of using later measurements to infer past quantum states.",
+    "eli5Def": "Using clues from the present to figure out what happened in the quantum past.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 40
+ }
+}

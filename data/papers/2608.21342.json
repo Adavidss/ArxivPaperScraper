@@ -1,0 +1,84 @@
+{
+ "id": "2608.21342",
+ "version": 1,
+ "title": "Slepian Bounds on the Success Probability of Virtual Distillation",
+ "authors": [
+  {
+   "name": "Masayuki Ohzeki"
+  },
+  {
+   "name": "Sasuke Kimata"
+  },
+  {
+   "name": "Xinwei Lee"
+  },
+  {
+   "name": "Hoong Chuin Lau"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-21T17:47:47Z",
+ "updated": "2026-08-21T17:47:47Z",
+ "abstract": "Virtual distillation is a powerful near-term error-mitigation primitive, but it is also a spectral filter: it amplifies the dominant eigenvector component already present in the noisy density matrix. We show that, for a finite-band variational state, this filtering cannot create new concentration inside a set of accepted measurement outcomes. The asymptotic success probability after distillation is bounded by the leading eigenvalue of a Slepian concentration operator built from a specified variational band and that outcome window. Moreover, the number of robust high-success spectral components is limited by the Slepian active dimension. \\rev{For bit-string outcome windows, an explicit Walsh-band realization has a Krawtchouk kernel on the Boolean hypercube. Finite-size noisy-QAOA calculations for 2-regular Max-Cut illustrate both the in-band improvement and the out-of-band failure modes predicted by the branch-resolved result.",
+ "comment": "6 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.21342",
+  "pdf": "https://arxiv.org/pdf/2608.21342",
+  "html": "https://arxiv.org/html/2608.21342"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24T07:39:01.097Z",
+  "hook": "Virtual distillation success probability is bounded by the leading eigenvalue of a Slepian concentration operator.",
+  "tldr": [
+   "They studied virtual distillation, a near-term error-mitigation primitive that acts as a spectral filter.",
+   "They proved that asymptotic success probability is bounded by the leading eigenvalue of a Slepian concentration operator.",
+   "They used finite-size noisy-QAOA calculations to illustrate in-band improvements and out-of-band failure modes."
+  ],
+  "whyItMatters": "Error mitigation is crucial for making near-term quantum computers practical, and understanding the mathematical limits of filtering techniques prevents wasted computational effort.",
+  "eli5": "Think of error mitigation like filtering muddy water to get clear drinking juice. The authors figured out the absolute mathematical limit of how clean that juice can possibly get using this specific filter.",
+  "keyNumbers": [
+   {
+    "value": "6",
+    "label": "Pages",
+    "context": "Length of the paper"
+   },
+   {
+    "value": "3",
+    "label": "Figures",
+    "context": "Number of figures included in the manuscript"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Virtual distillation",
+    "shortDef": "A quantum error mitigation technique that suppresses noise.",
+    "eli5Def": "A clever computer trick that cleans up errors in quantum calculations without needing a massive error-correcting computer.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Eigenvalue",
+    "shortDef": "A scalar associated with a linear transformation of a vector space.",
+    "eli5Def": "A special scaling factor that tells you how much a matrix stretches a specific vector.",
+    "wikiTitle": "Eigenvalues and eigenvectors"
+   },
+   {
+    "term": "Boolean hypercube",
+    "shortDef": "An n-dimensional hypercube whose vertices are points in a binary space.",
+    "eli5Def": "A multi-dimensional grid where every corner represents a string of 1s and 0s.",
+    "wikiTitle": "Hypercube"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

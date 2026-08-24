@@ -1,0 +1,80 @@
+{
+ "id": "2608.21361",
+ "version": 1,
+ "title": "Classical versus non-classical photon states for detecting vacuum non-linearity",
+ "authors": [
+  {
+   "name": "N. Ahmadiniaz"
+  },
+  {
+   "name": "C. Kohlfürst"
+  },
+  {
+   "name": "R. Shaisultanov"
+  },
+  {
+   "name": "R. Schützhold"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "hep-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-21T17:59:54Z",
+ "updated": "2026-08-21T17:59:54Z",
+ "abstract": "Quantum electrodynamics (QED) predicts that the vacuum should behave as a non-linear medium. For many schemes aimed at verifying this fundamental prediction, the signal consists of one or more photons in a certain mode (determined by polarization $σ$ and wave-number $\\boldsymbol{k}$) which would be empty in the absence of a QED vacuum non-linearity. Here we consider modifying these schemes by sending in a classical or non-classical (e.g., squeezed) photon state instead of the initial vacuum state in that mode. We find that the detectability can be improved significantly.",
+ "comment": "7 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.21361",
+  "pdf": "https://arxiv.org/pdf/2608.21361",
+  "html": "https://arxiv.org/html/2608.21361"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24T07:39:01.097Z",
+  "hook": "Sending classical or non-classical photon states significantly improves the detectability of quantum vacuum non-linearity.",
+  "tldr": [
+   "They investigated modifying schemes for verifying QED vacuum non-linearity by sending in photon states instead of an initial vacuum state.",
+   "They considered using classical or non-classical, such as squeezed, photon states in a mode that would normally be empty.",
+   "They found that the detectability of the vacuum non-linearity can be improved significantly using this modified approach."
+  ],
+  "whyItMatters": "Proving that the vacuum has non-linear properties is a core prediction of quantum electrodynamics, and better detection schemes bring us closer to observing elusive quantum phenomena.",
+  "eli5": "Imagine trying to spot a faint ripple on a completely still pond by shining a light on it. Instead of leaving the spot dark, the researchers shine a special laser beam into it, making the hidden ripples much easier to see.",
+  "keyNumbers": [
+   {
+    "value": "7",
+    "label": "Pages",
+    "context": "Length of the research paper"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum electrodynamics",
+    "shortDef": "The relativistic quantum field theory of electrodynamics.",
+    "eli5Def": "The science rulebook for how light and charged particles interact at the smallest scales.",
+    "wikiTitle": "Quantum electrodynamics"
+   },
+   {
+    "term": "Squeezed state",
+    "shortDef": "A quantum state of light with reduced uncertainty in one phase.",
+    "eli5Def": "A laser beam tuned so precisely that it trade-offs fuzziness in one direction to become super sharp in another.",
+    "wikiTitle": "Squeezed coherent state"
+   },
+   {
+    "term": "Polarization",
+    "shortDef": "The orientation of the oscillations of a transverse wave.",
+    "eli5Def": "The direction in which light waves are vibrating, like vertical or horizontal blinds.",
+    "wikiTitle": "Polarization (waves)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

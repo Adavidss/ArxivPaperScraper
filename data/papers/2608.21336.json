@@ -1,0 +1,76 @@
+{
+ "id": "2608.21336",
+ "version": 1,
+ "title": "Dissipative framework for subsystem dynamics of noninteracting quantum chains",
+ "authors": [
+  {
+   "name": "Michele Coppola"
+  },
+  {
+   "name": "Zala Lenarčič"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-21T17:42:02Z",
+ "updated": "2026-08-21T17:42:02Z",
+ "abstract": "When only local observables of a many-body quantum system are of interest, it is desirable to formulate a reduced description within the Hilbert space of the corresponding subsystem, with the remaining degrees of freedom traced out and acting as an environment. Assuming initially uncorrelated states and Gaussian environments, we develop a framework for reconstructing the local dynamical generator of noninteracting quantum chains, with polynomial computational complexity. As an application, we consider two representative models: a bipartitioned Kitaev chain and a Kitaev chain boundary-coupled to a fully connected free-fermion environment. In both models, strong subsystem-environment coupling leads to non-Markovian dynamics characterized by ballistic spreading of the Lindblad dissipator support within the subsystem. On the other hand, weak coupling to a fully connected environment yields predominantly boundary-localized, Markovian dissipation. Our work highlights the implications of subsystem-environment correlations on the generator of local dynamics, beyond the conventional weak-coupling approximations.",
+ "comment": "8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.21336",
+  "pdf": "https://arxiv.org/pdf/2608.21336",
+  "html": "https://arxiv.org/html/2608.21336"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.21336v1/fig5.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24T07:39:01.097Z",
+  "hook": "Strong subsystem-environment coupling leads to non-Markovian dynamics with ballistic spreading of the dissipator support.",
+  "tldr": [
+   "They developed a framework to reconstruct local dynamical generators of noninteracting quantum chains with polynomial complexity.",
+   "They applied the framework to a bipartitioned Kitaev chain and a boundary-coupled Kitaev chain.",
+   "They found that strong coupling leads to non-Markovian dynamics, while weak coupling yields Markovian dissipation."
+  ],
+  "whyItMatters": "Understanding how small quantum subsystems interact with their surrounding environments helps physicists model energy loss and noise in future quantum technologies.",
+  "eli5": "Imagine a guitar string vibrating next to other instruments. If it is tied tightly to them, its vibrations spread wildly and remember the past; if it is barely touching, it forgets the past immediately.",
+  "keyNumbers": [
+   {
+    "value": "8",
+    "label": "Figures",
+    "context": "Number of figures illustrating the framework and models"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Markovian",
+    "shortDef": "A process where future states depend only upon the current state, not the past.",
+    "eli5Def": "A system with total amnesia: it only cares about what is happening right now, completely forgetting how it got here.",
+    "wikiTitle": "Markov property"
+   },
+   {
+    "term": "Kitaev chain",
+    "shortDef": "A simple model of a superconducting wire that hosts Majorana fermions.",
+    "eli5Def": "A theoretical chain of quantum particles acting like tiny magnets that can host exotic physics at their edges.",
+    "wikiTitle": "Kitaev chain"
+   },
+   {
+    "term": "Hilbert space",
+    "shortDef": "A vector space equipped with an inner product, essential for quantum mechanics.",
+    "eli5Def": "The gigantic mathematical playground where all the possible states of a quantum system live.",
+    "wikiTitle": "Hilbert space"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

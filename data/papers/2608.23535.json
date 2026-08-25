@@ -1,0 +1,74 @@
+{
+ "id": "2608.23535",
+ "version": 1,
+ "title": "Bound States in Exactly Solvable Polaritonic Models",
+ "authors": [
+  {
+   "name": "Sam Johar"
+  },
+  {
+   "name": "Ryogo Katahira"
+  },
+  {
+   "name": "Joseph Kraisler"
+  }
+ ],
+ "categories": [
+  "math-ph",
+  "math.SP",
+  "quant-ph"
+ ],
+ "primaryCategory": "math-ph",
+ "published": "2026-08-24T17:37:08Z",
+ "updated": "2026-08-24T17:37:08Z",
+ "abstract": "We study a one-dimensional scalar model for an effective-mass quasiparticle field coupled to a continuum of two-level atoms with at most one excitation present. We prove a general theorem on the existence of bound states under sign-definite spatially localized perturbations of constant atomic density and analyze the bound states for several exactly solvable examples.",
+ "comment": "15 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.23535",
+  "pdf": "https://arxiv.org/pdf/2608.23535",
+  "html": "https://arxiv.org/html/2608.23535"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.23535v1/spectral_bands.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25T07:26:18.231Z",
+  "hook": "Researchers discover exact mathematical formulas for bound states in a one-dimensional quantum model.",
+  "tldr": [
+   "Studied a one-dimensional scalar model for a quasiparticle coupled to a continuum of atoms.",
+   "Proved a general mathematical theorem regarding the existence of bound states under localized perturbations.",
+   "Analyzed these bound states explicitly for several exactly solvable examples."
+  ],
+  "whyItMatters": "Exact solutions in quantum physics are rare goldmines that allow scientists to test assumptions without making approximations.",
+  "eli5": "Imagine throwing a ball in a room where it can either bounce around freely forever or get stuck in a valley. The authors found exact mathematical rules for when particles get trapped in these valleys.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quasiparticle",
+    "shortDef": "An emergent phenomenon that behaves like a particle inside a complex material.",
+    "eli5Def": "Not a real fundamental particle, but a collective wave pattern in a material that acts like a solid object bouncing around.",
+    "wikiTitle": "Quasiparticle"
+   },
+   {
+    "term": "Bound state",
+    "shortDef": "A system of particles stuck together by an attractive potential.",
+    "eli5Def": "Like kids holding hands tightly on a playground ride so they cannot fly off; they are permanently linked.",
+    "wikiTitle": "Bound state"
+   },
+   {
+    "term": "Scalar model",
+    "shortDef": "A physical model where the primary field variables are simple numbers.",
+    "eli5Def": "A math model where things only have a magnitude and no directional arrows, making the equations simpler to solve.",
+    "wikiTitle": "Scalar field theory"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 35
+ }
+}

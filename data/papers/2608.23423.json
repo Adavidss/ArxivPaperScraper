@@ -1,0 +1,114 @@
+{
+ "id": "2608.23423",
+ "version": 1,
+ "title": "Environmental Control Extends Beyond Quantum Dephasing in Exciton Energy Transfer",
+ "authors": [
+  {
+   "name": "Junhua Zhou"
+  },
+  {
+   "name": "Tianrui Chen"
+  },
+  {
+   "name": "Dehao Yuan"
+  },
+  {
+   "name": "Enhu He"
+  },
+  {
+   "name": "Vandana Tiwari"
+  },
+  {
+   "name": "Maxim Gelin"
+  },
+  {
+   "name": "Francoise Remacle"
+  },
+  {
+   "name": "R. J. Dwayne Miller"
+  },
+  {
+   "name": "Fulu Zheng"
+  },
+  {
+   "name": "Ajay Jha"
+  },
+  {
+   "name": "Hong-Guang Duan"
+  }
+ ],
+ "categories": [
+  "physics.chem-ph",
+  "cond-mat.soft",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.chem-ph",
+ "published": "2026-08-24T16:03:06Z",
+ "updated": "2026-08-24T16:03:06Z",
+ "abstract": "Excitation-energy transfer underpins the conversion of light into usable energy in photosynthetic organisms and serves as a paradigm for evolutionary optimized transport in open quantum systems. Although this process is often described as incoherent thermally assisted hopping, such descriptions become inadequate when electronic coupling, vibronic interactions and environmental fluctuations occur on comparable energy scales. Determining how the environment controls transport therefore remains a fundamental challenge. Here, we use temperature-dependent 2DES to investigate energy transfer in the photosynthetic antenna protein allophycocyanin over the range 10 - 296 K. The dominant $β\\rightarrow α$ transfer step exhibits a pronounced non-monotonic temperature dependence: the transfer time decreases from 400 fs at 10 K to 200 fs near 30- 40 K before increasing again to 400 fs at 296 K. In contrast, the homogeneous optical dephasing time decreases monotonically across the same temperature range. To interpret these observations, we model APC as a vibronically coupled excitonic dimer interacting with a structured environment and solve the dynamics using hierarchical equations of motion. Conventional fixed-bath models, including Drude-Lorentz and explicit intermolecular-mode spectral densities, fail to reproduce the observed turnover. Quantitative agreement is obtained only when the low-frequency sector of the environmental spectral density is allowed to anharmonically evolve strongly with temperature, while the high-frequency bath remains essentially unchanged. More broadly, these findings demonstrate that transport efficiency is controlled not simply by the magnitude of environmental fluctuations, but by the distribution of environmental spectral weight across frequency space, providing new experimental constraints on theories of molecular transport in complex quantum environments.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.23423",
+  "pdf": "https://arxiv.org/pdf/2608.23423",
+  "html": "https://arxiv.org/html/2608.23423"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.23423v1/Fig1.jpg"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25T07:26:18.231Z",
+  "hook": "Energy transfer time in allophycocyanin drops from 400 fs at 10 K to 200 fs near 30-40 K before rising back to 400 fs.",
+  "tldr": [
+   "Investigated energy transfer in photosynthetic antenna protein allophycocyanin over a temperature range of 10 to 296 K.",
+   "Used temperature-dependent 2DES measurements and modeled the dynamics using hierarchical equations of motion.",
+   "Found a non-monotonic temperature dependence where transfer times first decrease and then increase."
+  ],
+  "whyItMatters": "Understanding how nature efficiently moves energy through molecules like proteins helps us design better artificial light-harvesting and quantum technologies.",
+  "eli5": "Think of energy trying to move across a molecular bridge inside a plant. Scientists found that cooling or warming the plant changes how fast the energy crosses, behaving like a bridge that gets wobblier or stiffer depending on the temperature.",
+  "keyNumbers": [
+   {
+    "value": "400 fs",
+    "label": "Transfer time at 10 K",
+    "context": "The transfer time for the dominant beta to alpha transfer step at low temperature."
+   },
+   {
+    "value": "200 fs",
+    "label": "Transfer time at 30-40 K",
+    "context": "The minimum transfer time observed near 30-40 K."
+   },
+   {
+    "value": "296 K",
+    "label": "Room temperature",
+    "context": "The upper bound of the temperature range investigated."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Exciton",
+    "shortDef": "A bound state of an electron and an electron hole that can transport energy.",
+    "eli5Def": "A tiny packet of energy moving around inside a material after absorbing light.",
+    "wikiTitle": "Exciton"
+   },
+   {
+    "term": "Dephasing time",
+    "shortDef": "The time over which a quantum system loses its phase coherence.",
+    "eli5Def": "How long quantum waves stay synchronized before getting scrambled by their environment.",
+    "wikiTitle": "Dephasing"
+   },
+   {
+    "term": "Spectral density",
+    "shortDef": "A function describing how environmental fluctuations are distributed across frequencies.",
+    "eli5Def": "A map showing how much noise or vibration exists at different speeds or pitches in the surroundings.",
+    "wikiTitle": "Spectral density"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

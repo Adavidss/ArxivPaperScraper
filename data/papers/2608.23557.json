@@ -1,0 +1,77 @@
+{
+ "id": "2608.23557",
+ "version": 1,
+ "title": "Dissipation-induced Sachdev-Ye-Kitaev physics in many-body cavity quantum electrodynamics",
+ "authors": [
+  {
+   "name": "Pietro Pacchioni"
+  },
+  {
+   "name": "Filippo Ferrari"
+  },
+  {
+   "name": "Vincenzo Savona"
+  },
+  {
+   "name": "Matteo Seclì"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.dis-nn",
+  "cond-mat.quant-gas"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-24T17:55:30Z",
+ "updated": "2026-08-24T17:55:30Z",
+ "abstract": "We show that cavity quantum electrodynamics (QED) devices can realize dissipative Sachdev-Ye-Kitaev (SYK) physics, a paradigmatic setting for quantum chaos in open many-body systems. Ultracold fermions with disordered, all-to-all cavity-mediated interactions provide two complementary routes: atomic spontaneous emission in a single-mode cavity and photon leakage from a multimode cavity. Strikingly, both converge to the same non-Hermitian random-matrix universality despite originating from integrable and chaotic closed-system limits, respectively. In the single-mode case, dissipation therefore creates quantum chaos from an integrable Hamiltonian. We trace this convergence to a tunable growth in dissipative rank, controlled, respectively, by the Lamb-Dicke parameter and the cavity-mode spacing. The resulting chaos leaves a dynamical fingerprint: a crossover from long-lived prethermal memory to rapid thermalization, visible in single-atom-resolved densities.",
+ "comment": "Main text: 10 pages, 6 figures. Supplementary text: 12 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.23557",
+  "pdf": "https://arxiv.org/pdf/2608.23557",
+  "html": "https://arxiv.org/html/2608.23557"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.23557v1/figure_integrable_corner_sigma_sff.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25T07:26:18.231Z",
+  "hook": "Dissipation can magically turn a well-behaved quantum system into pure, chaotic randomness.",
+  "tldr": [
+   "Proved that cavity QED devices can realize dissipative Sachdev-Ye-Kitaev (SYK) physics.",
+   "Used ultracold fermions with all-to-all cavity-mediated interactions via spontaneous emission or photon leakage.",
+   "Found that dissipation creates quantum chaos from an integrable Hamiltonian, leading to rapid thermalization."
+  ],
+  "whyItMatters": "Understanding how quantum chaos emerges helps physicists model complex quantum materials and black holes, which behave similarly on a fundamental level.",
+  "eli5": "Imagine a quiet, orderly library where everyone whispers. If you suddenly introduce loud, random bursts of noise that leak in from outside, people start panicking and running around chaotically. The researchers showed that adding this external 'noise' can turn an orderly quantum system into total chaos.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Cavity QED",
+    "shortDef": "Study of light interacting with atoms inside a reflective cavity.",
+    "eli5Def": "Trapping atoms between two mirrors so they can strongly bounce light back and forth with each other.",
+    "wikiTitle": "Cavity quantum electrodynamics"
+   },
+   {
+    "term": "Sachdev-Ye-Kitaev model",
+    "shortDef": "A theoretical model of many-body quantum chaos and holographic gravity.",
+    "eli5Def": "A mathematical recipe for quantum particles that interact so wildly they become completely unpredictable, often used to study black holes.",
+    "wikiTitle": "Sachdev–Ye–Kitaev model"
+   },
+   {
+    "term": "Integrable",
+    "shortDef": "A system whose equations can be solved completely and analytically.",
+    "eli5Def": "A system that is so perfectly predictable and orderly that you can write down an exact mathematical formula for everything it will do.",
+    "wikiTitle": "Integrable system"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

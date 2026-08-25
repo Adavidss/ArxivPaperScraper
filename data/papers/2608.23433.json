@@ -1,0 +1,78 @@
+{
+ "id": "2608.23433",
+ "version": 1,
+ "title": "Quantum-enhanced sensing in a driven-dissipative system via chiral waveguide",
+ "authors": [
+  {
+   "name": "Yan Xi Foo"
+  },
+  {
+   "name": "Saubhik Sarkar"
+  },
+  {
+   "name": "Leong Chuan Kwek"
+  },
+  {
+   "name": "Abolfazl Bayat"
+  },
+  {
+   "name": "Davit Aghamalyan"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-24T16:08:45Z",
+ "updated": "2026-08-24T16:08:45Z",
+ "abstract": "Quantum sensors can achieve precision unattainable by classical sensors. However, dissipation coming from interaction with the environment can greatly degrade the performance of quantum sensors. Therefore, it is crucial to attempt harnessing dissipation to our advantage and investigate the sensing performance of driven-dissipative systems to gain practical quantum advantages. In this paper, we study a system of two-level systems driven coherently at a detuned frequency, and importantly, connected to a chiral waveguide that serves both as an interaction mediator and a bath. We show analytically that the steady state of such a system shows enhanced sensitivity to estimate weak detuning strength while the probe preparation time only grows linearly with system size. Therefore, the enhanced sensitivity is sustained even when the preparation time is incorporated. We further establish measurement protocols to achieve such sensitivity that are experimentally implementable. The chirality of the waveguide helps us to control both precision and range of enhanced sensitivity.",
+ "comment": "5+16 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.23433",
+  "pdf": "https://arxiv.org/pdf/2608.23433",
+  "html": "https://arxiv.org/html/2608.23433"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.23433v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25T07:26:18.231Z",
+  "hook": "We show analytically that driven-dissipative quantum systems connected to a chiral waveguide achieve enhanced sensitivity.",
+  "tldr": [
+   "Studied a system of two-level systems driven coherently at a detuned frequency and connected to a chiral waveguide.",
+   "Used analytical methods and established experimentally implementable measurement protocols to study weak detuning strength estimation.",
+   "Found that the steady state shows enhanced sensitivity that is sustained even when probe preparation time is incorporated."
+  ],
+  "whyItMatters": "Quantum sensors can surpass classical limits, but environmental noise usually destroys their accuracy. By turning environmental interaction into an advantage through chiral waveguides, this research brings us closer to building practical, ultra-precise quantum sensors.",
+  "eli5": "Imagine trying to measure tiny changes with a very delicate musical instrument, but the wind keeps blowing on it and making it inaccurate. These researchers found a special one-way tube—a chiral waveguide—that uses the wind to actually help you measure things more precisely.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Chiral waveguide",
+    "shortDef": "A guide for waves or particles where propagation direction is locked to internal states.",
+    "eli5Def": "Like a one-way street for light or quantum information where traffic only flows in a single direction.",
+    "wikiTitle": "Chiral waveguide"
+   },
+   {
+    "term": "Detuned frequency",
+    "shortDef": "A frequency offset slightly from the resonance or operating frequency of a system.",
+    "eli5Def": "Like tuning a radio just a tiny bit off the exact station frequency on purpose.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Driven-dissipative system",
+    "shortDef": "An open quantum system that is continuously pumped with energy while also losing it to the environment.",
+    "eli5Def": "Like a leaky bucket that you keep filling with a garden hose while water pours out of the holes.",
+    "wikiTitle": "Dissipative system"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "2608.23460",
+ "version": 1,
+ "title": "Satisfying Quantum Codes: Physics-Informed and Hardware-Aware Code Design with SAT Solvers",
+ "authors": [
+  {
+   "name": "Ben DalFavero"
+  },
+  {
+   "name": "William M. Watkins"
+  },
+  {
+   "name": "Margarite L. LaBorde"
+  },
+  {
+   "name": "Vincent Russo"
+  },
+  {
+   "name": "Ethan Egger"
+  },
+  {
+   "name": "Gregory Quiroz"
+  },
+  {
+   "name": "Ryan LaRose"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-24T16:29:28Z",
+ "updated": "2026-08-24T16:29:28Z",
+ "abstract": "Although quantum error correction is widely believed to be necessary for impactful applications of quantum computers, the design of quantum error correction codes is largely done by hand, without respect to problem or hardware constraints. In this work, we present a highly general and flexible framework for the computational design of both physics-inspired and hardware-aware quantum codes. To do so, we formulate code design as a Boolean satisfiability (SAT) problem and show how to incorporate all required error correction criteria. We prove that code design is NP-complete, ruling out any efficient algorithm for designing codes in general. Nonetheless, we show that state-of-the-art SAT solvers are able to effectively find solutions for many practical problems. Notably, we are able to design physics-inspired codes with up to 100 physical qubits in minutes, and we design new hardware-aware codes for biased noise which have a lower logical error rate than state-of-the-art surface codes.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.23460",
+  "pdf": "https://arxiv.org/pdf/2608.23460",
+  "html": "https://arxiv.org/html/2608.23460"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.23460v1/overview_fig.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25T07:26:18.231Z",
+  "hook": "State-of-the-art SAT solvers can design quantum error-correction codes with up to 100 qubits in minutes.",
+  "tldr": [
+   "Formulated quantum error-correcting code design as a Boolean satisfiability (SAT) problem.",
+   "Proved that code design is NP-complete, ruling out generic efficient algorithms.",
+   "Designed new hardware-aware codes for biased noise that beat the error rates of standard surface codes."
+  ],
+  "whyItMatters": "Designing quantum error-correction codes by hand is a massive bottleneck; automating it paves the way for fault-tolerant quantum computers.",
+  "eli5": "Designing quantum codes to prevent computer errors is like solving a giant, impossible Sudoku puzzle by hand. The authors turned it into a computer search problem, letting smart algorithms build better security codes than humans could.",
+  "keyNumbers": [
+   {
+    "value": "100",
+    "label": "Physical qubits",
+    "context": "The maximum size of physics-inspired codes designed by the SAT solver in minutes."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Boolean satisfiability",
+    "shortDef": "The problem of finding variable assignments that make a Boolean formula true.",
+    "eli5Def": "Figuring out if a massive web of true/false logic statements can ever be satisfied simultaneously.",
+    "wikiTitle": "Boolean satisfiability problem"
+   },
+   {
+    "term": "NP-complete",
+    "shortDef": "A class of computational problems that are notoriously hard to solve quickly.",
+    "eli5Def": "Problems that take computers an exploding amount of time to solve as they get even slightly bigger.",
+    "wikiTitle": "NP-completeness"
+   },
+   {
+    "term": "Surface code",
+    "shortDef": "A popular topological quantum error-correcting code architecture.",
+    "eli5Def": "A standard grid-like pattern for arranging qubits so they can protect each other from noise.",
+    "wikiTitle": "Surface code"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

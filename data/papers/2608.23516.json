@@ -1,0 +1,114 @@
+{
+ "id": "2608.23516",
+ "version": 1,
+ "title": "Extreme-ultraviolet spectroscopy using quantum logic: a feasibility study for singly-ionized helium",
+ "authors": [
+  {
+   "name": "A. Martínez de Velasco"
+  },
+  {
+   "name": "V. P. J. Barbé"
+  },
+  {
+   "name": "E. L. Gründeman"
+  },
+  {
+   "name": "A. Díaz Calderon"
+  },
+  {
+   "name": "M. Collombon"
+  },
+  {
+   "name": "J. J. Krauth"
+  },
+  {
+   "name": "C. F. Roth"
+  },
+  {
+   "name": "M. Favier"
+  },
+  {
+   "name": "R. Taieb"
+  },
+  {
+   "name": "T. E. Mehlstäubler"
+  },
+  {
+   "name": "P. O. Schmidt"
+  },
+  {
+   "name": "L. S. Dreissen"
+  },
+  {
+   "name": "K. S. E. Eikema"
+  }
+ ],
+ "categories": [
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.atom-ph",
+ "published": "2026-08-24T17:22:25Z",
+ "updated": "2026-08-24T17:22:25Z",
+ "abstract": "Extreme-ultraviolet (XUV) spectroscopy represents an important new direction in precision physics, with potential applications ranging from the metrology of fundamental constants to tests of physics beyond the Standard Model. However, the application of quantum control methods for precision spectroscopy remains an open challenge in the XUV range. Here we present a novel quantum logic (QL) spectroscopy method for precision spectroscopy of weak XUV transitions, and numerically validate its feasibility for the $1S-2S$ transition at 40.81\\,eV in singly-ionized helium (He$^{+}$). We propose a scheme based on a single He$^{+}$ ion co-trapped with a Be$^{+}$ ion in a Paul trap, and He$^{+}$ excitation with pairs of frequency-comb (FC) laser pulses upconverted to the XUV via High-Harmonic Generation (HHG). We investigate a nondestructive QL scheme to detect $1S-2S$ excitation, and compare its performance with a destructive readout based on state-selective ionization. Phase coherence of the XUV light is modelled and an optical cavity is used to filter the FC pulses prior to HHG. We model the motional excitation dynamics of trapped ions outside the Lamb-Dicke regime, and numerically validate a scheme we proposed in \\cite{Grundeman} to cancel the first-order Doppler broadening and the recoil shift by synchronizing the ion's secular period with the time delay between the two excitation pulses. We show that precision spectroscopy of the $1S-2S$ transition in He$^{+}$ at the 10 kHz level is feasible, for improved tests of quantum electrodynamics (QED), a measurement of the Rydberg constant $R_{\\infty}$ independent of hydrogen measurements, or an improved determination of the alpha particle and helion charge radii. The proposed method may also be applied to XUV spectroscopy of other ions outside the Lamb-Dicke regime.",
+ "comment": "26 pages, 19 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.23516",
+  "pdf": "https://arxiv.org/pdf/2608.23516",
+  "html": "https://arxiv.org/html/2608.23516"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.23516v1/RCS_in_trap.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25T07:26:18.231Z",
+  "hook": "New quantum logic scheme targets extreme-ultraviolet spectroscopy in helium ions at 40.81 eV.",
+  "tldr": [
+   "Proposed a novel quantum logic spectroscopy method for weak extreme-ultraviolet (XUV) transitions.",
+   "Numerically validated the approach for the 1S-2S transition in singly-ionized helium using trapped ions and frequency-comb lasers.",
+   "Demonstrated feasibility of 10 kHz-level precision spectroscopy to improve fundamental physics tests."
+  ],
+  "whyItMatters": "High-precision spectroscopy of simple ions lets physicists test fundamental physical constants and search for cracks in the Standard Model.",
+  "eli5": "Measuring tiny energy changes in atoms is hard when ultraviolet light is involved. Scientists paired a helium ion with a helper beryllium ion in a trap to 'read out' the helium's state indirectly, much like using a sensitive microphone to hear a watch ticking inside a loud room.",
+  "keyNumbers": [
+   {
+    "value": "40.81 eV",
+    "label": "Transition energy",
+    "context": "The energy of the 1S-2S transition in singly-ionized helium."
+   },
+   {
+    "value": "10 kHz",
+    "label": "Precision level",
+    "context": "The achievable precision level for spectroscopy of the helium ion transition."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Extreme-ultraviolet",
+    "shortDef": "High-frequency ultraviolet radiation sitting right near soft X-rays.",
+    "eli5Def": "Invisible light with so much energy that it can knock electrons right out of atoms.",
+    "wikiTitle": "Extreme ultraviolet"
+   },
+   {
+    "term": "Quantum logic spectroscopy",
+    "shortDef": "Using a well-controlled 'control' ion to measure the properties of a tricky 'logic' ion.",
+    "eli5Def": "Using an easy-to-manage atomic pet to report back on what its unruly neighbor ion is doing.",
+    "wikiTitle": "Quantum logic spectroscopy"
+   },
+   {
+    "term": "Lamb-Dicke regime",
+    "shortDef": "Condition where atomic recoil from photon absorption is much smaller than confinement size.",
+    "eli5Def": "When an atom is held so tightly in place that absorbing a particle of light cannot push it around.",
+    "wikiTitle": "Lamb-Dicke regime"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "id": "2608.24864",
+ "version": 1,
+ "title": "Dynamical Consequences of Nontrivial Topology of Molecular Conical Intersections",
+ "authors": [
+  {
+   "name": "Indranil Ghosh"
+  },
+  {
+   "name": "Kush Banker"
+  },
+  {
+   "name": "Gregory S. Engel"
+  }
+ ],
+ "categories": [
+  "physics.chem-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.chem-ph",
+ "published": "2026-08-25T17:46:28Z",
+ "updated": "2026-08-25T17:46:28Z",
+ "abstract": "The topology of the electronic structure for an avoided crossing and a conical intersection (CI) is different and is characterized by the presence of the geometric phase in the electronic wavefunction in the latter. Using the linear Jahn-Teller model, we show that an avoided crossing can be created from the conical intersection while preserving the nontrivial topology of the latter by adding a Pauli $σ_y$ term to the Hamiltonian. Analogously to solid state systems, we derive a half-integer topological invariant as the integral of the Berry curvature over the CI nuclear branching space. We investigate the influence of electronic topology on chemical dynamics by conducting fewest-switches surface hopping simulations and find distinct hopping rates on identical eigensurfaces but with different topologies. Our work extends the influence of topology on molecular excited state dynamics beyond the Berry phase that can be practically realized through electron-nuclear and spin-orbit coupling.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.24864",
+  "pdf": "https://arxiv.org/pdf/2608.24864",
+  "html": "https://arxiv.org/html/2608.24864"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.24864v1/figures/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26T07:27:20.880Z",
+  "hook": "We show an avoided crossing can be created from a conical intersection while preserving its nontrivial topology.",
+  "tldr": [
+   "Investigated how electronic topology impacts chemical dynamics by altering molecular conical intersections.",
+   "Used the linear Jahn-Teller model and conducted fewest-switches surface hopping simulations.",
+   "Found distinct hopping rates on identical eigensurfaces that possess different topologies."
+  ],
+  "whyItMatters": "Understanding how topology steers molecular reactions helps us control excited-state chemical dynamics beyond traditional models.",
+  "eli5": "Imagine a molecule shifting shapes like a gymnast; sometimes paths cross in a weird twist. Researchers found that changing the hidden twist of the path changes how fast the molecule reacts, even if the overall shape looks the same.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Conical Intersection",
+    "shortDef": "A point where electronic potential energy surfaces of the same symmetry intersect.",
+    "eli5Def": "A spot where two energy landscapes touch like the tips of two ice cream cones, letting molecules jump easily between states.",
+    "wikiTitle": "Conical intersection"
+   },
+   {
+    "term": "Berry Curvature",
+    "shortDef": "A geometric property of quantum states that acts like a magnetic field in abstract parameter space.",
+    "eli5Def": "A mathematical twist that acts like an invisible magnetic field pulling on quantum particles.",
+    "wikiTitle": "Berry phase"
+   },
+   {
+    "term": "Surface Hopping",
+    "shortDef": "A simulation technique that allows molecules to jump between different electronic potential energy surfaces.",
+    "eli5Def": "A computer simulation method for tracking how molecules switch tracks during a chemical reaction.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

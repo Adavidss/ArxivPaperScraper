@@ -1,0 +1,83 @@
+{
+ "id": "2608.24770",
+ "version": 1,
+ "title": "Geometry-controlled correlated electric-field noise in enclosed ion traps from billiard return spectra",
+ "authors": [
+  {
+   "name": "Ayush Nadiger"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.atom-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-25T16:09:36Z",
+ "updated": "2026-08-25T16:09:36Z",
+ "abstract": "We ask how passive conducting geometry determines the spatial structure of electric-field noise seen by trapped ions. From a boundary-potential covariance and the Dirichlet Green function we construct the $N$-ion electric-field cross-spectral matrix and its blockwise motional Kossakowski generator. In a parallel slab, billiard unfolding turns the electrostatic response into a return-depth measure and yields an exact return-pair functional for arbitrary stationary surface spectra. For every finite equal-height ion array, the passive cover increases the normal-field covariance matrix in the positive-semidefinite ordering and decreases the tangential-field covariance matrix in the same ordering: all collective normal-field coordinates acquire more absolute noise, while all collective tangential coordinates acquire less. At $h=2d$ the local-noise single-ion ratios are exactly $ζ(3)$ and $η(3)$. Diagonalizing the equal-frequency covariance identifies collective environmental noise eigenchannels and a geometry-dependent noise rank; within a degenerate frequency block these become the Lindblad jump channels. In a ten-ion example, closing the cover to $h=2d$ lowers the participation rank from 5.61 to 5.11 while increasing the leading channel's share from 23.7% to 28.6%; a primitive Mølmer-Sørensen calculation shows how the projected covariance sets the weak-heating gate exposure. Beyond parallel walls, specular paths emerge as large-$q_z$ saddles of the screened boundary operator. Across 16 curved covers, the fitted electrostatic decay exponent correlates at 0.9991 with the independently computed shortest specular excess length, while separate tests resolve focusing and competing saddles.",
+ "comment": "15 pages, 10 figures. Based on undergraduate honors thesis work at the University of Massachusetts Amherst. Code and numerical data: https://github.com/lostree9/noise_recycling",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.24770",
+  "pdf": "https://arxiv.org/pdf/2608.24770",
+  "html": "https://arxiv.org/html/2608.24770"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.24770v1/fig_many_ion_quantum_noise.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26T07:27:20.880Z",
+  "hook": "Closing an ion trap cover to h=2d yields exact local-noise single-ion ratios of ζ(3) and η(3).",
+  "tldr": [
+   "Derived how passive conducting geometries determine the spatial structure of electric-field noise seen by trapped ions.",
+   "Used boundary-potential covariances, Dirichlet Green functions, and billiard unfolding to analyze parallel slabs and 16 curved covers.",
+   "Found that covers increase normal-field covariance while decreasing tangential-field covariance, altering noise eigenchannels."
+  ],
+  "whyItMatters": "Electric-field noise disrupts delicate quantum computers by decohering trapped ions. Understanding how physical enclosure shapes this noise can guide the engineering of quieter quantum hardware.",
+  "eli5": "Imagine a room where sound echoes off the walls; the shape of the room changes which spots are loud or quiet. Similarly, the metal walls surrounding microscopic trapped ions change how electrical static hits them depending on the geometry.",
+  "keyNumbers": [
+   {
+    "value": "23.7%",
+    "label": "Initial channel share",
+    "context": "Leading channel share in a ten-ion example before closing the cover."
+   },
+   {
+    "value": "28.6%",
+    "label": "Final channel share",
+    "context": "Leading channel share in a ten-ion example after closing the cover to h=2d."
+   },
+   {
+    "value": "0.9991",
+    "label": "Correlation coefficient",
+    "context": "Correlation between fitted electrostatic decay exponent and shortest specular excess length across 16 curved covers."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Dirichlet Green function",
+    "shortDef": "A mathematical tool used to solve differential equations with fixed boundary conditions.",
+    "eli5Def": "A mathematical recipe that tells you how an influence spreads out inside a confined space with fixed walls.",
+    "wikiTitle": "Green's function"
+   },
+   {
+    "term": "Kossakowski generator",
+    "shortDef": "A mathematical operator describing how an open quantum system loses coherence and exchanges energy.",
+    "eli5Def": "An equation that tracks how a quantum system leaks information or gets messed up by its environment over time.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Mølmer-Sørensen gate",
+    "shortDef": "A standard entangling quantum logic gate used in trapped-ion quantum computers.",
+    "eli5Def": "A specific method using lasers to entangle trapped ions so they can perform quantum calculations together.",
+    "wikiTitle": "Mølmer–Sørensen gate"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 65
+ }
+}

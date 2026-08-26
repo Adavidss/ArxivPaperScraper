@@ -1,0 +1,82 @@
+{
+ "id": "2608.24799",
+ "version": 1,
+ "title": "Masked Differential-linear Distinguishers and Quantum Approaches",
+ "authors": [
+  {
+   "name": "Shobhit Pandey"
+  },
+  {
+   "name": "Sarbani Sen"
+  },
+  {
+   "name": "Debajyoti Bera"
+  },
+  {
+   "name": "Ravi Anand"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-25T16:43:31Z",
+ "updated": "2026-08-25T16:43:31Z",
+ "abstract": "We introduce masked auto-correlation, a new primitive for the cryptanalysis of symmetric-key primitives, together with a quantum attack pipeline built on it. For a permutation $f$, output masks $α,β$, and an input difference $w$, masked auto-correlation (MAC) measures the correlation between the masked outputs $α\\cdot f(x)$ and $β\\cdot f(x\\oplus w)$. The associated masked differential-linear (MDL) approximations strictly generalize several classical techniques; ordinary linear cryptanalysis, differential-linear cryptanalysis, and the differential-linear connectivity table all arise as special cases. Our central object of study is the problem of finding mask pairs with large masked cross-correlation -- those that yield powerful distinguishers -- which we call MAC Fishing. We give a constant-query quantum algorithm that samples such pairs according to their squared correlation, and we prove an exponential classical lower bound of $Ω(N/\\log N)$ queries, by adapting the hardness of Fourier Fishing. To our knowledge this is the first result pairing a quantum upper bound with a classical lower bound for the core task of identifying high-correlation approximations, making quantum algorithms an absolute necessity. Building on this, we analyse the distribution of masked auto-correlation for random permutations, and then construct capacity-based distinguishers and key-recovery attacks, both classically and with a quadratic quantum speed-up using amplitude estimation. We validate our claims with experiments on reduced-round mini-AES.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.24799",
+  "pdf": "https://arxiv.org/pdf/2608.24799",
+  "html": "https://arxiv.org/html/2608.24799"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.24799v1/figures/v_tau_dist_aes.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26T07:27:20.880Z",
+  "hook": "We introduce masked auto-correlation, a new primitive for symmetric-key cryptanalysis, with a quantum attack pipeline.",
+  "tldr": [
+   "Introduced masked auto-correlation to generalize classical cryptanalytic techniques like linear and differential cryptanalysis.",
+   "Designed a constant-query quantum algorithm and proved an exponential classical lower bound of Omega(N/log N).",
+   "Validated findings using capacity-based distinguishers and key-recovery attacks on reduced-round mini-AES."
+  ],
+  "whyItMatters": "Demonstrating tasks where quantum algorithms hold an exponential advantage over classical computers helps secure future encryption standards.",
+  "eli5": "Cryptographers try to break secret codes by looking for hidden patterns. Researchers found a secret-finding method where quantum computers can instantly find the answer, while regular computers take an impossibly long time.",
+  "keyNumbers": [
+   {
+    "value": "Omega(N/log N)",
+    "label": "Classical Lower Bound",
+    "context": "Exponential classical lower bound of queries for finding high-correlation approximations."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Cryptanalysis",
+    "shortDef": "The study of analyzing information systems in order to study the hidden aspects of cryptographic systems.",
+    "eli5Def": "Trying to crack secret codes and find weaknesses in security systems.",
+    "wikiTitle": "Cryptanalysis"
+   },
+   {
+    "term": "Distinguisher",
+    "shortDef": "An algorithm that can tell the difference between a cipher and a truly random permutation.",
+    "eli5Def": "A smart filter that spots a hidden mathematical signature to tell a real secret code apart from random noise.",
+    "wikiTitle": "Distinguisher (cryptography)"
+   },
+   {
+    "term": "Amplitude Estimation",
+    "shortDef": "A quantum algorithm that estimates the probability of a specific outcome, offering quadratic speed-ups.",
+    "eli5Def": "A quantum trick that counts the odds of an event happening much faster than a normal computer.",
+    "wikiTitle": "Amplitude estimation"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

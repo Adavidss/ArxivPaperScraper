@@ -1,0 +1,71 @@
+{
+ "id": "2608.24832",
+ "version": 1,
+ "title": "Certified Randomness without Structure Against Shallow-Query Adversaries",
+ "authors": [
+  {
+   "name": "Dakshita Khurana"
+  },
+  {
+   "name": "Bhaskar Roberts"
+  },
+  {
+   "name": "Avishay Tal"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-25T17:15:01Z",
+ "updated": "2026-08-25T17:15:01Z",
+ "abstract": "In a recent breakthrough, Yamakawa and Zhandry (J. ACM 2024) constructed a proof of quantumness in the quantum random oracle model (QROM) in which the quantum prover samples a codeword preimage of a publicly computable function H. They conjectured that given any H, a successful prover must sample their preimage from a high-entropy distribution over possible answers. If true, this would give a certifiable randomness protocol in the quantum random oracle model. As partial evidence for their conjecture, Yamakawa and Zhandry proved the security of their certifiable randomness protocol assuming the Aaronson-Ambainis conjecture. We prove the security of the certifiable randomness protocol of Yamakawa-Zhandry unconditionally, without relying on the unproven Aaronson-Ambainis conjecture, against low query-depth quantum adversaries: specifically, adversaries that make up to o(\\log λ) adaptive quantum queries to the random oracle.",
+ "comment": "To be published at FOCS 2026",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.24832",
+  "pdf": "https://arxiv.org/pdf/2608.24832",
+  "html": "https://arxiv.org/html/2608.24832"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26T07:27:20.880Z",
+  "hook": "We prove the security of Yamakawa and Zhandry's certifiable randomness protocol unconditionally.",
+  "tldr": [
+   "Proved the security of a quantum certifiable randomness protocol against low query-depth adversaries.",
+   "Applied a proof framework that operates unconditionally without relying on unproven conjectures.",
+   "Demonstrated security against quantum adversaries making up to o(log lambda) adaptive queries."
+  ],
+  "whyItMatters": "Generating certified random numbers is crucial for cryptography and secure computing, and proving security without unverified assumptions makes it bulletproof.",
+  "eli5": "If you want to flip a coin and prove to someone else that it is truly random and not rigged, quantum mechanics helps. Scientists just proved a secure way to do this without needing extra unproven mathematical assumptions.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Random Oracle Model",
+    "shortDef": "An idealized cryptographic model where a hash function is treated as a random black box accessible to quantum computers.",
+    "eli5Def": "A theoretical testing ground where a cryptographic function acts like a completely unpredictable quantum black box.",
+    "wikiTitle": "Random oracle model"
+   },
+   {
+    "term": "Preimage",
+    "shortDef": "An input that evaluates to a given output under a specific function.",
+    "eli5Def": "The original password or input you put into a machine to get a specific output.",
+    "wikiTitle": "Preimage (mathematics)"
+   },
+   {
+    "term": "Adaptive Queries",
+    "shortDef": "Queries made to an oracle where each question depends on the answers received from previous questions.",
+    "eli5Def": "Asking a magic box questions where your next question depends entirely on what the box answered just before.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

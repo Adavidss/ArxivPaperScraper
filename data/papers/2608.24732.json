@@ -1,0 +1,65 @@
+{
+ "id": "2608.24732",
+ "version": 1,
+ "title": "Certified Fidelity Susceptibility from Classical Shadows",
+ "authors": [
+  {
+   "name": "Kiran Adhikari"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "hep-th"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-25T15:41:48Z",
+ "updated": "2026-08-25T15:41:48Z",
+ "abstract": "Fidelity susceptibility is a useful probe of quantum phase transitions and quantum metrology, but its direct evaluation on a quantum device is challenging. By integrating Krylov-subspace methods with a resolvent-based reformulation, we present a method for certifying fidelity susceptibility using randomized single-copy measurements across repeated ground-state preparations. The resulting approximations form monotone lower bounds to the exact fidelity susceptibility and converge geometrically. We also present applications to metrology and linear static susceptibilities.",
+ "comment": "14 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.24732",
+  "pdf": "https://arxiv.org/pdf/2608.24732",
+  "html": "https://arxiv.org/html/2608.24732"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26T07:27:20.880Z",
+  "hook": "New randomized single-copy measurement method certifies quantum fidelity susceptibility via monotone lower bounds.",
+  "tldr": [
+   "Presented a method for certifying fidelity susceptibility on quantum devices.",
+   "Integrated Krylov-subspace methods with a resolvent-based reformulation using randomized single-copy measurements.",
+   "Proved that the resulting approximations form monotone lower bounds that converge geometrically."
+  ],
+  "whyItMatters": "Fidelity susceptibility helps scientists spot quantum phase transitions and improve quantum sensors, but it is notoriously difficult to calculate directly on quantum hardware. This technique makes evaluating it much more practical.",
+  "eli5": "Checking how fragile a quantum state is usually requires impossibly complicated measurements. This new trick lets scientists take simple, random snapshots of the system to safely estimate its sensitivity.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Fidelity susceptibility",
+    "shortDef": "A measure of how fast a quantum state changes when you tweak an underlying parameter.",
+    "eli5Def": "A score of how easily a quantum system gets disrupted when you change its settings slightly.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Krylov-subspace methods",
+    "shortDef": "Iterative algorithms used to approximate solutions to massive linear algebra problems.",
+    "eli5Def": "A clever math shortcut that helps computers find answers to giant, complex equations without doing every single step.",
+    "wikiTitle": "Krylov subspace method"
+   },
+   {
+    "term": "Classical shadows",
+    "shortDef": "A protocol for efficiently predicting many properties of a quantum state using randomized measurements.",
+    "eli5Def": "A technique that lets you take a few random photos of a quantum system to guess a lot of information about it.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

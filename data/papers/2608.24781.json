@@ -1,0 +1,79 @@
+{
+ "id": "2608.24781",
+ "version": 1,
+ "title": "Graphix: A software framework for Measurement-Based Quantum Computation",
+ "authors": [
+  {
+   "name": "Mateo Uldemolins"
+  },
+  {
+   "name": "Pranav Nair"
+  },
+  {
+   "name": "Emlyn Graham"
+  },
+  {
+   "name": "Shinichi Sunami"
+  },
+  {
+   "name": "Thierry Martinez"
+  },
+  {
+   "name": "Maxime Garnier"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-25T16:23:22Z",
+ "updated": "2026-08-25T16:23:22Z",
+ "abstract": "Measurement-based quantum computing (MBQC) is a powerful model for quantum computation, but dedicated software tools that bridge its theoretical foundations with practical research workflows remain limited. We present Graphix, a software framework for MBQC written in Python that provides a unified environment for developing, integrating, and exploring measurement-based protocols and algorithms. Graphix establishes a modular, extensible, and user-friendly architecture for the compilation and simulation of quantum computations in the MBQC model with abstractions closely aligned with the theoretical formulations of MBQC. Through examples drawn from recent research on MBQC, we demonstrate Graphix's ability to reproduce and extend previous results. Graphix thus provides a software infrastructure for MBQC, supporting education and research while enabling collaborative development and accelerating the transition toward practical implementations.",
+ "comment": "28 + 8 pages, 18 figures and 11 code snippets. Comments welcome!",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.24781",
+  "pdf": "https://arxiv.org/pdf/2608.24781",
+  "html": "https://arxiv.org/html/2608.24781"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26T07:27:20.880Z",
+  "hook": "We present Graphix, a Python software framework bridging MBQC theory with practical research workflows.",
+  "tldr": [
+   "Created Graphix, an open-source Python framework for measurement-based quantum computation.",
+   "Provided a modular architecture for compiling and simulating quantum computations using theoretical abstractions.",
+   "Demonstrated the framework's capability by reproducing and extending recent research results in MBQC."
+  ],
+  "whyItMatters": "Specialized software tools accelerate the development of quantum algorithms, helping researchers move from theoretical physics to practical implementations.",
+  "eli5": "Building quantum computers is hard, and writing software for them is even harder. Scientists made a Python toolkit called Graphix to make it easy to simulate a specific type of quantum computing on normal laptops.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Measurement-Based Quantum Computation",
+    "shortDef": "A model of quantum computing where computations are driven by single-qubit measurements on an entangled resource state.",
+    "eli5Def": "A way of doing quantum computing by starting with a tangled web of qubits and measuring them one by one to steer the outcome.",
+    "wikiTitle": "One-way quantum computer"
+   },
+   {
+    "term": "Compilation",
+    "shortDef": "The process of translating high-level quantum algorithms into native instructions for a quantum architecture.",
+    "eli5Def": "Translating human-written code into instructions a quantum machine can actually run.",
+    "wikiTitle": "Compiler"
+   },
+   {
+    "term": "Simulation",
+    "shortDef": "Running a classical computation that mimics the behavior of a quantum system.",
+    "eli5Def": "Using a regular computer to pretend it is a quantum computer for testing purposes.",
+    "wikiTitle": "Quantum simulator"
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 35
+ }
+}

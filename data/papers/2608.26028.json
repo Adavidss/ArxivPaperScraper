@@ -1,0 +1,102 @@
+{
+ "id": "2608.26028",
+ "version": 1,
+ "title": "A heterogeneously integrated coupled-cavity frequency beam splitter",
+ "authors": [
+  {
+   "name": "Lucas M. Cohen"
+  },
+  {
+   "name": "Manuel H. Muñoz-Arias"
+  },
+  {
+   "name": "Mohan Sarovar"
+  },
+  {
+   "name": "Nicholas A. Boynton"
+  },
+  {
+   "name": "Shawn C. Arterburn"
+  },
+  {
+   "name": "Thomas A. Friedmann"
+  },
+  {
+   "name": "Nils T. Otterstrom"
+  },
+  {
+   "name": "Paul S. Davids"
+  },
+  {
+   "name": "Michael Gehl"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-26T17:08:10Z",
+ "updated": "2026-08-26T17:08:10Z",
+ "abstract": "Frequency encoded photonic qubits promise a scalable path towards high-dimensional quantum information processing, but require efficient components for coherently mixing frequency modes. Coupled cavity modulators provide this functionality by using only a single driving microwave tone to couple hybridized optical supermodes. Here, we demonstrate a heterogeneously integrated thin-film lithium-niobate-on-silicon coupled-cavity modulator that realizes tunable bidirectional frequency mode transformations, including \\(50/50\\) beam splitting and near complete frequency swapping with \\(>20~\\mathrm{dB}\\) pump extinction at a \\(10~\\mathrm{GHz}\\) supermode splitting. Because the electro-optic film is bonded onto a foundry fabricated silicon photonics platform, the approach is compatible with co-integration of photon pair sources, spectral filters, active tuning elements, and single photon detectors. We also bond thin-film lithium tantalate onto the same coupled-cavity platform, demonstrating material flexibility for scalable integrated frequency bin quantum photonic circuits.",
+ "comment": "6 pages 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.26028",
+  "pdf": "https://arxiv.org/pdf/2608.26028",
+  "html": "https://arxiv.org/html/2608.26028"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.26028v1/Fig1_v2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-27T17:51:39.468Z",
+  "hook": "We demonstrate a thin-film lithium-niobate-on-silicon coupled-cavity modulator with >20 dB pump extinction.",
+  "tldr": [
+   "Demonstrated a heterogeneously integrated coupled-cavity modulator for frequency-encoded photonic qubits.",
+   "Used a single driving microwave tone to realize 50/50 beam splitting and near complete frequency swapping.",
+   "Bonded thin-film lithium niobate and lithium tantalate onto a silicon photonics platform for scalable circuits."
+  ],
+  "whyItMatters": "Scaling up quantum computers requires packing massive amounts of information into light particles using different frequencies. This chip-based component makes it much easier to manipulate those frequencies reliably.",
+  "eli5": "Think of light as a musical chord made of different pitches. This tiny silicon chip acts like a clever audio mixer that can instantly shift a musical note to a completely different pitch or split it cleanly in half.",
+  "keyNumbers": [
+   {
+    "value": ">20 dB",
+    "label": "Pump Extinction",
+    "context": "Achieved during near complete frequency swapping at a 10 GHz supermode splitting."
+   },
+   {
+    "value": "10 GHz",
+    "label": "Supermode Splitting",
+    "context": "The frequency separation interval at which the modulator operates."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Photonic qubit",
+    "shortDef": "A quantum bit of information carried by a particle of light (photon).",
+    "eli5Def": "A piece of quantum data riding on a flash of laser light.",
+    "wikiTitle": "Qubit"
+   },
+   {
+    "term": "Lithium niobate",
+    "shortDef": "An inorganic compound used in optics and telecommunications for its strong electro-optic properties.",
+    "eli5Def": "A special crystal material that lets us bend and control light using electricity.",
+    "wikiTitle": "Lithium niobate"
+   },
+   {
+    "term": "Modulator",
+    "shortDef": "A device used to alter the properties of a carrier wave, such as its frequency or amplitude.",
+    "eli5Def": "A dial that tweaks a signal to change what it's carrying.",
+    "wikiTitle": "Optical modulator"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "2608.26096",
+ "version": 1,
+ "title": "Torsion balances as operational probes of semiclassical gravity: Matched-filter bounds, torque-diffusion constraints, and quantum-noise benchmarks",
+ "authors": [
+  {
+   "name": "Jyotirmaya Mohanta"
+  },
+  {
+   "name": "Yutaka Shikano"
+  }
+ ],
+ "categories": [
+  "gr-qc",
+  "quant-ph"
+ ],
+ "primaryCategory": "gr-qc",
+ "published": "2026-08-26T17:57:48Z",
+ "updated": "2026-08-26T17:57:48Z",
+ "abstract": "Calibrated torsion-balance spectra constrain deterministic and stochastic deviations from standard Newtonian gravity. Using one-sided spectra, we derive a calibrated angle-equivalent noise budget and finite-time matched-filter/Cramér-Rao bounds for known torque templates. For stochastic models, subtracting the calibrated standard noise budget (thermal, Newtonian, environmental, imprecision, backaction) from the observed angle spectrum yields a residual spectrum, convertible to an equivalent residual torque spectrum via calibrated torsional susceptibility. This bounds additional stationary stochastic torque noise. This frequency-resolved bound compresses to a single torque-diffusion coefficient, $D_τ$, only in the Markovian white-noise limit; non-Markovian or colored models require the full residual spectrum. Page--Geilker branch discrimination and Fedida-Kent mixture-equivalence tests address distinct physical questions, but upon projection onto torque templates, both reduce to the same statistical matched-filter discrimination problem. For a room-temperature Cavendish benchmark, resonant thermal angle ASD is $1.36\\times10^{-4}\\,\\mathrm{rad}/\\sqrt{\\mathrm{Hz}}$, while measurement-added SQL is $3.25\\times10^{-12}\\,\\mathrm{rad}/\\sqrt{\\mathrm{Hz}}$. For the Yan \\emph{et al.} search, the reported $0.3\\,μ\\mathrm{rad}/\\sqrt{\\mathrm{Hz}}$ sensitivity at $2.5\\,\\mathrm{mHz}$ yields a conservative bound $D_τ\\lesssim 2.4\\times10^{-23}\\,\\mathrm{N^2\\,m^2\\,s}$, assuming white torque noise. These formulations provide an interface linking calibrated torsion-balance data, deterministic tests, and stochastic semiclassical-gravity searches, without asserting a direct test of the full relativistic semiclassical Einstein equation.",
+ "comment": "16 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.26096",
+  "pdf": "https://arxiv.org/pdf/2608.26096",
+  "html": "https://arxiv.org/html/2608.26096"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.26096v1/torsion_angle_asd_benchmark.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-27T17:51:39.468Z",
+  "hook": "Using torsion balances, we bound torque diffusion to D_τ ≲ 2.4×10⁻²³ N² m² s for white torque noise.",
+  "tldr": [
+   "Derived calibrated angle-equivalent noise budgets and finite-time matched-filter bounds for torsion-balance spectra.",
+   "Subtracted standard noise budgets from observed angle spectra to isolate residual spectra and bound stationary stochastic torque noise.",
+   "Linked torsion-balance data to deterministic tests and stochastic semiclassical-gravity searches."
+  ],
+  "whyItMatters": "Connecting ultra-sensitive torsion-balance measurements to theoretical frameworks helps physicists test the boundaries where quantum mechanics and gravity meet.",
+  "eli5": "Think of a torsion balance as a super-sensitive hanging needle used to feel the tiniest microscopic nudges in the universe. By carefully subtracting all ordinary background noise like heat or air currents, scientists can hunt for subtle deviations in gravity.",
+  "keyNumbers": [
+   {
+    "value": "1.36×10⁻⁴ rad/√Hz",
+    "label": "Resonant thermal angle ASD",
+    "context": "For a room-temperature Cavendish benchmark"
+   },
+   {
+    "value": "3.25×10⁻¹² rad/√Hz",
+    "label": "Measurement-added SQL",
+    "context": "For a room-temperature Cavendish benchmark"
+   },
+   {
+    "value": "0.3 μrad/√Hz",
+    "label": "Reported sensitivity",
+    "context": "At 2.5 mHertz for the Yan et al. search"
+   },
+   {
+    "value": "2.4×10⁻²³ N² m² s",
+    "label": "Conservative bound D_τ",
+    "context": "Assuming white torque noise for the Yan et al. search"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Torsion balance",
+    "shortDef": "An extremely sensitive instrument used to measure very weak forces by tracking the twist of a fine fiber.",
+    "eli5Def": "A tiny mirror hanging by a thread that twists when a force touches it, like a tiny invisible finger poking it.",
+    "wikiTitle": "Torsion spring"
+   },
+   {
+    "term": "Matched-filter",
+    "shortDef": "A signal processing method designed to maximize the signal-to-noise ratio in the presence of additive stochastic noise.",
+    "eli5Def": "A smart audio filter that tunes out static to catch one specific quiet whisper in a noisy room.",
+    "wikiTitle": "Matched filter"
+   },
+   {
+    "term": "Markovian",
+    "shortDef": "Describing a stochastic process where future states depend only upon the current state, lacking memory of the past.",
+    "eli5Def": "A goldfish memory system: whatever happens next depends entirely on right now, not yesterday.",
+    "wikiTitle": "Markov property"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

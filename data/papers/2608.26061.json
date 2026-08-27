@@ -1,0 +1,78 @@
+{
+ "id": "2608.26061",
+ "version": 1,
+ "title": "Asymptotically optimal purification of noisy unitary channels in any dimension",
+ "authors": [
+  {
+   "name": "Ryotaro Niwa"
+  },
+  {
+   "name": "Satoshi Yoshida"
+  },
+  {
+   "name": "Mio Murao"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-26T17:30:35Z",
+ "updated": "2026-08-26T17:30:35Z",
+ "abstract": "We consider the problem of noisy unitary purification. Given access to an unknown $d$-dimensional unitary channel followed by depolarizing noise of strength $p$, we aim to construct a superchannel that universally purifies the noisy unitary back to the original unknown unitary. We optimize over arbitrary adaptive sequential strategies and analytically derive the optimal fidelity to the leading order in the noise strength and number of channel uses, while also providing a concrete $\\mathrm{SU}(d)$-covariant parallel strategy that attains the optimum. Our result implies the query complexity $Θ(d^2p/ε)$ for achieving leading-order infidelity $ε$ in the low-noise regime, which scales better than the naive approach combining optimal state purification and storage-and-retrieval of quantum channels. We also consider the dual problem of noisy unitary conjugation, where the goal is to obtain the best approximation of the complex conjugate of the original unknown unitary from access to noisy queries. We show that the optimal fidelity for this task coincides with that of noisy unitary purification to the leading-order in the low-noise and large-query limit.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.26061",
+  "pdf": "https://arxiv.org/pdf/2608.26061",
+  "html": "https://arxiv.org/html/2608.26061"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.26061v1/Purification_Superchannel.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-27T17:51:39.468Z",
+  "hook": "We achieve query complexity Theta(d^2 p / epsilon) for purifying noisy d-dimensional quantum channels.",
+  "tldr": [
+   "Constructed a superchannel to universally purify an unknown d-dimensional unitary channel affected by depolarizing noise.",
+   "Optimized over arbitrary adaptive sequential strategies and derived an optimal SU(d)-covariant parallel strategy.",
+   "Proved that the query complexity scales better than naive combinations of state purification and storage-and-retrieval."
+  ],
+  "whyItMatters": "Noise is the single biggest bottleneck in quantum computing. By figuring out how to clean up faulty quantum operations more efficiently, this work helps build more reliable quantum processors.",
+  "eli5": "Imagine trying to read a blurry message sent through a messy, static-filled telephone wire. This paper figures out the absolute smartest way to listen to many static-filled versions of the message so you can reconstruct the original crystal-clear instruction.",
+  "keyNumbers": [
+   {
+    "value": "\\Theta(d^2p/\\varepsilon)",
+    "label": "Query Complexity",
+    "context": "For achieving leading-order infidelity epsilon in the low-noise regime."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Unitary channel",
+    "shortDef": "A reversible quantum operation that transforms quantum states without losing information.",
+    "eli5Def": "A perfect, lossless shuffle of a quantum deck of cards.",
+    "wikiTitle": "Quantum operation"
+   },
+   {
+    "term": "Depolarizing noise",
+    "shortDef": "A common type of quantum noise that randomly corrupts a qubit with a certain probability.",
+    "eli5Def": "Static on a TV screen that occasionally scrambles the picture.",
+    "wikiTitle": "Quantum depolarizing channel"
+   },
+   {
+    "term": "Query complexity",
+    "shortDef": "The number of times you need to access a black-box operation to solve a problem.",
+    "eli5Def": "How many times you have to ask a mysterious oracle a question to get your answer.",
+    "wikiTitle": "Query complexity"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

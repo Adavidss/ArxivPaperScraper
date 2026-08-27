@@ -1,0 +1,68 @@
+{
+ "id": "2608.26078",
+ "version": 1,
+ "title": "Parity Anomaly as Modular Commutator with Massless Dirac Fermion",
+ "authors": [
+  {
+   "name": "Meng Zeng"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "hep-lat",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-08-26T17:43:50Z",
+ "updated": "2026-08-26T17:43:50Z",
+ "abstract": "The modular commutator $J(A,B,C) = i\\langle[K_{AB},K_{BC}]\\rangle$ extracts the chiral central charge $c_-$ from a single bulk wavefunction of a \\emph{gapped} 2d state, where $3J/π=c_-$. Inspired by the recent developments in the field of gapless symmetry-protected topological phases, we ask: what does the modular commutator measure, if it is well-defined at all, when the 2d bulk becomes \\textit{gapless}? Several interesting new insights can already be obtained using the simple Haldane honeycomb model. For the critical point hosting an isolated Dirac node we find that $J$ remains sharp: it converges to a \\textit{half-quantized} value, with corrections that decay as a power law in the subsystem size rather than exponentially, mirroring the power-law correlations in gapless systems. We prove the half-quantization using an emergent reflection symmetry of the massless Dirac cone, and show that the half-quantized contribution comes from the other gapped cone (the massive partner of the massless one). This massive partner can be interpreted as the physical incarnation of the Pauli-Villars regulator, which is the origin of the parity-breaking level-$\\frac{1}{2}$ Chern-Simons term (with half-quantized Hall conductance) and the parity anomaly. When protected chiral edge modes coexist with a bulk Dirac node we obtain $3J/π= c_-+\\frac{1}{2}$. The half-quantization is also shown to be robust against tripartition deformation, tuning Dirac velocity and Dirac cone anisotropy. We further investigate other types of gaplessness---quadratic nodes (in contrast to linear Dirac) and the case with Fermi surface---and show that the robust half-quantization of $J$ is lost in such non-Dirac cases. These results generalize the modular commutator beyond gapped phases, and at the same time provide an information-theoretic measurement of the parity anomaly.",
+ "comment": "5 pages with 4 figures in main text + 2 pages with 4 figures in appendix",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.26078",
+  "pdf": "https://arxiv.org/pdf/2608.26078",
+  "html": "https://arxiv.org/html/2608.26078"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.26078v1/fig3h_coexist.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-27T17:51:39.468Z",
+  "hook": "At the critical point of a Haldane honeycomb model, the modular commutator converges to a half-quantized value.",
+  "tldr": [
+   "Investigated what the modular commutator measures when a traditionally gapped 2d bulk state becomes gapless.",
+   "Proved the half-quantization of the modular commutator using an emergent reflection symmetry of the massless Dirac cone.",
+   "Demonstrated that this robust half-quantization fails in non-Dirac systems with quadratic nodes or Fermi surfaces."
+  ],
+  "whyItMatters": "This work generalizes entanglement tools to gapless states, providing a new information-theoretic lens to study the parity anomaly.",
+  "eli5": "Think of looking at a crystal where electrons flow smoothly without any energy gaps stopping them. By checking a special mathematical property called a modular commutator, scientists found it always stubbornly settles right at the exact halfway mark.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Modular commutator",
+    "shortDef": "An information-theoretic quantity that extracts chiral central charge from a single bulk wavefunction.",
+    "eli5Def": "A mathematical tool that measures how tangled and connected different parts of a quantum system are.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Dirac fermion",
+    "shortDef": "Relativistic quantum particles with spin-1/2 described by the Dirac equation.",
+    "eli5Def": "Ultra-fast quantum particles that behave like they are traveling close to the speed of light.",
+    "wikiTitle": "Dirac fermion"
+   },
+   {
+    "term": "Chern-Simons term",
+    "shortDef": "A topological term in quantum field theories responsible for phenomena like the quantum Hall effect.",
+    "eli5Def": "A mathematical twist in field equations that forces electrons to travel in one-way lanes.",
+    "wikiTitle": "Chern–Simons theory"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

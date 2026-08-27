@@ -1,0 +1,71 @@
+{
+ "id": "2608.26099",
+ "version": 1,
+ "title": "Exact analytical spectrum, eigenstates, and quantum geometry of the quarter-flux Harper-Hofstadter model",
+ "authors": [
+  {
+   "name": "Isaac Tesfaye"
+  },
+  {
+   "name": "André Eckardt"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "cond-mat.mes-hall",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-08-26T17:58:52Z",
+ "updated": "2026-08-26T17:58:52Z",
+ "abstract": "Quantum geometry has emerged as a guiding principle across atomic and condensed-matter physics, shaping the topological responses of Bloch bands and the stability of the correlated phases they host. Beyond two-band models, however, closed-form expressions for both the spectrum and the quantum geometry are rare. Here we provide such expressions for a paradigmatic four-band model that has recently been realized experimentally with ultracold atoms, photons and in superconducting circuits: the Harper-Hofstadter model at quarter flux, describing charged particles on a two-dimensional square lattice subjected to a uniform magnetic field. We achieve this by first showing that the model possesses a sublattice symmetry, which renders its Bloch Hamiltonian anti-block-diagonal allowing us to derive the spectrum and the eigenstates analytically. From that we also obtain closed-form expressions for the full quantum geometric tensor (QGT), including both the Berry curvature and the quantum metric, for all the bands of the model. For this purpose we first derive a general expression for the QGT for sublattice-symmetric systems in terms of contributions from the individual sublattice sectors. Finally, we evaluate fractional-Chern-insulator stability criteria analytically and quantify the lowest band of the quarter-flux Harper-Hofstadter model to be a nearly ideal Chern band.",
+ "comment": "10 + 1 + 18 pages, 2 + 0 + 4 figures. Comments are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.26099",
+  "pdf": "https://arxiv.org/pdf/2608.26099",
+  "html": "https://arxiv.org/html/2608.26099"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.26099v1/qgt_abelian_band1_q_4.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-27T17:51:39.468Z",
+  "hook": "We derived exact analytical expressions for the four-band Harper-Hofstadter model at quarter flux, proving its lowest band is nearly ideal.",
+  "tldr": [
+   "Studied a four-band Harper-Hofstadter model describing charged particles on a 2D lattice in a magnetic field.",
+   "Used a sublattice symmetry that makes the Bloch Hamiltonian anti-block-diagonal to solve for the spectrum and eigenstates analytically.",
+   "Obtained closed-form expressions for the quantum geometric tensor and proved the lowest band is a nearly ideal Chern band."
+  ],
+  "whyItMatters": "Exact analytical solutions in multi-band quantum models are rare, yet they are crucial for understanding topological states and fractional Chern insulators in modern experimental platforms.",
+  "eli5": "Imagine trying to map out a giant, complex maze of quantum particles where formulas are usually too messy to solve. These researchers found a clever symmetry shortcut that let them write down exact mathematical formulas for every single twist and turn of the system.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Harper-Hofstadter model",
+    "shortDef": "A lattice model describing charged particles moving in a two-dimensional grid under a uniform magnetic field.",
+    "eli5Def": "A math game simulating tiny charged balls rolling across a grid while a giant invisible magnet pulls on them.",
+    "wikiTitle": "Hofstadter model"
+   },
+   {
+    "term": "Quantum geometric tensor",
+    "shortDef": "A mathematical tool containing both the Berry curvature and quantum metric to describe quantum states.",
+    "eli5Def": "A fancy ruler that measures how weird and twisted quantum states are in their abstract mathematical space.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Chern band",
+    "shortDef": "An energy band characterized by a non-zero topological invariant called the Chern number.",
+    "eli5Def": "A special highway for quantum particles where they can only move in one direction without bumping into walls.",
+    "wikiTitle": "Topological band structure"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

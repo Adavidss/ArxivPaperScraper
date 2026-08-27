@@ -1,0 +1,65 @@
+{
+ "id": "2608.26082",
+ "version": 1,
+ "title": "Yang-Lee Criticality as a Dissipative Dynamical Phase Transition: Quantum Simulation of non-Hermitian Physics without Post-selection",
+ "authors": [
+  {
+   "name": "Stephen W. Yan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-26T17:46:16Z",
+ "updated": "2026-08-26T17:46:16Z",
+ "abstract": "We show that the $d+0$-dimensional Yang-Lee theory describing classical Ising spins in an imaginary magnetic field can be realized, without post-selection, within a $(d-1)+1$ open quantum system whose dynamics consist of local unitaries and engineered dissipation. Competition between the coherent unitary and dissipative dynamics drives a transition wherein the time-dependence of a particular class of linear observables changes from damped oscillatory \"underdamped\" to purely exponential \"overdamped\" decay. Our construction relies on an extensive number of weak-symmetries of the Lindbladian fixed by the choice of observable but is otherwise exact. Consequently, we show that the dynamics are described by the non-Hermitian generator of the Yang-Lee transfer matrix, leading to an effective Yang-Lee theory defined on the spacetime history of the open system. By locally modifying the dynamics, we directly measure spin correlation functions of the Yang-Lee theory as well as a related \"Loschmidt Echo\" correlator which we detail. We explicitly show that the required dissipation channels can be obtained through local $2$-qubit gates and discuss potential realization on near-term quantum simulator devices. Finally, we generalize our construction to embed arbitrary non-Hermitian Hamiltonians within an open quantum system under Lindbladian time-evolution without post-selection, drawing connections between unconditional open quantum dynamics, exceptional point physics, and non-unitary statistical mechanics.",
+ "comment": "14 + 4 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.26082",
+  "pdf": "https://arxiv.org/pdf/2608.26082",
+  "html": "https://arxiv.org/html/2608.26082"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-27T17:51:39.468Z",
+  "hook": "We realized Yang-Lee theory without post-selection in an open quantum system using local unitaries and engineered dissipation.",
+  "tldr": [
+   "Constructed a protocol to simulate classical Ising spins in an imaginary magnetic field within an open quantum system.",
+   "Balanced coherent unitary and dissipative dynamics to drive a transition between underdamped and overdamped decay.",
+   "Measured spin correlation functions and a Loschmidt Echo correlator directly by locally modifying the open system dynamics."
+  ],
+  "whyItMatters": "Simulating complex non-Hermitian physics without post-selection opens up new paths for studying exotic quantum states on near-term hardware.",
+  "eli5": "Normally, simulating certain exotic physics requires throwing away most of your experimental data and keeping only the lucky runs. These researchers built a system that gets around this trick, making the exotic physics happen reliably every single time.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Yang-Lee theory",
+    "shortDef": "A statistical mechanics framework describing phase transitions driven by complex or imaginary external fields.",
+    "eli5Def": "A mathematical model of magnets acting strangely when poked with imaginary numbers instead of real forces.",
+    "wikiTitle": "Lee–Yang theorem"
+   },
+   {
+    "term": "Dissipative dynamics",
+    "shortDef": "Time evolution of a system that loses energy or information to its surrounding environment.",
+    "eli5Def": "A leaky bucket losing water over time as it interacts with the world around it.",
+    "wikiTitle": "Dissipative system"
+   },
+   {
+    "term": "Lindbladian",
+    "shortDef": "The superoperator that generates the most general time evolution for an open quantum system.",
+    "eli5Def": "The master rulebook controlling how a quantum computer leaks information and interacts with its environment.",
+    "wikiTitle": "Master equation"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

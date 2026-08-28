@@ -1,0 +1,81 @@
+{
+ "id": "2608.27430",
+ "version": 1,
+ "title": "Factorized Boolean representations for efficient quantum synthesis",
+ "authors": [
+  {
+   "name": "Mehul Shah"
+  },
+  {
+   "name": "Robert Fiszer"
+  },
+  {
+   "name": "Marek Perkowski"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-27T17:52:31Z",
+ "updated": "2026-08-27T17:52:31Z",
+ "abstract": "Quantum algorithms promise advantages beyond classical reach, but running them on error-corrected hardware requires translating Boolean specifications into reversible circuits, and the resources that translation demands determine what is executable. Established methods minimize a Boolean expression and map it to a circuit, assuming the minimized form is best. Here we show that minimized expressions retain algebraic structure minimization cannot reach, arising from containment and complementary-polarity relationships among their terms, and that extracting it yields circuits cheaper to execute despite having more operations. The decisive quantity is not a circuit's operation count but the control count of its widest operation, a superlinear cost; extracting shared factors trades a few wide operations for many narrow ones and reduces qubit count. Across benchmarks and oracles from quantum search and factoring algorithms, at the representation level the transformation never increases either cost measure, a guarantee from its construction. Translation to an executable circuit returns part of that advantage, since auxiliary lines must be uncomputed, yet the factorized circuit still left a leading circuit-level optimizer reaching lower final counts, and faster, than unaided. The representation of a computation is therefore itself a resource, optimizable before compilation and distinct from both logic minimization and circuit-level optimization.",
+ "comment": "20 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27430",
+  "pdf": "https://arxiv.org/pdf/2608.27430",
+  "html": "https://arxiv.org/html/2608.27430"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28T18:56:59.675Z",
+  "hook": "Trading wide operations for narrow ones in Boolean representations to reduce qubit counts for quantum algorithms.",
+  "tldr": [
+   "Demonstrated that minimized Boolean expressions retain hidden algebraic structures from containment and polarity.",
+   "Extracted shared factors to trade a few wide operations for many narrow ones, reducing qubit counts.",
+   "Tested benchmarks and oracles, showing factorized representations outperform traditional logic minimization."
+  ],
+  "whyItMatters": "Translating high-level software into hardware instructions is a major bottleneck for fault-tolerant quantum computers. Better representation optimization means quantum algorithms can run using fewer physical resources.",
+  "eli5": "Instead of building one giant, complicated machine part that does everything at once, it is sometimes smarter to use a bunch of smaller, interlocking parts. This paper shows how to rewrite computer logic so quantum computers can process it more efficiently.",
+  "keyNumbers": [
+   {
+    "value": "20",
+    "label": "Pages",
+    "context": "Length of the research paper."
+   },
+   {
+    "value": "4",
+    "label": "Figures",
+    "context": "Number of figures included in the paper."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Boolean specification",
+    "shortDef": "A formal mathematical description of logic functions using true and false values.",
+    "eli5Def": "A recipe made entirely of yes/no or true/false choices.",
+    "wikiTitle": "Boolean function"
+   },
+   {
+    "term": "Reversible circuit",
+    "shortDef": "A circuit in which the input state can be uniquely reconstructed from the output state.",
+    "eli5Def": "A machine running backward just as easily as forward without losing any information.",
+    "wikiTitle": "Reversible computing"
+   },
+   {
+    "term": "Oracle",
+    "shortDef": "A black-box subroutine that provides an answer to a specific computational problem.",
+    "eli5Def": "A magical helper function in code that instantly gives you the right answer to a hard question.",
+    "wikiTitle": "Oracle (computer science)"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

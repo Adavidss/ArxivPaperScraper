@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T17:51:39.468Z",
+ "generatedAt": "2026-08-28T18:56:59.675Z",
  "suggestions": [
   {
    "name": "Martin B. Plenio",
@@ -44,6 +44,27 @@
     "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
    ],
    "paperCount": 2
+  },
+  {
+   "name": "Sthitadhi Roy",
+   "slug": "sthitadhi-roy",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+   ],
+   "paperIds": [
+    "2608.27440",
+    "2607.28579",
+    "2607.15276"
+   ],
+   "recentTitles": [
+    "Dynamics of local quantum information in random unitary circuits",
+    "Quantum Chaos and Diffusive Transport from Geometric Randomness"
+   ],
+   "paperCount": 3
   },
   {
    "name": "Arkopal Dutt",
@@ -185,24 +206,6 @@
     "Symmetry Constraints Regularize Neural Quantum State Learning"
    ],
    "paperCount": 2
-  },
-  {
-   "name": "Saipriya Satyajit",
-   "slug": "saipriya-satyajit",
-   "score": 3,
-   "coAuthoredWith": [
-    "john-w-blanchard",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [],
-   "paperIds": [
-    "2608.17026"
-   ],
-   "recentTitles": [
-    "Eigenframe Synchronization in Disordered Driven Quantum Ensembles"
-   ],
-   "paperCount": 1
   }
  ]
 }

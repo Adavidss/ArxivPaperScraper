@@ -1,0 +1,83 @@
+{
+ "id": "2608.27399",
+ "version": 1,
+ "title": "Krylov Break Times from an Inhomogeneous Lieb--Robinson Light Cone",
+ "authors": [
+  {
+   "name": "Shunji Matsuura"
+  },
+  {
+   "name": "Yoji Kawamura"
+  },
+  {
+   "name": "Joseph Salfi"
+  },
+  {
+   "name": "Satoshi Iso"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.dis-nn",
+  "hep-th"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-27T17:29:04Z",
+ "updated": "2026-08-27T17:29:04Z",
+ "abstract": "Krylov and Lanczos approximations are used in quantum dynamics, quantum subspace methods, and Hamiltonian learning. A practical question is how long an $m$-dimensional Krylov truncation can be trusted. We argue that this time is fixed by causal propagation on the associated Jacobi chain. The relevant distance is not the Krylov index itself, but the inhomogeneous transport metric $ρ(m,n) = \\sum_{j=\\min(m,n)}^{\\max(m,n)-1} 1/b_j$, where $b_j$ is the Lanczos hopping across the bond $j \\leftrightarrow j+1$. We prove a Lieb--Robinson bound in this metric. Its small-weight limit gives the velocity $v_{\\rm LR} = 2$, meaning that propagation is exponentially suppressed outside the cone $ρ(m,n) \\simeq 2|t|$. The error of a finite Krylov approximation to the return amplitude is a round-trip effect: information has to travel from the probe to the truncation boundary and back. Combining the Lieb--Robinson bound with Duhamel's formula yields a lower bound on the error of the truncated dynamics. For a fixed tolerance $ε$, let the break time $t_\\ast(m;ε)$ denote the longest time for which the $m$-dimensional truncation is guaranteed to reproduce the exact return amplitude within error $ε$. We show that $t_\\ast(m;ε) \\ge τ_m[1-o(1)]$, where $τ_m = ρ(0,m) = \\sum_{j<m} 1/b_j$. When the probe spreads along the chain, this lower bound is also tight, so $t_\\ast(m) \\simeq τ_m$. The situation is different when the probe excites only a localized part of the spectrum, or a part already resolved by the truncation. In this case, essentially no signal reaches the boundary. Beyond a state-dependent Krylov dimension $m_\\ast$, the approximation can therefore remain accurate at all times, and the break time is effectively infinite. Numerical tests on spin chains and random Jacobi matrices support $t_\\ast(m) \\simeq τ_m$ in the transport-limited regime.",
+ "comment": "23 pages, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27399",
+  "pdf": "https://arxiv.org/pdf/2608.27399",
+  "html": "https://arxiv.org/html/2608.27399"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.27399v1/fig-causalcone.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28T18:56:59.675Z",
+  "hook": "Proved a Lieb-Robinson bound for Krylov approximations, setting the exact break time for quantum dynamics simulations.",
+  "tldr": [
+   "Investigated how long an m-dimensional Krylov truncation can be trusted in quantum dynamics simulations.",
+   "Proved a Lieb-Robinson bound using an inhomogeneous transport metric defined by Lanczos hopping parameters.",
+   "Demonstrated that the break time matches the transport time for the return amplitude except when localized."
+  ],
+  "whyItMatters": "Approximating complex quantum systems requires truncating dimensions, but knowing when those approximations break down is critical for reliable quantum simulations and Hamiltonian learning.",
+  "eli5": "It is like calculating how far an echo can travel down a long hallway before it bounces off the closed end and ruins the original sound wave.",
+  "keyNumbers": [
+   {
+    "value": "2",
+    "label": "Lieb-Robinson velocity",
+    "context": "The small-weight limit velocity v_LR = 2 governing propagation bounds."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Krylov subspace",
+    "shortDef": "A vector space used to approximate large matrix powers for quantum dynamics.",
+    "eli5Def": "A smaller, manageable slice of a massive puzzle that captures the most important pieces.",
+    "wikiTitle": "Krylov subspace"
+   },
+   {
+    "term": "Lanczos algorithm",
+    "shortDef": "An iterative method adapted from eigenvalue algorithms to compute Krylov subspaces.",
+    "eli5Def": "A step-by-step recipe that simplifies a giant mathematical web into a simple chain.",
+    "wikiTitle": "Lanczos algorithm"
+   },
+   {
+    "term": "Lieb-Robinson bound",
+    "shortDef": "A theorem limiting the speed at which information or correlations can spread in a system.",
+    "eli5Def": "A cosmic speed limit for how fast a disturbance can travel across connected objects.",
+    "wikiTitle": "Lieb-Robinson bounds"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

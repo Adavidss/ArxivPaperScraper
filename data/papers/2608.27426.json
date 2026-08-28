@@ -1,0 +1,74 @@
+{
+ "id": "2608.27426",
+ "version": 1,
+ "title": "Detuning- and Stark-robust Rydberg gates",
+ "authors": [
+  {
+   "name": "Elie Bataille"
+  },
+  {
+   "name": "Gyohei Nomura"
+  },
+  {
+   "name": "Manuel Endres"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.quant-gas",
+  "physics.atom-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-27T17:49:51Z",
+ "updated": "2026-08-27T17:49:51Z",
+ "abstract": "Rydberg entangling gates driven by a two-photon transition in alkali atoms suffer from an adverse scaling of light-shift-induced errors. Robustness to such detuning errors is known to be impossible to achieve in the design of conventional Rydberg gate protocols, where only one of the qubit states is coupled to the Rydberg state. Here, we show that in a more general framework, in which both qubit states take part in the gate, full or partial robustness to these errors can be realized. We present two gate constructions, which either cancel the errors outright or convert them into single-qubit errors that can be corrected locally. We map the regimes -- in terms of light-shift strength, intensity inhomogeneity, and Rydberg decay rate -- in which these protocols outperform the widely used time-optimal Rydberg gate, and find that they already include the conditions of state-of-the-art experiments. Finally, we show the existence of a Rydberg `fly-by' entangling gate, an important primitive for an emerging class of neutral-atom quantum computing architectures.",
+ "comment": "E.B. and G.N contributed equally to this work",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27426",
+  "pdf": "https://arxiv.org/pdf/2608.27426",
+  "html": "https://arxiv.org/html/2608.27426"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.27426v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28T18:56:59.675Z",
+  "hook": "New Rydberg gate protocols cancel light-shift errors or convert them into locally correctable single-qubit errors.",
+  "tldr": [
+   "Proposed new Rydberg entangling gate constructions where both qubit states participate to achieve error robustness.",
+   "Designed protocols that either cancel detuning errors outright or convert them into local single-qubit errors.",
+   "Showed the new protocols outperform standard time-optimal gates under state-of-the-art experimental conditions."
+  ],
+  "whyItMatters": "Quantum computers rely on high-fidelity entangling gates, but light-shift errors have long hindered alkali-atom Rydberg systems. Overcoming this hurdle brings neutral-atom architectures closer to fault-tolerant scale.",
+  "eli5": "Imagine trying to pass a fragile note across a noisy room by having only one person talk. By letting both people share the talking, you can cancel out the background chatter so the message gets through clearly.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Rydberg state",
+    "shortDef": "An atom with one or more electrons excited to a very high principal quantum number.",
+    "eli5Def": "An atom where the outer electron is pushed way out to the edge, making it extra sensitive to neighbors.",
+    "wikiTitle": "Rydberg atom"
+   },
+   {
+    "term": "Detuning",
+    "shortDef": "The difference between a laser's frequency and the exact atomic transition frequency.",
+    "eli5Def": "When your radio dial is slightly off the exact station frequency, causing static.",
+    "wikiTitle": "Detuning"
+   },
+   {
+    "term": "Entangling gate",
+    "shortDef": "A quantum logic operation that links the states of multiple qubits together.",
+    "eli5Def": "A spooky computer link where what happens to one qubit instantly affects its partner.",
+    "wikiTitle": "Quantum logic gate"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

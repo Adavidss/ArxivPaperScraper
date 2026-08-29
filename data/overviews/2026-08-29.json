@@ -1,0 +1,42 @@
+{
+ "date": "2026-08-29",
+ "generatedAt": "2026-08-29T12:47:57.999Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Quantum Dynamics and Transport Across Scales",
+ "summary": "Today's research spans a diverse array of quantum physics, connecting atomic transport, quantum chaos, entanglement theory, and hardware platforms. These papers advance our fundamental understanding of open quantum systems, certification methods, and novel material platforms for integrated photonics.",
+ "themes": [
+  {
+   "title": "Quantum Transport and Chaos",
+   "body": "Exploring fundamental quantum dynamics, including the real-time stochastic transport of a Goldstone mode in an atomic crystal and the formulation of rigorous quantum Lyapunov exponents via optimal transport.",
+   "paperIds": [
+    "2608.27387",
+    "2608.27350"
+   ]
+  },
+  {
+   "title": "Entanglement and Certification",
+   "body": "Addressing core questions in quantum information regarding entanglement of formation, counterexamples for degenerate qubit states, and certified randomness under energy constraints.",
+   "paperIds": [
+    "2608.27363",
+    "2608.27357"
+   ]
+  },
+  {
+   "title": "Open Systems and Photonics",
+   "body": "Extending quantumness tests to open dissipative systems using phase space formalisms and demonstrating ultra-low-loss silicon nitride circuits on sapphire for nonlinear photonics.",
+   "paperIds": [
+    "2608.27337",
+    "2608.27335"
+   ]
+  }
+ ],
+ "connections": [],
+ "paperIds": [
+  "2608.27387",
+  "2608.27363",
+  "2608.27357",
+  "2608.27350",
+  "2608.27337",
+  "2608.27335"
+ ]
+}

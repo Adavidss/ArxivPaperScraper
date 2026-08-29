@@ -1,0 +1,75 @@
+{
+ "id": "2608.27337",
+ "version": 1,
+ "title": "Dynamics-based nonclassicality witness under dissipative dynamics",
+ "authors": [
+  {
+   "name": "Nguyen Vu Khoi Huynh"
+  },
+  {
+   "name": "Nicky Nel Narido Labayna"
+  },
+  {
+   "name": "Martine Schut"
+  },
+  {
+   "name": "Valerio Scarani"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-27T16:39:15Z",
+ "updated": "2026-08-27T16:39:15Z",
+ "abstract": "A dynamics-based test, originally proposed by Tsirelson for the harmonic oscillator, provides a method for certifying quantumness under the assumption of a known Hamiltonian. These tests, however, are typically proposed for isolated systems, an assumption that breaks down in experimental implementation. In this paper, we extend the protocol to the harmonic oscillator coupled to standard models of dissipation: thermal relaxation, pure dephasing, and the Caldeira--Leggett model. Using the Moyal-Wigner formalism of quantum mechanics in phase space, we show that the introduction of dissipation requires a dissipation-dependent shift of the classical bound, and provide the threshold under which the nonclassicality witness retains its validity.",
+ "comment": "24 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27337",
+  "pdf": "https://arxiv.org/pdf/2608.27337",
+  "html": "https://arxiv.org/html/2608.27337"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.27337v1/dirac_evolution_models.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29T12:47:57.999Z",
+  "hook": "We extended quantumness tests to open systems by calculating how dissipation shifts the classical bound for oscillators.",
+  "tldr": [
+   "Extended Tsirelson's dynamics-based test for certifying quantumness to harmonic oscillators coupled to standard dissipation models.",
+   "Used the Moyal-Wigner phase space formalism of quantum mechanics to analyze thermal relaxation, pure dephasing, and the Caldeira-Leggett model.",
+   "Showed that dissipation requires a dissipation-dependent shift of the classical bound and provided the threshold for witness validity."
+  ],
+  "whyItMatters": "Real quantum experiments are never truly isolated from their environment. Knowing how noise and energy loss affect quantum tests helps researchers prove their systems are genuinely quantum in real-world conditions.",
+  "eli5": "Proving something is quantum is like trying to prove a spinning top is magical even when wind is blowing on it. These researchers figured out how to adjust the rules for spotting quantum behavior when outside noise is messing with the system.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Harmonic oscillator",
+    "shortDef": "A system that oscillates about a stable equilibrium point, like a mass on a spring.",
+    "eli5Def": "Think of a playground swing going back and forth predictably.",
+    "wikiTitle": "Harmonic oscillator"
+   },
+   {
+    "term": "Moyal-Wigner formalism",
+    "shortDef": "A phase space formulation of quantum mechanics using quasiprobability distributions.",
+    "eli5Def": "A mathematical map that lets scientists describe quantum particles using positions and momentums, kind of like regular physics.",
+    "wikiTitle": "Moyal quantization"
+   },
+   {
+    "term": "Caldeira-Leggett model",
+    "shortDef": "A standard theoretical model used to study quantum dissipation and decoherence.",
+    "eli5Def": "A popular math recipe for figuring out how a tiny quantum object loses its unique properties when it bumps into its environment.",
+    "wikiTitle": "Caldeira-Leggett model"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "2608.27387",
+ "version": 1,
+ "title": "Stochastic transport of a Goldstone mode in a self-organized atomic crystal",
+ "authors": [
+  {
+   "name": "Zhanhai Yu"
+  },
+  {
+   "name": "Di Xiang"
+  },
+  {
+   "name": "Xiaotian Zhang"
+  },
+  {
+   "name": "Hao Zhang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.quant-gas",
+  "physics.atom-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-27T17:20:50Z",
+ "updated": "2026-08-27T17:20:50Z",
+ "abstract": "Spontaneous breaking of a continuous symmetry produces a massless Goldstone mode that can evolve across a degenerate manifold at zero energy cost. Goldstone modes have been identified primarily through excitation spectra, mode softening or collective oscillations. However, their time-domain transport under intrinsic fluctuations and dissipation has remained largely unexplored. Here we directly track the stochastic transport of a Goldstone mode in a self-organized atomic crystal inside an optical ring cavity. The ring cavity maps the order-parameter phase onto the real-space position of the emergent crystal. Without any external perturbation, fundamental photon-scattering recoil drives the collective transport, while cavity dissipation generates friction. We monitor individual trajectories of the atoms and their self-generated optical lattice by measuring the cavity output phase. We find that the diffusion constant decreases as $1/N$, indicating that all atoms move collectively as a rigid object rather than independently. By tuning the Langevin driving force and cavity-mediated damping, we show that the normalized diffusion constant collapses onto a single universal curve. This work extends the study of continuous symmetry breaking from excitation-frequency measurements to real-time tracking of transport, and opens routes for studying non-equilibrium collective transport, phonon dynamics, and defect formation in driven-dissipative quantum matter.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27387",
+  "pdf": "https://arxiv.org/pdf/2608.27387",
+  "html": "https://arxiv.org/html/2608.27387"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.27387v1/Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29T12:47:57.999Z",
+  "hook": "We track a Goldstone mode's stochastic transport in an atomic crystal, finding diffusion drops as 1/N.",
+  "tldr": [
+   "Tracked the real-time stochastic transport of a Goldstone mode in a self-organized atomic crystal inside an optical ring cavity.",
+   "Monitored individual atom trajectories and their self-generated optical lattice by measuring the cavity output phase.",
+   "Found the diffusion constant decreases as 1/N, and the normalized diffusion constant collapses onto a single universal curve."
+  ],
+  "whyItMatters": "This work moves the study of continuous symmetry breaking beyond static frequency measurements into real-time tracking, opening new doors for understanding non-equilibrium quantum matter.",
+  "eli5": "Imagine a flock of birds moving together where tiny gusts of wind push them around. Instead of just listening to the sound the flock makes, scientists found a way to watch every single bird's exact steps and discovered they move as one heavy, rigid object rather than a bunch of individuals.",
+  "keyNumbers": [
+   {
+    "value": "1/N",
+    "label": "Diffusion Constant Scaling",
+    "context": "Shows that the diffusion constant decreases as 1/N, proving collective rigid movement."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Goldstone mode",
+    "shortDef": "A massless excitation produced by the spontaneous breaking of a continuous symmetry.",
+    "eli5Def": "A ripple or wave that costs zero energy to create, happening when a symmetrical system chooses a specific direction.",
+    "wikiTitle": "Goldstone boson"
+   },
+   {
+    "term": "Optical lattice",
+    "shortDef": "A periodic potential for atoms formed by the interference of intersecting laser beams.",
+    "eli5Def": "An egg-carton made of light that traps tiny atoms in an organized grid.",
+    "wikiTitle": "Optical lattice"
+   },
+   {
+    "term": "Langevin driving force",
+    "shortDef": "A stochastic term representing fluctuating forces in a system subject to friction and noise.",
+    "eli5Def": "Random pushes and shoves that buffet a particle around.",
+    "wikiTitle": "Langevin equation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

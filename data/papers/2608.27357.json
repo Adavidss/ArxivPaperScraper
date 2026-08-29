@@ -1,0 +1,73 @@
+{
+ "id": "2608.27357",
+ "version": 1,
+ "title": "Randomness can be certified in energy-constrained semi-device-independent scenarios",
+ "authors": [
+  {
+   "name": "Shashank Kumar Ranu"
+  },
+  {
+   "name": "Lewis Wooltorton"
+  },
+  {
+   "name": "Alastair A. Abbott"
+  },
+  {
+   "name": "Omar Fawzi"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-27T16:55:04Z",
+ "updated": "2026-08-27T16:55:04Z",
+ "abstract": "The prepare-and-measure framework based on energy constraints offers a practical middle ground between fully device-dependent and device-independent quantum cryptography. The only assumption on an otherwise uncharacterized prepare-and-measure device is that the energy of the prepared states is bounded. Existing security analyses of this framework assume that the preparation and measurement devices share at most classical correlations, and under this assumption certified lower bounds on the extractable randomness have been established. Recent work has shown that an adversary who pre-distributes entanglement between the devices can mount attacks that are strictly more powerful than those available when the devices share only classical correlations, reducing the extractable randomness below the previously certified rates. This leaves open the fundamental question of whether randomness can be certified at all in this scenario. We address this open question by constructing semidefinite programming relaxations of the guessing probability by adapting the Navascués-Pironio-Acín hierarchy to the energy-constrained setting where shared entanglement between the devices is permitted. Our relaxations yield certified lower bounds on the extractable randomness without enforcing any restrictions on the dimensions of the quantum state shared between the preparation and measurement devices. We show that these certified lower bounds are strictly positive for a range of energy values, thereby answering the open question affirmatively: certified randomness generation is theoretically possible in the energy-constrained SDI framework even in the presence of a fully quantum adversary.",
+ "comment": "6 + 6 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27357",
+  "pdf": "https://arxiv.org/pdf/2608.27357",
+  "html": "https://arxiv.org/html/2608.27357"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29T12:47:57.999Z",
+  "hook": "Randomness can be certified in energy-constrained prepare-and-measure scenarios with a quantum adversary.",
+  "tldr": [
+   "Constructed semidefinite programming relaxations of guessing probability by adapting the Navascués-Pironio-Acín hierarchy.",
+   "Allowed shared entanglement between preparation and measurement devices without enforcing dimension restrictions.",
+   "Proved certified lower bounds on extractable randomness are strictly positive for a range of energy values."
+  ],
+  "whyItMatters": "This proves we can generate truly random numbers for cryptography even when dealing with limited energy devices and malicious hackers who share entangled quantum states.",
+  "eli5": "Imagine trying to generate a secret random coin flip using devices that might be bugged by a spy. By putting a strict cap on the energy the devices can use, scientists proved you can still guarantee the coin flips are truly unpredictable.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Semidefinite programming",
+    "shortDef": "An optimization subfield concerned with the optimization of a linear objective function over the cone of positive semidefinite matrices.",
+    "eli5Def": "A powerhouse math tool used to find the absolute best solution under complex matrix rules.",
+    "wikiTitle": "Semidefinite programming"
+   },
+   {
+    "term": "Entanglement",
+    "shortDef": "A quantum phenomenon where particles become interconnected so that the state of one instantly dictates the state of another.",
+    "eli5Def": "Magically linked dice where rolling a six on one instantly forces the other to roll a six, no matter how far apart they are.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "Prepare-and-measure",
+    "shortDef": "A cryptographic framework where a sender prepares a quantum state and a receiver measures it.",
+    "eli5Def": "A protocol where one person packs a secret message in a box and the other opens and reads it.",
+    "wikiTitle": "Prepare-and-measure experiment"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

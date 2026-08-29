@@ -1,0 +1,77 @@
+{
+ "id": "2608.27350",
+ "version": 1,
+ "title": "Quantum Chaos and Quantum Optimal Transport",
+ "authors": [
+  {
+   "name": "Jordan Cotler"
+  },
+  {
+   "name": "Felipe Hernández"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "hep-th",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-27T16:48:02Z",
+ "updated": "2026-08-27T16:48:02Z",
+ "abstract": "Chaos in classical systems can be characterized by Lyapunov exponents that measure the exponential divergence of nearby trajectories, but directly extending this framework to quantum mechanics has been a persistent challenge. The wavelike nature of quantum states and the non-commutative geometry of quantum phase space obstruct a straightforward generalization of classical chaos theory. Here we develop a rigorous approach to quantum chaos by leveraging quantum optimal transport theory, which provides the missing geometric foundation for measuring distances between extended quantum distributions. We define quantum Lyapunov exponents that naturally avoid divergences encountered when naïvely generalizing classical exponents, and show that in the semiclassical limit they recover the classical global expansion rate, and hence the usual maximal Lyapunov exponent when they coincide. Our framework provides a tight connection between the divergence of classical trajectories and semiclassical phase space evolution, and additionally clarifies the role of out-of-time-order correlators as diagnostics of quantum chaos. These results establish quantum optimal transport as a unifying mathematical foundation for quantum chaos theory, providing new tools to characterize dynamical behavior across the full range of quantum dynamics from simple few-body models to complex many-body systems.",
+ "comment": "7+28 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27350",
+  "pdf": "https://arxiv.org/pdf/2608.27350",
+  "html": "https://arxiv.org/html/2608.27350"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.27350v1/QOT_fig_1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29T12:47:57.999Z",
+  "hook": "We formulate rigorous quantum Lyapunov exponents using quantum optimal transport, bridging chaos and geometry.",
+  "tldr": [
+   "Developed a rigorous approach to quantum chaos using quantum optimal transport theory to measure distances between quantum distributions.",
+   "Defined quantum Lyapunov exponents that avoid traditional divergences and recover classical expansion rates in the semiclassical limit.",
+   "Demonstrated connections to out-of-time-order correlators as diagnostics for quantum chaos."
+  ],
+  "whyItMatters": "Connecting chaos theory to quantum mechanics has long been notoriously difficult because quantum states blur and smear; this framework provides a missing geometric bridge.",
+  "eli5": "In regular physics, chaos is like tracking two nearby dropped balls that fly off in totally different directions. In quantum physics, particles act like fuzzy waves instead of sharp dots, so researchers used a math tool about reshaping piles of sand to track chaos properly.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Lyapunov exponent",
+    "shortDef": "A metric quantifying the rate of separation of infinitesimally close trajectories in a dynamical system.",
+    "eli5Def": "A speedometer for how fast tiny differences blow up into massive chaos.",
+    "wikiTitle": "Lyapunov exponent"
+   },
+   {
+    "term": "Quantum optimal transport",
+    "shortDef": "A mathematical framework for measuring the minimal cost of moving one quantum probability distribution to another.",
+    "eli5Def": "The cheapest way to rearrange a cloud of quantum fog into a different shape.",
+    "wikiTitle": "Transportation theory (mathematics)"
+   },
+   {
+    "term": "Semiclassical limit",
+    "shortDef": "The regime where quantum mechanics approaches classical physics as Planck's constant becomes negligible.",
+    "eli5Def": "The twilight zone where quantum rules start looking like everyday physics.",
+    "wikiTitle": "Semiclassical physics"
+   },
+   {
+    "term": "Out-of-time-order correlators",
+    "shortDef": "Correlation functions used in quantum field theory and condensed matter to diagnose information scrambling and chaos.",
+    "eli5Def": "A math test that checks how thoroughly a quantum system scrambles up information.",
+    "wikiTitle": "Out-of-time-order correlator"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

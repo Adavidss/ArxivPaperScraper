@@ -1,0 +1,116 @@
+{
+ "id": "2608.27335",
+ "version": 1,
+ "title": "Ultra-Low-Loss Silicon Nitride on Sapphire for Broad-Transparency Nonlinear and Quantum Photonics",
+ "authors": [
+  {
+   "name": "Abdur-Raheem Al-Hallak"
+  },
+  {
+   "name": "Shuai Liu"
+  },
+  {
+   "name": "Kailu Zhou"
+  },
+  {
+   "name": "Jiangnan Liu"
+  },
+  {
+   "name": "Shawn Chen"
+  },
+  {
+   "name": "James Hu"
+  },
+  {
+   "name": "Ruhi Yusuf"
+  },
+  {
+   "name": "Christopher Rodriguez"
+  },
+  {
+   "name": "Maya Sarram"
+  },
+  {
+   "name": "Yiming Lang"
+  },
+  {
+   "name": "Zetian Mi"
+  },
+  {
+   "name": "Zheshen Zhang"
+  }
+ ],
+ "categories": [
+  "physics.optics",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.optics",
+ "published": "2026-08-27T16:36:33Z",
+ "updated": "2026-08-27T16:36:33Z",
+ "abstract": "The field of photonic integrated circuits (PIC) has flourished in the past two decades, fueling numerous cutting-edge applications across sensing, networking, data interconnect, and quantum information processing. As a guiding material for PIC, Si$_3$N$_4$ has seen extensive use for its ultra-low loss, broad transparency, and diversity in implementation across both thin and thick films. Although the standard, traditional silicon dioxide (SiO$_2$) on silicon (Si) substrates that underpin the majority of Si$_3$N$_4$ photonics face drawbacks in the form of long-wavelength transparency limited by SiO$_2$, high-stress deposition for anomalous dispersion thick-film Si$_3$N$_4$, and leakage loss to the Si layer for low-confinement thin-film Si$_3$N$_4$. Featuring increased long-wavelength transparency into the mid-infrared, low-stress deposition of Si$_3$N$_4$, and a low index, this work investigates sapphire substrates as alternate hosts for Si$_3$N$_4$ photonics with greater spectral coverage and reduced fabrication complexity. This work presents a robust method of fabricating ultra-low loss photonic integrated circuits on a 500-nm-thick Si$_3$N$_4$-on-sapphire platform, exhibiting record-low losses below $0.1 \\rm \\;dB/cm$. Implemented using this process are high-Q microrings with intrinsic quality factors in excess of $4.5\\times10^6$ and coupled-ring photonic molecules to support nonlinear gain. Leveraging the achievable low loss and high-Q, this work further reports the first demonstration of Kerr-comb and soliton generation on the Si$_3$N$_4$-on-sapphire platform. These advances in loss, quality factor, and soliton generation on this versatile, broad-transparency platform pave the way for future work in spectroscopy and quantum-enhanced sensing across previously prohibited spectral regions for Si$_3$N$_4$ photonics with reduced fabrication complexity.",
+ "comment": "15 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27335",
+  "pdf": "https://arxiv.org/pdf/2608.27335",
+  "html": "https://arxiv.org/html/2608.27335"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.27335v1/Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29T12:47:57.999Z",
+  "hook": "We built ultra-low-loss silicon nitride photonic circuits on sapphire substrates, achieving losses below 0.1 dB/cm.",
+  "tldr": [
+   "Investigated sapphire substrates as alternate hosts for silicon nitride photonic integrated circuits to overcome traditional substrate limitations.",
+   "Fabricated a 500-nm-thick silicon nitride-on-sapphire platform and demonstrated high-Q microrings with intrinsic quality factors over 4.5x10^6.",
+   "Reported the first demonstration of Kerr-comb and soliton generation on this new versatile platform."
+  ],
+  "whyItMatters": "Better optical materials with lower light loss and broader transparency can drastically improve applications in sensing, telecommunications, and quantum information processing.",
+  "eli5": "Building microchips that carry light instead of electricity is tricky because light can leak out or get absorbed. By putting silicon nitride on top of a sapphire crystal, researchers made a super-smooth highway for light that prevents it from leaking.",
+  "keyNumbers": [
+   {
+    "value": "500-nm",
+    "label": "Film thickness",
+    "context": "Thickness of the silicon nitride layer on the sapphire platform"
+   },
+   {
+    "value": "<0.1 dB/cm",
+    "label": "Propagation loss",
+    "context": "Record-low losses achieved in the fabricated photonic circuits"
+   },
+   {
+    "value": "4.5x10^6",
+    "label": "Quality factor",
+    "context": "Intrinsic quality factors of the high-Q microrings"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Photonic integrated circuits",
+    "shortDef": "Microchips that use light instead of electricity to route and process information.",
+    "eli5Def": "Tiny computer chips that route beams of light like miniature fiber-optic networks.",
+    "wikiTitle": "Photonic integrated circuit"
+   },
+   {
+    "term": "Kerr-comb",
+    "shortDef": "A frequency comb generated via nonlinear optical processes in a microresonator.",
+    "eli5Def": "A rainbow of evenly spaced laser frequencies created by bouncing intense light inside a tiny ring.",
+    "wikiTitle": "Microresonator frequency comb"
+   },
+   {
+    "term": "Soliton",
+    "shortDef": "A self-reinforcing solitary wave packet that maintains its shape while propagating.",
+    "eli5Def": "A wave of light that travels long distances without spreading out or changing shape.",
+    "wikiTitle": "Soliton"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

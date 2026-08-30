@@ -1,0 +1,68 @@
+{
+ "id": "2608.27330",
+ "version": 1,
+ "title": "The Geometry of Dissipative Complexity: A Levi-Type Decomposition Theorem for Markovian Quantum Dynamics via Lie Wedges and Invariant Cones",
+ "authors": [
+  {
+   "name": "Yibin Wang"
+  },
+  {
+   "name": "Dhara Thakkar"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-27T16:32:35Z",
+ "updated": "2026-08-27T16:32:35Z",
+ "abstract": "Lie algebras describe how control Hamiltonians combine in closed quantum systems. In open Markovian systems, however, dissipation introduces irreversible directions that the Lie algebra alone does not retain. A dynamical Lie wedge preserves this information as a convex cone of locally admissible generators. The classical Levi decomposition separates a finite-dimensional Lie algebra into semisimple and solvable parts. In this work, we prove a corresponding decomposition and reconstruction theorem for dynamical Lie wedges. The theorem decomposes the wedge into semisimple and solvable data, records how these components are coupled, and provides a converse reconstruction of the wedge. The framework yields four structural types of the generated algebra. We further prove that the total dissipation strength of every admissible generator depends only on its coordinate in the solvable radical. In particular, if the generated Lie algebra is semisimple, every admissible generator is Hamiltonian. Together, these results extend Lie-algebraic structural methods to irreversible Markovian control and clarify how dissipation is encoded in the generator geometry.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27330",
+  "pdf": "https://arxiv.org/pdf/2608.27330",
+  "html": "https://arxiv.org/html/2608.27330"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30T12:09:20.341Z",
+  "hook": "We prove a Levi-type decomposition theorem for dynamical Lie wedges, extending structural methods to irreversible systems.",
+  "tldr": [
+   "Investigated how dissipation introduces irreversible directions in open Markovian quantum systems.",
+   "Proved a decomposition and reconstruction theorem for dynamical Lie wedges, separating them into semisimple and solvable parts.",
+   "Found that total dissipation strength depends only on the coordinate in the solvable radical."
+  ],
+  "whyItMatters": "This mathematical breakthrough brings the powerful tools of algebra to open quantum systems, helping physicists better understand and control quantum systems affected by environmental noise.",
+  "eli5": "Think of classical algebra as sorting clean, reversible gears. This paper invents a new mathematical sorting tool for gears that wear down and lose energy over time.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Lie Algebra",
+    "shortDef": "A mathematical structure used to study symmetries and continuous transformations in physics.",
+    "eli5Def": "A math toolkit that helps scientists describe smooth, continuous changes.",
+    "wikiTitle": "Lie algebra"
+   },
+   {
+    "term": "Markovian",
+    "shortDef": "Describing a system where future states depend only on the current state, lacking memory of the past.",
+    "eli5Def": "A process that only cares about right now, completely forgetting what happened a second ago.",
+    "wikiTitle": "Markov chain"
+   },
+   {
+    "term": "Solvable Radical",
+    "shortDef": "The largest solvable ideal within a finite-dimensional Lie algebra.",
+    "eli5Def": "A specific piece of an algebraic structure that can be broken down into simpler layers.",
+    "wikiTitle": "Radical (algebra)"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

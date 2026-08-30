@@ -1,0 +1,91 @@
+{
+ "id": "2608.27333",
+ "version": 1,
+ "title": "Evaluating Quantum Kernel Methods for Track-Based Classification in High-Energy Physics",
+ "authors": [
+  {
+   "name": "Emmanuel Billias"
+  },
+  {
+   "name": "Nikos Chrisochoides"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.data-an"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-27T16:35:30Z",
+ "updated": "2026-08-27T16:35:30Z",
+ "abstract": "We present a systematic design for large-scale quantum kernel classification, demonstrated through a quantum support vector classifier (QSVC) for particle-track classification using centroid-based CLAS12 drift-chamber features. Each event is encoded into a six-qubit state via a fully entangled ZZFeatureMap, whose fidelities define a quantum kernel within a standard SVM framework. By decoupling state preparation from kernel construction and distributing evaluation across a multi-node MPI-based HPC allocation, the approach scales to 1.0x10^5 training and 4.0x10^5 test events with an exactly constructed kernel matrix, to our knowledge more than an order of magnitude larger than prior high-energy-physics quantum-kernel studies. Benchmarked against linear, polynomial, RBF, and sigmoid SVM kernels and extremely randomized trees (ERT), the ideal QSVC achieves the highest recall (99.99%) among all models. Under a calibrated hardware noise model (FakeMumbaiV2, 500 training / 2,000 test events), AUC falls from 0.9985 to 0.9671 and peak significance improvement falls from 17.5 to ~3.5, yet recall remains at 99.51% -- indicating this signal-retention advantage is attenuated but not eliminated by circuit-level decoherence. Geometric analysis of the quantum embedding shows near-orthogonal inter-class states with coherent intra-class neighborhoods under ideal simulation; under noise this structure compresses toward the maximally mixed state while preserving its relative ordering. These results demonstrate a scalable, reproducible workflow for quantum kernel experimentation at HEP-relevant scale, quantifying the practical cost of realistic hardware noise on quantum-enhanced classification.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27333",
+  "pdf": "https://arxiv.org/pdf/2608.27333",
+  "html": "https://arxiv.org/html/2608.27333"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.27333v1/img/chamber_data.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30T12:09:20.341Z",
+  "hook": "An ideal quantum support vector classifier achieved 99.99% recall on 500,000 particle-track events using a 6-qubit state.",
+  "tldr": [
+   "Built a scalable quantum kernel classification workflow for particle-track classification using drift-chamber features.",
+   "Encoded events into a 6-qubit state via a ZZFeatureMap and distributed evaluation across an MPI-based HPC allocation.",
+   "The ideal QSVC achieved 99.99% recall, while a hardware noise model showed signal-retention is retained despite decoherence."
+  ],
+  "whyItMatters": "Demonstrates that quantum kernel methods can scale to high-energy physics datasets an order of magnitude larger than previous studies, offering a path to practical quantum advantage.",
+  "eli5": "Imagine sorting through millions of subatomic particle collision tracks by mapping them onto quantum states, like turning flat puzzle pieces into 3D shapes so they are easier to tell apart.",
+  "keyNumbers": [
+   {
+    "value": "6",
+    "label": "Qubits",
+    "context": "Each event is encoded into a six-qubit state via a fully entangled ZZFeatureMap."
+   },
+   {
+    "value": "1.0x10^5",
+    "label": "Training events",
+    "context": "The approach scales to 100,000 training events."
+   },
+   {
+    "value": "4.0x10^5",
+    "label": "Test events",
+    "context": "The approach scales to 400,000 test events."
+   },
+   {
+    "value": "99.99%",
+    "label": "Recall",
+    "context": "The ideal QSVC achieves the highest recall among all tested models."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum Kernel",
+    "shortDef": "A mathematical function measuring similarity between quantum states to help classification algorithms.",
+    "eli5Def": "A special ruler that measures how similar two quantum puzzles are to each other.",
+    "wikiTitle": "Kernel method"
+   },
+   {
+    "term": "ZZFeatureMap",
+    "shortDef": "A quantum circuit used to encode classical data into quantum states using entanglement.",
+    "eli5Def": "A recipe that turns normal computer data into connected quantum information.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Decoherence",
+    "shortDef": "The loss of quantum coherence due to interaction with the external environment.",
+    "eli5Def": "When a fragile quantum state gets disturbed by outside noise and loses its special properties.",
+    "wikiTitle": "Quantum decoherence"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

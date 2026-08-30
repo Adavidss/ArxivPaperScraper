@@ -1,0 +1,36 @@
+{
+ "date": "2026-08-30",
+ "generatedAt": "2026-08-30T12:09:20.341Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Quantum Dynamics: From Particle Tracks to Dissipation",
+ "summary": "Today's research spans distinct quantum domains, highlighting new advances in quantum kernel classification for particle physics, Lie-type decompositions for open Markovian systems, and heavy Fermi polaron experiments. Each paper showcases the ongoing transition of quantum methods into rigorous application and complex system modeling.",
+ "themes": [
+  {
+   "title": "Quantum Machine Learning in High-Energy Physics",
+   "body": "A scalable quantum kernel classification workflow was designed for particle-track events. Utilizing a 6-qubit state via a ZZFeatureMap, the ideal quantum support vector classifier achieved 99.99% recall on 500,000 track events.",
+   "paperIds": [
+    "2608.27333"
+   ]
+  },
+  {
+   "title": "Structural Geometry of Open Quantum Systems",
+   "body": "Researchers proved a Levi-type decomposition theorem for dynamical Lie wedges in Markovian quantum dynamics, demonstrating that total dissipation strength is determined solely by the solvable radical coordinate.",
+   "paperIds": [
+    "2608.27330"
+   ]
+  },
+  {
+   "title": "Experimental Fermi Polaron Platforms",
+   "body": "A new experimental platform successfully immersed 1,000 cesium impurities into a degenerate Fermi gas of 200,000 lithium atoms, using Raman spectroscopy to explore regimes enabled by large mass imbalances.",
+   "paperIds": [
+    "2608.27322"
+   ]
+  }
+ ],
+ "connections": [],
+ "paperIds": [
+  "2608.27333",
+  "2608.27330",
+  "2608.27322"
+ ]
+}

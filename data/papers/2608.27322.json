@@ -1,0 +1,96 @@
+{
+ "id": "2608.27322",
+ "version": 1,
+ "title": "The heavy Fermi polaron I: the Lithium-Cesium experiment",
+ "authors": [
+  {
+   "name": "Michael Rautenberg"
+  },
+  {
+   "name": "Tobias Krom"
+  },
+  {
+   "name": "Eleonora Lippi"
+  },
+  {
+   "name": "Lauriane Chomaz"
+  },
+  {
+   "name": "Matthias Weidemüller"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-08-27T16:22:06Z",
+ "updated": "2026-08-27T16:22:06Z",
+ "abstract": "We present details of an experimental platform for studying Fermi polarons in a quantum-gas mixture. The system consists of about a thousand bosonic $^{133}$Cs impurities immersed in a deeply degenerate Fermi gas ($T/T_F \\sim 0.2$) of approximately $2\\times 10^5$ $^6$Li atoms in a single hyperfine state, with interspecies interactions tunable via a Feshbach resonance. Using optical Raman spectroscopy without relative momentum transfer, we perform injection spectroscopy and thereby create the Fermi polaron. Owing to the large mass imbalance between the two species, the setup provides access to previously unexplored regimes of Fermi polarons.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.27322",
+  "pdf": "https://arxiv.org/pdf/2608.27322",
+  "html": "https://arxiv.org/html/2608.27322"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.27322v1/Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30T12:09:20.341Z",
+  "hook": "An experimental platform immerses 1,000 cesium impurities into a degenerate Fermi gas of 200,000 lithium atoms.",
+  "tldr": [
+   "Developed an experimental platform to study Fermi polarons in a quantum-gas mixture.",
+   "Used optical Raman spectroscopy without relative momentum transfer to perform injection spectroscopy.",
+   "Leveraged a large mass imbalance and tunable Feshbach resonances to explore new regimes of Fermi polarons."
+  ],
+  "whyItMatters": "Studying these heavy impurities in quantum gases provides key insights into how complex quantum materials behave under extreme mass imbalances.",
+  "eli5": "Imagine dropping a thousand heavy bowling balls into a giant, hyperactive pool filled with two hundred thousand ping-pong balls to see how they interact.",
+  "keyNumbers": [
+   {
+    "value": "1,000",
+    "label": "Cs impurities",
+    "context": "The system consists of about a thousand bosonic Cs impurities."
+   },
+   {
+    "value": "2x10^5",
+    "label": "Li atoms",
+    "context": "Immersed in a degenerate Fermi gas of approximately 200,000 lithium atoms."
+   },
+   {
+    "value": "0.2",
+    "label": "Temperature ratio",
+    "context": "Immersed in a deeply degenerate Fermi gas at T/TF ~ 0.2."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Fermi Polaron",
+    "shortDef": "A quasiparticle formed when an impurity interacts with a surrounding Fermi sea of particles.",
+    "eli5Def": "A lone traveler moving through a dense crowd, dragging a disturbance along with it.",
+    "wikiTitle": "Polaron"
+   },
+   {
+    "term": "Feshbach Resonance",
+    "shortDef": "A tool to magnetically tune the interaction strength between atoms in ultracold quantum gases.",
+    "eli5Def": "A magnetic dial that lets scientists turn up or down how strongly atoms bump into each other.",
+    "wikiTitle": "Feshbach resonance"
+   },
+   {
+    "term": "Hyperfine State",
+    "shortDef": "An energy state of an atom resulting from interactions between nuclear and electron magnetic moments.",
+    "eli5Def": "A very specific internal energy level of an atom.",
+    "wikiTitle": "Hyperfine structure"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

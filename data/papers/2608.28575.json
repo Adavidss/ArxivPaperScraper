@@ -1,0 +1,75 @@
+{
+ "id": "2608.28575",
+ "version": 1,
+ "title": "Solvable relaxation in discrete unitary systems: Ruelle-Pollicott resonances and CMV matrices",
+ "authors": [
+  {
+   "name": "Urban Duh"
+  },
+  {
+   "name": "Friedrich Hübner"
+  },
+  {
+   "name": "Marko Žnidarič"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "math-ph",
+  "nlin.CD",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-08-28T17:52:00Z",
+ "updated": "2026-08-28T17:52:00Z",
+ "abstract": "Leading eigenvalues of the truncated propagator, known as Ruelle-Pollicott (RP) resonances, are an elegant way of addressing the dynamics of unitary many-body systems. We study unitary propagators in their canonical form, known in the mathematical literature as the CMV matrices, and obtain a number of exact results for RP resonances and the associated norm-diverging eigenvectors. For the simplest CMV class describing a unilateral shift with an impurity, motivated by operator dynamics in dual-unitary circuits, we obtain closed-form results and in particular show that the three independent ways of obtaining RP resonances -- the truncated propagator, analytic continuation of the resolvent, and the rigged Hilbert space approach -- all give the same results. In more realistic CMV matrices, in which shift-like operator dynamics characteristic of chaotic systems is only asymptotic, we rely on the rich theory of orthogonal polynomials on the unit circle and identify two phases. In the first phase, relaxation occurs due to local operators effectively evolving into increasingly nonlocal ones with negligible backflow. Especially interesting is the second phase, which, surprisingly, exhibits faster relaxation because of contributions from the backflow of large operators. Additionally, in the second phase, RP resonances are not equal to the eigenvalues of the truncated propagator, instead, they are ``hidden'' within a ring of ill-conditioned eigenvalues.",
+ "comment": "33+12 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.28575",
+  "pdf": "https://arxiv.org/pdf/2608.28575",
+  "html": "https://arxiv.org/html/2608.28575"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.28575v1/phases.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31T14:19:32.919Z",
+  "hook": "CMV matrices reveal exact results for Ruelle-Pollicott resonances and two distinct relaxation phases in unitary systems.",
+  "tldr": [
+   "They studied leading eigenvalues of truncated propagators, known as Ruelle-Pollicott resonances, in unitary many-body systems.",
+   "They analyzed canonical CMV matrices using orthogonal polynomials on the unit circle to derive closed-form results.",
+   "They identified two distinct relaxation phases, including a surprising second phase with faster relaxation driven by operator backflow."
+  ],
+  "whyItMatters": "Understanding how closed quantum systems relax and lose memory of their initial state is central to statistical mechanics and building reliable quantum technologies.",
+  "eli5": "When you drop ink into water, it spreads out and mixes. Physicists studied how quantum information similarly mixes and dissolves, finding that it sometimes speeds up unexpectedly because of back-currents.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "CMV matrices",
+    "shortDef": "Orthogonal matrices on the unit circle useful for studying quantum walks and unitary operators.",
+    "eli5Def": "A specialized grid of numbers that helps physicists track quantum particles moving in loops.",
+    "wikiTitle": "CMV matrix"
+   },
+   {
+    "term": "Ruelle-Pollicott resonances",
+    "shortDef": "Poles of the analytically continued resolvent that govern long-time classical and quantum decay.",
+    "eli5Def": "Mathematical fingerprints that reveal the exact rhythm at which a disturbed system settles back down.",
+    "wikiTitle": "Ruelle-Pollicott resonance"
+   },
+   {
+    "term": "Resolvent",
+    "shortDef": "An operator family whose poles correspond to the spectrum of a linear operator.",
+    "eli5Def": "A mathematical magnifying glass that helps reveal the hidden resonant frequencies of a system.",
+    "wikiTitle": "Resolvent (operator theory)"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

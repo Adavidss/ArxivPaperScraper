@@ -1,0 +1,89 @@
+{
+ "id": "2608.28571",
+ "version": 1,
+ "title": "Learning to Decode Concatenated Quantum Codes with Hierarchical Message Passing",
+ "authors": [
+  {
+   "name": "Jiahui Wu"
+  },
+  {
+   "name": "Chao Zhang"
+  },
+  {
+   "name": "Zipeng Wu"
+  },
+  {
+   "name": "Shilin Huang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-28T17:48:04Z",
+ "updated": "2026-08-28T17:48:04Z",
+ "abstract": "We introduce a neural message-passing framework for decoding general concatenated stabilizer codes. Soft beliefs propagate bidirectionally across concatenation levels, and lightweight neural networks learn only to aggregate incoming messages. For the concatenated $[[15,7,3]]$ quantum Hamming code, the resulting decoder achieves substantially higher thresholds than the state-of-the-art bidirectional hard-decision decoder under both bit-flip and depolarizing noise. In particular, the depolarizing pseudo-threshold nearly doubles, from $6.5\\%$ to $12.3\\%$. For many-hypercube codes, a decoder fine-tuned on circuit-level errors in Knill's teleportation-based error correction can achieve lower logical-CNOT failure rates than their dedicated decoder, using a fixed number of message-passing iterations instead of extensive combinatorial search. Our framework provides a generic decoding tool for exploring the design space of concatenated codes, including non-CSS constructions, toward low-overhead fault tolerance.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.28571",
+  "pdf": "https://arxiv.org/pdf/2608.28571",
+  "html": "https://arxiv.org/html/2608.28571"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31T14:19:32.919Z",
+  "hook": "A new neural decoder nearly doubles the depolarizing pseudo-threshold for quantum codes from 6.5% to 12.3%.",
+  "tldr": [
+   "Introduced a neural message-passing framework to decode general concatenated stabilizer codes.",
+   "Used bidirectional soft-belief propagation and lightweight neural networks that only learn to aggregate messages.",
+   "Achieved substantially higher thresholds and lower logical-CNOT failure rates under various noise models."
+  ],
+  "whyItMatters": "Building fault-tolerant quantum computers requires fixing errors efficiently without adding massive hardware overhead. This neural decoding framework makes complex quantum codes much easier to run accurately.",
+  "eli5": "Imagine trying to fix a giant jigsaw puzzle where pieces keep flipping randomly. Instead of manually checking every piece, the researchers built a smart helper network that passes notes back and forth between puzzle sections to figure out the original picture much faster.",
+  "keyNumbers": [
+   {
+    "value": "15,7,3",
+    "label": "Quantum Hamming Code Parameters",
+    "context": "The specific concatenated quantum code tested in the evaluation."
+   },
+   {
+    "value": "6.5%",
+    "label": "Baseline Pseudo-Threshold",
+    "context": "The depolarizing pseudo-threshold of the state-of-the-art bidirectional hard-decision decoder."
+   },
+   {
+    "value": "12.3%",
+    "label": "New Pseudo-Threshold",
+    "context": "The improved depolarizing pseudo-threshold achieved by the new neural decoder."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Stabilizer code",
+    "shortDef": "A type of quantum error-correcting code defined by a set of stabilizer operators.",
+    "eli5Def": "A smart way to protect fragile quantum information by constantly checking if anything changed without actually looking at the data.",
+    "wikiTitle": "Stabilizer code"
+   },
+   {
+    "term": "Depolarizing noise",
+    "shortDef": "A common quantum noise model where a qubit is randomly replaced by a completely mixed state.",
+    "eli5Def": "Static or interference that randomly scrambles quantum information, making it forget what state it was in.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Logical-CNOT",
+    "shortDef": "A multi-qubit gate performed on logical qubits composed of many physical qubits.",
+    "eli5Def": "A fundamental logic operation done on protected bundles of qubits rather than single fragile ones.",
+    "wikiTitle": "Quantum logic gate"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

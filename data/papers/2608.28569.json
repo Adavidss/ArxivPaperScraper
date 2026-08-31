@@ -1,0 +1,82 @@
+{
+ "id": "2608.28569",
+ "version": 1,
+ "title": "Quantum Fourier transform for the symmetric group",
+ "authors": [
+  {
+   "name": "Carli Bruinsma"
+  },
+  {
+   "name": "Dmitry Grinko"
+  },
+  {
+   "name": "Maris Ozols"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math.RT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-28T17:46:20Z",
+ "updated": "2026-08-28T17:46:20Z",
+ "abstract": "Quantum Fourier transforms (QFT) for general groups were recognized to be fundamental already early in the field. A canonical example of non-abelian QFT for the symmetric group was outlined by Beals (1997). Later, a more detailed analysis of this algorithm was carried out by Kawano and Sekigawa (2016). In this paper, we revisit that construction. After a careful analysis, we revise their gate complexity to $\\widetilde{\\mathcal{O}}(n^{3.5})$ and circuit depth to $\\widetilde{\\mathcal{O}}(n^3)$. Moreover, we observe that their construction is not optimal in the choice of transversal elements, so we propose simpler realization of the symmetric group QFT.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.28569",
+  "pdf": "https://arxiv.org/pdf/2608.28569",
+  "html": "https://arxiv.org/html/2608.28569"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31T14:19:32.919Z",
+  "hook": "Revised gate complexity down to tilde-O(n^3.5) for the quantum Fourier transform of the symmetric group.",
+  "tldr": [
+   "Revisited the canonical symmetric group quantum Fourier transform construction by Kawano and Sekigawa.",
+   "Analyzed and revised the gate complexity to tilde-O(n^3.5) and circuit depth to tilde-O(n^3).",
+   "Proposed a simpler realization of the symmetric group QFT by optimizing the choice of transversal elements."
+  ],
+  "whyItMatters": "The quantum Fourier transform is a core subroutine for many quantum algorithms. Improving its complexity for complex mathematical groups helps make advanced quantum algorithms more feasible.",
+  "eli5": "Just like a regular computer uses fast math shortcuts to process audio frequencies, quantum computers use a special Fourier transform. Researchers just found a leaner, more efficient way to set up this math shortcut for complex symmetry groups.",
+  "keyNumbers": [
+   {
+    "value": "3.5",
+    "label": "Gate Complexity Exponent",
+    "context": "The revised gate complexity order tilde-O(n^3.5) for the algorithm."
+   },
+   {
+    "value": "3",
+    "label": "Circuit Depth Exponent",
+    "context": "The revised circuit depth order tilde-O(n^3) for the algorithm."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Symmetric group",
+    "shortDef": "The mathematical group of all permutations of a finite set of objects.",
+    "eli5Def": "The complete set of every possible way you can shuffle a deck of cards or rearrange items.",
+    "wikiTitle": "Symmetric group"
+   },
+   {
+    "term": "Gate complexity",
+    "shortDef": "The number of quantum gates required to implement a specific quantum circuit.",
+    "eli5Def": "A count of how many basic building blocks or electronic switches you need to wire up a computation.",
+    "wikiTitle": "Computational complexity theory"
+   },
+   {
+    "term": "Circuit depth",
+    "shortDef": "The longest sequential chain of quantum gates in a circuit.",
+    "eli5Def": "The number of sequential steps or layers of operations a computer must execute one after another.",
+    "wikiTitle": "Circuit depth"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 40
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "2608.28577",
+ "version": 1,
+ "title": "How Long-Range Tails Reshape Non-Hermitian Spectra",
+ "authors": [
+  {
+   "name": "Ding Gu"
+  },
+  {
+   "name": "Zhanpeng Fu"
+  },
+  {
+   "name": "Yu-Min Hu"
+  },
+  {
+   "name": "Zhong Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall",
+  "cond-mat.quant-gas",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-28T17:53:36Z",
+ "updated": "2026-08-28T17:53:36Z",
+ "abstract": "Exponentially decaying long-range hoppings are ubiquitous in realistic tight-binding models and are often truncated to obtain a finite-range description. We show that this approximation can fail dramatically in non-Hermitian systems under open boundary conditions: an infinitesimal long-range hopping can nonperturbatively reconstruct the spectrum and eigenstates of a short-range non-Hermitian system. The mechanism is controlled by a competition between the decay length of infinitesimal long-range hoppings and the localization length of non-Hermitian skin modes, leading to a sharp transition as the decay rate is tuned. In one dimension, we show that a squeezed generalized Brillouin zone (GBZ) replaces the original GBZ of the short-ranged Hamiltonian, yielding the reconstructed open-boundary spectrum. In two or higher dimensions, we formulate a squeezed amoeba formulation describing the reconstructed spectral density. We further show that long-range hoppings can qualitatively reshape Green's function, which can be readily detected in experiments.",
+ "comment": "8+8 pages, 7+5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.28577",
+  "pdf": "https://arxiv.org/pdf/2608.28577",
+  "html": "https://arxiv.org/html/2608.28577"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.28577v1/1D_GBZ_new.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31T14:19:32.919Z",
+  "hook": "An infinitesimal long-range hopping can nonperturbatively reconstruct the spectrum and eigenstates of a non-Hermitian system.",
+  "tldr": [
+   "They studied how exponentially decaying long-range hoppings reshape non-Hermitian systems under open boundary conditions.",
+   "They analyzed the competition between the decay length of long-range hoppings and the localization length of skin modes.",
+   "They found that squeezed generalized Brillouin zones and squeezed amoeba formulations describe the reconstructed spectra."
+  ],
+  "whyItMatters": "Many physical models drop long-range interactions to simplify math, but this discovery proves that ignoring tiny distant connections can completely change a system's fundamental quantum behavior.",
+  "eli5": "Imagine a long line of dominoes where each domino usually only nudges its immediate neighbor. If even the slightest invisible breeze can carry a push all the way down the line, it changes how the whole pattern falls over.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Non-Hermitian",
+    "shortDef": "Quantum systems that exchange energy with their environment, breaking standard energy conservation.",
+    "eli5Def": "A game where energy can leak in or out, unlike a closed system where everything stays balanced.",
+    "wikiTitle": "Non-Hermitian quantum mechanics"
+   },
+   {
+    "term": "Brillouin zone",
+    "shortDef": "A mathematically defined region in momentum space used to describe wave behavior in crystals.",
+    "eli5Def": "A special map used by physicists to track how waves travel through repeating atomic structures.",
+    "wikiTitle": "Brillouin zone"
+   },
+   {
+    "term": "Green's function",
+    "shortDef": "A mathematical tool used to solve differential equations and describe particle propagation.",
+    "eli5Def": "An equation that tells you how a ripple spreads out across a system after a single splash.",
+    "wikiTitle": "Green's function (many-body theory)"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

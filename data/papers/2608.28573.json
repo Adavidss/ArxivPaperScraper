@@ -1,0 +1,77 @@
+{
+ "id": "2608.28573",
+ "version": 1,
+ "title": "Quantum Fourier transform toolbox",
+ "authors": [
+  {
+   "name": "Carli Bruinsma"
+  },
+  {
+   "name": "Pietro M. Posta"
+  },
+  {
+   "name": "Joppe Stokvis"
+  },
+  {
+   "name": "Dmitry Grinko"
+  },
+  {
+   "name": "Maris Ozols"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math.RT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-28T17:49:30Z",
+ "updated": "2026-08-28T17:49:30Z",
+ "abstract": "Quantum Fourier transforms (QFTs) are essential primitives in quantum algorithms. While abelian groups admit efficient QFT circuits, with circuit size polynomial in the logarithm of the group order, efficient constructions are known for relatively few non-abelian families. We develop two new approaches to QFT circuit construction, based on Mackey theory and Clifford theory, respectively, and use them to show exponential improvement in circuit cost for specific group families. Using the Mackey-theoretic approach, we obtain explicit quantum circuits for the QFT over $\\mathrm{GL}_2(F_q)$ that scale polynomially in $\\log q$, rather than polynomially in $q$. Using the Clifford-theoretic approach, we obtain QFT circuits for wreath products $F\\wr S_n$, whose cost depends on the cost of a QFT over $F$ and the size of its representation registers. This removes the restriction $|F|=\\operatorname{poly}(n)$ required by previous generic constructions and can yield exponential improvements when $F$ itself has an efficient QFT. Together, these methods provide new systematic tools to construct QFTs for broad classes of finite groups.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.28573",
+  "pdf": "https://arxiv.org/pdf/2608.28573",
+  "html": "https://arxiv.org/html/2608.28573"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31T14:19:32.919Z",
+  "hook": "Two new approaches to quantum Fourier transform circuit construction show exponential improvement for specific group families.",
+  "tldr": [
+   "They developed two new approaches to quantum Fourier transform circuit construction based on Mackey theory and Clifford theory.",
+   "They applied Mackey theory to obtain explicit quantum circuits for general linear groups scaling polynomially in log q.",
+   "They used Clifford theory to construct circuits for wreath products, removing prior size restrictions and yielding exponential improvements."
+  ],
+  "whyItMatters": "The Quantum Fourier Transform is the hidden engine behind major quantum algorithms like Shor's factoring algorithm; making it work for more complex symmetry groups unlocks new computational capabilities.",
+  "eli5": "The Fourier transform is like a musical prism that breaks a complex sound wave down into its pure notes. The researchers built a better prism that works for much more complicated mathematical structures than before.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Fourier transform",
+    "shortDef": "The quantum counterpart of the discrete Fourier transform, essential for quantum phase estimation.",
+    "eli5Def": "A quantum shortcut that translates complex data into wave frequencies to solve hard math problems fast.",
+    "wikiTitle": "Quantum Fourier transform"
+   },
+   {
+    "term": "Non-abelian",
+    "shortDef": "Groups where the order of multiplication matters, meaning A times B does not equal B times A.",
+    "eli5Def": "A rulebook where doing action A then action B gives a different result than doing B then A.",
+    "wikiTitle": "Non-abelian group"
+   },
+   {
+    "term": "Mackey theory",
+    "shortDef": "A framework in mathematics describing induced representations of groups.",
+    "eli5Def": "A recipe for building big, complicated group patterns out of smaller, simpler building blocks.",
+    "wikiTitle": "Mackey machine"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

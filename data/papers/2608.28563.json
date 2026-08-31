@@ -1,0 +1,71 @@
+{
+ "id": "2608.28563",
+ "version": 1,
+ "title": "Exact quantification of nonlocal magic",
+ "authors": [
+  {
+   "name": "Piotr Sierant"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-28T17:40:56Z",
+ "updated": "2026-08-28T17:40:56Z",
+ "abstract": "Magic, or nonstabilizerness, is the resource that lifts Clifford circuits to universal quantum computation and has become a standard diagnostic of many-body states. For a state shared between two parties, however, a basic question has remained open: how much of the magic resides in the correlations between the parties rather than in their local bases? Isolating this nonlocal magic requires minimizing over all local bases, an optimization that has so far resisted exact solution. Here we solve it for the stabilizer fidelity: the nonlocal magic of every pure multiqubit state is the distance of its entanglement spectrum from the closest spectrum of Bell pairs. The same quantity governs an apparently unrelated task: a family of states universally embezzles entanglement under local operations and classical communication if and only if its nonlocal magic diverges. The deciding property is not the amount of entanglement but the way the entanglement spectrum spreads its weight across factor-of-two windows of rank, so that critical chains and random-singlet states, with identical logarithmic entanglement scaling, carry unbounded and vanishing nonlocal magic, respectively. Nonlocal magic thereby becomes an operationally meaningful property of quantum correlations, directly accessible to tensor-network simulations and, through entanglement spectroscopy, to experiments.",
+ "comment": "18 pages, 3 figures, comments welcome!",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.28563",
+  "pdf": "https://arxiv.org/pdf/2608.28563",
+  "html": "https://arxiv.org/html/2608.28563"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31T14:19:32.919Z",
+  "hook": "Solved an open problem by expressing the nonlocal magic of any pure multiqubit state using its entanglement spectrum.",
+  "tldr": [
+   "Determined how to isolate the magic residing in correlations between parties rather than local bases.",
+   "Proved the nonlocal magic of every pure multiqubit state equals the distance of its entanglement spectrum from Bell pairs.",
+   "Linked nonlocal magic to entanglement embezzlement and showed it is accessible via tensor networks and experiments."
+  ],
+  "whyItMatters": "'Magic' is what makes quantum computers strictly more powerful than classical ones. Understanding how this resource is shared across separate quantum systems gives scientists new tools to simulate and test quantum hardware.",
+  "eli5": "Think of quantum 'magic' as a special fuel that makes quantum computers superpowered. Scientists figured out how to measure exactly how much of this fuel is hidden in the invisible links connecting two separate quantum systems.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Stabilizer fidelity",
+    "shortDef": "A measure of how close a quantum state is to the set of stabilizer states.",
+    "eli5Def": "A score telling you how easy it is to simulate a quantum state using ordinary, classical computers.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Entanglement spectrum",
+    "shortDef": "The eigenvalue spectrum of the reduced density matrix of a subsystem.",
+    "eli5Def": "A detailed breakdown showing the different 'flavors' and strengths of invisible connections a piece of a quantum system has with the outside world.",
+    "wikiTitle": "Entanglement spectrum"
+   },
+   {
+    "term": "Bell pairs",
+    "shortDef": "Maximal entangled states of two qubits representing the core of quantum correlation.",
+    "eli5Def": "The ultimate pair of quantum best friends whose properties are perfectly locked together no matter how far apart they are.",
+    "wikiTitle": "Bell state"
+   },
+   {
+    "term": "Tensor-network",
+    "shortDef": "A mathematical framework used to simulate complex many-body quantum systems efficiently.",
+    "eli5Def": "A clever map or shorthand diagram that lets scientists calculate massive quantum systems on regular laptops by ignoring irrelevant details.",
+    "wikiTitle": "Tensor network"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

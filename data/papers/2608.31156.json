@@ -1,0 +1,86 @@
+{
+ "id": "2608.31156",
+ "version": 1,
+ "title": "Bosonic codes from compact phase spaces",
+ "authors": [
+  {
+   "name": "David Roberts"
+  },
+  {
+   "name": "Aaron Slipper"
+  },
+  {
+   "name": "Alireza Parhizkar"
+  },
+  {
+   "name": "Victor V. Albert"
+  },
+  {
+   "name": "Mohammad Hafezi"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "math.AG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-31T17:55:49Z",
+ "updated": "2026-08-31T17:55:49Z",
+ "abstract": "We present the algebraic structure of bosonic quantum error-correcting codes on genus-two Riemann surfaces. We explicitly construct the code words as automorphic forms and analytically generate the full tower of code spaces at all weights. We prove a fundamental no-go theorem: for any genus greater than one, the stabilizer group is non-amenable, forcing a strictly positive spectral gap in the stabilizer Hamiltonian. Consequently, no normalizable quantum state can satisfy all stabilizer conditions. This sharply contrasts with standard Gottesman-Kitaev-Preskill (GKP) codes, where the amenability of the stabilizer group $\\mathbb{Z}^2$ permits approximate code words with arbitrary precision.",
+ "comment": "7 pages, 3 figures + Supplemental Material (30 pages, 4 figures). Code, notebooks, and data at https://doi.org/10.5281/zenodo.20585488",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.31156",
+  "pdf": "https://arxiv.org/pdf/2608.31156",
+  "html": "https://arxiv.org/html/2608.31156"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.31156v1/fig2_v3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01T11:56:23.586Z",
+  "hook": "Proves a fundamental no-go theorem showing stabilizer groups are non-amenable on genus-two Riemann surfaces.",
+  "tldr": [
+   "Investigated the algebraic structure of bosonic quantum error-correcting codes on genus-two Riemann surfaces.",
+   "Constructed code words as automorphic forms and analytically generated the full tower of code spaces.",
+   "Proved a no-go theorem showing non-amenable stabilizer groups force a strictly positive spectral gap."
+  ],
+  "whyItMatters": "Quantum error correction is vital for building fault-tolerant quantum computers, and understanding topological limits points researchers toward safer architectures.",
+  "eli5": "Imagine trying to tile a curved, multi-holed donut surface perfectly with error-correcting rules without leaving gaps. This study proves mathematically that for higher-complexity surfaces, perfect error-correcting grids like the standard ones are fundamentally impossible.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Bosonic codes",
+    "shortDef": "Quantum error-correcting codes that encode information into infinite-dimensional oscillator spaces.",
+    "eli5Def": "Methods to protect quantum data using smooth wave motions instead of simple on/off bits.",
+    "wikiTitle": "Bosonic code"
+   },
+   {
+    "term": "Riemann surfaces",
+    "shortDef": "One-dimensional complex manifolds that can be thought of as deformed multi-sheeted planes.",
+    "eli5Def": "Geometric surfaces shaped like donuts with multiple holes.",
+    "wikiTitle": "Riemann surface"
+   },
+   {
+    "term": "Automorphic forms",
+    "shortDef": "Functions on a space that are invariant under a discrete group of transformations.",
+    "eli5Def": "Mathematical functions that repeat symmetrically according to a specific geometric pattern.",
+    "wikiTitle": "Automorphic form"
+   },
+   {
+    "term": "Non-amenable",
+    "shortDef": "A mathematical property of groups lacking an invariant mean, preventing certain approximations.",
+    "eli5Def": "A structural property that prevents infinite averaging, breaking standard approximation tricks.",
+    "wikiTitle": "Amenable group"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

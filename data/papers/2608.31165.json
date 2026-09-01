@@ -1,0 +1,74 @@
+{
+ "id": "2608.31165",
+ "version": 1,
+ "title": "Efficient search for excitable zero-modes in constrained systems",
+ "authors": [
+  {
+   "name": "Jean-Yves Desaules"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-31T17:59:12Z",
+ "updated": "2026-08-31T17:59:12Z",
+ "abstract": "Kinetically constrained systems, such as those representing Rydberg atom arrays in the blockade regime, have gathered considerable attention due to the presence of atypical eigenstates in their spectrum. The latter manifests itself through the presence of quantum many-body scars as well as unusually large zero-mode (ZM) subspaces which contain analytically tractable eigenstates with various entanglement scalings. In particular, some of the latter are excitable zero-modes (EZMs), meaning that they can be promoted to a non-zero energy for open boundary conditions. In this work, I present an efficient protocol for finding analytical expressions for translation-invariant EZMs in constrained systems, based on the eigendecomposition of the local unconstrained Hamiltonian. I demonstrate the power of this method on a decorated Rydberg chain. In that model, my protocol directly produces a continuous matrix-product-state manifold located entirely in the zero-energy eigenspace for periodic boundary conditions. The span of that manifold grows exponentially with the system, and for odd system sizes it covers the entire zero-momentum eigenspace with zero energy. I then show how the physical structure of the manifold, which is tied to the local eigenbasis, also allows one to derive analytical expressions for ZMs at non-zero momentum and for a polynomial number of exact scars at $E=\\pm\\sqrt{3}$.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.31165",
+  "pdf": "https://arxiv.org/pdf/2608.31165",
+  "html": "https://arxiv.org/html/2608.31165"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.31165v1/PXP_star_Nx8.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01T11:56:23.586Z",
+  "hook": "An efficient protocol finds analytical expressions for translation-invariant excitable zero-modes in constrained systems.",
+  "tldr": [
+   "Created an efficient protocol to find analytical expressions for translation-invariant excitable zero-modes.",
+   "Used the eigendecomposition of the local unconstrained Hamiltonian on a decorated Rydberg chain model.",
+   "Produced a continuous matrix-product-state manifold growing exponentially with the system size."
+  ],
+  "whyItMatters": "Constrained quantum systems like Rydberg atoms help unlock exotic states of matter, offering insights into quantum many-body scars and new ways to process quantum information.",
+  "eli5": "Think of a row of atomic light switches where rules prevent certain switches from turning on next to each other. This paper figures out mathematical shortcuts to map out all the special balanced states these restricted atoms can form.",
+  "keyNumbers": [
+   {
+    "value": "\\pm\\sqrt{3}",
+    "label": "Energy level for exact scars",
+    "context": "The energy value at which a polynomial number of exact scars are derived."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Kinetically constrained systems",
+    "shortDef": "Quantum systems where movement or transitions are restricted by local rules.",
+    "eli5Def": "Systems where particles are not allowed to move everywhere because strict local rules block them.",
+    "wikiTitle": "Kinetically constrained models"
+   },
+   {
+    "term": "Quantum many-body scars",
+    "shortDef": "Atypical eigenstates that violate thermalization in chaotic quantum systems.",
+    "eli5Def": "Special stubborn quantum states that refuse to scramble and heat up like the rest of the system.",
+    "wikiTitle": "Quantum many-body scar"
+   },
+   {
+    "term": "Matrix-product-state",
+    "shortDef": "A tensor network ansatz efficiently representing complex quantum many-body states.",
+    "eli5Def": "A compact mathematical shortcut used to write down giant quantum wavefunctions.",
+    "wikiTitle": "Matrix product state"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

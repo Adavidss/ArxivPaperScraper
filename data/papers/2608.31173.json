@@ -1,0 +1,76 @@
+{
+ "id": "2608.31173",
+ "version": 1,
+ "title": "Quantum Simulation of Markovian and Non-Markovian Open Quantum Dynamics in Heavy-Ion Collisions",
+ "authors": [
+  {
+   "name": "Doojin Kim"
+  },
+  {
+   "name": "Balbeer Singh"
+  }
+ ],
+ "categories": [
+  "hep-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-ph",
+ "published": "2026-08-31T17:59:59Z",
+ "updated": "2026-08-31T17:59:59Z",
+ "abstract": "We present a quantum computing framework for simulating open-quantum-system approaches based on Markovian and non-Markovian dynamics, which is relevant to heavy-ion collisions. To simulate the non-Markovian evolution on quantum computers, we introduce an auxiliary two-level pseudomode that carries the memory forward and couples to both the subsystem and the residual Markovian bath. We explicitly show that tracing out the pseudomode reproduces the non-Markovian evolution with the exact memory kernel. Moreover, in the relevant time scale hierarchy, the quantum circuit construction of the pseudomode smoothly converges to the Markovian limit. For a given bath memory kernel, our results demonstrate the feasibility of quantum simulations of both Markovian and non-Markovian dynamics, establishing a framework for future studies of hard probes such as jets, heavy quarks, and quarkonia in heavy-ion collisions.",
+ "comment": "12 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.31173",
+  "pdf": "https://arxiv.org/pdf/2608.31173",
+  "html": "https://arxiv.org/html/2608.31173"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.31173v1/markov.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01T11:56:23.586Z",
+  "hook": "New quantum computing framework simulates open-quantum-system dynamics including memory effects in heavy-ion collisions.",
+  "tldr": [
+   "Developed a quantum computing framework to simulate Markovian and non-Markovian open quantum system dynamics.",
+   "Introduced an auxiliary two-level pseudomode on quantum computers to carry memory forward and couple to baths.",
+   "Demonstrated feasibility of simulating dynamics relevant to hard probes like jets, heavy quarks, and quarkonia."
+  ],
+  "whyItMatters": "Understanding how particles interact and lose energy inside high-energy nuclear collisions helps physicists probe the fundamental properties of matter right after the Big Bang.",
+  "eli5": "Imagine a billiard ball rolling on a table. If it forgets past bumps immediately, that's Markovian. If it remembers previous collisions because the table remembers its path, that's non-Markovian. This paper builds a digital memory box on a quantum computer to track those past effects.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Markovian",
+    "shortDef": "A process where future behavior depends only on the present state, ignoring past history.",
+    "eli5Def": "A memoryless process where you only look at right now, not what happened before.",
+    "wikiTitle": "Markov property"
+   },
+   {
+    "term": "Non-Markovian",
+    "shortDef": "Dynamics that retain memory of past states and interactions over time.",
+    "eli5Def": "A process that remembers its past history and uses it to decide what happens next.",
+    "wikiTitle": "Quantum non-Markovianity"
+   },
+   {
+    "term": "Pseudomode",
+    "shortDef": "An artificial auxiliary system introduced to track memory effects in open quantum systems.",
+    "eli5Def": "A helper mini-system used to store past history so the main system doesn't forget.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Quarkonia",
+    "shortDef": "Bound states of a heavy quark and its antiquark.",
+    "eli5Def": "A pair of heavy fundamental subatomic particles stuck together.",
+    "wikiTitle": "Quarkonium"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

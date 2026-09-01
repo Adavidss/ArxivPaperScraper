@@ -1,0 +1,85 @@
+{
+ "id": "2608.31117",
+ "version": 1,
+ "title": "\"Train classical, deploy quantum\" requires rethinking generalization",
+ "authors": [
+  {
+   "name": "Snehal Raj"
+  },
+  {
+   "name": "Natansh Mathur"
+  },
+  {
+   "name": "Alejandro Perdomo-Ortiz"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-31T17:26:27Z",
+ "updated": "2026-08-31T17:26:27Z",
+ "abstract": "Generative models have become central across science and industry, from image and text synthesis to the design of molecules and materials. Quantum generative models are considered one of the most promising applications for quantum computers, since a quantum circuit naturally produces samples from the distribution it encodes, and for suitable circuits that distribution is believed to be hard for any classical computer to reproduce. A leading strategy trains these models on a classical computer and reserves the quantum device for generating samples at deployment. This is possible when the training loss can be evaluated on a classical computer. A prime example is the maximum mean discrepancy (MMD$^2$), a moment-matching loss that compares the model and the data through their Pauli-$Z$ correlations. Research so far has asked whether such models can be trained and whether their sampling is hard; whether minimizing such an objective yields a model that generalizes, rather than one that merely reproduces the training statistics, remains poorly understood. We benchmark a broad set of quantum and classical generative models by direct sampling and show that models trained with a moment-matching loss generally show worse generalization than the likelihood-trained models. We show this on two application-inspired datasets: first a cardinality-constrained dataset at up to $30$ qubits and second a dataset of genomic single-nucleotide variants, whose valid set is the observed data. These results indicate that a converged moment-matching loss is not a reliable measure of generalization, and that train-classical, deploy-quantum workflows will need approaches that target generalization directly, leaving open whether better training objectives suffice or whether the model architectures themselves must change.",
+ "comment": "22 pages, 16 figures, 9 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.31117",
+  "pdf": "https://arxiv.org/pdf/2608.31117",
+  "html": "https://arxiv.org/html/2608.31117"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.31117v1/n16_grid_part1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01T11:56:23.586Z",
+  "hook": "Quantum generative models trained with moment-matching show worse generalization than likelihood-trained models.",
+  "tldr": [
+   "Tested whether quantum generative models trained on classical computers using a moment-matching loss can generalize properly.",
+   "Benchmarked a broad set of quantum and classical generative models across a cardinality-constrained dataset at up to 30 qubits and genomic variants.",
+   "Found that moment-matching losses yield worse generalization than likelihood-trained models, showing converged loss isn't a reliable measure."
+  ],
+  "whyItMatters": "The popular strategy of training quantum models on classical hardware before deployment might be fundamentally flawed because current training losses do not guarantee the model actually learns the underlying patterns.",
+  "eli5": "Imagine studying for a test by just memorizing the practice questions instead of learning the concepts. You might ace the practice test, but you will fail the real exam because you didn't truly understand the material.",
+  "keyNumbers": [
+   {
+    "value": "30",
+    "label": "Qubits",
+    "context": "Maximum size of the cardinality-constrained dataset used in the benchmarks."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Generative models",
+    "shortDef": "AI models that can create new data resembling their training data.",
+    "eli5Def": "Computer programs that learn how to draw new pictures or write new stories that look like the ones they were shown.",
+    "wikiTitle": "Generative model"
+   },
+   {
+    "term": "Maximum mean discrepancy",
+    "shortDef": "A statistical loss function comparing two probability distributions through their moments.",
+    "eli5Def": "A mathematical measuring tape used to check if two different piles of data look similar overall.",
+    "wikiTitle": "Kernel embedding of distributions"
+   },
+   {
+    "term": "Generalization",
+    "shortDef": "The ability of a model to perform well on new, unseen data rather than just training data.",
+    "eli5Def": "How well a student can solve brand new math problems they have never seen before, rather than just copying homework answers.",
+    "wikiTitle": "Generalization (learning)"
+   },
+   {
+    "term": "Qubit",
+    "shortDef": "The basic unit of quantum information, analogous to the classical bit.",
+    "eli5Def": "A quantum version of a computer bit that can be 0, 1, or both at the same time.",
+    "wikiTitle": "Qubit"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

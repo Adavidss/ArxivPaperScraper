@@ -1,0 +1,80 @@
+{
+ "id": "2608.31112",
+ "version": 1,
+ "title": "Unconditional Certified Randomness without Structure",
+ "authors": [
+  {
+   "name": "Andrea Coladangelo"
+  },
+  {
+   "name": "Dakshita Khurana"
+  },
+  {
+   "name": "Saachi Mutreja"
+  },
+  {
+   "name": "Bhaskar Roberts"
+  },
+  {
+   "name": "Joseph Slote"
+  },
+  {
+   "name": "Avishay Tal"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-31T17:17:49Z",
+ "updated": "2026-08-31T17:17:49Z",
+ "abstract": "We obtain a certified randomness protocol in the quantum random oracle model. The protocol is non-interactive and publicly verifiable with a classical verifier, and is based on Yamakawa and Zhandry's proof of quantumness [JACM'24]. We prove unconditional security of this protocol against adversaries making subexponentially-many adaptive quantum queries to the random oracle. Prior work on certified randomness relative to a random oracle additionally assumed the Aaronson--Ambainis conjecture or proved security only against low query-depth adversaries.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.31112",
+  "pdf": "https://arxiv.org/pdf/2608.31112",
+  "html": "https://arxiv.org/html/2608.31112"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01T11:56:23.586Z",
+  "hook": "We achieve unconditional certified randomness in the quantum random oracle model against subexponential queries.",
+  "tldr": [
+   "Developed a certified randomness protocol in the quantum random oracle model.",
+   "Used a non-interactive and publicly verifiable design based on a specific proof of quantumness.",
+   "Proved unconditional security against adversaries making adaptive quantum queries."
+  ],
+  "whyItMatters": "Provably secure random numbers are vital for cryptography, and removing unproven assumptions makes digital security much more reliable.",
+  "eli5": "Imagine flipping a coin where a brilliant mathematician can mathematically prove the flip was truly fair and unpredictable, without needing to trust any special rules.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum random oracle model",
+    "shortDef": "A theoretical framework where cryptographic hash functions are modeled as truly random functions accessible via quantum computers.",
+    "eli5Def": "A magical, perfectly random black box that quantum computers can ask questions to.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Unconditional security",
+    "shortDef": "Security that holds even against an adversary with unlimited computational power.",
+    "eli5Def": "A lock that cannot be picked even if the thief has superpowers and infinite time.",
+    "wikiTitle": "Information-theoretic security"
+   },
+   {
+    "term": "Subexponential",
+    "shortDef": "Growth rate that is slower than an exponential function but faster than any polynomial.",
+    "eli5Def": "A mathematical speed of growth that gets very large, but much slower than exponential explosions.",
+    "wikiTitle": "Sub-exponential time"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 40
+ }
+}

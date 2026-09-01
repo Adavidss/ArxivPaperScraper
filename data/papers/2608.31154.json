@@ -1,0 +1,103 @@
+{
+ "id": "2608.31154",
+ "version": 1,
+ "title": "Engineering multi-photon dissipation with a dc-voltage-biased Josephson junction",
+ "authors": [
+  {
+   "name": "Marco Paradina"
+  },
+  {
+   "name": "Ambroise Peugeot"
+  },
+  {
+   "name": "Roberto Negrin"
+  },
+  {
+   "name": "Oscar Novat"
+  },
+  {
+   "name": "Tristan Villain"
+  },
+  {
+   "name": "Anil Murani"
+  },
+  {
+   "name": "Jean-Loup Ville"
+  },
+  {
+   "name": "Sébastien Jezouin"
+  },
+  {
+   "name": "Raphaël Lescanne"
+  },
+  {
+   "name": "Audrey Bienfait"
+  },
+  {
+   "name": "Benjamin Huard"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-08-31T17:54:47Z",
+ "updated": "2026-08-31T17:54:47Z",
+ "abstract": "Multi-photon dissipation -- a key resource for bosonic qubits -- is usually realized by parametrically pumping a Josephson coupler at the cost of spurious nonlinear terms. Here we instead engineer it using a dc-voltage-biased SQUID, such that these parasitic terms average out. We activate the conversion of one, two, or four photons of a high-Q mode into a single photon of a lossy mode. We characterize the two-photon dissipation by Wigner tomography, establishing dc-biased junctions as a resource for reservoir engineering and a viable route to cat-qubit stabilization.",
+ "comment": "Supplemental material included",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2608.31154",
+  "pdf": "https://arxiv.org/pdf/2608.31154",
+  "html": "https://arxiv.org/html/2608.31154"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2608.31154v1/Fig1v3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01T11:56:23.586Z",
+  "hook": "Engineered multi-photon dissipation using a dc-voltage-biased SQUID to avoid parasitic nonlinear terms.",
+  "tldr": [
+   "Engineered multi-photon dissipation using a dc-voltage-biased SQUID instead of parametric pumping.",
+   "Activated the conversion of one, two, or four photons from a high-Q mode into a single lossy mode photon.",
+   "Characterized two-photon dissipation via Wigner tomography, aiding cat-qubit stabilization."
+  ],
+  "whyItMatters": "Controlling photon loss and dissipation is a critical engineering hurdle for stabilizing cat-qubits in next-generation superconducting quantum computers.",
+  "eli5": "Instead of shaking a microwave circuit violently to manage light particles—which creates messy side effects—scientists used a steady battery-like voltage push to clean up the noise and help stabilize fragile quantum bits.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Josephson junction",
+    "shortDef": "A superconducting device made of two superconductors separated by a thin barrier.",
+    "eli5Def": "A microscopic electrical valve that lets superconducting current flow without resistance and handles quantum signals.",
+    "wikiTitle": "Josephson junction"
+   },
+   {
+    "term": "SQUID",
+    "shortDef": "Superconducting Quantum Interference Device formed by junctions in a superconducting loop.",
+    "eli5Def": "An ultra-sensitive magnetic loop built with superconducting valves.",
+    "wikiTitle": "Superconducting quantum interference device"
+   },
+   {
+    "term": "Wigner tomography",
+    "shortDef": "A technique to reconstruct the quantum state's quasiprobability distribution in phase space.",
+    "eli5Def": "A scanning method used to snap a picture of a quantum particle's probability wave.",
+    "wikiTitle": "Wigner quasiprobability distribution"
+   },
+   {
+    "term": "Cat-qubit",
+    "shortDef": "A quantum bit encoded in superpositions of coherent states resembling Schrödinger's cat.",
+    "eli5Def": "A quantum bit built out of two opposite light waves at the same time.",
+    "wikiTitle": "Cat qubit"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 40
+ }
+}

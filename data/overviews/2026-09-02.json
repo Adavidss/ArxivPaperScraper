@@ -1,0 +1,50 @@
+{
+ "date": "2026-09-02",
+ "generatedAt": "2026-09-02T11:37:45.372Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Frontier dynamics in quantum circuits, states, and semigroups",
+ "summary": "Today's research spans fundamental quantum dynamics, including prethermalization bounds, depth-1 unitary expanders, and regularisation properties of Gaussian semigroups. Alongside theoretical advances in quantum automata and verifiable shallow circuit sampling, applied work explores quantum moving averages for financial forecasting.",
+ "themes": [
+  {
+   "title": "Quantum Dynamics and Prethermalization",
+   "body": "Investigations into foundational limits of quantum relaxation reveal that scale separation alone does not guarantee prethermalization, with lifetimes bounded by the Loschmidt echo and observable-dependent plateaus.",
+   "paperIds": [
+    "2609.01606"
+   ]
+  },
+  {
+   "title": "Circuits, Expanders, and Advantage",
+   "body": "New constructions yield constant-degree and constant-gap quantum expanders via depth-1 1D circuits, while other work demonstrates verifiable quantum sampling advantages in extremely low circuit depth.",
+   "paperIds": [
+    "2609.01605",
+    "2609.01448"
+   ]
+  },
+  {
+   "title": "Algebraic Semigroups, Automata, and Applications",
+   "body": "Studies explore the algebraic properties of Gaussian quantum Markov semigroups, memory effects in symmetric quantum automata, and quantum weighted moving averages for financial limit order book predictions.",
+   "paperIds": [
+    "2609.01547",
+    "2609.01451",
+    "2609.01524"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers utilize constant-depth or structured circuit designs to analyze complexity and state behavior on quantum systems.",
+   "paperIds": [
+    "2609.01605",
+    "2609.01448"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2609.01606",
+  "2609.01605",
+  "2609.01547",
+  "2609.01524",
+  "2609.01451",
+  "2609.01448"
+ ]
+}

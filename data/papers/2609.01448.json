@@ -1,0 +1,81 @@
+{
+ "id": "2609.01448",
+ "version": 1,
+ "title": "Verifiable quantum advantage in extremely low depth",
+ "authors": [
+  {
+   "name": "Alexandru Gheorghiu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-01T15:54:34Z",
+ "updated": "2026-09-01T15:54:34Z",
+ "abstract": "We give a sampling problem that is solvable by shallow quantum circuits, hard for polynomial-time classical algorithms under lattice-based assumptions, and efficiently verifiable by a classical computer. The quantum sampler admits two implementations: one uses log-logarithmic-depth quantum circuits with one- and two-qubit gates, i.e., $\\mathsf{QNC}^0[\\log\\log]$ circuits, while the other uses constant-depth quantum circuits with unbounded fan-in gates, i.e., $\\mathsf{QAC}^0$ circuits. Our construction can be seen as compiling the Learning with Errors (LWE)-based single-round proof of quantumness of Arabadjieva et al. (2025) to very low depth. The price paid for this compilation is the reliance on less standard, though well-motivated, assumptions: in addition to the lattice knowledge assumption used by Arabadjieva et al. (2025), we require a strengthened variant of the adaptive-hardcore-bit property of LWE, for which we provide supporting evidence. Unlike previous low-depth proofs of quantumness, the quantum computation here requires no mid-circuit measurements or feed-forward: it consists only of running a shallow circuit and sampling from its output distribution. This shows that shallow quantum circuits have sufficient structure to solve certain classically hard tasks whose solutions can be verified efficiently.",
+ "comment": "45 pages, 1 table, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.01448",
+  "pdf": "https://arxiv.org/pdf/2609.01448",
+  "html": "https://arxiv.org/html/2609.01448"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02T11:37:45.372Z",
+  "hook": "Shallow quantum circuits can solve classically hard sampling problems efficiently and verifiably.",
+  "tldr": [
+   "We present a sampling problem solvable by shallow quantum circuits and verifiable by a classical computer.",
+   "We implement the quantum sampler using log-logarithmic-depth QNC0 circuits or constant-depth QAC0 circuits.",
+   "We rely on lattice-based assumptions and a strengthened variant of the adaptive-hardcore-bit property of LWE."
+  ],
+  "whyItMatters": "Proving quantum advantage in extremely low depth shows that powerful quantum capabilities do not always require long, complex computations.",
+  "eli5": "Imagine a giant maze that takes classical supercomputers millions of years to solve. This paper shows a tiny, shallow quantum circuit can solve a related shuffling puzzle instantly, and a simple classical computer can easily check that the answer is correct.",
+  "keyNumbers": [
+   {
+    "value": "45",
+    "label": "Pages",
+    "context": "Length of the research paper manuscript."
+   },
+   {
+    "value": "1",
+    "label": "Table",
+    "context": "Included summary table in the paper."
+   },
+   {
+    "value": "1",
+    "label": "Figure",
+    "context": "Included diagram in the paper."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum Circuit",
+    "shortDef": "A model for quantum computation where a computation is a sequence of quantum logic gates.",
+    "eli5Def": "A network of microscopic switches that guide quantum bits to perform a calculation.",
+    "wikiTitle": "Quantum circuit"
+   },
+   {
+    "term": "Learning with Errors",
+    "shortDef": "A cryptographic problem involving linear equations with added noise, believed hard for quantum computers.",
+    "eli5Def": "A mathematical puzzle made deliberately messy with random noise to keep secrets safe.",
+    "wikiTitle": "Learning with errors"
+   },
+   {
+    "term": "Fan-in",
+    "shortDef": "The number of inputs that a logic gate can accept.",
+    "eli5Def": "How many wires can plug into a single decision-making gate at the same time.",
+    "wikiTitle": "Fan-in"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

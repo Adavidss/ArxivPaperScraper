@@ -1,0 +1,72 @@
+{
+ "id": "2609.01524",
+ "version": 1,
+ "title": "Quantum Weighted Moving Average for Predicting Limit Order Book Trends",
+ "authors": [
+  {
+   "name": "Matthias Kamm"
+  },
+  {
+   "name": "Dinh-Long Vu"
+  },
+  {
+   "name": "Patrick Rebentrost"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-01T16:54:59Z",
+ "updated": "2026-09-01T16:54:59Z",
+ "abstract": "Can quantum computers be useful for forecasting multivariate financial time series? In this work, we consider the problem of predicting price trends from limit order book (LOB) data. After identifying key components of classical models, we introduce the quantum weighted moving average (QWMA) model. The two main building blocks are, first, classically preprocessing via normalization of both feature and temporal dimensions and, second, a linear combination of unitaries-based layer for unitarily-embedded classical data. The models are evaluated on the FI-2010 benchmark dataset and a second dataset of China A-share stocks. While we do not present evidence of quantum advantage, the combined classical-quantum model demonstrates performances close to the best classical models. The quantum part of the model is expressive enough to focus on the most predictive parts of the time series. Several specializations of the QWMA model are considered, in particular a variant related to the widely-used exponential moving average (EMA). We give consideration to the limitations of the methods and the datasets.",
+ "comment": "30 pages, 17 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.01524",
+  "pdf": "https://arxiv.org/pdf/2609.01524",
+  "html": "https://arxiv.org/html/2609.01524"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.01524v1/Figures/LOBSnapshot.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02T11:37:45.372Z",
+  "hook": "We introduce the quantum weighted moving average model for predicting price trends from limit order book data.",
+  "tldr": [
+   "Studied the forecasting of multivariate financial time series using a quantum model designed for limit order book data.",
+   "Combined classical data preprocessing with a linear combination of unitaries layer on unitarily-embedded classical data.",
+   "Evaluated models on the FI-2010 benchmark and China A-share stocks, showing performance close to best classical models."
+  ],
+  "whyItMatters": "Exploring whether quantum algorithms can process complex financial market data helps map out the practical boundaries of near-term quantum computing utility.",
+  "eli5": "Just like stock traders average past prices to guess where the market is going, these researchers built a quantum version of this averaging tool to see if quantum computers can handle financial predictions.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Limit order book",
+    "shortDef": "An electronic list of buy and sell orders for a specific financial security organized by price level.",
+    "eli5Def": "A public ledger showing everyone who wants to buy or sell a stock and at what price.",
+    "wikiTitle": "Limit order book"
+   },
+   {
+    "term": "Unitary",
+    "shortDef": "A linear transformation that preserves lengths and inner products, fundamental in quantum computing.",
+    "eli5Def": "A reversible quantum operation that rearranges information without destroying any of it.",
+    "wikiTitle": "Unitary operator"
+   },
+   {
+    "term": "FI-2010",
+    "shortDef": "A high-frequency benchmark dataset based on limit order books used for financial forecasting.",
+    "eli5Def": "A standard test dataset filled with stock market orders used to see how smart prediction algorithms are.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

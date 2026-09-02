@@ -1,0 +1,73 @@
+{
+ "id": "2609.01606",
+ "version": 1,
+ "title": "Observable- and state-selective prethermalization and bounds on prethermal lifetimes",
+ "authors": [
+  {
+   "name": "C. L. Sriram"
+  },
+  {
+   "name": "Soumya Kanti Pal"
+  },
+  {
+   "name": "Lea F. Santos"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-01T17:59:58Z",
+ "updated": "2026-09-01T17:59:58Z",
+ "abstract": "Prethermalization describes long-lived intermediate regimes that precede equilibrium and can dominate experimentally accessible dynamics. Here, we show that a separation of spectral energy scales, despite giving rise to a hierarchy of dynamical timescales, does not by itself guarantee the appearance of a prethermal plateau. Under the same Hamiltonian, some observables may exhibit prethermal behavior, while others relax directly toward equilibrium. We uncover the mechanism governing this selectivity, showing that the emergence of a prethermal plateau depends not only on the Hamiltonian, but also on the observable and the initial state. Our results apply broadly to systems close to a fully permutation-symmetric limit and are illustrated with a long-range interacting spin model. We further prove that the Loschmidt echo provides a lower bound on the prethermal lifetime of any bounded observable whenever the prethermal and exact dynamics are unitary.",
+ "comment": "12 pages, 4 figures; This manuscript presents the dynamical part of the work originally posted on arXiv as [arXiv.2607.15350v1], which has since been split into two papers. That arXiv manuscript now contains only the static part",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.01606",
+  "pdf": "https://arxiv.org/pdf/2609.01606",
+  "html": "https://arxiv.org/html/2609.01606"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.01606v1/FIG03_N4.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02T11:37:45.372Z",
+  "hook": "Spectral scale separation does not guarantee prethermalization; some observables relax directly while others exhibit plateaus.",
+  "tldr": [
+   "Investigated whether energy scale separation alone guarantees the emergence of long-lived prethermal regimes in quantum systems.",
+   "Analyzed a long-range interacting spin model close to a fully permutation-symmetric limit across various observables and initial states.",
+   "Found that prethermal behavior depends on the observable and initial state, and proved the Loschmidt echo bounds prethermal lifetimes."
+  ],
+  "whyItMatters": "Understanding when systems get stuck in long-lived intermediate states before reaching thermal equilibrium is crucial for controlling quantum devices and simulating complex matter.",
+  "eli5": "Imagine heating up a giant room where some objects instantly get hot while others hold onto their cold temperature for a very long time depending on how you look at them. These researchers showed that temporary stability depends just as much on what you choose to measure as it does on the system itself.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Prethermalization",
+    "shortDef": "A long-lived intermediate state of a system before it finally reaches true thermal equilibrium.",
+    "eli5Def": "A temporary pause where a system acts like it is settled down, even though it hasn't reached its final resting state yet.",
+    "wikiTitle": "Thermalization"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "The operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "The master rulebook that dictates how energy moves and changes in a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Loschmidt echo",
+    "shortDef": "A measure of the sensitivity of quantum dynamics to perturbations or time-reversal operations.",
+    "eli5Def": "A way to check how badly a quantum state gets scrambled when you try to run its history backwards.",
+    "wikiTitle": "Loschmidt echo"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

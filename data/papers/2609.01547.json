@@ -1,0 +1,75 @@
+{
+ "id": "2609.01547",
+ "version": 1,
+ "title": "Irreducibility and regularisation properties of Gaussian quantum Markov semigroups",
+ "authors": [
+  {
+   "name": "Franco Fagnola"
+  },
+  {
+   "name": "Federico Girotti"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "math.PR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-01T17:14:48Z",
+ "updated": "2026-09-01T17:14:48Z",
+ "abstract": "We study regularisation and irreducibility properties of Gaussian quantum Markov semigroups (GQMSs) acting on continuous-variable quantum systems. We first identify a natural notion of regularity for operators in this setting, which allows us to formulate and characterise the smoothing effects of GQMSs in terms of algebraic conditions involving the drift and quantum diffusion matrices. These conditions establish a connection with the controllability theory of quantum linear systems and with the structure of decoherence-free subsystems. We then characterise irreducibility through several equivalent algebraic criteria: one formulated in terms of the drift and quantum diffusion matrices, one in terms of the operators appearing in the generalised GKLS representation of the generator, and a third given by a quantum analogue of Hörmander's condition. A central and somewhat surprising consequence is that, in contrast with the classical case, irreducibility is strictly stronger than conditions ensuring regularisation. Our results provide an algebraic framework for analysing these properties and lay the groundwork for a broader study of reducible Gaussian quantum Markov semigroups and, more generally, more general relevant quantum Markov semigroups on continuous-variable systems.",
+ "comment": "32 pages, comments and remarks are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.01547",
+  "pdf": "https://arxiv.org/pdf/2609.01547",
+  "html": "https://arxiv.org/html/2609.01547"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02T11:37:45.372Z",
+  "hook": "Irreducibility is strictly stronger than conditions ensuring regularisation in Gaussian quantum Markov semigroups.",
+  "tldr": [
+   "Studied regularisation and irreducibility properties of Gaussian quantum Markov semigroups on continuous-variable systems.",
+   "Formulated algebraic conditions connecting smoothing effects to quantum linear control theory and drift matrices.",
+   "Characterized irreducibility through equivalent algebraic criteria and showed it is strictly stronger than regularisation."
+  ],
+  "whyItMatters": "This algebraic framework provides essential mathematical tools for understanding open quantum systems, decoherence, and continuous-variable quantum information.",
+  "eli5": "Think of an evolving quantum system like a spreading drop of ink in water; these mathematicians figured out the strict rules governing how smoothly the ink spreads versus whether it can eventually reach every corner.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Markov semigroup",
+    "shortDef": "A one-parameter family of maps describing the irreversible evolution of an open quantum system.",
+    "eli5Def": "A mathematical formula tracking how a quantum system loses memory and interacts with its environment over time.",
+    "wikiTitle": "Quantum Markov chain"
+   },
+   {
+    "term": "Irreducibility",
+    "shortDef": "A property ensuring a system can transition between any of its states without being trapped in subspaces.",
+    "eli5Def": "The guarantee that a system can eventually explore every possible configuration instead of getting stuck in a corner.",
+    "wikiTitle": "Irreducible component"
+   },
+   {
+    "term": "Drift matrix",
+    "shortDef": "A matrix describing the deterministic evolution component of a linear dynamical system.",
+    "eli5Def": "The steady baseline steering wheel that guides where a system tends to drift over time.",
+    "wikiTitle": "Drift rate"
+   },
+   {
+    "term": "Hörmander's condition",
+    "shortDef": "A classic bracket-generating condition ensuring hypoellipticity and smoothing properties for differential operators.",
+    "eli5Def": "A mathematical test to see if random pushes in a few directions can eventually make a system move smoothly everywhere.",
+    "wikiTitle": "Hörmander's condition"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

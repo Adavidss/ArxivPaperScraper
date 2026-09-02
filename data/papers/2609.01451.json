@@ -1,0 +1,65 @@
+{
+ "id": "2609.01451",
+ "version": 1,
+ "title": "Behavioral Memory under Symmetry in One-Way Quantum Automata",
+ "authors": [
+  {
+   "name": "Zeyu Chen"
+  }
+ ],
+ "categories": [
+  "cs.FL",
+  "quant-ph"
+ ],
+ "primaryCategory": "cs.FL",
+ "published": "2026-09-01T15:56:26Z",
+ "updated": "2026-09-01T15:56:26Z",
+ "abstract": "Under compact symmetry, observable behavior reduces to an invariant operator algebra, but its dimension is not yet classical memory: some coordinates are dynamically frozen, some invisible to threshold tests, and some already classical. We develop an operator-algebraic theory that separates these effects through three filters. For one automaton, behavior is the Hilbert--Schmidt pairing between prefix-reachable states and suffix-observable effects, whose rank equals the real Hankel rank without controllability or observability assumptions. Maximizing this invariant over a symmetry-constrained dynamical class gives a structural capacity controlled by the symmetry commutant: its center stores isotypic populations frozen by reversible dynamics, its traceless multiplicity blocks carry movable noncommutative coordinates, dissipation removes the unary spectral loss inside those blocks, and covariant mobility releases relative populations subject to component conservation. Operational realization then determines which surviving coordinates force probabilistic states. For a fixed nontrivial invariant readout, full mobility gives an exact dichotomy in worst-case state cost: a commutative invariant algebra costs exactly its dimension, whereas a noncommutative multiplicity block raises the unrestricted cost by exactly one state. Thus noncommutativity has a one-state worst-case classical price. The known four-letter quadratic-plus-one law at trivial symmetry is the fully mobile endpoint of this principle. Schur--Weyl duality further shows that different preserved symmetries on the same tensor-power Hilbert space can change the worst memory scale from polynomial to exponential, while fixed-weight modules give an exact Catalan law at half filling, with structural capacity equal to the Catalan count minus its central-sector correction.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.01451",
+  "pdf": "https://arxiv.org/pdf/2609.01451",
+  "html": "https://arxiv.org/html/2609.01451"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02T11:37:45.372Z",
+  "hook": "Noncommutativity in quantum automata exacts a one-state worst-case classical price.",
+  "tldr": [
+   "We develop an operator-algebraic theory separating memory effects in quantum automata under compact symmetry through three filters.",
+   "We use Hilbert--Schmidt pairing, symmetry commutant centers, dissipation, and Schur--Weyl duality to analyze invariant operator algebras.",
+   "We prove a one-state worst-case classical price for noncommutativity and an exact Catalan law at half filling."
+  ],
+  "whyItMatters": "Understanding how quantum symmetry limits memory helps bridge the gap between abstract quantum mechanics and concrete resource costs in computing.",
+  "eli5": "Imagine trying to store different toys in boxes with strict sharing rules. Some boxes freeze the toys so you cannot play with them, while others let you move them around, revealing that mixing things up adds a tiny, exact cost to how many boxes you need.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Automata",
+    "shortDef": "Theoretical models of quantum computing devices that process inputs sequentially.",
+    "eli5Def": "A mathematical machine that follows quantum rules to process a step-by-step sequence of inputs.",
+    "wikiTitle": "Quantum finite automaton"
+   },
+   {
+    "term": "Operator Algebra",
+    "shortDef": "A mathematical framework studying algebras of continuous linear operators on topological vector spaces.",
+    "eli5Def": "A set of mathematical rules for manipulating operations that transform quantum states.",
+    "wikiTitle": "Operator algebra"
+   },
+   {
+    "term": "Schur--Weyl Duality",
+    "shortDef": "A relationship between the representations of the general linear group and the symmetric group.",
+    "eli5Def": "A mathematical mirror that shows how two different types of symmetry are deeply connected.",
+    "wikiTitle": "Schur-Weyl duality"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

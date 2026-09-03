@@ -1,0 +1,97 @@
+{
+ "id": "2609.02841",
+ "version": 1,
+ "title": "Exponential speedup of polarization stabilization for long distance DWDM quantum networks",
+ "authors": [
+  {
+   "name": "Jinyi Du"
+  },
+  {
+   "name": "En Teng Lim"
+  },
+  {
+   "name": "Xingjian Zhang"
+  },
+  {
+   "name": "Hongwei Gao"
+  },
+  {
+   "name": "George F. R. Chen"
+  },
+  {
+   "name": "Dawn T. H. Tan"
+  },
+  {
+   "name": "Alexander Ling"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.app-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-02T17:26:55Z",
+ "updated": "2026-09-02T17:26:55Z",
+ "abstract": "Fibre-based quantum networks distributing polarization entanglement require a stable and uninterrupted transmission basis for reliable operation. Bright classical reference light enables rapid polarization feedback but can introduce noise into quantum channels. Entangled-photon-based feedback avoids this noise, but typically interrupts the target entanglement channel during calibration and becomes prohibitively slow over long distances due to the product loss of fibre links. Here, we overcome both limitations by combining wavelength-bracketed probing with switch-enabled path decomposition. Spectrally adjacent entangled-photon sidebands track the polarization response of the central distribution channel without interrupting its transmission, while optical switches and local reference fibres independently determine the signal and idler network transformations. Transferring the resulting compensation settings to the central channel eliminates calibration-induced downtime and changes the acquisition-time scaling from the product of the link losses to the sum of losses. We demonstrate the method on a 133 km fibre testbed and achieve continuous closed-loop stabilization for more than 24 hours without classical reference light. The decomposition of multi-link quantum feedback into single-link measurements provides a scalable stabilization strategy for wavelength-multiplexed quantum networks.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.02841",
+  "pdf": "https://arxiv.org/pdf/2609.02841",
+  "html": "https://arxiv.org/html/2609.02841"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.02841v1/figure1.jpg"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03T11:35:52.682Z",
+  "hook": "Achieved continuous closed-loop polarization stabilization for over 24 hours without classical reference light on a 133 km fibre testbed.",
+  "tldr": [
+   "They stabilized polarization in a long-distance DWDM quantum network.",
+   "They combined wavelength-bracketed probing with switch-enabled path decomposition.",
+   "They eliminated calibration downtime and changed acquisition-time scaling from product loss to sum of losses."
+  ],
+  "whyItMatters": "Long-distance quantum networks usually suffer from severe signal degradation and downtime during calibration. This method keeps quantum networks stable and running continuously over real-world distances.",
+  "eli5": "Sending fragile quantum data through hundreds of kilometers of glass fiber is like whispering across a windy canyon; the signal gets warped. These researchers built a clever tuning system that constantly corrects the warping without ever stopping the conversation.",
+  "keyNumbers": [
+   {
+    "value": "133 km",
+    "label": "Testbed length",
+    "context": "Demonstrated the method on a 133 km fibre testbed"
+   },
+   {
+    "value": "24 hours",
+    "label": "Stabilization duration",
+    "context": "Achieved continuous closed-loop stabilization for more than 24 hours"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "DWDM",
+    "shortDef": "Dense Wavelength Division Multiplexing, packing many optical channels into one fiber.",
+    "eli5Def": "Using different colors of light to send multiple distinct data streams through a single glass wire.",
+    "wikiTitle": "Wavelength-division multiplexing"
+   },
+   {
+    "term": "Polarization Entanglement",
+    "shortDef": "An entanglement property linked to the directional oscillation of light waves.",
+    "eli5Def": "A link between two light particles where measuring the vibration direction of one instantly determines the other.",
+    "wikiTitle": "Photon polarization"
+   },
+   {
+    "term": "Idler",
+    "shortDef": "An auxiliary photon generated alongside a signal photon in parametric processes.",
+    "eli5Def": "A companion light particle generated as a twin to the main data-carrying particle.",
+    "wikiTitle": "Spontaneous parametric down-conversion"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

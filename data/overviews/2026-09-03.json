@@ -1,0 +1,41 @@
+{
+ "date": "2026-09-03",
+ "generatedAt": "2026-09-03T11:35:52.682Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Advancing Quantum Hardware, Protocols, and Metrology",
+ "summary": "Today's collection spans a diverse range of quantum physics and information science, featuring theoretical breakthroughs in complexity theory, optimizations in quantum simulation circuits, and major experimental advances in optical networks, haloscopes, optomechanics, and spin sensors.",
+ "themes": [
+  {
+   "title": "Quantum Complexity and Simulation",
+   "body": "Theoretical and simulation advancements include resolving the separation between QMA and QMA(2) via quantum oracles, and applying sequential angle pruning to multi-angle QAOA for preparing thermofield double states in SYK models with drastic circuit depth reduction.",
+   "paperIds": [
+    "2609.02865",
+    "2609.02793"
+   ]
+  },
+  {
+   "title": "Quantum Networks and Metrology",
+   "body": "Experimental techniques are pushed forward with a continuous closed-loop polarization stabilization method for long-distance DWDM quantum networks, alongside a sub-quantum readout method that halves the noise floor in high-Q haloscopes for axion dark matter searches.",
+   "paperIds": [
+    "2609.02841",
+    "2609.02828"
+   ]
+  },
+  {
+   "title": "Optomechanical Chaos and Spin Sensors",
+   "body": "Research into complex systems explores model-level synthetic-flux control of hyperchaos in dissipative optomechanics, and a newly derived detection-limit theory for fluorescent-protein spin-qubit relaxometry highlighting phonon-limited sensitivity barriers.",
+   "paperIds": [
+    "2609.02792"
+   ]
+  }
+ ],
+ "connections": [],
+ "paperIds": [
+  "2609.02865",
+  "2609.02841",
+  "2609.02828",
+  "2609.02827",
+  "2609.02793",
+  "2609.02792"
+ ]
+}

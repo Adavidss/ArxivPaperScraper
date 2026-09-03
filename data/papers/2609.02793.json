@@ -1,0 +1,99 @@
+{
+ "id": "2609.02793",
+ "version": 1,
+ "title": "Variational preparation of thermofield double states for SYK models via multi-angle QAOA: sequential angle pruning for circuit reduction",
+ "authors": [
+  {
+   "name": "Haji Muhammad Husnain Ashfaq"
+  },
+  {
+   "name": "Moongul Byun"
+  },
+  {
+   "name": "Keun-Young Kim"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-02T16:27:50Z",
+ "updated": "2026-09-02T16:27:50Z",
+ "abstract": "Variational preparation of thermofield double (TFD) states can require deep quantum circuits, particularly for interacting many-body systems. Reducing these circuits while retaining high fidelity is therefore crucial for TFD-state preparation on noisy quantum processors. We study this problem by applying the multi-angle quantum approximate optimization algorithm (ma-QAOA) to TFD-state preparation and introducing two top-down sequential angle-pruning algorithms. Starting from the optimized initial ma-QAOA circuit, both algorithms sequentially remove Pauli-string evolutions with small optimized angles and reoptimize the remaining parameters after each removal. We apply these algorithms to Gaussian and binary Sachdev--Ye--Kitaev (SYK) models in both dense and sparse cases. We find that ma-QAOA prepares the target TFD states with high fidelity and that sequential small-angle pruning retains high fidelity while reducing the circuit depth, particularly at low temperature. Moreover, using the post-reoptimization cost in sequential small-angle pruning further improves the fidelity. For the binary sparse $N=10$ SYK model at $β=10$, $88.8\\%$--$92.1\\%$ of the nonlocal Pauli-string evolutions are removed while retaining an average fidelity of approximately $95\\%$. Finally, we propose extensions of the sequential pruning algorithms toward quantum--classical hybrid implementation.",
+ "comment": "17 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.02793",
+  "pdf": "https://arxiv.org/pdf/2609.02793",
+  "html": "https://arxiv.org/html/2609.02793"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.02793v1/figure1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03T11:35:52.682Z",
+  "hook": "Pruning 88.8% to 92.1% of circuit operations keeps 95% fidelity for quantum thermofield double states.",
+  "tldr": [
+   "Applied multi-angle QAOA and sequential angle pruning to prepare thermofield double states for SYK models.",
+   "Used a top-down approach to remove small-angle Pauli-string evolutions and reoptimized remaining parameters.",
+   "Demonstrated high fidelity state preparation and massive circuit depth reduction, especially at low temperatures."
+  ],
+  "whyItMatters": "Running complex quantum simulations requires keeping quantum circuits short to avoid noise; this method shrinks circuits by over 90% without losing accuracy.",
+  "eli5": "Imagine building a giant LEGO castle, but realizing you can throw away most of the support beams without it falling down. These researchers found a way to strip away unnecessary steps in quantum computer instructions while keeping the final result just as good.",
+  "keyNumbers": [
+   {
+    "value": "10",
+    "label": "System size (N)",
+    "context": "Binary sparse SYK model size"
+   },
+   {
+    "value": "10",
+    "label": "Inverse temperature (beta)",
+    "context": "Temperature parameter at which the simulation was tested"
+   },
+   {
+    "value": "88.8%--92.1%",
+    "label": "Pruned evolutions",
+    "context": "Percentage of nonlocal Pauli-string evolutions removed"
+   },
+   {
+    "value": "95%",
+    "label": "Average fidelity",
+    "context": "Retained state accuracy after pruning"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Thermofield double states",
+    "shortDef": "Entangled quantum states used to study black hole interiors and quantum gravity.",
+    "eli5Def": "A special pair of linked quantum systems that physicists use to study how quantum mechanics and gravity connect, kind of like quantum twins.",
+    "wikiTitle": "Thermofield double state"
+   },
+   {
+    "term": "QAOA",
+    "shortDef": "Quantum Approximate Optimization Algorithm, used to find good solutions to complex problems.",
+    "eli5Def": "A set of instructions for quantum computers to test millions of possible answers and quickly pick the best one.",
+    "wikiTitle": "Quantum optimization algorithm"
+   },
+   {
+    "term": "SYK model",
+    "shortDef": "Sachdev-Ye-Kitaev model, a solvable model of many-body quantum chaos.",
+    "eli5Def": "A theoretical physics playground model that helps scientists understand messy, strongly interacting quantum particles.",
+    "wikiTitle": "Sachdev–Ye–Kitaev model"
+   },
+   {
+    "term": "Fidelity",
+    "shortDef": "A measure of how closely a prepared quantum state matches the target state.",
+    "eli5Def": "A scorecard showing how accurately the quantum computer built what it was supposed to build.",
+    "wikiTitle": "Fidelity (quantum information)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

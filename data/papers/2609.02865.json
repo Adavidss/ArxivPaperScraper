@@ -1,0 +1,82 @@
+{
+ "id": "2609.02865",
+ "version": 1,
+ "title": "A quantum oracle separation between QMA(2) and QMA",
+ "authors": [
+  {
+   "name": "John Bostanci"
+  },
+  {
+   "name": "Sabee Grewal"
+  },
+  {
+   "name": "Jonas Haferkamp"
+  },
+  {
+   "name": "Andrew Huang"
+  },
+  {
+   "name": "Yeongwoo Hwang"
+  },
+  {
+   "name": "Anand Natarajan"
+  },
+  {
+   "name": "Chinmay Nirkhe"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-02T17:50:05Z",
+ "updated": "2026-09-02T17:50:05Z",
+ "abstract": "We find a quantum oracle relative to which $\\mathsf{QMA} \\neq \\mathsf{QMA}(2)$. As a consequence, we resolve the no-disentanglers conjecture of Watrous: for every $ε+δ<1$, any $(ε,δ)$-disentangler requires input size exponential in the number of output qubits. Our proof combines the unitarily invariant polynomial method of She and Yuen (ITCS '23) with a new construction based on the symmetric and antisymmetric subspace projectors, reducing the $\\mathsf{QMA}$ lower bound to the approximate degree of $\\mathrm{OR}$.",
+ "comment": "25 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.02865",
+  "pdf": "https://arxiv.org/pdf/2609.02865",
+  "html": "https://arxiv.org/html/2609.02865"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03T11:35:52.682Z",
+  "hook": "We prove that QMA and QMA(2) are unequal by finding a quantum oracle separation.",
+  "tldr": [
+   "They found a quantum oracle where QMA is not equal to QMA(2).",
+   "They combined the unitarily invariant polynomial method with symmetric and antisymmetric subspace projectors.",
+   "They resolved the no-disentanglers conjecture of Watrous, showing that disentanglers require exponential input size."
+  ],
+  "whyItMatters": "This resolves a major open question in quantum complexity theory regarding whether two proof systems are stronger than one.",
+  "eli5": "Imagine trying to check a puzzle with two helpers instead of one. For a long time, scientists weren't sure if two helpers could always solve tougher puzzles than a single helper. This research proves that yes, two helpers can actually do things one helper cannot.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Oracle",
+    "shortDef": "A black-box quantum operation used to study computational complexity.",
+    "eli5Def": "A mysterious quantum black box that answers specific hidden questions for algorithms.",
+    "wikiTitle": "Oracle machine"
+   },
+   {
+    "term": "QMA",
+    "shortDef": "Quantum Merlin-Arthur, the quantum analogue of the complexity class NP.",
+    "eli5Def": "A class of problems where a powerful wizard gives you a quantum clue, and a computer quickly checks if it is correct.",
+    "wikiTitle": "QMA"
+   },
+   {
+    "term": "Disentangler",
+    "shortDef": "An operation designed to remove entanglement between quantum states.",
+    "eli5Def": "A tool that untangles deeply linked quantum particles back to independent states.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

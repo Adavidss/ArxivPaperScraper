@@ -1,0 +1,79 @@
+{
+ "id": "2609.02828",
+ "version": 1,
+ "title": "Effective Sub-Quantum Readout for Non-Monochromatic Axion Signals in High-$Q$ Haloscopes",
+ "authors": [
+  {
+   "name": "Junu Jeong"
+  },
+  {
+   "name": "Max Silva-Feaver"
+  }
+ ],
+ "categories": [
+  "hep-ex",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-ex",
+ "published": "2026-09-02T17:13:44Z",
+ "updated": "2026-09-02T17:13:44Z",
+ "abstract": "The search for wave-like dark matter using microwave cavity haloscopes is constrained by the Standard Quantum Limit, which dictates that phase-preserving linear amplification results in a minimum of one quantum of total system noise for a narrow-band signal. We demonstrate that this limit is effectively halved for a non-monochromatic axion signal coupled to a high-$Q$ cavity. By operating a Josephson Parametric Amplifier such that the cavity resonance is centered exactly at the half-pump frequency, the axion signal symmetrically populates both the signal and idler bands. Through quadrature analysis of the homodyne readout, we show that the incoherent sum of these mirrored spectral components doubles the measured signal power while the vacuum noise remains constant. This operation yields an effective noise limit of 0.5 quanta per frequency bin, translating to an overall effective limit of $1/\\sqrt{2}$ quanta after optimal matched filtering.",
+ "comment": "4 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.02828",
+  "pdf": "https://arxiv.org/pdf/2609.02828",
+  "html": "https://arxiv.org/html/2609.02828"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03T11:35:52.682Z",
+  "hook": "Halved the Standard Quantum Limit noise floor down to 0.5 quanta per frequency bin for axion dark matter searches.",
+  "tldr": [
+   "They demonstrated an effective sub-quantum readout for non-monochromatic axion signals in high-Q haloscopes.",
+   "They operated a Josephson Parametric Amplifier with the cavity resonance centered at the half-pump frequency.",
+   "They doubled the measured signal power while keeping vacuum noise constant via homodyne quadrature analysis."
+  ],
+  "whyItMatters": "Detecting dark matter axions is severely bottlenecked by quantum noise. Bypassing standard noise limits dramatically accelerates our ability to search for elusive dark matter particles.",
+  "eli5": "Normally, trying to listen for a faint whisper in a room introduces a mandatory amount of static fuzz from the microphone itself. These scientists found a clever trick to fold the static onto itself, effectively cutting the microphone fuzz in half and making the faint whisper much easier to hear.",
+  "keyNumbers": [
+   {
+    "value": "0.5",
+    "label": "Effective noise limit",
+    "context": "Yields an effective noise limit of 0.5 quanta per frequency bin"
+   },
+   {
+    "value": "1/√2",
+    "label": "Overall effective limit",
+    "context": "Translating to an overall effective limit of 1/√2 quanta after optimal matched filtering"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Haloscope",
+    "shortDef": "A resonant cavity detector designed to convert dark matter axions into detectable microwave photons.",
+    "eli5Def": "A specialized radio receiver built to catch invisible dark matter particles turning into faint radio waves.",
+    "wikiTitle": "Axion haloscope"
+   },
+   {
+    "term": "Standard Quantum Limit",
+    "shortDef": "The fundamental measurement noise threshold imposed by quantum mechanics for linear amplifiers.",
+    "eli5Def": "The absolute minimum amount of fuzz that quantum physics says your measuring equipment must have.",
+    "wikiTitle": "Standard quantum limit"
+   },
+   {
+    "term": "Homodyne Readout",
+    "shortDef": "A measurement technique mixing a signal with a local oscillator of the exact same frequency.",
+    "eli5Def": "A way of reading a wave signal by comparing it against a steady local reference wave of the same speed.",
+    "wikiTitle": "Homodyne detection"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

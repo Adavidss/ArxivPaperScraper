@@ -1,0 +1,106 @@
+{
+ "id": "2609.02792",
+ "version": 1,
+ "title": "Phonon-limited detection thresholds for genetically encoded fluorescent-protein spin-qubit relaxometry of neural radicals",
+ "authors": [
+  {
+   "name": "Parul Raghuvanshi"
+  },
+  {
+   "name": "Sagnik Ganguly"
+  },
+  {
+   "name": "Sharika E"
+  },
+  {
+   "name": "Mohana Priya T."
+  },
+  {
+   "name": "Vishvendra S. Poonia"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-02T16:25:19Z",
+ "updated": "2026-09-02T16:25:19Z",
+ "abstract": "The demonstration that enhanced yellow fluorescent protein hosts an optically addressable spin-1 qubit in its metastable triplet state raises the prospect of genetically encoded quantum sensing at molecular length scales. We develop a detection-limit theory for using this fluorescent-protein spin qubit (FPSQ) to sense paramagnetic neural signaling radicals by spin relaxometry. We derive the transition-resolved Redfield relaxation matrix of the zero-field-split triplet coupled to a diffusing radical bath, establish the regime in which it collapses to a single exponential, and validate it against Lindblad simulations and nitrogen-vacancy benchmarks. Propagating the effects of photon shot noise, photobleaching-grounded photon budget, and finite measurement bandwidth, we find that the native room-temperature sensor falls short of physiological sensitivity by six to eight orders of magnitude with the bottleneck being the phonon-limited intrinsic $\\Tone$. Analyzing the underlying direct and two-phonon Raman processes, we show that room-temperature relaxation is Raman-dominated by $\\sim\\!720\\!:\\!1$ and that, because the Raman coefficient scales as $v^{-10}$ with sound velocity, a $\\sim\\!2\\times$ stiffening of the chromophore environment recovers $\\Tone\\sim\\SI{100}{\\micro\\second}$, sufficient for micromolar sensing. Nanomolar sensing is obstructed by a direct-process ceiling of \\SI{79}{\\micro\\second} that vibronic decoupling alone cannot breach. We obtain quantitative design rules, identify photon yield as a co-equal bottleneck, and propose a frequency-resolved protocol for chemical specificity.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.02792",
+  "pdf": "https://arxiv.org/pdf/2609.02792",
+  "html": "https://arxiv.org/html/2609.02792"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.02792v1/Fig5.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03T11:35:52.682Z",
+  "hook": "Native room-temperature fluorescent protein sensors fall short of physiological sensitivity by six to eight orders of magnitude.",
+  "tldr": [
+   "Developed a detection-limit theory for fluorescent-protein spin qubits sensing neural radicals via spin relaxometry.",
+   "Derived the Redfield relaxation matrix and evaluated noise, photobleaching, and phonon bottlenecks.",
+   "Found that phonon-limited intrinsic T1 relaxation restricts current room-temperature sensitivity, but environmental stiffening helps."
+  ],
+  "whyItMatters": "Genetically encoded quantum sensors could revolutionize neuroscience by letting us watch molecular signaling in living brains, but current biological prototypes face severe physical limits.",
+  "eli5": "Think of trying to listen to a whisper next to a jet engine. Biological sensors want to detect tiny chemical whispers in the brain, but background atomic vibrations create too much noise, making the sensor billions of times too weak right now.",
+  "keyNumbers": [
+   {
+    "value": "720:1",
+    "label": "Relaxation dominance",
+    "context": "Ratio of Raman-dominated room-temperature relaxation"
+   },
+   {
+    "value": "100 microsecond",
+    "label": "Target T1 relaxation",
+    "context": "Relaxation time achieved by a 2x stiffening of the environment"
+   },
+   {
+    "value": "79 microsecond",
+    "label": "Direct-process ceiling",
+    "context": "Physical limit obstructing nanomolar sensing"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Spin qubit",
+    "shortDef": "A quantum bit based on the intrinsic angular momentum of an electron or nucleus.",
+    "eli5Def": "A tiny quantum compass needle inside a molecule that can point up, down, or both at once to sense its environment.",
+    "wikiTitle": "Spin qubit"
+   },
+   {
+    "term": "Relaxometry",
+    "shortDef": "Measuring magnetic relaxation rates to probe local environmental properties.",
+    "eli5Def": "Using magnetic timing tricks to figure out what chemicals are floating around nearby.",
+    "wikiTitle": "Relaxometry"
+   },
+   {
+    "term": "Phonon",
+    "shortDef": "A quantized collective excitation of atomic vibrations in a crystal lattice.",
+    "eli5Def": "A packet of sound or atomic vibrations rippling through a material.",
+    "wikiTitle": "Phonon"
+   },
+   {
+    "term": "Redfield relaxation matrix",
+    "shortDef": "A mathematical framework describing how quantum systems lose coherence due to an environment.",
+    "eli5Def": "An equation that predicts how quickly a quantum system gets disrupted by background thermal shaking.",
+    "wikiTitle": "Redfield theory"
+   },
+   {
+    "term": "Photobleaching",
+    "shortDef": "The photochemical destruction of a fluorophore's ability to fluoresce.",
+    "eli5Def": "When a glowing molecule burns out and goes dark permanently because it absorbed too much light.",
+    "wikiTitle": "Photobleaching"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

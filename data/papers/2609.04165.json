@@ -1,0 +1,72 @@
+{
+ "id": "2609.04165",
+ "version": 1,
+ "title": "Parameterised graph theory for tensor networks: entanglement rerouting, structural simplification, and agnostic tomography",
+ "authors": [
+  {
+   "name": "Matthias C. Caro"
+  },
+  {
+   "name": "Natalie McHugh"
+  },
+  {
+   "name": "Sergii Strelchuk"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.DS",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-03T17:50:38Z",
+ "updated": "2026-09-03T17:50:38Z",
+ "abstract": "Parameterised graph theory studies how the complexity of graph-theoretic problems depends on structural parameters of the input graph. This perspective has proved useful in analysing tensor-network simulation (Markov and Shi, 2008). Its implications for tensor-network representations and tomography are less well understood. In particular, which graph parameters determine whether a tensor-network state (TNS) admits a tractable matrix product state (MPS) or tree tensor network (TTN) representation, and which control the complexity of learning the state? We address these questions using parameterised graph theory. First, we show that cutwidth and tree-cutwidth bound the bond dimension overhead required to represent a TNS as an MPS or TTN. In the TTN case, tree-cutwidth also bounds the local dimension of the grouped subsystems. The proofs are based on entanglement rerouting, a tensor-network analogue of rerouting information in a classical network. Second, we derive graph-dependent upper bounds on the sample and computational complexity of realisable TNS tomography, with exponents that depend on cutwidth, tree-cutwidth, and a new graph parameter, learning complexity, which we bound in terms of degree and treewidth. We obtain these results by extending the disentangling MPS learner of (Cramer et al., 2010), as analysed further in (Bakshi et al., 2025; Lin et al., 2025), to TTNs and to tensor networks on arbitrary known graphs. Finally, we extend the framework beyond the realisable setting. For an arbitrary input state, our agnostic learner outputs a pure state whose fidelity is within additive error $ε$ of the optimum over tensor-network states on the given graph with a given bond dimension, with explicit graph-dependent bounds on sample and computational complexity.",
+ "comment": "74 + 12 pages; 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.04165",
+  "pdf": "https://arxiv.org/pdf/2609.04165",
+  "html": "https://arxiv.org/html/2609.04165"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-09-04T11:37:48.275Z",
+  "hook": "New graph-theory bounds reveal exactly how complex it is to learn and represent quantum tensor networks.",
+  "tldr": [
+   "The team applied parameterized graph theory to analyze the complexity of tensor-network states.",
+   "They proved that graph parameters like cutwidth and tree-cutwidth limit the resources needed to represent these states.",
+   "They developed an algorithm that learns tensor networks with guaranteed fidelity, even for unknown input states."
+  ],
+  "whyItMatters": "As quantum computers grow, we need efficient ways to verify their output; this research provides the 'math manual' for how hard that verification will be based on the network's structure.",
+  "eli5": "If a quantum computer is a giant web of connected parts, this paper explains how to calculate the 'difficulty score' of the web. It helps scientists know if they can simplify the web or if it's too complex to map out accurately.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Tensor network",
+    "shortDef": "A way to represent complex quantum states as a graph of smaller, connected tensors.",
+    "eli5Def": "A giant puzzle where each piece is a smaller calculation, and the way they connect tells you the whole state.",
+    "wikiTitle": "Tensor network"
+   },
+   {
+    "term": "Tomography",
+    "shortDef": "The process of reconstructing a quantum state from measurement data.",
+    "eli5Def": "Taking many X-ray photos of a quantum system to figure out what it actually looks like.",
+    "wikiTitle": "Quantum tomography"
+   },
+   {
+    "term": "Cutwidth",
+    "shortDef": "A graph parameter measuring the maximum number of edges crossing a cut.",
+    "eli5Def": "A measure of how many 'cables' you have to cut to split a network into two pieces.",
+    "wikiTitle": "Cutwidth"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 90
+ }
+}

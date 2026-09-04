@@ -1,0 +1,113 @@
+{
+ "id": "2609.04171",
+ "version": 1,
+ "title": "Twin-photon generation in a silicon nitride microresonator",
+ "authors": [
+  {
+   "name": "Franz Pacher"
+  },
+  {
+   "name": "Haochen Yan"
+  },
+  {
+   "name": "Alekhya Ghosh"
+  },
+  {
+   "name": "Arghadeep Pal"
+  },
+  {
+   "name": "Toby Bi"
+  },
+  {
+   "name": "Hao Zhang"
+  },
+  {
+   "name": "Lixing You"
+  },
+  {
+   "name": "Hao Li"
+  },
+  {
+   "name": "Daniela Salvoni"
+  },
+  {
+   "name": "Shuangyou Zhang"
+  },
+  {
+   "name": "Pascal Del'Haye"
+  }
+ ],
+ "categories": [
+  "physics.optics",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.optics",
+ "published": "2026-09-03T17:54:38Z",
+ "updated": "2026-09-03T17:54:38Z",
+ "abstract": "Photonic chips with silicon nitride ($\\mathrm{Si_3N_4}$) microring resonators are well established as heralded single-photon sources, but their operation as frequency-degenerate twin-photon sources has not previously been demonstrated. Here, we realise a twin-photon source at telecommunication wavelengths in a $\\mathrm{Si_3N_4}$ ring microresonator via an inverse four-wave mixing (FWM) process, in which two photons from spectrally distinct pumps are converted into a pair of identical twin photons. The measurements show a maximum coincidence-to-accidental ratio (CAR) of $5.4\\pm0.6$. In addition, the microresonator functions as a heralded single-photon source through pump-degenerate spontaneous four-wave mixing (SFWM), exhibiting a spectral purity of $P=0.67\\pm0.05$ and a heralded anti-bunching of $g^{(2)}_h(0)=0.0042\\pm0.0015$. Together, these results demonstrate both photon-generation schemes on a single integrated $\\mathrm{Si_3N_4}$ platform, highlighting its potential for scalable, tailored quantum light generation.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.04171",
+  "pdf": "https://arxiv.org/pdf/2609.04171",
+  "html": "https://arxiv.org/html/2609.04171"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.04171v1/figure1_highres4.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-09-04T11:37:48.275Z",
+  "hook": "A new silicon nitride chip generates twin photons at telecommunication wavelengths for scalable quantum tech.",
+  "tldr": [
+   "Researchers built a silicon nitride microresonator to create twin photons via inverse four-wave mixing.",
+   "They used a single integrated platform to demonstrate both twin-photon generation and heralded single-photon sources.",
+   "The device achieved a coincidence-to-accidental ratio of 5.4 and high spectral purity for single-photon emission."
+  ],
+  "whyItMatters": "Silicon nitride chips are compatible with existing fiber-optic networks, making this a major step toward building practical, scalable quantum internet hardware.",
+  "eli5": "Imagine a tiny, specialized factory on a chip that can spit out pairs of identical light particles on command. This is a big deal because it uses the same materials as our current internet cables, meaning we could eventually build quantum computers that talk to each other over long distances.",
+  "keyNumbers": [
+   {
+    "value": "5.4",
+    "label": "CAR",
+    "context": "Maximum coincidence-to-accidental ratio achieved."
+   },
+   {
+    "value": "0.67",
+    "label": "Spectral purity",
+    "context": "Purity of the heralded single-photon source."
+   },
+   {
+    "value": "0.0042",
+    "label": "Anti-bunching",
+    "context": "Measured g(2) value for the single-photon source."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Microresonator",
+    "shortDef": "A tiny structure that traps light and forces it to circulate.",
+    "eli5Def": "A miniature racetrack for light that makes it loop around until it interacts with itself.",
+    "wikiTitle": "Optical microresonator"
+   },
+   {
+    "term": "Four-wave mixing",
+    "shortDef": "A nonlinear optical process where light waves interact to create new frequencies.",
+    "eli5Def": "Mixing two colors of light to create new, different colors through a special material.",
+    "wikiTitle": "Four-wave mixing"
+   },
+   {
+    "term": "Heralded",
+    "shortDef": "A process where the detection of one photon signals the presence of another.",
+    "eli5Def": "A doorbell that rings to tell you a package (a photon) has arrived.",
+    "wikiTitle": "Heralded photon source"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

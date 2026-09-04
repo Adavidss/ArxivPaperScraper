@@ -1,0 +1,64 @@
+{
+ "id": "2609.04178",
+ "version": 1,
+ "title": "Measurements on the separated subsystems of an entangled state",
+ "authors": [
+  {
+   "name": "Gregory D. Scholes"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-03T17:56:28Z",
+ "updated": "2026-09-03T17:56:28Z",
+ "abstract": "The entangled states of composite quantum systems are well studied. The particle-like nature of these systems also means that, while entangled, they can be physically separated and measurements performed on the separated subsystems. Measurements on the separated subsystems A and B should pertain to vectors in the local Hilbert space of each subsystem, but to date it has not been clear how to elucidate the relevant states of the separated subsystems because it is not obvious how to resolve them from states given in the tensor product basis, except for the separable states. Here it is shown that the projections of any general entangled state that are detected by measurements on the separated subsystems can be obtained considering the corresponding (cosets of) states in the free vector space from which the tensor product space is defined. The result eliminates the need to invoke random collapse, and from this perspective nonlocality arises because of the way measurements on each separated subsystem projects possible measurement outcomes.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.04178",
+  "pdf": "https://arxiv.org/pdf/2609.04178",
+  "html": "https://arxiv.org/html/2609.04178"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-09-04T11:37:48.275Z",
+  "hook": "A new framework explains quantum nonlocality without needing to invoke random wave-function collapse.",
+  "tldr": [
+   "The author analyzed how measurements on separated parts of an entangled state relate to local Hilbert spaces.",
+   "They used projections of states from a free vector space to resolve the states of separated subsystems.",
+   "The result shows that nonlocality emerges naturally from how measurements project possible outcomes, removing the need for random collapse."
+  ],
+  "whyItMatters": "This provides a cleaner, more intuitive way to understand why entangled particles seem to influence each other instantly, potentially simplifying how we teach and model quantum mechanics.",
+  "eli5": "Think of two magic dice that always land on the same number. Instead of saying the dice 'randomly collapse' into a state when you look at them, this paper suggests the dice were always linked by the way we measure them, making the 'spooky' connection feel more logical.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Entangled state",
+    "shortDef": "A quantum state where particles share a single existence regardless of distance.",
+    "eli5Def": "Two particles that are so connected that changing one instantly affects the other.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "Hilbert space",
+    "shortDef": "A mathematical space used to describe the states of quantum systems.",
+    "eli5Def": "A giant map where every point represents a possible state of a quantum particle.",
+    "wikiTitle": "Hilbert space"
+   },
+   {
+    "term": "Tensor product",
+    "shortDef": "A way to combine separate quantum systems into a single larger system.",
+    "eli5Def": "Multiplying two separate lists of possibilities to create one master list of all combinations.",
+    "wikiTitle": "Tensor product"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "2609.04182",
+ "version": 1,
+ "title": "Quantum communication and Bell nonlocality require infinite classical communication to simulate",
+ "authors": [
+  {
+   "name": "Carlos de Gois"
+  },
+  {
+   "name": "Thyago S. R. Santos"
+  },
+  {
+   "name": "Carlos Vieira"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-03T17:57:48Z",
+ "updated": "2026-09-03T17:57:48Z",
+ "abstract": "A quantum system of any fixed dimension can be prepared in a continuum of states, yet it cannot be used to transmit an unlimited amount of classical information. Similarly, the correlations observed between measurement outcomes on separate parts of a shared quantum system can be stronger than classical correlations, but they cannot transmit information. These fundamental limitations suggest that the statistics observed from quantum communication and quantum correlations may admit a simulation using a finite amount of classical communication. This expectation is confirmed in the smallest nontrivial quantum dimension, with two classical bits being necessary and sufficient to exactly simulate qubit communication and all correlations between qubits. Despite significant efforts during the previous decades, this remained the only solved case. Here we resolve both problems for every quantum dimension. The solution reveals an unexpected qualitative transition starting at dimension four: no finite amount of classical communication can exactly simulate ququart communication nor all quantum correlations of two entangled ququarts, even with unlimited shared randomness. One might have expected this transition, if it existed, to appear already for qutrits. Instead, we construct an explicit protocol that exactly simulates qutrit communication using $357$ classical bits, and consequently, all correlations of two entangled qutrits.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.04182",
+  "pdf": "https://arxiv.org/pdf/2609.04182",
+  "html": "https://arxiv.org/html/2609.04182"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.04182v1/d3_worst_case_binary.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-09-04T11:37:48.275Z",
+  "hook": "Simulating quantum correlations for systems of dimension 4 or higher requires infinite classical communication.",
+  "tldr": [
+   "Researchers investigated if quantum communication can be perfectly simulated using finite classical bits.",
+   "They analyzed quantum systems of varying dimensions, testing the limits of classical information exchange.",
+   "While qutrits (dimension 3) need 357 bits, systems of dimension 4 and above cannot be simulated with any finite amount of data."
+  ],
+  "whyItMatters": "This finding marks a fundamental boundary between quantum and classical worlds, proving that some quantum behaviors are essentially impossible to replicate with classical computers, no matter how much data you send.",
+  "eli5": "Imagine trying to describe a complex 3D object to a friend using only text messages. For simple objects, you can eventually send enough messages to perfectly recreate it. But for objects with four or more dimensions, no matter how many millions of messages you send, you will never be able to perfectly describe them.",
+  "keyNumbers": [
+   {
+    "value": "357",
+    "label": "Classical bits",
+    "context": "Required to exactly simulate qutrit communication."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Qubit",
+    "shortDef": "The basic unit of quantum information.",
+    "eli5Def": "Like a normal computer bit that can be 0 or 1, but it can also be both at the same time.",
+    "wikiTitle": "Qubit"
+   },
+   {
+    "term": "Ququart",
+    "shortDef": "A quantum system with four possible states.",
+    "eli5Def": "A quantum version of a four-sided die.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Bell nonlocality",
+    "shortDef": "Correlations between quantum particles that cannot be explained by local hidden variables.",
+    "eli5Def": "When two particles act like they are 'talking' to each other instantly, even when far apart.",
+    "wikiTitle": "Quantum nonlocality"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

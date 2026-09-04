@@ -1,0 +1,74 @@
+{
+ "id": "2609.04160",
+ "version": 1,
+ "title": "Vanilla Exact Synthesis of CNOT Circuits is NP-hard",
+ "authors": [
+  {
+   "name": "Chenjian Li"
+  },
+  {
+   "name": "Ji Guan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-03T17:49:16Z",
+ "updated": "2026-09-03T17:49:16Z",
+ "abstract": "Exact CNOT synthesis asks for a minimum-size CNOT circuit implementing an invertible linear transformation. Although several related synthesis models have been shown to be computationally hard, their hardness proofs rely on additional structure such as restricted qubit connectivity, encoded inputs, or unrestricted intermediate variables. The complexity of the most basic setting---identity input, a fixed number of labelled qubits, no ancillas, and all-to-all CNOT connectivity---had remained unresolved. In this work, we prove that the decision version of this vanilla exact CNOT synthesis problem is NP-complete, and consequently that its optimization version is NP-hard. Our proof gives a polynomial-time reduction from the Hamiltonian-path problem on grid graphs in two steps. First, we isometrically embed the grid graph into a hypercube via a unary encoding map. We then encode this hypercube Hamiltonian path problem into vanilla exact CNOT synthesis. The main challenge is that CNOT synthesis specifies only the final parity matrix and cannot directly enforce the intermediate vertex visits required by a Hamiltonian path. To overcome this difficulty, we introduce extra recorder qubits that encode the required intermediate vertex visits into the final transformation, forcing any CNOT circuit implementation to realize the intended path structure. Beyond CNOT synthesis, our result directly implies hardness for several related problems, including the shortest word problem over $\\mathrm{GL}(n,2)$, distance computation on Cayley graphs over $\\mathrm{GL}(n,2)$, minimization of sequential XOR programs, and exact synthesis of phase polynomial circuits.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.04160",
+  "pdf": "https://arxiv.org/pdf/2609.04160",
+  "html": "https://arxiv.org/html/2609.04160"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-09-04T11:37:48.275Z",
+  "hook": "Finding the smallest circuit of CNOT gates to perform a specific task is officially NP-hard.",
+  "tldr": [
+   "Researchers analyzed the complexity of 'vanilla' exact CNOT synthesis, the most basic version of quantum circuit optimization.",
+   "They used a polynomial-time reduction from the Hamiltonian-path problem on grid graphs to prove the problem's complexity.",
+   "They demonstrated that finding the minimum-size CNOT circuit is NP-hard, even without ancilla qubits or restricted connectivity."
+  ],
+  "whyItMatters": "This result sets a fundamental limit on how efficiently we can compile quantum programs, proving that finding the optimal layout for quantum logic is computationally intractable.",
+  "eli5": "Imagine you have a complex puzzle where you need to connect dots using the fewest number of lines possible. This paper proves that as the puzzle gets bigger, finding the absolute shortest solution becomes so difficult that even the world's fastest supercomputers would likely take forever to solve it.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "CNOT circuit",
+    "shortDef": "A quantum circuit built using Controlled-NOT gates, which are fundamental for quantum logic.",
+    "eli5Def": "A sequence of operations that flips the state of one quantum bit based on the state of another.",
+    "wikiTitle": "Controlled NOT gate"
+   },
+   {
+    "term": "NP-hard",
+    "shortDef": "A class of problems that are at least as hard as the hardest problems in NP.",
+    "eli5Def": "A type of problem where we don't know a fast way to find the answer, and it's likely that no such way exists.",
+    "wikiTitle": "NP-hardness"
+   },
+   {
+    "term": "Hamiltonian-path",
+    "shortDef": "A path in a graph that visits every vertex exactly once.",
+    "eli5Def": "A route through a map that hits every city exactly once without ever doubling back.",
+    "wikiTitle": "Hamiltonian path problem"
+   },
+   {
+    "term": "Ancilla qubits",
+    "shortDef": "Extra quantum bits used as workspace during a computation.",
+    "eli5Def": "Extra scratchpad bits used to help perform a calculation that are discarded at the end.",
+    "wikiTitle": "Ancilla bit"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

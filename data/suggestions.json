@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T11:35:52.682Z",
+ "generatedAt": "2026-09-04T11:37:48.275Z",
  "suggestions": [
   {
    "name": "Martin B. Plenio",
@@ -44,6 +44,27 @@
     "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
    ],
    "paperCount": 2
+  },
+  {
+   "name": "Hao Zhang",
+   "slug": "hao-zhang",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "physics.optics",
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.04171",
+    "2608.27387",
+    "2607.15121"
+   ],
+   "recentTitles": [
+    "Twin-photon generation in a silicon nitride microresonator",
+    "Stochastic transport of a Goldstone mode in a self-organized atomic crystal"
+   ],
+   "paperCount": 3
   },
   {
    "name": "Sthitadhi Roy",
@@ -169,26 +190,6 @@
   {
    "name": "Qian Lou",
    "slug": "qian-lou",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2607.19318",
-    "2607.18196",
-    "2607.18126"
-   ],
-   "recentTitles": [
-    "SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming",
-    "Hardware Robustness of Sample-Based Quantum Diagonalization"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Mengxin Zheng",
-   "slug": "mengxin-zheng",
    "score": 3,
    "coAuthoredWith": [],
    "viaKeywords": [],

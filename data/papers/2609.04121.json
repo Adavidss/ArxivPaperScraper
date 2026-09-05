@@ -1,0 +1,78 @@
+{
+ "id": "2609.04121",
+ "version": 1,
+ "title": "Quantum thermalization achieves optimal approximate quantum error correction",
+ "authors": [
+  {
+   "name": "Aditi Venkatesh"
+  },
+  {
+   "name": "Richard R. Allen"
+  },
+  {
+   "name": "Saúl Pilatowsky-Cameo"
+  },
+  {
+   "name": "Bingtian Ye"
+  },
+  {
+   "name": "Soonwon Choi"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-03T17:23:17Z",
+ "updated": "2026-09-03T17:23:17Z",
+ "abstract": "Quantum thermalization explains how an isolated many-body system naturally evolves towards a thermal state, rendering information about the initial conditions inaccessible to local measurements. This is precisely the mechanism utilized in quantum error correction, where information is protected by design through a nonlocal encoding. In this work, we leverage this connection to port the rigorous framework of (approximate) quantum error correction to the study of quantum thermalization. Treating typical late-time states as codewords, we characterize the error-correcting properties of generic thermalizing dynamics. We numerically uncover a universal relationship between the encoding rate, distance, and thermal entropy density of the emergent code. At infinite temperature, this universal curve saturates the quantum Singleton bound, achieving the same optimal limit as Haar-random codes. At finite temperature, we introduce a code family based on the Scrooge ensemble, the natural thermal analogue of the Haar ensemble, and prove it saturates the entropic quantum Singleton bound, establishing this family as optimal within entropic constraints. Our extracted universal curve independently saturates this same bound, revealing that finite-temperature thermalization is itself optimal. Finally, we show how conserved quantities limit the error-correcting behavior of thermalization: codewords with differing energies, or other conserved charges, leak only classical information, and correctability persists until the difference reaches the scale of thermal fluctuations. Our results reveal a universal optimal coding structure in thermalizing dynamics, while introducing new optimal codes that achieve fundamental limits of approximate quantum error correction.",
+ "comment": "8 + 32 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.04121",
+  "pdf": "https://arxiv.org/pdf/2609.04121",
+  "html": "https://arxiv.org/html/2609.04121"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05T10:51:50.877Z",
+  "hook": "Universal relationship found showing finite-temperature thermalization saturates the quantum Singleton bound.",
+  "tldr": [
+   "Explored the connection between quantum thermalization and approximate quantum error correction.",
+   "Analyzed typical late-time thermal states as codewords using numerical simulations and the Scrooge ensemble.",
+   "Revealed that finite-temperature thermalization is optimal and achieves fundamental error-correction limits."
+  ],
+  "whyItMatters": "It proves that nature's way of spreading heat and scrambling information naturally builds the most efficient error-protecting codes possible.",
+  "eli5": "Just like dropping a drop of food coloring in water naturally spreads it out evenly, quantum systems scramble information. It turns out this scrambling process is mathematically designed like the ultimate error-proof puzzle code.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum thermalization",
+    "shortDef": "The process by which an isolated quantum many-body system reaches thermal equilibrium through its own internal dynamics.",
+    "eli5Def": "How a quantum system naturally mixes itself up until it feels uniformly warm and forgets its starting state.",
+    "wikiTitle": "Thermalization"
+   },
+   {
+    "term": "Singleton bound",
+    "shortDef": "A fundamental mathematical limit on the efficiency and error-correcting capability of a code.",
+    "eli5Def": "An absolute speed limit or capacity ceiling for how much data you can safely protect from errors.",
+    "wikiTitle": "Singleton bound"
+   },
+   {
+    "term": "Scrooge ensemble",
+    "shortDef": "A natural thermal analogue of the Haar random ensemble used to study quantum states.",
+    "eli5Def": "A special mathematical toolkit used by physicists to model warm, interacting quantum systems.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

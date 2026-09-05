@@ -1,0 +1,70 @@
+{
+ "id": "2609.04119",
+ "version": 1,
+ "title": "Non-local Magic: closed-form solution and equivalence with magic of purification",
+ "authors": [
+  {
+   "name": "Michele Viscardi"
+  },
+  {
+   "name": "Lorenzo Leone"
+  },
+  {
+   "name": "Alioscia Hamma"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-03T17:21:11Z",
+ "updated": "2026-09-03T17:21:11Z",
+ "abstract": "Non-local magic quantifies the non-stabilizerness of a bipartite quantum state that cannot be removed by local unitary transformations. Despite its natural definition, its evaluation generally requires a difficult optimization over local unitaries. Here, we show that for the log-stabilizer fidelity this optimization admits an exact closed-form analytic solution depending only on the Schmidt spectrum. We then introduce the magic of purification, defined as the minimum pure-state magic over all purifications of a mixed state, and show that it naturally induces a resource theory whose free states are normalized stabilizer-code projectors. For the log-stabilizer fidelity, the magic of purification admits a distance-based formulation in terms of the Uhlmann fidelity. Remarkably, we prove that non-local magic coincides with the minimum magic of purification along the unitary orbit of the reduced density operator. Our results provide both an efficient analytical characterization and a mixed-state resource-theoretic interpretation of non-local magic.",
+ "comment": "12 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.04119",
+  "pdf": "https://arxiv.org/pdf/2609.04119",
+  "html": "https://arxiv.org/html/2609.04119"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05T10:51:50.877Z",
+  "hook": "Non-local magic of a bipartite quantum state admits an exact closed-form analytic solution via Schmidt spectrum.",
+  "tldr": [
+   "Studied non-local magic, which quantifies unremovable non-stabilizerness in bipartite quantum states.",
+   "Derived an exact closed-form analytic solution for the log-stabilizer fidelity using the Schmidt spectrum.",
+   "Proved that non-local magic coincides with the minimum magic of purification along the unitary orbit."
+  ],
+  "whyItMatters": "'Magic' is a key resource that makes quantum computers more powerful than classical ones; understanding its non-local form helps quantify quantum advantage.",
+  "eli5": "Quantum mechanics has a special ingredient called 'magic' that makes quantum computers special. Researchers figured out an exact recipe to measure this magic when it is shared between two separated parts of a system.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Non-local magic",
+    "shortDef": "A measure of non-stabilizerness in bipartite states that cannot be removed by local operations.",
+    "eli5Def": "The special quantum sauce shared between two linked particles that you can't get rid of just by tweaking each particle separately.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Schmidt spectrum",
+    "shortDef": "The set of squared singular values obtained from the Schmidt decomposition of a bipartite state.",
+    "eli5Def": "A barcode of numbers that describes how strongly two quantum pieces are tangled together.",
+    "wikiTitle": "Schmidt decomposition"
+   },
+   {
+    "term": "Uhlmann fidelity",
+    "shortDef": "A measure of closeness between two quantum states, maximized over all their purifications.",
+    "eli5Def": "A mathematical ruler that measures how similar two fuzzy quantum states look to each other.",
+    "wikiTitle": "Fidelity of quantum states"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "id": "2609.04117",
+ "version": 1,
+ "title": "Non-Abelian string melting and thermalization in an open lattice gauge theory",
+ "authors": [
+  {
+   "name": "Erick Parra Verde"
+  },
+  {
+   "name": "Giovanni Cataldi"
+  },
+  {
+   "name": "Stefan Kühn"
+  },
+  {
+   "name": "Giuseppe Magnifico"
+  },
+  {
+   "name": "Jad C. Halimeh"
+  }
+ ],
+ "categories": [
+  "hep-lat",
+  "cond-mat.quant-gas",
+  "cond-mat.stat-mech",
+  "hep-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-lat",
+ "published": "2026-09-03T17:19:56Z",
+ "updated": "2026-09-03T17:19:56Z",
+ "abstract": "Open-system lattice gauge theory (LGT) has so far been developed predominantly in Abelian settings, leaving open how genuinely non-Abelian gauge structure reshapes dissipative real-time dynamics. Here, we study a $1+1$D SU(2) Yang--Mills LGT with dynamical matter coupled to a thermal scalar environment through a gauge-preserving Lindblad evolution, which we solve using tensor networks. Starting from a quark--antiquark pair connected by a chromoelectric flux string, we find that the thermal medium melts the string by delocalizing the color charges and screening the flux; on resonance, this dissipative melting competes with and delays coherent string breaking. The thermalization time is non-monotonic in the environment coupling, decreasing through environment-assisted transport at weak dissipation before increasing in a quantum-Zeno regime. In the strong-dephasing limit, a Schrieffer--Wolff expansion maps the dynamics to a classical exclusion process and yields the Liouvillian thermalization time analytically. Beyond these generic open-system effects, the non-Abelian matter structure produces a systematic mesonic bias in the steady state, while the thermalization time decreases with temperature, in contrast to the Abelian Schwinger model trend and in qualitative agreement with pNRQCD studies of the quark--gluon plasma. These results establish a gauge-preserving framework for thermalization and string dynamics in open non-Abelian lattice gauge theories.",
+ "comment": "$19$ pages, $7$ figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.04117",
+  "pdf": "https://arxiv.org/pdf/2609.04117",
+  "html": "https://arxiv.org/html/2609.04117"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.04117v1/fig1_sketch.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05T10:51:50.877Z",
+  "hook": "We simulate a non-Abelian SU(2) lattice gauge theory, finding thermal string melting and a non-monotonic thermalization time.",
+  "tldr": [
+   "Studied real-time dynamics of a 1+1D SU(2) Yang-Mills lattice gauge theory coupled to a thermal environment.",
+   "Used tensor networks to solve a gauge-preserving Lindblad evolution starting from a quark-antiquark chromoelectric flux string.",
+   "Found that thermal media melt the string, thermalization time is non-monotonic with coupling, and steady states show a mesonic bias."
+  ],
+  "whyItMatters": "Understanding how non-Abelian gauge strings melt in thermal environments gives valuable insight into the behavior of the quark-gluon plasma and open quantum systems.",
+  "eli5": "Imagine two magnetic balls pulling on each other with an invisible rubber band inside a warm, thick syrup. The warm syrup slowly melts the band, letting the balls drift apart while weird new rules slow down or speed up the breakup depending on how thick the syrup is.",
+  "keyNumbers": [
+   {
+    "value": "1+1D",
+    "label": "Spacetime dimensions",
+    "context": "The dimensionality of the SU(2) Yang-Mills lattice gauge theory studied."
+   },
+   {
+    "value": "19",
+    "label": "Pages",
+    "context": "Length of the research paper."
+   },
+   {
+    "value": "7",
+    "label": "Figures",
+    "context": "Number of illustrations included in the paper."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Lattice gauge theory",
+    "shortDef": "A framework for framing quantum field theories on a discrete spacetime grid.",
+    "eli5Def": "Looking at physics like a giant 3D checkerboard instead of smooth space.",
+    "wikiTitle": "Lattice gauge theory"
+   },
+   {
+    "term": "SU(2)",
+    "shortDef": "A mathematical group describing specific types of continuous symmetries and gauge fields.",
+    "eli5Def": "A set of math rules used to describe how subatomic particles interact.",
+    "wikiTitle": "SU(2)"
+   },
+   {
+    "term": "Lindblad evolution",
+    "shortDef": "A mathematical equation describing how an open quantum system loses or gains energy from its environment.",
+    "eli5Def": "A math rulebook for how a tiny quantum system leaks secrets or heat to the outside world.",
+    "wikiTitle": "Lindblad equation"
+   },
+   {
+    "term": "Tensor networks",
+    "shortDef": "Efficient computational methods for representing complex quantum many-body states.",
+    "eli5Def": "Smart math shortcuts that let supercomputers calculate what giant groups of quantum particles are doing.",
+    "wikiTitle": "Tensor network"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

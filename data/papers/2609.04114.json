@@ -1,0 +1,95 @@
+{
+ "id": "2609.04114",
+ "version": 1,
+ "title": "Real-Time String Dynamics in $3+1$D Lattice Quantum Electrodynamics",
+ "authors": [
+  {
+   "name": "Helen Zwölfer"
+  },
+  {
+   "name": "Giovanni Cataldi"
+  },
+  {
+   "name": "Umberto Borla"
+  },
+  {
+   "name": "Jad C. Halimeh"
+  }
+ ],
+ "categories": [
+  "hep-lat",
+  "cond-mat.quant-gas",
+  "hep-ph",
+  "hep-th",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-lat",
+ "published": "2026-09-03T17:18:01Z",
+ "updated": "2026-09-03T17:18:01Z",
+ "abstract": "Understanding real-time string dynamics in three spatial dimensions is essential for connecting quantum simulations of lattice gauge theories (LGTs) to the physical dimensionality of QED and QCD, where transverse fluctuations and competing local processes proliferate. We present the first real-time simulations of string breaking in $3+1$D lattice quantum electrodynamics. Using tree tensor networks, we simulate the quench dynamics of electric flux strings in a $3\\!+\\!1$D U(1) LGT with dynamical matter. At strong coupling, the string breaks resonantly at a sharp resonance condition of mass and gauge couplings, converting electric energy into matter--antimatter pairs that screen the static charges. Off resonance, we classify all competing channels---pair production, string deformations and extensions, and flux loops---whose multiplicity, extensive for pair production and flux loops, depletes the string sector even far from resonance. A channel-resolved perturbation theory quantitatively reproduces these dynamics and their Fourier spectrum. Our results establish diagnostics and benchmarks for upcoming quantum simulators of higher-dimensional LGTs.",
+ "comment": "$10+2+5$ pages, $4+0+4$ figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.04114",
+  "pdf": "https://arxiv.org/pdf/2609.04114",
+  "html": "https://arxiv.org/html/2609.04114"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.04114v1/QED3Dstringbreaking.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05T10:51:50.877Z",
+  "hook": "We present the first real-time simulations of string breaking in 3+1D lattice quantum electrodynamics using tree tensor networks.",
+  "tldr": [
+   "Simulated the real-time dynamics of electric flux strings in a 3+1D U(1) lattice gauge theory with dynamical matter.",
+   "Employed tree tensor networks to simulate quench dynamics and evaluate competing decay channels.",
+   "Found resonant string breaking at strong coupling and that competing channels deplete the string sector."
+  ],
+  "whyItMatters": "Scaling quantum simulations of gauge theories to higher dimensions is vital for connecting abstract math to real-world physics like QED and QCD.",
+  "eli5": "Think of a stretched rubber band under high tension that suddenly snaps, creating little pairs of particles out of pure energy. Doing this in a simple flat world is easy, but doing it in a rich 3D space with lots of competing distractions is a massive computational breakthrough.",
+  "keyNumbers": [
+   {
+    "value": "3+1D",
+    "label": "Spacetime dimensions",
+    "context": "The spatial and temporal dimensionality of the lattice quantum electrodynamics."
+   },
+   {
+    "value": "10+2+5",
+    "label": "Pages",
+    "context": "Breakdown of pages across the main text, appendices, and supplemental sections."
+   },
+   {
+    "value": "4+0+4",
+    "label": "Figures",
+    "context": "Number of figures across different sections of the manuscript."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum electrodynamics",
+    "shortDef": "The relativistic quantum field theory of electrodynamics describing light and matter interaction.",
+    "eli5Def": "The ultra-precise rules for how light and charged particles like electrons interact.",
+    "wikiTitle": "Quantum electrodynamics"
+   },
+   {
+    "term": "Tree tensor networks",
+    "shortDef": "Hierarchical network structures used to approximate quantum states in high dimensions.",
+    "eli5Def": "A family tree-like data structure that helps computers handle complex quantum equations without crashing.",
+    "wikiTitle": "Tensor network"
+   },
+   {
+    "term": "Quench dynamics",
+    "shortDef": "The non-equilibrium time evolution of a quantum system following a sudden change in parameters.",
+    "eli5Def": "Watching what happens to a quantum system right after you aggressively shake it or flip a switch.",
+    "wikiTitle": "Quantum quench"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

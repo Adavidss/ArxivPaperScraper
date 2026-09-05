@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-04T11:37:48.275Z",
+ "generatedAt": "2026-09-05T10:51:50.877Z",
  "suggestions": [
   {
    "name": "Martin B. Plenio",
@@ -63,6 +63,26 @@
    "recentTitles": [
     "Twin-photon generation in a silicon nitride microresonator",
     "Stochastic transport of a Goldstone mode in a self-organized atomic crystal"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Lorenzo Leone",
+   "slug": "lorenzo-leone",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.04119",
+    "2608.13376",
+    "2607.29670"
+   ],
+   "recentTitles": [
+    "Non-local Magic: closed-form solution and equivalence with magic of purification",
+    "Universal magic state concentration"
    ],
    "paperCount": 3
   },
@@ -170,26 +190,6 @@
   {
    "name": "Cheng Chu",
    "slug": "cheng-chu",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2607.19318",
-    "2607.18196",
-    "2607.18126"
-   ],
-   "recentTitles": [
-    "SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming",
-    "Hardware Robustness of Sample-Based Quantum Diagonalization"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Qian Lou",
-   "slug": "qian-lou",
    "score": 3,
    "coAuthoredWith": [],
    "viaKeywords": [],

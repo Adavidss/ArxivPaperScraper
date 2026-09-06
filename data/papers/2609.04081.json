@@ -1,0 +1,83 @@
+{
+ "id": "2609.04081",
+ "version": 1,
+ "title": "Frequency-Multiplexed Parallel Gates for Quantum LDPC Codes in a Two-Dimensional Ion Crystal",
+ "authors": [
+  {
+   "name": "G. -X. Tang"
+  },
+  {
+   "name": "L. -M. Duan"
+  },
+  {
+   "name": "Y. -K. Wu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-03T16:49:32Z",
+ "updated": "2026-09-03T16:49:32Z",
+ "abstract": "Quantum low-density parity-check (qLDPC) codes admit high encoding rates but require nonlocal entangling gates for syndrome measurement. Instead of physically moving the qubits which slows down with the increasing qubit number, here we propose to achieve parallel nonlocal entangling gates on a two-dimensional (2D) ion crystal using frequency-multiplexing. Adiabatic conditions ensure the suppression of gate infidelity and crosstalk error, as well as their robustness against slow drift in the trap frequency which is a leading error source in ion trap. We consider a numerical example of a $[[248,10,18]]$ bivariate bicycle code on a 2D crystal of 512 ions. By optimizing the mapping of the qubits and the assignment of the frequency bands for multiplexing, we show that a moderate laser power is sufficient for parallelism, and that a logical error rate of $10^{-12}$ can be achieved under realistic noise parameters.",
+ "comment": "8 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.04081",
+  "pdf": "https://arxiv.org/pdf/2609.04081",
+  "html": "https://arxiv.org/html/2609.04081"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.04081v1/fig3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06T11:16:20.482Z",
+  "hook": "Frequency-multiplexed parallel gates achieve a logical error rate of 10^-12 for 512 ions in a 2D crystal.",
+  "tldr": [
+   "Proposed frequency-multiplexing to achieve parallel nonlocal entangling gates on a 2D ion crystal.",
+   "Used adiabatic conditions to suppress gate infidelity, crosstalk, and trap frequency drift errors.",
+   "Evaluated a bivariate bicycle code on 512 ions, showing high parallelism and a low logical error rate."
+  ],
+  "whyItMatters": "Scalable quantum computers need reliable error correction; avoiding the slow physical movement of ions is a major step toward practical quantum scaling.",
+  "eli5": "Instead of physically moving trapped atomic ions around like chess pieces to get them to interact—which is slow—scientists used different radio frequencies like different radio stations to talk to many ions at the same time without moving them.",
+  "keyNumbers": [
+   {
+    "value": "512",
+    "label": "Ion count",
+    "context": "The number of ions in the 2D crystal for the numerical example."
+   },
+   {
+    "value": "10^{-12}",
+    "label": "Logical error rate",
+    "context": "The achieved error rate under realistic noise parameters."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "qLDPC codes",
+    "shortDef": "Quantum low-density parity-check codes offering high encoding rates for error correction.",
+    "eli5Def": "Advanced error-checking recipes that protect quantum data efficiently.",
+    "wikiTitle": "Low-density parity-check code"
+   },
+   {
+    "term": "Frequency-multiplexing",
+    "shortDef": "Sending multiple signals simultaneously over a single channel by using independent frequency bands.",
+    "eli5Def": "Playing many different radio stations at once on different frequencies down the same wire.",
+    "wikiTitle": "Frequency-division multiplexing"
+   },
+   {
+    "term": "Crosstalk error",
+    "shortDef": "Unwanted interference from one communication channel or control signal into another.",
+    "eli5Def": "When one control signal accidentally meddles with its neighbor.",
+    "wikiTitle": "Crosstalk"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

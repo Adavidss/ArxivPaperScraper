@@ -1,0 +1,72 @@
+{
+ "id": "2609.05355",
+ "version": 1,
+ "title": "Fundamental Limits of Quantum Metrology Beyond Fixed Causal Order",
+ "authors": [
+  {
+   "name": "Wenjie Wei"
+  },
+  {
+   "name": "Yutong Li"
+  },
+  {
+   "name": "Shengshi Pang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-04T17:01:27Z",
+ "updated": "2026-09-04T17:01:27Z",
+ "abstract": "Quantum metrology with indefinite causal order (ICO) has attracted intense interest due to its potential to surpass the limitations of conventional fixed-order strategies. A key open question is whether ICO can fundamentally enhance asymptotic precision scaling. In this work, we bridge this gap for the estimation of a single parameter encoded in $N$ identical uses of a finite-dimensional quantum channel. We first establish a universal Heisenberg-scaling upper bound for the full general ICO process-matrix class and show that for unitary channels its optimal quantum Fisher information (QFI) coincides exactly with that of parallel strategies. For noisy channels, a structurally refined bound shows that channels restricted to the standard quantum limit (SQL) under parallel strategies remain SQL-limited under general ICO strategies. Most significantly, an asymptotically tight (AT) bound is derived to close the remaining possibility of an asymptotic ICO advantage by showing that general ICO and optimal parallel strategies have exactly the same leading QFI coefficient in both the SQL and Heisenberg regimes. For the operationally motivated class of quantum circuits with quantum control of causal order, we further obtain an iterative constraint on finite-query precision whose asymptotic limit agrees with that of the AT bound. Our results clarify the ultimate role of indefinite causality as a metrological resource for quantum channel estimation.",
+ "comment": "7 pages, 2 figures; Supplemental Material included (23 pages, 2 figures)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.05355",
+  "pdf": "https://arxiv.org/pdf/2609.05355",
+  "html": "https://arxiv.org/html/2609.05355"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.05355v1/paraequaliconew1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07T12:56:49.129Z",
+  "hook": "Indefinite causal order does not provide an asymptotic precision advantage over optimal parallel strategies in quantum metrology.",
+  "tldr": [
+   "They studied whether quantum metrology with indefinite causal order can fundamentally enhance asymptotic precision scaling.",
+   "They derived universal upper bounds and an asymptotically tight bound for single-parameter estimation using quantum channels.",
+   "They proved that general indefinite causal order and optimal parallel strategies share the exact same leading precision coefficients."
+  ],
+  "whyItMatters": "It settles a major open question in quantum physics, proving that rearranging the causal order of operations does not unlock magical new precision limits for noisy or noiseless channel estimation.",
+  "eli5": "Normally, events happen in a strict order: A happens, then B happens. Physicists wondered if mixing up the order so A and B happen in no definite order could make measurements super-accurate. This paper proves it actually does not give you any better ultimate accuracy than standard methods.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum metrology",
+    "shortDef": "The use of quantum mechanics to achieve higher precision in measurements than classical physics allows.",
+    "eli5Def": "Using quantum weirdness to build ultra-precise rulers and clocks.",
+    "wikiTitle": "Quantum metrology"
+   },
+   {
+    "term": "Indefinite causal order",
+    "shortDef": "A scenario where events do not have a fixed before-and-after relationship.",
+    "eli5Def": "A situation where event A causes event B, and event B also causes event A, or neither happens first.",
+    "wikiTitle": "Indefinite causal order"
+   },
+   {
+    "term": "Quantum Fisher information",
+    "shortDef": "A mathematical quantity measuring the amount of information that a quantum state carries about an unknown parameter.",
+    "eli5Def": "A score that tells you how much secret information a quantum system is holding about a measurement target.",
+    "wikiTitle": "Quantum Fisher information"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

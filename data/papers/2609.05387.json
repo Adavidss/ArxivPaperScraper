@@ -1,0 +1,114 @@
+{
+ "id": "2609.05387",
+ "version": 1,
+ "title": "A photonic source with half-a-GHz single-photon flux",
+ "authors": [
+  {
+   "name": "P. Zahalka"
+  },
+  {
+   "name": "S. Huijser"
+  },
+  {
+   "name": "A. Pancaldi"
+  },
+  {
+   "name": "S. Kruger"
+  },
+  {
+   "name": "X. Zhao"
+  },
+  {
+   "name": "Z. Liu"
+  },
+  {
+   "name": "I. Suleiman"
+  },
+  {
+   "name": "R. Jensen"
+  },
+  {
+   "name": "L. Stefan"
+  },
+  {
+   "name": "A. Ludwig"
+  },
+  {
+   "name": "V. Remesh"
+  },
+  {
+   "name": "J. C. Loredo"
+  },
+  {
+   "name": "P. Lodahl"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-04T17:39:43Z",
+ "updated": "2026-09-04T17:39:43Z",
+ "abstract": "Advanced optical quantum technologies demands high quality quantum light generation at very high rates. Here, we report on a deterministic single-photon source that simultaneously combines high excitation rates with high system efficiency to reach over 500 MHz of in-fibre single-photon flux. The source delivers optical power of over 100 pW, as is measured with an off-the-shelf powermeter, enabling a simple and direct way of determining the single-photon source fiber efficiency.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.05387",
+  "pdf": "https://arxiv.org/pdf/2609.05387",
+  "html": "https://arxiv.org/html/2609.05387"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.05387v1/Fig_1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07T12:56:49.129Z",
+  "hook": "A deterministic single-photon source reaches over 500 MHz of in-fibre single-photon flux.",
+  "tldr": [
+   "They developed a deterministic single-photon source combining high excitation rates with high system efficiency.",
+   "They measured optical power exceeding 100 pW using an off-the-shelf powermeter.",
+   "They achieved over 500 MHz of in-fibre single-photon flux while enabling a simple way to determine fiber efficiency."
+  ],
+  "whyItMatters": "Advanced optical quantum technologies rely on generating high-quality single photons rapidly. This source provides a practical, high-flux solution that simplifies optical quantum setups.",
+  "eli5": "Building quantum computers or secure communication networks requires shooting out individual particles of light like a rapid-fire machine gun. This team built a device that fires single light particles faster and more reliably than ever before.",
+  "keyNumbers": [
+   {
+    "value": "500 MHz",
+    "label": "In-fibre single-photon flux",
+    "context": "Rate of single-photon generation achieved by the source"
+   },
+   {
+    "value": "100 pW",
+    "label": "Optical power",
+    "context": "Measured optical power using an off-the-shelf powermeter"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Single-photon source",
+    "shortDef": "A physical system that emits light one photon at a time on demand.",
+    "eli5Def": "A tiny lightbulb that shoots out exactly one particle of light whenever you push a button.",
+    "wikiTitle": "Single-photon source"
+   },
+   {
+    "term": "Photon flux",
+    "shortDef": "The number of photons passing through a surface per unit time.",
+    "eli5Def": "How many individual light particles flow past a specific point every second.",
+    "wikiTitle": "Radiant flux"
+   },
+   {
+    "term": "Deterministic",
+    "shortDef": "Describing a process guaranteed to yield a specific outcome without probabilistic randomness.",
+    "eli5Def": "Something that happens reliably every single time without leaving anything to chance.",
+    "wikiTitle": "Deterministic system"
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 40
+ }
+}

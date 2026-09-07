@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-06T11:16:20.482Z",
+ "generatedAt": "2026-09-07T12:56:49.129Z",
  "suggestions": [
   {
    "name": "Martin B. Plenio",
@@ -24,26 +24,25 @@
    "paperCount": 3
   },
   {
-   "name": "Vsevolod Ivanov",
-   "slug": "vsevolod-ivanov",
-   "score": 4,
-   "coAuthoredWith": [
-    "daniel-g-ang",
-    "ronald-walsworth"
-   ],
+   "name": "Soumya Kanti Pal",
+   "slug": "soumya-kanti-pal",
+   "score": 3,
+   "coAuthoredWith": [],
    "viaKeywords": [],
    "viaCategories": [
+    "cond-mat.stat-mech",
     "quant-ph"
    ],
    "paperIds": [
-    "2607.14083",
-    "2606.23621"
+    "2609.05391",
+    "2609.01606",
+    "2608.05052"
    ],
    "recentTitles": [
-    "Cluster-configurational study of G-center in Silicon",
-    "Multi-scale reconstruction of single-ion damage tracks in diamond via nitrogen-vacancy centers"
+    "Non-reciprocally interacting Ornstein-Uhlenbeck processes: Exceptional points, Anomalous relaxation, Pseudo-equilibrium and Boundary refrigeration",
+    "Observable- and state-selective prethermalization and bounds on prethermal lifetimes"
    ],
-   "paperCount": 2
+   "paperCount": 3
   },
   {
    "name": "Hao Zhang",

@@ -1,0 +1,70 @@
+{
+ "id": "2609.05391",
+ "version": 1,
+ "title": "Non-reciprocally interacting Ornstein-Uhlenbeck processes: Exceptional points, Anomalous relaxation, Pseudo-equilibrium and Boundary refrigeration",
+ "authors": [
+  {
+   "name": "Soumya Kanti Pal"
+  },
+  {
+   "name": "Shamik Gupta"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-09-04T17:41:56Z",
+ "updated": "2026-09-04T17:41:56Z",
+ "abstract": "Non-reciprocal interactions are ubiquitous in active, biological, and disordered systems, generically driving them out of equilibrium. Here, we introduce a hierarchy of non-reciprocally interacting Ornstein-Uhlenbeck (NROU) models governed by a tunable non-reciprocity parameter $g$. At a special point $g=g^*$, the drift matrix becomes non-diagonalizable, realizing exceptional points (EP's) of different orders, where eigenvalues and eigenvectors simultaneously coalesce. The hierarchy encompasses non-reciprocally coupled dimers, their disordered counterparts, and a many-body chain exactly mapping onto the paradigmatic Hatano-Nelson model in the arena of non-Hermitian quantum systems. For the disordered model, we show that the distribution of the EP location $g^*$ across disorder realizations develops a universal edge singularity precisely at the clean-system EP, and is manifestly non-self-averaging. Across all models, we find that at the EP, the usual exponential relaxation of the autocorrelation and covariance functions is dressed by a polynomial-in-time prefactor whose degree is set by the order of the EP and whose detailed structure encodes the spatial architecture of the chain. At complete asymmetry, the many-body chain exhibits ``pseudo-equilibrium'': its steady-state distribution factorizes into equilibrium-like single-particle measures despite a nonzero steady-state current. Moreover, the $N$-particle interacting system decomposes into $N/2$ independent complex OU processes. Finally, using the Harada-Sasa relation, we obtain a closed-form expression for the total steady-state heat dissipation and uncover a boundary refrigeration effect, in which the boundary particles switch from acting as a hot to a cold reservoir as the non-reciprocity is tuned.",
+ "comment": "25 pages, 9 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.05391",
+  "pdf": "https://arxiv.org/pdf/2609.05391",
+  "html": "https://arxiv.org/html/2609.05391"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.05391v1/EP_g__dist.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07T12:56:49.129Z",
+  "hook": "At complete asymmetry, the many-body chain exhibits pseudo-equilibrium with a factorized steady-state distribution.",
+  "tldr": [
+   "They introduced a hierarchy of non-reciprocally interacting Ornstein-Uhlenbeck models driven out of equilibrium.",
+   "They analyzed exceptional points where drift matrix eigenvalues and eigenvectors coalesce across dimers and many-body chains.",
+   "They discovered anomalous polynomial-in-time prefactor relaxation and a boundary refrigeration effect."
+  ],
+  "whyItMatters": "Non-reciprocal interactions appear everywhere in biology and active matter, where actions are not mutually symmetric. Understanding these systems sheds light on how complex non-equilibrium systems behave and dissipate heat.",
+  "eli5": "Imagine a line of people where each person reacts to the person in front of them, but not vice versa. This creates weird physics bottlenecks and unexpected temperature shifts at the edges of the group.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Ornstein-Uhlenbeck process",
+    "shortDef": "A stochastic process that describes the velocity of a massive Brownian particle under friction.",
+    "eli5Def": "A math model for tracking something that wanders around randomly but tends to get pulled back toward the center.",
+    "wikiTitle": "Ornstein–Uhlenbeck process"
+   },
+   {
+    "term": "Exceptional point",
+    "shortDef": "A singularity in non-Hermitian systems where eigenvalues and eigenvectors coalesce.",
+    "eli5Def": "A strange tipping point in a system where multiple distinct states collapse into one.",
+    "wikiTitle": "Exceptional point"
+   },
+   {
+    "term": "Hatano-Nelson model",
+    "shortDef": "A quantum model studying localization in non-Hermitian systems with asymmetric hopping.",
+    "eli5Def": "A famous physics toy model used to study particles moving through asymmetric landscapes.",
+    "wikiTitle": "Hatano–Nelson model"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

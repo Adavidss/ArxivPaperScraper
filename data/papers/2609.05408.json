@@ -1,0 +1,108 @@
+{
+ "id": "2609.05408",
+ "version": 1,
+ "title": "Towards Scaling Quantum Fine-Tuning of Foundational Time Series Models for Classification",
+ "authors": [
+  {
+   "name": "Sang Hyub Kim"
+  },
+  {
+   "name": "Julien Baglio"
+  },
+  {
+   "name": "Rajiv Krishnakumar"
+  },
+  {
+   "name": "Chi Chen"
+  },
+  {
+   "name": "Oliver Knitter"
+  },
+  {
+   "name": "Jonathan Mei"
+  },
+  {
+   "name": "Claudio Girotto"
+  },
+  {
+   "name": "Masako Yamada"
+  },
+  {
+   "name": "Frederik F. Flöther"
+  },
+  {
+   "name": "Martin Roetteler"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.ET"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-04T17:56:24Z",
+ "updated": "2026-09-04T17:56:24Z",
+ "abstract": "Time-series foundation models produce rich embeddings, but whether quantum models can exploit them, and how far hybrid classical-quantum architectures scale, remains unclear. We address this by fine-tuning Chronos for power-grid event classification (PSML-5) with a quantum head on the model's embeddings. Grouping embeddings by physical sensor type before summarization already surpasses the best published baseline built for this benchmark, and with finer-grained features the quantum head outperforms a larger classical multilayer perceptron on identical inputs by 1.7-2.0 percentage points of balanced accuracy. Yet the gains saturate: past a point, feeding more information to the same fixed-width register yields no improvement. We show the bottleneck is neither the supply of information nor circuit expressiveness, but the bandwidth of the data intake. To overcome this limitation, we introduce the wing module, a self-contained few-qubit circuit that feeds additional information into the core circuit through a sparse, one-way coupling. Under a preregistered four-seed protocol, we attach wings to a fixed 12-qubit core with fixed features. Balanced accuracy increases with each added wing, from 83.6% with no wings (13 qubits, including a post-selection qubit) to 85.2% with two (19 qubits). Ablations establish that a circuit enlarged without new information gains nothing, while a wing fed information from the wrong sample harms accuracy. These results reframe scaling for quantum fine-tuning: added qubits help when they carry added inputs, not merely more parameters. Wings offer a modular and stable route to widening that bandwidth.",
+ "comment": "12 pages, 5 figures, 6 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.05408",
+  "pdf": "https://arxiv.org/pdf/2609.05408",
+  "html": "https://arxiv.org/html/2609.05408"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07T12:56:49.129Z",
+  "hook": "A quantum head outperforms a larger classical multilayer perceptron on identical inputs by 1.7-2.0 percentage points.",
+  "tldr": [
+   "They fine-tuned the Chronos time-series foundation model for power-grid event classification using a quantum head on its embeddings.",
+   "They grouped sensor data by physical type and introduced 'wing modules'—sparse, one-way few-qubit circuits—to overcome data intake bandwidth bottlenecks.",
+   "Adding two wings increased balanced accuracy from 83.6% to 85.2%, showing that added qubits help when carrying added inputs."
+  ],
+  "whyItMatters": "Scaling up quantum computers often focuses on adding raw parameters or qubits, but this research proves that data intake bandwidth is the real bottleneck. Overcoming this helps bridge the gap between powerful classical foundation models and specialized quantum hardware.",
+  "eli5": "Imagine a brilliant quantum student trying to solve a complex math test. If you just give them a bigger pencil (more qubits), they won't write faster. But if you give them a dedicated helper whispering extra hints into their ear (wing modules), their score actually goes up.",
+  "keyNumbers": [
+   {
+    "value": "1.7-2.0 percentage points",
+    "label": "Accuracy improvement",
+    "context": "Quantum head outperforming a larger classical multilayer perceptron on identical inputs"
+   },
+   {
+    "value": "83.6%",
+    "label": "Baseline accuracy",
+    "context": "Balanced accuracy with no wings attached"
+   },
+   {
+    "value": "85.2%",
+    "label": "Enhanced accuracy",
+    "context": "Balanced accuracy with two wings attached"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Multilayer perceptron",
+    "shortDef": "A foundational type of artificial neural network with multiple layers of nodes.",
+    "eli5Def": "A computer program made of layers of fake 'brain cells' that help it learn patterns from data.",
+    "wikiTitle": "Multilayer perceptron"
+   },
+   {
+    "term": "Qubit",
+    "shortDef": "The basic unit of quantum information, analogous to a classical computer bit.",
+    "eli5Def": "A quantum version of a computer bit that can be a 0, a 1, or both at the same time.",
+    "wikiTitle": "Qubit"
+   },
+   {
+    "term": "Post-selection",
+    "shortDef": "Filtering experimental data to keep only runs that meet certain criteria.",
+    "eli5Def": "Throwing out the bad test runs where things went wrong and only grading the successful tries.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

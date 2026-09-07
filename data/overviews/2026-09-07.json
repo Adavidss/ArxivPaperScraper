@@ -1,0 +1,42 @@
+{
+ "date": "2026-09-07",
+ "generatedAt": "2026-09-07T12:56:49.129Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Quantum Computing and Advanced Metrology Frontiers",
+ "summary": "Today's research spans quantum enhancements in machine learning architectures, non-reciprocal out-of-equilibrium physical systems, and fundamental bounds in quantum metrology and photonics. These developments highlight both practical scaling methods for hybrid models and strict theoretical limits in quantum estimation.",
+ "themes": [
+  {
+   "title": "Quantum Machine Learning & Estimation",
+   "body": "Exploring the integration of quantum heads into foundational time-series models for improved classification accuracy, alongside theoretical investigations into parametric amplification and feedback control for enhanced multiparameter quantum estimation.",
+   "paperIds": [
+    "2609.05408",
+    "2609.05402"
+   ]
+  },
+  {
+   "title": "Out-of-Equilibrium Systems & Metrology Limits",
+   "body": "Analyzing non-reciprocally interacting Ornstein-Uhlenbeck processes to reveal exceptional points and pseudo-equilibrium, while also establishing fundamental limits showing that indefinite causal order yields no asymptotic precision advantage over parallel strategies in metrology.",
+   "paperIds": [
+    "2609.05391",
+    "2609.05355"
+   ]
+  },
+  {
+   "title": "Advanced Photonic Sources",
+   "body": "Advancing deterministic single-photon generation to achieve unprecedented in-fibre fluxes exceeding 500 MHz, and utilizing coincidence-based spectral filtering to overcome spectral matching challenges in cascaded downconversion.",
+   "paperIds": [
+    "2609.05387",
+    "2609.05379"
+   ]
+  }
+ ],
+ "connections": [],
+ "paperIds": [
+  "2609.05408",
+  "2609.05402",
+  "2609.05391",
+  "2609.05387",
+  "2609.05379",
+  "2609.05355"
+ ]
+}

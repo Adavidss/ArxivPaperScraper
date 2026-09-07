@@ -1,0 +1,79 @@
+{
+ "id": "2609.05402",
+ "version": 1,
+ "title": "Parametric and feedback-controlled multiparameter quantum estimation in a double cavity optomechanics: steady and dynamical state",
+ "authors": [
+  {
+   "name": "Hamza Harraf"
+  },
+  {
+   "name": "Mohamed Amazioug"
+  },
+  {
+   "name": "Amjad Sohail"
+  },
+  {
+   "name": "Mojtaba Mazaheri"
+  },
+  {
+   "name": "Rachid Ahl Laamara"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-04T17:48:44Z",
+ "updated": "2026-09-04T17:48:44Z",
+ "abstract": "Multiparameter quantum estimation in open optomechanical systems is fundamentally constrained by dissipation, thermal fluctuations, and measurement incompatibility. In this work, we investigate a coupled-cavity optomechanical platform in which two mechanical modes interact with driven optical cavities, two-mode squeezed vacuum, intracavity degenerate parametric amplification, and coherent optical feedback. Using the continuous-variable Gaussian-state formalism, we derive the linearized quantum Langevin dynamics and steady-state covariance matrix and evaluate the quantum Fisher information matrices associated with simultaneous estimation of the optomechanical coupling strength and cavity dissipation rate. We characterize the precision bounds using the symmetric and right logarithmic derivative formalisms and employ $\\mathcal{B}_{\\rm MI}=\\max\\{\\mathcal{B}_S,\\mathcal{B}_R\\}$ as a comparative figure of merit within the SLD/RLD framework. We find that parametric amplification can substantially reduce , demonstrating an enhancement of multiparameter sensitivity over a broad range of operating conditions. In contrast, coherent feedback produces a nonmonotonic modification of the estimation precision, with its effect depending sensitively on the feedback reflectivity, phase, squeezing strength, and thermal occupation. This behavior reveals that coherent feedback acts not simply as an enhancing or degrading mechanism, but as a tunable resource for engineering the quantum fluctuations and parameter-dependent correlations of the optomechanical state. We further analyze the transient and steady-state regimes and identify parameter regions in which squeezing and parametric amplification provide the largest metrological gain.",
+ "comment": "18 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.05402",
+  "pdf": "https://arxiv.org/pdf/2609.05402",
+  "html": "https://arxiv.org/html/2609.05402"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.05402v1/figure1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07T12:56:49.129Z",
+  "hook": "Parametric amplification can substantially reduce precision bounds, demonstrating an enhancement of multiparameter sensitivity.",
+  "tldr": [
+   "They investigated a coupled-cavity optomechanical platform with two mechanical modes interacting with driven optical cavities.",
+   "They derived linearized quantum Langevin dynamics and steady-state covariance matrices using the Gaussian-state formalism.",
+   "They found parametric amplification enhances sensitivity while coherent feedback acts as a tunable resource for quantum fluctuations."
+  ],
+  "whyItMatters": "Precise measurement of tiny physical forces and quantities is crucial for advanced sensors and quantum technologies. Understanding how to tune quantum fluctuations helps build more sensitive measurement devices.",
+  "eli5": "Think of trying to measure the tiny vibrations of a guitar string in a noisy room. This study figures out special ways to turn up the useful signals and quiet down the background noise so you can measure multiple things at once with extreme precision.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Optomechanics",
+    "shortDef": "The study of the interaction between light and mechanical motion at the quantum level.",
+    "eli5Def": "Figuring out how flashes of light can push around tiny moving objects.",
+    "wikiTitle": "Cavity optomechanics"
+   },
+   {
+    "term": "Quantum Fisher information",
+    "shortDef": "A measure of the amount of information that an observable carries about an unknown parameter.",
+    "eli5Def": "A mathematical score telling you how accurately you can guess a hidden setting from your measurements.",
+    "wikiTitle": "Quantum Fisher information"
+   },
+   {
+    "term": "Langevin dynamics",
+    "shortDef": "Mathematical equations describing how systems evolve when subject to both deterministic and random forces.",
+    "eli5Def": "Math formulas that track how things move when pushed around by both predictable forces and random noise.",
+    "wikiTitle": "Langevin equation"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

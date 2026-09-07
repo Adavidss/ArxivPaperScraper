@@ -1,0 +1,73 @@
+{
+ "id": "2609.05379",
+ "version": 1,
+ "title": "Coincidence-based spectral engineering for spectral matching in cascaded downconversion",
+ "authors": [
+  {
+   "name": "Mohammed Charafi"
+  },
+  {
+   "name": "Alexandre Z. Leger"
+  },
+  {
+   "name": "Samridhi Gambhir"
+  },
+  {
+   "name": "Deny R. Hamel"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-04T17:29:08Z",
+ "updated": "2026-09-04T17:29:08Z",
+ "abstract": "Three-photon states generated via cascaded spontaneous parametric downconversion provide a direct route to multipartite entanglement. However, current implementations require careful spectral matching between successive nonlinear stages, which constrains the choice of downconversion sources. In this work, we show that coincidence-based spectral filtering relaxes this requirement by conditionally tailoring the spectrum of the pump photon entering the second stage. By filtering the herald photon, we conditionally tailor the spectrum of its partner to match the acceptance bandwidth of the secondary nonlinear process, enabling efficient coupling between broadband and narrowband stages without altering the sources themselves. Using an electro-optically gated spectrometer, we directly measure the conditional spectra that govern the cascaded process, allowing us to quantitatively predict the enhancement in second-stage conversion probability per detected herald. We then verify this prediction through photon-triplet measurements, demonstrating improved performance at fixed heralding rates. Our results establish coincidence-based spectral engineering as a practical tool for optimizing cascaded downconversion, particularly in regimes limited by detector saturation or spectral incompatibility.",
+ "comment": "11 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.05379",
+  "pdf": "https://arxiv.org/pdf/2609.05379",
+  "html": "https://arxiv.org/html/2609.05379"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07T12:56:49.129Z",
+  "hook": "Coincidence-based spectral filtering relaxes nonlinear stage constraints in cascaded downconversion sources.",
+  "tldr": [
+   "They investigated spectral matching challenges in three-photon states generated via cascaded spontaneous parametric downconversion.",
+   "They used coincidence-based spectral filtering to conditionally tailor the spectrum of the pump photon entering the second stage.",
+   "They demonstrated improved performance at fixed heralding rates by verifying conversion probability predictions with photon-triplet measurements."
+  ],
+  "whyItMatters": "Cascaded downconversion is essential for generating multipartite entanglement, but strict spectral matching requirements have severely limited source choices until now.",
+  "eli5": "Imagine trying to plug two different electronic devices together where the plugs do not quite fit. Instead of rebuilding the devices, these researchers built a smart adapter that reshapes the signals on the fly so they fit together perfectly.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Spontaneous parametric downconversion",
+    "shortDef": "A nonlinear optical process that splits high-energy photons into pairs of lower-energy photons.",
+    "eli5Def": "A magic crystal process where one high-energy particle of light splits into two lower-energy partner particles.",
+    "wikiTitle": "Spontaneous parametric downconversion"
+   },
+   {
+    "term": "Multipartite entanglement",
+    "shortDef": "Quantum entanglement shared among three or more distinct particles or systems.",
+    "eli5Def": "A spooky connection linking three or more objects together so what happens to one instantly affects the others.",
+    "wikiTitle": "Multipartite entanglement"
+   },
+   {
+    "term": "Acceptance bandwidth",
+    "shortDef": "The range of frequencies or wavelengths a nonlinear optical process can efficiently accept.",
+    "eli5Def": "The specific frequency range that a receiver or gateway is tuned to accept.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

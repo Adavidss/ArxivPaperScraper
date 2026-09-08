@@ -1,0 +1,64 @@
+{
+ "id": "2609.05322",
+ "version": 1,
+ "title": "Restricting the effects hides a nonphysical symmetry from every causal structure",
+ "authors": [
+  {
+   "name": "Chon-Fai Kam"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-04T16:16:58Z",
+ "updated": "2026-09-04T16:16:58Z",
+ "abstract": "Real-amplitude quantum theory is the subtheory of quantum theory invariant under complex conjugation, and experiments in a network of independent sources have measured correlations above the real bound. A theory can nevertheless carry the same conjugation without complete positivity and still have exactly the correlations of its own conjugation-invariant subtheory in every causal structure, the bilocality scenario included. The states of that theory are all the density matrices, and its effects are the operators every partial transpose of which is again a quantum effect. Its symmetrized subtheory simulates it once each source carries a reference frame rather than each system. One map therefore receives three different verdicts in three theories, so the symmetry alone marks no boundary at all, and what sustains the separation in quantum theory is a property of quantum theory. Quantum theory admits every effect its states permit and this theory does not. What does have a boundary is the class of theories where the correlations of a theory and of its symmetrized subtheory coincide. We show that sectorial closure, meaning invariance of the effects and the operations under the symmetry acting independently on each source, suffices for the absence of a gap under any finite group, and that it cannot be weakened on the effects. Fixing unrestricted states and conjugation makes the effects of that theory the largest the symmetry admits, and its operations the largest sectorially closed ones. Locating where sectorial closure fails, for a candidate effect set built from a fixed bound entangled state, is a finite computation on a single ray of effects.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.05322",
+  "pdf": "https://arxiv.org/pdf/2609.05322",
+  "html": "https://arxiv.org/html/2609.05322"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08T11:39:03.147Z",
+  "hook": "A single map receives three different verdicts across theories, showing conjugation symmetry marks no boundary on its own.",
+  "tldr": [
+   "Examined real-amplitude quantum theory and its conjugation-invariant subtheory across causal structures.",
+   "Proved that sectorial closure avoids correlation gaps under finite groups and cannot be weakened on effects.",
+   "Demonstrated that quantum theory permits every effect its states allow, unlike a specific nonpositive constrained theory."
+  ],
+  "whyItMatters": "This work clarifies the deep mathematical boundaries that separate standard quantum theory from hypothetical alternative physical theories, sharpening our understanding of what makes quantum mechanics unique.",
+  "eli5": "Physicists like to test the rules of reality by seeing what mathematical symmetries are allowed. This paper looks at a specific mirror-image symmetry and proves that standard quantum mechanics allows behaviors that other strict theories forbid.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Real-amplitude quantum theory",
+    "shortDef": "A subtheory of quantum mechanics invariant under complex conjugation.",
+    "eli5Def": "A version of quantum math that only uses real numbers instead of complex numbers with imaginary parts.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Density matrices",
+    "shortDef": "Mathematical objects that describe the statistical state of a quantum system.",
+    "eli5Def": "A scorecard that keeps track of the probabilities of all possible outcomes for a quantum system.",
+    "wikiTitle": "Density matrix"
+   },
+   {
+    "term": "Sectorial closure",
+    "shortDef": "Invariance of effects and operations under a symmetry acting independently on each source.",
+    "eli5Def": "A mathematical rule where a symmetry applies separately to individual independent pieces of an experiment.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 65
+ }
+}

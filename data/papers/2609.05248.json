@@ -1,0 +1,75 @@
+{
+ "id": "2609.05248",
+ "version": 1,
+ "title": "Quantum-State Texture Dynamics: Theory and Experiment",
+ "authors": [
+  {
+   "name": "Carlos H. S. Vieira"
+  },
+  {
+   "name": "Xinfang Nie"
+  },
+  {
+   "name": "Dawei Lu"
+  },
+  {
+   "name": "Fernando Parisio"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-04T15:14:10Z",
+ "updated": "2026-09-04T15:14:10Z",
+ "abstract": "Quantum-state texture (QST) has found applications in several fields from quantum foundations and computation to quantum criticality. However, a general theory of QST dynamics under arbitrary physical processes remains unavailable, limiting both its practical application and experimental exploration. Here, we demonstrate that the QST response to an arbitrary finite-dimensional channel is fully encoded in the dual evolution of a single reference state. This description yields necessary and sufficient conditions for texture preservation and implies exact conservation under all free-unital dynamics. Using a nuclear magnetic resonance quantum processor, we experimentally verify these predictions across distinct channel classes. Furthermore, we show that local QST measurements provide an operational signature of entangling gates in circuit layers. Our results establish quantum-state texture as a resource and a practical diagnostic tool in quantum information processing.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.05248",
+  "pdf": "https://arxiv.org/pdf/2609.05248",
+  "html": "https://arxiv.org/html/2609.05248"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.05248v1/Fig04.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08T11:39:03.147Z",
+  "hook": "Quantum-state texture response to any finite-dimensional channel is fully encoded in the dual evolution of a single reference state.",
+  "tldr": [
+   "Developed a general theory for quantum-state texture (QST) dynamics under arbitrary physical processes.",
+   "Used a nuclear magnetic resonance quantum processor to experimentally verify texture predictions across distinct channel classes.",
+   "Demonstrated that local QST measurements provide an operational signature of entangling gates in circuit layers."
+  ],
+  "whyItMatters": "Understanding how quantum-state texture behaves under arbitrary physical processes gives scientists a powerful new diagnostic tool to test quantum hardware and track entanglement.",
+  "eli5": "Just like a piece of wood has a grain or texture you can feel, quantum states can have hidden textural properties. This paper shows how tracking a single reference state lets you see how this texture shifts, acting like an X-ray to check if your quantum computer is working properly.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum-state texture",
+    "shortDef": "A geometric property of quantum states useful in foundations, computation, and criticality.",
+    "eli5Def": "A specific pattern hidden inside a quantum state that tells you how complex or connected it is.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Unital dynamics",
+    "shortDef": "Quantum operations that preserve the identity operator.",
+    "eli5Def": "Changes that do not shrink or distort the total possible amount of information overall.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Nuclear magnetic resonance",
+    "shortDef": "A physical phenomenon where atomic nuclei absorb and emit electromagnetic radiation.",
+    "eli5Def": "A technique using giant magnets to poke and listen to the spins of atomic nuclei, used here as a quantum processor.",
+    "wikiTitle": "Nuclear magnetic resonance"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 40
+ }
+}

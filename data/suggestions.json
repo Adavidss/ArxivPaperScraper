@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-07T12:56:49.129Z",
+ "generatedAt": "2026-09-08T11:39:03.147Z",
  "suggestions": [
   {
    "name": "Martin B. Plenio",
@@ -20,6 +20,26 @@
    "recentTitles": [
     "Thermalization of open quantum systems with pseudomodes",
     "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Martin Roetteler",
+   "slug": "martin-roetteler",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.05408",
+    "2609.05313",
+    "2607.27206"
+   ],
+   "recentTitles": [
+    "Towards Scaling Quantum Fine-Tuning of Foundational Time Series Models for Classification",
+    "SAR and InSAR Change Detection with Quantum Generative Models"
    ],
    "paperCount": 3
   },
@@ -183,26 +203,6 @@
    "recentTitles": [
     "Logical computation with canonical lifted product codes",
     "Enhancing Entanglement Purification with Shared Randomness"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Cheng Chu",
-   "slug": "cheng-chu",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2607.19318",
-    "2607.18196",
-    "2607.18126"
-   ],
-   "recentTitles": [
-    "SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming",
-    "Hardware Robustness of Sample-Based Quantum Diagonalization"
    ],
    "paperCount": 3
   }

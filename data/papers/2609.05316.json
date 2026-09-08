@@ -1,0 +1,121 @@
+{
+ "id": "2609.05316",
+ "version": 1,
+ "title": "Compiling the 2D Fermi-Hubbard ground-state energy estimation algorithm for active volume quantum architectures",
+ "authors": [
+  {
+   "name": "Harriet Apel"
+  },
+  {
+   "name": "Athena Caesura"
+  },
+  {
+   "name": "Carys Harvey"
+  },
+  {
+   "name": "Sam Heavey"
+  },
+  {
+   "name": "Angus Kan"
+  },
+  {
+   "name": "Jessica Lemieux"
+  },
+  {
+   "name": "Ryan Levy"
+  },
+  {
+   "name": "Sam Pallister"
+  },
+  {
+   "name": "Joseph Peetz"
+  },
+  {
+   "name": "William Pol"
+  },
+  {
+   "name": "Sukin Sim"
+  },
+  {
+   "name": "William A. Simon"
+  },
+  {
+   "name": "Mark Steudtner"
+  },
+  {
+   "name": "Gideon Uchehara"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-04T16:10:12Z",
+ "updated": "2026-09-04T16:10:12Z",
+ "abstract": "As quantum computing enters the early fault-tolerant era, circuit compilation choices will increasingly depend on details of the underlying architecture rather than solely optimizing for generic proxies such as non-Clifford count. We present an active-volume-aware compilation of the ground-state energy estimation algorithm for the two-dimensional Fermi-Hubbard model using quantum phase estimation and Trotterized time evolution. The proposed compilation reduces the active volume across $L\\times L$ square lattices with $L=4$ to $20$, achieving up to a $3.9\\times$ reduction over prior work optimized for non-Clifford cost. As a by-product of these compilation improvements, the resulting circuits also achieve state-of-the-art Toffoli counts, with a ~$2\\times$ reduction for the $L=20$ case. Lastly, the active volume architecture and recent execution scheduling advances provide a means of translating these reduction trends into runtime. This demonstrates the increasing importance of architecture-aware compilation for practical early fault-tolerant quantum computing.",
+ "comment": "57 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.05316",
+  "pdf": "https://arxiv.org/pdf/2609.05316",
+  "html": "https://arxiv.org/html/2609.05316"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.05316v1/figures/fh_transparent.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08T11:39:03.147Z",
+  "hook": "We achieve up to a 3.9x reduction in active volume for Fermi-Hubbard ground-state energy estimation on 2D lattices.",
+  "tldr": [
+   "Compiled the 2D Fermi-Hubbard ground-state energy estimation algorithm for active volume quantum architectures.",
+   "Used quantum phase estimation and Trotterized time evolution across L x L square lattices with L from 4 to 20.",
+   "Achieved up to a 3.9x active volume reduction over prior non-Clifford cost methods and a ~2x Toffoli count reduction."
+  ],
+  "whyItMatters": "As quantum computers become operational, writing software tailored to the exact physical layout of the machine is critical to make complex simulations run efficiently.",
+  "eli5": "Running complex simulations on a quantum computer requires packing instructions tightly together. By designing a smarter blueprint for a grid of quantum bits, researchers shrunk the required computing resources by nearly four times.",
+  "keyNumbers": [
+   {
+    "value": "3.9x",
+    "label": "Reduction",
+    "context": "Active volume reduction over prior work optimized for non-Clifford cost"
+   },
+   {
+    "value": "~2x",
+    "label": "Toffoli reduction",
+    "context": "Reduction achieved for the L=20 lattice case"
+   },
+   {
+    "value": "57",
+    "label": "Pages",
+    "context": "Length of the paper manuscript"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Fermi-Hubbard model",
+    "shortDef": "A foundational theoretical model for describing strongly interacting electrons in solid materials.",
+    "eli5Def": "A mathematical grid game used to understand how electrons move and interact inside materials like superconductors.",
+    "wikiTitle": "Hubbard model"
+   },
+   {
+    "term": "Quantum phase estimation",
+    "shortDef": "A quantum algorithm used to find the eigenvalues of a unitary operator.",
+    "eli5Def": "A quantum recipe used to precisely measure the energy levels of molecules or materials.",
+    "wikiTitle": "Quantum phase estimation algorithm"
+   },
+   {
+    "term": "Toffoli count",
+    "shortDef": "The number of Toffoli gates required to execute a quantum circuit.",
+    "eli5Def": "A metric counting how many fundamental building blocks are needed to perform a tricky multi-qubit logic operation.",
+    "wikiTitle": "Toffoli gate"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "2609.05250",
+ "version": 1,
+ "title": "Memory-Optimal Sequential Synthesis of Multimode Gaussian Transformations",
+ "authors": [
+  {
+   "name": "Fucheng Guo"
+  },
+  {
+   "name": "Frank Mueller"
+  },
+  {
+   "name": "Yuan Liu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-04T15:15:00Z",
+ "updated": "2026-09-04T15:15:00Z",
+ "abstract": "In modular quantum computing architectures, communication between hardware modules is mediated by traveling qumodes sent through transmission lines. Each output qumode interacts with the emitting module only once through a beam-splitter-type interaction and becomes inaccessible to that module after emission. Information required for subsequent outputs must therefore remain in long-lived memory qumodes. For a prescribed multimode Gaussian transformation on $N$ qumodes, this work determines the minimum memory cost for any given emission order, constructs an explicit sequential protocol attaining this minimum, and develops a greedy method for identifying memory-efficient emission orders. The transformation is represented by a symplectic matrix $S$, specified either directly or through a Gaussian gate sequence. The exact minimum memory cost is obtained from the ranks of submatrices of $S$ and further reduces to a support-based counting rule whose computational cost is linear in the size of the support data. When $S$ is specified directly, a matrix-based protocol attains the minimum memory cost. If instead $S$ is specified through a gate sequence, the original gates can be reused without additional synthesis, although the resulting memory usage need not be minimal. Gaussian transformations with local support on a $D$-dimensional cubic lattice can be realized sequentially with $O(N^{(D-1)/D})$ memory qumodes. The protocols also apply to non-Gaussian inputs, including GKP and cat states, and thereby provide an explicit, resource-efficient scheme for intermodule communication in modular architectures for universal continuous-variable quantum computation.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.05250",
+  "pdf": "https://arxiv.org/pdf/2609.05250",
+  "html": "https://arxiv.org/html/2609.05250"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.05250v1/model_scheme.jpg"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08T11:39:03.147Z",
+  "hook": "Gaussian transformations on D-dimensional lattices can be realized sequentially using O(N^((D-1)/D)) memory qumodes.",
+  "tldr": [
+   "Determined the minimum memory cost for any given emission order in multimode Gaussian transformations for modular quantum computing.",
+   "Used submatrix ranks and support-based counting rules to find exact minimum memory costs and construct explicit sequential protocols.",
+   "Showed that local support transformations on cubic lattices require O(N^((D-1)/D)) memory qumodes, supporting non-Gaussian inputs."
+  ],
+  "whyItMatters": "Efficient intermodule communication is a major bottleneck in scaling up modular quantum computers. This work provides explicit, resource-efficient protocols to minimize the physical memory needed to link quantum modules.",
+  "eli5": "Imagine trying to send a long train of delicate glass spheres down a single track where each sphere can only interact with the factory once. This paper figures out the absolute minimum number of parking spaces required to hold the information you still need, making sure you do not waste precious space.",
+  "keyNumbers": [
+   {
+    "value": "O(N^{(D-1)/D})",
+    "label": "Memory scaling",
+    "context": "Memory qumodes required for Gaussian transformations with local support on a D-dimensional cubic lattice."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Qumode",
+    "shortDef": "A continuous-variable quantum state analog to a discrete qubit.",
+    "eli5Def": "Like a dimmer switch for a quantum light bulb, instead of just an on-and-off switch.",
+    "wikiTitle": "Continuous-variable quantum information"
+   },
+   {
+    "term": "Symplectic matrix",
+    "shortDef": "A matrix that preserves the geometric structure of phase space in Hamiltonian mechanics.",
+    "eli5Def": "A special mathematical grid that describes how quantum waves stretch and squeeze without losing their core properties.",
+    "wikiTitle": "Symplectic matrix"
+   },
+   {
+    "term": "GKP state",
+    "shortDef": "Gottesman-Kitaev-Preskill state, a grid-like quantum state used for error correction.",
+    "eli5Def": "A clever pattern of quantum waves designed to catch and fix mistakes easily.",
+    "wikiTitle": "Gottesman-Kitaev-Preskill state"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

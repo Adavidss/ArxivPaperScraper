@@ -1,0 +1,109 @@
+{
+ "id": "2609.05313",
+ "version": 1,
+ "title": "SAR and InSAR Change Detection with Quantum Generative Models",
+ "authors": [
+  {
+   "name": "Samwel K. Sekwao"
+  },
+  {
+   "name": "Shaunak De"
+  },
+  {
+   "name": "Alexis Hocken"
+  },
+  {
+   "name": "Scott Staniewicz"
+  },
+  {
+   "name": "Evgeny Epifanovsky"
+  },
+  {
+   "name": "Craig Stringham"
+  },
+  {
+   "name": "Gordon Farquharson"
+  },
+  {
+   "name": "Martin Roetteler"
+  },
+  {
+   "name": "Panagiotis Kl. Barkoutsos"
+  },
+  {
+   "name": "Jason Iaconis"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-04T16:07:01Z",
+ "updated": "2026-09-04T16:07:01Z",
+ "abstract": "Change detection in synthetic aperture radar (SAR) and interferometric synthetic aperture radar (InSAR) underpins disaster response, infrastructure monitoring and land-use enforcement. Detection is limited by the background estimator, which conventionally forms a conditional expectation directly from observed pixel statistics and degrades where those statistics are sparse, including the regime produced by the heavy-tailed marginals of sub-meter-resolution radars. In this work, we integrate state-of-the-art satellite imagery with quantum machine learning on IonQ trapped-ion-based quantum processors. By replacing the empirical conditional with a quantum circuit Born machine (QCBM)-sampled generative model in Copula space, we substantially improve change detection on sparse real-world images. On Capella Space satellite image acquisitions, the generative estimator matches conventional methods when the observed statistics are adequate, and substantially outperforms them when they are not. Executing the trained model on IonQ trapped-ion based hardware reproduces the results of the ideal and noisy simulations and demonstrates up to par, or even better, performance with the classical state-of-the-art methods. For a SAR dataset of an airport, QPU circuit evaluations for both training and inference achieved a maximized filtered F1 score of 0.32, compared with 0.16 and 0.24 for the two classical baselines. For an InSAR dataset of a volcanic lava flow, all three methods reached a maximum filtered F1 of approximately 0.66. These experiments demonstrate the feasibility of executing a QCBM-based background estimator on trapped-ion hardware. We further demonstrate that the QCBM method successfully extends to interferometric coherence data, achieving performance comparable to classical approaches.",
+ "comment": "16 pages, 4 figures, and 2 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.05313",
+  "pdf": "https://arxiv.org/pdf/2609.05313",
+  "html": "https://arxiv.org/html/2609.05313"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.05313v1/Figures/Figure1_New.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08T11:39:03.147Z",
+  "hook": "Quantum circuit Born machine estimators achieved a filtered F1 score of 0.32 compared to 0.16 and 0.24 for classical baselines.",
+  "tldr": [
+   "Integrated satellite imagery change detection with quantum machine learning on trapped-ion quantum processors.",
+   "Replaced empirical conditional distributions with a quantum circuit Born machine-sampled generative model in Copula space.",
+   "Matched or outperformed classical methods on sparse real-world satellite images, including airport SAR and volcanic lava InSAR."
+  ],
+  "whyItMatters": "This demonstrates that near-term quantum computers can already be harnessed to solve messy, real-world remote sensing problems where classical algorithms struggle.",
+  "eli5": "Satellites take radar pictures of Earth to spot changes like floods or lava flows, but noisy data can trick computers. Scientists used a quantum computer to better guess what the background looks like, making it easier to spot actual changes on the ground.",
+  "keyNumbers": [
+   {
+    "value": "0.32",
+    "label": "Max F1 score",
+    "context": "Achieved by QPU circuit evaluations for an airport SAR dataset compared to 0.16 and 0.24 classically"
+   },
+   {
+    "value": "0.66",
+    "label": "Max F1 score",
+    "context": "Reached by all methods on an InSAR dataset of a volcanic lava flow"
+   },
+   {
+    "value": "16",
+    "label": "Pages",
+    "context": "Length of the paper manuscript"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Synthetic aperture radar",
+    "shortDef": "A radar imaging technique used to create high-resolution two-dimensional representations of landscapes.",
+    "eli5Def": "A radar system bounced off the Earth from a moving satellite to take crisp pictures even through clouds and darkness.",
+    "wikiTitle": "Synthetic aperture radar"
+   },
+   {
+    "term": "Quantum circuit Born machine",
+    "shortDef": "A generative quantum model that uses the measurement probabilities of quantum circuits to model data.",
+    "eli5Def": "An AI model powered by quantum mechanics that learns to generate realistic data by simulating quantum measurement probabilities.",
+    "wikiTitle": "Quantum machine learning"
+   },
+   {
+    "term": "Trapped-ion",
+    "shortDef": "A leading hardware platform for quantum computing that traps charged atomic ions using electromagnetic fields.",
+    "eli5Def": "A type of quantum computer where individual atoms are held floating in place with lasers and electric fields.",
+    "wikiTitle": "Trapped ion quantum computer"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

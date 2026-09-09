@@ -1,0 +1,91 @@
+{
+ "id": "2609.09129",
+ "version": 1,
+ "title": "Anderson orthogonality scaling in the Rabi-driven heavy Fermi polaron",
+ "authors": [
+  {
+   "name": "Michael Rautenberg"
+  },
+  {
+   "name": "Tobias Krom"
+  },
+  {
+   "name": "Eugen Dizer"
+  },
+  {
+   "name": "Olivier Bleu"
+  },
+  {
+   "name": "Eleonora Lippi"
+  },
+  {
+   "name": "Tilman Enss"
+  },
+  {
+   "name": "Manfred Salmhofer"
+  },
+  {
+   "name": "Lauriane Chomaz"
+  },
+  {
+   "name": "Matthias Weidemüller"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-09-08T17:52:39Z",
+ "updated": "2026-09-08T17:52:39Z",
+ "abstract": "The Anderson orthogonality catastrophe (AOC) is a paradigmatic many-body phenomenon in which a local perturbation induces a macroscopic response of a Fermi sea. We probe signatures of the AOC by coherently driving heavy Fermi polarons in an ultracold $^6$Li-$^{133}$Cs mixture. We observe a power-law dependence of the measured Rabi frequency on the drive strength, with exponents consistent with AOC predictions. Finite-temperature simulations quantitatively reproduce the observed scaling, indicating that AOC signatures persist beyond the idealized zero-temperature, infinite-mass limit. The damping of the Rabi oscillations provides access to polaron dephasing and reveals a nonmonotonic drive dependence, qualitatively consistent with current theories. Our results establish coherently driven impurities as a versatile probe of quantum many-body dynamics through local coherent control.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.09129",
+  "pdf": "https://arxiv.org/pdf/2609.09129",
+  "html": "https://arxiv.org/html/2609.09129"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.09129v1/Gamma_vs_interactions.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09T11:45:11.279Z",
+  "hook": "We observed a power-law dependence of the measured Rabi frequency on the drive strength, consistent with AOC predictions.",
+  "tldr": [
+   "Probed signatures of the Anderson orthogonality catastrophe by coherently driving heavy Fermi polarons in an ultracold Li-Cs mixture.",
+   "Used a mixture of ultracold lithium-6 and cesium-133 atoms with finite-temperature simulations to test theoretical predictions.",
+   "Found power-law dependence in Rabi frequencies and nonmonotonic drive dependence in polaron dephasing."
+  ],
+  "whyItMatters": "Understanding how quantum many-body systems react to local disturbances helps physicists build better quantum technologies and study fundamental material properties.",
+  "eli5": "Imagine a heavy bowling ball dropped into a calm swimming pool, causing waves across the entire pool. Physicists did something very similar with tiny quantum atoms to see how one disturbed particle ripples through a whole crowd of others.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Anderson orthogonality catastrophe",
+    "shortDef": "A many-body phenomenon where a local perturbation induces a macroscopic response of a Fermi sea.",
+    "eli5Def": "When poking one tiny particle causes a huge reaction across an entire crowd of particles.",
+    "wikiTitle": "Anderson orthogonality catastrophe"
+   },
+   {
+    "term": "Fermi polaron",
+    "shortDef": "A quasiparticle formed when an impurity interacts with a surrounding Fermi sea of particles.",
+    "eli5Def": "A foreign object moving through a dense crowd, dragging some of the crowd along with it.",
+    "wikiTitle": "Polaron"
+   },
+   {
+    "term": "Rabi frequency",
+    "shortDef": "The frequency at which a quantum system oscillates when driven by an external field.",
+    "eli5Def": "The speed at which a quantum system flips back and forth when you push it.",
+    "wikiTitle": "Rabi frequency"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

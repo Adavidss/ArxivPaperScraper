@@ -1,0 +1,74 @@
+{
+ "id": "2609.09091",
+ "version": 1,
+ "title": "Impossibility of One-Way One-Round Quantum 4-Coloring via Matrix-Space Stability",
+ "authors": [
+  {
+   "name": "Tom Gur"
+  },
+  {
+   "name": "Longcheng Li"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.DC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-08T17:35:18Z",
+ "updated": "2026-09-08T17:35:18Z",
+ "abstract": "We show that one-way one-round quantum LOCAL algorithms cannot $4$-color directed cycles with high probability, even with unbounded local computation and quantum message length. This is the first lower bound in the high-probability quantum LOCAL setting that goes beyond the non-signaling and bounded-dependence models, exploiting the structure of distributed quantum algorithms. Our proof connects distributed quantum computing with noncommutative extremal combinatorics by identifying local collision probabilities with the weighted multiplicative energy of matrix-space decompositions. We obtain our lower bound by proving a dimension-independent weighted stability theorem for a directed noncommutative analogue of Mantel's theorem.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.09091",
+  "pdf": "https://arxiv.org/pdf/2609.09091",
+  "html": "https://arxiv.org/html/2609.09091"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09T11:45:11.279Z",
+  "hook": "One-way one-round quantum LOCAL algorithms cannot 4-color directed cycles with high probability.",
+  "tldr": [
+   "Proved that one-way one-round quantum LOCAL algorithms cannot color directed cycles with four colors.",
+   "Connected distributed quantum computing with noncommutative extremal combinatorics using matrix-space stability.",
+   "Obtained the lower bound by proving a dimension-independent weighted stability theorem for Mantel's theorem."
+  ],
+  "whyItMatters": "This establishes fundamental limits on what distributed quantum computers can achieve in a single round of communication.",
+  "eli5": "Researchers proved that even with unlimited computing power, a quantum computer cannot solve a specific coloring puzzle across a network if it is only allowed to send messages in one direction once.",
+  "keyNumbers": [
+   {
+    "value": "4",
+    "label": "Colors",
+    "context": "Maximum number of colors for directed cycles in quantum algorithms"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "quantum LOCAL algorithms",
+    "shortDef": "Distributed algorithms running on quantum networks with local communication constraints.",
+    "eli5Def": "Computer programs running across a network of quantum devices that can only talk to their immediate neighbors.",
+    "wikiTitle": "Locality (quantum mechanics)"
+   },
+   {
+    "term": "noncommutative extremal combinatorics",
+    "shortDef": "A branch of mathematics studying structures where multiplication order matters.",
+    "eli5Def": "Math puzzles where doing things in a different order changes the final answer.",
+    "wikiTitle": "Combinatorics"
+   },
+   {
+    "term": "Mantel's theorem",
+    "shortDef": "A graph theory theorem determining the maximum number of edges in a triangle-free graph.",
+    "eli5Def": "A math rule about how to connect dots without forming certain shapes.",
+    "wikiTitle": "Mantel's theorem"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

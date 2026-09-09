@@ -1,0 +1,70 @@
+{
+ "id": "2609.09139",
+ "version": 1,
+ "title": "Large-scale dynamics of integrable quenches",
+ "authors": [
+  {
+   "name": "David X. Horvath"
+  },
+  {
+   "name": "Bruno Bertini"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-09-08T17:56:05Z",
+ "updated": "2026-09-08T17:56:05Z",
+ "abstract": "The Ballistic Macroscopic Fluctuation Theory (BMFT) is a path-integral based approach to treat large-scale correlations in interacting integrable systems which, so far, has only been applied to quasi-equilibrium settings. In this paper we extend this approach to integrable quench problems and, to illustrate it, we compute the time evolution of the full-counting-statistics (FCS) of a conserved charge. We identify the relevant path integral, solve it via saddle-point, and obtain a set of partial differential equations describing the dynamics of the FCS. We solve these equations explicitly for free fermionic systems and for the interacting cellular automaton Rule 54. In both cases, we recover the known exact results. For Rule 54, our construction moreover completes the solution across the entire ballistic window.",
+ "comment": "32 pages 5 fihures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.09139",
+  "pdf": "https://arxiv.org/pdf/2609.09139",
+  "html": "https://arxiv.org/html/2609.09139"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.09139v1/R54Geom1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09T11:45:11.279Z",
+  "hook": "New path-integral approach extends Ballistic Macroscopic Fluctuation Theory to solve integrable quench dynamics.",
+  "tldr": [
+   "Extended Ballistic Macroscopic Fluctuation Theory (BMFT) from quasi-equilibrium settings to integrable quench problems.",
+   "Identified the relevant path integral, solved it via saddle-point approximation, and derived partial differential equations for full-counting-statistics.",
+   "Solved the equations explicitly for free fermions and cellular automaton Rule 54, matching exact known results across the ballistic window."
+  ],
+  "whyItMatters": "Understanding how closed quantum systems evolve far from equilibrium is a core puzzle in modern statistical mechanics. This analytical breakthrough provides exact mathematical solutions for complex many-body dynamics.",
+  "eli5": "Imagine a long line of dominoes where every push has strict mathematical rules. Physicists found a way to write down equations that describe the exact wave of chaos spreading down the line, unlocking precise answers for how ordered systems break down.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Integrable systems",
+    "shortDef": "Quantum or classical systems with enough conserved quantities to be solved exactly.",
+    "eli5Def": "Puzzles that are so orderly and symmetric that you can solve them down to the last detail without guessing.",
+    "wikiTitle": "Integrable system"
+   },
+   {
+    "term": "Full-counting-statistics (FCS)",
+    "shortDef": "The complete probability distribution of transfers or observables in a quantum system.",
+    "eli5Def": "A complete accounting of the odds for every possible outcome of a measurement, rather than just the average.",
+    "wikiTitle": "Full counting statistics"
+   },
+   {
+    "term": "Path integral",
+    "shortDef": "A formulation of quantum mechanics that sums over every possible history a system could take.",
+    "eli5Def": "Calculating an outcome by adding up every weird alternative route the universe could have taken.",
+    "wikiTitle": "Path integral formulation"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

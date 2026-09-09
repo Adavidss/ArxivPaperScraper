@@ -1,0 +1,93 @@
+{
+ "id": "2609.09125",
+ "version": 1,
+ "title": "Few-body bound states in the anyon-Hubbard model",
+ "authors": [
+  {
+   "name": "Isaac Tesfaye"
+  },
+  {
+   "name": "Christina Mascherbauer"
+  },
+  {
+   "name": "Joyce Kwan"
+  },
+  {
+   "name": "Perrin Segura"
+  },
+  {
+   "name": "Yanfei Li"
+  },
+  {
+   "name": "Markus Greiner"
+  },
+  {
+   "name": "Luis Santos"
+  },
+  {
+   "name": "André Eckardt"
+  },
+  {
+   "name": "Brice Bakkali-Hassani"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "cond-mat.mes-hall",
+  "cond-mat.str-el",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-09-08T17:50:59Z",
+ "updated": "2026-09-08T17:50:59Z",
+ "abstract": "Quantum statistics in low-dimensional systems predicts anyonic particles with fractional exchange statistics which are neither that of bosons nor fermions. While anyons are typically found in two dimensions as excitations of topologically-ordered states of matter, anyon-like exchange statistics has also been discussed in one dimension, for instance, in the context of the anyon-Hubbard model (AHM), the physics of which has recently been observed in experiment [Kwan et al., arXiv:2306.01737; Dhar et al., arXiv:2412.21131; and Bakkali-Hassani et al., arXiv:2602.20421]. The AHM can be formulated in terms of bosons featuring density-dependent Peierls phases, described by a statistical phase angle $θ$, which controls asymmetric transport and the formation of dynamically bound pairs at finite momentum. Here, we show theoretically that the AHM also hosts exact two-body bound states in the continuum (BICs) for arbitrary $θ\\neq 0$, and genuine three- and four-body bound states. Unlike conventional bound states stabilized by attractive (or repulsive) interactions, which are energetically localized with a large effective mass, these clusters here are bound by a purely kinematic mechanism endowing them with fast chiral transport properties. We provide a simple variational approximation to the three-body bound states and explain their binding mechanism. Moreover, we show that the signatures of three-body bound states in the AHM can be directly probed experimentally from the expansion dynamics starting from three localized particles.",
+ "comment": "12 + 32 pages, 9 + 10 figures. Comments are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.09125",
+  "pdf": "https://arxiv.org/pdf/2609.09125",
+  "html": "https://arxiv.org/html/2609.09125"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.09125v1/fig2_full.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09T11:45:11.279Z",
+  "hook": "The anyon-Hubbard model hosts exact two-body bound states and genuine three- and four-body bound states.",
+  "tldr": [
+   "Showed theoretically that the anyon-Hubbard model hosts exact bound states for arbitrary statistical phase angles.",
+   "Used a simple variational approximation to study three-body bound states and their kinematic binding mechanism.",
+   "Demonstrated that these bound clusters exhibit fast chiral transport and can be probed via expansion dynamics."
+  ],
+  "whyItMatters": "Discovering new ways particles bind together without standard attractive forces expands our fundamental understanding of exotic states of matter.",
+  "eli5": "Instead of glue holding particles together like regular magnets, these particles stick together purely because of the special geometric rules of the game they are playing, letting them zoom around quickly.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "anyon",
+    "shortDef": "A type of quasiparticle in low dimensions with fractional exchange statistics.",
+    "eli5Def": "A weird particle that is neither a boson nor a fermion, acting by its own strange rules when they swap places.",
+    "wikiTitle": "Anyon"
+   },
+   {
+    "term": "anyon-Hubbard model",
+    "shortDef": "A model describing particles with density-dependent Peierls phases and fractional statistics.",
+    "eli5Def": "A mathematical board game simulating how strange particles move and interact on a grid.",
+    "wikiTitle": null
+   },
+   {
+    "term": "bound state in the continuum",
+    "shortDef": "A localized quantum state that coexists with continuous energy spectrum states.",
+    "eli5Def": "A stable group of particles that refuses to break apart even though it is surrounded by an open environment.",
+    "wikiTitle": "Bound state in the continuum"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

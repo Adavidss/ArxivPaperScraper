@@ -1,0 +1,123 @@
+{
+ "id": "2609.07776",
+ "version": 1,
+ "title": "QROB: Quantifying Realization Overhead in Quantum Compilation via Reverse Construction",
+ "authors": [
+  {
+   "name": "Jintao Li"
+  },
+  {
+   "name": "Kaiqi Li"
+  },
+  {
+   "name": "Rui Wang"
+  },
+  {
+   "name": "Yilun Zhao"
+  },
+  {
+   "name": "Kaixuan Huang"
+  },
+  {
+   "name": "Ying Wang"
+  },
+  {
+   "name": "Jialin Zhang"
+  },
+  {
+   "name": "Zheng-An Wang"
+  },
+  {
+   "name": "Xiaoming Sun"
+  },
+  {
+   "name": "Heng Fan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.AR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-07T17:24:27Z",
+ "updated": "2026-09-07T17:24:27Z",
+ "abstract": "Quantum compilation reconciles a program's idealized interaction topology with hardware locality constraints, yet evaluations at scale lack calibrated references for realization overhead. We present QROB, a scalable reverse-construction methodology that generates compilation instances backward from directly realizable configurations, retaining the inverse paths as feasible, compiler-independent references. QROB provides a common evaluation substrate for NISQ SWAP routing and fault-tolerant lattice-surgery scheduling, while extending its reference-preserving principle to capacity-constrained quantum memory-access scheduling. Across systems ranging from 9 to 156 qubits, evaluations highlight QROB's utility as both a diagnostic benchmark and a data source. First, for compiler characterization, QROB reveals substantial realization gaps in existing tools, with NISQ compilers incurring up to 24.1x the reference SWAP cost and fault-tolerant compilers requiring up to 7.0x the reference makespan. Second, as a supervision source for data-driven compilation, a router trained on QROB references outperforms Qiskit SABRE on 84.8% of real-world application circuits. Finally, on real hardware, QROB reference realizations achieve a median mirror-circuit survival rate 1.65x that of full Qiskit O3 compilations across three 156-qubit IBM Heron-r2 processors, demonstrating that closing algorithmic compilation gaps translates directly into physical fidelity gains.",
+ "comment": "Accepted to the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.07776",
+  "pdf": "https://arxiv.org/pdf/2609.07776",
+  "html": "https://arxiv.org/html/2609.07776"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.07776v1/qrob_framework4.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09T11:45:11.279Z",
+  "hook": "Existing quantum compilers incur up to 24.1x excess SWAP costs, but QROB closes the gap to boost physical survival by 1.65x.",
+  "tldr": [
+   "Introduced QROB, a reverse-construction methodology to generate calibration references and evaluate quantum compilation overhead.",
+   "Generated compilation instances backward from realizable configurations across systems ranging from 9 to 156 qubits.",
+   "Found current NISQ compilers incur up to 24.1x excess SWAP costs, while QROB reference realizations boosted hardware survival rates 1.65x."
+  ],
+  "whyItMatters": "Quantum computers are heavily restricted by physical layout limits, meaning smart translation software is crucial. This work exposes massive flaws in current software and provides a benchmark that immediately makes real quantum hardware run better.",
+  "eli5": "Imagine trying to pack moving boxes into a car trunk, but you are forced to use a clumsy packing robot that takes 24 times more steps than necessary. The researchers invented a clever way to work backward from a perfectly packed trunk, creating a cheat sheet that helps the robot pack efficiently and keep fragile items safe.",
+  "keyNumbers": [
+   {
+    "value": "9 to 156",
+    "label": "Qubit range",
+    "context": "Evaluations span systems ranging from 9 to 156 qubits."
+   },
+   {
+    "value": "24.1x",
+    "label": "Max NISQ overhead",
+    "context": "NISQ compilers incur up to 24.1x the reference SWAP cost."
+   },
+   {
+    "value": "7.0x",
+    "label": "Max fault-tolerant overhead",
+    "context": "Fault-tolerant compilers require up to 7.0x the reference makespan."
+   },
+   {
+    "value": "1.65x",
+    "label": "Survival rate boost",
+    "context": "QROB reference realizations achieve a median mirror-circuit survival rate 1.65x that of full Qiskit O3 compilations."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum compilation",
+    "shortDef": "Translating high-level quantum programs into physical instructions that match hardware constraints.",
+    "eli5Def": "Turning a blueprint for a quantum calculation into actual steps a quantum computer can execute.",
+    "wikiTitle": "Quantum compiler"
+   },
+   {
+    "term": "NISQ",
+    "shortDef": "Noisy Intermediate-Scale Quantum; current era of quantum computers with limited qubits and noise.",
+    "eli5Def": "Today's toddler-stage quantum computers that make mistakes and have a limited number of building blocks.",
+    "wikiTitle": "Noisy intermediate-scale quantum technology"
+   },
+   {
+    "term": "Lattice-surgery",
+    "shortDef": "A topological method for performing operations in fault-tolerant surface codes.",
+    "eli5Def": "A technique for fusing and cutting patches of error-corrected quantum information.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Mirror-circuit",
+    "shortDef": "A circuit composed of an operation followed by its inverse, used to test hardware fidelity.",
+    "eli5Def": "Doing a trick and then doing it completely in reverse to see how much error crept in.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

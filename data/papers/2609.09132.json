@@ -1,0 +1,75 @@
+{
+ "id": "2609.09132",
+ "version": 1,
+ "title": "Near-optimal synthesis of non-Gaussian phase gates via qubit-oscillator Rabi control",
+ "authors": [
+  {
+   "name": "Zhen Yang"
+  },
+  {
+   "name": "Shan Jin"
+  },
+  {
+   "name": "Zi-Wen Liu"
+  },
+  {
+   "name": "Xiaoting Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-08T17:53:18Z",
+ "updated": "2026-09-08T17:53:18Z",
+ "abstract": "Non-Gaussian gates remain a key bottleneck for universal continuous-variable (CV) quantum computation because the nonlinearities they require are difficult to engineer. To address this challenge, we develop an efficient qubit-oscillator Rabi synthesis scheme for polynomial phase gates, with a total interaction time that scales polylogarithmically with the inverse target error \\(\\varepsilon\\). Specifically, for a class of readily preparable initial states, we show that a degree-\\(R\\) phase gate can be approximated by an analytically constructed Rabi sequence with total time \\(O(\\log^{(R-1)/2+o(1)}(1/\\varepsilon))\\). This construction requires no numerical optimization and therefore extends naturally to arbitrarily large multimode systems. We further establish a total-time lower bound of \\(Ω(\\log^{(R-1)/2}(1/\\varepsilon))\\), showing that the synthesis is near optimal. As applications, we use this scheme to simulate representative CV quantum dynamics and implement a CV quantum algorithm for solving linear partial differential equations. These results establish qubit-oscillator Rabi control as an efficient, analytically compilable, and near-optimal primitive for CV quantum information processing.",
+ "comment": "39 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.09132",
+  "pdf": "https://arxiv.org/pdf/2609.09132",
+  "html": "https://arxiv.org/html/2609.09132"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.09132v1/HHL.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09T11:45:11.279Z",
+  "hook": "A new Rabi control scheme synthesizes non-Gaussian phase gates with polylogarithmic time scaling near the lower bound.",
+  "tldr": [
+   "Developed a qubit-oscillator Rabi synthesis scheme for polynomial phase gates requiring no numerical optimization.",
+   "Constructed analytical Rabi sequences achieving a total time scaling of polylogarithmically with inverse target error.",
+   "Established a matching total-time lower bound, proving the synthesis scheme is near-optimal for continuous-variable quantum computing."
+  ],
+  "whyItMatters": "Non-Gaussian gates are notoriously difficult to implement in continuous-variable quantum computers, forming a major bottleneck for universal quantum computing. This near-optimal analytical recipe removes the need for brute-force numerical optimization.",
+  "eli5": "Continuous-variable quantum computers encode information smoothly like a dimmer switch rather than an on-off light switch. Applying certain crucial mathematical twists to these dimmer switches was painfully hard, but this new control sequence lets scientists apply those twists cleanly and efficiently.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Non-Gaussian gates",
+    "shortDef": "Quantum operations that introduce necessary nonlinearities for universal continuous-variable quantum computing.",
+    "eli5Def": "Specialized quantum switches that bend rules in a way that standard linear operations cannot.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Rabi control",
+    "shortDef": "Manipulating a quantum system by driving coherent oscillations between energy states using an external field.",
+    "eli5Def": "Tuning a quantum system back and forth like pushing a swing at just the right frequency.",
+    "wikiTitle": "Rabi cycle"
+   },
+   {
+    "term": "Continuous-variable (CV)",
+    "shortDef": "Quantum information processing based on continuous degrees of freedom like field quadratures.",
+    "eli5Def": "Using continuous wave properties instead of discrete yes/no bits for computation.",
+    "wikiTitle": "Continuous-variable quantum information"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

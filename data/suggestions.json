@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-08T11:39:03.147Z",
+ "generatedAt": "2026-09-09T11:45:11.279Z",
  "suggestions": [
   {
    "name": "Martin B. Plenio",
@@ -20,6 +20,48 @@
    "recentTitles": [
     "Thermalization of open quantum systems with pseudomodes",
     "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Lauriane Chomaz",
+   "slug": "lauriane-chomaz",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "cond-mat.quant-gas"
+   ],
+   "paperIds": [
+    "2609.09129",
+    "2608.27322",
+    "2608.20327"
+   ],
+   "recentTitles": [
+    "Anderson orthogonality scaling in the Rabi-driven heavy Fermi polaron",
+    "The heavy Fermi polaron I: the Lithium-Cesium experiment"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Markus Greiner",
+   "slug": "markus-greiner",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "cond-mat.quant-gas",
+    "physics.atom-ph",
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.09125",
+    "2608.18071",
+    "2608.09924"
+   ],
+   "recentTitles": [
+    "Few-body bound states in the anyon-Hubbard model",
+    "Ultrafast and high resolution spatial light modulation for cold atoms"
    ],
    "paperCount": 3
   },
@@ -163,46 +205,6 @@
    "recentTitles": [
     "Quantum simulation of non-Markovian dynamical systems",
     "Learning Clifford-structured quantum unitaries and Hamiltonians"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Yusheng Zhao",
-   "slug": "yusheng-zhao",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2608.03987",
-    "2607.21533",
-    "2607.14082"
-   ],
-   "recentTitles": [
-    "Realified tensor networks: quantum circuit simulation on real-valued matrix accelerators",
-    "Benchmarking Agents for Proving Theorems in Quantum Algorithms and Quantum Information"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Liang Jiang",
-   "slug": "liang-jiang",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2607.28605",
-    "2607.21555",
-    "2607.21554"
-   ],
-   "recentTitles": [
-    "Logical computation with canonical lifted product codes",
-    "Enhancing Entanglement Purification with Shared Randomness"
    ],
    "paperCount": 3
   }

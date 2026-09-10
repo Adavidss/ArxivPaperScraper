@@ -1,0 +1,85 @@
+{
+ "id": "2609.10520",
+ "version": 1,
+ "title": "Private communication via zero-private-capacity quantum channels",
+ "authors": [
+  {
+   "name": "Chengkai Zhu"
+  },
+  {
+   "name": "Xin Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-09T17:51:54Z",
+ "updated": "2026-09-09T17:51:54Z",
+ "abstract": "Private communication over a noisy quantum channel requires reliable transmission to the receiver and secrecy from the environment. Whether two channels with zero private capacity can jointly enable private communication is a longstanding open problem in quantum information theory. Here we resolve this problem by exhibiting a four-level channel and a qubit erasure channel with half erasure probability, each with zero private capacity, whose joint use achieves more than 0.0001903 private bits per product use. The encoding gives the receiver a linear information gain with at most quadratic environmental leakage, enabling privacy through a fixed joint measurement and classical coding. This superactivation, impossible for independent classical memoryless wiretap channels, shows that a channel's private capacity alone does not determine its value for secure communication. The initial activation example was identified through interactions with large language models, and the result has been formalized in Lean 4.",
+ "comment": "14 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.10520",
+  "pdf": "https://arxiv.org/pdf/2609.10520",
+  "html": "https://arxiv.org/html/2609.10520"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-10T11:42:45.436Z",
+  "hook": "Two quantum channels with zero private capacity can combine to transmit over 0.0001903 secret bits per use.",
+  "tldr": [
+   "Tackled whether two quantum communication channels with zero private capacity can jointly transmit secret data.",
+   "Combined a four-level channel with a qubit erasure channel using a custom joint measurement and classical coding.",
+   "Demonstrated superactivation yielding over 0.0001903 private bits per use, verified formally in Lean 4."
+  ],
+  "whyItMatters": "This settles a long-standing question in quantum information, proving that individually useless channels can become secure when paired together.",
+  "eli5": "Imagine two walkie-talkies that are completely insecure on their own because eavesdroppers hear everything. Amazingly, if you broadcast across both at the same time in a clever way, the spy gets only static while your friend hears your secrets perfectly.",
+  "keyNumbers": [
+   {
+    "value": "> 0.0001903",
+    "label": "private bits per product use",
+    "context": "Secret communication rate achieved by combining the two zero-capacity channels."
+   },
+   {
+    "value": "0.5",
+    "label": "erasure probability",
+    "context": "The erasure probability of the qubit erasure channel used in the protocol."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Private capacity",
+    "shortDef": "The maximum rate at which secret information can be reliably sent through a channel without eavesdropper access.",
+    "eli5Def": "How many secret words per second you can send through a wire without anyone spying on you.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Superactivation",
+    "shortDef": "A phenomenon where two zero-capacity channels exhibit non-zero capacity when used together.",
+    "eli5Def": "When two completely broken communication lines magically work together to carry a signal.",
+    "wikiTitle": "Superactivation"
+   },
+   {
+    "term": "Erasure channel",
+    "shortDef": "A communication channel where bits or qubits are either transmitted intact or lost with known probability.",
+    "eli5Def": "A pipe that either delivers your message perfectly or replaces it with a blank 'oops, lost it' note.",
+    "wikiTitle": "Binary erasure channel"
+   },
+   {
+    "term": "Lean 4",
+    "shortDef": "A functional programming language and interactive theorem prover based on dependent type theory.",
+    "eli5Def": "A specialized computer program used by scientists to mathematically verify that a proof has zero mistakes.",
+    "wikiTitle": "Lean (proof assistant)"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

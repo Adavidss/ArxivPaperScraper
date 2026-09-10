@@ -1,0 +1,79 @@
+{
+ "id": "2609.10533",
+ "version": 1,
+ "title": "Noether Symmetries Generate Deterministic Energy-Harvesting Protocols",
+ "authors": [
+  {
+   "name": "Ali Akil"
+  },
+  {
+   "name": "M. Hamed Mohammady"
+  },
+  {
+   "name": "Zihan Wang"
+  },
+  {
+   "name": "Oscar Dahlsten"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-09T17:58:08Z",
+ "updated": "2026-09-09T17:58:08Z",
+ "abstract": "We consider the general principles for when deterministic energy harvesting (DEH) is possible. DEH means absorbing energy from a fluctuating source without entropy being absorbed. We show that the symmetry structure of the source--harvester dynamics gives a general route beyond existing examples to identify DEH capable source states. Any continuous symmetry with a conserved Noether charge induces a source-side orbit of states that all implement the same deterministic harvester transition, provided the harvester boundary states are symmetry invariant. Consequently, one DEH capable source state with nonzero asymmetry between charge sectors can generate infinitely many simultaneously DEH capable source states. A Jaynes-Cummings model, a three-spin XX chain, and an SU(2) model illustrate the construction. We further extend Noether's theorem to generalised probabilistic theories and thereby generalise our main result. We further establish an asymmetry bound for harvesting, showing that source asymmetry cannot increase on average, while DEH saturates the bound exactly preserving asymmetry.",
+ "comment": "5 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.10533",
+  "pdf": "https://arxiv.org/pdf/2609.10533",
+  "html": "https://arxiv.org/html/2609.10533"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-10T11:42:45.436Z",
+  "hook": "Continuous Noether symmetries can turn noisy energy sources into deterministic, zero-entropy fuel.",
+  "tldr": [
+   "Studied general principles enabling deterministic energy harvesting without absorbing unwanted entropy.",
+   "Used continuous symmetries and conserved Noether charges to generate orbits of harvest-capable states.",
+   "Proved an asymmetry bound where source asymmetry cannot increase, and showed deterministic harvesting saturates it."
+  ],
+  "whyItMatters": "Finding clean ways to extract pure work from fluctuating quantum systems is a core hurdle in developing nanoscale engines and quantum batteries.",
+  "eli5": "Imagine a wildly shaking table. Normally, grabbing energy from it gives you a mess of random heat, but by matching the symmetry of the shakes, you can turn that chaotic motion into perfectly smooth, predictable power.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Deterministic energy harvesting",
+    "shortDef": "Extracting usable energy from a fluctuating source without simultaneously transferring entropy.",
+    "eli5Def": "Pulling out pure useful power from a jittery battery without letting any random mess or heat leak in.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Noether charge",
+    "shortDef": "A conserved quantity associated with a continuous symmetry in a physical system.",
+    "eli5Def": "A conserved value, like momentum or electric charge, that stays steady whenever nature has a matching symmetry.",
+    "wikiTitle": "Noether's theorem"
+   },
+   {
+    "term": "Generalised probabilistic theories",
+    "shortDef": "Broad theoretical frameworks that generalize classical and quantum mechanics to study operational physics.",
+    "eli5Def": "A mathematical playground containing all possible physics theories that play by basic probability rules.",
+    "wikiTitle": "Generalized probabilistic theory"
+   },
+   {
+    "term": "Jaynes-Cummings model",
+    "shortDef": "A standard theoretical model describing a two-level quantum atom interacting with a quantized cavity mode.",
+    "eli5Def": "A classic test setup of a single quantum atom trapped in a tiny mirrored box talking to a particle of light.",
+    "wikiTitle": "Jaynes–Cummings model"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

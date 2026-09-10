@@ -1,0 +1,50 @@
+{
+ "date": "2026-09-10",
+ "generatedAt": "2026-09-10T11:42:45.436Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum Limits in Correlation, Capacity, and Dynamics",
+ "summary": "Today's papers explore the foundational boundaries separating quantum from classical systems across multiple fronts. Theoretical results pin down the exact criteria governing non-local correlations and non-classical dynamics, while operational studies establish rigorous limits on quantum tomography, superactivation of private capacity, and monitored transport.",
+ "themes": [
+  {
+   "title": "Foundations of Quantum Correlations",
+   "body": "Studies establish rigorous bounds distinguishing quantum correlations from classical and general post-quantum behaviors via information causality and distinct vacuum fluctuation signatures.",
+   "paperIds": [
+    "2609.10508",
+    "2609.10535"
+   ]
+  },
+  {
+   "title": "Quantum Information and Operational Limits",
+   "body": "Works quantify fundamental operational constraints in quantum networks and tomography, uncovering superactivation of zero-private-capacity channels and tight bounds for bounded-sample measurements.",
+   "paperIds": [
+    "2609.10520",
+    "2609.10514"
+   ]
+  },
+  {
+   "title": "Thermodynamics and Open Dynamics",
+   "body": "Investigations into physical dynamics reveal how Noether symmetries govern deterministic energy harvesting and how monitoring drives return phase transitions in long-range walks.",
+   "paperIds": [
+    "2609.10533",
+    "2609.10510"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers interrogate what fundamentally separates classical from quantum physics beyond traditional Bell-type inequalities, using information-theoretic principles and Hamiltonian evolution footprints respectively.",
+   "paperIds": [
+    "2609.10508",
+    "2609.10535"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2609.10535",
+  "2609.10533",
+  "2609.10520",
+  "2609.10514",
+  "2609.10510",
+  "2609.10508"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "2609.10510",
+ "version": 1,
+ "title": "Phase transitions in first-detection statistics of monitored long-range quantum walks",
+ "authors": [
+  {
+   "name": "Sayan Roy"
+  },
+  {
+   "name": "Shamik Gupta"
+  },
+  {
+   "name": "Giovanna Morigi"
+  },
+  {
+   "name": "Gabriele Perfetto"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.other",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-09T17:45:58Z",
+ "updated": "2026-09-09T17:45:58Z",
+ "abstract": "In a quantum walk, the first-detection return probability (FDRP) characterizes salient features, determining whether the quantum walk is transient or recurrent. We study the FDRP of quantum walks on a chain where the initial site is stroboscopically monitored by a detector and the walker performs long-range hopping between sites. We assume that the hopping strength decays with the distance $d$ as $d^{-α}$ and $α\\geq 0$ and show that the power-law exponent $α$ critically determines the behavior of the FDRP. The value $α=1$ separates recurrent ($α<1$) from transient ($α>1$) quantum walks through a continuous phase transition in the total detection probability. For $α<1$, strong long-range hopping induces localization, resulting in unit total detection probability. Instead, for $α>1$ the long-range walk is transient and the return probability decays algebraically as a function of time as $t^{-β}$. The associated decay exponent $β$ features nonanalytic points as a function of $α$. Such singularities are not exclusively determined by the low-energy spectrum, but are caused by the interference between infrared and ultraviolet energy modes induced by projective measurements, signalling the emergence of critical behavior intrinsic to the non-unitary dynamics. These dynamics are solely controlled by tuning the long-range exponent $α$ and can thus be experimentally probed in atomic and molecular systems.",
+ "comment": "27 pages (7 main text + 20 supplemental material), 10 figures (3 figures + 7 supplemental figures)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.10510",
+  "pdf": "https://arxiv.org/pdf/2609.10510",
+  "html": "https://arxiv.org/html/2609.10510"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.10510v1/Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-10T11:42:45.436Z",
+  "hook": "A sharp phase transition at exponent α=1 decides whether a monitored long-range quantum walker ever returns home.",
+  "tldr": [
+   "Analyzed the first-detection return probability of a 1D quantum walk with long-range hopping monitored at the origin.",
+   "Modeled hopping strength decaying as d^-α and applied periodic projective measurements at the starting site.",
+   "Found a continuous transition at α=1: walkers localize and return for α<1, but escape with power-law decay t^-β for α>1."
+  ],
+  "whyItMatters": "Repeated measurements alter quantum motion, and showing how long-range interactions flip a system from trapped to escaping guides the design of quantum search algorithms and atom-array simulators.",
+  "eli5": "Imagine a quantum particle wandering along a line that can take huge leaps. A detector repeatedly checks if it came back home; if leaping far is easy enough (α < 1), the particle gets trapped nearby and is guaranteed to be caught, but if long leaps are hard (α > 1), it drifts away forever.",
+  "keyNumbers": [
+   {
+    "value": "α = 1",
+    "label": "critical exponent",
+    "context": "separates recurrent (α < 1) from transient (α > 1) quantum walks via a continuous phase transition"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "quantum walk",
+    "shortDef": "Quantum counterpart of a classical random walk, where particles propagate via quantum superposition.",
+    "eli5Def": "A random walk where the walker travels down all possible paths simultaneously instead of picking one at random.",
+    "wikiTitle": "Quantum walk"
+   },
+   {
+    "term": "transient",
+    "shortDef": "A state or walk where the probability of eventually returning to the initial position is strictly less than 1.",
+    "eli5Def": "A journey where the traveler wanders away and might never come back.",
+    "wikiTitle": "Markov chain"
+   },
+   {
+    "term": "recurrent",
+    "shortDef": "A walk where the particle is guaranteed to eventually return to its starting point with probability 1.",
+    "eli5Def": "A wanderer that is completely guaranteed to return home eventually.",
+    "wikiTitle": "Markov chain"
+   },
+   {
+    "term": "projective measurement",
+    "shortDef": "A quantum measurement that collapses the state of a system onto an eigenspace of the measured observable.",
+    "eli5Def": "Checking on a particle so firmly that its fuzzy cloud of possibilities snaps into a definite state.",
+    "wikiTitle": "Measurement in quantum mechanics"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

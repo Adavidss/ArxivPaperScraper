@@ -1,0 +1,82 @@
+{
+ "id": "2609.10514",
+ "version": 1,
+ "title": "Optimal Low-Rank Quantum State Tomography with Bounded-Sample Joint Measurements",
+ "authors": [
+  {
+   "name": "Ashwin Nayak"
+  },
+  {
+   "name": "Xingyu Zhou"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.DS",
+  "cs.IT",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-09T17:48:41Z",
+ "updated": "2026-09-09T17:48:41Z",
+ "abstract": "We determine the optimal sample complexity of low-rank quantum state tomography when each measurement may act jointly on at most $t$ samples. For sufficiently small $\\varepsilon$, estimating an unknown state on $\\mathbb{C}^d$ of rank at most $r$ to trace norm error $\\varepsilon$ with constant success probability requires, and is achievable with, $$ Θ\\left( \\frac{dr}{\\varepsilon^2} \\max\\left\\{1,\\frac r{\\sqrt t}\\right\\} \\right)$$ samples. The lower bound allows the protocol to choose each joint measurement adaptively using all previous classical outcomes; the matching upper bound is nonadaptive. Thus joint measurements on at most $t$ samples improve the complexity of algorithms making single-sample measurements by at most a factor $\\sqrt t$. Further, measuring order $r^2$ samples jointly is necessary and sufficient to attain the unrestricted collective rate. For the lower bound, we vary the support of a state with fixed uniform spectrum and bound the Fisher information trace of every joint measurement on $t$ samples. The adaptive Fisher chain rule and the van Trees inequality then give the trace norm lower bound. For the upper bound, we construct and analyze a nonadaptive tomography protocol based on a Gaussian joint measurement. An explicit second moment identity and a conditional Gaussian law outside the state's support give a rank-dependent error analysis, yielding the matching rate.",
+ "comment": "70 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.10514",
+  "pdf": "https://arxiv.org/pdf/2609.10514",
+  "html": "https://arxiv.org/html/2609.10514"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-10T11:42:45.436Z",
+  "hook": "Joint measurements on t quantum samples improve state estimation efficiency by at most a factor of √t.",
+  "tldr": [
+   "Determined the optimal sample complexity for low-rank quantum state tomography with bounded joint measurements.",
+   "Proved matching bounds using Fisher information and the van Trees inequality, alongside a Gaussian joint measurement scheme.",
+   "Showed measuring r² samples jointly is both necessary and sufficient to match unrestricted collective performance."
+  ],
+  "whyItMatters": "Quantum computers require state tomography to verify their operations; knowing exact hardware measurement limits helps engineers benchmark quantum processors efficiently.",
+  "eli5": "If you are trying to reconstruct the shape of an unknown loaded die, rolling and inspecting several dice at once gives you better clues. This work pins down the exact mathematical speedup you get when inspecting batches of quantum dice together.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum state tomography",
+    "shortDef": "The process of fully reconstructing an unknown quantum state using a collection of measurements.",
+    "eli5Def": "Taking lots of quantum snapshots from different angles to build a complete 3D model of a quantum particle.",
+    "wikiTitle": "Quantum tomography"
+   },
+   {
+    "term": "Sample complexity",
+    "shortDef": "The number of independent copies of a quantum state needed to learn its properties within a target error.",
+    "eli5Def": "How many identical test items you need to destroy or measure before you are sure what they were.",
+    "wikiTitle": "Sample complexity"
+   },
+   {
+    "term": "Trace norm",
+    "shortDef": "A matrix norm defining a standard distance measure between quantum states.",
+    "eli5Def": "A mathematical ruler used to calculate how different two quantum setups really are.",
+    "wikiTitle": "Trace norm"
+   },
+   {
+    "term": "Fisher information",
+    "shortDef": "A measure of the amount of information an observable random variable carries about an unknown parameter.",
+    "eli5Def": "A score telling you how much useful detail a test reveals about a secret setting you are trying to guess.",
+    "wikiTitle": "Fisher information"
+   },
+   {
+    "term": "Van Trees inequality",
+    "shortDef": "A Bayesian version of the Cramér–Rao bound placing a lower limit on estimation error.",
+    "eli5Def": "A fundamental math rule showing the absolute minimum error you can achieve when estimating something.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

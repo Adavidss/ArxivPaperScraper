@@ -1,0 +1,79 @@
+{
+ "id": "2609.10535",
+ "version": 1,
+ "title": "For Whom Does Bell Hold?",
+ "authors": [
+  {
+   "name": "Daniel Green"
+  },
+  {
+   "name": "Kshitij Gupta"
+  },
+  {
+   "name": "Qiya Zhang"
+  }
+ ],
+ "categories": [
+  "hep-th",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-th",
+ "published": "2026-09-09T17:58:31Z",
+ "updated": "2026-09-09T17:58:31Z",
+ "abstract": "Violations of Bell's inequalities offer a definitive signal of non-classical (quantum) behavior in local deterministic systems. Yet, in many physical settings where quantum mechanics is expected to play an important role, one cannot construct a Bell-type test using the available observables. Cosmology offers one concrete example, where cosmic structure may have originated from quantum vacuum fluctuations yet all observations are effectively classical. Nevertheless, recent work suggests that quantum and classical time evolution may still be differentiated by the pattern of statistical correlations of these observables. In this paper, we explore and generalize the use of correlations as Bell-type test of the nature of time evolution. We show that quantum vacuum fluctuations of closed systems undergoing Hamiltonian evolution produce unique correlations that are not mimicked by classical Hamiltonian systems. Correlations in the quantum vacuum are generally time-independent and are controlled by the energy gap between the ground and exited states. Classical systems exhibit apparent poles at physical frequencies that do not arise in the quantum vacuum. As one approaches the poles, the evolution becomes dominated by a resonant Hamiltonian giving rise to time dependent correlations that eventually decay through dephasing. Finally, we show that this behavior is distinct from other signals of quantum evolution, including applications to quantum optics, quantum walks, and quantum search.",
+ "comment": "60 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.10535",
+  "pdf": "https://arxiv.org/pdf/2609.10535",
+  "html": "https://arxiv.org/html/2609.10535"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.10535v1/summaryV3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-10T11:42:45.436Z",
+  "hook": "Quantum vacuum fluctuations leave distinct statistical footprints that classical physics cannot mimic.",
+  "tldr": [
+   "Investigated whether statistical correlations can distinguish quantum from classical time evolution without Bell tests.",
+   "Analyzed closed systems under Hamiltonian dynamics, comparing quantum vacuum states to classical frequency poles.",
+   "Found quantum vacuum correlations are time-independent and gap-controlled, unlike resonant, dephasing classical poles."
+  ],
+  "whyItMatters": "In cosmological settings where direct Bell tests are impossible, this framework offers a way to confirm whether cosmic structure truly originated from quantum fluctuations.",
+  "eli5": "Imagine trying to tell whether ripples in a pond came from a mechanical motor or quantum jitters. Even if you can only take snapshots after the fact, the quantum ripples settle into a specific pattern that classical engines can never reproduce.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Bell's inequalities",
+    "shortDef": "Mathematical limits on correlations expected in any local deterministic classical system.",
+    "eli5Def": "A checklist of rules that classical physics must follow, which quantum particles can famously break.",
+    "wikiTitle": "Bell's theorem"
+   },
+   {
+    "term": "Quantum vacuum fluctuations",
+    "shortDef": "Temporary, spontaneous changes in energy occurring in empty space due to quantum uncertainty.",
+    "eli5Def": "Tiny, unavoidable jitters of energy popping in and out of existence even in total emptiness.",
+    "wikiTitle": "Quantum fluctuation"
+   },
+   {
+    "term": "Hamiltonian evolution",
+    "shortDef": "The deterministic time progression of a physical system governed by its total energy operator.",
+    "eli5Def": "The master rulebook describing how a physical system changes from one moment to the next.",
+    "wikiTitle": "Hamiltonian mechanics"
+   },
+   {
+    "term": "Dephasing",
+    "shortDef": "The loss of coherence or defined phase relationship between different components of a wave or state.",
+    "eli5Def": "When different waves fall out of step with each other, washing out their distinct combined pattern.",
+    "wikiTitle": "Dephasing"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

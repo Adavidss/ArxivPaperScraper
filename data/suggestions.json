@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T11:45:11.279Z",
+ "generatedAt": "2026-09-10T11:42:45.436Z",
  "suggestions": [
   {
    "name": "Martin B. Plenio",
@@ -20,6 +20,67 @@
    "recentTitles": [
     "Thermalization of open quantum systems with pseudomodes",
     "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Chengkai Zhu",
+   "slug": "chengkai-zhu",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.10520",
+    "2608.03987",
+    "2607.21533"
+   ],
+   "recentTitles": [
+    "Private communication via zero-private-capacity quantum channels",
+    "Realified tensor networks: quantum circuit simulation on real-valued matrix accelerators"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Xin Wang",
+   "slug": "xin-wang",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.10520",
+    "2607.21533",
+    "2607.14082"
+   ],
+   "recentTitles": [
+    "Private communication via zero-private-capacity quantum channels",
+    "Benchmarking Agents for Proving Theorems in Quantum Algorithms and Quantum Information"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Shamik Gupta",
+   "slug": "shamik-gupta",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+   ],
+   "paperIds": [
+    "2609.10510",
+    "2609.05391",
+    "2608.05052"
+   ],
+   "recentTitles": [
+    "Phase transitions in first-detection statistics of monitored long-range quantum walks",
+    "Non-reciprocally interacting Ornstein-Uhlenbeck processes: Exceptional points, Anomalous relaxation, Pseudo-equilibrium and Boundary refrigeration"
    ],
    "paperCount": 3
   },
@@ -144,67 +205,6 @@
    "recentTitles": [
     "Non-local Magic: closed-form solution and equivalence with magic of purification",
     "Universal magic state concentration"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Sthitadhi Roy",
-   "slug": "sthitadhi-roy",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph",
-    "cond-mat.stat-mech"
-   ],
-   "paperIds": [
-    "2608.27440",
-    "2607.28579",
-    "2607.15276"
-   ],
-   "recentTitles": [
-    "Dynamics of local quantum information in random unitary circuits",
-    "Quantum Chaos and Diffusive Transport from Geometric Randomness"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Jordan Cotler",
-   "slug": "jordan-cotler",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2608.27350",
-    "2608.13521",
-    "2607.28536"
-   ],
-   "recentTitles": [
-    "Quantum Chaos and Quantum Optimal Transport",
-    "Exponential quantum advantage for learning signals with a single qubit"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Arkopal Dutt",
-   "slug": "arkopal-dutt",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2608.13533",
-    "2608.09912",
-    "2608.03962"
-   ],
-   "recentTitles": [
-    "Quantum simulation of non-Markovian dynamical systems",
-    "Learning Clifford-structured quantum unitaries and Hamiltonians"
    ],
    "paperCount": 3
   }

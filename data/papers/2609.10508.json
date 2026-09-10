@@ -1,0 +1,73 @@
+{
+ "id": "2609.10508",
+ "version": 1,
+ "title": "Information Causality Characterizes the Set of Quantum Correlations in the Simplest Bell Scenario",
+ "authors": [
+  {
+   "name": "Mariami Gachechiladze"
+  },
+  {
+   "name": "Nikolai Miklin"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-09T17:44:44Z",
+ "updated": "2026-09-09T17:44:44Z",
+ "abstract": "Information causality (IC) was introduced as a physical principle constraining correlations in non-signaling theories. Whether it can recover the exact quantum correlation boundary, beyond Uffink's inequality, has remained an open question. Here, we combine its generalized formulation for correlated inputs with a new communication protocol to derive quantum Bell inequalities that exactly characterize the quantum correlations in the simplest bipartite Bell scenario, with two binary measurements. In particular, we derive the Tsirelson-Landau-Masanes criterion directly from IC. Thus, the generalized IC implies macroscopic locality, while we also present macroscopically local correlations that violate the generalized IC. This establishes that generalized IC is a strictly stronger principle in this scenario. Together with our earlier result that generalized IC implies a nontrivial communication complexity principle, these findings strengthen the role of information causality in explaining the limits of quantum nonlocality and provide a systematic route to deriving tighter bounds on the set of quantum correlations in more general Bell scenarios.",
+ "comment": "4+4pages, 1 figure, comments welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.10508",
+  "pdf": "https://arxiv.org/pdf/2609.10508",
+  "html": "https://arxiv.org/html/2609.10508"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-10T11:42:45.436Z",
+  "hook": "Information causality directly recovers the exact boundary of quantum correlations in the simplest Bell setup.",
+  "tldr": [
+   "Investigated whether information causality fully defines the boundary of quantum correlations beyond Uffink's inequality.",
+   "Combined generalized information causality for correlated inputs with a newly designed communication protocol.",
+   "Derived the exact Tsirelson-Landau-Masanes criterion, proving generalized information causality strictly surpasses macroscopic locality."
+  ],
+  "whyItMatters": "Physicists still don't fully know why quantum mechanics is as nonlocal as it is without breaking Einstein's speed limit; this work pins down the exact physical principle dictating those boundaries in basic setups.",
+  "eli5": "Quantum particles can be spookily linked, but they still cannot be used to send cheat-codes faster than light. Researchers proved that a single commonsense rule about information flow precisely marks the boundary between what quantum physics allows and what is impossible.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "information causality",
+    "shortDef": "A principle stating that transmitted classical bits cannot convey more mutual information than their bit count.",
+    "eli5Def": "The rule that sending someone one bit of data can only ever give them at most one bit of new information.",
+    "wikiTitle": "Information causality"
+   },
+   {
+    "term": "Bell scenario",
+    "shortDef": "An experimental setup testing non-classical correlations between separated parties performing measurements.",
+    "eli5Def": "A game where distant players receive random questions and must answer without whispering, testing if they share spooky quantum links.",
+    "wikiTitle": "Bell test"
+   },
+   {
+    "term": "macroscopic locality",
+    "shortDef": "The requirement that coarse-grained, large-scale measurements obey classical local physics.",
+    "eli5Def": "The principle that even if tiny quantum particles do weird things, large everyday objects must obey standard local rules.",
+    "wikiTitle": null
+   },
+   {
+    "term": "non-signaling",
+    "shortDef": "A physical condition forbidding faster-than-light communication via entangled particle measurements.",
+    "eli5Def": "The rule ensuring no message travels faster than light, even when using quantum entanglement.",
+    "wikiTitle": "No-communication theorem"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

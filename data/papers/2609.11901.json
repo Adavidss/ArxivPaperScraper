@@ -1,0 +1,71 @@
+{
+ "id": "2609.11901",
+ "version": 1,
+ "title": "EFI Pairs Without One-Way Puzzles: Oracle Separations from Communication Complexity",
+ "authors": [
+  {
+   "name": "Atul Mantri"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-10T17:54:55Z",
+ "updated": "2026-09-10T17:54:55Z",
+ "abstract": "EFI pairs (Brakerski, Canetti, and Qian, ITCS 2023) and one-way puzzles (Khurana and Tomer, STOC 2024) are the leading candidates for the minimal assumption of quantum cryptography. The first are efficiently preparable quantum states, statistically far yet computationally indistinguishable; the second are classical puzzles, easy to sample and hard to solve. One-way puzzles imply EFI pairs, and whether the converse holds is open. We construct a single classical oracle relative to which one-way puzzles do not exist, even with an unbounded verifier, while an EFI pair survives every distinguisher that queries the oracle classically throughout and holds advice about it, making its one superposition query at the end. The oracle answers every question about the output probabilities of quantum samplers, which removes the puzzles, and hides a Haar-random half-dimensional subspace. To prove security we reduce it to communication complexity. An adversary whose knowledge of the subspace arrives as classical query answers can be simulated inside a two-party protocol against the party holding it, so it does no better than the best classical protocol for Vector-in-Subspace (Klartag and Regev, STOC 2011), whatever the oracle computes. That argument does not cover the superposition query, which we bound instead using tools from random matrix theory. The same attack gives a classical simulation of any quantum party in a classical-message protocol with no entanglement shared in advance, so relative to the oracle there is no proof of quantumness either. Quantum polynomial time therefore offers no advantage on any task with classical inputs and outputs, while the two quantum states stay indistinguishable. We state conjectures on removing the restriction on superposition queries.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11901",
+  "pdf": "https://arxiv.org/pdf/2609.11901",
+  "html": "https://arxiv.org/html/2609.11901"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11T11:43:23.556Z",
+  "hook": "We prove that quantum cryptography can exist even when one-way puzzles do not, using an oracle separation.",
+  "tldr": [
+   "Studied whether EFI pairs (indistinguishable quantum states) can exist without one-way puzzles.",
+   "Constructed a classical oracle that removes one-way puzzles while preserving EFI pairs.",
+   "Demonstrated that quantum polynomial time offers no advantage on tasks with classical inputs and outputs."
+  ],
+  "whyItMatters": "This fundamental result redraws the theoretical map of cryptography, showing that quantum security can be built on weaker foundations than previously thought.",
+  "eli5": "Imagine trying to prove a magic trick is real. The author created a hypothetical universe where certain classical puzzles are totally impossible, yet special quantum states remain hidden and indistinguishable just like magic.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "EFI pairs",
+    "shortDef": "Efficiently preparable quantum states that are statistically far yet computationally indistinguishable.",
+    "eli5Def": "Two quantum states that look completely different to physics tools, but impossible for computers to tell apart.",
+    "wikiTitle": null
+   },
+   {
+    "term": "One-way puzzles",
+    "shortDef": "Classical puzzles that are easy to sample and hard to solve.",
+    "eli5Def": "A digital maze that is a breeze to create, but nearly impossible for a computer to solve.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Oracle",
+    "shortDef": "A hypothetical black-box entity that instantly answers specific questions for algorithms.",
+    "eli5Def": "An all-knowing oracle in math-land that instantly answers complex questions when asked.",
+    "wikiTitle": "Oracle machine"
+   },
+   {
+    "term": "Communication complexity",
+    "shortDef": "A field studying the minimum amount of communication needed for parties to compute a function.",
+    "eli5Def": "Figuring out the absolute fewest text messages two people need to exchange to solve a problem.",
+    "wikiTitle": "Communication complexity"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

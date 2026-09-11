@@ -1,0 +1,83 @@
+{
+ "id": "2609.11898",
+ "version": 1,
+ "title": "Taking Advantage of Noise in Distributed Random Quantum Circuits",
+ "authors": [
+  {
+   "name": "J. Montes"
+  },
+  {
+   "name": "F. Borondo"
+  },
+  {
+   "name": "Gabriel G. Carlo"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-10T17:53:51Z",
+ "updated": "2026-09-10T17:53:51Z",
+ "abstract": "Adding noise can make a random quantum circuit look faster without making its unitary dynamics more random. This distinction is especially relevant in modular processors, where local gates randomize each core and scarce inter-core communication must spread that randomness across the full device. In this paper, we study this problem with a reduced second-moment transfer-matrix theory for Pauli second moments in distributed random circuits affected by the amplitude-damping, depolarizing, and dephasing noise channels. The key step is to resolve the noisy spectrum into two branches: a radial branch, describing dissipative loss of non-identity Pauli weight, and an angular branch, describing Haar-like mixing within the surviving nontrivial sector. This separation gives a simple weak-noise criterion: noise is useful for angular randomization only when it suppresses the longitudinal Bloch component more strongly than the transverse plane. Among the three channels considered, this selects amplitude damping as the only locally favorable case, while depolarizing noise is neutral and dephasing is dominated by radial loss. For multicore architectures, we derive a universal first-order law for radial leakage and track the angular branch numerically across different channels, topologies, and core partitions. The results reveal narrow windows of genuine noise-assisted Haar mixing, most clearly for amplitude damping, but rule out a generic speed-up by noise. The framework therefore distinguishes useful noisy randomization from mere dissipation.",
+ "comment": "13 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11898",
+  "pdf": "https://arxiv.org/pdf/2609.11898",
+  "html": "https://arxiv.org/html/2609.11898"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.11898v1/fig_refined_3_configuration_heatmaps.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11T11:43:23.556Z",
+  "hook": "Noise can actually help random quantum circuits mix faster under specific conditions, challenging the view that noise is purely destructive.",
+  "tldr": [
+   "Investigated how noise affects distributed random quantum circuits in modular processors.",
+   "Used a reduced second-moment transfer-matrix theory to analyze amplitude-damping, depolarizing, and dephasing noise.",
+   "Found narrow windows of genuine noise-assisted Haar mixing, specifically for amplitude damping."
+  ],
+  "whyItMatters": "Understanding how noise can sometimes be useful helps engineers design better, more efficient modular quantum computers.",
+  "eli5": "Normally, static or errors in a computer are bad. But this paper shows that, like a slight breeze helping mix paint faster, certain types of system errors can actually help quantum computers scramble information more efficiently.",
+  "keyNumbers": [
+   {
+    "value": "13",
+    "label": "pages",
+    "context": "Length of the research paper"
+   },
+   {
+    "value": "4",
+    "label": "figures",
+    "context": "Number of illustrations in the paper"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum circuit",
+    "shortDef": "A model for quantum computation where a network of quantum gates operates on qubits.",
+    "eli5Def": "A flowchart made of quantum instructions used to run a quantum computer.",
+    "wikiTitle": "Quantum circuit"
+   },
+   {
+    "term": "Amplitude-damping",
+    "shortDef": "A noise channel that models energy relaxation from an excited quantum state to the ground state.",
+    "eli5Def": "A leak that causes a quantum bit to slowly lose its energy and settle down.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Haar-like mixing",
+    "shortDef": "Uniform randomization over the entire unitary group.",
+    "eli5Def": "Thoroughly shuffling a deck of cards so every possible arrangement is equally likely.",
+    "wikiTitle": "Haar measure"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

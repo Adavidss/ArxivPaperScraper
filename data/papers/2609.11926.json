@@ -1,0 +1,69 @@
+{
+ "id": "2609.11926",
+ "version": 1,
+ "title": "Quantifying Symmetry Breaking",
+ "authors": [
+  {
+   "name": "Koji Yamaguchi"
+  },
+  {
+   "name": "Hiroyasu Tajima"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-10T17:59:15Z",
+ "updated": "2026-09-10T17:59:15Z",
+ "abstract": "Quantifying properties of quantum states through the limits of their manipulation is a central goal of quantum resource theories. For symmetry breaking, the quantum geometric tensor governs asymptotic pure-state conversion, but a complete characterization for general mixed states has remained elusive. Here we fully resolve this problem for finite-dimensional systems under compact Lie group symmetries in the i.i.d. asymptotic regime. Specifically, we establish a single-letter formula for the optimal conversion rate between arbitrary states, with vanishing trace-distance error, in the resource theory of asymmetry. The rate is determined by a one-parameter family of quantum Fisher information (QFI) matrices that interpolates between the symmetric- and right-logarithmic-derivative QFIs. No state-independent finite subset of this family suffices in general, even for $U(1)$ symmetry, revealing a qualitative distinction from pure-state conversion. Our formula further yields an exact formula for pure-state distillation rates in terms of the generalized quantum geometric tensor, characterizes asymptotically reversible interconversion, and identifies bound asymmetry for quantum clocks. Complementarity among different members of the QFI family also uncovers an activation mechanism for quantum clocks. Our proof relies on two developments of independent interest. First, we extend quantum local asymptotic normality to unitary models with arbitrary rank and spectral degeneracy. Second, we characterize convertibility between quantum Gaussian shift models in terms of the same one-parameter family of QFIs. Together, these results provide an operational characterization of symmetry breaking for general quantum states in the i.i.d. asymptotic regime and reveal how distinct QFI constraints give rise to irreversibility and activation.",
+ "comment": "112 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11926",
+  "pdf": "https://arxiv.org/pdf/2609.11926",
+  "html": "https://arxiv.org/html/2609.11926"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11T11:43:23.556Z",
+  "hook": "We fully resolve symmetry breaking for general mixed states under compact Lie group symmetries.",
+  "tldr": [
+   "Quantified symmetry breaking through the limits of quantum state manipulation in resource theories.",
+   "Established a single-letter formula for optimal state conversion rates using a one-family matrix of quantum Fisher information.",
+   "Extended quantum local asymptotic normality and characterized convertibility between quantum Gaussian shift models."
+  ],
+  "whyItMatters": "Symmetry breaking is fundamental to physics, from elementary particles to quantum clocks. This research provides a complete mathematical description for how it operates in mixed quantum states.",
+  "eli5": "Think of a pencil balanced perfectly on its tip; it has high symmetry, but it naturally falls to one side, breaking that symmetry. This paper creates a precise mathematical scoreboard for measuring that broken symmetry in complex quantum systems.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Fisher information",
+    "shortDef": "A measure of how much information a quantum state carries about an unknown parameter.",
+    "eli5Def": "A mathematical tool that tells you how precisely you can measure a tiny change in a quantum system.",
+    "wikiTitle": "Quantum Fisher information"
+   },
+   {
+    "term": "Asymptotic regime",
+    "shortDef": "The behavior of a system as a parameter, such as sample size, approaches infinity.",
+    "eli5Def": "Looking at what happens when you repeat an experiment an extremely large number of times.",
+    "wikiTitle": "Asymptotic analysis"
+   },
+   {
+    "term": "Lie group",
+    "shortDef": "A group that is also a differentiable manifold, describing continuous symmetries.",
+    "eli5Def": "A smooth mathematical shape that captures continuous motions like rotations in space.",
+    "wikiTitle": "Lie group"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

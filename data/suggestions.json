@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-10T11:42:45.436Z",
+ "generatedAt": "2026-09-11T11:43:23.556Z",
  "suggestions": [
   {
    "name": "Martin B. Plenio",
@@ -20,6 +20,26 @@
    "recentTitles": [
     "Thermalization of open quantum systems with pseudomodes",
     "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Jong Yeon Lee",
+   "slug": "jong-yeon-lee",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.11930",
+    "2608.06258",
+    "2607.28621"
+   ],
+   "recentTitles": [
+    "Hierarchy of Rényi Coherent Information in Stabilizer Codes",
+    "Approximate Quantum Error Correction at Chiral Topological Edges"
    ],
    "paperCount": 3
   },
@@ -185,26 +205,6 @@
    "recentTitles": [
     "Twin-photon generation in a silicon nitride microresonator",
     "Stochastic transport of a Goldstone mode in a self-organized atomic crystal"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Lorenzo Leone",
-   "slug": "lorenzo-leone",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.04119",
-    "2608.13376",
-    "2607.29670"
-   ],
-   "recentTitles": [
-    "Non-local Magic: closed-form solution and equivalence with magic of purification",
-    "Universal magic state concentration"
    ],
    "paperCount": 3
   }

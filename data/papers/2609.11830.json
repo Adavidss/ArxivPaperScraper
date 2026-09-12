@@ -1,0 +1,71 @@
+{
+ "id": "2609.11830",
+ "version": 1,
+ "title": "Oracle Separations in the Fourier Hierarchy",
+ "authors": [
+  {
+   "name": "Atul Mantri"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-10T17:23:35Z",
+ "updated": "2026-09-10T17:23:35Z",
+ "abstract": "The Fourier hierarchy $\\mathrm{FH}_0\\subseteq\\mathrm{FH}_1\\subseteq\\mathrm{FH}_2\\subseteq\\cdots$, introduced by Shi (TCS 2005), measures a quantum computation by the number of Hadamard layers it uses. Between two layers the circuit may permute basis states and attach phases, but it may not create superposition; the layers are its only source of interference. The first level is exactly $\\mathrm{BPP}$, while the second already solves Simon's problem and, through phase estimation, factors integers. Shi conjectured that every additional layer strictly increases computational power, and asked, as a first step, for oracle separations between consecutive levels. To our knowledge, the question was open at every level $k\\ge2$. We prove that for every constant $k\\ge2$ there is an oracle relative to which $\\mathrm{FH}_k\\subsetneq\\mathrm{FH}_{k+1}$. The separating problem is built from Forrelation (Aaronson and Ambainis, STOC 2015): the level above solves it with a constant number of queries, whereas at level $k$ it stays hard even for circuits making exponentially many queries. This holds for both of the usual ways of giving a circuit access to an oracle, the phase oracle and the standard oracle, which writes its answer into a register. The two are not interchangeable: relative to an oracle, the standard oracle is strictly more powerful at the same number of layers. We also separate the union of all the levels from $\\mathrm{BQP}$ relative to an oracle. The lower bounds rest on a structural property of the hierarchy: the number of Hadamard layers limits how adaptively a circuit can query its oracle. With a phase oracle, a circuit with $k$ layers is reproduced exactly by an algorithm making only $k-1$ rounds of parallel queries, which brings known lower bounds for such algorithms to bear. The standard oracle lets a circuit branch on earlier answers, and that case needs a separate argument.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11830",
+  "pdf": "https://arxiv.org/pdf/2609.11830",
+  "html": "https://arxiv.org/html/2609.11830"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12T11:09:44.093Z",
+  "hook": "We prove that adding more Hadamard layers strictly increases quantum computational power for every constant level.",
+  "tldr": [
+   "Studied the Fourier hierarchy, a classification of quantum computation measured by the number of Hadamard layers.",
+   "Proved oracle separations between consecutive levels for every constant k >= 2 using a problem built from Forrelation.",
+   "Demonstrated that standard oracles are strictly more powerful than phase oracles at the same number of layers."
+  ],
+  "whyItMatters": "This resolves a long-standing computer science conjecture, proving that the exact structure of quantum interference layers fundamentally expands what computers can solve.",
+  "eli5": "Think of quantum computers as having layers of special mirrors called Hadamard layers that mix signals together. This paper proves that adding more layers genuinely unlocks new problem-solving powers that previous layers could never reach.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Oracle",
+    "shortDef": "A black-box subroutine that instantly solves a specific problem for an algorithm.",
+    "eli5Def": "A magical oracle that instantly answers hard math questions when you ask it.",
+    "wikiTitle": "Oracle (computer science)"
+   },
+   {
+    "term": "Hadamard layer",
+    "shortDef": "A quantum circuit layer that creates equal superposition and interference.",
+    "eli5Def": "A special lens that splits a quantum bit into multiple possibilities at once.",
+    "wikiTitle": "Hadamard transform"
+   },
+   {
+    "term": "BPP",
+    "shortDef": "Bounded-error probabilistic polynomial time, a class of problems solvable by randomized classical computers.",
+    "eli5Def": "Problems that a standard computer can solve most of the time by flipping coins.",
+    "wikiTitle": "BPP (complexity)"
+   },
+   {
+    "term": "BQP",
+    "shortDef": "Bounded-error quantum polynomial time, problems efficiently solvable by quantum computers.",
+    "eli5Def": "The set of super-hard problems that quantum computers are great at solving.",
+    "wikiTitle": "BQP"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

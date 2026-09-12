@@ -1,0 +1,75 @@
+{
+ "id": "2609.11847",
+ "version": 1,
+ "title": "The cost of simulating classically tractable quantum circuits and dynamics",
+ "authors": [
+  {
+   "name": "Su Yeon Chang"
+  },
+  {
+   "name": "Supanut Thanasilp"
+  },
+  {
+   "name": "Zoë Holmes"
+  },
+  {
+   "name": "M. Cerezo"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-10T17:34:39Z",
+ "updated": "2026-09-10T17:34:39Z",
+ "abstract": "Determining whether a quantum evolution can be efficiently simulated classically is central to understanding the boundary between classical and quantum computation. However, polynomial-time simulability is an asymptotic statement, and does not by itself determine whether the (quantum-inspired) classical simulation is actually practical. Indeed, different polynomial scalings can lead to vastly different computational costs, particularly when expensive preprocessing or quantum data acquisition is required. In this work, we ask whether classically simulable quantum dynamics are in practice more resource-efficient to simulate classically than to execute directly on quantum hardware. We analyze this question using three resource metrics, quantum sample, quantum time, and classical time complexity, for several widely studied classically simulable circuit families. Using representative hardware-level estimates, we identify regimes in which quantum simulation can be faster despite the existence of a polynomial-time classical algorithm, as well as regimes in which classical simulation remains more efficient. At the same time, the large quantum sampling cost needed to characterize unknown input states can make this polynomial-time classical simulation prohibitively expensive with current cloud-based hardware access prices. Ultimately, our work indicates that guarantees of classical simulability with polynomial resources alone are insufficient to determine the preferred implementation.",
+ "comment": "50 pages, 3+3 figures, 3+1 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11847",
+  "pdf": "https://arxiv.org/pdf/2609.11847",
+  "html": "https://arxiv.org/html/2609.11847"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.11847v1/figures/quantum_simulation.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12T11:09:44.093Z",
+  "hook": "Quantum simulation can actually be faster than polynomial-time classical algorithms under realistic hardware prices.",
+  "tldr": [
+   "Investigated whether classically simulable quantum dynamics are more resource-efficient to simulate classically or on quantum hardware.",
+   "Analyzed circuits using three resource metrics: quantum sample, quantum time, and classical time complexity.",
+   "Identified regimes where quantum execution is faster despite efficient classical algorithms, and found large sampling costs can make classical simulation prohibitively expensive."
+  ],
+  "whyItMatters": "Knowing a quantum process can be simulated efficiently on a classical computer doesn't mean it is cheap. This study bridges the gap between theoretical computer science and real-world cloud computing costs.",
+  "eli5": "Just because a recipe can technically be made at home doesn't mean it's cheaper than ordering takeout. This paper looks at whether running a quantum experiment on a real quantum computer is cheaper than simulating it on a regular computer, once you factor in all the hidden costs.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Polynomial-time",
+    "shortDef": "An algorithm whose running time grows reasonably with the size of the input.",
+    "eli5Def": "A method that doesn't take forever as the puzzle gets bigger.",
+    "wikiTitle": "Time complexity"
+   },
+   {
+    "term": "Quantum sample",
+    "shortDef": "Data gathered by measuring quantum states.",
+    "eli5Def": "Collecting clues by checking a quantum system.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Simulability",
+    "shortDef": "The ability to accurately mimic a physical process using a computer.",
+    "eli5Def": "Running a video game version of a real-world event.",
+    "wikiTitle": "Computer simulation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

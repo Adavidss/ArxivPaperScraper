@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-11T11:43:23.556Z",
+ "generatedAt": "2026-09-12T11:09:44.093Z",
  "suggestions": [
   {
    "name": "Martin B. Plenio",
@@ -40,6 +40,88 @@
    "recentTitles": [
     "Hierarchy of Rényi Coherent Information in Stabilizer Codes",
     "Approximate Quantum Error Correction at Chiral Topological Edges"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Fernando Granha Jeronimo",
+   "slug": "fernando-granha-jeronimo",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.11854",
+    "2608.06345",
+    "2608.02590"
+   ],
+   "recentTitles": [
+    "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax",
+    "Dimension-Free Polylogarithmic Quantum Shadow Tomography from Sequential Pretty-Good Measurements"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Pei Wu",
+   "slug": "pei-wu",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph",
+    "cs.CC"
+   ],
+   "paperIds": [
+    "2609.11854",
+    "2608.02594",
+    "2608.02590"
+   ],
+   "recentTitles": [
+    "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax",
+    "An Argmax Principle for Sum-of-Squares Relaxations on the Sphere"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Haochen Xu",
+   "slug": "haochen-xu",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph",
+    "cs.CC"
+   ],
+   "paperIds": [
+    "2609.11854",
+    "2608.02594",
+    "2608.02590"
+   ],
+   "recentTitles": [
+    "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax",
+    "An Argmax Principle for Sum-of-Squares Relaxations on the Sphere"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Zoë Holmes",
+   "slug": "zo-holmes",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.11847",
+    "2607.25998",
+    "2607.24728"
+   ],
+   "recentTitles": [
+    "The cost of simulating classically tractable quantum circuits and dynamics",
+    "Observable Estimation in the Absence of Classical Verification"
    ],
    "paperCount": 3
   },
@@ -121,90 +203,6 @@
    "recentTitles": [
     "Anderson orthogonality scaling in the Rabi-driven heavy Fermi polaron",
     "The heavy Fermi polaron I: the Lithium-Cesium experiment"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Markus Greiner",
-   "slug": "markus-greiner",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "cond-mat.quant-gas",
-    "physics.atom-ph",
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.09125",
-    "2608.18071",
-    "2608.09924"
-   ],
-   "recentTitles": [
-    "Few-body bound states in the anyon-Hubbard model",
-    "Ultrafast and high resolution spatial light modulation for cold atoms"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Martin Roetteler",
-   "slug": "martin-roetteler",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.05408",
-    "2609.05313",
-    "2607.27206"
-   ],
-   "recentTitles": [
-    "Towards Scaling Quantum Fine-Tuning of Foundational Time Series Models for Classification",
-    "SAR and InSAR Change Detection with Quantum Generative Models"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Soumya Kanti Pal",
-   "slug": "soumya-kanti-pal",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "cond-mat.stat-mech",
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.05391",
-    "2609.01606",
-    "2608.05052"
-   ],
-   "recentTitles": [
-    "Non-reciprocally interacting Ornstein-Uhlenbeck processes: Exceptional points, Anomalous relaxation, Pseudo-equilibrium and Boundary refrigeration",
-    "Observable- and state-selective prethermalization and bounds on prethermal lifetimes"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Hao Zhang",
-   "slug": "hao-zhang",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "physics.optics",
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.04171",
-    "2608.27387",
-    "2607.15121"
-   ],
-   "recentTitles": [
-    "Twin-photon generation in a silicon nitride microresonator",
-    "Stochastic transport of a Goldstone mode in a self-organized atomic crystal"
    ],
    "paperCount": 3
   }

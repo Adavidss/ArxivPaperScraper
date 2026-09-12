@@ -1,0 +1,92 @@
+{
+ "id": "2609.11854",
+ "version": 1,
+ "title": "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax",
+ "authors": [
+  {
+   "name": "William Gay"
+  },
+  {
+   "name": "Fernando Granha Jeronimo"
+  },
+  {
+   "name": "Lenny Liu"
+  },
+  {
+   "name": "Itai Leigh"
+  },
+  {
+   "name": "Pei Wu"
+  },
+  {
+   "name": "Haochen Xu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-10T17:37:22Z",
+ "updated": "2026-09-10T17:37:22Z",
+ "abstract": "Pure-state consistency problems naturally lead to quantum proof systems in which a single pure witness must satisfy many acceptance constraints. The corresponding class $\\mathsf{PureSuperQMA}$ was previously known to lie between $\\mathsf{QMA}$ and $\\mathsf{QMA}(2)$, and Kamminga and Rudolph (ITCS'26) conjectured that both containments are strict. In this paper, we prove the following surprising complexity collapses $$ \\mathsf{QMA} = \\mathsf{PureSuperQMA} = \\mathsf{PureSuperQMA}(\\text{exp}) = \\mathsf{BellPureSymQMA}(\\text{poly}) $$ Here $\\mathsf{PureSuperQMA}(\\text{exp})$ allows exponentially many checks which are uniformly indexed and efficiently generated, while requiring an inverse-polynomial violation margin and an inverse-polynomial fraction of violated checks for the NO cases. $\\mathsf{BellPureSymQMA}(\\text{poly})$ is a related model that requires the prover to give the verifier polynomially many copies of a pure state, which the verifier measures separately with logarithmic output length for each local measurement, before processing the outcomes jointly. The main technical ingredient is a dimension-free stability bound for symmetric tensor states. Our simulations use polynomially many witness registers and combine a random-pair SWAP test with a permutation-invariant lift of the original verification procedure. The key step is to show that, on the symmetric subspace, the extremal verification value is close to that of some tensor-power witness with dimension-independent error. Applying this argument to the two verification models yields both simulations. As a consequence, exact $k$-local pure-state consistency is $\\mathsf{QMA}$-complete for every fixed $k\\ge2$, and so are the corresponding exact bosonic and fermionic pure $N$-representability problems.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11854",
+  "pdf": "https://arxiv.org/pdf/2609.11854",
+  "html": "https://arxiv.org/html/2609.11854"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12T11:09:44.093Z",
+  "hook": "We prove a surprising complexity collapse, showing that QMA equals PureSuperQMA and related models.",
+  "tldr": [
+   "Studied pure-state consistency problems and quantum proof systems featuring a single pure witness.",
+   "Proved complexity collapses establishing that QMA equals PureSuperQMA and other extended verification classes.",
+   "Used a dimension-free stability bound for symmetric tensor states as the main technical ingredient."
+  ],
+  "whyItMatters": "Understanding the fundamental limits of quantum verification helps computer scientists map out what problems quantum computers can efficiently check versus what remains completely impossible.",
+  "eli5": "Imagine trying to check if a giant puzzle is completely consistent. Computer scientists found that checking one giant complex puzzle is actually no harder than checking a bunch of simpler pieces combined in a clever way.",
+  "keyNumbers": [
+   {
+    "value": "2",
+    "label": "Minimum k-local Value",
+    "context": "The minimum value of k for which exact k-local pure-state consistency is QMA-complete."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "QMA",
+    "shortDef": "Quantum Merlin-Arthur, the quantum analogue of the complexity class NP.",
+    "eli5Def": "The class of problems where a powerful wizard can hand you a quantum proof, and a regular quantum computer can quickly check if it is correct.",
+    "wikiTitle": "QMA"
+   },
+   {
+    "term": "Tensor state",
+    "shortDef": "A mathematical object combining multiple vector spaces or quantum systems.",
+    "eli5Def": "A way of stitching multiple distinct quantum systems together into a single unified mathematical structure.",
+    "wikiTitle": "Tensor product"
+   },
+   {
+    "term": "SWAP test",
+    "shortDef": "A quantum circuit used to calculate the overlap or similarity between two quantum states.",
+    "eli5Def": "A quick quantum compatibility test that checks how similar two secret quantum recipes are to each other.",
+    "wikiTitle": "SWAP test"
+   },
+   {
+    "term": "Complexity class",
+    "shortDef": "A set of computational problems grouped by how much resource they require to solve.",
+    "eli5Def": "A filing cabinet that sorts math problems by how difficult and time-consuming they are to solve.",
+    "wikiTitle": "Complexity class"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

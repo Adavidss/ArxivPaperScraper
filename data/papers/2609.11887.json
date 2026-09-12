@@ -1,0 +1,104 @@
+{
+ "id": "2609.11887",
+ "version": 1,
+ "title": "SI-Traceable Calibration and Performance Benchmarking of a Terahertz Photomixer Transmitter-Receiver System Using a Rydberg Atomic Sensor",
+ "authors": [
+  {
+   "name": "Alisher Duspayev"
+  },
+  {
+   "name": "Kaitlin R. Moore"
+  },
+  {
+   "name": "Georg Raithel"
+  },
+  {
+   "name": "David A. Anderson"
+  }
+ ],
+ "categories": [
+  "physics.atom-ph",
+  "physics.app-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.atom-ph",
+ "published": "2026-09-10T17:50:02Z",
+ "updated": "2026-09-10T17:50:02Z",
+ "abstract": "Accurate calibration of electromagnetic field strength in the terahertz (THz) frequency regime remains challenging due to the limited availability of SI-traceable field sensors. Here we demonstrate SI-traceable calibration and performance benchmarking of a commercial photomixer-based THz transmitter-receiver system operating near 204 GHz using Rydberg electric-field sensing in a thermal atomic vapor. The THz electric field is extracted from the Autler-Townes (AT) effect of the cesium $17D_{5/2}\\rightarrow18P_{3/2}$ Rydberg transition. We measure the strength of AT-split lines as a function of THz detuning from resonance to find the on-resonant Rabi frequency, which, together with atomic transition dipole moments and fundamental constants, yields the THz electric field. The atomically measured field calibrates the photomixer transmitter field and power, while simultaneous measurements with a commercial InGaAs photomixer receiver calibrate the receiver's current-to-field responsivity and convert its current-noise floor into an absolute noise-equivalent THz electric-field sensitivity. Our study demonstrates that Rydberg atomic sensors provide a practical method for SI-traceable calibration and benchmarking of THz transmitter and receiver systems, and for the establishment of a quantitative link between state-of-the-art and absolute atom-based THz sensors.",
+ "comment": "7 pages, 4 figures, 2 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11887",
+  "pdf": "https://arxiv.org/pdf/2609.11887",
+  "html": "https://arxiv.org/html/2609.11887"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.11887v1/1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12T11:09:44.093Z",
+  "hook": "We calibrate terahertz fields near 204 GHz using Rydberg atoms, solving a lack of SI-traceable sensors.",
+  "tldr": [
+   "Calibrated a commercial terahertz transmitter-receiver system operating near 204 GHz using Rydberg atomic sensors.",
+   "Extracted the terahertz electric field from the Autler-Townes effect of cesium Rydberg transitions in a thermal vapor.",
+   "Demonstrated a reliable method to obtain absolute SI-traceable calibration and noise-equivalent field sensitivity."
+  ],
+  "whyItMatters": "Terahertz technology is vital for future wireless communications and imaging, but measuring its power accurately has been notoriously difficult. Using quantum atomic sensors as a universal ruler provides a reliable calibration standard.",
+  "eli5": "Imagine trying to measure the loudness of a sound without a standard ruler for decibels. These scientists used special laser-excited atoms as a microscopic tuning fork that reacts predictably to terahertz waves, giving us an absolute and trustworthy measuring stick.",
+  "keyNumbers": [
+   {
+    "value": "204 GHz",
+    "label": "Operating Frequency",
+    "context": "The frequency near which the commercial photomixer-based THz transmitter-receiver system operates."
+   },
+   {
+    "value": "7",
+    "label": "Page Count",
+    "context": "The length of the research paper."
+   },
+   {
+    "value": "4",
+    "label": "Figures",
+    "context": "The number of figures included in the paper."
+   },
+   {
+    "value": "2",
+    "label": "Tables",
+    "context": "The number of data tables included in the paper."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Terahertz",
+    "shortDef": "Electromagnetic waves with frequencies between microwaves and infrared light.",
+    "eli5Def": "A type of invisible wave sitting right between microwave oven signals and the heat rays from the sun.",
+    "wikiTitle": "Terahertz radiation"
+   },
+   {
+    "term": "Rydberg atom",
+    "shortDef": "An atom with one or more electrons in a very high principal quantum number state.",
+    "eli5Def": "An atom whose outermost electron is puffed up and orbiting extremely far from the center, making it super sensitive to external forces.",
+    "wikiTitle": "Rydberg atom"
+   },
+   {
+    "term": "Autler-Townes effect",
+    "shortDef": "Splitting of atomic spectral lines in the presence of a strong electromagnetic field.",
+    "eli5Def": "When you blast an atom with a strong wave, its energy levels split like a musical note breaking into two distinct tones.",
+    "wikiTitle": "Autler-Townes effect"
+   },
+   {
+    "term": "Photomixer",
+    "shortDef": "A device that converts optical laser beats into terahertz waves.",
+    "eli5Def": "A tiny converter that takes flashing laser light and turns it into high-frequency terahertz signals.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

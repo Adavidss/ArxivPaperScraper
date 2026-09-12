@@ -1,0 +1,73 @@
+{
+ "id": "2609.11849",
+ "version": 1,
+ "title": "PPT states of almost maximal Schmidt number",
+ "authors": [
+  {
+   "name": "Nathaniel Johnston"
+  },
+  {
+   "name": "Benjamin Lovitz"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-10T17:35:29Z",
+ "updated": "2026-09-10T17:35:29Z",
+ "abstract": "We construct PPT states on $\\mathbb{C}^m \\otimes\\mathbb{C}^n$ that have Schmidt number asymptotically approaching the smaller local dimension. More specifically, we construct a PPT state with Schmidt number at least $$ \\left\\lceil \\frac{m + n - ((m - n)^2 + 4(m + n - 1))^{1/2}}{2} \\right\\rceil. $$ In the case of equal local dimensions ($m = n$), this becomes $n - \\lfloor(2n - 1)^{1/2}\\rfloor$, far exceeding the previous constructions which achieved $n/2 + O(1)$. In the case of unequal local dimensions, our result shows that there exists a PPT state on $\\mathbb{C}^n \\otimes \\mathbb{C}^{3n-4}$ with Schmidt number at least $n-1$.",
+ "comment": "9 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11849",
+  "pdf": "https://arxiv.org/pdf/2609.11849",
+  "html": "https://arxiv.org/html/2609.11849"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12T11:09:44.093Z",
+  "hook": "We construct PPT states whose Schmidt numbers approach the smaller local dimension.",
+  "tldr": [
+   "Constructed positive partial transpose states on tensor product spaces with high Schmidt numbers.",
+   "Used analytical constructions to push the Schmidt number bounds close to the smaller local dimension.",
+   "Proved that for equal local dimensions, the construction achieves $n - \\lfloor(2n - 1)^{1/2}\\rfloor$."
+  ],
+  "whyItMatters": "Quantum entanglement is a cornerstone of quantum information science. Finding extreme examples of positive partial transpose states expands our fundamental understanding of multipartite entanglement limits.",
+  "eli5": "Think of entanglement like a tightly wound knot of information between particles. Scientists built mathematical structures where this hidden multi-layered bond is pushed right to the absolute limit of what geometry allows.",
+  "keyNumbers": [
+   {
+    "value": "9",
+    "label": "Page Count",
+    "context": "The length of the research paper."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "PPT state",
+    "shortDef": "A quantum state whose partial transpose remains positive semidefinite.",
+    "eli5Def": "A quantum state that passes a basic mathematical test checking for certain kinds of physical validity.",
+    "wikiTitle": "Peres–Horodecki criterion"
+   },
+   {
+    "term": "Schmidt number",
+    "shortDef": "A measure of entanglement depth for mixed quantum states.",
+    "eli5Def": "A number that tells you how many independent layers of quantum entanglement are locked inside a system.",
+    "wikiTitle": "Schmidt decomposition"
+   },
+   {
+    "term": "Local dimension",
+    "shortDef": "The dimension of the Hilbert space for an individual subsystem.",
+    "eli5Def": "The number of basic states available to a single piece of the quantum puzzle on its own.",
+    "wikiTitle": "Hilbert space"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

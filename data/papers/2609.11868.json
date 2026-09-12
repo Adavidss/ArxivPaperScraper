@@ -1,0 +1,100 @@
+{
+ "id": "2609.11868",
+ "version": 1,
+ "title": "Computational framework for quantum state tomography of spin ensembles",
+ "authors": [
+  {
+   "name": "Jiwoo Seo"
+  },
+  {
+   "name": "Vesna F. Mitrović"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.other",
+  "physics.bio-ph",
+  "physics.comp-ph",
+  "physics.ins-det"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-10T17:42:51Z",
+ "updated": "2026-09-10T17:42:51Z",
+ "abstract": "We present Tomography-NMR, an open-source Python package that reconstructs quantum density matrices from spectroscopic measurement data. The package implements a complete analysis pipeline for two-qubit quantum state tomography based on the product operator formalism: raw time-domain signals are Fourier-transformed into frequency-domain spectra, spectral peak intensities are mapped to expansion coefficients of the density matrix, and the full quantum state is reconstructed. Three integration methods are provided for different use cases: direct peak height measurement and fixed-parameter numerical integration require no theoretical reference and are suited to unknown states, achieving fidelities of approximately 98\\% on a benchmark set of known states, while a systematic parameter optimization against a known target state achieves reconstruction fidelities exceeding 99\\% for the same benchmark states. While the detailed theoretical framework for quantum state tomography is well established, the practical procedures for extracting density matrices from experimental spectra are often inadequately documented in the literature and obscured within proprietary software. This package addresses that gap by providing a fully transparent, reproducible implementation of every analysis step, from spectral preprocessing to density matrix visualization. The software has been validated on experimentally prepared two-qubit states measured via nuclear magnetic resonance (NMR) spectroscopy of coupled $^{31}$P nuclei. Average reconstruction fidelities range from 0.975 to 0.995 across a benchmark set of 20 two-qubit states, including the computational basis states, Bell states, and the outputs of three fundamental quantum gates (CNOT, H, and T). Although developed for NMR, the modular architecture facilitates adaptation to other spectroscopic platforms and alternative measurement protocols.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11868",
+  "pdf": "https://arxiv.org/pdf/2609.11868",
+  "html": "https://arxiv.org/html/2609.11868"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.11868v1/figures/Fig2_AnalExampl_2_0.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12T11:09:44.093Z",
+  "hook": "An open-source Python package achieves over 99 percent fidelity reconstructing quantum density matrices.",
+  "tldr": [
+   "Created an open-source Python package called Tomography-NMR to reconstruct quantum density matrices from spectroscopy data.",
+   "Implemented a complete pipeline mapping raw time-domain nuclear magnetic resonance signals to quantum state expansions.",
+   "Achieved reconstruction fidelities exceeding 99 percent on benchmark two-qubit states."
+  ],
+  "whyItMatters": "Figuring out the exact quantum state of a system is essential for building quantum computers, but the math is notoriously tangled in proprietary software. Making a transparent, open-source tool accelerates quantum research.",
+  "eli5": "When scientists run experiments with quantum computers or molecules, they get messy scrambled data. This new computer program acts like a brilliant translator that looks at the mess and figures out the exact hidden recipe of the quantum state.",
+  "keyNumbers": [
+   {
+    "value": "98%",
+    "label": "Basic Fidelity",
+    "context": "Fidelity achieved on a benchmark set of known states using direct peak height measurement and numerical integration."
+   },
+   {
+    "value": "99%",
+    "label": "Optimized Fidelity",
+    "context": "Reconstruction fidelities achieved via systematic parameter optimization against a known target state."
+   },
+   {
+    "value": "0.975 to 0.995",
+    "label": "NMR Fidelities",
+    "context": "Average reconstruction fidelities across a benchmark set of 20 two-qubit states measured via NMR spectroscopy."
+   },
+   {
+    "value": "20",
+    "label": "Benchmark States",
+    "context": "The number of two-qubit states tested, including computational basis states, Bell states, and quantum gate outputs."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum state tomography",
+    "shortDef": "The process of reconstructing the quantum state of a system through measurements.",
+    "eli5Def": "Taking a bunch of shadowy X-ray pictures of a quantum object from different angles to figure out its true 3D shape.",
+    "wikiTitle": "Quantum state tomography"
+   },
+   {
+    "term": "Density matrix",
+    "shortDef": "A mathematical matrix that describes the statistical state of a quantum system.",
+    "eli5Def": "A massive score sheet that lists all the possible hidden configurations and probabilities of a quantum system.",
+    "wikiTitle": "Density matrix"
+   },
+   {
+    "term": "Nuclear magnetic resonance",
+    "shortDef": "A physical phenomenon where atomic nuclei absorb and re-emit electromagnetic energy in a magnetic field.",
+    "eli5Def": "Using giant magnets and radio waves to listen to the tiny magnetic 'spin' whispers of atomic nuclei.",
+    "wikiTitle": "Nuclear magnetic resonance"
+   },
+   {
+    "term": "Bell states",
+    "shortDef": "Maximally entangled quantum states of two qubits.",
+    "eli5Def": "A pair of quantum particles that share a telepathic bond, so changing one instantly affects the other no matter the distance.",
+    "wikiTitle": "Bell state"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

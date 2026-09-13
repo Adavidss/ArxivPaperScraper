@@ -1,0 +1,73 @@
+{
+ "id": "2609.11771",
+ "version": 1,
+ "title": "Strong Converse for Quantum Capacity via a Fully Quantum Blowing-Up Lemma",
+ "authors": [
+  {
+   "name": "Salman Beigi"
+  },
+  {
+   "name": "Marco Tomamichel"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-10T16:25:56Z",
+ "updated": "2026-09-10T16:25:56Z",
+ "abstract": "We prove an exponential strong converse for quantum communication through every finite-dimensional memoryless channel: at any fixed rate above the quantum capacity, the entanglement-transmission fidelity of every code decays exponentially with the number of channel uses. The proof has two main ingredients. First, a fully quantum blowing-up lemma converts a low-fidelity code into a high-fidelity code, with a loss in the number of transmitted qubits controlled by the projective tensor norm of the orthogonal projection on the image of the Stinespring dilation of the channel across the receiver--environment bipartition. Second, a low-degree polynomial construction approximates the tensor power of this projector with exponential accuracy while controlling its projective norm, providing the approximation needed for the blowing-up argument.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11771",
+  "pdf": "https://arxiv.org/pdf/2609.11771",
+  "html": "https://arxiv.org/html/2609.11771"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-13T12:13:38.764Z",
+  "hook": "Transmitting above quantum capacity causes fidelity to decay exponentially for all memoryless channels.",
+  "tldr": [
+   "Proved an exponential strong converse theorem for quantum capacity across all finite-dimensional memoryless channels.",
+   "Developed a fully quantum blowing-up lemma to turn low-fidelity codes into high-fidelity ones.",
+   "Constructed low-degree polynomial approximations of channel Stinespring projector powers with bounded projective norms."
+  ],
+  "whyItMatters": "Shannon proved that classical data sent faster than channel capacity turns to complete gibberish; this proof confirms the exact same sharp, exponential breakdown holds for quantum communication, cementing a foundational limit of quantum networks.",
+  "eli5": "If you try to stream video faster than your internet pipe allows, a few glitches might seem tolerable, but this theorem proves that once you pass the quantum speed limit, the signal instantly and completely collapses into static.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Capacity",
+    "shortDef": "The maximum rate at which quantum information can be reliably transmitted over a noisy quantum channel.",
+    "eli5Def": "The ultimate theoretical speed limit for sending quantum bits through a noisy connection.",
+    "wikiTitle": "Quantum capacity"
+   },
+   {
+    "term": "Strong Converse",
+    "shortDef": "A property stating that exceeding channel capacity causes transmission success probability to vanish asymptotically.",
+    "eli5Def": "A guarantee that going even slightly over the speed limit doesn't just degrade performance—it causes total failure.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Stinespring Dilation",
+    "shortDef": "A representation of any quantum channel as a unitary interaction with an external environment.",
+    "eli5Def": "A mathematical trick showing that noise in a quantum channel is just information leaking into the surrounding environment.",
+    "wikiTitle": "Stinespring factorization theorem"
+   },
+   {
+    "term": "Blowing-Up Lemma",
+    "shortDef": "A technical measure-concentration tool used in information theory to amplify code properties.",
+    "eli5Def": "A math tool that takes a slightly good decoding method and mathematically expands it into a nearly perfect one.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

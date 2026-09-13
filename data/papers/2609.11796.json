@@ -1,0 +1,79 @@
+{
+ "id": "2609.11796",
+ "version": 1,
+ "title": "Absolutely Maximally Entangled States of $2q$ Parties in Every Odd Prime-Power Dimension $q$",
+ "authors": [
+  {
+   "name": "Mykhailo Hontarenko"
+  },
+  {
+   "name": "Karol Życzkowski"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-10T16:49:05Z",
+ "updated": "2026-09-10T16:49:05Z",
+ "abstract": "Absolutely maximally entangled (AME) states represent an extreme form of multipartite entanglement: every reduced system containing at most half of the parties is maximally mixed. These states provide perfect tensors and optimal quantum error-correcting codes, yet their existence is known only in restricted parameter regimes. For every odd prime power $q=p^e\\ge3$, we construct a stabilizer $\\mathrm{AME}(2q,q)$ state whose normalized one-party projection yields a stabilizer $\\mathrm{AME}(2q-1,q)$ state. A closed-form $q\\times q$ bordered-circulant matrix $A_q$ over $\\mathbb{F}_{q^2}$ generates a Hermitian self-dual maximum distance separable (MDS) code $[2q,q,q+1]_{q^2}$, which lies outside the extended Reed-Solomon classes. In suitable bases, the amplitude tensors define normalized $q$-unitary complex Hadamard matrices of order $q^q$ with $p$th-root phases. Additional constructions yield $\\mathrm{AME}(q+3,q)$ states and families at intermediate particle numbers through explicit rescalings of selected submatrices. We also provide nine explicit parent matrices and the corresponding one-party projections.",
+ "comment": "24 pages, 1 figure. Supplemental Material included",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11796",
+  "pdf": "https://arxiv.org/pdf/2609.11796",
+  "html": "https://arxiv.org/html/2609.11796"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-13T12:13:38.764Z",
+  "hook": "New maximally entangled quantum states constructed for 2q parties in every odd prime-power dimension q.",
+  "tldr": [
+   "Constructed stabilizer absolutely maximally entangled states of 2q parties for all odd prime powers q.",
+   "Used bordered-circulant matrices over finite fields to build Hermitian self-dual maximum distance separable codes.",
+   "Derived one-party projections, q-unitary complex Hadamard matrices, and intermediate AME state families."
+  ],
+  "whyItMatters": "Absolutely maximally entangled states serve as the ultimate resource for quantum error-correcting codes and toy models of spacetime. Finding explicit constructions resolves major open questions about what dimensions permit these optimal quantum connections.",
+  "eli5": "Think of a secret shared among a group of people so perfectly that if less than half of them meet, they learn absolutely nothing, but together they hold the whole secret. This work writes the exact recipe to build these ultra-secure links for new party sizes.",
+  "keyNumbers": [
+   {
+    "value": "9",
+    "label": "parent matrices",
+    "context": "explicit parent matrices provided along with corresponding one-party projections"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Absolutely Maximally Entangled State",
+    "shortDef": "A multipartite pure state where every subset of at most half the parties is maximally mixed.",
+    "eli5Def": "A quantum state so entangled that looking at half the particles shows completely random noise, hiding all information in connections.",
+    "wikiTitle": "Multipartite entanglement"
+   },
+   {
+    "term": "Maximum Distance Separable Code",
+    "shortDef": "An optimal error-correcting code meeting the theoretical Singleton bound between length and distance.",
+    "eli5Def": "The most efficient kind of error-protecting code possible, packing maximum data protection into the fewest symbols.",
+    "wikiTitle": "Singleton bound"
+   },
+   {
+    "term": "Hadamard Matrix",
+    "shortDef": "A square matrix whose entries have equal magnitude and whose rows are mutually orthogonal.",
+    "eli5Def": "A special grid of numbers whose rows point in completely perpendicular directions, useful for encoding signals.",
+    "wikiTitle": "Hadamard matrix"
+   },
+   {
+    "term": "Stabilizer State",
+    "shortDef": "A quantum state uniquely identified as the simultaneous +1 eigenstate of an abelian subgroup of Pauli operators.",
+    "eli5Def": "A structured quantum state that can be fully tracked by a set of simple mathematical rules rather than huge matrices.",
+    "wikiTitle": "Stabilizer code"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

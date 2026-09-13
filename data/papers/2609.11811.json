@@ -1,0 +1,85 @@
+{
+ "id": "2609.11811",
+ "version": 1,
+ "title": "Block entropy area based non-local fermionic mode optimization with gradient disentanglers",
+ "authors": [
+  {
+   "name": "Miklós Antal Werner"
+  },
+  {
+   "name": "Gero Friesecke"
+  },
+  {
+   "name": "Andor Menczer"
+  },
+  {
+   "name": "Kornél Kapás"
+  },
+  {
+   "name": "Örs Legeza"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "cond-mat.stat-mech",
+  "physics.comp-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-09-10T17:05:07Z",
+ "updated": "2026-09-10T17:05:07Z",
+ "abstract": "We introduce a systematic block entropy area based mode optimization algorithm for many-body quantum states of interacting fermions represented by matrix product states. From the gradient of a global cost function, the block entropy area, a long-ranged, non-interacting effective disentangler Hamiltonian is formed. We then simulate the time-dependent Schrödinger equation driven by the disentangler Hamiltonian by employing the time-dependent variational principle based on projector splitting, and minimize the cost function. The combination of the density matrix renormalization group with this gradient-based entanglement minimization forms an efficient low-rank iterative ground-state algorithm that also provides an optimized single-particle basis for matrix product state representation. We demonstrate the method on two-dimensional lattice models of interacting fermions and the Fe${_4}$S${_4}$ cluster, and show its robustness and superiority over earlier protocols using nearest-neighbor mode rotations and reorderings.",
+ "comment": "6 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.11811",
+  "pdf": "https://arxiv.org/pdf/2609.11811",
+  "html": "https://arxiv.org/html/2609.11811"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-13T12:13:38.764Z",
+  "hook": "A new gradient disentangler slashes quantum entanglement to efficiently simulate 2D fermions and Fe4S4 clusters.",
+  "tldr": [
+   "Introduced a mode-optimization algorithm minimizing block entropy area to efficiently simulate interacting fermions.",
+   "Built a long-ranged disentangler Hamiltonian from cost gradients and evolved it via the time-dependent variational principle.",
+   "Outperformed nearest-neighbor rotation protocols on 2D fermion lattices and the Fe4S4 molecular cluster."
+  ],
+  "whyItMatters": "Simulating complex molecules and 2D materials on classical computers is notoriously hard because quantum entanglement explodes. Better mode-optimization algorithms help chemists and physicists model complex reactions and materials with much less computing power.",
+  "eli5": "Imagine trying to pack messy, tangled yarn into neat, tiny boxes. This method continuously twists and rotates the yarn fibers until they unravel, making the quantum state simple enough to fit into a computer's memory.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Matrix Product States",
+    "shortDef": "A low-rank tensor network representation of quantum many-body states.",
+    "eli5Def": "A clever mathematical way to describe a giant team of quantum particles by linking them in a simple chain.",
+    "wikiTitle": "Matrix product state"
+   },
+   {
+    "term": "Density Matrix Renormalization Group",
+    "shortDef": "A powerful numerical variational technique for finding ground states of low-dimensional quantum systems.",
+    "eli5Def": "An algorithm that zooms in on the most important quantum information to find a system's lowest-energy state.",
+    "wikiTitle": "Density matrix renormalization group"
+   },
+   {
+    "term": "Time-Dependent Variational Principle",
+    "shortDef": "A method to project real or imaginary time evolution onto a constrained variational manifold of states.",
+    "eli5Def": "A rule that steers a simplified quantum simulation along the path that best matches true physics over time.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Block Entropy Area",
+    "shortDef": "A global cost metric summing quantum entanglement across consecutive spatial blocks in a 1D ordering.",
+    "eli5Def": "A score measuring how tangled different chunks of a quantum system are with each other.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

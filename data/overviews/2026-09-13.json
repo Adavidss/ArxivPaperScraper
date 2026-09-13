@@ -1,0 +1,38 @@
+{
+ "date": "2026-09-13",
+ "generatedAt": "2026-09-13T12:13:38.764Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum Entanglement, Codes, and Channel Limits",
+ "summary": "Today's papers explore fundamental frontiers in quantum information and simulation. Highlights include algorithmic entanglement minimization for fermion systems, the algebraic construction of maximally entangled states, and an exponential strong converse for memoryless quantum capacity.",
+ "themes": [
+  {
+   "title": "Quantum Information & Capacity Bounds",
+   "body": "Theoretical work pushes the limits of multipartite entanglement and communication fidelity, presenting explicit AME state constructions via MDS codes alongside an exponential strong converse theorem for quantum capacity using a quantum blowing-up lemma.",
+   "paperIds": [
+    "2609.11796",
+    "2609.11771"
+   ]
+  },
+  {
+   "title": "Fermionic Simulation & Disentanglement",
+   "body": "Novel variational algorithms minimize block entropy area using gradient disentanglers, markedly speeding up numerical simulations of strongly correlated 2D lattices and complex molecular clusters.",
+   "paperIds": [
+    "2609.11811"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers address extreme entanglement regimes—2609.11796 through explicit construction of maximally entangled states, and 2609.11811 via optimization schemes that systematically strip away entanglement to ease simulation.",
+   "paperIds": [
+    "2609.11796",
+    "2609.11811"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2609.11811",
+  "2609.11796",
+  "2609.11771"
+ ]
+}

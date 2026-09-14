@@ -1888,9 +1888,9 @@
  },
  "retryQueue": [],
  "lastRun": {
-  "at": "2026-09-13T12:13:38.764Z",
-  "geminiCalls": 5,
-  "newPapers": 3,
+  "at": "2026-09-14T13:14:24.634Z",
+  "geminiCalls": 0,
+  "newPapers": 0,
   "quotaExhausted": false
  }
 }

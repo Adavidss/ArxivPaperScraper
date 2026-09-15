@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-14T13:14:24.634Z",
+ "generatedAt": "2026-09-15T12:00:43.110Z",
  "windowDays": 75,
  "items": [
   {
@@ -6520,25 +6520,6 @@
    "published": "2026-07-02",
    "difficulty": 3,
    "readSeconds": 65,
-   "source": "follow",
-   "biteStatus": "ok",
-   "withdrawn": false
-  },
-  {
-   "id": "2607.01400",
-   "title": "A global predicted-fMRI drive signal from TRIBE does not predict YouTube replay heatmaps",
-   "hook": "A top brain-encoding AI model fails to predict which parts of YouTube videos people actually re-watch.",
-   "authorsLine": "Sahu, Pandey",
-   "followedIds": [],
-   "matchedKeywords": [
-    "SABRE"
-   ],
-   "figureUrl": "https://arxiv.org/html/2607.01400v2/x1.png",
-   "firstSeen": "2026-07-12",
-   "primaryCategory": "cs.SE",
-   "published": "2026-07-01",
-   "difficulty": 3,
-   "readSeconds": 75,
    "source": "follow",
    "biteStatus": "ok",
    "withdrawn": false

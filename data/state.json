@@ -70,11 +70,6 @@
    "summarizedVersion": 1,
    "firstSeen": "2026-07-12"
   },
-  "2607.01400": {
-   "version": 2,
-   "summarizedVersion": 2,
-   "firstSeen": "2026-07-12"
-  },
   "2607.09663": {
    "version": 1,
    "summarizedVersion": 1,
@@ -1888,7 +1883,7 @@
  },
  "retryQueue": [],
  "lastRun": {
-  "at": "2026-09-14T13:14:24.634Z",
+  "at": "2026-09-15T12:00:43.110Z",
   "geminiCalls": 0,
   "newPapers": 0,
   "quotaExhausted": false

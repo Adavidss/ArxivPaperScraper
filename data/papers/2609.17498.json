@@ -1,0 +1,69 @@
+{
+ "id": "2609.17498",
+ "version": 1,
+ "title": "Antidistinguishability of states in General Probabilistic Theories",
+ "authors": [
+  {
+   "name": "Satyaki Manna"
+  },
+  {
+   "name": "Anandamay Das Bhowmik"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-15T17:37:48Z",
+ "updated": "2026-09-15T17:37:48Z",
+ "abstract": "We investigate antidistinguishability of states within the framework of general probabilistic theories (GPTs). We formulate antidistinguishability, strong and equal antidistinguishability as refined notions that imposed additional constraint on the measurement effects. We establish general results relating these notions of antidistinguishability and derive an upper bound on the cardinality of equally antidistinguishable sets in terms of the affine dimension of the state space. We then study antidistinguishability in polygonal theories, obtaining conditions for antidistinguishability of a set of states. In consequence, we show that the set of all pure states in a polygon model is antidistinguishable. Additionally, we identify broad families of strongly and equally antidistinguishable states. Finally, using Random Exclusion Codes, whose success probability is governed by the antidistinguishability of different sets of encoding states, we probe the nonclassicality of polygon theories. We find that certain polygon models can outperform the optimal quantum value, while their optimal performance converges to the quantum limit in the large-polygon limit.",
+ "comment": "12 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.17498",
+  "pdf": "https://arxiv.org/pdf/2609.17498",
+  "html": "https://arxiv.org/html/2609.17498"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.17498v1/gpt1.jpg"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-16T11:57:07.952Z",
+  "hook": "Certain polygon models can outperform the optimal quantum value in random exclusion code success probability.",
+  "tldr": [
+   "Investigated antidistinguishability of states within general probabilistic theories by formulating refined notions and measurement constraints.",
+   "Derived an upper bound on the cardinality of equally antidistinguishable sets and studied conditions in polygonal theories.",
+   "Probed nonclassicality via Random Exclusion Codes, finding that some polygon models outperform optimal quantum values."
+  ],
+  "whyItMatters": "Exploring theoretical frameworks beyond standard quantum mechanics helps physicists understand what makes quantum physics special and whether even stranger physical theories could exist.",
+  "eli5": "Think of sorting shapes into distinct boxes where you try to guess what something definitely is NOT. Scientists looked at bizarre virtual universes made of polygons to see if they can play guessing games better than our quantum universe.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "antidistinguishability",
+    "shortDef": "The property of a set of quantum states where measurements can definitively rule out at least one state.",
+    "eli5Def": "Being able to prove definitively what something is NOT, even if you cannot tell exactly what it is.",
+    "wikiTitle": null
+   },
+   {
+    "term": "general probabilistic theories",
+    "shortDef": "A mathematical framework encompassing quantum mechanics and other hypothetical physical theories.",
+    "eli5Def": "A master rulebook that can describe our universe's physics as well as imaginary sci-fi universes.",
+    "wikiTitle": null
+   },
+   {
+    "term": "polygonal theories",
+    "shortDef": "Toy physical models where the state space is represented geometrically as a polygon.",
+    "eli5Def": "A simplified physics sandbox where the possible states of a system form flat-sided shapes like triangles or pentagons.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

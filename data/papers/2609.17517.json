@@ -1,0 +1,73 @@
+{
+ "id": "2609.17517",
+ "version": 1,
+ "title": "Regularized barycentric Rényi divergences",
+ "authors": [
+  {
+   "name": "Milán Mosonyi"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT",
+  "math-ph",
+  "math.FA"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-15T17:53:27Z",
+ "updated": "2026-09-15T17:53:27Z",
+ "abstract": "Barycentric Rényi divergences were introduced in [Mosonyi, Bunth, Vrana, Linear Algebra and its Applications, 2024] as an alternative to standard Kubo-Ando constructions to define multivariate quantum Rényi divergences. They are defined via a variational expression and depend on a finite collection of quantum relative entropies $D^{q_x}$. When all the relative entropies are monotone under CPTP maps then so are the corresponding barycentric Rényi divergences, and when all the relative entropies are additive then the corresponding barycentric Rényi divergences are subadditive under tensor product. Additivity has only been established before for the case where all $D^{q_x}$ are chosen to be the Umegaki relative entropy, which is also the only case where the barycentric Rényi divergence (called the minimal one) admits an explicit expression. Here we settle the problem of additivity by showing that for any choice of additive and monotone quantum relative entropies, the regularized barycentric Rényi divergence coincides with the minimal barycentric Rényi divergence on strictly positive inputs. This in turn implies that the only additive barycentric Rényi divergence is the minimal one.",
+ "comment": "11 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.17517",
+  "pdf": "https://arxiv.org/pdf/2609.17517",
+  "html": "https://arxiv.org/html/2609.17517"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-16T11:57:07.952Z",
+  "hook": "For all additive and monotone quantum relative entropies, only one barycentric Rényi divergence is truly additive.",
+  "tldr": [
+   "Investigated additivity properties of multivariate barycentric quantum Rényi divergences.",
+   "Analyzed regularized forms built from monotone and additive quantum relative entropies on strictly positive inputs.",
+   "Proved that the regularized divergence always equals the minimal one, showing the minimal divergence is uniquely additive."
+  ],
+  "whyItMatters": "Quantum divergences measure how distinguishable quantum states are, which forms the mathematical foundation of quantum channel capacities, hypothesis testing, and quantum cryptography.",
+  "eli5": "Imagine trying to measure the difference between several multi-ingredient recipes. Mathematicians invented a whole family of formulas to measure this, but this paper proves that only one specific formula scales cleanly when you double the recipes.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum relative entropy",
+    "shortDef": "A measure of distinguishability between two quantum states.",
+    "eli5Def": "A score telling you how different one quantum state is from another.",
+    "wikiTitle": "Quantum relative entropy"
+   },
+   {
+    "term": "CPTP maps",
+    "shortDef": "Completely positive trace-preserving maps representing physical transformations on quantum states.",
+    "eli5Def": "Allowed quantum operations that never break physical rules or probabilities.",
+    "wikiTitle": "Quantum operation"
+   },
+   {
+    "term": "Additivity",
+    "shortDef": "The property that a functional on independent systems equals the sum of its parts.",
+    "eli5Def": "When the total measure of two separate systems combined is just the sum of their individual measures.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Rényi divergence",
+    "shortDef": "A generalized family of divergences used in classical and quantum information theory.",
+    "eli5Def": "A flexible mathematical ruler used to compare probability distributions or quantum states.",
+    "wikiTitle": "Rényi entropy"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

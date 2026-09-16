@@ -1,0 +1,83 @@
+{
+ "id": "2609.17482",
+ "version": 1,
+ "title": "Predictive Structure Behind Rare Outcomes in Random Quantum Circuits",
+ "authors": [
+  {
+   "name": "Myeongsu Kim"
+  },
+  {
+   "name": "Travis Humble"
+  },
+  {
+   "name": "Sabre Kais"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-15T17:24:08Z",
+ "updated": "2026-09-15T17:24:08Z",
+ "abstract": "Rare outputs of random quantum circuits are usually treated as terminal statistics. We ask whether they reveal intermediate organization that remains useful beyond the selecting future. Comparing unconditioned random-normal (RN) and peak-selected random-peaked (RP) circuits from the same local generator, we find stronger pairwise correlations and probability redistribution but reduced bipartite and output spreading in RP across n=8-16. Exact full-suffix decomposition reveals stronger peak-directed interference. The structural separation and fresh-future advantage persist across four nominal depths at n=8-14, with 2.01-7.15 fold RP enrichment in the depth extensions at fixed, independently calibrated thresholds. Within the unconditioned ensemble, a structural prefix score predicts fresh-event probability without using the evaluated circuits' terminal outcomes. Population-preserving phase scrambling identifies a functional contribution from relative-phase organization across the tested settings, including primary-depth held-out confirmation. RP trajectory-guided initialization improves high-peak yield over Haar initialization under common local refinement. Intermediate multivariate guidance also improves the fresh-continuation susceptibility of constructed states beyond peak-only guidance across the same size-depth grid. Rare outputs thus reveal intermediate physical organization that remains useful under new dynamics and can guide circuit construction.",
+ "comment": "25 pages, 9 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.17482",
+  "pdf": "https://arxiv.org/pdf/2609.17482",
+  "html": "https://arxiv.org/html/2609.17482"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-16T11:57:07.952Z",
+  "hook": "Rare peaks in random quantum circuits show hidden internal structure, giving a 2.01–7.15x enrichment in deeper runs.",
+  "tldr": [
+   "Investigated whether rare, high-probability outputs in random circuits possess organized internal structures.",
+   "Compared unconditioned and peaked circuits via full-suffix decomposition and phase scrambling across 8–16 qubits.",
+   "Discovered that rare circuits retain structured relative phases that persist under future dynamics to boost peak yields."
+  ],
+  "whyItMatters": "Random quantum circuits are the standard benchmark for quantum supremacy; understanding their hidden structure can guide better algorithm design and state preparation on noisy hardware.",
+  "eli5": "Imagine flipping coins randomly and occasionally getting an unusual streak of heads. Instead of pure luck, researchers found those rare runs share a hidden rhythm inside that lets them keep producing unusual results even if you keep flipping.",
+  "keyNumbers": [
+   {
+    "value": "8-16",
+    "label": "qubits tested",
+    "context": "System sizes across which structural differences were measured"
+   },
+   {
+    "value": "2.01-7.15 fold",
+    "label": "RP enrichment",
+    "context": "Peak enrichment observed across depth extensions at fixed thresholds"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Random quantum circuits",
+    "shortDef": "Circuits built by selecting quantum logic gates at random.",
+    "eli5Def": "A sequence of quantum operations chosen completely by chance, like shuffling a deck of quantum cards.",
+    "wikiTitle": "Random quantum circuit"
+   },
+   {
+    "term": "Haar initialization",
+    "shortDef": "Sampling quantum states uniformly at random from the full state space.",
+    "eli5Def": "Picking a starting point uniformly at random across all possible quantum directions.",
+    "wikiTitle": "Haar measure"
+   },
+   {
+    "term": "Bipartite spreading",
+    "shortDef": "The rate at which quantum information distributes across two partitions.",
+    "eli5Def": "How quickly secrets get mixed up between two halves of a quantum system.",
+    "wikiTitle": "Quantum entanglement"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

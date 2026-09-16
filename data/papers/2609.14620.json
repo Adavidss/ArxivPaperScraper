@@ -1,0 +1,88 @@
+{
+ "id": "2609.14620",
+ "version": 1,
+ "title": "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks",
+ "authors": [
+  {
+   "name": "Songbo Xie"
+  },
+  {
+   "name": "Ethan Dickey"
+  },
+  {
+   "name": "Syed Ahmed Taimoor"
+  },
+  {
+   "name": "Sabre Kais"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-13T15:49:51Z",
+ "updated": "2026-09-13T15:49:51Z",
+ "abstract": "Can a classical network not only encode a quantum-like state, but also read out its measurement statistics through its own collective dynamics? Here we introduce a network-native readout scheme for a structured classical network whose community modes form an effective two-qubit state space. Network connectivity selects a dominant collective mode that encodes the state, while a fixed set of ten elementary connectivity perturbations probes its collective response. The resulting shifts of the dominant growth rate form a complete basis of expectation values for the real two-qubit sector, from which joint-outcome probabilities associated with arbitrary real projectors are reconstructed by linear combination. Once these ten spectral responses are measured, the same data generate correlations over a continuous family of measurement settings. As a benchmark, for an encoded Bell state four selected correlations give $|S|=\\chsh>2$, whereas a separable product-state reference remains within the Clauser--Horne--Shimony--Holt (CHSH) bound $|S| \\leq 2 $. These results establish an informationally complete dynamical readout of effective two-qubit states directly from the spectral response of a classical network.",
+ "comment": "5 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.14620",
+  "pdf": "https://arxiv.org/pdf/2609.14620",
+  "html": "https://arxiv.org/html/2609.14620"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.14620v1/figures/figure_1a.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-16T11:57:07.952Z",
+  "hook": "A classical network mimics two-qubit quantum states and violates the CHSH bound using only collective growth rates.",
+  "tldr": [
+   "Tested if classical network dynamics can directly read out measurement statistics of encoded quantum states.",
+   "Used 10 elementary connectivity perturbations to measure dominant growth rates and reconstruct real projectors.",
+   "Recovered a Bell-state correlation violating the classical CHSH bound (|S| > 2) through spectral response alone."
+  ],
+  "whyItMatters": "It demonstrates that classical collective systems can reproduce informationally complete quantum measurements without full quantum hardware, deepening connections between classical physics and quantum simulations.",
+  "eli5": "Think of a web of interconnected pendulums. By nudging ten specific connections and watching how fast the whole web speeds up, researchers can calculate numbers that mimic entangled quantum particles breaking classical rules.",
+  "keyNumbers": [
+   {
+    "value": "10",
+    "label": "connectivity perturbations",
+    "context": "Elementary perturbations used to probe the network's collective response"
+   },
+   {
+    "value": "|S| > 2",
+    "label": "CHSH violation",
+    "context": "Correlation benchmark achieved for an encoded Bell state"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "CHSH bound",
+    "shortDef": "An inequality that sets the upper limit on correlations achievable by classical local hidden-variable theories.",
+    "eli5Def": "A mathematical speed limit; classical systems can score at most 2, but quantum entanglement can score higher.",
+    "wikiTitle": "Clauser–Horne–Shimony–Holt inequality"
+   },
+   {
+    "term": "Bell state",
+    "shortDef": "One of four maximally entangled two-qubit quantum states.",
+    "eli5Def": "A pair of particles tied together so closely that measuring one instantly decides the other.",
+    "wikiTitle": "Bell state"
+   },
+   {
+    "term": "Informationally complete",
+    "shortDef": "A measurement set sufficient to fully reconstruct an unknown quantum state.",
+    "eli5Def": "Taking just enough different measurements to figure out everything about a quantum system.",
+    "wikiTitle": "Quantum tomography"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

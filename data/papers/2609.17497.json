@@ -1,0 +1,94 @@
+{
+ "id": "2609.17497",
+ "version": 1,
+ "title": "Beyond Hardware: Adaptive Algorithmic Control by State-Proxy Equalization",
+ "authors": [
+  {
+   "name": "Jianlong Lu"
+  },
+  {
+   "name": "Hongrui Zhang"
+  },
+  {
+   "name": "Vishal Sharathchandra Bajpe"
+  },
+  {
+   "name": "Thorsten Koch"
+  },
+  {
+   "name": "Ying Chen"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-15T17:37:39Z",
+ "updated": "2026-09-15T17:37:39Z",
+ "abstract": "Recent advances in quantum computing have been driven primarily by improvements in hardware. Here we show that substantial gains can instead arise from how finite computational resources are allocated throughout a quantum computation. We introduce Adaptive Algorithmic Control (A2C), a software paradigm founded on a State-Proxy Equalization theorem, which proves that the optimal allocation for a state-derived proxy-error functional equalizes cumulative computational hardness rather than physical time. The required computational hardness is inferred directly from the evolving quantum state, avoiding explicit reconstruction of the exponentially large many-body spectrum. Across quantum optimization problems containing up to 156 qubits, combining exact simulations, large-scale supercomputer computations and IBM quantum hardware experiments, A2C improves the low-energy sampling probabilities by $22\\%$ to over $100,000\\%$ under matched circuit depths and measurement budgets. These results demonstrate that quantum computational performance depends not only on hardware capabilities, but also on how finite computational resources are organized, establishing adaptive algorithmic control as a complementary software pathway for advancing quantum computation.",
+ "comment": "15 pages of main text and 30 pages of Supplementary Information",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.17497",
+  "pdf": "https://arxiv.org/pdf/2609.17497",
+  "html": "https://arxiv.org/html/2609.17497"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.17497v1/Fig1_panel_f_replaced.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-16T11:57:07.952Z",
+  "hook": "Adaptive Algorithmic Control improves low-energy sampling probabilities by 22% to over 100,000%.",
+  "tldr": [
+   "Introduced Adaptive Algorithmic Control (A2C), a software paradigm founded on a State-Proxy Equalization theorem.",
+   "Tested the approach across quantum optimization problems containing up to 156 qubits using simulations and IBM hardware.",
+   "Improved low-energy sampling probabilities significantly under matched circuit depths and measurement budgets."
+  ],
+  "whyItMatters": "Instead of waiting for expensive new hardware upgrades, this paper proves that writing smarter software resource-allocation algorithms can drastically supercharge existing quantum computers.",
+  "eli5": "Instead of buying a faster engine for your car, imagine writing a better computer program to shift gears at the exact right microsecond. That software tweak alone makes the car go much faster.",
+  "keyNumbers": [
+   {
+    "value": "156",
+    "label": "qubits",
+    "context": "Quantum optimization problems tested across simulations and hardware containing up to 156 qubits."
+   },
+   {
+    "value": "22%",
+    "label": "minimum improvement",
+    "context": "Low-energy sampling probabilities improved by 22% to over 100,000%."
+   },
+   {
+    "value": "100,000%",
+    "label": "maximum improvement",
+    "context": "Low-energy sampling probabilities improved by up to over 100,000% under matched conditions."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "qubit",
+    "shortDef": "The basic unit of quantum information, analogous to a classical computer bit.",
+    "eli5Def": "A quantum coin that can be heads, tails, or spinning in a superposition of both.",
+    "wikiTitle": "Qubit"
+   },
+   {
+    "term": "state-proxy equalization",
+    "shortDef": "A theorem proving optimal allocation equalizes cumulative computational hardness rather than time.",
+    "eli5Def": "A math rule stating you should balance how hard the computer thinks at each step rather than rushing the clock.",
+    "wikiTitle": null
+   },
+   {
+    "term": "circuit depth",
+    "shortDef": "The number of sequential quantum gates stacked in a quantum circuit.",
+    "eli5Def": "The length of an assembly line where quantum operations are performed one after another.",
+    "wikiTitle": "Quantum circuit"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

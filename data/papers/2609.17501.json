@@ -1,0 +1,72 @@
+{
+ "id": "2609.17501",
+ "version": 1,
+ "title": "A Case Study on Noise Resilient Operator Selection in Adaptive Variational Quantum Algorithms",
+ "authors": [
+  {
+   "name": "Soorya Haravu"
+  },
+  {
+   "name": "Mafalda Ramôa"
+  },
+  {
+   "name": "Bharath Sambasivam"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-15T17:42:37Z",
+ "updated": "2026-09-15T17:42:37Z",
+ "abstract": "Hardware noise has been shown to significantly impact the accuracy of ADAPT-VQE, a ground state preparation algorithm. While previous work has studied the impact of noise on its parameter optimization step, its impact on the critical operator selection step remains comparatively unexplored. In this work, we examine the impact of a variety of noise channels on this step, using a linear H$_3$ molecule as a test case. We show that, despite the selection criterion's natural resilience to some noise, both coherent and incoherent noise can prevent convergence for sufficiently high noise rates. We employ quantum error mitigation techniques--dynamical decoupling, zero noise extrapolation, and Pauli twirling--and show that when combined appropriately, these techniques are capable of restoring a successful convergence profile. Our results highlight how error mitigation can improve the performance of ADAPT-VQE and enable convergence in the presence of hardware noise, offering valuable insights into the implementation of the algorithm on near-term quantum hardware.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.17501",
+  "pdf": "https://arxiv.org/pdf/2609.17501",
+  "html": "https://arxiv.org/html/2609.17501"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.17501v1/Ideal_system_heatmap.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-16T11:57:07.952Z",
+  "hook": "Hardware noise can prevent ADAPT-VQE convergence, but combined error mitigation techniques can restore success.",
+  "tldr": [
+   "Studied the impact of coherent and incoherent noise on the critical operator selection step of ADAPT-VQE using a linear H3 molecule.",
+   "Employed quantum error mitigation techniques including dynamical decoupling, zero noise extrapolation, and Pauli twirling.",
+   "Demonstrated that combining these mitigation techniques can restore a successful convergence profile in the presence of hardware noise."
+  ],
+  "whyItMatters": "Quantum computers are notoriously plagued by hardware noise that ruins calculations. By showing that smart software error fixes can rescue key algorithms like ADAPT-VQE, this work helps bridge the gap to useful near-term quantum computing.",
+  "eli5": "Imagine trying to bake a cake while someone keeps shaking the table. In quantum computing, background noise messes up delicate steps, but these researchers used clever anti-shaking tricks to keep the recipe on track.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "ADAPT-VQE",
+    "shortDef": "An adaptive quantum algorithm used for ground state preparation.",
+    "eli5Def": "A smart computer recipe used to find the lowest-energy state of molecules.",
+    "wikiTitle": null
+   },
+   {
+    "term": "dynamical decoupling",
+    "shortDef": "A quantum error mitigation method that uses pulse sequences to suppress decoherence.",
+    "eli5Def": "Wagging a magnet back and forth really fast to stop outside noise from messing up your quantum bit.",
+    "wikiTitle": "Dynamical decoupling"
+   },
+   {
+    "term": "Pauli twirling",
+    "shortDef": "A protocol that randomizes coherent errors into stochastic Pauli errors.",
+    "eli5Def": "Shuffling errors randomly so they cancel each other out over time.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

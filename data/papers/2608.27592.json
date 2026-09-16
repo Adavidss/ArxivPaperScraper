@@ -1,7 +1,7 @@
 {
  "id": "2608.27592",
- "version": 1,
- "title": "Plateau-Constrained Selection of Commuting Phase-Term Orderings Under a Fixed Maintained-Parity Compiler Contract",
+ "version": 2,
+ "title": "Plateau-Constrained Selection: Exploiting Degeneracy for Lower-Depth Quantum Compilation",
  "authors": [
   {
    "name": "Owen Friedewald"
@@ -19,9 +19,9 @@
  ],
  "primaryCategory": "quant-ph",
  "published": "2026-08-27T18:22:15Z",
- "updated": "2026-08-27T18:22:15Z",
- "abstract": "Ordering objectives for commuting phase terms can have many equal optima, yet prior methods do not characterize or exploit those ties. We use a classical two-stage permutation search under fixed placement and maintained-parity quantum lowering: Stage 1 certifies the primary support optimum, and Stage 2 samples equal-cost tours and selects by a frozen routed score. On synthetic 16-qubit assignment-Ising instances, exact counting through 20 terms establishes instance-dependent multiplicity; when the support lower bound is attained, the reversal-reduced width equals the number of undirected Hamiltonian paths of the support line graph. A revised engineering analysis found 9.14% fewer routed controlled-NOT gates than unoptimized order, while the registered comparison found 11.10% fewer than prior stochastic search. Among 24 sampled minimum-support-cost orders at 36 terms, direct-depth selection reduced opposite-SABRE-seed depth by 12.83% in all 20 aggregates, whereas a matched 24-restart control changed depth by only -0.41% (unresolved). Candidate rankings persisted across SABRE routing seeds, explaining why selection survived routing re-randomization. The depth benefit transferred to a second generator and to 48 terms, but reversed under BasicSwap. On a prospective IBM Heron panel, raw generator error shifted by -0.0025 (-0.59%); fixed-panel shot uncertainty excluded zero, but term-seed inference remained unresolved. Equal-primary-cost tours are a useful router-conditioned compiler freedom, not a guaranteed hardware benefit.",
- "comment": "28 pages, 9 figures. Under review at IEEE Transactions on Quantum Engineering",
+ "updated": "2026-09-11T18:20:37Z",
+ "abstract": "Minimum-cost orders of commuting phase terms can produce substantially different routed circuits. On the same 36-term instances, three orders with identical support cost 74 yield mean routed depths of 228.6, 233.8, and 256.7. We exploit this degeneracy under fixed placement and maintained-parity lowering: Stage 1 attains the support optimum, and Stage 2 selects minimum routed depth among 24 equal-cost orders. For distinct pair supports, we characterize orders attaining the support lower bound through Hamiltonian paths of the support line graph and count optima exactly through 20 terms. On synthetic 16-qubit assignment-Ising instances, selection reduces depth by 12.83% under a different SABRE routing seed, with lower depth in all 20 instances. The selected orders lie a median 1.57 pool standard deviations below the pool mean, consistent with ordinary best-of-24 selection; the useful feature is that candidate rankings persist across routing seeds. Depth reductions extend to 48 terms and a random-MaxCut generator, whereas evaluation with BasicSwap reverses the gain. A 40-instance IBM Heron study measures a 0.59% error reduction on the executed stabilizer-probe panel, but the primary confidence interval across instances includes zero. Plateau selection therefore improves routed depth in the tested SABRE pipeline while preserving the logical support optimum.",
+ "comment": "11 pages, 4 figures. Under review at IEEE Transactions on Quantum Engineering",
  "doi": null,
  "links": {
   "abs": "https://arxiv.org/abs/2608.27592",
@@ -36,59 +36,54 @@
  "withdrawn": false,
  "biteStatus": "ok",
  "bite": {
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-08-31T14:19:32.919Z",
-  "hook": "A two-stage compiler search finds 9.14% fewer routed CNOT gates by exploiting equal-cost quantum phase-term orderings.",
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-16T11:57:07.952Z",
+  "hook": "Equal-cost gate orders yield vastly different circuit depths; plateau selection cuts routed depth by 12.83%.",
   "tldr": [
-   "They designed a classical two-stage permutation search to optimize commuting phase terms under a fixed maintained-parity compiler contract.",
-   "They used Stage 1 to certify primary support optima and Stage 2 to sample equal-cost tours selected by a frozen routed score.",
-   "They found 9.14% fewer routed CNOT gates than unoptimized orders and 11.10% fewer than prior stochastic search."
+   "Exploited equivalent-cost gate ordering variations to minimize quantum circuit depth during physical routing.",
+   "Characterized Hamiltonian paths on line graphs to find optima, choosing the best routed candidate among 24 orders.",
+   "Achieved a 12.83% depth reduction on 16-qubit Ising instances under SABRE routing with persistent candidate rankings."
   ],
-  "whyItMatters": "Quantum computers are extremely sensitive to hardware errors, so reducing the number of physical gates like CNOTs directly improves how efficiently quantum algorithms can run.",
-  "eli5": "Imagine trying to park cars in a giant parking lot where many different arrangements take up the exact same amount of space. The researchers found a clever way to test those identical arrangements and pick the one that uses the least amount of wiring friction, making the computer run smoother.",
+  "whyItMatters": "Shorter circuit depth is essential for executing algorithms on noisy modern quantum chips before quantum information decays into noise.",
+  "eli5": "When cooking, doing tasks in different orders might take the exact same prep time, but one order lets you use the stove much more efficiently. This method finds that smartest order for quantum computer instructions.",
   "keyNumbers": [
    {
-    "value": "16-qubit",
-    "label": "Qubit count",
-    "context": "Synthetic assignment-Ising instances used for testing"
+    "value": "12.83%",
+    "label": "depth reduction",
+    "context": "Achieved on synthetic 16-qubit assignment-Ising instances under SABRE routing"
    },
    {
-    "value": "9.14%",
-    "label": "Gate reduction",
-    "context": "Fewer routed controlled-NOT gates than unoptimized order"
+    "value": "24",
+    "label": "equal-cost orders",
+    "context": "Number of degenerate candidate gate orderings compared in Stage 2"
    },
    {
-    "value": "11.10%",
-    "label": "Improvement margin",
-    "context": "Fewer gates than prior stochastic search"
-   },
-   {
-    "value": "36 terms",
-    "label": "Term count",
-    "context": "Sampled minimum-support-cost orders"
+    "value": "0.59%",
+    "label": "error reduction",
+    "context": "Observed on IBM Heron hardware, though confidence interval spans zero"
    }
   ],
   "glossary": [
    {
-    "term": "Controlled-NOT gate",
-    "shortDef": "A two-qubit quantum logic gate essential for creating entanglement.",
-    "eli5Def": "A fundamental switch in a quantum computer where the state of one qubit decides whether to flip another qubit.",
-    "wikiTitle": "Controlled NOT gate"
+    "term": "Quantum compilation",
+    "shortDef": "Translating high-level quantum algorithms into instructions compatible with hardware constraints.",
+    "eli5Def": "Translating a computer program into step-by-step instructions a specific machine can actually run.",
+    "wikiTitle": "Quantum programming"
    },
    {
-    "term": "Hamiltonian paths",
-    "shortDef": "A path in a graph that visits every vertex exactly once.",
-    "eli5Def": "A puzzle where you have to connect every dot on a map without visiting any dot twice.",
+    "term": "Hamiltonian path",
+    "shortDef": "A path in a graph that visits each vertex exactly once.",
+    "eli5Def": "A trail on a map that visits every single town once without visiting any town twice.",
     "wikiTitle": "Hamiltonian path"
    },
    {
-    "term": "Ising instances",
-    "shortDef": "Mathematical models of ferromagnetism used for optimization problems.",
-    "eli5Def": "A grid of tiny magnetic arrows that want to point up or down together, used to solve hard computer puzzles.",
-    "wikiTitle": "Ising model"
+    "term": "Circuit depth",
+    "shortDef": "The number of sequential time steps required to execute all gates in a quantum circuit.",
+    "eli5Def": "How long a quantum program takes from start to finish if you run independent steps at the same time.",
+    "wikiTitle": "Quantum circuit"
    }
   ],
-  "difficulty": 4,
-  "readSeconds": 55
+  "difficulty": 3,
+  "readSeconds": 50
  }
 }

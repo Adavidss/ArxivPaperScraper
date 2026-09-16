@@ -1,0 +1,111 @@
+{
+ "id": "2609.17465",
+ "version": 1,
+ "title": "Quantum Compiler Design for Fault-Tolerant Quantum Computing",
+ "authors": [
+  {
+   "name": "Chenghong Zhu"
+  },
+  {
+   "name": "Jiahan Chen"
+  },
+  {
+   "name": "Keming He"
+  },
+  {
+   "name": "Hongshun Yao"
+  },
+  {
+   "name": "Zhaohui Yang"
+  },
+  {
+   "name": "Jin-Guo Liu"
+  },
+  {
+   "name": "Anbang Wu"
+  },
+  {
+   "name": "Xiaotong Ni"
+  },
+  {
+   "name": "Xingsheng Luan"
+  },
+  {
+   "name": "Zhuo Fu"
+  },
+  {
+   "name": "Shenggen Zheng"
+  },
+  {
+   "name": "Xin Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-15T17:05:49Z",
+ "updated": "2026-09-15T17:05:49Z",
+ "abstract": "Scalable quantum computation is expected to rely on fault-tolerant quantum computation (FTQC), in which quantum error correction (QEC) suppresses physical errors sufficiently to support reliable logical operations. This requires quantum compilation to move beyond general-purpose circuit optimization toward encoding-aware and protocol-structured compilation across the full stack of fault-tolerant quantum computers. Beyond circuit synthesis and hardware mapping, an FTQC compiler must lower algorithm-level operations into the logical gate set supported by the chosen code, coordinate encoded data and ancilla resources, realize logical operations together with repeated syndrome extraction under hardware constraints, and provide the resulting measurement stream to real-time decoding. This survey presents a full-stack view of compiler design for QEC-protected quantum computation. We organize existing work into three interacting layers: logical-level QEC compilation, physical-level QEC realization, and decoder runtime integration. At the logical level, we review surface-code lattice-surgery compilers, beyond-surface-code code-surgery frameworks including emerging qLDPC approaches, and compilation support for non-Clifford operations such as magic-state distillation and code switching. At the physical level, we survey hardware-aware QEC realization on superconducting, trapped-ion, and neutral-atom platforms. We further examine decoder models, real-time decoding systems, and frame-management mechanisms that close the feedback loop during fault-tolerant execution. Finally, we identify open challenges in cross-layer optimization, qLDPC compilation, compiler-decoder co-design, runtime adaptivity, and the development of integrated and benchmarkable FTQC compilation stacks. An actively maintained paper list is available at: github.com/chenghongz/QEC-compiler-design.",
+ "comment": "60 pages, comments are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.17465",
+  "pdf": "https://arxiv.org/pdf/2609.17465",
+  "html": "https://arxiv.org/html/2609.17465"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.17465v1/main_figure.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-16T11:57:07.952Z",
+  "hook": "Fault-tolerant quantum computing needs a full-stack compiler overhaul to bridge algorithms and error correction.",
+  "tldr": [
+   "Surveyed full-stack compiler design for fault-tolerant quantum computation across three interacting layers.",
+   "Reviewed logical-level QEC compilation, physical-level realization on various platforms, and decoder runtime integration.",
+   "Identified open challenges in cross-layer optimization, qLDPC compilation, and compiler-decoder co-design."
+  ],
+  "whyItMatters": "As quantum computers scale, managing physical errors is the biggest bottleneck. This survey maps out how compilers must evolve to make reliable, large-scale quantum algorithms actually work on real hardware.",
+  "eli5": "Imagine trying to build a skyscraper out of wet cardboard; you need a special framing system to keep it from collapsing. Similarly, quantum computers make a lot of mistakes, so researchers are designing special software compilers to constantly patch those errors on the fly.",
+  "keyNumbers": [
+   {
+    "value": "60",
+    "label": "Pages",
+    "context": "Length of the survey paper."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Fault-tolerant quantum computation",
+    "shortDef": "Quantum computing that can perform reliable operations despite physical errors.",
+    "eli5Def": "Building a reliable quantum computer using error-correcting tricks, even though the underlying parts are very unreliable.",
+    "wikiTitle": "Fault-tolerant quantum computing"
+   },
+   {
+    "term": "Quantum error correction",
+    "shortDef": "Methods to protect quantum information from decoherence and noise.",
+    "eli5Def": "Spreading delicate quantum information across multiple physical qubits so you can detect and fix errors without looking at the secret data.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Magic-state distillation",
+    "shortDef": "A resource-heavy protocol used to prepare clean non-Clifford states for universal quantum computing.",
+    "eli5Def": "A purification process that turns a bunch of noisy, low-quality quantum states into a few high-quality states needed for specific complex operations.",
+    "wikiTitle": "Magic state distillation"
+   },
+   {
+    "term": "Surface code",
+    "shortDef": "A leading topological quantum error-correcting code defined on a 2D lattice.",
+    "eli5Def": "A grid-like arrangement of qubits that acts like a quilted blanket, making it easy to spot and fix tears or errors in the quantum state.",
+    "wikiTitle": "Surface code"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

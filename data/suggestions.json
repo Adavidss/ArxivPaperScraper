@@ -1,6 +1,46 @@
 {
- "generatedAt": "2026-09-15T12:00:43.110Z",
+ "generatedAt": "2026-09-16T11:57:07.952Z",
  "suggestions": [
+  {
+   "name": "Sabre Kais",
+   "slug": "sabre-kais",
+   "score": 6,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2609.17482",
+    "2609.14620",
+    "2608.08798"
+   ],
+   "recentTitles": [
+    "Predictive Structure Behind Rare Outcomes in Random Quantum Circuits",
+    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Xin Wang",
+   "slug": "xin-wang",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.17465",
+    "2609.10520",
+    "2607.21533"
+   ],
+   "recentTitles": [
+    "Quantum Compiler Design for Fault-Tolerant Quantum Computing",
+    "Private communication via zero-private-capacity quantum channels"
+   ],
+   "paperCount": 4
+  },
   {
    "name": "Martin B. Plenio",
    "slug": "martin-b-plenio",
@@ -20,6 +60,45 @@
    "recentTitles": [
     "Thermalization of open quantum systems with pseudomodes",
     "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization"
+   ],
+   "paperCount": 3
+  },
+  {
+   "name": "Songbo Xie",
+   "slug": "songbo-xie",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2609.14620",
+    "2608.08798"
+   ],
+   "recentTitles": [
+    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks",
+    "Symmetry Constraints Regularize Neural Quantum State Learning"
+   ],
+   "paperCount": 2
+  },
+  {
+   "name": "Hongshun Yao",
+   "slug": "hongshun-yao",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.17465",
+    "2607.21533",
+    "2607.14082"
+   ],
+   "recentTitles": [
+    "Quantum Compiler Design for Fault-Tolerant Quantum Computing",
+    "Benchmarking Agents for Proving Theorems in Quantum Algorithms and Quantum Information"
    ],
    "paperCount": 3
   },
@@ -122,87 +201,6 @@
    "recentTitles": [
     "The cost of simulating classically tractable quantum circuits and dynamics",
     "Observable Estimation in the Absence of Classical Verification"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Chengkai Zhu",
-   "slug": "chengkai-zhu",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.10520",
-    "2608.03987",
-    "2607.21533"
-   ],
-   "recentTitles": [
-    "Private communication via zero-private-capacity quantum channels",
-    "Realified tensor networks: quantum circuit simulation on real-valued matrix accelerators"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Xin Wang",
-   "slug": "xin-wang",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.10520",
-    "2607.21533",
-    "2607.14082"
-   ],
-   "recentTitles": [
-    "Private communication via zero-private-capacity quantum channels",
-    "Benchmarking Agents for Proving Theorems in Quantum Algorithms and Quantum Information"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Shamik Gupta",
-   "slug": "shamik-gupta",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph",
-    "cond-mat.stat-mech"
-   ],
-   "paperIds": [
-    "2609.10510",
-    "2609.05391",
-    "2608.05052"
-   ],
-   "recentTitles": [
-    "Phase transitions in first-detection statistics of monitored long-range quantum walks",
-    "Non-reciprocally interacting Ornstein-Uhlenbeck processes: Exceptional points, Anomalous relaxation, Pseudo-equilibrium and Boundary refrigeration"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Lauriane Chomaz",
-   "slug": "lauriane-chomaz",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "cond-mat.quant-gas"
-   ],
-   "paperIds": [
-    "2609.09129",
-    "2608.27322",
-    "2608.20327"
-   ],
-   "recentTitles": [
-    "Anderson orthogonality scaling in the Rabi-driven heavy Fermi polaron",
-    "The heavy Fermi polaron I: the Lithium-Cesium experiment"
    ],
    "paperCount": 3
   }

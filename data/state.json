@@ -1914,13 +1914,43 @@
    "version": 1,
    "summarizedVersion": 1,
    "firstSeen": "2026-09-16"
+  },
+  "2609.19116": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-17"
+  },
+  "2609.19092": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-17"
+  },
+  "2609.19090": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-17"
+  },
+  "2609.18922": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-17"
+  },
+  "2609.18918": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-17"
+  },
+  "2609.18911": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-17"
   }
  },
  "retryQueue": [],
  "lastRun": {
-  "at": "2026-09-16T11:57:07.952Z",
-  "geminiCalls": 11,
-  "newPapers": 8,
+  "at": "2026-09-17T11:59:18.672Z",
+  "geminiCalls": 8,
+  "newPapers": 6,
   "quotaExhausted": false
  }
 }

@@ -1,0 +1,50 @@
+{
+ "date": "2026-09-17",
+ "generatedAt": "2026-09-17T11:59:18.672Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Advances in Quantum Error Correction and Simulation",
+ "summary": "Today's research spans significant improvements in quantum error correction protocols, novel simulation techniques for lattice models, and hardware-level quantum sensing. Together, these papers highlight continuous progress toward robust, scalable, and fault-tolerant quantum architectures.",
+ "themes": [
+  {
+   "title": "Magic State Cultivation & Quantum Error Correction",
+   "body": "New analytical and simulation methods evaluate magic state cultivation schemes. Studies calculate exact logical error rates up to order p^10 and propose verification methods to protect error correction protocols against faulty AI adviser updates.",
+   "paperIds": [
+    "2609.19116",
+    "2609.19090",
+    "2609.18922"
+   ]
+  },
+  {
+   "title": "Quantum Simulation & Hamiltonian Engineering",
+   "body": "Novel computational techniques dramatically cut simulation times for long-range interacting quantum lattice models using graph lattice sums. Additionally, a new geometric framework expands Hamiltonian engineering beyond standard group averaging.",
+   "paperIds": [
+    "2609.18918",
+    "2609.18911"
+   ]
+  },
+  {
+   "title": "Integrated Photonics & Sensing",
+   "body": "Demonstrations in integrated photonics achieve entanglement-enhanced sensing beyond the shot noise limit, utilizing on-chip four-mode entangled states for precise phase sensing.",
+   "paperIds": [
+    "2609.19092"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers focus on evaluating and improving magic state cultivation protocols at distance d=3 and d=5 using distinct numerical and analytical approaches.",
+   "paperIds": [
+    "2609.19116",
+    "2609.18922"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2609.19116",
+  "2609.19092",
+  "2609.19090",
+  "2609.18922",
+  "2609.18918",
+  "2609.18911"
+ ]
+}

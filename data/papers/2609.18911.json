@@ -1,0 +1,71 @@
+{
+ "id": "2609.18911",
+ "version": 1,
+ "title": "Hamiltonian engineering via pulses: beyond group averaging",
+ "authors": [
+  {
+   "name": "Ivan Beschastnyi"
+  },
+  {
+   "name": "Lucah Patel"
+  },
+  {
+   "name": "David Tinoco"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math.OC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-16T16:51:17Z",
+ "updated": "2026-09-16T16:51:17Z",
+ "abstract": "We develop a geometric framework for Hamiltonian engineering in finite-dimensional quantum systems using ideal control pulses. Starting from a bilinear Schrödinger equation with unbounded control amplitudes, we construct the closed pulse group and use extensions of control systems and Filippov's relaxation theorem to obtain a family of effective Hamiltonians given by the convex hull of the drift's adjoint orbit plus the Lie algebra of the pulse group. The geometry of this orbitope describes possibilities beyond group averaging. Using the isotypic decomposition of the adjoint representation, we characterize its affine hull and show that the group average lies in its interior. This yields locally accessible families of effective Hamiltonians around the invariant part of the drift. We apply the framework to recover the necessary and sufficient condition for dynamical decoupling from arbitrary interactions with a finite-dimensional bath. For connected abelian pulse groups, we describe the relevant representation decomposition through restricted roots. Finally, for qubit networks with identical pairwise couplings, we give a qualitative characterization and quantitative estimation of effective Hamiltonians that can be generated using our framework.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.18911",
+  "pdf": "https://arxiv.org/pdf/2609.18911",
+  "html": "https://arxiv.org/html/2609.18911"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-17T11:59:18.672Z",
+  "hook": "A new geometric framework expands quantum Hamiltonian engineering beyond traditional group averaging.",
+  "tldr": [
+   "Developed a geometric framework for Hamiltonian engineering in finite-dimensional quantum systems using control pulses.",
+   "Used extensions of control systems, Filippov's relaxation theorem, and isotypic decomposition to find effective Hamiltonians.",
+   "Recovered necessary and sufficient conditions for dynamical decoupling and analyzed qubit networks."
+  ],
+  "whyItMatters": "Controlling quantum systems precisely is vital for building reliable quantum computers. This research offers a deeper mathematical toolbox to manipulate quantum interactions effectively.",
+  "eli5": "Controlling quantum computers is like trying to steer a spinning top by hitting it with precise pulses of energy. This paper gives scientists a better map of all the possible ways they can nudge the top to make it do what they want.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "The rulebook that determines how a quantum system changes and moves over time.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Adjoint orbit",
+    "shortDef": "A geometric space formed by acting on an element with a Lie group.",
+    "eli5Def": "A shape traced out by rotating an object in all possible ways using symmetry.",
+    "wikiTitle": "Adjoint orbit"
+   },
+   {
+    "term": "Dynamical decoupling",
+    "shortDef": "A method to protect quantum systems from unwanted noise by applying fast control pulses.",
+    "eli5Def": "Shaking a system in a very specific rhythm to cancel out annoying background static.",
+    "wikiTitle": "Dynamical decoupling"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

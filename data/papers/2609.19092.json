@@ -1,0 +1,104 @@
+{
+ "id": "2609.19092",
+ "version": 1,
+ "title": "Continuous variable distributed quantum sensing in integrated photonics",
+ "authors": [
+  {
+   "name": "Bethany Puzio"
+  },
+  {
+   "name": "Oliver M. Green"
+  },
+  {
+   "name": "Joel F. Tasker"
+  },
+  {
+   "name": "Jonathan Frazer"
+  },
+  {
+   "name": "Tamzin Ellis"
+  },
+  {
+   "name": "Benjamin D. J. Sayers"
+  },
+  {
+   "name": "Rachel N. Clark"
+  },
+  {
+   "name": "Alex S. Clark"
+  },
+  {
+   "name": "Giacomo Ferranti"
+  },
+  {
+   "name": "Jonathan C. F. Matthews"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-16T17:28:02Z",
+ "updated": "2026-09-16T17:28:02Z",
+ "abstract": "Distributed quantum sensing is an emerging application of quantum networking, where entangled probe states are employed to sense combinations of delocalized parameters with enhanced precision relative to using separable states. Squeezed states of light are a prime resource for experimental demonstrations of entanglement-enhanced sensing, because they can be generated and entangled deterministically. Existing distributed quantum sensing experiments have been fundamentally limited in scalability due to their bulk-optic architectures. Meanwhile, integrated photonics provides a scalable and compact platform for quantum sensors. Here we demonstrate entanglement-enhanced sensing of linear functions of four phase shifts in an integrated photonic circuit. We find an entanglement-enhanced precision of 0.199(16) dB below the shot noise limit compared to 0.041(18) dB for separable states. A four-mode entangled state is generated on-chip with entanglement verification and phase sensing also performed on-chip with an array of four integrated homodyne detectors.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.19092",
+  "pdf": "https://arxiv.org/pdf/2609.19092",
+  "html": "https://arxiv.org/html/2609.19092"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.19092v1/Fig1_v14.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-17T11:59:18.672Z",
+  "hook": "Integrated photonic circuits demonstrate entanglement-enhanced sensing 0.199 dB below the shot noise limit.",
+  "tldr": [
+   "Demonstrated entanglement-enhanced sensing of linear functions across four phase shifts in an integrated photonic circuit.",
+   "Generated a four-mode entangled state on-chip, performing phase sensing and verification with four homodyne detectors.",
+   "Achieved a precision of 0.199 dB below the shot noise limit, outperforming separable states at 0.041 dB."
+  ],
+  "whyItMatters": "Traditional bulk-optic quantum sensors are bulky and hard to scale up. Moving these systems to compact, integrated photonic chips paves the way for ultra-precise portable sensors used in navigation and imaging.",
+  "eli5": "Imagine trying to measure a tiny tilt using flashlights. By tangling the light beams together in a special quantum way right on a tiny microchip, scientists can measure things much more precisely than with ordinary light.",
+  "keyNumbers": [
+   {
+    "value": "0.199(16) dB",
+    "label": "Entanglement-enhanced precision",
+    "context": "Precision below the shot noise limit achieved using entangled probe states."
+   },
+   {
+    "value": "0.041(18) dB",
+    "label": "Separable state precision",
+    "context": "Precision achieved using unentangled separable states."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Photonic circuit",
+    "shortDef": "A microchip that routes and manipulates light instead of electricity.",
+    "eli5Def": "A microscopic racetrack carved onto a chip where light beams zoom around instead of electrical signals.",
+    "wikiTitle": "Integrated optics"
+   },
+   {
+    "term": "Shot noise limit",
+    "shortDef": "The fundamental precision limit in optical measurements caused by the particle nature of light.",
+    "eli5Def": "The annoying background fuzziness in measurements caused by light coming in individual tiny packets called photons.",
+    "wikiTitle": "Shot noise"
+   },
+   {
+    "term": "Homodyne detector",
+    "shortDef": "An optical device used to measure the phase and amplitude of a light signal.",
+    "eli5Def": "A clever light-measuring tool that compares an incoming laser beam against a reference beam to see tiny changes.",
+    "wikiTitle": "Homodyne detection"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

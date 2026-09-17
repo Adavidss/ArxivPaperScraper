@@ -1,0 +1,83 @@
+{
+ "id": "2609.18922",
+ "version": 1,
+ "title": "Exact logical error rates for magic state cultivation",
+ "authors": [
+  {
+   "name": "Kwok Ho Wan"
+  },
+  {
+   "name": "Ainhoa Zapirain"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-16T16:58:36Z",
+ "updated": "2026-09-16T16:58:36Z",
+ "abstract": "We compute exactly the acceptance and logical error rates for the distance $d=3$ and $d=5$ magic state cultivation circuits from Clifft [arXiv:2604.27058] and SOFT [arXiv:2512.23037] using Pauli propagation and binary tensor contraction. Actual $T$ gates are studied, not the $S$-gate proxy used for sampling. The calculation includes every fault order at several circuit-level noise strengths ($p$). We provide a series expansion form to the logical error rates, through order $(p/(1-p))^{10}$. The analytical results recover the numerical values from Clifft and SOFT at both $d=3$ and $d=5$ to within their sampling uncertainty. Then, we show that the $d=3$ and $d=5$ circuits actually have fault distances of $d_{\\text{fault}}=2$ and $d_{\\text{fault}}=3$ respectively, explaining the similar distance degrading effects from the companion code of [Quantum 10, 2134 (2026)].",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.18922",
+  "pdf": "https://arxiv.org/pdf/2609.18922",
+  "html": "https://arxiv.org/html/2609.18922"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-17T11:59:18.672Z",
+  "hook": "We analytically compute exact acceptance and logical error rates for magic state cultivation circuits up to order p^10.",
+  "tldr": [
+   "Calculated exact acceptance and logical error rates for distance d=3 and d=5 magic state cultivation circuits.",
+   "Employed Pauli propagation and binary tensor contraction on actual T gates across multiple circuit noise strengths.",
+   "Proved that the d=3 and d=5 circuits actually have fault distances of dfault=2 and dfault=3 respectively."
+  ],
+  "whyItMatters": "Accurately predicting how errors propagate in magic state cultivation is crucial for building reliable quantum computers. Analytical formulas replace costly approximations with exact mathematical guarantees.",
+  "eli5": "Instead of running a million computer guesses to see how often a complicated circuit fails, these researchers wrote out the exact mathematical recipe to predict every possible mistake.",
+  "keyNumbers": [
+   {
+    "value": "10",
+    "label": "Expansion order",
+    "context": "The series expansion order up to which logical error rates are evaluated."
+   },
+   {
+    "value": "2",
+    "label": "Fault distance (d=3)",
+    "context": "The actual fault distance found for the d=3 magic state cultivation circuit."
+   },
+   {
+    "value": "3",
+    "label": "Fault distance (d=5)",
+    "context": "The actual fault distance found for the d=5 magic state cultivation circuit."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Pauli propagation",
+    "shortDef": "A simulation technique that tracks how Pauli errors move and transform through a quantum circuit.",
+    "eli5Def": "Following a trail of breadcrumbs backward through a circuit to see where a glitch originated.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Tensor contraction",
+    "shortDef": "A core mathematical operation combining multidimensional arrays to simplify complex networks.",
+    "eli5Def": "A heavy-duty math grinder that squishes giant multi-dimensional grids of numbers into simpler answers.",
+    "wikiTitle": "Tensor contraction"
+   },
+   {
+    "term": "Series expansion",
+    "shortDef": "Representing a function as an infinite sum of terms calculated from its derivatives.",
+    "eli5Def": "Breaking a complicated math problem down into a long addition sentence where each extra piece adds more accuracy.",
+    "wikiTitle": "Series expansion"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "2609.19116",
+ "version": 1,
+ "title": "Comparing magic state cultivation methods using matrix product states",
+ "authors": [
+  {
+   "name": "Tom Hartweg"
+  },
+  {
+   "name": "Asier Piñeiro Orioli"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-16T17:41:54Z",
+ "updated": "2026-09-16T17:41:54Z",
+ "abstract": "Magic state cultivation prepares high-fidelity magic states at low expected space-time costs; however, the exact performance of some schemes is unsettled due to the difficulty in simulating non-Clifford circuits. Here, we use matrix-product states (MPS) based methods to compute the exact performance of two types of fold-transversal cultivation schemes: (i) the Sahay et al method based on the regular surface code S gate, and (ii) a method we propose based on a partially fault-tolerant fold-transversal S gate. We show that for the former protocol at $d=5$, the $|T\\rangle$ output reaches similar logical error rates to the $|S\\rangle$ output, traditionally used as a cheap full Clifford proxy. This contrasts with the $\\sim10\\times$ discrepancy reported for the $d=5$ colour-code scheme of Gidney et al. We also find that our new $d=5$ scheme has $\\sim1.3\\times$ lower expected space-time cost while still reaching $10^{-9}$ logical error rate. We show that MPS and Clifford-augmented MPS (CAMPS) perform on par with or even better than the recently introduced near-Clifford simulator Clifft on the hardest $d=5$ regular surface code scheme. Additionally, to speed up simulation, we propose a new pre-screening method based on simple Pauli propagation, lowering by up to three orders of magnitude the required number of exact simulations, and use several simulator-agnostic sampling methods such as subset sampling.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.19116",
+  "pdf": "https://arxiv.org/pdf/2609.19116",
+  "html": "https://arxiv.org/html/2609.19116"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-17T11:59:18.672Z",
+  "hook": "We simulate complex quantum circuits using matrix-product states to evaluate magic state cultivation schemes at d=5.",
+  "tldr": [
+   "Computed exact performance of two fold-transversal magic state cultivation schemes using matrix-product state methods.",
+   "Tested a regular surface code S gate method and a new partially fault-tolerant fold-transversal S gate scheme.",
+   "Found the new d=5 scheme has ~1.3x lower expected space-time cost while reaching a 10^-9 logical error rate."
+  ],
+  "whyItMatters": "Fault-tolerant quantum computers require high-purity magic states, but simulating them is notoriously difficult. Finding cheaper cultivation methods directly reduces the massive resource overhead needed for practical quantum computing.",
+  "eli5": "Think of building a high-end Lego castle where some specialized pieces are very fragile and hard to make without breaking. Researchers found a smarter assembly trick that makes these special pieces using about 1.3 times less workspace and time.",
+  "keyNumbers": [
+   {
+    "value": "1.3x",
+    "label": "Lower space-time cost",
+    "context": "Expected space-time cost of the new d=5 scheme while reaching 10^-9 logical error rate."
+   },
+   {
+    "value": "10^-9",
+    "label": "Logical error rate",
+    "context": "Target error rate achieved by the new d=5 scheme."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Matrix product states",
+    "shortDef": "A mathematical representation used to efficiently approximate complex quantum states.",
+    "eli5Def": "A smart shortcut for writing down and simulating messy quantum systems on a normal computer without getting overwhelmed by too many variables.",
+    "wikiTitle": "Matrix product state"
+   },
+   {
+    "term": "Magic state",
+    "shortDef": "A specific quantum state required to perform universal fault-tolerant quantum computation.",
+    "eli5Def": "A special fuel needed to run certain advanced operations on a quantum computer that normal methods cannot do.",
+    "wikiTitle": "Magic state distillation"
+   },
+   {
+    "term": "Clifford circuits",
+    "shortDef": "A class of quantum operations that can be efficiently simulated on classical computers.",
+    "eli5Def": "Basic building blocks of quantum computers that are easy for normal computers to keep track of and copy.",
+    "wikiTitle": "Clifford algebra"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

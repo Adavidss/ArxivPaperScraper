@@ -1,0 +1,70 @@
+{
+ "id": "2609.18918",
+ "version": 1,
+ "title": "Graph lattice sums and graph zeta functions for long-range interacting quantum lattice models",
+ "authors": [
+  {
+   "name": "Andreas Alexander Buchheit"
+  },
+  {
+   "name": "Andreas Rupp"
+  }
+ ],
+ "categories": [
+  "math.NA",
+  "cond-mat.str-el",
+  "math.NT",
+  "quant-ph"
+ ],
+ "primaryCategory": "math.NA",
+ "published": "2026-09-16T16:56:06Z",
+ "updated": "2026-09-16T16:56:06Z",
+ "abstract": "Taming the exponential increase of the Hilbert space dimension with system size in the simulation of gapped quantum lattice models is of the highest relevance for understanding and designing exotic quantum materials, where nonlocal interactions are of particular interest. High-order linked-cluster expansions provide access the solution of the eigenvalue problem for the infinite system, yet rely on the computation of high-dimensional oscillatory lattice sums with a graph structure, only approachable with Monte Carlo methods so far. This work resolves this issue, rendering all required graph lattice sums, referred to as graph zeta functions for kernels involving power-laws, computable. The resulting method reduces the evaluation time for state-of-the art series expansions from tenthousands of core-hours to minutes. After factorizing the lattice sum over blocks, each block is evaluated by the cheapest available strategy depending on its treewidth $\\mathrm{tw}$. Basic blocks admit analytic forms in terms of generalized zeta functions. Series-parallel blocks with $\\mathrm{tw}\\le 2$ can be computed at linear cost in the number of graph nodes and in the size of the momentum grid using a semi-analytical algebra based on Epstein zeta functions and rapidly decaying Fourier series. Finally, for $\\mathrm{tw}>2$, the method is combined with tensor-network bucket elimination yielding polynomial scaling of numerical work and memory in momentum grid size with exponents only growing with $\\mathrm{tw}$ rather than with the number of vertices. Through use of FFT, the full momentum grid is recovered at the cost of a single momentum evaluation. We provide a detailed analysis of the precision and runtime of our method against analytic and numerical benchmarks. We further reproduce published Monte Carlo data for the transverse-field Ising model on different 1D, 2D, and 3D lattices, obtaining full agreement.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.18918",
+  "pdf": "https://arxiv.org/pdf/2609.18918",
+  "html": "https://arxiv.org/html/2609.18918"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-17T11:59:18.672Z",
+  "hook": "A new method cuts simulation evaluation time for quantum lattice models from tenthousands of core-hours to minutes.",
+  "tldr": [
+   "Created a new computational method to compute high-dimensional oscillatory lattice sums with a graph structure.",
+   "Factorized lattice sums over blocks, using analytic forms, semi-analytical algebra, and tensor-network bucket elimination.",
+   "Reduced series expansion evaluation times to minutes while matching published Monte Carlo data across dimensions."
+  ],
+  "whyItMatters": "Understanding exotic quantum materials with nonlocal interactions is bottlenecked by massive computational costs. This breakthrough bypasses slow Monte Carlo methods, making complex quantum simulations vastly more accessible.",
+  "eli5": "Imagine trying to solve a giant jigsaw puzzle where every piece affects every other piece, which normally takes a supercomputer days of hard thinking. The researchers found a clever shortcut to group the pieces together, letting a computer solve the whole puzzle in seconds.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Hilbert space",
+    "shortDef": "A mathematical space used in quantum mechanics to describe all possible states of a system.",
+    "eli5Def": "Think of it as a giant map containing every single possible way a quantum system could ever behave.",
+    "wikiTitle": "Hilbert space"
+   },
+   {
+    "term": "Linked-cluster expansions",
+    "shortDef": "A mathematical technique to study infinite systems by looking at small, connected pieces of them.",
+    "eli5Def": "Figuring out how a giant crowd moves by looking at how small groups of friends interact.",
+    "wikiTitle": "Cluster expansion"
+   },
+   {
+    "term": "Treewidth",
+    "shortDef": "A graph theory metric measuring how similar a graph is to a simple tree structure.",
+    "eli5Def": "A score for how tangled up a network of connections is.",
+    "wikiTitle": "Treewidth"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

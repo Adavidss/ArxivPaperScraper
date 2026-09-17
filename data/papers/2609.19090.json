@@ -1,0 +1,67 @@
+{
+ "id": "2609.19090",
+ "version": 1,
+ "title": "Securing quantum error correction against misleading advice from AI agents",
+ "authors": [
+  {
+   "name": "A. Barış Özgüler"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.AI",
+  "cs.CR",
+  "eess.SY"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-16T17:26:54Z",
+ "updated": "2026-09-16T17:26:54Z",
+ "abstract": "Can an attacker turn influence over an artificial intelligence (AI) adviser into a harmful quantum error-correction update? We identify an ambiguity in passive syndrome records that obstructs recovery selection, then show how additional calibration measurements support certified recovery updates under uncertainty and drift. In an odd-distance square toric code with error-free preparation, syndrome measurements, and recovery operations, opposite coherent $X$ rotations produce identical passive syndrome-history distributions. Yet a fixed phase correction can help at one sign and harm at the other. A terminal logical measurement on known encoded calibration states supplies the missing sign information. A separate evaluator accepts an update only when calibration uncertainty and a justified drift bound certify improvement over the current recovery, without assuming that the adviser recommends correctly. In simulated advice attacks, calibration-confidence checks reject harmful proposals while retaining beneficial updates under honest advice. We derive sufficient limits on calibration age that require improvement through deployment. In matched simulations, a validated channel-specific bound retains more beneficial updates than the general bound after accounting for evaluation time, while preventing the tested harmful activations under the stated drift assumption. A separate surface-code experiment includes stochastic circuit faults and noise changing during acquisition. Deterministic controllers achieve at least as many beneficial updates with the same observations. Violating the drift assumption permits harmful acceptance in the toric experiment. The results identify information required for recovery selection, establish conditional guarantees against harmful updates, and quantify the recovery improvements forgone through conservative acceptance.",
+ "comment": "74 pages, 32 figures (10-page main text, 62 pages of Supplemental Material, and 2 pages of references)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.19090",
+  "pdf": "https://arxiv.org/pdf/2609.19090",
+  "html": "https://arxiv.org/html/2609.19090"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-17T11:59:18.672Z",
+  "hook": "We show how calibration measurements protect quantum error-correction codes against harmful AI adviser updates.",
+  "tldr": [
+   "Identified ambiguity in passive syndrome records that creates vulnerabilities for AI-driven quantum error correction.",
+   "Proposed a verification method using encoded calibration states and drift bounds to certify recovery updates.",
+   "Demonstrated in simulations that confidence checks successfully reject malicious updates while keeping honest ones."
+  ],
+  "whyItMatters": "As artificial intelligence starts managing complex quantum computers, malicious interference or hallucinations could ruin delicate error corrections. Secure validation methods are essential to keep quantum hardware safe.",
+  "eli5": "If a rogue robot tries to give a quantum computer bad advice on how to fix its errors, this security system acts like a strict math test that forces the computer to prove the advice actually works before trusting it.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Toric code",
+    "shortDef": "A popular topological quantum error-correcting code defined on a two-dimensional lattice.",
+    "eli5Def": "A repeating grid pattern of quantum bits wrapped around a donut shape that protects fragile quantum information from noise.",
+    "wikiTitle": "Toric code"
+   },
+   {
+    "term": "Syndrome measurement",
+    "shortDef": "A diagnostic check that detects errors in quantum bits without revealing the stored data.",
+    "eli5Def": "A health checkup that tells a computer something is broken without looking at the secret message inside.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Drift bound",
+    "shortDef": "A mathematical limit on how much physical noise parameters can change over time.",
+    "eli5Def": "A rule that keeps track of how much the environment around the computer is shifting so safety checks remain accurate.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "date": "2026-09-18",
+ "generatedAt": "2026-09-18T11:40:15.296Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Quantum Advances & Mineral Detectors for Astroparticle Physics",
+ "summary": "Today's literature features groundbreaking theoretical and experimental quantum physics papers, spanning hardware improvements, error correction, and quantum foundations. Additionally, a new study explores geological crystal detectors for neutrinos and dark matter.",
+ "themes": [
+  {
+   "title": "Quantum Hardware and Simulation",
+   "body": "Recent progress in quantum processors includes achieving ultra-low-power EDSR in germanium spin qubits with high fidelity, and introducing locally optimized variational evolution algorithms tested on Quantinuum and IBM hardware.",
+   "paperIds": [
+    "2609.20775",
+    "2609.20802"
+   ]
+  },
+  {
+   "title": "Quantum Error Correction and Information",
+   "body": "Theoretical breakthroughs in quantum coding theory present explicit families of asymptotically good quantum locally testable codes with constant rate and distance, alongside new SDP formulations for parallel quantum channel discrimination.",
+   "paperIds": [
+    "2609.20780",
+    "2609.20781"
+   ]
+  },
+  {
+   "title": "Quantum Foundations and Causal Structures",
+   "body": "Studies explore environmental alignment in imperfect CNOT quantum models and resolve an open question by proving that all causally separable quantum processes are circuits with classical control of causal order.",
+   "paperIds": [
+    "2609.20823",
+    "2609.20774"
+   ]
+  },
+  {
+   "title": "Astroparticle Detection via Minerals",
+   "body": "Proceedings from the MDvDM'26 meeting highlight the emerging concept of using natural and synthetic crystals to record nuclear recoils from reactor neutrinos and dark matter over geological timescales.",
+   "paperIds": [
+    "2609.20552"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers address optimization and fidelity in multi-qubit or complex quantum setups, utilizing numerical modeling and hardware implementations to advance quantum control.",
+   "paperIds": [
+    "2609.20802",
+    "2609.20775"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2609.20552",
+  "2609.20823",
+  "2609.20802",
+  "2609.20781",
+  "2609.20780",
+  "2609.20775",
+  "2609.20774"
+ ]
+}

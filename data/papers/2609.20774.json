@@ -1,0 +1,70 @@
+{
+ "id": "2609.20774",
+ "version": 1,
+ "title": "All causally separable quantum processes are quantum circuits with classical control of causal order",
+ "authors": [
+  {
+   "name": "Julian Wechs"
+  },
+  {
+   "name": "Alastair A. Abbott"
+  },
+  {
+   "name": "Cyril Branciard"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:47:21Z",
+ "updated": "2026-09-17T17:47:21Z",
+ "abstract": "The concept of causal (non)separability describes whether the causal order between parties that perform local quantum operations is well-defined or indefinite. Causal (non)separability in the general multipartite setting was introduced and studied in [Oreshkov and Giarmatzi, New J. Phys. 18, 093020 (2016); Wechs, Abbott, and Branciard, New J. Phys. 21, 013027 (2019)]. We resolve an open problem from these earlier works by showing -- using a novel \"coherent teleportation technique\" -- that a sufficient condition for causal separability identified in [Wechs, Abbott, and Branciard, New J. Phys. 21, 013027 (2019)] is also necessary, and thus provides a complete characterisation of multipartite causal separability. A consequence of this result is that all causally separable processes admit a realisation as generalised quantum circuits in which the order between the operations is classically controlled, known as \"quantum circuits with classical control of causal order\".",
+ "comment": "Upon completion of this work we became aware of arXiv:2609.18559, which proves the same result as ours",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20774",
+  "pdf": "https://arxiv.org/pdf/2609.20774",
+  "html": "https://arxiv.org/html/2609.20774"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-18T11:40:15.296Z",
+  "hook": "Resolved an open problem by showing that all causally separable quantum processes are generalized circuits.",
+  "tldr": [
+   "Resolved an open problem regarding multipartite causal separability in quantum processes.",
+   "Utilized a novel coherent teleportation technique to prove necessity of a sufficient condition.",
+   "Demonstrated that all causally separable processes admit realizations as generalized quantum circuits."
+  ],
+  "whyItMatters": "Understanding whether the order of events in quantum mechanics can be indefinite helps clarify the absolute foundational rules of physics and information flow.",
+  "eli5": "Normally, event A always comes before event B, like cooking before eating. This paper proves that certain quantum mix-ups can always be broken down into standard setups where someone just flips a classical switch to decide the order.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Causal Separability",
+    "shortDef": "Property where the causal order between local operations is well-defined.",
+    "eli5Def": "Knowing for sure whether A happened before B or vice versa.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Multipartite",
+    "shortDef": "Involving more than two distinct parties or subsystems.",
+    "eli5Def": "Having three or more players involved in a game.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Coherent Teleportation",
+    "shortDef": "A quantum technique for transferring quantum states while preserving coherence.",
+    "eli5Def": "Passing a fragile quantum secret from person to person without dropping it.",
+    "wikiTitle": "Quantum teleportation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

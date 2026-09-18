@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-17T11:59:18.672Z",
+ "generatedAt": "2026-09-18T11:40:15.296Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -20,6 +20,26 @@
     "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
    ],
    "paperCount": 3
+  },
+  {
+   "name": "Fernando Granha Jeronimo",
+   "slug": "fernando-granha-jeronimo",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.20780",
+    "2609.11854",
+    "2608.06345"
+   ],
+   "recentTitles": [
+    "Asymptotically Good Quantum Locally Testable Codes",
+    "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax"
+   ],
+   "paperCount": 4
   },
   {
    "name": "Xin Wang",
@@ -62,6 +82,50 @@
     "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization"
    ],
    "paperCount": 3
+  },
+  {
+   "name": "Vsevolod Ivanov",
+   "slug": "vsevolod-ivanov",
+   "score": 4,
+   "coAuthoredWith": [
+    "daniel-g-ang",
+    "ronald-walsworth"
+   ],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.20552",
+    "2607.14083"
+   ],
+   "recentTitles": [
+    "Mineral Detection of Neutrinos and Dark Matter 2026 Proceedings",
+    "Cluster-configurational study of G-center in Silicon"
+   ],
+   "paperCount": 2
+  },
+  {
+   "name": "Yoji Kawamura",
+   "slug": "yoji-kawamura",
+   "score": 4,
+   "coAuthoredWith": [
+    "daniel-g-ang",
+    "ronald-walsworth"
+   ],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.20552",
+    "2608.27399"
+   ],
+   "recentTitles": [
+    "Mineral Detection of Neutrinos and Dark Matter 2026 Proceedings",
+    "Krylov Break Times from an Inhomogeneous Lieb--Robinson Light Cone"
+   ],
+   "paperCount": 2
   },
   {
    "name": "Songbo Xie",
@@ -123,26 +187,6 @@
    "paperCount": 3
   },
   {
-   "name": "Fernando Granha Jeronimo",
-   "slug": "fernando-granha-jeronimo",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.11854",
-    "2608.06345",
-    "2608.02590"
-   ],
-   "recentTitles": [
-    "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax",
-    "Dimension-Free Polylogarithmic Quantum Shadow Tomography from Sequential Pretty-Good Measurements"
-   ],
-   "paperCount": 3
-  },
-  {
    "name": "Pei Wu",
    "slug": "pei-wu",
    "score": 3,
@@ -160,47 +204,6 @@
    "recentTitles": [
     "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax",
     "An Argmax Principle for Sum-of-Squares Relaxations on the Sphere"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Haochen Xu",
-   "slug": "haochen-xu",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph",
-    "cs.CC"
-   ],
-   "paperIds": [
-    "2609.11854",
-    "2608.02594",
-    "2608.02590"
-   ],
-   "recentTitles": [
-    "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax",
-    "An Argmax Principle for Sum-of-Squares Relaxations on the Sphere"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Zoë Holmes",
-   "slug": "zo-holmes",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.11847",
-    "2607.25998",
-    "2607.24728"
-   ],
-   "recentTitles": [
-    "The cost of simulating classically tractable quantum circuits and dynamics",
-    "Observable Estimation in the Absence of Classical Verification"
    ],
    "paperCount": 3
   }

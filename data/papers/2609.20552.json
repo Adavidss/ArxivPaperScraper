@@ -1,0 +1,327 @@
+{
+ "id": "2609.20552",
+ "version": 1,
+ "title": "Mineral Detection of Neutrinos and Dark Matter 2026 Proceedings",
+ "authors": [
+  {
+   "name": "Alexey Elykov"
+  },
+  {
+   "name": "Patrick Stengel"
+  },
+  {
+   "name": "Natsue Abe"
+  },
+  {
+   "name": "Daniel Ang",
+   "followedId": "daniel-g-ang"
+  },
+  {
+   "name": "Lorenzo Apollonio"
+  },
+  {
+   "name": "Levente Balogh"
+  },
+  {
+   "name": "Laura Baudis"
+  },
+  {
+   "name": "Chinmay Bharathulwar"
+  },
+  {
+   "name": "Priyanshu Bhattacharya"
+  },
+  {
+   "name": "Yilda Boukhtouchen"
+  },
+  {
+   "name": "Joseph Bramante"
+  },
+  {
+   "name": "Vincent Breton"
+  },
+  {
+   "name": "Andrew Buchanan"
+  },
+  {
+   "name": "Jens Burkhart"
+  },
+  {
+   "name": "Lorenzo Caccianiga"
+  },
+  {
+   "name": "Andrew Calabrese-Day"
+  },
+  {
+   "name": "Mason Camp"
+  },
+  {
+   "name": "Jordan Chapman"
+  },
+  {
+   "name": "Anson Cook"
+  },
+  {
+   "name": "Reza Ebadi"
+  },
+  {
+   "name": "Denis Erkal"
+  },
+  {
+   "name": "Katherine Freese"
+  },
+  {
+   "name": "Audrey Fung"
+  },
+  {
+   "name": "Shota Futamura"
+  },
+  {
+   "name": "Claudio Galelli"
+  },
+  {
+   "name": "Kevin Gao"
+  },
+  {
+   "name": "Peter W. Graham"
+  },
+  {
+   "name": "Thomas Haddock"
+  },
+  {
+   "name": "Minako Hashiguchi"
+  },
+  {
+   "name": "Alexander Hayes"
+  },
+  {
+   "name": "Adam A. Hecht"
+  },
+  {
+   "name": "Samuel C. Hedges"
+  },
+  {
+   "name": "Shigenobu Hirose"
+  },
+  {
+   "name": "Luisa M. Hötzsch"
+  },
+  {
+   "name": "Patrick Huber"
+  },
+  {
+   "name": "Yohei Igami"
+  },
+  {
+   "name": "Vsevolod Ivanov"
+  },
+  {
+   "name": "Florian Jörg"
+  },
+  {
+   "name": "Ayuki Kamada"
+  },
+  {
+   "name": "Takenori Kato"
+  },
+  {
+   "name": "Yoji Kawamura"
+  },
+  {
+   "name": "Katharina Kehl"
+  },
+  {
+   "name": "Chris Kelso"
+  },
+  {
+   "name": "Holger Kluck"
+  },
+  {
+   "name": "Emilie M. LaVoie-Ingram"
+  },
+  {
+   "name": "Matthew Leybourne"
+  },
+  {
+   "name": "Gavishta H. M. Liyanage"
+  },
+  {
+   "name": "Thalles Lucas"
+  },
+  {
+   "name": "Brenden A. Magill"
+  },
+  {
+   "name": "Paolo Magnani"
+  },
+  {
+   "name": "Jennika McIntosh"
+  },
+  {
+   "name": "Naoki Mizutani"
+  },
+  {
+   "name": "Kohta Murase"
+  },
+  {
+   "name": "Tatsuhiro Naka"
+  },
+  {
+   "name": "Lina Necib"
+  },
+  {
+   "name": "Pranav Parvathaneni"
+  },
+  {
+   "name": "Andre Peterson"
+  },
+  {
+   "name": "Zachary S. C. Picker"
+  },
+  {
+   "name": "Rabeya Rabu"
+  },
+  {
+   "name": "Harikrishnan Ramani"
+  },
+  {
+   "name": "Anupam Ray"
+  },
+  {
+   "name": "Morteza Roostaeinia"
+  },
+  {
+   "name": "Hannah Ross"
+  },
+  {
+   "name": "Issei Saikyo"
+  },
+  {
+   "name": "Lukas Scherne"
+  },
+  {
+   "name": "Maximilian Shen"
+  },
+  {
+   "name": "Aaron Shugar"
+  },
+  {
+   "name": "Joshua Spitz"
+  },
+  {
+   "name": "Kai Sun"
+  },
+  {
+   "name": "Jiashen Tang"
+  },
+  {
+   "name": "Erwin H. Tanin"
+  },
+  {
+   "name": "Dionysios P. Theodosopoulos"
+  },
+  {
+   "name": "Yoichi Usui"
+  },
+  {
+   "name": "Pieter Vermeesch"
+  },
+  {
+   "name": "Aaron Vincent"
+  },
+  {
+   "name": "Ronald Walsworth",
+   "followedId": "ronald-walsworth"
+  },
+  {
+   "name": "Jin-Wei Wang"
+  },
+  {
+   "name": "David Waters"
+  },
+  {
+   "name": "Samuel S. Y. Wong"
+  },
+  {
+   "name": "Audrey Wu"
+  },
+  {
+   "name": "Gregory Wurtz"
+  },
+  {
+   "name": "Wen Yin"
+  },
+  {
+   "name": "Xiuyuan Zhang"
+  },
+  {
+   "name": "Zhexian Zhang"
+  }
+ ],
+ "categories": [
+  "physics.ins-det",
+  "astro-ph.CO",
+  "astro-ph.IM",
+  "hep-ex",
+  "hep-ph"
+ ],
+ "primaryCategory": "physics.ins-det",
+ "published": "2026-09-17T15:18:21Z",
+ "updated": "2026-09-17T15:18:21Z",
+ "abstract": "The fourth \"Mineral Detection of Neutrinos and Dark Matter\" (MDvDM'26) meeting was held April 14-17, 2026 in Karlsruhe, Germany, hosted by the Institute for Astroparticle Physics (IAP) at Karlsruhe Institute of Technology (KIT). These proceedings detail the contributions that were presented during MDvDM'26, illustrating the unprecedented progress in theoretical, computational and experimental studies towards the realization of the concept of mineral detectors. Mineral detectors represent an emerging particle detection concept that has risen in prominence in recent years due to the advent of modern computational and high-resolution microscopy techniques. Natural and synthetic crystals are capable of retaining microscopic damage features induced by nuclear recoils, which could be then read out with a variety of micrometer and nanometer resolution microscopy techniques. On laboratory time scales mineral detectors could be employed for reactor neutrino monitoring and dark matter detection, with the potential to measure the directions as well as the energies of the induced nuclear recoils. Uniquely, ancient natural crystals (so-called paleo-detectors) that have been recording nuclear recoils over geological timescales could be used for studying astrophysical neutrinos, cosmic rays, dark matter and heavy exotic particles, as well as the variation of their fluxes over our Galaxy's lifetime. In recent years the international MDvDM community has been successfully tackling the challenges associated with realizing the concept of mineral detectors, opening the pathway towards a fully fledged experimental program and potential future discoveries.",
+ "comment": "Summary and proceedings of the MDvDM'26 conference, April 14-17 2026 in Karlsruhe, Germany",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20552",
+  "pdf": "https://arxiv.org/pdf/2609.20552",
+  "html": "https://arxiv.org/html/2609.20552"
+ },
+ "source": "follow",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.20552v1/Figures/KIT_IAP/Image_of_microscope_2_2.jpeg"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-18T11:40:15.296Z",
+  "hook": "Mineral detectors use natural and synthetic crystals to record nuclear recoils over geological timescales.",
+  "tldr": [
+   "They detailed the contributions presented at the MDvDM'26 meeting on the emerging concept of mineral detectors.",
+   "They used modern computational and high-resolution microscopy to read microscopic damage features in crystals.",
+   "They showed that crystals can detect reactor neutrinos, dark matter, and astrophysical particles over geological timescales."
+  ],
+  "whyItMatters": "Mineral detectors could act as geological hard drives, preserving a record of dark matter and cosmic rays over millions of years. This allows scientists to probe the history of our Galaxy using ancient rocks.",
+  "eli5": "Imagine if rocks could act like tape recorders for invisible particles from space crashing into them. By looking at tiny scratches inside ancient crystals using fancy microscopes, scientists can read what hit the rock millions of years ago.",
+  "keyNumbers": [
+   {
+    "value": "2026",
+    "label": "Conference Year",
+    "context": "The year the fourth MDvDM meeting was held in Karlsruhe, Germany."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Nuclear recoil",
+    "shortDef": "The sudden movement of an atomic nucleus after being struck by a particle.",
+    "eli5Def": "Like a cue ball hitting another ball on a pool table, making the target ball bounce away.",
+    "wikiTitle": "Recoil"
+   },
+   {
+    "term": "Paleo-detector",
+    "shortDef": "Ancient natural crystals used to record rare particle interactions over geological time.",
+    "eli5Def": "An ancient rock that records invisible space particles hitting it over millions of years.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Reactor neutrino",
+    "shortDef": "An elementary particle produced in large numbers by nuclear reactors.",
+    "eli5Def": "A tiny, ghostly particle spit out by nuclear power plants.",
+    "wikiTitle": "Neutrino"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "2609.20775",
+ "version": 1,
+ "title": "Coherent and ultra-low-power EDSR with a flopping-mode spin qubit in germanium",
+ "authors": [
+  {
+   "name": "Alexei Orekhov"
+  },
+  {
+   "name": "Wonjin Jang"
+  },
+  {
+   "name": "Pan Zhang"
+  },
+  {
+   "name": "Konstantinos Tsoukalas"
+  },
+  {
+   "name": "Fabian Oppliger"
+  },
+  {
+   "name": "Franco De Palma"
+  },
+  {
+   "name": "Elena Acinapura"
+  },
+  {
+   "name": "Younghun Ryu"
+  },
+  {
+   "name": "Inga Seidler"
+  },
+  {
+   "name": "Lisa Sommer"
+  },
+  {
+   "name": "Leonardo Massai"
+  },
+  {
+   "name": "Felix J. Schupp"
+  },
+  {
+   "name": "Matthias Mergenthaler"
+  },
+  {
+   "name": "Stefano Bosco"
+  },
+  {
+   "name": "Patrick Harvey-Collard"
+  },
+  {
+   "name": "Pasquale Scarlino"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-09-17T17:47:24Z",
+ "updated": "2026-09-17T17:47:24Z",
+ "abstract": "Hole spin qubits in semiconductor quantum dots (QDs) enable high-fidelity all-electric control, but conventional electric dipole spin resonance (EDSR) can require substantial rf drive power at the low magnetic fields that are favorable for qubit coherence and readout. In planar Ge hole spin qubits, this can reach -27 dBm at the device, posing challenges for scalable architectures due to heating and crosstalk. Here, we demonstrate a flopping-mode (FM) qubit in Ge, where a single spin is delocalized in a double QD, combining first-order protection against charge noise with exceptionally efficient electric driving. By mapping out coherence sweet-spots as a function of magnetic field orientation we achieve $T_2^*= 1.4μ\\mathrm{s}$, $T_2^{\\mathrm{Hahn}}= 11.5 μ\\mathrm{s}$, $T^{φ, \\mathrm{CPMG32}}_2= 130 μ\\mathrm{s}$, and $T_1= 226 μ\\mathrm{s}$, and a single-qubit gate fidelity of up to 99.76$\\%$ for a gate time $t_{Xπ} = 88$ ns. Importantly, these results are obtained at a nearly in-plane magnetic field of 5 mT using only -52 dBm drive power at the device. We further find that qubit relaxation in this regime is consistent with a two-photon Orbach process, providing a route for further optimization. Our results demonstrate that FM-EDSR supports ultra-low-power, high-fidelity single-qubit operations, improvements that could benefit scalable hole-spin-based architectures and hybrid spin-photon interfaces.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20775",
+  "pdf": "https://arxiv.org/pdf/2609.20775",
+  "html": "https://arxiv.org/html/2609.20775"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.20775v1/Figure_1_wj_v5.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-18T11:40:15.296Z",
+  "hook": "Achieved 99.76% single-qubit gate fidelity using only -52 dBm drive power at a 5 mT magnetic field.",
+  "tldr": [
+   "Demonstrated a flopping-mode qubit in Germanium combining charge noise protection with efficient driving.",
+   "Mapped out coherence sweet-spots across magnetic field orientations to measure relaxation and dephasing times.",
+   "Achieved 99.76 percent gate fidelity at 5 millitesla using ultra-low drive power."
+  ],
+  "whyItMatters": "Scaling up quantum computers requires keeping power consumption and heating very low to prevent hardware failure, which this low-power design directly addresses.",
+  "eli5": "Think of tuning a musical instrument so delicately that it plays the exact right note with just a tiny tap instead of a heavy hammer, preventing the whole machine from overheating.",
+  "keyNumbers": [
+   {
+    "value": "1.4 μs",
+    "label": "T2* coherence time",
+    "context": "Inhomogeneous dephasing time measured at sweet-spots"
+   },
+   {
+    "value": "99.76%",
+    "label": "Gate fidelity",
+    "context": "Single-qubit gate fidelity achieved for an 88 ns gate time"
+   },
+   {
+    "value": "5 mT",
+    "label": "Magnetic field",
+    "context": "Nearly in-plane magnetic field strength used for the demonstration"
+   },
+   {
+    "value": "-52 dBm",
+    "label": "Drive power",
+    "context": "Ultra-low power delivered at the device"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "EDSR",
+    "shortDef": "Electric dipole spin resonance used to manipulate electron or hole spins.",
+    "eli5Def": "Using electric signals to spin tiny magnetic particles like tops.",
+    "wikiTitle": "Electric dipole spin resonance"
+   },
+   {
+    "term": "Qubit Fidelity",
+    "shortDef": "A measure of how accurately a quantum gate performs its intended operation.",
+    "eli5Def": "How close a quantum trick is to perfection.",
+    "wikiTitle": "Quantum gate"
+   },
+   {
+    "term": "Dephasing Time",
+    "shortDef": "The characteristic time over which a quantum system loses its phase coherence.",
+    "eli5Def": "How long a spinning top stays in sync before wobbling off.",
+    "wikiTitle": "Quantum decoherence"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

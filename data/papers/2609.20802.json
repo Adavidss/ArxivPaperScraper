@@ -1,0 +1,83 @@
+{
+ "id": "2609.20802",
+ "version": 1,
+ "title": "Locally optimized variational evolution for quantum many-body systems",
+ "authors": [
+  {
+   "name": "Carolin Wille"
+  },
+  {
+   "name": "Max Marvell"
+  },
+  {
+   "name": "Lauren Stewart"
+  },
+  {
+   "name": "Max Murphy"
+  },
+  {
+   "name": "Vinul Wimalaweera"
+  },
+  {
+   "name": "Lesley Gover"
+  },
+  {
+   "name": "Andrew G. Green"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:56:31Z",
+ "updated": "2026-09-17T17:56:31Z",
+ "abstract": "Conventional quantum advantage in many-body dynamics is based on avoiding the simulation cost on a classical computer that arises from the extensive exponential complexity of the global wavefunction. Local observables, however, do not inherit this extensive complexity and may instead be governed by an intrinsic local complexity that is independent of the total system size. This distinction is particularly relevant in thermalising systems, where local observables lose memory of microscopic details and relax towards equilibrium values determined by only a few parameters. Here we introduce a variational time-evolution principle that exploits this distinction by replacing global-state fidelity with a cost function defined on local reduced density matrices. The resulting evolution retains coherent short-time dynamics while exploiting the simplification produced by thermalisation at later times. The concrete algorithm we propose is based on locally optimising matrix-product states and admits closed-form equations of motion analogous to the time-dependent variational principle. We show that the same variational principle has a quantum-classical counterpart, combining quantum evaluation of the local cost with an optimisation strategy robust to both shot and hardware noise. Proof-of-principle implementations on Quantinuum H2 and IBM Heron processors recover the characteristic local dynamics.",
+ "comment": "18 pages, 12 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20802",
+  "pdf": "https://arxiv.org/pdf/2609.20802",
+  "html": "https://arxiv.org/html/2609.20802"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-18T11:40:15.296Z",
+  "hook": "Local observables may be governed by an intrinsic local complexity independent of total system size.",
+  "tldr": [
+   "They introduced a variational time-evolution principle based on local reduced density matrices instead of global fidelity.",
+   "They developed an algorithm using locally optimized matrix-product states with closed-form equations of motion.",
+   "They implemented proofs-of-principle on Quantinuum H2 and IBM Heron processors to recover local dynamics."
+  ],
+  "whyItMatters": "Simulating large quantum systems is notoriously difficult for classical computers. By focusing only on local properties that are easier to track, scientists can model complex quantum materials much more efficiently.",
+  "eli5": "Instead of trying to track every single particle in a massive system all at once—which is impossible—scientists look at small local neighborhoods that summarize the overall behavior.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Matrix-product state",
+    "shortDef": "A mathematical ansatz used to efficiently approximate complex quantum many-body states.",
+    "eli5Def": "A clever shortcut for writing down the state of many interacting particles without getting overwhelmed by huge numbers.",
+    "wikiTitle": "Matrix product state"
+   },
+   {
+    "term": "Density matrix",
+    "shortDef": "A mathematical description that represents a statistical ensemble of quantum states.",
+    "eli5Def": "A scorecard that describes the mixed and uncertain state of quantum systems.",
+    "wikiTitle": "Density matrix"
+   },
+   {
+    "term": "Variational principle",
+    "shortDef": "A method to find the best approximation of a system's state by optimizing a cost function.",
+    "eli5Def": "Guessing an answer and tweaking it step-by-step until it matches the laws of physics as closely as possible.",
+    "wikiTitle": "Variational method"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

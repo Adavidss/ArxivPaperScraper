@@ -1,0 +1,70 @@
+{
+ "id": "2609.20781",
+ "version": 1,
+ "title": "Parallel quantum channel discrimination and numerical ranges in tensor product subspaces",
+ "authors": [
+  {
+   "name": "Adam Bílek"
+  },
+  {
+   "name": "Paulina Lewandowska"
+  },
+  {
+   "name": "Ryszard Kukulski"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:50:19Z",
+ "updated": "2026-09-17T17:50:19Z",
+ "abstract": "Quantum channel discrimination plays a crucial role in quantum information theory. Of particular interest is the case in which the channels can be discriminated perfectly. In this work, we focus on the perfect quantum channel discrimination task in a parallel scheme. We develop an SDP formulation combined with a bisection procedure to compute a quantum state for perfect discrimination in time linear in the number of copies. In addition, we obtain the minimal number of copies of quantum channels to achieve perfect discrimination. Thanks to that, we settle in the affirmative Conjecture 1 of Duan, Guo, Li and Li [arXiv:1605.02294, IEEE ISIT 2016], which characterizes the number of parallel uses needed to discriminate perfectly a distinguished family of operator subspaces. All our results are obtained using the notion and basic properties of the numerical range. In particular, the key fact that we prove and use is that the minimal angle of the numerical range of a tensor product of matrix subspaces equals the sum of the minimal angles of the numerical ranges of the individual subspaces.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20781",
+  "pdf": "https://arxiv.org/pdf/2609.20781",
+  "html": "https://arxiv.org/html/2609.20781"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-18T11:40:15.296Z",
+  "hook": "We settle Conjecture 1 of Duan, Guo, Li and Li characterizing parallel channel discrimination.",
+  "tldr": [
+   "They focused on the perfect quantum channel discrimination task in a parallel scheme.",
+   "They developed an SDP formulation combined with a bisection procedure running in time linear in the number of copies.",
+   "They proved that the minimal angle of a numerical range tensor product equals the sum of individual minimal angles."
+  ],
+  "whyItMatters": "Quantum channels transmit quantum information, and figuring out how to tell them apart efficiently is vital for building secure and optimal quantum communication networks.",
+  "eli5": "If you are given mysterious black boxes that transmit quantum messages, how many times do you need to test them side-by-side to figure out for sure which box is which?",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum channel",
+    "shortDef": "A completely positive trace-preserving map that describes the physical transformation of a quantum state.",
+    "eli5Def": "A quantum pipeline that takes a quantum message and delivers it, sometimes altering it along the way.",
+    "wikiTitle": "Quantum channel"
+   },
+   {
+    "term": "Semidefinite programming",
+    "shortDef": "An optimization subfield concerned with the optimization of a linear objective over the cone of positive semidefinite matrices.",
+    "eli5Def": "A heavy-duty math tool used to find the absolute best solution out of a huge maze of possibilities.",
+    "wikiTitle": "Semidefinite programming"
+   },
+   {
+    "term": "Numerical range",
+    "shortDef": "The set of values taken by a quadratic form associated with an operator.",
+    "eli5Def": "A map of all possible output values a mathematical operator can produce.",
+    "wikiTitle": "Numerical range"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

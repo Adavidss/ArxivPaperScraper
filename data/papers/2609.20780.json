@@ -1,0 +1,67 @@
+{
+ "id": "2609.20780",
+ "version": 1,
+ "title": "Asymptotically Good Quantum Locally Testable Codes",
+ "authors": [
+  {
+   "name": "William Gay"
+  },
+  {
+   "name": "Fernando Granha Jeronimo"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:49:39Z",
+ "updated": "2026-09-17T17:49:39Z",
+ "abstract": "We construct explicit families of asymptotically good quantum locally testable codes over qubits. More precseily, we construct explicit quantum LDPC CSS codes over qubits having constant rate, constant relative distance and constant weight local testers with constant soundness.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20780",
+  "pdf": "https://arxiv.org/pdf/2609.20780",
+  "html": "https://arxiv.org/html/2609.20780"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-18T11:40:15.296Z",
+  "hook": "We construct explicit families of asymptotically good quantum locally testable codes over qubits.",
+  "tldr": [
+   "Constructed explicit families of asymptotically good quantum locally testable codes over qubits.",
+   "Built explicit quantum LDPC CSS codes over qubits featuring constant rate and distance.",
+   "Proved the existence of constant weight local testers with constant soundness."
+  ],
+  "whyItMatters": "Quantum error correction is vital for building fault-tolerant quantum computers, and locally testable codes allow checking for errors efficiently without reading out the entire fragile quantum state.",
+  "eli5": "Imagine trying to find a single typo in a massive library book without reading every page. These new codes are like special error-checking patterns that let you instantly spot where the mistakes are hidden using only a tiny glance.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum LDPC Codes",
+    "shortDef": "Quantum low-density parity-check codes used for error correction.",
+    "eli5Def": "A smart way to store fragile quantum information with very few cross-checks.",
+    "wikiTitle": "Low-density parity-check code"
+   },
+   {
+    "term": "Locally Testable Codes",
+    "shortDef": "Codes that allow checking validity by examining only a small part of the data.",
+    "eli5Def": "Checking if a giant puzzle is correct by looking at just two connecting pieces.",
+    "wikiTitle": "Locally testable code"
+   },
+   {
+    "term": "CSS Codes",
+    "shortDef": "Calderbank-Shor-Steane codes, a prominent class of quantum error-correcting codes.",
+    "eli5Def": "A recipe for building quantum shields using classical error-checking rules.",
+    "wikiTitle": "CSS code"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

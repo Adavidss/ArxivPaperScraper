@@ -1,0 +1,84 @@
+{
+ "id": "2609.20757",
+ "version": 1,
+ "title": "Procrastinating einselection in non-Markovian quantum dynamics",
+ "authors": [
+  {
+   "name": "Michael J. Moody"
+  },
+  {
+   "name": "Tara Kalsi"
+  },
+  {
+   "name": "Agung Budiyono"
+  },
+  {
+   "name": "Sebastian Deffner"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:42:16Z",
+ "updated": "2026-09-17T17:42:16Z",
+ "abstract": "Among the processes governed by open-system and dissipative quantum dynamics, environment-induced superselection, or einselection, is particularly foundational, since it describes the formation of a preferred set of pointer states through environmental monitoring and ultimately the emergence of classicality. Especially in the context of Quantum Darwinism, einselection can be studied in terms of the motion of an observable towards its pointer value. To this end, we derive a quantum speed limit for observables for finite-dimensional systems governed by differentiable time-local open dynamics. We identify two mechanisms through which non-Markovianity can enhance observable speed: direct dissipative motion supported by population retention or revival, and indirect enhancement through restoration of the asymmetry available for coherent motion. For permanent einselection, this delays the emergence of the pointer basis due to accumulated negativity.",
+ "comment": "22 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20757",
+  "pdf": "https://arxiv.org/pdf/2609.20757",
+  "html": "https://arxiv.org/html/2609.20757"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-19T11:23:03.186Z",
+  "hook": "We derive a quantum speed limit for observables to study how environment-induced superselection emerges.",
+  "tldr": [
+   "Derived a quantum speed limit for observables in finite-dimensional systems with open dynamics.",
+   "Identified two non-Markovian mechanisms that enhance observable speed through population retention or asymmetry restoration.",
+   "Showed that accumulated negativity delays the emergence of the pointer basis for permanent einselection."
+  ],
+  "whyItMatters": "Understanding how quantum systems lose their quantum weirdness and turn into classical reality helps us build better quantum technologies and understand physics fundamentals.",
+  "eli5": "Quantum particles can exist in multiple realities at once until the environment forces them to pick one. This paper figures out the speed limit at which this reality-choosing happens.",
+  "keyNumbers": [
+   {
+    "value": "22",
+    "label": "pages",
+    "context": "Length of the research paper"
+   },
+   {
+    "value": "4",
+    "label": "figures",
+    "context": "Diagrams explaining the quantum speed limits"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "einselection",
+    "shortDef": "Environment-induced superselection, where the environment forces a quantum system into specific stable states.",
+    "eli5Def": "When the outside world forces a quantum object to stop acting weird and settle down into a normal state.",
+    "wikiTitle": "Environment-induced superselection"
+   },
+   {
+    "term": "non-Markovian",
+    "shortDef": "Processes where the future state depends on the past history, involving memory effects.",
+    "eli5Def": "A system that remembers what happened to it earlier, rather than just reacting to the present moment.",
+    "wikiTitle": "Quantum Markovianity"
+   },
+   {
+    "term": "pointer states",
+    "shortDef": "Preferred states of a quantum system that are robust against environmental decoherence.",
+    "eli5Def": "The safest final options a quantum system chooses to settle into.",
+    "wikiTitle": "Quantum Darwinism"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

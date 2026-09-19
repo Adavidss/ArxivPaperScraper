@@ -1,0 +1,88 @@
+{
+ "id": "2609.20766",
+ "version": 1,
+ "title": "Analytic leakage suppression with a single control field: fast two-qubit gates with tunable couplers",
+ "authors": [
+  {
+   "name": "Lukas Heunisch"
+  },
+  {
+   "name": "Michael J. Hartmann"
+  },
+  {
+   "name": "Aashish A. Clerk"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:46:01Z",
+ "updated": "2026-09-17T17:46:01Z",
+ "abstract": "Simple analytic pulse-shaping techniques are of great practical utility in quantum control, with prime examples being the DRAG method for suppressing leakage in superconducting microwave gates and the transitionless-driving approach to shortcuts-to-adiabaticity. Standard versions of these methods require two orthogonal control channels, with the second channel effectively breaking time-reversal symmetry. This appears to rule out their use in settings with only a single real-valued control field, such as the kind of baseband flux control that is common in many superconducting circuit architectures. We show here that a simple analytic pulse-shaping technique derived via a Magnus expansion is effective even with just a single baseband control channel. We demonstrate its efficacy by simulating a two-qubit gate between transmons realized with a tunable coupler and baseband flux pulses. Our corrections dramatically reduce non-adiabatic leakage caused by ramping the coupler: for realistic device parameters, leakage in a fast iSWAP gate is suppressed by up to three orders of magnitude. Our approach is general, goes beyond simply suppressing unwanted spectral weight at leakage transitions, and can be applied to a variety of platforms.",
+ "comment": "19 pages, 10 Figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20766",
+  "pdf": "https://arxiv.org/pdf/2609.20766",
+  "html": "https://arxiv.org/html/2609.20766"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.20766v1/Scheme_DC_pulse.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-19T11:23:03.186Z",
+  "hook": "Leakage in a fast iSWAP gate is suppressed by up to three orders of magnitude using a single control field.",
+  "tldr": [
+   "Demonstrated a simple analytic pulse-shaping technique using a single baseband control channel.",
+   "Simulated a two-qubit gate between transmons using a Magnus expansion to derive corrections.",
+   "Dramatically reduced non-adiabatic leakage caused by ramping the coupler by up to three orders of magnitude."
+  ],
+  "whyItMatters": "Controlling quantum computers requires precise pulses without unwanted errors. Showing how to suppress leakage using simpler hardware controls can make scaling quantum devices easier.",
+  "eli5": "Controlling quantum computers is like steering a high-speed car using only one steering wheel instead of two. The researchers found a clever mathematical trick to keep the car steady without losing control.",
+  "keyNumbers": [
+   {
+    "value": "19",
+    "label": "pages",
+    "context": "Length of the paper manuscript"
+   },
+   {
+    "value": "10",
+    "label": "figures",
+    "context": "Visual illustrations included in the paper"
+   },
+   {
+    "value": "three",
+    "label": "orders of magnitude",
+    "context": "Suppression of leakage in a fast iSWAP gate"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "transmons",
+    "shortDef": "A type of superconducting qubit designed to be less sensitive to charge noise.",
+    "eli5Def": "The building blocks of some quantum computers that store information using superconducting circuits.",
+    "wikiTitle": "Transmon"
+   },
+   {
+    "term": "Magnus expansion",
+    "shortDef": "A mathematical method used to solve systems of linear differential equations.",
+    "eli5Def": "A math formula that helps predict how a moving system changes over time.",
+    "wikiTitle": "Magnus expansion"
+   },
+   {
+    "term": "non-adiabatic leakage",
+    "shortDef": "Unwanted transitions out of the computational space caused by changing controls too fast.",
+    "eli5Def": "Accidentally knocking a marble into the wrong track because you moved too quickly.",
+    "wikiTitle": "Quantum control"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

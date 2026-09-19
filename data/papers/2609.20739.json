@@ -1,0 +1,82 @@
+{
+ "id": "2609.20739",
+ "version": 1,
+ "title": "Efficient Non-Uniform Quantum Hermite Transform through Adaptive Sampling",
+ "authors": [
+  {
+   "name": "Nitay Mayo"
+  },
+  {
+   "name": "Aryeh Lev Zabokritskiy"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.DC",
+  "cs.ET"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:26:53Z",
+ "updated": "2026-09-17T17:26:53Z",
+ "abstract": "On the span of the first $N$ oscillator modes, Gauss--Hermite quadrature gives an exact change of basis between mode coefficients and $N$ weighted position space samples. We implement this transform with $O(N\\operatorname{polylog}(N,1/\\varepsilon))$ logical gates and polylogarithmic quantum width. The operator-error bound $\\varepsilon$ holds on arbitrary superpositions and includes all auxiliary registers. The construction uses signed averages on adaptive windows to convert uniform-grid samples into weighted Hermite-root samples. Their varying widths control the amplification cost, giving the near-linear bound.",
+ "comment": "13 body pages, 17 appendix pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20739",
+  "pdf": "https://arxiv.org/pdf/2609.20739",
+  "html": "https://arxiv.org/html/2609.20739"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.20739v1/qho_projected.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-19T11:23:03.186Z",
+  "hook": "New quantum algorithm computes Hermite transforms using nearly linear gate complexity and polylogarithmic width.",
+  "tldr": [
+   "Implemented the non-uniform quantum Hermite transform using Gauss-Hermite quadrature across N oscillator modes.",
+   "Used signed averages on adaptive windows to convert uniform-grid samples into weighted Hermite-root samples.",
+   "Achieved an operator-error bound of epsilon using O(N polylog(N, 1/epsilon)) logical gates and polylogarithmic quantum width."
+  ],
+  "whyItMatters": "Efficient quantum transforms are essential building blocks for simulating quantum systems and speeding up advanced scientific computations.",
+  "eli5": "Think of translating a complex musical chord into its individual pure notes. This paper shows a super-fast, highly efficient way for a quantum computer to do this mathematical translation without getting overwhelmed by the details.",
+  "keyNumbers": [
+   {
+    "value": "13",
+    "label": "Body pages",
+    "context": "Main text length of the manuscript."
+   },
+   {
+    "value": "17",
+    "label": "Appendix pages",
+    "context": "Supplementary material length."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Gauss-Hermite quadrature",
+    "shortDef": "A numerical method for evaluating integrals using weighted sums of function values.",
+    "eli5Def": "A smart shortcut for calculating total areas under complex curves by measuring specific strategic points.",
+    "wikiTitle": "Gauss-Hermite quadrature"
+   },
+   {
+    "term": "oscillator modes",
+    "shortDef": "Quantum states representing harmonic motion, like a mass on a spring.",
+    "eli5Def": "Different natural vibration patterns that a quantum system can have.",
+    "wikiTitle": "Quantum harmonic oscillator"
+   },
+   {
+    "term": "polylogarithmic",
+    "shortDef": "Scaling as a polynomial of a logarithm, representing extremely slow growth.",
+    "eli5Def": "Growing so slowly that even for giant problems, it barely takes any extra effort.",
+    "wikiTitle": "Polylogarithm"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

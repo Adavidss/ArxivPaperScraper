@@ -1,0 +1,75 @@
+{
+ "id": "2609.20771",
+ "version": 1,
+ "title": "Marton's conjecture in polynomial time",
+ "authors": [
+  {
+   "name": "Srinivasan Arunachalam"
+  },
+  {
+   "name": "Arkopal Dutt"
+  },
+  {
+   "name": "Sabee Grewal"
+  },
+  {
+   "name": "Aparna Gupte"
+  }
+ ],
+ "categories": [
+  "cs.CC",
+  "math.CO",
+  "quant-ph"
+ ],
+ "primaryCategory": "cs.CC",
+ "published": "2026-09-17T17:46:43Z",
+ "updated": "2026-09-17T17:46:43Z",
+ "abstract": "Gowers, Green, Manners, and Tao (Annals '25) recently resolved Marton's polynomial Freiman-Ruzsa conjecture. We give an algorithmic counterpart to their result: given uniform sampling and membership-oracle access to a set $A \\subseteq \\mathbb{F}_2^n$ with doubling constant at most $K$, our algorithm outputs a subspace of size at most $|A|$ whose $K^{O(1)}$ translates cover $A$. The algorithm runs in $\\textsf{poly}(n,K)$ time. As applications, we obtain polynomial-time algorithms for a variety of learning problems, including quadratic Goldreich-Levin, improper agnostic tomography of stabilizer states, and tomography of quantum states with bounded stabilizer extent.",
+ "comment": "63 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20771",
+  "pdf": "https://arxiv.org/pdf/2609.20771",
+  "html": "https://arxiv.org/html/2609.20771"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-19T11:23:03.186Z",
+  "hook": "We give a polynomial-time algorithm for Marton's polynomial Freiman-Ruzsa conjecture.",
+  "tldr": [
+   "Provided an algorithmic counterpart to the recent resolution of Marton's polynomial Freiman-Ruzsa conjecture.",
+   "Used uniform sampling and membership-oracle access to build an efficient algorithm running in poly(n,K) time.",
+   "Obtained polynomial-time algorithms for learning problems like quadratic Goldreich-Levin and quantum state tomography."
+  ],
+  "whyItMatters": "This work bridges abstract additive combinatorics and practical computational learning, giving fast algorithms for quantum state tomography and learning problems.",
+  "eli5": "Imagine trying to find a hidden pattern in a massive collection of data. The researchers built a super-fast computer shortcut that can organize messy sets of data into neat little boxes in record time, helping us study quantum states much faster.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "polynomial time",
+    "shortDef": "An algorithm whose running time grows reasonably (as a polynomial) with the input size.",
+    "eli5Def": "A computer process that finishes very quickly, even when the puzzle gets huge.",
+    "wikiTitle": "Time complexity"
+   },
+   {
+    "term": "stabilizer states",
+    "shortDef": "A specific class of quantum states that are efficient to simulate on classical computers.",
+    "eli5Def": "Special quantum states that behave in an orderly way, making them easier for computers to track.",
+    "wikiTitle": "Stabilizer state"
+   },
+   {
+    "term": "tomography",
+    "shortDef": "The process of reconstructing the exact state of a system from measurements.",
+    "eli5Def": "Figure out what something looks like on the inside by taking lots of pictures from the outside.",
+    "wikiTitle": "Quantum tomography"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

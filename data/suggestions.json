@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-18T11:40:15.296Z",
+ "generatedAt": "2026-09-19T11:23:03.186Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -38,6 +38,27 @@
    "recentTitles": [
     "Asymptotically Good Quantum Locally Testable Codes",
     "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax"
+   ],
+   "paperCount": 4
+  },
+  {
+   "name": "Arkopal Dutt",
+   "slug": "arkopal-dutt",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "cs.CC",
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.20771",
+    "2608.13533",
+    "2608.09912"
+   ],
+   "recentTitles": [
+    "Marton's conjecture in polynomial time",
+    "Quantum simulation of non-Markovian dynamical systems"
    ],
    "paperCount": 4
   },
@@ -183,27 +204,6 @@
    "recentTitles": [
     "Hierarchy of Rényi Coherent Information in Stabilizer Codes",
     "Approximate Quantum Error Correction at Chiral Topological Edges"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Pei Wu",
-   "slug": "pei-wu",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph",
-    "cs.CC"
-   ],
-   "paperIds": [
-    "2609.11854",
-    "2608.02594",
-    "2608.02590"
-   ],
-   "recentTitles": [
-    "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax",
-    "An Argmax Principle for Sum-of-Squares Relaxations on the Sphere"
    ],
    "paperCount": 3
   }

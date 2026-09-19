@@ -1,0 +1,76 @@
+{
+ "id": "2609.20746",
+ "version": 1,
+ "title": "Mermin-Peres magic rectangles modulo odd primes",
+ "authors": [
+  {
+   "name": "Josse van Dobben de Bruyn"
+  },
+  {
+   "name": "Remy van Dobben de Bruyn"
+  },
+  {
+   "name": "Peter Zeman"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:34:44Z",
+ "updated": "2026-09-17T17:34:44Z",
+ "abstract": "The Mermin-Peres magic square provides a simple example of a system of linear equations over $\\mathbb{Z}/2\\mathbb{Z}$ which has no classical solutions but does have a finite-dimensional operator solution. For a long time, it was not known how to construct similar examples over $\\mathbb{Z}/d\\mathbb{Z}$ with $d$ odd. In this paper, we construct, for every integer $d\\ge2$, a linear system over $\\mathbb{Z}/d\\mathbb{Z}$ that has a finite-dimensional operator solution but no classical solution. For an odd prime $p$, our operators act on two $p$-dimensional qudits and generate a finite $p$-group obtained by adjoining diagonal polynomial phase operators to the generalized Pauli group. Classical inconsistency follows from an elementary linearity argument comparing assignments on abelian subgroups.",
+ "comment": "10 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20746",
+  "pdf": "https://arxiv.org/pdf/2609.20746",
+  "html": "https://arxiv.org/html/2609.20746"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-19T11:23:03.186Z",
+  "hook": "We finally found odd-prime counterparts to the Mermin-Peres magic square that defy classical logic.",
+  "tldr": [
+   "Constructed linear systems over Z/dZ for every integer d>=2 that have finite-dimensional operator solutions but no classical solutions.",
+   "Built operators acting on two p-dimensional qudits for odd primes p, generating a finite p-group via diagonal polynomial phase operators.",
+   "Proved classical inconsistency using an elementary linearity argument comparing assignments on abelian subgroups."
+  ],
+  "whyItMatters": "This solves a long-standing open question in quantum mechanics by generalizing foundational proofs of quantum contextuality beyond standard binary systems.",
+  "eli5": "Imagine a set of rules where every individual rule makes normal sense, but when you put them all together, they are completely impossible in our everyday reality unless you use quantum magic. For a long time, scientists only knew how to do this with yes-or-no choices, but this paper shows how to do it with multi-valued choices too.",
+  "keyNumbers": [
+   {
+    "value": "10",
+    "label": "Pages",
+    "context": "Total length of the paper."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Mermin-Peres magic square",
+    "shortDef": "A grid of operators used to demonstrate quantum contextuality and the failure of classical physics.",
+    "eli5Def": "A puzzle grid that proves quantum physics cannot be explained by ordinary, common-sense rules.",
+    "wikiTitle": "Mermin-Peres square"
+   },
+   {
+    "term": "qudit",
+    "shortDef": "A quantum system with d discrete levels, generalizing the binary qubit.",
+    "eli5Def": "A quantum coin that can have more than just two sides.",
+    "wikiTitle": "Qudit"
+   },
+   {
+    "term": "abelian subgroup",
+    "shortDef": "A subset of a group where the order of operations does not matter.",
+    "eli5Def": "A set of actions where doing step A then step B gives the exact same result as doing step B then step A.",
+    "wikiTitle": "Abelian group"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

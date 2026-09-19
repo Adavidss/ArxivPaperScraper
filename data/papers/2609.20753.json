@@ -1,0 +1,75 @@
+{
+ "id": "2609.20753",
+ "version": 1,
+ "title": "Quantum Entropy Contraction and Factorization from Hypercontractivity",
+ "authors": [
+  {
+   "name": "Li Gao"
+  },
+  {
+   "name": "Lijun Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math.FA",
+  "math.OA"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:41:27Z",
+ "updated": "2026-09-17T17:41:27Z",
+ "abstract": "We prove that hypercontractivity implies entropy contraction for a single quantum channel, without a detailed balance condition. For primitive quantum Markov semigroups that are KMS-symmetric with respect to a faithful invariant state \\(σ\\), we obtain the modified Log-Sobolev bound $α_1\\geq \\fracλ{(2+\\log\\|σ^{-1}\\|_\\infty)}$ where $λ$ is the spectral gap. This removes the assumption of \\(L_p\\)-regularity for the comparison through the log-Sobolev constant. As an application, we show that the hypercontractivity of an average of two conditional expectations implies the approximate tensorization of relative entropy.",
+ "comment": "15 pages; comments are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20753",
+  "pdf": "https://arxiv.org/pdf/2609.20753",
+  "html": "https://arxiv.org/html/2609.20753"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-19T11:23:03.186Z",
+  "hook": "We prove that hypercontractivity implies entropy contraction for a single quantum channel without detailed balance.",
+  "tldr": [
+   "Proved that hypercontractivity implies entropy contraction for a single quantum channel without needing detailed balance.",
+   "Obtained a modified Log-Sobolev bound for primitive quantum Markov semigroups.",
+   "Showed that hypercontractivity of an average of two conditional expectations implies approximate tensorization of relative entropy."
+  ],
+  "whyItMatters": "Entropy and information bounds are vital for quantum information theory. Removing strict assumptions like detailed balance expands how we analyze quantum channels.",
+  "eli5": "Entropy measures how mixed up or chaotic things are. Researchers found a mathematical rule that proves how information spreads out and calms down in quantum systems under broader conditions than before.",
+  "keyNumbers": [
+   {
+    "value": "15",
+    "label": "pages",
+    "context": "Length of the paper manuscript"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "hypercontractivity",
+    "shortDef": "A mathematical property indicating that operators smooth out functions and reduce norms.",
+    "eli5Def": "A math property that shows how extreme differences smooth out over time.",
+    "wikiTitle": "Hypercontractivity"
+   },
+   {
+    "term": "spectral gap",
+    "shortDef": "The difference in energy between the ground state and the first excited state.",
+    "eli5Def": "The minimum energy step required to excite a quantum system.",
+    "wikiTitle": "Spectral gap"
+   },
+   {
+    "term": "Markov semigroups",
+    "shortDef": "Families of operators describing memoryless evolution over continuous time.",
+    "eli5Def": "Rules for how systems change step-by-step over time without needing to remember the distant past.",
+    "wikiTitle": "Semigroup"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "2609.20728",
+ "version": 1,
+ "title": "$k$-fold unbiased measurements and maximal incompatibility",
+ "authors": [
+  {
+   "name": "Sébastien Designolle"
+  },
+  {
+   "name": "Máté Farkas"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:20:52Z",
+ "updated": "2026-09-17T17:20:52Z",
+ "abstract": "Mutually unbiased bases capture perfect complementarity between two quantum measurements. Extensions beyond pairwise unbiasedness have been proposed, but essentially no non-trivial higher-order constructions are known. We introduce $k$-fold unbiased measurements ($k$-UMs), extending the $k$-fold unbiased bases notion of [arXiv:1706.04446] from rank-one basis measurements to arbitrary-rank projective measurements, and show that this higher-rank setting supports a much richer theory. We develop the notions of algebraic and spectral $k$-UMs and prove that they coincide for rank-one measurements and triples of measurements (3-UMs). We establish strong no-go results for higher-order rank-one constructions and three-outcome 3-UMs, but obtain infinitely many higher-rank triples using Hadamard matrices and Clifford algebras. We then give these structures an exact operational interpretation in terms of measurement incompatibility. For 3-UMs with any number of outcomes, we determine their generalised incompatibility robustness exactly and construct an explicit joint measurement for their noisy versions at the compatibility threshold. Finally, we implement the symmetry reduction of the sum-of-squares hierarchy recently introduced in [New J. Phys. 28, 064509 (2026)] and give numerical evidence that the noise thresholds arising from the $k$-UM analysis may characterise the asymptotic behaviour of this hierarchy. In particular, with very high precision, we numerically show that our constructed four-outcome 3-UMs are among the most incompatible triples of four-outcome measurements.",
+ "comment": "10+14 pages, 3 tables. Comments are welcome!",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20728",
+  "pdf": "https://arxiv.org/pdf/2609.20728",
+  "html": "https://arxiv.org/html/2609.20728"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-20T11:44:31.542Z",
+  "hook": "We prove that our constructed four-outcome 3-UMs are among the most incompatible triples of measurements.",
+  "tldr": [
+   "Introduced k-fold unbiased measurements to extend pairwise unbiasedness to arbitrary-rank projective measurements.",
+   "Used Hadamard matrices and Clifford algebras to construct infinitely many higher-rank triples and analyzed their operational incompatibility.",
+   "Provided numerical evidence that these structures govern the asymptotic behavior of a recently introduced sum-of-squares hierarchy."
+  ],
+  "whyItMatters": "Measurement incompatibility is a foundational resource in quantum mechanics, underlying quantum advantages in cryptography and non-locality. Understanding how multiple measurements conflict pushes forward our comprehension of quantum limits.",
+  "eli5": "Imagine trying to measure a spinning top's speed and position at the same exact time; the more you know about one, the less you know about the other. This paper explores how multiple distinct viewing angles conflict with each other in fundamental quantum ways.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Mutually unbiased bases",
+    "shortDef": "Quantum measurements that provide maximally complementary information with no mutual predictability.",
+    "eli5Def": "Two ways of looking at a quantum system where knowing the answer to one tells you absolutely nothing about the other.",
+    "wikiTitle": "Mutually unbiased bases"
+   },
+   {
+    "term": "Measurement incompatibility",
+    "shortDef": "The property where multiple quantum measurements cannot be performed simultaneously.",
+    "eli5Def": "When two questions you want to ask a quantum system are so different that you can't get answers to both at the same time.",
+    "wikiTitle": "Measurement incompatibility"
+   },
+   {
+    "term": "Hadamard matrices",
+    "shortDef": "Square matrices with entries of 1 and -1 whose rows are mutually orthogonal.",
+    "eli5Def": "A grid of positive and negative ones arranged in a precise pattern that helps scientists build balanced quantum tools.",
+    "wikiTitle": "Hadamard matrix"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

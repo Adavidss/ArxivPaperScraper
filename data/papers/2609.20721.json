@@ -1,0 +1,85 @@
+{
+ "id": "2609.20721",
+ "version": 1,
+ "title": "Quantum Simulation of Dissipative Non-Markovian Coupled Classical Oscillators",
+ "authors": [
+  {
+   "name": "Malte Schade"
+  },
+  {
+   "name": "Sophia Simon"
+  },
+  {
+   "name": "Nathan Wiebe"
+  },
+  {
+   "name": "Scott Keating"
+  },
+  {
+   "name": "Cyrill Bösch"
+  },
+  {
+   "name": "Andreas Fichtner"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:16:30Z",
+ "updated": "2026-09-17T17:16:30Z",
+ "abstract": "We present a quantum algorithm for simulating classical oscillator networks characterized by non-Markovian dissipation and time-varying material properties, extending recent speedups for undamped harmonic systems to viscoacoustic and viscoelastic media. We embed the history-dependent dynamics into a Markovian state space governed by a non-Hermitian operator by approximating memory kernels through a Prony series. We then use linear combination of Hamiltonian simulation to estimate the instantaneous kinetic and potential energy for a subset of oscillators at time $t$ within error $ε$ using a number of queries to the oscillator system that scales as $\\widetilde{\\mathcal{O}}(α_{\\rm tot} t/ε)$, where $α_{\\rm tot}$ is polynomial in the strength of the dissipation, spring constants, inverse masses, and sparsity of the connections in the network. We further show that this energy estimation task is in the worst-case classically hard (i.e., a corresponding decision problem is $\\mathsf{BQP}$-complete), even in the presence of strong dissipation. For time-dependent materials, we show that changes in material properties appear as effective dissipation or growth in the energy representation. Additionally, we prove the infeasibility of exponential quantum advantages in locally coupled topologies through a novel form of Lieb-Robinson-like bounds that apply to differential equations. This allows our quantum algorithms to provide quartic speedups for locally coupled damped oscillator systems in three dimensions, raising the possibility of practical quantum speedups for realistically damped oscillator networks and approximated wave equations.",
+ "comment": "59 pages, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20721",
+  "pdf": "https://arxiv.org/pdf/2609.20721",
+  "html": "https://arxiv.org/html/2609.20721"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-20T11:44:31.542Z",
+  "hook": "Our quantum algorithms provide quartic speedups for locally coupled damped oscillator systems in three dimensions.",
+  "tldr": [
+   "Developed a quantum algorithm for simulating classical oscillator networks with non-Markovian dissipation and time-varying properties.",
+   "Embedded history-dependent dynamics into a Markovian state space and applied linear combinations of Hamiltonian simulation.",
+   "Proved worst-case classical hardness while demonstrating quartic quantum speedups for locally coupled damped systems."
+  ],
+  "whyItMatters": "Simulating complex damped physical systems, like seismic waves traveling through Earth's crust or vibrations in materials, is classically intractable. This work unlocks faster quantum simulations for realistic, energy-losing physical systems.",
+  "eli5": "Imagine trying to track a million rubber ducks bouncing and slowing down in a giant, sticky wave pool. Regular computers get bogged down trying to remember every past splash, but this new quantum method finds a clever shortcut to calculate the energy.",
+  "keyNumbers": [
+   {
+    "value": "3",
+    "label": "Dimensions",
+    "context": "Spatial dimensions for locally coupled damped oscillator systems receiving quartic speedups."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Non-Markovian dissipation",
+    "shortDef": "Energy loss processes where the system's future state depends on its entire history, not just the present.",
+    "eli5Def": "When a system remembers its past bumps and bruises, affecting how it loses energy now.",
+    "wikiTitle": "Markov property"
+   },
+   {
+    "term": "Hamiltonian simulation",
+    "shortDef": "Using a quantum computer to mimic the energy dynamics and time evolution of a physical system.",
+    "eli5Def": "Running a digital twin of a physics experiment inside a quantum computer.",
+    "wikiTitle": "Quantum simulation"
+   },
+   {
+    "term": "BQP-complete",
+    "shortDef": "The class of decision problems solvable in polynomial time by a quantum computer with highest difficulty.",
+    "eli5Def": "A label for problems that are the absolute hardest kind that quantum computers can efficiently solve.",
+    "wikiTitle": "BQP"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

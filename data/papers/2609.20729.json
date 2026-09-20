@@ -1,0 +1,76 @@
+{
+ "id": "2609.20729",
+ "version": 1,
+ "title": "Blind Quantum Computation with a Small Quantum Server",
+ "authors": [
+  {
+   "name": "Daniel Lovsted"
+  },
+  {
+   "name": "Filipa C. R. Peres"
+  },
+  {
+   "name": "Joshua Nevin"
+  },
+  {
+   "name": "Selman Ipek"
+  },
+  {
+   "name": "Anne Broadbent"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-17T17:21:47Z",
+ "updated": "2026-09-17T17:21:47Z",
+ "abstract": "Blind quantum computation (BQC) allows low-resource clients to securely delegate computations to a quantum server, but server resource costs scale with the computation size, posing a bottleneck for implementations. By leveraging Pauli-based computation (PBC), we achieve BQC with a server whose size depends only on the non-Clifford gate count. Our protocol inherits fault tolerance and qubit virtualization from PBC and reveals that classical-client BQC is possible even in the absence of classical simulability. Finally, we present an entanglement-based dual protocol that performs a resource state computation with a dramatically reduced execution cost.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.20729",
+  "pdf": "https://arxiv.org/pdf/2609.20729",
+  "html": "https://arxiv.org/html/2609.20729"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-20T11:44:31.542Z",
+  "hook": "We achieve blind quantum computation with a server whose size depends only on the non-Clifford gate count.",
+  "tldr": [
+   "Designed a blind quantum computation protocol allowing low-resource clients to securely delegate tasks using Pauli-based computation.",
+   "Leveraged Pauli-based computation to scale server resource costs based solely on the non-Clifford gate count rather than total computation size.",
+   "Demonstrated that classical-client blind quantum computation is possible even without classical simulability, alongside a resource-saving dual protocol."
+  ],
+  "whyItMatters": "Running quantum algorithms securely on cloud servers usually requires massive server resources scaled to the entire computation. This protocol drastically reduces those hardware requirements by tying server size only to the tricky non-Clifford gates.",
+  "eli5": "Imagine trying to bake a top-secret cake using a giant commercial kitchen where the head chef isn't allowed to see the recipe. This new method lets you keep your recipe entirely hidden while using a much smaller, specialized assistant machine to do the heavy lifting.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Blind quantum computation",
+    "shortDef": "Delegating a quantum calculation to a server without revealing the input, output, or algorithm.",
+    "eli5Def": "Letting a powerful computer run your quantum code while keeping your secrets completely locked away from it.",
+    "wikiTitle": "Blind quantum computing"
+   },
+   {
+    "term": "Pauli-based computation",
+    "shortDef": "A universal model of quantum computing based on measurements of Pauli operators.",
+    "eli5Def": "A clever way of building quantum circuits by repeatedly measuring specific quantum states instead of standard gate wiring.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Non-Clifford gate",
+    "shortDef": "An essential quantum logic operation that is difficult to simulate efficiently on classical computers.",
+    "eli5Def": "A special, complex building block for quantum computers that gives them their true superpower over normal computers.",
+    "wikiTitle": "Clifford algebra"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

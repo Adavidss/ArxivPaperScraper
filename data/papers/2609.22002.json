@@ -1,0 +1,96 @@
+{
+ "id": "2609.22002",
+ "version": 1,
+ "title": "Microwave dielectric properties of LiNbO$_{\\mathbf{3}}$ and AlN at millikelvin temperatures and single-photon power",
+ "authors": [
+  {
+   "name": "Alessandro Reineri"
+  },
+  {
+   "name": "Francesco Crisa"
+  },
+  {
+   "name": "Akshay Murthy"
+  },
+  {
+   "name": "Maithlee Shinde"
+  },
+  {
+   "name": "Daniel Bafia"
+  },
+  {
+   "name": "Changqing Wang"
+  },
+  {
+   "name": "Tanay Roy"
+  },
+  {
+   "name": "Alexander Romanenko"
+  },
+  {
+   "name": "John Zasadzinski"
+  },
+  {
+   "name": "Anna Grassellino"
+  },
+  {
+   "name": "Silvia Zorzetti"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-18T17:02:07Z",
+ "updated": "2026-09-18T17:02:07Z",
+ "abstract": "Efficient bidirectional microwave optical photon conversion is a key capability for scaling superconducting quantum processors into distributed networks. However, achieving the necessary conversion efficiency requires filling a critical knowledge gap in understanding the loss mechanisms of electro optic materials. Here, we characterize the microwave properties of single crystal bulk LiNbO3 and AlN over a broad range of powers, down to single photon levels, and spanning from millikelvin temperatures to above 1K. We demonstrate that both materials exhibit two level systems (TLS) behavior, while piezoelectric related losses are excluded. We show that TLS induced dissipation is predominantly localized on the surface rather than being an intrinsic bulk property, a result further corroborated by room temperature 3D XPS and time of flight SIMS analyses. These findings provide useful insights to engineer hybrid architectures that integrate bulk electro optic crystals within superconducting cavities, proving that microwave quality factors compatible with high efficiency microwave optical transduction are within reach.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.22002",
+  "pdf": "https://arxiv.org/pdf/2609.22002",
+  "html": "https://arxiv.org/html/2609.22002"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.22002v1/Figures/Cavity_CAD_section.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-21T13:12:59.677Z",
+  "hook": "Microwave dielectric losses in LiNbO3 and AlN at millikelvin temperatures are driven by surface defects.",
+  "tldr": [
+   "Characterized microwave properties of single-crystal bulk LiNbO3 and AlN from millikelvin temperatures to above 1K.",
+   "Used wide-ranging power down to single-photon levels to test for loss mechanisms like two-level systems.",
+   "Found that loss is predominantly localized on the material surface rather than being an intrinsic bulk property."
+  ],
+  "whyItMatters": "Building future quantum supercomputers requires converting signals between microwaves and light efficiently, which depends on understanding and eliminating energy losses in materials.",
+  "eli5": "If you build a very quiet acoustic room, tiny imperfections on the walls will still bounce sound around and ruin the silence. Scientists found that the tiny energy losses in quantum materials come from messy surfaces rather than the clean material inside.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Millikelvin temperatures",
+    "shortDef": "Temperatures just a fraction of a degree above absolute zero.",
+    "eli5Def": "Deep freeze conditions colder than deep space, used to run quantum computers.",
+    "wikiTitle": "Kelvin"
+   },
+   {
+    "term": "Two-level systems (TLS)",
+    "shortDef": "Quantum systems with two distinct energy states that can absorb microwave energy.",
+    "eli5Def": "Tiny microscopic switches inside materials that randomly flip and absorb energy.",
+    "wikiTitle": "Two-level system"
+   },
+   {
+    "term": "Time of flight SIMS",
+    "shortDef": "An analytical technique used to measure the composition of material surfaces.",
+    "eli5Def": "A high-tech laser tool that blasts the surface of a material to see what chemical elements are hiding there.",
+    "wikiTitle": "Secondary ion mass spectrometry"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

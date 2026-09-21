@@ -1,0 +1,75 @@
+{
+ "id": "2609.22010",
+ "version": 1,
+ "title": "Selection rules for pinned and quasipinned occupation numbers with degeneracy",
+ "authors": [
+  {
+   "name": "Robin Reuvers"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-18T17:08:17Z",
+ "updated": "2026-09-18T17:08:17Z",
+ "abstract": "When the natural occupation numbers of a fermionic state saturate a generalized Pauli constraint, the state obeys a selection rule: only those configurations of natural orbitals that saturate the constraint themselves contribute. Pinning thus singles out an active space. The selection rule was proved for non-degenerate occupation numbers; for degenerate ones it was conjectured, and proved for one saturated constraint under an unverified assumption. Here, it is proved for every generalized Pauli constraint, with no assumption, and also in the spin-adapted setting. The rule can only fail for the ordering constraints $λ_j\\geλ_{j+1}$. Several saturated constraints are served by one basis whenever their common zero face contains a non-degenerate point. In practice, occupation numbers are quasipinned rather than pinned, and I show what the rule then becomes.",
+ "comment": "24 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.22010",
+  "pdf": "https://arxiv.org/pdf/2609.22010",
+  "html": "https://arxiv.org/html/2609.22010"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-21T13:12:59.677Z",
+  "hook": "Proving the selection rule for pinned occupation numbers with degeneracy without any unverified assumptions.",
+  "tldr": [
+   "Proved selection rules for fermionic states that saturate generalized Pauli constraints when natural occupation numbers are degenerate.",
+   "Extended the proof to every generalized Pauli constraint with no assumptions and in the spin-adapted setting.",
+   "Demonstrated how the rule adapts when occupation numbers are quasipinned rather than strictly pinned."
+  ],
+  "whyItMatters": "This mathematical result clarifies the foundational rules governing fermionic quantum systems, which are crucial for accurately modeling complex electrons in physics and chemistry.",
+  "eli5": "Imagine trying to arrange a group of picky dancers on a stage where certain rules force them into strict positions. This paper figures out the exact rules that trap these particles into specific spots, even when multiple dancers share the exact same preferences.",
+  "keyNumbers": [
+   {
+    "value": "24",
+    "label": "Pages",
+    "context": "The length of the paper detailing the mathematical proof."
+   },
+   {
+    "value": "1",
+    "label": "Figure",
+    "context": "The sole figure included in the paper to illustrate the concept."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Occupation numbers",
+    "shortDef": "The number of particles occupying a particular quantum state.",
+    "eli5Def": "How many players are sitting in each specific seat in a stadium.",
+    "wikiTitle": "Occupation number"
+   },
+   {
+    "term": "Generalized Pauli constraint",
+    "shortDef": "Mathematical boundaries restricting how fermions can occupy quantum states.",
+    "eli5Def": "Strict traffic laws that dictate how many quantum particles can crowd into the same space.",
+    "wikiTitle": "Pauli exclusion principle"
+   },
+   {
+    "term": "Pinning",
+    "shortDef": "A condition where natural occupation numbers strictly hit their allowed boundaries.",
+    "eli5Def": "When particles get completely stuck against a hard mathematical wall.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

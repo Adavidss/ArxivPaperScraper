@@ -1,0 +1,95 @@
+{
+ "id": "2609.22046",
+ "version": 1,
+ "title": "Persistent Quantum-Enhanced Frequency Sensing with T^{-3/2} Scaling",
+ "authors": [
+  {
+   "name": "Clayton Z. C. Ho"
+  },
+  {
+   "name": "Hao Wu"
+  },
+  {
+   "name": "Grant D. Mitts"
+  },
+  {
+   "name": "Joshua A. Rabinowitz"
+  },
+  {
+   "name": "Eric R. Hudson"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.atom-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-18T17:35:56Z",
+ "updated": "2026-09-18T17:35:56Z",
+ "abstract": "Quantum sensing uses nonclassical states to improve measurement sensitivity, but the same states that provide metrological gain also decohere more rapidly. This limits the usable interrogation time and, in practice, often precludes improvement in ultimate sensitivity - realized useful quantum advantage has consequently remained rare. Here, we restore persistent quantum advantage by embedding Fock-state enhancement within a quantum heterodyne (Qdyne) protocol, decoupling sensitivity from the decoherence-limited interrogation time τ. Measurements are acquired at short τ where the quantum-enhanced gain is optimal, while precision accumulates with the total measurement time. Demonstrated on the motional mode of a trapped 40Ca+ ion, we observe quantum-enhanced precision that persists to measurement times seven orders of magnitude beyond the dephasing limit, scaling as T^{-3/2} with no indication of saturation. Using the n=3 Fock state, we reach a frequency precision of 0.5uHz relative to an 86MHz carrier, achieving a fractional precision ~6x10^{-15}. This represents a quantum-enhanced gain of 7.1(10) dB over the n=0 state, in agreement with Fisher information predictions. This is the first demonstration of Qdyne beyond solid-state spin-defects. Further, by using the quantum harmonic oscillator to perform frequency mixing, we extend operation beyond 1GHz, two orders of magnitude above the ceiling of pulsed dynamical-decoupling implementations. These results recover quantum advantage at the long timescales required to improve ultimate sensitivity, with direct implications for nanoscale NMR and quantum logic spectroscopy.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.22046",
+  "pdf": "https://arxiv.org/pdf/2609.22046",
+  "html": "https://arxiv.org/html/2609.22046"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.22046v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-21T13:12:59.677Z",
+  "hook": "We achieve persistent quantum-enhanced frequency sensing with T^{-3/2} scaling, extending operation seven orders beyond dephasing.",
+  "tldr": [
+   "Embedded Fock-state enhancement within a quantum heterodyne protocol to decouple sensitivity from decoherence.",
+   "Demonstrated the technique on the motional mode of a trapped calcium-40 ion.",
+   "Observed a frequency precision of 0.5 microhertz relative to an 86 megahertz carrier, gaining 7.1 decibels."
+  ],
+  "whyItMatters": "Quantum sensors promise unprecedented precision, but environmental noise usually ruins their advantage quickly. This protocol breaks that barrier, making quantum sensors practical for long measurements.",
+  "eli5": "Imagine trying to hear a tiny whisper in a loud room; quantum states help you hear it better, but they usually fade fast. This new trick lets you keep listening clearly for a long time without losing the advantage.",
+  "keyNumbers": [
+   {
+    "value": "0.5 uHz",
+    "label": "Frequency precision",
+    "context": "Achieved relative to an 86 MHz carrier using the n=3 Fock state."
+   },
+   {
+    "value": "7.1(10) dB",
+    "label": "Quantum-enhanced gain",
+    "context": "Measured improvement over the n=0 state, matching theoretical predictions."
+   },
+   {
+    "value": "7",
+    "label": "Orders of magnitude",
+    "context": "How far beyond the dephasing limit the quantum-enhanced precision persists."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Fock state",
+    "shortDef": "A quantum state with a precisely determined number of particles or excitations.",
+    "eli5Def": "A box containing an exact, counted number of energy packets.",
+    "wikiTitle": "Fock state"
+   },
+   {
+    "term": "Decoherence",
+    "shortDef": "The loss of quantum coherence due to interaction with the external environment.",
+    "eli5Def": "When the delicate quantum magic leaks out because the outside world interferes.",
+    "wikiTitle": "Quantum decoherence"
+   },
+   {
+    "term": "Quantum heterodyne",
+    "shortDef": "A protocol combining local oscillators with quantum states to measure signals.",
+    "eli5Def": "Mixing a known signal with a quantum measurement beam to accurately tune into a specific frequency.",
+    "wikiTitle": "Heterodyne detection"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

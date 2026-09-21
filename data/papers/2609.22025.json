@@ -1,0 +1,69 @@
+{
+ "id": "2609.22025",
+ "version": 1,
+ "title": "Cavity-QED analysis of InAs quantum-dot single photon production",
+ "authors": [
+  {
+   "name": "W. W. Chow"
+  },
+  {
+   "name": "S. Peana"
+  },
+  {
+   "name": "D. I. Herman"
+  },
+  {
+   "name": "K. Y. Lee"
+  },
+  {
+   "name": "A. Cejan"
+  },
+  {
+   "name": "C. Shang"
+  },
+  {
+   "name": "G. Moody"
+  },
+  {
+   "name": "J. E. Bowers"
+  },
+  {
+   "name": "F. Jahnke"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-18T17:17:17Z",
+ "updated": "2026-09-18T17:17:17Z",
+ "abstract": "Cavity quantum electrodynamics is used to study the extent cavity enhancement affects single photon performance of an InAs quantum dot, in terms of emission rate, purity and indistinguishability at different temperatures. Parametric studies show a tradeoff between single photon production rate and purity, as well as between indistinguishability and purity. The results indicate the importance of quantum carrier-photon correlations that yield substantial corrections to mean-field treatments, especially at high light-matter coupling strength, where cavity enhancement is most effective.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.22025",
+  "pdf": "https://arxiv.org/pdf/2609.22025",
+  "html": "https://arxiv.org/html/2609.22025"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-09-21T13:12:59.677Z",
+  "hook": "Cavity quantum electrodynamics is used to study the extent cavity enhancement affects single photon performance of an…",
+  "tldr": [
+   "Parametric studies show a tradeoff between single photon production rate and purity, as well as between indistinguishability and purity.",
+   "Cavity quantum electrodynamics is used to study the extent cavity enhancement affects single photon performance of an InAs quantum dot, in terms of emission…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 34
+ }
+}

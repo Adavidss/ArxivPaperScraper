@@ -1,0 +1,72 @@
+{
+ "id": "2609.22079",
+ "version": 1,
+ "title": "Universal Eigenvector Statistics of Non-Hermitian Random Matrices",
+ "authors": [
+  {
+   "name": "Ze Chen"
+  },
+  {
+   "name": "Zhenyu Xiao"
+  },
+  {
+   "name": "Shinsei Ryu"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "cond-mat.mes-hall",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-09-18T17:58:41Z",
+ "updated": "2026-09-18T17:58:41Z",
+ "abstract": "Eigenvector overlaps quantify nonorthogonality and govern the response and dynamics of non-Hermitian systems. We extend the universality of non-Hermitian random matrices to the statistics of these overlaps. We obtain analytical expressions for eigenvector overlaps in the spectral bulk and near the origin, covering ten symmetry classes in the limit of large matrix size. Using fermionic replica nonlinear $σ$ models, we relate these overlaps to Hermitian level statistics, symmetry class by symmetry class and topological sector by topological sector. Numerical calculations in various physical models support the universality of the normalized overlaps in the regimes studied. Our work establishes a duality between Hermitian level statistics and non-Hermitian eigenvector overlaps.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.22079",
+  "pdf": "https://arxiv.org/pdf/2609.22079",
+  "html": "https://arxiv.org/html/2609.22079"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-21T13:12:59.677Z",
+  "hook": "We extend non-Hermitian random matrix theory by deriving analytical expressions for eigenvector overlaps across ten symmetry classes.",
+  "tldr": [
+   "Extended the universality of non-Hermitian random matrices to the statistics of eigenvector overlaps.",
+   "Used fermionic replica nonlinear sigma models to relate overlaps to Hermitian level statistics.",
+   "Established a duality between Hermitian level statistics and non-Hermitian eigenvector overlaps."
+  ],
+  "whyItMatters": "Eigenvector overlaps control how non-Hermitian physical systems respond and evolve dynamically. Understanding their universal statistics bridges two major branches of random matrix theory.",
+  "eli5": "Think of a system like a musical instrument where the notes are interconnected in a slightly chaotic way. By studying how these notes overlap, physicists can better predict the overall behavior of complex, open systems in nature.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Eigenvector",
+    "shortDef": "A vector that changes only by a scalar factor when a linear transformation is applied.",
+    "eli5Def": "A special direction that stays the same line when you stretch or skew a shape.",
+    "wikiTitle": "Eigenvalues and eigenvectors"
+   },
+   {
+    "term": "Non-Hermitian",
+    "shortDef": "Describing matrices or operators that are not equal to their conjugate transpose.",
+    "eli5Def": "A rule or system where things aren't perfectly balanced or symmetric in the usual mirror-image way.",
+    "wikiTitle": "Non-Hermitian quantum mechanics"
+   },
+   {
+    "term": "Replica trick",
+    "shortDef": "A mathematical technique used in statistical mechanics to handle disordered systems.",
+    "eli5Def": "Making many identical copies of a tricky puzzle to help figure out the average answer.",
+    "wikiTitle": "Replica trick"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "2609.24953",
+ "version": 1,
+ "title": "Tight entropy contraction beyond detailed balance",
+ "authors": [
+  {
+   "name": "Li Gao"
+  },
+  {
+   "name": "Jingyu Guo"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-21T17:46:09Z",
+ "updated": "2026-09-21T17:46:09Z",
+ "abstract": "We establish quantitative entropy contraction bounds for finite-dimensional quantum channels beyond detailed balance. For channels compatible with a faithful conditional expectation, we show that GNS (Gelfand--Naimark--Segal) norm contraction yields relative entropy contraction with only a logarithmic loss in the dimensional constant. For quantum Markov semigroups with a faithful asymptotic conditional expectation, this gives a lower bound on the complete modified logarithmic Sobolev constant in terms of the GNS spectral gap. The bounds allow initial entanglement with an external environment and are independent of its system size. Applications to alternating reservoir pulses and continuously coupled energy ladders give bounds with optimal size dependence.",
+ "comment": "23pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.24953",
+  "pdf": "https://arxiv.org/pdf/2609.24953",
+  "html": "https://arxiv.org/html/2609.24953"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-22T11:59:08.199Z",
+  "hook": "Establishing quantitative entropy contraction bounds for finite-dimensional quantum channels beyond detailed balance.",
+  "tldr": [
+   "Investigated finite-dimensional quantum channels that go beyond traditional detailed balance conditions.",
+   "Applied Gelfand-Naimark-Segal norm contraction to yield relative entropy contraction with logarithmic loss.",
+   "Derived lower bounds on the complete modified logarithmic Sobolev constant using the GNS spectral gap."
+  ],
+  "whyItMatters": "These mathematical bounds help us understand how fast quantum information forgets its initial state and reaches equilibrium, even when coupled to large environments.",
+  "eli5": "Think of entropy as a measure of messy desk clutter. This paper figures out mathematical rules for how fast quantum systems clean up their clutter over time.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Detailed balance",
+    "shortDef": "A condition in statistical mechanics where every microscopic process is balanced by its reverse.",
+    "eli5Def": "A two-way street where traffic flows at the exact same rate in both directions.",
+    "wikiTitle": "Detailed balance"
+   },
+   {
+    "term": "Quantum channels",
+    "shortDef": "Completely positive trace-preserving maps that describe how quantum states evolve or transmit.",
+    "eli5Def": "Pipes that carry quantum information from one place to another.",
+    "wikiTitle": "Quantum channel"
+   },
+   {
+    "term": "Entanglement",
+    "shortDef": "A quantum phenomenon where particles become deeply interconnected regardless of distance.",
+    "eli5Def": "Magically linked pairs of particles where touching one instantly affects the other.",
+    "wikiTitle": "Quantum entanglement"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

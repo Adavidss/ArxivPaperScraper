@@ -1,0 +1,68 @@
+{
+ "id": "2609.24915",
+ "version": 1,
+ "title": "Fisher-information training of optical sensing front ends from natural fluctuations",
+ "authors": [
+  {
+   "name": "Abhinav Sinha"
+  },
+  {
+   "name": "Kai Wang"
+  }
+ ],
+ "categories": [
+  "physics.optics",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.optics",
+ "published": "2026-09-21T17:16:37Z",
+ "updated": "2026-09-21T17:16:37Z",
+ "abstract": "Fisher-information-based optimization of programmable optical front ends in situ generally requires a response model or parameter-labeled measurements. We show that natural parameter fluctuations can instead provide the training signal. We construct proxies for the Fisher information (FI) of one parameter and the prior-weighted FI spectrum of multiple parameters from measured covariances after subtracting conditional detection noise, assuming locally affine responses. We use simulated photon counts from two incoherent point sources to train a mode sorter that approaches the quantum limit for separation and the Nagaoka--Hayashi single-copy bound for joint centroid--separation estimation. We demonstrate count-only updates that require no instrument response model and achieve performance comparable to model-based gradients. Our results provide a route to adaptive optical measurements without controlled parameter scans.",
+ "comment": "11 pages main text, 20 pages supplemental material",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.24915",
+  "pdf": "https://arxiv.org/pdf/2609.24915",
+  "html": "https://arxiv.org/html/2609.24915"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-22T11:59:08.199Z",
+  "hook": "Natural parameter fluctuations can train optical front ends without needing controlled parameter scans.",
+  "tldr": [
+   "Showed that natural parameter fluctuations provide a valid training signal for programmable optical front ends.",
+   "Constructed Fisher information proxies from measured covariances after subtracting conditional detection noise.",
+   "Trained a mode sorter using simulated photon counts that approaches the quantum limit for separation."
+  ],
+  "whyItMatters": "Calibrating precision optical instruments usually requires tedious, controlled parameter scans. Using natural background fluctuations to self-tune sensors could make quantum-limited optical measurements vastly simpler and faster to deploy.",
+  "eli5": "Instead of meticulously poking a musical instrument to see how it echoes, you just listen to the natural vibrations of the room to tune it automatically.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Fisher information",
+    "shortDef": "A mathematical measure of the amount of information carrying parameter data present in an observable random variable.",
+    "eli5Def": "A score for how easy it is to guess a hidden setting by looking at messy results.",
+    "wikiTitle": "Fisher information"
+   },
+   {
+    "term": "Nagaoka--Hayashi bound",
+    "shortDef": "A fundamental quantum limit for joint parameter estimation in quantum metrology.",
+    "eli5Def": "The ultimate speed or precision limit set by the laws of quantum physics for measuring two things at once.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Mode sorter",
+    "shortDef": "An optical device that separates different spatial modes of light.",
+    "eli5Def": "A prism-like gadget that sorts mixed-up light beams into neat, separate pathways based on their shapes.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 40
+ }
+}

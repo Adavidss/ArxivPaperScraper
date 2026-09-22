@@ -1,0 +1,91 @@
+{
+ "id": "2609.24933",
+ "version": 1,
+ "title": "A thermal microwave bus for neutral atom quantum computing",
+ "authors": [
+  {
+   "name": "Matthew J. H. Kendall"
+  },
+  {
+   "name": "Christopher J. Watson"
+  },
+  {
+   "name": "Michael Ben Shem"
+  },
+  {
+   "name": "Jonathan D. Breeze"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-21T17:27:28Z",
+ "updated": "2026-09-21T17:27:28Z",
+ "abstract": "High-fidelity two-qubit gates in neutral-atom arrays rely on the Rydberg blockade, which is intrinsically short ranged and requires long range connectivity to be achieved through atom shuttling. We propose a four level architecture, where the typical ground state qubit can be leveraged for its long lifetime and the Rydberg states couple to a microwave cavity, allowing for long range cavity mediated gates. We first find the thermal dependence of two established protocols, the dispersive iSWAP native to the Tavis-Cummings model and the Controlled phase gate generated from driving the cavity. We simulate them under the presence of Rydberg decay, thermal photons, finite cavity linewidth and find fidelities which accompany closed form bounds. We then introduce the bichromatic Raman gate, which only virtually populates the Rydberg states and cancels dispersive shifts to mitigate both atomic and cavity decay, achieving a fidelity of $F = 0.997$. Finally, we consider a full optical tweezer array in a microwave cavity, and show that using a cavity mediated gate to close the periodic boundaries of the toric code shortens an error correction round by a factor of 2.3 for realistic array sizes. This was then applied to the wider family of Bivariate bicycle codes, and we find that it shortens a round of the gross code by a factor of 4.8.",
+ "comment": "14 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.24933",
+  "pdf": "https://arxiv.org/pdf/2609.24933",
+  "html": "https://arxiv.org/html/2609.24933"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.24933v1/bigschem2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-22T11:59:08.199Z",
+  "hook": "New bichromatic Raman gate achieves a 0.997 fidelity for neutral-atom quantum computing via microwave cavities.",
+  "tldr": [
+   "Proposed a four-level architecture integrating neutral-atom arrays with a microwave cavity for long-range gates.",
+   "Simulated thermal microwave protocols and introduced a bichromatic Raman gate to mitigate atomic and cavity decay.",
+   "Demonstrated a gate fidelity of 0.997 and shortened quantum error correction rounds by factors up to 4.8."
+  ],
+  "whyItMatters": "Neutral atoms are great for quantum computing, but moving them around to talk to each other is slow. Using microwaves to connect them across a chip could speed up error correction and make large quantum computers much more practical.",
+  "eli5": "Imagine a classroom where students normally have to physically walk across the room to pass notes to each other. By installing an intercom system, they can instantly talk across the whole room without moving, making group projects finish way faster.",
+  "keyNumbers": [
+   {
+    "value": "0.997",
+    "label": "Gate fidelity",
+    "context": "Achieved by the bichromatic Raman gate mitigating atomic and cavity decay"
+   },
+   {
+    "value": "2.3",
+    "label": "Round shortening factor",
+    "context": "Toric code error correction round shortened for realistic array sizes"
+   },
+   {
+    "value": "4.8",
+    "label": "Round shortening factor",
+    "context": "Gross code round shortened within the wider family of Bivariate bicycle codes"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Rydberg blockade",
+    "shortDef": "A physical phenomenon where an atom in a highly excited state prevents nearby atoms from being excited.",
+    "eli5Def": "Like a person turning on a bright light that temporarily blinds everyone sitting right next to them from turning on their own lights.",
+    "wikiTitle": "Rydberg blockade"
+   },
+   {
+    "term": "Toric code",
+    "shortDef": "A popular quantum error-correcting code defined on a two-dimensional lattice with periodic boundaries.",
+    "eli5Def": "A mathematical map wrapped around a donut shape used to catch and fix mistakes in quantum data.",
+    "wikiTitle": "Toric code"
+   },
+   {
+    "term": "iSWAP",
+    "shortDef": "A native two-qubit quantum gate that swaps quantum states while adding a phase.",
+    "eli5Def": "An operation that swaps pieces of information between two quantum bits while giving one of them a little twist.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

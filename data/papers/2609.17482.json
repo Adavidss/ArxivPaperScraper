@@ -1,6 +1,6 @@
 {
  "id": "2609.17482",
- "version": 1,
+ "version": 2,
  "title": "Predictive Structure Behind Rare Outcomes in Random Quantum Circuits",
  "authors": [
   {
@@ -18,7 +18,7 @@
  ],
  "primaryCategory": "quant-ph",
  "published": "2026-09-15T17:24:08Z",
- "updated": "2026-09-15T17:24:08Z",
+ "updated": "2026-09-20T05:42:34Z",
  "abstract": "Rare outputs of random quantum circuits are usually treated as terminal statistics. We ask whether they reveal intermediate organization that remains useful beyond the selecting future. Comparing unconditioned random-normal (RN) and peak-selected random-peaked (RP) circuits from the same local generator, we find stronger pairwise correlations and probability redistribution but reduced bipartite and output spreading in RP across n=8-16. Exact full-suffix decomposition reveals stronger peak-directed interference. The structural separation and fresh-future advantage persist across four nominal depths at n=8-14, with 2.01-7.15 fold RP enrichment in the depth extensions at fixed, independently calibrated thresholds. Within the unconditioned ensemble, a structural prefix score predicts fresh-event probability without using the evaluated circuits' terminal outcomes. Population-preserving phase scrambling identifies a functional contribution from relative-phase organization across the tested settings, including primary-depth held-out confirmation. RP trajectory-guided initialization improves high-peak yield over Haar initialization under common local refinement. Intermediate multivariate guidance also improves the fresh-continuation susceptibility of constructed states beyond peak-only guidance across the same size-depth grid. Rare outputs thus reveal intermediate physical organization that remains useful under new dynamics and can guide circuit construction.",
  "comment": "25 pages, 9 figures",
  "doi": null,
@@ -35,49 +35,54 @@
  "withdrawn": false,
  "biteStatus": "ok",
  "bite": {
-  "model": "gemini-flash-latest",
-  "generatedAt": "2026-09-16T11:57:07.952Z",
-  "hook": "Rare peaks in random quantum circuits show hidden internal structure, giving a 2.01–7.15x enrichment in deeper runs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-22T11:59:08.199Z",
+  "hook": "Rare quantum circuit outputs reveal hidden structure, yielding 2.01-7.15 fold peak enrichment at fixed thresholds.",
   "tldr": [
-   "Investigated whether rare, high-probability outputs in random circuits possess organized internal structures.",
-   "Compared unconditioned and peaked circuits via full-suffix decomposition and phase scrambling across 8–16 qubits.",
-   "Discovered that rare circuits retain structured relative phases that persist under future dynamics to boost peak yields."
+   "Compared unconditioned random-normal and peak-selected random-peaked circuits across sizes n=8-16.",
+   "Used exact full-suffix decomposition and population-preserving phase scrambling to analyze internal interference.",
+   "Found that structural prefix scores predict fresh-event probability and trajectory guidance improves peak yields."
   ],
-  "whyItMatters": "Random quantum circuits are the standard benchmark for quantum supremacy; understanding their hidden structure can guide better algorithm design and state preparation on noisy hardware.",
-  "eli5": "Imagine flipping coins randomly and occasionally getting an unusual streak of heads. Instead of pure luck, researchers found those rare runs share a hidden rhythm inside that lets them keep producing unusual results even if you keep flipping.",
+  "whyItMatters": "Understanding the hidden organization behind rare quantum outputs can help researchers construct better quantum circuits and predict their behavior without evaluating terminal outcomes.",
+  "eli5": "Imagine rolling a pair of dice thousands of times. Usually, people only care about the final winning rolls, but this research shows that looking closely at the weird, rare rolls can actually teach you how to rig the dice better for future games.",
   "keyNumbers": [
    {
     "value": "8-16",
-    "label": "qubits tested",
-    "context": "System sizes across which structural differences were measured"
+    "label": "Circuit sizes (n)",
+    "context": "System sizes tested in the comparison of random-normal and random-peaked circuits."
+   },
+   {
+    "value": "8-14",
+    "label": "Nominal depths",
+    "context": "Size-depth grid used to demonstrate the persistence of structural separation and fresh-future advantage."
    },
    {
     "value": "2.01-7.15 fold",
     "label": "RP enrichment",
-    "context": "Peak enrichment observed across depth extensions at fixed thresholds"
+    "context": "Observed random-peaked enrichment in depth extensions at fixed thresholds."
    }
   ],
   "glossary": [
    {
-    "term": "Random quantum circuits",
-    "shortDef": "Circuits built by selecting quantum logic gates at random.",
-    "eli5Def": "A sequence of quantum operations chosen completely by chance, like shuffling a deck of quantum cards.",
+    "term": "Random Quantum Circuits",
+    "shortDef": "Quantum circuits built with random sequences of operations, used to benchmark quantum supremacy.",
+    "eli5Def": "A random mix of quantum logic gates that scrambles information into a complex state.",
     "wikiTitle": "Random quantum circuit"
    },
    {
-    "term": "Haar initialization",
-    "shortDef": "Sampling quantum states uniformly at random from the full state space.",
-    "eli5Def": "Picking a starting point uniformly at random across all possible quantum directions.",
-    "wikiTitle": "Haar measure"
+    "term": "Bipartite",
+    "shortDef": "Divided into two distinct parts or subsystems.",
+    "eli5Def": "Splitting a system into two halves to see how they share information.",
+    "wikiTitle": "Bipartite graph"
    },
    {
-    "term": "Bipartite spreading",
-    "shortDef": "The rate at which quantum information distributes across two partitions.",
-    "eli5Def": "How quickly secrets get mixed up between two halves of a quantum system.",
-    "wikiTitle": "Quantum entanglement"
+    "term": "Interference",
+    "shortDef": "The phenomenon where wave amplitudes add up or cancel out.",
+    "eli5Def": "When waves overlap, sometimes reinforcing each other and sometimes wiping each other out completely.",
+    "wikiTitle": "Wave interference"
    }
   ],
   "difficulty": 4,
-  "readSeconds": 55
+  "readSeconds": 45
  }
 }

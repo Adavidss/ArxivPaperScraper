@@ -50,20 +50,40 @@
  "matchedKeywords": [],
  "figure": null,
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-09-21T13:12:59.677Z",
-  "hook": "Cavity quantum electrodynamics is used to study the extent cavity enhancement affects single photon performance of an…",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-22T11:59:08.199Z",
+  "hook": "Cavity-QED analysis reveals trade-offs between emission rate, purity, and indistinguishability for quantum dots.",
   "tldr": [
-   "Parametric studies show a tradeoff between single photon production rate and purity, as well as between indistinguishability and purity.",
-   "Cavity quantum electrodynamics is used to study the extent cavity enhancement affects single photon performance of an InAs quantum dot, in terms of emission…"
+   "Studied how cavity enhancement affects InAs quantum dot single-photon performance across different temperatures.",
+   "Conducted parametric studies examining emission rate, purity, and indistinguishability.",
+   "Identified key tradeoffs and found that quantum carrier-photon correlations provide substantial corrections to mean-field treatments."
   ],
-  "whyItMatters": "",
-  "eli5": "",
+  "whyItMatters": "Building ultra-bright, perfectly identical single photons is a cornerstone for quantum cryptography and optical quantum computers. Knowing these precise tradeoffs helps engineers design better photon sources.",
+  "eli5": "Trying to make a tiny lightbulb that shoots out identical, perfect particles of light is tricky: if you try to make it shoot them faster, they get messier.",
   "keyNumbers": [],
-  "glossary": [],
+  "glossary": [
+   {
+    "term": "Cavity quantum electrodynamics",
+    "shortDef": "The study of the interaction between light confined in a cavity and atoms or artificial atoms.",
+    "eli5Def": "Watching how tiny quantum objects behave when trapped inside a microscopic mirrored box.",
+    "wikiTitle": "Cavity quantum electrodynamics"
+   },
+   {
+    "term": "Quantum dot",
+    "shortDef": "A nanoscale semiconductor particle that exhibits quantum properties due to confined electronic states.",
+    "eli5Def": "An artificial nano-sized speck of material that traps electrons and glows with precise colors of light.",
+    "wikiTitle": "Quantum dot"
+   },
+   {
+    "term": "Mean-field treatment",
+    "shortDef": "An approximation method that replaces complex interactions with an average effective field.",
+    "eli5Def": "Guessing what a crowd is doing by just looking at the average behavior instead of tracking every single person.",
+    "wikiTitle": "Mean-field theory"
+   }
+  ],
   "difficulty": 3,
-  "readSeconds": 34
+  "readSeconds": 35
  }
 }

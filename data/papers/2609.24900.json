@@ -1,0 +1,70 @@
+{
+ "id": "2609.24900",
+ "version": 1,
+ "title": "Explanation of the Observed Energy Exchange through the vacuum in Optomechanics",
+ "authors": [
+  {
+   "name": "Vincenzo Macrì"
+  },
+  {
+   "name": "Franco Nori"
+  },
+  {
+   "name": "Alessandro Ferreri"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-21T17:07:14Z",
+ "updated": "2026-09-21T17:07:14Z",
+ "abstract": "In cavity optomechanics, the standard large-detuning regime is commonly described by retaining only the radiation-pressure interaction, while higher-order mirror--field interactions are assumed to be negligible. This approximation, however, fails to provide a microscopic explanation for the vacuum-mediated heat transfer observed between the mechanical membranes in the experiment of Fong, et.al.,[Nature \\textbf{576}, 243 (2019)], whose physical origin has remained under active debate. Here, using a fully quantum model, we show that the neglected higher-order optomechanical interactions naturally generate phonon-phonon coupling and quantitatively account for the observed energy exchange within the standard optomechanical framework. Building on this microscopic description, we further propose a protocol in which phonon-phonon interaction drives a cyclic process enabling net work extraction. Our results establish the fundamental role of higher-order optomechanical interactions and provide a microscopic framework for describing next-generation optomechanical experiments beyond the linear approximation.",
+ "comment": "31 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.24900",
+  "pdf": "https://arxiv.org/pdf/2609.24900",
+  "html": "https://arxiv.org/html/2609.24900"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-22T11:59:08.199Z",
+  "hook": "Neglected higher-order optomechanical interactions explain observed vacuum-mediated heat transfer between membranes.",
+  "tldr": [
+   "Addressed the physical origin of vacuum-mediated heat transfer observed between mechanical membranes.",
+   "Built a fully quantum model incorporating previously neglected higher-order optomechanical interactions.",
+   "Demonstrated that these interactions naturally generate phonon-phonon coupling and account for the observed energy exchange."
+  ],
+  "whyItMatters": "Understanding how heat can cross a total vacuum purely through quantum fluctuations changes how we model nanoscale devices and opens doors to harvesting work from quantum vacuum heat.",
+  "eli5": "It turns out empty space can conduct heat between two tiny mirrors not because of air or touching, but because of ghostly quantum jitters that scientists previously ignored.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Optomechanics",
+    "shortDef": "The study of the interaction between light and mechanical motion on a micro or nanoscale.",
+    "eli5Def": "The science of using laser beams to push, pull, or listen to tiny vibrating objects.",
+    "wikiTitle": "Cavity optomechanics"
+   },
+   {
+    "term": "Phonon",
+    "shortDef": "A quasiparticle representing a quantized packet of vibrational mechanical energy in a crystal lattice.",
+    "eli5Def": "A tiny quantum packet of sound or physical vibration traveling through a material.",
+    "wikiTitle": "Phonon"
+   },
+   {
+    "term": "Detuning",
+    "shortDef": "The difference between the resonant frequency of a cavity and the frequency of the driving laser field.",
+    "eli5Def": "Tuning a radio slightly off the exact station frequency on purpose.",
+    "wikiTitle": "Detuning"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 40
+ }
+}

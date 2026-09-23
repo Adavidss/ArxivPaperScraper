@@ -1,65 +1,5 @@
 {
  "processed": {
-  "2607.08767": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-10"
-  },
-  "2607.08668": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-10"
-  },
-  "2607.08710": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-10"
-  },
-  "2607.08762": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-10"
-  },
-  "2607.08587": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-10"
-  },
-  "2607.08702": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-10"
-  },
-  "2607.08761": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-12"
-  },
-  "2607.08760": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-12"
-  },
-  "2607.08713": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-12"
-  },
-  "2607.08709": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-12"
-  },
-  "2607.08708": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-12"
-  },
-  "2607.08697": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-12"
-  },
   "2607.09663": {
    "version": 1,
    "summarizedVersion": 1,
@@ -2079,11 +2019,41 @@
    "version": 1,
    "summarizedVersion": 1,
    "firstSeen": "2026-09-22"
+  },
+  "2609.26788": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-23"
+  },
+  "2609.26784": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-23"
+  },
+  "2609.26775": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-23"
+  },
+  "2609.26769": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-23"
+  },
+  "2609.26750": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-23"
+  },
+  "2609.26743": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-09-23"
   }
  },
  "retryQueue": [],
  "lastRun": {
-  "at": "2026-09-22T11:59:08.199Z",
+  "at": "2026-09-23T12:00:12.254Z",
   "geminiCalls": 8,
   "newPapers": 6,
   "quotaExhausted": false

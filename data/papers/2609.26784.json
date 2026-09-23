@@ -1,0 +1,85 @@
+{
+ "id": "2609.26784",
+ "version": 1,
+ "title": "Error Suppression in Distributed Quantum Computing with Heterogeneous-Distance Lattice Surgery",
+ "authors": [
+  {
+   "name": "Daniel Dilley"
+  },
+  {
+   "name": "Anastashia Jebraeilli"
+  },
+  {
+   "name": "Rayat Roy"
+  },
+  {
+   "name": "Shobhit Gupta"
+  },
+  {
+   "name": "Alvin Gonzales"
+  },
+  {
+   "name": "Zain Saleem"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-22T17:56:56Z",
+ "updated": "2026-09-22T17:56:56Z",
+ "abstract": "Distributed quantum computing requires fault-tolerant operations across inter-QPU links that can be substantially noisier than local gates. Uniformly increasing code distance provides additional protection but also enlarges data patches used for local storage and computation. Here, we introduce distributed heterogeneous-distance lattice surgery using an eight-data-patch ancilla-mediated (8-DAM) architecture, which will be useful for near-term quantum devices with less qubit overhead. In this architecture, the central ancilla spanning the inter-QPU boundary is enlarged while the data patches retain distance $d$. The protocol uses traveling stabilizers to suppress hook errors during merge and split operations between these unequal-distance patches. Circuit-level simulations of rotated surface codes at fixed local depolarizing noise show that logical-readout error rates depend only weakly on link noise. The resulting advantage over conventional lattice surgery grows as link errors increase. Comparisons with uniform distance implementations demonstrate comparable logical error suppression with reduced physical-qubit overhead. We also demonstrate how 8-DAM layouts support two simultaneous distributed logical CNOT operations between four logical data qubits using a single enlarged ancilla. At higher link noise, this construction yields lower logical error rates and more stability than two independent distributed logical CNOTs. These results support selective ancilla enlargement as a resource-efficient approach to fault-tolerant distributed quantum computing.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.26784",
+  "pdf": "https://arxiv.org/pdf/2609.26784",
+  "html": "https://arxiv.org/html/2609.26784"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-23T12:00:12.254Z",
+  "hook": "New architecture reduces physical qubit overhead while suppressing hook errors in distributed quantum computing.",
+  "tldr": [
+   "They introduced a distributed heterogeneous-distance lattice surgery using an eight-data-patch ancilla-mediated architecture.",
+   "They enlarged the central ancilla spanning the inter-QPU boundary while keeping data patches at distance d, using traveling stabilizers.",
+   "Circuit-level simulations show logical-readout error rates depend weakly on link noise, outperforming conventional lattice surgery."
+  ],
+  "whyItMatters": "Scaling quantum computers requires linking multiple smaller quantum processors together, which is currently bottlenecked by noisy communication links between them.",
+  "eli5": "Connecting two quantum computers is like trying to whisper secrets across a noisy stadium; the connection is usually full of static. By building a special translation station right in the middle that uses extra care during handoffs, we can keep the data safe without needing a massive number of extra backup wires.",
+  "keyNumbers": [
+   {
+    "value": "8-DAM",
+    "label": "Architecture type",
+    "context": "eight-data-patch ancilla-mediated architecture used for distributed lattice surgery"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Lattice surgery",
+    "shortDef": "A method of performing quantum operations by merging and splitting patches of surface codes.",
+    "eli5Def": "A way to connect and disconnect patches of quantum data like pieces of velcro.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Ancilla",
+    "shortDef": "An auxiliary qubit used to assist in quantum computation and error correction.",
+    "eli5Def": "A helper qubit brought in temporarily to do chores or check the work of other qubits.",
+    "wikiTitle": "Ancilla bit"
+   },
+   {
+    "term": "Surface code",
+    "shortDef": "A leading topological quantum error-correcting code using a 2D grid of physical qubits.",
+    "eli5Def": "A grid-like safety net of quantum bits that catches mistakes as they happen.",
+    "wikiTitle": "Surface code"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

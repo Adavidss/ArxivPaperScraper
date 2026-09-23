@@ -1,0 +1,69 @@
+{
+ "id": "2609.26743",
+ "version": 1,
+ "title": "Explicit channels with unbounded gains in classical communication using entangled inputs",
+ "authors": [
+  {
+   "name": "Hao-Chung Cheng"
+  },
+  {
+   "name": "Peixue Wu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-22T17:27:50Z",
+ "updated": "2026-09-22T17:27:50Z",
+ "abstract": "We construct an explicit family of finite-dimensional quantum channels for which the optimal classical communication rate achievable with product-state codewords and collective decoding tends to zero, while rates achievable using entanglement only within pairs of channel inputs grow without bound. Our construction combines deterministic qudit Clifford unitaries with a binary measurement and classical feedforward, providing a derandomization to Hastings' probabilistic construction. The key ingredient is a careful design of measurement and feedforward process that yields the required one-copy and two-copy output entropy bounds from moment estimates alone, without requiring strong convergence of the underlying unitary family.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.26743",
+  "pdf": "https://arxiv.org/pdf/2609.26743",
+  "html": "https://arxiv.org/html/2609.26743"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-23T12:00:12.254Z",
+  "hook": "Entangled inputs allow classical communication rates to grow without bound while product-state rates vanish.",
+  "tldr": [
+   "Constructed an explicit family of finite-dimensional quantum channels with unbounded classical communication gains.",
+   "Combined deterministic qudit Clifford unitaries with a binary measurement and classical feedforward.",
+   "Demonstrated that two-copy entanglement yields output entropy bounds from moment estimates alone."
+  ],
+  "whyItMatters": "Proves that quantum entanglement can unlock massive, previously unpredictable advantages for sending standard digital data through certain types of physical channels.",
+  "eli5": "Normally, if you send regular messages using independent quantum particles, the connection gets worse and worse until it drops to zero. But if you 'entangle' or link pairs of particles together like magical twin dice, you can suddenly cram an infinite amount of data through.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Qudit",
+    "shortDef": "A quantum generalization of a classical bit that can exist in d dimensions.",
+    "eli5Def": "A regular computer bit can be 0 or 1. A qudit is a Swiss Army knife version that can be many different states at the exact same time.",
+    "wikiTitle": "Qudit"
+   },
+   {
+    "term": "Clifford unitaries",
+    "shortDef": "A specific set of quantum logic operations that are relatively easy to simulate on computers.",
+    "eli5Def": "A standard set of building blocks or Lego pieces used to manipulate quantum information.",
+    "wikiTitle": "Clifford algebra"
+   },
+   {
+    "term": "Output entropy",
+    "shortDef": "A measure of uncertainty or randomness in the signals coming out of a channel.",
+    "eli5Def": "A score that tells you how messy or fuzzy the final message looks when it arrives at the other end.",
+    "wikiTitle": "Quantum relative entropy"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

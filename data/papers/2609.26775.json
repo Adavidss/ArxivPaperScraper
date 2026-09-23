@@ -1,0 +1,92 @@
+{
+ "id": "2609.26775",
+ "version": 1,
+ "title": "Optical Ion Clock with Engineered Immunity to Motion-Induced Frequency Shifts",
+ "authors": [
+  {
+   "name": "Mark Lide"
+  },
+  {
+   "name": "Wesley Hardin"
+  },
+  {
+   "name": "Christian Sanner"
+  }
+ ],
+ "categories": [
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.atom-ph",
+ "published": "2026-09-22T17:54:38Z",
+ "updated": "2026-09-22T17:54:38Z",
+ "abstract": "Spectroscopic frequency shifts due to residual motion of the probed atoms significantly contribute to the uncertainty budgets of state-of-the-art optical ion clocks. For clock transitions with second-order Doppler and quadratic Stark shifts of opposite signs, it is possible to configure electrodynamic ion confinement such that these two shift effects become anticorrelated causing zero net shift. Here, we introduce a spectroscopic interrogation protocol which leads, for systems with unknown and varying motional energy gain rates, to first-order auto-suppression of corresponding frequency shifts without requiring the opposite-sign configuration. We experimentally demonstrate the proposed method on a new ytterbium ion optical clock probing the 467 nm electric octupole (E3) transition, where the combined fractional uncertainty contribution from motion-induced frequency shifts is reduced from $1.3\\times10^{-18}$ to $0.3\\times10^{-18}$. An interleaved optical frequency ratio measurement against ytterbium's electric quadrupole transition (E2) at 435 nm delivers an E3/E2 frequency ratio of $0.932 \\,829 \\,404 \\,530 \\,965 \\, 340 (39)$. Combined with previously published ratio data this leads to a limit for a potential fractional temporal variation of the fine-structure constant of $2.4 (2.7) \\times 10^{-19}/$yr, in agreement with existing bounds.",
+ "comment": "9 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.26775",
+  "pdf": "https://arxiv.org/pdf/2609.26775",
+  "html": "https://arxiv.org/html/2609.26775"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-23T12:00:12.254Z",
+  "hook": "Reduced motion-induced frequency shift uncertainty to 0.3x10^-18 in an optical ytterbium ion clock.",
+  "tldr": [
+   "They developed a spectroscopic interrogation protocol providing first-order auto-suppression of motion-induced frequency shifts.",
+   "They tested the method on a new ytterbium ion optical clock probing the 467 nm electric octupole transition.",
+   "They measured an E3/E2 frequency ratio of 0.932829404530965340(39) against the quadrupole transition."
+  ],
+  "whyItMatters": "Ultra-precise optical clocks are critical not just for timekeeping, but for testing fundamental physics constants and searching for dark matter.",
+  "eli5": "Even trapped atoms wiggle slightly from heat, which messes up the ticking of the world's most accurate atomic clocks. By using a clever interrogation trick, the scientists made the clock automatically ignore the jittering, making it record time with unprecedented purity.",
+  "keyNumbers": [
+   {
+    "value": "0.3x10^-18",
+    "label": "Reduced uncertainty",
+    "context": "combined fractional uncertainty contribution from motion-induced frequency shifts"
+   },
+   {
+    "value": "467 nm",
+    "label": "Transition wavelength",
+    "context": "electric octupole E3 transition probed in the ytterbium ion clock"
+   },
+   {
+    "value": "435 nm",
+    "label": "Reference wavelength",
+    "context": "electric quadrupole E2 transition used for ratio measurement"
+   },
+   {
+    "value": "2.4(2.7)x10^-19/yr",
+    "label": "Temporal variation limit",
+    "context": "limit for potential fractional temporal variation of the fine-structure constant"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Doppler shift",
+    "shortDef": "Frequency change caused by the relative motion of a wave source and an observer.",
+    "eli5Def": "The change in pitch of an ambulance siren as it moves past you, which also happens to light when atoms move.",
+    "wikiTitle": "Doppler effect"
+   },
+   {
+    "term": "Octupole transition",
+    "shortDef": "An atomic transition involving a change in angular momentum of three units.",
+    "eli5Def": "A very rare and hard-to-trigger state change in an atom, which makes for a super-stable clock tick.",
+    "wikiTitle": "Multipole radiation"
+   },
+   {
+    "term": "Fine-structure constant",
+    "shortDef": "A fundamental physical constant characterizing the strength of the electromagnetic interaction.",
+    "eli5Def": "A universal constant number that dictates how strongly light and matter interact across the universe.",
+    "wikiTitle": "Fine-structure constant"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 70
+ }
+}

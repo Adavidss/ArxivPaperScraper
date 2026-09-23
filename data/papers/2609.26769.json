@@ -1,0 +1,72 @@
+{
+ "id": "2609.26769",
+ "version": 1,
+ "title": "On the Complexity of Finding Decoherence Free Subspaces",
+ "authors": [
+  {
+   "name": "Evan Borras"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-22T17:49:23Z",
+ "updated": "2026-09-22T17:49:23Z",
+ "abstract": "Decoherence free subspaces are a steady-state structure of the open quantum system which preserves quantum coherence between the states lying with in it and thus has found a variety of applications throughout quantum information science and technology. In this paper we study the computational complexity of deciding whether an open quantum system admits a decoherence free subspace or not. More specifically we study this problem with in the context of Markovian open quantum systems, governed by the time-independent Lindblad master equation. Along the way we introduce the $k$-Local Lindbladian problem, which captures the difficulty of computing purity decay rates under Lindbladian dynamics. We show that both problems are hard for the complexity class Quantum Merlin Arthur (QMA) when the locality $k \\geq 5$, with the first under perfect completeness and the second being complete for QMA. Our hardness construction generalizes Kitaev's clock Hamiltonian construction to the open quantum system setting by encoding the execution of a quantum circuit into the steady subspace of a Lindbladian containing both pure and mixed history states. This subspace is then mixed depending on the output of the encoded circuit. Our results suggest that deciding whether a generic Markovian open quantum system admits a decoherence free subspace is intractable even for quantum computation.",
+ "comment": "comments welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.26769",
+  "pdf": "https://arxiv.org/pdf/2609.26769",
+  "html": "https://arxiv.org/html/2609.26769"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-23T12:00:12.254Z",
+  "hook": "Deciding whether a generic Markovian open quantum system admits a decoherence free subspace is QMA-hard.",
+  "tldr": [
+   "They studied the computational complexity of deciding whether open quantum systems admit a decoherence-free subspace.",
+   "They introduced the k-Local Lindbladian problem to capture the difficulty of computing purity decay rates.",
+   "They proved both problems are hard for Quantum Merlin Arthur (QMA) when locality k is at least 5."
+  ],
+  "whyItMatters": "Understanding the limits of protecting quantum states from environmental noise helps determine whether fault-tolerant quantum computing is fundamentally feasible in open systems.",
+  "eli5": "Figuring out whether you can completely shield a fragile quantum system from its chaotic environment turns out to be mathematically harder than most quantum puzzles we know, suggesting it might be an impossible riddle for standard quantum computers to solve easily.",
+  "keyNumbers": [
+   {
+    "value": "k ≥ 5",
+    "label": "Locality threshold",
+    "context": "locality condition for which the problems are hard for QMA"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Decoherence",
+    "shortDef": "The loss of quantum coherence caused by interaction with an external environment.",
+    "eli5Def": "When a fragile quantum bubble pops because the outside world touches it.",
+    "wikiTitle": "Quantum decoherence"
+   },
+   {
+    "term": "Lindblad master equation",
+    "shortDef": "An equation describing the non-unitary evolution of an open quantum system over time.",
+    "eli5Def": "A mathematical rulebook for how a quantum system leaks information and energy to its surroundings.",
+    "wikiTitle": "Lindblad equation"
+   },
+   {
+    "term": "QMA",
+    "shortDef": "Quantum Merlin Arthur, the quantum analogue of the classical complexity class NP.",
+    "eli5Def": "A class of problems where if someone hands you a quantum proof, you can check its validity using a quantum computer.",
+    "wikiTitle": "QMA"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 65
+ }
+}

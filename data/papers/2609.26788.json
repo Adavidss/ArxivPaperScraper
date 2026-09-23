@@ -1,0 +1,71 @@
+{
+ "id": "2609.26788",
+ "version": 1,
+ "title": "Quantum Advantage for Distributed Symmetry Breaking",
+ "authors": [
+  {
+   "name": "Maxime Flin"
+  },
+  {
+   "name": "Longcheng Li"
+  },
+  {
+   "name": "Jukka Suomela"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.DC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-22T17:58:07Z",
+ "updated": "2026-09-22T17:58:07Z",
+ "abstract": "We present a distributed quantum algorithm that $3$-colors cycles in $O(1)$ rounds, with high probability. It follows that all locally checkable labeling problems (LCLs) that have round complexity $O(\\log^* n)$ in the classical LOCAL model can be solved in $O(1)$ rounds in the quantum-LOCAL model, with high probability; this includes problems such as maximal independent set and maximal matching in bounded-degree graphs. This presents the first natural examples of graph problems with an asymptotic distributed quantum advantage for the LOCAL model; all prior examples that separate LOCAL and quantum-LOCAL are artificial problems constructed merely for the sake of demonstrating quantum advantage.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.26788",
+  "pdf": "https://arxiv.org/pdf/2609.26788",
+  "html": "https://arxiv.org/html/2609.26788"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-23T12:00:12.254Z",
+  "hook": "We present the first natural graph problems with an asymptotic distributed quantum advantage for the LOCAL model.",
+  "tldr": [
+   "They designed a distributed quantum algorithm that 3-colors cycles in O(1) rounds with high probability.",
+   "They proved that classical LCL problems taking O(log* n) rounds can be solved in O(1) rounds using a quantum-LOCAL model.",
+   "They demonstrated the first natural examples of graph problems showing asymptotic distributed quantum advantage."
+  ],
+  "whyItMatters": "Proving that quantum networks can solve complex network coordination problems exponentially faster than classical networks opens the door to fundamentally faster distributed computing.",
+  "eli5": "Imagine trying to paint a giant ring of houses so no two adjacent houses share a color, using walkie-talkies to talk only to your immediate neighbors. A quantum network can finish this game in a constant number of steps no matter how huge the neighborhood gets, whereas a regular network would take much longer as it scales up.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "LOCAL model",
+    "shortDef": "A standard model in distributed computing where nodes communicate with neighbors in synchronous rounds.",
+    "eli5Def": "A rulebook for studying how computers in a network solve problems by only talking to their direct neighbors.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Maximal independent set",
+    "shortDef": "A set of vertices in a graph such that no two are connected and no more can be added.",
+    "eli5Def": "Choosing the largest group of people in a room where nobody is friends with anyone else in the group.",
+    "wikiTitle": "Maximal independent set"
+   },
+   {
+    "term": "Locally checkable labeling",
+    "shortDef": "Graph problems whose correctness can be verified by checking a constant-radius neighborhood around each node.",
+    "eli5Def": "A puzzle where you only need to look at your immediate neighbors to know if everyone followed the rules.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

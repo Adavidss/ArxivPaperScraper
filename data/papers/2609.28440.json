@@ -1,0 +1,73 @@
+{
+ "id": "2609.28440",
+ "version": 1,
+ "title": "Sharp pairwise reduction for quantum hypothesis testing",
+ "authors": [
+  {
+   "name": "Kuan-Yi Lee"
+  },
+  {
+   "name": "Ludovico Lami"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-23T17:38:46Z",
+ "updated": "2026-09-23T17:38:46Z",
+ "abstract": "We determine the optimal universal coefficient in a reduction of multiple to binary quantum hypothesis testing. Specifically, for every finite ensemble in any Hilbert space dimension (finite or infinite), we prove that the error probability of the global pretty good measurement (PGM) is at most four times the sum of the optimal binary error probabilities. By constructing a family of regular-simplex ensembles, we further show that the coefficient four is optimal, even for arbitrary global measurements. This result improves on the pairwise bounds established by Cheng and Liu [arXiv:2606.06246 (2026)] and entails an explicit, sharp guarantee for the standard PGM itself. Our proof is also simpler: rather than constructing sequential measurements and applying a union bound, our proof relies on purely matrix-analytic techniques, combining a direct block Gram matrix analysis of the PGM error and a refined inequality between quantum Hellinger distance and Bures $χ^2$-divergence. Our analysis also yields a refined, one-shot pairwise Chernoff bound and explicit sufficient number of copies for a desired discrimination error.",
+ "comment": "11 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.28440",
+  "pdf": "https://arxiv.org/pdf/2609.28440",
+  "html": "https://arxiv.org/html/2609.28440"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-24T12:06:12.057Z",
+  "hook": "We determine the optimal universal coefficient four in a reduction of multiple to binary quantum hypothesis testing.",
+  "tldr": [
+   "Analyzed the reduction of multiple quantum hypothesis testing to binary testing across finite Hilbert spaces.",
+   "Combined block Gram matrix analysis and quantum Hellinger distance inequalities using matrix-analytic techniques.",
+   "Established that global PGM error is at most four times the sum of binary errors, confirmed as optimal."
+  ],
+  "whyItMatters": "This provides a sharper mathematical foundation for quantum statistics, making it easier to analyze how accurately we can tell quantum signals apart in physics experiments.",
+  "eli5": "Scientists often simplify complex multiple-choice tests into a series of true-or-false questions. This paper proves the exact conversion rate for quantum tests.",
+  "keyNumbers": [
+   {
+    "value": "four",
+    "label": "Universal Coefficient",
+    "context": "The exact optimal multiplier connecting multi-hypothesis errors to binary hypothesis errors."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Hilbert Space",
+    "shortDef": "A mathematical space used in quantum mechanics to describe all possible states of a system.",
+    "eli5Def": "A giant mathematical map where every possible condition a quantum system can be in is represented as a point.",
+    "wikiTitle": "Hilbert space"
+   },
+   {
+    "term": "Hellinger Distance",
+    "shortDef": "A distance metric used to quantify the similarity between two probability distributions.",
+    "eli5Def": "A number measuring how different two messy graphs or scatter plots look from each other.",
+    "wikiTitle": "Hellinger distance"
+   },
+   {
+    "term": "Chernoff Bound",
+    "shortDef": "A mathematical bound showing that the probability of deviation from the expected value drops exponentially.",
+    "eli5Def": "A rule showing how fast your chances of making a wild miscalculation shrink as you gather more data.",
+    "wikiTitle": "Chernoff bound"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 40
+ }
+}

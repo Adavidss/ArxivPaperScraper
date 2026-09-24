@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-23T12:00:12.254Z",
+ "generatedAt": "2026-09-24T12:06:12.057Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -83,28 +83,6 @@
    "paperCount": 4
   },
   {
-   "name": "Martin B. Plenio",
-   "slug": "martin-b-plenio",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "PHIP"
-   ],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2608.02517",
-    "2607.11723",
-    "2607.08767"
-   ],
-   "recentTitles": [
-    "Thermalization of open quantum systems with pseudomodes",
-    "Robust nuclear hyperpolarization of small molecules through intermolecular transfer of parahydrogen-derived polarization"
-   ],
-   "paperCount": 3
-  },
-  {
    "name": "Vsevolod Ivanov",
    "slug": "vsevolod-ivanov",
    "score": 4,
@@ -166,6 +144,26 @@
     "Symmetry Constraints Regularize Neural Quantum State Learning"
    ],
    "paperCount": 2
+  },
+  {
+   "name": "Ludovico Lami",
+   "slug": "ludovico-lami",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.28440",
+    "2608.02587",
+    "2607.11847"
+   ],
+   "recentTitles": [
+    "Sharp pairwise reduction for quantum hypothesis testing",
+    "Entanglement of flower states"
+   ],
+   "paperCount": 3
   },
   {
    "name": "Hongshun Yao",

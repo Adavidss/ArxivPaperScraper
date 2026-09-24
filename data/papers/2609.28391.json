@@ -1,0 +1,87 @@
+{
+ "id": "2609.28391",
+ "version": 1,
+ "title": "Quantum score matching with applications to learning thermal states",
+ "authors": [
+  {
+   "name": "Yulong Dong"
+  },
+  {
+   "name": "Jiaqi Leng"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-23T17:01:36Z",
+ "updated": "2026-09-23T17:01:36Z",
+ "abstract": "Score matching has driven major advances in classical generative learning by enabling models to learn from data without evaluating intractable normalization constants, or partition functions. Yet, extending this principle to quantum learning requires rethinking its foundations, as quantum states are described by noncommuting density operators rather than scalar probabilities. The noncommutativity creates fundamental challenges not only in defining quantum scores, but also in developing a training framework with efficient circuit implementations and rigorous theoretical guarantees. In this work, we bridge this gap by establishing a general quantum score-matching framework with end-to-end theoretical guarantees. Applied to Gibbs-state learning, our approach avoids additional thermal-state preparation and achieves information-theoretically optimal sample complexity in the high-temperature regime for Hamiltonians with bounded locality and interaction degree. This positions score matching as a new route to state-of-the-art performance in learning quantum Gibbs states. Beyond these theoretical results, numerical simulations show that our method remains effective even when gradients are estimated inaccurately under limited measurement budgets. Experiments on IBM quantum hardware further demonstrate that quantum score matching is NISQ-friendly: without any error mitigation or correction, it reduces the relative Hamiltonian-parameter error from 64% to approximately 10%. Together, these results extend score matching into an experimentally realizable paradigm for quantum-state learning.",
+ "comment": "57 pages, 5 figures, 3 tables, with an accompanying GitHub repository at https://github.com/dongsnaq/Quantum-Score-Matching",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.28391",
+  "pdf": "https://arxiv.org/pdf/2609.28391",
+  "html": "https://arxiv.org/html/2609.28391"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.28391v1/hardware_mean_dynamics.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-24T12:06:12.057Z",
+  "hook": "Quantum score matching reduces relative Hamiltonian-parameter error from 64% to 10% on IBM hardware without error mitigation.",
+  "tldr": [
+   "They established a general quantum score-matching framework to enable generative learning for quantum states.",
+   "They applied the approach to Gibbs-state learning, achieving information-theoretically optimal sample complexity at high temperatures.",
+   "Simulations and IBM quantum hardware experiments proved the method is NISQ-friendly and effective under limited measurements."
+  ],
+  "whyItMatters": "Score matching is a massive engine behind classical AI generative models. Extending it to the quantum realm opens up new ways to train quantum machine learning models on noisy, real-world hardware.",
+  "eli5": "Think of classical score matching as teaching an AI to paint by grading how realistic the brushstrokes look instead of counting every single atom in the paint. This paper figures out how to do the exact same trick for quantum physics, making it much easier to teach computers about complex molecules.",
+  "keyNumbers": [
+   {
+    "value": "64%",
+    "label": "Initial error",
+    "context": "Relative Hamiltonian-parameter error before applying quantum score matching on IBM hardware."
+   },
+   {
+    "value": "10%",
+    "label": "Final error",
+    "context": "Relative Hamiltonian-parameter error achieved on IBM hardware without error mitigation or correction."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Score matching",
+    "shortDef": "A machine learning training technique that avoids calculating intractable normalization constants.",
+    "eli5Def": "A way to teach an AI by looking at the direction of improvement rather than calculating every possible outcome.",
+    "wikiTitle": "Score matching"
+   },
+   {
+    "term": "Gibbs state",
+    "shortDef": "A quantum state representing a physical system in thermal equilibrium at a given temperature.",
+    "eli5Def": "A snapshot of a physical system that has settled down to a steady, warm temperature.",
+    "wikiTitle": "Gibbs state"
+   },
+   {
+    "term": "NISQ",
+    "shortDef": "Noisy Intermediate-Scale Quantum, describing current quantum computers with limited qubits and noise.",
+    "eli5Def": "The current generation of quantum computers that are clumsy, noisy, and still learning.",
+    "wikiTitle": "Noisy intermediate-scale quantum technology"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "The master rulebook for how energy and forces work in a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "2609.28461",
+ "version": 1,
+ "title": "Purely-logarithmic-time- and constant-space-overhead fault-tolerant quantum computation",
+ "authors": [
+  {
+   "name": "Zhengyi Han"
+  },
+  {
+   "name": "Zi-Wen Liu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-23T17:53:01Z",
+ "updated": "2026-09-23T17:53:01Z",
+ "abstract": "We prove that constant-space-overhead fault-tolerant quantum computation can be achieved with provably strictly logarithmic time overhead, improving over the best known results with additional subpolylogarithmic factors. Our main construction uses polynomial-subrank transversal logical $\\CCZ$ gates on good quantum locally testable codes to implement addressable universal computation by transferring batches of logical qubits between dense storage and active logical subspaces while reusing the same ancillary workspace. Logical $\\CCZ$ gates are implemented directly by the transversal operation, so only stabilizer resource states require separate preparation. Furthermore, we give an alternative construction that also achieves purely logarithmic time overhead based on modifying the quantum Reed--Solomon magic-state distillation scheme of Nguyen and Pattison. Recursively applying a fixed distillation circuit protected by qLTCs of increasing block length eliminates the subpolylogarithmic time factor.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.28461",
+  "pdf": "https://arxiv.org/pdf/2609.28461",
+  "html": "https://arxiv.org/html/2609.28461"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-24T12:06:12.057Z",
+  "hook": "Fault-tolerant quantum computation is achieved with strictly logarithmic time overhead and constant space overhead.",
+  "tldr": [
+   "Proved that fault-tolerant quantum computers can run with strictly logarithmic time overhead.",
+   "Used polynomial-subrank transversal logical CCZ gates on good quantum locally testable codes.",
+   "Eliminated subpolylogarithmic time factors by recursively applying a modified magic-state distillation scheme."
+  ],
+  "whyItMatters": "Building large quantum computers requires fixing errors on the fly without slowing everything down to a crawl. Proving that we can do this with minimal time and space waste brings scalable quantum computing significantly closer to reality.",
+  "eli5": "Fixing mistakes in a massive quantum computer normally takes a lot of extra time and equipment. This paper shows a clever organizational trick to fix errors super fast without needing a mountain of extra hardware.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Fault-Tolerant",
+    "shortDef": "The ability of a system to continue functioning properly in the presence of errors.",
+    "eli5Def": "A machine that keeps working correctly even when some of its parts glitch or break.",
+    "wikiTitle": "Fault-tolerant quantum computing"
+   },
+   {
+    "term": "Transversal Gate",
+    "shortDef": "A quantum gate that acts on physical qubits piece-by-piece to avoid spreading errors.",
+    "eli5Def": "Operating on multiple quantum puzzle pieces independently so a smudge on one piece doesn't ruin the rest.",
+    "wikiTitle": "Transversal gate"
+   },
+   {
+    "term": "Magic-State Distillation",
+    "shortDef": "A protocol to turn low-quality noisy quantum states into high-quality clean ones.",
+    "eli5Def": "A filtering process that purifies messy, noisy quantum ingredients into pristine ones.",
+    "wikiTitle": "Magic state distillation"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

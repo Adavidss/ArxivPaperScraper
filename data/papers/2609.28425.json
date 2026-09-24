@@ -1,0 +1,97 @@
+{
+ "id": "2609.28425",
+ "version": 1,
+ "title": "Repairability of Inexact Solvers in Recursive State Estimation with Machine Learning",
+ "authors": [
+  {
+   "name": "Yanjun Ji"
+  },
+  {
+   "name": "Dennis Willsch"
+  },
+  {
+   "name": "Orkun Şensebat"
+  },
+  {
+   "name": "Priyanka Arkalgud Ganeshamurthy"
+  },
+  {
+   "name": "Zhi Pei"
+  },
+  {
+   "name": "M. Sahnawaz Alam"
+  },
+  {
+   "name": "Ivelina Stoyanova"
+  },
+  {
+   "name": "Frank K. Wilhelm"
+  },
+  {
+   "name": "Bo Zhao"
+  },
+  {
+   "name": "Chao Wang"
+  },
+  {
+   "name": "Kristel Michielsen"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-23T17:27:07Z",
+ "updated": "2026-09-23T17:27:07Z",
+ "abstract": "Recursive state estimation often executes approximate numerical solutions inside a feedback loop, where highly accurate local steps do not guarantee better overall results. For a fixed linear Kalman model, we characterize when a correction within a prescribed subspace and norm budget can meet a local admissibility tolerance, and how the defects actually executed affect the finite-horizon covariance response. Centering each defect on the exact gain for the implemented covariance separates current solve error from inherited gain drift. Expanding the exact residual-drift identity reveals opposing quartic contributions beyond the quadratic response: innovation-covariance inflation enters positively, while local-gain reoptimization enters subtractively. Under matched initialization, an absolute sixth-order remainder bound, uniform over bounded defect sequences at fixed horizon, gives sufficient conditions for quadratic under- or overprediction. Machine learning proposes bounded corrections, while a learner-independent residual certificate and verified fallback govern execution of classical and quantum candidates without changing the reference estimator. In a power-grid tolerance study, learned correction lowers the minimum conjugate-gradient iteration count for deployment without fallback relative to uncorrected solves under the same residual certificate. Gains reconstructed from a variational quantum linear solver and from an annealing-based binary encoding, with small-scale terminal measurements on superconducting hardware and sampling on a quantum annealer, are executed through the same interface. By linking local repairability to nonlinear error propagation, the framework evaluates approximate solvers and learned corrections through independent certification and finite-horizon response, providing a practical basis for studying hybrid quantum--classical computation.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.28425",
+  "pdf": "https://arxiv.org/pdf/2609.28425",
+  "html": "https://arxiv.org/html/2609.28425"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.28425v1/cg_g1_frontier_state_mismatch.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-24T12:06:12.057Z",
+  "hook": "Learned corrections and classical/quantum solvers are evaluated via nonlinear error propagation in recursive state estimation.",
+  "tldr": [
+   "They characterized when bounded corrections can meet a local admissibility tolerance within a fixed linear Kalman model.",
+   "They used residual-drift identities and an absolute sixth-order remainder bound to analyze finite-horizon covariance response.",
+   "Learned corrections lowered minimum conjugate-gradient iteration counts in a power-grid tolerance study."
+  ],
+  "whyItMatters": "As hybrid quantum-classical computing grows, understanding how approximate or learned solvers behave inside feedback loops is vital to prevent catastrophic errors in critical infrastructure like power grids.",
+  "eli5": "Imagine trying to guide a moving robot using a map drawn by a tired friend. Even if the friend's next step is slightly wrong, you need to know how those little mistakes pile up over time so you don't drive off a cliff.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Kalman model",
+    "shortDef": "An algorithm that estimates the true state of a system from a series of noisy measurements over time.",
+    "eli5Def": "A mathematical guesser that combines past guesses with new clues to figure out where something is.",
+    "wikiTitle": "Kalman filter"
+   },
+   {
+    "term": "Covariance response",
+    "shortDef": "How the uncertainty or variance of an error propagates through time in a dynamical system.",
+    "eli5Def": "Tracking how blurry or uncertain your guesses get as time marches on.",
+    "wikiTitle": "Covariance matrix"
+   },
+   {
+    "term": "Quantum annealer",
+    "shortDef": "A specialized device that finds the lowest-energy state of a problem to solve optimization tasks.",
+    "eli5Def": "A custom physics machine that naturally settles into the best possible answer like water finding the lowest drain.",
+    "wikiTitle": "Quantum annealing"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

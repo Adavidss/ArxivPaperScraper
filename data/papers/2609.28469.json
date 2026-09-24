@@ -1,0 +1,78 @@
+{
+ "id": "2609.28469",
+ "version": 1,
+ "title": "Compressed Permutation Oracles Revisited",
+ "authors": [
+  {
+   "name": "Joseph Carolan"
+  },
+  {
+   "name": "Christian Majenz"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-23T17:57:21Z",
+ "updated": "2026-09-23T17:57:21Z",
+ "abstract": "The compressed permutation oracle has been used to analyze the quantum security of a number of cryptographic constructions which resisted prior techniques. However, these analyses were fundamentally limited by the poor soundness of the method: the technique was proven sound only up to $O(N^{1/12})$ queries to permutations on $N$ elements. We revisit this analysis, improving the soundness bound to a tight $Ω(N^{1/2})$. In addition to being tighter, our proof is conceptually simpler and more direct, and gives the same bound in the ideal cipher model. The main technical idea is to construct the compression isometry from a simple POVM on the naive purification, a technique which may find wider applications. As immediate applications, our results yield tight, concrete collision and pre-image lower bounds for the sponge hash construction underlying SHA3 and the Davies--Meyer compression function used in SHA1 and SHA2. More broadly, the improved soundness theorem provides a general-purpose tool for analyzing quantum security in settings where random permutations or ideal ciphers serve as the underlying primitive.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.28469",
+  "pdf": "https://arxiv.org/pdf/2609.28469",
+  "html": "https://arxiv.org/html/2609.28469"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-24T12:06:12.057Z",
+  "hook": "We improve the quantum security soundness bound of compressed permutation oracles from O(N^{1/12}) to a tight Omega(N^{1/2}).",
+  "tldr": [
+   "Revisited the compressed permutation oracle technique used to analyze quantum security in cryptography.",
+   "Constructed the compression isometry from a simple POVM on the naive purification instead of prior complex methods.",
+   "Proved a much tighter soundness bound of Omega(N^{1/2}) and yielded tight collision and pre-image lower bounds for SHA."
+  ],
+  "whyItMatters": "Hash functions like SHA-3 secure much of modern digital data. Proving tighter security bounds against quantum computers ensures these standards will remain resilient as quantum technology advances.",
+  "eli5": "Imagine trying to prove a digital safe is unpickable by a super-smart robot. Previous math tools could only prove the safe was secure up to a certain small number of attempts, but this new math proves it is secure against a vastly larger number of attempts.",
+  "keyNumbers": [
+   {
+    "value": "O(N^{1/12})",
+    "label": "Previous Bound",
+    "context": "The poor soundness limit of the prior technique for permutations on N elements."
+   },
+   {
+    "value": "Omega(N^{1/2})",
+    "label": "New Tight Bound",
+    "context": "The improved and tight soundness bound established by the authors' new proof."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Permutation Oracle",
+    "shortDef": "A black-box function that shuffles a set of inputs into unique outputs.",
+    "eli5Def": "A magical shuffling machine that mixes up data cards so every card has a unique new spot.",
+    "wikiTitle": "Oracle machine"
+   },
+   {
+    "term": "Soundness",
+    "shortDef": "A measure of how reliably a security proof guarantees that a protocol cannot be cheated.",
+    "eli5Def": "How bulletproof a security guarantee actually is when tested against cheaters.",
+    "wikiTitle": "Soundness (interactive proof)"
+   },
+   {
+    "term": "POVM",
+    "shortDef": "Positive Operator-Valued Measure, the most general description of a quantum measurement.",
+    "eli5Def": "The ultimate set of rules for how to poke a quantum system to get information out.",
+    "wikiTitle": "POVM"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

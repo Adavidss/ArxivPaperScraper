@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-24T12:06:12.057Z",
+ "generatedAt": "2026-09-25T12:06:16.309Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -20,6 +20,46 @@
     "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
    ],
    "paperCount": 3
+  },
+  {
+   "name": "Xin Wang",
+   "slug": "xin-wang",
+   "score": 5,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.30268",
+    "2609.17465",
+    "2609.10520"
+   ],
+   "recentTitles": [
+    "Quantum Channel Stein Theorem beyond Definite Causal Order",
+    "Quantum Compiler Design for Fault-Tolerant Quantum Computing"
+   ],
+   "paperCount": 5
+  },
+  {
+   "name": "Chengkai Zhu",
+   "slug": "chengkai-zhu",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.30268",
+    "2609.10520",
+    "2608.03987"
+   ],
+   "recentTitles": [
+    "Quantum Channel Stein Theorem beyond Definite Causal Order",
+    "Private communication via zero-private-capacity quantum channels"
+   ],
+   "paperCount": 4
   },
   {
    "name": "Fernando Granha Jeronimo",
@@ -59,26 +99,6 @@
    "recentTitles": [
     "Marton's conjecture in polynomial time",
     "Quantum simulation of non-Markovian dynamical systems"
-   ],
-   "paperCount": 4
-  },
-  {
-   "name": "Xin Wang",
-   "slug": "xin-wang",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.17465",
-    "2609.10520",
-    "2607.21533"
-   ],
-   "recentTitles": [
-    "Quantum Compiler Design for Fault-Tolerant Quantum Computing",
-    "Private communication via zero-private-capacity quantum channels"
    ],
    "paperCount": 4
   },
@@ -146,8 +166,8 @@
    "paperCount": 2
   },
   {
-   "name": "Ludovico Lami",
-   "slug": "ludovico-lami",
+   "name": "Dakshita Khurana",
+   "slug": "dakshita-khurana",
    "score": 3,
    "coAuthoredWith": [],
    "viaKeywords": [],
@@ -155,19 +175,19 @@
     "quant-ph"
    ],
    "paperIds": [
-    "2609.28440",
-    "2608.02587",
-    "2607.11847"
+    "2609.30253",
+    "2608.31112",
+    "2608.24832"
    ],
    "recentTitles": [
-    "Sharp pairwise reduction for quantum hypothesis testing",
-    "Entanglement of flower states"
+    "How Not to Build Microcrypt",
+    "Unconditional Certified Randomness without Structure"
    ],
    "paperCount": 3
   },
   {
-   "name": "Hongshun Yao",
-   "slug": "hongshun-yao",
+   "name": "Soonwon Choi",
+   "slug": "soonwon-choi",
    "score": 3,
    "coAuthoredWith": [],
    "viaKeywords": [],
@@ -175,33 +195,13 @@
     "quant-ph"
    ],
    "paperIds": [
-    "2609.17465",
-    "2607.21533",
-    "2607.14082"
+    "2609.30248",
+    "2609.04121",
+    "2607.21554"
    ],
    "recentTitles": [
-    "Quantum Compiler Design for Fault-Tolerant Quantum Computing",
-    "Benchmarking Agents for Proving Theorems in Quantum Algorithms and Quantum Information"
-   ],
-   "paperCount": 3
-  },
-  {
-   "name": "Jong Yeon Lee",
-   "slug": "jong-yeon-lee",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.11930",
-    "2608.06258",
-    "2607.28621"
-   ],
-   "recentTitles": [
-    "Hierarchy of Rényi Coherent Information in Stabilizer Codes",
-    "Approximate Quantum Error Correction at Chiral Topological Edges"
+    "Deep thermalization and Hilbert space ergodicity",
+    "Quantum thermalization achieves optimal approximate quantum error correction"
    ],
    "paperCount": 3
   }

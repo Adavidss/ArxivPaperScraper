@@ -1,0 +1,90 @@
+{
+ "id": "2609.30248",
+ "version": 1,
+ "title": "Deep thermalization and Hilbert space ergodicity",
+ "authors": [
+  {
+   "name": "Daniel K. Mark"
+  },
+  {
+   "name": "Manuel Endres"
+  },
+  {
+   "name": "Matteo Ippoliti"
+  },
+  {
+   "name": "Wen Wei Ho"
+  },
+  {
+   "name": "Soonwon Choi"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-24T17:58:17Z",
+ "updated": "2026-09-24T17:58:17Z",
+ "abstract": "Recent advances in quantum simulation have enabled the discovery of novel forms of universality in quantum many-body dynamics. In this Review, we discuss deep thermalization and Hilbert space ergodicity--two recently discovered phenomena characterized by the emergence of distributions of quantum states that are \"maximally random\" in a precise sense. They offer a new perspective on how irreversible statistical mechanics arises from reversible unitary quantum dynamics, going beyond conventional theories of quantum thermalization and equilibration. We review a unifying framework, rooted in quantum information theory and principles of maximum entropy, that explains the different forms of ergodicity which arise under various physical constraints. We discuss open questions and active research directions, including generalizations beyond ensembles of pure quantum states, phase transitions in deep thermalization tied to deeper forms of ergodicity-breaking, connections to broader topics in quantum thermalization and ergodicity, and applications in quantum information science, such as for benchmarking or tomography.",
+ "comment": "11 pages, 5 figures. Comments welcome!",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.30248",
+  "pdf": "https://arxiv.org/pdf/2609.30248",
+  "html": "https://arxiv.org/html/2609.30248"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.30248v1/intro_new.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-25T12:06:16.309Z",
+  "hook": "Deep thermalization and Hilbert space ergodicity reveal new forms of universality in quantum many-body dynamics.",
+  "tldr": [
+   "Reviewed recent advances in quantum simulation exploring deep thermalization and Hilbert space ergodicity.",
+   "Examined a unifying framework rooted in quantum information theory and maximum entropy principles.",
+   "Discussed open questions, phase transitions in thermalization, and applications in quantum information science."
+  ],
+  "whyItMatters": "Connecting microscopic quantum mechanics to macroscopic thermodynamic laws helps us understand how the universe washes out quantum information and settles into predictable thermal states. This insight aids in benchmarking real quantum hardware.",
+  "eli5": "If you drop a drop of food coloring into water, it spreads out evenly until the whole glass is colored. This paper looks at how quantum particles similarly scatter and mix their information until everything looks completely randomized.",
+  "keyNumbers": [
+   {
+    "value": "11",
+    "label": "Pages",
+    "context": "Length of the review article."
+   },
+   {
+    "value": "5",
+    "label": "Figures",
+    "context": "Visual diagrams included in the review."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Ergodicity",
+    "shortDef": "A property where a system's time average equals its space average over long runs.",
+    "eli5Def": "When a bouncing ball visits every possible spot in a room equally often if you watch it for long enough.",
+    "wikiTitle": "Ergodic hypothesis"
+   },
+   {
+    "term": "Thermalization",
+    "shortDef": "The process by which a physical system reaches thermal equilibrium with its surroundings.",
+    "eli5Def": "How a hot cup of coffee eventually cools down to match the temperature of the room.",
+    "wikiTitle": "Thermalization"
+   },
+   {
+    "term": "Unitary Quantum Dynamics",
+    "shortDef": "Reversible changes in a quantum system governed by the Schrödinger equation.",
+    "eli5Def": "The strict rulebook of quantum physics that ensures no information is ever truly destroyed.",
+    "wikiTitle": "Quantum operation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

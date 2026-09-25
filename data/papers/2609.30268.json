@@ -1,0 +1,67 @@
+{
+ "id": "2609.30268",
+ "version": 1,
+ "title": "Quantum Channel Stein Theorem beyond Definite Causal Order",
+ "authors": [
+  {
+   "name": "Chengkai Zhu"
+  },
+  {
+   "name": "Xin Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-24T17:59:57Z",
+ "updated": "2026-09-24T17:59:57Z",
+ "abstract": "Distinguishability is a central concept in information theory and extends naturally to quantum systems. This work shows that, for any two finite-dimensional memoryless quantum channels, parallel, adaptive and general testing strategies achieve the same Stein exponent at every fixed type-I error tolerance $ε\\in(0,1)$, namely the regularized channel relative entropy. When this rate is finite, any larger type-II exponent forces the probability of correctly accepting the null hypothesis to decay exponentially. Thus, adaptivity provides no asymptotic advantage. The key step is proving the continuity of the regularized sandwiched Rényi channel divergence at order one. We also derive the exact strong-converse exponent for general testers.",
+ "comment": "20 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.30268",
+  "pdf": "https://arxiv.org/pdf/2609.30268",
+  "html": "https://arxiv.org/html/2609.30268"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-25T12:06:16.309Z",
+  "hook": "Parallel, adaptive, and general testing strategies achieve the exact same Stein exponent for quantum channels.",
+  "tldr": [
+   "Tested whether adaptive testing strategies provide an asymptotic advantage in distinguishing quantum channels.",
+   "Proved the continuity of the regularized sandwiched Rényi channel divergence at order one.",
+   "Showed that parallel, adaptive, and general testing strategies achieve the same Stein exponent, meaning adaptivity offers no advantage."
+  ],
+  "whyItMatters": "Understanding the limits of distinguishing quantum information is vital for quantum communication security. This proof simplifies how we think about optimal quantum testing by showing that complex adaptive strategies don't actually beat simple parallel ones.",
+  "eli5": "Imagine trying to figure out which of two mysterious black boxes is handing you a specific toy. You might think that changing your questions based on the last toy you got (adaptive strategy) would help you solve the puzzle faster. This study proves that just asking all your questions upfront works just as well.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Channel",
+    "shortDef": "A mathematical model of a physical process that transforms quantum information.",
+    "eli5Def": "A pipe that carries quantum bits from one place to another, sometimes messing them up along the way.",
+    "wikiTitle": "Quantum channel"
+   },
+   {
+    "term": "Stein Exponent",
+    "shortDef": "A rate describing how fast the error probability decays in hypothesis testing.",
+    "eli5Def": "A score that tells you how quickly your chances of making a mistake drop as you do more tests.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Rényi Channel Divergence",
+    "shortDef": "A family of measures used to quantify the difference between quantum channels.",
+    "eli5Def": "A mathematical measuring tape used to see how different two quantum pipes are from each other.",
+    "wikiTitle": "Quantum Rényi divergence"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "id": "2609.30225",
+ "version": 1,
+ "title": "Variational Multi-Gaussian Quantum Trajectories",
+ "authors": [
+  {
+   "name": "Zejian Li"
+  },
+  {
+   "name": "Jacopo Tosca"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-24T17:49:04Z",
+ "updated": "2026-09-24T17:49:04Z",
+ "abstract": "We propose a variational framework for the efficient simulation of stochastic quantum dynamics in interacting bosonic systems. Our method generalizes the time-dependent variational principle to accommodate quantum state diffusion processes and is tailored for describing quantum trajectories unraveled from a master equation. We adopt a wavefunction ansatz composed of a coherent superposition of Gaussian wavepackets, which allows the fully analytical assembly of the variational equations of motion while capturing both the quantum trajectory dynamics and the Lindblad evolution beyond semiclassical approximations. The method is carefully benchmarked on a Bose-Hubbard dimer, and applied to extended Bose-Hubbard lattices in both 1D and 2D. In particular, we show the emergence of a symmetry-breaking phase transition in 2D lattices, which is absent in 1D chains.",
+ "comment": "7 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.30225",
+  "pdf": "https://arxiv.org/pdf/2609.30225",
+  "html": "https://arxiv.org/html/2609.30225"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.30225v1/bh_1d_vs_2d_ssb.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-25T12:06:16.309Z",
+  "hook": "A new variational multi-Gaussian method successfully simulates stochastic quantum dynamics in 1D and 2D Bose-Hubbard lattices.",
+  "tldr": [
+   "Proposed a variational framework for efficient simulation of stochastic quantum dynamics in interacting bosonic systems.",
+   "Used a wavefunction ansatz of coherent Gaussian wavepackets to capture quantum trajectory dynamics and Lindblad evolution.",
+   "Benchmarked the method on a Bose-Hubbard dimer and uncovered a symmetry-breaking phase transition in 2D lattices."
+  ],
+  "whyItMatters": "Simulating many-body quantum systems over time is computationally brutal. Better frameworks let researchers model quantum materials and phase transitions far more efficiently.",
+  "eli5": "Instead of tracking every single ripple in a rough sea of quantum particles, scientists use a team of overlapping wave-shaped surfing packets to accurately capture how the whole ocean moves.",
+  "keyNumbers": [
+   {
+    "value": "7",
+    "label": "pages",
+    "context": "Length of the research paper."
+   },
+   {
+    "value": "4",
+    "label": "figures",
+    "context": "Visual plots accompanying the text."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Bose-Hubbard lattice",
+    "shortDef": "A theoretical model describing bosons moving in a periodic potential lattice with on-site interactions.",
+    "eli5Def": "An egg carton where quantum marbles hop from cup to cup and interact with one another.",
+    "wikiTitle": "Bose-Hubbard model"
+   },
+   {
+    "term": "Time-dependent variational principle",
+    "shortDef": "A method to approximate complex quantum dynamics by restricting states to a chosen manageable family.",
+    "eli5Def": "Guessing the best path of motion by looking only at a simplified rulebook of possible shapes.",
+    "wikiTitle": "Dirac–Frenkel variational principle"
+   },
+   {
+    "term": "Lindblad evolution",
+    "shortDef": "The standard mathematical description for open quantum systems losing or gaining energy with their environment.",
+    "eli5Def": "How a quantum system leaks information or energy into the outside world over time.",
+    "wikiTitle": "Lindblad equation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 40
+ }
+}

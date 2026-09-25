@@ -1,0 +1,84 @@
+{
+ "id": "2609.30256",
+ "version": 1,
+ "title": "Quantum Feature Selection for Biomedical Data Analysis",
+ "authors": [
+  {
+   "name": "Hongbin Liu"
+  },
+  {
+   "name": "Robert Lahmann"
+  },
+  {
+   "name": "Benjamin Campbell"
+  },
+  {
+   "name": "Zhemin Zhang"
+  },
+  {
+   "name": "Zhiding Liang"
+  },
+  {
+   "name": "Siona Bapat"
+  },
+  {
+   "name": "Juergen Hahn"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-24T17:59:07Z",
+ "updated": "2026-09-24T17:59:07Z",
+ "abstract": "Feature selection is an essential step for reducing complexity of high dimensional data, usually in preparation for developing machine learning models such as computational biomarkers. However, there are limitations associated with feature selection such as for metabolomic data where there are hundreds or even thousands of features per study participant, while the available number of participants in a clinical trials is limited. Classical methods such as exhaustive search require evaluation of all possible feature combinations, making them costly in terms of computation and runtime, or even infeasible, as feature dimensionality increases. In this study, we propose a novel Quadratic Unconstrained Binary Optimization (QUBO) coefficient formulation and pose metabolomic feature selection as a QUBO problem that selects a specified number of features by balancing their relevance against redundancy among the selected variables. To evaluate our proposed QUBO objective function, we conducted a series of experiments using Bias-Field Digitized Counterdiabatic Quantum Optimization (BF-DCQO) and Quantum Approximate Optimization Algorithm (QAOA) on a quantum gate based computer. We also compared the method to several classical methods on three metabolomic datasets associated with Autism Spectrum Disorder (ASD) on a classical computer. Our method reduces runtime compared with exhaustive search and Iterative Tabu Search (ITS) and achieves competitive performance across classifiers compared to classical filter, wrapper, and embedded methods. These results do not claim quantum advantage; rather, they establish hardware feasibility and demonstrate the current capabilities of Noisy Intermediate-Scale Quantum (NISQ) devices.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.30256",
+  "pdf": "https://arxiv.org/pdf/2609.30256",
+  "html": "https://arxiv.org/html/2609.30256"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.30256v1/Fig2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-25T12:06:16.309Z",
+  "hook": "Framing metabolomic feature selection as a QUBO problem tackles datasets with hundreds of features.",
+  "tldr": [
+   "Formulated metabolomic feature selection as a Quadratic Unconstrained Binary Optimization (QUBO) problem.",
+   "Evaluated the objective function using BF-DCQO and QAOA algorithms on a quantum gate-based computer.",
+   "Demonstrated reduced runtime compared to exhaustive search and competitive classification performance on ASD datasets."
+  ],
+  "whyItMatters": "Biomedical datasets often contain thousands of biological markers for only a few patients, making standard computer analysis agonizingly slow or impossible. Testing quantum optimization algorithms on real clinical data helps bridge the gap toward practical quantum utility.",
+  "eli5": "Sorting through thousands of medical measurements to find the few that predict a disease like autism is like finding a needle in a massive haystack. Researchers used quantum-inspired math to search through the hay much faster without losing the needle.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Metabolomics",
+    "shortDef": "The large-scale study of small molecules known as metabolites in biological systems.",
+    "eli5Def": "Looking at all the tiny chemical byproducts floating around in your body to figure out your health.",
+    "wikiTitle": "Metabolomics"
+   },
+   {
+    "term": "QUBO",
+    "shortDef": "Quadratic Unconstrained Binary Optimization, a problem format for finding optimal yes/no choices.",
+    "eli5Def": "A puzzle style where you flip a bunch of switches either on or off to get the best overall score.",
+    "wikiTitle": "Quadratic unconstrained binary optimization"
+   },
+   {
+    "term": "NISQ",
+    "shortDef": "Noisy Intermediate-Scale Quantum devices, describing current imperfect quantum computers.",
+    "eli5Def": "Today's quantum computers, which are still a bit clumsy and prone to making calculation errors.",
+    "wikiTitle": "Noisy intermediate-scale quantum technology"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

@@ -35,21 +35,56 @@
  "matchedKeywords": [],
  "figure": null,
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-09-24T12:06:12.057Z",
-  "hook": "Quantum Reservoir Computing (QRC) exploits the rich dynamics of quantum many-body systems to process time-dependent…",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-25T12:06:16.309Z",
+  "hook": "Controlled dissipation in analog neutral-atom arrays enables complex time-series processing with just 5 atoms.",
   "tldr": [
-   "Here we show that controlled dissipation is strictly necessary to induce echo state property, fading memory, and separability, in neutral atom arrays.",
-   "While neutral atom arrays offer a scalable platform for this paradigm, realizing intrinsic temporal memory without relying on external classical buffering…",
-   "Computational performance increases at the edge of quantum chaos."
+   "Explored quantum reservoir computing using neutral-atom arrays to process time-dependent information without external classical buffering.",
+   "Simulated dynamical regimes to maximize computational capacity, analyzing dissipation and the edge of quantum chaos.",
+   "Demonstrated successful solution of the non-linear Mackey-Glass time series using only five atoms."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
+  "whyItMatters": "Building powerful processors requires finding ways to handle memory and complex data. Using small arrays of neutral atoms can dramatically scale down the hardware needed for advanced tasks.",
+  "eli5": "Just like a sound echoes in a cave to help you remember what was just said, scientists use the natural rippling interactions of tiny trapped atoms to remember and process data.",
+  "keyNumbers": [
+   {
+    "value": "17",
+    "label": "pages",
+    "context": "Length of the paper."
+   },
+   {
+    "value": "8",
+    "label": "figures",
+    "context": "Figures illustrating the reservoir dynamics."
+   },
+   {
+    "value": "5",
+    "label": "atoms",
+    "context": "Number of neutral atoms used to solve the Mackey-Glass task."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum Reservoir Computing",
+    "shortDef": "Using the complex dynamics of a quantum system as a reservoir to process temporal data.",
+    "eli5Def": "Using a bouncing network of quantum particles as a tiny brain to predict patterns.",
+    "wikiTitle": "Reservoir computing"
+   },
+   {
+    "term": "Echo state property",
+    "shortDef": "The characteristic of a dynamical system where the network state asymptotically depends only on the input history.",
+    "eli5Def": "The system's memory fades naturally so old news doesn't mess up new calculations.",
+    "wikiTitle": "Reservoir computing"
+   },
+   {
+    "term": "Neutral atom arrays",
+    "shortDef": "Collections of uncharged atoms trapped and controlled individually using focused laser beams.",
+    "eli5Def": "A grid of tiny individual atoms held in place like eggs in a carton using laser tweezers.",
+    "wikiTitle": "Neutral atoms"
+   }
+  ],
   "difficulty": 3,
-  "readSeconds": 37
+  "readSeconds": 50
  }
 }

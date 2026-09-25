@@ -1,0 +1,70 @@
+{
+ "id": "2609.30253",
+ "version": 1,
+ "title": "How Not to Build Microcrypt",
+ "authors": [
+  {
+   "name": "Aditya Gulati"
+  },
+  {
+   "name": "Dakshita Khurana"
+  },
+  {
+   "name": "Kabir Tomer"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-24T17:58:51Z",
+ "updated": "2026-09-24T17:58:51Z",
+ "abstract": "A key challenge in quantum cryptography is to build quantum one-wayness and pseudorandomness without the use of (quantum computable) one-way functions. So far, this has turned out to be a difficult task, with only a few proposed candidates that are not directly built from one-way functions. Even within these few proposed candidates, we have lacked the techniques to analyze when proposed constructions may inadvertently yield one-way functions. In this work, we introduce efficient NP-aided shadow tomography of quantum states. We prove that collections of {\\em computable} pure states can be learned via efficient NP-aided shadow tomography, where we say that a state is computable if the amplitude and phase on any computational basis term can be classically efficiently computed given the description of an efficient preparation circuit for the state. We also give new algorithms for NP-aided learning of unitaries given polynomially many queries to the unitary. By building on this, we show that many existing architectures for PRS and PRU, including some that were explicitly introduced for the purposes of avoiding one-way functions (e.g., Hamiltonian Phase States, Bostanci et. al., TQC 2025), actually do imply the existence of one-way functions or imply \\(\\NP\\) hardness. We hope that these no-go results will inform future investigations into building PRS and PRUs from assumptions that are plausibly outside the complexity class NP.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.30253",
+  "pdf": "https://arxiv.org/pdf/2609.30253",
+  "html": "https://arxiv.org/html/2609.30253"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-25T12:06:16.309Z",
+  "hook": "New efficient NP-aided shadow tomography reveals that many existing cryptographic architectures imply one-way functions.",
+  "tldr": [
+   "Introduced efficient NP-aided shadow tomography of quantum states to analyze quantum cryptography candidates.",
+   "Proved new algorithms for NP-aided learning of unitaries given polynomially many queries.",
+   "Demonstrated that popular pseudorandom state and unitary architectures actually imply one-way functions or NP-hardness."
+  ],
+  "whyItMatters": "Cryptography relies on the assumption that certain problems are hard to reverse. Showing that popular quantum security designs accidentally rely on standard computational hardness helps theorists build safer, truly post-quantum cryptographic tools.",
+  "eli5": "Cryptographers try to build ultra-secure digital locks using quantum physics to avoid old-fashioned math tricks. This paper shows that many of these new locks accidentally still rely on the very same old-fashioned math tricks they were trying to escape.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Shadow Tomography",
+    "shortDef": "A process to predict many properties of a quantum state using very few measurements.",
+    "eli5Def": "Guessing a lot of details about a complex object by only taking a few quick snapshots.",
+    "wikiTitle": null
+   },
+   {
+    "term": "One-Way Function",
+    "shortDef": "A function that is easy to compute in one direction but hard to invert.",
+    "eli5Def": "Like cracking an egg: super easy to do, but virtually impossible to put back together the exact same way.",
+    "wikiTitle": "One-way function"
+   },
+   {
+    "term": "NP-hardness",
+    "shortDef": "A computational property meaning a problem is at least as hard as the hardest problems in NP.",
+    "eli5Def": "A stamp of difficulty meaning a computer would take practically forever to check every possible answer.",
+    "wikiTitle": "NP-hardness"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

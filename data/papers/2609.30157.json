@@ -1,0 +1,93 @@
+{
+ "id": "2609.30157",
+ "version": 1,
+ "title": "Learning and interpreting policies for simultaneous entanglement requests in quantum networks",
+ "authors": [
+  {
+   "name": "Leon Rode"
+  },
+  {
+   "name": "Sumeet Khatri"
+  },
+  {
+   "name": "Supartha Podder"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-24T17:16:00Z",
+ "updated": "2026-09-24T17:16:00Z",
+ "abstract": "Future quantum networks will make use of entanglement to perform numerous tasks, such as sending quantum information over long distances, distributed quantum computing, and quantum sensing. In general, these tasks will need to be performed simultaneously in various regions of a network, while minimizing resources and latency. We will thus require policies for scheduling link-level entanglement resources, and using the link-level entanglement to create various forms of multipartite entanglement required for every task. In this work, we address this problem using reinforcement learning. We formulate a Markov Decision Process for the problem and use double deep Q-networks (DQN) with Message Passing Neural Networks (MPNNs), experience replay buffers, and curriculum training to obtain policies. The key physical parameter is the probability of link-level entanglement generation, i.e., the link activation probability. We show that our policies maintain 100% success for up to 71% lower link activation probability than the baseline heuristics for a set of physically relevant network topologies. We then examine an additional constraint where experiment (task) placements are restricted to specific hardware types and demonstrate a similar advantage in performance over heuristics, with our policy maintaining at least an 80% success rate for up to a 59% lower link activation probability. Finally, we explore methods to interpret the learned policy by defining metrics enabling conclusions to be drawn about the model's behavior and by tasking a large language model (LLM) to derive a novel heuristic given example actions taken by the DQN-trained policy. We find that the LLM heuristic performs similarly to the DQN-trained policy in performance, indicating a promising method for interpretable policy extraction for large quantum networks, where direct training becomes computationally expensive.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.30157",
+  "pdf": "https://arxiv.org/pdf/2609.30157",
+  "html": "https://arxiv.org/html/2609.30157"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-26T11:42:22.526Z",
+  "hook": "Reinforcement learning schedules quantum network entanglement at up to 71% lower link-activation probabilities.",
+  "tldr": [
+   "Tackled scheduling multiple simultaneous entanglement requests across distributed quantum networks.",
+   "Modeled the task as a Markov Decision Process solved by double deep Q-networks combined with Message Passing Neural Networks.",
+   "Maintained 100% success at up to 71% lower link activation odds than heuristics, and used an LLM to distill an interpretable rule."
+  ],
+  "whyItMatters": "Quantum internet connections are inherently fragile and hard to establish. Smarter routing algorithms make quantum networks work reliably over cheaper, noisier hardware.",
+  "eli5": "Imagine a road network where bridges vanish and reappear at random. Instead of fixed detours, an AI learns the best routes to link multiple pairs of travelers simultaneously, even when most bridges are broken.",
+  "keyNumbers": [
+   {
+    "value": "71%",
+    "label": "lower link activation probability",
+    "context": "reduction in required link probability while maintaining 100% task success over standard heuristics"
+   },
+   {
+    "value": "59%",
+    "label": "lower link probability with hardware limits",
+    "context": "reduction in required probability while maintaining at least an 80% success rate under hardware constraints"
+   },
+   {
+    "value": "80%",
+    "label": "minimum success rate",
+    "context": "maintained under hardware placement constraints with up to 59% lower link activation probability"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "entanglement",
+    "shortDef": "A quantum correlation linking states of separated particles instantaneously.",
+    "eli5Def": "Two particles acting as mirror twins whose traits match instantly, no matter how far apart they are.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "Markov Decision Process",
+    "shortDef": "A mathematical framework for modeling decision-making where outcomes are partly random.",
+    "eli5Def": "A formal way to play a game where your choices and random luck determine your next state and score.",
+    "wikiTitle": "Markov decision process"
+   },
+   {
+    "term": "Message Passing Neural Networks",
+    "shortDef": "A deep learning architecture designed to pass vector messages between graph nodes.",
+    "eli5Def": "An AI that lets neighboring spots on a network talk to each other to figure out the big picture.",
+    "wikiTitle": null
+   },
+   {
+    "term": "link activation probability",
+    "shortDef": "The physical chance that an attempt to generate entanglement across a link succeeds.",
+    "eli5Def": "The odds that a direct quantum phone call between two adjacent stations successfully connects.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

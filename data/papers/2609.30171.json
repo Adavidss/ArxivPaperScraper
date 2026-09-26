@@ -1,0 +1,89 @@
+{
+ "id": "2609.30171",
+ "version": 1,
+ "title": "Optimal spectrum estimation",
+ "authors": [
+  {
+   "name": "Ainesh Bakshi"
+  },
+  {
+   "name": "Apoorv Vikram Singh"
+  },
+  {
+   "name": "Xinyu Tan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC",
+  "cs.DS"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-24T17:22:42Z",
+ "updated": "2026-09-24T17:22:42Z",
+ "abstract": "We prove that the spectrum of an unknown $d$-dimensional quantum state can be estimated to error $\\varepsilon$ in total variation distance using \\[ O\\!\\left(d^2\\min\\left\\{ \\frac{1}{(\\varepsilon\\log d)^4},\\; \\frac{1}{(\\varepsilon\\log d)^2} \\right\\}\\right) \\] copies. This matches the recent lower bound of Wang. When restricted to unentangled measurements, we give an algorithm with an additional factor of $d$ in copy complexity, which we conjecture to be optimal. We develop a framework for recovering the small eigenvalues of a quantum state by matching Chebyshev moments. We bound the variance of each Chebyshev moment estimate in terms of scalar derivatives of the corresponding polynomial, using classical and quantum Efron--Stein decompositions. Different rescalings of the Chebyshev polynomials balance approximation error and variance, yielding two regimes in our copy complexity bound.",
+ "comment": "37 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.30171",
+  "pdf": "https://arxiv.org/pdf/2609.30171",
+  "html": "https://arxiv.org/html/2609.30171"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-26T11:42:22.526Z",
+  "hook": "Researchers just proved the exact theoretical copy limit for learning the entire spectrum of an unknown quantum state.",
+  "tldr": [
+   "Established the copy complexity required to estimate an unknown d-dimensional quantum state's spectrum within error ε.",
+   "Matched Chebyshev moments using Efron-Stein decompositions to estimate tiny eigenvalues across two scaling regimes.",
+   "Proved an optimal bound matching Wang's lower bound, plus an unentangled measurement algorithm with an extra factor of d."
+  ],
+  "whyItMatters": "Knowing a quantum state's eigenvalues is fundamental to quantum verification, tomography, and entropy estimation; closing this complexity gap settles a central open question in quantum statistics.",
+  "eli5": "If you are handed identical mystery quantum states, how many do you need to destroy to learn their core statistical properties? This work mathematically proves the absolute bare minimum number of copies required to get the right answer.",
+  "keyNumbers": [
+   {
+    "value": "O(d^2 min{1/(ε log d)^4, 1/(ε log d)^2})",
+    "label": "Copy complexity",
+    "context": "Number of copies needed to estimate the spectrum within total variation distance ε"
+   },
+   {
+    "value": "d",
+    "label": "Unentangled penalty factor",
+    "context": "Additional factor in copy complexity required when measurements cannot be entangled"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Spectrum",
+    "shortDef": "The set of eigenvalues of an operator or density matrix representing a quantum state.",
+    "eli5Def": "The list of fundamental probability weights hidden inside a quantum system.",
+    "wikiTitle": "Spectrum of an operator"
+   },
+   {
+    "term": "Copy Complexity",
+    "shortDef": "The number of identical copies of a quantum state needed to learn a given property.",
+    "eli5Def": "How many samples of a recipe you have to taste before you can guess the ingredients.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Total Variation Distance",
+    "shortDef": "A metric measuring the statistical difference between two probability distributions.",
+    "eli5Def": "A score showing how easily two sets of odds can be distinguished from each other.",
+    "wikiTitle": "Total variation distance of probability measures"
+   },
+   {
+    "term": "Efron-Stein Decomposition",
+    "shortDef": "An ANOVA-like orthogonal decomposition of functions of independent random variables.",
+    "eli5Def": "A mathematical tool that breaks down the variance of a complex formula into simpler pieces.",
+    "wikiTitle": "Efron–Stein inequality"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "2609.30175",
+ "version": 1,
+ "title": "Trading Circuit Depth for Pulse Sparsity in Chromatic Dynamical Decoupling",
+ "authors": [
+  {
+   "name": "Amy F. Brown"
+  },
+  {
+   "name": "Daniel A. Lidar"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-24T17:25:27Z",
+ "updated": "2026-09-24T17:25:27Z",
+ "abstract": "Suppressing decoherence and crosstalk systematically across large networks of qubits is a pressing concern as qubit counts increase rapidly. General multi-qubit dynamical decoupling (DD) has historically been based on Hadamard matrices and orthogonal arrays, with instantaneous-pulse sequences whose circuit depth scales linearly with the number of qubits. Chromatic-Hadamard DD (CHaDD) improves upon these methods by properly coloring the hardware graph and assigning to each color a row of a Hadamard matrix, resulting in a circuit depth that scales linearly with the number of colors $C$, which can be as low as the chromatic number of the graph. Here, we explore the tradeoff between circuit depth and the pulse repetition rate (PRR), the average fraction of time steps in which a qubit is pulsed, i.e., a measure of pulse density. We introduce two single-axis sequences based on binary and Gray matrices, Chromatic-Binary DD (CBDD) and Chromatic-Gray DD (CGDD), which, for $C>2$, are special cases of non-minimum-depth CHaDD and achieve PRR $<2/C$ and PRR $=1/C$, respectively, compared with a PRR above $1/4$ for CHaDD, at the price of a circuit depth of $2^C$. In state preservation experiments on a $127$-qubit IBM processor with $C=3$, the less dense sequences outperform CHaDD at short times when the pulses are not robust; this advantage is largely eliminated by robust versions designed to compensate for coherent pulse errors, and among the robust sequences, CGDD uses the fewest pulses over a fixed protection time. Across non-robust $C=3$ and $C=5$ schedules, equal PRR on a fixed qubit subset is empirically associated with similar state preservation. Thus, the PRR serves as a practical figure of merit for chromatic DD whenever coherent pulse errors dominate.",
+ "comment": "16 pages, 9 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.30175",
+  "pdf": "https://arxiv.org/pdf/2609.30175",
+  "html": "https://arxiv.org/html/2609.30175"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-26T11:42:22.526Z",
+  "hook": "On a 127-qubit processor, swapping dense dynamical decoupling pulses for sparser Gray codes boosts quantum memory.",
+  "tldr": [
+   "Investigated the tradeoff between circuit depth and pulse repetition rate in multi-qubit chromatic dynamical decoupling.",
+   "Created binary and Gray matrix sequences (CBDD, CGDD) that drastically reduce pulse frequency at the cost of circuit depth.",
+   "On a 127-qubit IBM chip, sparse sequences beat standard Hadamard methods at short times when pulse errors are present."
+  ],
+  "whyItMatters": "Quantum computers quickly lose data to environmental noise; fine-tuning how often error-canceling pulses fire prevents pulse imperfections from doing more harm than good.",
+  "eli5": "To keep quantum bits from forgetting their data, scientists flick them with microwave pulses like tapping a spinning top to keep it upright. But tapping too often introduces errors, so this paper shows that tapping less frequently in a smart rhythm works much better.",
+  "keyNumbers": [
+   {
+    "value": "127",
+    "label": "Qubits",
+    "context": "Size of the IBM quantum processor used for state preservation experiments"
+   },
+   {
+    "value": "1/C",
+    "label": "Pulse repetition rate (CGDD)",
+    "context": "Pulse density achieved by Chromatic-Gray DD on a graph with chromatic number C"
+   },
+   {
+    "value": "2^C",
+    "label": "Circuit depth",
+    "context": "Circuit depth cost required to achieve sparse pulse repetition rates"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Dynamical Decoupling",
+    "shortDef": "Suppressing environmental noise in qubits via sequences of rapid, carefully timed control pulses.",
+    "eli5Def": "Flipping a qubit back and forth quickly so random background noise cancels itself out.",
+    "wikiTitle": "Dynamical decoupling"
+   },
+   {
+    "term": "Chromatic Number",
+    "shortDef": "The minimum number of colors needed to color graph vertices so no two adjacent vertices share a color.",
+    "eli5Def": "The fewest colors needed on a map so neighboring regions never have the same shade.",
+    "wikiTitle": "Graph coloring"
+   },
+   {
+    "term": "Crosstalk",
+    "shortDef": "Unwanted parasitic interaction between physically adjacent qubits or control lines.",
+    "eli5Def": "When talking to one qubit accidentally nudges its neighbor.",
+    "wikiTitle": "Crosstalk"
+   },
+   {
+    "term": "Hadamard Matrix",
+    "shortDef": "A square matrix with entries +1 or -1 whose rows are mutually orthogonal.",
+    "eli5Def": "A grid of plus and minus signs arranged so every row cancels out every other row.",
+    "wikiTitle": "Hadamard matrix"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

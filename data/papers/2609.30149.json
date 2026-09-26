@@ -1,0 +1,77 @@
+{
+ "id": "2609.30149",
+ "version": 1,
+ "title": "Sharp universal death of entanglement threshold for Pauli Hamiltonians",
+ "authors": [
+  {
+   "name": "Bobak T. Kiani"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-24T17:12:21Z",
+ "updated": "2026-09-24T17:12:21Z",
+ "abstract": "We determine the exact universal high-temperature separability threshold for Pauli Hamiltonians of bounded degree $Δ\\ge2$. If every coefficient in the Hamiltonian has magnitude at most one and each term has overlapping support with at most $Δ$ other terms, the Gibbs state is a mixture of product Pauli eigenstates whenever \\[ β\\le z_Δ:= \\operatorname{arctanh}\\left[\\max_{0\\le x \\le 1}x\\left(\\frac{1-x}{1+x}\\right)^{Δ-1} \\right]. \\] For every $β>z_Δ$, a finite commuting Hamiltonian with maximum overlap degree at most $Δ$ has an entangled Gibbs state. At any fixed $β<z_Δ$ strictly below the threshold, a classical polynomial-time algorithm produces samples from a distribution over product Pauli eigenstates approximating the Gibbs state in trace distance.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.30149",
+  "pdf": "https://arxiv.org/pdf/2609.30149",
+  "html": "https://arxiv.org/html/2609.30149"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-09-26T11:42:22.526Z",
+  "hook": "Physicists found the exact universal temperature threshold where entanglement completely vanishes in Pauli Hamiltonians.",
+  "tldr": [
+   "Identified the exact high-temperature threshold where quantum entanglement strictly dies in bounded-degree Pauli systems.",
+   "Derived a closed-form formula based on maximum term overlap degree and proved classical simulatability above threshold temperature.",
+   "Showed states below the critical inverse temperature are classical mixtures, while entangled states always exist above it."
+  ],
+  "whyItMatters": "Pinpointing when thermal noise destroys entanglement reveals the strict boundary where quantum systems become completely classical and easy for ordinary computers to simulate.",
+  "eli5": "Heat scrambles delicate quantum connections into ordinary noise. This paper calculates the exact temperature above which a quantum system melts into simple classical behavior that standard computers can mimic.",
+  "keyNumbers": [
+   {
+    "value": "Δ≥2",
+    "label": "bounded overlap degree",
+    "context": "the maximum number of other Hamiltonian terms overlapping with any given term"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Gibbs state",
+    "shortDef": "The equilibrium thermal state of a quantum system at a fixed temperature.",
+    "eli5Def": "The natural balanced state a quantum system settles into when kept at a specific temperature.",
+    "wikiTitle": "Thermal state"
+   },
+   {
+    "term": "separability",
+    "shortDef": "The property of a quantum state having zero entanglement, behaving as a classical mixture.",
+    "eli5Def": "A condition where particles are entirely independent and show no quantum spooky connection.",
+    "wikiTitle": "Separable state"
+   },
+   {
+    "term": "Pauli Hamiltonian",
+    "shortDef": "An energy operator constructed from linear combinations of tensor products of Pauli matrices.",
+    "eli5Def": "A mathematical rulebook describing how interacting qubit spins generate energy.",
+    "wikiTitle": "Pauli matrices"
+   },
+   {
+    "term": "trace distance",
+    "shortDef": "A metric quantifying the distinguishability between two quantum states.",
+    "eli5Def": "A ruler measuring how easy it is to tell two quantum states apart via experiments.",
+    "wikiTitle": "Trace distance"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

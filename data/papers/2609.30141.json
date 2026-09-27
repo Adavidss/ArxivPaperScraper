@@ -1,0 +1,75 @@
+{
+ "id": "2609.30141",
+ "version": 1,
+ "title": "Optimal Two-Qubit Gate-Cutting Cost and Measures of Nonlocality",
+ "authors": [
+  {
+   "name": "Michael Hart"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-24T17:09:13Z",
+ "updated": "2026-09-24T17:09:13Z",
+ "abstract": "Circuit cutting enables quantum computations to be decomposed into smaller subcircuits at the cost of additional sampling overhead. Gate-cutting provides one such approach by replacing nonlocal gates with quasiprobability decompositions of local operations. Starting from the known optimal two-qubit gate-cutting formula, we derive complete sharp lower and upper envelopes relating the quasiprobability extent $γ$ to five established descriptors: entangling power, gate typicality, operator entanglement, Schmidt strength, and maximum product-input concurrence. We recast $γ$ as a Rényi-$1/2$ functional of the operator-Schmidt spectrum and show how the physical constraints on two-qubit spectra sharpen generic entropy bounds and select a small set of recurring extremal Cartan families. None of the five descriptors generically determines $γ$ alone, but each imposes exact constraints, revealing how substantially the optimal gate-cutting cost can vary between gates with similar nonlocal characteristics.",
+ "comment": "38 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.30141",
+  "pdf": "https://arxiv.org/pdf/2609.30141",
+  "html": "https://arxiv.org/html/2609.30141"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-27T12:21:21.704Z",
+  "hook": "We derive complete sharp lower and outer envelopes relating quasiprobability extent to five nonlocality descriptors.",
+  "tldr": [
+   "Derived complete sharp lower and upper envelopes linking the quasiprobability extent to five established nonlocality descriptors.",
+   "Recast the extent as a Rényi-1/2 functional of the operator-Schmidt spectrum.",
+   "Showed that optimal gate-cutting cost can vary significantly between gates with similar nonlocal characteristics."
+  ],
+  "whyItMatters": "Circuit cutting allows running large quantum algorithms on smaller quantum computers, and optimizing this cost makes hybrid computing practical.",
+  "eli5": "If you need to chop a complex puzzle into smaller pieces to solve it on tiny desks, knowing the exact cost of each cut helps you waste the least amount of time and effort.",
+  "keyNumbers": [
+   {
+    "value": "38",
+    "label": "Pages",
+    "context": "Length of the manuscript"
+   },
+   {
+    "value": "10",
+    "label": "Figures",
+    "context": "Number of figures included"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Circuit cutting",
+    "shortDef": "A technique to simulate larger quantum circuits by splitting them into smaller pieces using classical post-processing.",
+    "eli5Def": "Cutting a massive quantum puzzle into bite-sized pieces so small computers can solve them.",
+    "wikiTitle": "Circuit cutting"
+   },
+   {
+    "term": "Quasiprobability extent",
+    "shortDef": "A measure of the overhead required to simulate non-positive quasiprobability distributions.",
+    "eli5Def": "A penalty score that tells you how much extra computational work you have to do when chopping up quantum gates.",
+    "wikiTitle": "Quasiprobability distribution"
+   },
+   {
+    "term": "Entangling power",
+    "shortDef": "The ability of a quantum operation to generate entanglement from product states.",
+    "eli5Def": "A rating of how good a gate is at tying quantum particles together in spooky sync.",
+    "wikiTitle": "Entangling power"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

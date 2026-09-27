@@ -1,0 +1,79 @@
+{
+ "id": "2609.30148",
+ "version": 1,
+ "title": "Proper Agnostic Learning of Matrix Product States and Tree Tensor Networks",
+ "authors": [
+  {
+   "name": "Constantin Cedillo Vayson de Pradenne"
+  },
+  {
+   "name": "Jordan Cotler"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-24T17:11:54Z",
+ "updated": "2026-09-24T17:11:54Z",
+ "abstract": "We establish proper agnostic learning of matrix product states and tree tensor networks. Given copies of an arbitrary quantum state $ρ$, our algorithms return a state $|ψ\\rangle$ of chosen bond dimension such that $\\langleψ| ρ|ψ\\rangle$ is within $\\varepsilon$ of the optimum over the model class, without assuming that $ρ$ itself belongs to or is well approximated by that class. The main idea is to use improper learning to compress the mixed-state objective, reducing proper agnostic learning to optimization against a finite collection of explicitly specified pure states. We then introduce a comparator-dual compression procedure that reduces the bond dimension of these targets while uniformly preserving their overlaps with all bounded-bond comparators, with an error independent of system size. For matrix product states, this gives polynomial copy complexity in the system size, local dimension, bond dimension, and $1/\\varepsilon$, together with polynomial runtime in the system size for fixed local dimension, bond dimension, and accuracy. The same framework yields proper agnostic learning of tree tensor networks on bounded-degree trees, with both copy complexity and runtime polynomial in the system size when the remaining parameters are fixed.",
+ "comment": "15+37 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.30148",
+  "pdf": "https://arxiv.org/pdf/2609.30148",
+  "html": "https://arxiv.org/html/2609.30148"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-27T12:21:21.704Z",
+  "hook": "We prove proper agnostic learning of matrix product states and tree tensor networks with polynomial copy complexity and runtime.",
+  "tldr": [
+   "Designed algorithms that take copies of an arbitrary quantum state and output a pure target state of chosen bond dimension.",
+   "Used improper learning to compress mixed-state objectives and introduced a comparator-dual compression procedure to reduce bond dimensions.",
+   "Achieved polynomial copy complexity and runtime for both matrix product states and tree tensor networks."
+  ],
+  "whyItMatters": "Efficiently learning and approximating complex quantum states is vital for advancing quantum simulations and quantum computing algorithms.",
+  "eli5": "Imagine trying to recreate a giant, messy Lego sculpture using only a simplified instruction manual. These researchers found a clever way to shrink and simplify the instructions without losing the essential shape of the sculpture.",
+  "keyNumbers": [
+   {
+    "value": "15+37",
+    "label": "Pages",
+    "context": "Total length of the research manuscript"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Matrix product states",
+    "shortDef": "A type of tensor network state used to efficiently represent one-dimensional quantum many-body systems.",
+    "eli5Def": "A smart mathematical shortcut to describe very complicated quantum systems by chaining smaller pieces together.",
+    "wikiTitle": "Matrix product state"
+   },
+   {
+    "term": "Tree tensor networks",
+    "shortDef": "Tensor network architectures structured as trees, generalizing matrix product states.",
+    "eli5Def": "A family tree-shaped arrangement of math blocks used to calculate quantum states.",
+    "wikiTitle": "Tensor network"
+   },
+   {
+    "term": "Agnostic learning",
+    "shortDef": "Machine learning framework where the target function does not necessarily belong to the model class.",
+    "eli5Def": "Learning the best possible answer even when you are not sure if the rules of the system fit your model.",
+    "wikiTitle": "Agnostic learning"
+   },
+   {
+    "term": "Bond dimension",
+    "shortDef": "A parameter controlling the amount of entanglement and the complexity of a tensor network state.",
+    "eli5Def": "The size of the connector pipes between math blocks that decides how detailed the quantum picture can be.",
+    "wikiTitle": "Tensor network"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "2609.31609",
+ "version": 1,
+ "title": "Exact series formulas for the capacities of the amplitude damping channel",
+ "authors": [
+  {
+   "name": "Stefano Pirandola"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-25T17:56:34Z",
+ "updated": "2026-09-25T17:56:34Z",
+ "abstract": "We derive explicit, absolutely convergent series formulas for the quantum, unassisted classical, and entanglement-assisted classical capacities of the qubit amplitude damping channel, eliminating residual optimizations and implicit roots. We also obtain analytical upper and lower bounds on two-way assisted quantum and private communication capacities by evaluating a balanced-squashing bound and optimizing the reverse coherent information. Our results characterize the optimal input populations, establish convergence and truncation properties, and provide analytical benchmarks for quantum and classical communication over dissipative channels.",
+ "comment": "REVTeX 10 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.31609",
+  "pdf": "https://arxiv.org/pdf/2609.31609",
+  "html": "https://arxiv.org/html/2609.31609"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-09-28T14:21:47.038Z",
+  "hook": "New exact series formulas eliminate the need for complex numerical optimizations in the amplitude damping channel.",
+  "tldr": [
+   "Derived explicit, convergent series formulas for quantum, classical, and entanglement-assisted capacities of the amplitude damping channel.",
+   "Removed the need for residual optimizations and implicit roots by providing analytical expressions.",
+   "Established convergence properties and analytical benchmarks for communication over dissipative quantum channels."
+  ],
+  "whyItMatters": "Understanding the limits of quantum communication over noisy channels is vital for building reliable quantum networks that can withstand signal loss.",
+  "eli5": "Imagine trying to send a message through a noisy, leaky pipe. This paper provides a precise mathematical map that tells you exactly how much information you can reliably push through that pipe without having to guess or run slow computer simulations.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Amplitude damping channel",
+    "shortDef": "A model for energy loss in quantum systems, like a photon leaking out of a cavity.",
+    "eli5Def": "A way to describe how quantum information fades away over time, similar to how a sound gets quieter as it travels.",
+    "wikiTitle": "Quantum channel"
+   },
+   {
+    "term": "Quantum capacity",
+    "shortDef": "The maximum rate at which quantum information can be sent reliably through a channel.",
+    "eli5Def": "The top speed limit for sending delicate quantum data without it getting corrupted.",
+    "wikiTitle": "Quantum capacity"
+   },
+   {
+    "term": "Reverse coherent information",
+    "shortDef": "A quantity used to bound the capacity of quantum channels, particularly for private communication.",
+    "eli5Def": "A math tool used to measure how much secret information can be hidden in a quantum signal.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

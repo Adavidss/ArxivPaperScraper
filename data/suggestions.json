@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-27T12:21:21.704Z",
+ "generatedAt": "2026-09-28T14:21:47.038Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -40,6 +40,26 @@
     "Quantum Compiler Design for Fault-Tolerant Quantum Computing"
    ],
    "paperCount": 5
+  },
+  {
+   "name": "Soonwon Choi",
+   "slug": "soonwon-choi",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.31596",
+    "2609.30248",
+    "2609.04121"
+   ],
+   "recentTitles": [
+    "Oracle Distillation",
+    "Deep thermalization and Hilbert space ergodicity"
+   ],
+   "paperCount": 4
   },
   {
    "name": "Chengkai Zhu",
@@ -184,26 +204,6 @@
     "Symmetry Constraints Regularize Neural Quantum State Learning"
    ],
    "paperCount": 2
-  },
-  {
-   "name": "Dakshita Khurana",
-   "slug": "dakshita-khurana",
-   "score": 3,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.30253",
-    "2608.31112",
-    "2608.24832"
-   ],
-   "recentTitles": [
-    "How Not to Build Microcrypt",
-    "Unconditional Certified Randomness without Structure"
-   ],
-   "paperCount": 3
   }
  ]
 }

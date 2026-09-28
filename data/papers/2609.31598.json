@@ -1,0 +1,70 @@
+{
+ "id": "2609.31598",
+ "version": 1,
+ "title": "Scalable Hybrid Device Architecture on Thin-Film Lithium Tantalate for Long Distance Quantum Network Nodes with Atomic Frequency Comb Quantum Memories",
+ "authors": [
+  {
+   "name": "Ayed Sayem"
+  },
+  {
+   "name": "Towsif Taher"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-25T17:53:11Z",
+ "updated": "2026-09-25T17:53:11Z",
+ "abstract": "Scalable photonic circuits are essential for realizing practical quantum networks beyond proof-of-principle demonstrations. Although diamond-based integrated photonics has been extensively investigated over the past two decades for quantum networking applications, its integration into scalable photonic platforms remains challenging. Quantum memories based on rare-earth-ion atomic frequency combs (AFCs) offer an attractive alternative; however, most demonstrations to date have relied on bulk free-space crystals, limiting their scalability for practical implementations. In this work, we systematically investigate the potential for hybrid integration of AFC-based quantum memories with a scalable integrated photonic platform. We propose a device architecture combining thin-film lithium tantalate (TFLT) nanophotonic circuits with ytterbium-doped yttrium orthosilicate (Yb:YSO) crystals for long-distance quantum communication. Our analysis shows that the hybrid TFLT-YSO platform offers a promising and scalable pathway toward integrated quantum memories and, ultimately, large-scale quantum networks.",
+ "comment": "20 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.31598",
+  "pdf": "https://arxiv.org/pdf/2609.31598",
+  "html": "https://arxiv.org/html/2609.31598"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.31598v1/Fig_2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-09-28T14:21:47.038Z",
+  "hook": "Hybrid lithium tantalate and Yb:YSO crystals offer a scalable path for long-distance quantum network nodes.",
+  "tldr": [
+   "Proposed a hybrid device architecture integrating thin-film lithium tantalate (TFLT) with Yb:YSO crystals.",
+   "Analyzed the platform's potential to replace bulk free-space crystals with scalable nanophotonic circuits.",
+   "Demonstrated a pathway for creating integrated quantum memories suitable for long-distance quantum communication."
+  ],
+  "whyItMatters": "Moving quantum memory from bulky, lab-sized crystals to tiny, scalable chips is a necessary step toward a global quantum internet.",
+  "eli5": "Right now, quantum memory is like a giant, delicate glass sculpture that's hard to move. This paper proposes a way to shrink that technology onto a tiny, mass-producible chip, making it much easier to build a network of quantum computers.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Atomic frequency comb",
+    "shortDef": "A technique for storing quantum information in the collective state of many atoms.",
+    "eli5Def": "A way to store a quantum 'note' by vibrating a group of atoms in a specific pattern.",
+    "wikiTitle": "Atomic frequency comb"
+   },
+   {
+    "term": "Nanophotonic",
+    "shortDef": "The study and application of light on the nanoscale, usually using integrated circuits.",
+    "eli5Def": "Using tiny, microscopic pipes to guide light around a computer chip.",
+    "wikiTitle": "Nanophotonics"
+   },
+   {
+    "term": "Lithium tantalate",
+    "shortDef": "A material with excellent optical properties used in integrated photonic circuits.",
+    "eli5Def": "A special crystal that is really good at bending and controlling light.",
+    "wikiTitle": "Lithium tantalate"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 65
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "2609.31596",
+ "version": 1,
+ "title": "Oracle Distillation",
+ "authors": [
+  {
+   "name": "Ruohan Shen"
+  },
+  {
+   "name": "Soonwon Choi"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-25T17:52:52Z",
+ "updated": "2026-09-25T17:52:52Z",
+ "abstract": "Learning and sensing are among the most promising applications of quantum technology, often with provable quantum advantages. In any realistic experiment, however, noise threatens to erase these advantages as the problem size grows. We introduce oracle distillation, a procedure that distills many queries to a noisy oracle into a single high-fidelity oracle. Here the oracle, an unknown unitary from a known family, models the interface through which a quantum device learns about an unknown system. We construct an explicit protocol that distills any Boolean oracle, both under adversarial noise that corrupts a constant fraction of the input qubits and under i.i.d. depolarizing noise at a constant rate on every qubit. At the heart of the protocol is the weak query, in which the device deliberately queries the oracle only weakly, trading response strength for the ability to correct errors. Our protocol is near-optimal among all protocols that distill the oracle while keeping its errors correctable, revealing a fundamental tension between these two requirements. An important implication of the protocol is a threshold theorem: every Boolean oracle problem whose quantum advantage is polynomial in the domain size, including Grover search, $k$-forrelation, and Simon's problem, retains a quantum advantage whenever the per-qubit depolarizing rate is below a constant threshold. In particular, the quadratic quantum advantage of Grover search, long believed fragile under noise, survives nearly intact at low error rates even when almost every query involves errors on one or more qubits. We further extend the protocol to fractional and continuous-time Boolean oracles. Quantum error correction can thus protect not only prescribed operations but also unknown dynamics. Our results make a large family of quantum advantages in learning robust against noise and open a path toward robust computational sensing.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.31596",
+  "pdf": "https://arxiv.org/pdf/2609.31596",
+  "html": "https://arxiv.org/html/2609.31596"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-09-28T14:21:47.038Z",
+  "hook": "Quantum advantages like Grover search can survive noise at constant rates using a new 'oracle distillation' protocol.",
+  "tldr": [
+   "Researchers developed a protocol to distill multiple noisy queries of an unknown quantum oracle into a single, high-fidelity one.",
+   "The method uses 'weak queries,' where the device intentionally queries the oracle weakly to trade response strength for error correction.",
+   "The protocol proves that quantum advantages, including Grover search, remain robust even when almost every query contains errors."
+  ],
+  "whyItMatters": "Noise is the biggest barrier to practical quantum computing. This work proves that we can protect unknown quantum processes from errors, making quantum sensing and learning tasks much more reliable in real-world conditions.",
+  "eli5": "Imagine you are trying to read a blurry sign from far away. Instead of looking once, you take 100 blurry photos and combine them using a special technique to create one perfectly clear image. This protocol does the same for quantum computers, allowing them to 'clean up' noisy data so they can still solve complex problems.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Oracle",
+    "shortDef": "A black-box operation that provides information about an unknown system.",
+    "eli5Def": "A mysterious machine that gives you an answer when you ask it a question, but you don't know how it works inside.",
+    "wikiTitle": "Oracle machine"
+   },
+   {
+    "term": "Depolarizing noise",
+    "shortDef": "A type of noise that replaces a quantum state with a completely random state.",
+    "eli5Def": "Like trying to keep a secret, but every time you whisper it, there is a chance the listener hears complete gibberish instead.",
+    "wikiTitle": "Quantum channel"
+   },
+   {
+    "term": "Grover search",
+    "shortDef": "A quantum algorithm that provides a quadratic speedup for searching unstructured databases.",
+    "eli5Def": "A way for a computer to find a specific item in a giant, messy pile much faster than a normal computer could.",
+    "wikiTitle": "Grover's algorithm"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 75
+ }
+}

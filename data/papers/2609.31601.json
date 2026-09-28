@@ -1,0 +1,71 @@
+{
+ "id": "2609.31601",
+ "version": 1,
+ "title": "Exact Characterization of the Holevo Bound by a Quantum Fisher Information Family",
+ "authors": [
+  {
+   "name": "Koji Yamaguchi"
+  },
+  {
+   "name": "Hiroyasu Tajima"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-25T17:54:15Z",
+ "updated": "2026-09-25T17:54:15Z",
+ "abstract": "The quantum Cramér-Rao bound constrains the precision of parameter estimation through the symmetric logarithmic derivative quantum Fisher information (SLD QFI). It is asymptotically achievable for regular single-parameter estimation models, but generally not in the multiparameter setting, where optimal measurements for different parameters may be incompatible. For multiparameter estimation, allowing collective measurements, the corresponding asymptotically achievable precision limit is the Holevo bound, whose standard formulation is an optimization over auxiliary Hermitian operators. We bridge this apparent difference in formulation by giving an exact characterization of the Holevo bound in terms of a family of QFIs interpolating between the SLD and right logarithmic derivative (RLD) QFIs. Specifically, for any locally identifiable finite-dimensional estimation problem, we prove that the operator-feasible region in the standard variational definition of the Holevo bound coincides with the intersection of the regions defined by the corresponding Cramér-Rao-type matrix constraints for the entire QFI family. This characterization also applies to rank-deficient states and does not require any prior choice of weight matrix. Consequently, the conventional weight-dependent Holevo bound is recovered by minimizing the corresponding weighted cost over the resulting common feasible region.",
+ "comment": "8 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.31601",
+  "pdf": "https://arxiv.org/pdf/2609.31601",
+  "html": "https://arxiv.org/html/2609.31601"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.31601v1/fig_holevo.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-09-28T14:21:47.038Z",
+  "hook": "A new characterization bridges the gap between the Holevo bound and quantum Fisher information families.",
+  "tldr": [
+   "Proved that the Holevo bound can be exactly characterized by a family of quantum Fisher information (QFI) metrics.",
+   "Demonstrated that the operator-feasible region of the Holevo bound matches the intersection of Cramér-Rao-type matrix constraints.",
+   "Showed this characterization works for rank-deficient states without requiring a weight matrix."
+  ],
+  "whyItMatters": "This provides a unified mathematical framework for understanding the ultimate precision limits in quantum sensing and parameter estimation.",
+  "eli5": "When you try to measure multiple things at once in the quantum world, they often interfere with each other. This paper provides a single, master formula that perfectly describes the best possible accuracy you can achieve, no matter how complex the measurement.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Holevo bound",
+    "shortDef": "The fundamental limit on how much classical information can be extracted from a quantum state.",
+    "eli5Def": "The ultimate speed limit for how much data you can squeeze out of a quantum message.",
+    "wikiTitle": "Holevo's theorem"
+   },
+   {
+    "term": "Quantum Fisher information",
+    "shortDef": "A measure of the amount of information a quantum state carries about an unknown parameter.",
+    "eli5Def": "A way to measure how much 'clue' a quantum particle holds about something you are trying to guess.",
+    "wikiTitle": "Quantum Fisher information"
+   },
+   {
+    "term": "Symmetric logarithmic derivative",
+    "shortDef": "An operator used to define the quantum Fisher information in parameter estimation.",
+    "eli5Def": "A mathematical tool that helps calculate how sensitive a quantum system is to small changes.",
+    "wikiTitle": "Quantum Fisher information"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 80
+ }
+}

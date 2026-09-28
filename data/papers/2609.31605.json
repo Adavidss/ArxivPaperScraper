@@ -1,0 +1,70 @@
+{
+ "id": "2609.31605",
+ "version": 1,
+ "title": "Measurement-Based Uncomputation from an Error Correction Perspective",
+ "authors": [
+  {
+   "name": "Minjun Jeon"
+  },
+  {
+   "name": "Po-Wei Huang"
+  },
+  {
+   "name": "Zhenyu Cai"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-25T17:54:52Z",
+ "updated": "2026-09-25T17:54:52Z",
+ "abstract": "Coherent uncomputation can be as costly as the computation itself, creating substantial spacetime overheads that can be prohibitive on early fault-tolerant quantum computers. We develop an algebraic framework for measurement-based uncomputation (MBU) through a quantum error-correction picture: measurements of the garbage register induce relative phases analogous to errors causing non-trivial syndromes. Accepting only zero-syndrome outcomes achieves post-selected MBU, removing the need for an uncomputation oracle at the cost of a probabilistic success rate determined by the affine rank of the populated garbage support. This rank can be much smaller than the number of garbage qubits, as illustrated through an example of the HHL algorithm. We then derive a structural condition under which the original uncomputation oracle can be reused to correct the phase for all measurement outcomes. No correction is required for the zero syndrome, while corrections for non-zero syndromes can be further adapted to individual measurement outcomes for simpler circuits, as illustrated by existing modular-arithmetic, QROM, and QRAM MBU constructions. Phase-correction circuits can be further simplified by co-optimising their implementation with the representation of the measurement-induced phases. Selecting which syndrome classes to correct interpolates between post-selected, partially corrected, and deterministic MBU, enabling trade-offs among correction cost, workspace, and repetitions.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.31605",
+  "pdf": "https://arxiv.org/pdf/2609.31605",
+  "html": "https://arxiv.org/html/2609.31605"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-09-28T14:21:47.038Z",
+  "hook": "Measurement-based uncomputation can bypass the need for expensive 'uncomputation oracles' in quantum circuits.",
+  "tldr": [
+   "Developed an algebraic framework for measurement-based uncomputation (MBU) using quantum error-correction principles.",
+   "Used measurements of garbage registers to induce phases, allowing successful uncomputation if zero-syndrome outcomes are achieved.",
+   "Showed that MBU can be optimized to balance correction costs, workspace, and circuit success rates."
+  ],
+  "whyItMatters": "Uncomputing intermediate steps is a major memory hog in quantum computers; this method could significantly reduce the hardware requirements for fault-tolerant computing.",
+  "eli5": "In quantum computing, you often have to 'undo' your work to clean up, which takes up a lot of space. This paper shows how to use measurements to 'clean up' the mess automatically, like using a filter to catch errors instead of manually erasing everything.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Uncomputation",
+    "shortDef": "The process of reversing a quantum operation to clear temporary data (garbage) from memory.",
+    "eli5Def": "Erasing your scratchpad so you have room to do the next part of the math problem.",
+    "wikiTitle": "Reversible computing"
+   },
+   {
+    "term": "Syndrome",
+    "shortDef": "A measurement outcome that indicates whether an error has occurred in a quantum state.",
+    "eli5Def": "A diagnostic signal that tells you if something went wrong during a calculation.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Fault-tolerant quantum computer",
+    "shortDef": "A quantum computer designed to operate reliably despite errors in its components.",
+    "eli5Def": "A super-reliable computer that can fix its own mistakes as it works.",
+    "wikiTitle": "Fault-tolerant quantum computing"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 75
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "2609.33617",
+ "version": 1,
+ "title": "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies",
+ "authors": [
+  {
+   "name": "Saurabh Shivpuje"
+  },
+  {
+   "name": "Vinit Singh"
+  },
+  {
+   "name": "Manas Sajjan"
+  },
+  {
+   "name": "Sabre Kais"
+  }
+ ],
+ "categories": [
+  "physics.chem-ph",
+  "cond-mat.mtrl-sci"
+ ],
+ "primaryCategory": "physics.chem-ph",
+ "published": "2026-09-27T14:32:03Z",
+ "updated": "2026-09-27T14:32:03Z",
+ "abstract": "Quantum computing offers a promising route for electronic-structure calculations, but practical condensed-matter applications often require solving large families of related Hamiltonians arising from $\\mathbf{k}$-point sampling, compositional variation, defects, and changes in system size. Here, we develop strategies for transferring variational information between related Hamiltonians to accelerate quantum simulations. For Hamiltonians of the same embedded size, optimized variational parameters are transferred between related calculations. For different sizes, we introduce Augmented Ansatz Reuse for Target Initialization (AARTI), which transfers compatible Pauli-generator structure and optimized source parameters, then augments the ansatz with target-specific generators. Our workflow combines density functional theory, Wannier downfolding, embedded tight-binding Hamiltonians, variational quantum algorithms, and neural-network quantum states, with quantum-circuit simulations implemented using NVIDIA's CUDA-Q platform. Using Li$_x$CoO$_2$ as a representative battery cathode material, we study Hamiltonian families spanning multiple delithiation levels, dense $\\mathbf{k}$-point meshes, and increasing sizes. Parameter and ansatz transfer substantially reduce the optimization steps required to solve these related Hamiltonians while maintaining the common target accuracy, with lower terminal errors in several cases. The calculated electronic-structure evolution with delithiation exhibits pronounced non-rigid-band behavior consistent with experiment. These results establish a framework for exploiting similarity among related Hamiltonians to improve the efficiency and scalability of quantum workflows for realistic condensed-matter systems.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.33617",
+  "pdf": "https://arxiv.org/pdf/2609.33617",
+  "html": "https://arxiv.org/html/2609.33617"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.33617v1/Fig2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-29T13:14:52.471Z",
+  "hook": "Accelerating quantum simulations for battery materials using parameter transfer and AARTI to reduce optimization steps.",
+  "tldr": [
+   "Developed strategies for transferring variational information between related Hamiltonians to speed up quantum simulations.",
+   "Combined density functional theory, quantum algorithms, and neural-network quantum states using NVIDIA's CUDA-Q platform.",
+   "Demonstrated reduced optimization steps and lower terminal errors while studying delithiation levels in LiCoO2."
+  ],
+  "whyItMatters": "Simulating complex materials like battery cathodes on quantum computers is notoriously slow. Reusing information from previous calculations helps clear a major bottleneck toward practical materials discovery.",
+  "eli5": "Imagine trying to solve a huge book of math puzzles where every puzzle is slightly different. Instead of solving each one entirely from scratch, you take the answers from the last puzzle to give yourself a massive head start on the next one.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "A master mathematical rulebook that tells you all the energy states and rules of a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Ansatz",
+    "shortDef": "An educated guess or trial wave function with adjustable parameters used in optimization.",
+    "eli5Def": "A smart starting guess for what the answer looks like, which a computer then fine-tunes.",
+    "wikiTitle": "Ansatz"
+   },
+   {
+    "term": "Wannier downfolding",
+    "shortDef": "A mathematical technique to isolate specific energy bands of interest in solid-state materials.",
+    "eli5Def": "Zooming in on just the important parts of a complex material while ignoring the background noise.",
+    "wikiTitle": "Wannier function"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

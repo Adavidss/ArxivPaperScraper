@@ -1,0 +1,81 @@
+{
+ "id": "2609.35660",
+ "version": 1,
+ "title": "An Optimal Quantum Linear Systems Algorithm",
+ "authors": [
+  {
+   "name": "Carlos Bravo-Prieto"
+  },
+  {
+   "name": "Aram W. Harrow"
+  },
+  {
+   "name": "Robin Kothari"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-28T17:22:14Z",
+ "updated": "2026-09-28T17:22:14Z",
+ "abstract": "In the quantum linear systems problem (QLSP), we are given query access to a $d$-sparse $N\\times N$ matrix $A$ with condition number $κ$, and the ability to prepare a quantum state proportional to a vector $\\vec b$. The goal is to output an $ε$-approximation to the quantum state proportional to the solution $\\vec x$ of $A\\vec{x}=\\vec{b}$. Following a long line of work, the best previously known quantum algorithms for the QLSP had query complexities $O(κd\\log(1/ε))$ and $κ\\sqrt d(κd/ε)^{o(1)}$, while the best known lower bounds were $Ω(κ\\log(1/ε))$ and $Ω(κ\\sqrt d)$. We improve these bounds and show that the complexity of the QLSP is $Θ(κ\\sqrt d\\log(1/ε))$. We also resolve an open problem of Berry and Childs by showing that any $N\\times N$ unitary can be implemented with bounded error using $O(\\sqrt N)$ queries to its matrix entries.",
+ "comment": "20 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.35660",
+  "pdf": "https://arxiv.org/pdf/2609.35660",
+  "html": "https://arxiv.org/html/2609.35660"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-29T13:14:52.471Z",
+  "hook": "We improve bounds and show that the complexity of the QLSP is Θ(κ√d log(1/ε)).",
+  "tldr": [
+   "Studied the quantum linear systems problem to find approximation states for matrix equations.",
+   "Improved previous bounds to establish a precise complexity of Θ(κ√d log(1/ε)).",
+   "Resolved an open problem showing any N-by-N unitary can be implemented using O(√N) queries."
+  ],
+  "whyItMatters": "Solving linear systems is a foundational task in engineering, physics, and machine learning, and finding the ultimate speed limit for quantum computers on this task impacts all fields relying on heavy computations.",
+  "eli5": "Solving giant math puzzles with millions of variables is slow. This paper finds the ultimate speed limit for how fast a quantum computer can solve them.",
+  "keyNumbers": [
+   {
+    "value": "Θ(κ√d log(1/ε))",
+    "label": "QLSP complexity",
+    "context": "The proven optimal complexity bounds for the quantum linear systems problem."
+   },
+   {
+    "value": "O(√N)",
+    "label": "Unitary queries",
+    "context": "Queries to matrix entries required to implement any N-by-N unitary with bounded error."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "quantum linear systems problem",
+    "shortDef": "A fundamental problem of finding the solution vector to a linear equation using a quantum computer.",
+    "eli5Def": "Using a quantum computer to solve massive systems of equations all at once.",
+    "wikiTitle": "Quantum algorithm for linear systems of equations"
+   },
+   {
+    "term": "condition number",
+    "shortDef": "A measure of how sensitive a function's output is to small changes in its input data.",
+    "eli5Def": "A number telling you how unstable or touchy a math problem is if you make tiny errors.",
+    "wikiTitle": "Condition number"
+   },
+   {
+    "term": "unitary",
+    "shortDef": "A square matrix whose inverse equals its conjugate transpose, preserving quantum probability.",
+    "eli5Def": "A reversible operation that scrambles quantum information without losing any of it.",
+    "wikiTitle": "Unitary matrix"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 40
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "2609.35687",
+ "version": 1,
+ "title": "Speed-Fisher Information: Chaos and Irreversibility in Classical and Quantum Dynamics",
+ "authors": [
+  {
+   "name": "Nachiket Karve"
+  },
+  {
+   "name": "Nathan Rose"
+  },
+  {
+   "name": "David Campbell"
+  },
+  {
+   "name": "Anatoli Polkovnikov"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "nlin.CD",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-09-28T17:35:22Z",
+ "updated": "2026-09-28T17:35:22Z",
+ "abstract": "We propose a unified perspective on classical and quantum chaos based on the sensitivity of a system's stationary states to slow driving. We probe this sensitivity via the system's susceptibility to the average protocol speed, which we call the ``speed-Fisher information,\" and relate it to irreversible entropy production in the system. We show that chaotic dynamics manifests as a divergence of the speed-Fisher information with the protocol time, and that this response is controlled by the perturbation's low-frequency spectral weight. This approach to chaos applies to both classical and quantum Hamiltonian systems, and naturally extends to non-Hamiltonian classical flows. Additionally, we identify a quantum regime at times shorter than the Planckian timescale, in which the speed-Fisher information exhibits a uniquely quantum scaling. We illustrate this framework with simple classical and quantum examples",
+ "comment": "23 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.35687",
+  "pdf": "https://arxiv.org/pdf/2609.35687",
+  "html": "https://arxiv.org/html/2609.35687"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.35687v1/sketch.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-29T13:14:52.471Z",
+  "hook": "Speed-Fisher information links chaos and irreversible entropy production through a system's response to slow driving.",
+  "tldr": [
+   "Proposed a unified perspective on classical and quantum chaos based on stationary state sensitivity to slow driving.",
+   "Defined speed-Fisher information as susceptibility to average protocol speed and related it to entropy production.",
+   "Showed that chaos manifests as a divergence of speed-Fisher information with protocol time."
+  ],
+  "whyItMatters": "Connecting chaos, information theory, and thermodynamics helps physicists understand how systems lose information and become irreversible across both classical and quantum domains.",
+  "eli5": "Imagine gently nudging a complex system over and over to see how easily it gets knocked out of balance. By measuring how sensitive the system is to that gentle push, scientists can mathematically track how chaotic and messy it becomes.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Speed-Fisher information",
+    "shortDef": "A measure of a system's sensitivity to changes in the speed of an external driving protocol.",
+    "eli5Def": "A mathematical score for how jumpy or sensitive a system is when you change how fast you push it.",
+    "wikiTitle": "Fisher information"
+   },
+   {
+    "term": "Entropy production",
+    "shortDef": "The generation of disorder or loss of usable energy in an irreversible thermodynamic process.",
+    "eli5Def": "The unstoppable ticking clock of messiness that proves you cannot unscramble an egg.",
+    "wikiTitle": "Entropy production"
+   },
+   {
+    "term": "Hamiltonian system",
+    "shortDef": "A dynamical system governed by total energy conservation over time.",
+    "eli5Def": "A frictionless playground where total energy never gets lost, only traded back and forth.",
+    "wikiTitle": "Hamiltonian mechanics"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

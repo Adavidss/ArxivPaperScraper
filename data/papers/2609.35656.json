@@ -1,0 +1,73 @@
+{
+ "id": "2609.35656",
+ "version": 1,
+ "title": "The power of oracle access: Optimal sample and query complexity of the abelian state hidden subgroup problem",
+ "authors": [
+  {
+   "name": "Yuhan Liu"
+  },
+  {
+   "name": "Jose Carrasco"
+  },
+  {
+   "name": "Jens Eisert"
+  },
+  {
+   "name": "Armando Bellante"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-28T17:21:41Z",
+ "updated": "2026-09-28T17:21:41Z",
+ "abstract": "In the quest to identify further quantum algorithms exhibiting superpolynomial speed-ups, a recurring theme is that the complexity of a problem is largely shaped by the input access model. Here, we study this phenomenon for the state hidden subgroup problem (StateHSP), a quantum generalization of the hidden subgroup problem in which the goal is to identify the symmetries of an unknown quantum state. For finite abelian groups, existing Fourier-sampling algorithms use $O(\\log(|G|)/ε)$ copies of the state, but whether this scaling is optimal has remained open. We settle the complexity of the abelian StateHSP in both the previously studied sample model and a new query model, which is a stronger and operationally natural generalization that provides access to the state-preparation unitary and its inverse. In the query model, we give a time-efficient quantum algorithm using $O(\\log(|G/H|)/\\sqrtε)$ forward and inverse queries, and prove a matching $Ω(\\log(|G/H|)/\\sqrtε)$ lower bound which holds even in the stronger conjugate-query and controlled-query settings. By contrast, we show that in the sample model, $Θ(\\log(|G/H|)/ε)$ copies are both sufficient and information-theoretically necessary, even if one allows for arbitrary collective measurements. Thus, the quadratic improvement in $ε$ genuinely arises from coherent access to the preparation circuit. As applications, we obtain faster algorithms for learning stabilizer groups, locating unentanglement, and identifying hidden translation symmetries.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.35656",
+  "pdf": "https://arxiv.org/pdf/2609.35656",
+  "html": "https://arxiv.org/html/2609.35656"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-29T13:14:52.471Z",
+  "hook": "We study the state hidden subgroup problem, a quantum generalization of the hidden subgroup problem.",
+  "tldr": [
+   "Investigated the state hidden subgroup problem for finite abelian groups in sample and query models.",
+   "Developed a time-efficient quantum algorithm using forward and inverse queries with matching lower bounds.",
+   "Demonstrated faster algorithms for learning stabilizer groups, locating unentanglement, and identifying hidden translations."
+  ],
+  "whyItMatters": "Understanding the hidden symmetries of quantum states is key to discovering new quantum algorithms that can vastly outperform classical computers.",
+  "eli5": "If you are given a mysterious quantum object with hidden patterns, this study figures out the smartest, fastest way to uncover those secret patterns.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "abelian groups",
+    "shortDef": "A mathematical group in which the result of applying the operation is independent of the order.",
+    "eli5Def": "A collection of actions where the order you do them in doesn't change the final result.",
+    "wikiTitle": "Abelian group"
+   },
+   {
+    "term": "stabilizer groups",
+    "shortDef": "A subgroup of operators that leave certain quantum states invariant.",
+    "eli5Def": "A set of rules that keep a fragile quantum state safe and unchanged.",
+    "wikiTitle": "Stabilizer code"
+   },
+   {
+    "term": "sample model",
+    "shortDef": "A computational model where an algorithm receives multiple independent copies of a state.",
+    "eli5Def": "Getting handed a bunch of pre-made physical samples to inspect one by one.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

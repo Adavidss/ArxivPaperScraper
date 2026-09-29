@@ -1,0 +1,79 @@
+{
+ "id": "2609.35722",
+ "version": 1,
+ "title": "Multilevel Plaquette-Space Sampling for Lattice Gauge Theories with Local Constraint Solves",
+ "authors": [
+  {
+   "name": "Ankur Singha"
+  },
+  {
+   "name": "Jacob Finkenrath"
+  },
+  {
+   "name": "Karl Jansen"
+  },
+  {
+   "name": "Vipul Arora"
+  },
+  {
+   "name": "Shinichi Nakajima"
+  }
+ ],
+ "categories": [
+  "hep-lat",
+  "hep-th",
+  "math-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-lat",
+ "published": "2026-09-28T17:48:21Z",
+ "updated": "2026-09-28T17:48:21Z",
+ "abstract": "Lattice gauge theories are an important class of physical models with high-dimensional structured distributions that underpin first-principles calculations in particle, nuclear, and condensed-matter physics. Recent advances in generative modeling have opened new avenues for sampling Boltzmann distributions in lattice gauge theories, offering the potential to alleviate limitations of traditional Monte Carlo methods, including critical slowing down and topological freezing. However, generative samplers for lattice gauge theories are typically constructed in link space, where correlations become increasingly long-ranged toward weak coupling, posing a challenge for learning. Plaquettes provide a more natural representation, as the action is local in these variables. However, exact Bianchi constraints restrict them to a lower-dimensional manifold, complicating direct generative modeling. We introduce a multilevel normalizing-flow construction that samples directly in plaquette space while satisfying these constraints exactly. The key idea is a coarse-to fine factorization that transforms a globally coupled constraint problem into a sequence of local solves: at each refinement, every determined plaquette depends on at most four newly generated variables, while the size of the constraint problem remains independent of the lattice size. We validate the construction for $U(1)$ in two and four dimensions and for $SU(2)$ in two dimensions. Our multilevel Plaquette-Space Sampler (PSS) substantially outperforms link-space baselines, with the advantage increasing toward weak coupling, where the gauge coupling becomes small. This regime is particularly challenging for generative sampling and, in asymptotically free gauge theories, is relevant to continuum studies.",
+ "comment": "9 pages main text, 38 pages total, 10 figures, 9 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.35722",
+  "pdf": "https://arxiv.org/pdf/2609.35722",
+  "html": "https://arxiv.org/html/2609.35722"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-29T13:14:52.471Z",
+  "hook": "A multilevel Plaquette-Space Sampler speeds up lattice gauge theory simulations by bypassing link-space bottlenecks.",
+  "tldr": [
+   "Constructed a multilevel normalizing-flow method that samples directly in plaquette space while respecting constraints.",
+   "Transformed a globally coupled constraint problem into a sequence of local solves using a coarse-to-fine factorization.",
+   "Outperformed link-space baselines across U(1) and SU(2) models, especially in the challenging weak-coupling regime."
+  ],
+  "whyItMatters": "Lattice gauge theories are vital for understanding fundamental physics, but traditional simulation methods hit severe computational walls. This new sampling approach opens doors to studying particle physics more efficiently.",
+  "eli5": "Instead of trying to untangle a giant spiderweb all at once—which gets harder the bigger it gets—this method chops the web into tiny local knots that can be solved one by one.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Lattice gauge theory",
+    "shortDef": "A framework for studying subatomic physics on a discrete grid of spacetime points.",
+    "eli5Def": "Simulating the universe's fundamental forces by placing everything on a giant digital chessboard.",
+    "wikiTitle": "Lattice gauge theory"
+   },
+   {
+    "term": "Normalizing flow",
+    "shortDef": "A machine learning technique that transforms a simple probability distribution into a complex one.",
+    "eli5Def": "A computer model that reshapes simple random noise into complex patterns found in physics.",
+    "wikiTitle": "Normalizing flow"
+   },
+   {
+    "term": "Bianchi constraints",
+    "shortDef": "Geometric conditions that variables must satisfy to remain physically valid.",
+    "eli5Def": "Strict traffic laws that variables must follow so they don't break the rules of physics.",
+    "wikiTitle": "Bianchi identities"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

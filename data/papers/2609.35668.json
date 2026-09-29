@@ -1,0 +1,75 @@
+{
+ "id": "2609.35668",
+ "version": 1,
+ "title": "Optimal Query Complexity for Ground-State Preparation",
+ "authors": [
+  {
+   "name": "Boyang Chen"
+  },
+  {
+   "name": "Minbo Gao"
+  },
+  {
+   "name": "Xinzhao Wang"
+  },
+  {
+   "name": "Shuo Zhou"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC",
+  "cs.DS"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-28T17:26:19Z",
+ "updated": "2026-09-28T17:26:19Z",
+ "abstract": "We determine the optimal query complexity of ground-state preparation to trace-distance error $\\varepsilon$ when an energy threshold in the spectral gap is known. Let $U_H$ be an $α$-block-encoding of a Hamiltonian with unique ground state $|ψ_0\\rangle$, and suppose $|\\langleψ_0|U_I|0\\rangle|\\geγ$ for a state-preparation oracle $U_I$. The threshold lies at least $Δ/2$ above the ground-state energy and at least $Δ/2$ below every excited-state energy. We give two algorithms that prepare a state within trace distance $\\varepsilon$ of the ground state. One uses $O((α/Δ)(γ^{-1}+\\log(1/\\varepsilon)))$ calls to $U_H$ in expectation; the other uses $O((α/(γΔ))\\log(1/\\varepsilon))$ calls to $U_H$ in the worst case. We prove a lower bound matching the expected query count; the corresponding worst-case lower bound follows from Somma and de Wolf [SdW26]. The respective bounds on calls to $U_I$ are $O(1/γ)$ in expectation and $O(γ^{-1}\\log(1/\\varepsilon))$ in the worst case. On $(N+1)$-dimensional systems, these $U_I$ bounds are also optimal when the expected or worst-case count of $U_H$ calls, respectively, is $o((α/Δ)\\sqrt N)$. Both algorithms use a constant-accuracy spectral filter to construct a purifier, which we then sequentially compose during amplitude amplification to prepare a state with constant overlap with the ground state. The expected-query algorithm repeats the preparation followed by one high-accuracy spectral filter until success. The worst-case algorithm uses filters of increasing accuracy and limits the total number of queries.",
+ "comment": "47 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.35668",
+  "pdf": "https://arxiv.org/pdf/2609.35668",
+  "html": "https://arxiv.org/html/2609.35668"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-29T13:14:52.471Z",
+  "hook": "We determine the optimal query complexity of ground-state preparation to trace-distance error ε.",
+  "tldr": [
+   "Determined the optimal query complexity of ground-state preparation to trace-distance error epsilon.",
+   "Constructed two algorithms using constant-accuracy spectral filters and amplitude amplification.",
+   "Proved matching lower bounds showing the expected query count and worst-case query counts are optimal."
+  ],
+  "whyItMatters": "Finding the lowest energy state of a system is a central task in quantum chemistry and physics, and knowing the absolute limit of how many computational steps it takes helps design the most efficient future quantum computers.",
+  "eli5": "Imagine trying to find the absolute bottom of a dark, complex valley while blindfolded. This research figures out the absolute minimum number of test steps you must take to guarantee you reach the bottom.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "query complexity",
+    "shortDef": "The number of times a quantum algorithm needs to access an oracle or black box to solve a problem.",
+    "eli5Def": "How many times you have to ask a magic box a question to solve a puzzle.",
+    "wikiTitle": "Query complexity"
+   },
+   {
+    "term": "trace-distance error",
+    "shortDef": "A mathematical measure of the difference or distinguishability between two quantum states.",
+    "eli5Def": "A way to measure how far off your made-up quantum state is from the exact correct target state.",
+    "wikiTitle": "Trace distance"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "The rulebook that describes all the energy levels and forces inside a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

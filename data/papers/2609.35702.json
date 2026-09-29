@@ -1,0 +1,112 @@
+{
+ "id": "2609.35702",
+ "version": 1,
+ "title": "A Si-on-SiC Platform for Interfacing with Vanadium Dopants in the Telecom O-Band",
+ "authors": [
+  {
+   "name": "Timothy Draher"
+  },
+  {
+   "name": "Nolan Bitner"
+  },
+  {
+   "name": "Vasileios Niaouris"
+  },
+  {
+   "name": "Claire E. McDermott"
+  },
+  {
+   "name": "David Czaplewski"
+  },
+  {
+   "name": "Supratik Guha"
+  },
+  {
+   "name": "David D. Awschalom"
+  },
+  {
+   "name": "F. Joseph Heremans"
+  },
+  {
+   "name": "Alan M. Dibos"
+  }
+ ],
+ "categories": [
+  "cond-mat.mtrl-sci",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mtrl-sci",
+ "published": "2026-09-28T17:42:25Z",
+ "updated": "2026-09-28T17:42:25Z",
+ "abstract": "Vanadium color centers in silicon carbide (SiC) offer telecom O-band emission, sub-microsecond optical lifetimes, and second-scale spin relaxation times, rendering them promising candidates for quantum network nodes. However, efficient photon extraction from the high-refractive-index SiC host remains challenging. Here, we introduce a silicon-on-SiC heterogeneous photonic platform in which silicon nanocavities evanescently couple to shallow vanadium dopants in commercial 4H-SiC, enabling efficient zero-phonon line (ZPL) collection under resonant excitation. In as-grown ensembles, we observe Purcell-enhanced photoluminescence with transient spectral hole burning linewidths of 50 MHz on microsecond timescales. In dilute implanted samples, we isolate individual vanadium centers with high-purity single photon emission and a Purcell-enhanced lifetime of 109 ns. The entire optical interface operates through a single lensed fiber, including a 905 nm repump laser that recovers the vanadium charge state with 95% efficiency. These results establish Si-on-SiC as a scalable, foundry-compatible platform for telecom-wavelength spin-photon interfaces.",
+ "comment": "Main: 10 pages, 4 figures | SI: 28 pages, 12 figures, 3 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.35702",
+  "pdf": "https://arxiv.org/pdf/2609.35702",
+  "html": "https://arxiv.org/html/2609.35702"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.35702v1/figures/Fig1_20260626v3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-29T13:14:52.471Z",
+  "hook": "A silicon-on-SiC platform achieves telecom O-band single-photon emission with a Purcell-enhanced lifetime of 109 ns.",
+  "tldr": [
+   "Created a silicon-on-SiC heterogeneous photonic platform coupling silicon nanocavities to shallow vanadium dopants.",
+   "Used a single lensed fiber and a repump laser to collect zero-phonon line emission and recover charge states.",
+   "Isolated individual vanadium centers showing high-purity single photon emission and a 109 ns lifetime."
+  ],
+  "whyItMatters": "Building scalable quantum networks requires robust hardware that can interface light and matter at telecom wavelengths. This silicon-on-SiC chip design brings us closer to manufacturing practical quantum nodes.",
+  "eli5": "Researchers built a tiny optical antenna out of silicon placed on top of a special crystal. This helps trap and collect flashes of light from single atomic defects so they can be sent down telecommunication fiber cables.",
+  "keyNumbers": [
+   {
+    "value": "50 MHz",
+    "label": "Linewidth",
+    "context": "Transient spectral hole burning linewidths observed on microsecond timescales."
+   },
+   {
+    "value": "109 ns",
+    "label": "Lifetime",
+    "context": "Purcell-enhanced lifetime of isolated individual vanadium centers."
+   },
+   {
+    "value": "905 nm",
+    "label": "Laser wavelength",
+    "context": "Repump laser used to recover the vanadium charge state."
+   },
+   {
+    "value": "95%",
+    "label": "Efficiency",
+    "context": "Efficiency with which the repump laser recovers the vanadium charge state."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Telecom O-band",
+    "shortDef": "A standard infrared wavelength range used for fiber-optic telecommunications around 1260 to 1360 nm.",
+    "eli5Def": "The specific frequency channel of light that internet data uses to travel smoothly through glass fibers.",
+    "wikiTitle": "Wavelength-division multiplexing"
+   },
+   {
+    "term": "Purcell enhancement",
+    "shortDef": "The acceleration of a quantum emitter's spontaneous emission rate by a resonant cavity.",
+    "eli5Def": "Using a microscopic echo chamber to make an atom flash its light much faster and brighter.",
+    "wikiTitle": "Purcell effect"
+   },
+   {
+    "term": "Zero-phonon line",
+    "shortDef": "The optical transition frequency of a defect that does not involve the creation of lattice vibrations.",
+    "eli5Def": "A clean, pure burst of energy emitted by an atom without shaking its surrounding crystal neighbors.",
+    "wikiTitle": "Zero-phonon line and phonon wing"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

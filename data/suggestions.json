@@ -1,25 +1,25 @@
 {
- "generatedAt": "2026-09-28T14:21:47.038Z",
+ "generatedAt": "2026-09-29T13:14:52.471Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
    "slug": "sabre-kais",
-   "score": 6,
+   "score": 8,
    "coAuthoredWith": [],
    "viaKeywords": [
     "SABRE"
    ],
    "viaCategories": [],
    "paperIds": [
+    "2609.33617",
     "2609.17482",
-    "2609.14620",
-    "2608.08798"
+    "2609.14620"
    ],
    "recentTitles": [
-    "Predictive Structure Behind Rare Outcomes in Random Quantum Circuits",
-    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
+    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies",
+    "Predictive Structure Behind Rare Outcomes in Random Quantum Circuits"
    ],
-   "paperCount": 3
+   "paperCount": 4
   },
   {
    "name": "Xin Wang",
@@ -143,6 +143,44 @@
    "paperCount": 4
   },
   {
+   "name": "Vinit Singh",
+   "slug": "vinit-singh",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2609.33617",
+    "2608.08798"
+   ],
+   "recentTitles": [
+    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies",
+    "Symmetry Constraints Regularize Neural Quantum State Learning"
+   ],
+   "paperCount": 2
+  },
+  {
+   "name": "Manas Sajjan",
+   "slug": "manas-sajjan",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2609.33617",
+    "2608.08798"
+   ],
+   "recentTitles": [
+    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies",
+    "Symmetry Constraints Regularize Neural Quantum State Learning"
+   ],
+   "paperCount": 2
+  },
+  {
    "name": "Vsevolod Ivanov",
    "slug": "vsevolod-ivanov",
    "score": 4,
@@ -161,47 +199,6 @@
    "recentTitles": [
     "Mineral Detection of Neutrinos and Dark Matter 2026 Proceedings",
     "Cluster-configurational study of G-center in Silicon"
-   ],
-   "paperCount": 2
-  },
-  {
-   "name": "Yoji Kawamura",
-   "slug": "yoji-kawamura",
-   "score": 4,
-   "coAuthoredWith": [
-    "daniel-g-ang",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.20552",
-    "2608.27399"
-   ],
-   "recentTitles": [
-    "Mineral Detection of Neutrinos and Dark Matter 2026 Proceedings",
-    "Krylov Break Times from an Inhomogeneous Lieb--Robinson Light Cone"
-   ],
-   "paperCount": 2
-  },
-  {
-   "name": "Songbo Xie",
-   "slug": "songbo-xie",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "SABRE"
-   ],
-   "viaCategories": [],
-   "paperIds": [
-    "2609.14620",
-    "2608.08798"
-   ],
-   "recentTitles": [
-    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks",
-    "Symmetry Constraints Regularize Neural Quantum State Learning"
    ],
    "paperCount": 2
   }

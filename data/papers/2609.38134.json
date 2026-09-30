@@ -1,0 +1,86 @@
+{
+ "id": "2609.38134",
+ "version": 1,
+ "title": "Resource Compatibility in Optimal Quantum Symmetry Testing",
+ "authors": [
+  {
+   "name": "Yimeng Cao"
+  },
+  {
+   "name": "Ranyiliu Chen"
+  },
+  {
+   "name": "Chengkai Zhu"
+  },
+  {
+   "name": "Xin Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-29T17:54:30Z",
+ "updated": "2026-09-29T17:54:30Z",
+ "abstract": "Can a symmetry be tested optimally without using the quantum resource naturally associated with it? For parallel subgroup-versus-Haar testing, we derive a quantitative representation-theoretic converse for every protocol with zero type-I error: the excess type-II error is bounded below by the sum of two nonnegative penalties, one for weight on suboptimal subgroup types and one for deviations of within-type Schur profiles from their typewise extremal profiles. At optimality, both penalties vanish, yielding support and weight locking for every optimal system marginal. Disjointness of the resulting locked set and the free marginal set rules out resource-free optimality, whereas overlap alone does not establish attainability. For the diagonal torus in dimension $d\\geq 2$, optimal testing without coherence is possible only with a single query. We determine both the exact optimal type-II error over all protocols with incoherent system marginals and the minimum system-marginal coherence required to attain the unrestricted optimum. For the orthogonal subgroup in dimension $d\\geq 2$, a real protocol attains the optimum at every query number. For the qutrit Clifford group, Wigner-positive optimal protocols exist at three and four queries but not from five through nine; whether they exist beyond nine queries remains open. Together, these results relate the subgroup- and query-dependent resource requirements of optimal symmetry testing to structural constraints on optimal system marginals.",
+ "comment": "6 pages, 1 figure; Supplemental Material: 35 pages, 8 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.38134",
+  "pdf": "https://arxiv.org/pdf/2609.38134",
+  "html": "https://arxiv.org/html/2609.38134"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.38134v1/picture.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-30T12:55:51.687Z",
+  "hook": "Can a symmetry be tested optimally without using the quantum resource naturally associated with it?",
+  "tldr": [
+   "Derived a quantitative representation-theoretic converse for parallel subgroup-versus-Haar testing protocols.",
+   "Proved that for the diagonal torus in dimension d≥2, optimal testing without coherence is possible only with a single query.",
+   "Found that Wigner-positive optimal protocols exist for the qutrit Clifford group at three and four queries but not from five through nine."
+  ],
+  "whyItMatters": "Symmetries govern the laws of physics, and testing them efficiently is essential for quantum information processing. This work clarifies when special quantum resources are strictly necessary to test these symmetries.",
+  "eli5": "If you want to check if a physical system has a certain symmetry, do you always need special quantum superpowers to do it, or can you cheat and use regular methods? This paper maps out exactly when you need the superpowers.",
+  "keyNumbers": [
+   {
+    "value": "2",
+    "label": "Minimum dimension",
+    "context": "The dimension threshold d >= 2 for diagonal torus and orthogonal subgroup results."
+   },
+   {
+    "value": "35",
+    "label": "Supplemental pages",
+    "context": "Length of the supplemental material accompanying the main text."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Haar testing",
+    "shortDef": "Testing quantum states against the uniform measure over unitary transformations.",
+    "eli5Def": "Checking how random a quantum system looks from every possible angle.",
+    "wikiTitle": "Haar measure"
+   },
+   {
+    "term": "Type-II error",
+    "shortDef": "The error of failing to reject a false null hypothesis in statistical testing.",
+    "eli5Def": "Missing a problem because your test wasn't sensitive enough.",
+    "wikiTitle": "Type I and type II errors"
+   },
+   {
+    "term": "Clifford group",
+    "shortDef": "The normalizer of the Pauli group, central to quantum error correction and fault tolerance.",
+    "eli5Def": "A specific toolkit of basic operations you can perform on a quantum computer.",
+    "wikiTitle": "Clifford algebra"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

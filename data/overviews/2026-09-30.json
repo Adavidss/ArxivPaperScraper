@@ -1,0 +1,44 @@
+{
+ "date": "2026-09-30",
+ "generatedAt": "2026-09-30T12:55:51.687Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Quantum Control and Stochastic Volatility Methods",
+ "summary": "Today's research features a diverse collection spanning quantum information theory, entanglement recovery, and stochastic volatility pricing. The papers advance both foundational quantum mechanics and practical computational engines for complex financial models.",
+ "themes": [
+  {
+   "title": "Quantum Information and Tomography",
+   "body": "Explores optimal testing of Lindbladian dissipation, parallel query unitary channel tomography, entanglement recovery certificates, and the exact strong converse exponent for private communication.",
+   "paperIds": [
+    "2609.38168",
+    "2609.38160",
+    "2609.38145",
+    "2609.38144",
+    "2609.38134"
+   ]
+  },
+  {
+   "title": "Quantum Error Correction",
+   "body": "Introduces a local and distributed decoding framework utilizing autonomous feedback and belief propagation for quantum LDPC codes.",
+   "paperIds": [
+    "2609.38139"
+   ]
+  },
+  {
+   "title": "Stochastic Volatility Pricing",
+   "body": "Develops a non-perturbative Dyson-Schwinger effective-action framework for rough volatility, leveraging quantum field theory tools for deterministic option pricing engines.",
+   "paperIds": [
+    "2609.37741"
+   ]
+  }
+ ],
+ "connections": [],
+ "paperIds": [
+  "2609.37741",
+  "2609.38168",
+  "2609.38160",
+  "2609.38145",
+  "2609.38144",
+  "2609.38139",
+  "2609.38134"
+ ]
+}

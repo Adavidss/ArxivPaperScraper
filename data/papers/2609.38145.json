@@ -1,0 +1,76 @@
+{
+ "id": "2609.38145",
+ "version": 1,
+ "title": "Query-optimal unitary channel tomography in diamond distance with parallel access",
+ "authors": [
+  {
+   "name": "Entong He"
+  },
+  {
+   "name": "Zihao Li"
+  },
+  {
+   "name": "Yuxiang Yang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-29T17:57:11Z",
+ "updated": "2026-09-29T17:57:11Z",
+ "abstract": "In the study of quantum process tomography, it has remained open how to learn a unitary channel in diamond distance with strictly parallel queries as efficiently as with sequential queries. Sequential queries allow one to exploit adaptivity to refine the estimate and adjust the learning strategy accordingly, whereas such adjustments are impossible for parallel queries. From the perspective of higher-order quantum operations, any parallel learning strategy can be simulated by a sequential one, whereas the converse does not hold in general, suggesting that sequential learning strategies are potentially more powerful. Contrary to this intuition, we present a new protocol for learning an unknown $d$-dimensional unitary channel to within $\\varepsilon$ in diamond distance using $\\mathcal{O}(d^2/\\varepsilon)$ parallel queries, matching the lower bound presented in [Haah, Kothari, O'Donnell, and Tang, FOCS '23]. Our protocol thus closes the gap between parallel and sequential strategies for unitary channel tomography. As applications, it achieves optimal query complexity for boundary-regime quantum channel tomography and improves the query efficiency of the best-known protocol for tomography of fermionic linear optics.",
+ "comment": "30 pages. Comments are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.38145",
+  "pdf": "https://arxiv.org/pdf/2609.38145",
+  "html": "https://arxiv.org/html/2609.38145"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-30T12:55:51.687Z",
+  "hook": "We present a new protocol for learning a d-dimensional unitary channel using O(d²/ε) parallel queries.",
+  "tldr": [
+   "Addressed whether a unitary channel can be learned with parallel queries as efficiently as sequential ones.",
+   "Developed a new protocol matching existing theoretical lower bounds for parallel query complexity.",
+   "Closed the gap between parallel and sequential strategies for unitary channel tomography."
+  ],
+  "whyItMatters": "Running quantum experiments simultaneously (in parallel) rather than one-by-one (sequentially) saves exponential amounts of time in characterizing quantum hardware.",
+  "eli5": "Instead of testing a machine one test at a time, this method lets you run all the tests at once, proving you don't lose any speed or accuracy.",
+  "keyNumbers": [
+   {
+    "value": "O(d²/ε)",
+    "label": "Parallel queries",
+    "context": "Query complexity for learning an unknown d-dimensional unitary channel"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Unitary channel",
+    "shortDef": "A reversible quantum operation that preserves total probability.",
+    "eli5Def": "A perfect, reversible mixing machine that scrambles quantum information without losing a single piece.",
+    "wikiTitle": "Quantum operation"
+   },
+   {
+    "term": "Tomography",
+    "shortDef": "The process of reconstructing an unknown quantum state or process through measurements.",
+    "eli5Def": "Taking a CAT scan of an invisible quantum process to figure out what it looks like inside.",
+    "wikiTitle": "Quantum tomography"
+   },
+   {
+    "term": "Diamond distance",
+    "shortDef": "A distance measure between quantum channels based on their distinguishability.",
+    "eli5Def": "A strict yardstick that measures how differently two quantum machines behave even if you feed them the worst-possible input.",
+    "wikiTitle": "Trace distance"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

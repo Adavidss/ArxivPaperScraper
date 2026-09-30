@@ -1,0 +1,71 @@
+{
+ "id": "2609.38144",
+ "version": 1,
+ "title": "The exact strong converse exponent for private communication over quantum channels",
+ "authors": [
+  {
+   "name": "Hao-Chung Cheng"
+  },
+  {
+   "name": "Christoph Hirche"
+  },
+  {
+   "name": "Marco Tomamichel"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-29T17:56:11Z",
+ "updated": "2026-09-29T17:56:11Z",
+ "abstract": "We determine the exact strong converse exponent for secret-key transmission and generation over general finite-dimensional quantum wiretap channels, measuring reliability and secrecy jointly by squared fidelity to an ideal secret key. We introduce a novel Renyi private information whose regularization characterizes this exponent. An exact integral representation in terms of ordinary private information gives a uniform continuity bound, showing that the regularized quantity converges to private capacity as the Renyi order approaches one. This establishes for any wiretap channel an exponential fidelity decay at every rate above private capacity.",
+ "comment": "37 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.38144",
+  "pdf": "https://arxiv.org/pdf/2609.38144",
+  "html": "https://arxiv.org/html/2609.38144"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-30T12:55:51.687Z",
+  "hook": "We determine the exact strong converse exponent for secret-key transmission over general quantum channels.",
+  "tldr": [
+   "Determined the exact strong converse exponent for secret-key transmission and generation over general finite-dimensional quantum wiretap channels.",
+   "Introduced a novel Renyi private information whose regularization characterizes this exponent alongside an exact integral representation.",
+   "Established an exponential fidelity decay at every rate above private capacity for any wiretap channel."
+  ],
+  "whyItMatters": "Understanding the fundamental limits of secure quantum communication helps engineers build foolproof encryption systems that rely on the laws of physics rather than computational complexity.",
+  "eli5": "Imagine sending secret messages through a room full of spies. This paper figures out the exact math for how fast and completely your security breaks down if you try to send data faster than the maximum safe speed.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum wiretap channels",
+    "shortDef": "A communication channel where a sender transmits quantum information to a receiver while a wiretapper listens in.",
+    "eli5Def": "A quantum phone line that might be bugged by a spy.",
+    "wikiTitle": "Quantum channel"
+   },
+   {
+    "term": "Renyi private information",
+    "shortDef": "A generalized measure of private information used to analyze secrecy in quantum communication.",
+    "eli5Def": "A specialized ruler used to measure how secret a message really is.",
+    "wikiTitle": "Rényi entropy"
+   },
+   {
+    "term": "Private capacity",
+    "shortDef": "The maximum rate at which secret information can be reliably transmitted through a channel.",
+    "eli5Def": "The absolute speed limit for sending completely secure messages.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

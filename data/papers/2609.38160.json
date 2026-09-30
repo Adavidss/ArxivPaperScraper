@@ -1,0 +1,76 @@
+{
+ "id": "2609.38160",
+ "version": 1,
+ "title": "Optimal Tolerant Testing of Lindbladian Dissipation",
+ "authors": [
+  {
+   "name": "Jinge Bao"
+  },
+  {
+   "name": "Yiyi Cai"
+  },
+  {
+   "name": "Zhong-Xia Shang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-29T17:59:14Z",
+ "updated": "2026-09-29T17:59:14Z",
+ "abstract": "Quantifying dissipation is essential for controlling quantum noise and characterizing open-system dynamics. In practical experimental settings, residual noise may still persist despite efforts to suppress it, making it important to determine whether the dissipative strength remains within a prescribed tolerance threshold. We study this question for an unknown, time-independent Lindblad generator with bounded strength, where the jump operators are local but with unrestricted overlap, using only memoryless forward-evolution access. The task is to distinguish dissipative strength of at most $\\varepsilon_1$ from strength of at least $\\varepsilon_2$, for $0 \\leq \\varepsilon_1 < \\varepsilon_2$, measured in the canonical dissipator's normalized Frobenius norm. We give an algorithm that solves this task in total evolution time $O(\\varepsilon_2/(\\varepsilon_2-\\varepsilon_1)^2)$ for all nontrivial thresholds, with constant success probability, and provide a matching lower bound $Ω(\\varepsilon_2/(\\varepsilon_2-\\varepsilon_1)^2)$ that establishes optimality even for adaptive protocols. This extends dissipation testing to the tolerant setting and eliminates the bounded-degree requirement, making the framework applicable to a broader range of experimentally relevant settings.",
+ "comment": "39 pages, 1 algorithm",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.38160",
+  "pdf": "https://arxiv.org/pdf/2609.38160",
+  "html": "https://arxiv.org/html/2609.38160"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-30T12:55:51.687Z",
+  "hook": "We give an algorithm that solves this task in total evolution time O(ε₂/(ε₂-ε₁)²).",
+  "tldr": [
+   "Studied tolerant testing of unknown, time-independent Lindblad generators with bounded strength.",
+   "Designed an algorithm using memoryless forward-evolution access to distinguish dissipative strengths.",
+   "Provided a matching lower bound establishing optimality even for adaptive protocols."
+  ],
+  "whyItMatters": "Controlling noise is the biggest hurdle in building reliable quantum computers. This work provides an optimal way to test whether quantum noise stays within safe limits.",
+  "eli5": "Just like a leaky bucket loses water, quantum computers leak information to their surroundings. This research gives scientists a precise clock-and-measure method to check if the leak is small enough to ignore.",
+  "keyNumbers": [
+   {
+    "value": "O(ε₂/(ε₂-ε₁)²)",
+    "label": "Total evolution time",
+    "context": "Algorithm runtime complexity for distinguishing dissipative strengths"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Dissipation",
+    "shortDef": "The loss of energy or coherence from a quantum system to its environment.",
+    "eli5Def": "Energy slowly bleeding out of a system until it fades away.",
+    "wikiTitle": "Dissipation"
+   },
+   {
+    "term": "Lindbladian",
+    "shortDef": "The generator of a dynamical semigroup describing open quantum system evolution.",
+    "eli5Def": "A mathematical formula that describes how a quantum system steadily falls apart or changes when exposed to the outside world.",
+    "wikiTitle": "Lindblad equation"
+   },
+   {
+    "term": "Frobenius norm",
+    "shortDef": "A matrix norm defined as the square root of the sum of the absolute squares of its elements.",
+    "eli5Def": "A mathematical ruler used to measure the total size or magnitude of a grid of numbers.",
+    "wikiTitle": "Matrix norm"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

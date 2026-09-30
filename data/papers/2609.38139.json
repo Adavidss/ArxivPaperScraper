@@ -1,0 +1,81 @@
+{
+ "id": "2609.38139",
+ "version": 1,
+ "title": "Local autonomous inference machines for quantum LDPC codes",
+ "authors": [
+  {
+   "name": "Siddhant Midha"
+  },
+  {
+   "name": "Dmitry A. Abanin"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.dis-nn"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-29T17:55:19Z",
+ "updated": "2026-09-29T17:55:19Z",
+ "abstract": "We introduce a local and distributed framework for decoding quantum LDPC codes. Built atop belief propagation (BP), the architecture combines strictly local processing of syndrome information, local feedback, autonomous operation, and highly parallelized decoding. We establish the framework at two complementary levels. First, we show that any code exhibiting a threshold under iterative BP decoding can be promoted to an autonomous local measurement-and-feedback dynamics while preserving that threshold. We then turn to codes for which naive BP does not itself exhibit threshold behavior. Our key observation is that BP can nevertheless provide sufficiently accurate \\emph{local} marginal information: active syndrome defects use these local beliefs to \\emph{move}, pair, and annihilate through asynchronous feedback. We demonstrate numerically that this construction exhibits threshold behavior in the point-like sectors of the two- and three-dimensional toric codes, where conventional BP decoding fails. Exploiting the graph-generality of BP, we then study the inference dynamics on the membrane-like sector of the three-dimensional toric code and in a family of bivariate-bicycle quantum LDPC codes.",
+ "comment": "6 pages main text with 3 figures, comments welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.38139",
+  "pdf": "https://arxiv.org/pdf/2609.38139",
+  "html": "https://arxiv.org/html/2609.38139"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.38139v1/fig_intro.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-30T12:55:51.687Z",
+  "hook": "We introduce a local and distributed framework for decoding quantum LDPC codes using autonomous feedback.",
+  "tldr": [
+   "Introduced a local, distributed decoding framework for quantum LDPC codes combining belief propagation and autonomous feedback.",
+   "Proved that codes with an iterative belief propagation threshold can be promoted to autonomous local measurement dynamics.",
+   "Demonstrated numerically that the framework exhibits threshold behavior in toric codes where conventional decoding fails."
+  ],
+  "whyItMatters": "Quantum computers are extremely noisy, and error correction is their biggest bottleneck. Making error correction decentralized and autonomous brings fault-tolerant quantum computing much closer to reality.",
+  "eli5": "Quantum computers make lots of small errors. Instead of using a giant central computer to fix them all, this paper teaches the individual parts of the quantum computer to talk to their immediate neighbors and fix errors locally, like cells in a body.",
+  "keyNumbers": [
+   {
+    "value": "6",
+    "label": "Pages",
+    "context": "Main text length of the paper excluding figures and comments."
+   },
+   {
+    "value": "3",
+    "label": "Figures",
+    "context": "Number of figures included in the main text."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum LDPC codes",
+    "shortDef": "Quantum error-correcting codes defined by sparse parity-check matrices.",
+    "eli5Def": "A smart way of packing extra quantum safety information into a fragile quantum state.",
+    "wikiTitle": "Low-density parity-check code"
+   },
+   {
+    "term": "Belief propagation",
+    "shortDef": "An iterative message-passing algorithm used for inference on graphical models.",
+    "eli5Def": "A rumor-mill algorithm where neighboring nodes keep updating their guesses based on what their friends tell them.",
+    "wikiTitle": "Belief propagation"
+   },
+   {
+    "term": "Toric codes",
+    "shortDef": "A type of topological quantum error-correcting code defined on a two-dimensional lattice.",
+    "eli5Def": "A donut-shaped grid of qubits designed to protect quantum data from getting scrambled.",
+    "wikiTitle": "Toric code"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

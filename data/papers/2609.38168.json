@@ -1,0 +1,82 @@
+{
+ "id": "2609.38168",
+ "version": 1,
+ "title": "When Classical Correlations Certify Entanglement Recovery",
+ "authors": [
+  {
+   "name": "Takeru Utsumi"
+  },
+  {
+   "name": "Yota Tachibana"
+  },
+  {
+   "name": "Yoshifumi Nakata"
+  },
+  {
+   "name": "Takaya Matsuura"
+  },
+  {
+   "name": "Ryuji Takagi"
+  },
+  {
+   "name": "Francesco Buscemi"
+  },
+  {
+   "name": "Masato Koashi"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-29T17:59:36Z",
+ "updated": "2026-09-29T17:59:36Z",
+ "abstract": "Entanglement and state distinguishability have long been central topics in quantum foundations. While each has developed into a rich subject in its own right, they can be connected through measurements in complementary bases. This connection provides insights into quantum and classical correlations and underlies many information-processing tasks, most notably quantum error correction (QEC). However, it has remained largely open whether the connection between entanglement and distinguishability extends to general measurements without assuming complementarity. We answer this question in the affirmative: the key is irreducibility induced by measurements, a much more relaxed condition than complementarity. Specifically, for POVMs satisfying an irreducibility condition, we establish a quantitative relation between the infidelity of one-sided local transformation into a maximally entangled state and the failure probability in state discrimination. We then characterize when both errors can vanish simultaneously. Our results have direct applications to entanglement distillation and QEC. Their errors can be certified by estimating classical input-output correlations from experimentally accessible local measurements, without requiring complementarity. The results also extend to quantum measurement theory. We derive novel trade-off relations that bridge two historically distinct approaches: information gain--irreversibility and observable noise--disturbance. Our connection between entanglement and distinguishability via irreducibility thus offers a common framework for entanglement distillation, QEC, and measurement trade-offs.",
+ "comment": "52 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.38168",
+  "pdf": "https://arxiv.org/pdf/2609.38168",
+  "html": "https://arxiv.org/html/2609.38168"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-30T12:55:51.687Z",
+  "hook": "We establish a quantitative relation between local transformation infidelity and state discrimination failure.",
+  "tldr": [
+   "Investigated the connection between entanglement and state distinguishability using general measurements.",
+   "Established a quantitative relation between local transformation infidelity and state discrimination failure probability.",
+   "Applied results to entanglement distillation, quantum error correction, and measurement trade-offs."
+  ],
+  "whyItMatters": "Connecting entanglement and distinguishability without strict assumptions makes quantum error correction and quantum communication easier to verify in real-world experiments.",
+  "eli5": "Think of quantum particles as secret messages hidden in complex locks. This paper shows how checking simple clues can tell us if the locks are working properly, without needing a complicated laboratory setup.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Entanglement",
+    "shortDef": "A quantum phenomenon where particles become interconnected regardless of distance.",
+    "eli5Def": "Two magical dice that always land on matching numbers even when separated across the universe.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "Quantum error correction",
+    "shortDef": "Methods used by quantum computers to protect information from environmental noise.",
+    "eli5Def": "Adding backup rules so fragile quantum information doesn't get ruined by accidental bumps from the outside world.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "POVM",
+    "shortDef": "Positive operator-valued measure, a generalized description of quantum measurements.",
+    "eli5Def": "A flexible set of rules for reading out information from a quantum system.",
+    "wikiTitle": "POVM"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

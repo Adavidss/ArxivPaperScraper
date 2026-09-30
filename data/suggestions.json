@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29T13:14:52.471Z",
+ "generatedAt": "2026-09-30T12:55:51.687Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -22,6 +22,26 @@
    "paperCount": 4
   },
   {
+   "name": "Chengkai Zhu",
+   "slug": "chengkai-zhu",
+   "score": 5,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.38134",
+    "2609.30268",
+    "2609.10520"
+   ],
+   "recentTitles": [
+    "Resource Compatibility in Optimal Quantum Symmetry Testing",
+    "Quantum Channel Stein Theorem beyond Definite Causal Order"
+   ],
+   "paperCount": 5
+  },
+  {
    "name": "Xin Wang",
    "slug": "xin-wang",
    "score": 5,
@@ -31,13 +51,13 @@
     "quant-ph"
    ],
    "paperIds": [
+    "2609.38134",
     "2609.30268",
-    "2609.17465",
-    "2609.10520"
+    "2609.17465"
    ],
    "recentTitles": [
-    "Quantum Channel Stein Theorem beyond Definite Causal Order",
-    "Quantum Compiler Design for Fault-Tolerant Quantum Computing"
+    "Resource Compatibility in Optimal Quantum Symmetry Testing",
+    "Quantum Channel Stein Theorem beyond Definite Causal Order"
    ],
    "paperCount": 5
   },
@@ -58,26 +78,6 @@
    "recentTitles": [
     "Oracle Distillation",
     "Deep thermalization and Hilbert space ergodicity"
-   ],
-   "paperCount": 4
-  },
-  {
-   "name": "Chengkai Zhu",
-   "slug": "chengkai-zhu",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.30268",
-    "2609.10520",
-    "2608.03987"
-   ],
-   "recentTitles": [
-    "Quantum Channel Stein Theorem beyond Definite Causal Order",
-    "Private communication via zero-private-capacity quantum channels"
    ],
    "paperCount": 4
   },
@@ -181,8 +181,8 @@
    "paperCount": 2
   },
   {
-   "name": "Vsevolod Ivanov",
-   "slug": "vsevolod-ivanov",
+   "name": "Yoji Kawamura",
+   "slug": "yoji-kawamura",
    "score": 4,
    "coAuthoredWith": [
     "daniel-g-ang",
@@ -194,11 +194,11 @@
    ],
    "paperIds": [
     "2609.20552",
-    "2607.14083"
+    "2608.27399"
    ],
    "recentTitles": [
     "Mineral Detection of Neutrinos and Dark Matter 2026 Proceedings",
-    "Cluster-configurational study of G-center in Silicon"
+    "Krylov Break Times from an Inhomogeneous Lieb--Robinson Light Cone"
    ],
    "paperCount": 2
   }

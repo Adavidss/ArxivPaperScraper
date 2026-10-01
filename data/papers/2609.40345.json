@@ -1,0 +1,90 @@
+{
+ "id": "2609.40345",
+ "version": 1,
+ "title": "Gibbs Sampling in the Shattered Phase by Decoded Quantum Interferometry",
+ "authors": [
+  {
+   "name": "Leo Zhou"
+  },
+  {
+   "name": "Noah Shutty"
+  },
+  {
+   "name": "Mark Sellke"
+  },
+  {
+   "name": "Stephen P. Jordan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.dis-nn",
+  "cs.CC",
+  "cs.DS",
+  "math.PR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-30T17:58:53Z",
+ "updated": "2026-09-30T17:58:53Z",
+ "abstract": "We apply Decoded Quantum Interferometry (DQI) to sample from the Gibbs measures of classical Ising spin Hamiltonians. We show that this Gibbs sampling problem reduces to a quantum decoding problem, and the temperature achievable by DQI is determined by the performance of decoding algorithms. We then focus on the task of Gibbs sampling for classical Ising $k$-spin glasses (or Max-$k$-XORSAT) on random Erdős-Rényi hypergraphs with average degree $D\\ge k$. In a temperature range beginning asymptotically at the predicted dynamical phase transition, $β_{\\rm dyn}(k,D) = \\sqrt{(2\\ln k)/D}\\times [1+o_{k\\to\\infty}(1)]$, we show that shattering and disorder chaos form a topological barrier that obstructs many algorithms, including Glauber dynamics and any algorithm whose output distribution is \"stable\" under perturbations of the input. In contrast, we prove that this barrier can be broken both by a classical algorithm based on Prange's method, and by DQI equipped with a quantum decoder. For example, when $D=αk$ with fixed $α>1$, both Prange's algorithm and DQI can sample at any inverse temperature $β< \\tanh^{-1}(1/α)$ for sufficiently large $k$, well beyond the dynamical threshold $β_{\\rm dyn} \\sim \\sqrt{2\\ln k / (αk)}$. Therefore, our results show that DQI can overcome topological barriers that obstruct stable algorithms.",
+ "comment": "44 pages, 1 figure, 3 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.40345",
+  "pdf": "https://arxiv.org/pdf/2609.40345",
+  "html": "https://arxiv.org/html/2609.40345"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.40345v1/fig-phases.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-01T13:46:50.163Z",
+  "hook": "Decoded Quantum Interferometry overcomes topological barriers that trap standard sampling algorithms in spin glasses.",
+  "tldr": [
+   "Applied Decoded Quantum Interferometry (DQI) to sample from Gibbs measures of classical Ising spin Hamiltonians.",
+   "Analyzed phase transitions and algorithmic barriers on random Erdős-Rényi hypergraphs using quantum decoding.",
+   "Proved that DQI and Prange's classical algorithm break through shattering barriers to sample at high inverse temperatures."
+  ],
+  "whyItMatters": "Sampling from complex physical systems is notoriously difficult because algorithms get stuck in isolated regions of states. Proving that quantum-assisted methods can bypass these topological traps points toward new pathways for quantum algorithms to solve hard statistical physics problems.",
+  "eli5": "Think of finding configurations in a spin glass like trying to navigate a vast, fractured cave system where many rooms are completely walled off from each other. Standard local search algorithms get trapped in single rooms, but a special quantum-enhanced approach can tunnel past these walls to explore the whole cave.",
+  "keyNumbers": [
+   {
+    "value": "αk",
+    "label": "Average degree D",
+    "context": "Average degree of the random Erdős-Rényi hypergraphs where D is greater than or equal to k."
+   },
+   {
+    "value": "β < \\tanh^{-1}(1/α)",
+    "label": "Inverse temperature range",
+    "context": "Range of inverse temperatures where Prange's algorithm and DQI can successfully sample."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Gibbs sampling",
+    "shortDef": "A Markov chain Monte Carlo algorithm for obtaining a sequence of observations from a specified multivariate probability distribution.",
+    "eli5Def": "A randomized computer method used to draw random samples from complex probability landscapes.",
+    "wikiTitle": "Gibbs sampling"
+   },
+   {
+    "term": "Ising spin glass",
+    "shortDef": "A disordered magnetic system characterized by competing random interactions between spins.",
+    "eli5Def": "A grid of tiny microscopic magnets that randomly want to point either together or against each other, creating a tangled mess.",
+    "wikiTitle": "Spin glass"
+   },
+   {
+    "term": "Hypergraph",
+    "shortDef": "A generalization of a graph where an edge can join any number of vertices.",
+    "eli5Def": "A network map where connections can link three or more nodes at the exact same time instead of just pairs.",
+    "wikiTitle": "Hypergraph"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

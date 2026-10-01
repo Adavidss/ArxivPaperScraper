@@ -1,0 +1,84 @@
+{
+ "id": "2609.40346",
+ "version": 1,
+ "title": "Resonances control when multiterminal Josephson currents reduce to two-terminal couplings",
+ "authors": [
+  {
+   "name": "A. Barış Özgüler"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "cond-mat.supr-con",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-09-30T17:59:02Z",
+ "updated": "2026-09-30T17:59:02Z",
+ "abstract": "Multiterminal Josephson junctions, in which one weak link couples three or more superconductors, are studied as hosts of topological Andreev bands, multi-pair supercurrents and tunable circuit elements. Their currents are modeled both as pairwise networks of two-terminal couplings and through genuinely multiterminal processes such as quartets. We ask how accurate the pairwise description is and what controls its error. In a microscopic scattering model of planar junctions, we compare exact currents with the best pairwise approximation, which allows arbitrary nonsinusoidal couplings. In ensembles of disordered three- and four-terminal junctions, the pairwise terms capture nearly all of the energy variation, yet the median current error ranges from 8.0 to 21.2 percent, about twice the energy error, because currents weigh the multiterminal harmonics more strongly. Designed devices extend the comparison to sixteen terminals. We identify a mechanism that controls this error. A normal-region mode near the Fermi level that couples to three or more terminals produces large nonpairwise currents, and detuning it with a gate suppresses them. Shifting only this mode, selected from normal-state properties, predicts the gate dependence of the error in eight three- and four-terminal devices without fitting currents. Finite-gap calculations in two clean devices confirm a drop from tens of percent near resonance to below one percent. An analytic single-level model gives a sufficient detuning for pairwise accuracy at any terminal count. Planar junctions thus inherit the resonant and cotunneling regimes known from quantum dots, and normal-state properties identify the mode that selects between them.",
+ "comment": "42 pages (12-page main text plus Supplemental Material), 20 figures, 11 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.40346",
+  "pdf": "https://arxiv.org/pdf/2609.40346",
+  "html": "https://arxiv.org/html/2609.40346"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2609.40346v1/fig_ensemble_headline.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-01T13:46:50.163Z",
+  "hook": "A single electronic mode near the Fermi level drives large nonpairwise currents in multiterminal Josephson junctions.",
+  "tldr": [
+   "Compared exact microscopic scattering models with pairwise approximations in three- to sixteen-terminal planar junctions.",
+   "Used a microscopic scattering model and ensembles of disordered junctions to evaluate energy and current errors.",
+   "Found median current errors of 8.0 to 21.2 percent, controlled by a normal-region mode that can be suppressed via gate detuning."
+  ],
+  "whyItMatters": "Multiterminal Josephson junctions are building blocks for advanced quantum circuits and topological hardware. Understanding when they simplify to standard pairwise links helps engineers design and control multi-superconductor devices more accurately.",
+  "eli5": "Imagine a complex plumbing system connecting several water tanks. While most of the water flow can be approximated by simple pairs of connected pipes, a single weirdly placed valve can cause unexpected cross-flows. By tweaking that specific valve with an electric gate, scientists can make the system behave in a predictable, simplified way.",
+  "keyNumbers": [
+   {
+    "value": "8.0 to 21.2 percent",
+    "label": "Median current error",
+    "context": "Range of median current error observed in ensembles of disordered three- and four-terminal junctions."
+   },
+   {
+    "value": "sixteen",
+    "label": "Maximum terminals",
+    "context": "Number of terminals used in designed devices to extend the comparison of pairwise and exact models."
+   },
+   {
+    "value": "below one percent",
+    "label": "Error after detuning",
+    "context": "Finite-gap calculations in clean devices showing drop in error away from resonance."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Josephson junction",
+    "shortDef": "A device made of two superconductors separated by a weak link, allowing supercurrents to flow.",
+    "eli5Def": "A microscopic bridge between two superconducting materials that lets quantum electric current flow without any resistance.",
+    "wikiTitle": "Josephson effect"
+   },
+   {
+    "term": "Fermi level",
+    "shortDef": "The top of the collection of electron energy levels at absolute zero temperature.",
+    "eli5Def": "The energy line dividing filled and empty electronic parking spots in a material.",
+    "wikiTitle": "Fermi level"
+   },
+   {
+    "term": "Harmonics",
+    "shortDef": "Sinusoidal components of a periodic wave or signal at integer multiples of a fundamental frequency.",
+    "eli5Def": "Higher-frequency ripples that ride on top of a main wave.",
+    "wikiTitle": "Harmonic"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

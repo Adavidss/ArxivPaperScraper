@@ -1,0 +1,80 @@
+{
+ "id": "2609.40350",
+ "version": 1,
+ "title": "On The Simplest Quantum-Secure Block Cipher",
+ "authors": [
+  {
+   "name": "Gorjan Alagic"
+  },
+  {
+   "name": "Joseph Carolan"
+  },
+  {
+   "name": "Christian Majenz"
+  },
+  {
+   "name": "Saliha Tokat"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-30T17:59:10Z",
+ "updated": "2026-09-30T17:59:10Z",
+ "abstract": "Pseudorandom permutations are ubiquitous in theoretical and applied cryptography. PRPs that offer security even against adversaries making quantum queries are of increasing interest, and used in applications ranging from constructing pseudorandom unitaries to separating SZK from BQP. A successful framework for constructing classically-secure PRPs is the key-alternating Even-Mansour approach, which interleaves applications of public permutations with additions of round keys. The single-round construction is already classically secure in the ideal permutation model (IPM), with added rounds offering improved concrete security. However, in the quantum-query setting, the status of this framework is presently unclear. A simple quantum-query attack based on Simon's algorithm breaks the one-round cipher. For two or more rounds, security is only known against non-adaptive adversaries who must prepare all queries in advance. In this work, we show that the two-round Even-Mansour cipher is information theoretically secure in the IPM against adversaries making polynomially-many adaptive forward and inverse quantum queries to all available oracles. Our proof uses compressed permutation oracles and a specially crafted isometry relating the ideal and real experiments. We also show that this construction is minimal, in the sense that essentially any cipher constructed via a single call to a public permutation is quantumly insecure.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.40350",
+  "pdf": "https://arxiv.org/pdf/2609.40350",
+  "html": "https://arxiv.org/html/2609.40350"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-01T13:46:50.163Z",
+  "hook": "Two rounds of Even-Mansour are sufficient for provable quantum security against adaptive quantum oracle attacks.",
+  "tldr": [
+   "Studied the quantum security of simple key-alternating block ciphers built from public permutations.",
+   "Analyzed two-round Even-Mansour using compressed permutation oracles and a customized state isometry.",
+   "Demonstrated that two rounds provide adaptive quantum security, whereas one-round schemes are fundamentally insecure."
+  ],
+  "whyItMatters": "Block ciphers are foundational to modern encryption; identifying the minimal round structure secure against quantum attacks guides the design of lightweight post-quantum primitives.",
+  "eli5": "To lock a safe using a public scrambling wheel, doing it once is easily picked by a quantum computer. But scrambling, locking with a key, and repeating that just once more makes the safe completely quantum-proof.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Pseudorandom permutation (PRP)",
+    "shortDef": "A keyed function indistinguishable from a truly random permutation by computational adversaries.",
+    "eli5Def": "A scrambling machine that mixes up data so thoroughly it looks completely random.",
+    "wikiTitle": "Pseudorandom permutation"
+   },
+   {
+    "term": "Even-Mansour cipher",
+    "shortDef": "A block cipher construction interleaving key additions with fixed public permutations.",
+    "eli5Def": "A recipe for encryption that mixes secret keys with public shuffling steps.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Simon's algorithm",
+    "shortDef": "A quantum algorithm finding hidden periodicities in exponential speedup over classical methods.",
+    "eli5Def": "A special quantum trick that quickly finds hidden repeating patterns.",
+    "wikiTitle": "Simon's problem"
+   },
+   {
+    "term": "Compressed permutation oracle",
+    "shortDef": "A proof technique modeling quantum queries to random functions without fixing all outputs in advance.",
+    "eli5Def": "A math tool that records an opponent's questions on-the-fly rather than writing out a huge random table upfront.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

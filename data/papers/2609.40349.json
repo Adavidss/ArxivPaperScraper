@@ -1,0 +1,97 @@
+{
+ "id": "2609.40349",
+ "version": 1,
+ "title": "Efficient Calculation of Equilibrium Correlation Functions",
+ "authors": [
+  {
+   "name": "Yizhi Shen"
+  },
+  {
+   "name": "Roel Van Beeumen"
+  },
+  {
+   "name": "Wibe A. de Jong"
+  },
+  {
+   "name": "Efekan Kökcü"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "physics.comp-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-30T17:59:06Z",
+ "updated": "2026-09-30T17:59:06Z",
+ "abstract": "A majority of measurable dynamic quantities of a physical system is described as an equilibrium correlation function of the form $G_{AB}(t-t') = \\left<A(t)B(t')\\right>$, where $t'$ represents the impact time and $t$ represents the response time. Conventional quantum algorithms to compute such quantities via Hamiltonian simulation such as the Hadamard test, variational methods, or linear-response-based algorithms share one feature in common: each time point $t-t'$ is calculated by a different quantum circuit, leading to at least $O(N_t)$ total shots, and at least $O(N_t^2)$ total quantum gates. Here, we provide a different approach: utilizing $O(\\log N_t)$ ancilla qubits to store time as a quantum variable, and effectively parallelize the computation of an equilibrium correlation function by requiring only a single quantum circuit for all time points. We show that this circuit needs to be run only $O(\\log N_t)$ times, which in total requires $O(N_t \\log N_t)$ quantum resources in the large system size limits. We prove that this scaling is optimal, and demonstrate our algorithm calculating the Green's function of a one-dimensional spinless Hubbard model.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.40349",
+  "pdf": "https://arxiv.org/pdf/2609.40349",
+  "html": "https://arxiv.org/html/2609.40349"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-01T13:46:50.163Z",
+  "hook": "Encoding time in O(log Nt) ancilla qubits cuts equilibrium correlation function circuits from Nt down to just one.",
+  "tldr": [
+   "Addressed the computational overhead of computing physical equilibrium correlation functions across time points.",
+   "Encoded time as a quantum register using logarithmic helper qubits to compute all time steps within a single circuit.",
+   "Proved an optimal overall quantum resource scaling of O(Nt log Nt) and demonstrated it on a 1D Hubbard model."
+  ],
+  "whyItMatters": "Calculating correlation functions is essential for quantum material modeling and spectroscopy; drastically reducing the number of distinct circuits accelerates practical simulations on near-term hardware.",
+  "eli5": "Normally, measuring how a material reacts across 100 different moments in time requires 100 separate experiments. By treating time itself as a quantum variable, this method gathers all the time data in a single setup.",
+  "keyNumbers": [
+   {
+    "value": "O(log Nt)",
+    "label": "Ancilla qubits required",
+    "context": "Ancilla qubits needed to store time as a quantum variable."
+   },
+   {
+    "value": "O(log Nt)",
+    "label": "Circuit executions",
+    "context": "Total runs of the unified circuit needed to sample the correlation function."
+   },
+   {
+    "value": "O(Nt log Nt)",
+    "label": "Total quantum resources",
+    "context": "Asymptotic resource scaling in the large system size limit, shown to be optimal."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Equilibrium correlation function",
+    "shortDef": "A statistical quantity measuring how dynamic physical observables at different times depend on each other.",
+    "eli5Def": "A curve showing how an echo in a material fades out over time.",
+    "wikiTitle": "Correlation function (quantum field theory)"
+   },
+   {
+    "term": "Hamiltonian simulation",
+    "shortDef": "The algorithmic simulation of a quantum physical system governed by its energy operator.",
+    "eli5Def": "Programming a quantum computer to act like a specific real-world molecule or crystal.",
+    "wikiTitle": "Hamiltonian simulation"
+   },
+   {
+    "term": "Green's function",
+    "shortDef": "An impulse response function representing particle propagation through an interacting system.",
+    "eli5Def": "A mathematical formula tracing how a particle ripples through a material.",
+    "wikiTitle": "Green's function (many-body theory)"
+   },
+   {
+    "term": "Hubbard model",
+    "shortDef": "A foundational lattice model of interacting particles used in solid-state physics.",
+    "eli5Def": "A simplified toy model of electrons hopping around a grid.",
+    "wikiTitle": "Hubbard model"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

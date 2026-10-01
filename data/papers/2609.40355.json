@@ -1,0 +1,80 @@
+{
+ "id": "2609.40355",
+ "version": 1,
+ "title": "Quantum hypothesis testing of non-mixed-unitarity: A multifaceted hierarchy of quantum channel discrimination",
+ "authors": [
+  {
+   "name": "Pratik Ghosal"
+  },
+  {
+   "name": "Pritam Halder"
+  },
+  {
+   "name": "Ayan Patra"
+  },
+  {
+   "name": "Aditi Sen"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-30T17:59:20Z",
+ "updated": "2026-09-30T17:59:20Z",
+ "abstract": "Given multiple uses of an unknown quantum channel, we determine whether it is a specified non-mixed-unitary channel or belongs to the set of mixed-unitary channels. Formulating this as a composite channel hypothesis testing problem, we characterize the Stein exponents achievable by parallel strategies under progressively weaker restrictions on probe states and auxiliary memory. In particular, we consider block-i.i.d. probes, which allow arbitrary correlations within blocks of fixed size while remaining i.i.d. across blocks, and derive finite-letter expressions of the corresponding Stein exponents. Varying the block size, which interpolates between fully i.i.d. and arbitrary probes, together with further restrictions on intra-block correlations and access to auxiliary memory, results in a multifaceted hierarchy. We establish several strict separations within this hierarchy. Without auxiliary memory, we prove that fully i.i.d. probes yield a vanishing Stein exponent for every unital non-mixed-unitary channel, while blocks of three product probes suffice to obtain a strictly positive exponent for the qutrit Werner-Holevo channel. For block size two, although product probes seem to be insufficient for O(3)-covariant channels, an entangled probe achieves a strictly positive exponent for the qutrit Werner-Holevo channel, even though every maximally entangled probe fails. In contrast, auxiliary memory makes fully i.i.d. probes sufficient by yielding a strictly positive exponent for every non-mixed-unitary channel, even without requiring input-reference entanglement, and this exponent admits a lower bound determined by the diamond-norm distance from the mixed-unitary set. Moreover, for odd-dimensional Werner-Holevo channels, we find that this exponent is infinite, with every full-Schmidt-rank pure state being optimal.",
+ "comment": "41 pages, 1 figure, comments are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.40355",
+  "pdf": "https://arxiv.org/pdf/2609.40355",
+  "html": "https://arxiv.org/html/2609.40355"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-01T13:46:50.163Z",
+  "hook": "Determining non-mixed-unitary quantum noise requires memory or multi-probe entanglement to avoid zero test efficiency.",
+  "tldr": [
+   "Tested whether an unknown quantum channel is a specific non-mixed-unitary operation or lies in the mixed-unitary class.",
+   "Derived finite-letter Stein error exponents across a hierarchy of block sizes, memory limits, and probe entanglement.",
+   "Found that without memory, simple independent probes fail, whereas memory or modest block entanglement enables detection."
+  ],
+  "whyItMatters": "Understanding the limits of identifying quantum noise without classical or quantum memory guides the design of efficient calibration protocols for quantum computers.",
+  "eli5": "Imagine trying to figure out if a noisy wire just jumbles messages by random rotations or by something fundamentally destructive. If you only send one isolated signal at a time, you can never be certain, but sending pairs of linked signals or keeping a reference notebook lets you spot the difference.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum channel",
+    "shortDef": "A mathematical map describing the noisy physical evolution of a quantum state.",
+    "eli5Def": "A noisy pipe or process that changes a quantum message.",
+    "wikiTitle": "Quantum channel"
+   },
+   {
+    "term": "Mixed-unitary channel",
+    "shortDef": "A channel represented as a probabilistic mixture of reversible unitary operations.",
+    "eli5Def": "A type of noise that just randomly picks one reversible rotation out of a hat and applies it.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Stein exponent",
+    "shortDef": "The exponential rate of error decay in asymmetric quantum hypothesis testing.",
+    "eli5Def": "A score measuring how quickly your chance of making an error shrinks as you test more samples.",
+    "wikiTitle": "Quantum hypothesis testing"
+   },
+   {
+    "term": "Diamond-norm distance",
+    "shortDef": "A standard metric for the maximum distinguishability between two quantum operations.",
+    "eli5Def": "A ruler used to measure the biggest possible difference between two quantum processes.",
+    "wikiTitle": "Quantum operation"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

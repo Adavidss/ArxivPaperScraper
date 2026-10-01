@@ -1,0 +1,73 @@
+{
+ "id": "2609.40351",
+ "version": 1,
+ "title": "All Unitaries Have Constant Depth Quantum Circuits",
+ "authors": [
+  {
+   "name": "Barak Nehoran"
+  },
+  {
+   "name": "Henry Yuen"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-09-30T17:59:12Z",
+ "updated": "2026-09-30T17:59:12Z",
+ "abstract": "It is well-known that every $n$-qubit unitary can be implemented by a $2^{O(n)}$-depth quantum circuit using single- and two-qubit gates. It has been open whether exponential depth is \\emph{necessary} for general unitaries, even when allowing for unlimited number of ancilla qubits. We show, perhaps surprisingly, that all unitaries can be approximated to operator norm $ε$ by a circuit of one- and two-qubit gates of depth $\\poly(n,\\log 1/ε)$ with $2^{O(n)}$ ancilla qubits. In other words, every $n$-qubit unitary can be parallelized to polynomial depth. Moreover, if we allow unbounded fan-out gates, these circuits can be reduced further to \\emph{constant} depth. Our construction takes advantage of a novel relationship connecting the unitary synthesis problem of Aaronson and Kuperberg to locally-decodable codes and private information retrieval from complexity theory and cryptography.",
+ "comment": "35 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2609.40351",
+  "pdf": "https://arxiv.org/pdf/2609.40351",
+  "html": "https://arxiv.org/html/2609.40351"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-01T13:46:50.163Z",
+  "hook": "Any n-qubit unitary can be compressed to constant circuit depth using unbounded fan-out gates and 2^O(n) ancillas.",
+  "tldr": [
+   "Investigated whether arbitrary n-qubit quantum operations inherently require exponential circuit execution time.",
+   "Connected unitary synthesis to error-correcting codes and private information retrieval from theoretical computer science.",
+   "Proved all unitaries can run in polynomial depth, or constant depth if unbounded fan-out operations are available."
+  ],
+  "whyItMatters": "This resolves a longstanding open question about parallel quantum computation by showing that extreme circuit depth is never strictly required if enough auxiliary qubits are available.",
+  "eli5": "Imagine a massive calculation that usually takes billions of sequential steps. This result proves you can recruit a huge army of helper notepads to do almost everything at once, finishing the entire task in constant time.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Unitary",
+    "shortDef": "A reversible transformation acting on quantum states that preserves total probability.",
+    "eli5Def": "A legal quantum move or program that never loses information.",
+    "wikiTitle": "Unitary operator"
+   },
+   {
+    "term": "Circuit depth",
+    "shortDef": "The number of sequential time steps required to execute a circuit assuming parallel gates.",
+    "eli5Def": "The total time a quantum program takes if independent instructions run simultaneously.",
+    "wikiTitle": "Circuit complexity"
+   },
+   {
+    "term": "Ancilla qubits",
+    "shortDef": "Auxiliary qubits used as scratch space during a quantum computation.",
+    "eli5Def": "Extra scratchpad bits used to hold temporary working steps.",
+    "wikiTitle": "Ancilla bit"
+   },
+   {
+    "term": "Unbounded fan-out",
+    "shortDef": "A quantum operation that copies a control qubit's action across an arbitrary number of targets simultaneously.",
+    "eli5Def": "A magic megaphone gate that can command any number of bits at the exact same instant.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

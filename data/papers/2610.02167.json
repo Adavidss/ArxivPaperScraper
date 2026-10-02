@@ -1,0 +1,86 @@
+{
+ "id": "2610.02167",
+ "version": 1,
+ "title": "Polynomial-time classical and quantum simulation of quantum impurity models",
+ "authors": [
+  {
+   "name": "Jiaqing Jiang"
+  },
+  {
+   "name": "Nathan Ju"
+  },
+  {
+   "name": "Ojas Parekh"
+  },
+  {
+   "name": "Chaithanya Rayudu"
+  },
+  {
+   "name": "Andrew Zhao"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el",
+  "cs.CC",
+  "cs.DS",
+  "physics.chem-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:55:25Z",
+ "updated": "2026-10-01T17:55:25Z",
+ "abstract": "Quantum impurity models are paradigmatic models of interacting quantum matter, as well as key computational primitives for modern electronic-structure methods. They describe a small subsystem of interacting fermions coupled to a large, noninteracting bath. We perform a comprehensive study of the computational complexity of simulating impurity models, delineating the boundary between classical and quantum tractability for this class of problems. Our main finding is that static properties of quantum impurity models can be calculated efficiently on a classical computer. Specifically, we give classical algorithms that (1) estimate the ground-state energy to additive precision $δ$ in time $\\mathrm{poly}(n,δ^{-1})$, and (2) estimate the partition function at inverse temperature $β$ to relative precision $δ$ in time $\\mathrm{poly}(n,β,δ^{-1})$, where $n$ is the system size. These results improve the previous best-known complexity for ground-state energy estimation from quasipolynomial to polynomial time, while establishing for the first time rigorous polynomial-time guarantees for simulating impurity models in thermal equilibrium. On the other hand, we find that simulating dynamical properties of impurity models is hard for classical computers but easy on a quantum computer. As a canonical example, we show that computing their nonequilibrium Green's functions captures the full power of quantum computation, even at finite temperature. Taken together, our results rule out superpolynomial quantum speedups for computing static properties, but provide an avenue for quantum advantage in simulating impurity physics out of equilibrium.",
+ "comment": "73 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02167",
+  "pdf": "https://arxiv.org/pdf/2610.02167",
+  "html": "https://arxiv.org/html/2610.02167"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-02T13:03:33.745Z",
+  "hook": "Static properties of quantum impurity models can be computed in polynomial time on classical computers.",
+  "tldr": [
+   "Investigated the computational complexity of simulating quantum impurity models on classical and quantum computers.",
+   "Developed new classical algorithms to estimate ground-state energy and thermal partition functions in polynomial time.",
+   "Found that while static properties are easy for classical computers, simulating dynamical properties requires full quantum power."
+  ],
+  "whyItMatters": "By proving that certain complex quantum systems can be efficiently simulated on normal computers, we save quantum hardware for problems where it truly shines.",
+  "eli5": "Think of a tiny interacting system plugged into a massive ocean of particles. While calculating the steady, resting behavior of this system is surprisingly easy for a normal laptop, watching it ripple and change in real-time requires a powerful quantum computer.",
+  "keyNumbers": [
+   {
+    "value": "73",
+    "label": "Pages",
+    "context": "Length of the research paper manuscript."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum impurity model",
+    "shortDef": "A small interacting subsystem coupled to a large noninteracting particle bath.",
+    "eli5Def": "A unique, interacting player stuck inside a massive crowd of boring, non-interacting onlookers.",
+    "wikiTitle": "Quantum impurity model"
+   },
+   {
+    "term": "Partition function",
+    "shortDef": "A mathematical quantity that encodes the statistical properties of a system in thermodynamic equilibrium.",
+    "eli5Def": "A master formula that adds up all possible energy states of a system to describe its overall temperature behavior.",
+    "wikiTitle": "Partition function (mathematics)"
+   },
+   {
+    "term": "Green's functions",
+    "shortDef": "Mathematical functions used to solve differential equations and describe particle propagation over time.",
+    "eli5Def": "Equations that tell you how a ripple or a disturbance travels through a system over time.",
+    "wikiTitle": "Green's function (many-body theory)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "2610.02183",
+ "version": 1,
+ "title": "Single-Particle Spectral Estimation",
+ "authors": [
+  {
+   "name": "Adrian Chapman"
+  },
+  {
+   "name": "Charles Derby"
+  },
+  {
+   "name": "Steven T. Flammia"
+  },
+  {
+   "name": "Yeongwoo Hwang"
+  },
+  {
+   "name": "Joel Klassen"
+  },
+  {
+   "name": "Calum McCartney"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:58:29Z",
+ "updated": "2026-10-01T17:58:29Z",
+ "abstract": "We study Hamiltonian learning in a novel setting, where we are promised a physical structure that is obfuscated by a global unitary. In particular, we consider the task of learning the weights $E_i$ of a Hamiltonian $H=U^{\\dagger}(\\sum_{i \\in I} E_i n_i + H_O)U$ comprised of a set of non-interacting modes $I$ and an arbitrary ``spectator'' $H_O$ acting on a disjoint set of modes $O$. The non-interacting structure is hidden by an unknown global unitary $U$, and our goal is to recover the $E_i$ without reconstructing $U$. Such Hamiltonians are well-motivated in the setting of materials modeling, where they find application for classical methods such as mean-field theory, Green's functions, and density functional theory. We show that this problem is DQC1-hard, despite the apparent simplification given by the non-interacting structure. We then introduce SPICES (single-particle inference via contour estimators), which combines a Hadamard test with a novel classical postprocessing procedure to efficiently recover the spectral distribution in Wasserstein distance under certain natural assumptions. The method exploits the correspondence between single-particle energies of the individual quasiparticles and the Fourier frequencies governing zeros of the partition function at complex inverse temperature. As quasiparticle spectra feature ubiquitously in downstream materials calculations, and with SPICES being simple and practical to execute, we expect that SPICES is a promising route to quantum applications in materials simulation.",
+ "comment": "70 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02183",
+  "pdf": "https://arxiv.org/pdf/2610.02183",
+  "html": "https://arxiv.org/html/2610.02183"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-02T13:03:33.745Z",
+  "hook": "Researchers introduce SPICES, a new method to learn hidden material structures that is DQC1-hard.",
+  "tldr": [
+   "They studied Hamiltonian learning for non-interacting modes obfuscated by an unknown global unitary.",
+   "They introduced SPICES, combining a Hadamard test with a novel classical postprocessing procedure.",
+   "They showed the problem is DQC1-hard while proving SPICES efficiently recovers the spectral distribution."
+  ],
+  "whyItMatters": "Understanding materials at an atomic level is notoriously difficult because quantum rules and hidden transformations get in the way. This method offers a practical bridge toward quantum-assisted materials simulation.",
+  "eli5": "Think of trying to figure out the individual ingredients of a smoothie after someone has scrambled and baked it into a solid cake. SPICES is a clever new recipe-decoder that lets you figure out the original ingredients without having to un-bake the whole cake.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in physics.",
+    "eli5Def": "The master equation that keeps track of all the energy and forces in a physical system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "DQC1",
+    "shortDef": "A quantum complexity class capturing problems solvable with limited quantum resources.",
+    "eli5Def": "A tier of computing difficulty that is harder than regular computer tasks, but might be easier than full-blown quantum computers.",
+    "wikiTitle": "DQC1"
+   },
+   {
+    "term": "Wasserstein distance",
+    "shortDef": "A distance metric between probability distributions, often called earth mover's distance.",
+    "eli5Def": "A way to measure how much effort it takes to reshape one pile of dirt into the exact shape of another pile.",
+    "wikiTitle": "Wasserstein metric"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

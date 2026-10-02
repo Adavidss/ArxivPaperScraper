@@ -1,0 +1,73 @@
+{
+ "id": "2610.02172",
+ "version": 1,
+ "title": "Robust exponential lower bounds for fermionic and bosonic Gaussian ranks",
+ "authors": [
+  {
+   "name": "Fuchuan Wei"
+  },
+  {
+   "name": "Kong-Wing Wu"
+  },
+  {
+   "name": "Zhengwei Liu"
+  },
+  {
+   "name": "Zi-Wen Liu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:56:56Z",
+ "updated": "2026-10-01T17:56:56Z",
+ "abstract": "The power and limitations of classical simulation are central to understanding quantum computational advantages. A leading simulation paradigm is based on coherent decomposition into classically tractable free states where the decomposition rank determines the simulation complexity. Proving strong lower bounds on this number is a notoriously difficult and mathematically rich problem, as exemplified by the qubit stabilizer rank problem. Here, we study the Gaussian version of this problem in both bosonic and fermionic systems and establish robust exponential lower bounds on Gaussian rank. In particular, we prove that for every pure non-Gaussian state on finitely many modes, with definite parity in the fermionic case, the approximate border Gaussian rank of its tensor powers grows at least exponentially at any fixed norm error below one. Our proofs combine reduction to four modes with Majorana spectral bounds for fermions, and Gaussian postselection with an entropy-based rank bound for bosons. As concrete examples, we derive explicit exponential lower bounds for the four-mode fermionic GHZ state and the bosonic single-photon state. The bosonic results require no assumption on the energy of the target state. Our results show that non-Gaussianity universally entails exponential Gaussian decomposition complexity, setting fundamental limitations on decomposition-based classical simulation of bosonic and fermionic systems.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02172",
+  "pdf": "https://arxiv.org/pdf/2610.02172",
+  "html": "https://arxiv.org/html/2610.02172"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-02T13:03:33.745Z",
+  "hook": "Non-Gaussian quantum states universally require exponential classical simulation complexity.",
+  "tldr": [
+   "Studied the Gaussian rank problem for both bosonic and fermionic quantum systems to understand classical simulation limits.",
+   "Combined four-mode reductions with Majorana spectral bounds and Gaussian postselection with entropy-based rank bounds.",
+   "Proved robust exponential lower bounds on the approximate border Gaussian rank for tensor powers of pure non-Gaussian states."
+  ],
+  "whyItMatters": "Understanding the limits of classical simulation helps scientists pinpoint exactly where and why quantum computers can outperform standard machines.",
+  "eli5": "Imagine trying to describe a complex, messy sculpture using only simple, smooth clay balls. If the shape is non-Gaussian, you need an exponentially growing pile of simple balls to capture it, making the math too heavy for a regular computer.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Gaussian state",
+    "shortDef": "A class of quantum states that are mathematically well-behaved and easy to simulate classically.",
+    "eli5Def": "Think of these as the tidy, predictable building blocks of the quantum world that normal computers can easily handle.",
+    "wikiTitle": "Gaussian state"
+   },
+   {
+    "term": "Fermionic",
+    "shortDef": "Relating to particles like electrons that obey the Pauli exclusion principle.",
+    "eli5Def": "Particles like electrons that refuse to sit in the exact same state and place, acting like individualists.",
+    "wikiTitle": "Fermion"
+   },
+   {
+    "term": "Bosonic",
+    "shortDef": "Relating to force-carrying or matter particles like photons that can share states freely.",
+    "eli5Def": "Particles like light packets that love to bunch up and occupy the exact same state together.",
+    "wikiTitle": "Boson"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

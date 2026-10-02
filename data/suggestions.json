@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01T13:46:50.163Z",
+ "generatedAt": "2026-10-02T13:03:33.745Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -60,6 +60,26 @@
     "Quantum Channel Stein Theorem beyond Definite Causal Order"
    ],
    "paperCount": 5
+  },
+  {
+   "name": "Zi-Wen Liu",
+   "slug": "zi-wen-liu",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2610.02172",
+    "2609.30159",
+    "2609.28461"
+   ],
+   "recentTitles": [
+    "Robust exponential lower bounds for fermionic and bosonic Gaussian ranks",
+    "Non-Abelian sheaf quantum LDPC codes: good and magical"
+   ],
+   "paperCount": 4
   },
   {
    "name": "Soonwon Choi",
@@ -177,28 +197,6 @@
    "recentTitles": [
     "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies",
     "Symmetry Constraints Regularize Neural Quantum State Learning"
-   ],
-   "paperCount": 2
-  },
-  {
-   "name": "Yoji Kawamura",
-   "slug": "yoji-kawamura",
-   "score": 4,
-   "coAuthoredWith": [
-    "daniel-g-ang",
-    "ronald-walsworth"
-   ],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.20552",
-    "2608.27399"
-   ],
-   "recentTitles": [
-    "Mineral Detection of Neutrinos and Dark Matter 2026 Proceedings",
-    "Krylov Break Times from an Inhomogeneous Lieb--Robinson Light Cone"
    ],
    "paperCount": 2
   }

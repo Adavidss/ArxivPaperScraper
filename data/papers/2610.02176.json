@@ -1,0 +1,70 @@
+{
+ "id": "2610.02176",
+ "version": 1,
+ "title": "From Permutation Symmetry to Communication Bounds and Additivity",
+ "authors": [
+  {
+   "name": "Zahra Baghali Khanian"
+  },
+  {
+   "name": "Debbie Leung"
+  },
+  {
+   "name": "Graeme Smith"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:57:24Z",
+ "updated": "2026-10-01T17:57:24Z",
+ "abstract": "Correlations across channel uses can improve quantum communication rates, making optimization over arbitrarily large blocks a central difficulty in determining quantum capacity. We show how full permutation invariance limits this advantage for every finite-dimensional memoryless channel. The optimized coherent information per use converges to the single-use maximum and consequently attains its supremum at a finite block length. Thus finite-block superadditivity remains possible, while the asymptotic optimization reduces to a single channel use. We also establish a strong converse for pure-source entanglement generation with permutation-invariant inputs: at any fixed rate above the single-use coherent-information maximum, the fidelity tends to zero. Beyond these communication bounds, we identify a common structure underlying completely bounded norms and the sandwiched Rényi channel quantities governing discrimination against a replacer and entanglement-assisted communication. De Finetti reduction and permutation covariance yield systematic alternative proofs of their known multiplicativity and additivity results within a shared variational framework. We further show that, for permutation-invariant inputs, correlations cannot sustain an asymptotic reduction in output entropy per use below the single-use minimum. This entropy limit holds for Rényi orders greater than one and for the von Neumann entropy, extending the role of symmetry from communication bounds to the control of output entropy.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02176",
+  "pdf": "https://arxiv.org/pdf/2610.02176",
+  "html": "https://arxiv.org/html/2610.02176"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-02T13:03:33.745Z",
+  "hook": "Full permutation invariance limits quantum communication advantages, reducing asymptotic optimization to a single channel use.",
+  "tldr": [
+   "They investigated how full permutation invariance limits communication advantages across channel uses.",
+   "They used de Finetti reduction and permutation covariance to analyze output entropy and channel quantities.",
+   "They showed that optimized coherent information converges to the single-use maximum at a finite block length."
+  ],
+  "whyItMatters": "Optimizing quantum communication over huge blocks of data is extremely complex. This proof simplifies the math by showing that looking at single channel uses is often enough.",
+  "eli5": "If you are trying to send secret messages through a noisy pipe, sending huge bundles of messages together sometimes helps. This paper proves that past a certain point, bundling does not give you any extra superpower, so you might as well send them one at a time.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Permutation invariance",
+    "shortDef": "A property where the output does not change if the input items are reordered.",
+    "eli5Def": "A system that treats all inputs equally, no matter what order you feed them in.",
+    "wikiTitle": "Symmetric function"
+   },
+   {
+    "term": "Coherent information",
+    "shortDef": "A measure of quantum information that can be reliably transmitted through a noisy channel.",
+    "eli5Def": "How much clear, uncorrupted quantum data manages to squeeze through a messy communication line.",
+    "wikiTitle": "Quantum capacity"
+   },
+   {
+    "term": "Von Neumann entropy",
+    "shortDef": "The standard measure of statistical uncertainty or mixedness for a quantum state.",
+    "eli5Def": "The ultimate yardstick for how much randomness or hidden surprise is locked inside a quantum system.",
+    "wikiTitle": "Von Neumann entropy"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

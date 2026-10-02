@@ -1,0 +1,79 @@
+{
+ "id": "2610.02178",
+ "version": 1,
+ "title": "Learning SYK Hamiltonians",
+ "authors": [
+  {
+   "name": "Anurag Anshu"
+  },
+  {
+   "name": "Srinivasan Arunachalam"
+  },
+  {
+   "name": "Sitan Chen"
+  },
+  {
+   "name": "Yeongwoo Hwang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:57:37Z",
+ "updated": "2026-10-01T17:57:37Z",
+ "abstract": "We study the problem of learning the dense Sachdev--Ye--Kitaev (SYK) Hamiltonian from copies of its Gibbs state. Existing algorithms for Hamiltonian learning typically rely on geometric locality or bounded interaction degree and therefore do not apply to SYK, where each quartic interaction overlaps with $Θ(n^3)$ others. We show that this obstruction can be overcome by exploiting the random mean-field structure of the model. At any constant temperature, we prove that with high probability over the SYK couplings, the entire Hamiltonian can be learned to inverse-polynomial accuracy using polynomially many samples. Furthermore, when the inverse temperature is restricted to be a sufficiently small constant, we construct a quasipolynomial-time learning algorithm which is qualitatively different from the sample-efficient algorithm.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02178",
+  "pdf": "https://arxiv.org/pdf/2610.02178",
+  "html": "https://arxiv.org/html/2610.02178"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-02T13:03:33.745Z",
+  "hook": "New algorithms learn the dense Sachdev-Ye-Kitaev Hamiltonian using polynomially many samples.",
+  "tldr": [
+   "They studied the problem of learning the dense Sachdev-Ye-Kitaev (SYK) model from copies of its Gibbs state.",
+   "They overcame the lack of geometric locality by exploiting the random mean-field structure of the model.",
+   "They proved that the entire Hamiltonian can be learned to inverse-polynomial accuracy using polynomial samples."
+  ],
+  "whyItMatters": "The SYK model is a famous toy model for quantum gravity and black holes. Being able to learn it efficiently brings us closer to simulating chaotic quantum systems.",
+  "eli5": "Normally, trying to decode a giant web where every single piece interacts with thousands of others is hopeless. By realizing the web follows a random, chaotic average pattern, the authors found a shortcut to map out the whole system.",
+  "keyNumbers": [
+   {
+    "value": "3",
+    "label": "interaction overlap exponent",
+    "context": "Each quartic interaction overlaps with \\Theta(n^3) others."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "SYK Hamiltonian",
+    "shortDef": "A model of interacting fermions with all-to-all random couplings, useful in quantum gravity.",
+    "eli5Def": "A mathematical model of a chaotic black hole where every particle is randomly connected to every other particle.",
+    "wikiTitle": "Sachdev–Ye–Kitaev model"
+   },
+   {
+    "term": "Gibbs state",
+    "shortDef": "A quantum state representing a system in thermal equilibrium at a given temperature.",
+    "eli5Def": "The natural resting state of a system when it has settled down at a specific temperature.",
+    "wikiTitle": "Canonical ensemble"
+   },
+   {
+    "term": "Mean-field structure",
+    "shortDef": "An approximation where complex interactions are replaced by an effective average interaction.",
+    "eli5Def": "Pretending every person in a chaotic crowd just responds to an average background noise instead of tracking every single neighbor.",
+    "wikiTitle": "Mean field theory"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

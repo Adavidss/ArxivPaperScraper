@@ -1,0 +1,79 @@
+{
+ "id": "2610.02166",
+ "version": 1,
+ "title": "Beyond Light Cones: State Preparation Complexity in Quantum Spin Glasses",
+ "authors": [
+  {
+   "name": "Omar Al-Ghattas"
+  },
+  {
+   "name": "David Gamarnik"
+  },
+  {
+   "name": "Bobak T Kiani"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.dis-nn",
+  "cs.CC",
+  "math.PR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:55:21Z",
+ "updated": "2026-10-01T17:55:21Z",
+ "abstract": "We introduce a method for studying state preparation complexity in dense quantum $p$-spin Hamiltonians on $n$ qubits, going beyond bounds based only on circuit lightcones. The key input is the class's effective profile complexity, which is derived from the metric entropy of its Pauli profiles. These profiles record expectations of all Pauli operators supported on exactly $p$ qubits. Classes with uniformly bounded quadratic effective profile complexity remain separated from the ground-state energy by a positive multiple of $\\sqrt n$ for sufficiently large fixed $p$. At subquadratic effective profile complexity, the class cannot outperform a suitable benchmark class at leading order, with product states providing a universal benchmark. The proof combines an adaptation of a nonsymmetric quantum de Finetti theorem of Berta et al. (arXiv:1810.12197) with Gaussian process entropy bounds. Applying this framework, we show that attaining near-ground-state energy requires $Ω(n^2/\\log n)$ one- and two-qubit gates, even with arbitrary discardable ancillas. We also obtain depth-width tradeoffs, entanglement-depth and matrix product state bond-dimension lower bounds, and obstructions for both orientations at every fixed level of Parham's magic hierarchy (arXiv:2504.19966), with total circuit width $O(n)$. In first-level reverse magic, a shallow circuit is followed by an unrestricted Clifford circuit. The latter can spread local observables across the system, preventing a direct application of small-lightcone bounds. For this first-level class, our bounds also allow arbitrarily many clean ancillas at fixed shallow-circuit depth. A sharper benchmark shows that Clifford+$T$ circuits with $o(n)$ $T$-gates have no leading-order energy advantage over product stabilizer states, even with unrestricted Clifford operations and arbitrary discardable ancillas.",
+ "comment": "86 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02166",
+  "pdf": "https://arxiv.org/pdf/2610.02166",
+  "html": "https://arxiv.org/html/2610.02166"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-02T13:03:33.745Z",
+  "hook": "Attaining near-ground-state energy in quantum spin glasses requires omega(n^2 / log n) gates.",
+  "tldr": [
+   "Introduced a method to study state preparation complexity in dense quantum p-spin Hamiltonians beyond light cones.",
+   "Derived effective profile complexity using the metric entropy of Pauli profiles combined with quantum de Finetti theorems.",
+   "Proved strict gate count lower bounds, depth-width tradeoffs, and limitations for magic hierarchies."
+  ],
+  "whyItMatters": "This research reveals deep fundamental barriers in quantum circuit design, showing how hard it is to prepare low-energy states in complex spin glass systems.",
+  "eli5": "Imagine trying to untangle a giant, chaotic knot of magnets into its neatest resting state. The math shows you are forced to make a massive, minimum number of careful moves, no matter how clever your shortcut strategy is.",
+  "keyNumbers": [
+   {
+    "value": "86",
+    "label": "Pages",
+    "context": "Length of the preprint manuscript."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Spin glass",
+    "shortDef": "A magnetically disordered system with competing interactions creating complex energy landscapes.",
+    "eli5Def": "A jumble of tiny microscopic magnets that are confused about which way to point, creating a complex puzzle.",
+    "wikiTitle": "Spin glass"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "The master rulebook that dictates how energy flows and changes in a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Metric entropy",
+    "shortDef": "A measure of the size of a set in terms of the number of balls needed to cover it.",
+    "eli5Def": "A way of measuring how diverse and spread out a collection of possibilities truly is.",
+    "wikiTitle": "Metric entropy"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "2610.02157",
+ "version": 1,
+ "title": "Learning Many-Body Hamiltonians Using a Local Probe",
+ "authors": [
+  {
+   "name": "Suying Liu"
+  },
+  {
+   "name": "Zitai Xu"
+  },
+  {
+   "name": "Alexey V. Gorshkov"
+  },
+  {
+   "name": "Xiaodi Wu"
+  },
+  {
+   "name": "Yu-Xin Wang"
+  },
+  {
+   "name": "Zhi-Yuan Wei"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:51:57Z",
+ "updated": "2026-10-01T17:51:57Z",
+ "abstract": "Hamiltonian learning provides a systematic framework for reconstructing unknown quantum dynamics. However, existing protocols typically assume direct measurement access to the entire system. With fast single-qubit control and a connected reference backbone, we show that a single measurable qubit suffices to learn all $O(N)$ independent parameters of a bounded-degree two-body Hamiltonian on $N$ qubits at the Heisenberg limit. Crucially, our protocol uses robust SWAP gates synthesized by quantum signal processing, enabling coherent transfer of states evolving under distant Hamiltonian parameters to the measurable qubit. This transfer requires no prior calibration of the Hamiltonian parameters of the intermediate links. A parallel learning architecture achieves total query time $\\widetilde{O}(N)$ for an $N$-qubit chain, while retaining Heisenberg-limited precision scaling. On the chain, these scalings match the fundamental precision and information-propagation lower bounds up to logarithmic factors. The framework further extends to arbitrary bounded-degree interaction graphs. Our results establish a scalable route to learning an extensive number of many-body Hamiltonian parameters through only a local measurement interface.",
+ "comment": "32 pages, including 1 figure and 12 pages of Supplementary Material",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02157",
+  "pdf": "https://arxiv.org/pdf/2610.02157",
+  "html": "https://arxiv.org/html/2610.02157"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-03T11:56:23.519Z",
+  "hook": "Just a single measurable qubit can learn all O(N) parameters of a many-body quantum Hamiltonian.",
+  "tldr": [
+   "Researchers developed a protocol to reconstruct unknown quantum many-body Hamiltonian dynamics using only a single measurable qubit.",
+   "They used robust SWAP gates synthesized by quantum signal processing to coherently transfer states from distant parts of the system without prior calibration.",
+   "They achieved a parallel total query time of ~O(N) for an N-qubit chain while maintaining Heisenberg-limited precision scaling."
+  ],
+  "whyItMatters": "Scaling up quantum computers usually requires measuring every single part of the system simultaneously, which is extremely difficult. This method proves you can extract all necessary system parameters using just one local measurement interface.",
+  "eli5": "Imagine trying to figure out how a giant row of connected dominoes behaves, but instead of looking at every single one, you only watch the very last domino in line. By carefully nudging and listening to that single piece, you can map out how all the hidden pieces interact.",
+  "keyNumbers": [
+   {
+    "value": "O(N)",
+    "label": "Independent Parameters",
+    "context": "Number of independent parameters of a bounded-degree two-body Hamiltonian on N qubits."
+   },
+   {
+    "value": "O(N)",
+    "label": "Total Query Time",
+    "context": "Parallel learning architecture query time for an N-qubit chain."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system, governing how it changes over time.",
+    "eli5Def": "The master rulebook that dictates how a quantum system moves and changes energy.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Heisenberg limit",
+    "shortDef": "The ultimate fundamental precision limit in quantum measurement, scaling inversely with resources.",
+    "eli5Def": "The absolute best accuracy possible allowed by the laws of quantum physics.",
+    "wikiTitle": "Heisenberg limit"
+   },
+   {
+    "term": "Quantum signal processing",
+    "shortDef": "A mathematical framework for manipulating quantum states using single-qubit rotations.",
+    "eli5Def": "A clever recipe for programming quantum gates precisely.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

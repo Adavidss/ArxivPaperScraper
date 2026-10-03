@@ -1,0 +1,71 @@
+{
+ "id": "2610.02154",
+ "version": 1,
+ "title": "The Robustness of QAC0",
+ "authors": [
+  {
+   "name": "Daniel Grier"
+  },
+  {
+   "name": "Jackson Morris"
+  },
+  {
+   "name": "Kewen Wu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:51:06Z",
+ "updated": "2026-10-01T17:51:06Z",
+ "abstract": "In this work we study the robustness of $\\mathsf{QAC}^0$ with respect to error tolerance and modifications to its gate-set. First, we investigate whether the non-zero error typically allowed for $\\mathsf{QAC}^0$ circuits computing Boolean functions is truly necessary. We show that the error inherent in the parallel $W$-test of \\cite{grier_morris_wu} can be eliminated entirely via a novel application of exact amplitude amplification in the many-copies context. Consequently, we find that $\\mathsf{QAC}^0$ can \\textit{exactly} simulate $\\mathsf{TC}^0$ with polynomially many copies of the classical input and that for every fixed prime $p$ exact $\\mathsf{QAC}^0$, $\\mathsf{EQAC}^0$, can compute total Boolean functions outside of $\\mathsf{AC}^0[p]$. Second, we ask to what extent the computational power of $\\mathsf{QAC}^0$ follows from the fact that arbitrary single-qubit gates may be used at any point in the circuit. We find that $\\mathsf{QAC}^0$ is in fact robust to restrictions on which single-qubit gates are permitted: every $\\mathsf{QAC}^0$ circuit can be approximately implemented by a $\\mathsf{QAC}^0$ circuit consisting of just generalized Toffoli, $S$, and Hadamard gates. Moreover, this approximating circuit can be constructed efficiently from a classical description of the original circuit.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02154",
+  "pdf": "https://arxiv.org/pdf/2610.02154",
+  "html": "https://arxiv.org/html/2610.02154"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-03T11:56:23.519Z",
+  "hook": "Quantum circuit class QAC0 can exactly simulate TC0 using polynomially many copies of classical input.",
+  "tldr": [
+   "The authors studied the robustness of the quantum circuit class QAC0 regarding error tolerance and gate-set modifications.",
+   "They eliminated the parallel W-test error entirely using exact amplitude amplification with many copies of inputs.",
+   "They showed QAC0 is robust against restrictions, being implementable with just generalized Toffoli, S, and Hadamard gates."
+  ],
+  "whyItMatters": "Understanding the limits and stability of shallow quantum circuits helps researchers determine which computational tasks quantum computers can execute efficiently over classical computers.",
+  "eli5": "Think of a quantum circuit like a specialized kitchen appliance. The researchers proved this particular appliance doesn't need all of its fancy buttons to work; it can do the same job even if you strip away most of its controls.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "QAC0",
+    "shortDef": "A complexity class of constant-depth quantum circuits with unbounded fan-in gates.",
+    "eli5Def": "A type of shallow quantum computer circuit made of fast, parallel processing blocks.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Amplitude amplification",
+    "shortDef": "A quantum algorithm technique that increases the probability of finding a desired target state.",
+    "eli5Def": "A quantum magnifying glass that boosts the chance of seeing the right answer.",
+    "wikiTitle": "Amplitude amplification"
+   },
+   {
+    "term": "Hadamard gate",
+    "shortDef": "A fundamental quantum gate that creates a superposition of states.",
+    "eli5Def": "A quantum coin flipper that puts a bit into a blend of both 0 and 1 at the same time.",
+    "wikiTitle": "Hadamard gate"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "2610.02146",
+ "version": 1,
+ "title": "Polynomial-time additive-error estimation of output probabilities for shallow quantum circuits",
+ "authors": [
+  {
+   "name": "Matthew Coudron"
+  },
+  {
+   "name": "Michael J. Gullans"
+  },
+  {
+   "name": "Jon Nelson"
+  },
+  {
+   "name": "Joel Rajakumar"
+  },
+  {
+   "name": "Shi Jie Samuel Tan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC",
+  "cs.DS"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:49:01Z",
+ "updated": "2026-10-01T17:49:01Z",
+ "abstract": "We give a deterministic classical algorithm that estimates $|\\langle x|U|0^n\\rangle|^2$ to additive error $\\varepsilon$ in $\\mathrm{poly}(n, 1/\\varepsilon)$ time, where $U$ is a constant-depth quantum circuit comprised of gates with bounded fan-in and arbitrary connectivity, and $x$ is an arbitrary $n$-bit output string. This improves over prior state-of-the-art algorithms that takes $n^{O(log(n))}$ time for the same task, $n^{O(log(log(n))}$ when $U$ is geometrically local, and $n^{O(1)}$ for 2D geometrically-local circuits.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02146",
+  "pdf": "https://arxiv.org/pdf/2610.02146",
+  "html": "https://arxiv.org/html/2610.02146"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-03T11:56:23.519Z",
+  "hook": "A new deterministic classical algorithm estimates output probabilities of shallow quantum circuits in poly time.",
+  "tldr": [
+   "Researchers developed a deterministic classical algorithm to estimate quantum circuit output probabilities to an additive error.",
+   "They focused on constant-depth quantum circuits with bounded fan-in and arbitrary connectivity.",
+   "The new approach improves significantly over prior state-of-the-art super-polynomial time algorithms."
+  ],
+  "whyItMatters": "Showing that classical computers can efficiently simulate certain shallow quantum circuits helps define the true boundary where quantum computers gain a definitive advantage.",
+  "eli5": "Even though quantum computers are powerful, scientists found a regular computer shortcut that can quickly guess the outcome of certain shallow quantum setups, beating previous slow methods.",
+  "keyNumbers": [
+   {
+    "value": "poly(n, 1/ε)",
+    "label": "Algorithm Time",
+    "context": "Time complexity for estimating output probabilities to additive error epsilon."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Deterministic algorithm",
+    "shortDef": "An algorithm that, given the same input, will always produce the same output.",
+    "eli5Def": "A reliable step-by-step recipe that never relies on random luck and always gives the same answer.",
+    "wikiTitle": "Deterministic algorithm"
+   },
+   {
+    "term": "Additive error",
+    "shortDef": "An error bound measured by the absolute difference between true and estimated values.",
+    "eli5Def": "A fixed margin of error added or subtracted from a target score.",
+    "wikiTitle": "Approximation error"
+   },
+   {
+    "term": "Constant-depth quantum circuit",
+    "shortDef": "A circuit where the maximum length of any path of gates does not grow with system size.",
+    "eli5Def": "A short assembly line of quantum operations that doesn't get any longer no matter how big the input is.",
+    "wikiTitle": "Quantum circuit"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

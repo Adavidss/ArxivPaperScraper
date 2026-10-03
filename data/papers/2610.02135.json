@@ -1,0 +1,70 @@
+{
+ "id": "2610.02135",
+ "version": 1,
+ "title": "Random Quantum Circuits Beyond Moment Matching",
+ "authors": [
+  {
+   "name": "Shih-Han Hung"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:43:54Z",
+ "updated": "2026-10-01T17:43:54Z",
+ "abstract": "Random quantum circuits aim to efficiently reproduce the statistical properties of ideal random quantum evolution. One approach is to construct approximate unitary designs, which match the moments of Haar-random unitaries up to a prescribed order with controlled error. In this work, we establish quantitative guarantees for how accurately these designs reproduce the full distributions of individual output probabilities. We show that, for every strong $\\varepsilon$-approximate unitary $k$-design on $n$ qubits, the distribution of each individual output probability is within $O\\left(\\sqrt{\\frac{2^n}{k(k+2^n)}}+\\varepsilon\\right)$ in Kolmogorov distance of the finite-dimensional Porter-Thomas distribution, a beta distribution with parameters $1$ and $2^n-1$. This bound is optimal up to constant factors, implying that a substantially better uniform bound requires additional structure. We further show that local invariance yields an exponential improvement in the dependence on $k$, with guarantees also in the stronger metric of total variation: every strong $\\varepsilon$-approximate unitary $k$-design invariant under unitary translations acting on $\\log k+O(1)$ qubits achieves error $2^{-Ω(k)}+O(\\varepsilon)$ in Kolmogorov distance and $2^{-Ω(k)}+O(\\varepsilon\\log(2/\\varepsilon))$ in total variation distance. These results identify both the distributional accuracy guaranteed by moment matching and the additional structure that substantially improves it. As an application, we show that if the marginal distribution of each output probability of a strong approximate design is within Kolmogorov distance $η$ of its Haar counterpart, then the expected Shannon entropy of the output distribution differs from its Haar value by $O(\\sqrtη)$.",
+ "comment": "52 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02135",
+  "pdf": "https://arxiv.org/pdf/2610.02135",
+  "html": "https://arxiv.org/html/2610.02135"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-03T11:56:23.519Z",
+  "hook": "Approximate unitary $k$-designs reproduce individual output probabilities within Kolmogorov distance bounds.",
+  "tldr": [
+   "Established quantitative guarantees for how accurately approximate unitary designs reproduce output probability distributions.",
+   "Proved that output probability distributions are within an optimal Kolmogorov distance bound of the Porter-Thomas distribution.",
+   "Showed that local invariance yields an exponential improvement in the dependence on $k$ for total variation distance."
+  ],
+  "whyItMatters": "Random quantum circuits are fundamental to demonstrating quantum supremacy. Understanding their exact statistical behavior helps scientists verify whether quantum computers are truly working as intended.",
+  "eli5": "Think of shaking a massive box of dice to get completely random rolls. This paper figures out exact mathematical rules for how close a shortcut set of dice rolls comes to truly perfect randomness.",
+  "keyNumbers": [
+   {
+    "value": "1 and 2^n - 1",
+    "label": "Beta Distribution Parameters",
+    "context": "Parameters for the Porter-Thomas distribution."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Unitary design",
+    "shortDef": "A set of quantum operations that mimics the statistical properties of true Haar-random unitaries.",
+    "eli5Def": "A clever shortcut that acts almost as randomly as complete true randomness.",
+    "wikiTitle": "Unitary 2-design"
+   },
+   {
+    "term": "Porter-Thomas distribution",
+    "shortDef": "A specific beta distribution that describes output probabilities of chaotic quantum systems.",
+    "eli5Def": "A bell-curve-like pattern that shows up when you measure chaotic quantum experiments.",
+    "wikiTitle": "Porter-Thomas distribution"
+   },
+   {
+    "term": "Total variation distance",
+    "shortDef": "A strict measure of the distance between two probability distributions.",
+    "eli5Def": "The absolute maximum difference in the chance of seeing any specific outcome between two games.",
+    "wikiTitle": "Total variation distance"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "id": "2610.02137",
+ "version": 1,
+ "title": "One-Shot any Code",
+ "authors": [
+  {
+   "name": "Andrew C. Yuan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:44:41Z",
+ "updated": "2026-10-01T17:44:41Z",
+ "abstract": "We first provide a simple proof showing that any single-shot code is self-correcting. We then show that any $[[n,k]]$ CSS quantum low-density parity-check (QLDPC) code can be transformed into an $[[nm,k]]$ CSS QLDPC code with single-shot (SS) quantum error correction and an efficient local decoder which runs in $O(\\log m)$ parallel time. Below a constant threshold $p_{\\rm RG}>0$ for joint local stochastic physical and measurement noise, the logical failure probability over $T$ correction rounds is bounded by \\begin{equation*} O(T n)\\exp[-Ω(m^α)] \\end{equation*} for a constant $α>0$; we say that the \\textit{threshold} is $p_{\\rm RG}$ and \\textit{error suppression} is $Ω(m^α)$. Moreover, if the input code is equipped with a single-shot decoder with threshold $p_c>0$ and error suppression $Ω(n^β)$, then the output code \\textit{enhances} the error suppression to $Ω(m^α n^β)$, while maintaining the decoder-independent threshold $p_{\\rm RG}$, and thus \\textit{enhanced} if $p_c < p_{\\rm RG}$.",
+ "comment": "The simple proof (single-shot implies self-correction) is only 2 pages, and independent of everything else",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02137",
+  "pdf": "https://arxiv.org/pdf/2610.02137",
+  "html": "https://arxiv.org/html/2610.02137"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.02137v1/schematic.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-03T11:56:23.519Z",
+  "hook": "Any single-shot quantum code is self-correcting, and CSS QLDPC codes can achieve parallel decoding in O(log m) time.",
+  "tldr": [
+   "Proved that any single-shot code is self-correcting and showed how to transform CSS QLDPC codes into ones with single-shot correction.",
+   "Built an efficient local decoder that runs in O(log m) parallel time under stochastic physical and measurement noise.",
+   "Demonstrated that output codes can enhance error suppression to Ω(m^α n^β) while maintaining a decoder-independent threshold."
+  ],
+  "whyItMatters": "Quantum computers are extremely sensitive to noise, and fixing errors quickly is one of the biggest hurdles to building them. This paper provides mathematical blueprints for making quantum error correction faster and much more reliable.",
+  "eli5": "Imagine trying to proofread a massive library book for typos while someone is constantly shining laser pointers at the pages to mess up the ink. This paper shows a clever way to organize the text so you can fix errors in parallel almost instantly, keeping the library safe.",
+  "keyNumbers": [
+   {
+    "value": "O(log m)",
+    "label": "Parallel Decoding Time",
+    "context": "The running time of the efficient local decoder."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "CSS code",
+    "shortDef": "A type of quantum error-correcting code constructed from classical linear codes.",
+    "eli5Def": "A special recipe for combining qubits so they can catch and fix their own mistakes.",
+    "wikiTitle": "Calderbank-Shor-Steane code"
+   },
+   {
+    "term": "QLDPC",
+    "shortDef": "Quantum low-density parity-check codes, which have sparse parity checks.",
+    "eli5Def": "A way of checking for errors where each qubit only has to talk to a few of its neighbors.",
+    "wikiTitle": "Low-density parity-check code"
+   },
+   {
+    "term": "Kolmogorov distance",
+    "shortDef": "A statistical measure of the distance between two cumulative distribution functions.",
+    "eli5Def": "A way to measure how different two random dice-rolling games actually are.",
+    "wikiTitle": "Kolmogorov-Smirnov test"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

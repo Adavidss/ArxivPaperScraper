@@ -1,0 +1,99 @@
+{
+ "id": "2610.02145",
+ "version": 1,
+ "title": "A provable quantum advantage for approximate optimization via decoded quantum interferometry",
+ "authors": [
+  {
+   "name": "Maximilian J. Kramer"
+  },
+  {
+   "name": "Elies Gil-Fuster"
+  },
+  {
+   "name": "Benjamin D. M. Jones"
+  },
+  {
+   "name": "Jens Eisert"
+  },
+  {
+   "name": "Franz J. Schreiber"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC",
+  "cs.DS"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:48:56Z",
+ "updated": "2026-10-01T17:48:56Z",
+ "abstract": "Decoded quantum interferometry (DQI) is a novel paradigm for tackling approximate optimization problems on quantum computers. This framework comes with strong performance guarantees and exploits a well-established duality between optimization and coding theory. A central question, however, is whether DQI can actually provably outperform all polynomial-time classical algorithms. In this work, we establish such an advantage in an oracle setting: we consider an optimization task called folded optimal polynomial intersection (folded OPI), where the acceptance sets are chosen randomly and accessed through membership oracles. We establish a strict gap between the approximation ratio achievable by any polynomial-time classical algorithm and the approximation ratio achieved by the DQI algorithm. Our proof builds on Jordan et al.'s DQI framework for approximate optimization and extends the classical lower-bound method underlying Yamakawa and Zhandry's exact-search oracle separation to approximation. Building on recent developments by Sun and Wootters, Horinaga and Yamakawa, and Jo, we further show that a modified version of the DQI algorithm achieves a strictly larger gap on the folded OPI problem, yielding an even stronger quantum separation. As a concrete example, for code rate $0.3$, DQI and the modified algorithm achieve expected scores of approximately $0.85$ and $0.95$, respectively. In contrast, exceeding the classical threshold of $0.65$ by any fixed amount with constant probability on sampled instances requires super-polynomially many classical membership queries.",
+ "comment": "59 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02145",
+  "pdf": "https://arxiv.org/pdf/2610.02145",
+  "html": "https://arxiv.org/html/2610.02145"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-03T11:56:23.519Z",
+  "hook": "Decoded quantum interferometry achieves expected scores of 0.95, proving an approximate optimization advantage.",
+  "tldr": [
+   "The authors tested Decoded Quantum Interferometry (DQI) on an approximate optimization task called folded optimal polynomial intersection.",
+   "They proved a strict performance gap between polynomial-time classical algorithms and the quantum DQI algorithm.",
+   "DQI achieved an expected score of approximately 0.85, and a modified version reached 0.95, while classical limits stayed at 0.65."
+  ],
+  "whyItMatters": "Proving a mathematical advantage for quantum optimization over classical methods is crucial for justifying the use of quantum hardware in real-world problem solving.",
+  "eli5": "Finding the absolute best schedule or route is a notoriously hard puzzle for regular computers. Researchers showed that a quantum approach called DQI solves a test puzzle much better than any standard computer shortcut could.",
+  "keyNumbers": [
+   {
+    "value": "0.3",
+    "label": "Code Rate",
+    "context": "Code rate used for the concrete evaluation example of folded OPI."
+   },
+   {
+    "value": "0.85",
+    "label": "DQI Score",
+    "context": "Expected score achieved by the standard DQI algorithm."
+   },
+   {
+    "value": "0.95",
+    "label": "Modified DQI Score",
+    "context": "Expected score achieved by the modified version of the DQI algorithm."
+   },
+   {
+    "value": "0.65",
+    "label": "Classical Threshold",
+    "context": "Threshold required to be exceeded by classical polynomial-time algorithms."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Decoded quantum interferometry",
+    "shortDef": "A framework for approximate optimization combining quantum interference and coding theory.",
+    "eli5Def": "A method that uses wave-like properties of quantum mechanics to filter out bad answers and find good ones.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Membership oracle",
+    "shortDef": "A black-box subroutine that answers whether a given element belongs to a target set.",
+    "eli5Def": "A magic 8-ball that only answers 'yes' or 'no' when you ask if a solution belongs to the target group.",
+    "wikiTitle": "Oracle machine"
+   },
+   {
+    "term": "Coding theory",
+    "shortDef": "The study of properties of codes and their respective fitness for specific applications.",
+    "eli5Def": "The science of designing clever secret languages to pack and protect information.",
+    "wikiTitle": "Coding theory"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

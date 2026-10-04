@@ -1,0 +1,101 @@
+{
+ "id": "2610.02130",
+ "version": 1,
+ "title": "Quantum impurity models: easy at equilibrium, universal in motion",
+ "authors": [
+  {
+   "name": "Srinivasan Arunachalam"
+  },
+  {
+   "name": "Sergey Bravyi"
+  },
+  {
+   "name": "Anirban Chowdhury"
+  },
+  {
+   "name": "Arkopal Dutt"
+  },
+  {
+   "name": "Alexandru Gheorghiu"
+  },
+  {
+   "name": "Zhi Li"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:40:40Z",
+ "updated": "2026-10-01T17:40:40Z",
+ "abstract": "A quantum impurity model describes a small interacting subsystem embedded into a large bath of free fermions. Here we study the computational complexity of calculating the ground energy, thermal equilibrium, and dynamical properties of these models. Our work reveals a sharp contrast: equilibrium properties can be efficiently approximated by classical means, whereas time evolution can implement a universal quantum computation. More precisely, let $H$ be the Hamiltonian of an impurity model with $n$ fermionic modes and a constant-size impurity. We show that: (1) the ground energy of $H$ can be approximated to additive error $\\varepsilon$ by a classical algorithm with runtime $\\textsf{poly}(n,1/\\varepsilon)$, improving on the quasi-polynomial runtime of the best previously known algorithm; (2) at inverse temperature $β$, the Helmholtz free energy and a classical description of the thermofield double state can be computed to precision $\\varepsilon$ in time $\\textsf{poly}(n,β,1/\\varepsilon)$; (3) simulating the time evolution $e^{-iHt}$ is $\\textsf{BQP}$-complete, for $H$ that is time-independent and has a fixed, constant impurity size. Our algorithms exploit exponential suppression of multi-particle bath excitations in a basis organized by energy scale and Krylov depth. Our universality construction realizes a stationary quantum processor whose program arrives in a stream of freely propagating fermions.",
+ "comment": "81 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02130",
+  "pdf": "https://arxiv.org/pdf/2610.02130",
+  "html": "https://arxiv.org/html/2610.02130"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-04T12:46:31.191Z",
+  "hook": "Quantum impurities are classical at equilibrium, but their dynamics are powerful enough for universal quantum computing.",
+  "tldr": [
+   "Analyzed the computational complexity of ground states, thermal states, and real-time dynamics of quantum impurity models.",
+   "Proved ground and thermal energies can be simulated in polynomial classical time, while real-time evolution is BQP-complete.",
+   "Demonstrated a stationary quantum processor driven solely by a continuous stream of freely moving fermions."
+  ],
+  "whyItMatters": "It establishes a stark divide between static and dynamic quantum physics, showing that even tiny, fixed impurities can process universal quantum computation when driven out of equilibrium.",
+  "eli5": "Imagine a single stationary pinball bumper inside an infinite field of balls. If the balls sit still or reach a steady temperature, a regular laptop can simulate it easily; but watching the balls bounce over time can simulate a full-scale quantum computer.",
+  "keyNumbers": [
+   {
+    "value": "poly(n, 1/ε)",
+    "label": "Classical runtime for ground energy",
+    "context": "Additive error ε approximation for n fermionic modes, down from quasi-polynomial runtime."
+   },
+   {
+    "value": "poly(n, β, 1/ε)",
+    "label": "Classical runtime for thermal properties",
+    "context": "Time to compute the free energy and thermofield double state at inverse temperature β."
+   },
+   {
+    "value": "BQP-complete",
+    "label": "Complexity of time evolution",
+    "context": "Simulating the real-time dynamics exp(-iHt) with a fixed, constant impurity size."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum impurity model",
+    "shortDef": "A model of a localized interacting subsystem coupled to an environment of non-interacting particles.",
+    "eli5Def": "A tiny quantum object sitting inside a large sea of simple, non-interacting particles.",
+    "wikiTitle": "Kondo effect"
+   },
+   {
+    "term": "BQP-complete",
+    "shortDef": "The class of problems that capture the full computational power of universal quantum computers.",
+    "eli5Def": "The hardest problems that a quantum computer can solve efficiently; anything a quantum computer can do, these can do too.",
+    "wikiTitle": "BQP"
+   },
+   {
+    "term": "Thermofield double state",
+    "shortDef": "A pure quantum state representing thermal equilibrium by entangling the system with a copy of itself.",
+    "eli5Def": "A clever mathematical trick where heat is simulated by pairing each particle with an imaginary quantum twin.",
+    "wikiTitle": "Thermofield dynamics"
+   },
+   {
+    "term": "Krylov depth",
+    "shortDef": "A measure of complexity in the subspace spanned by repeatedly applying a Hamiltonian to a state.",
+    "eli5Def": "A counter measuring how many times a quantum operator has scrambled an initial state.",
+    "wikiTitle": "Krylov subspace"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

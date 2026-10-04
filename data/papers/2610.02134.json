@@ -1,0 +1,70 @@
+{
+ "id": "2610.02134",
+ "version": 1,
+ "title": "A Generalized quantum Stein lemma on von Neumann algebras",
+ "authors": [
+  {
+   "name": "Li Gao"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:43:32Z",
+ "updated": "2026-10-01T17:43:32Z",
+ "abstract": "We prove a generalized quantum Stein lemma for i.i.d. normal states against convex, tensor-stable families on arbitrary von Neumann algebras. Assuming the existence of an alternative state with finite relative entropy from the null state, we show that, at every type-I error tolerance $\\varepsilon\\in (0,1)$, the worst case type-II error exponent is achieved with the regularized relative entropy with a strong converse. The proof combines the integral representation of relative entropy by hockey-stick divergences, a modular testing bound, and convex minimax argument.",
+ "comment": "11 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02134",
+  "pdf": "https://arxiv.org/pdf/2610.02134",
+  "html": "https://arxiv.org/html/2610.02134"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-04T12:46:31.191Z",
+  "hook": "Quantum hypothesis testing reaches infinite-dimensional systems with a general quantum Stein's lemma for von Neumann algebras.",
+  "tldr": [
+   "Proved a generalized quantum Stein lemma for i.i.d. states against convex families on general von Neumann algebras.",
+   "Combined integral representations of relative entropy, modular testing bounds, and convex minimax optimization.",
+   "Demonstrated that the type-II error exponent matches the regularized relative entropy with a strong converse across all tolerances."
+  ],
+  "whyItMatters": "It establishes fundamental mathematical bounds on distinguishing quantum states even in continuous or infinite-dimensional settings like quantum field theory.",
+  "eli5": "Imagine trying to tell whether a stream of mystery coins is regular or trick coins. Stein's lemma calculates the absolute best rate at which your chances of mistaking a trick coin for a regular coin vanish as you test more coins.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "von Neumann algebra",
+    "shortDef": "A weakly closed *-algebra of bounded operators acting on a Hilbert space.",
+    "eli5Def": "A mathematical playground used to describe quantum measurements and systems, especially infinite-dimensional ones.",
+    "wikiTitle": "Von Neumann algebra"
+   },
+   {
+    "term": "Quantum Stein's lemma",
+    "shortDef": "A theorem setting the optimal asymptotic error exponent when distinguishing two quantum states.",
+    "eli5Def": "A rule calculating how quickly your mistake rate drops when testing quantum signals over and over.",
+    "wikiTitle": "Quantum hypothesis testing"
+   },
+   {
+    "term": "Relative entropy",
+    "shortDef": "A statistical measure of divergence between two quantum states.",
+    "eli5Def": "A score measuring how different two probability states or quantum setups are from each other.",
+    "wikiTitle": "Quantum relative entropy"
+   },
+   {
+    "term": "Strong converse",
+    "shortDef": "Property ensuring the error probability jumps sharply to 1 if one tries to exceed the optimal rate.",
+    "eli5Def": "A strict barrier meaning you cannot beat the theoretical speed limit without completely failing.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

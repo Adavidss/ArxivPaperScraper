@@ -1,0 +1,77 @@
+{
+ "id": "2610.02133",
+ "version": 1,
+ "title": "Optimal transducers using symmetries",
+ "authors": [
+  {
+   "name": "Benoît Dubus"
+  },
+  {
+   "name": "Julien Ladeuze"
+  },
+  {
+   "name": "Jérémie Roland"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-01T17:43:02Z",
+ "updated": "2026-10-01T17:43:02Z",
+ "abstract": "Transducers (Belovs, Jeffery and Yolcu, 2024) are a quantum computing framework describing a quantum algorithm as a unitary converting an input state into a target state using a catalyst, an auxiliary vector that is left unchanged. They are a powerful tool in quantum algorithm design, especially in the context of quantum query complexity: feasible points of the (dual) adversary semidefinite program directly translate into transducers and the optimal transduction complexity is equal to the adversary bound, i.e. the Las Vegas complexity, which is known to characterize bounded-error quantum query complexity. Moreover, contrary to bounded-error algorithms, transducers compose exactly, which limits overheads due to controlling errors in algorithms constructed by composition. Constructing efficient, let alone optimal, transducers in terms of quantum query complexity nevertheless remains a hard task since it still requires solving the adversary SDP and constructing the unitary to obtain an explicit algorithm. In this paper, we show how using the symmetry group of state-conversion problems simplifies both steps. First, using a symmetrization argument, we prove an optimal catalyst can always be chosen covariant under a representation of the symmetry group. Second, we prove that the transducer intertwines two different representations of the group and can thus be chosen block diagonal in the isotypic decomposition of the Hilbert space. Using those methods, we then derive optimal transducers, with optimal constants, for different widely used quantum algorithmic primitives, such as unstructured search, amplitude amplification and amplitude estimation. Our approach extends previous work on the use of representation theory to compute adversary lower bounds (Høyer, Lee, and {\\v S}palek, 2007; Ambainis, Magnin, Roetteler and Roland, 2011) to the systematic construction of optimal algorithms.",
+ "comment": "39 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.02133",
+  "pdf": "https://arxiv.org/pdf/2610.02133",
+  "html": "https://arxiv.org/html/2610.02133"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-04T12:46:31.191Z",
+  "hook": "Leveraging symmetries yields exact, optimal quantum transducers for search and amplitude amplification.",
+  "tldr": [
+   "Developed a method to build optimal quantum transducers by exploiting the symmetry groups of state-conversion problems.",
+   "Proved optimal catalysts can be chosen covariant, turning transducer unitaries block-diagonal via isotypic decomposition.",
+   "Derived optimal transducers with exact constant factors for primitives like unstructured search and amplitude estimation."
+  ],
+  "whyItMatters": "Transducers allow quantum algorithms to be chained together without accumulating errors, providing a systematic blueprint for optimal quantum query algorithms.",
+  "eli5": "Think of a catalyst as a reusable tool that helps assemble a Lego model without getting consumed. This work uses symmetries to craft the ultimate reusable tool and steps for key quantum tasks.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum transducer",
+    "shortDef": "A unitary transformation turning an input state into a target state using an unchanged catalyst state.",
+    "eli5Def": "A quantum machine that transforms one state into another with the help of a reusable helper state.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Quantum query complexity",
+    "shortDef": "The number of queries to a black-box oracle needed to solve a computational problem on a quantum computer.",
+    "eli5Def": "How many times a quantum algorithm has to peek at hidden data to find the right answer.",
+    "wikiTitle": "Quantum query complexity"
+   },
+   {
+    "term": "Isotypic decomposition",
+    "shortDef": "Decomposition of a representation into a direct sum of distinct irreducible subrepresentations.",
+    "eli5Def": "Breaking down a complex symmetrical space into simpler, independent pieces based on their symmetry type.",
+    "wikiTitle": "Representation theory"
+   },
+   {
+    "term": "Amplitude amplification",
+    "shortDef": "A quantum algorithmic technique that generalizes Grover's search to boost success probabilities.",
+    "eli5Def": "A quantum trick that turns up the volume on correct answers so they stand out from wrong ones.",
+    "wikiTitle": "Amplitude amplification"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

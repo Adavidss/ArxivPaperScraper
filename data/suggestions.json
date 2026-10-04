@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-03T11:56:23.519Z",
+ "generatedAt": "2026-10-04T12:46:31.191Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -20,6 +20,27 @@
     "Predictive Structure Behind Rare Outcomes in Random Quantum Circuits"
    ],
    "paperCount": 4
+  },
+  {
+   "name": "Arkopal Dutt",
+   "slug": "arkopal-dutt",
+   "score": 5,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph",
+    "cs.CC"
+   ],
+   "paperIds": [
+    "2610.02130",
+    "2609.20771",
+    "2608.13533"
+   ],
+   "recentTitles": [
+    "Quantum impurity models: easy at equilibrium, universal in motion",
+    "Marton's conjecture in polynomial time"
+   ],
+   "paperCount": 5
   },
   {
    "name": "Chengkai Zhu",
@@ -60,6 +81,27 @@
     "Quantum Channel Stein Theorem beyond Definite Causal Order"
    ],
    "paperCount": 5
+  },
+  {
+   "name": "Srinivasan Arunachalam",
+   "slug": "srinivasan-arunachalam",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph",
+    "cs.CC"
+   ],
+   "paperIds": [
+    "2610.02178",
+    "2610.02130",
+    "2609.20771"
+   ],
+   "recentTitles": [
+    "Learning SYK Hamiltonians",
+    "Quantum impurity models: easy at equilibrium, universal in motion"
+   ],
+   "paperCount": 4
   },
   {
    "name": "Zi-Wen Liu",
@@ -142,48 +184,8 @@
    "paperCount": 4
   },
   {
-   "name": "Arkopal Dutt",
-   "slug": "arkopal-dutt",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "cs.CC",
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.20771",
-    "2608.13533",
-    "2608.09912"
-   ],
-   "recentTitles": [
-    "Marton's conjecture in polynomial time",
-    "Quantum simulation of non-Markovian dynamical systems"
-   ],
-   "paperCount": 4
-  },
-  {
    "name": "Vinit Singh",
    "slug": "vinit-singh",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "SABRE"
-   ],
-   "viaCategories": [],
-   "paperIds": [
-    "2609.33617",
-    "2608.08798"
-   ],
-   "recentTitles": [
-    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies",
-    "Symmetry Constraints Regularize Neural Quantum State Learning"
-   ],
-   "paperCount": 2
-  },
-  {
-   "name": "Manas Sajjan",
-   "slug": "manas-sajjan",
    "score": 4,
    "coAuthoredWith": [],
    "viaKeywords": [

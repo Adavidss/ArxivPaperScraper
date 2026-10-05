@@ -1,0 +1,75 @@
+{
+ "id": "2610.03705",
+ "version": 1,
+ "title": "Unitary complexity in polynomial space",
+ "authors": [
+  {
+   "name": "William Kretschmer"
+  },
+  {
+   "name": "Ewin Tang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-02T17:56:15Z",
+ "updated": "2026-10-02T17:56:15Z",
+ "abstract": "We show that if quantum commitments exist, then either there is no polynomial-time solution to the unitary synthesis problem, or $\\mathsf{BPP} \\neq \\mathsf{NEXP}$. Thus, showing unconditionally that quantum commitments exist would require answering at least one of two longstanding open questions in complexity theory. We prove our main result as a consequence of a more general lemma, which shows that every unitary in $\\mathsf{unitaryPSPACE}$ either cannot be synthesized efficiently relative to any classical oracle, or can be synthesized efficiently with an oracle for $\\mathsf{NEXP}$ search problems. Our lemma has other noteworthy consequences, including that certain oracle separations involving $\\mathsf{unitaryPSPACE}$ would imply breakthrough classical lower bounds such as $\\mathsf{NC} \\neq \\mathsf{NP}$. Along the way, we propose new definitions for the unitary complexity classes $\\mathsf{unitaryP}$ and $\\mathsf{unitaryPSPACE}$. Our changes address the biggest conceptual issues with definitions suggested in prior work, and lead to elegant proofs. We study both implementations that erase garbage and implementations that allow it, because we cannot rule out the possibility that the two definitions differ. Nevertheless, we show that both definitions can be viewed as special cases of each other. We also showcase many other ways in which our definitions are robust. For example, we show that $\\mathsf{unitaryPSPACE}$ has an equivalent characterization as the set of unitary transformations whose entries can be computed to arbitrary precision in polynomial space. Consequently, we deduce that $\\mathsf{unitaryPSPACE}$ can generically erase garbage, a result that provably fails relative to unitary oracles.",
+ "comment": "42 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.03705",
+  "pdf": "https://arxiv.org/pdf/2610.03705",
+  "html": "https://arxiv.org/html/2610.03705"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-05T15:10:43.428Z",
+  "hook": "Proving quantum commitments exist would require answering longstanding complexity questions like BPP != NEXP.",
+  "tldr": [
+   "The authors investigated the relationship between quantum commitments, unitary synthesis, and classical complexity classes.",
+   "They proved a general lemma showing that every unitary in unitaryPSPACE either cannot be synthesized efficiently or can be solved with an NEXP oracle.",
+   "They proposed updated definitions for unitary complexity classes that resolve prior conceptual issues and proved robustness properties."
+  ],
+  "whyItMatters": "Connecting quantum hardware capabilities to classical complexity theory helps computer scientists understand the ultimate limits of what quantum computers can efficiently achieve.",
+  "eli5": "Just like checking whether a puzzle can be solved by a regular computer versus a super-powerful wizard, this study maps out the boundary lines between different tiers of impossible or possible computing tasks.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum commitments",
+    "shortDef": "A cryptographic primitive allowing a party to commit to a choice while keeping it hidden until a later time.",
+    "eli5Def": "Writing a prediction on a piece of paper, locking it in a safe, and handing the key over only after the event happens.",
+    "wikiTitle": "Commitment scheme"
+   },
+   {
+    "term": "Unitary synthesis",
+    "shortDef": "The process of compiling a target unitary transformation into a sequence of elementary quantum gates.",
+    "eli5Def": "Figuring out the exact sequence of buttons to press on a quantum machine to make it perform a specific complex action.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Complexity class",
+    "shortDef": "A set of computational problems grouped by the resources needed to solve them.",
+    "eli5Def": "Sorting video games into difficulty categories based on how powerful your computer console needs to be to run them.",
+    "wikiTitle": "Complexity class"
+   },
+   {
+    "term": "Polynomial space",
+    "shortDef": "The set of decision problems solvable by a Turing machine using an amount of memory scaling polynomially.",
+    "eli5Def": "A computational tier where the memory required grows reasonably relative to the size of the input problem.",
+    "wikiTitle": "PSPACE"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

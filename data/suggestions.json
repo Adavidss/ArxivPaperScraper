@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-04T12:46:31.191Z",
+ "generatedAt": "2026-10-05T15:10:43.428Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -81,6 +81,26 @@
     "Quantum Channel Stein Theorem beyond Definite Causal Order"
    ],
    "paperCount": 5
+  },
+  {
+   "name": "Dakshita Khurana",
+   "slug": "dakshita-khurana",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2610.03711",
+    "2609.30253",
+    "2608.31112"
+   ],
+   "recentTitles": [
+    "How to Build Pseudorandom Unitaries in Microcrypt",
+    "How Not to Build Microcrypt"
+   ],
+   "paperCount": 4
   },
   {
    "name": "Srinivasan Arunachalam",
@@ -182,25 +202,6 @@
     "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax"
    ],
    "paperCount": 4
-  },
-  {
-   "name": "Vinit Singh",
-   "slug": "vinit-singh",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "SABRE"
-   ],
-   "viaCategories": [],
-   "paperIds": [
-    "2609.33617",
-    "2608.08798"
-   ],
-   "recentTitles": [
-    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies",
-    "Symmetry Constraints Regularize Neural Quantum State Learning"
-   ],
-   "paperCount": 2
   }
  ]
 }

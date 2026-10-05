@@ -1,0 +1,101 @@
+{
+ "id": "2610.03714",
+ "version": 1,
+ "title": "SpiderCSS: Scalable Fault-Tolerant CSS State Preparation",
+ "authors": [
+  {
+   "name": "Boldizsár Poór"
+  },
+  {
+   "name": "Andrey Boris Khesin"
+  },
+  {
+   "name": "Sarah Meng Li"
+  },
+  {
+   "name": "Benjamin Rodatz"
+  },
+  {
+   "name": "John van de Wetering"
+  },
+  {
+   "name": "Richie Yeung"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-02T17:58:44Z",
+ "updated": "2026-10-02T17:58:44Z",
+ "abstract": "Fault-tolerant preparation of logical states is a critical primitive for the realization of large-scale fault-tolerant quantum computing. This paper introduces SpiderCSS, a scalable compilation pipeline that generates highly-optimized, fault-tolerant state preparation circuits for arbitrary Calderbank-Shor-Steane (CSS) codes. Starting from an idealized specification of a CSS state, we use the ZX-calculus and fault-equivalent rewrites to construct a diagram that prepares the given state while preserving the fault tolerance of the initial ideal ZX-diagram. From this diagram, SpiderCSS constructs a fault-tolerant CSS-state preparation circuit using a modular construction that is CNOT-minimal both within each component and also in the way these components are connected together. By only using fault-equivalent rewrites, the final circuit is provably fault-tolerant without needing expensive verification. Monte Carlo simulations across a variety of CSS codes up to distance 15 show that SpiderCSS scales efficiently and constructs circuits with substantially reduced depth and qubit footprint compared to existing scalable and heuristic methods, while simultaneously achieving an average decrease of 33.7% in logical error rate and an increase of 9.5% in acceptance rate.",
+ "comment": "23 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.03714",
+  "pdf": "https://arxiv.org/pdf/2610.03714",
+  "html": "https://arxiv.org/html/2610.03714"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-05T15:10:43.428Z",
+  "hook": "SpiderCSS achieves a 33.7% average decrease in logical error rate and depth reduction for quantum state preparation.",
+  "tldr": [
+   "The authors introduced SpiderCSS, a scalable compilation pipeline generating fault-tolerant state preparation circuits for arbitrary CSS codes.",
+   "They used the ZX-calculus and fault-equivalent rewrites combined with a modular, CNOT-minimal construction to build the circuits.",
+   "Simulations up to distance 15 showed substantially reduced depth and qubit footprint, lower logical error rates, and higher acceptance rates."
+  ],
+  "whyItMatters": "Efficiently preparing quantum states without expensive verification is a crucial bottleneck for scaling up fault-tolerant quantum computers. This pipeline makes building those error-resistant states significantly faster and cleaner.",
+  "eli5": "Imagine building a giant LEGO castle where every block must be placed perfectly so the whole thing doesn't collapse. SpiderCSS is a smart instruction manual that lets you build the castle much faster using fewer pieces while actually making it less likely to fall apart.",
+  "keyNumbers": [
+   {
+    "value": "15",
+    "label": "Code distance",
+    "context": "Monte Carlo simulations were tested across a variety of CSS codes up to distance 15."
+   },
+   {
+    "value": "33.7%",
+    "label": "Error rate decrease",
+    "context": "SpiderCSS achieved an average decrease of 33.7% in logical error rate."
+   },
+   {
+    "value": "9.5%",
+    "label": "Acceptance rate increase",
+    "context": "Simulations showed an increase of 9.5% in acceptance rate."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "CSS code",
+    "shortDef": "A type of quantum error-correcting code named after Calderbank, Shor, and Steane.",
+    "eli5Def": "A special recipe for spreading quantum information across many qubits so errors can be caught and fixed.",
+    "wikiTitle": "Calderbank-Shor-Steane code"
+   },
+   {
+    "term": "ZX-calculus",
+    "shortDef": "A graphical language used to reason about quantum processes and rewrite quantum circuits.",
+    "eli5Def": "A system of drawing connected dots and lines that lets you simplify messy quantum math like solving a puzzle.",
+    "wikiTitle": "ZX-calculus"
+   },
+   {
+    "term": "CNOT",
+    "shortDef": "A fundamental two-qubit quantum logic gate used for entanglement.",
+    "eli5Def": "A basic quantum switch where flipping one bit depends on whether another bit is turned on.",
+    "wikiTitle": "Controlled NOT gate"
+   },
+   {
+    "term": "Fault-tolerant",
+    "shortDef": "The property of a system to continue functioning properly in the presence of faults or errors.",
+    "eli5Def": "Building something robustly so that even if a part breaks, the whole machine still works fine.",
+    "wikiTitle": "Fault-tolerant quantum computing"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

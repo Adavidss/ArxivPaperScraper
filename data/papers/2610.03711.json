@@ -1,0 +1,76 @@
+{
+ "id": "2610.03711",
+ "version": 1,
+ "title": "How to Build Pseudorandom Unitaries in Microcrypt",
+ "authors": [
+  {
+   "name": "Aditya Gulati"
+  },
+  {
+   "name": "Dakshita Khurana"
+  },
+  {
+   "name": "Kabir Tomer"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-02T17:58:06Z",
+ "updated": "2026-10-02T17:58:06Z",
+ "abstract": "We provide the first evidence relative to a classical oracle that pseudorandom unitaries (PRUs) can exist without quantum-computable one-way functions. To obtain this result, we first prove that five independent random diagonal phase layers interleaved with Hadamard transforms \\[ U=F_5HF_4HF_3HF_2HF_1 \\] form a strong PRU with security under adaptive, controlled access to the unitary, its inverse, transpose, and complex conjugate. Our main result is that, when the phase layers are implemented using a classical random oracle O, the construction remains secure against uniform BQP adversaries with coherent access to suitable Boolean completions of classical-input $QMA^{PH}^{O}}$ decision problems. Such an adversary can invert (even quantum-computable) one-way functions and solve efficiently verifiable one-way puzzles defined relative to O. Our result therefore provides classical-oracle evidence that PRUs do not imply quantum-computable one-way functions, in the form of a black-box separation. We substantially strengthen the classical-oracle result of Kretschmer, Qian, and Tal (STOC 2025) by obtaining PRUs secure against these QMA-aided adversaries. Our construction also consists of a simple, efficient circuit that queries a random function, suggesting a route to concrete implementation via the random-oracle heuristic.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.03711",
+  "pdf": "https://arxiv.org/pdf/2610.03711",
+  "html": "https://arxiv.org/html/2610.03711"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-05T15:10:43.428Z",
+  "hook": "Researchers provide the first classical-oracle evidence that pseudorandom unitaries can exist without one-way functions.",
+  "tldr": [
+   "The researchers investigated whether pseudorandom unitaries can be built without relying on quantum-computable one-way functions.",
+   "They constructed a PRU using five random diagonal phase layers interleaved with Hadamard transforms and analyzed its security.",
+   "Their results show security against advanced adversaries that can invert one-way functions, providing a black-box separation."
+  ],
+  "whyItMatters": "One-way functions are a cornerstone of modern cryptography. Proving that certain advanced cryptographic tools can exist independently of them reshapes our foundational understanding of computational security in a quantum world.",
+  "eli5": "Think of a cryptographic lockbox. Scientists just showed it's possible to build an unbreakable high-tech vault even if a specific kind of elementary math puzzle (a one-way function) turns out to be solvable.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Pseudorandom unitaries",
+    "shortDef": "Quantum operations that look completely random to any efficient observer, but are generated deterministically.",
+    "eli5Def": "A secret shuffling machine that mixes up quantum states so thoroughly that nobody can tell it apart from pure randomness.",
+    "wikiTitle": null
+   },
+   {
+    "term": "One-way functions",
+    "shortDef": "Functions that are easy to compute in one direction, but hard to invert.",
+    "eli5Def": "Like cracking an egg: super easy to do, but virtually impossible to put back together.",
+    "wikiTitle": "One-way function"
+   },
+   {
+    "term": "Hadamard transform",
+    "shortDef": "A quantum gate that creates superposition by mapping basis states to equal linear combinations.",
+    "eli5Def": "A quantum coin-flip that puts a bit into a state of spinning between both heads and tails at once.",
+    "wikiTitle": "Hadamard transform"
+   },
+   {
+    "term": "Oracle",
+    "shortDef": "A theoretical black box that can instantly solve specific computational problems.",
+    "eli5Def": "A magical helper box that instantly answers certain hard questions whenever you ask it.",
+    "wikiTitle": "Oracle machine"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

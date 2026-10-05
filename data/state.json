@@ -1,35 +1,5 @@
 {
  "processed": {
-  "2607.19328": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-22"
-  },
-  "2607.19319": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-22"
-  },
-  "2607.19318": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-22"
-  },
-  "2607.19309": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-22"
-  },
-  "2607.19287": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-22"
-  },
-  "2607.19286": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-07-22"
-  },
   "2607.20412": {
    "version": 1,
    "summarizedVersion": 1,
@@ -2099,13 +2069,43 @@
    "version": 1,
    "summarizedVersion": 1,
    "firstSeen": "2026-10-04"
+  },
+  "2610.03714": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-10-05"
+  },
+  "2610.03711": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-10-05"
+  },
+  "2610.03706": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-10-05"
+  },
+  "2610.03705": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-10-05"
+  },
+  "2610.03700": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-10-05"
+  },
+  "2610.03699": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-10-05"
   }
  },
  "retryQueue": [],
  "lastRun": {
-  "at": "2026-10-04T12:46:31.191Z",
-  "geminiCalls": 2,
-  "newPapers": 3,
+  "at": "2026-10-05T15:10:43.428Z",
+  "geminiCalls": 8,
+  "newPapers": 6,
   "quotaExhausted": false
  }
 }

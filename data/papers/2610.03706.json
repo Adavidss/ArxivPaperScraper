@@ -1,0 +1,77 @@
+{
+ "id": "2610.03706",
+ "version": 1,
+ "title": "Quantum estimation, channel orders, and private capacity",
+ "authors": [
+  {
+   "name": "Christoph Hirche"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-02T17:56:45Z",
+ "updated": "2026-10-02T17:56:45Z",
+ "abstract": "Recent examples have shown that zero private capacity need not imply antidegradability and that two channels with zero private capacity can nevertheless transmit private information together. Existing entropic channel orders compare what a receiver and its environment can learn and thereby bound capacities. We connect these orders to the recent constructions through binary estimation, whose minimum mean-square error is governed by measured $χ^2$ divergence. A new integral representation shows how measured $χ^2$ on a qubit extension recovers quantum $χ^2$. It lets us pass from complete measured-$χ^2$ ordering to complete quantum-$χ^2$, relative-entropy, and less-noisy ordering. Zhu and Wang used a signed lift to show that their qutrit channel has zero private capacity. We show that Hermitian-smoothed measured-$χ^2$ ordering characterizes when such lifts exist, even with a quantum reference. Environmental dominance in binary estimation at every blocklength yields a finite-code reliability--secrecy bound. These results explain why complete comparison prevents activation with antidegradable helpers whereas regularized comparison alone does not. Building on that qutrit example, we establish this stability for a range of noisy Werner--Holevo channels, determine sharp private-capacity and antidegradability thresholds, and compute exact complementary capacities in a nondegradable range. By contrast, we extend Pauli half-erasure activation to all $1/2\\le p<1$ and establish the same range for a new four-level family. Reference-assisted measured-$χ^2$ witnesses show why these activating constructions lack complete comparison.",
+ "comment": "40 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.03706",
+  "pdf": "https://arxiv.org/pdf/2610.03706",
+  "html": "https://arxiv.org/html/2610.03706"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-05T15:10:43.428Z",
+  "hook": "A new integral representation connects measured chi-squared divergence to quantum relative-entropy and channel orders.",
+  "tldr": [
+   "The author connected entropic channel orders to recent zero-private-capacity constructions through binary estimation and measured chi-squared divergence.",
+   "They used a new integral representation and Hermitian-smoothed measured chi-squared ordering to prove when signed lifts exist.",
+   "They established sharp private-capacity and antidegradability thresholds for noisy Werner-Holevo channels and extended Pauli half-erasure activation."
+  ],
+  "whyItMatters": "Understanding the limits of private information transmission over noisy quantum channels is vital for designing secure quantum communication networks.",
+  "eli5": "Imagine trying to pass secret notes across a noisy classroom. This paper figures out the exact mathematical limits of how much secret data you can send without the teacher catching on, even when the communication channels are deeply flawed.",
+  "keyNumbers": [
+   {
+    "value": "1/2<=p<1",
+    "label": "Activation range",
+    "context": "The authors extended Pauli half-erasure activation to all p in this range."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Private capacity",
+    "shortDef": "The maximum rate at which secret information can be reliably transmitted through a noisy channel.",
+    "eli5Def": "The absolute top speed limit for sending completely secret messages through a static-filled walkie-talkie.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Antidegradability",
+    "shortDef": "A property of quantum channels where the environment receives more information than the intended receiver.",
+    "eli5Def": "When an eavesdropper listening in on a line gets a clearer signal than the person you are actually calling.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Relative entropy",
+    "shortDef": "A measure of the distance between two probability distributions.",
+    "eli5Def": "A mathematical ruler that measures how different two mixed-up sets of data look from each other.",
+    "wikiTitle": "Quantum relative entropy"
+   },
+   {
+    "term": "Werner-Holevo channels",
+    "shortDef": "A specific family of quantum communication channels used as test cases in quantum information theory.",
+    "eli5Def": "Standardized benchmark communication lines that scientists use to test how well quantum data holds up against noise.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

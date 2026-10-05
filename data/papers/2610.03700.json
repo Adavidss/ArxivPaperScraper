@@ -1,0 +1,86 @@
+{
+ "id": "2610.03700",
+ "version": 1,
+ "title": "Scalable Passive QRAM",
+ "authors": [
+  {
+   "name": "Siddhartha Jain"
+  },
+  {
+   "name": "Alexander M. Dalzell"
+  },
+  {
+   "name": "Connor T. Hann"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-02T17:55:30Z",
+ "updated": "2026-10-02T17:55:30Z",
+ "abstract": "We present a blueprint for implementing the physical QRAM operation in a scalable, passive manner, proving its feasibility in principle. Our construction is passive because for an $n$-qubit address over $N = 2^n$ memory bits the energy cost per QRAM query is $O(\\log N)$, and to our knowledge it is the first construction to use $\\operatorname{polylog} N$ energy. The runtime for each query is $O(\\log^2 N)$. It is achieved by evolving a pre-manufactured time-independent 4-local Hamiltonian with $O(N)$ terms where every qubit participates in at most 4 terms.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.03700",
+  "pdf": "https://arxiv.org/pdf/2610.03700",
+  "html": "https://arxiv.org/html/2610.03700"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-05T15:10:43.428Z",
+  "hook": "First QRAM construction to use polylogarithmic energy, costing O(log N) per query for N memory bits.",
+  "tldr": [
+   "Designed a blueprint for implementing the physical QRAM operation in a scalable and passive manner.",
+   "Achieved the construction by evolving a pre-manufactured time-independent 4-local Hamiltonian with O(N) terms.",
+   "Proved feasibility in principle, achieving O(log N) energy cost per query and O(log^2 N) runtime."
+  ],
+  "whyItMatters": "Quantum Random Access Memory is a bottleneck for many quantum algorithms; making it energy-efficient is crucial for scalable quantum computing.",
+  "eli5": "Imagine trying to find one specific book in a giant library without turning on the lights at every shelf. This new blueprint figures out a clever, energy-efficient way to grab the right piece of quantum memory while wasting very little power.",
+  "keyNumbers": [
+   {
+    "value": "O(log N)",
+    "label": "Energy cost per query",
+    "context": "Energy cost per QRAM query for an n-qubit address over N = 2^n memory bits."
+   },
+   {
+    "value": "O(log^2 N)",
+    "label": "Query runtime",
+    "context": "The runtime required for each QRAM query."
+   },
+   {
+    "value": "4",
+    "label": "Local Hamiltonian terms",
+    "context": "Every qubit participates in at most this number of terms in the Hamiltonian."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "QRAM",
+    "shortDef": "Quantum Random Access Memory, allowing quantum superposition access to classical or quantum data.",
+    "eli5Def": "A futuristic computer memory that can look up multiple things at the exact same time using quantum magic.",
+    "wikiTitle": "Quantum random access memory"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "The master rulebook that describes the total energy and forces acting inside a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Polylogarithmic",
+    "shortDef": "Growing as a polynomial of a logarithm of the input size, representing very slow growth.",
+    "eli5Def": "Something that grows extremely slowly, even if the main number gets monstrously large.",
+    "wikiTitle": "Polylogarithmic function"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

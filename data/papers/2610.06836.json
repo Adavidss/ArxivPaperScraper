@@ -1,0 +1,78 @@
+{
+ "id": "2610.06836",
+ "version": 1,
+ "title": "Semi-Cliffordness of the Clifford hierarchy for a single qudit in composite dimensions",
+ "authors": [
+  {
+   "name": "Yifei Qi"
+  },
+  {
+   "name": "Rahul Sarkar"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-05T17:58:27Z",
+ "updated": "2026-10-05T17:58:27Z",
+ "abstract": "An important question in quantum information theory asks whether every gate in the Clifford hierarchy is semi-Clifford or not, as such gates admit resource-efficient implementations via gate teleportation. Extending recent results for prime dimensions~\\cite{silva_clifford_2025}, we prove that every hierarchy gate on a single qudit of dimension \\(d\\) is semi-Clifford, if and only if \\(d\\) is square-free. In composite dimensions, \\(\\mathbb{Z}_d^2\\) is a symplectic module rather than a vector space, motivating a distinction between four types of gates. Semi-Clifford gates ($\\mathcal{SC}$) are the ones that become diagonal under left and right multiplication by Clifford gates, while a broader class $\\mathcal{N}$ admits a permutation diagonal form, under left and right multiplication by Cliffords. Lagrangian semi-Clifford gates ($\\mathcal{LSC}$) conjugate some maximal abelian Pauli subgroup to another, whereas generalized semi-Clifford gates ($\\mathcal{GSC}$) map some maximal abelian Pauli subalgebra to another under conjugation. In square-free dimensions, we have \\(\\mathcal{SC}=\\mathcal{LSC}\\) and \\(\\mathcal{N}=\\mathcal{GSC}\\), but when \\(d\\) is not square-free, these equivalences can fail, as Lagrangian submodules can become non-free. We also show that every third-level gate of the one-qudit Clifford hierarchy is a generalized semi-Clifford in arbitrary dimensions.",
+ "comment": "25 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.06836",
+  "pdf": "https://arxiv.org/pdf/2610.06836",
+  "html": "https://arxiv.org/html/2610.06836"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-06T13:32:09.359Z",
+  "hook": "Every single-qudit Clifford hierarchy gate is semi-Clifford if and only if the dimension is square-free.",
+  "tldr": [
+   "Proved whether gates in the Clifford hierarchy are semi-Clifford for single qudits in composite dimensions.",
+   "Analyzed algebraic properties of symplectic modules and categorized four types of gates.",
+   "Found that equivalences between gate classes fail when dimensions are not square-free due to non-free Lagrangian submodules."
+  ],
+  "whyItMatters": "Semi-Clifford gates allow for resource-efficient quantum circuit implementations, which is crucial for building practical quantum computers.",
+  "eli5": "Quantum logic gates can be simplified using special shortcuts. This paper figures out exactly which grid sizes allow these shortcuts to work.",
+  "keyNumbers": [
+   {
+    "value": "25",
+    "label": "Pages",
+    "context": "Length of the paper."
+   },
+   {
+    "value": "2",
+    "label": "Figures",
+    "context": "Visual diagrams included in the study."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Qudit",
+    "shortDef": "A quantum system with d dimensions, generalizing the 2-state qubit.",
+    "eli5Def": "A quantum coin that can land on d different sides instead of just heads or tails.",
+    "wikiTitle": "Qudit"
+   },
+   {
+    "term": "Clifford hierarchy",
+    "shortDef": "A nested sequence of groups of quantum gates used in fault-tolerant computing.",
+    "eli5Def": "A family tree of quantum logic operations that help keep calculations stable.",
+    "wikiTitle": "Clifford hierarchy"
+   },
+   {
+    "term": "Gate teleportation",
+    "shortDef": "A protocol for implementing quantum gates using pre-shared entanglement.",
+    "eli5Def": "Using spooky quantum links to apply a command to your data without touching it directly.",
+    "wikiTitle": "Gate teleportation"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

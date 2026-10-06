@@ -1,0 +1,70 @@
+{
+ "id": "2610.04209",
+ "version": 1,
+ "title": "The Right Wing of the SABR Smile with an Absorbing Boundary: Resolution of Conjectures of Henry-Labordère",
+ "authors": [
+  {
+   "name": "Zeyu Cao"
+  },
+  {
+   "name": "Shaosai Huang"
+  }
+ ],
+ "categories": [
+  "math.PR",
+  "q-fin.MF"
+ ],
+ "primaryCategory": "math.PR",
+ "published": "2026-10-03T01:52:31Z",
+ "updated": "2026-10-03T01:52:31Z",
+ "abstract": "We determine the leading logarithmic asymptotics of the fixed-maturity right tail of the SABR model with $β\\in(0,1)$ and absorption at zero, for every correlation $ρ\\in(-1,1)$. If $P(k)$ is the probability that the terminal forward is at least $f_0e^k$, then $-k^{-2}\\ln P(k)\\to(1-β)^2/(2ν^2T(1-(ρ\\wedge0)^2))$ as $k\\to\\infty$. For $ρ\\ge0$ this is the rate predicted by the unrestricted hyperbolic geometry. For $ρ<0$ it is strictly larger: along the volatility excursion that produces the tail, survival forces the noise orthogonal to volatility to stay above a moving square-root barrier, at an additional cost of the same order $k^2$. Consequently the Black-Scholes implied volatility tends to $ν\\sqrt{1-(ρ\\wedge0)^2}/(1-β)$: Henry-Labordère's conjectured wing limit $ν/(1-β)$ holds for $ρ\\ge0$ and fails for every $ρ<0$. For his second conjecture, whose unrestricted-distance Gaussian estimate does not hold for $ρ<0$, we also identify the correct replacement for this model: at the level of tail probabilities, the rate is given by the squared intrinsic Riemannian distance, within the survival domain, from the initial state to the terminal target set. The proofs are direct, combining a stopped Lamperti transform, a conditional time change, Gaussian moving-barrier bounds and change-of-measure constructions, and use no heat-kernel estimates.",
+ "comment": "35 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.04209",
+  "pdf": "https://arxiv.org/pdf/2610.04209",
+  "html": "https://arxiv.org/html/2610.04209"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-06T13:32:09.359Z",
+  "hook": "Proving that Henry-Labordère's famous wing limit conjecture for the SABR model holds for positive correlation but fails when negative.",
+  "tldr": [
+   "We determined the leading logarithmic asymptotics of the fixed-maturity right tail of the SABR model with beta between 0 and 1.",
+   "We used direct proofs combining a stopped Lamperti transform, conditional time change, and Gaussian moving-barrier bounds.",
+   "We found that Henry-Labordère's conjecture holds for non-negative correlation but fails for every negative correlation."
+  ],
+  "whyItMatters": "The SABR model is a cornerstone of quantitative finance for pricing derivatives; correcting its tail behavior prevents costly mispricing in extreme market scenarios.",
+  "eli5": "Financial models try to predict extreme stock market crashes or booms. This paper checks a popular mathematical formula used in these models and finds that it breaks down under certain market conditions.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "SABR model",
+    "shortDef": "A stochastic volatility model used by financial analysts to price asset derivatives.",
+    "eli5Def": "A mathematical formula used on Wall Street to price risky financial contracts.",
+    "wikiTitle": "SABR volatility model"
+   },
+   {
+    "term": "Asymptotics",
+    "shortDef": "The behavior of a function as its variable approaches a limit like infinity.",
+    "eli5Def": "Looking at what happens to a math formula when numbers get unimaginably large.",
+    "wikiTitle": "Asymptotic analysis"
+   },
+   {
+    "term": "Implied volatility",
+    "shortDef": "The market's forecast of a likely movement in a security's price.",
+    "eli5Def": "A measure of how wildly investors expect a stock price to bounce around.",
+    "wikiTitle": "Implied volatility"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

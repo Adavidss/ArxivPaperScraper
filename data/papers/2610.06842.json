@@ -1,0 +1,80 @@
+{
+ "id": "2610.06842",
+ "version": 1,
+ "title": "Quantum information processing under maximal distance measures",
+ "authors": [
+  {
+   "name": "Bartosz Regula"
+  },
+  {
+   "name": "Ludovico Lami"
+  },
+  {
+   "name": "Mario Berta"
+  },
+  {
+   "name": "Marco Tomamichel"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-05T17:59:08Z",
+ "updated": "2026-10-05T17:59:08Z",
+ "abstract": "The measures of distance frequently used in quantum information, such as trace distance or fidelity-based purified distance, are the smallest extensions of the corresponding distance measures in classical information theory. However, this way of extending classical distances is not unique, and a whole spectrum of other extensions can be defined. Here we study the question of how quantum information processing tasks are affected by a change of the error metrics to the maximal extensions of the classical distance measures, imposing more demanding error requirements on operational tasks. We find that the performance of some tasks, such as channel coding or quantum resource distillation, is not affected whatsoever by this change. However, for other tasks such as channel simulation and quantum resource dilution, we show that the rates are now given not by functions of the standard (Umegaki) quantum relative entropy, but ones based on the Belavkin-Staszewski relative entropy. Our results connect the Belavkin-Staszewski relative entropy with operational tasks and reveal that known reversibility results in quantum information, including the reverse Shannon theorem and the asymptotic reversibility of quantum resource transformations, no longer hold under maximal distance measures.",
+ "comment": "28+4 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.06842",
+  "pdf": "https://arxiv.org/pdf/2610.06842",
+  "html": "https://arxiv.org/html/2610.06842"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-06T13:32:09.359Z",
+  "hook": "Maximal distance measures reveal that major quantum reversibility results no longer hold in information processing.",
+  "tldr": [
+   "Studied how quantum information tasks are affected by shifting error metrics to maximal extensions of classical distances.",
+   "Analyzed operational tasks using maximal distance measures instead of standard trace or purified distances.",
+   "Found that tasks like channel simulation and resource dilution rely on Belavkin-Staszewski relative entropy, breaking prior reversibility."
+  ],
+  "whyItMatters": "Understanding the limits of quantum error metrics helps physicists know what is physically possible when manipulating fragile quantum information.",
+  "eli5": "Imagine measuring distance with a stretchy rubber band instead of a rigid ruler. While some measurements stay the same, others change completely, showing that certain rules of quantum recycling are stricter than we thought.",
+  "keyNumbers": [
+   {
+    "value": "28+4",
+    "label": "Pages",
+    "context": "Total length of the research paper including supplementary material."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Trace distance",
+    "shortDef": "A standard measure of how distinguishable two quantum states are.",
+    "eli5Def": "A mathematical way to measure how different two quantum setups look from each other.",
+    "wikiTitle": "Trace distance"
+   },
+   {
+    "term": "Quantum relative entropy",
+    "shortDef": "A measure of the difference between two quantum states.",
+    "eli5Def": "How far apart two different quantum recipes are.",
+    "wikiTitle": "Quantum relative entropy"
+   },
+   {
+    "term": "Channel simulation",
+    "shortDef": "An operational task of simulating one quantum communication channel using another.",
+    "eli5Def": "Pretending one quantum internet cable is actually a different one.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

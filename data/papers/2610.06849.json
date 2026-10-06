@@ -1,0 +1,75 @@
+{
+ "id": "2610.06849",
+ "version": 1,
+ "title": "Boundary-accessible work in a collision-charged topological quantum battery",
+ "authors": [
+  {
+   "name": "Osman Orçun Keskin"
+  },
+  {
+   "name": "Özgür E. Müstecaplıoğlu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-05T17:59:49Z",
+ "updated": "2026-10-05T17:59:49Z",
+ "abstract": "Quantum batteries store energy in nonequilibrium quantum states. The ergotropy sets the work extractable by an arbitrary global unitary, but a device usually exchanges energy through a single local port. It remains unclear how much stored work such a port can deliver, and whether topological edge modes help. We study a dimerized spin chain of Su-Schrieffer-Heeger (SSH) type. Excited two-level ancillas charge it at one end by repeated collisions, and an initially empty two-level load discharges it at the same site. An exact free-fermion mapping yields a bound on the load work for all number-conserving quadratic extraction protocols. The load gains extractable work only if a single-particle mode of the battery holds more than half an excitation. Resonant charging fills the topological edge mode above this threshold. A single boundary pulse then delivers 98.6% of the maximal load work allowed by the bound for representative parameters. Under the same six-collision controls, the trivial-phase load remains passive. Within the protocol that selects the load pulse for maximum delivered work, cycle power peaks at a finite collision number while delivered work continues to increase over the scanned range. Over the tested range, the advantage survives hopping disorder, which preserves chiral symmetry. On-site disorder breaks this symmetry and leaves a finite fraction of loads passive. Topology thus supplies a localized access channel, while spectral matching and symmetry decide whether stored energy becomes usable local work.",
+ "comment": "26 pages, 20 figures, including Supplemental Material (16 pages, 14 figures)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.06849",
+  "pdf": "https://arxiv.org/pdf/2610.06849",
+  "html": "https://arxiv.org/html/2610.06849"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.06849v1/fig_finite_size_control_map.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-06T13:32:09.359Z",
+  "hook": "A single boundary pulse delivers 98.6% of maximal load work in a collision-charged topological quantum battery.",
+  "tldr": [
+   "We studied a dimerized spin chain of SSH type acting as a quantum battery charged by excited two-level ancillas.",
+   "We used an exact free-fermion mapping to bound extractable load work under quadratic extraction protocols.",
+   "We showed that resonant charging fills the topological edge mode, allowing a boundary pulse to deliver 98.6% of the bound."
+  ],
+  "whyItMatters": "Understanding how topological states store and release energy could lead to highly efficient quantum power devices in future quantum computers.",
+  "eli5": "Quantum batteries store energy in the strange subatomic states of particles. This study shows that using the geometric shape or 'topology' of a quantum circuit lets us squeeze almost all the stored power out efficiently.",
+  "keyNumbers": [
+   {
+    "value": "98.6%",
+    "label": "Maximal load work delivered",
+    "context": "Fraction of the maximal load work allowed by the bound delivered by a single boundary pulse."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Ergotropy",
+    "shortDef": "The maximum work extractable from a quantum system using unitary operations.",
+    "eli5Def": "The absolute most energy you can pull out of a quantum battery.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Topological edge mode",
+    "shortDef": "Protected quantum states localized at the boundaries of a topological material.",
+    "eli5Def": "Special traffic lanes for quantum states that naturally form along the outer edge of a material.",
+    "wikiTitle": "Topological quantum number"
+   },
+   {
+    "term": "Chiral symmetry",
+    "shortDef": "A symmetry separating the degrees of freedom of a system into left and right movers.",
+    "eli5Def": "A balanced mirror-image property in how particles interact.",
+    "wikiTitle": "Chiral symmetry"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

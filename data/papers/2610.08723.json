@@ -1,0 +1,72 @@
+{
+ "id": "2610.08723",
+ "version": 1,
+ "title": "Efficient Learning of Structured Fermionic States under General Quadratic Evolution",
+ "authors": [
+  {
+   "name": "Erfan Amidi"
+  },
+  {
+   "name": "Ali Asadian"
+  },
+  {
+   "name": "Ali Hamed Moosavian"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-06T17:27:45Z",
+ "updated": "2026-10-06T17:27:45Z",
+ "abstract": "We prove that unknown pure fermionic states prepared from disjoint-branch fixed-particle-number blocks can be reconstructed after general quadratic evolution, including pair creation and annihilation. For a fixed particle cap per block, adaptive or nonadaptive single-copy Gaussian measurements yield classical input and circuit descriptions with prescribed fidelity and confidence, using polynomial resources in system size and inverse infidelity. The adaptive procedure has the sharper copy guarantee. Connected quartic correlations and a covariance-compatible commutant identify the hidden blocks; local states are recovered from fresh measurements or a predetermined bounded-degree moment table. Stable branch recovery gives valid preparation descriptions. Neither particle-number conservation nor block homogeneity is required; no lower bound on branch weights or covariance gaps is assumed. A certified variant returns a passive preparation whenever one exists within the promised family, without advance membership information. On the full Gaussian orbit of paired magic states, quartic measurements alone suffice, with an explicit bound converting observable error into state error.",
+ "comment": "46 pages, 3 figures; supporting Lean files included as ancillary material",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.08723",
+  "pdf": "https://arxiv.org/pdf/2610.08723",
+  "html": "https://arxiv.org/html/2610.08723"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.08723v1/figures/logical-reconstruction.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-07T13:46:05.117Z",
+  "hook": "Unknown pure fermionic states can be efficiently reconstructed after general quadratic evolution using Gaussian measurements.",
+  "tldr": [
+   "Proved that unknown fermionic states from fixed-particle blocks can be reconstructed following general quadratic evolution.",
+   "Used adaptive or nonadaptive single-copy Gaussian measurements to yield classical descriptions with high fidelity.",
+   "Identified hidden blocks using connected quartic correlations and a covariance-compatible commutant."
+  ],
+  "whyItMatters": "Efficiently learning complex fermionic quantum states is crucial for simulating molecular chemistry and material science on quantum hardware.",
+  "eli5": "Electrons and similar quantum particles follow strict rules called fermionic statistics. This paper provides a recipe to take a scrambled mix of these particles and figure out its exact blueprint using smart measurements.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Fermionic states",
+    "shortDef": "Quantum states of matter composed of fermions like electrons.",
+    "eli5Def": "States made of building blocks like electrons that refuse to sit in the exact same state.",
+    "wikiTitle": "Fermion"
+   },
+   {
+    "term": "Quadratic evolution",
+    "shortDef": "Time evolution governed by operators quadratic in creation and annihilation operators.",
+    "eli5Def": "A smooth mathematical transformation where particle pairs are created and destroyed in a controlled way.",
+    "wikiTitle": "Free fermion"
+   },
+   {
+    "term": "Gaussian measurements",
+    "shortDef": "A class of quantum measurements that map Gaussian states to Gaussian states.",
+    "eli5Def": "Standard laboratory measurements that interact nicely with bell-curve-like quantum states.",
+    "wikiTitle": "Gaussian state"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

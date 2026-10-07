@@ -1,0 +1,86 @@
+{
+ "id": "2610.08757",
+ "version": 1,
+ "title": "Complexity of self-consistent entanglement certification",
+ "authors": [
+  {
+   "name": "Yujie Zhang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-06T17:48:36Z",
+ "updated": "2026-10-06T17:48:36Z",
+ "abstract": "In recent work Phys. Rev. X 16, 031057 (2026), we proposed a self-consistent approach to entanglement certification based on generalized noncontextuality. It requires no prior characterization of the measurement devices and, given access to all local measurements, can certify every entangled state in a Bell circuit. Here, we study the complexity of this protocol in a finite experiment. At fixed local dimension $d$, we show that the optimal number of distinct local effects needed to reach a trace-distance \\textit{entanglement resolution} $γ$ is $Θ_d(γ^{-(d-1)})$. This scaling is necessary even when the measurements are tailored to the target state. Independent Haar-random projective measurements instead require $Θ_d(γ^{-(d-1)}\\log(1/γ))$ effects. Finally, we show that, once the exact operational identities are known, $Θ_d(γ^{-2}\\log(1/δ))$ copies of the target state are necessary and sufficient for certification with error probability at most $δ$. Determining the optimal sample complexity when those identities must instead be inferred from the same finite target-state data remains open.",
+ "comment": "Preliminary version for upcoming talks",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.08757",
+  "pdf": "https://arxiv.org/pdf/2610.08757",
+  "html": "https://arxiv.org/html/2610.08757"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-07T13:46:05.117Z",
+  "hook": "Proving quantum entanglement without trusted devices requires scaling effects of Θ_d(γ^-(d-1)) for finite resolution.",
+  "tldr": [
+   "Studied the resource complexity of a device-independent self-consistent entanglement certification protocol.",
+   "Derived optimal scaling bounds for distinct local effects needed to reach specific trace-distance entanglement resolutions.",
+   "Found that optimal local effects scale as Θ_d(γ^-(d-1)), while Haar-random measurements require an extra logarithmic factor."
+  ],
+  "whyItMatters": "Building reliable quantum technologies requires verifying that quantum states are actually entangled without trusting the measuring devices, making resource efficiency vital for scalable testing.",
+  "eli5": "Imagine trying to prove two magic boxes are secretly connected using only buttons and lights, without trusting how the boxes were built. This paper figures out exactly how many different button-pushing tests you need to run to be certain of the connection.",
+  "keyNumbers": [
+   {
+    "value": "Θ_d(γ^-(d-1))",
+    "label": "Optimal effect scaling",
+    "context": "Optimal number of distinct local effects needed to reach entanglement resolution gamma at fixed local dimension d."
+   },
+   {
+    "value": "Θ_d(γ^-(d-1)\\log(1/γ))",
+    "label": "Haar-random effect scaling",
+    "context": "Number of effects required when using independent Haar-random projective measurements."
+   },
+   {
+    "value": "Θ_d(γ^{-2}\\log(1/δ))",
+    "label": "State copy complexity",
+    "context": "Necessary and sufficient copies of the target state for certification with error probability at most delta."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Entanglement certification",
+    "shortDef": "Proving mathematically that a quantum system is in an entangled state.",
+    "eli5Def": "Testing a pair of quantum particles to make sure they are spooky-linked.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "Noncontextuality",
+    "shortDef": "The principle that measurement outcomes do not depend on what other compatible measurements are made.",
+    "eli5Def": "The idea that a measuring tool gives the same answer regardless of what other tools are sitting next to it.",
+    "wikiTitle": "Quantum contextuality"
+   },
+   {
+    "term": "Trace-distance",
+    "shortDef": "A mathematical distance measure between two quantum states.",
+    "eli5Def": "A yardstick used to measure how different two quantum setups are from each other.",
+    "wikiTitle": "Trace distance"
+   },
+   {
+    "term": "Haar-random",
+    "shortDef": "Distributed uniformly at random over the space of quantum operations.",
+    "eli5Def": "Picking a quantum measurement completely at random like rolling a fair multi-sided die.",
+    "wikiTitle": "Haar measure"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

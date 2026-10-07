@@ -1,6 +1,6 @@
 {
  "id": "2609.37741",
- "version": 1,
+ "version": 2,
  "title": "Dyson-Schwinger Effective-Action Methods for Rough Volatility: A Correlation-Response Architecture for Calibration, Exotics and Risk",
  "authors": [
   {
@@ -14,9 +14,9 @@
  ],
  "primaryCategory": "q-fin.MF",
  "published": "2026-09-29T14:56:08Z",
- "updated": "2026-09-29T14:56:08Z",
- "abstract": "We develop a non-perturbative framework for stochastic-volatility option pricing organised by the two-particle-irreducible (2PI) effective action and the Dyson-Schwinger gap equations of quantum field theory. In log-price, log-volatility or Lamperti coordinates, the joint law of the state variables is approximated by a self-consistent Gaussian whose mean and effective diffusion follow from the 2PI stationarity conditions, with the drift Jacobian given by statistical linearisation. The smile-generating exponential and CEV interactions are evaluated through the exact Gaussian moment-generating function rather than a Taylor cut. Whether the dressed inverse propagator is local in time separates Markovian models, where the gap equation collapses to a few ODEs, from rough (Volterra) models, where the full two-time propagator is retained and the characteristic function becomes a Gaussian integral over the log-variance field. Across exp-OU, SABR, rough Bergomi and rough SABR, the resulting deterministic engines match PDE or quasi-Monte-Carlo references from sub-basis-point (exp-OU) through single-digit basis points (SABR, rough Bergomi) to tens of basis points (rough SABR), with rough Heston as an exactly-transformable control. Conditional on the volatility field, forward-start smiles and continuously-monitored barriers reduce to field-only quadratures, in rough Bergomi directly on the native Volterra field, and the causal response block yields the full impulse-vega curve in one contraction at one-to-two orders of magnitude below bump-and-revalue. A technical supplement with complete derivations, extended benchmarks and secondary applications (stochastic-rate FX local volatility, quadratic Gaussian Volterra variance and the arbitrage-free FX triangle) is provided as an ancillary file.",
- "comment": "31 pages, 18 figures, 7 tables. Technical supplement (22 pages) included as an ancillary file",
+ "updated": "2026-10-06T17:27:43Z",
+ "abstract": "We develop a non-perturbative framework for stochastic-volatility option pricing built on the two-particle-irreducible (2PI) effective action and the Dyson-Schwinger gap equations of quantum field theory. In log-price, log-volatility or Lamperti coordinates, the joint law of the state variables is approximated by a self-consistent Gaussian whose mean and effective diffusion follow from the 2PI stationarity conditions, with the exponential and CEV vertices evaluated through the exact Gaussian moment-generating function rather than a Taylor cut. For exponential vertices the skeletons beyond this level sum in closed form: in exp-OU the evaluated melon level cuts the Hartree error by 20-130x, to 0.01-0.11 bp. Whether the dressed inverse propagator is local in time separates Markovian models, where the gap equation collapses to a few ODEs, from rough (Volterra) models, where the full two-time propagator is retained. At nonzero correlation the field is integrated deterministically by conditioning on its two leading Gaussian modes, with exact conditional moments and a moment-matched law for the integrated variance and leverage integral; in the CEV models the correlated drift enters a Dyson equation around the exact absorbed-CEV propagator, resummed by jumps along the variance clock. These closures match Monte Carlo references for rough Bergomi approximately at their resolution (0.01-0.1 bp) down to H=0.07, rho=-0.9, and price SABR to 0.97 bp over a 72-cell grid with maturities to ten years (75 bp for Hagan's expansion) and rough SABR to 0.92 bp. Conditional on the volatility field, forward-start smiles and continuously-monitored barriers reduce to field-only quadratures on the native Volterra field, and the causal response block yields the impulse-vega curve in one adjoint contraction. Derivations, extended benchmarks and secondary applications are in an ancillary technical supplement.",
+ "comment": "39 pages, 18 figures, 11 tables. Technical supplement (27 pages) included as an ancillary file. v2: adds deterministic conditional-mode closures and supplement section S11",
  "doi": null,
  "links": {
   "abs": "https://arxiv.org/abs/2609.37741",
@@ -34,34 +34,50 @@
  "biteStatus": "ok",
  "bite": {
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-09-30T12:55:51.687Z",
-  "hook": "Deterministic engines match PDE or quasi-Monte-Carlo references from sub-basis-point up to tens of basis points.",
+  "generatedAt": "2026-10-07T13:46:05.117Z",
+  "hook": "New non-perturbative framework cuts Hartree error by 20-130x down to 0.01-0.11 bp for stochastic-volatility option pricing.",
   "tldr": [
    "Developed a non-perturbative framework for stochastic-volatility option pricing using quantum field theory tools.",
-   "Approximated the joint law of state variables by a self-consistent Gaussian using 2PI stationarity conditions.",
-   "Demonstrated that deterministic engines match reference methods across exp-OU, SABR, rough Bergomi, and rough SABR."
+   "Approximated the joint law of state variables using a self-consistent Gaussian governed by stationarity conditions.",
+   "Matched Monte Carlo references for rough Bergomi down to H=0.07, rho=-0.9, and priced SABR to 0.97 bp."
   ],
-  "whyItMatters": "Accurately pricing financial options under rough volatility models usually requires slow simulation methods. This research provides deterministic engines that are much faster and computationally efficient.",
-  "eli5": "Imagine trying to predict the exact path of a stormy ocean by running millions of random guesses. Instead of guessing, this paper creates a mathematical shortcut that calculates the average behavior much faster and just as accurately.",
-  "keyNumbers": [],
+  "whyItMatters": "Accurate option pricing models are crucial for financial risk management, and reducing pricing errors by orders of magnitude improves derivatives trading and hedging.",
+  "eli5": "Predicting stock market volatility is tricky because prices bounce around randomly in rough patterns. Financial engineers use advanced physics equations to make these predictions much more accurate and reliable.",
+  "keyNumbers": [
+   {
+    "value": "20-130x",
+    "label": "Hartree error reduction",
+    "context": "The evaluated melon level cuts the Hartree error by 20-130x in exp-OU models."
+   },
+   {
+    "value": "0.01-0.11 bp",
+    "label": "Residual error",
+    "context": "Error levels achieved after applying the new framework."
+   },
+   {
+    "value": "0.97 bp",
+    "label": "SABR pricing accuracy",
+    "context": "Prices SABR over a 72-cell grid with maturities to ten years."
+   }
+  ],
   "glossary": [
    {
-    "term": "Stochastic volatility",
+    "term": "stochastic volatility",
     "shortDef": "Volatility that is treated as a random process rather than a constant.",
-    "eli5Def": "When the unpredictability or wildness of a price itself keeps changing unpredictably over time.",
-    "wikiTitle": "Volatility (finance)"
+    "eli5Def": "When the amount of risk or bouncing-around in a stock price changes unpredictably over time like weather patterns.",
+    "wikiTitle": "Stochastic volatility"
    },
    {
     "term": "Dyson-Schwinger equations",
     "shortDef": "Functional equations satisfied by the Green's functions of a quantum field theory.",
-    "eli5Def": "A giant set of balancing rules used in physics to figure out how tiny particles interact without getting lost in endless details.",
+    "eli5Def": "A complex set of master equations used in physics to track how particles interact and change over time.",
     "wikiTitle": "Dyson–Schwinger equations"
    },
    {
-    "term": "Rough Bergomi",
-    "shortDef": "A popular financial model capturing rough volatility behavior in asset prices.",
-    "eli5Def": "A computer model designed to mimic how stock prices jump around wildly and jaggedly in real life.",
-    "wikiTitle": null
+    "term": "Monte Carlo",
+    "shortDef": "Computational algorithms that rely on repeated random sampling to obtain numerical results.",
+    "eli5Def": "Running a computer simulation thousands of times with random dice rolls to see what the most likely outcome is.",
+    "wikiTitle": "Monte Carlo method"
    }
   ],
   "difficulty": 5,

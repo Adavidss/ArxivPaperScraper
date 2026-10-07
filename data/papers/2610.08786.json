@@ -1,0 +1,66 @@
+{
+ "id": "2610.08786",
+ "version": 1,
+ "title": "Energy-constrained two-way capacity bounds for noisy Gaussian channels",
+ "authors": [
+  {
+   "name": "Stefano Pirandola"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-06T17:59:12Z",
+ "updated": "2026-10-06T17:59:12Z",
+ "abstract": "A gap between achievable rates and converse bounds persists for energy-constrained bosonic communication in the presence of excess noise. We derive a unified adaptive weak-converse bound for thermal attenuation, noisy amplification, and additive Gaussian noise under an unconditional mean transmitted-photon-number constraint. The bound applies to arbitrary adaptive protocols with quantum memories and constrains the two-way quantum, entanglement-distribution, private, and secret-key capacities. It vanishes throughout the entanglement-breaking region and approaches the corresponding PLOB bound at infinite energy. At finite energy, it improves the evaluated Gaussian squashed-entanglement and PLOB bounds in relevant parameter regimes, while comparison with hashing rates quantifies the remaining gap to achievability. The result provides a common energy-dependent benchmark for noisy bosonic Gaussian channels and extends finite-energy converse methods beyond the quantum-limited setting.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.08786",
+  "pdf": "https://arxiv.org/pdf/2610.08786",
+  "html": "https://arxiv.org/html/2610.08786"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-07T13:46:05.117Z",
+  "hook": "Researchers derive a unified adaptive weak-converse bound for energy-constrained bosonic communication channels.",
+  "tldr": [
+   "Derived a unified adaptive weak-converse bound for thermal attenuation, noisy amplification, and additive Gaussian noise.",
+   "Applied the bound to arbitrary adaptive protocols with quantum memories constraining multiple capacities.",
+   "Improved evaluated Gaussian squashed-entanglement and PLOB bounds at finite energy."
+  ],
+  "whyItMatters": "Knowing the absolute limits of data transmission through noisy quantum channels helps engineers build secure, high-capacity quantum communication networks.",
+  "eli5": "Sending secret messages through a noisy fiber-optic cable is hard because static and signal loss ruin the data. Scientists figured out a mathematical speed limit for how much secure information can possibly be sent.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "bosonic communication",
+    "shortDef": "Communication using bosonic modes, such as light fields in optical fibers.",
+    "eli5Def": "Sending messages using beams of light or photons, like lasers in a fiber optic cable.",
+    "wikiTitle": "Boson"
+   },
+   {
+    "term": "entanglement",
+    "shortDef": "A quantum phenomenon where particles become deeply interconnected regardless of distance.",
+    "eli5Def": "When two magic dice become linked so that rolling one instantly determines what the other shows, even across the universe.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "Gaussian channel",
+    "shortDef": "A communication channel that adds Gaussian noise to the transmitted signal.",
+    "eli5Def": "A phone line or internet cable that adds a predictable, fuzzy layer of static noise to your voice.",
+    "wikiTitle": "Gaussian channel"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

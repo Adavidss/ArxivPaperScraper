@@ -1,0 +1,76 @@
+{
+ "id": "2610.08749",
+ "version": 1,
+ "title": "No-Disturbance-without-Uncertainty generates the Quantum set in the simplest Bell scenario",
+ "authors": [
+  {
+   "name": "Ravishankar Ramanathan"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-06T17:44:02Z",
+ "updated": "2026-10-06T17:44:02Z",
+ "abstract": "Characterizing the set of quantum nonlocal correlations through information-theoretic constraints is a central problem in quantum foundations. We show that the convex hull of no-signalling behaviors in a bipartite Bell experiment satisfying a common-overlap no-disturbance-without-uncertainty condition is exactly the finite-dimensional quantum set whenever one party has two binary measurements and the other has an arbitrary finite number of settings, each with an arbitrary finite number of outcomes. In the simplest binary input-output Bell scenario, this characterizes the full eight-dimensional set of quantum behaviors, including the local marginals. The proof constructs a quantum realization directly from the conditional probabilities and no-signalling. The characterization also reduces optimization of any linear Bell expression in these scenarios to maximization over a one-parameter family of second-order cone programs. The results establish a connection between local uncertainty-disturbance constraints and quantum nonlocality, mediated by no-signalling and shared classical randomness.",
+ "comment": "6+11 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.08749",
+  "pdf": "https://arxiv.org/pdf/2610.08749",
+  "html": "https://arxiv.org/html/2610.08749"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-07T13:46:05.117Z",
+  "hook": "A no-disturbance-without-uncertainty condition precisely generates the full eight-dimensional quantum set in simple Bell scenarios.",
+  "tldr": [
+   "Investigated how information-theoretic constraints characterize the set of quantum nonlocal correlations.",
+   "Proved that specific no-signalling behaviors satisfying a common-overlap condition form the exact finite-dimensional quantum set.",
+   "Showed this characterization reduces linear Bell expression optimization to maximizing a second-order cone program."
+  ],
+  "whyItMatters": "Understanding the fundamental limits of quantum correlations helps physicists define what makes quantum mechanics distinct from ordinary classical physics.",
+  "eli5": "Physicists want to know what kinds of weird correlations are allowed in nature. This paper shows that a simple rule about uncertainty and disturbance can draw the exact boundary around what quantum particles are permitted to do.",
+  "keyNumbers": [
+   {
+    "value": "eight-dimensional",
+    "label": "Quantum set size",
+    "context": "The full set of quantum behaviors characterized in the simplest binary input-output Bell scenario."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Bell scenario",
+    "shortDef": "An experimental setup where separated observers perform measurements on entangled particles.",
+    "eli5Def": "A game where two separated friends test connected particles and compare their results.",
+    "wikiTitle": "Bell's theorem"
+   },
+   {
+    "term": "Convex hull",
+    "shortDef": "The smallest convex set that contains a given set of points.",
+    "eli5Def": "The shape you get if you wrap a tight rubber band around a scattered group of points.",
+    "wikiTitle": "Convex hull"
+   },
+   {
+    "term": "No-signalling",
+    "shortDef": "The physical principle that information cannot travel faster than light.",
+    "eli5Def": "The rule that you cannot use quantum tricks to send text messages faster than light.",
+    "wikiTitle": "No-signaling principle"
+   },
+   {
+    "term": "Second-order cone program",
+    "shortDef": "A type of mathematical optimization problem involving cones.",
+    "eli5Def": "A computer optimization method shaped like an ice cream cone used to find the best possible answer.",
+    "wikiTitle": "Second-order cone programming"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

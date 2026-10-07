@@ -1,0 +1,70 @@
+{
+ "id": "2610.08727",
+ "version": 1,
+ "title": "Entanglement manipulation and magic area-laws",
+ "authors": [
+  {
+   "name": "Rafael A. Macedo"
+  },
+  {
+   "name": "Rafael Chaves"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-06T17:30:59Z",
+ "updated": "2026-10-06T17:30:59Z",
+ "abstract": "Physical many-body quantum systems typically interact locally, giving rise to ground states where entanglement grows with the area of the region being probed. Beyond entanglement, non-stabilizerness (or \"magic\") has been established as another crucial resource linked to quantum complexity and the properties of error-correcting states. Unlike entanglement, non-stabilizerness typically behaves with a volume-law scaling in ground states, indicating inherent computational complexity. In this work, we show that under a recent classification of quantum states, area-law states split into two distinct classes. Entanglement-dominated states obey an area-law for non-stabilizerness and admit efficient quantum algorithms for entanglement manipulation. Conversely, magic-dominated states exhibit a a faster-than-area growth of subsystem non-stabilizerness and require non-efficient algorithms for entanglement manipulation tasks. Within this context, we introduce the concept of the stabilizer regime, a restricted quantum phase that admits efficient entanglement manipulation and hosts area laws for both magic and entanglement.",
+ "comment": "20 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.08727",
+  "pdf": "https://arxiv.org/pdf/2610.08727",
+  "html": "https://arxiv.org/html/2610.08727"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.08727v1/figs/theoremfig.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-07T13:46:05.117Z",
+  "hook": "Area-law quantum states split into classes where magic-dominated states show faster-than-area growth of non-stabilizerness.",
+  "tldr": [
+   "Examined how non-stabilizerness (magic) scales in physical many-body quantum systems alongside entanglement.",
+   "Classified area-law quantum states into entanglement-dominated and magic-dominated categories.",
+   "Demonstrated that entanglement-dominated states allow efficient algorithms, while magic-dominated states require inefficient ones."
+  ],
+  "whyItMatters": "Magic is a key resource that makes quantum computers more powerful than classical computers, and knowing where it hides helps identify hard computational problems.",
+  "eli5": "Just like heavy objects take up more space, quantum systems have properties like entanglement and magic. This paper shows that some quantum states are easy to simulate, while others hide a complex kind of magic that overwhelms standard computers.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Non-stabilizerness",
+    "shortDef": "A measure of how difficult a quantum state is to simulate using classical computers.",
+    "eli5Def": "A measure of how deeply weird and un-simulatable a quantum system is.",
+    "wikiTitle": "Magic state distillation"
+   },
+   {
+    "term": "Area-law",
+    "shortDef": "A scaling rule where entanglement grows with the surface area rather than the volume of a region.",
+    "eli5Def": "A rule where the complexity of a system depends only on its outer boundary rather than its total guts.",
+    "wikiTitle": "Area law (quantum information theory)"
+   },
+   {
+    "term": "Ground states",
+    "shortDef": "The lowest possible energy state of a quantum mechanical system.",
+    "eli5Def": "The most relaxed, lowest-energy state a quantum system can settle into.",
+    "wikiTitle": "Ground state"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

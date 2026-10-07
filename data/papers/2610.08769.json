@@ -1,0 +1,80 @@
+{
+ "id": "2610.08769",
+ "version": 1,
+ "title": "Observing the magic Mpemba effect in localized dynamics on a digital quantum computer",
+ "authors": [
+  {
+   "name": "Han-Ze Li"
+  },
+  {
+   "name": "Xianquan Yan"
+  },
+  {
+   "name": "Yi-Rui Zhang"
+  },
+  {
+   "name": "Jian-Xin Zhong"
+  },
+  {
+   "name": "Shuo Liu"
+  },
+  {
+   "name": "Ching Hua Lee"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.dis-nn"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-06T17:54:16Z",
+ "updated": "2026-10-06T17:54:16Z",
+ "abstract": "The Mpemba effect challenges the intuition that states closer to equilibrium must relax faster. We ask whether an analogous magic-ordering reversal can occur in the generation of quantum magic (nonstabilizerness), a key resource for universal quantum computation: can a state with less initial magic overtake one with more and reach its asymptotic value sooner? Here, we uncover interaction-induced dephasing as a distinct mechanism for this magic Mpemba effect, requiring neither transport nor conventional thermalization. For tilted product states in an interacting $\\ell$-bit model, a random-phase analysis predicts a reversal of the magic ordering: states with less initial magic attain higher saturated magic, independent of their spatial pattern. Exact simulations of the $\\ell$-bit model and localized spin chains further show that these states also saturate earlier. We observe both features on IBM superconducting quantum processors. An effective $\\ell$-bit implementation accesses long dephasing times at fixed circuit depth by encoding time in gate angles, while a microscopic spin model exhibits the reversal universally across initial patterns in the localized regime but only selectively in the ergodic regime. These results establish interaction-induced dephasing as a route to anomalous quantum-resource relaxation beyond transport-driven thermalizing dynamics.",
+ "comment": "Any commments are welcome!",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.08769",
+  "pdf": "https://arxiv.org/pdf/2610.08769",
+  "html": "https://arxiv.org/html/2610.08769"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-07T13:46:05.117Z",
+  "hook": "Can states with less initial magic overtake those with more? Researchers observe the magic Mpemba effect on quantum computers.",
+  "tldr": [
+   "Uncovered interaction-induced dephasing as a mechanism for the magic Mpemba effect in quantum computing resources.",
+   "Predicted a reversal of magic ordering for tilted product states in an interacting l-bit model via random-phase analysis.",
+   "Observed the magic Mpemba effect using IBM superconducting quantum processors."
+  ],
+  "whyItMatters": "Understanding how quantum magic behaves and relaxes helps optimize resources required for universal quantum computing.",
+  "eli5": "Normally, things that start out closer to a final resting state get there first. This study shows a strange quantum twist where a system starting further away can sometimes beat the other one to the finish line.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Mpemba effect",
+    "shortDef": "The phenomenon where hot water can freeze faster than cold water under certain conditions.",
+    "eli5Def": "A weird trick where something that starts off further away from its final state actually reaches it faster.",
+    "wikiTitle": "Mpemba effect"
+   },
+   {
+    "term": "dephasing",
+    "shortDef": "The loss of phase coherence in quantum superposition states.",
+    "eli5Def": "When quantum waves get out of sync with each other, destroying their delicate quantum properties.",
+    "wikiTitle": "Dephasing"
+   },
+   {
+    "term": "superconducting quantum processor",
+    "shortDef": "A quantum computer built using circuits made of superconducting materials.",
+    "eli5Def": "A powerful quantum computer chip kept at ultra-cold temperatures using zero-resistance electrical circuits.",
+    "wikiTitle": "Superconducting quantum computing"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "2610.10490",
+ "version": 1,
+ "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation",
+ "authors": [
+  {
+   "name": "Furqan Nasir"
+  },
+  {
+   "name": "Sher Jeel Ahmad"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-07T17:45:18Z",
+ "updated": "2026-10-07T17:45:18Z",
+ "abstract": "Estimates of the quantum resources needed to run fault-tolerant algorithms are almost always reported as single numbers, even though they rest on uncertain hardware parameters and on cost models that disagree. We present an open, tool-agnostic framework that propagates evidence-based priors over fault-tolerant hardware parameters through five surface-code cost models, adds correlated-input sensitivity analysis, and evaluates the resulting intervals with a pre-registered three-layer protocol. Applied to RSA-2048, ECC-256, AES-256, and a Hubbard-model simulation on a superconducting surface-code architecture, it produces three coupled findings that together undermine the single-number convention. Propagating the error rates hardware has actually demonstrated, whose median across five large-array devices is about 4 x 10^-3 rather than the conventional 10^-3, widens the 90% physical-qubit interval to roughly forty times and lifts its median about 4.6 times above the conventional point estimate. Against the same inputs, five independently structured cost models, including two third-party estimators (the Azure Quantum Resource Estimator and Qualtran) that agree with each other to within about ten percent, disagree by a stable factor of two, a structural uncertainty that no single tool reveals. Most consequentially, both third-party estimators exceed their representable envelope for 80 to 100 percent of the evidence-based parameter space, and the AES-256 gate count overflows one tool's counter outright, so these workloads cannot be represented at measured error rates at all. The optimistic convention conceals every one of these effects. The uncertainty machinery we use is standard. The contribution is its evidence-based application, the pre-registered evaluation, and the finding that standard tools break down precisely where hardware operates.",
+ "comment": "22 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.10490",
+  "pdf": "https://arxiv.org/pdf/2610.10490",
+  "html": "https://arxiv.org/html/2610.10490"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-08T13:53:59.654Z",
+  "hook": "Standard quantum tools break down because actual hardware error rates are four times higher than assumed.",
+  "tldr": [
+   "Built a framework propagating empirical hardware priors through five surface-code cost models with sensitivity analysis.",
+   "Applied the protocol to RSA-2048, ECC-256, AES-256, and a Hubbard-model simulation on superconducting hardware.",
+   "Found that measured error rates widen physical qubit intervals 40-fold and exceed the representable envelope of tools."
+  ],
+  "whyItMatters": "Quantum computing roadmaps rely on optimistic resource estimates that ignore real-world hardware noise and tool discrepancies. Revealing these gaps ensures the field builds realistic timelines for cryptography and simulation.",
+  "eli5": "Estimating how hard it is to run a quantum program is like budgeting for a house build using best-case prices. This paper shows that real hardware errors are much higher, causing standard estimation tools to break down completely.",
+  "keyNumbers": [
+   {
+    "value": "4 x 10^-3",
+    "label": "Median error rate",
+    "context": "Demonstrated median error rate across five large-array devices, compared to the conventional 10^-3."
+   },
+   {
+    "value": "4.6",
+    "label": "Median multiplier",
+    "context": "Factor by which the median physical-qubit interval is lifted above the conventional point estimate."
+   },
+   {
+    "value": "80 to 100",
+    "label": "Percentage",
+    "context": "Portion of the evidence-based parameter space where third-party estimators exceed their representable envelope."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Fault-tolerant",
+    "shortDef": "Able to function correctly even when some of its individual components fail.",
+    "eli5Def": "A system that keeps working even when parts of it break.",
+    "wikiTitle": "Fault-tolerant quantum computation"
+   },
+   {
+    "term": "Surface-code",
+    "shortDef": "A prominent error-correcting architecture using a 2D grid of physical qubits.",
+    "eli5Def": "A grid-like safety layout for quantum bits to catch errors.",
+    "wikiTitle": "Surface code"
+   },
+   {
+    "term": "Prior",
+    "shortDef": "An initial probability distribution representing beliefs before observing new data.",
+    "eli5Def": "What you reasonably expect before running an experiment.",
+    "wikiTitle": "Prior probability"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

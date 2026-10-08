@@ -1,0 +1,67 @@
+{
+ "id": "2610.10504",
+ "version": 1,
+ "title": "Black hole radial geometry from a quantum spin chain",
+ "authors": [
+  {
+   "name": "Boris A. Khanikati"
+  }
+ ],
+ "categories": [
+  "hep-th",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-th",
+ "published": "2026-10-07T17:50:53Z",
+ "updated": "2026-10-07T17:50:53Z",
+ "abstract": "We show that the radial differential equation for a scalar field in an anti-de Sitter black brane background can be encoded in an exactly solvable semi-infinite spin chain independent of dimensionality. The radial coordinate emerges as lattice quasimomentum. Spin coherence encodes the geometry, while the spectrum and response recover gravitational observables and yield exact screening-mass sum rules. We implement the finite chain on a superconducting processor. At finite filling and low energies, the model yields a conformal field theory in a coordinate proportional to proper radial distance.",
+ "comment": "10 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.10504",
+  "pdf": "https://arxiv.org/pdf/2610.10504",
+  "html": "https://arxiv.org/html/2610.10504"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.10504v1/Images/Fig_1_2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-08T13:53:59.654Z",
+  "hook": "Encoding a black hole's radial geometry into an exactly solvable quantum spin chain.",
+  "tldr": [
+   "Showed that the radial differential equation for a scalar field in a black brane background can be encoded in a spin chain.",
+   "Implemented the finite chain on a superconducting processor.",
+   "Recovered gravitational observables, exact screening-mass sum rules, and a conformal field theory at low energies."
+  ],
+  "whyItMatters": "Connecting gravitational physics like black holes to controllable quantum systems like spin chains opens up new ways to simulate complex cosmic phenomena using laboratory hardware.",
+  "eli5": "Think of translating the complex geometry of a black hole into a simple row of microscopic magnets interacting with each other. By studying how the magnets behave, physicists can learn secrets about gravity and space.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Spin chain",
+    "shortDef": "A mathematical model of interacting quantum magnetic moments arranged in a line or lattice.",
+    "eli5Def": "A line of tiny atomic magnets that all influence their neighbors.",
+    "wikiTitle": "Quantum spin model"
+   },
+   {
+    "term": "Quasimomentum",
+    "shortDef": "A momentum-like quantity for waves or particles moving through a periodic crystal lattice.",
+    "eli5Def": "The momentum of something moving through a repeating grid structure.",
+    "wikiTitle": "Quasimomentum"
+   },
+   {
+    "term": "Conformal field theory",
+    "shortDef": "A physical theory that is invariant under angle-preserving scale transformations.",
+    "eli5Def": "A system that looks identical no matter how much you zoom in or out, like a fractal.",
+    "wikiTitle": "Conformal field theory"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "id": "2610.10427",
+ "version": 1,
+ "title": "Design-Time Conformance Checking for Pulse-Level Quantum Control",
+ "authors": [
+  {
+   "name": "Rylan Malarchick"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.SE"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-07T17:07:35Z",
+ "updated": "2026-10-07T17:07:35Z",
+ "abstract": "A pulse-level quantum control program is written against a device whose limits are recorded, if at all, in vendor documentation and source code. A program that exceeds them can be refused at compile time. It can also be accepted and silently altered, or compile and then fail at the board. In the last two cases the experiment runs, and the data does not correspond to the program that was written. We present qconform, a checker that decides whether a pulse program is realizable on a device, given a versioned capability descriptor for that device. Every constraint in a descriptor cites the toolchain observation that established it. The checker is design-time, offline, and deterministic, and it uses no floating point. It reports a verdict, the rules it applied, and a coverage manifest that names what it did not check. We evaluate qconform by differential testing against the QICK and Qblox toolchains, on three QICK board configurations and one Qblox cluster. Over 1263 program runs of 969 distinct programs, the checker accepted no program that a toolchain refuses. On both vendors, a descriptor pinned to one toolchain release accepts programs that older releases refuse. The evaluation also found ten defects in the checker and its descriptors, all fixed.",
+ "comment": "6 pages, 1 figure, 3 tables. Code: https://github.com/rylanmalarchick/qconform (release v0.1.0)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.10427",
+  "pdf": "https://arxiv.org/pdf/2610.10427",
+  "html": "https://arxiv.org/html/2610.10427"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-08T13:53:59.654Z",
+  "hook": "We tested qconform across 1263 program runs to check pulse-level quantum control before hardware execution.",
+  "tldr": [
+   "Developed qconform, an offline and deterministic design-time conformance checker for pulse-level quantum control programs.",
+   "Evaluated the checker using differential testing against QICK and Qblox toolchains across three QICK configurations and one Qblox cluster.",
+   "Found that the checker accepted no programs refused by toolchains and helped uncover and fix ten defects."
+  ],
+  "whyItMatters": "Quantum hardware is notoriously sensitive, and writing low-level control pulses that violate device limits can ruin experiments without warning. Tools like qconform prevent wasted lab time by catching invalid programs before they ever touch the hardware.",
+  "eli5": "Think of it like a spellchecker that reads your computer code before you send it to a delicate piece of machinery, making sure you aren't asking the machine to do anything that would break it.",
+  "keyNumbers": [
+   {
+    "value": "1263",
+    "label": "Program runs",
+    "context": "Total number of program runs evaluated in the differential testing"
+   },
+   {
+    "value": "969",
+    "label": "Distinct programs",
+    "context": "Number of distinct programs tested across vendor toolchains"
+   },
+   {
+    "value": "10",
+    "label": "Defects found",
+    "context": "Number of defects found in the checker and its descriptors, all of which were fixed"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Pulse-level quantum control",
+    "shortDef": "Direct manipulation of quantum hardware using precise electromagnetic waveforms rather than abstract logic gates.",
+    "eli5Def": "Controlling a quantum computer by tweaking the exact radio waves and electrical pulses sent into it.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Conformance checking",
+    "shortDef": "Verifying whether a system execution or program adheres to a defined set of rules or capability limits.",
+    "eli5Def": "Checking whether a set of instructions follows all the safety rules of a device.",
+    "wikiTitle": "Conformance checking"
+   },
+   {
+    "term": "Differential testing",
+    "shortDef": "A software testing technique that compares the outputs of multiple implementations of the same specification.",
+    "eli5Def": "Testing a new tool by comparing its answers against several older tools to see if they agree.",
+    "wikiTitle": "Differential testing"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-07T13:46:05.117Z",
+ "generatedAt": "2026-10-08T13:53:59.654Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -39,46 +39,6 @@
    "recentTitles": [
     "Quantum impurity models: easy at equilibrium, universal in motion",
     "Marton's conjecture in polynomial time"
-   ],
-   "paperCount": 5
-  },
-  {
-   "name": "Chengkai Zhu",
-   "slug": "chengkai-zhu",
-   "score": 5,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.38134",
-    "2609.30268",
-    "2609.10520"
-   ],
-   "recentTitles": [
-    "Resource Compatibility in Optimal Quantum Symmetry Testing",
-    "Quantum Channel Stein Theorem beyond Definite Causal Order"
-   ],
-   "paperCount": 5
-  },
-  {
-   "name": "Xin Wang",
-   "slug": "xin-wang",
-   "score": 5,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.38134",
-    "2609.30268",
-    "2609.17465"
-   ],
-   "recentTitles": [
-    "Resource Compatibility in Optimal Quantum Symmetry Testing",
-    "Quantum Channel Stein Theorem beyond Definite Causal Order"
    ],
    "paperCount": 5
   },
@@ -144,8 +104,8 @@
    "paperCount": 4
   },
   {
-   "name": "Soonwon Choi",
-   "slug": "soonwon-choi",
+   "name": "Chengkai Zhu",
+   "slug": "chengkai-zhu",
    "score": 4,
    "coAuthoredWith": [],
    "viaKeywords": [],
@@ -153,13 +113,33 @@
     "quant-ph"
    ],
    "paperIds": [
-    "2609.31596",
-    "2609.30248",
-    "2609.04121"
+    "2609.38134",
+    "2609.30268",
+    "2609.10520"
    ],
    "recentTitles": [
-    "Oracle Distillation",
-    "Deep thermalization and Hilbert space ergodicity"
+    "Resource Compatibility in Optimal Quantum Symmetry Testing",
+    "Quantum Channel Stein Theorem beyond Definite Causal Order"
+   ],
+   "paperCount": 4
+  },
+  {
+   "name": "Xin Wang",
+   "slug": "xin-wang",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2609.38134",
+    "2609.30268",
+    "2609.17465"
+   ],
+   "recentTitles": [
+    "Resource Compatibility in Optimal Quantum Symmetry Testing",
+    "Quantum Channel Stein Theorem beyond Definite Causal Order"
    ],
    "paperCount": 4
   },
@@ -202,6 +182,25 @@
     "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax"
    ],
    "paperCount": 4
+  },
+  {
+   "name": "Ethan Dickey",
+   "slug": "ethan-dickey",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2610.07308",
+    "2609.14620"
+   ],
+   "recentTitles": [
+    "Quantum dynamics of spin systems using quantum-like resources",
+    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
+   ],
+   "paperCount": 2
   }
  ]
 }

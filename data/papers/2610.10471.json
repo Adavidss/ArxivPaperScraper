@@ -1,0 +1,72 @@
+{
+ "id": "2610.10471",
+ "version": 1,
+ "title": "Optimized discrete Wigner representations and non-stabilizerness in qubit systems",
+ "authors": [
+  {
+   "name": "A. B. Klimov"
+  },
+  {
+   "name": "C. Muñoz"
+  },
+  {
+   "name": "I. Sainz"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-07T17:33:58Z",
+ "updated": "2026-10-07T17:33:58Z",
+ "abstract": "The apparent absence of a stabilizer-speci?c phase-space description for qubit systems is not fundamental, but arises from ?xing a state-independent discrete Wigner map. Allowing the phase-space representation to adapt to the state through a simple optimization procedure, we prove that every qubit stabilizer state admits an exact delta-function discrete Wigner representation for any ?xed phase-space partition. This optimization can be implemented directly at the level of measurement statistics by selecting maximal probabilities across mutually unbiased bases forming the partition. This construction naturally leads to a non-stabilizer witness de?ned by the optimized value of the Wigner function at the origin. Stabilizer states saturate the universal lower bound of this witness for pure states, whereas a value strictly larger than the bound certi?es non-stabilizerness. Although the witness is not a ?nite-size resource monotone, it becomes sharply concentrated and e?ectively invariant under random Cli?ord transformations in the large-qubit limit, suggesting an asymptotically linear growth law for broad families of non-stabilizer states. Our results restore a meaningful geometric phase-space characterization of qubit stabilizer structure and provide an operational diagnostic of non-stabilizerness.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.10471",
+  "pdf": "https://arxiv.org/pdf/2610.10471",
+  "html": "https://arxiv.org/html/2610.10471"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.10471v1/Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-08T13:53:59.654Z",
+  "hook": "Adapting phase-space representations to individual states proves stabilizer states admit exact Wigner functions.",
+  "tldr": [
+   "Allowed the discrete Wigner map to adapt to the quantum state through a simple optimization procedure.",
+   "Proved every qubit stabilizer state admits an exact delta-function discrete Wigner representation.",
+   "Defined a non-stabilizer witness using the optimized value of the Wigner function at the origin."
+  ],
+  "whyItMatters": "Understanding non-stabilizerness is crucial because it is the fundamental resource that makes quantum computers more powerful than classical ones. This work provides a clear geometric way to measure and characterize that power.",
+  "eli5": "Normally, mapping quantum states into a visual grid gives blurry pictures for certain systems. By letting the grid adapt to the specific state, researchers got a crystal-clear picture that reveals what makes quantum computers special.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Stabilizer state",
+    "shortDef": "A special class of quantum states that can be efficiently simulated on classical computers.",
+    "eli5Def": "A simpler type of quantum state that a normal computer can easily keep track of.",
+    "wikiTitle": "Stabilizer state"
+   },
+   {
+    "term": "Wigner representation",
+    "shortDef": "A quasiprobability distribution mapping quantum states onto phase space.",
+    "eli5Def": "A map that tries to show where a quantum particle is and how fast it's moving at the same time.",
+    "wikiTitle": "Wigner quasiprobability distribution"
+   },
+   {
+    "term": "Clifford transformations",
+    "shortDef": "Quantum operations that map Pauli operators to Pauli operators.",
+    "eli5Def": "A standard set of easy quantum moves that alone cannot unlock full quantum computing power.",
+    "wikiTitle": "Clifford algebra"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

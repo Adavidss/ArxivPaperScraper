@@ -1,0 +1,109 @@
+{
+ "id": "2610.12406",
+ "version": 1,
+ "title": "Local polarization control of optical tweezer arrays",
+ "authors": [
+  {
+   "name": "Xiangkai Sun"
+  },
+  {
+   "name": "Richard Bing-Shiun Tsai"
+  },
+  {
+   "name": "Andrew Winnicki"
+  },
+  {
+   "name": "Yuan Le"
+  },
+  {
+   "name": "Kon H. Leung"
+  },
+  {
+   "name": "Nelson Darkwah Oppong"
+  },
+  {
+   "name": "Manuel Endres"
+  }
+ ],
+ "categories": [
+  "physics.atom-ph",
+  "physics.optics",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.atom-ph",
+ "published": "2026-10-08T17:45:45Z",
+ "updated": "2026-10-08T17:45:45Z",
+ "abstract": "Optical tweezer arrays trapping ultracold atoms and molecules are a versatile quantum science platform with broad impact in quantum simulation, quantum computation, and quantum metrology. The polarization dependence of anisotropic vector and tensor light shifts offers a degree of freedom for precise quantum state engineering of trapped particles. Similarly, state-selective operations depend on the polarization of the addressing light through the atom--light coupling strength. Yet, methods for controlling the polarization of individual tweezers or local addressing beams remain an experimental challenge. Here, we demonstrate independent, site-resolved linear polarization rotation across an optical tweezer array by exploiting the local birefringence tunability of a spatial light modulator. Applying this capability to an array of $^{88}\\rm{Sr}$ atoms, we homogenize differential light shifts imparted by the 813-nm tweezers to the narrow ${^1{\\rm S}_0}\\leftrightarrow{^3{\\rm P}_1}$ transition, enabling sideband cooling under a magic-angle condition. Furthermore, we show dynamic transport of trapped atoms across distinct polarization zones with high survival and preserved coherence. Finally, we characterize tweezer polarization noise and demonstrate closed-loop stabilization referenced to the atomic transition frequency, reaching mrad-level stability. Our work establishes a technique for manipulating polarization-sensitive atomic and molecular transitions in tweezer architectures, with immediate applications to optical tweezer clocks and multi-zone quantum processors.",
+ "comment": "11 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12406",
+  "pdf": "https://arxiv.org/pdf/2610.12406",
+  "html": "https://arxiv.org/html/2610.12406"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.12406v1/Polarization_tuning_zone_V3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-09T13:38:28.650Z",
+  "hook": "Spatial light modulators achieve site-resolved polarization control and mrad-level stability in strontium tweezer arrays.",
+  "tldr": [
+   "Demonstrated independent linear polarization rotation across individual sites in an optical tweezer array.",
+   "Tuned spatial light modulator birefringence to homogenize differential light shifts in strontium-88 atoms.",
+   "Demonstrated magic-angle sideband cooling, coherent transport across polarization zones, and closed-loop mrad stabilization."
+  ],
+  "whyItMatters": "Precise, per-site optical control over individual trapped atoms removes key noise barriers for scaling optical atomic clocks and modular neutral-atom quantum computers.",
+  "eli5": "Optical tweezers use laser beams like tractor beams to hold single atoms in place. By twisting the light's polarization angle for each atom independently, scientists neutralized distorting light shifts and kept atoms cooler and more stable.",
+  "keyNumbers": [
+   {
+    "value": "88",
+    "label": "Atomic mass number",
+    "context": "Strontium isotope (88Sr) trapped in the optical tweezer array"
+   },
+   {
+    "value": "813 nm",
+    "label": "Tweezer wavelength",
+    "context": "Wavelength of the optical tweezer laser addressing strontium transitions"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Optical tweezer",
+    "shortDef": "A tightly focused laser beam that traps microscopic particles or single atoms.",
+    "eli5Def": "A laser beam tractor beam that holds a single atom floating in space.",
+    "wikiTitle": "Optical tweezers"
+   },
+   {
+    "term": "Spatial light modulator",
+    "shortDef": "A device that modulates the phase, amplitude, or polarization of light beams in space.",
+    "eli5Def": "A microscopic digital display that sculpts and tailors laser beams on the fly.",
+    "wikiTitle": "Spatial light modulator"
+   },
+   {
+    "term": "Light shift",
+    "shortDef": "A shift in atomic energy levels caused by an oscillating external light field.",
+    "eli5Def": "A tweak to an atom's natural vibration frequency caused by shining laser light on it.",
+    "wikiTitle": "Stark effect"
+   },
+   {
+    "term": "Sideband cooling",
+    "shortDef": "A laser cooling technique that removes vibrational quanta from trapped particles.",
+    "eli5Def": "A laser technique that saps the very last bits of heat and motion out of a trapped atom.",
+    "wikiTitle": "Resolved sideband cooling"
+   },
+   {
+    "term": "Magic-angle condition",
+    "shortDef": "A specific orientation where light shifts on ground and excited states match exactly.",
+    "eli5Def": "A sweet-spot laser tilt where light shifts cancel out, leaving the atom untroubled.",
+    "wikiTitle": "Magic angle"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

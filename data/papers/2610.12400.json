@@ -1,0 +1,86 @@
+{
+ "id": "2610.12400",
+ "version": 1,
+ "title": "Measure Now, Mitigate Later: Virtual Error Cancellation for Logical Quantum Circuits",
+ "authors": [
+  {
+   "name": "Oles Shtanko"
+  },
+  {
+   "name": "Saswata Roy"
+  },
+  {
+   "name": "Shashwat Kumar"
+  },
+  {
+   "name": "Zlatko Minev"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-08T17:43:02Z",
+ "updated": "2026-10-08T17:43:02Z",
+ "abstract": "Early fault-tolerant quantum algorithms are a key step in scalable quantum computing, but are ultimately constrained by residual, uncorrectable logical errors. Logical quantum error mitigation can eliminate this bias, however its standard requirements include prior noise characterization, more complex experiments, and substantial sampling overhead. Although no mitigation technique can simultaneously overcome all three constraints, we demonstrate that the first two---noise learning and need for modified circuits---can be completely bypassed for logical circuits by leveraging only syndrome records. Specifically, we introduce virtual error cancellation: a method that, unlike previous bias-free approaches, operates entirely in classical post-processing on universal quantum circuits. We develop and numerically test end-to-end protocols that reduce the sampling overhead beyond fundamental limitations of existing syndrome-aware mitigation techniques, including syndrome-based postselection. In particular, we propose a scheme that pairs the low-latency decoder used in the experiment with a high-complexity decoder run in post-processing. In numerical simulations of a distance-7 rotated surface code, we show that our full-stack dual-decoder algorithm exhibits an error that diminishes as the number of samples increases, capable of reaching more than three orders of magnitude of suppression compared to the decoded logical error rate in an experimentally achievable setting. These results establish syndrome records as a resource for correcting universal computational estimates after quantum execution.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12400",
+  "pdf": "https://arxiv.org/pdf/2610.12400",
+  "html": "https://arxiv.org/html/2610.12400"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.12400v1/fig_dual_decoder_6panel_master.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-09T13:38:28.650Z",
+  "hook": "Virtual error cancellation cuts logical quantum errors by over 1,000x purely in post-processing.",
+  "tldr": [
+   "Introduced virtual error cancellation to clean logical quantum errors without modifying circuits or pre-characterizing noise.",
+   "Combined real-time fast decoders during the run with heavy classical decoders that re-examine syndrome logs later.",
+   "Suppressed logical errors by more than three orders of magnitude in simulated distance-7 rotated surface codes."
+  ],
+  "whyItMatters": "Early quantum computers will still leak errors even when running error-correcting codes. Fixing these mistakes purely in software after running experiments cuts the physical hardware requirements for reaching reliable quantum computing.",
+  "eli5": "Imagine taking a photo with a shaky camera while a rough auto-focus does its best. Instead of retaking the picture, you take the camera's raw sensor logs to your powerful home computer to digitally sharpen away the blur.",
+  "keyNumbers": [
+   {
+    "value": "7",
+    "label": "Code distance",
+    "context": "Simulated rotated surface code used to demonstrate dual-decoder mitigation."
+   },
+   {
+    "value": ">3 orders of magnitude",
+    "label": "Error suppression",
+    "context": "Improvement in logical error rate achieved by the dual-decoder scheme relative to basic decoding."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Syndrome records",
+    "shortDef": "Data logged during error correction identifying where and when quantum errors likely happened.",
+    "eli5Def": "A digital smoke detector log showing which alarms went off during a computation.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Virtual error cancellation",
+    "shortDef": "A classical post-processing technique to subtract residual error bias from final quantum measurement averages.",
+    "eli5Def": "A math trick that cancels out known imperfections from measurement results after the experiment is over.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Surface code",
+    "shortDef": "A 2D topological quantum error-correcting code designed for physical qubit grids.",
+    "eli5Def": "A checkerboard-style layout of quantum bits that protect information together.",
+    "wikiTitle": "Toric code"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

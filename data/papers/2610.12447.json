@@ -1,0 +1,83 @@
+{
+ "id": "2610.12447",
+ "version": 1,
+ "title": "Entanglement entropy and magic of ZX-diagrams",
+ "authors": [
+  {
+   "name": "Marcin Szyniszewski"
+  },
+  {
+   "name": "Razin A. Shaikh"
+  },
+  {
+   "name": "Aleks Kissinger"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-08T17:58:32Z",
+ "updated": "2026-10-08T17:58:32Z",
+ "abstract": "Entanglement and non-stabilizerness are complementary resources underlying the complexity of quantum states, yet extracting either quantity from large quantum circuits generally requires exponentially scaling resources. In diagrammatic approaches to quantum computation, such as the ZX-calculus, both quantities likewise typically require expensive tensor contractions that are not native to graphical rewriting. Here we show that both entanglement and magic can be efficiently estimated directly from ZX-diagrams. Flow enables efficient extraction of a normal form separating a potentially extensively entangled graph-state backbone from non-Clifford Pauli gadgets. This structure yields additive upper and lower bounds on bipartite entanglement entropy, which we further tighten through a preprocessing procedure that removes or merges redundant non-Clifford contributions. The same normal form gives an upper bound on logarithmic stabilizer extent. We benchmark these methods in random unitary and monitored circuits, and a circuit combining Trotterized Hamiltonian evolution with Clifford layers, finding that the resulting bounds remain informative even at large qubit numbers, circuit depths, and internal spider counts. Our results provide scalable probes of entanglement and non-stabilizerness of ZX-diagrams and establish a bridge between ZX-calculus and quantum many-body resource characterization, with applications across quantum computing, quantum information, and condensed-matter physics.",
+ "comment": "6+6 pages, 3+2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12447",
+  "pdf": "https://arxiv.org/pdf/2610.12447",
+  "html": "https://arxiv.org/html/2610.12447"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-09T13:38:28.650Z",
+  "hook": "Entanglement entropy and magic can be efficiently bounded directly from ZX-diagrams without exponential contractions.",
+  "tldr": [
+   "Developed scalable graphical methods to bound entanglement and non-stabilizerness directly in the ZX-calculus.",
+   "Extracted a normal form separating an entangled graph-state backbone from non-Clifford gadgets using flow.",
+   "Benchmarked bounds on random unitary, monitored, and Trotterized circuits, keeping bounds tight at large scale."
+  ],
+  "whyItMatters": "Simulating complex quantum systems and verifying quantum advantage requires tracking both entanglement and 'magic'; doing so without exponential scaling opens doors to analyzing much larger quantum circuits.",
+  "eli5": "Measuring how complex a giant quantum circuit is usually takes impossible computing power. By rewriting the quantum instructions into graph networks like a subway map, researchers found a shortcut to estimate complexity directly from the map's layout.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "ZX-calculus",
+    "shortDef": "A rigorous graphical language for reasoning about quantum processes via diagrams.",
+    "eli5Def": "A diagram-based visual language where quantum circuits look like connected graphs of colored dots.",
+    "wikiTitle": "ZX-calculus"
+   },
+   {
+    "term": "Magic (non-stabilizerness)",
+    "shortDef": "The resource in quantum states that cannot be efficiently simulated by Clifford gates.",
+    "eli5Def": "The secret ingredient in quantum computing that classical computers cannot easily fake.",
+    "wikiTitle": "Magic state distillation"
+   },
+   {
+    "term": "Entanglement entropy",
+    "shortDef": "A measure of quantum entanglement between two subsystems of a pure composite quantum state.",
+    "eli5Def": "A number that quantifies how inextricably linked two parts of a quantum system are.",
+    "wikiTitle": "Entropy of entanglement"
+   },
+   {
+    "term": "Graph state",
+    "shortDef": "A multipartite entangled quantum state corresponding to a mathematical graph.",
+    "eli5Def": "A quantum state structured cleanly like dots connected by lines on a board.",
+    "wikiTitle": "Graph state"
+   },
+   {
+    "term": "Stabilizer extent",
+    "shortDef": "A metric quantifying the resource cost of decomposing a state into stabilizer states.",
+    "eli5Def": "A scorecard showing how many simple, easily simulated building blocks are needed to build a complex state.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

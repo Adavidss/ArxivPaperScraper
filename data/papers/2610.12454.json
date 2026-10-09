@@ -1,0 +1,92 @@
+{
+ "id": "2610.12454",
+ "version": 1,
+ "title": "On PPT entanglement distillation",
+ "authors": [
+  {
+   "name": "Ludovico Lami"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-08T17:59:09Z",
+ "updated": "2026-10-08T17:59:09Z",
+ "abstract": "We study entanglement distillation under operations that remain completely positive under partial-transpose conjugation, a.k.a. PPT channels, in the standard quantum Shannon theory regime of asymptotically vanishing but non-zero error. Our main results are: (a) a regularised formula for the PPT distillable entanglement in terms of a measured-relative-entropy-like quantity; and (b) two different single-letter converses, one based on operator quadratic forms and the other on Hirschman's strengthening of the Hadamard three-line theorem. As an immediate application of (b), we show that the PPT distillable entanglement can be strictly smaller than the regularised Rains bound, thereby resolving an open problem in the theory of entanglement manipulation [Regula et al., NJP 21:103017, 2019]. A gap appears already for $3\\times 3$ Werner states: at antisymmetric weight $25/26$, a certified upper bound of $0.62107$ ebits lies below the (regularised) Rains bound, which equals $\\frac{25}{26} \\log_2 5 - \\log_2 3 \\approx 0.64766$ ebits. On a different note, (a) implies a faithful lower bound on the PPT distillable entanglement in terms of the entanglement negativity, which provides a quantitative counterpart to the qualitatively known fact that any NPT state is PPT distillable [Eggeling et al., PRL 87:257902, 2001].",
+ "comment": "31+7 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12454",
+  "pdf": "https://arxiv.org/pdf/2610.12454",
+  "html": "https://arxiv.org/html/2610.12454"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-09T13:38:28.650Z",
+  "hook": "PPT distillable entanglement can be strictly smaller than the regularised Rains bound, solving an open quantum problem.",
+  "tldr": [
+   "Proved regularised formulas and single-letter converses for entanglement distillation under PPT operations.",
+   "Applied operator quadratic forms and Hirschman's strengthening of the Hadamard three-line theorem to Werner states.",
+   "Disproved that regularised Rains bound equals PPT distillable entanglement by revealing a strict gap at 0.62107 ebits."
+  ],
+  "whyItMatters": "Pinning down the ultimate limits of extracting pure quantum entanglement is foundational for designing optimal quantum repeaters and long-range quantum networks.",
+  "eli5": "Imagine trying to sift pure gold flakes from noisy river silt using a specific mesh. Physicists had a theoretical ceiling on how much gold that mesh could ever extract, but this work proves that even the best technique falls short of that old ceiling.",
+  "keyNumbers": [
+   {
+    "value": "0.62107",
+    "label": "Certified upper bound (ebits)",
+    "context": "Calculated for 3x3 Werner states at antisymmetric weight 25/26"
+   },
+   {
+    "value": "0.64766",
+    "label": "Regularised Rains bound (ebits)",
+    "context": "Equals (25/26)log2(5) - log2(3) for the same Werner state"
+   },
+   {
+    "value": "25/26",
+    "label": "Antisymmetric weight",
+    "context": "Specific parameter for the 3x3 Werner state showing the bound gap"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "PPT channels",
+    "shortDef": "Quantum channels remaining completely positive under partial transposition.",
+    "eli5Def": "Noise-filtering operations that preserve a specific mathematical consistency test on entangled states.",
+    "wikiTitle": "Peres–Horodecki criterion"
+   },
+   {
+    "term": "Entanglement distillation",
+    "shortDef": "Extracting fewer, highly entangled states from many noisy entangled states.",
+    "eli5Def": "Purifying weak, messy quantum connections into a few pristine, perfect connections.",
+    "wikiTitle": "Entanglement distillation"
+   },
+   {
+    "term": "Rains bound",
+    "shortDef": "An upper bound on the amount of distillable entanglement under PPT operations.",
+    "eli5Def": "A mathematical formula once thought to be the exact speed limit for distilling quantum links.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Werner states",
+    "shortDef": "Bipartite quantum states invariant under unitary operations of the form U tensor U.",
+    "eli5Def": "Highly symmetrical noisy test states commonly used to probe quantum limits.",
+    "wikiTitle": "Werner state"
+   },
+   {
+    "term": "Negativity",
+    "shortDef": "An entanglement measure computed from the trace norm of the partial transpose.",
+    "eli5Def": "A reliable score sheet measuring how genuinely entangled a two-party system is.",
+    "wikiTitle": "Negativity (quantum computing)"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

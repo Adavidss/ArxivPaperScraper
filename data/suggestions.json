@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T13:53:59.654Z",
+ "generatedAt": "2026-10-09T13:38:28.650Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -18,6 +18,26 @@
    "recentTitles": [
     "Quantum dynamics of spin systems using quantum-like resources",
     "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies"
+   ],
+   "paperCount": 5
+  },
+  {
+   "name": "Ludovico Lami",
+   "slug": "ludovico-lami",
+   "score": 5,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2610.12454",
+    "2610.12365",
+    "2610.06842"
+   ],
+   "recentTitles": [
+    "On PPT entanglement distillation",
+    "Energy-constrained two-way capacities of the pure-loss channel"
    ],
    "paperCount": 5
   },
@@ -182,25 +202,6 @@
     "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax"
    ],
    "paperCount": 4
-  },
-  {
-   "name": "Ethan Dickey",
-   "slug": "ethan-dickey",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "SABRE"
-   ],
-   "viaCategories": [],
-   "paperIds": [
-    "2610.07308",
-    "2609.14620"
-   ],
-   "recentTitles": [
-    "Quantum dynamics of spin systems using quantum-like resources",
-    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
-   ],
-   "paperCount": 2
   }
  ]
 }

@@ -1,0 +1,100 @@
+{
+ "id": "2610.12428",
+ "version": 1,
+ "title": "Toward Joint Optimization of Circuit Depth and Training Data Size in Adaptively Grown Quantum Classifiers",
+ "authors": [
+  {
+   "name": "Saeefa Rubaiyet Nowmi"
+  },
+  {
+   "name": "Md Mahmuduzzaman Kamol"
+  },
+  {
+   "name": "Mohammad Saidur Rahman"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-08T17:55:57Z",
+ "updated": "2026-10-08T17:55:57Z",
+ "abstract": "Building a quantum model involves a tradeoff: how complex the circuit should be, and how much training data it needs. Caro et al. show that models with fewer trainable gates need less training data to generalize well. Q-FLAIR shows that a quantum feature-map circuit can be grown gate-by-gate, stopping once further growth stops improving the training loss. We ask whether these two results combine into a predictable scaling law. Does Q-FLAIR's own stopping rule pick larger or smaller circuits as training data grows? Does the resulting generalization behavior track Caro et al.'s bound? We reimplement Q-FLAIR's growth mechanism faithfully, including its analytic reconstruction and exact stopping rule. We run it on full-resolution (784-pixel) MNIST 3-vs-5 classification, at five training-set sizes from N = 2000 to 10000. We then fine-tune each resulting circuit, so we can measure Caro et al.'s notion of active gates, K. We find no predictable relationship between training-set size and the circuit size Q-FLAIR converges to. Circuit size and test accuracy both vary non-monotonically with N, and seed-to-seed variance is nearly as large as any trend across N. The empirical generalization gap never exceeds Caro et al.'s bound in 14 of 15 runs, so the bound holds as a valid guarantee in those runs. But the gap correlates only weakly with the bound's value (r = 0.12). This shows that K does not explain most of the variation we observe. Why a valid guarantee can coexist with such weak predictive power remains an open question, and answering it may be necessary before circuit depth and training data size can be jointly optimized in practice.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12428",
+  "pdf": "https://arxiv.org/pdf/2610.12428",
+  "html": "https://arxiv.org/html/2610.12428"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.12428v1/images/figure2_caro.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-09T13:38:28.650Z",
+  "hook": "Adaptively growing quantum neural networks fails to follow theoretical data-scaling laws on MNIST, correlating at r=0.12.",
+  "tldr": [
+   "Investigated whether adaptive quantum circuit growth (Q-FLAIR) follows generalization bounds based on gate count.",
+   "Reimplemented Q-FLAIR on 784-pixel MNIST across training set sizes from N=2000 to 10000 and measured active gates.",
+   "Found non-monotonic circuit sizes, large seed variance, and weak correlation (r=0.12) between bounds and gaps."
+  ],
+  "whyItMatters": "Understanding how training data size dictates required quantum circuit depth is vital to building practical, cost-effective quantum machine learning algorithms.",
+  "eli5": "You might expect feeding a program more study questions would steadily dictate how big its brain needs to grow. Testing an adaptive quantum learner showed its size wandered unpredictably, proving current learning theories don't yet explain how it actually grows.",
+  "keyNumbers": [
+   {
+    "value": "784",
+    "label": "Pixel resolution",
+    "context": "Full-resolution MNIST images used in 3-vs-5 classification benchmarks"
+   },
+   {
+    "value": "2000 to 10000",
+    "label": "Training-set size (N)",
+    "context": "Range of dataset sizes tested across five steps"
+   },
+   {
+    "value": "14 of 15",
+    "label": "Runs within bound",
+    "context": "Number of empirical runs where the generalization gap stayed below Caro et al.'s bound"
+   },
+   {
+    "value": "0.12",
+    "label": "Correlation coefficient (r)",
+    "context": "Weak correlation between the empirical generalization gap and theoretical bound value"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Generalization gap",
+    "shortDef": "The difference between a model's performance on training data versus unseen test data.",
+    "eli5Def": "The drop in test score when a student faces real exam questions instead of practice problems.",
+    "wikiTitle": "Generalization (machine learning)"
+   },
+   {
+    "term": "Circuit depth",
+    "shortDef": "The maximum number of sequential quantum gate layers in a quantum algorithm.",
+    "eli5Def": "The number of time steps it takes to run a recipe of quantum operations.",
+    "wikiTitle": "Quantum circuit"
+   },
+   {
+    "term": "Feature-map circuit",
+    "shortDef": "A quantum circuit that encodes classical input data into quantum states.",
+    "eli5Def": "A translator that turns ordinary numbers like pixels into quantum wave patterns.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Active gates",
+    "shortDef": "Trainable quantum gates within a parameterized circuit that genuinely affect output.",
+    "eli5Def": "The dials in a quantum circuit that actually change the result when turned.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "id": "2610.12365",
+ "version": 1,
+ "title": "Energy-constrained two-way capacities of the pure-loss channel",
+ "authors": [
+  {
+   "name": "Alessandro Falco"
+  },
+  {
+   "name": "Francesco Anna Mele"
+  },
+  {
+   "name": "Ludovico Lami"
+  },
+  {
+   "name": "Vittorio Giovannetti"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-08T17:27:32Z",
+ "updated": "2026-10-08T17:27:32Z",
+ "abstract": "We determine the two-way quantum and secret-key capacities of the pure-loss channel under an average input photon-number constraint. For transmissivity $η$ and photon budget $N$, both capacities equal $g(N)-g((1-η)N)$, where $g$ is the entropy of a thermal state. This coincides with the rate achieved by the known reverse coherent information of a two-mode squeezed vacuum. Our result provides the last missing capacity formula for the celebrated pure-loss channel, completing the picture of bosonic quantum communication under pure loss.",
+ "comment": "13 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12365",
+  "pdf": "https://arxiv.org/pdf/2610.12365",
+  "html": "https://arxiv.org/html/2610.12365"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-09T13:38:28.650Z",
+  "hook": "Researchers solved the exact two-way quantum and secret-key capacity limits for energy-constrained pure-loss channels.",
+  "tldr": [
+   "Derived the fundamental limits for transmitting quantum data and secret keys through lossy channels with classical feedback.",
+   "Computed the bounds under an average input photon budget $N$ and channel transmissivity $\\eta$.",
+   "Proved that both capacities equal $g(N) - g((1-\\eta)N)$, fully matching the reverse coherent information of squeezed light."
+  ],
+  "whyItMatters": "This establishes the ultimate physical limit for transferring quantum states and uncrackable encryption keys over real-world fiber networks that lose photons.",
+  "eli5": "If you send flashes of light through a foggy glass pipe while talking back and forth on the phone, there is an absolute speed limit on how much secret code you can transmit. This work found the exact mathematical formula for that speed limit.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Pure-loss channel",
+    "shortDef": "A communication channel where photons simply scatter or disappear without extra thermal noise.",
+    "eli5Def": "A fiber-optic cable that leaks light particles along the way.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Two-way capacity",
+    "shortDef": "The maximum data rate achievable when sender and receiver can freely exchange classical feedback.",
+    "eli5Def": "The fastest speed you can send messages when both sides are allowed to chat back and forth to coordinate.",
+    "wikiTitle": "Quantum capacity"
+   },
+   {
+    "term": "Two-mode squeezed vacuum",
+    "shortDef": "An entangled quantum state of light split across two optical modes.",
+    "eli5Def": "A pair of twin laser beams whose quantum fluctuations are linked together.",
+    "wikiTitle": "Squeezed states of light"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

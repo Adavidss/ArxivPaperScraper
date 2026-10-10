@@ -1,0 +1,88 @@
+{
+ "id": "2610.12320",
+ "version": 1,
+ "title": "Quartic Certificates for Pure-State Tomography with Pauli Measurements",
+ "authors": [
+  {
+   "name": "Hengjian Li"
+  },
+  {
+   "name": "Baisong Sun"
+  },
+  {
+   "name": "Bei Zeng"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-08T17:02:52Z",
+ "updated": "2026-10-08T17:02:52Z",
+ "abstract": "Full Pauli-basis tomography of an arbitrary $n$-qubit state uses the expectation values of all nonidentity Pauli observables. For multiqubit systems, prior knowledge that the state is pure allows some of these observables to be omitted while retaining uniqueness. We study two resulting notions of uniqueness: whether every pure state is uniquely determined among pure states (UDP), and whether every pure state is uniquely determined among all states, including mixed states (UDA). We derive quartic uniqueness certificates from the fourth elementary symmetric polynomial of operators in the real span of the omitted Pauli observables. An exact quartic identity shows that, for $n$-qubit systems with $n\\geq 3$, every pure state is UDA whenever the omitted Pauli observables contain no four distinct operators that commute pairwise and multiply to $\\pm I$. For three qubits, this condition is also necessary for UDP, yielding an exact characterization of both UDP and UDA. We further prove that UDP and UDA coincide for any number of qubits whenever the omitted Pauli observables commute pairwise. These results provide directly checkable structural criteria for certifying pure-state tomography from restricted Pauli measurements.",
+ "comment": "12 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12320",
+  "pdf": "https://arxiv.org/pdf/2610.12320",
+  "html": "https://arxiv.org/html/2610.12320"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-10T12:56:54.310Z",
+  "hook": "Pure quantum states can be uniquely identified from partial Pauli measurements using simple 4-operator checks.",
+  "tldr": [
+   "Formulated algebraic conditions to certify whether omitted Pauli measurements preserve pure-state uniqueness.",
+   "Derived quartic uniqueness certificates via elementary symmetric polynomials of omitted Pauli operators.",
+   "Proved pure states are uniquely identified among all states if no four omitted observables commute and multiply to ±I."
+  ],
+  "whyItMatters": "Quantum tomography is notoriously expensive; reducing the number of necessary measurements while guaranteeing state uniqueness makes characterization feasible for multi-qubit hardware.",
+  "eli5": "To verify a quantum particle's true state, you usually have to take dozens of photos from every angle. This work gives a simple rulebook to skip many angles without losing any detail.",
+  "keyNumbers": [
+   {
+    "value": "n ≥ 3",
+    "label": "Qubit count",
+    "context": "System size where the 4-operator condition ensures unique determination among all states."
+   },
+   {
+    "value": "3",
+    "label": "Qubits for exact characterization",
+    "context": "Number of qubits where the condition is proven necessary and sufficient for UDP."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum state tomography",
+    "shortDef": "The process of reconstructing the quantum state of a physical system via measurement statistics.",
+    "eli5Def": "Taking lots of measurements to build a complete 3D picture of a mystery quantum state.",
+    "wikiTitle": "Quantum tomography"
+   },
+   {
+    "term": "Pauli observables",
+    "shortDef": "Standard quantum mechanical operators based on the Pauli matrices spanning single/multi-qubit spaces.",
+    "eli5Def": "The basic compass directions used to measure the spin or state of a quantum bit.",
+    "wikiTitle": "Pauli matrices"
+   },
+   {
+    "term": "UDP (Uniquely Determined among Pure)",
+    "shortDef": "Property where measurement outcomes match exactly one pure quantum state among all pure states.",
+    "eli5Def": "Knowing your measurements point to only one possible spotless, unmixed quantum state.",
+    "wikiTitle": null
+   },
+   {
+    "term": "UDA (Uniquely Determined among All)",
+    "shortDef": "Property where measurement outcomes match exactly one pure state even when considering noisy mixed states.",
+    "eli5Def": "A guarantee that no noisy or mixed quantum state could ever produce your exact measurement results.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

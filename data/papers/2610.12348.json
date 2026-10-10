@@ -1,0 +1,80 @@
+{
+ "id": "2610.12348",
+ "version": 1,
+ "title": "Constructing Large and Structured Decoherence-Free Subspaces in Hybrid Quantum Systems",
+ "authors": [
+  {
+   "name": "Catalin-Mihai Halati"
+  },
+  {
+   "name": "Tony Jin"
+  },
+  {
+   "name": "Roderich Moessner"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "cond-mat.str-el",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-10-08T17:18:30Z",
+ "updated": "2026-10-08T17:18:30Z",
+ "abstract": "We develop a framework to construct large decoherence-free subspaces with a non-trivial structure. The construction is based on hybrid quantum systems in which quantum matter is coupled to a dissipative bosonic mode. Dissipation imposes a global constraint on the matter by selecting the matter null states in the long-time limit. The decoherence-free subspaces spanned by matter null states can exhibit exotic quantum properties and emergent symmetries that do not characterize the full Liouvillian dynamics. We show how to construct many-body operators with physically interesting null states by employing representation theory of Lie algebras. This approach allows us to choose models based on their underlying algebraic structure. We consider explicitly the example of coupling a lossy optical cavity to the directed tunneling operator of quantum particles in one-dimension. In this case, the symmetries of the decoherence-free subspace originate in an $\\mathfrak{sl}(2,\\mathbb{C})$ algebra, leading to an exponentially large number of steady states. We characterize the null states for both fermionic and bosonic particles, employing analytical and numerical methods. The states exhibit several properties that underline their complex quantum nature: long-range kinetic correlations and volume-law entanglement. The nonreciprocal nature of the directed tunneling dynamics leads to the emergence in the many-body regime of a symmetry-constrained Liouvillian skin effect. The open light-matter system exhibits a strong symmetry stemming from spinless $η$-pairing algebras. We show how the non-trivial properties of the long-times states emerge in the dissipative dynamics from generic initial states, by performing time-dependent matrix product state simulations. Our framework opens avenues for dissipatively engineering complex quantum correlations and harnessing nonreciprocity in a controlled manner.",
+ "comment": "ArXiv abstract abridged, see full abstract in the manuscript",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12348",
+  "pdf": "https://arxiv.org/pdf/2610.12348",
+  "html": "https://arxiv.org/html/2610.12348"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.12348v1/Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-10T12:56:54.310Z",
+  "hook": "Coupling quantum matter to a lossy cavity engineers decoherence-free subspaces with volume-law entanglement.",
+  "tldr": [
+   "Investigated methods to construct large, structured decoherence-free subspaces in hybrid open quantum systems.",
+   "Coupled quantum matter to a dissipative bosonic cavity and applied Lie algebra representation theory.",
+   "Showed that dissipation selects null states exhibiting nonreciprocal dynamics, emergent symmetries, and volume-law entanglement."
+  ],
+  "whyItMatters": "Environmental noise normally ruins quantum computers; turning that dissipation into a filter protects delicate quantum states and stabilizes exotic phases of matter.",
+  "eli5": "Think of a noisy, leaky room that usually destroys sandcastles. By tuning the leaks just right, the wind actually sweeps away everything except perfectly shaped, protected castles.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Decoherence-free subspace",
+    "shortDef": "A protected subspace of quantum states completely immune to specific noise sources.",
+    "eli5Def": "A safe haven where quantum information hides so the surrounding environment cannot corrupt it.",
+    "wikiTitle": "Decoherence-free subspaces"
+   },
+   {
+    "term": "Liouvillian dynamics",
+    "shortDef": "The differential equation governing the time evolution of open, dissipative quantum systems.",
+    "eli5Def": "The math rulebook describing how a quantum system changes when exposed to noise.",
+    "wikiTitle": "Lindbladian"
+   },
+   {
+    "term": "Volume-law entanglement",
+    "shortDef": "Entanglement entropy scaling proportionally with the volume of the subsystem rather than its surface.",
+    "eli5Def": "A state where particles are deeply interconnected all throughout, not just at the borders.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Matrix product state",
+    "shortDef": "An efficient tensor-network representation of one-dimensional quantum many-body wavefunctions.",
+    "eli5Def": "A clever mathematical shortcut used by computers to simulate chains of quantum particles.",
+    "wikiTitle": "Matrix product state"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

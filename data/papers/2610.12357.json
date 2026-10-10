@@ -1,0 +1,87 @@
+{
+ "id": "2610.12357",
+ "version": 1,
+ "title": "Improved Local Leakage Resilience of Shamir Secret Sharing and Worst-Case Optimal Polynomial Intersection",
+ "authors": [
+  {
+   "name": "Yihang Sun"
+  },
+  {
+   "name": "Mary Wootters"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR",
+  "cs.DM",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-08T17:23:04Z",
+ "updated": "2026-10-08T17:23:04Z",
+ "abstract": "We study two problems: Local Leakage Resilience (LLR) for Shamir secret sharing, and worst-case Optimal Polynomial Intersection (OPI). Both problems concern polynomials $Q(X)$ of degree less than $k$, over a prime-order finite field $\\mathbb{F}_p$. In LLR for Shamir secret sharing, one asks how much one can learn about $Q(0)$ given a few bits leaked from each of $Q(α_1), \\ldots, Q(α_n)$, for distinct non-zero evaluation points $α_i \\in \\mathbb{F}_p$. In OPI, one is given input list $S_1, \\ldots, S_n \\subset \\mathbb{F}_p$, and wants to find a polynomial $Q(X)$ of degree less than $k$ so that $Q(α_i) \\in S_i$ for as many $i$ as possible. Leveraging recent connection between these two problems due to (Sun, Wootters 2026), we improve the state-of-the-art for both problems. For LLR, we show that there is some constant $δ> 0$ so that, as long as $R := k/n \\geq 1/2 - δ$, Shamir secret-sharing is one-bit locally leakage resilient (meaning that one can learn only a negligible amount about $Q(0)$). This is the first result to break the so-called \"one-half barrier\" for LLR, and improves over the previous best known result, requiring $R \\geq 0.668$ (Kasser, 2025). For OPI, we give a quantum algorithm that finds a polynomial $Q(X)$ that agrees with at least a $\\mathsf{SCL}_ρ(R)-\\varepsilon$ fraction of the lists in expectation, for every fixed $\\varepsilon>0$, where $\\mathsf{SCL}_ρ$ is the \\emph{semicircle law} of (Jordan et al., 2025). This improves previous algorithmic (and existential) results of (Jo, 2026) and (Horinaga, Yamakawa, 2026). We also give further improved existential results. We also adapt the hardness result of (Yamakawa, Zhandry, 2024) to apply to OPI (rather than a folded version); over large fields, this gives an unconditional separation between the quantum and classical hardness of OPI relative to a membership oracle.",
+ "comment": "70 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12357",
+  "pdf": "https://arxiv.org/pdf/2610.12357",
+  "html": "https://arxiv.org/html/2610.12357"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-10T12:56:54.310Z",
+  "hook": "Shamir secret sharing breaks the 1/2 threshold rate barrier against one-bit local leakage attacks.",
+  "tldr": [
+   "Analyzed local leakage resilience in Shamir secret sharing and optimal polynomial intersection via polynomial algebra.",
+   "Linked Shamir leakage bounds directly to polynomial intersection problems and designed a quantum algorithm with semicircle-law bounds.",
+   "Proved Shamir secret sharing resists 1-bit leakage below rate 1/2 and established an unconditional quantum-classical separation."
+  ],
+  "whyItMatters": "Secret sharing protects high-value keys across distributed servers; proving security even when an adversary steals partial data from every server guarantees robust real-world privacy.",
+  "eli5": "Imagine splitting a treasure map across several friends so that any single piece is useless. Even if a thief peeks at one tiny clue from every friend's piece, the secret map remains completely hidden.",
+  "keyNumbers": [
+   {
+    "value": "1/2 - δ",
+    "label": "Rate threshold",
+    "context": "Shamir secret sharing remains resilient to 1-bit local leakage above this rate."
+   },
+   {
+    "value": "0.668",
+    "label": "Previous rate requirement",
+    "context": "Previous best threshold proven by Kasser in 2025."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Shamir secret sharing",
+    "shortDef": "A cryptographic method dividing a secret into shares via polynomial evaluation.",
+    "eli5Def": "A trick where you draw a secret curve; friends get single points, and you need a minimum number of points to redraw the curve.",
+    "wikiTitle": "Shamir's secret sharing"
+   },
+   {
+    "term": "Local Leakage Resilience",
+    "shortDef": "Security of a secret-sharing scheme when small information leaks from each individual share.",
+    "eli5Def": "Making sure secrets stay safe even when an attacker peeks at a single bit of every clue.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Finite field",
+    "shortDef": "A field containing a finite number of elements with well-defined addition and multiplication.",
+    "eli5Def": "A closed set of numbers where math wraps around like hours on a clock.",
+    "wikiTitle": "Finite field"
+   },
+   {
+    "term": "Oracle separation",
+    "shortDef": "A theoretical division proving quantum algorithms outperform classical ones relative to a black-box query.",
+    "eli5Def": "A mathematical proof showing a quantum computer can solve a puzzle exponentially faster than regular computers.",
+    "wikiTitle": "Oracle machine"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

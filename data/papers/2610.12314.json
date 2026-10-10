@@ -1,0 +1,76 @@
+{
+ "id": "2610.12314",
+ "version": 1,
+ "title": "Residual-Guided Global-Drive Design in Trapped-Ion Quantum Simulators",
+ "authors": [
+  {
+   "name": "Yuanjing Zhang"
+  },
+  {
+   "name": "Zewen Zhang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math.OC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-08T16:59:45Z",
+ "updated": "2026-10-08T16:59:45Z",
+ "abstract": "Trapped-ion quantum simulators are powerful platforms for exploring many-body physics, yet engineering of arbitrary interaction graphs remains a central challenge. To leverage the intrinsic structure of native motional modes and thereby enhance programmability, a residual-guided optimization protocol is introduced for the systematic design of multi-tone global drive spectra. While the achievable interaction fidelity is fundamentally bounded by the available motional modes, this adaptive strategy converges on the theoretical limit using a number of laser tones that scales nearly linearly with system size. The versatility of this method enables the synthesis of both long-range and traditionally difficult short-range coupling topologies. Additionally, by incorporating a penalty for residual motional excitation, the algorithm effectively mitigates errors associated with incomplete closure of phase-space trajectories. Overall, this scalable framework significantly expands the programmable capabilities of trapped-ion architectures while maintaining low computational overhead and high potential for experimental implementation.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12314",
+  "pdf": "https://arxiv.org/pdf/2610.12314",
+  "html": "https://arxiv.org/html/2610.12314"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.12314v1/fig1_hamiltonian_v2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-10T12:56:54.310Z",
+  "hook": "A new optimization method crafts arbitrary trapped-ion interaction graphs using laser tones that scale nearly linearly.",
+  "tldr": [
+   "Created a residual-guided optimization protocol to design multi-tone global laser drives for trapped-ion quantum simulators.",
+   "Systematically targeted desired interaction graphs while penalizing residual motional excitations in phase space.",
+   "Converged to the theoretical fidelity limit, engineering both long- and short-range couplings with near-linear laser tone scaling."
+  ],
+  "whyItMatters": "Programming complex, custom interactions between qubits is essential for simulating exotic materials and solving hard quantum optimization problems. This approach lets hardware run more flexible algorithms with manageable laser overhead.",
+  "eli5": "Imagine trying to make different bells in a tower ring together in exact custom chords using just one set of hammers. This method figures out the exact rhythm of strikes needed to produce the target harmony without leaving unwanted echoes.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Trapped-ion quantum simulator",
+    "shortDef": "A quantum system using ions trapped by electromagnetic fields to model complex many-body physics.",
+    "eli5Def": "A grid of electrically charged atoms suspended in space, used as quantum bits to test physics models.",
+    "wikiTitle": "Trapped-ion quantum computer"
+   },
+   {
+    "term": "Motional modes",
+    "shortDef": "Collective vibrational patterns shared by trapped ions, used to mediate spin-spin interactions.",
+    "eli5Def": "The shared jiggling patterns that connected ions experience when pushed.",
+    "wikiTitle": "Normal mode"
+   },
+   {
+    "term": "Interaction graph",
+    "shortDef": "A network map defining which qubits are coupled and the strength of their interactions.",
+    "eli5Def": "A diagram showing which quantum particles talk to which other particles.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Phase-space trajectories",
+    "shortDef": "Paths traced by position and momentum coordinates; unclosed loops leave residual decoherence.",
+    "eli5Def": "The complete path of an atom's motion; if it doesn't loop back to start, it leaves unwanted errors.",
+    "wikiTitle": "Phase space"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

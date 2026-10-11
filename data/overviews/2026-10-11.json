@@ -1,0 +1,38 @@
+{
+ "date": "2026-10-11",
+ "generatedAt": "2026-10-11T13:21:00.761Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum Keys, State Structure, and 2D Emitters",
+ "summary": "Today's selection bridges theoretical quantum information and solid-state photonic implementations. Contributions span mathematical diagnostics of multipartite entanglement, experimental cryptographic protocols using multi-qubit photons, and defect modeling for single-photon emitters in 2D materials.",
+ "themes": [
+  {
+   "title": "Quantum Information & Cryptography",
+   "body": "Papers explore both foundational entanglement theory via edge-colored graph invariants and practical quantum key generation using hyper-entangled two-photon states.",
+   "paperIds": [
+    "2610.12271",
+    "2610.12264"
+   ]
+  },
+  {
+   "title": "Solid-State Quantum Photonics",
+   "body": "First-principles modeling reveals how substrate interactions in MoS2/hBN heterostructures sharpen single-photon emission from defect states.",
+   "paperIds": [
+    "2610.12283"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers address high-dimensional quantum states: one establishes mathematical bounds on multipartite entanglement, while the other experimentally harnesses a six-qubit state across photon paths and polarizations.",
+   "paperIds": [
+    "2610.12271",
+    "2610.12264"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2610.12283",
+  "2610.12271",
+  "2610.12264"
+ ]
+}

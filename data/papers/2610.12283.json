@@ -1,0 +1,76 @@
+{
+ "id": "2610.12283",
+ "version": 1,
+ "title": "Theory of the CH$_\\text{S}^-$ Defect in MoS$_2$ Confirming the Origin of the Quantum Emission",
+ "authors": [
+  {
+   "name": "Chanaprom Cholsuk"
+  },
+  {
+   "name": "Tobias Vogl"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mtrl-sci"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-08T16:40:32Z",
+ "updated": "2026-10-08T16:40:32Z",
+ "abstract": "Establishing the microscopic origin of localized emission in two-dimensional materials through consistent agreement between experiment and theory remains challenging. Recent STM/STS-STML measurements assigned an emission near 1.8 eV in monolayer MoS$_2$/hBN(2L)/graphene to the negatively charged CH$_\\mathrm{S}^{-}$ defect. However, a comprehensive theoretical description of this emitter is still lacking. Here, we develop such a description and systematically investigate the photophysical properties of CH$_\\mathrm{S}^{-}$ in monolayer MoS$_2$, two bilayer configurations, and a MoS$_2$/hBN heterostructure. The defect retains a similar local geometry and favors a singlet ground state in all four environments, whereas its electronic transition, zero-phonon line, electron-phonon coupling, radiative lifetime, and transition-dipole orientation depend strongly on the surrounding layers. The isolated-monolayer model exhibits substantial structural reorganization and produces a broad, dominant phonon sideband that is inconsistent with experiment. Adding an adjacent layer, either MoS$_2$ or hBN, substantially suppresses the phonon sideband, with only a minor dependence on the defect position in bilayer MoS$_2$. In particular, the MoS$_2$/hBN model yields a weak phonon sideband and closely reproduces the experimental photoluminescence lineshape. Our results thus provide the first theoretical agreement of CH$_\\mathrm{S}^{-}$ emission and further reveal the role of adjacent layers in determining the electronic, vibronic, and optical properties of the quantum emitters in two-dimensional materials.",
+ "comment": "11 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12283",
+  "pdf": "https://arxiv.org/pdf/2610.12283",
+  "html": "https://arxiv.org/html/2610.12283"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.12283v1/structure.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-11T13:21:00.761Z",
+  "hook": "Adjacent material layers explain single-photon quantum emission near 1.8 eV in 2D MoS2.",
+  "tldr": [
+   "Modeled the negatively charged CHS- defect across MoS2 monolayers, bilayers, and MoS2/hBN heterostructures.",
+   "Calculated electronic transitions, electron-phonon coupling, and emission lineshapes from first principles.",
+   "Showed isolated monolayers yield broad phonon sidebands, while an adjacent hBN layer suppresses sidebands to match experiments."
+  ],
+  "whyItMatters": "Pinpointing and controlling the atomic defects that emit single photons is crucial for building reliable quantum light sources in ultra-thin 2D hardware.",
+  "eli5": "A tiny atomic flaw acts like a single-photon lightbulb, but in a free-standing sheet, it shakes too much and blurs the light. Placing another ultra-thin sheet directly underneath steadies the defect so it shines with the exact, sharp color seen in lab tests.",
+  "keyNumbers": [
+   {
+    "value": "1.8 eV",
+    "label": "Emission energy",
+    "context": "Energy of the localized quantum emission attributed to the CHS- defect."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Zero-phonon line",
+    "shortDef": "Optical transition line occurring without emitting or absorbing phonons.",
+    "eli5Def": "The sharpest color of light emitted when an atom shines without jiggling the surrounding material.",
+    "wikiTitle": "Zero-phonon line and phonon sideband"
+   },
+   {
+    "term": "Phonon sideband",
+    "shortDef": "Spectral band of emission associated with the simultaneous creation or absorption of lattice vibrations.",
+    "eli5Def": "A blurry smear of extra colors emitted because the crystal shook while giving off light.",
+    "wikiTitle": "Zero-phonon line and phonon sideband"
+   },
+   {
+    "term": "Heterostructure",
+    "shortDef": "A material composed of stacked dissimilar semiconductor layers.",
+    "eli5Def": "A microscopic sandwich made of atomic sheets of different materials.",
+    "wikiTitle": "Heterojunction"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

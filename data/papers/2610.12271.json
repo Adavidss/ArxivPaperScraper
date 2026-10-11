@@ -1,0 +1,77 @@
+{
+ "id": "2610.12271",
+ "version": 1,
+ "title": "Multipartite entanglement spreads",
+ "authors": [
+  {
+   "name": "Sylvain Carrozza"
+  },
+  {
+   "name": "Johann Chevrier"
+  },
+  {
+   "name": "Luca Lionni"
+  }
+ ],
+ "categories": [
+  "math-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "math-ph",
+ "published": "2026-10-08T16:34:25Z",
+ "updated": "2026-10-08T16:34:25Z",
+ "abstract": "The entanglement structure of a bipartite pure state is characterized by its entanglement spectrum, or equivalently, by the family of Rényi-$k$ entanglement entropies with integer $k$. Taking the difference of two such entropies defines a quantity known as an entanglement spread, that is monotonous under local operations, and that vanishes if and only if the entanglement spectrum of the state is flat. We introduce a multipartite generalization of this notion which, for a fixed number $D\\geq 3$ of parties, results in a collection of maps indexed by pairs of $D$-edge-colored graphs (obeying some condition). Each member of this collection takes the form of a difference of two multipartite Rényi entanglement entropies, each associated to a local unitary polynomial invariant (known in this context as a trace-invariant), and is shown to be monotonous under local operations. We then argue that a previously introduced family of so-called hypergraph-tensor (HT) states can be understood as a multipartite counterpart to the family of flat bipartite states. Indeed, we first prove that, when $D=3$, a tripartite pure state is HT if and only if it minimizes a particular (infinite) family of entanglement spreads. Second, we embed the set of HT states into the much larger family of spectral hypergraph-tensor (SHT) states, defined by a new Ansatz we introduce. We then prove that HT states can be uniquely characterized as the minimizers of some fixed entanglement spread among SHT states, for arbitrary $D\\geq 3$. We also investigate SHT states in their own right: in particular, we characterize their orbits under local unitary transformations. Finally, along the way, the asymptotic large-$N$ expectation values of a number of entanglement spreads are computed in the Haar-random state of local dimension $N$.",
+ "comment": "52 pages, 16 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.12271",
+  "pdf": "https://arxiv.org/pdf/2610.12271",
+  "html": "https://arxiv.org/html/2610.12271"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-11T13:21:00.761Z",
+  "hook": "New mathematical 'entanglement spreads' reveal hidden structures across multi-party quantum states.",
+  "tldr": [
+   "Generalized the bipartite concept of entanglement spread to systems with three or more parties using edge-colored graphs.",
+   "Constructed spreads from differences of multipartite Rényi entropies associated with trace-invariants.",
+   "Proved hypergraph-tensor states minimize these spreads and characterized a broader family of spectral states."
+  ],
+  "whyItMatters": "Quantifying quantum correlations across multiple subsystems is a central open problem in quantum information and high-energy physics.",
+  "eli5": "Measuring how two things are tangled up is straightforward, but measuring entanglement among three or more partners is notoriously messy. This paper designs a new mathematical measuring tape that proves certain balanced states have the minimum possible multi-way spread.",
+  "keyNumbers": [
+   {
+    "value": "D ≥ 3",
+    "label": "Number of parties",
+    "context": "Number of subsystems analyzed in the multipartite entanglement spread framework."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Entanglement spectrum",
+    "shortDef": "The set of eigenvalues of a reduced density matrix describing bipartite quantum entanglement.",
+    "eli5Def": "A fingerprint that details how deeply two quantum parts are linked together.",
+    "wikiTitle": "Entanglement spectrum"
+   },
+   {
+    "term": "Rényi entropy",
+    "shortDef": "A family of generalized entropy functions parameterized by an index k.",
+    "eli5Def": "A mathematical formula used to measure how uncertain or tangled a quantum system is.",
+    "wikiTitle": "Rényi entropy"
+   },
+   {
+    "term": "Local unitary transformation",
+    "shortDef": "An isolated quantum operation performed independently on each sub-party.",
+    "eli5Def": "A manipulation that alters one piece of a quantum system without creating any new links to the other pieces.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "id": "2610.13906",
+ "version": 1,
+ "title": "Quantum Query Complexity of Maximum Degree and its Generalizations",
+ "authors": [
+  {
+   "name": "Amin Shiraz Gilani"
+  },
+  {
+   "name": "Nikhil S. Mande"
+  },
+  {
+   "name": "Subhasree Patro"
+  },
+  {
+   "name": "Nithish Raja"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-09T17:47:01Z",
+ "updated": "2026-10-09T17:47:01Z",
+ "abstract": "We study the quantum query complexity of several basic graph problems. 1) We prove a tight $Θ(n^{3/2})$ bound for finding a maximum-out-degree vertex in an $n$-vertex tournament, resolving a conjecture of Mande, Paraashar, and Saurabh [FSTTCS'23]. 2) Using the same proof idea, we give a direct proof that finding a maximum-degree vertex in an $n$-vertex undirected graph requires $Θ(n^{3/2})$ quantum queries, a bound implicit in the work of Apers and Lee [CCC'21]. Both lower bounds above hold even for computing only the maximum degree or maximum out-degree. 3) We also study Maximum $(k,n-k)$-Cut, which asks for the largest cut with one side of size $k$. For every constant $k\\geq 1$, we give an $O(n^{2-1/(k+1)})$-query quantum algorithm. 4) We establish a reduction to Maximum $(k,n-k)$-Cut involving $k$-Graph Collision, which asks whether the marked vertices of a known graph contain a $k$-clique. For $k\\geq 3$, this yields unconditional lower bounds with exponents strictly larger than $3/2$, showing that this problem is strictly harder than computing maximum degree. Additionally, under a conjecture we propose for $k$-Graph Collision, the reduction yields a lower bound matching our upper bound above.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.13906",
+  "pdf": "https://arxiv.org/pdf/2610.13906",
+  "html": "https://arxiv.org/html/2610.13906"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-12T15:56:45.447Z",
+  "hook": "Finding the most connected vertex in a graph takes exactly Θ(n³/²) quantum queries, proving a recent conjecture.",
+  "tldr": [
+   "Resolved the quantum query complexity of finding maximum-degree vertices in tournaments and undirected graphs.",
+   "Constructed a quantum algorithm querying graphs in O(n^(2-1/(k+1))) time for Maximum (k, n-k)-Cut.",
+   "Proved matching lower bounds for cuts using reductions to the k-Graph Collision problem."
+  ],
+  "whyItMatters": "Graph searches are core primitives in network analysis and optimization. Knowing the exact limits of quantum query speedups tells computer scientists where quantum hardware will provide speedups and where classical barriers remain.",
+  "eli5": "If you have a giant network of friends and want to find who has the most connections by asking 'are these two linked?', this paper proves the absolute minimum number of questions a quantum computer must ask.",
+  "keyNumbers": [
+   {
+    "value": "Θ(n^(3/2))",
+    "label": "Quantum queries",
+    "context": "Tight bound for finding maximum-out-degree in an n-vertex tournament or maximum degree in an undirected graph"
+   },
+   {
+    "value": "O(n^(2 - 1/(k+1)))",
+    "label": "Quantum queries",
+    "context": "Upper bound algorithm complexity for Maximum (k, n-k)-Cut"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Query complexity",
+    "shortDef": "The number of questions an algorithm must ask an oracle about an input to compute a function.",
+    "eli5Def": "The count of how many yes-or-no questions an algorithm needs to ask to get the answer.",
+    "wikiTitle": "Query complexity"
+   },
+   {
+    "term": "Tournament",
+    "shortDef": "A directed graph formed by assigning an orientation to every edge of an undirected complete graph.",
+    "eli5Def": "A round-robin match chart where every pair of players has played and one beat the other.",
+    "wikiTitle": "Tournament (graph theory)"
+   },
+   {
+    "term": "k-clique",
+    "shortDef": "A subset of k vertices in a graph such that every two distinct vertices are adjacent.",
+    "eli5Def": "A group of k people where every single person is friends with every other person in the group.",
+    "wikiTitle": "Clique (graph theory)"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

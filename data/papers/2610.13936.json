@@ -1,0 +1,73 @@
+{
+ "id": "2610.13936",
+ "version": 1,
+ "title": "A Warped Born Rule Turns an Observer into a Maxwell's Demon",
+ "authors": [
+  {
+   "name": "Olumakinde Ogunnaike"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-09T17:57:00Z",
+ "updated": "2026-10-09T17:57:00Z",
+ "abstract": "Quantum mechanics seems to be an incredibly delicate theory. Slight alterations to nearly any part of its structure can lead to huge qualitative differences and wildly unphysical predictions. Here, we explore the many-body consequences of replacing the Born rule $p(m)\\propto\\|P_m|ψ\\rangle|^2$ by a warped rule $p_b(m)\\propto\\|P_m|ψ\\rangle\\|^{2b}$. Specifically, in systems with conserved particle number, evolution punctuated by repeated local particle observations acquires a probabilistic bias over measurement histories with an effect controlled by the sign of $b-1$. For $b>1$, this bias generically drives the gas to collect into nearly frozen configurations. Similar to the action of Maxwell's demon, the simple act of observation seems to extract entropy from a closed system. For $b<1$, the bias is reversed, generically scouring out long-wavelength fluctuations to produce a hyperuniform gas. We study this effect in a one-dimensional quantum gas, where these two phases are derived analytically for a particular measurement scheme and corroborated numerically for more general procedures with discrete-time projective-measurement circuit models using matrix product state simulations. We additionally discuss how this bias manifests in a common technique that often employs this warped rule, the ``replica trick,'' implying qualitative differences between finite-replica and replica-limit calculations.",
+ "comment": "5+12 pages, 4 + 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.13936",
+  "pdf": "https://arxiv.org/pdf/2610.13936",
+  "html": "https://arxiv.org/html/2610.13936"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.13936v1/Maxwells_Demon_12_particles.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-12T15:56:45.447Z",
+  "hook": "Tweak the exponent of the Born rule, and quantum observation starts pulling entropy out of a closed system.",
+  "tldr": [
+   "Investigated the physical consequences of modifying the quantum Born rule with an arbitrary exponent b.",
+   "Derived analytical phases in a 1D gas and ran matrix product state simulations of projective-measurement circuits.",
+   "Found that b > 1 freezes particles like Maxwell's demon, while b < 1 washes out long-wavelength fluctuations into a hyperuniform gas."
+  ],
+  "whyItMatters": "The standard Born rule is a foundational pillar of quantum mechanics. Demonstrating that even tiny modifications turn observers into thermodynamic demons highlights how exquisitely tuned quantum theory must be to avoid unphysical paradoxes.",
+  "eli5": "In standard quantum physics, looking at a particle follows an exact squaring rule for probabilities. If you tilt that math slightly, the simple act of looking acts like a tiny demon that sorts and freezes particles without doing any physical work.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Born rule",
+    "shortDef": "A postulate giving the probability that a quantum measurement yields a given outcome as the squared state amplitude.",
+    "eli5Def": "The rulebook formula that tells you the odds of seeing a particle in a specific state.",
+    "wikiTitle": "Born rule"
+   },
+   {
+    "term": "Maxwell's demon",
+    "shortDef": "A thought experiment where an observer sorts particles to lower entropy, seemingly breaking thermodynamics.",
+    "eli5Def": "An imaginary creature that sorts fast and slow particles to cool things down without using energy.",
+    "wikiTitle": "Maxwell's demon"
+   },
+   {
+    "term": "Hyperuniform",
+    "shortDef": "A state of matter where large-scale density fluctuations are suppressed like in a crystal, yet structurally disordered.",
+    "eli5Def": "A spread of particles that looks random up close but stays unnaturally evenly spaced across big distances.",
+    "wikiTitle": "Hyperuniformity"
+   },
+   {
+    "term": "Replica trick",
+    "shortDef": "A mathematical tool in statistical physics computing disordered averages by analyzing n copies of a system as n tends to 0.",
+    "eli5Def": "A clever math shortcut that analyzes many fake copies of a problem to solve a tricky single one.",
+    "wikiTitle": "Replica trick"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

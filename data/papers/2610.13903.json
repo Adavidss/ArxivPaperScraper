@@ -1,0 +1,78 @@
+{
+ "id": "2610.13903",
+ "version": 1,
+ "title": "Maximally antiflat fixed-particle-number fermionic states",
+ "authors": [
+  {
+   "name": "Rahul Gupta"
+  },
+  {
+   "name": "Arya Haghighian"
+  },
+  {
+   "name": "James D. Whitfield"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-09T17:44:20Z",
+ "updated": "2026-10-09T17:44:20Z",
+ "abstract": "Fermionic Gaussian states are completely characterized by their two-point correlations, making the covariance matrix a natural reference for quantifying non-Gaussian structure. Motivated by fermionic antiflatness, we study its extremal form for pure number-conserving states and ask which states can be maximally antiflat and how they can be constructed. We show that, at fixed particle number, maximal first antiflatness is equivalent to a completely flat one-body reduced density matrix, and we obtain a complete existence classification together with explicit block and cyclic-orbit constructions of all allowed sectors. We then investigate the structure that appears beyond the covariance level. Maximally antiflat states with identical one-body data can exhibit distinct connected four-point correlations, which we characterize through the four-point Majorana Wick error and, equivalently, the connected two-body reduced density matrix cumulant. We show that this quartic structure is necessarily nonzero and formulate its extremization as a two-body reduced density matrix (2RDM) purity problem. Combining this framework with a Hilbert--Schmidt estimate of Christiansen for truncated two-body correlations, we obtain an upper bound on the connected quartic structure in terms of first antiflatness. Our results establish both a complete characterization of maximal fermionic antiflatness at fixed particle number and a constrained hierarchy linking covariance-level flatness to higher-order non-Gaussian correlations.",
+ "comment": "14 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.13903",
+  "pdf": "https://arxiv.org/pdf/2610.13903",
+  "html": "https://arxiv.org/html/2610.13903"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.13903v1/Figures/saturability_heatmap_M10.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-12T15:56:45.447Z",
+  "hook": "Researchers establish a complete classification of maximally antiflat fermionic states with fixed particle numbers.",
+  "tldr": [
+   "Investigated maximally antiflat quantum states for fermions with conserved particle numbers.",
+   "Proved maximal first antiflatness matches a flat 1-RDM and developed explicit block and cyclic-orbit constructions.",
+   "Bounded higher-order quartic non-Gaussian correlations using 2-RDM purity and Hilbert-Schmidt estimates."
+  ],
+  "whyItMatters": "Understanding non-Gaussian quantum states is crucial for classical simulation bounds and quantum advantage in fermionic systems like molecules and materials.",
+  "eli5": "Simple quantum systems are like bells that only ring single notes, which computers can easily simulate. This work maps out the most extreme states where particles ring together in complex chords that cannot be simplified.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Fermionic Gaussian states",
+    "shortDef": "Quantum states of fermions that are fully described by their pairwise two-point correlations.",
+    "eli5Def": "Simple quantum states that can be fully understood just by looking at how particles interact in pairs.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Antiflatness",
+    "shortDef": "A metric quantifying non-Gaussian structure and deviations from uniformity in correlation spectra.",
+    "eli5Def": "A score measuring how uneven and complex a quantum state's correlations are.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Reduced density matrix (RDM)",
+    "shortDef": "A density matrix describing subsystem properties by tracing out the rest of the degrees of freedom.",
+    "eli5Def": "A snapshot that summarizes the behavior of just a few particles inside a much larger crowd.",
+    "wikiTitle": "Reduced density matrix"
+   },
+   {
+    "term": "Majorana Wick error",
+    "shortDef": "The deviation measuring how much four-point correlations fail to factorize into two-point correlations.",
+    "eli5Def": "A measure of how poorly a group of four particles can be described simply as two independent pairs.",
+    "wikiTitle": "Wick's theorem"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

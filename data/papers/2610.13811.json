@@ -1,0 +1,94 @@
+{
+ "id": "2610.13811",
+ "version": 1,
+ "title": "QTestBench: A Test Framework for Evaluating LLM-Generated Quantum Code",
+ "authors": [
+  {
+   "name": "Meriem Terki"
+  },
+  {
+   "name": "Nouhaila Innan"
+  },
+  {
+   "name": "Minghao Shao"
+  },
+  {
+   "name": "Muhammad Kashif"
+  },
+  {
+   "name": "Alberto Marchisio"
+  },
+  {
+   "name": "Muhammad Shafique"
+  }
+ ],
+ "categories": [
+  "cs.LG",
+  "cs.CL",
+  "quant-ph"
+ ],
+ "primaryCategory": "cs.LG",
+ "published": "2026-10-09T16:23:46Z",
+ "updated": "2026-10-09T16:23:46Z",
+ "abstract": "Large language models (LLMs) have shown strong results in classical code generation and are increasingly used to write the unit tests that safeguard that code. Whether they can do the same for quantum software is less clear, because quantum programs are probabilistic, depend on numerical tolerances, and are judged by domain-specific checkers, so a well-formed test can still disagree with the benchmark's verdict. Existing quantum benchmarks measure whether a model produces a correct solution, but not whether its tests can distinguish correct implementations from faulty ones. We introduce QTestBench, a framework that evaluates LLM-generated quantum test suites against independent benchmark checkers, never treating the tests themselves as ground truth. For each task, QTestBench prompts models to produce syntactic, semantic, and behavioral tests, injects candidate solutions at runtime, and compares each test verdict with the checker's label under three validation cohorts, each answering a distinct diagnostic question. We benchmark five LLMs on eight PennyLane QHack challenges and ten Qiskit HumanEval tasks. Generated suites almost always execute, but discrimination lags behind: the best generator reaches a test quality of 0.71 on QHack and 0.34 on Qiskit HumanEval, so executability alone overstates test quality. Oracle-verified synthetic mutants stabilize bug-detection estimates when natural faulty solutions are scarce, as on three of ten Qiskit tasks that yield none. QTestBench offers a reproducible, cross-framework benchmark for the trustworthiness of LLM-generated quantum tests.",
+ "comment": "Accepted at the 2026 IEEE 2nd International Conference on Quantum Artificial Intelligence (QAI), 2026",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.13811",
+  "pdf": "https://arxiv.org/pdf/2610.13811",
+  "html": "https://arxiv.org/html/2610.13811"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.13811v1/QTestBench_Framework_Diagram1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-10-13T14:29:52.977Z",
+  "hook": "LLMs struggle to write reliable tests for quantum code, with top models failing to distinguish correct from buggy code.",
+  "tldr": [
+   "The authors created QTestBench to evaluate how well LLMs generate unit tests for quantum software.",
+   "They tested five LLMs across 18 quantum programming challenges using syntactic, semantic, and behavioral test generation.",
+   "While models generate executable code, their ability to correctly identify faulty quantum solutions is poor, peaking at 0.71 quality."
+  ],
+  "whyItMatters": "As quantum programming becomes more common, we need reliable ways to verify code. This study shows that current AI tools are good at writing code that runs, but bad at writing code that actually catches bugs.",
+  "eli5": "It is like a student who can write a long essay that looks perfect, but when you ask them to grade someone else's math homework, they give the wrong answers. The AI can write quantum code, but it doesn't really understand how to check if that code is actually correct.",
+  "keyNumbers": [
+   {
+    "value": "0.71",
+    "label": "Peak test quality",
+    "context": "Highest test quality score achieved on QHack challenges"
+   },
+   {
+    "value": "0.34",
+    "label": "Peak test quality",
+    "context": "Highest test quality score achieved on Qiskit HumanEval tasks"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Unit test",
+    "shortDef": "A piece of code written to verify that a specific small part of a larger program works as expected.",
+    "eli5Def": "A quick check to make sure one specific gear in a machine is spinning the right way.",
+    "wikiTitle": "Unit testing"
+   },
+   {
+    "term": "Probabilistic",
+    "shortDef": "Relating to outcomes that are determined by chance or likelihood rather than certainty.",
+    "eli5Def": "Like flipping a coin; you don't know the result for sure, but you know the odds.",
+    "wikiTitle": "Probability"
+   },
+   {
+    "term": "Synthetic mutants",
+    "shortDef": "Deliberately introduced bugs in code used to test if a test suite is capable of detecting errors.",
+    "eli5Def": "Intentionally breaking a machine to see if your alarm system is actually smart enough to notice the damage.",
+    "wikiTitle": "Mutation testing"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

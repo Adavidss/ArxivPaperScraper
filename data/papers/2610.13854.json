@@ -1,0 +1,67 @@
+{
+ "id": "2610.13854",
+ "version": 1,
+ "title": "No advantage from classical assistance for energy-constrained bosonic dephasing channels",
+ "authors": [
+  {
+   "name": "Amir Arqand"
+  },
+  {
+   "name": "Graeme Smith"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-09T17:03:33Z",
+ "updated": "2026-10-09T17:03:33Z",
+ "abstract": "We prove that four capacities of single-mode bosonic dephasing channels coincide under an average photon-number constraint: the unassisted quantum capacity, the unassisted private capacity, the two-way classically assisted quantum capacity, and the two-way public-classically assisted private capacity. The assistance may be interactive: the parties can exchange classical messages between channel uses and choose subsequent inputs based on earlier outcomes. For every finite value of the constraint, their common value is the coherent information optimized over Fock-diagonal input states satisfying the constraint. The proof uses a relative entropy comparison with the completely dephasing channel to derive chain rules for the Rains relative entropy and the relative entropy of entanglement. These chain rules give an upper bound on the rates achievable by adaptive protocols whose mean input photon number is constrained on average over all channel uses. We also show that both chain rules are attained by canonical purifications of finite-energy Fock-diagonal states.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.13854",
+  "pdf": "https://arxiv.org/pdf/2610.13854",
+  "html": "https://arxiv.org/html/2610.13854"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-10-13T14:29:52.977Z",
+  "hook": "Classical assistance provides no advantage for energy-constrained bosonic dephasing channels.",
+  "tldr": [
+   "The authors proved that four different capacities of bosonic dephasing channels are identical under average photon-number constraints.",
+   "They used relative entropy comparisons and chain rules to show that adaptive classical communication does not increase channel capacity.",
+   "The result confirms that the capacity is determined solely by the coherent information of Fock-diagonal input states."
+  ],
+  "whyItMatters": "This finding simplifies our understanding of quantum communication, proving that for certain channels, complex interactive protocols cannot outperform simpler, non-interactive ones.",
+  "eli5": "Imagine trying to send a secret message through a noisy pipe. You might think that having a 'helper' send extra notes back and forth would make the message clearer. This paper proves that for this specific type of pipe, the helper's notes don't actually help at all.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Bosonic dephasing channel",
+    "shortDef": "A quantum channel that causes loss of phase coherence in bosonic systems like light modes.",
+    "eli5Def": "A communication channel that makes quantum information 'fuzzy' or lose its delicate timing.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Coherent information",
+    "shortDef": "A measure of the quantum information that can be transmitted through a quantum channel.",
+    "eli5Def": "A way to calculate how much actual information survives the trip through a noisy quantum channel.",
+    "wikiTitle": "Coherent information"
+   },
+   {
+    "term": "Fock-diagonal",
+    "shortDef": "States that are diagonal in the Fock (number) basis.",
+    "eli5Def": "A specific way of describing quantum states based on the number of particles present.",
+    "wikiTitle": "Fock space"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

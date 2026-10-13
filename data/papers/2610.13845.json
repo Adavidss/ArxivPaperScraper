@@ -1,0 +1,90 @@
+{
+ "id": "2610.13845",
+ "version": 1,
+ "title": "Enhanced analogue quantum computation with a logically-encoded XX gadget",
+ "authors": [
+  {
+   "name": "Robert J. Banks"
+  },
+  {
+   "name": "Natasha Feinstein"
+  },
+  {
+   "name": "Roopayan Ghosh"
+  },
+  {
+   "name": "Sebastian Schulz"
+  },
+  {
+   "name": "Kristel Michielsen"
+  },
+  {
+   "name": "Sougato Bose"
+  },
+  {
+   "name": "P. A. Warburton"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-09T16:54:47Z",
+ "updated": "2026-10-09T16:54:47Z",
+ "abstract": "The introduction of two-body XX interactions has been shown to improve the performance of quantum annealing in solving certain combinatorial optimisation problems and would enable the simulation of a broader class of many-body Hamiltonians. Due to experimental constraints, such interactions are typically not natively available on analogue quantum devices. To overcome this limitation we introduce the truss gadget. This is an exact construction that generates two-body XX interactions using only one-body X and Z fields and two-body ZZ interactions which are readily accessible on, for instance, superconducting quantum annealers. We experimentally validate the construction by reproducing the dynamics of a target XX Hamiltonian on a trapped-ion quantum processor. We then apply the gadget to an illustrative set of instances of the weighted maximum-independent-set problem on a superconducting quantum annealer. We empirically determine an approximate thousand-fold improvement in the probability of finding a state close to the ground state for these instances, over implementation without an XX interaction.",
+ "comment": "17 pages, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.13845",
+  "pdf": "https://arxiv.org/pdf/2610.13845",
+  "html": "https://arxiv.org/html/2610.13845"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.13845v1/XX_matrix.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-10-13T14:29:52.977Z",
+  "hook": "A new 'truss gadget' construction improves quantum annealing performance by a factor of 1,000.",
+  "tldr": [
+   "Researchers introduced a 'truss gadget' to simulate two-body XX interactions using only native one-body and ZZ interactions.",
+   "They validated the construction on a trapped-ion processor and applied it to the weighted maximum-independent-set problem.",
+   "The gadget enabled a ~1,000-fold improvement in finding ground states compared to standard implementations without XX interactions."
+  ],
+  "whyItMatters": "Many quantum annealers are limited by the types of interactions they can natively perform; this gadget allows them to simulate more complex problems, significantly boosting their problem-solving power.",
+  "eli5": "Imagine you have a toy building set that can only connect pieces in one specific way. The 'truss gadget' is like a clever adapter that lets you connect pieces in a new, more flexible way, allowing you to build much more complex structures than the original set allowed.",
+  "keyNumbers": [
+   {
+    "value": "1,000",
+    "label": "Improvement factor",
+    "context": "Approximate improvement in the probability of finding the ground state."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum annealing",
+    "shortDef": "A quantum computing method used primarily for finding the global minimum of a function.",
+    "eli5Def": "A way of solving hard optimization problems by letting a quantum system naturally settle into its lowest energy state.",
+    "wikiTitle": "Quantum annealing"
+   },
+   {
+    "term": "XX interaction",
+    "shortDef": "A type of quantum interaction between two qubits involving X-axis operators.",
+    "eli5Def": "A specific way that two quantum bits can influence each other's state.",
+    "wikiTitle": "XXZ model"
+   },
+   {
+    "term": "Maximum-independent-set",
+    "shortDef": "A classic combinatorial optimization problem in graph theory.",
+    "eli5Def": "A puzzle where you try to pick the largest possible group of people who don't know each other.",
+    "wikiTitle": "Independent set (graph theory)"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

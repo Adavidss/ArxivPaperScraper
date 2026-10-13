@@ -1,0 +1,80 @@
+{
+ "id": "2610.13880",
+ "version": 1,
+ "title": "Bicycle Race: small two-block codes on the Pareto frontier",
+ "authors": [
+  {
+   "name": "Gideon Lee"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-09T17:26:49Z",
+ "updated": "2026-10-09T17:26:49Z",
+ "abstract": "Two-block group-algebra codes are among the simplest quantum LDPC codes, and many of them are translation invariant on a twisted torus, which suits neutral-atom arrays and other platforms with movable qubits. We ask how far they go at small sizes when searched systematically across all groups. To tackle this question, we use a series of algebraic constraints and screens to design a search pipeline capable of enumerating broad and complete swathes of two-block codes on a laptop. With it we census about $10^8$ two-block codes with up to $320$ qubits at check weights five to nine. Several of these censuses are exhaustive, and support complete statements; for instance, the Gross code is, up to equivalence, the only abelian weight-six two-block code with $n \\le 200$ to reach $kd^2/n=12$, and the known $[[64,18,8]]$ is the best two-block code by $kd^2/n$ across weights five to nine with $n \\le 94$. The censuses are also large enough to give insights into where good codes live - they concentrate in a handful of groups; abelian groups give the best codes at small $n$ and non-abelian groups at large $n$, with the crossover appearing to move out as the check weight grows; and high quality codes become $100$ to $1000$ times rarer per draw from weight six to weights eight and nine. Using the group algebra and the census data to steer a statistical search finds four to fifteen times as many good codes as uniform draws in equal time. Among the codes found are $[[102,20,10]]$ and $[[120,24,10]]$ at check weight nine, which we simulate in noisy syndrome-extraction circuits, and $[[288,16,16]]$, the best weight-six two-block code with $n \\le 300$. At check weights seven to nine, our best codes exceed the best published $kd^2/n$ with exact distance at the same check weight in most length bands up to $320$ qubits. All codes are available in a public database.",
+ "comment": "59 pages: 18 main text + 20 appendices + 8 references + 13 code tables and supplementary figures after the references. 17 figures, 11 tables. Code database: https://github.com/gideonlsx/bicycle-race",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.13880",
+  "pdf": "https://arxiv.org/pdf/2610.13880",
+  "html": "https://arxiv.org/html/2610.13880"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-10-13T14:29:52.977Z",
+  "hook": "A systematic census of 10^8 quantum LDPC codes reveals that high-quality codes become 100 to 1000 times rarer as weight grows.",
+  "tldr": [
+   "The author developed a search pipeline to exhaustively census two-block quantum LDPC codes up to 320 qubits.",
+   "The study used algebraic constraints and statistical sampling to identify high-performing codes across various group structures.",
+   "Results show abelian groups excel at small sizes, while non-abelian groups dominate at larger sizes, with new high-performance codes identified."
+  ],
+  "whyItMatters": "Quantum LDPC codes are essential for building fault-tolerant quantum computers; knowing where the best codes 'live' significantly accelerates the search for hardware-efficient error correction.",
+  "eli5": "Think of finding the best quantum error-correcting code like searching for the perfect puzzle piece in a massive, messy pile. By using math to filter out the junk, the researcher created a map showing that the 'best' pieces are hidden in specific patterns, making it much easier for scientists to build reliable quantum machines.",
+  "keyNumbers": [
+   {
+    "value": "10^8",
+    "label": "Census size",
+    "context": "Total number of two-block codes analyzed in the study."
+   },
+   {
+    "value": "320",
+    "label": "Max qubits",
+    "context": "The maximum number of qubits in the codes surveyed."
+   },
+   {
+    "value": "100 to 1000",
+    "label": "Rarity increase",
+    "context": "How much harder it is to find high-quality codes when moving from weight six to weights eight and nine."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "LDPC",
+    "shortDef": "Low-Density Parity-Check; a type of error-correcting code defined by sparse parity-check matrices.",
+    "eli5Def": "A way of checking for errors by only looking at a few pieces of information at a time, making it efficient for large systems.",
+    "wikiTitle": "Low-density parity-check code"
+   },
+   {
+    "term": "Two-block code",
+    "shortDef": "A specific construction of quantum codes using two blocks of qubits, often translation-invariant.",
+    "eli5Def": "A specific design pattern for quantum codes that makes them easier to build on certain types of quantum hardware.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Abelian group",
+    "shortDef": "A group where the order of operations does not matter (commutative).",
+    "eli5Def": "A mathematical structure where doing things in one order gives the same result as doing them in another order.",
+    "wikiTitle": "Abelian group"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 75
+ }
+}

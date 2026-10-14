@@ -1,0 +1,103 @@
+{
+ "id": "2610.18776",
+ "version": 1,
+ "title": "Quantum-enhanced mechanical sensing with machine-learning estimation",
+ "authors": [
+  {
+   "name": "Finn Müßigbrodt"
+  },
+  {
+   "name": "Andraž Omahen"
+  },
+  {
+   "name": "Q. Rumman Rahman"
+  },
+  {
+   "name": "Giulio Corazza"
+  },
+  {
+   "name": "Yiwen Chu"
+  },
+  {
+   "name": "Matteo Fadel"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-13T17:32:42Z",
+ "updated": "2026-10-13T17:32:42Z",
+ "abstract": "Massive mechanical oscillators couple directly to forces, accelerations and gravity, making them attractive probes of new physics and of quantum mechanics at macroscopic scales. Pushing sensitivities beyond the standard quantum limit for signals of unknown phase requires non-Gaussian quantum states, whose metrological advantage has so far been confined to lighter systems such as trapped ions. Here we operate a microgram-scale acoustic mode of a high-overtone bulk acoustic wave resonator as a phase-insensitive quantum-enhanced sensor. A transmon qubit prepares the mode in Fock states of up to seven phonons by optimal control, and resolves its phonon-number distribution after interaction with a weak resonant signal. Bayesian analysis yields a Fisher information five times the vacuum value, a 7.0 dB gain in signal-amplitude sensitivity over any classical probe state, irrespective of its energy, currently limited by state preparation infidelities. We then train a neural network on the measured sensor response to perform Bayesian estimation without any analytical model of the system, showing the same sensitivity gain with half the systematic bias. Our results establish acoustic resonators prepared in non-Gaussian states as quantum-enhanced probes for high-frequency gravitational waves, dark matter and wave-function collapse.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.18776",
+  "pdf": "https://arxiv.org/pdf/2610.18776",
+  "html": "https://arxiv.org/html/2610.18776"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.18776v1/Fig_1_v3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-14T12:16:07.095Z",
+  "hook": "We achieved a 7.0 dB gain in signal-amplitude sensitivity using a microgram-scale acoustic mode quantum sensor.",
+  "tldr": [
+   "Prepared a microgram-scale acoustic mode in Fock states of up to seven phonons using a transmon qubit and optimal control.",
+   "Measured sensor response and applied Bayesian analysis alongside a neural network for parameter estimation.",
+   "Achieved five times the vacuum Fisher information and a 7.0 dB sensitivity gain over classical probe states."
+  ],
+  "whyItMatters": "This breakthrough brings the power of quantum sensors to much heavier systems, opening doors to detecting elusive high-frequency gravitational waves and dark matter.",
+  "eli5": "Imagine trying to hear a tiny whisper in a hurricane by using a super-precise tuning fork. By using quantum tricks to freeze and count packets of sound waves inside a tiny crystal, scientists built a sensor that is way more sensitive than any normal listening device.",
+  "keyNumbers": [
+   {
+    "value": "seven",
+    "label": "Max Phonons",
+    "context": "Fock states of up to seven phonons prepared by optimal control"
+   },
+   {
+    "value": "five times",
+    "label": "Fisher Information",
+    "context": "Bayesian analysis yields a Fisher information five times the vacuum value"
+   },
+   {
+    "value": "7.0 dB",
+    "label": "Sensitivity Gain",
+    "context": "A 7.0 dB gain in signal-amplitude sensitivity over any classical probe state"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Phonon",
+    "shortDef": "A quasiparticle representing a quantized packet of vibrational or mechanical sound energy.",
+    "eli5Def": "Just like light is made of tiny packets called photons, sound and vibrations inside materials are made of tiny packets called phonons.",
+    "wikiTitle": "Phonon"
+   },
+   {
+    "term": "Transmon qubit",
+    "shortDef": "A type of superconducting quantum bit designed to be less sensitive to charge noise.",
+    "eli5Def": "A tiny artificial atom made of superconducting wires that serves as the brain to control quantum states.",
+    "wikiTitle": "Transmon"
+   },
+   {
+    "term": "Fisher information",
+    "shortDef": "A mathematical measure of the amount of information carrying parameters about an unknown variable.",
+    "eli5Def": "A score for how much useful clue a measurement gives you about what you are trying to find out.",
+    "wikiTitle": "Fisher information"
+   },
+   {
+    "term": "Non-Gaussian state",
+    "shortDef": "A complex quantum state that cannot be described by simple bell curve probability distributions.",
+    "eli5Def": "A weird quantum setup that breaks normal rules of probability to give scientists extra superpowers for measuring things.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

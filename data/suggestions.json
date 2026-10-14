@@ -1,25 +1,25 @@
 {
- "generatedAt": "2026-10-13T14:29:52.977Z",
+ "generatedAt": "2026-10-14T12:16:07.095Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
    "slug": "sabre-kais",
-   "score": 10,
+   "score": 12,
    "coAuthoredWith": [],
    "viaKeywords": [
     "SABRE"
    ],
    "viaCategories": [],
    "paperIds": [
+    "2610.15998",
     "2610.07308",
-    "2609.33617",
-    "2609.17482"
+    "2609.33617"
    ],
    "recentTitles": [
-    "Quantum dynamics of spin systems using quantum-like resources",
-    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies"
+    "A 4-Qubit Variational Quantum Classifier for Sequence-Specific Classification of DNMT3A and DNMT3B Flanking Methylation Preferences",
+    "Quantum dynamics of spin systems using quantum-like resources"
    ],
-   "paperCount": 5
+   "paperCount": 6
   },
   {
    "name": "Ludovico Lami",

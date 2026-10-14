@@ -1,0 +1,98 @@
+{
+ "id": "2610.18778",
+ "version": 1,
+ "title": "Deterministic and programmable generation of mechanical multipartite entangled states",
+ "authors": [
+  {
+   "name": "Isabelle Franzen"
+  },
+  {
+   "name": "Max-Emanuel Kern"
+  },
+  {
+   "name": "Q. Rumman Rahman"
+  },
+  {
+   "name": "Igor Kladarić"
+  },
+  {
+   "name": "Stefano Marti"
+  },
+  {
+   "name": "Yiwen Chu"
+  },
+  {
+   "name": "Zhi-Yuan Wei"
+  },
+  {
+   "name": "Matteo Fadel"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-13T17:32:44Z",
+ "updated": "2026-10-13T17:32:44Z",
+ "abstract": "Multimode mechanical resonators offer a large set of densely packed, long-lived bosonic modes within a single compact device, making them attractive for quantum simulation, quantum information processing, and quantum-enhanced sensing. Many such applications rely on multipartite entanglement, yet deterministic mechanical entanglement has so far been largely limited to pairs of modes. Here we demonstrate the deterministic and programmable preparation of multipartite entangled states among the phonon modes of a high-overtone bulk acoustic wave resonator coupled to a superconducting transmon qubit. By sequentially applying optimal-control-engineered isometries between the qubit and successive modes, we generate matrix product states of bond dimension two, including $W$, Greenberger-Horne-Zeilinger (GHZ), and cluster states. We fully characterize these states via quantum state tomography and certify genuine multipartite entanglement among up to four modes. We further demonstrate correlated-noise sensing by exploiting the complementary decoherence responses of the stored $W$ and GHZ states, isolating inter-mode phase correlations from local decoherence and placing quantitative bounds on collective dephasing. Our results establish a scalable approach to preparing multipartite entangled states in mechanical systems, with promising applications in multiparameter sensing and tests of quantum mechanics with massive objects.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.18778",
+  "pdf": "https://arxiv.org/pdf/2610.18778",
+  "html": "https://arxiv.org/html/2610.18778"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.18778v1/Figure1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-14T12:16:07.095Z",
+  "hook": "Deterministic entanglement is generated among up to four mechanical modes using a superconducting qubit.",
+  "tldr": [
+   "Prepared multipartite entangled states among phonon modes of an acoustic wave resonator coupled to a transmon qubit.",
+   "Applied optimal-control-engineered isometries sequentially to generate matrix product states including GHZ and W states.",
+   "Certified genuine multipartite entanglement across up to four modes using quantum state tomography."
+  ],
+  "whyItMatters": "Scaling up quantum systems requires precise control over physical resonators. This offers a scalable path for macroscopic quantum experiments and multi-parameter sensing.",
+  "eli5": "Imagine trying to make four tiny bells ring in a synchronized, spooky quantum harmony. By using a special control circuit, scientists successfully locked four mechanical vibration modes together in an entangled group.",
+  "keyNumbers": [
+   {
+    "value": "four",
+    "label": "Mechanical modes",
+    "context": "Genuine multipartite entanglement certified among up to four modes"
+   },
+   {
+    "value": "two",
+    "label": "Bond dimension",
+    "context": "Matrix product states of bond dimension two generated via sequential isometries"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Phonon modes",
+    "shortDef": "Quantized modes of mechanical vibrations traveling through a crystal lattice.",
+    "eli5Def": "Specific resonant humming frequencies inside a solid material.",
+    "wikiTitle": "Phonon"
+   },
+   {
+    "term": "Transmon qubit",
+    "shortDef": "A type of superconducting quantum bit designed to minimize sensitivity to charge noise.",
+    "eli5Def": "A tiny artificial atom made of superconducting metal used to process quantum information.",
+    "wikiTitle": "Transmon"
+   },
+   {
+    "term": "Quantum state tomography",
+    "shortDef": "A process used to reconstruct the full density matrix of a quantum system through measurements.",
+    "eli5Def": "Taking a 3D medical scan of a quantum state by poking it from many different angles.",
+    "wikiTitle": "Quantum state tomography"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

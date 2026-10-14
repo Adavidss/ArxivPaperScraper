@@ -1,0 +1,108 @@
+{
+ "id": "2610.14425",
+ "version": 1,
+ "title": "Hyperpolarization-enabled cooperative molecular magnetic amplification",
+ "authors": [
+  {
+   "name": "Jingyan Xu"
+  },
+  {
+   "name": "Raphael Kircher"
+  },
+  {
+   "name": "Min Jiang"
+  },
+  {
+   "name": "Xinhua Peng"
+  },
+  {
+   "name": "Danila Barskiy"
+  },
+  {
+   "name": "Dmitry Budker"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-10T00:43:48Z",
+ "updated": "2026-10-10T00:43:48Z",
+ "abstract": "Detecting weak magnetic fields at hertz frequencies is central to biomagnetism, geophysical sensing, and searches for new physics, yet it remains challenging because of technical systematics and environmental noise. Here, we realize a continuously operating molecular magnetic amplifier. Signal amplification by reversible exchange (SABRE) parahydrogen-based hyperpolarization maintains non-equilibrium spin order at zero field, turning scalar-coupled nuclear spins in liquid state molecules into an active, frequency-selective gain medium. Measurements of its complex magnetic susceptibility ($χ$) reveal an intrinsic response of $ | χ| \\approx$ 10. By feeding the collectively generated magnetic field back to the spins below the threshold for self-sustained $J$-oscillation, we extend the effective spin coherence and cooperatively enhance the susceptibility up to $ | χ| \\approx$ 80. Near threshold, this produces approximately fourfold amplification of a weak (20 pT) magnetic field at 3.37 Hz at the sensor location. These results establish hyperpolarized molecules as a tunable active magnetic medium for narrowband quantum sensing and precision measurement.",
+ "comment": "15 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.14425",
+  "pdf": "https://arxiv.org/pdf/2610.14425",
+  "html": "https://arxiv.org/html/2610.14425"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-14T12:16:07.095Z",
+  "hook": "Hyperpolarized liquid molecules delivered an 8-fold magnetic susceptibility boost and amplified a 20 pT field at 3.37 Hz.",
+  "tldr": [
+   "Created a continuously operating molecular magnetic amplifier using parahydrogen-based hyperpolarization (SABRE).",
+   "Applied controlled magnetic feedback to collective spins below the self-sustained oscillation threshold.",
+   "Increased magnetic susceptibility from 10 to ~80, yielding ~4x signal amplification of a 20 pT field at 3.37 Hz."
+  ],
+  "whyItMatters": "Detecting tiny low-frequency magnetic signals is crucial for brain imaging and fundamental physics searches, but conventional sensors drown in low-frequency noise.",
+  "eli5": "Think of an acoustic guitar string that hums softly when a tiny sound plays; by pumping energy into liquid molecules, scientists made them act like a guitar that echoes and boosts faint, slow magnetic whispers.",
+  "keyNumbers": [
+   {
+    "value": "|χ| ≈ 10",
+    "label": "Intrinsic susceptibility",
+    "context": "Natural response magnitude of the SABRE-hyperpolarized liquid medium"
+   },
+   {
+    "value": "|χ| ≈ 80",
+    "label": "Enhanced susceptibility",
+    "context": "Magnetic susceptibility achieved with active feedback near oscillation threshold"
+   },
+   {
+    "value": "~4x",
+    "label": "Amplification factor",
+    "context": "Signal gain achieved for an external 20 pT test magnetic field"
+   },
+   {
+    "value": "3.37 Hz",
+    "label": "Signal frequency",
+    "context": "Low-frequency target where the amplified 20 pT magnetic field was detected"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "SABRE",
+    "shortDef": "Signal Amplification By Reversible Exchange, a parahydrogen-based hyperpolarization method.",
+    "eli5Def": "A technique that borrows aligned magnetic spins from hydrogen gas to make other molecules glow brightly in sensors.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Hyperpolarization",
+    "shortDef": "Aligning nuclear spins far beyond thermal equilibrium levels to boost magnetic resonance signals.",
+    "eli5Def": "Lining up almost all the tiny magnetic needles inside atoms so they point the exact same way.",
+    "wikiTitle": "Hyperpolarization (physics)"
+   },
+   {
+    "term": "Magnetic susceptibility",
+    "shortDef": "A measure of how much a material becomes magnetized in response to an applied magnetic field.",
+    "eli5Def": "How strongly a substance reacts when exposed to an outside magnet.",
+    "wikiTitle": "Magnetic susceptibility"
+   },
+   {
+    "term": "Spin coherence",
+    "shortDef": "The persistence of a definite phase relationship among spin states over time.",
+    "eli5Def": "How long spinning particles stay marching in lockstep before tumbling out of sync.",
+    "wikiTitle": "Coherence (physics)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

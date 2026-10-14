@@ -1,0 +1,72 @@
+{
+ "id": "2610.18816",
+ "version": 1,
+ "title": "On the coincidence of discrete and continuous definitions of Entanglement of Formation",
+ "authors": [
+  {
+   "name": "Haobo Ma"
+  },
+  {
+   "name": "Maksim E. Shirokov"
+  },
+  {
+   "name": "Wenlin Zhang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "math.FA"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-13T17:49:45Z",
+ "updated": "2026-10-13T17:49:45Z",
+ "abstract": "It is proved that every Borel ensemble of pure states on a separable bipartite Hilbert space with finite average entanglement admits a countable ensemble with the same barycenter and arbitrarily small additional average entanglement. Consequently, the discrete and continuous versions of the Entanglement of Formation coincide on the whole space of states of infinite-dimensional bipartite quantum system (with infinite values allowed). The main idea of the proof (realized with the AI-assistance) is the identification of a Borel ensemble of pure bipartite states with a Borel probability measure on the unit sphere of the space of Hilbert--Schmidt operators followed by dividing the support of this measure into appropriate cells and replacing each cell by its conditional barycenter. The resulting countable ensemble is obtained by a recursive construction.",
+ "comment": "14 pages, preliminary vesion, any comments are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.18816",
+  "pdf": "https://arxiv.org/pdf/2610.18816",
+  "html": "https://arxiv.org/html/2610.18816"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-14T12:16:07.095Z",
+  "hook": "Discrete and continuous definitions of Entanglement of Formation are proved to coincide for infinite-dimensional systems.",
+  "tldr": [
+   "Proved that every Borel ensemble of pure states with finite average entanglement admits a countable ensemble with identical barycenter.",
+   "Used an AI-assisted approach to identify ensembles with probability measures and construct recursive cell replacements.",
+   "Demonstrated that discrete and continuous versions of the Entanglement of Formation coincide across infinite-dimensional spaces."
+  ],
+  "whyItMatters": "Quantum information theory relies heavily on precise mathematical formulations of entanglement. Proving that discrete and continuous approaches match removes a long-standing ambiguity in infinite-dimensional quantum systems.",
+  "eli5": "Imagine trying to measure the total amount of tangled magic in a system. Scientists had two different measuring tapes—one smooth and continuous, one made of distinct steps. This paper proves that both tapes always give you the exact same answer.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Borel ensemble",
+    "shortDef": "A collection of quantum states structured according to standard mathematical measure theory.",
+    "eli5Def": "A well-organized set of quantum states that follows strict mathematical rules.",
+    "wikiTitle": "Borel measure"
+   },
+   {
+    "term": "Barycenter",
+    "shortDef": "The center of mass or weighted average point of a distribution of states.",
+    "eli5Def": "The balancing point of a shape where all weights even out.",
+    "wikiTitle": "Barycenter"
+   },
+   {
+    "term": "Entanglement of Formation",
+    "shortDef": "A measure of how much quantum entanglement is required to create a given quantum state.",
+    "eli5Def": "The recipe cost of how much entanglement you need to build a quantum link.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

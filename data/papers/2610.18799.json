@@ -1,0 +1,65 @@
+{
+ "id": "2610.18799",
+ "version": 1,
+ "title": "$\\mathsf{EFI}\\Leftrightarrow\\mathsf{1PRS}$",
+ "authors": [
+  {
+   "name": "Rishabh Batra"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-13T17:42:13Z",
+ "updated": "2026-10-13T17:42:13Z",
+ "abstract": "A series of recent works has established EFI pairs as the \"minimal\" assumption for quantum cryptography. Recently, Cavalar et al. [CCC+26] showed that EFI pairs are equivalent to non-uniform expanding single-copy pseudorandom state generators (1PRS), and obtained a non-uniform meta-complexity characterization of EFI pairs. We remove the non-uniformity in their construction and prove that EFI pairs are equivalent to expanding 1PRS. As a corollary, we obtain the first uniform meta-complexity characterization of EFI pairs. Together with the equivalence of statistically verifiable one-way state generators and commitments proved by Batra and Jain [BJ24], this gives a quantum analogue of the classical equivalence between one-way functions, commitments, and pseudorandom generators.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.18799",
+  "pdf": "https://arxiv.org/pdf/2610.18799",
+  "html": "https://arxiv.org/html/2610.18799"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-14T12:16:07.095Z",
+  "hook": "EFI pairs are proved equivalent to expanding 1PRSs, establishing the first uniform meta-complexity characterization.",
+  "tldr": [
+   "Removed non-uniformity from previous constructions linking cryptographic assumptions to pseudorandom states.",
+   "Proved that expanding single-copy pseudorandom state generators are fully equivalent to EFI pairs.",
+   "Derived the first uniform meta-complexity characterization for EFI pairs, creating a quantum analogue to classical cryptography."
+  ],
+  "whyItMatters": "This bridges the gap between classical and quantum cryptography, showing that fundamental security assumptions behave analogously in both worlds.",
+  "eli5": "Cryptographers love finding out if basic security building blocks are all secretly the same thing. This paper shows that two major quantum security foundations are completely identical, matching how classical computer security works.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "EFI pairs",
+    "shortDef": "Empirically indistinguishable distributions that serve as a minimal assumption for quantum cryptography.",
+    "eli5Def": "Two secret digital bags of data that look completely identical to any computer.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Pseudorandom state generators",
+    "shortDef": "Algorithms that output quantum states indistinguishable from truly random ones.",
+    "eli5Def": "A machine that creates fake randomness so good that nobody can tell it apart from real chaos.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Meta-complexity",
+    "shortDef": "The study of the complexity of computational complexity problems themselves.",
+    "eli5Def": "Stepping back to analyze how hard it is to figure out how hard a puzzle actually is.",
+    "wikiTitle": "Computational complexity theory"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

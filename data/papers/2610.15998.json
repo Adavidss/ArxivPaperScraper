@@ -1,0 +1,104 @@
+{
+ "id": "2610.15998",
+ "version": 1,
+ "title": "A 4-Qubit Variational Quantum Classifier for Sequence-Specific Classification of DNMT3A and DNMT3B Flanking Methylation Preferences",
+ "authors": [
+  {
+   "name": "Murat Isik"
+  },
+  {
+   "name": "Yusuf Moinuddin"
+  },
+  {
+   "name": "Humaira Gowher"
+  },
+  {
+   "name": "Sabre Kais"
+  }
+ ],
+ "categories": [
+  "cs.LG"
+ ],
+ "primaryCategory": "cs.LG",
+ "published": "2026-10-12T00:02:56Z",
+ "updated": "2026-10-12T00:02:56Z",
+ "abstract": "DNA methylation is a critical epigenetic modification that regulates gene expression and genome stability, primarily catalyzed by the DNA methyltransferase 3 (DNMT3) family of enzymes. Distinguishing precise sequence-specific flanking preferences between DNMT3A and DNMT3B remains computationally challenging due to the complex and high-dimensional nature of biochemical sequence data. In this study, we propose a novel Quantum Machine Learning (QML) approach to classify DNA methylation preferences, leveraging a Variational Quantum Classifier (VQC). Using experimentally derived deep enzymology data, we constructed a dataset containing 4,096 unique NNNCGNNN motifs. We evaluated a four-qubit VQC using a custom NumPy exact-statevector simulator. The described two-layer circuit contains 24 trainable rotations, eight CNOT gates, and eight input-encoding rotations, totaling 40 gates before measurement. Across five initialization seeds, the revised VQC evaluation achieved a ROC-AUC of 0.661 pm 0.009, where variability denotes sample standard deviation. The held-out test partition is approximately balanced, containing 200 DNMT3A-labeled motifs and 210 DNMT3B-labeled motifs. An always-DNMT3B predictor achieves 51.2% accuracy and a balanced accuracy of 0.500 on this test partition. This proof-of-concept establishes a foundation for utilizing near-term quantum architectures in complex epigenetic classification tasks, paving the way for hybrid quantum-classical pipelines in bioinformatics.",
+ "comment": "Accepted at IEEE International Conference on Quantum Artificial Intelligence (QAI) 2026",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.15998",
+  "pdf": "https://arxiv.org/pdf/2610.15998",
+  "html": "https://arxiv.org/html/2610.15998"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.15998v1/figure-1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-14T12:16:07.095Z",
+  "hook": "A compact 4-qubit quantum classifier achieved 0.661 ROC-AUC distinguishing DNA methylation preferences across 4,096 motifs.",
+  "tldr": [
+   "Tackled sequence specificity differences between DNA methyltransferases DNMT3A and DNMT3B using quantum machine learning.",
+   "Constructed a 4-qubit, 40-gate variational quantum circuit simulated via an exact statevector simulator.",
+   "Achieved an ROC-AUC of 0.661 pm 0.009 on a 410-sequence test split, beating trivial baseline classifiers."
+  ],
+  "whyItMatters": "Epigenetic enzymes control gene expression, and compact quantum circuits can detect subtle biochemical patterns without requiring massive quantum hardware.",
+  "eli5": "Our DNA has molecular tags that turn genes on and off. Two very similar helper proteins tag slightly different spots, and a tiny four-qubit quantum computer learned to spot the differences.",
+  "keyNumbers": [
+   {
+    "value": "4",
+    "label": "Qubits",
+    "context": "Number of simulated qubits used in the variational quantum classifier"
+   },
+   {
+    "value": "4,096",
+    "label": "Unique motifs",
+    "context": "Total NNNCGNNN sequence motifs generated from deep enzymology data"
+   },
+   {
+    "value": "40",
+    "label": "Total quantum gates",
+    "context": "Gates in the two-layer circuit (24 trainable, 8 CNOT, 8 input rotations)"
+   },
+   {
+    "value": "0.661 ± 0.009",
+    "label": "ROC-AUC",
+    "context": "Test performance across five random initialization seeds"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "DNA methylation",
+    "shortDef": "A biological process where methyl groups are added to DNA molecules, modulating gene expression.",
+    "eli5Def": "Adding chemical sticky notes onto DNA to silence or activate specific genes.",
+    "wikiTitle": "DNA methylation"
+   },
+   {
+    "term": "Variational Quantum Classifier",
+    "shortDef": "A hybrid quantum algorithm optimizing parameterized quantum gates via classical optimization.",
+    "eli5Def": "A machine learning model running on quantum bits whose internal settings are tuned by a normal computer.",
+    "wikiTitle": null
+   },
+   {
+    "term": "DNMT3",
+    "shortDef": "A family of DNA methyltransferase enzymes responsible for establishing de novo DNA methylation.",
+    "eli5Def": "The molecular machine inside cells that writes new tags onto fresh DNA.",
+    "wikiTitle": "DNA methyltransferase"
+   },
+   {
+    "term": "ROC-AUC",
+    "shortDef": "Area under the receiver operating characteristic curve, measuring binary classification trade-offs.",
+    "eli5Def": "A score from 0 to 1 measuring how well a model tells two different categories apart.",
+    "wikiTitle": "Receiver operating characteristic"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

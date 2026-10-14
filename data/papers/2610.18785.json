@@ -1,0 +1,74 @@
+{
+ "id": "2610.18785",
+ "version": 1,
+ "title": "Relative-Entropy Geometry and Convergence in Nonconvex Wiretap Optimization",
+ "authors": [
+  {
+   "name": "Farzin Salek"
+  },
+  {
+   "name": "Masahito Hayashi"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-13T17:35:33Z",
+ "updated": "2026-10-13T17:35:33Z",
+ "abstract": "We develop and analyze an entropic descent method for a nonconvex optimization problem on probability simplices arising in classical and quantum secure communication. The optimization variables describe a randomized encoder, allowing its input distribution and stochastic preprocessing to be optimized jointly. An exact relative-entropy identity yields a channel-independent majorization bound and an explicit mirror-descent iteration with a fixed unit step size. We establish quantitative descent, convergence of objective values, and stationarity of accumulation points on their support faces for arbitrary finite classical channels, without assuming degradedness or less noisiness. For strictly positive transition matrices, a square-root parametrization and a Kurdyka--Łojasiewicz argument establish finite length of the transformed trajectory and convergence of the entire sequence, including limits on the simplex boundary. For less-noisy channels, a restricted convex formulation admits global convergence with an explicit \\(O(1/t)\\) objective-error bound. We extend the relative-entropy construction to noncommuting quantum outputs and derive monotone alternating updates for covariant encoders, including correlated preprocessing over a fixed block. Numerical experiments compare the method with analytic benchmarks and constrained optimization, reveal multiple attracting values, and demonstrate strict improvements from stochastic preprocessing.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.18785",
+  "pdf": "https://arxiv.org/pdf/2610.18785",
+  "html": "https://arxiv.org/html/2610.18785"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-14T12:16:07.095Z",
+  "hook": "A new entropic descent method solves nonconvex wiretap optimization without assuming degradedness.",
+  "tldr": [
+   "Developed an entropic descent method for nonconvex optimization problems on probability simplices in secure communication.",
+   "Used a relative-entropy identity to yield a channel-independent majorization bound and mirror-descent iteration.",
+   "Demonstrated global convergence with an explicit rate for less-noisy channels and improvements from stochastic preprocessing."
+  ],
+  "whyItMatters": "Secure communication channels face complex noise and interception risks. Better optimization algorithms help engineers design stronger classical and quantum encryption systems.",
+  "eli5": "When sending secret messages through noisy pipes, finding the absolute best way to scramble the data is hard. This paper provides a new mathematical map to find that best scrambling strategy without needing special channel shortcuts.",
+  "keyNumbers": [
+   {
+    "value": "O(1/t)",
+    "label": "Objective-error bound",
+    "context": "Explicit objective-error bound for less-noisy channels in the restricted convex formulation"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Nonconvex optimization",
+    "shortDef": "Finding the best solution where multiple local peaks exist, making it hard to find the global optimum.",
+    "eli5Def": "Searching for the highest mountain peak in a range with many false peaks that can trap you.",
+    "wikiTitle": "Non-convex optimization"
+   },
+   {
+    "term": "Probability simplices",
+    "shortDef": "Geometrical spaces where coordinates represent probabilities that sum to one.",
+    "eli5Def": "A triangular map where every spot represents a different mix of percentages.",
+    "wikiTitle": "Simplex"
+   },
+   {
+    "term": "Relative entropy",
+    "shortDef": "A measure of how one probability distribution differs from a second, reference distribution.",
+    "eli5Def": "A ruler that measures how far off one random guess is from another.",
+    "wikiTitle": "Kullback–Leibler divergence"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

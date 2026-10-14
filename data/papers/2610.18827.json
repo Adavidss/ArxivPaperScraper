@@ -1,0 +1,74 @@
+{
+ "id": "2610.18827",
+ "version": 1,
+ "title": "Gaussian entanglement and quantum communication: geodesic optimization and multimode bounds",
+ "authors": [
+  {
+   "name": "Hemant K. Mishra"
+  },
+  {
+   "name": "Mark M. Wilde"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-13T17:53:59Z",
+ "updated": "2026-10-13T17:53:59Z",
+ "abstract": "Loss and noise limit the use of light to distribute entanglement, transmit quantum information, and establish secret keys. Gaussian states have a compact description in terms of means and covariance matrices, but their entanglement still requires global optimization. We develop a framework for computing Gaussian-restricted versions of the relative entropy of entanglement and Rains entanglement. An integral representation reveals a convex geometry under matrix geometric means and reduces Gaussian Rains entanglement to relative entropy minimized over Gaussian states with positive partial transpose. We obtain unique optimal reference states and additivity for independent Gaussian input states. Our convex-majorization algorithm has an explicit geometric convergence rate, uniform in the faithful regularization parameter and valid for pure input states. Controlled numerical integration and approximate convex subproblem solutions give a bit-complexity bound that is polynomial in accuracy bits for each fixed rational input covariance matrix, with explicit dependence on covariance size. These calculations bound extractable entanglement and, through the relative entropy of entanglement, extractable secret key. Teleportation simulation, energy allocation, and a convex optimization of passive-basis loss cores give bounds on quantum and private communication under an input-energy constraint, allowing arbitrary two-way classically assisted protocols. Two- and three-mode examples compare the bounds with achievable rates, including matching pure-loss benchmarks. Finally, we separate the Gaussian-restricted quantities from their unrestricted counterparts and give a photon-number truncation method with controlled error for computing the latter.",
+ "comment": "80 pages, 12 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.18827",
+  "pdf": "https://arxiv.org/pdf/2610.18827",
+  "html": "https://arxiv.org/html/2610.18827"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-14T12:16:07.095Z",
+  "hook": "A new convex-majorization algorithm rigorously bounds quantum entanglement and secret key distribution rates under loss.",
+  "tldr": [
+   "Developed a mathematical framework to compute Gaussian-restricted relative entropy and Rains entanglement bounds.",
+   "Employed matrix geometric means and a convex-majorization algorithm with guaranteed geometric convergence and polynomial bit-complexity.",
+   "Established upper bounds on private communication under energy constraints that match known pure-loss benchmarks."
+  ],
+  "whyItMatters": "Calculating how much secret information can pass through noisy fiber-optic channels is notoriously hard; this framework provides provable bounds for quantum key distribution.",
+  "eli5": "When sending secret codes using laser light, noise and lost photons scramble the message. This paper provides a new mathematical ruler to calculate the absolute speed limit for sending unhackable keys.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Gaussian state",
+    "shortDef": "A continuous-variable quantum state with a Gaussian characteristic function and Wigner distribution.",
+    "eli5Def": "The quantum state describing standard optical laser beams and smooth electromagnetic fields.",
+    "wikiTitle": "Gaussian state"
+   },
+   {
+    "term": "Rains entanglement",
+    "shortDef": "An entanglement measure bounding the distillable entanglement using positive partial transpose operations.",
+    "eli5Def": "A mathematical formula measuring how much useful quantum connection is trapped in a noisy channel.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Relative entropy of entanglement",
+    "shortDef": "The distance between an entangled state and the closest unentangled (separable) state.",
+    "eli5Def": "A score of how far a quantum state is from losing all of its spooky quantum connections.",
+    "wikiTitle": "Relative entropy of entanglement"
+   },
+   {
+    "term": "Positive partial transpose",
+    "shortDef": "A mathematical operation on density matrices used as a criterion to detect quantum entanglement.",
+    "eli5Def": "A math test that flips time for part of a quantum system to see if it breaks normal reality rules.",
+    "wikiTitle": "Peres–Horodecki criterion"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "2610.20515",
+ "version": 1,
+ "title": "Petz Recovery through a Single Polar Transformation for Approximate Quantum Error Correction",
+ "authors": [
+  {
+   "name": "Hanzhang Zhao"
+  },
+  {
+   "name": "Shenglong Xu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-14T17:16:47Z",
+ "updated": "2026-10-14T17:16:47Z",
+ "abstract": "The Petz recovery map provides a near optimal decoder for approximate quantum error correction, but its inverse square-root normalization complicates circuit implementation. We use the polar structure of the Petz recovery isometry to implement recovery through a single quantum singular value transformation (QSVT). We give explicit block-encoding circuits and an extended recovery isometry that yields approximate Petz recovery without postselection. We bound the diamond distance between the approximate and ideal Petz encoding-recovery channels in terms of a spectrum-weighted loss, which provides a channel specific objective for optimizing the QSVT angles. Uniform polynomial approximation yields an asymptotic error bound that decays exponentially with the number of QSVT iterations, at a rate controlled by the smallest nonzero scaled singular value. Applications to Haar-random encoding and the Hayden-Preskill protocol illustrate the tradeoff between circuit depth and recovery accuracy and place existing scrambling decoders within a common Petz recovery framework.",
+ "comment": "16+5 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.20515",
+  "pdf": "https://arxiv.org/pdf/2610.20515",
+  "html": "https://arxiv.org/html/2610.20515"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-15T11:57:27.946Z",
+  "hook": "We implement the optimal Petz recovery map for quantum error correction using a single quantum singular value transformation.",
+  "tldr": [
+   "They designed a method to implement the Petz recovery map without complex inverse square-root normalization.",
+   "They used the polar structure of the Petz recovery isometry with a single quantum singular value transformation.",
+   "They proved exponential error decay with QSVT iterations and applied it to Haar-random encoding and Hayden-Preskill."
+  ],
+  "whyItMatters": "Quantum error correction is vital for building stable quantum computers, and simplifying the recovery map makes hardware implementation much more practical.",
+  "eli5": "Imagine trying to fix static on a fuzzy television channel by reversing a messy tangle of math. The researchers found a neat shortcut to untangle that math using a single clean step instead of a complicated knot.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Petz recovery map",
+    "shortDef": "A near-optimal decoder used in approximate quantum error correction.",
+    "eli5Def": "A special math tool that helps you figure out how a message got messed up and how to fix it.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Quantum singular value transformation",
+    "shortDef": "A unified mathematical framework for implementing polynomial transformations of block-encoded matrices.",
+    "eli5Def": "A master wrench that lets quantum computers reshape numbers and data in very precise ways.",
+    "wikiTitle": "Quantum singular value transformation"
+   },
+   {
+    "term": "Hayden-Preskill protocol",
+    "shortDef": "A thought experiment exploring how information escapes from a black hole.",
+    "eli5Def": "A famous physics puzzle about whether you can retrieve a secret diary after throwing it into a black hole.",
+    "wikiTitle": "Hayden-Preskill thought experiment"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

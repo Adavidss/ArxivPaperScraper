@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-14T12:16:07.095Z",
+ "generatedAt": "2026-10-15T11:57:27.946Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -164,26 +164,6 @@
    "paperCount": 4
   },
   {
-   "name": "Jordan Cotler",
-   "slug": "jordan-cotler",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.30148",
-    "2608.27350",
-    "2608.13521"
-   ],
-   "recentTitles": [
-    "Proper Agnostic Learning of Matrix Product States and Tree Tensor Networks",
-    "Quantum Chaos and Quantum Optimal Transport"
-   ],
-   "paperCount": 4
-  },
-  {
    "name": "Fernando Granha Jeronimo",
    "slug": "fernando-granha-jeronimo",
    "score": 4,
@@ -202,6 +182,25 @@
     "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax"
    ],
    "paperCount": 4
+  },
+  {
+   "name": "Ethan Dickey",
+   "slug": "ethan-dickey",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2610.07308",
+    "2609.14620"
+   ],
+   "recentTitles": [
+    "Quantum dynamics of spin systems using quantum-like resources",
+    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
+   ],
+   "paperCount": 2
   }
  ]
 }

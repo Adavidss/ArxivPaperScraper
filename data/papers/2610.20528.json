@@ -1,0 +1,79 @@
+{
+ "id": "2610.20528",
+ "version": 1,
+ "title": "Quantum Work Statistics from Entanglement-Assisted Invariance",
+ "authors": [
+  {
+   "name": "Akira Sone"
+  },
+  {
+   "name": "Akram Touil"
+  },
+  {
+   "name": "Emery Doucet"
+  },
+  {
+   "name": "Sebastian Deffner"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-14T17:25:58Z",
+ "updated": "2026-10-14T17:25:58Z",
+ "abstract": "We demonstrate that the one-time measurement scheme is more consistent than the standard two-time measurement scheme with respect to the fundamental symmetry of entanglement, namely entanglement-assisted invariance (envariance). In particular, the work statistics obtained from the one-time measurement scheme arise naturally as a direct consequence of envariance for any driving unitary, without involving an explicit measurement postulate, whereas the analogous identification for the two-time measurement scheme is possible only for a Haar-measure-zero set of unitaries. This envariance-based formulation eliminates the ambiguity in work statistics related to the energetic cost of measurement.",
+ "comment": "4.5 + 4 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.20528",
+  "pdf": "https://arxiv.org/pdf/2610.20528",
+  "html": "https://arxiv.org/html/2610.20528"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-15T11:57:27.946Z",
+  "hook": "Quantum work statistics emerge directly from entanglement symmetry without needing quantum measurement postulates.",
+  "tldr": [
+   "Evaluated how quantum work extraction aligns with entanglement-assisted invariance (envariance).",
+   "Showed the one-time measurement scheme respects envariance for every driving unitary operation.",
+   "Demonstrated the standard two-time measurement scheme violates envariance almost everywhere (except a set of measure zero)."
+  ],
+  "whyItMatters": "Defining work and heat in quantum systems usually requires perturbing the system with measurements. Deriving work statistics from pure entanglement symmetries removes arbitrary measurement backaction from nanoscale engine physics.",
+  "eli5": "In standard quantum physics, checking how much work a tiny quantum engine did requires measuring it twice, which shakes up the engine and corrupts the answer. This paper shows measuring just once preserves the natural quantum entanglement, giving the true work done without measurement interference.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Envariance",
+    "shortDef": "Entanglement-assisted invariance: symmetry where a system transformation is undone by acting purely on an entangled partner.",
+    "eli5Def": "A mirror-like quantum symmetry where altering one entangled twin can be completely canceled out on the other twin.",
+    "wikiTitle": "Envariance"
+   },
+   {
+    "term": "Two-time measurement (TTM)",
+    "shortDef": "Standard protocol defining quantum work via projective energy measurements before and after a driving protocol.",
+    "eli5Def": "Measuring a system's energy at the start and at the finish to calculate work from the difference.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Haar-measure-zero",
+    "shortDef": "A subset of unitary transformations having zero volume, meaning a randomly picked unitary will never lie in it.",
+    "eli5Def": "Something so vanishingly rare that the probability of randomly hitting it is literally zero.",
+    "wikiTitle": "Haar measure"
+   },
+   {
+    "term": "Work statistics",
+    "shortDef": "The probability distribution describing the fluctuations of mechanical work done on or by a quantum system.",
+    "eli5Def": "A chart showing the chances of an engine producing different amounts of energy during a run.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

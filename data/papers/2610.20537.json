@@ -1,0 +1,87 @@
+{
+ "id": "2610.20537",
+ "version": 1,
+ "title": "Quantum-Aware Key Rank for Side-Channel Attacks evaluation",
+ "authors": [
+  {
+   "name": "Yevgen Kotukh"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-14T17:31:48Z",
+ "updated": "2026-10-14T17:31:48Z",
+ "abstract": "Side-channel attacks on block ciphers rarely recover the key outright: they leave a residual key space ordered by subkey posteriors, and evaluation laboratories report the key rank of the true key against thresholds near 2^48 and 2^60. No evaluation framework models an adversary who collects traces classically and finishes the search on a quantum computer, although quantum search with advice provides exactly that. We give such an adversary a cost model and a metric. For a device whose key has rank r, any quantum algorithm with classical access to the posteriors needs Omega(sqrt(r)) cipher evaluations, and block search achieves O(sqrt(r)); the per-instance advantage is exactly quadratic, and the super-quadratic exponents reported for search with advice are averages over the prior that apply to no single device. Under the NIST MAXDEPTH budget D and a Grover iteration of g gates and depth d, the quadratic advantage holds only for ranks up to (4D/(pi d))^2 and collapses to a constant factor beyond; with the best published AES-128 oracle and D = 2^40 the window closes near rank 2^58.6. We define the quantum-aware key rank, the classical rank of equal cost, computable from the rank estimators laboratories already run, and derive the classical rank a device must retain to keep a given threshold against each depth budget. Block search and amplitude amplification from the product-form posterior state are within a factor of two to four of each other on Hamming-weight posteriors, so the cost of coherent indexing decides between them. Experiments on simulated leakage and a toy cipher confirm the predicted window: at SNR 0.125 a depth-limited quantum adversary is worth about 22 traces to a classical one, however large its gate budget.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.20537",
+  "pdf": "https://arxiv.org/pdf/2610.20537",
+  "html": "https://arxiv.org/html/2610.20537"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-15T11:57:27.946Z",
+  "hook": "Quantum side-channel attacks on AES-128 lose their speedup beyond key rank 2^58.6 under realistic circuit depth limits.",
+  "tldr": [
+   "Modeled adversaries who gather physical side-channel leakages classically and search residual keys on quantum computers.",
+   "Proved a per-instance quadratic Grover speedup that vanishes beyond key rank (4D/(π d))^2 under NIST depth limits.",
+   "Found that against realistic depth caps, a quantum attacker is worth only ~22 extra leakage traces over a classical attacker."
+  ],
+  "whyItMatters": "Hardware security labs certify microchips against side-channel spying using classical search bounds. This work provides an exact formula to benchmark whether expensive quantum search actually threatens certified key ranks.",
+  "eli5": "When spies listen to the electrical hum of a chip, they narrow a password down to a ranked list of suspects. A quantum computer searches that list faster, but because real quantum hardware can't run infinitely long without failing, its speed advantage abruptly stops helping on long lists.",
+  "keyNumbers": [
+   {
+    "value": "2^58.6",
+    "label": "Quantum advantage cutoff rank",
+    "context": "The residual rank where quantum speedup collapses for AES-128 at depth 2^40"
+   },
+   {
+    "value": "22",
+    "label": "Trace equivalence",
+    "context": "Extra physical traces a classical attacker needs to match a depth-limited quantum adversary at SNR 0.125"
+   },
+   {
+    "value": "2^40",
+    "label": "MAXDEPTH budget (D)",
+    "context": "Standard NIST maximum quantum circuit depth constraint evaluated"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Side-channel attack",
+    "shortDef": "A cryptanalytic attack exploiting physical leakages such as power, timing, or electromagnetic radiation.",
+    "eli5Def": "Breaking a safe not by cracking the math, but by listening to the faint clicks of the lock tumblers.",
+    "wikiTitle": "Side-channel attack"
+   },
+   {
+    "term": "Key rank",
+    "shortDef": "The position of the true cryptographic key in an adversary's list ordered by posterior probability.",
+    "eli5Def": "Where the correct password sits in a spy's ranked list of guesses.",
+    "wikiTitle": null
+   },
+   {
+    "term": "MAXDEPTH",
+    "shortDef": "A NIST constraint limiting the maximum sequential gate depth allowable in realistic fault-tolerant circuits.",
+    "eli5Def": "A strict time limit on how long a quantum computation can run before real-world decoherence ruins it.",
+    "wikiTitle": "Post-Quantum Cryptography Standardization"
+   },
+   {
+    "term": "Amplitude amplification",
+    "shortDef": "A quantum algorithmic technique that generalizes Grover search to boost target state probabilities.",
+    "eli5Def": "A quantum trick that turns up the volume on the correct answer while muting all wrong answers.",
+    "wikiTitle": "Amplitude amplification"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

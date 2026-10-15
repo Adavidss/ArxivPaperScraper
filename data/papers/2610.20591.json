@@ -1,0 +1,91 @@
+{
+ "id": "2610.20591",
+ "version": 1,
+ "title": "Logical CCZ state cultivation",
+ "authors": [
+  {
+   "name": "Yuta Hirasaki"
+  },
+  {
+   "name": "Jong Yeon Lee"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-14T17:58:30Z",
+ "updated": "2026-10-14T17:58:30Z",
+ "abstract": "Logical CCZ states enable Toffoli gates, a central building block of fault-tolerant quantum arithmetic. We introduce an end-to-end protocol for direct CCZ-state preparation on bivariate tricycle and bicycle (BT/BB) codes. Our factory combines the cup-product CCZ gates native to BT codes with two novel ingredients, both enabled by engineering the logical coupling between BT and BB codes through projection-preserving lifts. Index-2 lifted BB ancillas enable selective $Z$-basis initialization, allowing the native cup-product gates to directly prepare two disjoint logical CCZ states. The prepared CCZ states are faithfully transferred to index-3 lifted BB memories with high code distance. We use decoder-based postselection to obtain high-fidelity output states with low overhead. We perform exact simulations of our factory under a circuit-level noise model motivated by neutral-atom hardware, obtaining joint infidelities of $1.84\\times10^{-5}$ at $21.94\\%$ acceptance and $4.10\\times10^{-7}$ at $8.89\\%$ acceptance for single-qubit, CZ, and CCZ error rates of $0.01\\%$, $0.1\\%$, and $0.5\\%$, respectively. At the output-infidelity target of our smallest factory, its estimated spacetime cost per CCZ state is lower than that of $T$-state cultivation followed by CCZ conversion, providing an efficient route to logical CCZ states for fault-tolerant quantum computation.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.20591",
+  "pdf": "https://arxiv.org/pdf/2610.20591",
+  "html": "https://arxiv.org/html/2610.20591"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.20591v1/Cultivation.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-15T11:57:27.946Z",
+  "hook": "Directly cultivating logical CCZ states yields 4.10e-7 joint infidelity, beating standard T-state conversion costs.",
+  "tldr": [
+   "Built an end-to-end factory to prepare fault-tolerant logical CCZ states natively on bivariate tricycle and bicycle codes.",
+   "Combined native cup-product gates, projection-preserving lifts for memory transfer, and decoder-based postselection.",
+   "Achieved 4.10e-7 joint infidelity at 8.89% acceptance with lower spacetime overhead than conventional T-state distillation."
+  ],
+  "whyItMatters": "Toffoli and CCZ gates are the computational engines for quantum arithmetic and chemistry algorithms. Producing them directly with low hardware overhead significantly accelerates when useful quantum supercomputers become practical.",
+  "eli5": "Normally, making a complex three-way quantum switch requires building simple parts first and painstakingly converting them, which wastes time and parts. This method weaves the complex switch in one direct step, throwing away bad pieces early to save massive amounts of factory space.",
+  "keyNumbers": [
+   {
+    "value": "1.84×10^-5",
+    "label": "Joint infidelity (first target)",
+    "context": "Achieved at 21.94% acceptance under circuit noise"
+   },
+   {
+    "value": "4.10×10^-7",
+    "label": "Joint infidelity (high-purity target)",
+    "context": "Achieved at 8.89% acceptance under circuit noise"
+   },
+   {
+    "value": "0.01%, 0.1%, 0.5%",
+    "label": "Component error rates",
+    "context": "Single-qubit, CZ, and CCZ gate error rates in the neutral-atom noise model"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "CCZ state",
+    "shortDef": "A three-qubit entangled resource state used to implement controlled-controlled-Z or Toffoli operations.",
+    "eli5Def": "A special 3-particle quantum state that acts as a master key for logic gates that check two conditions at once.",
+    "wikiTitle": "Toffoli gate"
+   },
+   {
+    "term": "Bivariate bicycle (BB) codes",
+    "shortDef": "A class of quantum low-density parity-check (qLDPC) codes defined using polynomial matrices over two variables.",
+    "eli5Def": "A clever 2D grid layout for error-correcting qubits that packs lots of protected information into few physical parts.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Postselection",
+    "shortDef": "Discarding quantum computation runs where error syndrome checks detect uncorrectable faults.",
+    "eli5Def": "A quality-control filter: if a run looks flawed, throw it in the trash and only keep the flawless outputs.",
+    "wikiTitle": "Postselection"
+   },
+   {
+    "term": "Spacetime cost",
+    "shortDef": "The total physical footprint of an algorithm, calculated as physical qubits multiplied by total time steps.",
+    "eli5Def": "The total 'rent' paid to run a quantum program: how many qubits you occupy times how long you hold them.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

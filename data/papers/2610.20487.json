@@ -1,0 +1,108 @@
+{
+ "id": "2610.20487",
+ "version": 1,
+ "title": "Demonstration of a mobile ion-trap quantum device",
+ "authors": [
+  {
+   "name": "Sara Alfaro"
+  },
+  {
+   "name": "Dipesh Bhanushali"
+  },
+  {
+   "name": "Sankarshan Choudapurkar"
+  },
+  {
+   "name": "Ashwin Bhartia"
+  },
+  {
+   "name": "Thomas Lafenthaler"
+  },
+  {
+   "name": "Tommaso Faorlin"
+  },
+  {
+   "name": "Yannick Weiser"
+  },
+  {
+   "name": "Lorenz Panzl"
+  },
+  {
+   "name": "Thomas Monz"
+  },
+  {
+   "name": "Rainer Blatt"
+  },
+  {
+   "name": "Giovanni Cerchiari"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.atom-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-14T16:58:47Z",
+ "updated": "2026-10-14T16:58:47Z",
+ "abstract": "Trapped-ion devices are being investigated for transportable applications, including the transfer of exotic charged particles between laboratories and the development of portable quantum technologies. To date, ion transport has been demonstrated only in magnetic (Penning) traps, whereas radiofrequency (Paul) traps are the predominant platform in quantum science. Here, we report the first transport of a few thousand ions confined in a linear Paul trap over distances of several kilometers, with transport durations of 15 and 45 min. These results establish a foundation for mobile trapped-ion quantum devices capable of operating while in motion and may enable the transport of exotic ions in Paul traps between experimental facilities.",
+ "comment": "7 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.20487",
+  "pdf": "https://arxiv.org/pdf/2610.20487",
+  "html": "https://arxiv.org/html/2610.20487"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.20487v1/Fig01.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-15T11:57:27.946Z",
+  "hook": "Researchers successfully transport a few thousand ions in a linear Paul trap over several kilometers.",
+  "tldr": [
+   "They built and demonstrated a mobile ion-trap quantum device capable of transport while in motion.",
+   "They transported a few thousand ions inside a linear Paul trap over a distance of several kilometers.",
+   "They achieved transport durations lasting 15 and 45 minutes, moving beyond magnetic Penning traps."
+  ],
+  "whyItMatters": "Portable quantum devices and the physical transfer of fragile quantum particles between different labs could revolutionize secure communication and quantum networking.",
+  "eli5": "Scientists usually keep delicate quantum experiments locked firmly on stable lab tables. Here, they managed to drive a few thousand trapped atoms around in a moving device for miles without losing them.",
+  "keyNumbers": [
+   {
+    "value": "several kilometers",
+    "label": "Transport Distance",
+    "context": "Distance over which ions were confined and transported in a linear Paul trap."
+   },
+   {
+    "value": "15 and 45 min",
+    "label": "Transport Duration",
+    "context": "Time taken to complete the transport of a few thousand ions."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Paul trap",
+    "shortDef": "An ion trap that uses dynamic electric fields to trap charged particles.",
+    "eli5Def": "An invisible cage made of buzzing electrical forces that holds tiny charged atoms in place.",
+    "wikiTitle": "Quadrupole ion trap"
+   },
+   {
+    "term": "Penning trap",
+    "shortDef": "A trap that uses a static magnetic field and a quadrupole electric field to store charged particles.",
+    "eli5Def": "A magnetic cage used to hold tiny particles still using steady forces.",
+    "wikiTitle": "Penning trap"
+   },
+   {
+    "term": "Isometry",
+    "shortDef": "A distance-preserving mapping between metric spaces.",
+    "eli5Def": "A rule or transformation that reshapes something without stretching or shrinking its core measurements.",
+    "wikiTitle": "Isometry"
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 40
+ }
+}

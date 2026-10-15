@@ -1,0 +1,89 @@
+{
+ "id": "2610.20536",
+ "version": 1,
+ "title": "Intermediate memory costs of quantum channel synthesis with a protected subsystem",
+ "authors": [
+  {
+   "name": "Kai Liu"
+  },
+  {
+   "name": "Deguang Han"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-14T17:30:58Z",
+ "updated": "2026-10-14T17:30:58Z",
+ "abstract": "A quantum memory can preserve a subsystem perfectly while discarding information needed by a later operation. We study the total intermediate dimension required for channel synthesis when the first stage protects a $b$-dimensional subsystem and has a prescribed noncommutative graph imposing full confusability on an $a$-dimensional control register. For a finite family of classically controlled branches, exact synthesis is possible if and only if the target graph contains the prescribed graph of the first stage. For every feasible family, we construct a single processor that implements all branches exactly. The processor uses pairwise nonorthogonal pure program states in a register of dimension at most $a$. A target graph may be realizable with a carrier of dimension $b$, while synthesizing a channel with that graph can require dimension $ab$. We also characterize the closure of the attainable channels, distinguishing exact synthesis from arbitrarily accurate approximation. Finally, for a family built from the trine communication task, a four-dimensional carrier permits exact synthesis with quantum programs under output depolarization. At the same total carrier dimension and without free shared randomness, classical programs have optimal normalized diamond error $(1-η)/4$, where $0\\leqη\\leq1$ is the depolarization strength. For $η<1$, the gap persists under sufficiently small perturbations of the target branches.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.20536",
+  "pdf": "https://arxiv.org/pdf/2610.20536",
+  "html": "https://arxiv.org/html/2610.20536"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-15T11:57:27.946Z",
+  "hook": "Synthesizing multi-branch quantum channels can require an intermediate memory of dimension a·b instead of just b.",
+  "tldr": [
+   "Analyzed the intermediate carrier dimension needed to execute controlled quantum operations while protecting a subsystem.",
+   "Proved exact synthesis depends on target graph containment and constructed a universal processor using nonorthogonal states.",
+   "Demonstrated a separation where quantum programs succeed perfectly on trine states while classical programs suffer 25% error."
+  ],
+  "whyItMatters": "Modular quantum processors and quantum routers must store partial computational results while discarding unneeded control information. Mapping the exact memory required prevents communication bottlenecks in distributed quantum hardware.",
+  "eli5": "Imagine a factory workstation that has to securely hold a fragile package while reading routing tags. This study proves exactly how much 'shelf space' the station needs so it can read and discard tags without accidentally dropping the package, showing quantum tags need far less shelf space than classical tags.",
+  "keyNumbers": [
+   {
+    "value": "ab",
+    "label": "Peak memory dimension required",
+    "context": "Intermediate dimension needed for channel synthesis, even when the output carrier dimension is only b"
+   },
+   {
+    "value": "4",
+    "label": "Trine carrier dimension",
+    "context": "Carrier dimension enabling exact synthesis with quantum programs under depolarization"
+   },
+   {
+    "value": "(1-η)/4",
+    "label": "Optimal classical diamond error",
+    "context": "Normalized diamond error incurred by classical programs without shared randomness at depolarization η"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum channel synthesis",
+    "shortDef": "The physical implementation of an arbitrary trace-preserving completely positive map via unitaries and measurements.",
+    "eli5Def": "Building a specific quantum transformation out of basic, physical quantum circuit steps.",
+    "wikiTitle": "Quantum channel"
+   },
+   {
+    "term": "Noncommutative graph",
+    "shortDef": "An operator space capturing distinguishability and confusability constraints among quantum states.",
+    "eli5Def": "A mathematical map showing which quantum messages can be easily told apart and which get confused.",
+    "wikiTitle": "Quantum graph"
+   },
+   {
+    "term": "Diamond error",
+    "shortDef": "A metric quantifying the worst-case operational distinguishability between two quantum channels.",
+    "eli5Def": "The gold-standard ruler for measuring how far a real quantum process deviates from a perfect one.",
+    "wikiTitle": "Diamond norm"
+   },
+   {
+    "term": "Trine states",
+    "shortDef": "A set of three symmetric single-qubit states separated by 120 degrees on the Bloch sphere equator.",
+    "eli5Def": "Three quantum arrow states that point in evenly spaced directions, like a Mercedes-Benz hood ornament.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

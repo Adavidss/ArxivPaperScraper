@@ -1,0 +1,83 @@
+{
+ "id": "2610.22308",
+ "version": 1,
+ "title": "Classical Capacity of Single-Mode Bosonic Gaussian Channels",
+ "authors": [
+  {
+   "name": "Gerardo Adesso"
+  },
+  {
+   "name": "Ludovico Lami"
+  },
+  {
+   "name": "Vittorio Giovannetti"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-15T17:49:43Z",
+ "updated": "2026-10-15T17:49:43Z",
+ "abstract": "The classical capacity of a noisy optical channel is the maximum rate at which information can be transmitted reliably, given a constraint on the mean input energy. For the ubiquitous bosonic Gaussian channels, which include standard models of loss and noise in fibre and free-space optical links, determining this rate requires addressing whether entanglement between channel uses or non-Gaussian signals can outperform Gaussian encodings. More precisely, the question is whether the energy-constrained Holevo information is additive across arbitrarily many channel uses and coincides with its Gaussian counterpart. We answer these fundamental questions in the affirmative for every single-mode bosonic Gaussian channel at every input energy. Namely, we prove that independently prepared Gaussian states with Gaussian-distributed random displacements achieve the capacity, including in the low-energy regime where squeezing the signals competes with encoding information in their displacement. Our proof connects an entanglement inequality to a sharp, additive lower bound on output entropy. We then characterise communication above capacity: under a strict total photon-number cutoff, the probability of correct decoding decreases exponentially with the number of channel uses, and we derive explicit bounds on the decay exponent. When only the mean photon number is constrained, a simple energy-rescaling formula determines exactly the entire asymptotic rate--error trade-off: the capacity at mean photon number $N$ and allowed average decoding error $ε$ equals the vanishing-error capacity at mean photon number $N/(1-ε)$. Together, these results identify the ultimate limits of classical communication for some of the most fundamental models of optical communication.",
+ "comment": "24 pages, 2 figures. See also related results for entanglement in https://arxiv.org/abs/2608.01909v3",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22308",
+  "pdf": "https://arxiv.org/pdf/2610.22308",
+  "html": "https://arxiv.org/html/2610.22308"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-16T11:48:00.823Z",
+  "hook": "Unentangled Gaussian light signals achieve the ultimate physical data transmission limit across all noisy optical links.",
+  "tldr": [
+   "Proven that Gaussian encodings achieve the classical information capacity of all single-mode bosonic Gaussian channels.",
+   "Connected an entanglement inequality to an additive lower bound on output entropy to establish that Holevo information is additive.",
+   "Characterized communication above capacity, showing decoding success decays exponentially and pinpointing the exact rate-error trade-off."
+  ],
+  "whyItMatters": "Optical fiber and satellite laser communications fundamentally operate via bosonic channels. This result settles a foundational theoretical question by proving that complex quantum entanglement provides no extra throughput advantage for transmitting classical bits.",
+  "eli5": "Physicists have long wondered if entangling beams of laser light could squeeze more classical data through noisy glass fibers. This work proves that simple, well-behaved laser pulses are already the absolute best possible way to send data, settling the question for good.",
+  "keyNumbers": [
+   {
+    "value": "N/(1-ε)",
+    "label": "effective mean photon number",
+    "context": "Rescaling formula establishing the asymptotic rate-error trade-off"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Bosonic Gaussian channel",
+    "shortDef": "A mathematical model describing noise, loss, and amplification in quantum systems governed by bosonic fields like light.",
+    "eli5Def": "A standard physics model for how laser light loses power or picks up noise as it travels through glass fiber or open air.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Classical capacity",
+    "shortDef": "The maximum rate of error-free classical bits that can be sent over a quantum channel per channel use.",
+    "eli5Def": "The absolute maximum speed limit for sending regular computer data down a quantum communication line.",
+    "wikiTitle": "Quantum capacity"
+   },
+   {
+    "term": "Holevo information",
+    "shortDef": "An upper bound on the amount of accessible classical information that can be extracted from an ensemble of quantum states.",
+    "eli5Def": "A mathematical formula measuring how much readable data can possibly be packed into quantum signals.",
+    "wikiTitle": "Holevo's theorem"
+   },
+   {
+    "term": "Squeezed state",
+    "shortDef": "A quantum state of light where uncertainty in one variable is reduced below the vacuum level at the expense of another.",
+    "eli5Def": "A carefully tuned light wave where noise is suppressed in one direction by letting it get noisier in another.",
+    "wikiTitle": "Squeezed states of light"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

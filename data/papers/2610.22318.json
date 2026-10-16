@@ -1,0 +1,78 @@
+{
+ "id": "2610.22318",
+ "version": 1,
+ "title": "Magic in quantum trajectory unravelings of noisy random quantum circuits",
+ "authors": [
+  {
+   "name": "Sara Santos"
+  },
+  {
+   "name": "Alessio Paviglianiti"
+  },
+  {
+   "name": "Vincenzo Savona"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-15T17:51:22Z",
+ "updated": "2026-10-15T17:51:22Z",
+ "abstract": "The quantum-trajectory description of a noisy quantum circuit is not unique: every Kraus representation of the noise channel defines a different unraveling, i.e., a different ensemble of pure states that averages to the same density matrix. While all unravelings share the same expectation values of observables, they generally differ in the amount of quantum resources carried by the individual trajectories. Here we study non-stabilizerness, or magic, quantified by the stabilizer Rényi entropy, in quantum-trajectory unravelings of Haar-random and $T$-doped random Clifford brickwork circuits subject to local dephasing noise of strength $p$. The canonical unraveling in terms of Pauli jumps is Clifford and leaves magic untouched, so that trajectories retain the Haar-random value of non-stabilizerness. Exploring the full two-parameter family of minimal unravelings, we find that the trajectory-averaged magic can be substantially reduced by a state-independent choice of Kraus operators, and that the optimal choice is not in general the projective-measurement unraveling, but a two-outcome generalized measurement in which the Kraus operators correspond to a weak measurement of the noisy qubit. The optimal unraveling reduces the extensive magic density of the trajectories by a $p$-dependent factor without altering its linear scaling with system size. At the same time, it produces a very broad distribution of magic over trajectories, with a sizable fraction of trajectories retaining Haar-random magic. Since the cost of stabilizer-based classical simulation grows exponentially with the magic of the state, these high-magic trajectories, rather than the average, control the simulation cost. Our results delineate the potential and the limitations of unraveling optimization as a route to the classical simulation of noisy quantum dynamics with stabilizer methods.",
+ "comment": "19 pages, 14 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22318",
+  "pdf": "https://arxiv.org/pdf/2610.22318",
+  "html": "https://arxiv.org/html/2610.22318"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.22318v1/rqc.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-16T11:48:00.823Z",
+  "hook": "Weak measurements slash average magic in noisy quantum trajectories, but rare high-magic runs still bottleneck simulation.",
+  "tldr": [
+   "Examined stabilizer Rényi entropy (magic) across quantum trajectory unravelings under local dephasing noise.",
+   "Scanned minimal unravelings and discovered state-independent weak measurements minimize average trajectory magic.",
+   "Revealed broad magic distributions whose high-magic outliers still dictate the exponential cost of classical simulation."
+  ],
+  "whyItMatters": "Simulating noisy quantum circuits on classical computers is crucial for verifying hardware. Optimizing how noise is modeled reduces average simulation complexity, though worst-case trajectories remain hard.",
+  "eli5": "Simulating a quantum computer classically is easy until the state gets too 'magical' and weird. Tracking noisy states using subtle, gentle measurements keeps most paths simple, but a few stubbornly complex paths still slow down the whole simulation.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Non-stabilizerness (Magic)",
+    "shortDef": "A quantum resource quantifying how far a state deviates from stabilizer states easily simulated classically.",
+    "eli5Def": "A measure of how 'uniquely quantum' a state is—the more magic it has, the harder it is for a normal computer to simulate.",
+    "wikiTitle": "Magic state"
+   },
+   {
+    "term": "Quantum trajectory",
+    "shortDef": "A path of pure quantum states tracking an open system undergoing stochastic unraveling of noise.",
+    "eli5Def": "Following a single random history of a noisy quantum system rather than blurring everything into an average blur.",
+    "wikiTitle": "Quantum trajectory theory"
+   },
+   {
+    "term": "Kraus representation",
+    "shortDef": "A mathematical formulation expressing an open quantum process via an ensemble of measurement-like operators.",
+    "eli5Def": "A mathematical toolbox to describe every possible random interaction an open quantum system can experience.",
+    "wikiTitle": "Quantum operation"
+   },
+   {
+    "term": "Dephasing noise",
+    "shortDef": "A noise process that destroys quantum phase coherence without altering qubit energy levels.",
+    "eli5Def": "A kind of quantum static that scrambles phase relationships without flipping bits.",
+    "wikiTitle": "Dephasing"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

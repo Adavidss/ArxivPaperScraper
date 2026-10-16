@@ -1,12 +1,13 @@
 {
  "schemaVersion": 1,
- "lastUpdated": "2026-10-15T11:57:27.946Z",
- "buildId": "20261015T115727Z",
+ "lastUpdated": "2026-10-16T11:48:00.823Z",
+ "buildId": "20261016T114800Z",
  "lastRunStatus": "ok",
- "paperCount": 416,
+ "paperCount": 423,
  "pendingBites": 0,
- "latestOverview": "2026-10-15",
+ "latestOverview": "2026-10-16",
  "overviewDates": [
+  "2026-10-16",
   "2026-10-15",
   "2026-10-14",
   "2026-10-13",
@@ -78,8 +79,7 @@
   "2026-08-05",
   "2026-08-04",
   "2026-08-03",
-  "2026-08-02",
-  "2026-08-01"
+  "2026-08-02"
  ],
  "windowDays": 75
 }

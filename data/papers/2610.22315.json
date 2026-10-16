@@ -1,0 +1,89 @@
+{
+ "id": "2610.22315",
+ "version": 1,
+ "title": "Magna: simulating magic state factories as cheaply as Clifford circuits",
+ "authors": [
+  {
+   "name": "Yifei Wang"
+  },
+  {
+   "name": "Yingfei Gu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-15T17:51:13Z",
+ "updated": "2026-10-15T17:51:13Z",
+ "abstract": "Classical simulation of magic state factories, including distillation, cultivation, and code switching, is challenging because of their substantial non-Clifford content. We introduce $\\texttt{magna}$ (magic-state-factory assessment via global network algebra), a classical simulator that simulates such protocols as cheaply as Clifford circuits. $\\texttt{magna}$ expresses the figures of merit of a protocol, namely the acceptance rate and the fidelity of the accepted states, as tensor networks, which it reduces globally by exploiting a structural correspondence with transversal gates on quantum codes. $\\texttt{magna}$ further supports feedforward conditioned on arbitrary functions of mid-circuit measurement outcomes, including decoder outputs. We simulate Bravyi--Haah distillation with up to 100 output magic states at a cost that does not grow exponentially in the number of outputs, and achieve state-of-the-art sampling times for distance-5 magic state cultivation on both color codes and RP$^2$ surface codes. Finally, we validate nonlinear feedforward on a logical-level distillation protocol with 15 rounds of decoder-dependent feedforward. $\\texttt{magna}$ aims to contribute to the key infrastructure for the large-scale evaluation and optimization of magic state factories.",
+ "comment": "14 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22315",
+  "pdf": "https://arxiv.org/pdf/2610.22315",
+  "html": "https://arxiv.org/html/2610.22315"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-16T11:48:00.823Z",
+  "hook": "Simulating quantum magic state factories no longer requires exponential classical compute time.",
+  "tldr": [
+   "Created magna, a simulator that models magic state preparation protocols as cheaply as standard Clifford quantum circuits.",
+   "Represented key figures of merit as tensor networks and simplified them globally using transversal gate symmetries and feedforward support.",
+   "Simulated Bravyi-Haah distillation up to 100 outputs without exponential cost scaling and reached record sampling speeds on distance-5 codes."
+  ],
+  "whyItMatters": "Fault-tolerant quantum computers rely on magic states to perform arbitrary universal computations. Fast classical simulation lets engineers optimize these resource-heavy factories before building hardware.",
+  "eli5": "Quantum computers need ultra-pure 'magic' ingredients to run complex calculations, but modeling the filters that purify them usually takes impossible amounts of supercomputing time. This tool uses clever math shortcuts to simulate massive filter factories in seconds rather than centuries.",
+  "keyNumbers": [
+   {
+    "value": "100",
+    "label": "output magic states",
+    "context": "Simulated Bravyi-Haah distillation without exponential cost growth"
+   },
+   {
+    "value": "5",
+    "label": "code distance",
+    "context": "Evaluated magic state cultivation on color codes and RP2 surface codes"
+   },
+   {
+    "value": "15",
+    "label": "feedforward rounds",
+    "context": "Validated nonlinear decoder-dependent feedforward in logical distillation"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Magic state",
+    "shortDef": "A resource state that enables universal quantum computation when combined with Clifford operations.",
+    "eli5Def": "A special, precisely prepared quantum state required to unlock the full computational power of a quantum computer.",
+    "wikiTitle": "Magic state distillation"
+   },
+   {
+    "term": "Clifford circuit",
+    "shortDef": "A quantum circuit restricted to operations that can be efficiently simulated classically via the Gottesman-Knill theorem.",
+    "eli5Def": "A limited set of quantum instructions that standard classical computers can easily mimic.",
+    "wikiTitle": "Gottesman–Knill theorem"
+   },
+   {
+    "term": "Tensor network",
+    "shortDef": "A mathematical representation that decomposes high-dimensional quantum states into connected low-rank tensors.",
+    "eli5Def": "A diagram-like math grid that compresses complicated quantum states into simpler, bite-sized pieces.",
+    "wikiTitle": "Tensor network"
+   },
+   {
+    "term": "Feedforward",
+    "shortDef": "Modifying later quantum circuit operations based on the outcomes of earlier intermediate measurements.",
+    "eli5Def": "Peeking at an intermediate result in a process to decide which step to run next.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

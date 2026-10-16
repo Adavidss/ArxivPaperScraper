@@ -1,0 +1,81 @@
+{
+ "id": "2610.22357",
+ "version": 1,
+ "title": "Stability of Quantum LDPC States under Local Pauli Noise",
+ "authors": [
+  {
+   "name": "Tai-Hsuan Yang"
+  },
+  {
+   "name": "Andrew D. Kim"
+  },
+  {
+   "name": "Akash Vijay"
+  },
+  {
+   "name": "Jong Yeon Lee"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-15T17:58:40Z",
+ "updated": "2026-10-15T17:58:40Z",
+ "abstract": "Quantum low-density parity-check (qLDPC) codes have a canonical mixed state---the normalized projector onto the code space---that lies at the intersection of quantum error correction and quantum many-body physics, yet the stability of its information-theoretic structure under local noise remains poorly understood. Recent progress on mixed-state phases of matter has identified the spatial decay of conditional mutual information (CMI) $I(A:C|B)$ as a key diagnostic of such stability, analogous to the role of the spectral gap for quantum ground states. We prove that, for the normalized code-projector state of a $\\mathbb{Z}_d$ qLDPC stabilizer code under local Pauli noise, the CMI across a buffer $B$ separating $A$ from $C$ decays exponentially with the width of $B$ in two complementary noise regimes independent of system size. At weak noise, this holds for full-system tripartitions, where correlations between the two sides require an error cluster to cross the buffer, an exponentially unlikely event. At strong noise, exponential decay holds whenever the buffer supports no logical operator, since correlations can persist only along rare chains of buffer qudits that remain informative. Under an additional space-uniformity assumption, we establish the robustness of Levin--Wen topological entropy. On finite-dimensional lattices of size $n$, the weak-noise bound further implies a constant-layer quasi-local Petz recovery channel of range $O(\\poly(\\log n)/\\varepsilon)$ that recovers the noiseless state within trace-distance error $\\varepsilon$. Both CMI bounds apply to general qLDPC interaction graphs, including geometries where such constant-depth quasi-local recovery need not exist. Thus, the exponential decay of the noise-induced CMI provides a general criterion for mixed-state phase stability.",
+ "comment": "29 pages, 5 figures, including appendices",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22357",
+  "pdf": "https://arxiv.org/pdf/2610.22357",
+  "html": "https://arxiv.org/html/2610.22357"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.22357v1/toric_code_regimes.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-16T11:48:00.823Z",
+  "hook": "Quantum LDPC codes maintain stable quantum phases against local Pauli noise, proven via exponential decay of CMI.",
+  "tldr": [
+   "Analyzed conditional mutual information (CMI) decay in quantum LDPC stabilizer states under local Pauli noise.",
+   "Proved CMI decays exponentially with buffer width across weak and strong noise regimes.",
+   "Showed weak-noise bounds yield a quasi-local Petz recovery channel restoring the noiseless state within error ε."
+  ],
+  "whyItMatters": "Quantum LDPC codes are leading candidates for building fault-tolerant quantum memories with low hardware overhead; proving their mixed-state stability ensures encoded information resists real-world errors.",
+  "eli5": "If you write a secret across a grid and random mistakes pop up, you want those mistakes to stay isolated. This proof shows that noise cannot bridge across a wide buffer zone to secretly leak or corrupt your data.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum LDPC codes",
+    "shortDef": "Quantum error-correcting codes where each check involves only a few qubits and each qubit participates in few checks.",
+    "eli5Def": "A clever layout for quantum memory where each watchdog only has to monitor a handful of nearby data bits.",
+    "wikiTitle": "Quantum low-density parity-check codes"
+   },
+   {
+    "term": "Conditional mutual information",
+    "shortDef": "An information-theoretic metric quantifying correlations between two subsystems conditioned on a third.",
+    "eli5Def": "A math test that measures how much secret connection two areas share once you account for the area between them.",
+    "wikiTitle": "Conditional mutual information"
+   },
+   {
+    "term": "Petz recovery channel",
+    "shortDef": "A canonical quantum operation that attempts to reverse information loss caused by a noisy quantum channel.",
+    "eli5Def": "An optimal undo button designed to patch up quantum errors and get back the original clean state.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Pauli noise",
+    "shortDef": "A standard noise model applying random bit-flips, phase-flips, or both to individual qubits.",
+    "eli5Def": "A basic type of random noise that occasionally flips 0s to 1s or jumbles quantum phase.",
+    "wikiTitle": "Quantum error correction"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

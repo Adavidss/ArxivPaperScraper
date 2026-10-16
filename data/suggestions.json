@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T11:57:27.946Z",
+ "generatedAt": "2026-10-16T11:48:00.823Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -24,22 +24,22 @@
   {
    "name": "Ludovico Lami",
    "slug": "ludovico-lami",
-   "score": 5,
+   "score": 6,
    "coAuthoredWith": [],
    "viaKeywords": [],
    "viaCategories": [
     "quant-ph"
    ],
    "paperIds": [
+    "2610.22308",
     "2610.12454",
-    "2610.12365",
-    "2610.06842"
+    "2610.12365"
    ],
    "recentTitles": [
-    "On PPT entanglement distillation",
-    "Energy-constrained two-way capacities of the pure-loss channel"
+    "Classical Capacity of Single-Mode Bosonic Gaussian Channels",
+    "On PPT entanglement distillation"
    ],
-   "paperCount": 5
+   "paperCount": 6
   },
   {
    "name": "Arkopal Dutt",
@@ -61,6 +61,26 @@
     "Marton's conjecture in polynomial time"
    ],
    "paperCount": 5
+  },
+  {
+   "name": "Jong Yeon Lee",
+   "slug": "jong-yeon-lee",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2610.22357",
+    "2610.20591",
+    "2609.11930"
+   ],
+   "recentTitles": [
+    "Stability of Quantum LDPC States under Local Pauli Noise",
+    "Logical CCZ state cultivation"
+   ],
+   "paperCount": 4
   },
   {
    "name": "Dakshita Khurana",
@@ -182,25 +202,6 @@
     "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax"
    ],
    "paperCount": 4
-  },
-  {
-   "name": "Ethan Dickey",
-   "slug": "ethan-dickey",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "SABRE"
-   ],
-   "viaCategories": [],
-   "paperIds": [
-    "2610.07308",
-    "2609.14620"
-   ],
-   "recentTitles": [
-    "Quantum dynamics of spin systems using quantum-like resources",
-    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
-   ],
-   "paperCount": 2
   }
  ]
 }

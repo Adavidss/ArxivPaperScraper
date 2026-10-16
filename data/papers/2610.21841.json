@@ -1,0 +1,73 @@
+{
+ "id": "2610.21841",
+ "version": 1,
+ "title": "Feeling the generalised rough SABR boundary",
+ "authors": [
+  {
+   "name": "Masaaki Fukasawa"
+  },
+  {
+   "name": "Antoine Jacquier"
+  },
+  {
+   "name": "Mugad Oumgari"
+  }
+ ],
+ "categories": [
+  "q-fin.MF",
+  "math.PR"
+ ],
+ "primaryCategory": "q-fin.MF",
+ "published": "2026-10-15T13:20:05Z",
+ "updated": "2026-10-15T13:20:05Z",
+ "abstract": "We provide an in-depth analysis of a generalised rough version of the SABR volatility model, widely used in the financial industry. We specifically focus on its behaviour at the origin, whether it can reach it and how fast it may do so.",
+ "comment": "17 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.21841",
+  "pdf": "https://arxiv.org/pdf/2610.21841",
+  "html": "https://arxiv.org/html/2610.21841"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-16T11:48:00.823Z",
+  "hook": "Can rough financial markets crash straight to zero? This work analyzes boundary hitting in generalized rough SABR.",
+  "tldr": [
+   "Analyzed the origin boundary behavior of a generalized rough SABR volatility model.",
+   "Evaluated the mathematical conditions governing whether volatility can reach zero and how quickly.",
+   "Characterized whether the boundary at zero is attainable and determined its hitting-time dynamics."
+  ],
+  "whyItMatters": "SABR models underpin interest rate and volatility trading across Wall Street; understanding whether volatility can mathematically hit zero is vital for risk management and option pricing stability.",
+  "eli5": "Imagine tracking a wild bouncing ball whose bounces get jittery and rough. This paper checks whether the ball can ever truly hit the floor and stay frozen at zero height.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "SABR model",
+    "shortDef": "A stochastic volatility model widely used in finance to price derivatives and capture volatility smiles.",
+    "eli5Def": "A mathematical recipe that banks use to guess how erratic market prices will be in the future.",
+    "wikiTitle": "SABR volatility model"
+   },
+   {
+    "term": "Rough volatility",
+    "shortDef": "A framework where financial volatility fluctuates with rough, sub-diffusive paths (Hurst parameter H < 1/2).",
+    "eli5Def": "A way to model prices assuming their day-to-day jumps are much more jagged than smooth random walks.",
+    "wikiTitle": "Rough volatility"
+   },
+   {
+    "term": "Boundary behavior",
+    "shortDef": "How a stochastic process behaves near critical limits, such as whether it hits zero or reflects.",
+    "eli5Def": "Figuring out what happens when a moving number gets super close to an edge, like zero.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

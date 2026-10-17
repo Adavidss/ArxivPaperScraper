@@ -1,0 +1,108 @@
+{
+ "id": "2610.22199",
+ "version": 1,
+ "title": "Energetics of Fault-Tolerant Spin-Qubit Quantum Computation",
+ "authors": [
+  {
+   "name": "João Santos"
+  },
+  {
+   "name": "Jayshankar Nath"
+  },
+  {
+   "name": "Marco Pezzutto"
+  },
+  {
+   "name": "Valentin Savin"
+  },
+  {
+   "name": "Tristan Meunier"
+  },
+  {
+   "name": "Yasser Omar"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-15T16:50:41Z",
+ "updated": "2026-10-15T16:50:41Z",
+ "abstract": "Semiconductor spin qubits offer a promising route to compact and scalable quantum computers, combining long coherence times in isotopically purified silicon with compatibility with semiconductor manufacturing. Beyond computational speedup, their energy efficiency is an important consideration for future large-scale systems. We evaluate the power and energy requirements of a Loss-DiVincenzo spin-qubit quantum computer by analyzing the Quantum Fourier Transform (QFT) and benchmarking it against the classical Fast Fourier Transform (FFT). We develop a detailed energy budget, identifying cryogenic cooling as the dominant baseline contribution before quantum error correction (QEC). The comparison between the QFT and the classical FFT reveals that, for any quantum workload operating under a polynomially bounded sampling regime, the crossover in energy consumption occurs at smaller problem sizes than the crossover in execution time. Thus, quantum computing can become energetically competitive before achieving a speedup in execution time. We then incorporate surface-code QEC and analyze the energy costs of QEC cycles, gate synthesis, and decoding. At scale, instrumentation and decoding become dominant contributions, while cryogenic cooling imposes a constraint on scalability. We show that optimizing the control-signal demultiplexing ratio can reduce the overall energy cost by approximately two orders of magnitude. For a system with about one million physical qubits, we estimate a power consumption of approximately 100 kW, at least one order of magnitude below that of today's highest-performance classical computing systems.",
+ "comment": "Keywords: Quantum Computation, Energetics, Spin-qubits, Semiconductors, Quantum Error Correction, Fault-Tolerant, Benchmarking",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22199",
+  "pdf": "https://arxiv.org/pdf/2610.22199",
+  "html": "https://arxiv.org/html/2610.22199"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.22199v1/images/qft_circuit__3_.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-17T11:04:44.992Z",
+  "hook": "A million-qubit spin processor could consume ~100 kW—beating classical supercomputers on energy before beating them on time.",
+  "tldr": [
+   "Modeled the end-to-end power and energy budget of a fault-tolerant Loss-DiVincenzo spin-qubit quantum processor.",
+   "Benchmarked the Quantum Fourier Transform against the classical FFT with surface-code quantum error correction.",
+   "Found energy crossover happens at smaller sizes than runtime crossover, with control demultiplexing cutting costs by 100x."
+  ],
+  "whyItMatters": "Scaling quantum hardware isn't just about qubit count; understanding power budgets reveals that quantum systems can save energy well before delivering computational speedup.",
+  "eli5": "Running massive quantum computers takes intense cooling and control electronics. Researchers calculated that a million-qubit chip would take about 100 kW—using 10x less power than modern supercomputers while saving energy even on smaller tasks.",
+  "keyNumbers": [
+   {
+    "value": "~100 kW",
+    "label": "Power consumption",
+    "context": "Estimated power draw for a system with about one million physical spin qubits"
+   },
+   {
+    "value": "1,000,000",
+    "label": "Physical qubits",
+    "context": "System scale analyzed under surface-code quantum error correction"
+   },
+   {
+    "value": "~2 orders of magnitude",
+    "label": "Energy reduction",
+    "context": "Savings achieved by optimizing the control-signal demultiplexing ratio"
+   },
+   {
+    "value": "≥1 order of magnitude",
+    "label": "Efficiency advantage",
+    "context": "Reduction in power compared to today's highest-performance classical computing systems"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Loss-DiVincenzo spin-qubit",
+    "shortDef": "A quantum bit architecture encoding information in the electron spin of semiconductor quantum dots.",
+    "eli5Def": "A quantum bit made by trapping the spin of an electron inside a microscopic silicon pocket.",
+    "wikiTitle": "Loss–DiVincenzo quantum computer"
+   },
+   {
+    "term": "Quantum Fourier Transform (QFT)",
+    "shortDef": "The quantum analogue of the discrete Fourier transform, running exponentially faster on quantum states.",
+    "eli5Def": "A quantum algorithm that finds hidden frequencies and cycles in data extremely quickly.",
+    "wikiTitle": "Quantum Fourier transform"
+   },
+   {
+    "term": "Surface code",
+    "shortDef": "A 2D lattice quantum error correction code with a high fault-tolerance threshold.",
+    "eli5Def": "A grid-like arrangement of qubits designed to catch and fix hardware mistakes automatically.",
+    "wikiTitle": "Toric code"
+   },
+   {
+    "term": "Demultiplexing",
+    "shortDef": "Distributing signals from a single shared input channel to multiple output channels.",
+    "eli5Def": "Sharing a single control wire across many different parts instead of running a separate wire to each one.",
+    "wikiTitle": "Multiplexer"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

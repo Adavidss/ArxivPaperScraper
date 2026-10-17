@@ -1,0 +1,84 @@
+{
+ "id": "2610.22220",
+ "version": 1,
+ "title": "Programmable all-to-all entangling gates for cavity-coupled atoms",
+ "authors": [
+  {
+   "name": "Angus Crookes"
+  },
+  {
+   "name": "Ben Yuen"
+  },
+  {
+   "name": "Angela Demetriadou"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-15T17:03:11Z",
+ "updated": "2026-10-15T17:03:11Z",
+ "abstract": "Fault tolerant quantum computers greatly benefit from having both high fidelity entangling gates and a non-local qubit connectivity. However, most entangling gates for neutral atoms are local, requiring separated atoms to be moved using optical tweezers to yield entanglement between them. Here, we design a high fidelity Mølmer Sørensen-like entangling gate between neutral atoms coupled to a photonic cavity, enabling a programmable all-to-all connectivity through the shared cavity coupling. The gate is both robust to changes in cavity photon number, and enables selective entanglement between any subset of separated atoms through local laser addressing. This eliminates the need to physically move atoms to perform the gate, and therefore motional errors and erasure are suppressed. Using experimentally realistic parameters we demonstrate gate fidelities exceeding $F > 0.99$, with higher fidelities achievable through optimal control of the pump amplitudes.",
+ "comment": "10 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22220",
+  "pdf": "https://arxiv.org/pdf/2610.22220",
+  "html": "https://arxiv.org/html/2610.22220"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.22220v1/FIG1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-17T11:04:44.992Z",
+  "hook": "A cavity-mediated gate entangles arbitrary neutral atoms with fidelity >0.99 without moving a single atom.",
+  "tldr": [
+   "Devised a programmable, all-to-all entangling gate for neutral atoms coupled to a common photonic cavity.",
+   "Used cavity photon mediation and local laser addressing to selectively entangle distant atoms without optical tweezers.",
+   "Simulated fidelities exceeding 0.99 under realistic conditions while suppressing motional and erasure errors."
+  ],
+  "whyItMatters": "Neutral-atom computers usually have to shuttle atoms around physically with lasers to perform operations between distant qubits. Eliminating this physical motion cuts down latency, hardware wear, and positional errors.",
+  "eli5": "Normally, to make two distant atom qubits interact, researchers have to pick one up with laser tweezers and drag it over to the other. Here, atoms sit perfectly still and talk instantaneously by whispering light into a shared mirrored box.",
+  "keyNumbers": [
+   {
+    "value": ">0.99",
+    "label": "Gate fidelity",
+    "context": "Entangling gate fidelity achieved using experimentally realistic parameters"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Optical tweezers",
+    "shortDef": "Highly focused laser beams used to trap and physically translate microscopic particles or individual neutral atoms.",
+    "eli5Def": "Tightly focused laser beams that act like microscopic tractor beams to hold and move single atoms.",
+    "wikiTitle": "Optical tweezers"
+   },
+   {
+    "term": "Mølmer–Sørensen gate",
+    "shortDef": "An entangling quantum logic gate commonly used in trapped-ion and atomic platforms mediated by bosonic modes.",
+    "eli5Def": "A special operation that links multiple quantum particles together simultaneously using light pulses.",
+    "wikiTitle": "Mølmer–Sørensen gate"
+   },
+   {
+    "term": "Photonic cavity",
+    "shortDef": "An arrangement of mirrors that confines photons, drastically enhancing light-matter interactions.",
+    "eli5Def": "A tiny mirrored chamber that bounces light back and forth so it can strongly interact with trapped atoms.",
+    "wikiTitle": "Optical cavity"
+   },
+   {
+    "term": "Gate fidelity",
+    "shortDef": "A figure of merit quantifying how closely an implemented quantum gate matches the intended target unitary operation.",
+    "eli5Def": "A score measuring how perfectly a quantum operation executed compared to the ideal mathematical recipe.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

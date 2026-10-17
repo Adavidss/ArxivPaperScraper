@@ -1,0 +1,73 @@
+{
+ "id": "2610.22207",
+ "version": 1,
+ "title": "Efficient quantum simulation of unitary gates based on atomic ensembles",
+ "authors": [
+  {
+   "name": "Manish Chaudhary"
+  },
+  {
+   "name": "Tim Byrnes"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-15T16:55:55Z",
+ "updated": "2026-10-15T16:55:55Z",
+ "abstract": "We develop a technique to perform efficient unitary time evolution of a general spin Hamiltonian based on the system with identical qubits, as naturally realized by permutation symmetric atomic ensembles. We employ Cartan decomposition method to the associated Hamiltonian Lie algebra and construct the symmetry adapted generators to implement unitary operator of the ensemble Hamiltonian. This enables the compact circuit representations of the system dynamics in terms of experimentally accessible collective spin operations and exploits the Dicke basis structure of the ensembles as an effective qudit representation. We benchmark Cartan based evolution against both exact time evolution and the Suzuki Trotter product formula. Our results show that the Cartan protocol accurately reproduces the operator dynamics, spin expectation values, and fluctuation observables with zero error that are substantially smaller than those obtained through Trotterization while maintaining an optimized circuit structure. In addition, scaling analysis with the ensemble size demonstrates that the Cartan error remains independent of the atom number while the corresponding Trotter error increases with the system size, highlighting the improved efficiency of the Cartan approach for a larger system size.",
+ "comment": "12 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22207",
+  "pdf": "https://arxiv.org/pdf/2610.22207",
+  "html": "https://arxiv.org/html/2610.22207"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-17T11:04:44.992Z",
+  "hook": "Cartan decomposition simulates atomic ensemble dynamics with error independent of atom number, outperforming Trotterization.",
+  "tldr": [
+   "Formulated an algebraic method using Cartan decomposition to simulate general spin Hamiltonians on permutation-symmetric atomic ensembles.",
+   "Constructed symmetry-adapted generators to build compact quantum circuits mapped onto the collective Dicke basis.",
+   "Demonstrated exact simulation of observables with zero error, unlike standard Trotter steps whose errors scale with system size."
+  ],
+  "whyItMatters": "Simulating large quantum spin systems usually requires chopping time evolution into small approximate steps, which degrades as systems grow. This technique offers an exact, hardware-friendly shortcut for collective atomic quantum simulators.",
+  "eli5": "Instead of simulating a giant crowd of identical atoms by tracking every atom step-by-step, the authors used algebraic geometry shortcuts to treat the whole ensemble as a unified team, keeping the math perfectly accurate no matter how big the crowd gets.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Cartan decomposition",
+    "shortDef": "An algebraic method separating a Lie algebra into symmetric and anti-symmetric subspaces to factorize group operations.",
+    "eli5Def": "A mathematical trick that splits a complicated continuous operation into simple, manageable pieces.",
+    "wikiTitle": "Lie algebra"
+   },
+   {
+    "term": "Suzuki–Trotter formula",
+    "shortDef": "An approximation method that decomposes non-commuting Hamiltonian evolutions into alternating short-time steps.",
+    "eli5Def": "Approximating two complicated simultaneous actions by rapidly alternating tiny steps between them.",
+    "wikiTitle": "Lie product formula"
+   },
+   {
+    "term": "Dicke basis",
+    "shortDef": "A basis of states characterized by total collective angular momentum, capturing permutation symmetry among identical spins.",
+    "eli5Def": "A mathematical description that groups identical atoms together into collective energy levels rather than tracking each one individually.",
+    "wikiTitle": "Dicke model"
+   },
+   {
+    "term": "Qudit",
+    "shortDef": "A d-level quantum unit of information, extending binary qubits to higher dimensions (d > 2).",
+    "eli5Def": "A quantum bit that has more than just two choices (0 and 1)—like a die with multiple faces.",
+    "wikiTitle": "Qudit"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

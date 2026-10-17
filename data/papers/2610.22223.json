@@ -1,0 +1,78 @@
+{
+ "id": "2610.22223",
+ "version": 1,
+ "title": "Constrained dissipation and the lifetime of quantum many-body scars",
+ "authors": [
+  {
+   "name": "Weyner Ccuiro"
+  },
+  {
+   "name": "Rosario Fazio"
+  },
+  {
+   "name": "Alessandro Silva"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-15T17:03:36Z",
+ "updated": "2026-10-15T17:03:36Z",
+ "abstract": "We investigate the fate of quantum many-body scars in the PXP model subject to Markovian dissipation. We show that when local jump operators respect the same symmetries of the Hamiltonian the full Liouvillian spectrum displays a tower of states with properties analogous to standard quantum scars: large overlaps with Néel states and equally spaced gaps in the imaginary part of the eigenvalues, set by a single frequency. Whether the long-time dynamics is dominated by scars is determined by the real parts of the eigenvalues, which are set by the ratio between the two relaxation rates $γ_{\\pm}$ describing spin flips down-to-up or up-to-down respectively. For asymmetric dissipation ($γ_+ > γ_-$) the scarred eigenvalues have the smallest real parts: the resulting enhanced fidelity oscillations are further stabilized by staggered jump operators. In contrast, replacing the full projection operator in the dissipators with a partial one breaks the symmetries of the problem and is seen to destroy dissipative scars altogether.",
+ "comment": "6 pages, 4 figures; plus 6 pages of Supplemental Material (3 figures)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22223",
+  "pdf": "https://arxiv.org/pdf/2610.22223",
+  "html": "https://arxiv.org/html/2610.22223"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.22223v1/fig1_overlap_N14.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-17T11:04:44.992Z",
+  "hook": "Symmetric, asymmetric dissipation prolongs quantum many-body scars, while broken symmetries destroy them completely.",
+  "tldr": [
+   "Analyzed how quantum many-body scars survive or vanish under open-system Markovian dissipation within the PXP model.",
+   "Modeled the Liouvillian spectrum and dynamics when local jump operators either preserve or break Hamiltonian symmetries.",
+   "Discovered that asymmetric spin-flip rates and staggered jumps isolate scars into long-lived states, while breaking symmetry destroys them."
+  ],
+  "whyItMatters": "Quantum many-body scars evade thermal chaos, promising long-lived quantum coherence in dense systems. Revealing how environmental dissipation preserves or destroys these states is crucial for engineering resilient quantum memories.",
+  "eli5": "Normally, particles in a hot or noisy environment quickly scramble their information like milk mixing into coffee. Quantum scars are special patterns that refuse to mix, and this study shows exactly which kinds of environmental noise preserve them.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum many-body scars",
+    "shortDef": "Special non-thermalizing eigenstates in non-integrable many-body systems that retain long-lived quantum oscillations.",
+    "eli5Def": "Rare, stubborn quantum states that refuse to turn into randomized heat, cycling back to their starting state over and over.",
+    "wikiTitle": "Quantum scar"
+   },
+   {
+    "term": "PXP model",
+    "shortDef": "A theoretical model of interacting spin chains subject to strong nearest-neighbor Rydberg blockade constraints.",
+    "eli5Def": "A physics model where neighboring atoms prevent each other from flipping states at the same time.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Liouvillian",
+    "shortDef": "A superoperator that governs the non-unitary time evolution of a quantum system's density matrix under dissipation.",
+    "eli5Def": "The mathematical rulebook that calculates how an open quantum system gradually leaks energy or coherence into its environment.",
+    "wikiTitle": "Lindbladian"
+   },
+   {
+    "term": "Néel state",
+    "shortDef": "An alternating antiferromagnetic spin configuration, typically written as up-down-up-down across a lattice.",
+    "eli5Def": "A checkerboard-like line of atoms where every other spin points in the opposite direction.",
+    "wikiTitle": "Antiferromagnetism"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

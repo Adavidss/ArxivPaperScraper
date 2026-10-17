@@ -1,0 +1,84 @@
+{
+ "id": "2610.22275",
+ "version": 1,
+ "title": "SynDebug: A Framework to Debug Logic Bugs in Fault-Tolerant Quantum Computing Programs",
+ "authors": [
+  {
+   "name": "Nicholas S. DiBrita"
+  },
+  {
+   "name": "Jack Lange"
+  },
+  {
+   "name": "Tirthak Patel"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.ET"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-15T17:37:29Z",
+ "updated": "2026-10-15T17:37:29Z",
+ "abstract": "Fault-tolerant quantum computing (FTQC) introduces substantial systems-level complexity through quantum error correction (QEC), making debugging FTQC programs challenging. Existing quantum debugging approaches primarily target logical-level circuits and do not naturally support debugging within realistic FTQC execution flows. We present SynDebug, the first systems-level debugging framework for FTQC programs. SynDebug introduces lightweight assertion-based debugging primitives that operate directly within encoded FTQC infrastructures while avoiding additional logical surface area and minimizing temporal overhead. We evaluate SynDebug across multiple QEC code families, code distances, and encoded workloads, including state preparation, entanglement validation, and Shor-style programs. Our results demonstrate that SynDebug enables practical FTQC debugging with an average 1.8% additional circuit depth overhead (0% in most cases) and no measurable increase in the logical error rate, showing that systems-level debugging for large-scale FTQC applications is both feasible and practical.",
+ "comment": "SynDebug will appear at SIGOPS ATC 2026",
+ "doi": "10.1145/3828523.3857026",
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22275",
+  "pdf": "https://arxiv.org/pdf/2610.22275",
+  "html": "https://arxiv.org/html/2610.22275"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.22275v1/syndebug_positioning.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-17T11:04:44.992Z",
+  "hook": "Debugging fault-tolerant quantum programs is now possible with just 1.8% extra circuit depth and zero added error.",
+  "tldr": [
+   "Created SynDebug, the first systems-level framework designed to catch logic bugs inside fault-tolerant quantum computing systems.",
+   "Engineered assertion-based debugging primitives that run natively inside error-corrected codes without adding logical area overhead.",
+   "Achieved reliable bug detection with an average circuit depth overhead of only 1.8% (0% in most cases) and no increase in logical errors."
+  ],
+  "whyItMatters": "Finding software bugs in quantum programs protected by error-correction usually requires immense computational overhead. This tool shows we can inspect and debug future large-scale quantum software with practically zero runtime penalty.",
+  "eli5": "Imagine trying to check for spelling errors in an encrypted document without decrypting it or slowing down the computer. SynDebug creates tiny checkpoints inside protected quantum code so programmers can find mistakes without messing up the calculations.",
+  "keyNumbers": [
+   {
+    "value": "1.8%",
+    "label": "Average extra circuit depth",
+    "context": "Average circuit depth overhead incurred by SynDebug during evaluation across tested workloads"
+   },
+   {
+    "value": "0%",
+    "label": "Typical overhead",
+    "context": "Added circuit depth overhead observed in most evaluated cases"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Fault-tolerant quantum computing",
+    "shortDef": "Methods to execute quantum algorithms reliably despite physical noise, typically via quantum error correction.",
+    "eli5Def": "A way to run quantum calculations reliably by wrapping fragile qubits in protective layers so hardware glitches do not ruin the result.",
+    "wikiTitle": "Fault-tolerant quantum computation"
+   },
+   {
+    "term": "Quantum error correction",
+    "shortDef": "Techniques protecting quantum information from decoherence by redundantly encoding logical qubits into many physical ones.",
+    "eli5Def": "Spreading a piece of quantum data across many backup atoms so errors can be spotted and fixed immediately.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Circuit depth",
+    "shortDef": "The number of discrete time steps or layers of operations required to execute a quantum circuit.",
+    "eli5Def": "The number of sequential steps a quantum computer needs from start to finish.",
+    "wikiTitle": "Quantum circuit"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

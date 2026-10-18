@@ -1,0 +1,83 @@
+{
+ "id": "2610.22134",
+ "version": 1,
+ "title": "Putting a Temperature on Electron Correlation",
+ "authors": [
+  {
+   "name": "Paul G. Graf"
+  },
+  {
+   "name": "Florian Matz"
+  },
+  {
+   "name": "Markus Penz"
+  },
+  {
+   "name": "Christian Schilling"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "physics.chem-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-10-15T16:09:36Z",
+ "updated": "2026-10-15T16:09:36Z",
+ "abstract": "It is common wisdom that a better understanding of how to quantify electron correlation should lead to more efficient treatments of the correlation problem. Here, we not only substantiate this view but turn it into a concrete, systematic framework for ground states. Since prominent correlation measures such as the nonfreeness depend only on the one-particle reduced density matrix, modeling the correlation energy as a function of such a measure naturally places the framework within reduced density matrix functional theory, while keeping the cost at mean-field level. Strikingly, the variable conjugate to the measure emerges as a ``correlation temperature'', thereby connecting correlation measures, functional theory, and effective temperatures. The framework rationalizes methods such as i-DMFT, and we illustrate its key concepts analytically for the Hubbard dimer and numerically for small molecular systems. This brings a fundamental question within reach: how much of the correlation problem can be solved at mean-field cost?",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22134",
+  "pdf": "https://arxiv.org/pdf/2610.22134",
+  "html": "https://arxiv.org/html/2610.22134"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.22134v1/Hubbard_dimer_E_cum_S_diff_V.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-18T11:35:38.413Z",
+  "hook": "Can quantum electron correlation be solved at mean-field cost? A new theory introduces a 'correlation temperature'.",
+  "tldr": [
+   "Built a systematic framework quantifying ground-state electron correlation using 1-particle reduced density matrices.",
+   "Identified a conjugate variable that acts as an effective 'correlation temperature' governing multi-electron interactions.",
+   "Validated the approach on Hubbard dimers and small molecules, achieving correlated accuracy at simple mean-field computational cost."
+  ],
+  "whyItMatters": "Accurately simulating how electrons interact is quantum chemistry's biggest bottleneck; solving it at low computational cost would accelerate drug design and materials science.",
+  "eli5": "Electrons constantly avoid one another, which normally takes supercomputers weeks to calculate. This paper treats their complicated dance as if it has its own 'temperature', letting scientists compute molecular energies using much faster, simplified shortcuts.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Electron correlation",
+    "shortDef": "The interaction between electrons in a quantum system beyond an average static field.",
+    "eli5Def": "The way electrons actively dodge each other rather than just moving smoothly through an average blur.",
+    "wikiTitle": "Electronic correlation"
+   },
+   {
+    "term": "Reduced density matrix functional theory",
+    "shortDef": "A quantum approach expressing ground-state energy in terms of the one-particle reduced density matrix.",
+    "eli5Def": "A method to calculate a molecule's energy using simplified maps of single-particle locations instead of tracking all electrons at once.",
+    "wikiTitle": "Reduced density matrix functional theory"
+   },
+   {
+    "term": "Hubbard dimer",
+    "shortDef": "A two-site model used to benchmark electron interaction and correlation effects.",
+    "eli5Def": "A toy-model system with just two spots for electrons, used as a testing ground for physics theories.",
+    "wikiTitle": "Hubbard model"
+   },
+   {
+    "term": "Mean-field theory",
+    "shortDef": "An approximation averaging the effects of all other particles onto any single particle.",
+    "eli5Def": "A fast calculation method that pretends each particle feels an average crowd pressure rather than bumping each neighbor individually.",
+    "wikiTitle": "Mean-field theory"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

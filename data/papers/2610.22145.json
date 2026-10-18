@@ -1,0 +1,80 @@
+{
+ "id": "2610.22145",
+ "version": 1,
+ "title": "Gyrators for superconducting circuit design",
+ "authors": [
+  {
+   "name": "Ciro Salcedo"
+  },
+  {
+   "name": "Sasha Cocquyt"
+  },
+  {
+   "name": "Andrew Osborne"
+  },
+  {
+   "name": "Andrew A. Houck"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-15T16:17:07Z",
+ "updated": "2026-10-15T16:17:07Z",
+ "abstract": "Assuming only the solubility of Kirchhoff's laws, the conservation of energy, and the form of the constitutive relations, we present a flux-charge symmetric Hamiltonian formalism that always admits a symplectic reduction for nonsingular, well-posed circuits involving gyrators, inductors, and capacitors (LCG circuits) with arbitrary non-linearity. The formalism introduces a notion of circuit duality on non-linear non-reciprocal circuits and a family of point transformations that inserts, removes, and moves reciprocal elements across gyrators while preserving the Hamiltonian spectrum. With these transformations, we extend Tellegen's classic result that gyrators make reciprocal elements behave as their dual to non-linear reciprocal elements such as the Josephson junction and quantum phase slip. Furthermore, we present conditions under which non-reciprocal circuits can be transformed to dynamically equivalent reciprocal circuits.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22145",
+  "pdf": "https://arxiv.org/pdf/2610.22145",
+  "html": "https://arxiv.org/html/2610.22145"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-18T11:35:38.413Z",
+  "hook": "A new Hamiltonian framework simplifies non-reciprocal quantum circuits by swapping nonlinear elements across gyrators.",
+  "tldr": [
+   "Developed a flux-charge symmetric Hamiltonian framework for nonlinear circuits containing gyrators, inductors, and capacitors.",
+   "Formulated point transformations that swap and simplify reciprocal components across gyrators while keeping quantum energy levels intact.",
+   "Extended Tellegen's circuit duality theorem to nonlinear quantum devices like Josephson junctions and quantum phase slips."
+  ],
+  "whyItMatters": "Non-reciprocal components are vital for routing microwave quantum signals, and this math gives engineers a clean toolkit to model and streamline advanced superconducting processors.",
+  "eli5": "Gyrators act like one-way revolving doors for electric signals. This paper shows a mathematical trick that lets designers move delicate quantum parts from one side of the door to the other, making complicated quantum chips much simpler to analyze.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Gyrator",
+    "shortDef": "A passive, non-reciprocal two-port network element that inverts current-voltage relationships.",
+    "eli5Def": "An electronic component that forces electrical signals to travel differently in one direction than the other.",
+    "wikiTitle": "Gyrator"
+   },
+   {
+    "term": "Symplectic reduction",
+    "shortDef": "A mathematical technique that simplifies a Hamiltonian system by eliminating redundant symmetries and constraints.",
+    "eli5Def": "A mathematical trick that strips away unneeded variables to make complex physics equations easier to solve.",
+    "wikiTitle": "Symplectic reduction"
+   },
+   {
+    "term": "Josephson junction",
+    "shortDef": "A quantum mechanical device made of two superconductors separated by a thin nonsuperconducting barrier.",
+    "eli5Def": "A tiny sandwich made of superconductors that lets quantum currents tunnel through, powering superconducting qubits.",
+    "wikiTitle": "Josephson effect"
+   },
+   {
+    "term": "Quantum phase slip",
+    "shortDef": "A quantum tunneling event where the phase of a superconducting order parameter slips by 2π.",
+    "eli5Def": "A sudden quantum jump in a superconductor that behaves like the electrical opposite of a Josephson junction.",
+    "wikiTitle": "Quantum phase slip"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

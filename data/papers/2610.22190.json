@@ -1,0 +1,85 @@
+{
+ "id": "2610.22190",
+ "version": 1,
+ "title": "Connectivity Bounds for GHZ Graphs",
+ "authors": [
+  {
+   "name": "L. Sunil Chandran"
+  },
+  {
+   "name": "Rishikesh Gajjala"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.DM",
+  "math.CO"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-15T16:42:41Z",
+ "updated": "2026-10-15T16:42:41Z",
+ "abstract": "Greenberger-Horne-Zeilinger (GHZ) states are multipartite entangled quantum states that play a central role in quantum information theory, with applications in quantum communication, cryptography, and distributed quantum computing. A major experimental goal is to create high-dimensional GHZ states using multiple entangled parties. Krenn, Gu and Zeilinger discovered a surprising bridge between these quantum-optical experiments and graph theory: certain photonic experiments can be represented by edge-coloured, edge-weighted graphs, and the dimension of the produced GHZ state equals the number of feasible monochromatic inherited vertex colourings. This led Krenn and Gu to conjecture that every GHZ graph with more than four vertices has dimension at most $2$. A counterexample would give a new high-dimensional multipartite GHZ construction, while a proof would clarify fundamental resource limitations in quantum optics. It is known that the conjecture holds for graphs of vertex connectivity at most $2$ [MFCS 2024], and that simple GHZ graphs with $n>4$ vertices have dimension less than $n/\\sqrt{2}$ [Quantum 2024]. However, no general upper bound depending only on vertex connectivity was known. We prove that every simple connected GHZ graph $G$ with at least four vertices has dimension at most $2^{κ(G)-1}+\\binom{κ(G)}{2}$, where $κ(G)$ is the vertex connectivity of $G$. We also prove new bounds in terms of edge connectivity and maximum degree.",
+ "comment": "To appear in FSTTCS 2026",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.22190",
+  "pdf": "https://arxiv.org/pdf/2610.22190",
+  "html": "https://arxiv.org/html/2610.22190"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-18T11:35:38.413Z",
+  "hook": "Can optical setups build ultra-high-dimensional GHZ quantum states? Graph connectivity puts a strict upper cap.",
+  "tldr": [
+   "Analyzed mathematical graph limits that determine the maximum state dimension in experimental quantum-optical GHZ setups.",
+   "Bounded monochromatic vertex colorings using structural graph properties like vertex connectivity, edge connectivity, and degree.",
+   "Proved GHZ graph dimension is bounded by 2^{κ(G)-1} + (κ(G) choose 2), tying state limits directly to graph connectivity."
+  ],
+  "whyItMatters": "Discovering whether these graphs allow high dimensions could unveil entirely new quantum-computing setups or reveal fundamental boundaries in quantum optics.",
+  "eli5": "Scientists map complex laser setups to web-like diagrams called graphs. By figuring out how many lines you must cut to snap the diagram in two, this math shows the hardest limits on how much quantum entanglement that experiment can possibly produce.",
+  "keyNumbers": [
+   {
+    "value": "2",
+    "label": "Conjectured max dimension",
+    "context": "Krenn and Gu conjectured that every GHZ graph with more than 4 vertices has dimension at most 2"
+   },
+   {
+    "value": "n/√2",
+    "label": "Known upper bound",
+    "context": "Previous upper bound on the dimension for simple GHZ graphs with n > 4 vertices"
+   },
+   {
+    "value": "2^{κ(G)-1} + (κ(G) choose 2)",
+    "label": "New dimension bound",
+    "context": "Proved upper bound on dimension for simple connected GHZ graphs with at least 4 vertices"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "GHZ state",
+    "shortDef": "A type of highly entangled quantum state involving three or more particles.",
+    "eli5Def": "A team of particles linked so closely that measuring just one instantly reveals the state of all the others.",
+    "wikiTitle": "Greenberger–Horne–Zeilinger state"
+   },
+   {
+    "term": "Vertex connectivity",
+    "shortDef": "The minimum number of vertices whose removal disconnects a graph, denoted κ(G).",
+    "eli5Def": "The smallest number of dots you have to delete to break a network into separate, unconnected pieces.",
+    "wikiTitle": "k-vertex-connected graph"
+   },
+   {
+    "term": "GHZ graph",
+    "shortDef": "An edge-colored, weighted graph whose valid colorings correspond to quantum state dimensions.",
+    "eli5Def": "A drawing of dots and colored lines that works like a blueprint for an optical quantum experiment.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

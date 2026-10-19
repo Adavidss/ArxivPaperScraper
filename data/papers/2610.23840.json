@@ -1,0 +1,123 @@
+{
+ "id": "2610.23840",
+ "version": 1,
+ "title": "Demonstration of Logical Error Suppression in a Surface Code Memory on a Cloud-Accessible IBM Superconducting Processor",
+ "authors": [
+  {
+   "name": "Shuwen Kan"
+  },
+  {
+   "name": "Aaron Hoyt"
+  },
+  {
+   "name": "Sean Garner"
+  },
+  {
+   "name": "Ethan Vo"
+  },
+  {
+   "name": "Adrian Harkness"
+  },
+  {
+   "name": "Rod Rofougaran"
+  },
+  {
+   "name": "Zefan Du"
+  },
+  {
+   "name": "Chenxu Liu"
+  },
+  {
+   "name": "Norm Tubman"
+  },
+  {
+   "name": "Ying Mao"
+  },
+  {
+   "name": "Samuel Stein"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-16T17:56:53Z",
+ "updated": "2026-10-16T17:56:53Z",
+ "abstract": "Quantum error correction can suppress logical errors exponentially with code distance when physical noise is below threshold. Realizing this on hardware requires tight coordination among quantum gates, mid-circuit measurements, and qubit coherence. Device variation, noise asymmetry, and correlations across space and time complicate the translation of these capabilities into logical error suppression. Here, we study rotated surface-code memory on an IBM Nighthawk r2 processor. Performance varies across tested processor placements, which we attribute to differences in qubit quality. We optimize the code by combining short readout, fused measurement and reset, and an XX echo on data qubits during ancilla readout. Compared with standard readout without reset or echo, the optimized syndrome extraction circuit reduces the median per-round logical error rate by factors of 3.8 in the X basis and 1.4 in the Z basis. In memory experiments of up to 150 rounds, the distance advantage weakens, alongside long-lived correlations that may reflect a persistent error component. Under our optimization recipe, increasing the protected distance from 3 to 6 while holding the other distance fixed reduces the per-round logical error rate from 0.53% to 0.24% in Z memory and from 0.52% to 0.22% in X memory. The corresponding error-suppression factors under maximum-likelihood decoding are 1.68 and 1.85. These results connect circuit compilation and optimization to surface-code memory performance and limitations, and motivate QPU and QEC circuit codesign for fault-tolerant quantum computing primitives on current cloud hardware.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.23840",
+  "pdf": "https://arxiv.org/pdf/2610.23840",
+  "html": "https://arxiv.org/html/2610.23840"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.23840v1/01_device_placement.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-19T13:49:36.450Z",
+  "hook": "Tailored circuit optimizations cut quantum error rates by up to 3.8x on a cloud-accessible IBM processor.",
+  "tldr": [
+   "Tested rotated surface-code quantum memory on an IBM Nighthawk r2 superconducting processor.",
+   "Combined short readout, fused measurement-reset, and XX echo pulses during syndrome extraction.",
+   "Increasing protected distance from 3 to 6 reduced per-round error from ~0.53% to ~0.23%, though advantage faded by round 150."
+  ],
+  "whyItMatters": "Fault-tolerant quantum computing requires logical errors to shrink as codes grow larger. Demonstrating this scaling on commercial cloud chips proves that careful circuit optimization can overcome real-world hardware noise.",
+  "eli5": "Think of quantum error correction like writing a secret word across several notepads so you can spot typos. The authors showed that using six notepads instead of three halves the typo rate, but noise starts creeping back in if you leave them open for 150 checks.",
+  "keyNumbers": [
+   {
+    "value": "3.8",
+    "label": "X-basis error reduction factor",
+    "context": "Cut in median per-round logical error rate compared to standard readout without reset or echo"
+   },
+   {
+    "value": "1.4",
+    "label": "Z-basis error reduction factor",
+    "context": "Cut in median per-round logical error rate compared to standard readout"
+   },
+   {
+    "value": "0.53% to 0.24%",
+    "label": "Z-memory error rate reduction",
+    "context": "Per-round logical error drop when increasing protected distance from 3 to 6"
+   },
+   {
+    "value": "150",
+    "label": "Memory experiment rounds",
+    "context": "Maximum rounds run, where distance advantage weakened due to persistent correlations"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Surface code",
+    "shortDef": "A 2D lattice quantum error-correcting code that uses local parity checks.",
+    "eli5Def": "A grid of qubits working as a team to protect one fragile piece of quantum information.",
+    "wikiTitle": "Surface code"
+   },
+   {
+    "term": "Code distance",
+    "shortDef": "The minimum number of physical qubit errors required to cause an undetectable logical error.",
+    "eli5Def": "How many safety checks or spare qubits you use to guard against mistakes.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Syndrome extraction",
+    "shortDef": "Measuring auxiliary qubits to detect errors without destroying stored quantum states.",
+    "eli5Def": "Checking your homework for typos without erasing any of your answers.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Echo pulse",
+    "shortDef": "A refocusing microwave pulse applied to cancel out unwanted dephasing noise.",
+    "eli5Def": "A quick flip that shakes off noise that settles on an idle qubit.",
+    "wikiTitle": "Spin echo"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

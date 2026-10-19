@@ -1,0 +1,86 @@
+{
+ "id": "2610.23827",
+ "version": 1,
+ "title": "Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?",
+ "authors": [
+  {
+   "name": "Anis Bekri"
+  },
+  {
+   "name": "Amar Abane"
+  },
+  {
+   "name": "Van Sy Mai"
+  },
+  {
+   "name": "Abdella Battou"
+  },
+  {
+   "name": "Saddek Bensalem"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.LG",
+  "cs.NI"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-16T17:49:43Z",
+ "updated": "2026-10-16T17:49:43Z",
+ "abstract": "Future quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable estimate of the quality of the entanglement that a candidate path can deliver, with end-to-end fidelity as a central metric. Inspired by the optical-networking experience with quality-of-transmission (QoT) estimation, this article asks when a quantum controller should compute fidelity analytically, simulate it, or learn a surrogate model. The optical analogy is useful but incomplete: optical QoT estimation often predicts a scalar transmission margin, whereas quantum QoT estimation must account for probabilistic entanglement generation, random memory waiting times, decoherence, state consumption, and measurement constraints that can make fidelity a stochastic target. We propose a compute/simulate/learn framework for quantum QoT estimation and illustrate it with a simulation-based proof of concept. Our study shows that analytical composition can be sufficient in simple regimes, that simulation becomes necessary when stochastic memory effects shape the delivered fidelity distribution, and that lightweight learned surrogates can approximate simulator labels at much lower runtime cost for online control. We close with open challenges for deployment, including stochastic targets, sim-to-real transfer, data-generation cost, physics-informed learning, and generalization beyond individual paths to full network topologies.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.23827",
+  "pdf": "https://arxiv.org/pdf/2610.23827",
+  "html": "https://arxiv.org/html/2610.23827"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.23827v1/figures/fig_mechanism.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-19T13:49:36.450Z",
+  "hook": "Simulators and lightweight AI surrogates are essential to track the volatile transmission quality of quantum networks.",
+  "tldr": [
+   "Analyzed how to determine entanglement quality along quantum network paths using compute, simulate, or learn regimes.",
+   "Compared analytical models, detailed simulations, and fast machine-learning surrogate approximations.",
+   "Found simple formulas suffice for basic links, but stochastic memory delays require simulation and lightweight ML surrogates."
+  ],
+  "whyItMatters": "To route quantum information across long distances, network routers must know path quality in real time. Fast, learned surrogate models solve the trade-off between slow simulations and oversimplified math.",
+  "eli5": "In a quantum internet, links degrade unpredictably the longer they sit in memory. Instead of running complex physics calculations every time a packet moves, routers can use quick AI approximations to pick the cleanest route instantly.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quality-of-Transmission (QoT)",
+    "shortDef": "A framework assessing whether a transmission path satisfies required signal fidelity.",
+    "eli5Def": "A health score measuring how clear a communication channel is before you send a message.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Entanglement fidelity",
+    "shortDef": "A metric measuring how closely a shared entangled quantum state matches the ideal state.",
+    "eli5Def": "A percentage showing how pure and undamaged an entangled connection remains.",
+    "wikiTitle": "Fidelity of quantum states"
+   },
+   {
+    "term": "Decoherence",
+    "shortDef": "Loss of quantum coherence caused by unwanted interactions with the environment.",
+    "eli5Def": "The fragile decay of quantum magic caused by heat, noise, or disturbance.",
+    "wikiTitle": "Quantum decoherence"
+   },
+   {
+    "term": "Surrogate model",
+    "shortDef": "An engineering model trained to rapidly approximate the outputs of an expensive simulation.",
+    "eli5Def": "A fast shortcut model that mimics a supercomputer simulation in a fraction of a second.",
+    "wikiTitle": "Surrogate model"
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 45
+ }
+}

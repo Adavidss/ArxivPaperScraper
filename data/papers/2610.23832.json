@@ -1,0 +1,98 @@
+{
+ "id": "2610.23832",
+ "version": 1,
+ "title": "Leveraging verifiable structure in quantum circuits to find more efficient compilations with agentic AI",
+ "authors": [
+  {
+   "name": "Tanuj Khattar"
+  },
+  {
+   "name": "Nicholas C. Rubin"
+  },
+  {
+   "name": "Craig Gidney"
+  },
+  {
+   "name": "Michael Broughton"
+  },
+  {
+   "name": "Guang Hao Low"
+  },
+  {
+   "name": "Ryan Babbush"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-16T17:53:07Z",
+ "updated": "2026-10-16T17:53:07Z",
+ "abstract": "We discuss an effective paradigm of utilizing AI agents to better compile quantum circuits when one can constrain bottleneck subroutines to have some form of classically verifiable structure. For example, when critical subroutines are composed exclusively of reversible classical logic, phasing operations, and measurement based uncomputation, one can efficiently simulate execution for classical inputs. This property facilitates efficient certification of approximate circuit synthesis via a form of fuzz testing, provided suitable assumptions on the input distribution. While this pattern was recently exploited to improve quantum cryptanalysis circuits, here we highlight the flexibility of the broader approach by discussing three important applications. (1) The computation of $1/\\sqrt{x}$ that bottlenecks real space simulations of the Coulomb operator such as those important for modeling inertial confinement fusion reactors. (2) The decoding of Reed-Solomon codes which bottlenecks the decoded quantum interferometry algorithm when used to approximately solve the optimal polynomial intersection problem. And (3) the quantum look-up tables and controlled application of Givens rotations that bottleneck the most performant quantum algorithms for simulating chemistry in second quantization. We discuss reference implementations of these algorithms and how they can be constrained and verified in the interest of seeding a Kaggle competition designed to accelerate AI-based research into the optimization of their compilation.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.23832",
+  "pdf": "https://arxiv.org/pdf/2610.23832",
+  "html": "https://arxiv.org/html/2610.23832"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.23832v1/figs/polynomial_approx_of_curve_rijinv_newton_raphson.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-19T13:49:36.450Z",
+  "hook": "Autonomous AI agents can compress complex quantum circuits using classical fuzz testing on verifiable bottlenecks.",
+  "tldr": [
+   "Proposed using AI agents to compile quantum subroutines with classically verifiable mathematical structures.",
+   "Used efficient classical simulation and fuzz testing to certify AI-generated circuit rewrites.",
+   "Demonstrated the method across fusion modeling (1/√x), quantum interferometry, and chemistry simulation bottlenecks."
+  ],
+  "whyItMatters": "Quantum computers have very strict gate budgets, making efficient compilation essential. Automating this tedious optimization with verified AI tools drastically shrinks the hardware required to run chemistry and energy simulations.",
+  "eli5": "Writing optimal quantum code by hand is like solving a giant Rubik's cube. The authors use smart AI bots to discover shortcuts, while using regular computers to double-check every step so no bugs slip through.",
+  "keyNumbers": [
+   {
+    "value": "1/√x",
+    "label": "Key bottleneck function",
+    "context": "Target subroutine essential for modeling the Coulomb operator in fusion reactors"
+   },
+   {
+    "value": "3",
+    "label": "Primary application domains",
+    "context": "Highlighted bottleneck circuits: fusion modeling, Reed-Solomon decoding, and quantum chemistry"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Fuzz testing",
+    "shortDef": "Automated software testing that feeds random inputs to discover bugs or verify equivalence.",
+    "eli5Def": "Bombarding a program with random test questions to see if it gives the right answer every time.",
+    "wikiTitle": "Fuzzing"
+   },
+   {
+    "term": "Uncomputation",
+    "shortDef": "Reversing intermediate quantum operations to clear scratch qubits without collapsing data.",
+    "eli5Def": "Erasing your scratch paper backwards so you can reuse it safely.",
+    "wikiTitle": "Uncomputation"
+   },
+   {
+    "term": "Second quantization",
+    "shortDef": "A formalism expressing many-body quantum states using creation and annihilation operators.",
+    "eli5Def": "A math framework used to model electrons and molecules in quantum chemistry.",
+    "wikiTitle": "Second quantization"
+   },
+   {
+    "term": "Reed-Solomon code",
+    "shortDef": "A non-binary cyclic error-correcting code based on polynomial evaluation.",
+    "eli5Def": "A clever mathematical code commonly used to fix missing or corrupted data in files and CDs.",
+    "wikiTitle": "Reed–Solomon error correction"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

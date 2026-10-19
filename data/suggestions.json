@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-18T11:35:38.413Z",
+ "generatedAt": "2026-10-19T13:49:36.450Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -24,7 +24,7 @@
   {
    "name": "Ludovico Lami",
    "slug": "ludovico-lami",
-   "score": 6,
+   "score": 5,
    "coAuthoredWith": [],
    "viaKeywords": [],
    "viaCategories": [
@@ -39,7 +39,7 @@
     "Classical Capacity of Single-Mode Bosonic Gaussian Channels",
     "On PPT entanglement distillation"
    ],
-   "paperCount": 6
+   "paperCount": 5
   },
   {
    "name": "Arkopal Dutt",
@@ -184,24 +184,23 @@
    "paperCount": 4
   },
   {
-   "name": "Fernando Granha Jeronimo",
-   "slug": "fernando-granha-jeronimo",
+   "name": "Ethan Dickey",
+   "slug": "ethan-dickey",
    "score": 4,
    "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
+   "viaKeywords": [
+    "SABRE"
    ],
+   "viaCategories": [],
    "paperIds": [
-    "2609.20780",
-    "2609.11854",
-    "2608.06345"
+    "2610.07308",
+    "2609.14620"
    ],
    "recentTitles": [
-    "Asymptotically Good Quantum Locally Testable Codes",
-    "PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax"
+    "Quantum dynamics of spin systems using quantum-like resources",
+    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
    ],
-   "paperCount": 4
+   "paperCount": 2
   }
  ]
 }

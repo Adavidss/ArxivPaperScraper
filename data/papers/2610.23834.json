@@ -1,0 +1,88 @@
+{
+ "id": "2610.23834",
+ "version": 1,
+ "title": "Task-aligned spectral inductive biases in parameterized quantum circuits",
+ "authors": [
+  {
+   "name": "Felix Frohnert"
+  },
+  {
+   "name": "Adrián Pérez-Salinas"
+  },
+  {
+   "name": "Sebastian Lange"
+  },
+  {
+   "name": "Marcus Schwaebisch"
+  },
+  {
+   "name": "Evert van Nieuwenburg"
+  },
+  {
+   "name": "Vedran Dunjko"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-16T17:53:19Z",
+ "updated": "2026-10-16T17:53:19Z",
+ "abstract": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuploading quantum circuits with two distinct inputs: a signal that varies between samples and a fixed, task-defined spectral query that specifies how the signal should be probed. We show that encoding the query can change the circuit's hypothesis class over the signal by modulating how its existing signal frequencies are combined, without introducing new sample-dependent information. This mechanism matches tasks built on nonuniform Fourier transforms, whose evaluation frequencies specify the query and whose sampling positions guide its encoding. We examine this connection in a classification task inspired by synthetic aperture radar, where acquisition geometry determines a query for classifying unfocused spectral patches before image formation. Across small-scale spectral and radar-like tasks, aligned queries improve learning from limited data over parameter-matched circuits with mismatched or absent queries. These results provide a route from known spectral task structure to the design and validation of inductive biases in parameterized quantum circuits.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.23834",
+  "pdf": "https://arxiv.org/pdf/2610.23834",
+  "html": "https://arxiv.org/html/2610.23834"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.23834v1/overviewNew.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-19T13:49:36.450Z",
+  "hook": "Directing quantum circuits with spectral query frequencies guides learning on radar data with limited samples.",
+  "tldr": [
+   "Investigated how to design task-aligned inductive biases in parameterized quantum circuits using data re-uploading.",
+   "Fed circuits both the signal and a task-defined spectral query inspired by nonuniform Fourier transforms.",
+   "Demonstrated that query-aligned circuits learn faster from limited data than circuits lacking the query."
+  ],
+  "whyItMatters": "Quantum machine learning models often struggle because they lack natural rules to guide learning. Embedding physics- or sensor-based constraints directly into quantum circuits makes training far more efficient on real-world sensory data.",
+  "eli5": "Imagine trying to guess a mystery tune. Instead of listening blindly to static, someone tells your ear which specific musical notes to listen for, making it much easier to identify the song with very little practice.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Parameterized quantum circuit",
+    "shortDef": "A quantum circuit with tunable gate angles optimized by classical training algorithms.",
+    "eli5Def": "A quantum circuit built like a neural network where knobs are turned to learn patterns.",
+    "wikiTitle": "Quantum machine learning"
+   },
+   {
+    "term": "Inductive bias",
+    "shortDef": "Assumptions built into a learning algorithm to guide predictions on unseen data.",
+    "eli5Def": "Helpful built-in hints that prevent a model from making wild, senseless guesses.",
+    "wikiTitle": "Inductive bias"
+   },
+   {
+    "term": "Data re-uploading",
+    "shortDef": "Interleaving classical data-encoding gates with trainable operations across circuit layers.",
+    "eli5Def": "Repeatedly feeding data into a quantum circuit between calculations to help it process complex details.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Synthetic aperture radar",
+    "shortDef": "A radar imaging technique that uses antenna motion to synthesize high-resolution images.",
+    "eli5Def": "A moving radar system that combines multiple radio reflections to produce sharp pictures.",
+    "wikiTitle": "Synthetic-aperture radar"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

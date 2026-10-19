@@ -1,0 +1,92 @@
+{
+ "id": "2610.23815",
+ "version": 1,
+ "title": "Anyonic Neural Network Wavefunctions",
+ "authors": [
+  {
+   "name": "Andres Perez Fadon"
+  },
+  {
+   "name": "Pok Man Tam"
+  },
+  {
+   "name": "Leyna Shackleton"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "cond-mat.mes-hall",
+  "cond-mat.quant-gas",
+  "hep-th",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-10-16T17:39:06Z",
+ "updated": "2026-10-16T17:39:06Z",
+ "abstract": "The macroscopic behavior of a non-interacting gas of Abelian anyons has remained unsettled for many decades. Prior numerical methods employing exact diagonalization in the continuum and on the plane have been limited to small system sizes, at most $N = 4$ anyons. Using the rapidly developing technology of neural network wavefunctions, we develop variational ansatze appropriate for studying continuum models of the Abelian anyon gas. The neural network architecture, which we call \"AnyNet\", is capable of exactly enforcing the non-analytic short-distance behavior induced by the anyonic statistics. We demonstrate excellent agreement with exact diagonalization for $N=4$ anyons, obtain accurate results up to $N = 16$ for intermediate statistics, and study up to $N=20$ for almost-fermionic anyons, matching perturbative results within a 0.4% discrepancy. We use this methodology to study anyons in a harmonic trap, and anyonic atoms as a model for anyon binding to impurities. We study the structure of anyonic wavefunctions as the statistics parameter is varied. We focus on the single-particle density, the pair density, the angular momentum, and the scaling of the wavefunction as multiple anyons coalesce. This work opens doors to understanding the macroscopic behavior of anyons, for which rich phases have been predicted theoretically.",
+ "comment": "32 pages (21 main text), 12 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.23815",
+  "pdf": "https://arxiv.org/pdf/2610.23815",
+  "html": "https://arxiv.org/html/2610.23815"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.23815v1/n10.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-19T13:49:36.450Z",
+  "hook": "Neural network wavefunctions scale anyon simulations to N=20, shattering a decade-old 4-particle limit.",
+  "tldr": [
+   "Modeled the collective quantum behavior of non-interacting Abelian anyons, previously stuck at small system sizes.",
+   "Built AnyNet, a neural network ansatz that enforces the exact non-analytic short-distance behavior of anyonic statistics.",
+   "Simulated up to 20 anyons in traps and near impurities, matching perturbation theory within a 0.4% discrepancy."
+  ],
+  "whyItMatters": "Anyons are exotic 2D quasi-particles essential for fault-tolerant topological quantum computers. Cracking how large groups of anyons behave lets physicists explore theoretical macroscopic phases that have remained unverified for decades.",
+  "eli5": "In our 3D world, particles are either social (bosons) or anti-social (fermions). In 2D, anyons have strange fractional rules in between, which make calculating their group behavior nearly impossible. Researchers used AI to predict how up to 20 anyons dance together without breaking their bizarre math rules.",
+  "keyNumbers": [
+   {
+    "value": "N = 4",
+    "label": "prior limit",
+    "context": "Max number of anyons prior exact diagonalization in the continuum could simulate"
+   },
+   {
+    "value": "N = 20",
+    "label": "new system size",
+    "context": "System size reached for almost-fermionic anyons using AnyNet"
+   },
+   {
+    "value": "0.4%",
+    "label": "discrepancy",
+    "context": "Agreement between AnyNet results and perturbative theory at N = 20"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Abelian anyon",
+    "shortDef": "A 2D quasiparticle whose quantum state acquires a continuous phase factor upon particle exchange.",
+    "eli5Def": "A particle trapped in a flat 2D plane that remembers when it loops around another particle, picking up a fractional phase shift.",
+    "wikiTitle": "Anyon"
+   },
+   {
+    "term": "neural network wavefunctions",
+    "shortDef": "Machine learning architectures used as variational trial wavefunctions for quantum many-body systems.",
+    "eli5Def": "Using an AI as a smart mathematical guess to discover the true quantum state of many interacting particles.",
+    "wikiTitle": "Neural network quantum states"
+   },
+   {
+    "term": "exact diagonalization",
+    "shortDef": "A numerical technique computing the precise eigenvalues and eigenstates of a Hamiltonian matrix.",
+    "eli5Def": "Solving quantum math completely by hand via giant matrices, limited to tiny handfuls of particles.",
+    "wikiTitle": "Exact diagonalization"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T13:49:36.450Z",
+ "generatedAt": "2026-10-20T11:58:32.337Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -38,27 +38,6 @@
    "recentTitles": [
     "Classical Capacity of Single-Mode Bosonic Gaussian Channels",
     "On PPT entanglement distillation"
-   ],
-   "paperCount": 5
-  },
-  {
-   "name": "Arkopal Dutt",
-   "slug": "arkopal-dutt",
-   "score": 5,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph",
-    "cs.CC"
-   ],
-   "paperIds": [
-    "2610.02130",
-    "2609.20771",
-    "2608.13533"
-   ],
-   "recentTitles": [
-    "Quantum impurity models: easy at equilibrium, universal in motion",
-    "Marton's conjecture in polynomial time"
    ],
    "paperCount": 5
   },
@@ -103,27 +82,6 @@
    "paperCount": 4
   },
   {
-   "name": "Srinivasan Arunachalam",
-   "slug": "srinivasan-arunachalam",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph",
-    "cs.CC"
-   ],
-   "paperIds": [
-    "2610.02178",
-    "2610.02130",
-    "2609.20771"
-   ],
-   "recentTitles": [
-    "Learning SYK Hamiltonians",
-    "Quantum impurity models: easy at equilibrium, universal in motion"
-   ],
-   "paperCount": 4
-  },
-  {
    "name": "Zi-Wen Liu",
    "slug": "zi-wen-liu",
    "score": 4,
@@ -144,22 +102,23 @@
    "paperCount": 4
   },
   {
-   "name": "Chengkai Zhu",
-   "slug": "chengkai-zhu",
+   "name": "Arkopal Dutt",
+   "slug": "arkopal-dutt",
    "score": 4,
    "coAuthoredWith": [],
    "viaKeywords": [],
    "viaCategories": [
-    "quant-ph"
+    "quant-ph",
+    "cs.CC"
    ],
    "paperIds": [
-    "2609.38134",
-    "2609.30268",
-    "2609.10520"
+    "2610.02130",
+    "2609.20771",
+    "2608.13533"
    ],
    "recentTitles": [
-    "Resource Compatibility in Optimal Quantum Symmetry Testing",
-    "Quantum Channel Stein Theorem beyond Definite Causal Order"
+    "Quantum impurity models: easy at equilibrium, universal in motion",
+    "Marton's conjecture in polynomial time"
    ],
    "paperCount": 4
   },
@@ -199,6 +158,44 @@
    "recentTitles": [
     "Quantum dynamics of spin systems using quantum-like resources",
     "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
+   ],
+   "paperCount": 2
+  },
+  {
+   "name": "Vinit Singh",
+   "slug": "vinit-singh",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2609.33617",
+    "2608.08798"
+   ],
+   "recentTitles": [
+    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies",
+    "Symmetry Constraints Regularize Neural Quantum State Learning"
+   ],
+   "paperCount": 2
+  },
+  {
+   "name": "Manas Sajjan",
+   "slug": "manas-sajjan",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2609.33617",
+    "2608.08798"
+   ],
+   "recentTitles": [
+    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies",
+    "Symmetry Constraints Regularize Neural Quantum State Learning"
    ],
    "paperCount": 2
   }

@@ -1,6 +1,6 @@
 {
  "id": "2609.17482",
- "version": 2,
+ "version": 3,
  "title": "Predictive Structure Behind Rare Outcomes in Random Quantum Circuits",
  "authors": [
   {
@@ -18,9 +18,9 @@
  ],
  "primaryCategory": "quant-ph",
  "published": "2026-09-15T17:24:08Z",
- "updated": "2026-09-20T05:42:34Z",
- "abstract": "Rare outputs of random quantum circuits are usually treated as terminal statistics. We ask whether they reveal intermediate organization that remains useful beyond the selecting future. Comparing unconditioned random-normal (RN) and peak-selected random-peaked (RP) circuits from the same local generator, we find stronger pairwise correlations and probability redistribution but reduced bipartite and output spreading in RP across n=8-16. Exact full-suffix decomposition reveals stronger peak-directed interference. The structural separation and fresh-future advantage persist across four nominal depths at n=8-14, with 2.01-7.15 fold RP enrichment in the depth extensions at fixed, independently calibrated thresholds. Within the unconditioned ensemble, a structural prefix score predicts fresh-event probability without using the evaluated circuits' terminal outcomes. Population-preserving phase scrambling identifies a functional contribution from relative-phase organization across the tested settings, including primary-depth held-out confirmation. RP trajectory-guided initialization improves high-peak yield over Haar initialization under common local refinement. Intermediate multivariate guidance also improves the fresh-continuation susceptibility of constructed states beyond peak-only guidance across the same size-depth grid. Rare outputs thus reveal intermediate physical organization that remains useful under new dynamics and can guide circuit construction.",
- "comment": "25 pages, 9 figures",
+ "updated": "2026-10-19T17:53:45Z",
+ "abstract": "Local random quantum circuits selected for unusually large output peaks reveal intermediate-state structure that predicts new peak formation and guides circuit construction. In one-dimensional Haar-random brickwall circuits, the selected trajectories combine stronger pairwise correlations and probability redistribution with lower bipartite entanglement and output entropy. We test the predictive value of this structure by keeping each circuit's initial segment fixed and independently regenerating the remaining gates. Across the tested size-depth grid at n=8-14, peak-selected states have higher new-peak probability than normal/nonpeak controls, with an overall probability ratio of 3.23 at the primary depths. Within a separate unconditioned ensemble, a fixed structural score computed from the initial segment predicts new-peak probability and gives a 1.86-fold yield gain in a replay with equal numbers of remaining-circuit evaluations. Randomizing relative phases while preserving computational-basis probabilities strongly attenuates the selected-state advantage, demonstrating a functional contribution from relative-phase organization. Structural and phase-intervention tests extend to n=16. Structure-guided gate selection improves high-peak yield under common local refinement, while guidance using multiple intermediate observables improves new-peak probability over peak-only guidance in all 16 tested size-depth settings. Together, these results show how intermediate-state structure can predict and promote new peak formation under finite-depth local dynamics.",
+ "comment": "28 pages, 9 figures",
  "doi": null,
  "links": {
   "abs": "https://arxiv.org/abs/2609.17482",
@@ -35,54 +35,65 @@
  "withdrawn": false,
  "biteStatus": "ok",
  "bite": {
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-09-22T11:59:08.199Z",
-  "hook": "Rare quantum circuit outputs reveal hidden structure, yielding 2.01-7.15 fold peak enrichment at fixed thresholds.",
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-20T11:58:32.337Z",
+  "hook": "Hidden intermediate structure in random quantum circuits makes rare, high-probability output peaks predictable.",
   "tldr": [
-   "Compared unconditioned random-normal and peak-selected random-peaked circuits across sizes n=8-16.",
-   "Used exact full-suffix decomposition and population-preserving phase scrambling to analyze internal interference.",
-   "Found that structural prefix scores predict fresh-event probability and trajectory guidance improves peak yields."
+   "Studied 1D Haar-random quantum circuits producing unusually large output probability peaks to detect early internal patterns.",
+   "Fixed initial circuit segments, regenerated downstream gates, and tested if intermediate structural scores predicted future peaks.",
+   "Found peak-selected circuits yield new peaks at 3.23x the rate of controls, giving an overall 1.86-fold yield gain in search replays."
   ],
-  "whyItMatters": "Understanding the hidden organization behind rare quantum outputs can help researchers construct better quantum circuits and predict their behavior without evaluating terminal outcomes.",
-  "eli5": "Imagine rolling a pair of dice thousands of times. Usually, people only care about the final winning rolls, but this research shows that looking closely at the weird, rare rolls can actually teach you how to rig the dice better for future games.",
+  "whyItMatters": "Random quantum circuits model chaotic quantum dynamics and underpin quantum supremacy tests. Finding predictable order inside rare outcomes helps researchers design targeted algorithms and systematically synthesize specific quantum states.",
+  "eli5": "Imagine shaking a giant box of Lego bricks and surprisingly getting a fully assembled tower. Scientists found that halfway through shaking, the bricks quietly snap into special, less messy clusters that make forming the tower far more likely, rather than staying totally random.",
   "keyNumbers": [
    {
-    "value": "8-16",
-    "label": "Circuit sizes (n)",
-    "context": "System sizes tested in the comparison of random-normal and random-peaked circuits."
+    "value": "3.23",
+    "label": "overall probability ratio",
+    "context": "ratio of new-peak probability in peak-selected states over controls across primary depths"
    },
    {
-    "value": "8-14",
-    "label": "Nominal depths",
-    "context": "Size-depth grid used to demonstrate the persistence of structural separation and fresh-future advantage."
+    "value": "1.86-fold",
+    "label": "yield gain",
+    "context": "increase in high-peak outcomes using a fixed structural score from the initial circuit segment"
    },
    {
-    "value": "2.01-7.15 fold",
-    "label": "RP enrichment",
-    "context": "Observed random-peaked enrichment in depth extensions at fixed thresholds."
+    "value": "n=8-14",
+    "label": "tested qubit range",
+    "context": "size-depth grid used for the primary peak-prediction and regeneration experiments"
+   },
+   {
+    "value": "16",
+    "label": "size-depth settings",
+    "context": "number of tested benchmark settings where multi-observable guidance outperformed peak-only guidance"
    }
   ],
   "glossary": [
    {
-    "term": "Random Quantum Circuits",
-    "shortDef": "Quantum circuits built with random sequences of operations, used to benchmark quantum supremacy.",
-    "eli5Def": "A random mix of quantum logic gates that scrambles information into a complex state.",
+    "term": "random quantum circuits",
+    "shortDef": "Sequences of randomly chosen quantum logic gates acting on qubits to generate complex, chaotic states.",
+    "eli5Def": "A digital circuit where the operations are picked at random like rolling dice, used to scramble quantum information.",
     "wikiTitle": "Random quantum circuit"
    },
    {
-    "term": "Bipartite",
-    "shortDef": "Divided into two distinct parts or subsystems.",
-    "eli5Def": "Splitting a system into two halves to see how they share information.",
-    "wikiTitle": "Bipartite graph"
+    "term": "bipartite entanglement",
+    "shortDef": "Quantum correlations shared specifically between two distinct partitions of a quantum system.",
+    "eli5Def": "A special invisible link between two halves of a quantum system that makes their fates connected.",
+    "wikiTitle": "Quantum entanglement"
    },
    {
-    "term": "Interference",
-    "shortDef": "The phenomenon where wave amplitudes add up or cancel out.",
-    "eli5Def": "When waves overlap, sometimes reinforcing each other and sometimes wiping each other out completely.",
-    "wikiTitle": "Wave interference"
+    "term": "Haar-random",
+    "shortDef": "Uniformly distributed random unitary operations over the mathematical Haar measure of the unitary group.",
+    "eli5Def": "The most perfectly unbiased and uniform way to choose a random quantum operation.",
+    "wikiTitle": "Haar measure"
+   },
+   {
+    "term": "relative phases",
+    "shortDef": "The angle differences between quantum state amplitudes that dictate quantum interference patterns.",
+    "eli5Def": "The precise timing differences between quantum waves that decide whether they cancel out or amplify each other.",
+    "wikiTitle": "Phase (waves)"
    }
   ],
   "difficulty": 4,
-  "readSeconds": 45
+  "readSeconds": 75
  }
 }

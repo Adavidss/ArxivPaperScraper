@@ -1,0 +1,80 @@
+{
+ "id": "2610.28621",
+ "version": 1,
+ "title": "Characterizing supersolid phase transitions in trapped quantum gases with tilted dipoles at finite temperature",
+ "authors": [
+  {
+   "name": "Julian Kusch"
+  },
+  {
+   "name": "Lauriane Chomaz"
+  },
+  {
+   "name": "Wyatt Kirkby"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "cond-mat.stat-mech",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-10-20T17:58:01Z",
+ "updated": "2026-10-20T17:58:01Z",
+ "abstract": "Motivated by a recent experimental work $[\\href{https://arxiv.org/abs/2608.20327}{\\text{arXiv:}2608.20327}]$, we theoretically investigate the nature of phase transitions in a trapped dipolar quantum gas upon tuning the contact interaction strength and dipole orientation. Using extended Gross-Pitaevskii simulations including thermal and quantum effects, we map the phase diagram comprising unmodulated superfluids, triangular droplet arrays, and stripe states. We further characterize the order of the transitions separating them through imaginary-time hysteresis analysis. The unmodulated-to-modulated transition evolves from discontinuous to continuous with increasing dipole tilt before becoming discontinuous again at large tilts. The degree of continuity is further affected by particle number, temperature, and confinement. While continuous behavior generally correlates with the emergence of stripe states, this correspondence is not systematic, and finite-size effects also influence the continuity of the transition. The triangular-to-stripe transition is found to be discontinuous at small contact interaction strengths and becomes increasingly continuous upon approaching the unmodulated-to-modulated phase boundary. Our results reveal a tunable transition order in finite dipolar quantum gases and provide guidance for its experimental investigation.",
+ "comment": "12 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.28621",
+  "pdf": "https://arxiv.org/pdf/2610.28621",
+  "html": "https://arxiv.org/html/2610.28621"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.28621v1/Fig01.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-21T12:13:41.346Z",
+  "hook": "Tilting dipoles in an ultracold quantum gas can shift its phase transitions between continuous and abrupt jumps.",
+  "tldr": [
+   "Mapped phase transitions between unmodulated superfluids, triangular droplet arrays, and stripe states in trapped dipolar gases.",
+   "Simulated extended Gross-Pitaevskii equations including thermal and quantum fluctuations alongside imaginary-time hysteresis analysis.",
+   "Found that tuning dipole tilt, interaction strength, and temperature dynamically alters whether phase transitions are continuous or discontinuous."
+  ],
+  "whyItMatters": "Supersolids simultaneously act like frictionless liquids and rigid crystals. Understanding how they form under realistic finite temperatures guides real-world experiments building exotic quantum sensors and simulators.",
+  "eli5": "Imagine a liquid that can suddenly freeze into a crystal without ever stopping its frictionless flow. By tilting the tiny atomic magnets inside, researchers can decide whether this freezing happens smoothly like a dimmer switch or abruptly like flipping a switch.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Supersolid",
+    "shortDef": "A state of matter displaying both superfluidity and crystalline spatial order simultaneously.",
+    "eli5Def": "A bizarre substance that flows like a frictionless liquid while maintaining a rigid, repeating pattern like ice.",
+    "wikiTitle": "Supersolid"
+   },
+   {
+    "term": "Gross-Pitaevskii equation",
+    "shortDef": "A nonlinear differential equation describing the ground state of identical bosons.",
+    "eli5Def": "A master mathematical equation that physicists use to track how a cloud of ultra-cold atoms moves.",
+    "wikiTitle": "Gross–Pitaevskii equation"
+   },
+   {
+    "term": "Hysteresis",
+    "shortDef": "The dependence of the state of a system on its past physical history.",
+    "eli5Def": "A lag in a system's response, where changing a knob forward and backward doesn't trace the exact same path.",
+    "wikiTitle": "Hysteresis"
+   },
+   {
+    "term": "Dipolar quantum gas",
+    "shortDef": "An ultracold gas whose particles interact primarily through long-range directional dipole forces.",
+    "eli5Def": "A cloud of atoms so cold they act like quantum particles, each behaving like a tiny compass needle.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

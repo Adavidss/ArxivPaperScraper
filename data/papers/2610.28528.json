@@ -1,0 +1,100 @@
+{
+ "id": "2610.28528",
+ "version": 1,
+ "title": "Efficient Ground-State Manifold Amplification for Rydberg Atom Arrays via Houdayer Cluster Updates",
+ "authors": [
+  {
+   "name": "Andrew J. Ochoa"
+  },
+  {
+   "name": "Martin J. A. Schuetz"
+  },
+  {
+   "name": "Helmut G. Katzgraber"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.dis-nn",
+  "cond-mat.quant-gas",
+  "math.OC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-20T17:03:05Z",
+ "updated": "2026-10-20T17:03:05Z",
+ "abstract": "We demonstrate a hybrid quantum-classical approach for exploring ground-state manifolds of maximum independent set problems, in which quantum hardware supplies the initial solutions and an entirely classical post-processing algorithm expands them, increasing the solution diversity of quantum hardware measurements by up to several orders of magnitude. Quantum optimization devices, while capable of generating high-quality solutions, can suffer from fundamental sampling limitations. This is particularly problematic for applications that strongly depend on a large variety of uncorrelated optimal solutions. We apply the Houdayer cluster update algorithm to systematically expand quantum-generated solution sets through classical post-processing. We validate our approach on a test bed of 43 problem instances from QuEra's Aquila analog annealing device, achieving diversity amplification factors, defined as the increase in the number of distinct solutions at a given set size, of up to 11923x with a median of 24.3x across different problem scales and hardness parameters. Because exact ground-state degeneracies are known for these instances, the recovered fraction of the manifold can be measured rather than bounded: post-processing recovers a median of 21% of the ground-state manifold, and provably all of it for six instances. We also demonstrate that, in some cases, the classical post-processing can discover independent sets larger than those found by the quantum hardware, thus improving on solution quality and not just diversity. While the method is non-ergodic and cannot guarantee complete manifold coverage, it consistently discovers a larger number of high-quality, and in some cases strictly better, configurations than quantum sampling alone. This work demonstrates how simple classical post-processing can enhance the utility of quantum optimization results.",
+ "comment": "15 pages, 6 figures, 1 table",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.28528",
+  "pdf": "https://arxiv.org/pdf/2610.28528",
+  "html": "https://arxiv.org/html/2610.28528"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-21T12:13:41.346Z",
+  "hook": "Classical Houdayer cluster updates amplify quantum optimization solution diversity by up to 11,923x.",
+  "tldr": [
+   "Tested a hybrid pipeline using classical cluster updates to post-process solutions from a neutral-atom quantum computer.",
+   "Applied the Houdayer cluster algorithm to expand ground states found by QuEra's Aquila device on 43 hard graph instances.",
+   "Boosted distinct solution counts by a median of 24.3x (up to 11,923x) and occasionally found larger independent sets than the quantum hardware."
+  ],
+  "whyItMatters": "Analog quantum computers generate good answers to optimization problems but often get stuck outputting the same narrow batch of solutions. A classical add-on broadens that pool thousands-fold without requiring costlier quantum hardware.",
+  "eli5": "Think of looking for multiple hidden paths out of a maze. An analog quantum chip finds a few good exits, and a standard computer takes those discoveries, flips matching chunks, and reveals thousands of alternative exits you missed.",
+  "keyNumbers": [
+   {
+    "value": "11923x",
+    "label": "max diversity amplification",
+    "context": "peak increase in distinct solutions found via classical post-processing"
+   },
+   {
+    "value": "24.3x",
+    "label": "median diversity amplification",
+    "context": "median increase in unique solutions across 43 tested problem instances"
+   },
+   {
+    "value": "21%",
+    "label": "median manifold recovered",
+    "context": "median fraction of the true ground-state manifold recovered by post-processing"
+   },
+   {
+    "value": "6",
+    "label": "instances fully solved",
+    "context": "number of benchmark instances where 100% of the ground-state manifold was recovered"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "ground-state manifold",
+    "shortDef": "The entire collection of degenerate lowest-energy states for a given system.",
+    "eli5Def": "The complete list of equally best solutions to an optimization problem.",
+    "wikiTitle": "Ground state"
+   },
+   {
+    "term": "maximum independent set",
+    "shortDef": "An NP-hard graph problem seeking the largest set of vertices with no shared edges.",
+    "eli5Def": "Picking the biggest group of people in a social network where no two selected people know each other.",
+    "wikiTitle": "Independent set (graph theory)"
+   },
+   {
+    "term": "Houdayer cluster update",
+    "shortDef": "A classical Monte Carlo move that flips matching spin clusters between two replicas.",
+    "eli5Def": "A trick that compares two solutions and swaps matching puzzle pieces to jump to new valid answers.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Rydberg atom arrays",
+    "shortDef": "Neutral atoms trapped in optical tweezers, interacting via highly excited Rydberg states.",
+    "eli5Def": "Individual atoms held in laser beams that can strongly interact to solve optimization puzzles.",
+    "wikiTitle": "Rydberg atom"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

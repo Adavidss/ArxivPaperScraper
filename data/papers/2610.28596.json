@@ -1,0 +1,101 @@
+{
+ "id": "2610.28596",
+ "version": 1,
+ "title": "Entanglement Distribution in Quantum Switch Networks: Memory Limits and Achievability",
+ "authors": [
+  {
+   "name": "Lei Hu"
+  },
+  {
+   "name": "Alptug Aytekin"
+  },
+  {
+   "name": "Stavros Mitrolaris"
+  },
+  {
+   "name": "Mohamed Nomeir"
+  },
+  {
+   "name": "Subhankar Banerjee"
+  },
+  {
+   "name": "Sennur Ulukus"
+  },
+  {
+   "name": "Saikat Guha"
+  }
+ ],
+ "categories": [
+  "cs.IT",
+  "cs.NI",
+  "quant-ph"
+ ],
+ "primaryCategory": "cs.IT",
+ "published": "2026-10-20T17:46:05Z",
+ "updated": "2026-10-20T17:46:05Z",
+ "abstract": "We study the minimum persistent memory required to distribute a graph state through a quantum switch. Specifically, consider a central switch that assists $n$ remote users in distributing a graph state, using independently generated user-switch Bell pairs. Since Bell-pair generation is probabilistic, different links generally succeed at different times. When a Bell-pair is generated, the qubits may need to be stored in memory while waiting for other links to succeed. Recently, new protocols have been proposed to reduce this storage overhead by processing and releasing some switch qubits before all Bell links are available. However, these protocols do not characterize the minimum persistent switch memory required at each stage. Moreover, the local-cover method in the state-of-the-art Piecemaker protocol is computationally expensive for general target graphs. In this work, we characterize the minimum persistent switch memory required after any subset of users' Bell links are generated and processed. We then develop an online stabilizer-transition protocol that attains this limit, which can be implemented in polynomial time in the number of qubits $n$. Remarkably, this optimal protocol can provide substantial memory reductions over existing heuristic approaches. In particular, for the path graph $P_n$ over $n$ users, Piecemaker protocol requires at least $\\lfloor n/2\\rfloor$ qubits of peak persistent memory for \\textit{every Bell-links generation order}, whereas under the order $(1,2,\\ldots,n)$, our protocol requires only one persistent switch qubit. Finally, the same stabilizer-transition framework also provides a direct forward construction for sequential graph-state generation using the minimum number of quantum emitters, equal to the maximum of the height function.",
+ "comment": "The abstract was shortened to meet arXiv's character limit",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.28596",
+  "pdf": "https://arxiv.org/pdf/2610.28596",
+  "html": "https://arxiv.org/html/2610.28596"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-21T12:13:41.346Z",
+  "hook": "A new quantum switch protocol cuts persistent qubit memory down from ⌊n/2⌋ to just 1 for path-graph distribution.",
+  "tldr": [
+   "Characterized the minimum persistent memory needed by a quantum switch to distribute multi-user graph states.",
+   "Constructed an online stabilizer-transition protocol running in polynomial time to achieve this theoretical lower bound.",
+   "Demonstrated massive memory savings over prior protocols, reducing memory requirements for path graphs from ⌊n/2⌋ to 1 qubit."
+  ],
+  "whyItMatters": "Quantum memory is fragile and hard to scale. Drastically slashing the number of qubits a central router must hold in memory makes large-scale quantum internet routing practical with today's limited hardware.",
+  "eli5": "Think of a central postal hub connecting users via unstable quantum links. Instead of holding onto a huge pile of quantum packages until everyone is ready, this new routing method processes and clears them so fast that it only ever needs to hold a single package at a time.",
+  "keyNumbers": [
+   {
+    "value": "1",
+    "label": "persistent switch qubit",
+    "context": "Achieved for path graph P_n under generation order (1,2,...,n) using the new protocol"
+   },
+   {
+    "value": "⌊n/2⌋",
+    "label": "qubits of peak persistent memory",
+    "context": "Minimum memory required by the prior Piecemaker protocol for path graph P_n across every link generation order"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Graph state",
+    "shortDef": "A multipartite entangled quantum state represented by mathematical vertices and edges.",
+    "eli5Def": "A web of entangled quantum particles connected like nodes in a network map.",
+    "wikiTitle": "Graph state"
+   },
+   {
+    "term": "Quantum switch",
+    "shortDef": "A network device that routes and distributes entanglement among multiple quantum nodes.",
+    "eli5Def": "A central quantum router that helps distant users share entangled connections.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Bell pair",
+    "shortDef": "A maximally entangled two-qubit quantum state.",
+    "eli5Def": "Two quantum particles linked together so closely that measuring one instantly dictates the state of the other.",
+    "wikiTitle": "Bell state"
+   },
+   {
+    "term": "Stabilizer formalism",
+    "shortDef": "A mathematical framework describing quantum states via the operators that leave them invariant.",
+    "eli5Def": "A mathematical shorthand that makes tracking complicated multi-qubit systems simple and efficient.",
+    "wikiTitle": "Stabilizer code"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

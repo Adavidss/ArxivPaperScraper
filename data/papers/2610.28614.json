@@ -1,0 +1,81 @@
+{
+ "id": "2610.28614",
+ "version": 1,
+ "title": "Cumulative locality governs collective quantum charging",
+ "authors": [
+  {
+   "name": "Sebastián V. Romero"
+  },
+  {
+   "name": "Xi Chen"
+  },
+  {
+   "name": "Yue Ban"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "cond-mat.str-el",
+  "nlin.CD"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-20T17:55:03Z",
+ "updated": "2026-10-20T17:55:03Z",
+ "abstract": "Quantum batteries can outperform their classical counterparts through collective quantum effects, yet the conditions enabling such advantage remain unclear. Using a generic class of free-fermionic chargers we prove that global operators are insufficient for scalable superextensive charging and that a cumulative hierarchy of many-body operators is required, with the structure of the battery determining the degree of advantage. This is obtained by relating the charging power to the norm of the commutator between the battery and charger Hamiltonians and deriving an upper bound only capturing noncommuting terms. Moreover, we revisit the concept of participation number and propose an effective definition that accounts for the relative strength of the contributing terms, correlating it with the charging power scaling. Not limited to quadratic Hamiltonians, our results establish cumulative locality as a key resource for quantum charging advantage.",
+ "comment": "Main text: 7 pages, 5 figures. Supplementary Information: 16 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.28614",
+  "pdf": "https://arxiv.org/pdf/2610.28614",
+  "html": "https://arxiv.org/html/2610.28614"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.28614v1/schematic.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-21T12:13:41.346Z",
+  "hook": "Global operations alone cannot yield scalable super-fast charging in quantum batteries—cumulative locality is required.",
+  "tldr": [
+   "Identified the physical requirements that allow quantum batteries to charge faster than any classical counterparts.",
+   "Bounded the battery-charger Hamiltonian commutator using free-fermionic charger models and generalized the participation number.",
+   "Proved that achieving scalable superextensive charging power strictly requires a cumulative hierarchy of many-body interactions."
+  ],
+  "whyItMatters": "Quantum batteries promise ultra-fast energy storage by exploiting collective entanglement. Pinpointing the exact interactions required prevents engineers from chasing dead-end designs.",
+  "eli5": "Think of charging lots of batteries at once. You might hope that plugging them all into one giant field charges them instantly, but this paper shows you need a precise chain of local interactions between the parts to actually get that quantum speedup.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum battery",
+    "shortDef": "A microscopic energy-storage device that exploits quantum resources such as entanglement.",
+    "eli5Def": "A tiny quantum device designed to store and release energy faster than normal batteries using quantum tricks.",
+    "wikiTitle": "Quantum battery"
+   },
+   {
+    "term": "Superextensive charging",
+    "shortDef": "Charging power that scales faster than linearly with the total number of battery cells.",
+    "eli5Def": "A supercharged speedup where doubling the battery size makes it charge more than twice as fast.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Commutator",
+    "shortDef": "An operator measure [A, B] = AB - BA showing how much two operations fail to commute.",
+    "eli5Def": "A mathematical test to see if the order in which you perform two actions matters.",
+    "wikiTitle": "Commutator"
+   },
+   {
+    "term": "Free fermions",
+    "shortDef": "Fermionic particles that do not interact with one another, governed by quadratic Hamiltonians.",
+    "eli5Def": "Quantum particles like electrons that move around without bumping or interacting with each other directly.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "2610.28600",
+ "version": 1,
+ "title": "Complete Modified Logarithmic Sobolev Inequalities for one-dimensional quantum Spin Chain",
+ "authors": [
+  {
+   "name": "Li Gao"
+  },
+  {
+   "name": "Jingyu Guo"
+  },
+  {
+   "name": "Sihao Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-20T17:47:28Z",
+ "updated": "2026-10-20T17:47:28Z",
+ "abstract": "We prove a complete modified logarithmic Sobolev inequality with a system-size-independent constant for Chen--Kastoryano--Gilyén Gibbs samplers on one-dimensional spin chain at every fixed positive temperature. The result holds for Hamiltonians with bounded finite-range interactions, including noncommuting and spatially nonuniform interactions. It yields trace and diamond mixing times of order $O(\\log N+\\log(1/ε))$. The proof establishes complete spatial entropy factorization and absorbs quasi-local errors as conditional relative entropy at the original joint state and reference. The static estimate also yields a system-size-independent CMLSI for the single-site Petz heat-bath and regularised heat-bath dynamics.",
+ "comment": "57 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.28600",
+  "pdf": "https://arxiv.org/pdf/2610.28600",
+  "html": "https://arxiv.org/html/2610.28600"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-21T12:13:41.346Z",
+  "hook": "1D quantum spin chains can reach thermal equilibrium in logarithmic time, regardless of the chain's overall length.",
+  "tldr": [
+   "Analyzed thermal mixing speeds of quantum Gibbs samplers on one-dimensional spin chains at positive temperatures.",
+   "Proved a complete modified logarithmic Sobolev inequality by establishing complete spatial entropy factorization.",
+   "Showed trace and diamond mixing times scale as O(log N + log(1/ε)), independent of total system size N."
+  ],
+  "whyItMatters": "Simulating quantum thermal states is a core bottleneck in physics. Knowing that 1D spin chains equilibrate in logarithmic time proves that preparing these thermal states on quantum computers is remarkably efficient.",
+  "eli5": "Imagine a row of dominoes trying to settle into a relaxed state. Even if the row is millions of dominoes long, the time it takes for thermal chaos to settle down only grows as the logarithm of its length—meaning it happens astonishingly fast.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Modified Logarithmic Sobolev Inequality",
+    "shortDef": "A functional inequality used to bound the exponential rate of convergence of a Markovian semigroup.",
+    "eli5Def": "A mathematical ruler that measures how rapidly a system forgets its past and settles into equilibrium.",
+    "wikiTitle": "Logarithmic Sobolev inequality"
+   },
+   {
+    "term": "Gibbs sampler",
+    "shortDef": "An algorithm that generates samples from a system's thermal equilibrium distribution.",
+    "eli5Def": "A computerized recipe that simulates how physical particles arrange themselves when settled at a specific temperature.",
+    "wikiTitle": "Gibbs sampling"
+   },
+   {
+    "term": "Spin chain",
+    "shortDef": "A 1D lattice model where quantum spins interact with their neighbors.",
+    "eli5Def": "A straight line of tiny atomic magnets interacting with one another.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Mixing time",
+    "shortDef": "The time required for a stochastic process to become close to its stationary equilibrium state.",
+    "eli5Def": "How long you need to wait before a scrambled system looks completely randomized or settled.",
+    "wikiTitle": "Markov chain mixing time"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

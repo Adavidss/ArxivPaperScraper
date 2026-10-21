@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T11:58:32.337Z",
+ "generatedAt": "2026-10-21T12:13:41.346Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -40,6 +40,46 @@
     "On PPT entanglement distillation"
    ],
    "paperCount": 5
+  },
+  {
+   "name": "Lauriane Chomaz",
+   "slug": "lauriane-chomaz",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "cond-mat.quant-gas"
+   ],
+   "paperIds": [
+    "2610.28621",
+    "2609.09129",
+    "2608.27322"
+   ],
+   "recentTitles": [
+    "Characterizing supersolid phase transitions in trapped quantum gases with tilted dipoles at finite temperature",
+    "Anderson orthogonality scaling in the Rabi-driven heavy Fermi polaron"
+   ],
+   "paperCount": 4
+  },
+  {
+   "name": "Li Gao",
+   "slug": "li-gao",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2610.28600",
+    "2610.02134",
+    "2609.24953"
+   ],
+   "recentTitles": [
+    "Complete Modified Logarithmic Sobolev Inequalities for one-dimensional quantum Spin Chain",
+    "A Generalized quantum Stein lemma on von Neumann algebras"
+   ],
+   "paperCount": 4
   },
   {
    "name": "Jong Yeon Lee",
@@ -158,44 +198,6 @@
    "recentTitles": [
     "Quantum dynamics of spin systems using quantum-like resources",
     "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
-   ],
-   "paperCount": 2
-  },
-  {
-   "name": "Vinit Singh",
-   "slug": "vinit-singh",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "SABRE"
-   ],
-   "viaCategories": [],
-   "paperIds": [
-    "2609.33617",
-    "2608.08798"
-   ],
-   "recentTitles": [
-    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies",
-    "Symmetry Constraints Regularize Neural Quantum State Learning"
-   ],
-   "paperCount": 2
-  },
-  {
-   "name": "Manas Sajjan",
-   "slug": "manas-sajjan",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "SABRE"
-   ],
-   "viaCategories": [],
-   "paperIds": [
-    "2609.33617",
-    "2608.08798"
-   ],
-   "recentTitles": [
-    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies",
-    "Symmetry Constraints Regularize Neural Quantum State Learning"
    ],
    "paperCount": 2
   }

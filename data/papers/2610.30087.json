@@ -1,0 +1,83 @@
+{
+ "id": "2610.30087",
+ "version": 1,
+ "title": "Injection is all you need: parallel universal logic in high-rate concatenated self-dual codes",
+ "authors": [
+  {
+   "name": "Joseph Sullivan"
+  },
+  {
+   "name": "David Amaro"
+  },
+  {
+   "name": "Michael A. Perlin"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-21T17:34:04Z",
+ "updated": "2026-10-21T17:34:04Z",
+ "abstract": "We propose a quantum architecture that achieves addressable and parallel universal fault-tolerant logical in high-rate codes. The codes are obtained from the flexible concatenation of small-distance high-rate self-dual CSS codes. Addressable and parallel universal logic on the resulting $K$ logical qubits is injected by fault-tolerantly preparing and then consuming diverse logical $K$-qubit CSS stabilizer states and logical $\\lvert H \\rangle^{\\otimes K}$ global magic states. Flag-at-origin is used to prepare the stabilizer resource states while a concatenated cultivation protocol prepares the global magic states. These resource states are consumed by Steane-QEC or Knill-QEC teleportation gadgets, which simultaneously perform quantum error correction. Any quantum algorithm with $T$-depth $D_T$ can be executed by consuming $12D_T$ or fewer resource states. We benchmark the fault-tolerant preparation of the resource states for several two-level concatenations of the $[[k+4,k,2]]$ H codes and the Hamming $[[15,7,3]]$ code. In particular, we find that the concatenated cultivation offers at least one order of magnitude spacetime reduction compared to cultivation in the surface code.",
+ "comment": "21 pages, 13 figues",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.30087",
+  "pdf": "https://arxiv.org/pdf/2610.30087",
+  "html": "https://arxiv.org/html/2610.30087"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.30087v1/main_figure_v3.5.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-22T12:16:19.335Z",
+  "hook": "Concatenated cultivation offers at least one order of magnitude spacetime reduction compared to surface codes.",
+  "tldr": [
+   "Proposed a quantum architecture achieving parallel universal fault-tolerant logic in high-rate codes.",
+   "Used flexible concatenation of small-distance self-dual CSS codes and resource state injection.",
+   "Found at least an order of magnitude spacetime reduction compared to standard surface code cultivation."
+  ],
+  "whyItMatters": "Running large quantum algorithms requires vast amounts of time and physical hardware. Finding ways to drastically reduce this 'spacetime' overhead brings practical fault-tolerant quantum computers much closer to reality.",
+  "eli5": "Building a reliable quantum computer is like building a massive, error-free puzzle out of shaky pieces. Scientists figured out a smarter blueprint that takes up ten times less time and space than the previous standard method.",
+  "keyNumbers": [
+   {
+    "value": "12",
+    "label": "Maximum T-depth multiplier",
+    "context": "Any quantum algorithm with T-depth D_T consumes 12 D_T or fewer resource states."
+   },
+   {
+    "value": "15",
+    "label": "Code length",
+    "context": "Benchmark uses the Hamming [[15,7,3]] code."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "CSS codes",
+    "shortDef": "A major class of quantum error-correcting codes named after Calderbank, Shor, and Steane.",
+    "eli5Def": "A popular recipe for building quantum error-correcting shields.",
+    "wikiTitle": "CSS code"
+   },
+   {
+    "term": "Magic states",
+    "shortDef": "Special quantum states required to perform universal operations that standard gates cannot do alone.",
+    "eli5Def": "Special super-powered puzzle pieces that unlock the trickiest quantum computing moves.",
+    "wikiTitle": "Magic state distillation"
+   },
+   {
+    "term": "Surface code",
+    "shortDef": "A leading two-dimensional topological quantum error-correcting code architecture.",
+    "eli5Def": "The current heavy-duty grid layout most scientists use to protect quantum bits.",
+    "wikiTitle": "Surface code"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

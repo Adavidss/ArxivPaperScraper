@@ -1,0 +1,81 @@
+{
+ "id": "2610.30088",
+ "version": 1,
+ "title": "The strengthened quantum Hamming bound of Yu, Lai, and Oh",
+ "authors": [
+  {
+   "name": "Valery"
+  },
+  {
+   "name": "Grishin"
+  },
+  {
+   "name": "Aryeh Lev Zabokritskiy"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-21T17:35:31Z",
+ "updated": "2026-10-21T17:35:31Z",
+ "abstract": "We prove a conjecture of Yu, Lai, and Oh: their rounded family of strengthened quantum Hamming bounds, which interpolates between Hamming-type bounds and the Singleton bound, holds for arbitrary exact quantum subspaces of dimension $K>1$. The result covers every integer local dimension $p\\ge2$, every integer $t\\ge1$, both distances $2t+1$ and $2t+2$, and every interpolation parameter $e\\in\\{0,\\ldots,t\\}$. Yu, Lai, and Oh proved these bounds for pure codes and for general codes of distance three or four; the case $e=0$ contains the ordinary quantum Hamming bound for general codes, recently proved by Zhang and Chen. More generally, for $p\\ge3$, we prove the inequality $Kf(0)\\le p^n\\mathbb{E}f(X)$, where $X\\sim\\operatorname{Bin}(n,1-p^{-2})$, for every real polynomial $f$ of degree at most $D$, with $2\\le D<d$, that is nonnegative on $\\{0,\\ldots,n\\}$ and positive at zero; here $n$ and $d$ are the code length and distance.",
+ "comment": "106 pages; computational certificates and reproduction code: https://doi.org/10.5281/zenodo.23535642",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.30088",
+  "pdf": "https://arxiv.org/pdf/2610.30088",
+  "html": "https://arxiv.org/html/2610.30088"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-22T12:16:19.335Z",
+  "hook": "We prove a conjecture of Yu, Lai, and Oh for arbitrary exact quantum subspaces of dimension K>1.",
+  "tldr": [
+   "Proved a conjecture by Yu, Lai, and Oh regarding a rounded family of strengthened quantum Hamming bounds.",
+   "Used mathematical proofs covering every integer local dimension, distance, and interpolation parameter.",
+   "Showed the bounds hold for arbitrary exact quantum subspaces of dimension greater than one."
+  ],
+  "whyItMatters": "Quantum error correction relies heavily on theoretical bounds to understand how much information can be safely stored. Confirming this major conjecture strengthens the mathematical foundation for designing better quantum codes.",
+  "eli5": "Imagine trying to pack as many secret messages as possible into a box without them getting mixed up. Mathematicians just proved a strict rulebook for how tightly you can pack quantum messages without errors ruining everything.",
+  "keyNumbers": [
+   {
+    "value": "1",
+    "label": "Minimum dimension offset",
+    "context": "The dimension K is strictly greater than 1."
+   },
+   {
+    "value": "2",
+    "label": "Minimum local dimension",
+    "context": "The integer local dimension p is greater than or equal to 2."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum Hamming bound",
+    "shortDef": "A fundamental limit on how many errors a quantum error-correcting code can fix.",
+    "eli5Def": "A rule that tells scientists the absolute maximum number of backup quantum fixes they can squeeze into a code.",
+    "wikiTitle": "Hamming bound"
+   },
+   {
+    "term": "Singleton bound",
+    "shortDef": "Another core mathematical limit relating the size, length, and distance of error-correcting codes.",
+    "eli5Def": "A different rulebook limit that caps how efficient a code can possibly be.",
+    "wikiTitle": "Singleton bound"
+   },
+   {
+    "term": "Exact quantum subspaces",
+    "shortDef": "Specific vector spaces used to represent valid quantum states in error correction.",
+    "eli5Def": "Specific, perfectly neat zones of quantum possibilities where we store our information.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

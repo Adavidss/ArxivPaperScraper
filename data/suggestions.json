@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T12:13:41.346Z",
+ "generatedAt": "2026-10-22T12:16:19.335Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -42,6 +42,46 @@
    "paperCount": 5
   },
   {
+   "name": "Stephen J. DeVience",
+   "slug": "stephen-j-devience",
+   "score": 5,
+   "coAuthoredWith": [
+    "john-w-blanchard",
+    "ronald-walsworth"
+   ],
+   "viaKeywords": [
+    "NV NMR"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2610.24815"
+   ],
+   "recentTitles": [
+    "Low-Field J-Coupling Spectroscopy Measured with a Diamond Nitrogen Vacancy Spectrometer"
+   ],
+   "paperCount": 1
+  },
+  {
+   "name": "Camille G. McDonnell",
+   "slug": "camille-g-mcdonnell",
+   "score": 5,
+   "coAuthoredWith": [
+    "john-w-blanchard",
+    "ronald-walsworth"
+   ],
+   "viaKeywords": [
+    "NV NMR"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2610.24815"
+   ],
+   "recentTitles": [
+    "Low-Field J-Coupling Spectroscopy Measured with a Diamond Nitrogen Vacancy Spectrometer"
+   ],
+   "paperCount": 1
+  },
+  {
    "name": "Lauriane Chomaz",
    "slug": "lauriane-chomaz",
    "score": 4,
@@ -78,26 +118,6 @@
    "recentTitles": [
     "Complete Modified Logarithmic Sobolev Inequalities for one-dimensional quantum Spin Chain",
     "A Generalized quantum Stein lemma on von Neumann algebras"
-   ],
-   "paperCount": 4
-  },
-  {
-   "name": "Jong Yeon Lee",
-   "slug": "jong-yeon-lee",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2610.22357",
-    "2610.20591",
-    "2609.11930"
-   ],
-   "recentTitles": [
-    "Stability of Quantum LDPC States under Local Pauli Noise",
-    "Logical CCZ state cultivation"
    ],
    "paperCount": 4
   },
@@ -181,25 +201,6 @@
     "Quantum Channel Stein Theorem beyond Definite Causal Order"
    ],
    "paperCount": 4
-  },
-  {
-   "name": "Ethan Dickey",
-   "slug": "ethan-dickey",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "SABRE"
-   ],
-   "viaCategories": [],
-   "paperIds": [
-    "2610.07308",
-    "2609.14620"
-   ],
-   "recentTitles": [
-    "Quantum dynamics of spin systems using quantum-like resources",
-    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
-   ],
-   "paperCount": 2
   }
  ]
 }

@@ -1,0 +1,77 @@
+{
+ "id": "2610.28847",
+ "version": 1,
+ "title": "DSINC beyond Heston: the 3/2 and other non-affine stochastic-volatility models",
+ "authors": [
+  {
+   "name": "Andrey Itkin"
+  }
+ ],
+ "categories": [
+  "q-fin.CP",
+  "math.NA",
+  "q-fin.MF",
+  "q-fin.PR"
+ ],
+ "primaryCategory": "q-fin.CP",
+ "published": "2026-10-20T19:20:16Z",
+ "updated": "2026-10-20T19:20:16Z",
+ "abstract": "This paper extends the damped-sinc (DSINC) method for American options beyond the affine Heston class to general one-factor stochastic-volatility models. We show that the collapse identity, which reduces the early-exercise integral to a single spectral integral, remains valid for these models. Damping between zero and one is admissible whenever the discounted spot is a nonnegative local martingale. An Itô transformation of the volatility factorizes the conditional characteristic function and identifies a natural coordinate for approximating the exercise boundary. The 3/2 model admits closed-form joint transforms in terms of Kummer functions, while uncorrelated SABR admits a Bessel representation. When a practical closed-form transform is unavailable, the required volatility integral is computed directly by solving one backward equation per frequency, without a grid in the log-price. Through a known change of volatility coordinate, this approach also accommodates correlated SABR. Tests on the 3/2, SABR, GARCH and lognormal-volatility models show agreement with fine finite-difference benchmarks to within one basis point of the strike. Computational cost is comparable to or lower than that of our finite-difference implementation, except for the slower Hankel implementation of uncorrelated SABR.",
+ "comment": "35 pages, 2 figures, 11 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.28847",
+  "pdf": "https://arxiv.org/pdf/2610.28847",
+  "html": "https://arxiv.org/html/2610.28847"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.28847v1/dsinc32_moments.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-22T12:16:19.335Z",
+  "hook": "We extend the damped-sinc method for American options beyond the affine Heston class to general stochastic volatility models.",
+  "tldr": [
+   "Extended the damped-sinc (DSINC) method for pricing American options to general one-factor stochastic-volatility models.",
+   "Demonstrated that the collapse identity remains valid, reducing the early-exercise integral to a single spectral integral.",
+   "Tested on 3/2, SABR, GARCH, and lognormal models, matching fine finite-difference benchmarks within one basis point."
+  ],
+  "whyItMatters": "Accurately pricing financial options under realistic market conditions is notoriously difficult and computationally expensive. This mathematical advance provides fast, highly accurate option pricing for a much broader family of market models.",
+  "eli5": "Financial options let you buy or sell stocks at a set price later. Figuring out the fair price when market volatility bounces around randomly is tricky. This paper provides a clever mathematical shortcut to calculate these prices much faster without losing accuracy.",
+  "keyNumbers": [
+   {
+    "value": "one basis point",
+    "label": "Benchmark Agreement",
+    "context": "Test model results matched fine finite-difference benchmarks to within one basis point of the strike."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Stochastic volatility",
+    "shortDef": "A modeling approach where the volatility of a stock is treated as a random process rather than a constant.",
+    "eli5Def": "Treating the unpredictability of the stock market as its own rolling wave of random change.",
+    "wikiTitle": "Stochastic volatility"
+   },
+   {
+    "term": "American option",
+    "shortDef": "A financial derivative contract that can be exercised at any time before its expiration date.",
+    "eli5Def": "A ticket that lets you buy or sell a stock whenever you want before a certain deadline.",
+    "wikiTitle": "American option"
+   },
+   {
+    "term": "Martingale",
+    "shortDef": "A sequence of random variables where the expected future value equals the present value.",
+    "eli5Def": "A fair game where, on average, you expect neither to win nor lose money in the future.",
+    "wikiTitle": "Martingale (probability theory)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

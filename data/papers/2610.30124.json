@@ -1,0 +1,78 @@
+{
+ "id": "2610.30124",
+ "version": 1,
+ "title": "Phonon-assisted free-electron recoil control and mechanical sensing",
+ "authors": [
+  {
+   "name": "Sunjun Hwang"
+  },
+  {
+   "name": "Lee Wei Wesley Wong"
+  },
+  {
+   "name": "Liang Jie Wong"
+  },
+  {
+   "name": "Leong Chuan Kwek"
+  }
+ ],
+ "categories": [
+  "physics.optics",
+  "cond-mat.other",
+  "hep-th",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.optics",
+ "published": "2026-10-21T17:57:51Z",
+ "updated": "2026-10-21T17:57:51Z",
+ "abstract": "Mechanical vibrations are fundamental to a wide range of physical phenomena and technologies, yet their ability to actively shape free-electron dynamics remains largely unexplored. Here we theoretically show how an optomechanical membrane provides a phonon-assisted optical interface for controlling free-electron recoil and sensing localized forces. Transverse membrane motion scatters cavity light into high-momentum evanescent sidebands that enable phase-matched interaction with electrons traveling in vacuum. Beyond supplying momentum for phase matching, the vibration amplitude controls the electron-light interaction strength and redistributes electron populations among recoil orders. External forces that perturb the vibration are thereby encoded in the electron recoil spectrum. Under the modeled conditions, electron readout of localized stochastic forces can yield a higher signal-to-noise ratio than a Gaussian optical homodyne benchmark at equal detected probe rates. These results provide a theoretical basis for mechanically reconfigurable free-electron optics and mode-selective mechanical sensing.",
+ "comment": "22 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.30124",
+  "pdf": "https://arxiv.org/pdf/2610.30124",
+  "html": "https://arxiv.org/html/2610.30124"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.30124v1/Fig_1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-22T12:16:19.335Z",
+  "hook": "Mechanical membrane vibrations scatter cavity light into evanescent sidebands to interact phase-matchably with free electrons.",
+  "tldr": [
+   "Theoretically showed how an optomechanical membrane provides a phonon-assisted optical interface for free electrons.",
+   "Used transverse membrane motion to scatter cavity light into high-momentum evanescent sidebands for vacuum electrons.",
+   "Demonstrated that electron readout of localized stochastic forces can yield higher signal-to-noise than optical homodyne."
+  ],
+  "whyItMatters": "Combining mechanical vibrations with free-electron beams opens up entirely new ways to manipulate particle beams and sense tiny physical forces with unprecedented precision.",
+  "eli5": "Imagine using a tiny vibrating drumhead to bounce laser light into a specialized pattern that grabs passing beams of electrons. By watching how the electrons bounce off the light, you can measure ultra-weak forces shaking the drum.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Evanescent sidebands",
+    "shortDef": "Optical fields that decay exponentially away from an interface rather than propagating as standard waves.",
+    "eli5Def": "Light waves that hug a surface tightly instead of shining out into space.",
+    "wikiTitle": "Evanescent wave"
+   },
+   {
+    "term": "Phase-matched interaction",
+    "shortDef": "An interaction condition where wave phases align to achieve efficient energy or momentum transfer.",
+    "eli5Def": "Pushing a swing at the exact right moment so every tiny nudge adds up effectively.",
+    "wikiTitle": "Phase matching"
+   },
+   {
+    "term": "Optomechanical",
+    "shortDef": "Pertaining to the interaction between light and mechanical motion via radiation pressure or optical forces.",
+    "eli5Def": "Using lasers to push, measure, or control tiny moving mechanical objects.",
+    "wikiTitle": "Cavity optomechanics"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

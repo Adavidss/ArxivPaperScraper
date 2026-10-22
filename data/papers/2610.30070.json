@@ -1,0 +1,87 @@
+{
+ "id": "2610.30070",
+ "version": 1,
+ "title": "A random sampling method to test the weak Eigenstate Thermalization Hypothesis",
+ "authors": [
+  {
+   "name": "Nicolaus A. Chlanda"
+  },
+  {
+   "name": "John Keim"
+  },
+  {
+   "name": "Isabel Martinez-Robles"
+  },
+  {
+   "name": "Sarah E. Spielman"
+  },
+  {
+   "name": "Thomas J. Carroll"
+  },
+  {
+   "name": "Michael W. Noel"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-21T17:26:46Z",
+ "updated": "2026-10-21T17:26:46Z",
+ "abstract": "We introduce a random sampling method for testing the weak Eigenstate Thermalization Hypothesis (wETH) that is particularly useful for large, sparse Hamiltonians. We test the method on a well-studied Rydberg atom system that exhibits both two- and three-body dipole-dipole interactions. Our results show that our method allows for the study of system sizes significantly beyond the limits of exact diagonalization. We find that the fluctuations in eigenstate expectation values decay as the Hilbert space dimension $D^{-1/2}$, consistent with wETH and in agreement with previous numerical results.",
+ "comment": "initial version",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.30070",
+  "pdf": "https://arxiv.org/pdf/2610.30070",
+  "html": "https://arxiv.org/html/2610.30070"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.30070v1/flowchartvertical.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-22T12:16:19.335Z",
+  "hook": "Fluctuations in eigenstate expectation values decay as the Hilbert space dimension D^(-1/2).",
+  "tldr": [
+   "Introduced a random sampling method for testing the weak Eigenstate Thermalization Hypothesis (wETH).",
+   "Tested the method on a Rydberg atom system exhibiting two- and three-body dipole-dipole interactions.",
+   "Showed fluctuations decay as D^(-1/2), matching wETH and previous numerical results."
+  ],
+  "whyItMatters": "Understanding how isolated quantum systems heat up and reach thermal equilibrium is crucial for statistical mechanics and quantum computing. This new method lets scientists study much larger systems than ever before.",
+  "eli5": "When a drop of ink hits water, it spreads out evenly until everything is mixed. This study looks at how quantum systems similarly mix themselves up, using a clever random shortcut to study massive systems computers usually choke on.",
+  "keyNumbers": [
+   {
+    "value": "-1/2",
+    "label": "Decay exponent",
+    "context": "Fluctuations in eigenstate expectation values decay as the Hilbert space dimension D raised to -1/2."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Eigenstate Thermalization Hypothesis",
+    "shortDef": "A hypothesis explaining how isolated quantum systems manage to thermalize on their own.",
+    "eli5Def": "The rulebook for how a quantum system naturally mixes itself up like hot soup until it becomes uniform.",
+    "wikiTitle": "Eigenstate thermalization hypothesis"
+   },
+   {
+    "term": "Exact diagonalization",
+    "shortDef": "A brute-force computational method to find all energy eigenstates of a quantum Hamiltonian.",
+    "eli5Def": "Calculating every single possible energy state of a system directly, which becomes impossible for large systems.",
+    "wikiTitle": "Exact diagonalization"
+   },
+   {
+    "term": "Hilbert space",
+    "shortDef": "The abstract mathematical space where all possible quantum states of a system live.",
+    "eli5Def": "A giant multidimensional map containing every single combination of what a quantum system could possibly do.",
+    "wikiTitle": "Hilbert space"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

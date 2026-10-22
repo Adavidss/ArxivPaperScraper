@@ -1,0 +1,78 @@
+{
+ "id": "2610.30098",
+ "version": 1,
+ "title": "Pure dephasing destroys two-photon amplitude, not nonlinear phase",
+ "authors": [
+  {
+   "name": "Matthew Kozma"
+  },
+  {
+   "name": "Stephen Hughes"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-21T17:45:34Z",
+ "updated": "2026-10-21T17:45:34Z",
+ "abstract": "A two-level emitter chirally coupled to a waveguide imprints a $π$ conditional phase on a two-photon pulse, a key component assumed in quantum photonic neural network architectures, but whether it survives the pure dephasing of a solid-state emitter is unknown, since no two-photon scattering treatment includes it. We derive the dephased two-photon amplitude in closed form and validate it against an independent Fock-state master equation. The conditional phase is pinned at exactly $π$ at every dephasing rate examined: dephasing destroys the amplitude carrying the nonlinear phase rather than rotating it. The one- and two-photon channels are not attenuated equally, so dephasing does not simply scale the node down but reweights it between photon-number sectors---an error no phase setting can train away. The standard factorization of two-photon correlators, exact for arbitrary loss, fails at first order in $γ_φ$, discarding $16$--$81\\%$ of pairs over $γ_φ/γ=0.1$--$1$.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.30098",
+  "pdf": "https://arxiv.org/pdf/2610.30098",
+  "html": "https://arxiv.org/html/2610.30098"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-22T12:16:19.335Z",
+  "hook": "Pure dephasing destroys the two-photon amplitude carrying the nonlinear phase rather than rotating the conditional phase itself.",
+  "tldr": [
+   "Derived the dephased two-photon amplitude in closed form for a chirally coupled two-level emitter in a waveguide.",
+   "Found that the conditional phase remains pinned at exactly pi regardless of the dephasing rate.",
+   "Demonstrated that standard factorization of two-photon correlators fails at first order in gamma_phi, discarding pairs."
+  ],
+  "whyItMatters": "Solid-state quantum networks rely on precise photon-photon interactions to build quantum logic gates. Understanding how environmental noise alters these quantum states prevents costly errors in quantum computer designs.",
+  "eli5": "When building quantum computers with light particles, background noise usually ruins everything. Researchers discovered that while noise shrinks the number of usable photon pairs, the core quantum phase shift remains stubbornly intact.",
+  "keyNumbers": [
+   {
+    "value": "16--81%",
+    "label": "Discarded Pairs",
+    "context": "Percentage of photon pairs discarded when standard factorization fails over gamma_phi/gamma ranges from 0.1 to 1."
+   },
+   {
+    "value": "0.1--1",
+    "label": "Dephasing Ratio",
+    "context": "The range of gamma_phi/gamma ratios over which correlator breakdown was evaluated."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Pure dephasing",
+    "shortDef": "Loss of quantum phase coherence without exchanging energy with the environment.",
+    "eli5Def": "Losing your synchronized timing with others without actually losing any energy.",
+    "wikiTitle": "Dephasing"
+   },
+   {
+    "term": "Waveguide",
+    "shortDef": "A structure that physically guides waves, such as light or microwaves, with minimal loss.",
+    "eli5Def": "A microscopic pipe that steers light particles in a specific direction.",
+    "wikiTitle": "Waveguide"
+   },
+   {
+    "term": "Conditional phase",
+    "shortDef": "A phase shift applied to a quantum state only when a specific control condition is met.",
+    "eli5Def": "A mathematical adjustment that happens to particles only when a specific partner is present.",
+    "wikiTitle": "Quantum logic gate"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

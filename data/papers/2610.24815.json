@@ -1,0 +1,98 @@
+{
+ "id": "2610.24815",
+ "version": 1,
+ "title": "Low-Field J-Coupling Spectroscopy Measured with a Diamond Nitrogen Vacancy Spectrometer",
+ "authors": [
+  {
+   "name": "Stephen J. DeVience"
+  },
+  {
+   "name": "John W. Blanchard",
+   "followedId": "john-w-blanchard"
+  },
+  {
+   "name": "Camille G. McDonnell"
+  },
+  {
+   "name": "Ronald L. Walsworth",
+   "followedId": "ronald-walsworth"
+  }
+ ],
+ "categories": [
+  "physics.chem-ph",
+  "physics.app-ph",
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.chem-ph",
+ "published": "2026-10-17T18:44:44Z",
+ "updated": "2026-10-17T18:44:44Z",
+ "abstract": "Nitrogen vacancy centers in diamond (NVs) are point defects well suited to quantum sensing of magnetic fields. NV spin states can be initialized and read out optically with high spatial resolution, enabling detection of pL-scale volumes of nuclear spins. Using Coherently Averaged Synchronized Readout (CASR), standard NMR spectroscopy techniques such as free decay, spin echo, and PGSE have been performed with Hz-scale spectral resolution using NV-diamond sensors. However, using NV detection for conventional high-resolution NMR at multi-tesla fields is challenging due to the need to manipulate NV electronic spins at resonance frequencies 100 GHz or higher. Low-field J-coupling spectroscopy provides an alternative path to chemical resolution in a regime more easily accessible to NVs. Here, we demonstrate homonuclear and heteronuclear J-coupling spectroscopy using an NV-NMR spectrometer based on permanent magnets operating at $\\sim$890 kHz proton Larmor frequency (bias magnetic field $\\sim$21 mT). This field strength enables chemical characterization based on J-coupling using sequences such as Synchronized Echo (SyncE) and Spin-Echo Double Resonance (SEDOR), which do not require the strong chemical shift dispersion and pristine field homogeneity of high-field NMR. The frequency range is easily detected by NVs using standard XY dynamical decoupling sequences and is well-suited for applying Overhauser DNP, which can boost proton signal by two orders of magnitude. We acquire initial NV-NMR measurements of T$_1$, T$_2$, and Overhauser DNP in glycerol before advancing to SEDOR spectroscopy of methanol-$^{13}$C and a methanol-$^{13}$C/acetonitrile-2-$^{13}$C mixture at sample volumes $\\sim$50 pL, in which we demonstrate measurement of $^1J_\\text{CH}$ couplings and resolution between species. We also acquire a homonuclear J-coupling spectrum of a natural-abundance propylene carbonate sample.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.24815",
+  "pdf": "https://arxiv.org/pdf/2610.24815",
+  "html": "https://arxiv.org/html/2610.24815"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "NV NMR"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.24815v1/casr_a.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-22T12:16:19.335Z",
+  "hook": "We demonstrate low-field J-coupling spectroscopy of pL-scale sample volumes using a diamond NV spectrometer at 890 kHz.",
+  "tldr": [
+   "Performed homonuclear and heteronuclear J-coupling NMR spectroscopy using diamond nitrogen-vacancy (NV) sensors.",
+   "Used a permanent magnet bias field of ~21 mT (~890 kHz proton Larmor frequency) to bypass high-field manipulation hurdles.",
+   "Acquired NV-NMR measurements of T1, T2, Overhauser DNP in glycerol, and SEDOR spectroscopy in pL-scale methanol mixtures."
+  ],
+  "whyItMatters": "Traditional high-field NMR requires massive magnets and complex high-frequency equipment, making it tough to study tiny volumes. This low-field diamond-based approach offers a portable, microscopic route to chemical analysis.",
+  "eli5": "Imagine trying to listen to a tiny whisper in a loud stadium; that is like using massive magnets for tiny liquid samples. Instead, these researchers built a miniature sensor out of a synthetic diamond defect that sits right next to the droplet, listening closely at a much lower frequency.",
+  "keyNumbers": [
+   {
+    "value": "~890 kHz",
+    "label": "Proton Larmor Frequency",
+    "context": "Operating frequency of the permanent magnets used for the spectrometer bias field."
+   },
+   {
+    "value": "~21 mT",
+    "label": "Bias Magnetic Field",
+    "context": "Magnetic field strength providing an accessible regime for NV-based J-coupling."
+   },
+   {
+    "value": "~50 pL",
+    "label": "Sample Volumes",
+    "context": "Picoliter-scale volumes used for methanol-13C and acetonitrile mixture experiments."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Nitrogen vacancy center",
+    "shortDef": "A point defect in diamond where a carbon atom is replaced by nitrogen next to a vacant lattice site.",
+    "eli5Def": "A tiny imperfection in a diamond crystal that acts like a microscopic magnetic compass and sensor.",
+    "wikiTitle": "Nitrogen-vacancy center"
+   },
+   {
+    "term": "J-coupling",
+    "shortDef": "Indirect spin-spin coupling mediated through chemical bonds between nuclear spins.",
+    "eli5Def": "The subtle magnetic chatter between neighboring atoms inside a molecule that reveals its chemical structure.",
+    "wikiTitle": "J-coupling"
+   },
+   {
+    "term": "Overhauser DNP",
+    "shortDef": "Dynamic nuclear polarization technique transferring polarization from electron spins to nuclear spins.",
+    "eli5Def": "A method using electrons to give nearby atomic nuclei a strong magnetic boost, making them much easier to detect.",
+    "wikiTitle": "Dynamic nuclear polarization"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

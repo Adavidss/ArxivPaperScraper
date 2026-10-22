@@ -1,0 +1,81 @@
+{
+ "id": "2610.30071",
+ "version": 1,
+ "title": "Inaccessibility of the Cosmological Singularity to Quantum Probes",
+ "authors": [
+  {
+   "name": "Vishnulal Cheriyodathillathu"
+  },
+  {
+   "name": "Saurya Das"
+  },
+  {
+   "name": "Soumen Basak"
+  },
+  {
+   "name": "Tanmay Patil"
+  }
+ ],
+ "categories": [
+  "gr-qc",
+  "hep-th",
+  "quant-ph"
+ ],
+ "primaryCategory": "gr-qc",
+ "published": "2026-10-21T17:26:47Z",
+ "updated": "2026-10-21T17:26:47Z",
+ "abstract": "We propose an operational resolution of the FLRW big bang singularity using quantum probes satisfying a curvature coupled Klein-Gordon equation. Applying the Madelung-Bohm decomposition of a Klein-Gordon field on a classical near-singularity FLRW background, we show that the induced conformal geometry renders curvature invariants finite and makes past directed causal geodesics complete. The classical big bang surface is therefore inaccessible to this class of quantum probes in finite effective proper time, while the underlying FLRW spacetime remains singular.",
+ "comment": "5 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.30071",
+  "pdf": "https://arxiv.org/pdf/2610.30071",
+  "html": "https://arxiv.org/html/2610.30071"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-22T12:16:19.335Z",
+  "hook": "The classical big bang surface is inaccessible to quantum probes in finite effective proper time.",
+  "tldr": [
+   "Proposed an operational resolution of the FLRW big bang singularity using curvature-coupled quantum probes.",
+   "Applied the Madelung-Bohm decomposition of a Klein-Gordon field on a classical near-singularity background.",
+   "Found that induced conformal geometry makes curvature invariants finite and causal geodesics complete."
+  ],
+  "whyItMatters": "Einstein's classical physics breaks down at the beginning of the universe (the big bang singularity). Using quantum mechanics to show that this dangerous zone might be physically unreachable helps physicists make sense of cosmic beginnings.",
+  "eli5": "Imagine walking toward the edge of a cliff that stretches on forever into an impossible math error. This paper shows that if you look at the universe through quantum goggles, you never actually hit that broken edge.",
+  "keyNumbers": [
+   {
+    "value": "5",
+    "label": "Page count",
+    "context": "The length of the research paper is 5 pages."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "FLRW background",
+    "shortDef": "A standard expanding universe model used in cosmological descriptions of space and time.",
+    "eli5Def": "The standard mathematical backdrop scientists use to describe a stretching, expanding universe.",
+    "wikiTitle": "Friedmann–Lemaître–Robertson–Walker metric"
+   },
+   {
+    "term": "Madelung-Bohm decomposition",
+    "shortDef": "A mathematical rewriting of quantum wave equations into fluid-like hydrodynamic forms.",
+    "eli5Def": "Turning a complicated quantum wave equation into something that looks like flowing water.",
+    "wikiTitle": "Madelung equations"
+   },
+   {
+    "term": "Causal geodesics",
+    "shortDef": "Paths through spacetime that particles or light signals can travel along.",
+    "eli5Def": "The legal highways that light and matter are allowed to travel on through space and time.",
+    "wikiTitle": "Geodesics in general relativity"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

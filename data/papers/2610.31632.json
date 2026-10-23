@@ -1,0 +1,78 @@
+{
+ "id": "2610.31632",
+ "version": 1,
+ "title": "What does quantum parameter estimation estimate? A no-go result for true quantity values",
+ "authors": [
+  {
+   "name": "Jacques L. Pienaar"
+  },
+  {
+   "name": "Eran Tal"
+  },
+  {
+   "name": "Asya Ciftci"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-22T17:49:03Z",
+ "updated": "2026-10-22T17:49:03Z",
+ "abstract": "We examine the conditions under which quantum parameter estimation is compatible with the concept of a ``true'' quantity value: a unique value of the estimated quantity that exists prior to and independently of measurement. While quantum parameter estimation typically assumes that the quantity to be estimated is a parameter, we argue that this assumption can be lifted, opening the way to a more general formulation of estimation that may apply even in situations where the quantity to be estimated is no longer a parameter, but instead a quantum variable susceptible to quantum fluctuations. We identify three assumptions that characterize the way estimation is often presented in the quantum metrology literature, namely, as a procedure for inferring an unknown ``true value\", which is assumed to be unique and to exist prior to and independently of measurement. Using our more general framework, we prove a no-go theorem showing that the preceding assumptions are jointly incompatible with two further assumptions: the completeness of the quantum state (no `hidden variables'), and the presence of entanglement between the probe systems and the system under measurement. We note that the presence of such entanglement is a generic prediction of standard quantum theory. Consequently, if one is not willing to accept hidden variables, nor willing to modify standard quantum theory by introducing a new physical mechanism that destroys entanglement at some scale or regime, then a realist account of estimation is ultimately impossible.",
+ "comment": "20 pages, 2 figures. To appear in Coherentist Approaches to Quantum Metrology, Routledge Studies in the Philosophy of Mathematics and Physics (forthcoming)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.31632",
+  "pdf": "https://arxiv.org/pdf/2610.31632",
+  "html": "https://arxiv.org/html/2610.31632"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.31632v1/PE_circuit_simple.jpg"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-23T11:57:50.327Z",
+  "hook": "Standard quantum theory proves that quantum measurements cannot be revealing preexisting 'true values'.",
+  "tldr": [
+   "Formulated quantum parameter estimation for general quantum variables subject to fluctuations rather than fixed values.",
+   "Proved a no-go theorem combining standard quantum theory, complete states, and probe-system entanglement.",
+   "Showed a realist account of measurement discovering a unique preexisting true value is mathematically impossible."
+  ],
+  "whyItMatters": "It challenges the intuitive assumption that measuring something simply reveals what was already there, directly impacting how physicists interpret quantum metrology and precision sensors.",
+  "eli5": "Imagine stepping on a bathroom scale thinking it reveals your exact weight. This paper proves mathematically that in the quantum world, your true weight didn't even exist before the scale interacted with you.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "quantum parameter estimation",
+    "shortDef": "Inferring unknown physical quantities using quantum systems or probes.",
+    "eli5Def": "Using quantum probes to measure a tiny physical quantity as accurately as possible.",
+    "wikiTitle": "Quantum metrology"
+   },
+   {
+    "term": "no-go theorem",
+    "shortDef": "A theorem proving that an idea or physical description is mathematically impossible under given assumptions.",
+    "eli5Def": "A formal mathematical proof that says 'you cannot do this, no matter how hard you try.'",
+    "wikiTitle": "No-go theorem"
+   },
+   {
+    "term": "hidden variables",
+    "shortDef": "Hypothetical unseen properties proposed to restore classical determinism to quantum theory.",
+    "eli5Def": "Secret missing information that would fully decide an outcome before a measurement is made.",
+    "wikiTitle": "Hidden-variable theory"
+   },
+   {
+    "term": "quantum metrology",
+    "shortDef": "The study of performing high-resolution and highly sensitive measurements using quantum theory.",
+    "eli5Def": "The science of building ultra-precise rulers and clocks using the weird rules of quantum mechanics.",
+    "wikiTitle": "Quantum metrology"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

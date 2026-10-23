@@ -1,0 +1,119 @@
+{
+ "id": "2610.31554",
+ "version": 1,
+ "title": "ArcTN: Efficient Tensor-Network Contraction Planning for Quantum Circuit Simulation",
+ "authors": [
+  {
+   "name": "Zhengyi Liu"
+  },
+  {
+   "name": "Li Liu"
+  },
+  {
+   "name": "Songtao Liu"
+  },
+  {
+   "name": "Xianglong Liu"
+  },
+  {
+   "name": "Xiangzhen Zhou"
+  },
+  {
+   "name": "Mingyu Huang"
+  },
+  {
+   "name": "Dingchao Gao"
+  },
+  {
+   "name": "Shenggang Ying"
+  },
+  {
+   "name": "Ji Guan"
+  },
+  {
+   "name": "Bolong Chen"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.MS"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-22T16:58:31Z",
+ "updated": "2026-10-22T16:58:31Z",
+ "abstract": "Tensor-network simulation of quantum circuits depends on contraction orders with low computational cost and small intermediate tensors, found without excessive planning time. We present ArcTN, a contraction-order optimization framework with two search presets. Light keeps planning overhead low, and Heavy spends more effort on refinement. Both combine randomized-greedy construction, subtree reconfiguration, and parallel tempering with stage-specific stopping rules. ArcTN also provides Fixed and Dynamic slicing to meet tensor-size limits and executes the returned orders. On the 30 QC32 quantum-circuit networks completed by all eight compared configurations, Light reduces FLOPs by 61.32% and plans 1.62$\\times$ faster than Cotengra Auto/CMA-ES, and Heavy reduces FLOPs by 43.83% and plans 7.21$\\times$ faster than Cotengra AutoHQ/Optuna. Heavy also needs 11.85% fewer FLOPs than OMECO TreeSA-8 and plans 1.33$\\times$ faster. Dynamic slicing meets the size limits in all 90 runs on 18 scalar-output networks and reduces total sliced FLOPs by 31.99% relative to Fixed slicing, at the cost of longer planning. With a common NumPy executor, Heavy has the lowest combined planning and execution time among five configurations on the runs that all of them completed. On 672 networks built from 320 MQT Bench circuits, Heavy obtains the lowest geometric-mean FLOPs on the 142 large networks while planning 3.1$\\times$ and 31$\\times$ faster than Cotengra AutoHQ and Hyper128.",
+ "comment": "29 pages, 4 figures, 15 tables. Code and benchmarks: https://github.com/Quill-ArcLight/ArcTN",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.31554",
+  "pdf": "https://arxiv.org/pdf/2610.31554",
+  "html": "https://arxiv.org/html/2610.31554"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-23T11:57:50.327Z",
+  "hook": "ArcTN cuts quantum circuit simulation FLOPs by up to 61% while finding contraction paths over 7× faster.",
+  "tldr": [
+   "Created ArcTN, a framework that rapidly finds low-cost contraction orders and slices for simulating quantum circuits as tensor networks.",
+   "Combined randomized greedy search, subtree reconfiguration, parallel tempering, and dynamic slicing to stay within tensor memory limits.",
+   "Outperformed top tools like Cotengra and OMECO, cutting FLOPs substantially while speeding up path planning by up to 7.21×."
+  ],
+  "whyItMatters": "Classical simulation is vital for validating noisy quantum processors, but simulating large circuits consumes massive compute. Smarter contraction planning enables larger quantum circuits to be tested on ordinary classical supercomputers.",
+  "eli5": "Multiplying a huge pile of matrices is like solving a massive puzzle: the order in which you combine pieces determines whether your work fits on a desk or overflows the room. ArcTN quickly figures out the smartest order to assemble pieces so your computer does not run out of memory or waste time.",
+  "keyNumbers": [
+   {
+    "value": "61.32%",
+    "label": "FLOP reduction",
+    "context": "Achieved by ArcTN Light compared to Cotengra Auto/CMA-ES on 30 QC32 networks."
+   },
+   {
+    "value": "7.21×",
+    "label": "planning speedup",
+    "context": "Achieved by ArcTN Heavy over Cotengra AutoHQ/Optuna while reducing FLOPs by 43.83%."
+   },
+   {
+    "value": "31.99%",
+    "label": "sliced FLOP reduction",
+    "context": "Achieved by Dynamic slicing over Fixed slicing across 90 runs on 18 scalar-output networks."
+   },
+   {
+    "value": "31×",
+    "label": "planning speedup",
+    "context": "Achieved by Heavy compared to Cotengra Hyper128 on 142 large MQT Bench networks."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Tensor network",
+    "shortDef": "A mathematical structure representing high-dimensional quantum states via interconnected multi-index arrays.",
+    "eli5Def": "A grid-like map of numbers that efficiently breaks down very complex quantum problems into smaller connected chunks.",
+    "wikiTitle": "Tensor network"
+   },
+   {
+    "term": "Contraction order",
+    "shortDef": "The sequence in which tensors in a network are pairwise multiplied together.",
+    "eli5Def": "The sequence you choose to combine puzzle pieces so the intermediate blocks stay small and easy to handle.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Parallel tempering",
+    "shortDef": "A Markov chain Monte Carlo algorithm that swaps states across different temperatures to escape local minima.",
+    "eli5Def": "A search technique where different computer workers run hot or cold to jump out of dead ends and find the best solution.",
+    "wikiTitle": "Parallel tempering"
+   },
+   {
+    "term": "Slicing",
+    "shortDef": "Splitting tensor indices into independent subproblems to keep intermediate tensor sizes within memory bounds.",
+    "eli5Def": "Splitting a giant calculation into smaller slices so it fits comfortably inside computer memory.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

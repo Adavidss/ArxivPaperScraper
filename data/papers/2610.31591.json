@@ -1,0 +1,107 @@
+{
+ "id": "2610.31591",
+ "version": 1,
+ "title": "Screening strongly correlated materials in solid oxide cells with quantum simulation",
+ "authors": [
+  {
+   "name": "Ouns El Harzli"
+  },
+  {
+   "name": "Jelle Bor"
+  },
+  {
+   "name": "Linde Wester"
+  },
+  {
+   "name": "Leonid Zhukov"
+  },
+  {
+   "name": "Hanl Park"
+  },
+  {
+   "name": "Jean-François Bobier"
+  },
+  {
+   "name": "Matt Langione"
+  },
+  {
+   "name": "Antonino Marco Saitta"
+  },
+  {
+   "name": "Jonathan Owens"
+  },
+  {
+   "name": "Richard Hart"
+  },
+  {
+   "name": "Yudong Cao"
+  },
+  {
+   "name": "François Jamet"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mtrl-sci",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-22T17:26:29Z",
+ "updated": "2026-10-22T17:26:29Z",
+ "abstract": "We develop an end-to-end framework for assessing a quantum-computing application in industrial materials science: the screening of strongly correlated oxygen-electrode materials for SOFCs and SOECs. We formulate the materials problem in terms of interface observables including oxygen-vacancy formation energies, vacancy migration barriers, and electronic conductivity. We describe how these observables can be obtained using a diagrammatic GW-based embedding, either GW+DMFT or self-energy embedding theory (SEET), applied to a DFT-screened shortlist. The atomistic electrode/electrolyte interface defines the electronic structure problem from which the correlated impurity models are constructed. Quantum impurity solvers would provide the finite-temperature impurity Green's functions required by the embedding. The computational challenges that classical solvers may encounter as the interacting active space grows, together with the polynomial scaling of quantum Hamiltonian simulation for efficiently represented discretized models, open an opportunity for quantum advantage. We identify the benchmarks needed to assess this opportunity through convergence of vacancy and migration energetics and comparison with the best applicable classical solvers. We provide illustrative logical qubit counts and identify the thermal state preparation, simulation, measurement, and repeated-solve costs needed for a complete resource assessment. We connect microscopic observables to macroscopic engineering metrics using a continuum model for mixed ionic--electronic conducting oxygen electrodes that couples oxygen surface exchange, solid-state oxygen transport, electrode microstructure, and finite electrode thickness. Finally, we estimate the potential worldwide business value of improved electrode materials under SOFC and SOEC deployment scenarios informed by public technical targets and electrolyser deployment data.",
+ "comment": "52 pages and 4 figures, including 36 pages of main text",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.31591",
+  "pdf": "https://arxiv.org/pdf/2610.31591",
+  "html": "https://arxiv.org/html/2610.31591"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.31591v1/bulk_geometries.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-23T11:57:50.327Z",
+  "hook": "Quantum simulation could crack complex fuel cell interfaces that defeat classical computers.",
+  "tldr": [
+   "Created an end-to-end framework to assess quantum simulation for screening solid oxide fuel and electrolyser cells.",
+   "Mapped electrode-electrolyte interfaces using GW-based embeddings where quantum solvers handle correlated impurities.",
+   "Linked quantum resource requirements to macroscopic transport metrics and potential global business value."
+  ],
+  "whyItMatters": "Finding better materials for fuel cells and clean-hydrogen electrolyzers is crucial for the green transition, and quantum computers could break the bottleneck in simulating them accurately.",
+  "eli5": "Designing better hydrogen fuel cells requires understanding chemical reactions where electrons interact strongly. Classical supercomputers get bogged down, but quantum computers could model these reactions efficiently.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "SOFC / SOEC",
+    "shortDef": "Solid oxide fuel cells and solid oxide electrolyser cells for energy conversion and hydrogen generation.",
+    "eli5Def": "High-temperature devices that turn fuels into electricity or use clean power to produce hydrogen.",
+    "wikiTitle": "Solid oxide fuel cell"
+   },
+   {
+    "term": "GW+DMFT",
+    "shortDef": "An advanced electronic-structure method merging GW approximation with dynamical mean-field theory.",
+    "eli5Def": "A powerful computational method to simulate materials where electrons strongly influence one another.",
+    "wikiTitle": "Dynamical mean-field theory"
+   },
+   {
+    "term": "quantum advantage",
+    "shortDef": "Demonstrating that a quantum computer can solve a practical problem faster than any classical algorithm.",
+    "eli5Def": "The point where a quantum computer solves a real-world task better than any regular supercomputer.",
+    "wikiTitle": "Quantum supremacy"
+   },
+   {
+    "term": "impurity Green's functions",
+    "shortDef": "Correlation functions describing electron behavior in an embedded local quantum site.",
+    "eli5Def": "Mathematical tools that track how single electrons interact with the swarm of other particles nearby.",
+    "wikiTitle": "Green's function (many-body theory)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

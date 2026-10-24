@@ -1,0 +1,85 @@
+{
+ "id": "2610.31443",
+ "version": 1,
+ "title": "ConQEC: Concolic Testing for Quantum Error-Correcting Code Implementations",
+ "authors": [
+  {
+   "name": "Zihao Li"
+  },
+  {
+   "name": "Ji Guan"
+  },
+  {
+   "name": "Mingsheng Ying"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.SE"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-22T15:40:04Z",
+ "updated": "2026-10-22T15:40:04Z",
+ "abstract": "Quantum error-correcting code (QECC) implementations are hybrid software-control systems: measured syndromes drive decoder dispatch, recovery actions, and logical checks. Existing QECC verification techniques can prove formal obligations, and general quantum testing can expose final failures, but developers still lack a scalable testing workflow that generates concrete faults and explains where a QECC repair path first diverges. This paper presents ConQEC, to our knowledge the first concolic testing framework for QECC implementations. By combining concrete (Pauli) fault replay with symbolic repair-path constraints, ConQEC generates tests that expose not only final logical failures but also fault--syndrome--decoder--recovery (FSDR) diagnostics: the injected fault, observed syndrome, decoder decision, recovery action, oracle result, and earliest divergent stage. Its symbolic encoding of Pauli faults, syndrome predicates, decoder and recovery relations, and oracle checks enables this diagnostic workflow to scale beyond exponentially increasing amplitude-level quantum-state reasoning. We implemented ConQEC and evaluated it on generated source-level QECC families and public QECC artifacts with up to thousands of qubits. ConQEC detects the seeded bug in every experimental case and reports a replay-valid, fault-localizing FSDR witness for each.",
+ "comment": "12 pages. Accepted at the 49th IEEE/ACM International Conference on Software Engineering (ICSE 2027)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.31443",
+  "pdf": "https://arxiv.org/pdf/2610.31443",
+  "html": "https://arxiv.org/html/2610.31443"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.31443v1/ConQEC_workflow.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-24T11:27:59.209Z",
+  "hook": "ConQEC tests quantum error-correcting codes up to thousands of qubits, pinpointing exact points of decoder divergence.",
+  "tldr": [
+   "Built ConQEC, the first concolic testing framework for hybrid quantum error-correcting code implementations.",
+   "Combined concrete Pauli fault replays with symbolic repair-path constraints to bypass amplitude-level simulation.",
+   "Detected 100% of seeded bugs across QECC artifacts up to thousands of qubits, providing fault-localizing witnesses."
+  ],
+  "whyItMatters": "Quantum error correction involves complex classical software controlling quantum hardware. ConQEC automates debugging of these multi-thousand-qubit routines, preventing silent decoder bugs from destroying logical quantum calculations.",
+  "eli5": "Fixing quantum errors requires a classical computer program to read error signals and correct them. ConQEC acts like a specialized software debugger that traces the exact step where the error-fixing program misread a clue and took the wrong action.",
+  "keyNumbers": [
+   {
+    "value": "thousands",
+    "label": "qubits supported",
+    "context": "scale of public and synthetic QECC implementations successfully evaluated"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "concolic testing",
+    "shortDef": "A software verification method combining concrete execution with symbolic constraint solving.",
+    "eli5Def": "Testing software by running real inputs while keeping track of algebraic rules to find edge-case bugs.",
+    "wikiTitle": "Concolic testing"
+   },
+   {
+    "term": "quantum error-correcting code (QECC)",
+    "shortDef": "Techniques protecting quantum information from noise by distributing logical qubits across physical qubits.",
+    "eli5Def": "A strategy that spreads a fragile quantum secret across many physical qubits to shield it from errors.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "syndrome",
+    "shortDef": "The classical measurement outcomes identifying which errors occurred on physical qubits.",
+    "eli5Def": "A pattern of clue readings that points to which qubit experienced an error.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Pauli fault",
+    "shortDef": "Errors represented by Pauli operators (bit-flips, phase-flips, or both) on qubits.",
+    "eli5Def": "Standard quantum errors acting like bit flips (0 to 1) or phase twists.",
+    "wikiTitle": "Pauli matrices"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

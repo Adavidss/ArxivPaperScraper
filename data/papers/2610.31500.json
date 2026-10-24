@@ -1,0 +1,78 @@
+{
+ "id": "2610.31500",
+ "version": 1,
+ "title": "The Impact of Markovian Errors on Random Circuits",
+ "authors": [
+  {
+   "name": "Anthony M. Polloreno"
+  },
+  {
+   "name": "Timothy Proctor"
+  },
+  {
+   "name": "Robin Blume-Kohout"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-22T16:18:16Z",
+ "updated": "2026-10-22T16:18:16Z",
+ "abstract": "Randomized benchmarking (RB) returns a single decay parameter or gate error rate, but when the noise is gate-dependent that parameter is notoriously difficult to interpret. We study RB and related random-circuit benchmarks under small gate-local Markovian noise by factorizing each noisy gate into its ideal action followed by the exponential of a small error generator and then perturbing the RB $\\mathscr{L}$ matrix, which models the RB decay. For any low-error gate set that satisfies the requirements of RB (it is a sequence-asymptotic unitary 2-design), we show that Pauli-stochastic error rates contribute linearly to the RB decay parameter, while Hamiltonian error rates contribute through a gauge-invariant quadratic form. Pauli-correlation and active generators are absent from the linear term and enter only at higher order. For the single-qubit native gate set $\\{X_{π/2},Y_{π/2}\\}$ we derive this quadratic form explicitly in terms of three first-order gauge-invariant (FOGI) coordinates: the two intrinsic over-rotations and one relational axis-tilt error. The resulting formula explains the dependence of DRB on the sampling distribution and the compilation dependence of CRB. These results turn RB decay rates into interpretable functions of experimentally meaningful elementary error rates.",
+ "comment": "15 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.31500",
+  "pdf": "https://arxiv.org/pdf/2610.31500",
+  "html": "https://arxiv.org/html/2610.31500"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.31500v1/drb_curves_overlay.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-24T11:27:59.209Z",
+  "hook": "RB decay rates finally unmasked: random circuit benchmarking decomposed into gauge-invariant elementary error rates.",
+  "tldr": [
+   "Studied how gate-dependent, Markovian errors shape the single decay parameter in randomized benchmarking (RB).",
+   "Perturbed the RB transfer matrix using gate-local error generators for sequence-asymptotic unitary 2-designs.",
+   "Found Pauli-stochastic errors contribute linearly, while coherent Hamiltonian errors enter via a quadratic form."
+  ],
+  "whyItMatters": "Randomized benchmarking is the gold standard for checking quantum computer quality, but its single summary number obscured which physical errors actually caused gate failures. This breakdown connects benchmark decays directly to calibration bugs.",
+  "eli5": "When a quantum computer gets tested, it usually receives a single score, like a check-engine light without a diagnostic code. This work reveals the exact mathematical equation connecting the check-engine light to specific broken parts.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Randomized benchmarking (RB)",
+    "shortDef": "A standard quantum protocol quantifying average gate performance using sequences of random gates.",
+    "eli5Def": "A stress test running random quantum operations to see how quickly the computer loses information.",
+    "wikiTitle": "Randomized benchmarking"
+   },
+   {
+    "term": "Markovian noise",
+    "shortDef": "Memoryless environmental noise where errors depend only on the current state, not past interactions.",
+    "eli5Def": "Random errors that have no memory of what happened a moment ago.",
+    "wikiTitle": "Markov process"
+   },
+   {
+    "term": "unitary 2-design",
+    "shortDef": "An ensemble of unitary operations that statistically matches the Haar-random distribution up to second moments.",
+    "eli5Def": "A small set of gate choices that imitates completely random shuffling well enough for benchmarking.",
+    "wikiTitle": "Unitary t-design"
+   },
+   {
+    "term": "FOGI coordinates",
+    "shortDef": "First-order gauge-invariant coordinates representing physical, frame-independent quantum gate errors.",
+    "eli5Def": "Error measurements that describe true hardware flaws rather than arbitrary mathematical labels.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

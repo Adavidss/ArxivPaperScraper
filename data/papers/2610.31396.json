@@ -1,0 +1,86 @@
+{
+ "id": "2610.31396",
+ "version": 1,
+ "title": "Predictive electronic feedback control for narrow-linewidth lasers",
+ "authors": [
+  {
+   "name": "Jiatian Liu"
+  },
+  {
+   "name": "Xuan Qi"
+  },
+  {
+   "name": "Xiayang Fan"
+  },
+  {
+   "name": "Shenchao Jin"
+  },
+  {
+   "name": "Yuan Sun"
+  }
+ ],
+ "categories": [
+  "physics.optics",
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.optics",
+ "published": "2026-10-22T14:59:40Z",
+ "updated": "2026-10-22T14:59:40Z",
+ "abstract": "Narrow-linewidth lasers are essential for various key atom-laser interaction processes and optical setups in quantum coherent control, quantum precision measurement, and quantum information science. The Pound-Drever-Hall (PDH) technique is the standard method for the frequency-stabilization of narrow-linewidth lasers, but the inherent time delay in its feedback loop inevitably induces excessive phase noise, commonly known as servo bumps. Previous solutions primarily rely on additional optical components outside the electronic feedback control loop. Here, we propose and implement a generic method based on the Smith predictor to address the time-delay issue entirely within the electronic part of the PDH feedback control loop. We systematically demonstrate its capability to suppress phase noise and reduce servo bumps by adding only a single Field-Programmable Gate Array (FPGA) controller to the loop. This class of methods is demonstrated to be conceptually concise with minimal hardware overhead, effective in practice, and holds potential for a wide variety of future applications.",
+ "comment": "7 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.31396",
+  "pdf": "https://arxiv.org/pdf/2610.31396",
+  "html": "https://arxiv.org/html/2610.31396"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.31396v1/new12.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-24T11:27:59.209Z",
+  "hook": "Adding a single FPGA running a Smith predictor quells servo bumps and phase noise in ultra-precise lasers.",
+  "tldr": [
+   "Addressed delay-induced phase noise and servo bumps in laser frequency stabilization using an electronic controller.",
+   "Implemented a Smith predictor directly inside the electronic feedback loop using a single FPGA chip.",
+   "Eliminated the need for extra external optical components while systematically suppressing delay-driven servo noise."
+  ],
+  "whyItMatters": "Ultra-stable lasers are the backbone of atomic clocks and quantum computers; smoothing out their noise without bulky optical gear makes precision systems smaller and cheaper.",
+  "eli5": "Stabilizing a laser is like steering a car where the steering wheel has a slight delay, causing you to overcorrect and wobble. Adding a smart digital chip predicts that delay and steers smoothly.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Pound-Drever-Hall (PDH) technique",
+    "shortDef": "A widely used optical feedback technique to lock a laser's frequency to an optical cavity resonance.",
+    "eli5Def": "A clever sensor trick that measures if a laser has drifted off-color so a circuit can push it back into tune.",
+    "wikiTitle": "Pound–Drever–Hall technique"
+   },
+   {
+    "term": "servo bumps",
+    "shortDef": "Unwanted peaks of phase noise caused by delay and phase lag in feedback control loops.",
+    "eli5Def": "Annoying noise peaks caused when a stabilizer reacts just a split-second too late, overcorrecting and wobbling.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Smith predictor",
+    "shortDef": "A control algorithm that compensates for inherent dead-time or delay in a feedback system.",
+    "eli5Def": "A mathematical assistant that predicts what the delayed system is doing right now so you do not steer based on old data.",
+    "wikiTitle": "Smith predictor"
+   },
+   {
+    "term": "FPGA",
+    "shortDef": "Field-Programmable Gate Array; an integrated circuit designed to be configured by a customer after manufacturing.",
+    "eli5Def": "A reprogrammable computer chip capable of running custom calculations extremely fast in real time.",
+    "wikiTitle": "Field-programmable gate array"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

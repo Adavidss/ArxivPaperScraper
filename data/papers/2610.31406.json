@@ -1,0 +1,76 @@
+{
+ "id": "2610.31406",
+ "version": 1,
+ "title": "Nonlinear quantum noise polarization in macroscopic nonlinear QED",
+ "authors": [
+  {
+   "name": "Arman Kashef"
+  },
+  {
+   "name": "Stefan Scheel"
+  },
+  {
+   "name": "Marco Ornigotti"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-22T15:09:34Z",
+ "updated": "2026-10-22T15:09:34Z",
+ "abstract": "We construct a quantum theory of light in nonlinearly responding materials with dispersion and absorption and, in particular, show the emergence of non-Gaussian noise associated with nonlinear absorption processes. Our theory is based on a path-integral formulation of the microscopic Huttner-Barnett model including cubic matter self-interaction required for $χ^{(2)}$ nonlinear processes. We show that the noise polarization emerges naturally from a decoupling of the stochastic weights of the bath response which, in case of cubic self-interactions, leads to a decoupling via Airy functions. As the theory is, by construction, consistent with the nonlinear fluctuation-dissipation theorem, it constitutes a viable quantum theory of light in nonlinear media.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.31406",
+  "pdf": "https://arxiv.org/pdf/2610.31406",
+  "html": "https://arxiv.org/html/2610.31406"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-24T11:27:59.209Z",
+  "hook": "A new macroscopic QED framework shows nonlinear absorption produces inherently non-Gaussian quantum noise.",
+  "tldr": [
+   "Constructed a macroscopic quantum electrodynamics theory for light traveling through nonlinear, absorbing media.",
+   "Formulated a path-integral extension of the microscopic Huttner-Barnett model with cubic matter interactions.",
+   "Discovered that nonlinear absorption decouples bath noise via Airy functions, generating non-Gaussian quantum noise."
+  ],
+  "whyItMatters": "Understanding how quantum noise behaves in complex optical materials is vital for designing high-fidelity quantum computers and non-classical light sources.",
+  "eli5": "Normally, background quantum fuzziness is shaped like a smooth bell curve. In materials that twist light nonlinearly, the noise gets distorted and skewed into a weird, non-bell-curve pattern.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "macroscopic QED",
+    "shortDef": "Quantum electrodynamics formulated for electromagnetic fields inside bulk, absorbing materials.",
+    "eli5Def": "A set of physics rules that tracks quantum light traveling through real, messy materials like glass instead of empty space.",
+    "wikiTitle": "Macroscopic quantum electrodynamics"
+   },
+   {
+    "term": "non-Gaussian noise",
+    "shortDef": "Statistical fluctuations that do not follow a standard normal (bell curve) probability distribution.",
+    "eli5Def": "Random fuzz or static that has an unusual pattern rather than a typical, symmetric bell-curve spread.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Airy functions",
+    "shortDef": "Special mathematical functions that solve the differential equation y'' - xy = 0.",
+    "eli5Def": "A specific wavy math formula that helps describe things like how light bends and ripples near a boundary.",
+    "wikiTitle": "Airy function"
+   },
+   {
+    "term": "fluctuation-dissipation theorem",
+    "shortDef": "A physical law relating thermal/quantum noise in a system to its frictional dissipation or absorption.",
+    "eli5Def": "A fundamental rule stating that anything that absorbs energy or causes friction must also randomly jiggle.",
+    "wikiTitle": "Fluctuation-dissipation theorem"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

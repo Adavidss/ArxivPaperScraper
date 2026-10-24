@@ -1,0 +1,119 @@
+{
+ "id": "2610.31452",
+ "version": 1,
+ "title": "Nanopillar metasurfaces uniting high optical reflectivity with ultracoherent nanomechanics",
+ "authors": [
+  {
+   "name": "Alexander Jung"
+  },
+  {
+   "name": "Anastasiia Ciers"
+  },
+  {
+   "name": "Hannes Pfeifer"
+  },
+  {
+   "name": "Albert Hansson"
+  },
+  {
+   "name": "Johanna Örgård"
+  },
+  {
+   "name": "Daniel Stachanow"
+  },
+  {
+   "name": "Viktor A. Lilja"
+  },
+  {
+   "name": "Philippe Tassin"
+  },
+  {
+   "name": "Witlef Wieczorek"
+  }
+ ],
+ "categories": [
+  "physics.optics",
+  "physics.app-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.optics",
+ "published": "2026-10-22T15:46:57Z",
+ "updated": "2026-10-22T15:46:57Z",
+ "abstract": "Mechanically compliant mirrors are key components in cavity optomechanics. However, the requirements to achieve the best optical and mechanical performance are usually in direct competition. A high reflectivity for tightly focused beams entails thick reflectors, whereas ultracoherent flexural nanomechanics necessitates thin membranes. We eliminate this trade-off by introducing high-refractive-index nanopillar metasurfaces on top of a thin membrane. We pattern a 50 micrometer-diameter array of nanopillars to form a photonic crystal. The flat band behavior of guided resonances in the photonic crystal enables a reflectivity of 99.82(1)% for a tightly focused beam of 7 micrometer waist. The combination of two guided resonances creates a 100 nanometer-wide high-reflectivity band around 1550 nanometer. Simultaneously, the nanopillar patterning realizes a density-modulated phononic crystal that isolates an ultracoherent localized mechanical mode with a $Q\\cdot f$-product of $2\\cdot 10^{14}$Hz. The demonstrated nanopillar metasurfaces enable lightweight mirrors for room-temperature quantum optomechanics and for use as levitated mirrors or lightsails.",
+ "comment": "9 pages, 4 figures; incl supporting information of 29 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.31452",
+  "pdf": "https://arxiv.org/pdf/2610.31452",
+  "html": "https://arxiv.org/html/2610.31452"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.31452v1/Fig_0_v5_opt7.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-24T11:27:59.209Z",
+  "hook": "Nanopillar metasurface hits 99.82% reflectivity for focused beams alongside a 2×10¹⁴ Hz mechanical Q·f product.",
+  "tldr": [
+   "Overcame the trade-off between thick high-reflectivity optics and thin mechanical resonators in optomechanics.",
+   "Patterned a 50 µm array of high-index nanopillars on a thin membrane to create dual guided resonances.",
+   "Achieved 99.82% reflectivity for a 7 µm waist at 1550 nm and a phononic Q·f product of 2×10¹⁴ Hz."
+  ],
+  "whyItMatters": "Cavity optomechanics requires mirrors that are both ultralight and exceptionally reflective, which usually conflict physically. Solving this trade-off paves the way for room-temperature quantum sensors, levitated optomechanics, and miniature lightsails.",
+  "eli5": "Normally, light bounces best off thick, heavy mirrors, but delicate quantum experiments need mirrors as light as soap bubbles. By carving microscopic pillars into a thin film, researchers built a featherweight mirror that reflects almost all laser light.",
+  "keyNumbers": [
+   {
+    "value": "99.82(1)%",
+    "label": "optical reflectivity",
+    "context": "measured for a tightly focused laser beam with a 7 µm waist"
+   },
+   {
+    "value": "2·10¹⁴ Hz",
+    "label": "Q·f product",
+    "context": "mechanical quality factor times frequency for the localized phononic mode"
+   },
+   {
+    "value": "100 nm",
+    "label": "high-reflectivity bandwidth",
+    "context": "spectral window around the telecom wavelength of 1550 nm"
+   },
+   {
+    "value": "50 µm",
+    "label": "array diameter",
+    "context": "size of the nanopillar metasurface pattern on the membrane"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "cavity optomechanics",
+    "shortDef": "The study of interactions between light trapped in an optical cavity and mechanical motion.",
+    "eli5Def": "Bouncing laser light off tiny vibrating mirrors to study how light pressure and motion interact.",
+    "wikiTitle": "Cavity optomechanics"
+   },
+   {
+    "term": "photonic crystal",
+    "shortDef": "A periodic optical nanostructure designed to manipulate and guide specific wavelengths of light.",
+    "eli5Def": "A material patterned with tiny, repeating structures that act like traffic lanes for light.",
+    "wikiTitle": "Photonic crystal"
+   },
+   {
+    "term": "guided resonance",
+    "shortDef": "A localized optical mode trapped inside a slab that couples constructively to external radiation.",
+    "eli5Def": "A trapped pocket of light that catches incoming laser rays and reflects them strongly back out.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Q·f product",
+    "shortDef": "The product of mechanical quality factor and frequency, measuring thermal isolation.",
+    "eli5Def": "A figure of merit measuring how long a tiny resonator can vibrate before losing its energy to heat.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

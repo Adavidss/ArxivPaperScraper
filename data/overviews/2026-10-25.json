@@ -1,0 +1,30 @@
+{
+ "date": "2026-10-25",
+ "generatedAt": "2026-10-25T11:55:19.288Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum Scaling: Dynamics, Coherence, and Limits",
+ "summary": "Today's papers explore the subtle mechanics and practical bottlenecks of scaling quantum systems. Topics range from Lanczos-variance controls on Krylov complexity and orbital coherence memory in transport to strict measurement limits hampering quantum structural dynamics.",
+ "themes": [
+  {
+   "title": "Quantum Dynamics and Transport",
+   "body": "Theoretical analyses reveal how internal quantum states drive macroscopic behavior, from Lanczos variance dictating Krylov complexity in composite systems to self-consistent Maxwell feedback producing memory effects in orbital transport.",
+   "paperIds": [
+    "2610.31394",
+    "2610.31390"
+   ]
+  },
+  {
+   "title": "Quantum Computing Bottlenecks",
+   "body": "Assessing variational quantum algorithms on classical mechanical problems exposes severe barriers, demonstrating that Pauli operator explosion and shot-noise overhead eliminate speedups for structural modal analysis.",
+   "paperIds": [
+    "2610.31393"
+   ]
+  }
+ ],
+ "connections": [],
+ "paperIds": [
+  "2610.31394",
+  "2610.31393",
+  "2610.31390"
+ ]
+}

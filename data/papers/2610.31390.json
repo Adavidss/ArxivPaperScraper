@@ -1,0 +1,68 @@
+{
+ "id": "2610.31390",
+ "version": 1,
+ "title": "Orbital-coherence memory in electrical transport and its self-consistent Maxwell response",
+ "authors": [
+  {
+   "name": "Pengfei Zhu"
+  }
+ ],
+ "categories": [
+  "physics.app-ph",
+  "cond-mat.stat-mech",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.app-ph",
+ "published": "2026-10-22T14:54:12Z",
+ "updated": "2026-10-22T14:54:12Z",
+ "abstract": "An internal electronic coherence changes electrical transport only when it feeds back on the physical current. We develop a reduced description of this feedback and distinguish its exact consequences from the assumptions required for a microscopic realization. An opposite-parity two-orbital Hamiltonian identifies a current-coupled orbital force. Under an explicitly stated moment closure and collision ansatz, it yields a passive three-state response with an exponentially damped oscillatory memory. The resulting conductivity redistributes a fixed optical weight and predicts a nonmonotonic dependence of dc conduction on coherence damping at fixed remaining parameters. The orbital reduction constrains the coupling and internal frequency through a shared bare splitting, providing a test beyond unconstrained spectral fitting. A charge-conserving spatial extension couples to Maxwell equations through a positive energy balance and separates the constitutive response from longitudinal collective and transverse electromagnetic modes. We formulate complex-conductivity and transmission tests, including the limits of parameter identification over a finite bandwidth. The model supplies a conditional connection between orbital dynamics, transport memory, and electromagnetic observables; conductivity alone does not establish a uniquely quantum mechanism, and a material-specific collision calculation and closure-error assessment remain necessary.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.31390",
+  "pdf": "https://arxiv.org/pdf/2610.31390",
+  "html": "https://arxiv.org/html/2610.31390"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.31390v1/Picture1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-25T11:55:19.288Z",
+  "hook": "Internal orbital coherence alters electrical currents only through feedback, yielding damped oscillatory memory.",
+  "tldr": [
+   "Modeled how internal quantum orbital coherence couples to physical charge transport and Maxwell equations.",
+   "Formulated a reduced two-orbital Hamiltonian with moment closure, collision ansatz, and charge conservation.",
+   "Showed DC conduction depends nonmonotonically on coherence damping, warning that conductivity alone cannot prove quantumness."
+  ],
+  "whyItMatters": "It provides strict experimental criteria to verify whether unusual electromagnetic properties in modern quantum materials genuinely stem from orbital coherence.",
+  "eli5": "Electrons can oscillate internally between two distinct orbital shapes like a ringing bell. If that ringing feeds back into how they drift along a wire, it creates an echo effect that uniquely shapes how the material conducts electricity.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Orbital coherence",
+    "shortDef": "A definite quantum phase relationship maintained between different electron orbitals.",
+    "eli5Def": "When electrons synchronize their shapes like synchronized swimmers instead of moving randomly.",
+    "wikiTitle": "Quantum coherence"
+   },
+   {
+    "term": "Moment closure",
+    "shortDef": "An approximation truncating an infinite hierarchy of statistical moments to solve transport equations.",
+    "eli5Def": "A rule of thumb that lets you ignore tiny details so an endless chain of math equations can finally be solved.",
+    "wikiTitle": "Closure problem"
+   },
+   {
+    "term": "Constitutive response",
+    "shortDef": "The macroscopic relation describing how a material polarizes or conducts in applied fields.",
+    "eli5Def": "The physical rulebook for how a specific substance reacts when poked with an electric field.",
+    "wikiTitle": "Constitutive equation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

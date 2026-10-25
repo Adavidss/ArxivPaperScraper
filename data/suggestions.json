@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-24T11:27:59.209Z",
+ "generatedAt": "2026-10-25T11:55:19.288Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
    "slug": "sabre-kais",
-   "score": 12,
+   "score": 10,
    "coAuthoredWith": [],
    "viaKeywords": [
     "SABRE"
@@ -19,7 +19,7 @@
     "A 4-Qubit Variational Quantum Classifier for Sequence-Specific Classification of DNMT3A and DNMT3B Flanking Methylation Preferences",
     "Quantum dynamics of spin systems using quantum-like resources"
    ],
-   "paperCount": 6
+   "paperCount": 5
   },
   {
    "name": "Ludovico Lami",

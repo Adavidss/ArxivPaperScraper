@@ -1,0 +1,96 @@
+{
+ "id": "2610.31393",
+ "version": 1,
+ "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis",
+ "authors": [
+  {
+   "name": "Bikalpa Gautam"
+  },
+  {
+   "name": "Akil Raj Subedi"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-22T14:57:02Z",
+ "updated": "2026-10-22T14:57:02Z",
+ "abstract": "Amplitude encoding stores an N-degree-of-freedom structural mode using ceiling(log2 N) qubits. This article develops an evaluation framework for variational quantum eigensolvers in finite-element structural dynamics. A Cholesky transformation maps the generalized eigenproblem to a symmetric mass-orthonormal Hamiltonian, ensuring Euclidean quantum-state orthogonality equals structural mass orthogonality. For higher modes, the deflation penalty condition is sharpened to a necessary-and-sufficient threshold, with a Davis-Kahan bound quantifying effects of approximate projectors. Numerical studies separate mapping correctness, ansatz expressibility, preprocessing, Pauli growth, finite-shot uncertainty, and damage localization. For 128-DOF chains, consistent-mass whitening increases transformed-operator density from 0.023 to 0.308 and Pauli terms from 576 to 2950. Exact state-vector experiments show qubit count and circuit expressibility are distinct. At 10^5 shots per Pauli term, first-mode frequency RMS error is 2.45%. In an oracle-state study, 10% stiffness loss is localized in 84.5% of trials. Results sharpen the deflation condition, quantify resource bottlenecks, and claim no speedup.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.31393",
+  "pdf": "https://arxiv.org/pdf/2610.31393",
+  "html": "https://arxiv.org/html/2610.31393"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.31393v1/damage_shot_localization.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-25T11:55:19.288Z",
+  "hook": "Qubits compress structural modes exponentially, but Pauli terms surge from 576 to 2,950—and offer no speedup.",
+  "tldr": [
+   "Evaluated variational quantum eigensolvers for finite-element structural dynamics and vibration modal analysis.",
+   "Used Cholesky-mapped mass-orthonormal Hamiltonians, sharpened deflation bounds, and tracked shot-noise scaling.",
+   "Found operator density jumps 13x, first-mode RMS error is 2.45% at 10^5 shots/term, and no quantum speedup exists."
+  ],
+  "whyItMatters": "It grounds quantum computing hype in classical engineering by showing that saving qubits doesn't overcome severe measurement and deflation bottlenecks.",
+  "eli5": "You can describe a skyscraper's vibrations using remarkably few quantum bits, but translating the physics into quantum terms multiplies the number of measurements so much that standard computers still easily win.",
+  "keyNumbers": [
+   {
+    "value": "2950",
+    "label": "Pauli terms",
+    "context": "Surged from 576 after consistent-mass whitening for 128-DOF chains"
+   },
+   {
+    "value": "2.45%",
+    "label": "first-mode frequency RMS error",
+    "context": "Achieved at 10^5 shots per Pauli term"
+   },
+   {
+    "value": "84.5%",
+    "label": "damage localization success",
+    "context": "Localized a 10% stiffness loss in an oracle-state study"
+   },
+   {
+    "value": "0.308",
+    "label": "transformed operator density",
+    "context": "Increased from an initial density of 0.023"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Variational Quantum Eigensolver",
+    "shortDef": "A hybrid quantum-classical algorithm used to find the lowest eigenvalue of a Hamiltonian.",
+    "eli5Def": "A team-up where a quantum chip tests a guess and a classical computer adjusts settings to find the lowest energy.",
+    "wikiTitle": "Variational quantum eigensolver"
+   },
+   {
+    "term": "Deflation",
+    "shortDef": "A technique to compute higher eigenmodes by projecting out previously calculated lower modes.",
+    "eli5Def": "Erasing lower musical notes from a signal so you can hear the higher-pitched harmonics clearly.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Cholesky transformation",
+    "shortDef": "A matrix factorization used here to orthogonalize generalized eigenvalue problems.",
+    "eli5Def": "A mathematical trick that turns an awkward skewed grid into a neat square grid.",
+    "wikiTitle": "Cholesky decomposition"
+   },
+   {
+    "term": "Pauli terms",
+    "shortDef": "Tensor products of Pauli matrices representing operators on a quantum processor.",
+    "eli5Def": "The basic building-block measurements that a quantum computer is able to read out directly.",
+    "wikiTitle": "Pauli matrices"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 65
+ }
+}

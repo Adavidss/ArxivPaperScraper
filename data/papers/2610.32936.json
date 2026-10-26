@@ -1,0 +1,86 @@
+{
+ "id": "2610.32936",
+ "version": 1,
+ "title": "Generating entanglement in quantum matter with pathway-entangled photons via resonant inelastic X-ray scattering",
+ "authors": [
+  {
+   "name": "Chunjing Jia"
+  },
+  {
+   "name": "Valentin Walther"
+  },
+  {
+   "name": "Laimei Nie"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-23T17:32:31Z",
+ "updated": "2026-10-23T17:32:31Z",
+ "abstract": "Resonant inelastic X-ray scattering (RIXS) is conventionally used to probe elementary excitations and correlations in quantum materials. Here, we propose an interferometric RIXS protocol that instead creates entanglement between spatially separated regions of a solid-state material. An incident X-ray photon is coherently split by a beam splitter into two arms illuminating opposite ends of a sample. Recombining the scattered photons at a second beam splitter and detecting an energy-selected photon then projects the material into a coherent superposition of excitations at the two ends. This protocol is the X-ray, solid-state analogue of the Duan-Lukin-Cirac-Zoller (DLCZ) heralding scheme. Using a Kramers-Heisenberg formalism with quantized photon modes, we show that orthogonal and degenerate end excitations yield maximally entangled states. We illustrate this mechanism in three models: (1) two decoupled sites yield a heralded Bell state. (2) An open tight-binding chain exhibits reflection-parity-dependent interference, providing a benchmark for the interferometer's coherence. (3) A spin-1 Haldane (AKLT) chain yields an entangled pair of fractionalized edge spins. We also discuss practical considerations and challenges for realizing the protocol in X-ray experiments.",
+ "comment": "7 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.32936",
+  "pdf": "https://arxiv.org/pdf/2610.32936",
+  "html": "https://arxiv.org/html/2610.32936"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.32936v1/fig2_relabeled.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-26T13:27:49.928Z",
+  "hook": "Using X-rays and beam splitters to entangle spatially separated regions of a solid-state material.",
+  "tldr": [
+   "The authors proposed an interferometric RIXS protocol to generate entanglement between distant parts of a solid.",
+   "They used an incident X-ray split into two arms illuminating a sample, recombined the photons, and detected them.",
+   "They demonstrated the protocol yields maximally entangled states in three models, including Bell states and edge spins."
+  ],
+  "whyItMatters": "Creating entanglement across distant regions of solid materials is crucial for advancing quantum information processing and understanding complex quantum matter.",
+  "eli5": "Think of shining a flashlight beam that splits in two, hitting opposite sides of a shiny toy at the same time. By catching the reflected light just right, you magically link the two sides of the toy together so they act as a single connected unit.",
+  "keyNumbers": [
+   {
+    "value": "3",
+    "label": "Models illustrated",
+    "context": "The mechanism is illustrated in three distinct theoretical models."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Entanglement",
+    "shortDef": "A quantum phenomenon where two or more particles become deeply interconnected.",
+    "eli5Def": "Two magic dice that always roll the same number, no matter how far apart they are.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "RIXS",
+    "shortDef": "Resonant inelastic X-ray scattering, used to probe excitations in quantum materials.",
+    "eli5Def": "Shooting X-rays at a material and seeing how they bounce off to learn its secrets.",
+    "wikiTitle": "Resonant inelastic X-ray scattering"
+   },
+   {
+    "term": "Bell state",
+    "shortDef": "A maximally entangled state of two qubits.",
+    "eli5Def": "The ultimate pair of linked quantum objects.",
+    "wikiTitle": "Bell state"
+   },
+   {
+    "term": "Haldane chain",
+    "shortDef": "A theoretical model of quantum spins showing special edge properties.",
+    "eli5Def": "A chain of tiny microscopic magnets with quirky behavior at its very ends.",
+    "wikiTitle": "Haldane chain"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

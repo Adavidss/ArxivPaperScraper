@@ -1,0 +1,72 @@
+{
+ "id": "2610.32974",
+ "version": 1,
+ "title": "Maximal Orbital Entanglement from Non-Interacting Fermions",
+ "authors": [
+  {
+   "name": "Damiano Aliverti-Piuri"
+  },
+  {
+   "name": "Julia Liebert"
+  },
+  {
+   "name": "Christian Schilling"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-23T17:58:30Z",
+ "updated": "2026-10-23T17:58:30Z",
+ "abstract": "Orbital rotations are used in quantum many-body physics and chemistry to reduce the complexity of quantum states by compressing their correlation into a small set of relevant orbitals. In striking contrast, quantum information processing strives for the opposite: orbitals that maximize entanglement as a resource. Motivated by this, we prove that Slater determinants of $N$ fermions on a lattice of $d_A + d_B = d$ sites, although free of particle correlation, can carry up to $\\min\\{d_A, d_B, N, d-N\\}$ ebits of orbital entanglement. Given enough particles and holes, this equals the maximum over all fermionic states. For arbitrary free states, we derive the maximal orbital total correlation in closed form for all bipartitions, the finest partition, and all partitions of up to five sites, using new majorization relations for Hermitian matrices. Taken together, these results turn mean-field states, the starting point of most many-body methods in physics and chemistry, into a viable resource for quantum information processing.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.32974",
+  "pdf": "https://arxiv.org/pdf/2610.32974",
+  "html": "https://arxiv.org/html/2610.32974"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.32974v1/figures/yingyang.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-26T13:27:49.928Z",
+  "hook": "Slater determinants can carry up to min(dA, dB, N, d-N) ebits of orbital entanglement, matching maximum fermionic states.",
+  "tldr": [
+   "Proved that simple non-interacting fermion states can carry the maximum possible amount of orbital entanglement.",
+   "Derived maximal orbital total correlation in closed form for arbitrary free states using new majorization relations.",
+   "Demonstrated that standard mean-field states can serve as a viable, powerful resource for quantum information processing."
+  ],
+  "whyItMatters": "While quantum chemistry usually tries to reduce entanglement to simplify calculations, quantum computers need entanglement as a fuel. This paper shows that standard, easy-to-handle physics states already possess the maximum possible entanglement fuel.",
+  "eli5": "Imagine trying to build a massive puzzle. Usually, scientists try to pack all the pieces tightly together to make them easier to manage. This paper shows that a simple, basic layout actually contains the maximum possible chaotic connections needed to run advanced quantum computers.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Slater determinant",
+    "shortDef": "A mathematical expression that describes the wave function of multiple fermions.",
+    "eli5Def": "A special rulebook that ensures identical quantum particles obey the rule of never occupying the exact same state.",
+    "wikiTitle": "Slater determinant"
+   },
+   {
+    "term": "Fermions",
+    "shortDef": "A type of quantum particle like electrons, quarks, and protons.",
+    "eli5Def": "Matter particles that make up everything you can touch, which refuse to crowd into the exact same physical spot.",
+    "wikiTitle": "Fermion"
+   },
+   {
+    "term": "Ebit",
+    "shortDef": "The standard unit of quantum entanglement.",
+    "eli5Def": "A measure of how strongly linked two quantum items are, like a pair of magical dice.",
+    "wikiTitle": "Superdense coding"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

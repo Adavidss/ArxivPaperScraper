@@ -1,0 +1,98 @@
+{
+ "id": "2610.32946",
+ "version": 1,
+ "title": "Low-frustration block encodings by patch routing",
+ "authors": [
+  {
+   "name": "Minzhao Liu"
+  },
+  {
+   "name": "Abeynaya Gnanasekaran"
+  },
+  {
+   "name": "Ananth Kaushik"
+  },
+  {
+   "name": "Siddharth Hariprakash"
+  },
+  {
+   "name": "Alireza Marefat Khah"
+  },
+  {
+   "name": "Martin Roetteler"
+  },
+  {
+   "name": "Grant Salton"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-23T17:40:02Z",
+ "updated": "2026-10-23T17:40:02Z",
+ "abstract": "Block-encoding has emerged as a core primitive in many quantum algorithms, including quantum simulation. In this work, we design efficient and extensible methods for generating low-frustration block encodings of frustrated lattice Hamiltonians built from repeated local interaction patches through a technique we call \"patch routing\". We construct block encodings for a full Hamiltonian by first block-encoding a small local patch and then using a SWAP-style routing network to coherently apply the local patch encoding across the lattice. The expensive, local block-encoding cost is paid only once per query and is independent of lattice size, whereas the comparatively inexpensive routing network grows linearly with the lattice size, dominating at large sizes. Our method allows for a hierarchical structure in which larger patches can be block-encoded with small normalization factors, albeit at a higher (local, non-extensive) block-encoding cost, thereby reducing overall query complexity in an algorithm. We exploit symmetries and algebraic structures in local interactions to construct efficient block encodings, and we apply these techniques to the Heisenberg, Fermi-Hubbard, and honeycomb spin-liquid models. For a $120\\times 120$ square-lattice $J_1$-$J_2$ Heisenberg model near maximal frustration ($J_2/J_1=0.4-0.6$), our methods result in a $15-17\\times$ reduction in the leading $T$ cost per qubitized-QPE run (ignoring initial state preparation and overlap) relative to prior state-of-the-art Pauli LCU constructions. Corresponding reductions are approximately $3\\times$ for the $120\\times120$ Fermi-Hubbard model at half-filling. For time evolution of the honeycomb spin-liquid model on $120\\times120$ unit cells, the leading cost is reduced by $5\\times$. Our framework provides a systematic way forward for larger and more accurate fault-tolerant simulations of real-world quantum systems.",
+ "comment": "52 pages, 7 figures, many block encodings",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.32946",
+  "pdf": "https://arxiv.org/pdf/2610.32946",
+  "html": "https://arxiv.org/html/2610.32946"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-26T13:27:49.928Z",
+  "hook": "Our patch routing method yields a 15-17x reduction in leading T cost for the 120x120 Heisenberg model.",
+  "tldr": [
+   "Designed efficient block encodings for frustrated lattice Hamiltonians using a technique called patch routing.",
+   "Combined local patch block-encoding with a SWAP-style routing network to scale across lattices.",
+   "Demonstrated massive cost reductions for Heisenberg, Fermi-Hubbard, and honeycomb spin-liquid models."
+  ],
+  "whyItMatters": "Simulating complex materials like magnets or superconductors on quantum computers requires immense computational overhead. This method dramatically slashes the required computer instructions, bringing practical quantum simulation much closer to reality.",
+  "eli5": "Building a quantum simulation of a giant grid of atoms usually requires an astronomical number of steps. By figuring out how to copy a small repeating neighborhood across the board like a stamp, this method saves massive amounts of time and effort.",
+  "keyNumbers": [
+   {
+    "value": "15-17x",
+    "label": "T cost reduction",
+    "context": "Reduction in leading T cost per qubitized-QPE run for a 120x120 square-lattice Heisenberg model."
+   },
+   {
+    "value": "3x",
+    "label": "Cost reduction",
+    "context": "Reduction for the 120x120 Fermi-Hubbard model at half-filling."
+   },
+   {
+    "value": "5x",
+    "label": "Cost reduction",
+    "context": "Reduction for time evolution of the honeycomb spin-liquid model on 120x120 unit cells."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Block-encoding",
+    "shortDef": "A technique to embed a non-unitary matrix inside a larger unitary matrix for quantum algorithms.",
+    "eli5Def": "Wrapping a messy mathematical operation inside a clean quantum container so the computer can process it safely.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "The master rulebook that dictates all the energy and forces acting inside a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Heisenberg model",
+    "shortDef": "A statistical mechanics model used to study magnetism in lattices of spins.",
+    "eli5Def": "A grid of tiny microscopic compass needles interacting with their neighbors to study how magnets behave.",
+    "wikiTitle": "Heisenberg model (quantum)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

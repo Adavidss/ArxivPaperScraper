@@ -1,0 +1,67 @@
+{
+ "id": "2610.32937",
+ "version": 1,
+ "title": "Certain Quantum States Already Require Quantum Time Evolution",
+ "authors": [
+  {
+   "name": "Joel D. Huber"
+  },
+  {
+   "name": "Matthias Kleinmann"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-23T17:33:33Z",
+ "updated": "2026-10-23T17:33:33Z",
+ "abstract": "Model-independent tests of quantum theory, such as Bell inequality violations, focus on static properties of the theory and do not rely on its dynamical aspects. Hence, this core part of quantum theory remains largely untested in a model-independent way. We show that the structure of quantum time evolution can be examined by testing the consistency between the state space and the dynamical laws. Considering a class of generalized phase-space theories, we find that certain quantum states can only be part of a theory if the time evolution is quantum: their evolution in anharmonic potentials would otherwise result in unphysical, negative marginal distributions. Furthermore, we demonstrate that the existence of the first excited state of a quantum harmonic oscillator is already sufficient to single out the Moyal bracket (quantum dynamics) to leading order in $\\hbar^2$. We outline how theory-independent Wigner tomography of this state can be used to empirically exclude nonquantum dynamical theories.",
+ "comment": "7 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.32937",
+  "pdf": "https://arxiv.org/pdf/2610.32937",
+  "html": "https://arxiv.org/html/2610.32937"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-26T13:27:49.928Z",
+  "hook": "Certain quantum states can only exist if time evolution is truly quantum, or they break physics entirely.",
+  "tldr": [
+   "Researchers tested whether the dynamical laws of quantum mechanics can be verified independently of specific physical models.",
+   "They analyzed generalized phase-space theories to see how quantum states evolve in anharmonic potentials.",
+   "They found that specific quantum states and the first excited state of a harmonic oscillator require quantum dynamics."
+  ],
+  "whyItMatters": "While static quantum properties like Bell violations are well-tested, tests of quantum dynamics are rare. This work provides a concrete way to empirically prove that nature requires quantum time evolution.",
+  "eli5": "Imagine baking a cake where the recipe says you must stir it clockwise. If you stir it counter-clockwise, the batter turns into unphysical nonsense. Similarly, these researchers showed that certain quantum states will break physics unless they follow strictly quantum rules as time moves forward.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Bell inequality",
+    "shortDef": "A mathematical test used to prove that quantum mechanics cannot be explained by classical physics.",
+    "eli5Def": "A test that checks if spooky connections between particles are real or just tricks.",
+    "wikiTitle": "Bell's theorem"
+   },
+   {
+    "term": "Wigner tomography",
+    "shortDef": "A method to reconstruct the quantum state of a system in phase space.",
+    "eli5Def": "Taking a snapshot of a quantum particle's position and momentum all at once.",
+    "wikiTitle": "Wigner quasi-probability distribution"
+   },
+   {
+    "term": "Moyal bracket",
+    "shortDef": "The mathematical expression representing quantum dynamics in phase space.",
+    "eli5Def": "The specific math formula that dictates how quantum things change over time.",
+    "wikiTitle": "Moyal bracket"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

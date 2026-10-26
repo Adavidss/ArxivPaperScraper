@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T11:55:19.288Z",
+ "generatedAt": "2026-10-26T13:27:49.928Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -162,27 +162,6 @@
    "paperCount": 4
   },
   {
-   "name": "Arkopal Dutt",
-   "slug": "arkopal-dutt",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph",
-    "cs.CC"
-   ],
-   "paperIds": [
-    "2610.02130",
-    "2609.20771",
-    "2608.13533"
-   ],
-   "recentTitles": [
-    "Quantum impurity models: easy at equilibrium, universal in motion",
-    "Marton's conjecture in polynomial time"
-   ],
-   "paperCount": 4
-  },
-  {
    "name": "Xin Wang",
    "slug": "xin-wang",
    "score": 4,
@@ -201,6 +180,25 @@
     "Quantum Channel Stein Theorem beyond Definite Causal Order"
    ],
    "paperCount": 4
+  },
+  {
+   "name": "Ethan Dickey",
+   "slug": "ethan-dickey",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2610.07308",
+    "2609.14620"
+   ],
+   "recentTitles": [
+    "Quantum dynamics of spin systems using quantum-like resources",
+    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
+   ],
+   "paperCount": 2
   }
  ]
 }

@@ -1,0 +1,73 @@
+{
+ "id": "2610.32973",
+ "version": 1,
+ "title": "Ideal interaction dynamics of defects and background fields in condensed matter",
+ "authors": [
+  {
+   "name": "François Gay-Balmaz"
+  },
+  {
+   "name": "Tudor S. Ratiu"
+  },
+  {
+   "name": "Cesare Tronci"
+  }
+ ],
+ "categories": [
+  "math-ph",
+  "cond-mat.soft",
+  "physics.flu-dyn",
+  "quant-ph"
+ ],
+ "primaryCategory": "math-ph",
+ "published": "2026-10-23T17:58:11Z",
+ "updated": "2026-10-23T17:58:11Z",
+ "abstract": "While defect dynamics in condensed matter systems is widely studied and several methods are available to track the defect position over time, the formulation of dynamical models for the coupled evolution of both defect and background field quantities seems to be more challenging. Yet, the overall behavior of a system containing moving defects is strongly influenced by this defect-field interaction. Here, we propose a modeling framework for the conservative coupled evolution of the defect density and the background fields upon focusing on two relevant cases of study: the Gross-Pitaevskii theory of quantum fluids and the Ericksen-Leslie model of nematic liquid crystals. To achieve the coupled evolution, we combine the Euler-Poincaré variational setting of continuum dynamics with the gauge theory of topological defects. While the latter allows us to overcome certain ambiguities in definition of the defect density, the Euler-Poincaré method provides a unified modeling approach in the absence of defect reconnection.",
+ "comment": "First version. Comments welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.32973",
+  "pdf": "https://arxiv.org/pdf/2610.32973",
+  "html": "https://arxiv.org/html/2610.32973"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-26T13:27:49.928Z",
+  "hook": "We propose a new framework combining Euler-Poincaré mechanics and gauge theory to model defect-field interactions.",
+  "tldr": [
+   "Created a modeling framework for the conservative coupled evolution of defect density and background fields.",
+   "Focused on Gross-Pitaevskii quantum fluids and Ericksen-Leslie nematic liquid crystals as case studies.",
+   "Combined Euler-Poincaré variational mechanics with the gauge theory of topological defects to avoid ambiguities."
+  ],
+  "whyItMatters": "Defects like ripples or dislocations in materials strongly dictate how those materials behave under stress or flow. Better math models let us predict the behavior of everything from liquid crystal displays to quantum superfluids.",
+  "eli5": "Imagine a flowing river with swirling whirlpools. The water is the background field, and the whirlpools are defects. This paper provides a new mathematical rulebook to track how the swirling whirlpools and the flowing river constantly push and pull on each other.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Topological defects",
+    "shortDef": "Stable disruptions or imperfections in a physical field that cannot be smoothed away.",
+    "eli5Def": "A permanent knot or tear in a smooth pattern that cannot be un-done without ripping the whole thing.",
+    "wikiTitle": "Topological defect"
+   },
+   {
+    "term": "Gross-Pitaevskii theory",
+    "shortDef": "An approximation used to describe the behavior of quantum fluids and Bose-Einstein condensates.",
+    "eli5Def": "A mathematical cheat-sheet used to calculate how millions of ultra-cold atoms act together as a single giant quantum wave.",
+    "wikiTitle": "Gross–Pitaevskii equation"
+   },
+   {
+    "term": "Nematic liquid crystals",
+    "shortDef": "States of matter with properties between conventional liquids and solid crystals, used in LCD screens.",
+    "eli5Def": "A fluid made of rod-like molecules that all point in roughly the same direction, like traffic moving down a highway.",
+    "wikiTitle": "Liquid crystal"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

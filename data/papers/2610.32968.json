@@ -1,0 +1,91 @@
+{
+ "id": "2610.32968",
+ "version": 1,
+ "title": "Distributed Quantum-Centric Supercomputing with Multi-Layered Generative Learning for Intermolecular Interactions",
+ "authors": [
+  {
+   "name": "Chayan Patra"
+  },
+  {
+   "name": "Prayas Ghosh"
+  },
+  {
+   "name": "Adwait Patkhedkar"
+  },
+  {
+   "name": "Rahul Maitra"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-23T17:55:19Z",
+ "updated": "2026-10-23T17:55:19Z",
+ "abstract": "Quantum-centric supercomputing (QCSC) approaches, such as sample-based quantum diagonalization (SQD), combine quantum processors with high-performance computers (HPC), offering a promising route toward solving challenging electronic structure problems. However, implementation of QCSC approaches to large active space calculations is constrained by the associated number of qubits, deep quantum circuits, sampling cost, and large-scale Hamiltonian diagonalization. To overcome these limitations, we introduce a distributed QCSC framework that decomposes complex molecular problems into parallel sub-problems requiring fewer qubits, shallower circuits, and reduced shot budgets. A physically motivated, two-step aggregation scheme then reconstructs the global solution: first, a computational bit assignment strategy optimizes a cost function to appropriately map local bit indices to global ones, yielding a mapped tensor product state (MTPS); second, an inter-fragment correlation recovery module restores missing cross-fragment interactions. Herein, we employ a multi-layered generative machine learning architecture, starting with utilizing the recently proposed physics-informed generative SQD (PIGen-SQD) as a distributed QCSC solver, followed by a secondary generative module to model configuration distributions and identify dominant sectors of the global Hilbert space. For water and formamide dimers, our method achieves up to $95\\%$ reduction in the diagonalization dimension while enhancing energy accuracy by an order of magnitude over conventional SQD. Furthermore, application to the water hexamer ($\\mathrm{(H_2O)_6}$) cage successfully decomposes a 120-qubit problem into six 20-qubit monomeric subsystems, and stitches the monomers under a dimeric approximation, demonstrating excellent agreement with the reference classical methods.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.32968",
+  "pdf": "https://arxiv.org/pdf/2610.32968",
+  "html": "https://arxiv.org/html/2610.32968"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.32968v1/MTPS_PIGen_Algorithm_workflow.jpeg"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-26T13:27:49.928Z",
+  "hook": "Our distributed framework achieves up to a 95% reduction in diagonalization dimension for water and formamide dimers.",
+  "tldr": [
+   "Introduced a distributed quantum-centric supercomputing framework to solve complex molecular electronic structure problems.",
+   "Used a two-step aggregation scheme with a multi-layered generative machine learning architecture.",
+   "Decomposed a 120-qubit water hexamer problem into six 20-qubit subsystems with excellent agreement to classical methods."
+  ],
+  "whyItMatters": "Simulating large molecules requires too many qubits for current quantum computers. By breaking massive molecule problems into bite-sized pieces and stitching them back together with AI, we can model complex chemistry much earlier than expected.",
+  "eli5": "Trying to simulate a huge molecule on a small quantum computer is like trying to paint a massive mural on a tiny postage stamp. Instead, this team cuts the mural into tiny puzzle pieces, paints them separately using AI, and stitches them together.",
+  "keyNumbers": [
+   {
+    "value": "95%",
+    "label": "Diagonalization reduction",
+    "context": "Achieved reduction in diagonalization dimension for water and formamide dimers over conventional SQD."
+   },
+   {
+    "value": "120",
+    "label": "Qubit problem size",
+    "context": "Successfully decomposed for the water hexamer cage into six smaller subsystems."
+   },
+   {
+    "value": "20",
+    "label": "Qubit subsystem size",
+    "context": "The manageable size of each monomeric subsystem after decomposing the larger 120-qubit problem."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Sample-based quantum diagonalization",
+    "shortDef": "A hybrid algorithm combining quantum processors and classical HPC to solve electronic structures.",
+    "eli5Def": "A teamwork strategy where a quantum computer takes quick samples and a regular supercomputer crunches the final math.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Hilbert space",
+    "shortDef": "The multi-dimensional mathematical space containing all possible states of a quantum system.",
+    "eli5Def": "A giant virtual map where every possible combination of quantum outcomes has its own exact coordinate.",
+    "wikiTitle": "Hilbert space"
+   },
+   {
+    "term": "Water hexamer",
+    "shortDef": "A cluster consisting of six water molecules bound together.",
+    "eli5Def": "A microscopic droplet cluster made of exactly six water molecules holding hands.",
+    "wikiTitle": "Water hexamer"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

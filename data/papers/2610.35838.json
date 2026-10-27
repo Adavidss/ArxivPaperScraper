@@ -1,0 +1,73 @@
+{
+ "id": "2610.35838",
+ "version": 1,
+ "title": "Network nonlocality with tripartite entangled sources",
+ "authors": [
+  {
+   "name": "Sudip Chakrabarty"
+  },
+  {
+   "name": "Amit Kundu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-26T17:52:56Z",
+ "updated": "2026-10-26T17:52:56Z",
+ "abstract": "Quantum networks are built from independent sources, and their nonlocality has mostly been studied with sources that emit bipartite entangled states. A source of three entangled qubits is richer, since its nonlocality can be tested by the Mermin or the more demanding Svetlichny inequality. We ask how network nonlocality relates to these two single-source notions and find that the answer depends on the wiring. When two central nodes without inputs share every source, Bell-state measurements turn every Svetlichny violation into a network violation, and even all entangled generalised Greenberger-Horne-Zeilinger states violate the network inequality. When a single central node is shared, the relation reverses, and a network violation requires a Mermin violation of the source. With more sources, the maximal violation depends on whether their number is even or odd, and we give tight bounds for both cases. These results show that the way multipartite sources are wired decides which kind of nonlocality a network inherits.",
+ "comment": "16 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.35838",
+  "pdf": "https://arxiv.org/pdf/2610.35838",
+  "html": "https://arxiv.org/html/2610.35838"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-27T12:35:28.588Z",
+  "hook": "Wiring layout dictates whether a quantum network inherits Mermin or Svetlichny tripartite nonlocality.",
+  "tldr": [
+   "Investigated how 3-qubit entangled sources translate single-source nonlocality into full quantum network nonlocality.",
+   "Analyzed how network topology alters the requirement between Mermin and Svetlichny inequality violations.",
+   "Showed two central nodes elevate any Svetlichny violation to a network violation, while one central node flips the rule."
+  ],
+  "whyItMatters": "Designing secure, multi-party quantum communication backbones depends on knowing precisely which network architectures preserve foundational non-classical correlations.",
+  "eli5": "If you connect three-person secret-code generators together into a web, changing which computer connects to which changes which quantum secrets the whole group can safely share.",
+  "keyNumbers": [
+   {
+    "value": "3",
+    "label": "qubits per source",
+    "context": "Number of entangled qubits emitted by each tripartite source in the studied network"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum nonlocality",
+    "shortDef": "Correlations between spatially separated measurements that cannot be explained by classical physics.",
+    "eli5Def": "A spooky connection where actions on one particle instantly dictate the measurement odds of another far away.",
+    "wikiTitle": "Quantum nonlocality"
+   },
+   {
+    "term": "Svetlichny inequality",
+    "shortDef": "A Bell-type inequality designed to test for genuine multipartite entanglement across three particles.",
+    "eli5Def": "A strict math test that proves three particles are genuinely entangled all together, not just in pairs.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Greenberger-Horne-Zeilinger states",
+    "shortDef": "An entangled quantum state involving three or more subsystems with maximal non-classical correlation.",
+    "eli5Def": "A special team of three or more quantum bits that are completely locked together in an all-or-nothing state.",
+    "wikiTitle": "Greenberger–Horne–Zeilinger state"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

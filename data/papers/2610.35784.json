@@ -1,0 +1,77 @@
+{
+ "id": "2610.35784",
+ "version": 1,
+ "title": "Twist-controlled imaginary-time Mpemba effect in quantum spin systems",
+ "authors": [
+  {
+   "name": "Zhi-Yao Ning"
+  },
+  {
+   "name": "Zi-Xiang Li"
+  },
+  {
+   "name": "Naoki Kawashima"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-26T17:24:55Z",
+ "updated": "2026-10-26T17:24:55Z",
+ "abstract": "We construct a controllable imaginary-time Mpemba effect in quantum spin systems using spatially modulated local rotations without changing initial bipartite entanglement spectra and correlation magnitudes. This feature unambiguously isolates the redistribution of spectral weights as the sole driver of the anomalous relaxation. Using the compact-boson description, we reveal that these twists act as precise mode selectors: higher-harmonic twists exclusively populate high-energy standing waves, structurally bypassing slow-decaying infrared modes to accelerate convergence. We derive exact analytical crossing times for these reversals and demonstrate that intentionally reintroducing the slow-mode population systematically delays the ITME. This exact mechanism is validated beyond the fixed-point theory via calculations on interacting XXZ chains and ladders. Furthermore, a twelve-qubit simulation of variational quantum imaginary-time evolution reproduces the reversals and their controlled delay, providing a concrete route to realize this protocol in realistic quantum circuits. Ultimately, these results provide a strictly controllable and exact starting point for realizing and investigating the imaginary-time Mpemba effect, establishing a foundational paradigm to harness anomalous non-equilibrium relaxation in quantum ground-state preparations.",
+ "comment": "7pages, 4 figures, with supplemental materials 14 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.35784",
+  "pdf": "https://arxiv.org/pdf/2610.35784",
+  "html": "https://arxiv.org/html/2610.35784"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-27T12:35:28.588Z",
+  "hook": "A twelve-qubit simulation reproduces reversals and controlled delays of the imaginary-time Mpemba effect.",
+  "tldr": [
+   "Constructed a controllable imaginary-time Mpemba effect in quantum spin systems using spatially modulated local rotations.",
+   "Used a compact-boson description to reveal that twists act as precise mode selectors bypassing slow-decaying infrared modes.",
+   "Validated the mechanism on interacting XXZ chains and ladders and simulated it on a twelve-qubit quantum circuit."
+  ],
+  "whyItMatters": "The Mpemba effect—where a hotter system sometimes freezes faster than a colder one—challenges basic intuition. Harnessing its quantum counterpart can dramatically speed up quantum ground-state preparation.",
+  "eli5": "Normally, a hot cup of water takes longer to freeze than a lukewarm one, but sometimes the opposite happens. Researchers found a way to use specific twists in quantum magnets to make them relax into their resting state much faster, like giving a lazy runner a sudden shortcut.",
+  "keyNumbers": [
+   {
+    "value": "twelve",
+    "label": "Qubits in simulation",
+    "context": "A simulation of variational quantum imaginary-time evolution reproducing the reversals."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Imaginary-time Mpemba effect",
+    "shortDef": "An anomalous relaxation phenomenon where a system further from equilibrium converges faster than a closer one.",
+    "eli5Def": "When starting further away from the finish line somehow helps you get there faster.",
+    "wikiTitle": "Mpemba effect"
+   },
+   {
+    "term": "XXZ chain",
+    "shortDef": "A one-dimensional quantum Heisenberg model with anisotropic nearest-neighbor interactions.",
+    "eli5Def": "A straight row of quantum magnets that can interact with their neighbors in specific directions.",
+    "wikiTitle": "XXZ model"
+   },
+   {
+    "term": "Variational quantum imaginary-time evolution",
+    "shortDef": "A quantum algorithm used to find the ground state of a Hamiltonian by evolving states in imaginary time.",
+    "eli5Def": "A recipe for a quantum computer to naturally find the lowest-energy, most relaxed state of a system.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

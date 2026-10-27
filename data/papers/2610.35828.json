@@ -1,0 +1,86 @@
+{
+ "id": "2610.35828",
+ "version": 1,
+ "title": "Interference-induced dynamical crossovers in quantum walks on disordered square lattices",
+ "authors": [
+  {
+   "name": "Ramnarayan Bera"
+  },
+  {
+   "name": "Arijit Roy"
+  },
+  {
+   "name": "Soumyadip Ghosh"
+  },
+  {
+   "name": "Soumen Roy"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-26T17:49:43Z",
+ "updated": "2026-10-26T17:49:43Z",
+ "abstract": "We study discrete-time quantum walks with Fourier, Grover, and Hadamard coin operators on disordered square lattices, alongside classical random walks. Edges in the lattice are absent with a probability, $p$. In this case, both classical and quantum walks exhibit an essentially identical degradation of transport. We then study a general version of this model, in which the existing edges are retained. However, the absent edges are no longer absent, but now become partially transmitting, with a transmission coefficient $f$. We find that the response is now quite sensitive to the walk protocol and coin symmetry. The classical walk exhibits asymptotic stability of the anomalous diffusion exponent, $β(t)$. In comparison, quantum walks exhibit a monotonically decaying $β(t)$ beyond the initial transient regime, leading to the absence of quantum diffusion in two dimensions. We map the transport regimes in the $(f,p)$ plane and identify the contour for $β=1$, which separates the subdiffusive and superdiffusive regimes. We also examine the effective diffusion coefficient, the inverse participation ratio, and the first two moments of edge transmission. We restrict ourselves to analyzing bulk propagation prior to finite-size boundary reflections. The results indicate that quantum transport depends significantly on coin-specific interference and cannot be fully described by transmission statistics alone.",
+ "comment": "10 pages, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.35828",
+  "pdf": "https://arxiv.org/pdf/2610.35828",
+  "html": "https://arxiv.org/html/2610.35828"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.35828v1/unitary_weak_link_transport_all_f.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-27T12:35:28.588Z",
+  "hook": "On disordered 2D lattices, quantum interference causes diffusion exponents to decay, halting quantum transport.",
+  "tldr": [
+   "Simulated discrete-time quantum walks with various coin operators alongside classical random walks on leaky square grids.",
+   "Introduced partially transmitting edges with coefficient f and missing edges with probability p to model disorder.",
+   "Discovered that classical anomalous diffusion remains stable while quantum walks undergo decay, vanishing in 2D."
+  ],
+  "whyItMatters": "Unlike classical random movement, quantum particle propagation is fragile against partial edge leakage, highlighting critical limits for quantum routing and algorithmic walks in imperfect media.",
+  "eli5": "Imagine flipping a coin to decide which path to take in a maze. A classical walker eventually diffuses steadily, but quantum waves interfere with themselves, causing the quantum walker to unexpectedly stall out when paths leak.",
+  "keyNumbers": [
+   {
+    "value": "1",
+    "label": "diffusion boundary β",
+    "context": "The contour separating the subdiffusive and superdiffusive regimes in the (f, p) plane"
+   },
+   {
+    "value": "2",
+    "label": "dimensions",
+    "context": "The spatial dimension of the square lattice where quantum diffusion absence is observed"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum walk",
+    "shortDef": "The quantum mechanical analog of a classical random walk, driven by unitary evolution and interference.",
+    "eli5Def": "A particle that explores multiple pathways at once like an expanding ripple instead of stepping one by one.",
+    "wikiTitle": "Quantum walk"
+   },
+   {
+    "term": "Inverse participation ratio",
+    "shortDef": "A measure used to quantify the degree of spatial localization of a quantum wave packet.",
+    "eli5Def": "A metric that checks whether a wave is spread out over the whole grid or trapped in a tiny spot.",
+    "wikiTitle": "Participation ratio"
+   },
+   {
+    "term": "Anomalous diffusion",
+    "shortDef": "Diffusion where mean squared displacement scales nonlinearly with time rather than linearly.",
+    "eli5Def": "Movement that spreads out faster or slower than a standard drop of ink in still water.",
+    "wikiTitle": "Anomalous diffusion"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

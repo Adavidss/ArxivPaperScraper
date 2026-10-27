@@ -1,0 +1,69 @@
+{
+ "id": "2610.35824",
+ "version": 1,
+ "title": "Sparse Carleman Embeddings for Nonlinear Discrete Dynamical Systems",
+ "authors": [
+  {
+   "name": "Hsuan-Cheng Wu"
+  },
+  {
+   "name": "Xiantao Li"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-26T17:48:13Z",
+ "updated": "2026-10-26T17:48:13Z",
+ "abstract": "Discrete nonlinear dynamical systems arise in population models, iterative optimization, and numerical simulations, where computing many iterations can be costly in high dimensions. We study Carleman embedding for forced quadratic discrete systems and its application to quantum state preparation. Under explicit stability and initial-state assumptions, we prove that the truncation error decreases geometrically with the embedding degree, uniformly over all iterations. A central obstacle in discrete time is that the lifted update can become dense even when the original coefficient maps are sparse. We overcome this obstacle by constructing an exact auxiliary linear-system representation that applies the coefficient maps one tensor factor at a time, with row and column sparsities bounded independently of the truncation degree. After rescaling, the associated history system has a condition number that grows linearly with the iteration count, uniformly in the truncation degree. These results yield a quantum algorithm for preparing an approximation to the normalized $n$th iterate with constant success probability. Under coherent input-access assumptions, and for fixed sparsity, stability parameters, and a known positive lower bound on the final-state norm, the oracle query complexity is linear in $n$ and polylogarithmic in the inverse accuracy. Numerical experiments in one and three dimensions illustrate the convergence of the truncated embedding.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.35824",
+  "pdf": "https://arxiv.org/pdf/2610.35824",
+  "html": "https://arxiv.org/html/2610.35824"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.35824v1/Figures/carleman_error_vs_N.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-27T12:35:28.588Z",
+  "hook": "A new quantum algorithm achieves an oracle query complexity linear in n and polylogarithmic in inverse accuracy.",
+  "tldr": [
+   "Studied Carleman embedding for forced quadratic discrete systems and its application to quantum state preparation.",
+   "Constructed an exact auxiliary linear-system representation applying coefficient maps one tensor factor at a time with bounded sparsity.",
+   "Proved the truncation error decreases geometrically with the embedding degree and developed a quantum algorithm for the nth iterate."
+  ],
+  "whyItMatters": "Computing many iterations of nonlinear systems in high dimensions is very costly. This work offers a quantum approach that could make simulating these complex systems vastly more efficient.",
+  "eli5": "Imagine trying to track a chaotic game of billiards by writing down every single bounce on paper, which quickly fills up thousands of notebooks. Instead, these researchers built a clever mathematical shortcut that keeps the paperwork organized and small, allowing a quantum computer to predict the final positions much faster.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Carleman embedding",
+    "shortDef": "A technique to transform a nonlinear system of equations into an infinite-dimensional linear system.",
+    "eli5Def": "Turning a curvy, complicated math problem into a giant straight-line problem so it is easier to solve.",
+    "wikiTitle": "Carleman linearization"
+   },
+   {
+    "term": "Oracle query complexity",
+    "shortDef": "The number of times a quantum algorithm needs to consult a black-box subroutine to solve a problem.",
+    "eli5Def": "How many times the quantum computer has to check its magic answer-box to get the right solution.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Condition number",
+    "shortDef": "A measure of how much a function's output changes for a small change in the input.",
+    "eli5Def": "A score of how easily a tiny typo in your starting numbers can ruin your final answer.",
+    "wikiTitle": "Condition number"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

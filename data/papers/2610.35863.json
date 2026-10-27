@@ -1,0 +1,75 @@
+{
+ "id": "2610.35863",
+ "version": 1,
+ "title": "Complete entropy contraction from conditional hyperboundedness",
+ "authors": [
+  {
+   "name": "Li Gao"
+  },
+  {
+   "name": "Lijun Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math.FA",
+  "math.OA"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-26T17:59:27Z",
+ "updated": "2026-10-26T17:59:27Z",
+ "abstract": "For finite-dimensional quantum channels compatible with a faithful conditional expectation, we show that conditional hyperboundedness and strict GNS contraction together yield a relative entropy contraction. For KMS-symmetric quantum Markov semigroups, a conditional $2\\to q$ hyperboundedness at time $t_0>0$ combined with a GNS gap $λ>0$ implies a modified logarithmic Sobolev constant \\[ α=\\frac{λ(1-2/q)} {12(λt_0+\\log M+1-2/q)},\\] where $M$ is the hyperboundedness constant. As a consequence, completely bounded hyperboundedness over auxiliary systems gives complete versions of entropy contraction with the same rates.",
+ "comment": "23 pages; comments are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.35863",
+  "pdf": "https://arxiv.org/pdf/2610.35863",
+  "html": "https://arxiv.org/html/2610.35863"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-27T12:35:28.588Z",
+  "hook": "Researchers derive an explicit quantum logarithmic Sobolev constant directly from conditional hyperboundedness.",
+  "tldr": [
+   "Studied relative entropy contraction rates for finite-dimensional quantum channels and KMS-symmetric Markov semigroups.",
+   "Combined conditional hyperboundedness with GNS contraction to derive explicit modified logarithmic Sobolev constants.",
+   "Established that completely bounded hyperboundedness extends entropy contraction bounds to auxiliary quantum systems."
+  ],
+  "whyItMatters": "Logarithmic Sobolev inequalities govern how quickly noisy open quantum systems lose information and reach thermal equilibrium, which is critical for understanding quantum memory fidelity.",
+  "eli5": "When a warm room cools down, heat flows out at a predictable speed. This paper gives an exact mathematical formula for how fast quantum information leaks into its surroundings, guaranteeing the decay rate holds true even with extra spectator particles.",
+  "keyNumbers": [
+   {
+    "value": "12",
+    "label": "denominator factor",
+    "context": "Constant factor in the formula for the modified logarithmic Sobolev constant α"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum Markov semigroup",
+    "shortDef": "A mathematical model describing continuous, memoryless open quantum system evolution.",
+    "eli5Def": "A math recipe that tracks how a quantum particle gradually loses its special quantum properties over time.",
+    "wikiTitle": "Quantum dynamical semigroup"
+   },
+   {
+    "term": "Logarithmic Sobolev constant",
+    "shortDef": "A parameter quantifying the exponential rate at which relative entropy contracts over time.",
+    "eli5Def": "A speed-limit number that tells you how fast an open system equilibrates or forgets its starting state.",
+    "wikiTitle": "Logarithmic Sobolev inequalities"
+   },
+   {
+    "term": "KMS-symmetric",
+    "shortDef": "Satisfying the Kubo-Martin-Schwinger condition, reflecting thermodynamic quantum equilibrium.",
+    "eli5Def": "A mathematical property that means a quantum system is perfectly balanced with its thermal environment.",
+    "wikiTitle": "KMS state"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

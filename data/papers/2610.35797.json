@@ -1,0 +1,66 @@
+{
+ "id": "2610.35797",
+ "version": 1,
+ "title": "The $\\varepsilon$-smoothed Entanglement of Formation and its relation to the Moreau-Yosida approximation",
+ "authors": [
+  {
+   "name": "M. E. Shirokov"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "math.FA"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-26T17:33:24Z",
+ "updated": "2026-10-26T17:33:24Z",
+ "abstract": "We describe a family of convex continuous functions $E_{F,\\varepsilon}$, $\\varepsilon\\in(0,1]$, on the set of states of a bipartite quantum system (consisting of finite-dimensional or infinite-dimensional subsystems) obtained by applying the Mora-Piani-Briegel construction of $\\varepsilon$-measure (proposed in [Phys. Rev. A 109, 052413]) to the Entanglement of Formation (EoF) with the use of the trace norm distance in the role of basic metric. These functions are non-increasing in $\\varepsilon$ and converge pointwise to the EoF as $\\varepsilon\\to0^+$. We conducted a detailed analysis of properties of the functions $E_{F,\\varepsilon}$, using (among others) the relationship between the family $\\{E_{F,\\varepsilon}\\}_{\\varepsilon\\in[0,1]}$ and the family $\\{E^λ_F(ρ)\\}_{λ>0}$ of Moreau-Yosida approximations of the EoF explored in [arXiv:2609.30246]. We obtain a variational expression for the functions $E_{F,\\varepsilon}$ (which for $\\varepsilon=0$ turns into the standard variational expression for the EoF). We also describe the weak subadditivity property of the functions $E_{F,\\varepsilon}$ and analyse their continuity properties. The semicontinuity bounds for the EoF (presented in [Lob.J.Math., 46, 2632-2658],[arXiv:2404.07978]) allow us to obtain easily computable upper bounds on the rate of uniform convergence of the function $E_{F,\\varepsilon}$ to the EoF as $\\varepsilon\\to0^+$ on the sets of states with bounded rank/energy of one of the marginal states. Applicability of the obtained results to other entanglement measures, in particular, to the relative entropy of entanglement, is discussed. As an auxiliary result, it is shown that for any state of an infinite-dimensional bipartite quantum system, there exists a nearest separable state w.r.t. the trace norm distance. The non-uniqueness of such a state is also shown.",
+ "comment": "36 pages, preliminary version, one comments and references are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.35797",
+  "pdf": "https://arxiv.org/pdf/2610.35797",
+  "html": "https://arxiv.org/html/2610.35797"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-27T12:35:28.588Z",
+  "hook": "We describe a family of convex continuous functions EF,ε obtained by applying an ε-measure construction to the EoF.",
+  "tldr": [
+   "Described a family of convex continuous functions EF,ε obtained by applying the ε-measure construction to the Entanglement of Formation.",
+   "Analyzed properties of EF,ε using Moreau-Yosida approximations and derived a variational expression for these functions.",
+   "Obtained easily computable upper bounds on the rate of uniform convergence to the EoF as epsilon approaches zero."
+  ],
+  "whyItMatters": "Understanding and quantifying quantum entanglement is crucial for quantum computing and information theory, and smoother approximations make difficult calculations much more tractable.",
+  "eli5": "Think of measuring how tightly two puzzle pieces are glued together. If the glue makes it hard to measure the exact bond, scientists can use a slightly blurred or smoothed-out version of the measurement that is easier to calculate, and then slowly take the blur away.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Entanglement of Formation",
+    "shortDef": "A measure of how much quantum entanglement is required to create a given bipartite quantum state.",
+    "eli5Def": "The price tag in pure entanglement units required to build a shared quantum connection between two things.",
+    "wikiTitle": "Entanglement of formation"
+   },
+   {
+    "term": "Moreau-Yosida approximation",
+    "shortDef": "A smoothing technique used in convex analysis to turn rough functions into smooth, differentiable ones.",
+    "eli5Def": "Sandpaper for sharp, jagged math equations so they are nice and smooth to work with.",
+    "wikiTitle": "Moreau's envelope"
+   },
+   {
+    "term": "Trace norm",
+    "shortDef": "A matrix norm defined as the sum of the singular values of the matrix.",
+    "eli5Def": "A mathematical ruler used to measure the total distance or difference between two quantum states.",
+    "wikiTitle": "Trace class"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

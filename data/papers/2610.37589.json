@@ -1,0 +1,88 @@
+{
+ "id": "2610.37589",
+ "version": 1,
+ "title": "Dynamical quantum simulations as laboratories for quantum information",
+ "authors": [
+  {
+   "name": "Su Yeon Chang"
+  },
+  {
+   "name": "Hailey S. Murray"
+  },
+  {
+   "name": "Brian Barch"
+  },
+  {
+   "name": "Greeshma Oruganti"
+  },
+  {
+   "name": "Luis Pedro García-Pintos"
+  },
+  {
+   "name": "Martin Larocca"
+  },
+  {
+   "name": "Mark M. Wilde"
+  },
+  {
+   "name": "M. Cerezo"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mtrl-sci"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-27T17:26:28Z",
+ "updated": "2026-10-27T17:26:28Z",
+ "abstract": "Dynamical quantum simulations are commonly designed to access a particular response function or correlation function. Yet the underlying protocol prepares a family of many-body states that contains information well beyond the observable for which the simulation was originally designed. In this work, we explore the idea of using these states as laboratories for quantum information. As a case study, we consider the local-pulse protocols used to compute Green functions in finite XX and XXX spin chains, and we interpret opposite source rotations as encoding a classical bit into the many-body system. This allows us to follow how the resulting record propagates, how it is encoded across local subsystems, and how readily it can be accessed with different measurements. We also find a clear separation between representation and readout. While fermionic covariance data exactly reconstruct the signed response in the XX chain, simple spin measurements recover a larger fraction of the locally available information in the XXX chain. This reversed ordering persists when we move from finite-pulse discrimination to local source-angle estimation. Going beyond the source record, the same reduced states also allow us to reinterpret results in terms of Bell state recovery and quantum communication rates, as well as providing direct access to the evolving bipartite and genuine multipartite entanglement of the system. Our results show that dynamical quantum simulations developed for response calculations can naturally be used to ask a much broader set of quantum-information questions about the many-body states they already prepare.",
+ "comment": "23+23 pages, 13+11 figures, 1 table",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.37589",
+  "pdf": "https://arxiv.org/pdf/2610.37589",
+  "html": "https://arxiv.org/html/2610.37589"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.37589v1/figure_02_all_width_D_wakes.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-28T13:25:08.531Z",
+  "hook": "Dynamical quantum simulations prepare rich many-body states that hold far more information than just their targeted response functions.",
+  "tldr": [
+   "Explored using states from dynamical quantum simulations as laboratories for wider quantum information tasks beyond their original design.",
+   "Analyzed local-pulse protocols used to compute Green functions in XX and XXX spin chains by interpreting source rotations as encoding classical bits.",
+   "Demonstrated that these simulations naturally grant access to Bell state recovery, quantum communication rates, and evolving entanglement."
+  ],
+  "whyItMatters": "Quantum simulations are expensive to run. Showing they accidentally generate a goldmine of extra quantum information means researchers can extract vastly more value from experiments they are already performing.",
+  "eli5": "Imagine baking a cake just to test if the oven works, only to discover the batter also formed delicious bonus cookies. The researchers showed that quantum simulations built for one specific measurement naturally create a treasure trove of extra quantum data that you can study for free.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Green functions",
+    "shortDef": "Mathematical tools used to describe the response of a system to external disturbances.",
+    "eli5Def": "Like tapping a bowl to see how the whole bowl rings and reacts.",
+    "wikiTitle": "Green's function"
+   },
+   {
+    "term": "XX and XXX spin chains",
+    "shortDef": "Theoretical models of interacting quantum particles aligned in a row like tiny magnets.",
+    "eli5Def": "A row of microscopic compass needles interacting with their neighbors.",
+    "wikiTitle": "Transverse-field Ising model"
+   },
+   {
+    "term": "Bipartite entanglement",
+    "shortDef": "Quantum correlation shared strictly between two distinct subsystems.",
+    "eli5Def": "A magical, invisible link connecting two specific groups of particles.",
+    "wikiTitle": "Quantum entanglement"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

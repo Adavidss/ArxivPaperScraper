@@ -1,0 +1,80 @@
+{
+ "id": "2610.37654",
+ "version": 1,
+ "title": "Mediated Interactions between Fermi Polarons in the Strongly Interacting Regime",
+ "authors": [
+  {
+   "name": "Renato Pessoa"
+  },
+  {
+   "name": "S. A. Vitiello"
+  },
+  {
+   "name": "Luis A. Peña Ardila"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-10-27T17:58:38Z",
+ "updated": "2026-10-27T17:58:38Z",
+ "abstract": "Mediated interactions between quasiparticles lie at the heart of Landau Fermi-liquid theory, yet their behavior in the strongly correlated regime is not fully understood. Motivated by recent experiments [Nat. Phys. 20, 68--73 (2024)], we investigate mediated interactions between quasiparticles emerging from a Fermi sea---Fermi polarons---using zero-temperature quantum Monte Carlo methods. Our main result is that the Landau interaction between polarons remains repulsive in the strongly interacting regime for any coupling strength in the polaronic branch, in contrast to the downward trend observed experimentally near resonance. Deep in the short-range universal regime, our results are insensitive to the microscopic details of the interaction potential, providing robust evidence for the sign of the ground-state induced interaction. In addition, we determine the real-space interaction between static impurities, recovering a Ruderman-Kittel-Kasuya-Yosida (RKKY)-like behavior at weak coupling and the nonperturbative Born-Oppenheimer result at strong coupling. More broadly, our results establish a microscopic benchmark for how Landau quasiparticle interactions survive beyond the perturbative regime of strongly correlated quantum matter.",
+ "comment": "5 pages + 5 pages(supplemental material) and 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.37654",
+  "pdf": "https://arxiv.org/pdf/2610.37654",
+  "html": "https://arxiv.org/html/2610.37654"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.37654v1/Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-28T13:25:08.531Z",
+  "hook": "Contrary to recent experiments, quantum Monte Carlo shows Fermi polaron interactions stay strictly repulsive.",
+  "tldr": [
+   "Investigated mediated interactions between Fermi polarons in strongly correlated quantum regimes.",
+   "Simulated the system at zero temperature using microscopic quantum Monte Carlo methods.",
+   "Found polaronic Landau interactions remain repulsive across all coupling strengths, conflicting with experimental trends."
+  ],
+  "whyItMatters": "Quasiparticle interactions govern the behavior of metals, superconductors, and neutron stars; settling whether they attract or repel is essential for fundamental condensed matter theory.",
+  "eli5": "When a ball rolls across a soft mattress, it creates an indent that can pull nearby balls toward it. Physicists tested if particles swimming through a sea of electrons attract each other, but found they actually push each other away.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Fermi polaron",
+    "shortDef": "A quasiparticle formed by an impurity immersed in and interacting with a degenerate Fermi sea.",
+    "eli5Def": "A single guest particle dressed in a cloud of host particles that it drags around with it.",
+    "wikiTitle": "Polaron"
+   },
+   {
+    "term": "Quantum Monte Carlo",
+    "shortDef": "A family of computational algorithms that use random sampling to simulate quantum many-body systems.",
+    "eli5Def": "Using computer-rolled random dice to solve equations that are far too complex to calculate directly.",
+    "wikiTitle": "Quantum Monte Carlo"
+   },
+   {
+    "term": "Landau Fermi-liquid theory",
+    "shortDef": "A theoretical model describing interacting fermions at low temperatures in terms of weakly interacting quasiparticles.",
+    "eli5Def": "A framework showing that interacting quantum particles can act almost like simple, free particles with extra baggage.",
+    "wikiTitle": "Fermi liquid theory"
+   },
+   {
+    "term": "RKKY interaction",
+    "shortDef": "A mechanism of indirect magnetic coupling mediated by conduction electrons.",
+    "eli5Def": "A way magnetic atoms talk to each other across a distance by sending ripples through surrounding electrons.",
+    "wikiTitle": "RKKY interaction"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

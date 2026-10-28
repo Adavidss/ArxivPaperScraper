@@ -1,0 +1,69 @@
+{
+ "id": "2610.37660",
+ "version": 1,
+ "title": "Optimal quantum discrimination at Liouvillian exceptional points",
+ "authors": [
+  {
+   "name": "Aritra Ghosh"
+  },
+  {
+   "name": "M. Bhattacharya"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-27T17:59:06Z",
+ "updated": "2026-10-27T17:59:06Z",
+ "abstract": "Central to non-Hermitian sensing is the question of whether exceptional points (EPs) can make weak perturbations easier to detect. We show that despite enhanced spectral response, in finite-dimensional Lindblad systems with a unique stationary state and a nonzero relaxation gap, EPs offer no fundamental advantage in how the observation time required for reliable detection of a weak perturbation scales with the perturbation strength. We nevertheless demonstrate that by selectively choosing perturbations that enhance the quantum Fisher information rate, EPs can shorten the observation time needed to reach a predefined detection accuracy relative to a comparable non-EP reference at the same decay rate. As an illustration, we show using an optomechanical model at an EP that we can detect a weak force through the cavity output at the same reliability in less time than a non-EP reference. Our results establish fundamental limits on perturbation detection at EPs and can guide the design of faster non-Hermitian sensors based on optomechanical resonators, superconducting qubits, and trapped ions.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.37660",
+  "pdf": "https://arxiv.org/pdf/2610.37660",
+  "html": "https://arxiv.org/html/2610.37660"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-28T13:25:08.531Z",
+  "hook": "Exceptional points do not alter how detection time fundamentally scales with weak signal strength in open systems.",
+  "tldr": [
+   "Investigated whether Liouvillian exceptional points provide a fundamental speedup for sensing weak perturbations.",
+   "Analyzed finite-dimensional Lindblad systems with non-zero relaxation gaps and tested an optomechanical cavity model.",
+   "Showed EPs offer no fundamental scaling advantage, though targeted perturbations can reduce detection time for fixed accuracy."
+  ],
+  "whyItMatters": "Non-Hermitian sensors were thought to provide extreme sensitivity boosts; this clarifies their true limits to guide realistic designs in quantum devices.",
+  "eli5": "Scientists wanted to know if a special tipping point makes quantum sensors spot tiny pushes faster. It turns out the tipping point does not magically beat standard limits, though careful tuning can still shave off some detection time.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Exceptional point",
+    "shortDef": "A singularity in a non-Hermitian system where both eigenvalues and their corresponding eigenvectors coalesce.",
+    "eli5Def": "A weird tipping point where two different physical states merge into the exact same state.",
+    "wikiTitle": "Exceptional point"
+   },
+   {
+    "term": "Quantum Fisher information",
+    "shortDef": "A measure of the maximum information a quantum state carries about an unknown parameter.",
+    "eli5Def": "A score that tells you the absolute most you could ever learn about a hidden setting from a quantum particle.",
+    "wikiTitle": "Quantum Fisher information"
+   },
+   {
+    "term": "Lindblad equation",
+    "shortDef": "A master equation describing the non-unitary time evolution of an open quantum system.",
+    "eli5Def": "The standard rulebook for calculating how a quantum system evolves when leaking energy into its environment.",
+    "wikiTitle": "Lindblad equation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

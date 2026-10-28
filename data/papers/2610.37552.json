@@ -1,0 +1,84 @@
+{
+ "id": "2610.37552",
+ "version": 1,
+ "title": "Meet-in-the-Middle Compilation of the $[\\mathrm{CNOT}]$ Class with Fibonacci Anyons",
+ "authors": [
+  {
+   "name": "Matvei Fedin"
+  },
+  {
+   "name": "Andrey Morozov"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "hep-th"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-27T17:01:43Z",
+ "updated": "2026-10-27T17:01:43Z",
+ "abstract": "Compilation of two-qubit Fibonacci anyon gates is complicated by leakage ($\\ell$) from the four-dimensional computational sector to the fifth state of the fusion space. We construct a GPU pipeline to find low-leakage representatives of the $[\\text{CNOT}]$ class on different subsets of the braid group. We exhaustively explore the full positive five-generator alphabet up to $L=21$ with minimal leakage $\\ell\\sim10^{-3}$ and error $d_{[\\text{CNOT}]}\\sim 10^{-8}$ on it. To reach larger lengths, the search space is successively narrowed to three-generator, boundary-$σ_3$, and palindromic braids, and by considering only the Garside left normal form. These optimizations allow us to reach $L=72$. For $L=69$, a braid with $\\ell\\sim10^{-10}$ and $d_{[\\text{CNOT}]}\\sim 10^{-10}$ is found. In addition to directly enumerating optimal braids, we proved that $\\ell\\in\\mathbb Z[\\varphi]$, and any nonzero leakage obeys an exponential lower bound in the braid length, and obtained the limit laws $F_{3,\\infty}(\\ell)=\\ell^2$ and $F_{5,\\infty}(\\ell)=\\ell^4$ for our sets. Using asymptotics for the distribution function $F$, we showed that for sufficiently long braids, the asymptotics of exhaustive search are better than the asymptotics of random sampling for finding low-leakage braids.",
+ "comment": "30 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.37552",
+  "pdf": "https://arxiv.org/pdf/2610.37552",
+  "html": "https://arxiv.org/html/2610.37552"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-28T13:25:08.531Z",
+  "hook": "Found a braid of length 69 with leakage and error around 10^-10 for compiling CNOT gates with Fibonacci anyons.",
+  "tldr": [
+   "Built a GPU pipeline to find low-leakage representatives of the CNOT gate class using Fibonacci anyons.",
+   "Exhaustively explored braid alphabets up to length 21 and optimized search spaces using palindromic braids and Garside normal forms up to length 72.",
+   "Proved leakage obeys an exponential lower bound in braid length and derived limit laws showing exhaustive search beats random sampling."
+  ],
+  "whyItMatters": "Fibonacci anyons are a promising route to fault-tolerant quantum computing, but compiling precise quantum gates without leaking information is notoriously difficult. This work provides concrete pathways and computational pipelines to make those gates reliable.",
+  "eli5": "Weaving quantum gates with exotic particles called anyons is a bit like braiding hair: if you slip up, information leaks out and ruins the calculation. Scientists built a powerful computer program to find the absolute best ways to braid these particles without making mistakes.",
+  "keyNumbers": [
+   {
+    "value": "21",
+    "label": "Max alphabet length",
+    "context": "Exhaustively explored up to length L=21 with minimal leakage."
+   },
+   {
+    "value": "72",
+    "label": "Max braid length",
+    "context": "Optimizations allowed the search to reach length L=72."
+   },
+   {
+    "value": "69",
+    "label": "Target braid length",
+    "context": "A braid with leakage and error around 10^-10 was found at L=69."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Fibonacci anyons",
+    "shortDef": "Exotic quasiparticles in two-dimensional systems that follow non-Abelian statistics.",
+    "eli5Def": "Mysterious subatomic particles that remember how they were twisted around each other, useful for safe quantum memory.",
+    "wikiTitle": "Anyon"
+   },
+   {
+    "term": "Braid group",
+    "shortDef": "A mathematical group describing the topological paths of intertwining strands.",
+    "eli5Def": "The mathematical rules governing how hair braids twist and cross over one another.",
+    "wikiTitle": "Braid group"
+   },
+   {
+    "term": "Garside left normal form",
+    "shortDef": "A standardized canonical way of writing elements in certain algebraic groups.",
+    "eli5Def": "A neat organizational trick that turns messy tangles into a clean standard format.",
+    "wikiTitle": "Garside group"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

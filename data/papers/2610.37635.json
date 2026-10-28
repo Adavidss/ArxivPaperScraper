@@ -1,0 +1,78 @@
+{
+ "id": "2610.37635",
+ "version": 1,
+ "title": "Classical Verification of Quantum Computation Beyond the Polynomial Hierarchy",
+ "authors": [
+  {
+   "name": "Atul Mantri"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-27T17:54:01Z",
+ "updated": "2026-10-27T17:54:01Z",
+ "abstract": "It is not known whether a classical polynomial-time verifier can verify arbitrary polynomial-time quantum computations with an efficient quantum honest prover without computational assumptions. We show that, relative to a classical oracle, such verification is possible for a language beyond the polynomial hierarchy that is decided exactly in quantum polynomial time. The protocol is public-coin, with perfect completeness and soundness error at most 1/4. To our knowledge, no language with such a proof system was previously proved to lie outside AM relative to an oracle. For every unbounded polynomial-time computable function, the oracle can be chosen so that the message count and the oracle query counts of the quantum algorithm, verifier, and honest prover are bounded by this function of the input length. The message count is optimal up to a constant factor, since for a suitable oracle every interactive proof system for the language uses at least a constant fraction of the messages of our protocol on infinitely many lengths, with a constant depending on its verifier. The language is a variant of recursive Fourier sampling in which code tables encode secrets that address data tables. The tables are evaluated recursively, and the oracle stores only the leaves. The quantum algorithm recovers every secret exactly, and the verifier checks the prover's secrets recursively against random code entries. The recursion restricts the input in a correlated way, as the same secret fixes the code bits and chooses the free coordinate, so Håstad's switching lemma does not apply. We prove a switching theorem for these restrictions, which may be of independent interest. For instances of sufficient height, no constant-depth circuit of size $2^{\\mathrm{poly}(n)}$ changes its output with probability above $2^{-Ω(n)}$ when the answer of a random instance is flipped by changing a single leaf.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.37635",
+  "pdf": "https://arxiv.org/pdf/2610.37635",
+  "html": "https://arxiv.org/html/2610.37635"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-28T13:25:08.531Z",
+  "hook": "A classical verifier can check quantum proofs outside the polynomial hierarchy relative to an oracle.",
+  "tldr": [
+   "Constructed an interactive protocol for a classical verifier to verify quantum polynomial-time problems beyond PH.",
+   "Used a public-coin recursive Fourier sampling variant with code tables checked against oracle leaf entries.",
+   "Proved perfect completeness and soundness error at most 1/4, achieving optimal message count up to a constant factor."
+  ],
+  "whyItMatters": "Demonstrates that ordinary classical computers can reliably audit extremely complex quantum algorithms without needing unproven cryptographic assumptions.",
+  "eli5": "Can a regular human referee verify that a super-genius quantum computer actually solved a mind-boggling puzzle correctly? This research shows that with the right series of cross-examinations, the referee can catch any lie.",
+  "keyNumbers": [
+   {
+    "value": "1/4",
+    "label": "Soundness error upper bound",
+    "context": "Maximum probability that the classical verifier accepts a false proof."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Polynomial hierarchy",
+    "shortDef": "A hierarchy of complexity classes generalizing P, NP, and co-NP to include alternating quantifiers.",
+    "eli5Def": "A tall ladder of computational difficulty that stacks layers of 'there exists' and 'for all' puzzle questions.",
+    "wikiTitle": "Polynomial hierarchy"
+   },
+   {
+    "term": "Interactive proof system",
+    "shortDef": "A protocol where a prover exchanges messages with a verifier to convince them of a mathematical claim.",
+    "eli5Def": "A game of questions and answers where a skeptic checks if an all-powerful expert is telling the truth.",
+    "wikiTitle": "Interactive proof system"
+   },
+   {
+    "term": "Oracle machine",
+    "shortDef": "A theoretical device that can instantly provide answers to specific computational queries.",
+    "eli5Def": "A magic black box in computer science that instantly gives correct answers to certain hard questions.",
+    "wikiTitle": "Oracle machine"
+   },
+   {
+    "term": "Håstad's switching lemma",
+    "shortDef": "A fundamental tool in circuit complexity bounding the probability that a restriction fails to simplify a formula.",
+    "eli5Def": "A math theorem proving that randomly fixing some inputs turns complicated logical circuits into simple ones.",
+    "wikiTitle": "Håstad's switching lemma"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

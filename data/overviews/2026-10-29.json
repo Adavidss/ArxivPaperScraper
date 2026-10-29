@@ -1,0 +1,50 @@
+{
+ "date": "2026-10-29",
+ "generatedAt": "2026-10-29T13:33:40.687Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Quantum limits, measurement, and cryptography",
+ "summary": "Today's research explores fundamental quantum mechanics across several domains. The papers investigate how to push optical imaging toward quantum limits, secure quantum key distribution against cloning and leakage, and understand measurement incompatibility and gauge emergence.",
+ "themes": [
+  {
+   "title": "Quantum Metrology and Imaging",
+   "body": "New techniques push precision estimation closer to fundamental quantum bounds. One study demonstrates adaptive photon measurements that bypass classical resolution limits, while another shows that squeezed thermal baths preserve exponential Fisher information scaling for frequency sensing.",
+   "paperIds": [
+    "2610.37491",
+    "2610.37438"
+   ]
+  },
+  {
+   "title": "Quantum Cryptography and Security",
+   "body": "Recent cryptographic frameworks improve security proofs and threat analysis. Research evaluates Ekert-type QKD under asymmetric cloning attacks and introduces a prepare-and-measure security proof driven by information leakage bounds rather than detailed source models.",
+   "paperIds": [
+    "2610.37337",
+    "2610.37296"
+   ]
+  },
+  {
+   "title": "Foundational Quantum Theory and Measurement",
+   "body": "Theoretical work deepens our grasp of quantum measurement and geometry. Papers connect measurement incompatibility directly to noiseless error-correcting codes, resolving key conjectures, and show how classical gauge structures emerge from quantum master constraints.",
+   "paperIds": [
+    "2610.37347",
+    "2610.37493"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both metrology papers utilize Fisher information as a core mathematical tool to quantify parameter estimation limits under advanced measurement strategies.",
+   "paperIds": [
+    "2610.37491",
+    "2610.37438"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2610.37493",
+  "2610.37491",
+  "2610.37438",
+  "2610.37347",
+  "2610.37337",
+  "2610.37296"
+ ]
+}

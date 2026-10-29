@@ -1,0 +1,82 @@
+{
+ "id": "2610.37491",
+ "version": 1,
+ "title": "Adaptive Information Mining: Approaching the Quantum Limit of Super-Resolution Imaging",
+ "authors": [
+  {
+   "name": "Seungman Choi"
+  },
+  {
+   "name": "Peter Menart"
+  },
+  {
+   "name": "Andrew Schramka"
+  },
+  {
+   "name": "Zubin Jacob"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-27T16:17:55Z",
+ "updated": "2026-10-27T16:17:55Z",
+ "abstract": "The \"Rayleigh limit\" is not an intrinsic property of light, but a consequence of sub-optimal measurement of collected photons by the imaging instrument. To overcome this limitation, we present Adaptive Information Mining, a framework that achieves super-resolution by using sequentially refined measurements for incoming photons. Our approach employs a reconfigurable imaging system that dynamically reshapes the instrument measurement responses to maximize the Fisher information and guide scene estimation toward the fundamental quantum limit, even in deep sub-Rayleigh regimes. We demonstrate that this approach achieves an estimation error 2-5 times closer to the fundamental quantum limit than traditional direct imaging when imaging point sources, without requiring any prior knowledge of their positions and brightnesses. Importantly, we demonstrate that AIM can be extended to fully blind multi-parameter estimation in scenarios involving an unknown number of sources or turbulence-induced wavefront distortions. Our approach addresses the limitations of conventional fixed imaging, offering a practical path toward quantum-limited super-resolution imaging.",
+ "comment": "Main: 13 pages, 8 figures; Supplement: 15 pages, 11 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.37491",
+  "pdf": "https://arxiv.org/pdf/2610.37491",
+  "html": "https://arxiv.org/html/2610.37491"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.37491v1/FigCand1_New.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-29T13:33:40.687Z",
+  "hook": "Adaptive photon measurements beat classical direct imaging, bringing estimation error 2–5x closer to the quantum limit.",
+  "tldr": [
+   "Created Adaptive Information Mining (AIM) to surpass the classical Rayleigh super-resolution limit in optical imaging.",
+   "Dynamically reshaped the optical measurement basis after detecting incoming photons to maximize Fisher information sequentially.",
+   "Demonstrated an estimation error 2–5 times closer to the quantum limit than direct imaging without prior position or brightness data."
+  ],
+  "whyItMatters": "Overcoming traditional optical diffraction limits allows sharper astronomy and deep-tissue microscopy without needing brighter lasers or fluorescent tags.",
+  "eli5": "Normal cameras take a photo all at once, which blurs tiny objects that are close together. This system checks each photon as it lands and instantly tweaks its lenses so the next photon delivers the sharpest possible clue.",
+  "keyNumbers": [
+   {
+    "value": "2-5",
+    "label": "Estimation error improvement factor",
+    "context": "How much closer AIM gets to the fundamental quantum limit compared to traditional direct imaging."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Rayleigh limit",
+    "shortDef": "The classical diffraction limit specifying the minimum resolvable distance between two light sources.",
+    "eli5Def": "The traditional rule that says two tiny light points blur together if they are closer than the wavelength of light.",
+    "wikiTitle": "Angular resolution"
+   },
+   {
+    "term": "Fisher information",
+    "shortDef": "A measure of the amount of information an observable random variable carries about an unknown parameter.",
+    "eli5Def": "A math score for how much a single measurement can tell you about a secret number you want to know.",
+    "wikiTitle": "Fisher information"
+   },
+   {
+    "term": "Super-resolution imaging",
+    "shortDef": "Techniques that enhance the resolution of an imaging system beyond the diffraction limit.",
+    "eli5Def": "Clever tricks to see details smaller than what standard physics rules usually allow microscopes to see.",
+    "wikiTitle": "Super-resolution imaging"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

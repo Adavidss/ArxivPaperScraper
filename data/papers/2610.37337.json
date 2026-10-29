@@ -1,0 +1,75 @@
+{
+ "id": "2610.37337",
+ "version": 1,
+ "title": "Security Analysis of Ekert-type QKD Protocol Coming Under Cloning Attacks",
+ "authors": [
+  {
+   "name": "Kaushiki Mukherjee"
+  },
+  {
+   "name": "Sumana Karmakar"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-27T14:43:11Z",
+ "updated": "2026-10-27T14:43:11Z",
+ "abstract": "We analyze the security of an Ekert type bipartite key distribution protocol coming under cloning attacks by an untrusted observer. Precisely, an eavesdropper is assumed to intercept and apply an asymmetric, phase-variant cloner on one or both qubits which are transmitted over public channel from an authenticated source to the trusted parties. We partially characterize two-qubit states from the perspective of designing a QKD protocol that can generate a distillable secret key among the trusted users even under such cloning attacks. We rely upon Devetak Winter framework for computing key rate so as to identify states, which when used in the protocol, secret-key can be distilled. Utility of an entangled state, for designing a successful QKD protocol, changes from single-qubit to double-qubits cloning attacks. Interestingly, we can distinguish some useful families of two-qubit entangled states when only one of the transmitted qubits is cloned by a malicious third party.",
+ "comment": "Preliminary version; Comments are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.37337",
+  "pdf": "https://arxiv.org/pdf/2610.37337",
+  "html": "https://arxiv.org/html/2610.37337"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.37337v1/nokey.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-29T13:33:40.687Z",
+  "hook": "Can quantum secret keys survive when an eavesdropper uses asymmetric, phase-variant cloning attacks?",
+  "tldr": [
+   "Analyzed the security of an Ekert-type quantum key distribution protocol when subjected to cloning attacks by an untrusted observer.",
+   "Assumed an eavesdropper intercepts and applies an asymmetric, phase-variant cloner on one or both transmitted qubits, and used the Devetak-Winter framework to compute key rates.",
+   "Partially characterized two-qubit states to design protocols that generate distillable secret keys, finding utility changes between single and double-qubit attacks."
+  ],
+  "whyItMatters": "Understanding how quantum encryption protocols hold up against advanced cloning attacks is crucial for building truly unhackable quantum communication networks.",
+  "eli5": "Imagine two spies passing secret messages using magical interconnected coins. A sneaky eavesdropper tries to copy the coins using a special duplicating machine, but the authors figured out which types of coin connections still allow the spies to make a secure secret code despite the copying.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "QKD",
+    "shortDef": "Quantum Key Distribution allows two parties to produce a shared random secret key known only to them.",
+    "eli5Def": "A ultra-secure way to share a secret password using quantum physics so nobody can spy on it.",
+    "wikiTitle": "Quantum key distribution"
+   },
+   {
+    "term": "Cloning attack",
+    "shortDef": "An eavesdropping strategy where a spy attempts to duplicate quantum information.",
+    "eli5Def": "A spy trying to secretly photocopy a secret message without getting caught.",
+    "wikiTitle": "No-cloning theorem"
+   },
+   {
+    "term": "Qubit",
+    "shortDef": "The basic unit of quantum information, analogous to a classical bit.",
+    "eli5Def": "A quantum coin that can be heads, tails, or both at the same time until you look at it.",
+    "wikiTitle": "Qubit"
+   },
+   {
+    "term": "Entangled state",
+    "shortDef": "A quantum phenomenon where particles become interconnected so the state of one dictates another.",
+    "eli5Def": "Two magical dice that always land on the same number no matter how far apart they are.",
+    "wikiTitle": "Quantum entanglement"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

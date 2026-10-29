@@ -1,0 +1,98 @@
+{
+ "id": "2610.37296",
+ "version": 1,
+ "title": "Prepare-and-measure quantum key distribution from a bound on information leakage",
+ "authors": [
+  {
+   "name": "Abhishek Mishra"
+  },
+  {
+   "name": "Michele Masini"
+  },
+  {
+   "name": "Maria Balanzó-Juandó"
+  },
+  {
+   "name": "Armin Tavakoli"
+  },
+  {
+   "name": "Stefano Pironio"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-27T14:16:59Z",
+ "updated": "2026-10-27T14:16:59Z",
+ "abstract": "Every quantum key distribution (QKD) protocol must limit the information available outside the users' laboratories. In device-independent QKD this is essentially the only assumption made on the devices. In a prepare-and-measure setting it cannot be imposed strictly, since the sender's device must emit a signal that depends on her private input. The natural replacement, and a minimal one, is a leakage bound: a bound on how much information about the input leaves the sender's laboratory, through the intended signal or through any side channel. We ask how far this unavoidable requirement can replace a detailed model of the source. We show that this single bound, quantified by the probability of guessing the input from everything the source emits, suffices to prove security against collective attacks. In our analysis, nothing is assumed about the precise form of the emitted states, their dimension, energy or purity, nor about the receiver's measurement device, beyond the standard requirement that it does not leak Bob's data. The standard B92 and BB84 protocols do not certify any key under this minimal leakage bound assumption. But closely related protocols can and, in the ideal limit, achieve one secret bit per key round. For noisy implementations, we compute key rates using semidefinite programming relaxations. Our best protocols tolerate visibilities down to 0.84, corresponding to an 8% quantum bit error rate, compared with the 11% threshold of standard device-dependent BB84.",
+ "comment": "20+7 pages, 4figures, 5tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.37296",
+  "pdf": "https://arxiv.org/pdf/2610.37296",
+  "html": "https://arxiv.org/html/2610.37296"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-29T13:33:40.687Z",
+  "hook": "New quantum cryptography security proof tolerates visibilities down to 0.84 without detailed device models.",
+  "tldr": [
+   "Investigated whether a single information leakage bound can replace a detailed source model in prepare-and-measure quantum key distribution.",
+   "Proved security against collective attacks using a leakage bound quantified by the probability of guessing the input, without assuming state forms, dimensions, or purity.",
+   "Demonstrated that closely related variants of standard protocols can achieve one secret bit per round, tolerating visibilities down to 0.84."
+  ],
+  "whyItMatters": "By relying on minimal assumptions about physical devices rather than complex models, we can build more robust and practical quantum cryptographic systems.",
+  "eli5": "Normally, building secure quantum locks requires knowing every exact detail of your hardware. Researchers proved you can make secure keys just by limiting how much secret information accidentally leaks out of the sending machine.",
+  "keyNumbers": [
+   {
+    "value": "0.84",
+    "label": "Minimum visibility",
+    "context": "The best protocols tolerate visibilities down to 0.84 for noisy implementations."
+   },
+   {
+    "value": "8%",
+    "label": "Quantum bit error rate",
+    "context": "Corresponds to the 0.84 visibility threshold achieved by the new protocols."
+   },
+   {
+    "value": "11%",
+    "label": "Standard threshold",
+    "context": "The standard error threshold of traditional device-dependent BB84."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum key distribution",
+    "shortDef": "A secure communication method that uses quantum mechanics to exchange cryptographic keys.",
+    "eli5Def": "A way to share secret codes using physics so you immediately know if someone eavesdropped.",
+    "wikiTitle": "Quantum key distribution"
+   },
+   {
+    "term": "Collective attacks",
+    "shortDef": "A type of eavesdropping where the spy interacts identically with each signal and stores quantum memory.",
+    "eli5Def": "A smart spy who taps into every single message packet the exact same way.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Semidefinite programming",
+    "shortDef": "A subfield of mathematical optimization over the cone of positive semidefinite matrices.",
+    "eli5Def": "An advanced math tool used by computers to solve complex puzzle limits.",
+    "wikiTitle": "Semidefinite programming"
+   },
+   {
+    "term": "BB84",
+    "shortDef": "The first quantum cryptography protocol, developed by Bennett and Brassard in 1984.",
+    "eli5Def": "The grandfather of all quantum secret-sharing methods.",
+    "wikiTitle": "BB84"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

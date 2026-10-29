@@ -1,0 +1,73 @@
+{
+ "id": "2610.37347",
+ "version": 1,
+ "title": "Measurement incompatibility and noiseless quantum codes",
+ "authors": [
+  {
+   "name": "Yu-Xuan Zhang"
+  },
+  {
+   "name": "Jing-Ling Chen"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-27T14:50:47Z",
+ "updated": "2026-10-27T14:50:47Z",
+ "abstract": "We construct a rank-one minimal informationally complete measurement (MIC) with an invertible dual operator and prove that, for arbitrary finite input and output dimensions, a channel universally preserves measurement incompatibility if and only if its input space contains a noiseless code subspace of the full output dimension. Preserving the compatibility threshold of a finite family of binary measurements already guarantees such a code. Furthermore, for every $d\\ge2$, there exists a family of binary measurements that is incompatible on the full space but compatible after compression to any proper subspace. These results resolve the conjecture of Chitambar and Zhang and the existence question posed by Uola and coauthors. We also give an explicit construction of exact encodings and show that, for a sufficiently small shift in the compatibility threshold, the transmission error of an approximate encoding is bounded by a constant times the square of the shift. These results establish a connection between measurement compatibility, quantum steering, and quantum error correction.",
+ "comment": "5 pages, no figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.37347",
+  "pdf": "https://arxiv.org/pdf/2610.37347",
+  "html": "https://arxiv.org/html/2610.37347"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-29T13:33:40.687Z",
+  "hook": "A channel universally preserves quantum measurement incompatibility if and only if it hosts a noiseless code subspace.",
+  "tldr": [
+   "Connected quantum measurement incompatibility directly to noiseless quantum error-correcting codes.",
+   "Constructed a rank-one minimal informationally complete measurement with an invertible dual to characterize incompatibility preservation.",
+   "Resolved the Chitambar-Zhang conjecture and proved incompatibility can vanish on every proper subspace while surviving on the full space."
+  ],
+  "whyItMatters": "Unifies foundational quantum paradoxes (like measurement incompatibility and steering) with the practical architecture of error-free quantum computers.",
+  "eli5": "In quantum mechanics, some tests cannot be done at the same time—like checking speed and position. This paper proves that transmitting this quantum incompatibility through a channel is fundamentally the same as perfectly protecting quantum data from noise.",
+  "keyNumbers": [
+   {
+    "value": "d≥2",
+    "label": "Dimension range",
+    "context": "Dimensions for which there exists a family of binary measurements incompatible on the full space but compatible on any proper subspace."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Measurement incompatibility",
+    "shortDef": "The property where two or more quantum measurements cannot be realized simultaneously by measuring a single common observable.",
+    "eli5Def": "The quantum rule that measuring one property of a particle can make it impossible to measure another simultaneously.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Noiseless subsystem",
+    "shortDef": "A quantum code subspace that evolves unitarily and remains completely immune to environmental noise.",
+    "eli5Def": "A protected safe zone inside a quantum computer where information never gets scrambled by the environment.",
+    "wikiTitle": "Noiseless subsystem"
+   },
+   {
+    "term": "Quantum steering",
+    "shortDef": "The ability of one party to remotely alter another's state via local measurements on an entangled pair.",
+    "eli5Def": "Changing the quantum state of a distant particle immediately by measuring its entangled partner.",
+    "wikiTitle": "Quantum steering"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

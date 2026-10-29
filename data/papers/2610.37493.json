@@ -1,0 +1,83 @@
+{
+ "id": "2610.37493",
+ "version": 1,
+ "title": "Recovering classical gauge geometry from quantum master constraints",
+ "authors": [
+  {
+   "name": "Alejandro Corichi"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "gr-qc",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-27T16:18:38Z",
+ "updated": "2026-10-27T16:18:38Z",
+ "abstract": "Exact normalizable solutions of quantum constraints form a symplectic submanifold of the space of rays, whereas classical first-class constraints define a surface on which the symplectic form is degenerate. We ask how the degenerate directions can be recovered when quantum theory is regarded as fundamental and the constraints are imposed through a single positive master operator. For a nonnegative master function whose zero set is a Morse--Bott critical manifold, the image of the linearized Hamiltonian vector field is the symplectic orthogonal of the zero set, and coisotropy is equivalent to this linearization having square zero. The image is fixed by the zero set, but the theorem identifies it with the response of the master dynamics, which makes it accessible to quantum states. Three realizations follow. The exact quantum physical space is the opposite, rotational case of the same dichotomy. For quadratic masters, the bottom of the spectrum is $(\\hbar/2)\\Tr_+L$, so first-class zero sets carry no offset of order $\\hbar$; within the harmonic approximation this explains the $\\hbar$ versus $\\hbar^2$ offsets observed in tests of the master-constraint programme. Finally, the second time derivative of the limiting covariance of a semiclassical packet, which can be determined by bounded probes, has the gauge distribution as its image. Two oscillators at fixed total energy give exact master evolution, an exact realization of this covariance shear, and the reduced symplectic limit. For the non-Abelian SL(2,$\\R$) model we compute the coherent and Weyl master symbols, prove essential self-adjointness and a finite-time propagation estimate, and derive the spectral bottom $\\hbar^2/2$.",
+ "comment": "29 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.37493",
+  "pdf": "https://arxiv.org/pdf/2610.37493",
+  "html": "https://arxiv.org/html/2610.37493"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-29T13:33:40.687Z",
+  "hook": "Classical gauge directions can be extracted from quantum master dynamics via wavepacket covariance shear.",
+  "tldr": [
+   "Investigated how classical degenerate gauge orbits emerge when physical constraints are imposed via a single positive quantum master operator.",
+   "Analyzed Morse-Bott critical manifolds, semiclassical wavepacket covariance evolution, and explicit solvable models like coupled oscillators and SL(2,R).",
+   "Proved the gauge distribution is recovered from the second time derivative of packet covariance, and calculated energy offsets explaining tests of the program."
+  ],
+  "whyItMatters": "Bridging quantum constraints with classical gauge symmetries is a foundational challenge in quantum gravity and gauge field theories.",
+  "eli5": "In physics, some math variables are just coordinates that do not change reality—like rotating a map. When you turn physics into quantum mechanics using one big 'master' rule, this work shows how to watch a quantum wave spread out over time to rediscover those hidden map-rotation directions.",
+  "keyNumbers": [
+   {
+    "value": "(ħ/2)Tr_+L",
+    "label": "Bottom of the spectrum",
+    "context": "Spectral bottom for quadratic master operators, showing first-class zero sets carry no order-ħ offset."
+   },
+   {
+    "value": "ħ²/2",
+    "label": "Spectral bottom",
+    "context": "Derived ground state energy offset for the non-Abelian SL(2,R) master constraint model."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "First-class constraints",
+    "shortDef": "Phase space constraints whose mutual Poisson brackets vanish on the constraint surface.",
+    "eli5Def": "Rules in physics that define redundancies, meaning multiple mathematical descriptions describe the exact same physical state.",
+    "wikiTitle": "Dirac bracket"
+   },
+   {
+    "term": "Morse–Bott critical manifold",
+    "shortDef": "A smooth submanifold of critical points where the Hessian is non-degenerate along normal directions.",
+    "eli5Def": "A smooth valley of lowest energy where moving along the bottom changes nothing, but stepping sideways makes energy curve upward.",
+    "wikiTitle": "Morse theory"
+   },
+   {
+    "term": "Symplectic manifold",
+    "shortDef": "A smooth manifold equipped with a closed, non-degenerate differential 2-form representing phase space.",
+    "eli5Def": "The geometric space where every point pairs an object's position with its momentum.",
+    "wikiTitle": "Symplectic manifold"
+   },
+   {
+    "term": "Master constraint",
+    "shortDef": "A single positive operator summing the squares of individual constraint operators.",
+    "eli5Def": "Combining many separate rules into one single rule by adding their squared errors together.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

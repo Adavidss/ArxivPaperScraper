@@ -1,0 +1,76 @@
+{
+ "id": "2610.37438",
+ "version": 1,
+ "title": "Homodyne Unravelling and Parameter Estimation in Squeezed Thermal Baths",
+ "authors": [
+  {
+   "name": "Eoin O'Connor"
+  },
+  {
+   "name": "Francesco Albarelli"
+  },
+  {
+   "name": "Marco G. Genoni"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-27T15:48:19Z",
+ "updated": "2026-10-27T15:48:19Z",
+ "abstract": "We derive an alternative formulation of the stochastic master equation describing the evolution of quantum systems continuously measured via homodyne detection in a squeezed-thermal environment. This formulation allows us to identify two distinct collapse operators, corresponding respectively to the monitored and unmonitored channels, and to express the quantum state evolution directly in terms of Kraus-like operators. As a consequence, it facilitates the application of advanced numerical methods that account for higher-order corrections and discrete-time monitoring, and it also enables the efficient numerical evaluation of Cramér-Rao bounds in parameter estimation problems. To demonstrate the latter, we evaluate the Fisher information of the continuous homodyne monitoring for qubit frequency estimation in the presence of a squeezed-thermal bath. Our results show that exponential scaling of the steady-state Fisher information rate with squeezing is retained even at non-zero temperature.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.37438",
+  "pdf": "https://arxiv.org/pdf/2610.37438",
+  "html": "https://arxiv.org/html/2610.37438"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-29T13:33:40.687Z",
+  "hook": "Quantum frequency sensing preserves exponential Fisher information scaling from squeezing even at non-zero temperatures.",
+  "tldr": [
+   "Formulated an alternative stochastic master equation for quantum systems monitored via homodyne detection in squeezed thermal baths.",
+   "Separated system dynamics into monitored and unmonitored channels using Kraus-like operators to calculate discrete-time evolution.",
+   "Demonstrated that the exponential scaling of the Fisher information rate with squeezing persists despite thermal noise."
+  ],
+  "whyItMatters": "Proves that fragile quantum measurement advantages can survive realistic, noisy thermal environments in real-world quantum sensors.",
+  "eli5": "Quantum tricks called 'squeezing' usually break when a room is warm. Researchers developed a new mathematical model showing you can still measure tiny quantum signals exponentially faster even when heat noise is sneaking in.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Homodyne detection",
+    "shortDef": "A method of detecting an optical signal by mixing it with a local oscillator reference light beam.",
+    "eli5Def": "Comparing an incoming light wave against a perfectly steady laser beam to measure tiny wave ripples.",
+    "wikiTitle": "Homodyne detection"
+   },
+   {
+    "term": "Stochastic master equation",
+    "shortDef": "A differential equation describing the conditional quantum trajectory under continuous noisy measurement.",
+    "eli5Def": "A math recipe that tracks how a quantum particle changes when it is continuously bumped by an observer and its surroundings.",
+    "wikiTitle": "Quantum jump method"
+   },
+   {
+    "term": "Squeezed state",
+    "shortDef": "A quantum state where uncertainty in one variable is reduced below the vacuum noise level at the expense of another.",
+    "eli5Def": "Squishing the fuzziness of one measurement (like position) smaller than normal by letting another (like speed) get fuzzier.",
+    "wikiTitle": "Squeezed states of light"
+   },
+   {
+    "term": "Cramér-Rao bound",
+    "shortDef": "A lower bound on the variance of unbiased estimators expressed as the inverse of Fisher information.",
+    "eli5Def": "A mathematical floor setting the absolute best precision possible for any measurement.",
+    "wikiTitle": "Cramér–Rao bound"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

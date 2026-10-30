@@ -1,0 +1,84 @@
+{
+ "id": "2610.40652",
+ "version": 1,
+ "title": "Reconstructing hidden observables via quantum snapshot thermometry",
+ "authors": [
+  {
+   "name": "Jie Ren"
+  },
+  {
+   "name": "Andrew Hallam"
+  },
+  {
+   "name": "Luheng Zhao"
+  },
+  {
+   "name": "Huanqian Loh"
+  },
+  {
+   "name": "Zlatko Papić"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-29T17:59:38Z",
+ "updated": "2026-10-29T17:59:38Z",
+ "abstract": "Projective snapshots are a standard readout tool for quantum simulators, but they directly probe only observables that are diagonal in the measurement basis. We show how local equilibration and an independently calibrated equilibrium equation of state can reveal otherwise hidden conserved-density profiles. We demonstrate numerically that such ``quantum snapshot thermometry'' can recover energy fronts and a diffusion constant, distinguish spin transport from energy spreading, and reveal conserved-charge profiles invisible in the initial measurements. We also identify symmetry-imposed ambiguities in the readout and show how prior knowledge of the spatial structure can resolve them. Fixed-basis snapshot thermometry thus provides quantitative hydrodynamic information beyond transport exponents, bypassing additional measurement bases and quantum state tomography.",
+ "comment": "14 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40652",
+  "pdf": "https://arxiv.org/pdf/2610.40652",
+  "html": "https://arxiv.org/html/2610.40652"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.40652v1/fig_xxz_combined_prxq.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-30T13:23:49.021Z",
+  "hook": "Quantum snapshot thermometry recovers hidden energy transport without needing extra measurement bases or state tomography.",
+  "tldr": [
+   "Devised a readout method to extract hidden conserved-density profiles from standard projective quantum simulator snapshots.",
+   "Combined local thermal equilibration assumptions with calibrated equations of state, testing it numerically on transport dynamics.",
+   "Successfully mapped energy fronts, determined diffusion constants, and separated spin transport from energy spreading."
+  ],
+  "whyItMatters": "Measuring energy or other off-diagonal observables usually demands costly quantum state tomography or complex basis rotations. This method lets standard quantum cameras extract rich hydrodynamic transport data using simple native measurements.",
+  "eli5": "Imagine trying to map the heat of a crowd using only black-and-white photos of their hats. By knowing how hats shuffle when people warm up, scientists can figure out the temperature and energy flow without needing a separate thermal camera.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Projective snapshots",
+    "shortDef": "Simultaneous measurements of all qubits projecting them into definite individual states.",
+    "eli5Def": "Taking a quick snapshot photo of every single particle at the exact same time.",
+    "wikiTitle": "Projective measurement"
+   },
+   {
+    "term": "Equation of state",
+    "shortDef": "A thermodynamic relation linking state variables like energy, temperature, and density.",
+    "eli5Def": "A formula that explains how hot, dense, or energetic a material gets under different conditions.",
+    "wikiTitle": "Equation of state"
+   },
+   {
+    "term": "Quantum state tomography",
+    "shortDef": "The complete reconstruction of a quantum state via many measurements in different bases.",
+    "eli5Def": "A slow, exhaustive process of scanning a quantum particle from every possible angle to fully map it.",
+    "wikiTitle": "Quantum tomography"
+   },
+   {
+    "term": "Conserved-density profiles",
+    "shortDef": "Spatial distributions of quantities (like charge or energy) that cannot be created or destroyed.",
+    "eli5Def": "A map showing where quantities that can't be created or destroyed, like energy, are pooled.",
+    "wikiTitle": "Conservation law"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

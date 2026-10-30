@@ -1,0 +1,70 @@
+{
+ "id": "2610.40642",
+ "version": 1,
+ "title": "Comparison of entangling strategies for unitary synthesis",
+ "authors": [
+  {
+   "name": "Jonas Wunder"
+  },
+  {
+   "name": "Hendrik Weimer"
+  },
+  {
+   "name": "Ricardo Costa de Almeida"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-29T17:58:57Z",
+ "updated": "2026-10-29T17:58:57Z",
+ "abstract": "Trapped-ion quantum computers are promising as a platform for realizing quantum computational advantage. They promise long coherence times, near all-to-all connectivity, and potential multiqubit gates as distinguishing advantages compared to competing platforms. Regarding these advantages, it is crucial to understand the trade-offs between increasing engineering complexity and actual improvements in running quantum algorithms with a more flexible gate set. In this work, we investigate this question and develop a versatile toolset to evaluate the performance of gate sets composed of native Mølmer--Sørensen multiqubit gates. To this end, we employ unitary synthesis as an application-agnostic benchmark target and identify specific hardware requirements for multiqubit gates to be advantageous.",
+ "comment": "16 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40642",
+  "pdf": "https://arxiv.org/pdf/2610.40642",
+  "html": "https://arxiv.org/html/2610.40642"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-30T13:23:49.021Z",
+  "hook": "New benchmarking framework identifies exact hardware criteria for multiqubit gates to beat standard two-qubit operations.",
+  "tldr": [
+   "Investigated whether multiqubit gates truly justify their hardware complexity on trapped-ion quantum computers.",
+   "Developed a toolset using unitary synthesis as an application-agnostic benchmark to assess native Mølmer-Sørensen gates.",
+   "Identified specific hardware requirements where native multiqubit gates offer a clear operational advantage."
+  ],
+  "whyItMatters": "Trapped-ion platforms can physically entangle many qubits at once, but doing so adds engineering headaches. Pinpointing exactly when multiqubit gates provide an edge guides hardware roadmaps toward real quantum advantage.",
+  "eli5": "It is like choosing between having a conversation with one friend at a time or holding a group call. Group calls are harder to set up cleanly, and this research pinpoints exactly when the group call is worth the extra trouble.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Unitary synthesis",
+    "shortDef": "Decomposing an arbitrary target quantum operation into a sequence of native hardware gates.",
+    "eli5Def": "Translating a complicated quantum algorithm into simple instructions a specific machine can run.",
+    "wikiTitle": "Quantum logic gate"
+   },
+   {
+    "term": "Mølmer–Sørensen gate",
+    "shortDef": "A widely used entangling gate for trapped ions driven by laser-induced state transitions.",
+    "eli5Def": "A specialized laser pulse technique used to entangle trapped charged atoms together.",
+    "wikiTitle": "Mølmer–Sørensen gate"
+   },
+   {
+    "term": "Trapped-ion quantum computer",
+    "shortDef": "A quantum architecture that uses electromagnetic fields to suspend charged atoms as qubits.",
+    "eli5Def": "A quantum computer that holds charged atoms floating in mid-air using electrical fields and lasers.",
+    "wikiTitle": "Trapped-ion quantum computer"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

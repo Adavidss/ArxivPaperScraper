@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T13:33:40.687Z",
+ "generatedAt": "2026-10-30T13:23:49.021Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -102,6 +102,27 @@
    "paperCount": 1
   },
   {
+   "name": "Jong Yeon Lee",
+   "slug": "jong-yeon-lee",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "cond-mat.stat-mech",
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2610.40651",
+    "2610.22357",
+    "2610.20591"
+   ],
+   "recentTitles": [
+    "Renormalization for Robust Memory without Synchronization",
+    "Stability of Quantum LDPC States under Local Pauli Noise"
+   ],
+   "paperCount": 4
+  },
+  {
    "name": "Lauriane Chomaz",
    "slug": "lauriane-chomaz",
    "score": 4,
@@ -180,25 +201,6 @@
     "Quantum Channel Stein Theorem beyond Definite Causal Order"
    ],
    "paperCount": 4
-  },
-  {
-   "name": "Ethan Dickey",
-   "slug": "ethan-dickey",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "SABRE"
-   ],
-   "viaCategories": [],
-   "paperIds": [
-    "2610.07308",
-    "2609.14620"
-   ],
-   "recentTitles": [
-    "Quantum dynamics of spin systems using quantum-like resources",
-    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
-   ],
-   "paperCount": 2
   }
  ]
 }

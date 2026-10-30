@@ -1,0 +1,71 @@
+{
+ "id": "2610.40651",
+ "version": 1,
+ "title": "Renormalization for Robust Memory without Synchronization",
+ "authors": [
+  {
+   "name": "Shashwat Chakraborty"
+  },
+  {
+   "name": "Jong Yeon Lee"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "cond-mat.soft",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-10-29T17:59:33Z",
+ "updated": "2026-10-29T17:59:33Z",
+ "abstract": "Local error correction can preserve classical information against noise, but protection under synchronized updates need not survive when sites evolve at independent random times. Establishing stability is particularly challenging when protection relies on the collective action of competing local rules. Here we develop a spacetime renormalization framework that reveals how independently acting local updates can collectively stabilize memory. We identify sufficient conditions under which the geometry of stable interfaces and suppression of defect propagation produce reliable erosion at large scales. Applying this framework, we prove stability of the asynchronous \\textsf{R} squeezing code and introduce robust processes in two and three dimensions. In these systems, both encoded phases persist under sufficiently weak noise, even when the noise favors one phase. Our results provide a criterion for designing autonomous memories sustained by competing local stochastic dynamics.",
+ "comment": "13 pages main",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40651",
+  "pdf": "https://arxiv.org/pdf/2610.40651",
+  "html": "https://arxiv.org/html/2610.40651"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.40651v1/sync_vs_async_version3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-30T13:23:49.021Z",
+  "hook": "Spacetime renormalization proves classical memories can endure noise even when sites update at uncoordinated, random times.",
+  "tldr": [
+   "Built a spacetime renormalization framework to determine when uncoordinated local dynamics can protect stored classical data.",
+   "Analyzed competing local rules to identify interface stability conditions that suppress errors from growing across space.",
+   "Proved stability for the asynchronous R squeezing code and introduced robust autonomous memories in two and three dimensions."
+  ],
+  "whyItMatters": "Most error-correcting codes rely on an overarching central clock to synchronize updates. Proving that completely decentralized, asynchronous systems can maintain memory under noise enables self-correcting hardware without fragile global clocks.",
+  "eli5": "Imagine a classroom where students independently fix mistakes on a giant chalkboard whenever they feel like it, with no teacher calling out turns. This work proves that smart local rules can keep the message readable forever, even if random noise keeps scribbling over it.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Renormalization",
+    "shortDef": "A mathematical technique examining how physical rules change across different length or time scales.",
+    "eli5Def": "Zooming out on a complex, messy picture to see simple, big-picture patterns.",
+    "wikiTitle": "Renormalization"
+   },
+   {
+    "term": "Asynchronous updates",
+    "shortDef": "State changes occurring independently at random moments rather than on a coordinated clock cycle.",
+    "eli5Def": "Actions that happen whenever each part is ready, rather than everyone moving together to a shared beat.",
+    "wikiTitle": "Asynchronous system"
+   },
+   {
+    "term": "Defect propagation",
+    "shortDef": "The spreading of local errors or corrupted boundaries through an interconnected lattice.",
+    "eli5Def": "How a small mistake or tear in a pattern spreads outwards to ruin the rest of the system.",
+    "wikiTitle": "Crystallographic defect"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

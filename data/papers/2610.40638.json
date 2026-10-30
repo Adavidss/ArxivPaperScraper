@@ -1,0 +1,95 @@
+{
+ "id": "2610.40638",
+ "version": 1,
+ "title": "Entanglement diagnostics of stochastic-resetting steady states: theory and measurement on superconducting qubits",
+ "authors": [
+  {
+   "name": "Jakob Murauer"
+  },
+  {
+   "name": "Sabine Tornow"
+  },
+  {
+   "name": "Manas Kulkarni"
+  },
+  {
+   "name": "Eli Barkai"
+  },
+  {
+   "name": "Satya N. Majumdar"
+  },
+  {
+   "name": "Monalisa Singh Roy"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-29T17:58:29Z",
+ "updated": "2026-10-29T17:58:29Z",
+ "abstract": "Stochastic resetting drives quantum systems into nonequilibrium stationary states unreachable under uninterrupted unitary evolution, and their entanglement depends on whether the reset history is resolved or averaged over. We study this interplay in the transverse-field Ising chain, deriving closed-form results for two qubits and evaluating chains of up to 12 qubits exactly. In the two-qubit system, these closed-form results show that phase matching between energy eigenstates produces resonances, and their visibility in the stationary state is determined by the symmetry of the reset state. Measurements on an IBM superconducting processor show the entropies evaluated before and after the reset average closely following noiseless predictions with no fitted parameter, while concurrence lies below prediction across most of the hardware measurements. The two diagnostics respond differently because they read different components of the same reconstructed state, and a depolarizing model captures the concurrence suppression with one fitted parameter. The difference between the two entropies, i. e., the Jensen gap of entanglement entropy, equals the Holevo information that a subsystem retains about the time since the last reset. With a Bell-state reset, this information grows with chain length across a half-chain cut over the sizes studied, without visible saturation at the smaller reset probabilities. Since reset times are sampled and recorded classically, the trajectory-averaged entropy, and with it the Jensen gap, is obtained without postselection, in contrast to monitored circuits, where trajectory-resolved entanglement requires sampling exponentially rare measurement records.",
+ "comment": "21 pages (including appendices), 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40638",
+  "pdf": "https://arxiv.org/pdf/2610.40638",
+  "html": "https://arxiv.org/html/2610.40638"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.40638v1/figure_2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-30T13:23:49.021Z",
+  "hook": "Stochastic resetting creates steady quantum states whose hidden memory can be measured without postselection bottlenecks.",
+  "tldr": [
+   "Studied nonequilibrium steady states driven by stochastic resets in transverse-field Ising chains up to 12 qubits.",
+   "Demonstrated the behavior on an IBM quantum processor, verifying entropy predictions without needing fitted parameters.",
+   "Showed the Jensen gap of entanglement entropy measures subsystem information about the time elapsed since the last reset."
+  ],
+  "whyItMatters": "Tracking entanglement in continuously measured quantum systems typically requires filtering for rare outcomes, which discards vast amounts of data. Using classical records of reset times lets researchers probe trajectory entanglement without painful postselection.",
+  "eli5": "Think of a spinning top that someone randomly smacks back to its starting upright position every so often. Because you write down the exact seconds when you smacked it, you can measure its internal chaos without throwing away any of your experimental data.",
+  "keyNumbers": [
+   {
+    "value": "12",
+    "label": "Max chain length evaluated",
+    "context": "Transverse-field Ising spin chains evaluated exactly up to this number of qubits."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Stochastic resetting",
+    "shortDef": "A process where an evolving system is repeatedly and abruptly restored to a chosen state at random times.",
+    "eli5Def": "Randomly pressing the 'reset' button on an evolving experiment over and over.",
+    "wikiTitle": "Stochastic resetting"
+   },
+   {
+    "term": "Transverse-field Ising chain",
+    "shortDef": "A fundamental model of interacting quantum spins subject to a perpendicular magnetic field.",
+    "eli5Def": "A line of tiny atomic magnets that interact with their neighbors while an outside magnet pulls on them.",
+    "wikiTitle": "Transverse-field Ising model"
+   },
+   {
+    "term": "Holevo information",
+    "shortDef": "An upper bound on how much classical information can be transmitted or extracted via quantum states.",
+    "eli5Def": "A rule setting the maximum amount of normal, readable data you can extract from a quantum system.",
+    "wikiTitle": "Holevo's theorem"
+   },
+   {
+    "term": "Postselection",
+    "shortDef": "Filtering experimental runs to keep only trials that yielded a specific desired measurement outcome.",
+    "eli5Def": "Throwing out all your test results except the rare lucky ones where everything went exactly as planned.",
+    "wikiTitle": "Postselection"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

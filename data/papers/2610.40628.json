@@ -1,0 +1,77 @@
+{
+ "id": "2610.40628",
+ "version": 1,
+ "title": "Locality in Dissipative Ground-State Preparation",
+ "authors": [
+  {
+   "name": "Qicheng Tang"
+  },
+  {
+   "name": "Ruhanshi Barad"
+  },
+  {
+   "name": "Xueda Wen"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-29T17:56:55Z",
+ "updated": "2026-10-29T17:56:55Z",
+ "abstract": "Can the ground state of a local Hamiltonian be prepared by local dissipation? We address this question for free-fermion Hamiltonians, using a quadratic Lindbladian with linear jump operators for the dissipative ground-state preparation. For translation-invariant targets, Fourier correspondence relates spatial locality to momentum-space analyticity, allowing us to derive a complete spectral criterion for the existence of exponentially local linear jump operators that prepare the ground state. This criterion leads to a no-go theorem that, sign-changing Fermi-level crossings exclude exponentially local linear jump operators for preparing the ground state. While these crossings are the complete obstruction in one dimension, additional obstructions generally arise in higher dimensions. We illustrate these additional obstructions using two quadratic-band-touching models with algebraically decaying ground-state correlations. We further show that short-range ground-state correlations, although not necessary, are sufficient for local dissipative preparation even without translation invariance. Our results establish how the spectral structure of the target Hamiltonian governs the locality of dissipative ground-state preparation.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40628",
+  "pdf": "https://arxiv.org/pdf/2610.40628",
+  "html": "https://arxiv.org/html/2610.40628"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-30T13:23:49.021Z",
+  "hook": "Fermi-level crossings forbid preparing quantum ground states using strictly local dissipation.",
+  "tldr": [
+   "Investigated whether free-fermion ground states can be prepared via purely local dissipative Lindbladian jump operators.",
+   "Used Fourier correspondence between spatial locality and momentum-space analyticity to derive an exact spectral criterion.",
+   "Found sign-changing Fermi-level crossings completely forbid local preparation in 1D, with further hurdles in higher dimensions."
+  ],
+  "whyItMatters": "Cooling quantum computers into their lowest-energy states through engineered environmental dissipation is a promising alternative to complex gate sequences. Knowing the fundamental limits tells engineers when local cooling is physically impossible.",
+  "eli5": "Imagine trying to level a rumpled rug by only pushing down small sections one at a time. The authors proved that certain wave patterns in the rug make it impossible to flatten locally without disturbing spots far away.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Dissipation",
+    "shortDef": "Energy or information loss from a system into its surrounding environment.",
+    "eli5Def": "How a warm cup of cocoa cools down by losing heat to the air around it.",
+    "wikiTitle": "Dissipation"
+   },
+   {
+    "term": "Lindbladian",
+    "shortDef": "Mathematical operator describing the open quantum dynamics of a system undergoing decoherence.",
+    "eli5Def": "The master rulebook showing how a quantum system leaks energy or changes when touching the outside world.",
+    "wikiTitle": "Lindbladian"
+   },
+   {
+    "term": "Ground State",
+    "shortDef": "The lowest-energy state of a quantum mechanical system.",
+    "eli5Def": "The calmest, most relaxed state a physical system can be in.",
+    "wikiTitle": "Ground state"
+   },
+   {
+    "term": "Fermi level",
+    "shortDef": "The highest occupied energy level of fermions at absolute zero temperature.",
+    "eli5Def": "The water level in a bucket when filling it up with electrons from bottom to top.",
+    "wikiTitle": "Fermi level"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

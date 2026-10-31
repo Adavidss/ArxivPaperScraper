@@ -1,0 +1,86 @@
+{
+ "id": "2610.40596",
+ "version": 1,
+ "title": "Algebraic theory of abelian fractons and beyond",
+ "authors": [
+  {
+   "name": "Wilbur Shirley"
+  },
+  {
+   "name": "Evan Wickenden"
+  },
+  {
+   "name": "Bowen Yang"
+  },
+  {
+   "name": "Agnès Beaudry"
+  },
+  {
+   "name": "Michael Hermele"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "math-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-10-29T17:50:05Z",
+ "updated": "2026-10-29T17:50:05Z",
+ "abstract": "We develop an algebraic theory of fusion, mobility, and statistics in abelian gapped fracton orders and topological phases. The framework generalizes the algebraic description of abelian anyons to systems with restricted-mobility and spatially extended excitations. We consider translation-invariant bosonic systems whose pointlike and extended excitations have finite fusion order. The basic objects are braided fusion complexes (BFCs): chain complexes encoding fusion and mobility, equipped with a braiding chain map encoding statistics. Their equivalence classes define braided fusion theories (BFTs). Our framework encompasses arbitrary translation-invariant Pauli codes, as well as all abelian anyon theories in two spatial dimensions, including chiral theories. We give evidence for the conjecture that every nondegenerate BFT can be realized as the excitation theory of a gapped phase and that the BFT describing such a phase is a phase invariant. We derive constraints on pointlike fusion and mobility, showing, for example, that neither the Pauli X nor Z sectors of the X-cube and anisotropic models can occur alone in a nondegenerate BFT. For nondegenerate theories with only pointlike excitations, we extract a simpler theory of mutual statistics, consisting of a fusion module and a map to its statistical dual. This theory of mutual statistics is an invariant of the BFT and, at odd fusion order, gives an equivalent description of the full braided fusion theory. We interpret remote detection as the generalization of mutual statistics to fracton orders. In the BFC setting, we give a precise formulation of the excitation-detector principle: every nontrivial excitation can be detected by an operator supported at spatial infinity, and every nontrivial detector detects some excitation. Assuming a unique infinite-space ground state, we prove that this principle is equivalent to nondegeneracy.",
+ "comment": "81 pages + 73 pages of appendices. 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40596",
+  "pdf": "https://arxiv.org/pdf/2610.40596",
+  "html": "https://arxiv.org/html/2610.40596"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.40596v1/figs/string-commutator-v2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-31T12:57:54.553Z",
+  "hook": "Braided fusion complexes rigorously unify immobile fracton excitations and 2D anyons into a single algebraic framework.",
+  "tldr": [
+   "Formulated an algebraic framework unifying abelian anyons, fractons, and spatially extended topological excitations.",
+   "Constructed braided fusion complexes (BFCs) and evaluated their equivalence classes, mobility constraints, and dualities.",
+   "Demonstrated that the excitation-detector principle is strictly equivalent to nondegeneracy under a unique ground state."
+  ],
+  "whyItMatters": "Fractons host bizarre excitations that cannot move freely on their own, offering potential platforms for self-correcting quantum memories. A rigorous algebraic backbone helps map out which physical phases are fundamentally possible.",
+  "eli5": "In typical physics, particles can move in any direction; in fracton worlds, some particles are completely frozen unless they pair up. This paper builds a master mathematical rulebook describing how these locked particles interact and braid.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "fracton",
+    "shortDef": "An emergent quasiparticle whose motion is strictly restricted or completely immobile in isolation.",
+    "eli5Def": "A weird particle-like ripple in a material that is completely stuck in place on its own.",
+    "wikiTitle": null
+   },
+   {
+    "term": "braided fusion",
+    "shortDef": "Mathematical rules specifying how topological excitations combine and exchange positions.",
+    "eli5Def": "The rules for what happens when you combine two particles or wrap one around another.",
+    "wikiTitle": "Braided monoidal category"
+   },
+   {
+    "term": "chain complex",
+    "shortDef": "A sequence of abelian groups and boundary maps where composing consecutive maps yields zero.",
+    "eli5Def": "A ladder of mathematical spaces linked by steps that cancel out if you take two in a row.",
+    "wikiTitle": "Chain complex"
+   },
+   {
+    "term": "Pauli codes",
+    "shortDef": "Quantum error-correcting codes whose stabilizers are products of single-qubit Pauli operators.",
+    "eli5Def": "Basic schemes that protect fragile quantum data by checking simple measurements across qubits.",
+    "wikiTitle": "Stabilizer code"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

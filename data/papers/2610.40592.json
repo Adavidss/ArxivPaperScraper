@@ -1,0 +1,86 @@
+{
+ "id": "2610.40592",
+ "version": 1,
+ "title": "Toric codes all the way down: decoupling translation-invariant topological CSS codes in higher dimensions",
+ "authors": [
+  {
+   "name": "Mingxin He"
+  },
+  {
+   "name": "Yifei Wang"
+  },
+  {
+   "name": "Hao Song"
+  },
+  {
+   "name": "Yingfei Gu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-29T17:49:18Z",
+ "updated": "2026-10-29T17:49:18Z",
+ "abstract": "Topological Calderbank-Shor-Steane (CSS) codes in more than two spatial dimensions offer features useful for fault-tolerant quantum computation, such as transversal non-Clifford gates and single-shot decoding, but a systematic understanding of them is still lacking. One approach is to decouple a code: map it to a stack of higher-form toric codes by a finite-depth local CSS-preserving Clifford circuit, possibly after adding ancillas. For translation-invariant $p$-ary CSS codes, where $p$ is prime ($p=2$ for qubits), we require the circuit to commute with the translations of a superlattice. In two dimensions, such a decoupling exists once these translations act trivially on every anyon type. In higher dimensions, excitations are sorted by their dimension into superselection layers, which can remain glued together even when translations act trivially on each layer. We show that this gluing is the only remaining obstruction: a code can be decoupled on a superlattice exactly when, after coarse-graining to it, translations act trivially on every layer and the gluing vanishes. Moreover, for a code with finitely many excitation types in each layer and $m$ nonzero layers, once translations act trivially on every layer, further coarse-graining by a factor of $p^{m-1}$ in every direction removes the aforementioned gluing. Physically, the same criterion determines when the code encodes the maximal number of logical qudits on a finite torus. Finally, we give an explicit algorithm that constructs the decoupling as a circuit of SUM (qudit CNOT) and SWAP gates.",
+ "comment": "22 pages, 4 figures. Code: https://github.com/hmx21/css-decoupling ; Lean formalization: https://github.com/hmx21/css-decoupling-lean",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40592",
+  "pdf": "https://arxiv.org/pdf/2610.40592",
+  "html": "https://arxiv.org/html/2610.40592"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-31T12:57:54.553Z",
+  "hook": "Topological CSS codes in higher dimensions can be completely untangled into standard toric codes via local circuits.",
+  "tldr": [
+   "Derived exact conditions to decouple higher-dimensional translation-invariant topological CSS quantum codes.",
+   "Classified excitations into superselection layers and proved an obstruction arises solely from inter-layer gluing.",
+   "Demonstrated coarse-graining by p^(m-1) dissolves this gluing, yielding an explicit SUM/SWAP gate circuit algorithm."
+  ],
+  "whyItMatters": "Understanding whether complex quantum error-correcting codes reduce to standard toric codes helps simplify hardware design and unlocks fault-tolerant operations like transversal non-Clifford gates.",
+  "eli5": "Complex higher-dimensional quantum error-correcting codes seem like tangled knots. The authors proved that zooming out by a specific factor untangles them completely into independent, well-understood building blocks called toric codes.",
+  "keyNumbers": [
+   {
+    "value": "p^(m-1)",
+    "label": "Coarse-graining factor",
+    "context": "Spatial zoom factor in each direction needed to dissolve gluing across m nonzero excitation layers."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "CSS code",
+    "shortDef": "Calderbank-Shor-Steane quantum error-correcting code constructed from two classical linear codes.",
+    "eli5Def": "A quantum code that fixes bit flips and phase flips independently using classical code math.",
+    "wikiTitle": "CSS code"
+   },
+   {
+    "term": "Toric code",
+    "shortDef": "A foundational topological quantum error-correcting code defined on a 2D or higher-dimensional lattice.",
+    "eli5Def": "A classic quantum error-checking grid where quantum information is protected by the global topology of the surface.",
+    "wikiTitle": "Toric code"
+   },
+   {
+    "term": "Clifford circuit",
+    "shortDef": "A quantum circuit built from gates that map Pauli operators to other Pauli operators.",
+    "eli5Def": "A standard set of quantum logic gates that are easy to simulate on regular computers.",
+    "wikiTitle": "Clifford algebra"
+   },
+   {
+    "term": "Superlattice",
+    "shortDef": "A periodic structure formed by grouping multiple unit cells of an underlying crystal lattice.",
+    "eli5Def": "A coarser grid formed by grouping existing grid tiles into bigger blocks.",
+    "wikiTitle": "Superlattice"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

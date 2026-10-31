@@ -1,0 +1,73 @@
+{
+ "id": "2610.40623",
+ "version": 1,
+ "title": "Optimal Diamond Distance Estimation for Unitary Channels",
+ "authors": [
+  {
+   "name": "Jinge Bao"
+  },
+  {
+   "name": "Qisheng Wang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-29T17:56:18Z",
+ "updated": "2026-10-29T17:56:18Z",
+ "abstract": "The diamond distance between two quantum channels determines the optimal probability of distinguishing them from a single use. We give a quantum algorithm that estimates the diamond distance between two unknown $d$-dimensional unitary channels to within additive error $\\varepsilon$, using $O(\\sqrt{d}/\\varepsilon)$ queries to the unitary channels and their inverses. The query complexity is optimal, as it matches the lower bound due to Jeon and Oh (npj Quantum Inf. 2026).",
+ "comment": "12 pages, 4 figures, 1 algorithm",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40623",
+  "pdf": "https://arxiv.org/pdf/2610.40623",
+  "html": "https://arxiv.org/html/2610.40623"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-31T12:57:54.553Z",
+  "hook": "A new quantum algorithm achieves the strictly optimal O(√d/ε) query limit to distinguish d-dimensional unitary gates.",
+  "tldr": [
+   "Sought the fastest way to estimate the diamond distance between two unknown d-dimensional unitary channels.",
+   "Built a quantum algorithm querying both the unknown unitary channels and their mathematical inverses.",
+   "Proved an O(√d/ε) query complexity that precisely matches the known theoretical lower bound."
+  ],
+  "whyItMatters": "Evaluating how different two quantum operations are is fundamental to benchmarking hardware and verifying quantum algorithms. This settles the exact best-possible efficiency for testing unitary gates.",
+  "eli5": "Imagine you have two mystery boxes that transform quantum states, and you want to test how differently they behave. This recipe figures out the difference using the fewest possible test runs allowed by the laws of physics.",
+  "keyNumbers": [
+   {
+    "value": "O(√d/ε)",
+    "label": "query complexity",
+    "context": "queries to the unitary channels and their inverses required to achieve additive error ε"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "diamond distance",
+    "shortDef": "A metric measuring the maximum distinguishability between two quantum channels using an entangled state.",
+    "eli5Def": "A score measuring how easily you can tell two quantum operations apart in the absolute best-case test.",
+    "wikiTitle": "Completely positive map"
+   },
+   {
+    "term": "unitary channel",
+    "shortDef": "A noiseless, reversible quantum transformation described by a unitary matrix.",
+    "eli5Def": "A perfectly clean, reversible operation applied to quantum information.",
+    "wikiTitle": "Unitary operator"
+   },
+   {
+    "term": "query complexity",
+    "shortDef": "The number of times an algorithm must access an oracle or black-box operation to solve a problem.",
+    "eli5Def": "How many times you need to push a mystery button to figure out what it does.",
+    "wikiTitle": "Query complexity"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

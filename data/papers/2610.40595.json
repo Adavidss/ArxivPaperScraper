@@ -1,0 +1,76 @@
+{
+ "id": "2610.40595",
+ "version": 1,
+ "title": "Optimal detuning and gate time for strongly driven single-qubit gates beyond the rotating-wave approximation",
+ "authors": [
+  {
+   "name": "Alejandro D. Bendersky"
+  },
+  {
+   "name": "Sergio S. Gomez"
+  },
+  {
+   "name": "Rodolfo H. Romero"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-29T17:49:56Z",
+ "updated": "2026-10-29T17:49:56Z",
+ "abstract": "Single-qubit quantum gates are implemented as the time-controlled unitary evolution of a two-level system under harmonic driving. The rotating-wave approximation (RWA) provides closed-form gate parameters for weak coupling. Larger amplitudes, desirable to speed up the dynamics, make the RWA-designed gates inaccurate because of the neglected counter-rotating term, which also shifts the resonance (Bloch-Siegert shift). Here we study theoretically the infidelity of gates beyond the RWA, using the effective Magnus-Taylor Hamiltonian through second order in the inverse of the driving frequency. By detuning the driving frequency by an amplitude-dependent shift of Bloch-Siegert type and rescaling the operation time, the RWA gate conditions are recovered with corrected parameters. Numerical solutions of the Schrodinger equation show that these corrections lower the gate infidelity by several orders of magnitude, extending the range of usable amplitudes",
+ "comment": "7 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40595",
+  "pdf": "https://arxiv.org/pdf/2610.40595",
+  "html": "https://arxiv.org/html/2610.40595"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-31T12:57:54.553Z",
+  "hook": "Detuning driving frequencies by a Bloch-Siegert shift cuts single-qubit gate errors by several orders of magnitude.",
+  "tldr": [
+   "Studied how to run strongly driven single-qubit quantum gates fast without losing fidelity to neglected dynamics.",
+   "Derived analytical corrections via a second-order Magnus-Taylor effective Hamiltonian beyond the rotating-wave limit.",
+   "Found that amplitude-dependent detuning and gate duration scaling recover rotating-wave conditions and drastically slash infidelity."
+  ],
+  "whyItMatters": "Faster gates reduce the window in which quantum processors succumb to environmental decoherence. Fixing errors caused by intense driving unlocks faster quantum computing without complex redesigns.",
+  "eli5": "Driving a qubit faster is like pushing a swing harder, but violent pushes shake it off-track. By slightly shifting the timing and frequency of the push, the motion stays smooth and error-free.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "rotating-wave approximation",
+    "shortDef": "Neglecting rapidly oscillating counter-rotating terms in a driven quantum Hamiltonian.",
+    "eli5Def": "Ignoring super-fast vibrations in a drive signal to make the equations simpler to solve.",
+    "wikiTitle": "Rotating-wave approximation"
+   },
+   {
+    "term": "Bloch-Siegert shift",
+    "shortDef": "A shift in resonance frequency arising from counter-rotating drive fields at strong driving amplitudes.",
+    "eli5Def": "A slight shift in the natural frequency of a system caused by driving it really hard.",
+    "wikiTitle": "Bloch–Siegert shift"
+   },
+   {
+    "term": "gate infidelity",
+    "shortDef": "A quantitative measure of how much an implemented quantum operation deviates from the ideal target unitary.",
+    "eli5Def": "The error rate showing how far off a quantum operation was from being perfect.",
+    "wikiTitle": "Quantum fidelity"
+   },
+   {
+    "term": "Magnus expansion",
+    "shortDef": "A method to compute an effective time-independent Hamiltonian for linear differential equations with time-dependent terms.",
+    "eli5Def": "A mathematical trick that averages out time-varying forces into one steady equation.",
+    "wikiTitle": "Magnus expansion"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

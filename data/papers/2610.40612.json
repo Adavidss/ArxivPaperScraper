@@ -1,0 +1,82 @@
+{
+ "id": "2610.40612",
+ "version": 1,
+ "title": "Exceptional Points as Witnesses of Non-Gaussian Noise",
+ "authors": [
+  {
+   "name": "Aritra Ghosh"
+  },
+  {
+   "name": "Subhashish Banerjee"
+  },
+  {
+   "name": "M. Bhattacharya"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall",
+  "cond-mat.stat-mech",
+  "math-ph",
+  "physics.atom-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-29T17:54:10Z",
+ "updated": "2026-10-29T17:54:10Z",
+ "abstract": "Efficient control of quantum devices requires the knowledge of their environmental noise, yet the commonly measured power spectrum does not fully characterize non-Gaussian fluctuations of realistic environments. Here we show that exceptional points (EPs) in the noise-averaged dephasing response can expose observable signatures of non-Gaussian statistics, distinguishing environments with identical lower-order statistics. We also introduce a theoretical model that describes dephasing environments in terms of identical independent noise sources while preserving the power spectrum. Given a calibrated single-source model, the largest EP order extracted from the measured dephasing response determines the number of sources and predicts the higher-order statistics of the combined noise. We illustrate an atomtronic readout that maps distinct EP signatures onto an evolving ensemble-averaged atomic interference pattern. Our results connect non-Hermitian dynamics to environmental noise statistics, providing a route to characterize noise in quantum devices used in computing, metrology, and precision measurement.",
+ "comment": "Comments are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40612",
+  "pdf": "https://arxiv.org/pdf/2610.40612",
+  "html": "https://arxiv.org/html/2610.40612"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.40612v1/schematic_noisy.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-31T12:57:54.553Z",
+  "hook": "Exceptional points expose non-Gaussian quantum noise that ordinary power spectrum measurements completely miss.",
+  "tldr": [
+   "Addressed the blind spot of power spectra in identifying realistic non-Gaussian environmental noise in quantum systems.",
+   "Analyzed exceptional points (EPs) in dephasing dynamics and modeled noise via independent discrete sources.",
+   "Found that the maximum EP order reveals the source count and predicts higher-order statistical noise parameters."
+  ],
+  "whyItMatters": "Quantum computers lose their memory through dephasing caused by surrounding noise. Catching complex, non-Gaussian noise signatures enables much more precise calibration and quantum error suppression.",
+  "eli5": "Hearing a crowd gives you an overall volume, but you cannot easily tell if it is two loud people or ten whispering ones. This method uses subtle tipping points in quantum motion to count individual noise sources accurately.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "exceptional points",
+    "shortDef": "Spectral singularities in non-Hermitian systems where eigenvalues and their corresponding eigenvectors coalesce.",
+    "eli5Def": "Special tuning points where two different wave patterns merge into a single identical shape.",
+    "wikiTitle": "Exceptional point"
+   },
+   {
+    "term": "non-Gaussian noise",
+    "shortDef": "Fluctuations whose statistical distribution cannot be fully characterized by their mean and variance alone.",
+    "eli5Def": "Noise that comes in weird, uneven bursts rather than a steady, predictable background hiss.",
+    "wikiTitle": "Colors of noise"
+   },
+   {
+    "term": "dephasing",
+    "shortDef": "The loss of quantum coherence over time without exchanging energy with the environment.",
+    "eli5Def": "When qubits fall out of sync with each other because of subtle environmental jostling.",
+    "wikiTitle": "Dephasing"
+   },
+   {
+    "term": "power spectrum",
+    "shortDef": "A representation showing the distribution of signal power across different frequencies.",
+    "eli5Def": "A chart showing which audio pitches are loudest in a sound.",
+    "wikiTitle": "Spectral density"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

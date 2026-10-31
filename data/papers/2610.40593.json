@@ -1,0 +1,104 @@
+{
+ "id": "2610.40593",
+ "version": 1,
+ "title": "Probing fluctuations in photon emission statistics of spin injected quantum dots with time dependent electronic excitation",
+ "authors": [
+  {
+   "name": "Chiran Wijesundara"
+  },
+  {
+   "name": "Vincent Iglesias-Cardinale"
+  },
+  {
+   "name": "Yuan Lu"
+  },
+  {
+   "name": "Herbert Fotso"
+  },
+  {
+   "name": "Bo Xu"
+  },
+  {
+   "name": "Tim Thomay"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-29T17:49:21Z",
+ "updated": "2026-10-29T17:49:21Z",
+ "abstract": "Electrically spin-injected ensembles of InGaAs/GaAs quantum dots emit circularly polarized single photons, with the emission helicity determined by the spin polarization of the injected electrons. A ferromagnetic CoFeB spin-injection layer with perpendicular magnetic anisotropy, combined with an MgO tunnel barrier, enables spin-polarized electron injection into the quantum-dot active region, resulting in circularly polarized photon emission at zero applied magnetic field. These devices realize direct spin-charge-photon conversion in an electrically driven, microelectronics-compatible quantum light source that operates without an external pump laser. Using an extended Hanbury Brown-Twiss interferometer with four detectors and time-tagged readout, we measure time-resolved photon-number statistics that resolve up to $|2\\rangle$ Fock states within a single excitation cycle. While single-photon ($n=|1\\rangle$) emission tracks the electrical excitation pulse as expected, the two-photon ($n=|2\\rangle$) statistics exhibit pronounced fluctuations at multiple temporal positions within the pulse. These fluctuations vanish upon demagnetization of the spin-injection layer, establishing a direct link between the multi-photon emission dynamics and the spin polarization of the injected carriers. The observations indicate that spin injection controls not only the helicity of the emitted photons but also higher-order temporal correlations of the emission. The behavior is phenomenologically captured by inserting both a variable excitation mechanism and a set of multi-emitter collapse operators within a stochastic wave function evolution. The platform thus opens a route to electrically driven, spin-controlled single and multi-photon Fock-state sources and provides a testbed for spin-conditioned multi-emitter dynamics in solid-state quantum light sources.",
+ "comment": "8 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40593",
+  "pdf": "https://arxiv.org/pdf/2610.40593",
+  "html": "https://arxiv.org/html/2610.40593"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.40593v1/experiment_schematic.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-31T12:57:54.553Z",
+  "hook": "Spin-injecting quantum dots lets electrical pulses dictate not just photon helicity, but two-photon emission spikes.",
+  "tldr": [
+   "Probed time-resolved photon-number statistics from electrically driven, spin-injected InGaAs/GaAs quantum dots.",
+   "Used a four-detector Hanbury Brown-Twiss interferometer to track Fock states up to |2⟩ within single electrical pulses.",
+   "Found two-photon fluctuations vanish when the spin layer is demagnetized, proving spin directly shapes multi-photon dynamics."
+  ],
+  "whyItMatters": "Building quantum light emitters that run on ordinary microchip electronics rather than bulky external lasers is key to scaling photonic quantum computing and secure communication.",
+  "eli5": "Normally, quantum light sources need expensive laser systems to spit out precisely timed photons. Researchers made tiny semiconductor dots emit specific quantum light states using only electric pulses from a magnetic contact, like switching on a microscopic, spin-sensitive light bulb.",
+  "keyNumbers": [
+   {
+    "value": "|2⟩",
+    "label": "Max Fock state resolved",
+    "context": "Photon number state resolved per single excitation cycle using a 4-detector interferometer."
+   },
+   {
+    "value": "4",
+    "label": "Detectors",
+    "context": "Number of detectors used in the extended Hanbury Brown-Twiss setup."
+   },
+   {
+    "value": "0",
+    "label": "Applied magnetic field",
+    "context": "Zero external magnetic field needed to achieve circularly polarized photon emission."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum dot",
+    "shortDef": "A nanoscale semiconductor particle that traps electrons and emits discrete photons.",
+    "eli5Def": "A tiny artificial atom engineered inside a crystal that emits light one photon at a time.",
+    "wikiTitle": "Quantum dot"
+   },
+   {
+    "term": "Fock state",
+    "shortDef": "A quantum state of an electromagnetic field containing a well-defined integer number of photons.",
+    "eli5Def": "A quantum packet containing an exact, predictable count of photons, like an egg carton with precisely two eggs.",
+    "wikiTitle": "Fock state"
+   },
+   {
+    "term": "Hanbury Brown-Twiss interferometer",
+    "shortDef": "An optical setup that splits light across detectors to measure photon arrival correlations.",
+    "eli5Def": "A setup that splits a light beam to detect whether photons travel alone or in bunches.",
+    "wikiTitle": "Hanbury Brown and Twiss effect"
+   },
+   {
+    "term": "Spin injection",
+    "shortDef": "The process of driving spin-polarized electrons from a magnetic material into a semiconductor.",
+    "eli5Def": "Pushing electrons whose magnetic 'compasses' all point in the same direction into a material.",
+    "wikiTitle": "Spin injection"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "id": "2610.40589",
+ "version": 1,
+ "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
+ "authors": [
+  {
+   "name": "El Mustapha Mansouri"
+  },
+  {
+   "name": "Eikichi Kimura"
+  },
+  {
+   "name": "Masato Koga"
+  },
+  {
+   "name": "Keigo Arai"
+  }
+ ],
+ "categories": [
+  "cs.AI",
+  "cs.MA",
+  "quant-ph"
+ ],
+ "primaryCategory": "cs.AI",
+ "published": "2026-10-29T17:47:50Z",
+ "updated": "2026-10-29T17:47:50Z",
+ "abstract": "An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. Here, we present an autonomous research laboratory in which agents based on large language models assess one another's work and can stop or redirect investigations. They can generate and reject research questions, require separate theoretical checks and conduct experiments designed to challenge their claims. We demonstrate these capabilities by investigating ensembles of quantum spins in diamond. The agents derived the minimum number of calibration settings needed to predict responses to a defined family of microwave pulse sequences. They checked the result computationally and designed experiments to distinguish competing predictions. An initial experiment agreed with the theoretical predictions, but repeated reference measurements showed that the signal was drifting during data collection. The agents therefore treated the result as inconclusive and revised the measurement protocol without relaxing the acceptance criteria. The revised experiment met those criteria and supported the theoretical predictions. This study demonstrates that collaborating AI agents can select research questions, derive theoretical results and test their predictions experimentally.",
+ "comment": "17 pages, 5 figures. Code available at https://github.com/E-zClap/auctopus",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40589",
+  "pdf": "https://arxiv.org/pdf/2610.40589",
+  "html": "https://arxiv.org/html/2610.40589"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-01T13:42:28.218Z",
+  "hook": "AI research agents caught experimental drift in quantum lab measurements and rewrote their protocols to fix it.",
+  "tldr": [
+   "Built an autonomous lab where LLM agents critique each other, check theory, and redirect experiments to ensure rigor.",
+   "Tested the framework on diamond quantum spin ensembles, deriving calibration bounds and verifying them with microwave pulses.",
+   "When hardware drift invalidated early data, the agents flagged the run inconclusive and refined protocols to confirm predictions."
+  ],
+  "whyItMatters": "AI systems often hallucinate or accept flawed data. Showing that collaborating agents can enforce experimental rigor and reject false positives brings truly trustworthy autonomous science much closer.",
+  "eli5": "Imagine a team of robot scientists where one proposes an experiment, another checks the math, and a third spots that the thermometer was wobbling during the test. Instead of pretending it worked, they redo the whole test properly until the math and physical reality agree.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "quantum spins in diamond",
+    "shortDef": "Atomic-scale impurities in a diamond lattice that act as controllable quantum bits.",
+    "eli5Def": "Tiny magnetic defects trapped inside a diamond that can store fragile quantum information.",
+    "wikiTitle": "Nitrogen-vacancy center"
+   },
+   {
+    "term": "microwave pulse sequence",
+    "shortDef": "Timed electromagnetic bursts used to manipulate quantum spin orientations.",
+    "eli5Def": "A choreographed pattern of invisible microwave flashes that flip and steer tiny atomic magnets.",
+    "wikiTitle": "Pulsed NMR"
+   },
+   {
+    "term": "autonomous research laboratory",
+    "shortDef": "A scientific facility where AI and robotics design, run, and interpret experiments without human intervention.",
+    "eli5Def": "A self-driving laboratory where AI handles every step of science, from having ideas to running physical machines.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 55
+ }
+}

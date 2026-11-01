@@ -1,0 +1,72 @@
+{
+ "id": "2610.40585",
+ "version": 1,
+ "title": "Classical communication over quantum channels: does entanglement help in nature?",
+ "authors": [
+  {
+   "name": "Peixue Wu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-29T17:46:45Z",
+ "updated": "2026-10-29T17:46:45Z",
+ "abstract": "Can entangling codewords across independent uses of a quantum channel improve the rate of classical communication? An old conjecture states that there is no such entanglement advantage for all channels. Although Hastings's result and follow-up works disproved this conjecture, it turns out that enormous dimension is required to construct a channel where entanglement enhances classical communication. This indicates that there might be no entanglement advantage for many physical channels, or for all low dimensional channels. Motivated by recent progress on (generalized) amplitude damping channels, we propose a general Schur-weighted block entropy inequality, and show that there is no entanglement advantage for all phase-covariant channels including multi-level amplitude damping channels, generalized dephasing channels, and damping-dephasing channels. As a by-product, we also recover the recently established result that there is no entanglement advantage for all qubit channels.",
+ "comment": "See the companion github repository https://github.com/pxwu24/additivity-of-classical-communication for the presentation of the results and a complete Lean verification",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40585",
+  "pdf": "https://arxiv.org/pdf/2610.40585",
+  "html": "https://arxiv.org/html/2610.40585"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-01T13:42:28.218Z",
+  "hook": "Entangling messages doesn't boost classical transmission rates across broad classes of realistic quantum channels.",
+  "tldr": [
+   "Investigated whether entangling inputs across quantum channel uses boosts classical information transfer rates.",
+   "Introduced a Schur-weighted block entropy inequality and verified findings using the Lean proof assistant.",
+   "Proved zero entanglement advantage across all phase-covariant channels, damping-dephasing models, and qubit channels."
+  ],
+  "whyItMatters": "While theoretical counterexamples show quantum entanglement can sometimes boost classical data throughput, this work demonstrates that for most standard, physically realistic communication channels, entanglement offers zero transmission advantage.",
+  "eli5": "Imagine sending secret notes across a noisy walkie-talkie channel. You might hope that linking notes together with spooky quantum entanglement lets you pack more words in, but for most everyday types of noise, simple unlinked notes do the job just as well.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "quantum channel",
+    "shortDef": "A communication pathway that transmits quantum states while exposing them to noise.",
+    "eli5Def": "A noisy pipe or wire through which quantum signals travel.",
+    "wikiTitle": "Quantum channel"
+   },
+   {
+    "term": "entanglement advantage",
+    "shortDef": "A boost in classical communication capacity achieved by sharing quantum entanglement across channel uses.",
+    "eli5Def": "Getting extra message throughput by linking your signals using quantum magic instead of sending them separately.",
+    "wikiTitle": null
+   },
+   {
+    "term": "amplitude damping channel",
+    "shortDef": "A quantum noise model describing energy loss from a quantum system to its environment.",
+    "eli5Def": "A type of physical noise where a quantum system gradually leaks its energy away into its surroundings.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "phase-covariant channels",
+    "shortDef": "Quantum channels whose noise characteristics remain symmetric under phase rotations.",
+    "eli5Def": "Communication pathways whose noise stays identical even when you twist the phase of your signal.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

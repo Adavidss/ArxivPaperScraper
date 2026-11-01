@@ -1,0 +1,77 @@
+{
+ "id": "2610.40573",
+ "version": 1,
+ "title": "What Can Be Computed with Indefinite Causal Structure?",
+ "authors": [
+  {
+   "name": "Omri Shmueli"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-29T17:44:40Z",
+ "updated": "2026-10-29T17:44:40Z",
+ "abstract": "Can quantum computation become more powerful when operations do not need to follow a definite causal order? We study this question in the process matrix formalism of Oreshkov et al. (Nature Communications, 2012), which allows quantum operations to be connected without a fixed global order. In the computational model, a quantum circuit succinctly describes a process matrix, and the algorithm is given access to its generated channel, with computational cost measured by the size of the generating circuit. We give polynomial-time algorithms in two settings. First, general process matrix computation suffices to solve every problem in $\\textbf{NP}$. The valid processes used by our algorithm satisfy the purification postulate of Araújo et al. (Quantum, 2017), and their generated channels are unitary, although their generating circuits are not. Second, requiring the process matrices themselves to be pure, we give a polynomial-time algorithm for unique-sink orientation, a general problem capturing several longstanding computational problems in optimization. Our unitary generators are constructed explicitly and efficiently. Assuming that unique-sink orientation has no quantum polynomial-time algorithm, our result shows that indefinite causal order can provide computational power beyond $\\textbf{BQP}$ within the process matrix formalism, even while preserving unitarity.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.40573",
+  "pdf": "https://arxiv.org/pdf/2610.40573",
+  "html": "https://arxiv.org/html/2610.40573"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-01T13:42:28.218Z",
+  "hook": "Abandoning a fixed causal order enables quantum algorithms to solve every NP problem in polynomial time.",
+  "tldr": [
+   "Investigated computational complexity limits when quantum operations are not constrained by a fixed causal timeline.",
+   "Built explicit, efficient unitary-generating circuits within the process matrix framework.",
+   "Showed general processes solve all NP problems in poly-time, while pure processes efficiently solve unique-sink orientation."
+  ],
+  "whyItMatters": "In standard physics, cause must precede effect; relaxing that assumption allows quantum computers to crack famously difficult optimization problems well beyond standard quantum complexity limits (BQP).",
+  "eli5": "Normally, step A has to happen before step B, or B before A. But quantum mechanics allows a strange superposition where it's genuinely indefinite which happened first; this paper shows that using this temporal blur lets you solve puzzles that would otherwise take millennia in mere minutes.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "indefinite causal structure",
+    "shortDef": "A framework where the sequential order of physical events is not fixed, existing in a quantum superposition.",
+    "eli5Def": "A setup where you can't say whether event A happened before event B or vice-versa—they occur in a quantum blend of both orders.",
+    "wikiTitle": "Indefinite causal order"
+   },
+   {
+    "term": "process matrix",
+    "shortDef": "A mathematical formalism describing local quantum operations without presuming a global causal background.",
+    "eli5Def": "A mathematical tool for mapping out quantum experiments when time does not have a single, fixed direction.",
+    "wikiTitle": null
+   },
+   {
+    "term": "NP",
+    "shortDef": "A computational complexity class containing problems whose solutions can be verified in polynomial time.",
+    "eli5Def": "A big collection of hard puzzles where finding an answer is tough, but checking a provided answer is fast and easy.",
+    "wikiTitle": "NP (complexity)"
+   },
+   {
+    "term": "BQP",
+    "shortDef": "The class of decision problems solvable by a standard quantum computer in polynomial time.",
+    "eli5Def": "The circle of all problems that normal quantum computers can solve reasonably quickly.",
+    "wikiTitle": "BQP"
+   },
+   {
+    "term": "unique-sink orientation",
+    "shortDef": "An orientation of an n-dimensional hypercube where every face has a single unique destination vertex.",
+    "eli5Def": "A maze-like map on a hypercube where following the arrows on any section always leads to just one exit point.",
+    "wikiTitle": "Unique sink orientation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

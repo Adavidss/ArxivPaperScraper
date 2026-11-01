@@ -1,0 +1,30 @@
+{
+ "date": "2026-11-01",
+ "generatedAt": "2026-11-01T13:42:28.218Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum limits, causal order, and autonomous labs",
+ "summary": "Today's papers explore the theoretical bounds and practical realities of quantum systems. Theoretical work establishes complexity leaps under indefinite causal structure alongside tight limits on entanglement for classical communication, while practical efforts demonstrate autonomous multi-agent AI driving spin-qubit experimentation.",
+ "themes": [
+  {
+   "title": "Theoretical Bounds on Quantum Information",
+   "body": "Two papers probe fundamental limits: one shows that lifting fixed causal order allows solving all NP problems in poly-time, while the other formally proves entangling channel inputs offers no classical transmission advantage across broad channel classes.",
+   "paperIds": [
+    "2610.40573",
+    "2610.40585"
+   ]
+  },
+  {
+   "title": "Autonomous Quantum Experimentation",
+   "body": "Collaborative LLM agents managed solid-state quantum spin experiments autonomously, catching hardware drift, critiquing intermediate data, and successfully rewriting experimental protocols on the fly.",
+   "paperIds": [
+    "2610.40589"
+   ]
+  }
+ ],
+ "connections": [],
+ "paperIds": [
+  "2610.40589",
+  "2610.40585",
+  "2610.40573"
+ ]
+}

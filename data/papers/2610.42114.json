@@ -1,0 +1,68 @@
+{
+ "id": "2610.42114",
+ "version": 1,
+ "title": "Topologically Protected Edge States in a Single Flux Qubit",
+ "authors": [
+  {
+   "name": "Pablo Perez-Fernandez"
+  },
+  {
+   "name": "Manuel Pino"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-30T17:49:37Z",
+ "updated": "2026-10-30T17:49:37Z",
+ "abstract": "We show that topological edge states can be realized in a simple superconducting circuit composed of an inductively shunted flux qubit. The Josephson potential of that qubit forms a honeycomb lattice similar to the case of graphene. The additional shunting element produces a quartic potential along one flux direction, which effectively creates a boundary in flux space. We map analytically the low-energy dynamics of the circuit to an extended Su--Schrieffer--Heeger (SSH) chain, in which a quartic potential is added to the usual SSH Hamiltonian. This mapping is confirmed by numerical simulations of the full superconducting circuit. We argue that chiral symmetry still holds for the edge states of the extended model around a chiral point in parameter space. Close to this point, we numerically find that edge states in our superconducting circuit are topologically protected against perturbations that obey chiral symmetry, as is the case for charge noise. Our results show that topological effects previously thought to occur in multi-qubit systems, such as protection against decoherence, can also be found in much simpler single superconducting qubits.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.42114",
+  "pdf": "https://arxiv.org/pdf/2610.42114",
+  "html": "https://arxiv.org/html/2610.42114"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-02T16:28:09.957Z",
+  "hook": "Topological edge states can be realized in a simple superconducting circuit composed of an inductively shunted flux qubit.",
+  "tldr": [
+   "Realized topological edge states in a simple superconducting circuit with an inductively shunted flux qubit.",
+   "Mapped the low-energy circuit dynamics analytically to an extended Su-Schrieffer-Heeger chain with a quartic potential.",
+   "Demonstrated through numerical simulations that edge states are topologically protected against charge noise."
+  ],
+  "whyItMatters": "Building fault-tolerant quantum computers requires protecting quantum states from noise. Showing that simple single qubits can host topological protection opens a much easier path forward.",
+  "eli5": "Normally, protecting quantum information from noisy interference requires linking many complex pieces together. This paper shows a clever single circuit can naturally shield its outer edges from noise, like a fortress wall built from a single brick.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "flux qubit",
+    "shortDef": "A superconducting circuit loop where quantum states correspond to persistent current directions.",
+    "eli5Def": "A tiny electronic loop where electricity flows clockwise and counter-clockwise at the same time to store quantum data.",
+    "wikiTitle": "Flux qubit"
+   },
+   {
+    "term": "Su-Schrieffer-Heeger chain",
+    "shortDef": "A one-dimensional model describing electrons moving along a lattice with alternating bond lengths.",
+    "eli5Def": "A theoretical toy model of atoms arranged in a repeating pattern with alternating short and long bridges.",
+    "wikiTitle": "Su–Schrieffer–Heeger model"
+   },
+   {
+    "term": "chiral symmetry",
+    "shortDef": "A symmetry in quantum systems that maps states of positive energy to states of negative energy.",
+    "eli5Def": "A built-in mirror balance in the physics equations that protects certain fragile quantum states from breaking.",
+    "wikiTitle": "Chiral symmetry"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

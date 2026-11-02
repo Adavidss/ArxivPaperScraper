@@ -1,25 +1,25 @@
 {
- "generatedAt": "2026-11-01T13:42:28.218Z",
+ "generatedAt": "2026-11-02T16:28:09.957Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
    "slug": "sabre-kais",
-   "score": 10,
+   "score": 12,
    "coAuthoredWith": [],
    "viaKeywords": [
     "SABRE"
    ],
    "viaCategories": [],
    "paperIds": [
+    "2610.41782",
     "2610.15998",
-    "2610.07308",
-    "2609.33617"
+    "2610.07308"
    ],
    "recentTitles": [
-    "A 4-Qubit Variational Quantum Classifier for Sequence-Specific Classification of DNMT3A and DNMT3B Flanking Methylation Preferences",
-    "Quantum dynamics of spin systems using quantum-like resources"
+    "Chiral Torsional Double Wells: Tunneling and Polarizability",
+    "A 4-Qubit Variational Quantum Classifier for Sequence-Specific Classification of DNMT3A and DNMT3B Flanking Methylation Preferences"
    ],
-   "paperCount": 5
+   "paperCount": 6
   },
   {
    "name": "Li Gao",

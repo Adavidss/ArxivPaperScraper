@@ -1,0 +1,91 @@
+{
+ "id": "2610.42119",
+ "version": 1,
+ "title": "Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products",
+ "authors": [
+  {
+   "name": "Javier Lopez-Piqueres"
+  },
+  {
+   "name": "Atithi Acharya"
+  },
+  {
+   "name": "Yue Sun"
+  },
+  {
+   "name": "Niraj Kumar"
+  }
+ ],
+ "categories": [
+  "q-fin.CP",
+  "math.NA",
+  "quant-ph"
+ ],
+ "primaryCategory": "q-fin.CP",
+ "published": "2026-10-30T17:52:14Z",
+ "updated": "2026-10-30T17:52:14Z",
+ "abstract": "Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note's future value. In Monte Carlo, each order of differentiation multiplies the sampling noise by a factor that grows with the observation frequency, and nested simulation turns the noise of its inner paths into a bias of the quantile. We instead solve the backward pricing recursion, storing the continuation value as an $hp$ functional tensor train (hp-FTT) whose piecewise-polynomial cores are split at the barriers, so that worst-of barrier events act exactly, with rank one. For Gaussian transitions we show that the polynomial degree sufficient for an error $\\varepsilon$ grows only as $\\sqrt{\\log(1/\\varepsilon)}$. One solve then gives every Greek at any spot without sampling noise, by integrating the likelihood-ratio weight against the stored value, and the values it stores at future dates replace inner simulation. Against the strongest Monte Carlo estimators we could build or find published, on worst-of autocallables observed monthly on three to five assets, the order of the Greek and the accuracy decide which method is cheaper. At $1\\%$ accuracy Monte Carlo is more than an order of magnitude cheaper for deltas, second-order Greeks go either way, and hp-FTT is cheaper for every third-order Greek, by up to two orders of magnitude. At $0.1\\%$ hp-FTT is cheaper for every Greek we could check, under geometric Brownian motion and local volatility alike. For the exposure alone Monte Carlo is cheaper at $1\\%$ and hp-FTT at $0.1\\%$, and a solve run for the Greeks yields it for little more than scenario sampling. Sampling pays in variance for each derivative and hp-FTT in rank for each asset, so Monte Carlo keeps low-order Greeks at percent accuracy, rarely observed contracts and many assets.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.42119",
+  "pdf": "https://arxiv.org/pdf/2610.42119",
+  "html": "https://arxiv.org/html/2610.42119"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-02T16:28:09.957Z",
+  "hook": "At 0.1% accuracy, hp-FTT is cheaper for every Greek we could check, beating Monte Carlo by up to two orders of magnitude.",
+  "tldr": [
+   "Solved the backward pricing recursion for multi-asset structured products using functional tensor trains.",
+   "Stored continuation values as hp-FTTs with piecewise-polynomial cores split at financial barriers.",
+   "Demonstrated that hp-FTT outperforms Monte Carlo for high-order Greeks and high-precision exposure tails."
+  ],
+  "whyItMatters": "Calculating risk on complex financial derivatives takes massive computing power. This method slashes computational costs for high-precision risk management.",
+  "eli5": "Instead of guessing the future millions of times by flipping coins like a video game simulation, this math trick builds a compressed map of all possible financial futures at once, saving tons of computer power.",
+  "keyNumbers": [
+   {
+    "value": "1%",
+    "label": "Low accuracy threshold",
+    "context": "Monte Carlo is cheaper for deltas and low-order tasks."
+   },
+   {
+    "value": "0.1%",
+    "label": "High accuracy threshold",
+    "context": "hp-FTT outperforms Monte Carlo for every Greek checked."
+   },
+   {
+    "value": "three to five",
+    "label": "Asset count",
+    "context": "Tested on worst-of autocallables observed monthly."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Greeks",
+    "shortDef": "Financial parameters measuring the sensitivity of a derivative's price to changes in market variables.",
+    "eli5Def": "Risk dials that tell traders how fast a financial contract's value changes when the stock market moves.",
+    "wikiTitle": "Greeks (finance)"
+   },
+   {
+    "term": "tensor train",
+    "shortDef": "A format for representing high-dimensional arrays in a memory-efficient way.",
+    "eli5Def": "A clever way to store giant tables of numbers by compressing them so they fit easily in a computer.",
+    "wikiTitle": "Tensor train decomposition"
+   },
+   {
+    "term": "autocallable",
+    "shortDef": "A structured financial product that automatically redeems early if underlying assets hit certain triggers.",
+    "eli5Def": "A special investment contract that cashes itself out early if the stock market stays above a certain line.",
+    "wikiTitle": "Autocallable"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

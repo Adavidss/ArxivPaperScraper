@@ -1,0 +1,75 @@
+{
+ "id": "2610.42129",
+ "version": 1,
+ "title": "Weighted hypergraph states as a resource for quantum metrology",
+ "authors": [
+  {
+   "name": "B. J. Alexander"
+  },
+  {
+   "name": "M. S. Tame"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-30T17:57:23Z",
+ "updated": "2026-10-30T17:57:23Z",
+ "abstract": "Quantum correlations can be used to improve sensing precision beyond classical limits, yet the correlated resource states needed can be challenging to prepare and preserve. Here, we study the family of weighted hypergraph states and identify subclasses characterized by their underlying graph topology that exhibit enhanced metrological performance. Using the quantum Fisher information and a novel Dicke state basis representation, we show that these subclasses outperform both separable and standard weighted graph state benchmarks over broad ranges of edge weights corresponding to weak controlled operations between qubits representing the vertices of the graph. We provide analytical formulas for an arbitrary number $N$ of qubits, supplemented by a general study, while focusing a detailed analysis on the example case of $N=4$. By identifying the critical probabilities for local dephasing, we show that adding higher-order weighted hyperedges for $N$ qubits can enhance metrological robustness, allowing the resulting states to retain a quantum advantage at higher noise levels. These probe states exhibit favorable scaling, enhanced precision, and noise tolerance. Our findings establish weighted hypergraph states as viable, structurally tunable and robust resources for quantum-enhanced metrology.",
+ "comment": "20 pages, 11 figures, 1 table",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.42129",
+  "pdf": "https://arxiv.org/pdf/2610.42129",
+  "html": "https://arxiv.org/html/2610.42129"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.42129v1/S7.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-02T16:28:09.957Z",
+  "hook": "Weighted hypergraph states outperform standard quantum metrology benchmarks for enhanced sensing precision.",
+  "tldr": [
+   "Studied a family of weighted hypergraph states to identify subclasses with enhanced metrological performance.",
+   "Used quantum Fisher information and a Dicke state basis representation to analyze edge weights and weak operations.",
+   "Found that adding higher-order weighted hyperedges improves noise tolerance and preserves a quantum advantage."
+  ],
+  "whyItMatters": "Better quantum sensor states allow for higher precision measurements that can surpass classical physics limits even in noisy environments.",
+  "eli5": "By connecting quantum particles in a special web-like network, scientists can build ultra-sensitive measurement tools that ignore background static.",
+  "keyNumbers": [
+   {
+    "value": "4",
+    "label": "Qubits Analyzed",
+    "context": "Focusing a detailed analysis on the example case of N=4."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Hypergraph",
+    "shortDef": "A generalization of a graph where edges can connect any number of vertices, not just two.",
+    "eli5Def": "Like a drawing of dots, where a single line can circle a group of three or four dots instead of just connecting two.",
+    "wikiTitle": "Hypergraph"
+   },
+   {
+    "term": "Quantum Fisher information",
+    "shortDef": "A measure of the amount of information an observable state carries about an unknown parameter.",
+    "eli5Def": "A math score telling scientists how precisely a quantum state can measure tiny changes in the outside world.",
+    "wikiTitle": "Quantum Fisher information"
+   },
+   {
+    "term": "Dephasing",
+    "shortDef": "The loss of phase coherence in quantum systems due to environmental interactions.",
+    "eli5Def": "When a group of spinning tops slowly wobble out of sync because someone keeps bumping the table.",
+    "wikiTitle": "Dephasing"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

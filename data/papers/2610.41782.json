@@ -1,0 +1,72 @@
+{
+ "id": "2610.41782",
+ "version": 1,
+ "title": "Chiral Torsional Double Wells: Tunneling and Polarizability",
+ "authors": [
+  {
+   "name": "Shah Ishmam Mohtashim"
+  },
+  {
+   "name": "Manas Sajjan"
+  },
+  {
+   "name": "Sabre Kais"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-30T14:17:46Z",
+ "updated": "2026-10-30T14:17:46Z",
+ "abstract": "Quantum tunneling between mirror-related wells of a torsional potential sets the timescale for coherent interconversion of chiral conformers. We ask whether slower tunneling also weakens the transition polarizability in hydrogen peroxide, hydrogen disulfide, and hydrogen diselenide. We use relaxed CCSD(T)//MP2 potentials and a kinetic model that removes overall molecular rotation to obtain the torsional states, then use static polarizabilities to calculate transition matrix elements between them. In the molecular frame used here, symmetry makes the matrix element of the even dipole component vanish between opposite-parity torsional states, while the odd polarizability component has a nonzero matrix element. The two quantities probe different parts of the torsional landscape: tunneling depends on penetration through the barriers, while the polarizability matrix element forms mainly within the wells. Consequently, tunneling slows sharply across the molecular series even as the matrix element grows. Higher torsional doublets and deuterium substitution further show that large changes in tunneling time can occur with little change in the transition polarizability matrix element. Calculated torsional energies for H$_2$O$_2$ and D$_2$O$_2$ agree with experimental values. Thus, slowing coherent interconversion need not weaken the intrinsic transition polarizability.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.41782",
+  "pdf": "https://arxiv.org/pdf/2610.41782",
+  "html": "https://arxiv.org/html/2610.41782"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-02T16:28:09.957Z",
+  "hook": "Slowing down chiral tunneling in molecules does not weaken their intrinsic transition polarizability.",
+  "tldr": [
+   "Investigated how tunneling between mirror-related wells affects transition polarizability in hydrogen peroxide, disulfide, and diselenide.",
+   "Used relaxed CCSD(T)//MP2 potentials and a kinetic model to obtain torsional states and calculated matrix elements via static polarizabilities.",
+   "Found that tunneling slows sharply across the molecular series even as the polarizability matrix element grows."
+  ],
+  "whyItMatters": "Understanding how molecular symmetry and quantum tunneling interact helps chemists control chiral molecules, which is vital for pharmaceutical design and quantum technologies.",
+  "eli5": "Imagine a ball rolling back and forth between two identical valleys separated by a hill. Even if the ball takes much longer to tunnel through the hill, certain hidden properties of the valleys themselves can still grow stronger.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Chiral",
+    "shortDef": "A molecule that is not superimposable on its mirror image, like a left or right hand.",
+    "eli5Def": "Like your left and right hands: they look alike, but you cannot overlap them perfectly.",
+    "wikiTitle": "Chirality (chemistry)"
+   },
+   {
+    "term": "Polarizability",
+    "shortDef": "The measure of how easily an electron cloud is distorted by an external electric field.",
+    "eli5Def": "How easily you can squish or stretch the cloud of electrons around an atom using a magnet or electric charge.",
+    "wikiTitle": "Polarizability"
+   },
+   {
+    "term": "Tunneling",
+    "shortDef": "A quantum mechanical phenomenon where a particle passes through a potential energy barrier.",
+    "eli5Def": "Imagine walking up a hill, but instead of climbing over, you magically pass right through the middle to the other side.",
+    "wikiTitle": "Quantum tunneling"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "2610.42131",
+ "version": 1,
+ "title": "Time-optimal quantum dynamics under fixed-norm generators",
+ "authors": [
+  {
+   "name": "Oskar A. Prośniak"
+  },
+  {
+   "name": "Karol Życzkowski"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-30T17:57:26Z",
+ "updated": "2026-10-30T17:57:26Z",
+ "abstract": "We investigate the dynamics of quantum systems whose evolution is governed by linear generators of fixed unitarily invariant norm. For this broad class of evolutions, we derive a universal time-optimal generator of the dynamics converting one given state into another. It provides a time-optimal non-Hermitian Hamiltonian for pure state conversion. We then use this general result to derive quantum speed limits for mixed-state evolutions governed by Lindbladians and non-Hermitian Hamiltonians. Our findings follow from the geometric properties of the group $GL(n,\\mathbb{C})$, in particular the geodesic distance. The derived bounds hold for an arbitrary system size $n$, depend only on the norms of the evolution generator and the initial and final states, and do not require performing any time-averaging.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.42131",
+  "pdf": "https://arxiv.org/pdf/2610.42131",
+  "html": "https://arxiv.org/html/2610.42131"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.42131v1/figures/optimized_parallel_n2-img0.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-02T16:28:09.957Z",
+  "hook": "Universal time-optimal generators convert one quantum state to another using fixed-norm evolution.",
+  "tldr": [
+   "Investigated quantum dynamics governed by linear generators of fixed unitarily invariant norm.",
+   "Derived a universal time-optimal generator for pure state conversion and obtained quantum speed limits for mixed states.",
+   "Leveraged geometric properties of the general linear group over complex numbers, particularly geodesic distance."
+  ],
+  "whyItMatters": "Knowing the absolute speed limit for quantum operations helps engineers build faster, more efficient quantum computers.",
+  "eli5": "It figures out the absolute fastest possible racetrack route to shift a quantum computer from one state to another without wasting any time.",
+  "keyNumbers": [
+   {
+    "value": "n",
+    "label": "System Size",
+    "context": "The derived bounds hold for an arbitrary system size n."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Lindbladian",
+    "shortDef": "The generator of a dynamical semi-group describing open quantum system evolution.",
+    "eli5Def": "A mathematical formula that describes how a quantum system changes while leaking energy into its environment.",
+    "wikiTitle": "Lindblad equation"
+   },
+   {
+    "term": "Geodesic",
+    "shortDef": "The shortest path between two points in a curved space.",
+    "eli5Def": "The straightest possible line you can draw on a globe or a curved surface.",
+    "wikiTitle": "Geodesic"
+   },
+   {
+    "term": "Hermitian",
+    "shortDef": "A matrix that is equal to its own conjugate transpose, ensuring real-valued eigenvalues.",
+    "eli5Def": "A balanced mathematical rulebook that guarantees the physical measurements you take will always be real numbers.",
+    "wikiTitle": "Hermitian matrix"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 40
+ }
+}

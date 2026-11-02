@@ -1,0 +1,72 @@
+{
+ "id": "2610.42150",
+ "version": 1,
+ "title": "Secret-shared teleportation of a two-qudit gate with a deferred recipient",
+ "authors": [
+  {
+   "name": "Tanay Roy"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-10-30T17:59:43Z",
+ "updated": "2026-10-30T17:59:43Z",
+ "abstract": "An unknown quantum operation, like an unknown quantum state, cannot be perfectly copied or stored for later use. A specific gate can be embedded in an entangled resource and teleported, but its destination is fixed when the resource is created. Here we show that the capability to apply a two-qudit entangling gate can instead be secret-shared among many parties: the shares are distributed in advance, and a later key release lets exactly one of them, chosen after distribution, exercise it. A provider encrypts half of a Bell pair held with a user into $n$ shares, one per candidate node. The selected node, given the key qudits, completes an exact non-local $\\mathtt{CSUM}^{k}$ gate with the user's data, in every measurement branch and for any qudit dimension, with the power $k$ chosen by the user alone. Any coalition of fewer than $n$ candidate nodes, or the key register alone, holds no information, unselected nodes cannot tell whether a selection occurred, and the key cannot decrypt twice. For two candidates the registers form a $((3,5))$ threshold scheme. Encoder and decoder are explicit $O(n)$ circuits. The construction supports jointly authorized and anonymous gate application, advancing distributed quantum computing and quantum network capabilities.",
+ "comment": "13+8 pages, 4+2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.42150",
+  "pdf": "https://arxiv.org/pdf/2610.42150",
+  "html": "https://arxiv.org/html/2610.42150"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2610.42150v1/fig_protocol_v2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-02T16:28:09.957Z",
+  "hook": "Secret-sharing lets a chosen recipient execute a two-qudit entangling gate with a user via deferred selection.",
+  "tldr": [
+   "Proposed a scheme to secret-share the ability to apply a two-qudit entangling gate among multiple candidate nodes.",
+   "Used an explicit O(n) encoder and decoder circuit where a provider encrypts half of a Bell pair into n shares.",
+   "Demonstrated that a selected node completes a precise non-local gate using a user-chosen power while unselected nodes learn nothing."
+  ],
+  "whyItMatters": "This advances distributed quantum computing and networks by allowing jointly authorized and anonymous quantum gate operations.",
+  "eli5": "It is like a safety deposit box that requires a key distributed among several friends, but only one specific friend chosen later can actually open it.",
+  "keyNumbers": [
+   {
+    "value": "3,5",
+    "label": "Threshold Scheme",
+    "context": "For two candidates, the registers form a ((3,5)) threshold scheme."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Qudit",
+    "shortDef": "A quantum system that can exist in d dimensional states, generalizing the binary qubit.",
+    "eli5Def": "A quantum version of a regular computer dimmer switch that can have many different settings, rather than just on or off.",
+    "wikiTitle": "Qudit"
+   },
+   {
+    "term": "Bell pair",
+    "shortDef": "A specific two-qubit quantum state that exhibits maximal entanglement.",
+    "eli5Def": "Two magic coins that are so deeply linked that if you flip one and get heads, the other is guaranteed to match.",
+    "wikiTitle": "Bell state"
+   },
+   {
+    "term": "Threshold scheme",
+    "shortDef": "A cryptographic method where a secret is divided into parts, requiring a minimum number to reconstruct.",
+    "eli5Def": "Like a treasure map torn into five pieces, where you need at least three pieces to see where the treasure is buried.",
+    "wikiTitle": "Secret sharing"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

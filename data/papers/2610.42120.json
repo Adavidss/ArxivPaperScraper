@@ -1,0 +1,73 @@
+{
+ "id": "2610.42120",
+ "version": 1,
+ "title": "Persistence of Unitary Almost Mathieu Operator Gaps Ten Dry Martinis, Five on the Rim",
+ "authors": [
+  {
+   "name": "Dan S. Borgnia"
+  },
+  {
+   "name": "Matthew Faust"
+  },
+  {
+   "name": "Long Li"
+  }
+ ],
+ "categories": [
+  "math-ph",
+  "cond-mat.mes-hall",
+  "math.SP",
+  "quant-ph"
+ ],
+ "primaryCategory": "math-ph",
+ "published": "2026-10-30T17:52:55Z",
+ "updated": "2026-10-30T17:52:55Z",
+ "abstract": "We determine exactly which gap labels are realized by open spectral gaps for the unitary almost Mathieu operator at every irrational frequency and all coupling constants ($0<λ_1,λ_2\\leq1$). When both couplings are strictly less than one, every permitted gap label is realized by an open gap, including in the critical case ($λ_1=λ_2$). When at least one coupling equals one, both lifts of every odd winding label are realized by open gaps, whereas all even winding labels are collapsed. The proof combines quantitative almost reducibility and Aubry duality with a monotonicity principle for gap heights.",
+ "comment": "29 + 11 pages, no figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2610.42120",
+  "pdf": "https://arxiv.org/pdf/2610.42120",
+  "html": "https://arxiv.org/html/2610.42120"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-02T16:28:09.957Z",
+  "hook": "We determine exactly which gap labels are realized by open spectral gaps for the unitary almost Mathieu operator.",
+  "tldr": [
+   "Determined exactly which gap labels are realized by open spectral gaps for the unitary almost Mathieu operator.",
+   "Combined quantitative almost reducibility, Aubry duality, and a monotonicity principle for gap heights.",
+   "Showed every permitted gap label is realized when both couplings are less than one, while even winding labels collapse at coupling one."
+  ],
+  "whyItMatters": "This work answers a precise mathematical question about quantum mechanics and solid-state physics models, shedding light on how electrons behave in magnetic fields.",
+  "eli5": "Imagine a guitar string that can only vibrate at very specific, forbidden frequencies that leave gaps of silence. Mathematicians just figured out the exact pattern of these silent gaps for a special quantum equation, no matter how you tune it.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "unitary almost Mathieu operator",
+    "shortDef": "A mathematical operator important in quantum mechanics and the study of electrons in magnetic fields.",
+    "eli5Def": "A complex equation used by physicists to study electrons moving through a repeating crystal grid.",
+    "wikiTitle": "Almost Mathieu operator"
+   },
+   {
+    "term": "Aubry duality",
+    "shortDef": "A mathematical symmetry connecting weak coupling and strong coupling regimes in physical systems.",
+    "eli5Def": "A mirror-image trick that lets scientists solve a hard physics problem by looking at its exact opposite.",
+    "wikiTitle": null
+   },
+   {
+    "term": "winding label",
+    "shortDef": "A topological index characterizing how a function wraps around a target space.",
+    "eli5Def": "A tag that tells you how many times a looped path wraps around a central point.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

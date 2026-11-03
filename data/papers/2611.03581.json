@@ -1,0 +1,77 @@
+{
+ "id": "2611.03581",
+ "version": 1,
+ "title": "Single-pass stochastic cooling for electron microscopy",
+ "authors": [
+  {
+   "name": "River Robles"
+  },
+  {
+   "name": "Peter Hommelhoff"
+  }
+ ],
+ "categories": [
+  "physics.acc-ph",
+  "physics.optics",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.acc-ph",
+ "published": "2026-11-02T18:31:55Z",
+ "updated": "2026-11-02T18:31:55Z",
+ "abstract": "Scientific applications of free electrons, such as in electron microscopes and particle accelerators, are limited by the brightness of available electron sources. Accelerators can use phase space cooling to surpass these source limitations, whereas electron microscopes can only rely on particle filtering to increase beam coherence at the cost of reduced brightness. We show that strong electron-light coupling in nanophotonic structures makes it possible to achieve single-pass stochastic cooling inside an electron microscope for a lossless improvement of longitudinal emittance. This approach is laser-free and compatible with normal CW operation of electron microscopes. We derive a fully quantum mechanical model of stochastic cooling valid in the strong coupling regime, finding an analytic asymptotic formula for the optimal cooled energy spread $σ_{E_f}\\simeq0.88(\\hbarω)^{2/3}σ_{E_0}^{1/3}$, with $\\hbar ω$ the cooling photon energy and $σ_{E_0}$ the initial energy spread. Numerical simulations confirm that the energy spread reduction is reflected in an increase in the purity of the electron's quantum state and a reduction of the longitudinal phase space area. Our work paves a path towards even brighter beams for electron microscopy, promising higher image quality, enhanced spectral resolution, and a route to reaching fundamental quantum limits on electron beam phase space area.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.03581",
+  "pdf": "https://arxiv.org/pdf/2611.03581",
+  "html": "https://arxiv.org/html/2611.03581"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.03581v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-03T14:33:57.323Z",
+  "hook": "Strong electron-light coupling in nanophotonic structures enables laser-free single-pass stochastic cooling in electron microscopes.",
+  "tldr": [
+   "Developed a quantum mechanical model for stochastic cooling in the strong coupling regime inside electron microscopes.",
+   "Utilized nanophotonic structures to achieve lossless improvement of longitudinal emittance without external lasers.",
+   "Derived an analytic asymptotic formula for the optimal cooled energy spread and confirmed improvements via numerical simulations."
+  ],
+  "whyItMatters": "Overcoming traditional electron source brightness limits can dramatically boost image quality and spectral resolution in electron microscopes, unlocking new realms of nanoscale imaging.",
+  "eli5": "Imagine a stream of tiny runners moving at slightly different speeds and directions. By using special microscopic light structures, scientists can gently nudge and organize the runners so they move in a neat, orderly pack without losing any runners.",
+  "keyNumbers": [
+   {
+    "value": "0.88",
+    "label": "Asymptotic constant",
+    "context": "Part of the analytic formula for the optimal cooled energy spread."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Stochastic cooling",
+    "shortDef": "A method used in particle accelerators to reduce the random spread of particle momenta.",
+    "eli5Def": "A clever technique to calm down jittery particles by measuring their chaos and correcting them on the fly.",
+    "wikiTitle": "Stochastic cooling"
+   },
+   {
+    "term": "Nanophotonic structures",
+    "shortDef": "Engineered structures scaled down to nanometers that control and manipulate light.",
+    "eli5Def": "Tinkertoy-like structures built on an atomic scale designed to trap and steer light beams.",
+    "wikiTitle": "Nanophotonics"
+   },
+   {
+    "term": "Longitudinal emittance",
+    "shortDef": "A measure of the beam's spread in energy and time phase space.",
+    "eli5Def": "How messy and spread out a beam of particles is in terms of their speed and spacing over time.",
+    "wikiTitle": "Beam emittance"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 65
+ }
+}

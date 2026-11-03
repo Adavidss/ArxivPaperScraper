@@ -1,0 +1,82 @@
+{
+ "id": "2611.03558",
+ "version": 1,
+ "title": "Quantum Private Information Retrieval on Forests",
+ "authors": [
+  {
+   "name": "Mohamed Nomeir"
+  },
+  {
+   "name": "Sennur Ulukus"
+  }
+ ],
+ "categories": [
+  "cs.IT",
+  "cs.CR",
+  "cs.NI",
+  "eess.SP",
+  "quant-ph"
+ ],
+ "primaryCategory": "cs.IT",
+ "published": "2026-11-02T18:19:25Z",
+ "updated": "2026-11-02T18:19:25Z",
+ "abstract": "We consider the problem of graph private information retrieval (PIR) in the quantum setting. We focus on a specific type of graphs, namely the forest graphs. A forest graph is a union of disjoint trees. We consider the quantum setting where all the servers share an entangled state. Each server is allowed to send only one qudit per retrieval round. We design a scheme for the forest graphs that achieves the rate of $\\frac{3}{N}$. The scheme uses a GHZ state as the initial entangled state between the servers prior to the scheme initiation. We compare our scheme with the only work done in the literature that considered the quantum setting of graph PIR. We show that our scheme is more efficient in this setting. We derive the quantum capacity for the case of $G=3K_2$, which is equal to $4/6$. $G=3K_2$ is a special case of the forest graph. We design a scheme that is specialized for this graph, achieving a rate equal to $4/6$ and provide the corresponding matching upper bound, establishing it as the capacity.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.03558",
+  "pdf": "https://arxiv.org/pdf/2611.03558",
+  "html": "https://arxiv.org/html/2611.03558"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-03T14:33:57.323Z",
+  "hook": "A new quantum private information retrieval scheme for forest graphs achieves a rate of 3/N using entangled servers.",
+  "tldr": [
+   "Studied graph private information retrieval on forest graphs where servers share an entangled state.",
+   "Designed a scheme utilizing GHZ states that achieves a retrieval rate of 3/N, sending only one qudit per round.",
+   "Derived the exact quantum capacity of 4/6 for the special forest graph case G equals 3K2."
+  ],
+  "whyItMatters": "It advances quantum cryptography and data retrieval efficiency, showing how entanglement can secure information retrieval across complex server network topologies.",
+  "eli5": "Imagine you want to download a secret file from a network of computers without letting any individual computer know which file you picked. By using quantum magic strings linking the computers together, you can retrieve your file faster and more securely.",
+  "keyNumbers": [
+   {
+    "value": "3/N",
+    "label": "Retrieval rate",
+    "context": "The rate achieved by the proposed scheme on forest graphs."
+   },
+   {
+    "value": "4/6",
+    "label": "Quantum capacity",
+    "context": "The capacity derived for the special forest graph case G = 3K2."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Private information retrieval",
+    "shortDef": "Retrieving a record from a database without revealing to the database servers which record was fetched.",
+    "eli5Def": "Ordering a secret item from a catalog without the shopkeeper ever finding out which specific item you bought.",
+    "wikiTitle": "Private information retrieval"
+   },
+   {
+    "term": "Forest graph",
+    "shortDef": "A graph that is a disjoint union of trees, containing no cycles.",
+    "eli5Def": "A collection of branching networks that never loop back around to form closed circles.",
+    "wikiTitle": "Forest (graph theory)"
+   },
+   {
+    "term": "GHZ state",
+    "shortDef": "An entangled quantum state involving at least three subsystems.",
+    "eli5Def": "A trio of quantum objects linked so deeply that measuring one instantly reveals properties of the others.",
+    "wikiTitle": "Greenberger–Horne–Zeilinger state"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

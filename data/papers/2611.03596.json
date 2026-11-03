@@ -1,0 +1,72 @@
+{
+ "id": "2611.03596",
+ "version": 1,
+ "title": "Spacetime Emergence in the Memory of a Learning Agent",
+ "authors": [
+  {
+   "name": "Philip A. LeMaitre"
+  },
+  {
+   "name": "T. Rick Perche"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.AI",
+  "cs.LG",
+  "gr-qc"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-02T18:39:52Z",
+ "updated": "2026-11-02T18:39:52Z",
+ "abstract": "We show that the causal structure of spacetime can emerge within the memory of a learning agent performing a quantum information task. We train a model-based reinforcement-learning agent to maximize the quantum mutual information between localized quantum probes interacting with a quantum field in Minkowski spacetime, without directly providing it with information regarding the spacetime metric or causal structure. In learning to accomplish this task, the reinforcement-learning agent constructs an internal predictive model whose planner develops the characteristic null structure of spacetime, allowing us to reconstruct the causal structure of the Minkowski metric with high accuracy. Within this task, spacetime geometry is obtained from an agent's successful predictions and actions, providing a first step toward showing that spacetime concepts emerge from operational quantum experience.",
+ "comment": "19 pages, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.03596",
+  "pdf": "https://arxiv.org/pdf/2611.03596",
+  "html": "https://arxiv.org/html/2611.03596"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.03596v1/agent_architecture.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-03T14:33:57.323Z",
+  "hook": "Training an AI on quantum tasks without spacetime data reveals that spacetime causal structure naturally emerges in its memory.",
+  "tldr": [
+   "Trained a model-based reinforcement-learning agent to maximize quantum mutual information with quantum fields in Minkowski spacetime.",
+   "Withheld all direct information regarding the spacetime metric or causal structure from the agent during training.",
+   "Found that the agent's internal planner autonomously developed the characteristic null structure of spacetime to make predictions."
+  ],
+  "whyItMatters": "It suggests that spacetime might not be a fundamental backdrop of the universe, but rather an emergent property arising from information processing and prediction.",
+  "eli5": "Imagine teaching an AI to play a video game without telling it the rules of gravity or geometry. By simply learning to predict what happens next, the AI's internal computer invents its own map of space and time to make sense of the game.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum mutual information",
+    "shortDef": "A measure of the total quantum and classical correlations between two subsystems.",
+    "eli5Def": "A way to measure how deeply connected and synchronized two quantum objects are.",
+    "wikiTitle": "Quantum mutual information"
+   },
+   {
+    "term": "Minkowski spacetime",
+    "shortDef": "A four-dimensional continuum combining space and time into a single geometric entity for special relativity.",
+    "eli5Def": "The standard flat cosmic stage where special relativity plays out, combining three directions of space with one direction of time.",
+    "wikiTitle": "Minkowski space"
+   },
+   {
+    "term": "Reinforcement learning",
+    "shortDef": "An area of machine learning where an agent learns to make decisions by receiving rewards or penalties.",
+    "eli5Def": "Training a computer program like a pet, giving it treats when it does well and scolding it when it fails until it masters a task.",
+    "wikiTitle": "Reinforcement learning"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "id": "2611.03624",
+ "version": 1,
+ "title": "Lee-Yang theorems for $q$-deformed oscillators and doubly-scaled SYK",
+ "authors": [
+  {
+   "name": "Arpon Basu"
+  },
+  {
+   "name": "Siddhant Midha"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "math.PR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-02T18:52:39Z",
+ "updated": "2026-11-02T18:52:39Z",
+ "abstract": "We show that the vacuum partition function of the $q$-deformed oscillator \\[ L_q(z):= \\langle0|e^{zT_q}|0\\rangle, \\qquad T_q := \\mathsf{a}_q + \\mathsf{a}_q^* \\] satisfies the Lee-Yang property, i.e., all zeros of $L_q$ lie on the imaginary line for all $q\\in[-1, 1)$, proving the conjectures of Okuyama'23. Using the connection between $q$-deformed oscillators and the Sachdev-Ye-Kitaev (SYK) Hamiltonian in the doubly-scaled regime, we show that the annealed SYK partition function satisfies the Lee-Yang property in the thermodynamic limit, that is, all of its Fisher zeros are on the imaginary axis. As a result, we show that the quenched SYK partition function admits a zero-free strip of constant width with high probability, rigorously complementing the large$-k$ replica calculations of Zlokapa and Kiani'26. We show the imaginary-rootedness of $L_q$ by expressing $\\varphi_q(z):= L_q(\\mathbf{i} z)$ as a locally uniform limit of ``$q$-deformed'' matching polynomials and then showing that those $q$-deformed polynomials are real-rooted. This establishes that $\\varphi_q$ is real-rooted, and in fact belongs to the \\emph{Laguerre-Pólya} class. The real-rootedness of the $q$-deformed polynomials yields novel log-concavity relations on the \\emph{$q$-deformed matching moments} \\[M_\\ell(q):= \\sum_{π\\in\\mathcal{P}_2(2\\ell)}q^{\\operatorname{cr}(π)}.\\] We show the real-rootedness of the $q$-deformed polynomials by using the Touchard--Riordan formula to derive a partial differential equation relating their $q$-derivatives to their $z$-derivatives, and then analyzing the resulting motion of their roots.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.03624",
+  "pdf": "https://arxiv.org/pdf/2611.03624",
+  "html": "https://arxiv.org/html/2611.03624"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-03T14:33:57.323Z",
+  "hook": "Proving Okuyama's 2023 conjectures, all zeros of the vacuum partition function for q-deformed oscillators lie on the imaginary line.",
+  "tldr": [
+   "Proved that the vacuum partition function of q-deformed oscillators satisfies the Lee-Yang property for all q in [-1, 1).",
+   "Used q-deformed matching polynomials and differential equations derived from the Touchard--Riordan formula to analyze root movement.",
+   "Demonstrated that the annealed SYK partition function satisfies the Lee-Yang property and the quenched version admits a zero-free strip."
+  ],
+  "whyItMatters": "This breakthrough rigorously proves fundamental phase transition properties for complex quantum mechanical systems, bridging abstract polynomial algebra with black hole and condensed matter physics.",
+  "eli5": "Imagine trying to find where an equation equals zero, like finding spots on a map where temperature hits absolute zero. The authors proved that all these special zero-spots line up in a straight row like fence posts, making a chaotic quantum system much easier to understand.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Lee-Yang property",
+    "shortDef": "A mathematical property stating that all zeros of a partition function lie on the imaginary axis.",
+    "eli5Def": "A rule saying that all the secret balancing points of a system line up neatly on a single straight line.",
+    "wikiTitle": "Lee-Yang theorem"
+   },
+   {
+    "term": "Sachdev-Ye-Kitaev (SYK) model",
+    "shortDef": "A theoretical model of many-body quantum chaos and holographic gravity.",
+    "eli5Def": "A mathematical playground scientists use to study scrambled quantum particles and black holes.",
+    "wikiTitle": "Sachdev-Ye-Kitaev model"
+   },
+   {
+    "term": "Laguerre-Pólya class",
+    "shortDef": "A class of real-rooted entire functions that can be viewed as limits of polynomials with only real roots.",
+    "eli5Def": "A special family of curves whose matching secret balance points always land completely on the real number line.",
+    "wikiTitle": "Laguerre-Pólya class"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

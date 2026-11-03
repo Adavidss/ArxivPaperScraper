@@ -1,0 +1,68 @@
+{
+ "id": "2611.03639",
+ "version": 1,
+ "title": "Quantum channel tomography: optimal bounds in the near-boundary regime",
+ "authors": [
+  {
+   "name": "Kean Chen"
+  },
+  {
+   "name": "Aadil Oufkir"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-02T18:58:12Z",
+ "updated": "2026-11-02T18:58:12Z",
+ "abstract": "Quantum channel tomography (also known as quantum process tomography) is a fundamental task in quantum information and quantum computing, aiming to learn the full description of an unknown quantum channel from black-box queries. For channels with input dimension $d_1$, output dimension $d_2$, and Kraus rank at most $r$, [CGO+26] identifies the dilation rate $τ=rd_2/d_1\\geq 1$ as a key parameter governing a Heisenberg-to-classical transition in query complexity. While the optimal bounds in the boundary regime ($τ=1$) and the away-from-boundary regime ($τ\\geq 1+Ω(1)$) are now known, the precise behavior in the near-boundary regime ($1<τ<1+o(1)$) has remained unresolved. In this paper, we close this gap, thereby fully settling the query complexity of quantum channel tomography. Specifically, we show that the query complexity is - $Ω(rd_1d_2/\\varepsilon^2)$ for diamond norm error $\\varepsilon$, matching the upper bound by [MB26, CGO+26], - $Θ(d_1^2/\\varepsilon+\\min\\{(τ-1)d_1^2,(τ-1)^2d_1^2d_2^2\\}/\\varepsilon^2)$ for Choi trace norm error $\\varepsilon$. Our results reveal two qualitatively different forms of the Heisenberg-to-classical transition. For diamond norm tomography, the Heisenberg scaling disappears suddenly as soon as $τ$ leaves the boundary regime. In contrast, Choi trace norm tomography exhibits a gradual transition from Heisenberg to classical scaling as $τ$ moves from the boundary regime to the away-from-boundary regime.",
+ "comment": "40 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.03639",
+  "pdf": "https://arxiv.org/pdf/2611.03639",
+  "html": "https://arxiv.org/html/2611.03639"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-03T14:33:57.323Z",
+  "hook": "The paper closes the gap on quantum channel tomography, fully settling its query complexity across the near-boundary regime.",
+  "tldr": [
+   "Studied quantum channel tomography, the task of learning an unknown quantum channel from black-box queries using input/output dimensions and Kraus rank.",
+   "Analyzed the near-boundary regime of the dilation rate parameter to resolve how query complexity behaves between boundary and away-from-boundary regimes.",
+   "Proved specific lower and upper bounds for diamond norm error and Choi trace norm error, revealing two qualitatively different Heisenberg-to-classical transitions."
+  ],
+  "whyItMatters": "Quantum channels are the building blocks of quantum communication. Knowing the exact number of queries needed to test them optimizes how we verify quantum hardware.",
+  "eli5": "Imagine trying to figure out what a secret black-box machine does by putting things in and seeing what comes out. This research figures out the absolute minimum number of tests you need to run to completely understand the machine.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum channel tomography",
+    "shortDef": "The process of characterizing an unknown quantum operation using queries.",
+    "eli5Def": "Figuring out what a mysterious quantum box does by testing it over and over.",
+    "wikiTitle": "Quantum process tomography"
+   },
+   {
+    "term": "Query complexity",
+    "shortDef": "The number of queries to a black box required to compute a function or learn a system.",
+    "eli5Def": "How many questions you have to ask to solve a puzzle.",
+    "wikiTitle": "Query complexity"
+   },
+   {
+    "term": "Kraus rank",
+    "shortDef": "The minimum number of operators needed to represent a quantum channel.",
+    "eli5Def": "The number of different pathways a quantum action can take.",
+    "wikiTitle": "Quantum operation"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

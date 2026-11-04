@@ -1,0 +1,69 @@
+{
+ "id": "2611.05369",
+ "version": 1,
+ "title": "Quantum Pointwise Dimension (QUPID): An algorithm for identifying classical chaos in quantum dynamics",
+ "authors": [
+  {
+   "name": "Jonathan Berkheim"
+  },
+  {
+   "name": "David J. Tannor"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-03T18:57:43Z",
+ "updated": "2026-11-03T18:57:43Z",
+ "abstract": "The Pointwise Dimension is a diagnostic that reveals the effective dimensionality of classical trajectories in a $2N$-dimensional phase space. The essence of this diagnostic is to find a scaling according to which density changes with radius $r$ around a point of interest in phase space. Particularly, regular trajectories are confined to an $N$-dimensional invariant torus, while chaotic trajectories explore a $(2N-1)$-dimensional energy surface. In classical mechanics, this trajectory density can be found by counting recurrences to within the sphere of radius $r$. In quantum mechanics, probability density is intrinsic, making the Pointwise Dimension compelling, but surprisingly this has not been studied in the quantum regime. In this work, we implement the Pointwise Dimension in the quantum regime using the Husimi representation of the quantum wavepacket. This implementation entails a long-time average of the time-dependent Husimi representation to obtain a stationary phase space density, and a radial spatial integration of this density over a sphere of radius $r$. The classical-quantum correspondence is excellent for both autonomous and non-autonomous systems, adding a new diagnostic to the study of quantum chaos. Finally, we explore the possibility, both classically and quantum mechanically, of obtaining the Pointwise Dimension from a time correlation function.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.05369",
+  "pdf": "https://arxiv.org/pdf/2611.05369",
+  "html": "https://arxiv.org/html/2611.05369"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.05369v1/Poincare.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-04T14:47:49.465Z",
+  "hook": "We map classical chaos onto quantum mechanics using Pointwise Dimension, achieving excellent classical-quantum correspondence.",
+  "tldr": [
+   "Implemented the Pointwise Dimension diagnostic in the quantum regime using the Husimi representation of a quantum wavepacket.",
+   "Calculated long-time averages of time-dependent Husimi representations to get stationary phase space densities and integrated radially.",
+   "Found excellent correspondence between classical and quantum systems for both autonomous and non-autonomous setups."
+  ],
+  "whyItMatters": "Connecting chaotic behavior in classical physics to quantum mechanics helps scientists better understand how unpredictable systems operate at the atomic scale.",
+  "eli5": "Think of dropping a speck of ink into a swirling washing machine; tracking how it spreads tells you how chaotic the motion is. Scientists figured out how to do this tracking even for fuzzy quantum particles that don't have exact single locations.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Phase space",
+    "shortDef": "A multi-dimensional space representing all possible states of a system.",
+    "eli5Def": "A giant map where every single point describes both where an object is and how fast it is moving.",
+    "wikiTitle": "Phase space"
+   },
+   {
+    "term": "Husimi representation",
+    "shortDef": "A quasiprobability distribution smoothing a quantum state over phase space.",
+    "eli5Def": "A pair of glasses that lets you look at a fuzzy quantum particle as if it had a position and speed at the same time.",
+    "wikiTitle": "Husimi representation"
+   },
+   {
+    "term": "Invariant torus",
+    "shortDef": "A torus-shaped surface in phase space that regular trajectories remain confined to over time.",
+    "eli5Def": "An invisible doughnut-shaped track that well-behaved particles loop around forever without escaping.",
+    "wikiTitle": "Invariant torus"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

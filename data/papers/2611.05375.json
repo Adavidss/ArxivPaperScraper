@@ -1,0 +1,81 @@
+{
+ "id": "2611.05375",
+ "version": 1,
+ "title": "Quantum Error Correction in Nearly Critical Toric Codes",
+ "authors": [
+  {
+   "name": "Zack Weinstein"
+  },
+  {
+   "name": "Samuel J. Garratt"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-11-03T18:59:47Z",
+ "updated": "2026-11-03T18:59:47Z",
+ "abstract": "We investigate quantum error correction protocols for topological codes deformed away from their stabilizer limits, particularly as they are pushed towards quantum phase transitions into trivial phases. Our focus is primarily on quantum information stored within the ground-state manifold of the transverse-field toric code (TFTC), subjected to independent bit-flip and phase-flip decoherence. Although the transverse field induces strong quantum fluctuations of $m$ anyons in the ground states, we show that projective measurements of the \"bare\" toric code stabilizers can nevertheless be used to construct an efficient decoding algorithm which exhibits a finite threshold to both types of decoherence, even when the transverse field is tuned infinitesimally close to the quantum critical point. Our construction of the optimal postmeasurement decoders---that is, the optimal decoders assuming that the stabilizers are first measured---crucially relies on the stoquastic nature of the TFTC Hamiltonian, which affords a description of its ground states in terms of a classical lattice gauge theory. Using stoquasticity, we first prove that stabilizer measurements act unitarily on the undecohered TFTC ground states to excellent approximation, and that the optimal postmeasurement decoder can be efficiently implemented via Monte Carlo simulation of a constrained lattice gauge theory. We then construct the optimal postmeasurement decoder for the TFTC states under bit-flip and phase-flip decoherence, where we numerically demonstrate a finite threshold close to the quantum critical point. We provide theoretical evidence (without a rigorous proof) that stabilizer measurements constitute an optimal decoding strategy in this setting. For phase-flip decoherence, we further prove that the optimal postmeasurement decoding threshold is independent of the transverse field strength throughout the topological phase.",
+ "comment": "56 pages, 20 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.05375",
+  "pdf": "https://arxiv.org/pdf/2611.05375",
+  "html": "https://arxiv.org/html/2611.05375"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.05375v1/fig-ising_bitflip.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-04T14:47:49.465Z",
+  "hook": "Quantum error correction can survive near phase transitions, showing a finite threshold even close to criticality.",
+  "tldr": [
+   "Investigated quantum error correction protocols for topological codes pushed toward phase transitions into trivial phases.",
+   "Used the stoquastic nature of the transverse-field toric code to map ground states to a classical lattice gauge theory and simulate via Monte Carlo.",
+   "Demonstrated a finite decoding threshold close to the quantum critical point for bit-flip and phase-flip decoherence."
+  ],
+  "whyItMatters": "Building fault-tolerant quantum computers requires protecting quantum information even when environmental fluctuations drive systems into critical, highly unstable regimes.",
+  "eli5": "Imagine trying to read a secret message written on a flag while a massive hurricane blows past. Researchers found that even when the wind blows so hard the flag almost tears apart, you can still use a clever trick to read the message without losing the data.",
+  "keyNumbers": [
+   {
+    "value": "56",
+    "label": "Pages",
+    "context": "Total length of the research manuscript"
+   },
+   {
+    "value": "20",
+    "label": "Figures",
+    "context": "Visual charts and diagrams included in the paper"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Toric code",
+    "shortDef": "A topological quantum error-correcting code defined on a two-dimensional surface.",
+    "eli5Def": "A grid-like rulebook for weaving quantum information into loops on a donut shape so tiny errors heal themselves.",
+    "wikiTitle": "Toric code"
+   },
+   {
+    "term": "Stoquastic",
+    "shortDef": "A Hamiltonian without a sign problem, allowing classical Monte Carlo simulation.",
+    "eli5Def": "A math puzzle that doesn't suffer from negative probability mind-tricks, letting normal computers simulate it easily.",
+    "wikiTitle": "Stoquastic Hamiltonians"
+   },
+   {
+    "term": "Quantum phase transition",
+    "shortDef": "A sharp change in the ground state of a quantum system driven by quantum fluctuations at absolute zero.",
+    "eli5Def": "Like water suddenly turning to ice, but driven by subatomic quantum shaking instead of temperature.",
+    "wikiTitle": "Quantum phase transition"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

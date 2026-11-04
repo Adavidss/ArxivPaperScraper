@@ -1,0 +1,91 @@
+{
+ "id": "2611.05354",
+ "version": 1,
+ "title": "Interpretable Quantum Photonic Generative Models",
+ "authors": [
+  {
+   "name": "Dat Chi Le"
+  },
+  {
+   "name": "Oleksandr Kyriienko"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-03T18:52:34Z",
+ "updated": "2026-11-03T18:52:34Z",
+ "abstract": "We propose a physical generative model for learning correlated multivariate data based on homodyne detection of photonic continuous-variable (CV) circuits. We use an $N$-mode photonic circuit in which two-mode squeezing provides correlations, local phase shifts tune the strength and sign of these correlations, and an adjustable interferometer redistributes them across modes. We train the circuit by matching its Pearson correlation matrix to the one obtained from data. We apply affine post-processing to adjust the marginals independently while keeping the relations intact. We test the model on the multivariate distribution of standardized log returns of financial assets, showing that the photonic model can represent rich correlation structures. We reproduce empirical correlations with residuals below $10^{-4}$ for five variables and recover the correct correlation signs for $94\\% \\pm 1\\%$ of 190 correlation pairs at twenty variables, with $86\\%$ of the residuals below $0.1$. As a separate technical contribution, we develop an approach for simulating Kerr gates with small nonlinearity via a Hubbard-Stratonovich expansion, making them suitable for CV-based simulators. Our results establish CV photonic circuits as a platform for interpretable generative learning, suitable for representing and fast sampling of distributions across different application domains.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.05354",
+  "pdf": "https://arxiv.org/pdf/2611.05354",
+  "html": "https://arxiv.org/html/2611.05354"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.05354v1/Fig3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-04T14:47:49.465Z",
+  "hook": "Photonic circuits reproduce empirical financial correlations with residuals below 10^-4 for five variables.",
+  "tldr": [
+   "Proposed a physical generative model for learning correlated multivariate data using homodyne detection of photonic continuous-variable circuits.",
+   "Trained the circuit by matching its Pearson correlation matrix to data and applying affine post-processing to adjust marginals.",
+   "Recovered correct correlation signs for 94% of 190 pairs at twenty variables, with 86% of residuals below 0.1."
+  ],
+  "whyItMatters": "This approach brings the power of quantum optical systems to data science, offering a new physical platform for generative learning and fast sampling in finance and beyond.",
+  "eli5": "Imagine trying to recreate the complex way different stocks move up and down together using tangled light beams in a lab. By tuning how the light waves mix and interact, scientists can make the light behave just like real-world financial data.",
+  "keyNumbers": [
+   {
+    "value": "10^-4",
+    "label": "Residual limit",
+    "context": "Residuals for five variables when reproducing empirical correlations."
+   },
+   {
+    "value": "94%",
+    "label": "Sign accuracy",
+    "context": "Percentage of correct correlation signs recovered for 190 pairs at twenty variables."
+   },
+   {
+    "value": "86%",
+    "label": "Low-residual share",
+    "context": "Percentage of residuals below 0.1 for the twenty-variable test."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Homodyne detection",
+    "shortDef": "An optical measurement technique used to measure the quadratures of a light field.",
+    "eli5Def": "A way of measuring light waves by mixing them with a known reference light beam to see what's hidden inside.",
+    "wikiTitle": "Homodyne detection"
+   },
+   {
+    "term": "Continuous-variable circuits",
+    "shortDef": "Quantum systems based on continuous properties like positions and momenta rather than discrete qubits.",
+    "eli5Def": "Using smooth, continuous waves of light instead of digital on-off switches to do quantum math.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Pearson correlation matrix",
+    "shortDef": "A table showing the linear correlation coefficients between multiple variables.",
+    "eli5Def": "A grid that maps out how closely different things move together in lockstep.",
+    "wikiTitle": "Pearson correlation coefficient"
+   },
+   {
+    "term": "Kerr gates",
+    "shortDef": "Optical quantum gates that introduce a nonlinear phase shift proportional to light intensity.",
+    "eli5Def": "A special optical switch where light changes its own path by interacting with itself.",
+    "wikiTitle": "Kerr effect"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

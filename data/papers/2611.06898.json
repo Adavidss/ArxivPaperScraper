@@ -1,0 +1,91 @@
+{
+ "id": "2611.06898",
+ "version": 1,
+ "title": "3D Printed Monolithic Optomechanical Chassis for an Unbalanced Field-Widened Interferometer",
+ "authors": [
+  {
+   "name": "Ramy Tannous"
+  },
+  {
+   "name": "Dogan Sinar"
+  },
+  {
+   "name": "Sagar Patel"
+  },
+  {
+   "name": "Tabitha D. Arulpragasam"
+  },
+  {
+   "name": "Issa Rishmawi"
+  },
+  {
+   "name": "Mark Kirby"
+  },
+  {
+   "name": "Vlad Paserin"
+  },
+  {
+   "name": "Mihaela Vlasea"
+  },
+  {
+   "name": "Thomas Jennewein"
+  }
+ ],
+ "categories": [
+  "physics.optics",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.optics",
+ "published": "2026-11-04T18:48:00Z",
+ "updated": "2026-11-04T18:48:00Z",
+ "abstract": "Additive manufacturing is increasingly being explored as an approach for producing complex structures for optical hardware. In this work, we present a fully monolithic optomechanical chassis fabricated using laser powder bed fusion additive manufacturing. The structure was fabricated from thermally stable Invar36, a low-thermal-expansion alloy that enables high dimensional stability under varying environmental conditions. Our monolithic design incorporates embedded optical mounts, flexures, and alignment features directly into the chassis geometry that exceed the practical limits of conventional subtractive manufacturing. By integrating the optomechanical support structure into a single compact unit, the system achieves a reduced footprint compared to traditional optomechanical assemblies. The results demonstrate the potential of additive manufacturing to produce lightweight, and highly customized optical systems, opening the possibility of new pathways for next-generation quantum sensors and optical instrumentation.",
+ "comment": "12 pages, 7 figures, 2 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.06898",
+  "pdf": "https://arxiv.org/pdf/2611.06898",
+  "html": "https://arxiv.org/html/2611.06898"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.06898v1/figures/FullPrint-iso.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-05T14:53:12.196Z",
+  "hook": "3D-printed Invar36 chassis enables ultra-stable optical systems by integrating mounts directly into the frame.",
+  "tldr": [
+   "Researchers used laser powder bed fusion to create a monolithic optomechanical chassis from Invar36.",
+   "The design embeds optical mounts and flexures directly into the structure, bypassing traditional assembly limitations.",
+   "The resulting system is more compact and thermally stable than traditional optomechanical assemblies."
+  ],
+  "whyItMatters": "High-precision optical experiments, like quantum sensors, require extreme stability. This manufacturing approach allows for smaller, more robust, and more precise instruments.",
+  "eli5": "Instead of building a telescope by gluing together many separate parts that might wiggle or expand in heat, they 3D-printed the whole frame as one solid, stable piece.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Invar36",
+    "shortDef": "A nickel-iron alloy known for its uniquely low coefficient of thermal expansion.",
+    "eli5Def": "A special metal that barely changes size when it gets hot or cold.",
+    "wikiTitle": "Invar"
+   },
+   {
+    "term": "Monolithic",
+    "shortDef": "Constructed as a single, solid piece rather than an assembly of multiple components.",
+    "eli5Def": "Made from one single block of material instead of being bolted together.",
+    "wikiTitle": "Monolithic integration"
+   },
+   {
+    "term": "Optomechanical",
+    "shortDef": "The field combining optics and mechanical engineering to support and align optical components.",
+    "eli5Def": "The engineering involved in holding lenses and mirrors perfectly in place.",
+    "wikiTitle": "Optomechanics"
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 45
+ }
+}

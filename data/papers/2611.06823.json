@@ -1,0 +1,71 @@
+{
+ "id": "2611.06823",
+ "version": 1,
+ "title": "Optimal Holding Times for Entanglement Swapping",
+ "authors": [
+  {
+   "name": "Van Sy Mai"
+  },
+  {
+   "name": "Richard J. La"
+  },
+  {
+   "name": "Abdella Battou"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math.OC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-04T17:32:52Z",
+ "updated": "2026-11-04T17:32:52Z",
+ "abstract": "We revisit the optimization of entanglement holding times in memory-based quantum repeaters for maximizing entanglement swapping throughput under different fidelity constraints - strict, probabilistic, and mean. We consider two heterogeneous quantum links that are equipped with single or multiple memories and differ in decoherence rates, memory capacities, entanglement attempt rates and success probabilities, as well as classical communication latencies. Efficient models are developed to estimate the expected entanglement throughput and the probability density functions of the conditional wait time to swap. The models are then used to satisfy different fidelity requirements by optimizing the maximum holding times for the two links. Finally, our proposed model and approach are validated with a discrete-event quantum network simulator.",
+ "comment": "8 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.06823",
+  "pdf": "https://arxiv.org/pdf/2611.06823",
+  "html": "https://arxiv.org/html/2611.06823"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-05T14:53:12.196Z",
+  "hook": "Optimizing holding times in quantum repeaters can significantly boost entanglement throughput across heterogeneous links.",
+  "tldr": [
+   "The researchers optimized how long quantum states are held in memory before swapping to maximize network throughput.",
+   "They developed mathematical models to account for varying decoherence rates, memory capacities, and communication latencies.",
+   "The approach was validated using a discrete-event quantum network simulator to meet strict, probabilistic, and mean fidelity constraints."
+  ],
+  "whyItMatters": "Quantum repeaters are essential for building a global quantum internet, but they are currently limited by how long they can store fragile quantum states. This research provides the mathematical framework to make these networks faster and more reliable.",
+  "eli5": "Imagine trying to pass a secret message through a chain of people who can only hold the secret for a few seconds before they forget it. This paper calculates exactly how long each person should wait to pass the message to ensure it reaches the end without getting garbled, even if some people are faster or more forgetful than others.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Entanglement Swapping",
+    "shortDef": "A process to extend entanglement between two distant particles that have never directly interacted.",
+    "eli5Def": "A way to connect two particles that are far apart by using an intermediary, like a middleman helping two strangers become friends.",
+    "wikiTitle": "Entanglement swapping"
+   },
+   {
+    "term": "Quantum Repeater",
+    "shortDef": "A device that extends the range of quantum communication by overcoming signal loss.",
+    "eli5Def": "A signal booster for quantum information that prevents the message from fading away over long distances.",
+    "wikiTitle": "Quantum repeater"
+   },
+   {
+    "term": "Decoherence",
+    "shortDef": "The loss of quantum information due to interaction with the environment.",
+    "eli5Def": "The process where a fragile quantum state gets 'bumped' by the outside world and loses its special properties.",
+    "wikiTitle": "Quantum decoherence"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

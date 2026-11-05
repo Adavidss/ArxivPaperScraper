@@ -1,0 +1,77 @@
+{
+ "id": "2611.06917",
+ "version": 1,
+ "title": "Using topology to reveal all mutually unbiased bases in dimension six",
+ "authors": [
+  {
+   "name": "Mateo Cárdenes Wuttig"
+  },
+  {
+   "name": "Joseph Tindall"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "math.CO"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-04T18:59:48Z",
+ "updated": "2026-11-04T18:59:48Z",
+ "abstract": "Mutually unbiased bases (MUBs) describe complementary quantum measurements: certainty in one basis gives no information about the others. In dimension six, triples of MUBs are known, but whether a fourth basis could exist remained unresolved for over three decades. OpenAI recently reported a proof that none exists. Here we use the topology of the space of complex Hadamard matrices, which describe transitions between MUBs, to characterize all sets in dimension six. We prove that every mutually unbiased triple belongs to a two-parameter family or is a single isolated triple built from the Fourier matrix. Since none of them extend to a fourth basis, this also proves that no four MUBs exist. Our proof rests on a new topological result that all order-six complex Hadamard matrices except Tao's form a connected space. Connectedness reduces the classification of triples to finitely many overlapping four-dimensional phase balls. We certify with interval arithmetic that these balls cover the space and for every pair of MUBs represented in a ball, we then determine all third bases that extend it. Dimension six is now the first non-prime-power dimension in which all sets of MUBs are classified.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.06917",
+  "pdf": "https://arxiv.org/pdf/2611.06917",
+  "html": "https://arxiv.org/html/2611.06917"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.06917v1/Figure_1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-05T14:53:12.196Z",
+  "hook": "A 30-year-old quantum mystery is solved: there is no fourth mutually unbiased basis in dimension six.",
+  "tldr": [
+   "Researchers used the topology of complex Hadamard matrices to classify all sets of mutually unbiased bases (MUBs) in dimension six.",
+   "They proved that all possible triples belong to specific families and showed that none of these can be extended to a fourth basis.",
+   "This confirms that dimension six is the first non-prime-power dimension where the complete set of MUBs is fully classified."
+  ],
+  "whyItMatters": "MUBs are fundamental to quantum information, including state tomography and cryptography. Solving this long-standing problem in dimension six provides a definitive answer to a core structural question in quantum mechanics.",
+  "eli5": "Imagine you have a deck of cards and you want to sort them into different piles so that knowing the suit tells you nothing about the rank. In dimension six, we knew we could make three such piles, but we couldn't figure out if a fourth was possible. This research proves that a fourth pile is mathematically impossible.",
+  "keyNumbers": [
+   {
+    "value": "6",
+    "label": "Dimension",
+    "context": "The specific quantum system dimension being analyzed."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Mutually Unbiased Bases",
+    "shortDef": "Quantum measurements where knowing the outcome of one provides zero information about the others.",
+    "eli5Def": "Measuring a quantum system in one way that makes the result of a different measurement completely random.",
+    "wikiTitle": "Mutually unbiased bases"
+   },
+   {
+    "term": "Complex Hadamard matrices",
+    "shortDef": "Square matrices with complex entries of unit modulus that describe transitions between MUBs.",
+    "eli5Def": "A special grid of numbers used to map how quantum states change from one measurement basis to another.",
+    "wikiTitle": "Hadamard matrix"
+   },
+   {
+    "term": "Interval arithmetic",
+    "shortDef": "A method for calculating with ranges of numbers to account for rounding errors and ensure rigorous proofs.",
+    "eli5Def": "Instead of using one number, you use a range to make sure your math stays accurate even with tiny errors.",
+    "wikiTitle": "Interval arithmetic"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

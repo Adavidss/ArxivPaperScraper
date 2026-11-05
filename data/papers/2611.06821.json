@@ -1,0 +1,84 @@
+{
+ "id": "2611.06821",
+ "version": 1,
+ "title": "Quantum Algorithms for Molecular Response Functions: Resolvent Kernels, Time-Domain Sampling, Query Lower Bounds with Matched Single-Point Calibers, and a Six-Route Comparison",
+ "authors": [
+  {
+   "name": "Yunlong Liu"
+  },
+  {
+   "name": "Yujin Tang"
+  },
+  {
+   "name": "Miao Xu"
+  },
+  {
+   "name": "Qing-Xing Xie"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-04T17:32:24Z",
+ "updated": "2026-11-04T17:32:24Z",
+ "abstract": "Quantum algorithms for molecular response functions have mostly been studied one route at a time, most prominently the indicator-binning algorithm of Kharazi et al. We compare six routes within one accounting framework and state the conversions between their resource calibers. On the resolvent route the Lorentz-broadened spectrum is exactly a resolvent expectation; at finite gamma two boundary terms, a reversal term and a permanent-dipole pseudo-line, enter a disjoint error budget. Because the kernel subnormalization is exactly 1, the published binning accounting carries a removable Theta(alpha+1+omega) factor (49.69x and 7.75x at the definitional caliber), a correction that applies to both routes. Estimating the square root of the kernel amplitude lowers the readout cost from beta^2/mu_tilde_2 to beta/sqrt(mu_tilde_2). On the time-domain route we prove a single-point amplitude-estimation theorem and convert the generalized QPE of Loaiza et al. to the same accounting. The lower bounds are Theta_tilde(1/gamma) for parameter location, Theta(1/(gamma epsilon)) for windowed values, Omega(n/gamma) inside a restricted correlation-sampling class, and Omega(1/(epsilon gamma^2)) on the Lorentzian object; in the single-circuit-resolution caliber, gamma^(-n) is a grid-coverage artifact. Six routes, their calibers, an n=2 assembly with a component-grade coherence, and a phase diagram over the tested ensembles form one accounting map.",
+ "comment": "37 pages, 13 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.06821",
+  "pdf": "https://arxiv.org/pdf/2611.06821",
+  "html": "https://arxiv.org/html/2611.06821"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-05T14:53:12.196Z",
+  "hook": "New quantum accounting framework reveals a 49.69x efficiency gain in molecular response function algorithms.",
+  "tldr": [
+   "The authors unified six different quantum algorithmic routes for calculating molecular response functions into a single accounting framework.",
+   "They identified and removed redundant factors in previous binning accounting methods, significantly lowering the computational cost.",
+   "They established new query lower bounds and provided a comprehensive map for comparing resource requirements across different methods."
+  ],
+  "whyItMatters": "Calculating how molecules respond to external fields is vital for drug discovery and material science. By streamlining these algorithms, we move closer to using quantum computers to simulate complex chemistry that is currently impossible for classical machines.",
+  "eli5": "Scientists have many different 'recipes' for using quantum computers to study how molecules behave. This paper acts like a master cookbook, showing that some recipes were using way more ingredients than necessary and providing a unified way to measure which recipe is fastest for a given task.",
+  "keyNumbers": [
+   {
+    "value": "49.69x",
+    "label": "Efficiency gain",
+    "context": "Improvement in binning accounting at the definitional caliber."
+   },
+   {
+    "value": "7.75x",
+    "label": "Efficiency gain",
+    "context": "Improvement in binning accounting at the definitional caliber."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Molecular Response Function",
+    "shortDef": "A mathematical description of how a molecule changes its state when exposed to an external field.",
+    "eli5Def": "A way to predict how a molecule will 'react' or change shape when you shine light or apply a force to it.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Resolvent Kernel",
+    "shortDef": "A mathematical operator used to solve linear equations, often appearing in spectral analysis.",
+    "eli5Def": "A specialized mathematical tool used to extract specific information from complex quantum systems.",
+    "wikiTitle": "Resolvent formalism"
+   },
+   {
+    "term": "Quantum Phase Estimation (QPE)",
+    "shortDef": "A quantum algorithm to estimate the phase of an eigenvalue of a unitary operator.",
+    "eli5Def": "A method for measuring the 'energy level' of a quantum system very precisely.",
+    "wikiTitle": "Quantum phase estimation algorithm"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 90
+ }
+}

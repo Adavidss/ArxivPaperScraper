@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T14:47:49.465Z",
+ "generatedAt": "2026-11-05T14:53:12.196Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -123,26 +123,6 @@
    "paperCount": 4
   },
   {
-   "name": "Lauriane Chomaz",
-   "slug": "lauriane-chomaz",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "cond-mat.quant-gas"
-   ],
-   "paperIds": [
-    "2610.28621",
-    "2609.09129",
-    "2608.27322"
-   ],
-   "recentTitles": [
-    "Characterizing supersolid phase transitions in trapped quantum gases with tilted dipoles at finite temperature",
-    "Anderson orthogonality scaling in the Rabi-driven heavy Fermi polaron"
-   ],
-   "paperCount": 4
-  },
-  {
    "name": "Dakshita Khurana",
    "slug": "dakshita-khurana",
    "score": 4,
@@ -201,6 +181,25 @@
     "Quantum Channel Stein Theorem beyond Definite Causal Order"
    ],
    "paperCount": 4
+  },
+  {
+   "name": "Manas Sajjan",
+   "slug": "manas-sajjan",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2610.41782",
+    "2609.33617"
+   ],
+   "recentTitles": [
+    "Chiral Torsional Double Wells: Tunneling and Polarizability",
+    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies"
+   ],
+   "paperCount": 2
   }
  ]
 }

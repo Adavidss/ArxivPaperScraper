@@ -1,0 +1,107 @@
+{
+ "id": "2611.08434",
+ "version": 1,
+ "title": "DiffSequence-Q: Diffusion Design with Quantum Assistance for Biologically Active Proteins",
+ "authors": [
+  {
+   "name": "Ke-Xin Tang"
+  },
+  {
+   "name": "Zhen-Qiang Weng"
+  },
+  {
+   "name": "Kai Yan"
+  },
+  {
+   "name": "Yao-Yao Lu"
+  },
+  {
+   "name": "Yu-Ze Zhu"
+  },
+  {
+   "name": "Hang Song"
+  },
+  {
+   "name": "Jun-Jie He"
+  },
+  {
+   "name": "Jie-Cheng Yang"
+  },
+  {
+   "name": "Xiang Zhao"
+  },
+  {
+   "name": "Lin Yang"
+  },
+  {
+   "name": "Xian-Min Jin"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-05T18:28:09Z",
+ "updated": "2026-11-05T18:28:09Z",
+ "abstract": "Designing protein sequences that satisfy both secondary structure requirements and solubility targets remains challenging. We present DiffSequence-Q, a hybrid multinomial diffusion model conditioned on secondary structure at each residue and a continuous solubility target. To introduce quantum auxiliary supervision during training, we employ a quantum neural network (QNN) or quantum Kolmogorov-Arnold network (QKAN) as an auxiliary solubility prediction head over shared Transformer representations. The auxiliary prediction loss is jointly optimized with the diffusion objective, allowing quantum auxiliary supervision to influence the learned denoising model. Once trained, protein sequences are generated entirely through classical reverse diffusion. On the CATH benchmark, DiffSequence-Q achieved the highest secondary structure recovery among the four evaluated models for complete sequence generation. Evaluation with a separately trained solubility prediction model showed that the best QNN and QKAN configurations achieved mean predicted solubility scores 14.0% and 22.7% higher than the multilayer perceptron (MLP) baseline, respectively. Experimental characterization further demonstrated biological activity across three distinct protein families. Selected defensins exhibited pronounced inhibitory activity against Aspergillus niger, while xylanases and short-chain dehydrogenases exhibited substantial enzymatic activity. Together, these results support DiffSequence-Q as a framework for integrating structural requirements and solubility targets in protein generation, with experimentally demonstrated biological activity.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08434",
+  "pdf": "https://arxiv.org/pdf/2611.08434",
+  "html": "https://arxiv.org/html/2611.08434"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.08434v1/figures/image4-2.jpg"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-06T14:30:59.040Z",
+  "hook": "QKAN-assisted protein generation achieved mean predicted solubility scores 22.7% higher than the baseline.",
+  "tldr": [
+   "Presented DiffSequence-Q, a hybrid multinomial diffusion model for protein sequence generation.",
+   "Employed a quantum neural network or quantum Kolmogorov-Arnold network as an auxiliary solubility prediction head.",
+   "Achieved high secondary structure recovery and experimentally demonstrated biological activity across three distinct protein families."
+  ],
+  "whyItMatters": "Designing custom proteins that are both structurally sound and soluble is a holy grail for drug discovery and biotechnology.",
+  "eli5": "Creating a custom protein is like building a microscopic origami crane that needs to fold correctly and also dissolve easily in water. This AI uses a touch of quantum math to design better proteins.",
+  "keyNumbers": [
+   {
+    "value": "14.0%",
+    "label": "higher solubility",
+    "context": "Mean predicted solubility score increase for QNN configuration over MLP baseline"
+   },
+   {
+    "value": "22.7%",
+    "label": "higher solubility",
+    "context": "Mean predicted solubility score increase for QKAN configuration over MLP baseline"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Diffusion model",
+    "shortDef": "A generative AI model that learns to create data by reversing a gradual noise-adding process.",
+    "eli5Def": "An AI that learns to paint a masterpiece by starting with a blurry TV static screen and slowly cleaning it up.",
+    "wikiTitle": "Diffusion model"
+   },
+   {
+    "term": "Quantum neural network",
+    "shortDef": "A machine learning model that incorporates quantum mechanical operations.",
+    "eli5Def": "A computer brain that uses the weird rules of subatomic physics instead of regular computer bits.",
+    "wikiTitle": "Quantum neural network"
+   },
+   {
+    "term": "Secondary structure",
+    "shortDef": "Local three-dimensional folded shapes within a protein, such as alpha helices and beta sheets.",
+    "eli5Def": "The basic folds and curls that a protein chain makes before it twists into its final ball shape.",
+    "wikiTitle": "Protein secondary structure"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

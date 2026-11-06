@@ -1,0 +1,96 @@
+{
+ "id": "2611.07175",
+ "version": 1,
+ "title": "Scalable Transpilation for Overcoming Restricted Connectivity in Distributed Superconducting Quantum Architectures",
+ "authors": [
+  {
+   "name": "Afonso Azenha"
+  },
+  {
+   "name": "Ilia Polian"
+  },
+  {
+   "name": "Sebastian Brandhofer"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.ET"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-04T21:59:29Z",
+ "updated": "2026-11-04T21:59:29Z",
+ "abstract": "Distributed Quantum Computing (DQC) offers a promising pathway to scale superconducting quantum hardware, but restricted inter- and intra-module connectivity creates a major transpilation bottleneck. Current DQC transpilation methods often assume idealized hardware connectivity, ignore subsequent intra-module routing, or suffer from substantial computational overheads that limit their applicability at scale. To address this, we introduce a scalable transpilation method tailored for the restricted connectivity of distributed superconducting quantum architectures. Specifically, our quantum interaction graph (QIG) approach couples a graph-partitioning mapping step with a fast SABRE-inspired routing heuristic. On a 48-qubit (3 QPUs $\\times$ 16 qubits) architecture with all-to-all inter-core connectivity, our method reduces average aggregated costs by up to 24.72% (unstructured) and 24.01% (structured), while delivering >250$\\times$ speed-ups for structured workloads compared to the state-of-the-art DMapS algorithm. On the 399-qubit (3$\\times$133) IBM Flamingo, where DMapS times out on dense circuits, our approach maintains practical runtimes. Against a DQC-adapted SABRE baseline, it reduces structured circuit routing costs by up to 51.94% (all-to-all inter-core topology) and 51.96% (restricted line topology). Ultimately, this work delivers a practical transpilation method for DQC at scale.",
+ "comment": "11 pages, 3 figures. Accepted at the 2026 IEEE International Conference on Quantum Computing and Engineering (QCE)",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.07175",
+  "pdf": "https://arxiv.org/pdf/2611.07175",
+  "html": "https://arxiv.org/html/2611.07175"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.07175v1/square_x3_virtual_sinks_landscape_legend.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-06T14:30:59.040Z",
+  "hook": "New quantum transpilation method cuts circuit costs by up to 24.7% and speeds up routing by over 250 times.",
+  "tldr": [
+   "Researchers developed a scalable transpilation method to overcome restricted connectivity in distributed superconducting quantum computers.",
+   "They combined a graph-partitioning mapping step with a fast SABRE-inspired routing heuristic called the quantum interaction graph (QIG) approach.",
+   "The method reduces routing costs by up to 51.9% compared to baselines and maintains practical runtimes on a 399-qubit IBM Flamingo chip."
+  ],
+  "whyItMatters": "Scaling up quantum computers requires linking multiple smaller processor chips together, but limited physical wiring between them creates massive computing bottlenecks. This routing breakthrough makes multi-chip quantum processors dramatically more efficient and practical.",
+  "eli5": "Imagine trying to pass notes in a massive classroom where students can only talk to their immediate neighbors. If a student in the front needs to talk to someone in the back, messages get lost or take forever. This new method is like giving everyone a smart GPS map so they can pass notes across the room instantly without traffic jams.",
+  "keyNumbers": [
+   {
+    "value": "24.72%",
+    "label": "Max unstructured cost reduction",
+    "context": "On a 48-qubit architecture with all-to-all inter-core connectivity"
+   },
+   {
+    "value": ">250x",
+    "label": "Speed-up for structured workloads",
+    "context": "Compared to the state-of-the-art DMapS algorithm"
+   },
+   {
+    "value": "399-qubit",
+    "label": "IBM Flamingo scale",
+    "context": "Architecture size where previous algorithms timed out on dense circuits"
+   },
+   {
+    "value": "51.96%",
+    "label": "Cost reduction vs baseline",
+    "context": "Against a DQC-adapted SABRE baseline on a restricted line topology"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Transpilation",
+    "shortDef": "Translating a quantum circuit written for one hardware layout into instructions optimized for another.",
+    "eli5Def": "Rewriting a recipe written in French into English so a specific kitchen can actually bake it.",
+    "wikiTitle": "Source-to-source compiler"
+   },
+   {
+    "term": "Superconducting Quantum Architectures",
+    "shortDef": "Quantum hardware built using circuits made from materials that conduct electricity without resistance at cold temperatures.",
+    "eli5Def": "Super-cold computer chips made with special metals that let quantum bits flow smoothly.",
+    "wikiTitle": "Superconducting quantum computing"
+   },
+   {
+    "term": "Graph Partitioning",
+    "shortDef": "Dividing a network of connected nodes into smaller, manageable groups while minimizing connections between groups.",
+    "eli5Def": "Drawing lines on a social network map to group friends into tight clusters.",
+    "wikiTitle": "Graph partition"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

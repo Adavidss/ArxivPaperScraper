@@ -1,0 +1,81 @@
+{
+ "id": "2611.08444",
+ "version": 1,
+ "title": "Polynomial-time classical simulation of boson and fermion sampling under thermal loss",
+ "authors": [
+  {
+   "name": "Armando Angrisani"
+  },
+  {
+   "name": "Hela Mhiri"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC",
+  "math-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-05T18:36:21Z",
+ "updated": "2026-11-05T18:36:21Z",
+ "abstract": "Sampling experiments are a leading approach to demonstrating quantum computational advantage, yet their robustness to experimental noise is not completely understood. We develop a common framework for classical simulation of boson and fermion sampling under thermal loss, including pure loss. For Fock-state boson sampling, Gaussian boson sampling with fixed uniform squeezing, and fermion sampling with magic inputs, we obtain polynomial-time sampling at inverse-polynomial total variation error, for any fixed nonzero overall loss rate, and with high probability over Haar-random interferometers. A milder flatness assumption on the ideal output distribution suffices for quasipolynomial-time simulation without Haar randomness. With constant thermal loss per layer, the same flatness assumption gives polynomial-time simulation at logarithmic depth. Our bounds for Fock-state boson sampling cover both dilute and saturated regimes and become stronger near full input filling: when only a bounded number of input modes are empty, the noisy output for Haar-random interferometers converges, as the number of modes grows, to a distribution independent of the interferometer.",
+ "comment": "83 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08444",
+  "pdf": "https://arxiv.org/pdf/2611.08444",
+  "html": "https://arxiv.org/html/2611.08444"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-06T14:30:59.040Z",
+  "hook": "We develop a common framework for classical simulation of boson and fermion sampling under thermal loss.",
+  "tldr": [
+   "Developed a common framework for classical simulation of boson and fermion sampling under thermal loss.",
+   "Obtained polynomial-time sampling at inverse-polynomial total variation error for specific sampling types.",
+   "Demonstrated that noisy outputs can converge to a distribution independent of the interferometer under specific input fillings."
+  ],
+  "whyItMatters": "Understanding the robustness of quantum sampling experiments to noise helps clarify the true boundary between quantum computers and classical simulators.",
+  "eli5": "Even though quantum computers are supposed to do things regular computers cannot, sometimes noise messes them up so badly that a normal laptop can easily guess what they were trying to do.",
+  "keyNumbers": [
+   {
+    "value": "83",
+    "label": "pages",
+    "context": "Length of the paper"
+   },
+   {
+    "value": "2",
+    "label": "figures",
+    "context": "Visual diagrams in the text"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Boson sampling",
+    "shortDef": "A simplified quantum computing model involving identical particles of light used to show quantum advantage.",
+    "eli5Def": "Shooting photons through a complex maze of mirrors to solve a math problem too hard for normal computers.",
+    "wikiTitle": "Boson sampling"
+   },
+   {
+    "term": "Thermal loss",
+    "shortDef": "Energy or particle leakage caused by interaction with a warm environment.",
+    "eli5Def": "Heat leaking into a machine and messing up its delicate parts.",
+    "wikiTitle": "Heat loss"
+   },
+   {
+    "term": "Interferometer",
+    "shortDef": "A device that merges waves to extract information about their interference patterns.",
+    "eli5Def": "An optical maze that splits light beams and crashes them back together to measure tiny changes.",
+    "wikiTitle": "Interferometer"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

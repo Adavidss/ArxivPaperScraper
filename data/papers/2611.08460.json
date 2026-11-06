@@ -1,0 +1,103 @@
+{
+ "id": "2611.08460",
+ "version": 1,
+ "title": "Room-Temperature Quantum Emission from Boron Nitride Nanotubes",
+ "authors": [
+  {
+   "name": "Ke-Sean J. M. Peter"
+  },
+  {
+   "name": "Ryan A. Kowalski"
+  },
+  {
+   "name": "David A. Curie"
+  },
+  {
+   "name": "Dakota Braaten"
+  },
+  {
+   "name": "Matthew W. Day"
+  },
+  {
+   "name": "Denis R. Candido"
+  },
+  {
+   "name": "Deyu Li"
+  },
+  {
+   "name": "Richard F. Haglund"
+  },
+  {
+   "name": "Joshua D. Caldwell"
+  },
+  {
+   "name": "Richarda Niemann"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-05T18:51:59Z",
+ "updated": "2026-11-05T18:51:59Z",
+ "abstract": "Quantum information systems such as quantum key distribution and quantum communications require bright, high-purity, stable sources of single photons to act as carriers of quantum information. As such, methods for obtaining single photon emitters (SPEs) in solid-state devices capable of articulating with quantum photonic circuits are a necessary obstacle that must be overcome. Hexagonal boron nitride (hBN) flakes have been extensively studied as a host material for SPEs, though working in two dimensions is accompanied by engineering complexity. However, dimensionality can be reduced through the implementation of boron nitride nanotubes (BNNTs). Here we investigate the potential of BNNTs as room-temperature SPEs using confocal photoluminescence microscopy and Hanbury Brown-Twiss interferometry. Quantum emitters were found in BNNTs spanning the entirety of the visible spectrum, including spectral regions where SPEs within hBN have not been reported. Furthermore, each tube was found to possess multiple SPEs at varying emission wavelengths along the length, exhibiting lifetimes as fast as 0.5 ns, which is about two-fold faster than the fastest hBN SPEs. Additionally, we demonstrate that surface passivation/coating mitigates blinking events, therefore increasing the emitter stability. Thus, BNNTs can function as a single structure supporting a variety of multiwavelength SPE sources, while maintaining a compact radius of ~25 nm, making them ideally suited for deterministic placement and integration within nanophotonic devices such as waveguides and interferometric filters.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08460",
+  "pdf": "https://arxiv.org/pdf/2611.08460",
+  "html": "https://arxiv.org/html/2611.08460"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-06T14:30:59.040Z",
+  "hook": "Boron nitride nanotubes emit single photons at room temperature with lifetimes twice as fast as typical flake materials.",
+  "tldr": [
+   "Researchers investigated boron nitride nanotubes (BNNTs) as room-temperature single photon emitters using confocal microscopy and interferometry.",
+   "They found quantum emitters spanning the entire visible spectrum with lifetimes as fast as 0.5 nanoseconds.",
+   "They demonstrated that coating the surface mitigates blinking events and increases emitter stability."
+  ],
+  "whyItMatters": "Secure quantum communication and optical quantum computing rely on bright, stable single photon sources that work at room temperature. Tubular structures make it much easier to precisely place these sources into microchips compared to messy two-dimensional flakes.",
+  "eli5": "Think of these tiny nanotubes like microscopic lightbulbs that can shoot out single particles of light one by one. Finding ones that work at normal room temperatures and don't flicker makes it way easier to build ultra-fast optical quantum technologies.",
+  "keyNumbers": [
+   {
+    "value": "0.5 ns",
+    "label": "Fastest lifetime",
+    "context": "About two-fold faster than the fastest hexagonal boron nitride SPEs"
+   },
+   {
+    "value": "~25 nm",
+    "label": "Compact radius",
+    "context": "Making them ideally suited for integration within nanophotonic devices"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Single Photon Emitters",
+    "shortDef": "Nanoscale sources that release exactly one photon of light at a time upon excitation.",
+    "eli5Def": "A tiny magic box that shoots out one single particle of light whenever you clap.",
+    "wikiTitle": "Single-photon source"
+   },
+   {
+    "term": "Photoluminescence",
+    "shortDef": "Light emission from a material after it has absorbed photons or electromagnetic energy.",
+    "eli5Def": "When a material glows after you shine a laser beam on it.",
+    "wikiTitle": "Photoluminescence"
+   },
+   {
+    "term": "Interferometry",
+    "shortDef": "A technique using the interference of superimposed light waves to make precise measurements.",
+    "eli5Def": "Splitting a light beam into two paths and crashing them back together to study tiny patterns.",
+    "wikiTitle": "Interferometry"
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 35
+ }
+}

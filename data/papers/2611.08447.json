@@ -1,0 +1,80 @@
+{
+ "id": "2611.08447",
+ "version": 1,
+ "title": "Dynamical effects induced by synthetic SU(1,1) gauge fields",
+ "authors": [
+  {
+   "name": "Chenwei Lv"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "cond-mat.str-el",
+  "physics.optics",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-11-05T18:43:17Z",
+ "updated": "2026-11-05T18:43:17Z",
+ "abstract": "Compact gauge fields are powerful tools for controlling quantum dynamics and topological phases of matter. Non-compact gauge fields are particularly relevant for open systems, where particles or energy are exchanged with the environment. Here, we investigate the wavepacket and entanglement dynamics induced by an $\\mathrm{SU}(1,1)$ gauge field. The wavepacket undergoes non-Abelian non-compact Bloch oscillations, in which the spectrum of an auxiliary one-dimensional quantum problem determines the transition between stable oscillations and unstable amplification. In the unstable adiabatic regime, the wavepacket probes an $\\mathrm{SU}(1,1)$ topological defect, and its amplification is determined solely by a hyperbolic solid angle in Minkowski space. Threading an $\\mathrm{SU}(1,1)$ gauge field through a bosonic tight-binding model yields the bosonic Kitaev model, whose volume or super-volume entanglement scaling is governed by the stability of the gauge field. We further propose an experimental realization of an $\\mathrm{SU}(1,1)$ gauge field in a spinor condensate. Our results can be generalized to other non-compact groups and higher dimensions, providing a geometric framework for entanglement control, selective amplification, and engineering energy transfer.",
+ "comment": "13 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08447",
+  "pdf": "https://arxiv.org/pdf/2611.08447",
+  "html": "https://arxiv.org/html/2611.08447"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.08447v1/Figure1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-06T14:30:59.040Z",
+  "hook": "Threading an SU(1,1) gauge field through a bosonic tight-binding model yields the bosonic Kitaev model.",
+  "tldr": [
+   "Investigated wavepacket and entanglement dynamics induced by a non-compact SU(1,1) gauge field.",
+   "Used an auxiliary one-dimensional quantum problem and a proposed experimental realization in a spinor condensate.",
+   "Found that wavepacket amplification is determined by a hyperbolic solid angle in Minkowski space."
+  ],
+  "whyItMatters": "Non-compact gauge fields govern open quantum systems where energy is exchanged with the environment. This work provides a geometric framework for controlling entanglement and engineering energy transfer.",
+  "eli5": "Imagine trying to roll a ball on a moving, shifting landscape instead of a flat table. The SU(1,1) gauge field is that shifting landscape, and depending on how it tilts, the ball either stays stable or shoots off wildly into the distance.",
+  "keyNumbers": [
+   {
+    "value": "13",
+    "label": "pages",
+    "context": "Length of the research paper"
+   },
+   {
+    "value": "5",
+    "label": "figures",
+    "context": "Visual illustrations included in the paper"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Gauge field",
+    "shortDef": "A mathematical framework used in physics to describe forces and fields in quantum systems.",
+    "eli5Def": "A set of rules that tells particles how to interact with forces around them, kind of like traffic laws for molecules.",
+    "wikiTitle": "Gauge theory"
+   },
+   {
+    "term": "Bloch oscillations",
+    "shortDef": "Periodic motion of a wavepacket in a periodic potential under a constant force.",
+    "eli5Def": "When a wave bounces back and forth in a repeating pattern because of an invisible push.",
+    "wikiTitle": "Bloch oscillation"
+   },
+   {
+    "term": "Entanglement",
+    "shortDef": "A quantum phenomenon where particles become deeply interconnected regardless of distance.",
+    "eli5Def": "Two magic dice that always roll the exact same number, no matter how far apart they are.",
+    "wikiTitle": "Quantum entanglement"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "2611.08461",
+ "version": 1,
+ "title": "Quantum Knowledge Distillation: State-of-the-art, Applications and Open Problems",
+ "authors": [
+  {
+   "name": "Aldana Al-Sulaiti"
+  },
+  {
+   "name": "Kuan-Cheng Chen"
+  },
+  {
+   "name": "Muhammad Bilal Akram Dastagir"
+  },
+  {
+   "name": "Ahmed Farouk"
+  },
+  {
+   "name": "Saif Al-Kuwari"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-05T18:53:05Z",
+ "updated": "2026-11-05T18:53:05Z",
+ "abstract": "Knowledge distillation transfers predictions, representations, or other supervisory information between learning models and is increasingly investigated in quantum machine learning. Its applications extend beyond compression to cross-architecture transfer, circuit approximation, distributed learning, and classical deployment of models trained using quantum-derived supervision. This survey reviews these approaches using two complementary classification axes: teacher-student configuration and the role of quantum resources in the distillation process. Quantum-inspired methods are discussed separately from methods that simulate quantum computations classically or execute them on quantum hardware. We explain how measurement probabilities, expectation values, classical readouts, state overlaps, and circuit-level objectives support different transfer mechanisms. We then critically assess the presented results against baseline design, execution conditions, uncertainty, and resource costs. The evidence shows that distillation can improve selected quantum students, but benefits are task- and architecture-dependent, and several studies find negligible gains or even performance degradation. Evaluations on physical quantum hardware remain limited, with some testing individual quantum components rather than complete learning pipelines. Heterogeneous protocols and incomplete resource reporting prevent general conclusions about practical quantum advantage. We identify priorities for controlled benchmarking, noise-aware learning, reproducible evaluation, and efficient transfer between quantum and classical models.",
+ "comment": "21 pages, 3 figures, 4 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08461",
+  "pdf": "https://arxiv.org/pdf/2611.08461",
+  "html": "https://arxiv.org/html/2611.08461"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.08461v1/images/kd_types.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-06T14:30:59.040Z",
+  "hook": "A new comprehensive survey reveals that quantum knowledge distillation yields mixed results and depends heavily on the task.",
+  "tldr": [
+   "The authors reviewed state-of-the-art knowledge distillation techniques transferring information between learning models in quantum machine learning.",
+   "They classified methods using teacher-student configurations and the role of quantum resources across hardware and simulation.",
+   "They found that while distillation helps some quantum models, many studies show negligible gains, performance drops, or limited physical hardware tests."
+  ],
+  "whyItMatters": "As quantum machine learning grows, researchers want to compress massive quantum models or transfer knowledge between classical and quantum systems. Understanding what actually works prevents the field from chasing dead ends driven by hype.",
+  "eli5": "Just like a smart teacher coaching a student, quantum knowledge distillation tries to pass smart learning tricks from one computer model to another. This study looked at dozens of attempts and found that sometimes the student actually gets dumber instead of smarter.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Knowledge Distillation",
+    "shortDef": "A machine learning technique where a smaller model is trained to mimic the behavior of a larger, complex model.",
+    "eli5Def": "An expert professor summarizing all their notes into a cheat sheet for a student.",
+    "wikiTitle": "Knowledge distillation"
+   },
+   {
+    "term": "Quantum Machine Learning",
+    "shortDef": "The intersection of quantum computing algorithms and machine learning models to process complex data.",
+    "eli5Def": "Using super-powered quantum math to help artificial intelligence think faster.",
+    "wikiTitle": "Quantum machine learning"
+   },
+   {
+    "term": "Expectation Values",
+    "shortDef": "The probabilistic expected outcome of a measurement performed on a quantum mechanical state.",
+    "eli5Def": "Calculating the average dice roll you expect to get if you roll a quantum die a million times.",
+    "wikiTitle": "Expected value"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

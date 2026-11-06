@@ -1,0 +1,75 @@
+{
+ "id": "2611.08488",
+ "version": 1,
+ "title": "Provable circuit-level thresholds for non-abelian topological phases",
+ "authors": [
+  {
+   "name": "Yuanjie Ren"
+  },
+  {
+   "name": "Margarita Davydova"
+  },
+  {
+   "name": "Shankar Balasubramanian"
+  },
+  {
+   "name": "Andreas Bauer"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-05T18:59:44Z",
+ "updated": "2026-11-05T18:59:44Z",
+ "abstract": "We provide an explicit scheme to realize a quantum memory in any 2D non-chiral topological order. For this, we construct syndrome extraction circuits based on the Turaev-Viro path integral as well as a classical algorithm for decoding on the fly. We prove that our scheme has a threshold under a local stochastic circuit-level noise model and discuss how to generalize it to implement topological logical gates.",
+ "comment": "37 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08488",
+  "pdf": "https://arxiv.org/pdf/2611.08488",
+  "html": "https://arxiv.org/html/2611.08488"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-06T14:30:59.040Z",
+  "hook": "Researchers prove a concrete error-correction threshold for quantum memory using non-abelian topological phases.",
+  "tldr": [
+   "They designed an explicit scheme to build a quantum memory using any two-dimensional non-chiral topological order.",
+   "They constructed syndrome extraction circuits using the Turaev-Viro path integral alongside a real-time classical decoding algorithm.",
+   "They proved that the scheme successfully resists noise under a local stochastic circuit-level noise model."
+  ],
+  "whyItMatters": "Building fault-tolerant quantum computers requires protecting fragile quantum information from environmental noise using quantum memory. Proving strict mathematical thresholds for exotic topological states brings us closer to building reliable, large-scale quantum machines.",
+  "eli5": "Quantum information is extremely fragile, like a house of cards that falls apart if a breeze hits it. These researchers built a mathematical shield using exotic physics that automatically detects and fixes falling cards in real time before the whole house collapses.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Topological Order",
+    "shortDef": "A state of matter where quantum information is stored globally rather than locally, making it naturally immune to local noise.",
+    "eli5Def": "A tangled knot of information where you can't break a single string without untangling the whole thing, keeping it safe.",
+    "wikiTitle": "Topological order"
+   },
+   {
+    "term": "Syndrome Extraction",
+    "shortDef": "Measuring error indicators in a quantum circuit without disturbing the actual stored quantum data.",
+    "eli5Def": "Checking a patient's temperature without waking them up.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Path Integral",
+    "shortDef": "A formulation of quantum mechanics that sums over all possible paths a system can take between two states.",
+    "eli5Def": "Instead of guessing just one road a car took, looking at every single street it could have possibly driven down.",
+    "wikiTitle": "Path integral formulation"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 40
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "2611.08427",
+ "version": 1,
+ "title": "Quantum enhanced beam displacement estimation: sensitivity limits, optimal probes, and measurement schemes",
+ "authors": [
+  {
+   "name": "Balázs Novák"
+  },
+  {
+   "name": "Pau Colomer"
+  },
+  {
+   "name": "Joseph Zhang"
+  },
+  {
+   "name": "Emre Köse"
+  },
+  {
+   "name": "Manuel Gessner"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-05T18:22:09Z",
+ "updated": "2026-11-05T18:22:09Z",
+ "abstract": "We investigate the ultimate sensitivity limits for measuring small transverse beam displacements and identify optimal strategies that attain them, using the framework of mode parameter estimation. We contrast two families of states with different resource constraints, using Hermite-Gauss and Laguerre-Gauss mode pairs. First, for fixed total photon number states, the optimal state is identified and we show that it asymptotically approaches a rotated NOON state. The sensitivity bound is compared to that of an asymptotically optimal pure Gaussian state with fixed average photon number. Finally, we propose concrete measurement schemes using the method of moments and show that the twin-Fock state may provide a viable alternative to the rotated NOON state for this task. Our work provides a broader benchmark for developing practical strategies for spatial sensing at the quantum limit.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08427",
+  "pdf": "https://arxiv.org/pdf/2611.08427",
+  "html": "https://arxiv.org/html/2611.08427"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.08427v1/HG_LG_matched_mode_amplitudes.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-07T13:27:07.814Z",
+  "hook": "We uncover the ultimate sensitivity limits for measuring small transverse beam displacements using quantum states.",
+  "tldr": [
+   "Investigated ultimate sensitivity limits and optimal measurement strategies for transverse beam displacements.",
+   "Compared Hermite-Gauss and Laguerre-Gauss mode pairs under fixed photon number and Gaussian state constraints.",
+   "Showed twin-Fock states are a viable alternative to rotated NOON states for spatial sensing at the quantum limit."
+  ],
+  "whyItMatters": "Pushing spatial sensing to the quantum limit is crucial for high-precision measurement technologies, ranging from gravitational wave detection to nanoscale imaging.",
+  "eli5": "Imagine trying to measure a hair's width from miles away using a flashlight. By using weirdly entangled packets of light instead of a normal beam, scientists can dramatically sharpen their aim to hit absolute physical limits.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "NOON state",
+    "shortDef": "A type of entangled quantum state used in quantum metrology to achieve high-precision measurements.",
+    "eli5Def": "A special team-up of light particles that acts together to measure tiny things much more accurately than usual.",
+    "wikiTitle": "NOON state"
+   },
+   {
+    "term": "Hermite-Gauss",
+    "shortDef": "A family of spatial modes describing laser beam profiles.",
+    "eli5Def": "Different fancy shapes a laser beam can be twisted into.",
+    "wikiTitle": "Hermite-Gauss beam"
+   },
+   {
+    "term": "twin-Fock state",
+    "shortDef": "A quantum state with a fixed number of particles equally split between two modes.",
+    "eli5Def": "Splitting an exact number of light particles into two equal paths so they can work as a team.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

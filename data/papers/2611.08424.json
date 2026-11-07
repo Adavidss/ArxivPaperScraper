@@ -1,0 +1,90 @@
+{
+ "id": "2611.08424",
+ "version": 1,
+ "title": "Disorder-blind Mpemba acceleration of quantum state preparation",
+ "authors": [
+  {
+   "name": "M Nishanth"
+  },
+  {
+   "name": "Shreyas Sadugol"
+  },
+  {
+   "name": "Payman Mahmoudi"
+  },
+  {
+   "name": "Alexander Yosifov"
+  },
+  {
+   "name": "Aditya Iyer"
+  },
+  {
+   "name": "Roopayan Ghosh"
+  },
+  {
+   "name": "Jinzhao Sun"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.dis-nn",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-05T18:20:53Z",
+ "updated": "2026-11-05T18:20:53Z",
+ "abstract": "Using the strong Mpemba effect to accelerate relaxation by initial-state design requires suppressing the slowest mode, which typically needs prior knowledge of the system. However, in disordered systems, this mode is sample-dependent, so a fixed preparation generally retains a slow-mode overlap. We show that a ``blind'' preparation, designed from the clean chain without knowledge of the disorder realisation or its distribution, can start farther from stationarity yet overtake a reference in typical samples of a dephased disordered XX chain. It requires only the chain geometry and the particle number. At strong dephasing, the density dynamics maps to a resistor chain, and an exact inverse-generator identity links the residual overlap to the spatial resistance profile. We find two distinct thresholds: a finite mean resistance suffices for diffusion, but the residual overlap decays as $L^{-1/2}$ with chain length $L$ only when the resistance variance is finite; rare weak links slow this decay. We predict the fraction of samples in which the blind preparation wins, which is an ensemble-level measure of its reliability. Finite-size calculations support both scaling regimes with interactions at strong dephasing. We give preparation circuits and a density readout for the residual overlap.",
+ "comment": "21 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08424",
+  "pdf": "https://arxiv.org/pdf/2611.08424",
+  "html": "https://arxiv.org/html/2611.08424"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-07T13:27:07.814Z",
+  "hook": "A 'blind' preparation protocol can accelerate quantum relaxation without needing prior knowledge of system disorder.",
+  "tldr": [
+   "Studied how to use the strong Mpemba effect to accelerate quantum state relaxation in disordered systems.",
+   "Designed a blind preparation method requiring only chain geometry and particle number, bypassing disorder details.",
+   "Demonstrated that residual overlap decays as L^-1/2 when resistance variance is finite, supported by finite-size calculations."
+  ],
+  "whyItMatters": "Speeding up how quantum systems settle into stable states is a major bottleneck in quantum computing and simulation.",
+  "eli5": "Usually, to fix a messy room quickly, you need to know exactly where every toy is hidden. Researchers found a way to clean up a disordered quantum system fast without even looking inside.",
+  "keyNumbers": [
+   {
+    "value": "-1/2",
+    "label": "Decay exponent",
+    "context": "Residual overlap decay with chain length L"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Mpemba effect",
+    "shortDef": "The phenomenon where a hotter system can sometimes freeze or relax faster than a colder one.",
+    "eli5Def": "When starting further away from the finish line somehow helps you get there faster.",
+    "wikiTitle": "Mpemba effect"
+   },
+   {
+    "term": "dephasing",
+    "shortDef": "The loss of phase coherence in quantum systems due to environmental interactions.",
+    "eli5Def": "When a group of spinning tops slowly lose their synchronized rhythm because they keep bumping into things.",
+    "wikiTitle": "Dephasing"
+   },
+   {
+    "term": "XX chain",
+    "shortDef": "A model of interacting quantum spins on a lattice line.",
+    "eli5Def": "A straight row of tiny magnetic particles that can pass quantum information back and forth.",
+    "wikiTitle": "Transverse-field Ising model"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

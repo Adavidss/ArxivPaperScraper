@@ -1,0 +1,73 @@
+{
+ "id": "2611.08313",
+ "version": 1,
+ "title": "Testing Gravitationally-Induced-Entanglement with Massive Particles and Quantum Clocks",
+ "authors": [
+  {
+   "name": "Germain Tobar"
+  },
+  {
+   "name": "Markus Aspelmeyer"
+  },
+  {
+   "name": "Magdalena Zych"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "gr-qc"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-05T17:12:39Z",
+ "updated": "2026-11-05T17:12:39Z",
+ "abstract": "We present an experimental proposal to test whether gravity can entangle a levitated particle with an array of quantum clocks. By harnessing the collective interaction between a micrometer-scale particle and an array of ultra-precise nuclear clocks, our scheme offers a conceivable path to observing gravitationally mediated entanglement with quantum clocks in the laboratory. Crucially, this setup will probe a genuinely relativistic effect one that requires the contribution of internal clock energy to active gravitational mass and cannot arise from the Newtonian interaction between fixed masses. Therefore, observing this entanglement would provide evidence for the quantised nature of active gravitational mass -- which has not been tested in any prior experiment -- rather than for spatial coherence of fixed masses,which is routinely tested in matterwave interferometers",
+ "comment": "4 + 3 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08313",
+  "pdf": "https://arxiv.org/pdf/2611.08313",
+  "html": "https://arxiv.org/html/2611.08313"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.08313v1/Conceptfig.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-07T13:27:07.814Z",
+  "hook": "A new proposal tests whether gravity can entangle a micrometer-scale levitated particle with nuclear clocks.",
+  "tldr": [
+   "Proposed an experiment to test if gravity can entangle a levitated particle with an array of quantum clocks.",
+   "Harnessed collective interactions between a micrometer-scale particle and ultra-precise nuclear clocks.",
+   "Aimed to provide evidence for the quantized nature of active gravitational mass using a relativistic effect."
+  ],
+  "whyItMatters": "Proving that gravity can generate quantum entanglement would provide key evidence that gravity itself must be treated quantum mechanically.",
+  "eli5": "Imagine two dancers who can influence each other even without touching. Scientists want to see if gravity can create this spooky quantum connection between a tiny floating speck and a set of ultra-precise atomic clocks.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Gravitationally-Induced-Entanglement",
+    "shortDef": "Quantum linkage between systems created purely through gravitational interaction.",
+    "eli5Def": "A spooky quantum link created strictly by gravity talking between two objects.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Matterwave Interferometers",
+    "shortDef": "Devices that split and recombine matter waves to measure quantum interference and phase shifts.",
+    "eli5Def": "Lab machines that treat tiny particles like ripples of water to measure ultra-precise forces.",
+    "wikiTitle": "Atom interferometer"
+   },
+   {
+    "term": "Active Gravitational Mass",
+    "shortDef": "The mass property that generates a gravitational field, distinct from passive mass.",
+    "eli5Def": "The measure of how strongly an object pulls other things toward it using gravity.",
+    "wikiTitle": "Mass"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

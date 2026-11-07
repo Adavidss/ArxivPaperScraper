@@ -1,0 +1,71 @@
+{
+ "id": "2611.08348",
+ "version": 1,
+ "title": "Atomic Static Electric Quadrupole Polarizability from Relativistic Many-Body Theory With Application To Thulium $\\left(6s^2\\, 4f^{13}\\right)$\\, $^2F_{7/2}$ and $^2F_{5/2}$",
+ "authors": [
+  {
+   "name": "Timo Fleig"
+  }
+ ],
+ "categories": [
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.atom-ph",
+ "published": "2026-11-05T17:33:30Z",
+ "updated": "2026-11-05T17:33:30Z",
+ "abstract": "In the present work a method for calculating atomic static electric rank-$n$ tensor quadrupole polarizabilities $α_Q^{(n)}(J)$ for arbitrary atomic electronic structure is presented. It is based on a linear-symmetry representation of atomic states using large-scale relativistic configuration interaction wavefunctions, and the quadrupole polarizabilities are obtained by a sum-over-states approach. The major result from applying this method to atomic thulium is $α_Q^{(0)}(\\frac{7}{2}) = 2496^{+0}_{-231}$ \\au for the electronic ground term $^2F_{7/2}$ static electric scalar quadrupole polarizability which is roughly a factor of four smaller than same property in the electronic ground state of the cesium atom. This finding adds to the favorable properties of thulium atoms in atomic-clock research.",
+ "comment": "14 pages, no figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08348",
+  "pdf": "https://arxiv.org/pdf/2611.08348",
+  "html": "https://arxiv.org/html/2611.08348"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-07T13:27:07.814Z",
+  "hook": "Thulium's static electric scalar quadrupole polarizability is found to be 2496 atomic units.",
+  "tldr": [
+   "Calculated atomic static electric rank-n tensor quadrupole polarizabilities for arbitrary electronic structures.",
+   "Used a linear-symmetry representation with large-scale relativistic configuration interaction wavefunctions and a sum-over-states approach.",
+   "Found thulium's ground term polarizability is roughly four times smaller than cesium's, favoring atomic-clock research."
+  ],
+  "whyItMatters": "Knowing these precise atomic properties helps researchers improve the stability and accuracy of next-generation atomic clocks.",
+  "eli5": "Think of measuring how easily an atom gets distorted when you put it in an electric field, kind of like squishing a tiny rubber ball. Thulium turns out to be much stiffer against this squishing than cesium, which helps scientists build better atomic clocks.",
+  "keyNumbers": [
+   {
+    "value": "2496",
+    "label": "Ground Term Static Electric Scalar Quadrupole Polarizability",
+    "context": "Calculated value for atomic thulium in atomic units"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quadrupole Polarizability",
+    "shortDef": "A measure of how easily an atomic charge distribution is distorted by an electric field gradient.",
+    "eli5Def": "How easily you can stretch an atom into a football shape using electric forces.",
+    "wikiTitle": "Polarizability"
+   },
+   {
+    "term": "Relativistic Configuration Interaction",
+    "shortDef": "A high-accuracy computational method for solving quantum many-body problems including relativistic effects.",
+    "eli5Def": "A heavy-duty supercomputer math trick that figures out how electrons interact while moving near the speed of light.",
+    "wikiTitle": "Configuration interaction"
+   },
+   {
+    "term": "Sum-Over-States",
+    "shortDef": "An approach to calculating property responses by summing contributions over all accessible quantum states.",
+    "eli5Def": "Adding up the effects of every possible energy level an atom can jump to.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

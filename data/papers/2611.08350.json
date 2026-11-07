@@ -1,0 +1,76 @@
+{
+ "id": "2611.08350",
+ "version": 1,
+ "title": "Asymptotic analysis of the dynamical field-field correlation function of the impenetrable Bose gas",
+ "authors": [
+  {
+   "name": "Frank Göhmann"
+  },
+  {
+   "name": "Karol K. Kozlowski"
+  },
+  {
+   "name": "Mikhail D. Minin"
+  },
+  {
+   "name": "Alexander Weiße"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "cond-mat.quant-gas",
+  "math-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-11-05T17:33:48Z",
+ "updated": "2026-11-05T17:33:48Z",
+ "abstract": "We study the long-time, large-distance asymptotic behaviour of the two-point correlation function of fields of the impenetrable Bose gas in equilibrium states characterized by a quasi-momentum distribution (or filling fraction). This includes, in particular, the cases of Gibbs and generalized Gibbs ensembles. The overall structure of the asymptotic expansion depends on the number of Fermi points, those points for which the quasi-momentum distribution takes the value $1/2$. The leading asymptotic behaviour is determined by a relaxation rate, a logarithmic correction term and an amplitude for which we provide simple and explicit expressions. In the case of two Fermi points the first sub-leading correction is calculated as well.",
+ "comment": "43 pages, 16 figures. Submission to SciPost Physics",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08350",
+  "pdf": "https://arxiv.org/pdf/2611.08350",
+  "html": "https://arxiv.org/html/2611.08350"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-07T13:27:07.814Z",
+  "hook": "We derive the asymptotic expansion and relaxation rates of the dynamical field-field correlation function for an impenetrable Bose gas.",
+  "tldr": [
+   "Studied long-time, large-distance asymptotic behavior of the two-point correlation function in an impenetrable Bose gas.",
+   "Analyzed equilibrium states characterized by quasi-momentum distributions including Gibbs and generalized Gibbs ensembles.",
+   "Provided simple, explicit expressions for the leading asymptotic behavior determined by a relaxation rate and logarithmic correction."
+  ],
+  "whyItMatters": "Exact solutions in one-dimensional quantum mechanics provide foundational benchmarks for understanding complex many-body states of matter.",
+  "eli5": "Imagine a crowd of people trapped in a single hallway where nobody can pass each other. Physicists figured out exact mathematical rules for how ripples spread through this tightly jammed crowd over long times and distances.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "impenetrable Bose gas",
+    "shortDef": "A one-dimensional model of bosons with hard-core repulsive interactions, also known as the Tonks-Girardeau gas.",
+    "eli5Def": "A bunch of quantum particles packed into a line that refuse to let each other pass through.",
+    "wikiTitle": "Tonks–Girardeau gas"
+   },
+   {
+    "term": "asymptotic behavior",
+    "shortDef": "The behavior of a function or system as its variables approach a limit, usually infinity.",
+    "eli5Def": "What happens to a math formula when you stretch it out to look at the big picture far down the road.",
+    "wikiTitle": "Asymptotic analysis"
+   },
+   {
+    "term": "generalized Gibbs ensemble",
+    "shortDef": "A statistical mechanics framework used to describe the steady states of integrable systems.",
+    "eli5Def": "A special set of rules for calculating the temperature and energy of trapped systems that don't relax normally.",
+    "wikiTitle": "Generalized Gibbs ensemble"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

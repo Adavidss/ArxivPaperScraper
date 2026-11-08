@@ -1,0 +1,82 @@
+{
+ "id": "2611.08298",
+ "version": 1,
+ "title": "Beyond Quantum Messages: Toward Quantum-Native Network Functioning",
+ "authors": [
+  {
+   "name": "Angela Sara Cacciapuoti"
+  },
+  {
+   "name": "Jessica Illiano"
+  },
+  {
+   "name": "Caterina De Risi"
+  },
+  {
+   "name": "Marcello Caleffi"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.NI"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-05T17:00:54Z",
+ "updated": "2026-11-05T17:00:54Z",
+ "abstract": "The Quantum Internet is commonly envisioned as a network that transports quantum states and distributes entanglement as the key resource underpinning distributed quantum applications. This view is necessary but incomplete if quantum phenomena are confined to what the network carries or manages, while network functionalities remain grounded predominantly in classical abstractions. This Perspective advances a broader thesis: quantum phenomena can also participate directly in the realization of network functionalities. We first establish the architectural baseline by introducing entanglement as a stateful network resource whose operational condition is non-locally distributed across remote nodes, evolves through manipulation or consumption, and degrades over time through decoherence. Its evolving state must therefore remain visible to the functionalities acting on it. We then move beyond resource visibility and use two mechanisms as proof points of a broader quantum-native functional design space: entanglement generation during propagation through coherent spatial-path superposition, and operational connectivity induced by shared entanglement that can depart from the physical graph. These examples show that paths, neighbors, or participating nodes may become operationally relevant in ways determined by quantum coherence and shared entanglement, rather than by physical connectivity alone. We identify Quantum Addressing as a transversal abstraction capable of representing such relations while complementing, rather than replacing, classical addressing and signaling. The resulting perspective broadens the Quantum Internet from transporting quantum information and distributing entanglement to exploiting quantum phenomena in network functioning, opening a coupled frontier spanning routing, forwarding, control, and functionality placement.",
+ "comment": "Accepted manuscript for publication in Frontiers in Communications and Networks . This work has been funded by the European Union under Horizon Europe ERC-CoG grant QNattyNet (\"Quantum-Native Communication Networks: from Quantum Message to Quantum Functioning\"), n.101169850. Details at https://qnattynet.quantuminternet.it",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08298",
+  "pdf": "https://arxiv.org/pdf/2611.08298",
+  "html": "https://arxiv.org/html/2611.08298"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.08298v1/from-network-visible-entanglement-to-quantum-native-functions.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-08T13:46:24.310Z",
+  "hook": "The Quantum Internet should use quantum physics to run network routing and addressing, not just carry quantum data.",
+  "tldr": [
+   "Argued that the Quantum Internet must move beyond treating quantum states merely as passive data payloads.",
+   "Proposed a conceptual architecture where quantum coherence and entanglement directly execute core network functions.",
+   "Demonstrated mechanisms like spatial-path superpositions and quantum addressing that alter routing and topology."
+  ],
+  "whyItMatters": "Classical internet architecture assumes physical links define who talks to whom. Applying quantum mechanics directly to networking logic can create more flexible, resilient communication paths that physical wires cannot achieve.",
+  "eli5": "Instead of using quantum particles only like letters inside classical postal trucks, researchers suggest building the entire post office and delivery trucks out of quantum physics, letting a letter travel multiple routes simultaneously.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum Internet",
+    "shortDef": "A network that links quantum devices using quantum communication channels and entanglement.",
+    "eli5Def": "A futuristic internet that connects quantum computers using the strange rules of quantum physics.",
+    "wikiTitle": "Quantum network"
+   },
+   {
+    "term": "Quantum entanglement",
+    "shortDef": "A phenomenon where particles become interconnected such that one dictates the state of another instantaneously.",
+    "eli5Def": "A special bond between particles where what happens to one instantly influences the other, no matter the distance.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "Quantum decoherence",
+    "shortDef": "The loss of quantum coherence that turns a quantum state into a classical probabilistic state via environment noise.",
+    "eli5Def": "The process where delicate quantum information leaks away and becomes normal, non-quantum information.",
+    "wikiTitle": "Quantum decoherence"
+   },
+   {
+    "term": "Spatial superposition",
+    "shortDef": "A quantum state existing simultaneously across multiple spatial paths or locations.",
+    "eli5Def": "Being in more than one place or travelling along multiple roads at the exact same time.",
+    "wikiTitle": "Quantum superposition"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

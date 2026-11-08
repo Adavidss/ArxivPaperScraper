@@ -1,0 +1,30 @@
+{
+ "date": "2026-11-08",
+ "generatedAt": "2026-11-08T13:46:24.310Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum Resources: From Circuits to Networks",
+ "summary": "Today's selection explores novel uses of quantum resources across distinct structural regimes. Contributions span gate-optimal error correction decoders, quantum-native network architectures, and continuous symmetry dualities in 1D lattice models.",
+ "themes": [
+  {
+   "title": "Quantum Information & Architecture",
+   "body": "Studies tackle foundational quantum communication and error correction, from optimizing decoder gates in repetition-code process tomography to harnessing entanglement and superpositions directly for network routing and addressing.",
+   "paperIds": [
+    "2611.08310",
+    "2611.08298"
+   ]
+  },
+  {
+   "title": "Many-Body Quantum Dualities",
+   "body": "Mathematical physics advances provide a general blueprint via Schur-Weyl duality to gauge continuous Lie symmetries in 1D quantum lattice systems using matrix product operator intertwiners.",
+   "paperIds": [
+    "2611.08293"
+   ]
+  }
+ ],
+ "connections": [],
+ "paperIds": [
+  "2611.08310",
+  "2611.08298",
+  "2611.08293"
+ ]
+}

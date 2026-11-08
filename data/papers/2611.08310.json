@@ -1,0 +1,91 @@
+{
+ "id": "2611.08310",
+ "version": 1,
+ "title": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits",
+ "authors": [
+  {
+   "name": "Long Huang"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-05T17:12:00Z",
+ "updated": "2026-11-05T17:12:00Z",
+ "abstract": "Process tomography built on stabilizer codes compares the logical channel of a repetition code with a reference channel, and the decoder that produces that channel is almost always fixed to the standard minimum-weight one. We ask how many physical single-qubit Pauli gates the decoder actually needs when the measurement basis is fixed---the constraint under which the count is a resource rather than a bookkeeping artefact. Exhaustive enumeration of every recovery design for $n=3$, $5$ and $7$ qubits, with rank decided by exact modular arithmetic at two primes, gives minimal counts of $0$, $1$ and $5$ gates, against $6$, $10$ and $14$ for first-order decoding and $6$, $50$ and $308$ for full minimum-weight decoding. The count depends only on how many sites are corrected and never on which, so the two halves of the design problem separate. Correcting more sites is not monotonically better: at $n=7$ full decoding loses three dimensions of rank, and under a calibration-residual floor the precision curve at $n=3$ is U-shaped. The three-gate design is $9.5$ times more precise than the standard six-gate decoder at the median of $40$ sampled working points, and more precise at every one of them ($1.8$ to $88$ times); the size of that factor belongs to the working point, the ordering does not. Reaching a $10$\\,mrad rms error then costs $1.2\\times10^{7}$ shots in $65$\\,s on a current superconducting device at a well-conditioned point, while $n\\ge5$ stays out of reach for conditioning reasons rather than gate-count reasons. Finally, the optimal designs are not covariant under chain reversal: they separate the mirror pair of arXiv:2610.19779 by $1.3\\times10^{-3}$ while leaving the Jacobian at full rank.",
+ "comment": "10 pages, 2 figures, 5 tables. Companion to arXiv:2610.19779",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08310",
+  "pdf": "https://arxiv.org/pdf/2611.08310",
+  "html": "https://arxiv.org/html/2611.08310"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-08T13:46:24.310Z",
+  "hook": "Optimizing error-correction gates cuts decoder gate counts to 0, 1, and 5 for 3, 5, and 7 qubits, boosting precision 9.5x.",
+  "tldr": [
+   "Analyzed physical Pauli gate counts needed by decoders in repetition-code process tomography across 3, 5, and 7 qubits.",
+   "Exhaustively enumerated all recovery designs using exact modular arithmetic over two primes to evaluate rank.",
+   "Discovered minimal gate counts of 0, 1, and 5 gates, delivering up to an 88x precision gain over standard minimum-weight decoders."
+  ],
+  "whyItMatters": "Running extra error-correction gates on noisy quantum hardware can paradoxically worsen measurement errors. Finding designs that use fewer gates makes characterising quantum hardware substantially faster and more precise.",
+  "eli5": "Imagine trying to fix spelling errors in a message, but typing corrections sometimes adds new typos. By figuring out the absolute minimum number of keypresses needed to fix errors, scientists got a cleaner message 9.5 times more accurately.",
+  "keyNumbers": [
+   {
+    "value": "0, 1, and 5",
+    "label": "minimal gate counts",
+    "context": "Minimal physical Pauli gates needed for n=3, 5, and 7 qubits, versus 6, 50, and 308 for standard full decoding."
+   },
+   {
+    "value": "9.5x",
+    "label": "median precision improvement",
+    "context": "Precision boost of the 3-gate design over the standard 6-gate decoder across 40 sampled working points."
+   },
+   {
+    "value": "1.2e7",
+    "label": "shots required",
+    "context": "Measurement shots needed to achieve 10 mrad rms error in 65 seconds on a superconducting device."
+   },
+   {
+    "value": "1.3e-3",
+    "label": "separation distance",
+    "context": "Distinction achieved between mirror pairs while preserving full Jacobian rank."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum process tomography",
+    "shortDef": "An experimental technique used to fully characterize an unknown quantum channel or gate.",
+    "eli5Def": "A method to test a quantum machine by sending known signals through it and checking how they change.",
+    "wikiTitle": "Quantum process tomography"
+   },
+   {
+    "term": "Repetition code",
+    "shortDef": "A simple quantum error-correcting code that encodes logical information across redundant qubits.",
+    "eli5Def": "A safety method that stores the same bit of data multiple times so errors can be spotted and fixed.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Pauli gates",
+    "shortDef": "Single-qubit quantum logic gates (X, Y, Z) that correspond to bit-flip and phase-flip operations.",
+    "eli5Def": "The basic building blocks of quantum circuits that flip or twist single quantum bits.",
+    "wikiTitle": "Quantum logic gate"
+   },
+   {
+    "term": "Jacobian matrix",
+    "shortDef": "A matrix of first-order partial derivatives describing the local linear sensitivity of a function.",
+    "eli5Def": "A mathematical table that shows how sensitive a system's outputs are to small tweaks in its inputs.",
+    "wikiTitle": "Jacobian matrix and determinant"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

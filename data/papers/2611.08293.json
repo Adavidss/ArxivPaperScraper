@@ -1,0 +1,84 @@
+{
+ "id": "2611.08293",
+ "version": 1,
+ "title": "Dualities in one-dimensional quantum lattice models: Lie groups, Schur-Weyl duality and symmetry breaking",
+ "authors": [
+  {
+   "name": "Dante Bosgoed"
+  },
+  {
+   "name": "Frank Verstraete"
+  },
+  {
+   "name": "Laurens Lootens"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-05T16:55:32Z",
+ "updated": "2026-11-05T16:55:32Z",
+ "abstract": "We present a systematic framework for gauging continuous symmetries, and show that the Schur-Weyl duality arises naturally as a realization of this construction with open boundary conditions. Restricting to compact Lie group symmetries, we construct dual models for one-dimensional quantum lattice models exhibiting those symmetries. We demonstrate that matrix product operators enable the explicit construction of intertwiners between the dual theories and their (non-invertible) symmetries. With closed boundary conditions, we can relate the full spectrum of these dual theories by considering all possible twisted boundary conditions.We illustrate how the Peter-Weyl transform appears when the duality acts on the boundary Hilbert space of a $G$-symmetric model. The presented framework generalizes previous work on dualities for unitary fusion category symmetric models. It exemplifies how dualities for both finite and continuous symmetries rely on the relation between a bond algebra and a representation of the symmetry in the lattice as double centralizers. We argue that dual non-invertible spontaneous symmetry breaking is the mechanism that underlies symmetric tensor network algorithms. We illustrate these results for $U(1)$- and $SU(2)$-symmetric quantum lattice models.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.08293",
+  "pdf": "https://arxiv.org/pdf/2611.08293",
+  "html": "https://arxiv.org/html/2611.08293"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-08T13:46:24.310Z",
+  "hook": "Schur-Weyl duality enables a general recipe to gauge continuous symmetries in 1D quantum lattice systems.",
+  "tldr": [
+   "Formulated a framework for gauging continuous Lie group symmetries in one-dimensional quantum lattice models.",
+   "Built dual lattice models and intertwiners using matrix product operators and boundary transforms.",
+   "Showed that dual non-invertible spontaneous symmetry breaking drives symmetric tensor network algorithms."
+  ],
+  "whyItMatters": "Duality is a powerful tool in quantum physics that maps intractable, strongly interacting problems to solvable ones. Extending dualities to continuous symmetries helps physicists better simulate complex quantum materials and topological states.",
+  "eli5": "Physicists found a mathematical 'mirror' that translates complex 1D particle behaviors into a simpler picture, making calculations that were previously impossible much easier to solve.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Schur-Weyl duality",
+    "shortDef": "A theorem relating representation theories of general linear and symmetric groups acting on tensor spaces.",
+    "eli5Def": "A mathematical bridge that connects two different ways of grouping and sorting symmetric patterns.",
+    "wikiTitle": "Schur–Weyl duality"
+   },
+   {
+    "term": "Lie group",
+    "shortDef": "A group that is also a differentiable manifold, describing continuous symmetries like rotations.",
+    "eli5Def": "A smooth mathematical shape that represents continuous transformations, like turning a steering wheel.",
+    "wikiTitle": "Lie group"
+   },
+   {
+    "term": "Matrix product operator",
+    "shortDef": "A tensor network representation that decomposes linear operators acting on multi-site quantum states.",
+    "eli5Def": "A computational tool that slices huge, complicated quantum operators into neat, manageable puzzle pieces.",
+    "wikiTitle": "Matrix product state"
+   },
+   {
+    "term": "Peter-Weyl theorem",
+    "shortDef": "A fundamental result on the harmonic analysis of functions on compact topological groups.",
+    "eli5Def": "A rule showing that any complex pattern on a smooth symmetric shape can be built from simple building blocks.",
+    "wikiTitle": "Peter–Weyl theorem"
+   },
+   {
+    "term": "Spontaneous symmetry breaking",
+    "shortDef": "When a physical system's ground state has less symmetry than the fundamental equations governing it.",
+    "eli5Def": "When nature chooses a specific direction even though all directions were originally equally likely.",
+    "wikiTitle": "Spontaneous symmetry breaking"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
+ }
+}

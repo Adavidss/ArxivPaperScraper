@@ -1,0 +1,85 @@
+{
+ "id": "2611.09839",
+ "version": 1,
+ "title": "Gibbsian Entropy for General Wigner Distributions",
+ "authors": [
+  {
+   "name": "Gabriel Rabelo-Soares"
+  },
+  {
+   "name": "Yevgeniy Kovchegov"
+  },
+  {
+   "name": "Giorgio Torrieri"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-06T18:25:35Z",
+ "updated": "2026-11-06T18:25:35Z",
+ "abstract": "We propose a definition of non-equilibrium Gibbsian entropy applicable to general quantum systems, computable from Wigner functions, for both Gaussian and non-Gaussian states. We show that while the Wigner function is a quasi-probability distribution, fundamental results linking observables in repeated observations to the function, such as the law of large numbers, the central limit theorem and, crucially, the relation between the entropy and the cumulant generating function continue to apply. This ideas are the core of the large deviation theory, which allow to formulate a positive-definite definition of entropy based on our ignorance of the underlying state structure after repeated measurements of cumulants. This new definition is a parallel to the Gibbs entropy formulation, but it can also be used in out-of-equilibrium regimes. Some important properties of this entropy are discussed. In addition we derive some information theory quantities such as relative entropy, conditional entropy, mutual information and Rényi entropy. We then compare the results with Wehrl entropy for the 1D harmonic oscillator, for pure and mixed states. We conclude the the work discussing potential applications of this new formalism, ranging from quantum correlations beyond entanglement to thermalization in closed quantum systems.",
+ "comment": "19 pages, 2 figures. Comments are welcome!",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.09839",
+  "pdf": "https://arxiv.org/pdf/2611.09839",
+  "html": "https://arxiv.org/html/2611.09839"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.09839v1/entropy1D.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-09T16:46:05.255Z",
+  "hook": "Proposed a positive-definite definition of non-equilibrium Gibbsian entropy computable from general Wigner functions.",
+  "tldr": [
+   "Proposed a new definition of non-equilibrium Gibbsian entropy that works for general quantum systems using Wigner functions.",
+   "Applied large deviation theory and cumulants to connect repeated observations and entropy in both Gaussian and non-Gaussian states.",
+   "Derived various information theory quantities and compared the new entropy with Wehrl entropy for the 1D harmonic oscillator."
+  ],
+  "whyItMatters": "This new entropy framework provides tools to study quantum correlations and thermalization in out-of-equilibrium systems where traditional methods fall short.",
+  "eli5": "In physics, keeping track of disorder or missing information is called entropy. Scientists built a new mathematical tool using quasiprobability maps to measure this disorder even when systems are actively changing and far from quiet balance.",
+  "keyNumbers": [
+   {
+    "value": "1D",
+    "label": "Dimension",
+    "context": "Dimensionality of the harmonic oscillator used to compare the new entropy with Wehrl entropy."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Wigner function",
+    "shortDef": "A quasi-probability distribution that describes quantum states in terms of position and momentum.",
+    "eli5Def": "A map that tries to show where a quantum particle is and how fast it is moving, even though quantum rules normally forbid knowing both perfectly.",
+    "wikiTitle": "Wigner quasiprobability distribution"
+   },
+   {
+    "term": "Gibbsian entropy",
+    "shortDef": "A statistical mechanics measure of entropy based on the probability distribution of system microstates.",
+    "eli5Def": "A mathematical way to measure how messy or unpredictable a system is based on all the possible states it could be in.",
+    "wikiTitle": "Entropy (statistical mechanics)"
+   },
+   {
+    "term": "Cumulant generating function",
+    "shortDef": "A mathematical function used to calculate statistical cumulants like mean, variance, and higher-order moments.",
+    "eli5Def": "A mathematical shortcut formula that generates all the statistical details about how data or measurements are spread out.",
+    "wikiTitle": "Cumulant"
+   },
+   {
+    "term": "Harmonic oscillator",
+    "shortDef": "A system that experiences a restoring force proportional to displacement, like a mass on a spring.",
+    "eli5Def": "Anything that bounces back and forth evenly around a center point, like a weight on a spring or a swinging pendulum.",
+    "wikiTitle": "Quantum harmonic oscillator"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

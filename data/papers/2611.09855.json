@@ -1,0 +1,97 @@
+{
+ "id": "2611.09855",
+ "version": 1,
+ "title": "Raman anyon-Hubbard model in a 1D Bose lattice gas",
+ "authors": [
+  {
+   "name": "Josep Cabedo"
+  },
+  {
+   "name": "Claudio Iacovelli"
+  },
+  {
+   "name": "Leticia Tarruell"
+  },
+  {
+   "name": "Alessio Celi"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-11-06T18:38:32Z",
+ "updated": "2026-11-06T18:38:32Z",
+ "abstract": "The anyon-Hubbard model is the paradigmatic lattice model of one-dimensional (1D) anyons, in which chiral interactions make bosons equivalent to particles with fractional statistics. Its continuum limit, the chiral BF theory, emerges as the low-energy description of a Raman-coupled Bose gas with imbalanced interactions. Here, we show that loading such a gas into a 1D optical lattice realizes the lattice counterpart of this theory, which we name the Raman anyon-Hubbard model. The Raman-dressed bosons acquire density-dependent Peierls phases when tunneling through occupied sites. For a small statistical phase, the model reduces to the anyon-Hubbard model, while beyond this limit it defines a distinct lattice anyon model with unbounded rather than periodic statistical interactions. Numerically, we show that the dressed gas displays the defining properties of 1D anyons, namely a density-dependent asymmetry of the ground-state momentum distribution, interaction-induced asymmetric transport and chiral bound states. Remarkably, these features are readily accessible with Raman-coupled $^{39}$K atoms, opening up the experimental exploration of 1D anyons beyond the few-particle regime.",
+ "comment": "10 pages + appendix, 5 figures, 1 table",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.09855",
+  "pdf": "https://arxiv.org/pdf/2611.09855",
+  "html": "https://arxiv.org/html/2611.09855"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.09855v1/Fig_lower_band_map.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-09T16:46:05.255Z",
+  "hook": "We show that Raman-coupled 39K Bose gases realize the Raman anyon-Hubbard model in a 1D optical lattice.",
+  "tldr": [
+   "Proposed loading a Raman-coupled Bose gas with imbalanced interactions into a 1D optical lattice.",
+   "Demonstrated that dressed bosons acquire density-dependent Peierls phases when tunneling.",
+   "Showed numerically that the gas displays asymmetric momentum distribution and chiral bound states."
+  ],
+  "whyItMatters": "Anyons are exotic particles with fractional statistics that could enable fault-tolerant quantum computing. Realizing them in optical lattices opens new doors for simulation.",
+  "eli5": "Usually, particles in physics come in two strict standard types. But in certain trapped atomic gases, they can act like fractional hybrids called anyons, which we can now simulate with lasers.",
+  "keyNumbers": [
+   {
+    "value": "39",
+    "label": "Potassium Isotope",
+    "context": "The atomic isotope used in the proposed Raman-coupled setup"
+   },
+   {
+    "value": "10",
+    "label": "Pages",
+    "context": "Length of the main text"
+   },
+   {
+    "value": "5",
+    "label": "Figures",
+    "context": "Number of figures in the main text"
+   },
+   {
+    "value": "1",
+    "label": "Table",
+    "context": "Number of tables included"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Anyon",
+    "shortDef": "A type of quasiparticle that occurs in 2D or 1D systems with fractional exchange statistics.",
+    "eli5Def": "A bizarre particle that is neither a normal matter particle nor a force particle, but something weirdly in between.",
+    "wikiTitle": "Anyon"
+   },
+   {
+    "term": "Optical lattice",
+    "shortDef": "A periodic potential created by intersecting laser beams that traps ultracold atoms.",
+    "eli5Def": "An egg-carton made of laser light used to trap tiny atoms in place.",
+    "wikiTitle": "Optical lattice"
+   },
+   {
+    "term": "Peierls phase",
+    "shortDef": "A quantum mechanical phase acquired by a charged particle hopping in a magnetic field.",
+    "eli5Def": "A twist given to a particle's wave pattern when it moves through a field.",
+    "wikiTitle": "Peierls substitution"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

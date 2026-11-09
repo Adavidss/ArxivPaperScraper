@@ -1,0 +1,84 @@
+{
+ "id": "2611.09876",
+ "version": 1,
+ "title": "Novikov-Magnus Master Equation for Driven Quantum Systems under Classical Correlated Noise",
+ "authors": [
+  {
+   "name": "Nada Khogeer"
+  },
+  {
+   "name": "Jerison Parra"
+  },
+  {
+   "name": "Caroline Desgranges"
+  },
+  {
+   "name": "Hugo Ribeiro"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-06T18:53:03Z",
+ "updated": "2026-11-06T18:53:03Z",
+ "abstract": "We introduce a modular framework for deriving time-local quantum master equations for driven systems subject to temporally correlated classical noise. The construction combines the Donsker-Furutsu-Novikov relation with the Magnus expansion: Functional response closes the noise average, while nested commutators retain the noncommuting chronological action of noise-induced perturbations along the controlled quantum trajectory. For zero-mean Gaussian noise, we derive the resulting Novikov-Magnus quantum master equation through fourth order in the noise strength. The same response hierarchy suggests a natural extension beyond Gaussian noise, with connected higher-order noise correlations weighting higher functional derivatives of the stochastic map. For a driven qubit under Ornstein-Uhlenbeck and band-limited $1/f$ noise, the second- and fourth-order maps remain CPTP throughout the perturbative regime and accurately reproduce stochastic simulations. Their diamond-norm errors are comparable to those of the cumulant-based pseudo-Lindblad master equation, with a modest fourth-order improvement for Ornstein-Uhlenbeck noise.",
+ "comment": "main text 5 pages, supplemental text 24 pages, 3 main text figures, 16 supplemental figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.09876",
+  "pdf": "https://arxiv.org/pdf/2611.09876",
+  "html": "https://arxiv.org/html/2611.09876"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-09T16:46:05.255Z",
+  "hook": "We derive a modular Novikov-Magnus quantum master equation accurate to fourth order in classical correlated noise.",
+  "tldr": [
+   "Developed a framework for deriving time-local quantum master equations for driven systems under temporal noise.",
+   "Combined the Donsker-Furutsu-Novikov relation with the Magnus expansion to handle functional response and nested commutators.",
+   "Showed that fourth-order maps for qubits under Ornstein-Uhlenbeck and 1/f noise remain CPTP and match simulations."
+  ],
+  "whyItMatters": "Controlling noise is a major bottleneck in building reliable quantum computers. Better master equations help us accurately model how environmental noise degrades fragile quantum states.",
+  "eli5": "Imagine trying to steer a boat while giant, unpredictable waves keep hitting it. This research creates a better math playbook to predict exactly how those waves will knock the boat off course.",
+  "keyNumbers": [
+   {
+    "value": "5",
+    "label": "Main Text Pages",
+    "context": "Length of the main text in the manuscript"
+   },
+   {
+    "value": "24",
+    "label": "Supplemental Pages",
+    "context": "Length of the supplemental text"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum master equation",
+    "shortDef": "An equation describing how a quantum system's state evolves over time while interacting with its environment.",
+    "eli5Def": "A formula that tracks how a fragile quantum gadget slowly gets ruined by outside noise.",
+    "wikiTitle": "Master equation"
+   },
+   {
+    "term": "Magnus expansion",
+    "shortDef": "A mathematical method for solving differential equations related to time-dependent system operators.",
+    "eli5Def": "A tool that breaks down complex, changing forces into manageable steps.",
+    "wikiTitle": "Magnus expansion"
+   },
+   {
+    "term": "CPTP",
+    "shortDef": "Completely Positive Trace-Preserving; properties required for a valid physical quantum operation.",
+    "eli5Def": "The basic rule that probabilities must add up to one and make physical sense.",
+    "wikiTitle": "Quantum operation"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

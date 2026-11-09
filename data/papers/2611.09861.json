@@ -1,0 +1,82 @@
+{
+ "id": "2611.09861",
+ "version": 1,
+ "title": "A Quantum Mechanical Description of Active Matter",
+ "authors": [
+  {
+   "name": "Ghansham Chandel"
+  },
+  {
+   "name": "Siddhartha Das"
+  }
+ ],
+ "categories": [
+  "physics.flu-dyn",
+  "math-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.flu-dyn",
+ "published": "2026-11-06T18:42:27Z",
+ "updated": "2026-11-06T18:42:27Z",
+ "abstract": "The natural environments habitable to life are inseparable from dissipative and entropic forces, which mandate active matter to operate on constant fluxes of energy and momentum to survive and propagate through spacetime. In contrast to fundamental particles which are characterized by energy and momentum, we postulate that energy expenditure rate and momentum generation rate are the fundamental dynamical quantities driving this evolution of swimming active matter and accordingly construct the corresponding Lagrangian and Hamiltonian of motion of the active matter. Furthermore, living systems broadly employ periodic, non-repeating motion for both locomotion and various biological functions, with meaningful information stored in the periods of these functions. Consequently, analyzing these dynamics in the Fourier space lands us at the familiar tools of the operator based, quantum mechanics. This is accomplished by introducing a complex field to describe the evolving probability distribution of a single unit, as well as the population density of mutually non-interacting active particles under the constraint of scarce resources. The resulting single-unit wavefunction evolves analogously to the Dirac equation with minimal coupling, wherein gauge symmetry reflects the generality of the governing equations across arbitrary resource landscapes. Additionally, we present a Schrödinger-like equation where the effective potential term represents the environmentally mandated, non-motile base metabolic rate. Finally, we formalize the bidirectional coupling between active swimmers and the surrounding fluid via a multipole expansion of the active force with an emphasis on force monopoles and dipoles, where each pole corresponds to a distinct mode of active motility.",
+ "comment": "11 pg., 3 figs",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.09861",
+  "pdf": "https://arxiv.org/pdf/2611.09861",
+  "html": "https://arxiv.org/html/2611.09861"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.09861v1/F1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-09T16:46:05.255Z",
+  "hook": "We formulate a quantum mechanical description of active matter using energy expenditure and momentum generation rates.",
+  "tldr": [
+   "Postulated that energy expenditure and momentum generation rates drive swimming active matter.",
+   "Used Fourier space analysis to connect active dynamics to operator-based quantum mechanics.",
+   "Derived a Dirac-like equation with minimal coupling and a Schrödinger-like equation for active particles."
+  ],
+  "whyItMatters": "Living cells and active fluids operate far from equilibrium. Applying quantum tools to macroscopic biological swimmers could bridge gaps in biophysics.",
+  "eli5": "Just like subatomic particles follow quantum rules, swimming bacteria use energy constantly to move around. This paper shows we can use the same heavy-duty math to describe both.",
+  "keyNumbers": [
+   {
+    "value": "11",
+    "label": "Pages",
+    "context": "Total length of the paper"
+   },
+   {
+    "value": "3",
+    "label": "Figures",
+    "context": "Number of figures included in the manuscript"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Active matter",
+    "shortDef": "Systems of self-driven units that consume energy to generate their own movement.",
+    "eli5Def": "Crowds of things like bacteria or robots that swim around using their own internal battery power.",
+    "wikiTitle": "Active matter"
+   },
+   {
+    "term": "Dirac equation",
+    "shortDef": "A relativistic quantum mechanical wave equation formulated by Paul Dirac.",
+    "eli5Def": "A famous physics equation that describes fast-moving quantum particles.",
+    "wikiTitle": "Dirac equation"
+   },
+   {
+    "term": "Multipole expansion",
+    "shortDef": "A mathematical series used to approximate complex field potentials or forces.",
+    "eli5Def": "Breaking down a messy push-and-pull force into simpler parts like centers and dipoles.",
+    "wikiTitle": "Multipole expansion"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

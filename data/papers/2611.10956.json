@@ -1,0 +1,113 @@
+{
+ "id": "2611.10956",
+ "version": 1,
+ "title": "Risk-Sensitive Reinforcement Learning for an Options Market Maker: An Empirical Study with Real S&P 500 Options",
+ "authors": [
+  {
+   "name": "Jacky Chen"
+  },
+  {
+   "name": "Ing-Haw Cheng"
+  },
+  {
+   "name": "John Hull"
+  },
+  {
+   "name": "Landis Li"
+  },
+  {
+   "name": "Zissis Poulos"
+  },
+  {
+   "name": "Justin Shi"
+  },
+  {
+   "name": "Andreas Veneris"
+  },
+  {
+   "name": "Zeyu Wang"
+  }
+ ],
+ "categories": [
+  "q-fin.RM",
+  "cs.LG",
+  "q-fin.CP"
+ ],
+ "primaryCategory": "q-fin.RM",
+ "published": "2026-11-07T20:41:35Z",
+ "updated": "2026-11-07T20:41:35Z",
+ "abstract": "Options market makers absorb client order flow and must hedge the resulting inventory risk under trading frictions. We study whether an option hedging reinforcement learning (RL) agent trained on historical market data outperforms three alternatives in tail-risk protection: (i) traditional delta hedging, (ii) simple hedge-ratio rules, and (iii) the same agent trained in simulated markets. Most RL hedging agents are trained in model-generated markets that do not capture the crashes and volatility regimes present in real data. We introduce an empirical replay environment using S&P 500 option data from 1996 to 2017 and compare against a matched geometric Brownian motion (GBM) environment, a stochastic-volatility (SABR) simulator, and a hybrid that values historical paths with Black-Scholes, all sharing the same portfolio mechanics, stochastic arrivals, costs, and test period. We train a distributional Twin Delayed Deep Deterministic Policy Gradient (TD3) agent and evaluate it out of sample over 2018-2023. The agent trained on empirical data reduces Conditional Value-at-Risk (CVaR) tail loss by 3.1% compared to delta hedging and outperforms every hedge-ratio rule chosen during the training period and every alternative training environment. The reduction reaches 8.9% in volatile and falling markets, but reverses to a cost of 7-10% in rising markets. Empirical training induces a state-dependent short net delta: the policy under-hedges negative-delta books, most strongly after prices have fallen. This tilt disappears with GBM training and is weaker with SABR or hybrid training. These findings suggest that exposure to historical market dynamics can materially change a tail-risk hedging policy, although the evidence rests on a single test path and the edge is regime-conditional.",
+ "comment": "9 pages, 2 figures, 5 tables. Authors listed alphabetically by last name",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.10956",
+  "pdf": "https://arxiv.org/pdf/2611.10956",
+  "html": "https://arxiv.org/html/2611.10956"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.10956v1/paper_figures/e13_tilt_side.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-11T14:39:36.631Z",
+  "hook": "An option-hedging AI trained on historical data cuts tail risk by up to 8.9% in volatile markets, beating traditional rules.",
+  "tldr": [
+   "Studied whether a reinforcement learning agent trained on real market data outperforms standard alternatives in tail-risk protection for options market makers.",
+   "Trained a distributional TD3 reinforcement learning agent using an empirical replay environment spanning 1996 to 2017 and tested it on 2018-2023 data.",
+   "The empirically trained agent reduced Conditional Value-at-Risk tail loss by 3.1% overall and up to 8.9% in volatile or falling markets."
+  ],
+  "whyItMatters": "Financial market makers must protect themselves against extreme market crashes while absorbing client orders. Improving tail-risk hedges can prevent massive losses during high-volatility events.",
+  "eli5": "Imagine teaching a robot to play a dangerous video game by letting it watch recordings of past professional players making mistakes, rather than letting it practice in a fake cartoon world. Because the robot saw real disasters, it learned how to brace itself better when real trouble came along.",
+  "keyNumbers": [
+   {
+    "value": "3.1%",
+    "label": "CVaR tail loss reduction",
+    "context": "Compared to traditional delta hedging overall across the test period"
+   },
+   {
+    "value": "8.9%",
+    "label": "Tail loss reduction",
+    "context": "Achieved specifically in volatile and falling markets"
+   },
+   {
+    "value": "7-10%",
+    "label": "Cost reversal",
+    "context": "Incurred as a cost during rising markets"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Delta hedging",
+    "shortDef": "A risk management strategy used to offset price risks of options by trading the underlying asset.",
+    "eli5Def": "Buying or selling stocks to protect yourself if the price of an option goes up or down against you.",
+    "wikiTitle": "Delta hedging"
+   },
+   {
+    "term": "Conditional Value-at-Risk",
+    "shortDef": "A risk measure that estimates the average losses that occur beyond a specific high-risk threshold.",
+    "eli5Def": "How much money you can expect to lose on average during your absolute worst financial days.",
+    "wikiTitle": "Expected shortfall"
+   },
+   {
+    "term": "Geometric Brownian motion",
+    "shortDef": "A continuous-time stochastic process often used in finance to model stock prices.",
+    "eli5Def": "A mathematical formula that mimics how stock prices bounce up and down randomly over time.",
+    "wikiTitle": "Geometric Brownian motion"
+   },
+   {
+    "term": "SABR model",
+    "shortDef": "A stochastic volatility model used to capture the volatility smile in derivatives markets.",
+    "eli5Def": "A fancy math tool financial experts use to guess how wild future price swings might become.",
+    "wikiTitle": "SABR model"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T16:46:05.255Z",
+ "generatedAt": "2026-11-11T14:39:36.631Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -123,26 +123,6 @@
    "paperCount": 4
   },
   {
-   "name": "Dakshita Khurana",
-   "slug": "dakshita-khurana",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2610.03711",
-    "2609.30253",
-    "2608.31112"
-   ],
-   "recentTitles": [
-    "How to Build Pseudorandom Unitaries in Microcrypt",
-    "How Not to Build Microcrypt"
-   ],
-   "paperCount": 4
-  },
-  {
    "name": "Zi-Wen Liu",
    "slug": "zi-wen-liu",
    "score": 4,
@@ -198,6 +178,25 @@
    "recentTitles": [
     "Chiral Torsional Double Wells: Tunneling and Polarizability",
     "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies"
+   ],
+   "paperCount": 2
+  },
+  {
+   "name": "Ethan Dickey",
+   "slug": "ethan-dickey",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2610.07308",
+    "2609.14620"
+   ],
+   "recentTitles": [
+    "Quantum dynamics of spin systems using quantum-like resources",
+    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
    ],
    "paperCount": 2
   }

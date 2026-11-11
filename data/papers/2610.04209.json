@@ -1,6 +1,6 @@
 {
  "id": "2610.04209",
- "version": 1,
+ "version": 2,
  "title": "The Right Wing of the SABR Smile with an Absorbing Boundary: Resolution of Conjectures of Henry-Labordère",
  "authors": [
   {
@@ -16,9 +16,9 @@
  ],
  "primaryCategory": "math.PR",
  "published": "2026-10-03T01:52:31Z",
- "updated": "2026-10-03T01:52:31Z",
- "abstract": "We determine the leading logarithmic asymptotics of the fixed-maturity right tail of the SABR model with $β\\in(0,1)$ and absorption at zero, for every correlation $ρ\\in(-1,1)$. If $P(k)$ is the probability that the terminal forward is at least $f_0e^k$, then $-k^{-2}\\ln P(k)\\to(1-β)^2/(2ν^2T(1-(ρ\\wedge0)^2))$ as $k\\to\\infty$. For $ρ\\ge0$ this is the rate predicted by the unrestricted hyperbolic geometry. For $ρ<0$ it is strictly larger: along the volatility excursion that produces the tail, survival forces the noise orthogonal to volatility to stay above a moving square-root barrier, at an additional cost of the same order $k^2$. Consequently the Black-Scholes implied volatility tends to $ν\\sqrt{1-(ρ\\wedge0)^2}/(1-β)$: Henry-Labordère's conjectured wing limit $ν/(1-β)$ holds for $ρ\\ge0$ and fails for every $ρ<0$. For his second conjecture, whose unrestricted-distance Gaussian estimate does not hold for $ρ<0$, we also identify the correct replacement for this model: at the level of tail probabilities, the rate is given by the squared intrinsic Riemannian distance, within the survival domain, from the initial state to the terminal target set. The proofs are direct, combining a stopped Lamperti transform, a conditional time change, Gaussian moving-barrier bounds and change-of-measure constructions, and use no heat-kernel estimates.",
- "comment": "35 pages, 4 figures",
+ "updated": "2026-11-07T18:25:11Z",
+ "abstract": "We determine the fixed-maturity right tail of the SABR model with $β\\in(0,1)$ absorbed at zero, for every correlation $ρ$: the probability $P(k)$ that the forward ends above $f_0e^k$ satisfies $-k^{-2}\\ln P(k)\\to(1-β)^2/(2ν^2T(1-(ρ\\wedge0)^2))$. The implied volatility therefore tends to $ν\\sqrt{1-(ρ\\wedge0)^2}/(1-β)$. Henry-Labordère's conjectured limit $ν/(1-β)$, which Hagan's leading-order formula also gives, holds for $ρ\\ge0$ and fails for $ρ<0$, where survival keeps the noise orthogonal to volatility above a moving square-root barrier. The Gaussian estimate behind his second conjecture does not hold for $ρ<0$; the rate is instead given by the intrinsic distance within the survival domain.",
+ "comment": "v2: adds a comparison with Hagan's formula and shorter proofs for nonnegative correlation; states the saddle-point value of the potential (Section 6.4) as a large-strike limit rather than a constant; minor corrections; revised exposition. 38 pages, 4 figures",
  "doi": null,
  "links": {
   "abs": "https://arxiv.org/abs/2610.04209",
@@ -34,37 +34,37 @@
  "biteStatus": "ok",
  "bite": {
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-06T13:32:09.359Z",
-  "hook": "Proving that Henry-Labordère's famous wing limit conjecture for the SABR model holds for positive correlation but fails when negative.",
+  "generatedAt": "2026-11-11T14:39:36.631Z",
+  "hook": "Proves that Henry-Labordère's famous volatility formula fails for negative correlations, resolving open mathematical conjectures.",
   "tldr": [
-   "We determined the leading logarithmic asymptotics of the fixed-maturity right tail of the SABR model with beta between 0 and 1.",
-   "We used direct proofs combining a stopped Lamperti transform, conditional time change, and Gaussian moving-barrier bounds.",
-   "We found that Henry-Labordère's conjecture holds for non-negative correlation but fails for every negative correlation."
+   "Determined the fixed-maturity right tail of the SABR model with absorption at zero for any correlation parameter.",
+   "Derived explicit probability limits and implied volatility behaviors using intrinsic distances within survival domains.",
+   "Found that Henry-Labordère's conjectured limit holds for non-negative correlations but fails when correlation is negative."
   ],
-  "whyItMatters": "The SABR model is a cornerstone of quantitative finance for pricing derivatives; correcting its tail behavior prevents costly mispricing in extreme market scenarios.",
-  "eli5": "Financial models try to predict extreme stock market crashes or booms. This paper checks a popular mathematical formula used in these models and finds that it breaks down under certain market conditions.",
+  "whyItMatters": "The SABR model is a cornerstone of modern quantitative finance for pricing interest rate and equity derivatives. Correcting its mathematical limits ensures traders do not misprice financial options under negative market correlations.",
+  "eli5": "Imagine a weather prediction rule that works great when wind and rain move together, but completely falls apart when the wind blows backward. Mathematicians just figured out the exact hidden math rule that fixes the formula for when things move in opposite directions.",
   "keyNumbers": [],
   "glossary": [
    {
     "term": "SABR model",
-    "shortDef": "A stochastic volatility model used by financial analysts to price asset derivatives.",
-    "eli5Def": "A mathematical formula used on Wall Street to price risky financial contracts.",
-    "wikiTitle": "SABR volatility model"
-   },
-   {
-    "term": "Asymptotics",
-    "shortDef": "The behavior of a function as its variable approaches a limit like infinity.",
-    "eli5Def": "Looking at what happens to a math formula when numbers get unimaginably large.",
-    "wikiTitle": "Asymptotic analysis"
+    "shortDef": "Stochastic Alpha Beta Rho model used by financial analysts to price derivatives and options.",
+    "eli5Def": "An equation used on Wall Street to figure out the fair price of financial bets.",
+    "wikiTitle": "SABR model"
    },
    {
     "term": "Implied volatility",
-    "shortDef": "The market's forecast of a likely movement in a security's price.",
-    "eli5Def": "A measure of how wildly investors expect a stock price to bounce around.",
+    "shortDef": "The market's forecast of a likely movement in a security's price, derived from option prices.",
+    "eli5Def": "How wild and jumpy people expect a stock's price to be in the future, guessed by looking at option prices.",
     "wikiTitle": "Implied volatility"
+   },
+   {
+    "term": "Absorbing boundary",
+    "shortDef": "A boundary condition where a stochastic process stops or is trapped once it reaches a certain value.",
+    "eli5Def": "A trapdoor in a math game where once a number hits zero, it gets stuck there forever.",
+    "wikiTitle": "Absorbing barrier"
    }
   ],
   "difficulty": 5,
-  "readSeconds": 60
+  "readSeconds": 50
  }
 }

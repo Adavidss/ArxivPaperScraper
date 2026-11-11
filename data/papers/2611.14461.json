@@ -1,0 +1,88 @@
+{
+ "id": "2611.14461",
+ "version": 1,
+ "title": "Finite-Key Readiness and Authentication-Key Replenishment in QKD-Assisted UAV Edge Computing",
+ "authors": [
+  {
+   "name": "Dang H. Le"
+  },
+  {
+   "name": "Ban Q. Tran"
+  },
+  {
+   "name": "Susan Mengel"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-10T18:29:12Z",
+ "updated": "2026-11-10T18:29:12Z",
+ "abstract": "A service that needs fresh quantum keys must wait for key release, and may be denied it, before protected computation starts. We quantify this cost for a trusted stationary UAV serving two ground gateways, each obtaining its keys from one finite-key decoy-state BB84 attempt with parameters fixed in advance. A count-level Monte Carlo model, reproduced by a semi-analytic model, links key acceptance to protected upload, computation, and download, including failed attempts and hover energy. At 26~dB effective optical loss, with authentication hashing at its proxy-benchmarked, near-zero cost, fresh keys raise the 95th-percentile completion time of both tasks from 10.37 to 28.65~s; hover energy grows in proportion. The scalar rate models evaluated here miss the deadline limit on the block size. The pulse budget lies in a window bounded below by authentication-key replenishment and above by the deadline; for a fixed source, channel, and acceptance model, the authentication debit shifts the floor, whereas hashing cost does not. At a 35-s deadline the largest tested loss with a non-empty window is 27~dB at 1\\% misalignment and 22~dB at 2\\%; at 3\\% no tested setting has one. Conditional on the assumed acquisition probability, the selected configurations meet this deadline with simultaneous lower confidence bounds of 96.9--97.3\\% on held-out trials, at 26~dB and at 18--20~dB with 2\\% misalignment. A high-cost stress reference that charges hashing in full narrows the window and lowers these loss limits to 26 and 20~dB at the reference processing capacity. A small rise in error rate or loss pushes the deadline probability well below its target and drains authentication keys, while the protocol's security parameter is unchanged.",
+ "comment": "21 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.14461",
+  "pdf": "https://arxiv.org/pdf/2611.14461",
+  "html": "https://arxiv.org/html/2611.14461"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.14461v1/system_model_v2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-11T14:39:36.631Z",
+  "hook": "At 26 dB loss, fresh quantum keys raise a UAV task's 95th-percentile completion time from 10.37 to 28.65 seconds.",
+  "tldr": [
+   "Quantified the energetic and time cost of waiting for fresh quantum keys in a UAV edge computing setup.",
+   "Used a count-level Monte Carlo model and semi-analytic model to link key acceptance to computational tasks and hover energy.",
+   "Found that fresh keys drastically increase task completion times and hover energy, with tight pulse budgets limited by deadlines."
+  ],
+  "whyItMatters": "As drones and edge devices increasingly rely on quantum cryptography for secure communications, understanding the hidden time and energy costs of generating fresh keys is crucial for real-world deployment.",
+  "eli5": "Imagine trying to send secret messages using glowing puzzle pieces that expire quickly. If you have to wait for new puzzle pieces to arrive before you can start building, your overall project takes a lot longer and wastes battery power just hovering in place.",
+  "keyNumbers": [
+   {
+    "value": "26 dB",
+    "label": "Effective optical loss",
+    "context": "The optical loss level at which task completion times and energy costs were evaluated."
+   },
+   {
+    "value": "10.37 to 28.65 s",
+    "label": "Completion time change",
+    "context": "The shift in 95th-percentile completion time for tasks when fresh keys are introduced."
+   },
+   {
+    "value": "35 s",
+    "label": "Deadline",
+    "context": "The operational time limit tested against various optical loss and misalignment settings."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "QKD",
+    "shortDef": "Quantum Key Distribution, a method for secure communication using quantum mechanics.",
+    "eli5Def": "A way of sharing secret codes using light particles so that if anyone tries to spy, you instantly know.",
+    "wikiTitle": "Quantum key distribution"
+   },
+   {
+    "term": "BB84",
+    "shortDef": "The first and most well-known quantum cryptography protocol.",
+    "eli5Def": "The original rulebook for sending secret light-based codes safely between two people.",
+    "wikiTitle": "BB84"
+   },
+   {
+    "term": "Monte Carlo model",
+    "shortDef": "A computational algorithm that relies on repeated random sampling to model complex systems.",
+    "eli5Def": "Simulating a situation thousands of times with random dice rolls to see what usually happens.",
+    "wikiTitle": "Monte Carlo method"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

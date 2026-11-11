@@ -1,0 +1,81 @@
+{
+ "id": "2611.14406",
+ "version": 1,
+ "title": "Multidimensional Quantum Block Turbo Codes",
+ "authors": [
+  {
+   "name": "Khaled Jebari"
+  },
+  {
+   "name": "Luiz Anet Neto"
+  },
+  {
+   "name": "Ramesh Pyndiah"
+  },
+  {
+   "name": "Jean-Louis de Bougrenet de la Tocnaye"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-10T17:48:54Z",
+ "updated": "2026-11-10T17:48:54Z",
+ "abstract": "The theory of turbo iterative decoding was brought into the quantum coding framework through the development of quantum serial turbo codes and quantum block turbo codes. In this paper, we present a theory for multidimensional quantum block turbo codes, a turbo decoding technique for multi layer product codes. We describe its algorithm and simulate the performance for the 3D case on a depolarizing channel.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.14406",
+  "pdf": "https://arxiv.org/pdf/2611.14406",
+  "html": "https://arxiv.org/html/2611.14406"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.14406v1/QBTC_3D_scheme.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-11T14:39:36.631Z",
+  "hook": "We introduce multidimensional quantum block turbo codes, bringing turbo iterative decoding to multi-layer product codes.",
+  "tldr": [
+   "Developed a theory for multidimensional quantum block turbo codes using multi-layer product codes.",
+   "Described the underlying algorithm and simulated performance specifically for the 3D case.",
+   "Evaluated the error correction performance of the 3D codes operating on a depolarizing quantum channel."
+  ],
+  "whyItMatters": "Reliable quantum computers require robust error correction to protect fragile qubits from noise. This research advances fault-tolerant quantum communication by expanding powerful classical decoding techniques into multiple dimensions.",
+  "eli5": "Imagine trying to send a secret message through a noisy room where people keep changing random words. This research builds a multi-layered error-checking puzzle that lets computers spot and fix those mistakes much more efficiently, stacking the checks in three dimensions like a Rubik's cube.",
+  "keyNumbers": [
+   {
+    "value": "3D",
+    "label": "Dimensionality",
+    "context": "Performance was specifically simulated and evaluated for the three-dimensional case."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Turbo codes",
+    "shortDef": "A class of high-performance error correction codes that closely approach the channel capacity limit.",
+    "eli5Def": "A clever team-checking system for messages that helps computers catch mistakes by reading them back and forth multiple times.",
+    "wikiTitle": "Turbo code"
+   },
+   {
+    "term": "Iterative decoding",
+    "shortDef": "A decoding algorithm that repeatedly passes information back and forth to progressively improve accuracy.",
+    "eli5Def": "Checking your homework over and over again, fixing a few more mistakes each time until it is perfect.",
+    "wikiTitle": "Iterative decoding"
+   },
+   {
+    "term": "Depolarizing channel",
+    "shortDef": "A standard quantum communication channel model where qubits randomly experience bit-flip or phase-flip errors.",
+    "eli5Def": "A messy communication tunnel that randomly scrambles or jumbles the quantum information you try to send through it.",
+    "wikiTitle": "Quantum channel"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

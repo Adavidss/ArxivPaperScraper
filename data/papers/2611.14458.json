@@ -1,0 +1,69 @@
+{
+ "id": "2611.14458",
+ "version": 1,
+ "title": "Quantum Thermal Transistor via Nonlinear Environmental Coupling",
+ "authors": [
+  {
+   "name": "Laiba Hayat"
+  },
+  {
+   "name": "M. Tahir Naseem"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-10T18:26:46Z",
+ "updated": "2026-11-10T18:26:46Z",
+ "abstract": "Thermal amplification enables sensitive control of heat currents, providing a basis for heat management and thermal signal processing in quantum devices. For a harmonic oscillator coupled to emitter, collector, and base thermal reservoirs, we recover the absence of thermal amplification when system-reservoir interactions permit only single-quantum exchange. A controlled weak-nonlinearity expansion, supported by numerical stationary solutions, shows that two-quantum exchange at the emitter enables amplification and predicts its onset. When two-quantum exchange dominates at the emitter and collector, varying the base temperature redistributes populations between even and odd oscillator sectors. This changes the emitter and collector heat currents far more than the base current, enabling large thermal amplification. We propose a realization using a longitudinally coupled auxiliary two-level system and bath spectral filtering, specifying conditions for its elimination to yield the required oscillator dynamics. These results establish nonlinear system-reservoir coupling as a resource for controlling heat flow and enabling thermal amplification.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.14458",
+  "pdf": "https://arxiv.org/pdf/2611.14458",
+  "html": "https://arxiv.org/html/2611.14458"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.14458v1/QTT_amplification_landscape.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-11T14:39:36.631Z",
+  "hook": "Demonstrated that nonlinear system-reservoir coupling enables large thermal amplification in quantum devices.",
+  "tldr": [
+   "Investigated thermal amplification and heat current control for a harmonic oscillator coupled to thermal reservoirs.",
+   "Used a controlled weak-nonlinearity expansion and numerical stationary solutions to analyze multi-quantum exchange.",
+   "Found that two-quantum exchange enables thermal amplification by redistributing populations across oscillator sectors."
+  ],
+  "whyItMatters": "Controlling heat flow at the quantum scale is essential for building advanced thermal management tools and quantum computing hardware that avoids overheating.",
+  "eli5": "Just like a transistor controls electricity to build amplifiers for audio, scientists are building a 'heat transistor' that uses quantum tricks to control the flow of heat.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Harmonic oscillator",
+    "shortDef": "A system that oscillates about a stable equilibrium point when displaced.",
+    "eli5Def": "A weight bouncing on a spring or a pendulum swinging back and forth forever in a frictionless world.",
+    "wikiTitle": "Quantum harmonic oscillator"
+   },
+   {
+    "term": "Thermal reservoir",
+    "shortDef": "A massive system in thermal equilibrium at a constant temperature that can absorb or release heat.",
+    "eli5Def": "A giant heat bath that stays at one exact temperature no matter how much heat you dump into it.",
+    "wikiTitle": "Thermal reservoir"
+   },
+   {
+    "term": "Two-level system",
+    "shortDef": "A quantum mechanical system that can exist in only two distinct states.",
+    "eli5Def": "A quantum light switch that can only be either completely ON or completely OFF.",
+    "wikiTitle": "Two-level system"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 40
+ }
+}

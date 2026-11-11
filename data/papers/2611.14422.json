@@ -1,0 +1,92 @@
+{
+ "id": "2611.14422",
+ "version": 1,
+ "title": "The energetic cost of loading classical data in quantum computers",
+ "authors": [
+  {
+   "name": "Joao F. Doriguello"
+  },
+  {
+   "name": "Alessandro Luongo"
+  },
+  {
+   "name": "Harshit Verma"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.ET"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-10T18:00:05Z",
+ "updated": "2026-11-10T18:00:05Z",
+ "abstract": "Quantum algorithms for machine learning, chemistry, and cryptanalysis often assume coherent access to classical data at negligible physical cost. We instead treat data loading as a hardware process and quantify the dynamic energetic cost of a quantum random access memory (QRAM) query on a superconducting processor. Using the metric-noise-resource framework, we relate query fidelity and power to gate duration, relative two-qubit drive strength, and the distribution of attenuation across a multi-stage refrigerator, while accounting for thermal photons and gate errors. We analyze the linear-depth multiplexer and the noise-resilient bucket-brigade architectures, adapting the latter to a native superconducting gate set and refining its fidelity analysis using the fully decomposed gate schedule. For a representative bucket-brigade QRAM query with a $12$-qubit address register we obtain a query fidelity of $0.969$. The query consumes $3.51\\times10^{-4}\\,\\mathrm{J}$ of dynamic energy, corresponding to an average dynamic power of $4.38\\,\\mathrm{W}$ and a peak of $64.4\\,\\mathrm{W}$. Our optimization shows that, at fixed target fidelity, the operating point and attenuation profile can change the average power by a factor of two or more.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.14422",
+  "pdf": "https://arxiv.org/pdf/2611.14422",
+  "html": "https://arxiv.org/html/2611.14422"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-11T14:39:36.631Z",
+  "hook": "A representative QRAM query with a 12-qubit address register consumes 3.51x10^-4 J of dynamic energy.",
+  "tldr": [
+   "Quantified the dynamic energetic cost and power of loading classical data into quantum computers via QRAM queries.",
+   "Analyzed multiplexer and bucket-brigade architectures adapted to superconducting processors using the metric-noise-resource framework.",
+   "Found a query fidelity of 0.969, average power of 4.38 W, and peak power of 64.4 W for a 12-qubit address register."
+  ],
+  "whyItMatters": "Quantum algorithms promise massive speedups, but moving classical data into quantum processors requires physical hardware and energy. Accounting for these energetic costs bridges theoretical algorithms and real-world engineering.",
+  "eli5": "Quantum computers are like super-fast brains, but reading a normal computer file into them is like trying to feed data through a tiny, super-cold straw that uses a surprising amount of power.",
+  "keyNumbers": [
+   {
+    "value": "12",
+    "label": "Qubit address register",
+    "context": "The size of the address register used in the representative bucket-brigade QRAM query."
+   },
+   {
+    "value": "0.969",
+    "label": "Query fidelity",
+    "context": "The fidelity achieved for the representative bucket-brigade QRAM query."
+   },
+   {
+    "value": "3.51\\times10^{-4}\\,\\mathrm{J}",
+    "label": "Dynamic energy",
+    "context": "The total dynamic energy consumed by the representative QRAM query."
+   },
+   {
+    "value": "4.38\\,\\mathrm{W}",
+    "label": "Average dynamic power",
+    "context": "The average power consumed during the query process."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "QRAM",
+    "shortDef": "Quantum Random Access Memory, designed to retrieve quantum data stored in superposition.",
+    "eli5Def": "A computer memory chip built for quantum computers that can look up multiple items at the exact same time.",
+    "wikiTitle": "Quantum RAM"
+   },
+   {
+    "term": "Fidelity",
+    "shortDef": "A measure of how closely a quantum state or operation matches the intended ideal target.",
+    "eli5Def": "A score from 0 to 1 showing how accurately a quantum trick was performed without making mistakes.",
+    "wikiTitle": "Fidelity (quantum information)"
+   },
+   {
+    "term": "Superconducting processor",
+    "shortDef": "A processor built using circuits that exhibit zero electrical resistance at very low temperatures.",
+    "eli5Def": "A computer chip made of super-cold metals where electricity flows without losing any energy to heat.",
+    "wikiTitle": "Superconducting quantum computing"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

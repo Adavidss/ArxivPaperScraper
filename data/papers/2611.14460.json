@@ -1,0 +1,73 @@
+{
+ "id": "2611.14460",
+ "version": 1,
+ "title": "Structure of correlations for the single-$j$ model using quantum information theory",
+ "authors": [
+  {
+   "name": "Javier Faba"
+  },
+  {
+   "name": "Vicente Martín"
+  },
+  {
+   "name": "Luis Robledo"
+  }
+ ],
+ "categories": [
+  "nucl-th",
+  "quant-ph"
+ ],
+ "primaryCategory": "nucl-th",
+ "published": "2026-11-10T18:28:52Z",
+ "updated": "2026-11-10T18:28:52Z",
+ "abstract": "We say that a system undergoes a quantum phase transition when the mean-field ground state of a given Hamiltonian spontaneously breaks its symmetries depending on the Hamiltonian parameters. It is a widely accepted view that this phenomenon enables the mean-field state to absorb the maximum amount of correlations without losing its mean-field structure. However, it is still uncertain how those correlations are incorporated within the mean-field state and how the correlation structure changes when we get closer to the exact ground state by restoring the symmetries. In this work, we answer these questions by studying the single-$j$ model, which is a realistic fermionic nuclear model with abelian and non-abelian broken symmetries. We find that both types of symmetries have very different effects for the correlations within the mean-field state. This makes unclear the concept of the symmetry breaking process as a mechanism to absorb the maximum amount of correlations. Moreover, the symmetry restoration redistributes existing `fake' correlations between paired orbitals to more complex subsystems.",
+ "comment": "14 pages, 13 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.14460",
+  "pdf": "https://arxiv.org/pdf/2611.14460",
+  "html": "https://arxiv.org/html/2611.14460"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.14460v1/QD_and_rotations.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-11T14:39:36.631Z",
+  "hook": "Studied how broken symmetries in a realistic nuclear model affect the absorption of quantum correlations.",
+  "tldr": [
+   "Investigated how mean-field ground states absorb correlations when symmetries are spontaneously broken.",
+   "Analyzed the single-j model, a realistic fermionic nuclear model with abelian and non-abelian broken symmetries.",
+   "Discovered that different symmetry types affect correlations uniquely, and symmetry restoration redistributes fake correlations."
+  ],
+  "whyItMatters": "Understanding how subatomic particles build up quantum correlations helps physicists better model complex atomic nuclei and nuclear reactions.",
+  "eli5": "Think of a group of dancers who normally move in a strict, symmetrical circle. When they break formation, they start interacting in complex ways, and researchers are figuring out how those invisible connections form and shift.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum phase transition",
+    "shortDef": "A change in the ground state of a quantum system driven by parameter changes at absolute zero.",
+    "eli5Def": "A sudden change in the basic behavior of matter, even at super cold temperatures, just by tweaking a dial.",
+    "wikiTitle": "Quantum phase transition"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "The master math formula that adds up all the energy and forces inside a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Mean-field",
+    "shortDef": "An approximation simplifying complex many-body interactions by treating individual particles as moving in an average field.",
+    "eli5Def": "Pretending every particle just feels an average push from the crowd instead of tracking every single interaction.",
+    "wikiTitle": "Mean field theory"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 40
+ }
+}

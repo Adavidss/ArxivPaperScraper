@@ -1,0 +1,118 @@
+{
+ "id": "2611.14391",
+ "version": 1,
+ "title": "Implementing rapid reset of superconducting qubits with on-chip dissipation",
+ "authors": [
+  {
+   "name": "Feiyu Li"
+  },
+  {
+   "name": "Yang Liu"
+  },
+  {
+   "name": "Zhen Yang"
+  },
+  {
+   "name": "Zhenxing Liu"
+  },
+  {
+   "name": "Jiayu Ding"
+  },
+  {
+   "name": "Yang Gao"
+  },
+  {
+   "name": "Xuehui Liang"
+  },
+  {
+   "name": "Weijie Sun"
+  },
+  {
+   "name": "Yanjun Ma"
+  },
+  {
+   "name": "Chuhong Yang"
+  },
+  {
+   "name": "Guangming Xue"
+  },
+  {
+   "name": "He Wang"
+  },
+  {
+   "name": "Fei Yan"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-10T17:42:14Z",
+ "updated": "2026-11-10T17:42:14Z",
+ "abstract": "Rapid and high-fidelity qubit reset is essential for quantum state initialization and quantum error correction. Conventional reset protocols for superconducting qubits often rely on dissipative elements connected to external circuitry, exposing qubits to thermal noise from higher-temperature environments. Here, we experimentally demonstrate a scalable approach to qubit reset and leakage removal over multiple transmon qubits using dedicated dissipation units comprising resonators coupled to on-chip resistive loads. This architecture provides Purcell protection while isolating the qubits from warmer external circuitry. We achieve a median reset time constant of approximately 48 ns for the $|g\\rangle-|e\\rangle$ transition, with an effective bath temperature of 30 mK. A 400-ns reset pulse yields residual excited-state populations of $0.29\\%$ and $0.67\\%$ for qubits initialized in $|g\\rangle$ and $|e\\rangle$, respectively. We further demonstrate efficient leakage removal from the $|f\\rangle$ state, reducing its residual population to $0.51\\%$. These results establish a simple, reproducible, and easy-to-integrate approach to dissipation engineering in superconducting quantum processors.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.14391",
+  "pdf": "https://arxiv.org/pdf/2611.14391",
+  "html": "https://arxiv.org/html/2611.14391"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.14391v1/fig_concept.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-12T15:31:25.617Z",
+  "hook": "New on-chip dissipation units reset superconducting qubits in just 48 nanoseconds while blocking thermal noise.",
+  "tldr": [
+   "The team implemented a scalable reset protocol for superconducting qubits using on-chip resistive loads and resonators.",
+   "They isolated qubits from warmer external wiring, protecting them from thermal noise while enabling rapid state initialization.",
+   "The method achieved a 48 ns reset time and successfully cleared 'leakage' errors from higher energy states."
+  ],
+  "whyItMatters": "Fast, reliable qubit resetting is a bottleneck for quantum error correction; this design offers a simple, integrated way to keep qubits 'clean' without overheating them.",
+  "eli5": "Think of a qubit like a light switch that needs to be turned off quickly. Usually, the 'off' switch is connected to a long, warm wire that lets in heat. This new design puts the 'off' switch directly on the chip, so it cools down instantly without letting in outside heat.",
+  "keyNumbers": [
+   {
+    "value": "48 ns",
+    "label": "Median reset time",
+    "context": "Time taken to reset the |g>-|e> transition."
+   },
+   {
+    "value": "30 mK",
+    "label": "Effective bath temperature",
+    "context": "The cold environment maintained for the qubits."
+   },
+   {
+    "value": "0.51%",
+    "label": "Residual leakage",
+    "context": "Remaining population in the |f> state after removal."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Superconducting qubit",
+    "shortDef": "A quantum bit made from superconducting circuits.",
+    "eli5Def": "A tiny electronic circuit that acts like a quantum computer's memory bit by using electricity flowing without resistance.",
+    "wikiTitle": "Superconducting qubit"
+   },
+   {
+    "term": "Purcell protection",
+    "shortDef": "A method to suppress the spontaneous emission of a qubit into its environment.",
+    "eli5Def": "A shield that stops the qubit from accidentally leaking its information into the surrounding wires.",
+    "wikiTitle": "Purcell effect"
+   },
+   {
+    "term": "Transmon",
+    "shortDef": "A type of superconducting charge qubit designed to be insensitive to charge noise.",
+    "eli5Def": "A specific design for a quantum bit that is very stable and less likely to be disturbed by electrical static.",
+    "wikiTitle": "Transmon"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "2611.14339",
+ "version": 1,
+ "title": "Dynamical Casimir emission from Floquet-driven Landau polaritons: Gauge invariance forbids a superradiant phase transition",
+ "authors": [
+  {
+   "name": "S. Hughes"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-10T17:04:14Z",
+ "updated": "2026-11-10T17:04:14Z",
+ "abstract": "Ultrastrong light--matter coupling of linear systems, such as Landau polaritons formed by a two-dimensional electron gas in a terahertz cavity, is described by the bosonic Hopfield model, and gauge invariance forbids a superradiant phase transition (SRPT). Modulating the magnetic field alone has been predicted to enhance the cycle-averaged coupling and induce a Floquet SRPT. We develop an exact theory of periodically driven Landau polaritons. Including the electric field induced by the modulated flux (Faraday's law), the problem reduces exactly, by Kohn's theorem, to the electronic center-of-mass mode coupled to the cavity, whose Hamiltonian is a sum of squares at every instant. A theorem of Krein then guarantees stability to all orders above a computable drive frequency, the Krein frequency, for which we give a self-contained proof. Below it, the system is stable except within resonance tongues where the drive creates pairs from the vacuum, the dynamical Casimir effect. At high drive frequency the electrons experience the mean field plus a ponderomotive trap (the Fock--Darwin problem), not an enhanced coupling. A gauge theorem excludes a Floquet photon condensate for any band structure, including Kane nonparabolicity, for which we derive a generalized Thomas--Reiche--Kuhn (TRK) sum rule. The predicted transition arises from averaging the coupling in a fixed Landau-level basis, which yields an effective model that violates the TRK sum rule; under driving, gauge invariance also requires the induced Faraday field. The rule to modulate and average the minimal-coupling Hamiltonian, not the parameters of its projection, applies to any linear, minimally coupled system. Instead of an SRPT, magnetic modulation produces dynamical Casimir emission: Faraday-driven polariton--magnetoplasmon pairs at low threshold, and two-color photon pairs with up to 5--10~dB of two-mode squeezing.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.14339",
+  "pdf": "https://arxiv.org/pdf/2611.14339",
+  "html": "https://arxiv.org/html/2611.14339"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.14339v1/fig3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-12T15:31:25.617Z",
+  "hook": "Gauge invariance prevents superradiant phase transitions in Floquet-driven Landau polaritons, theory proves.",
+  "tldr": [
+   "The author analyzed periodically driven Landau polaritons to test if they could undergo a superradiant phase transition (SRPT).",
+   "By including the Faraday electric field, the author proved that gauge invariance forbids the transition.",
+   "Instead of an SRPT, the system exhibits dynamical Casimir emission, producing photon pairs with up to 10 dB of squeezing."
+  ],
+  "whyItMatters": "This settles a debate about whether certain quantum systems can spontaneously condense into a new phase of light and matter, proving that fundamental physical laws prevent it.",
+  "eli5": "Some scientists thought that shaking these quantum particles with a magnetic field would make them 'condense' into a super-state. This paper shows that nature's rules—specifically gauge invariance—forbid this, and instead, the system just spits out pairs of light particles.",
+  "keyNumbers": [
+   {
+    "value": "5-10 dB",
+    "label": "Two-mode squeezing",
+    "context": "The amount of squeezing produced by the dynamical Casimir emission."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Superradiant phase transition",
+    "shortDef": "A theoretical state where light and matter spontaneously couple to form a new phase.",
+    "eli5Def": "A hypothetical scenario where light and matter 'freeze' together into a single, collective state.",
+    "wikiTitle": "Superradiance"
+   },
+   {
+    "term": "Landau polaritons",
+    "shortDef": "Quasiparticles formed by coupling light to electrons in a magnetic field.",
+    "eli5Def": "Hybrid particles made of light and electrons dancing together in a magnetic field.",
+    "wikiTitle": "Polariton"
+   },
+   {
+    "term": "Dynamical Casimir effect",
+    "shortDef": "The creation of particles from a vacuum due to time-varying boundary conditions.",
+    "eli5Def": "Creating real particles out of empty space by shaking a mirror or field really fast.",
+    "wikiTitle": "Dynamical Casimir effect"
+   },
+   {
+    "term": "Gauge invariance",
+    "shortDef": "A symmetry principle ensuring physical laws remain unchanged under local transformations.",
+    "eli5Def": "A rule that says the math describing physics shouldn't change just because you define your coordinates differently.",
+    "wikiTitle": "Gauge theory"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 80
+ }
+}

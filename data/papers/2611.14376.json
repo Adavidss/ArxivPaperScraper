@@ -1,0 +1,85 @@
+{
+ "id": "2611.14376",
+ "version": 1,
+ "title": "Operational limits of reference renewal for retained quantum-service results",
+ "authors": [
+  {
+   "name": "Roberto Fernández-Barrios"
+  },
+  {
+   "name": "Iker Pastor-López"
+  },
+  {
+   "name": "Amaia Pikatza-Huerga"
+  },
+  {
+   "name": "Pablo García Bringas"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.SE"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-10T17:31:11Z",
+ "updated": "2026-11-10T17:31:11Z",
+ "abstract": "We implement reference renewal to reconsider retained physical quantum-service results under a prespecified protocol. Twelve transitions retained six results each; ten completed renewal, eight met the prespecified endpoint, and five succeeded using retained results alone. The exact one-sided p=0.0546875 does not establish the recovery hypothesis. Incomplete references, binding failures and sequential waits expose operational limits. Offline reconstruction recovers decisions from preserved counts. Retrospective binding-plus-oracle checking accepts all 60 usable-transition results without renewal. With the exact oracle also supplying calibration scores, the study does not demonstrate incremental numerical-correctness utility of renewal.",
+ "comment": "23 pages, 3 figures. Supplementary material (14 pages; ESM_1.pdf) is available as an ancillary file. Submitted to Quantum Information Processing, Quantum Software Engineering collection. Numerical artifact (ESM_2.zip) and reproducibility archive: https://doi.org/10.5281/zenodo.24108573",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.14376",
+  "pdf": "https://arxiv.org/pdf/2611.14376",
+  "html": "https://arxiv.org/html/2611.14376"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-12T15:31:25.617Z",
+  "hook": "Study finds 'reference renewal'—re-checking quantum service results—fails to provide clear numerical-correctness gains.",
+  "tldr": [
+   "Researchers tested whether re-evaluating retained quantum-service results (reference renewal) improves the reliability of the final output.",
+   "They compared renewal protocols against oracle-based checking across 60 transition results.",
+   "The results showed that renewal did not provide significant incremental utility compared to simpler oracle-based verification."
+  ],
+  "whyItMatters": "As quantum services move to the cloud, we need to know if complex verification protocols are actually worth the extra computational cost.",
+  "eli5": "Imagine you solve a math problem and then re-check your work using a complicated second method. If the second method doesn't actually catch any new mistakes or make the answer more certain, it's just a waste of time. This study suggests that for quantum results, this 're-checking' might not be helping.",
+  "keyNumbers": [
+   {
+    "value": "0.0546875",
+    "label": "Exact p-value",
+    "context": "Statistical result for the recovery hypothesis."
+   },
+   {
+    "value": "60",
+    "label": "Total results",
+    "context": "Number of usable-transition results analyzed."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Reference renewal",
+    "shortDef": "A protocol to reconsider previously stored quantum results.",
+    "eli5Def": "A process of going back to look at old quantum data to see if it can be improved or verified again.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Oracle",
+    "shortDef": "A black-box function that provides the correct answer to a problem.",
+    "eli5Def": "An 'answer key' that tells you if your result is right or wrong without showing the work.",
+    "wikiTitle": "Oracle (computing)"
+   },
+   {
+    "term": "Quantum-service",
+    "shortDef": "Cloud-based access to quantum computing resources.",
+    "eli5Def": "Sending a problem to a powerful quantum computer over the internet to get an answer.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

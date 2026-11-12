@@ -1,0 +1,78 @@
+{
+ "id": "2611.14368",
+ "version": 1,
+ "title": "Invariance can prevent overfitting and shortcut learning in Quantum Neural Networks",
+ "authors": [
+  {
+   "name": "Giuseppe D'Ambruoso"
+  },
+  {
+   "name": "Giovanni Gramegna"
+  },
+  {
+   "name": "Domenico Pomarico"
+  },
+  {
+   "name": "Giuseppe Magnifico"
+  },
+  {
+   "name": "Cosmo Lupo"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-10T17:23:51Z",
+ "updated": "2026-11-10T17:23:51Z",
+ "abstract": "Many image classification tasks have labels that are unchanged by rotations and reflections. Equivariant quantum neural networks incorporate such symmetries by design, but the specific benefit of symmetry is difficult to isolate. Equivariant quantum circuits are usually compared with architectures that also differ in gates, structure or size. Here, we investigate the role of invariance in a controlled setting, classifying images whose labels are invariant under the dihedral group $D_4$. We compare four eight-qubit models with identical encoding, circuit structure and number of trainable parameters, and equivalent dynamical Lie algebras, and benchmark invariant implementations against non-invariant ones in terms of generalization error, robustness to shortcut learning and resilience to a realistic noise model. On four binary tasks, including MNIST and two scientific data sets of galaxies and red blood cells, the invariant models trained on a few tens of images show better generalization than non-invariant ones. Invariance also makes the models immune to orientation shortcuts: when trained with a class-dependent corner watermark, the non-invariant models learn the watermark and often drop to chance level when it is moved. We show that the gain in accuracy of invariant models persists also under a realistic noise model.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.14368",
+  "pdf": "https://arxiv.org/pdf/2611.14368",
+  "html": "https://arxiv.org/html/2611.14368"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.14368v1/fig_twirled.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-12T15:31:25.617Z",
+  "hook": "Equivariant quantum neural networks stop models from 'cheating' by learning image orientation instead of content.",
+  "tldr": [
+   "Researchers compared invariant and non-invariant quantum neural networks on image classification tasks.",
+   "They tested models on MNIST and scientific datasets, specifically checking for 'shortcut learning' using corner watermarks.",
+   "Invariant models showed better generalization and were immune to orientation-based shortcuts that fooled standard models."
+  ],
+  "whyItMatters": "AI models often take the 'easy way out' by learning irrelevant patterns; building symmetry into quantum models makes them more robust and reliable for scientific data.",
+  "eli5": "If you teach a computer to recognize a cat, it might 'cheat' by just looking at which way the cat is facing. If you rotate the photo, the computer fails. By building 'invariance' into the model, you force it to ignore the rotation and actually learn what a cat looks like.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Equivariant",
+    "shortDef": "A property where a transformation of the input results in a corresponding transformation of the output.",
+    "eli5Def": "If you turn the input upside down, the model's internal 'understanding' turns upside down too, keeping it consistent.",
+    "wikiTitle": "Equivariant map"
+   },
+   {
+    "term": "Shortcut learning",
+    "shortDef": "When a model relies on simple, non-generalizable patterns to solve a task.",
+    "eli5Def": "When a student memorizes the page number of the answer instead of learning how to solve the math problem.",
+    "wikiTitle": "Shortcut learning"
+   },
+   {
+    "term": "Quantum Neural Network",
+    "shortDef": "A machine learning model that uses quantum circuits as its core architecture.",
+    "eli5Def": "A computer brain that uses quantum physics to learn patterns from data.",
+    "wikiTitle": "Quantum machine learning"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 70
+ }
+}

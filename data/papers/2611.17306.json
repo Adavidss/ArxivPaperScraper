@@ -1,0 +1,85 @@
+{
+ "id": "2611.17306",
+ "version": 1,
+ "title": "Statistics of Fock-space correlation lengths in the many-body localised phase",
+ "authors": [
+  {
+   "name": "Bibek Saha"
+  },
+  {
+   "name": "David E. Logan"
+  },
+  {
+   "name": "Sthitadhi Roy"
+  }
+ ],
+ "categories": [
+  "cond-mat.dis-nn",
+  "cond-mat.stat-mech",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.dis-nn",
+ "published": "2026-11-12T18:56:50Z",
+ "updated": "2026-11-12T18:56:50Z",
+ "abstract": "The presence of long-ranged, many-body resonances in the many-body localised phase of disordered quantum systems is manifest in strong inhomogeneities of eigenstate amplitudes on the Fock space. We develop a quantitative, microscopic theory for this, centred on two-point Fock-space correlation functions. Exact diagonalisation of the disordered tilted-field Ising chain uncovers a stark contrast: typical correlations decay perfectly exponentially, whereas average correlations exhibit subexponential decay with systematic system-size dependence driven by rare resonant nodes. We show that this behaviour stems from an underlying distribution of Fock-space correlation lengths with a variance that scales inversely with system size. Crucially, the interplay of this distribution with the high-dimensional geometry of the hypercubic Fock-space graph, leads to the qualitative difference between the typical and average behaviours. The theory also allows us to derive the singularity spectrum of the many-body localised eigenstates, and to establish theoretically the anomalous symmetry violation of quantum multifractality as an inherent consequence of the Fock-space geometry.",
+ "comment": "7 pages, 5 figures, and supplementary material",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17306",
+  "pdf": "https://arxiv.org/pdf/2611.17306",
+  "html": "https://arxiv.org/html/2611.17306"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.17306v1/fs.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-13T14:49:41.278Z",
+  "hook": "Exact diagonalization of a disordered tilted-field Ising chain uncovers a stark contrast in Fock-space correlations.",
+  "tldr": [
+   "Developed a quantitative, microscopic theory centred on two-point Fock-space correlation functions for disordered quantum systems.",
+   "Performed exact diagonalisation of the disordered tilted-field Ising chain to analyze eigenstate amplitudes.",
+   "Found typical correlations decay exponentially while average correlations decay subexponentially due to rare resonant nodes."
+  ],
+  "whyItMatters": "Understanding how quantum systems fail to thermalize helps physicists control quantum information and build robust quantum computers.",
+  "eli5": "Think of a massive maze of quantum states where most paths lead nowhere, but a few secret tunnels let energy spread out wildly. This paper explains why looking at the average behavior of the maze gives you a completely different answer than looking at a typical path.",
+  "keyNumbers": [
+   {
+    "value": "7",
+    "label": "Pages",
+    "context": "Length of the manuscript"
+   },
+   {
+    "value": "5",
+    "label": "Figures",
+    "context": "Charts illustrating the correlation lengths and scaling behavior"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Many-body localization",
+    "shortDef": "A phenomenon where interacting quantum systems fail to reach thermal equilibrium.",
+    "eli5Def": "When a quantum system gets stuck and refuses to heat up or share its energy evenly.",
+    "wikiTitle": "Many-body localization"
+   },
+   {
+    "term": "Exact diagonalisation",
+    "shortDef": "A numerical method to solve the full quantum Hamiltonian matrix.",
+    "eli5Def": "Crunching all possible quantum states on a supercomputer to find exact answers.",
+    "wikiTitle": "Exact diagonalization"
+   },
+   {
+    "term": "Fock space",
+    "shortDef": "An algebraic construction used in quantum mechanics to represent variable particle numbers.",
+    "eli5Def": "A giant map representing all the possible ways particles can be arranged.",
+    "wikiTitle": "Fock space"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

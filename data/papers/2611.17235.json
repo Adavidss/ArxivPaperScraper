@@ -1,0 +1,78 @@
+{
+ "id": "2611.17235",
+ "version": 1,
+ "title": "Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
+ "authors": [
+  {
+   "name": "Elnaserledinellah Mahmoud Abdelwahab"
+  }
+ ],
+ "categories": [
+  "cs.AI",
+  "cs.FL"
+ ],
+ "primaryCategory": "cs.AI",
+ "published": "2026-11-12T18:23:56Z",
+ "updated": "2026-11-12T18:23:56Z",
+ "abstract": "This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational rules as simple Horn clause logical programs, this work proves that the semantics of closed Fiqh chapters collapse completely to deterministic Finite State Automata (FSA). We establish a formal computational hierarchy, demonstrating that restricting formalization to finite propositional Horn theories guarantees decidability and constant time (O(1)) verdict extraction after offline compilation. The framework formally proves that hierarchical compositions of sub-chapter FSAs preserve this O(1) complexity, and that temporal juristic requirements, such as Tartib (order), are deterministically flattened into static ontological states, preserving the memoryless property of the automaton. To generate human-readable juristic summaries, Al Ghasali incorporates Large Language Models (LLMs) via an architecture where the deterministic FSA strictly controls the probabilistic LLM. Crucially, the paper formulates sufficient design safety conditions for this FSA LLM integration, ensuring strict adherence to the epistemological boundaries of Usul al Fiqh. To neutralize the risk of LLM hallucination, the system employs a Grammar Guided Constrained Decoding mechanism. We formally define the mapping function that dynamically constructs unambiguous right linear grammars from the FSA execution history. The paper mathematically proves that this architecture, augmented by a Bounded Neutral Lexicon and Valence Locking, guarantees the absolute absence of Decisional Hallucination, Juristic Factual Hallucination, and Semantic Inversion reducing the LLM to a pure linguistic transformer of deterministic juristic facts",
+ "comment": "18 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17235",
+  "pdf": "https://arxiv.org/pdf/2611.17235",
+  "html": "https://arxiv.org/html/2611.17235"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-13T14:49:41.278Z",
+  "hook": "Al Ghasali framework proves Fiqh chapters collapse to deterministic Finite State Automata, guaranteeing O(1) verdicts.",
+  "tldr": [
+   "Built a computational framework called Al Ghasali to formalize and simulate Islamic jurisprudential (Fiqh) rulings.",
+   "Proved closed Fiqh chapters collapse to deterministic Finite State Automata and combined them with controlled Large Language Models.",
+   "Guaranteed the absolute absence of hallucinations and semantic inversions using Grammar Guided Constrained Decoding."
+  ],
+  "whyItMatters": "This research bridges strict traditional legal reasoning with modern artificial intelligence, creating a mathematically safe way to simulate complex rule systems without relying on unpredictable AI guesses.",
+  "eli5": "Imagine trying to write down every rule of a massive board game so a computer never has to guess what to do next. The researchers turned Islamic law into a giant flowchart where every path is 100% predictable, and then hired an AI just to read out the results in plain English without making things up.",
+  "keyNumbers": [
+   {
+    "value": "O(1)",
+    "label": "Verdict Extraction Complexity",
+    "context": "Constant time verdict extraction achieved after offline compilation."
+   },
+   {
+    "value": "18",
+    "label": "Pages",
+    "context": "Total length of the research paper."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Finite State Automata",
+    "shortDef": "A mathematical model of computation that can be in exactly one of a finite number of states at any given time.",
+    "eli5Def": "Like a tiny vending machine brain that only knows what to do based on the buttons you press right now.",
+    "wikiTitle": "Finite-state machine"
+   },
+   {
+    "term": "Horn Clause",
+    "shortDef": "A clause with at most one positive literal, commonly used in logic programming.",
+    "eli5Def": "A simple rule of logic shaped like 'if this and that happen, then this other thing is true.'",
+    "wikiTitle": "Horn clause"
+   },
+   {
+    "term": "Decisional Hallucination",
+    "shortDef": "An error where an AI model makes an incorrect decision or choice not grounded in reality.",
+    "eli5Def": "When an AI completely invents a wrong answer because it is guessing.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

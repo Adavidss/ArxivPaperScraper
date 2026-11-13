@@ -1,0 +1,73 @@
+{
+ "id": "2611.17333",
+ "version": 1,
+ "title": "Discrete Time Crystals from Anti-Unitary Floquet Driving and Dynamical Freezing",
+ "authors": [
+  {
+   "name": "Anirban Das"
+  },
+  {
+   "name": "Asmi Haldar"
+  },
+  {
+   "name": "Arnab Das"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-11-12T18:59:53Z",
+ "updated": "2026-11-12T18:59:53Z",
+ "abstract": "We show anti-unitary periodic drive paves a direct path for stabilizing a Discrete Time-Crystal by Dynamical Freezing (DF). The magnetization appears as an emergent conserved operator, and an exact pairing of two-cycle quasi-energies pins the subharmonic response. DF keeps the effective Hamiltonian $\\textit{quasi-local}$; infinite-chain simulations show no detectable decay for a generic state with any finite magnetization. We outline an experimental realization of the anti-unitary drive.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17333",
+  "pdf": "https://arxiv.org/pdf/2611.17333",
+  "html": "https://arxiv.org/html/2611.17333"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.17333v1/Fig1_UUDU_Anti-Unitary.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-13T14:49:41.278Z",
+  "hook": "Anti-unitary periodic drive paves a direct path for stabilizing a Discrete Time-Crystal by Dynamical Freezing.",
+  "tldr": [
+   "Showed that anti-unitary periodic drives help stabilize Discrete Time-Crystals.",
+   "Used Dynamical Freezing where magnetization acts as an emergent conserved operator.",
+   "Proved through infinite-chain simulations that generic states show no detectable decay."
+  ],
+  "whyItMatters": "Finding new ways to stabilize nonequilibrium quantum states is critical for developing advanced quantum technologies and memory storage.",
+  "eli5": "It is like discovering a secret recipe to keep a spinning top moving forever without slowing down, even when nudged.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Anti-Unitary",
+    "shortDef": "An operator that is antilinear and preserves inner products with a complex conjugation step.",
+    "eli5Def": "A mathematical mirror-reversal rule used in quantum physics.",
+    "wikiTitle": "Antiunitary operator"
+   },
+   {
+    "term": "Quasi-Local",
+    "shortDef": "Operators or interactions that decay exponentially outside a finite spatial region.",
+    "eli5Def": "Interactions that mostly affect close neighbors rather than far-away parts.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Subharmonic Response",
+    "shortDef": "A system response at a frequency that is a fraction of the driving frequency.",
+    "eli5Def": "Reacting slower than the rhythm of the force pushing on you, like nodding your head half as fast as a beat.",
+    "wikiTitle": "Subharmonic resonance"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 35
+ }
+}

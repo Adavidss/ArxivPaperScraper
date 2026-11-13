@@ -1,0 +1,119 @@
+{
+ "id": "2611.17335",
+ "version": 1,
+ "title": "Long-lived light-driven bimagnons at finite momentum in NiO",
+ "authors": [
+  {
+   "name": "Xian P. Yang"
+  },
+  {
+   "name": "Christopher T. Parzyck"
+  },
+  {
+   "name": "Martin Cross"
+  },
+  {
+   "name": "Ella Blake"
+  },
+  {
+   "name": "Octave Duros"
+  },
+  {
+   "name": "Yinchuan Lv"
+  },
+  {
+   "name": "Hari Paudyal"
+  },
+  {
+   "name": "Che-Min Lin"
+  },
+  {
+   "name": "Sharon S. Philip"
+  },
+  {
+   "name": "Lingjia Shen"
+  },
+  {
+   "name": "Daniel Jost"
+  },
+  {
+   "name": "Giacomo Coslovich"
+  },
+  {
+   "name": "Joshua J. Turner"
+  },
+  {
+   "name": "Choongwon Seo"
+  },
+  {
+   "name": "Elyse Schriber"
+  },
+  {
+   "name": "Michael E. Flatté"
+  },
+  {
+   "name": "Xiaoqin Li"
+  },
+  {
+   "name": "Yuri Suzuki"
+  },
+  {
+   "name": "Durga Paudyal"
+  },
+  {
+   "name": "Harold Y. Hwang"
+  },
+  {
+   "name": "Georgi L. Dakovski"
+  },
+  {
+   "name": "Matthias C. Hoffmann"
+  },
+  {
+   "name": "Wei-Sheng Lee"
+  },
+  {
+   "name": "Alexander H. Reid"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "cond-mat.mtrl-sci",
+  "physics.optics",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-11-12T18:59:55Z",
+ "updated": "2026-11-12T18:59:55Z",
+ "abstract": "Light can manipulate magnetic order and its excitations on ultrafast timescales, including through resonantly driven phonons. In antiferromagnets, light can also create correlated magnon pairs, or bimagnons. Unlike single magnons, whose damping has been measured and modeled in detail, little is known about the lifetime, interactions and decay of such correlated pairs: prior two-magnon measurements show broad linewidths or coherences that dephase within 200 fs. Here we pump the phonon-assisted two-magnon absorption of NiO with mid-infrared pulses, far below its bandgap, and probe the resulting magnetic dynamics at finite momentum with time-resolved resonant inelastic X-ray scattering (RIXS). Upon photoexcitation, the one-magnon linewidth and energy are essentially unchanged, indicating that the long-range magnetic order is preserved without the photocarrier-induced demagnetization characteristic of above-bandgap excitation. A pump-induced two-magnon signal appears on the energy-gain (anti-Stokes) side of the spectrum. Its spectral weight peaks 4 ps after the pump, well beyond our 0.5 ps time resolution, indicative of a delayed growth likely due to momentum redistribution of the light-induced magnon pairs across the Brillouin zone. This two-magnon signal decays with a time constant of $28\\pm11$ ps, exceeding the previously reported two-magnon dephasing time by more than two orders of magnitude. These results establish long-lived light-driven bimagnon correlations beyond the one-magnon state, akin to the higher-order correlations measured in ultracold gases.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17335",
+  "pdf": "https://arxiv.org/pdf/2611.17335",
+  "html": "https://arxiv.org/html/2611.17335"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.17335v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-11-13T14:49:41.278Z",
+  "hook": "Light can manipulate magnetic order and its excitations on ultrafast timescales, including through resonantly driven…",
+  "tldr": [
+   "Unlike single magnons, whose damping has been measured and modeled in detail, little is known about the lifetime, interactions and decay of such correlated…",
+   "In antiferromagnets, light can also create correlated magnon pairs, or bimagnons.",
+   "These results establish long-lived light-driven bimagnon correlations beyond the one-magnon state, akin to the higher-order correlations measured in ultracold…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 38
+ }
+}

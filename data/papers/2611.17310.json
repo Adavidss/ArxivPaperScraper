@@ -1,0 +1,85 @@
+{
+ "id": "2611.17310",
+ "version": 1,
+ "title": "Quantum Metrology and Quantum Battery in a Hyperfine-Coupled Spin System",
+ "authors": [
+  {
+   "name": "Omar Bachain"
+  },
+  {
+   "name": "Mohamed Amazioug"
+  },
+  {
+   "name": "Rachid Ahl Laamara"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-12T18:56:57Z",
+ "updated": "2026-11-12T18:56:57Z",
+ "abstract": "We investigate multiparameter quantum metrology and the energetic properties of an effective electron--proton spin system inspired by the hyperfine structure of the hydrogen atom. Considering the external magnetic field $\\mathcal B$ and the hyperfine coupling strength $Λ$ as unknown parameters, we derive the quantum Fisher information matrix and establish the corresponding quantum Cramér--Rao bounds for their simultaneous estimation. We analyze the estimation precision and the correlations between the two parameters, showing that the weak-commutativity condition is satisfied despite the noncommutativity of the associated symmetric logarithmic derivatives. Independently, we explore the energetic properties of the system under a unitary charging protocol, characterizing its ergotropy, anti-ergotropy, storage capacity, and energy-basis coherence. We investigate the dependence of these quantities on the magnetic field, hyperfine coupling, temperature, and charging time. Our results provide a comprehensive characterization of the metrological properties and energetic performance of a hyperfine spin-based quantum system, highlighting its potential as a platform for quantum sensing and energy storage.",
+ "comment": "14 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17310",
+  "pdf": "https://arxiv.org/pdf/2611.17310",
+  "html": "https://arxiv.org/html/2611.17310"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.17310v1/fig0.PNG"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-13T14:49:41.278Z",
+  "hook": "We study a hydrogen-inspired electron-proton spin system to simultaneously estimate magnetic fields and coupling strengths.",
+  "tldr": [
+   "Investigated multiparameter quantum metrology and energy storage in a hyperfine-coupled electron-proton spin system.",
+   "Derived the quantum Fisher information matrix, Cramers-Rao bounds, and analyzed a unitary charging protocol.",
+   "Demonstrated satisfaction of the weak-commutativity condition and characterized ergotropy, storage capacity, and coherence."
+  ],
+  "whyItMatters": "This research provides a concrete roadmap for building better quantum sensors and microscopic energy storage devices using fundamental atomic structures.",
+  "eli5": "Imagine trying to tune a tiny microscopic radio using both a magnet and an internal spring. This paper figures out how precisely you can measure both dials at once while also using the system like a tiny rechargeable battery.",
+  "keyNumbers": [
+   {
+    "value": "14",
+    "label": "Pages",
+    "context": "Total length of the research paper"
+   },
+   {
+    "value": "8",
+    "label": "Figures",
+    "context": "Visual diagrams and data plots included in the paper"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum metrology",
+    "shortDef": "The use of quantum mechanics to achieve high-precision measurements.",
+    "eli5Def": "Using quantum tricks to make incredibly accurate rulers and clocks.",
+    "wikiTitle": "Quantum metrology"
+   },
+   {
+    "term": "Ergotropy",
+    "shortDef": "The maximum extractable work from a quantum system via unitary operations.",
+    "eli5Def": "The maximum amount of useful energy you can squeeze out of a quantum battery.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Hyperfine coupling",
+    "shortDef": "Interaction between the magnetic moment of a nucleus and the electrons.",
+    "eli5Def": "The magnetic chatter between the center of an atom and its orbiting cloud.",
+    "wikiTitle": "Hyperfine structure"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

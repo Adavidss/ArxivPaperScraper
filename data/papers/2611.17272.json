@@ -1,0 +1,72 @@
+{
+ "id": "2611.17272",
+ "version": 1,
+ "title": "Stiffness in Confined Quantum Walks",
+ "authors": [
+  {
+   "name": "Pablo G. M. Dantas"
+  },
+  {
+   "name": "Rafael Vieira"
+  },
+  {
+   "name": "Edgard P. M. Amorim"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-12T18:47:36Z",
+ "updated": "2026-11-12T18:47:36Z",
+ "abstract": "We investigate boundary-induced stiffness in discrete-time quantum walks confined to a finite lattice by unitary reflecting boundaries implemented through coin-flip operations. We define a dimensionless spreading stiffness from the instantaneous variation of the spatial width relative to the asymptotic spreading rate of the corresponding unconfined Hadamard walk and compare localized, Gaussian, and truncated-uniform initial states. The long-time response retains a strong dependence on the initial spatial profile: the localized and truncated-uniform states show an overall increase in stiffness with increasing confinement size, whereas the Gaussian state exhibits a nonmonotonic dependence with a broad maximum at intermediate sizes. The first and second stiffness moments satisfy the expected asymptotic consistency relation in the high-stiffness regime. The normalized Kullback--Leibler divergence reveals a slower spatial reorganization and qualitatively different finite-size trends, showing that dynamical stiffness and spatial homogenization are distinct properties. These results indicate that unitary confinement produces an intrinsically nonstationary regime whose long-time properties emerge from the interplay between boundary reflections, system size, and the spatial structure of the initial state.",
+ "comment": "Two columns, 14 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17272",
+  "pdf": "https://arxiv.org/pdf/2611.17272",
+  "html": "https://arxiv.org/html/2611.17272"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.17272v1/Fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-14T13:44:32.557Z",
+  "hook": "Confined quantum walks develop an intrinsic, boundary-driven stiffness that retains long-term memory of initial shape.",
+  "tldr": [
+   "Studied spreading stiffness in discrete-time quantum walks bounded inside a finite lattice.",
+   "Tracked spreading rates and Kullback-Leibler divergence for localized, Gaussian, and uniform states.",
+   "Found long-time stiffness depends strongly on initial shapes, producing nonstationary behavior from reflections."
+  ],
+  "whyItMatters": "Understanding boundary effects in confined quantum dynamics is critical for designing compact quantum algorithms and solid-state quantum simulations.",
+  "eli5": "Picture ripples trapped in a tiny box. Instead of smoothing out into uniform sloshing, quantum ripples hit the walls and resist spreading in ways that depend directly on how the water drop initially landed.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum walk",
+    "shortDef": "Quantum counterpart of a classical random walk, exhibiting quantum superposition and interference.",
+    "eli5Def": "A particle stepping left or right based on quantum coin flips, spreading out much faster than a regular walker.",
+    "wikiTitle": "Quantum walk"
+   },
+   {
+    "term": "Kullback-Leibler divergence",
+    "shortDef": "A statistical measure of how one probability distribution differs from a reference distribution.",
+    "eli5Def": "A mathematical test scoring how different two probability patterns are from each other.",
+    "wikiTitle": "Kullback–Leibler divergence"
+   },
+   {
+    "term": "Hadamard walk",
+    "shortDef": "A standard quantum walk governed by the balanced unitary Hadamard coin operator.",
+    "eli5Def": "The classic quantum walk where a 50-50 quantum coin determines the steps.",
+    "wikiTitle": "Quantum walk"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

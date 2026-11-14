@@ -1,0 +1,87 @@
+{
+ "id": "2611.17281",
+ "version": 1,
+ "title": "Near-Optimal Multiparameter Pure-State Metrology with a Constant Number of Bases",
+ "authors": [
+  {
+   "name": "Bowen Xiao"
+  },
+  {
+   "name": "Zhiyao Yang"
+  },
+  {
+   "name": "Huangjun Zhu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-12T18:51:22Z",
+ "updated": "2026-11-12T18:51:22Z",
+ "abstract": "Multiparameter pure-state metrology is limited by the incompatibility of measurements optimized for different parameters. We characterize uniform sensitivity by the Fisher floor, the smallest fraction of the quantum Fisher information (QFI) retained over all pure states and parameter directions. We prove that a constant number of fixed orthonormal bases suffices for a nearly optimal Fisher floor, independently of the Hilbert-space dimension $d$. With high probability, five independent Haar bases already achieve a positive, dimension-independent floor, and larger constant families achieve approximate universal Fisher symmetry: they retain nearly one half of the QFI in every direction, the largest uniform fraction permitted by measurement incompatibility. The required number of bases is optimal up to a logarithmic factor in inverse accuracy. In contrast, $d+1$ mutually unbiased bases, when they exist, can minimize mean Fisher anisotropy among families of $d+1$ bases yet have a Fisher floor of at most $1/(d+1)$, showing that optimal average balance does not ensure uniform sensitivity.",
+ "comment": "8+27 pages, 2 figures, and 1+2 tables; comments and suggestions are very welcome! see also \"Sharp Uniform Fisher Information Bounds from Projective Designs\"",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17281",
+  "pdf": "https://arxiv.org/pdf/2611.17281",
+  "html": "https://arxiv.org/html/2611.17281"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-14T13:44:32.557Z",
+  "hook": "Just 5 fixed measurement bases guarantee high multiparameter quantum sensitivity regardless of system dimension.",
+  "tldr": [
+   "Investigated whether a constant number of measurement bases can achieve uniform sensitivity in high dimensions.",
+   "Analyzed random Haar bases and mutually unbiased bases to bound worst-case Fisher information fractions.",
+   "Showed five random bases beat d+1 mutually unbiased bases, which fail with Fisher floors decaying as 1/(d+1)."
+  ],
+  "whyItMatters": "This result proves that quantum sensors can measure many unknown parameters simultaneously without scaling up the hardware complexity as the quantum system grows.",
+  "eli5": "If you want to view a complex 3D statue from all angles, you might assume you need hundreds of cameras as the statue gets bigger. In reality, just five well-chosen viewing angles can reveal almost everything.",
+  "keyNumbers": [
+   {
+    "value": "5",
+    "label": "independent Haar bases",
+    "context": "Number of random bases required to achieve a positive, dimension-independent Fisher floor"
+   },
+   {
+    "value": "1/2",
+    "label": "universal Fisher symmetry limit",
+    "context": "Maximum uniform fraction of QFI allowed by quantum measurement incompatibility"
+   },
+   {
+    "value": "1/(d+1)",
+    "label": "maximum Fisher floor of MUBs",
+    "context": "The worst-case sensitivity bound for d+1 mutually unbiased bases, which drops to zero in large dimensions"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Multiparameter metrology",
+    "shortDef": "The science of estimating multiple physical quantities simultaneously using quantum systems.",
+    "eli5Def": "Measuring multiple knobs of a quantum system at the exact same time.",
+    "wikiTitle": "Quantum metrology"
+   },
+   {
+    "term": "Mutually unbiased bases",
+    "shortDef": "Orthonormal bases where knowing a state in one basis gives completely uncertain outcomes in another.",
+    "eli5Def": "Different ways of measuring a particle such that knowing one property makes another totally unpredictable.",
+    "wikiTitle": "Mutually unbiased bases"
+   },
+   {
+    "term": "Fisher floor",
+    "shortDef": "The worst-case fraction of quantum Fisher information retained across all states and parameters.",
+    "eli5Def": "The guaranteed minimum precision of a measurement setup under the worst conditions.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

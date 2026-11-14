@@ -1,0 +1,109 @@
+{
+ "id": "2611.17265",
+ "version": 1,
+ "title": "A deployed four-city entanglement-based QKD network with real-time key delivery, benchmarked against finite-key security bounds",
+ "authors": [
+  {
+   "name": "Gilberto Borges"
+  },
+  {
+   "name": "Saeid Salari"
+  },
+  {
+   "name": "Ekta Panwar"
+  },
+  {
+   "name": "Samgeeth Puliyil"
+  },
+  {
+   "name": "Kartik Kakade"
+  },
+  {
+   "name": "Peter Rapčan"
+  },
+  {
+   "name": "Mario Ziman"
+  },
+  {
+   "name": "Djeylan Aktas"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-12T18:45:08Z",
+ "updated": "2026-11-12T18:45:08Z",
+ "abstract": "Quantum key distribution (QKD) generates shared secret keys whose security rests on the laws of physics rather than on computational assumptions. We report the entanglement-based segment of the Slovak national quantum communication infrastructure, connecting four cities in western Slovakia over deployed telecommunication fiber. Polarization-entangled photons generated at a central node are passively routed by wavelength to form a trusted-node-free, fully meshed sub-network of three cities, with the fourth connected through the central node and all links operated simultaneously. We also introduce a matrix formalism for passive wavelength routing that enables the algorithmic construction of uniquely and fully connected topologies. Unlike most previous demonstrations, which estimate key rates from raw coincidences, all rates reported here are obtained after the complete post-processing chain, with keys delivered in real time via ETSI GS QKD 014. With partial non-local chromatic dispersion compensation, we obtain 13.5 bit/s over 109 km, and 4.3 bit/s over 32.1 dB of accumulated loss between two cities without a direct fiber link. Benchmarking against finite-key security bounds shows that the implemented heuristic privacy amplification can exceed the finite-key bound, and that replacing detect-and-discard with error correction would increase the finite-key rate by a factor of 4.1-6.6, and yield a positive finite-key rate on the 142.9 km link where the implemented scheme yields none.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17265",
+  "pdf": "https://arxiv.org/pdf/2611.17265",
+  "html": "https://arxiv.org/html/2611.17265"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.17265v1/slovakia_maps_network.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-14T13:44:32.557Z",
+  "hook": "We built a 4-city quantum network using entangled photons, achieving 13.5 bit/s over 109 km with real-time key delivery.",
+  "tldr": [
+   "Deployed an entanglement-based quantum key distribution network connecting four cities in western Slovakia over standard fiber.",
+   "Used polarization-entangled photons and a new matrix formalism for passive wavelength routing to create a fully meshed topology.",
+   "Achieved 13.5 bit/s over 109 km and 4.3 bit/s over 32.1 dB of accumulated loss, delivering keys in real time via ETSI standards."
+  ],
+  "whyItMatters": "Demonstrating a multi-city quantum network with real-time key delivery over deployed telecom fiber brings unbreakable quantum cryptography closer to everyday infrastructure.",
+  "eli5": "Imagine sending secret messages using magic glowing coins shared between cities: if anyone tries to peek at them, the magic breaks and you instantly know. These scientists successfully set up a network of these quantum coins across four real cities.",
+  "keyNumbers": [
+   {
+    "value": "4",
+    "label": "Cities",
+    "context": "Connecting four cities in western Slovakia over deployed telecommunication fiber"
+   },
+   {
+    "value": "13.5 bit/s",
+    "label": "Key rate",
+    "context": "We obtain 13.5 bit/s over 109 km"
+   },
+   {
+    "value": "109 km",
+    "label": "Distance",
+    "context": "Obtain 13.5 bit/s over 109 km"
+   },
+   {
+    "value": "32.1 dB",
+    "label": "Accumulated loss",
+    "context": "4.3 bit/s over 32.1 dB of accumulated loss between two cities"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum key distribution",
+    "shortDef": "A secure communication method that uses quantum mechanics to exchange cryptographic keys.",
+    "eli5Def": "A way for two people to create a secret code using quantum physics so that any spy is instantly caught.",
+    "wikiTitle": "Quantum key distribution"
+   },
+   {
+    "term": "Polarization-entangled photons",
+    "shortDef": "Light particles linked together in such a way that their polarization states are perfectly correlated.",
+    "eli5Def": "Two light particles that act like a pair of magical dice rolling the exact same number no matter how far apart they go.",
+    "wikiTitle": "Photon polarization"
+   },
+   {
+    "term": "Chromatic dispersion",
+    "shortDef": "The spreading of a light pulse as it travels through a fiber due to different wavelengths traveling at different speeds.",
+    "eli5Def": "When different colors of light travel down a glass tube at slightly different speeds, causing the light pulse to smear out.",
+    "wikiTitle": "Dispersion (optics)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

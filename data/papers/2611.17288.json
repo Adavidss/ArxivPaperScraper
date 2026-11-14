@@ -1,0 +1,92 @@
+{
+ "id": "2611.17288",
+ "version": 1,
+ "title": "Sharp Uniform Fisher Information Bounds from Projective Designs",
+ "authors": [
+  {
+   "name": "Zhiyao Yang"
+  },
+  {
+   "name": "Bowen Xiao"
+  },
+  {
+   "name": "Huangjun Zhu"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-12T18:52:33Z",
+ "updated": "2026-11-12T18:52:33Z",
+ "abstract": "Fixed measurements for multiparameter pure-state metrology must remain informative without knowing the input state. We quantify this requirement by the Fisher floor, the smallest fraction of the quantum Fisher information that a measurement retains over all pure states and tangent directions. We determine the Fisher guarantees, namely lower bounds on Fisher floors, implied by projective design order alone in every dimension $d\\ge 2$. These guarantees are sharp at order $t=2$ and every odd order $t\\ge 3$, and finite weighted designs attain them; at even orders, our bounds are nearly tight. As the order increases, the guarantees approach one half, the single-copy quantum limit. Sampling and spectral completion of any 3-design yield, with probability $1-O(1/d)$, a measurement with linearly many outcomes and a dimension-independent Fisher floor. Such a measurement separates all pure states in Hellinger distance, so pure-state maximum-likelihood estimation from $N$ copies attains mean infidelity $O(d/N)$ uniformly over pure states, optimal up to a universal constant factor.",
+ "comment": "17+37 pages, 8 figures, 3 tables; comments and suggestions are very welcome! See also \"Near-Optimal Multiparameter Pure-State Metrology with a Constant Number of Bases\"",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17288",
+  "pdf": "https://arxiv.org/pdf/2611.17288",
+  "html": "https://arxiv.org/html/2611.17288"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-14T13:44:32.557Z",
+  "hook": "Projective designs yield measurements with uniform Fisher floors approaching the single-copy quantum limit of 1/2.",
+  "tldr": [
+   "Analyzed how well fixed quantum measurements estimate unknown pure states across all parameter directions.",
+   "Derived dimension-independent lower bounds on Fisher floors determined purely by projective design order.",
+   "Proved sampling from a 3-design achieves optimal state infidelity O(d/N) with only linearly many outcomes."
+  ],
+  "whyItMatters": "Building quantum sensors that accurately measure unknown quantum states without requiring prior state knowledge is crucial for practical quantum metrology.",
+  "eli5": "Imagine trying to weigh an unknown object accurately no matter how it is tilted. The researchers discovered a specific set of balanced measurements that guarantees reliable readings in every direction.",
+  "keyNumbers": [
+   {
+    "value": "1/2",
+    "label": "single-copy quantum limit",
+    "context": "The asymptotic guarantee approached as design order increases"
+   },
+   {
+    "value": "1 - O(1/d)",
+    "label": "success probability",
+    "context": "Probability of obtaining a measurement with linearly many outcomes via 3-design sampling"
+   },
+   {
+    "value": "O(d/N)",
+    "label": "mean infidelity",
+    "context": "Optimal state estimation error scaling from N copies across all pure states"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Fisher floor",
+    "shortDef": "Smallest fraction of quantum Fisher information retained across all pure states and tangent directions.",
+    "eli5Def": "The worst-case sensitivity of a measurement setup across any possible state orientation.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Quantum Fisher information",
+    "shortDef": "A metric quantifying the maximum precision attainable when estimating parameters of a quantum state.",
+    "eli5Def": "A mathematical speedometer showing how fast a quantum state changes when parameters shift.",
+    "wikiTitle": "Quantum Fisher information"
+   },
+   {
+    "term": "Projective design",
+    "shortDef": "A discrete set of quantum states that mimics uniform Haar-measure averages up to a given polynomial degree.",
+    "eli5Def": "A cleverly chosen handful of points on a sphere that balance out as if you sampled the whole sphere evenly.",
+    "wikiTitle": "Spherical design"
+   },
+   {
+    "term": "Hellinger distance",
+    "shortDef": "A metric measuring the difference between two probability distributions.",
+    "eli5Def": "A ruler used to quantify how distinguishable two sets of measurement odds are.",
+    "wikiTitle": "Hellinger distance"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

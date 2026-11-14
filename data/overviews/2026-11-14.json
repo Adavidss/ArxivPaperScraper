@@ -1,0 +1,50 @@
+{
+ "date": "2026-11-14",
+ "generatedAt": "2026-11-14T13:44:32.557Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Quantum state bounds, metrology, and scaled simulations",
+ "summary": "Today's research spans fundamental quantum metrology, environmental memory diagnostics, deployed entanglement-based QKD networks, and scalable tensor simulation techniques. Together, these papers highlight a continued push toward rigorous performance bounds and practical scalability across quantum information science.",
+ "themes": [
+  {
+   "title": "Quantum Metrology & Fisher Bounds",
+   "body": "New techniques establish dimension-independent Fisher information floors using projective designs and constant measurement bases, pushing past traditional limitations in quantum state estimation.",
+   "paperIds": [
+    "2611.17288",
+    "2611.17281"
+   ]
+  },
+  {
+   "title": "Memory, Walks, and Networks",
+   "body": "Investigations into confined quantum walks reveal boundary-driven stiffness and shape memory, while experimental setups demonstrate genuine three-time quantum memory and a deployed four-city entanglement QKD network.",
+   "paperIds": [
+    "2611.17272",
+    "2611.17268",
+    "2611.17265"
+   ]
+  },
+  {
+   "title": "Scalable Quantum Simulation",
+   "body": "New algorithmic strategies using F2-linear hash partitioning allow scalable Pauli propagation, avoiding synchronization bottlenecks to simulate over ten billion Pauli strings.",
+   "paperIds": [
+    "2611.17262"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers address high-dimensional quantum measurement efficiency, with 2611.17288 utilizing projective designs and 2611.17281 investigating a constant number of measurement bases.",
+   "paperIds": [
+    "2611.17288",
+    "2611.17281"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2611.17288",
+  "2611.17281",
+  "2611.17272",
+  "2611.17268",
+  "2611.17265",
+  "2611.17262"
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "id": "2611.17262",
+ "version": 1,
+ "title": "Scalable Pauli propagation through $\\mathbb{F}_2$-linear partitioning",
+ "authors": [
+  {
+   "name": "Alev Orfi"
+  },
+  {
+   "name": "Andrew Kille"
+  },
+  {
+   "name": "J. Clayton Peacock"
+  },
+  {
+   "name": "Jack Dunham"
+  },
+  {
+   "name": "Lukas Devos"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-12T18:43:30Z",
+ "updated": "2026-11-12T18:43:30Z",
+ "abstract": "Pauli propagation simulates quantum circuits and many-body dynamics by evolving observables in the Heisenberg picture as sparse sums of Pauli strings. As Pauli-string operations reduce to bit manipulations, its performance is limited by memory bandwidth and capacity rather than computational throughput. Pooling the memory of many cores and nodes is hindered by the deduplication step after every gate, which can require global synchronization. We avoid this bottleneck by partitioning the strings with an $\\mathbb{F}_2$-linear hash function, which guarantees that a $k$-qubit channel couples each partition to at most $4^k$ partitions fixed by the gate, decomposing gate application into independent tasks with bounded communication. Benchmarks of our open-source implementation demonstrate efficient parallel scaling within and across compute nodes, enabling simulations with over $10^{11}$ Pauli strings and extending the accessible timescales of quantum many-body dynamics.",
+ "comment": "11 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17262",
+  "pdf": "https://arxiv.org/pdf/2611.17262",
+  "html": "https://arxiv.org/html/2611.17262"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-14T13:44:32.557Z",
+  "hook": "Simulate quantum circuits with over 10 billion Pauli strings by avoiding global memory synchronization bottlenecks.",
+  "tldr": [
+   "Simulated quantum circuits and many-body dynamics by evolving observables as sparse sums of Pauli strings.",
+   "Used an F2-linear hash function to partition strings, decomposing gate application into independent tasks with bounded communication.",
+   "Demonstrated efficient parallel scaling enabling simulations with over 10 to the 11th power Pauli strings."
+  ],
+  "whyItMatters": "Efficient simulation of quantum many-body systems helps researchers understand complex quantum materials and algorithms without needing immediate access to massive physical quantum computers.",
+  "eli5": "Tracking how a quantum system changes usually requires a massive computer to constantly stop and check in with all its parts at once. By sorting the data into clever separate buckets ahead of time, the computer can work independently and speed way up.",
+  "keyNumbers": [
+   {
+    "value": "10^11",
+    "label": "Pauli strings",
+    "context": "Enabling simulations with over 10^11 Pauli strings and extending accessible timescales"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Pauli strings",
+    "shortDef": "Tensor products of Pauli matrices used to represent quantum states and operators.",
+    "eli5Def": "Mathematical building blocks used to describe the spooky spins of multiple quantum particles at once.",
+    "wikiTitle": "Pauli matrices"
+   },
+   {
+    "term": "Heisenberg picture",
+    "shortDef": "A formulation of quantum mechanics where the operators evolve in time while the state vectors remain fixed.",
+    "eli5Def": "A way of doing math in physics where you watch the tools change over time instead of the system itself.",
+    "wikiTitle": "Heisenberg picture"
+   },
+   {
+    "term": "Memory bandwidth",
+    "shortDef": "The rate at which data can be read from or stored in computer memory by a processor.",
+    "eli5Def": "How wide the pipe is for moving information in and out of a computer memory chip.",
+    "wikiTitle": "Memory bandwidth"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

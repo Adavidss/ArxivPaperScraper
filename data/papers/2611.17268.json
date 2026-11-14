@@ -1,0 +1,93 @@
+{
+ "id": "2611.17268",
+ "version": 1,
+ "title": "Observation of Genuine Multi-Time Quantum Memory",
+ "authors": [
+  {
+   "name": "Konstantin Beyer"
+  },
+  {
+   "name": "Valentin Link"
+  },
+  {
+   "name": "Surihan Sean Borjigin"
+  },
+  {
+   "name": "Qian Cao"
+  },
+  {
+   "name": "Orion Lee"
+  },
+  {
+   "name": "Kater Murch"
+  },
+  {
+   "name": "Igor Pikovski"
+  },
+  {
+   "name": "Philip Taranto"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-12T18:46:04Z",
+ "updated": "2026-11-12T18:46:04Z",
+ "abstract": "Memory effects in open quantum systems do not by themselves imply quantum memory, since non-Markovian dynamics can often be reproduced by classical-memory models. Known criteria certify the presence of quantum memory in the environment by comparing the evolution of the system at two different times. We show that quantum memory can remain hidden from all such pairwise tests and become detectable only when three or more times are considered jointly. We derive an analytical three-time witness and use it to certify quantum memory in a minimal qubit example in which every pair of times has a classical-memory explanation, thus establishing a strict hierarchy of quantum memory effects. Genuine multi-time quantum memory does not rely on fine-tuned time-dependent Hamiltonians or gate-based evolution. We experimentally demonstrate the hierarchy of quantum memory in a time-continuous realization on a superconducting-qubit platform with time-independent couplings.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17268",
+  "pdf": "https://arxiv.org/pdf/2611.17268",
+  "html": "https://arxiv.org/html/2611.17268"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.17268v1/discrete_example_bloch_elbow.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-14T13:44:32.557Z",
+  "hook": "Environment memory can mimic classical physics between any two moments yet reveal true quantum memory across three.",
+  "tldr": [
+   "Addressed the challenge of distinguishing genuine quantum environmental memory from classical memory effects.",
+   "Formulated an analytical three-time witness and verified it experimentally on superconducting qubits.",
+   "Demonstrated a memory effect that completely hides from two-time tests but is certified across three times."
+  ],
+  "whyItMatters": "This exposes a blind spot in how quantum hardware evaluates decoherence, showing that standard two-point noise benchmarks can overlook truly quantum environment interactions.",
+  "eli5": "If you only compare snapshots of a crime scene two at a time, it looks like ordinary physics was at play. But look at three snapshots together, and the pattern reveals impossible quantum magic.",
+  "keyNumbers": [
+   {
+    "value": "3",
+    "label": "measurement times",
+    "context": "Minimum number of observation times required to expose genuine multi-time quantum memory"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Non-Markovian dynamics",
+    "shortDef": "System evolution where the surrounding environment retains and feeds back historical information.",
+    "eli5Def": "A process where the environment remembers past events and alters the present accordingly.",
+    "wikiTitle": "Non-Markovianity"
+   },
+   {
+    "term": "Open quantum systems",
+    "shortDef": "Quantum systems that interact and exchange energy or information with an external environment.",
+    "eli5Def": "Quantum particles that can leak information into their surrounding surroundings.",
+    "wikiTitle": "Open quantum system"
+   },
+   {
+    "term": "Witness",
+    "shortDef": "An observable quantity whose threshold violation certifies a specific quantum property.",
+    "eli5Def": "A specific measurement test designed to catch a quantum property red-handed.",
+    "wikiTitle": "Entanglement witness"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

@@ -99,21 +99,51 @@
   "url": "https://arxiv.org/html/2611.17335v1/fig1.png"
  },
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-11-13T14:49:41.278Z",
-  "hook": "Light can manipulate magnetic order and its excitations on ultrafast timescales, including through resonantly driven…",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-14T13:44:32.557Z",
+  "hook": "Light-driven bimagnons in NiO survive for 28 ps, exceeding previous dephasing times by over two orders of magnitude.",
   "tldr": [
-   "Unlike single magnons, whose damping has been measured and modeled in detail, little is known about the lifetime, interactions and decay of such correlated…",
-   "In antiferromagnets, light can also create correlated magnon pairs, or bimagnons.",
-   "These results establish long-lived light-driven bimagnon correlations beyond the one-magnon state, akin to the higher-order correlations measured in ultracold…"
+   "Pumped phonon-assisted two-magnon absorption in NiO using mid-infrared pulses far below its bandgap.",
+   "Probed the resulting magnetic dynamics at finite momentum using time-resolved resonant inelastic X-ray scattering.",
+   "Found a two-magnon signal that peaks 4 ps after the pump and decays with a time constant of 28 picoseconds."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 38
+  "whyItMatters": "Discovering long-lived correlated magnetic pairs opens up new ways to manipulate magnetism with light on ultrafast timescales for future data storage devices.",
+  "eli5": "When you shine a specific light on certain magnetic crystals, you can create pairs of magnetic waves that dance together. Scientists found a way to make these dancing pairs last way longer than anyone thought possible.",
+  "keyNumbers": [
+   {
+    "value": "0.5 ps",
+    "label": "Time resolution",
+    "context": "Peak 4 ps after the pump, well beyond our 0.5 ps time resolution"
+   },
+   {
+    "value": "28±11 ps",
+    "label": "Time constant",
+    "context": "This two-magnon signal decays with a time constant of 28±11 ps"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Bimagnons",
+    "shortDef": "Correlated pairs of magnons, which are quasiparticles representing spin waves in magnetic materials.",
+    "eli5Def": "A pair of synchronized wave ripples traveling through a magnetic material.",
+    "wikiTitle": "Magnon"
+   },
+   {
+    "term": "Brillouin zone",
+    "shortDef": "A mathematically defined region in momentum space that describes periodic structures like crystals.",
+    "eli5Def": "A map of all the allowed wave patterns and momentum states inside a repeating crystal grid.",
+    "wikiTitle": "Brillouin zone"
+   },
+   {
+    "term": "Resonant inelastic X-ray scattering",
+    "shortDef": "An advanced spectroscopy technique using X-rays to probe excitations and dynamics in materials.",
+    "eli5Def": "Shooting X-rays at a material and seeing how much energy they lose when they bounce off, revealing its internal vibrations and magnetism.",
+    "wikiTitle": "Resonant inelastic X-ray scattering"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
  }
 }

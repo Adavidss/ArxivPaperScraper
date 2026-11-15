@@ -1,0 +1,80 @@
+{
+ "id": "2611.17246",
+ "version": 1,
+ "title": "Programming Quantum Circuit Parameters with Large Language Models",
+ "authors": [
+  {
+   "name": "Tiago de Souza Farias"
+  },
+  {
+   "name": "Caio Moraes Porto"
+  },
+  {
+   "name": "Matheus da Silva Fonseca"
+  },
+  {
+   "name": "Nicolas Armando Cabrera Carpi"
+  },
+  {
+   "name": "Anderson de Araujo Oliveira"
+  },
+  {
+   "name": "Celso Jorge Villas-Boas"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-12T18:34:23Z",
+ "updated": "2026-11-12T18:34:23Z",
+ "abstract": "Large language models (LLMs) have recently demonstrated the ability to generate parameters for variational quantum circuits without conventional optimization. However, the conditions under which this approach is effective remain unclear. Here, we investigate a frozen, general-purpose LLM that generates complete circuit parameter vectors from symbolic circuit and Hamiltonian descriptions, with optional iterative energy feedback. We evaluate the approach on general random Hamiltonians, structured parent Hamiltonians, and molecular systems. For general Hamiltonians, LLM-generated parameters exhibit larger energy errors than conventional Adam optimization, while additional feedback generally provides limited improvement. In contrast, for structured Hamiltonians, the LLM can generate promising low-energy parameter configurations, suggesting that identifiable physical and mathematical structure facilitates parameter inference. We also show that direct LLM predictions of minimum energies can violate the Hamiltonian spectral lower bound, whereas generated circuit parameters allow independent evaluation of physically realizable energy expectation values. Finally, we investigate blind circuit interpretation and find that the LLM can predict measurement outcomes even when it fails to identify the underlying quantum algorithm. These findings highlight the role of problem structure, the limitations of iterative LLM optimization, and the importance of independently verifiable predictions in quantum parameter programming.",
+ "comment": "31 pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17246",
+  "pdf": "https://arxiv.org/pdf/2611.17246",
+  "html": "https://arxiv.org/html/2611.17246"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-15T14:14:37.601Z",
+  "hook": "A frozen LLM can program parameters for quantum circuits directly from text, but struggles without clear physical structure.",
+  "tldr": [
+   "Tested whether an off-the-shelf, frozen LLM can generate complete parameter sets for variational quantum circuits from text prompts.",
+   "Evaluated predictions across random Hamiltonians, structured parent Hamiltonians, and molecular systems with and without energy feedback.",
+   "Discovered the LLM finds low-energy states in structured systems, but fails on random ones and sometimes predicts unphysical energies."
+  ],
+  "whyItMatters": "Variational quantum algorithms rely on slow, expensive optimization loops; knowing if AI models can bypass this search clarifies where AI can genuinely accelerate quantum computing.",
+  "eli5": "Researchers asked a standard AI chatbot to guess the best settings for a quantum computer just by reading a description of the problem. It did surprisingly well when the problem had recognizable physics patterns, but completely flopped on scrambled, random puzzles.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "variational quantum circuits",
+    "shortDef": "Quantum circuits with adjustable parameters optimized iteratively to minimize an objective function.",
+    "eli5Def": "A quantum program with tuning knobs adjusted until it gives the best possible answer.",
+    "wikiTitle": "Variational quantum eigensolver"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator representing the total energy of a physical quantum system.",
+    "eli5Def": "A master mathematical equation describing the total energy and interactions of a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "spectral lower bound",
+    "shortDef": "The lowest possible eigenvalue (ground-state energy) that a given Hamiltonian can possess.",
+    "eli5Def": "The lowest amount of energy a physical system is mathematically allowed to have.",
+    "wikiTitle": "Spectrum (functional analysis)"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

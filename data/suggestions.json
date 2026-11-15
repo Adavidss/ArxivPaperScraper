@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T13:44:32.557Z",
+ "generatedAt": "2026-11-15T14:14:37.601Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -102,6 +102,26 @@
    "paperCount": 1
   },
   {
+   "name": "Matteo Fadel",
+   "slug": "matteo-fadel",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2611.17260",
+    "2611.06893",
+    "2610.18778"
+   ],
+   "recentTitles": [
+    "Non-interferometric tests of gravitational decoherence models with mechanical oscillators",
+    "Probing gravity at megahertz frequencies with levitated rotors"
+   ],
+   "paperCount": 4
+  },
+  {
    "name": "Jong Yeon Lee",
    "slug": "jong-yeon-lee",
    "score": 4,
@@ -178,25 +198,6 @@
    "recentTitles": [
     "Chiral Torsional Double Wells: Tunneling and Polarizability",
     "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies"
-   ],
-   "paperCount": 2
-  },
-  {
-   "name": "Ethan Dickey",
-   "slug": "ethan-dickey",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "SABRE"
-   ],
-   "viaCategories": [],
-   "paperIds": [
-    "2610.07308",
-    "2609.14620"
-   ],
-   "recentTitles": [
-    "Quantum dynamics of spin systems using quantum-like resources",
-    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
    ],
    "paperCount": 2
   }

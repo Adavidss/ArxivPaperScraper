@@ -1,0 +1,83 @@
+{
+ "id": "2611.17260",
+ "version": 1,
+ "title": "Non-interferometric tests of gravitational decoherence models with mechanical oscillators",
+ "authors": [
+  {
+   "name": "Sandro Donadi"
+  },
+  {
+   "name": "Iarley P. Lobo"
+  },
+  {
+   "name": "Matteo Fadel"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "gr-qc"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-12T18:43:12Z",
+ "updated": "2026-11-12T18:43:12Z",
+ "abstract": "Phenomenological models of quantum-gravity-induced decoherence can leave observable effects even in experiments that do not rely on interferometric measurements. We study three such models, based respectively on deformed relativistic symmetries, stochastic metric fluctuations, and a stochastic generalized uncertainty principle, all of which induce decoherence in the momentum basis. For a free particle, the models preserve momentum distribution and mean energy but produce position diffusion and momentum-space decoherence with model-specific momentum dependences. For a harmonic oscillator, the noncommutativity of the collapse operators with the oscillator Hamiltonian results in anomalous heating, with the three models leading to qualitatively different energy dynamics. The first gives heating at a constant rate, the second at a rate proportional to the kinetic energy, which can lead to exponential growth, and the third at a rate growing cubically with excitation. We further derive the stationary position power spectral density and show that all three models produce the same leading-order excess lineshape in the weak-noise regime, distinct from that of force noise. Comparing with existing mechanical platforms, we find that displacement-noise measurements can already constrain the fluctuation time of the first model below the Planck time, while occupation measurements could improve the bounds on the second model by up to fourteen orders of magnitude over those from ground-state heating of levitated particles. Summing the heating over all phonon modes of a solid, the residual heat release of low-temperature experiments constrains the first model far below the Planck time and the second at the Planck time. Our results establish heating and continuous measurements as complementary non-interferometric probes of gravity-related decoherence.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17260",
+  "pdf": "https://arxiv.org/pdf/2611.17260",
+  "html": "https://arxiv.org/html/2611.17260"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-15T14:14:37.601Z",
+  "hook": "Tiny mechanical oscillators can constrain quantum gravity models up to 14 orders of magnitude better than before.",
+  "tldr": [
+   "Analyzed how three quantum-gravity decoherence models cause anomalous heating in mechanical oscillators without using interferometry.",
+   "Modeled momentum-basis decoherence, calculating energy dynamics, position diffusion, and stationary power spectral densities.",
+   "Found current oscillator experiments already push one model past the Planck time and can beat levitated particle bounds by 14 orders of magnitude."
+  ],
+  "whyItMatters": "Testing quantum gravity usually requires impossible high-energy colliders, but ultra-sensitive mechanical sensors can detect spacetime fuzziness right on a tabletop.",
+  "eli5": "Imagine spacetime itself is a microscopic, buzzing static that gently shakes everything inside it. By checking if a super-chilled, still pendulum heats up on its own, physicists can see if spacetime truly shakes at the quantum scale.",
+  "keyNumbers": [
+   {
+    "value": "14 orders of magnitude",
+    "label": "potential bound improvement",
+    "context": "Improvement in bounds on the metric fluctuations model over ground-state heating of levitated particles."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "gravitational decoherence",
+    "shortDef": "Loss of quantum coherence caused by quantum fluctuations in spacetime or gravitational interactions.",
+    "eli5Def": "When gravity or jiggling spacetime destroys a fragile quantum state, making it act like regular classical matter.",
+    "wikiTitle": "Gravitational decoherence"
+   },
+   {
+    "term": "Planck time",
+    "shortDef": "The fundamental unit of time in quantum gravity, approximately 5.39 x 10^-44 seconds.",
+    "eli5Def": "The shortest possible tick of a universal clock allowed by the laws of physics.",
+    "wikiTitle": "Planck units"
+   },
+   {
+    "term": "harmonic oscillator",
+    "shortDef": "A system experiencing a restoring force proportional to displacement, like a pendulum or spring.",
+    "eli5Def": "Anything that bounces or swings back and forth smoothly, like a child on a playground swing.",
+    "wikiTitle": "Quantum harmonic oscillator"
+   },
+   {
+    "term": "power spectral density",
+    "shortDef": "A measure of the signal's power distribution across different frequencies.",
+    "eli5Def": "A chart showing which musical pitches or frequencies are the loudest in a noisy sound.",
+    "wikiTitle": "Spectral density"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

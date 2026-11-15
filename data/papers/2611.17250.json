@@ -1,0 +1,113 @@
+{
+ "id": "2611.17250",
+ "version": 1,
+ "title": "Implementation of a 1D Gaussian-modulated CV-QKD under finite-size parameter estimation",
+ "authors": [
+  {
+   "name": "Christiano M. S. Nascimento"
+  },
+  {
+   "name": "Maron F. Anka"
+  },
+  {
+   "name": "Gabriel A. V. Menezes"
+  },
+  {
+   "name": "Davi J. G. de Sousa"
+  },
+  {
+   "name": "Nelson A. Neto"
+  },
+  {
+   "name": "Artur A. Matoso"
+  },
+  {
+   "name": "Gustavo C. Amaral"
+  },
+  {
+   "name": "Valéria L. Silva"
+  },
+  {
+   "name": "Guilherme P. Temporão"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-12T18:37:36Z",
+ "updated": "2026-11-12T18:37:36Z",
+ "abstract": "Continuous-variable quantum key distribution (CV-QKD) is a promising technology for quantum-secure communications, offering high secret-key rates and straightforward integration with coherent optical communication systems. Conventional Gaussian-modulated CV-QKD encodes information in both optical-field quadratures, increasing requirements for state preparation, modulation, and calibration, while potentially introducing additional preparation imperfections. Unidimensional (1D) Gaussian modulation offers a simpler alternative by encoding information in only one quadrature, while the conjugate quadrature constrains the protocol's security. However, an integrated experimental 1D implementation combining independent-laser coherent reception with practical reconciliation, finite-size parameter estimation, and privacy amplification remains challenging. Here, we experimentally demonstrate a 1D Gaussian-modulated CV-QKD system over 12~km of standard single-mode fiber using a local local oscillator (LLO) architecture with independent lasers and an integrated offline classical post-processing chain. The implementation includes coherent detection, digital signal processing, information reconciliation, parameter estimation, physicality-constrained security analysis, and privacy amplification. The 1D system achieves a privacy-amplified rate of $1.421$~Mbit/s under the asymptotic security treatment and $0.364$~Mbit/s under the finite-size scenario. These results establish an experimental baseline for the performance--complexity trade-off associated with unidimensional Gaussian modulation and provide an experimental basis for developing lower-complexity CV-QKD transmitters.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.17250",
+  "pdf": "https://arxiv.org/pdf/2611.17250",
+  "html": "https://arxiv.org/html/2611.17250"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.17250v1/Figures/Setup_exp.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-15T14:14:37.601Z",
+  "hook": "Transmitting quantum keys over 12 km of fiber is now possible by modulating just a single optical quadrature.",
+  "tldr": [
+   "Demonstrated an end-to-end 1D Gaussian-modulated CV-QKD link using independent lasers over standard single-mode optical fiber.",
+   "Integrated a local local oscillator architecture with full offline digital signal processing and finite-size security checks.",
+   "Achieved secret-key rates of 1.421 Mbit/s under asymptotic security and 0.364 Mbit/s in realistic finite-size conditions over 12 km."
+  ],
+  "whyItMatters": "Quantum key distribution provides mathematically unbreakable encryption, and simplifying the transmitter hardware brings practical quantum-secured internet one step closer to everyday deployment.",
+  "eli5": "Instead of dialing two separate knobs on a light wave to hide a secret code, the researchers showed you only need to twist one. This makes the sender much simpler while keeping eavesdroppers completely locked out over 12 kilometers of fiber optic cable.",
+  "keyNumbers": [
+   {
+    "value": "12 km",
+    "label": "transmission distance",
+    "context": "Length of standard single-mode fiber used in the experiment."
+   },
+   {
+    "value": "1.421 Mbit/s",
+    "label": "asymptotic secret-key rate",
+    "context": "Privacy-amplified key rate achieved under the asymptotic security treatment."
+   },
+   {
+    "value": "0.364 Mbit/s",
+    "label": "finite-size secret-key rate",
+    "context": "Privacy-amplified key rate achieved under the practical finite-size security scenario."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "CV-QKD",
+    "shortDef": "Continuous-variable quantum key distribution using wave properties of light rather than single photons.",
+    "eli5Def": "A way to share secret encryption keys safely using smooth waves of laser light.",
+    "wikiTitle": "Quantum key distribution"
+   },
+   {
+    "term": "quadrature",
+    "shortDef": "One of two orthogonal components (like amplitude or phase) characterizing an electromagnetic wave.",
+    "eli5Def": "One of two independent properties of a wave, like how tall it is versus where its peaks line up.",
+    "wikiTitle": null
+   },
+   {
+    "term": "finite-size parameter estimation",
+    "shortDef": "Calculating secret keys accounting for statistical fluctuations due to limited sample sizes.",
+    "eli5Def": "Factoring in that you have real-world, limited data rather than an infinite number of test signals.",
+    "wikiTitle": null
+   },
+   {
+    "term": "privacy amplification",
+    "shortDef": "A classical post-processing step that shrinks raw shared bits to eliminate any partial eavesdropper knowledge.",
+    "eli5Def": "Blending a shared list of numbers down to a shorter, 100% secret password.",
+    "wikiTitle": "Information privacy"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

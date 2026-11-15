@@ -1,0 +1,30 @@
+{
+ "date": "2026-11-15",
+ "generatedAt": "2026-11-15T14:14:37.601Z",
+ "model": "gemini-flash-latest",
+ "headline": "Quantum Tech: Gravity Tests, CV-QKD, and LLMs",
+ "summary": "Today's research spans fundamental physics, applied cryptography, and machine learning interfaces for quantum systems. Highlights include using mechanical oscillators to tighten gravitational decoherence bounds by 14 orders of magnitude, deploying simplified 1D CV-QKD over 12 km of fiber, and evaluating frozen LLMs for quantum circuit parameter initialization.",
+ "themes": [
+  {
+   "title": "Quantum Foundations & Sensing",
+   "body": "Mechanical oscillators show immense promise as non-interferometric probes, setting bounds on gravitational decoherence models up to 14 orders of magnitude tighter than levitated systems.",
+   "paperIds": [
+    "2611.17260"
+   ]
+  },
+  {
+   "title": "Applied Quantum Information",
+   "body": "Progress across quantum communication and algorithm tuning: simplified 1D CV-QKD demonstrates finite-size security over fiber, while LLMs are benchmarked for variational circuit parameterization.",
+   "paperIds": [
+    "2611.17250",
+    "2611.17246"
+   ]
+  }
+ ],
+ "connections": [],
+ "paperIds": [
+  "2611.17260",
+  "2611.17250",
+  "2611.17246"
+ ]
+}

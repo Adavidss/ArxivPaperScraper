@@ -1,0 +1,72 @@
+{
+ "id": "2611.18552",
+ "version": 1,
+ "title": "Real-time simulation of scattering in $φ^4$ theory: localized excitation, scalable wave packet preparation, and peak-generating artifacts",
+ "authors": [
+  {
+   "name": "Boyu Gao"
+  },
+  {
+   "name": "Natalie Klco"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "hep-lat",
+  "hep-ph",
+  "nucl-th"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-13T18:57:45Z",
+ "updated": "2026-11-13T18:57:45Z",
+ "abstract": "Probing real-time dynamics is essential for understanding non-perturbative scattering and interactions in quantum field theory. A common challenge in real-time simulation is preparing accurate asymptotic incoming states. Through efficiently solvable eigenvalue problems, we jointly optimize a superposition of single particle momentum eigenstates and a single site interpolating operator to maximize preparation fidelity from the interacting vacuum. This leads to a localized excitation in the interacting theory analogous to a position eigenstate. Weighted sums of the resulting interpolating operator over lattice sites prepare wave packets of arbitrary spatial extent. To ensure that this construction produces the correct continuum limit, relative phases among single particle momentum eigenstates in this superposition are calibrated using a relation derived from Lorentz symmetry. Analyzing single particle wave packet propagation through the position space profile reveals oscillatory Airy distortions, which originate from interference between saddle point contributions at different momenta that share the same lattice group velocity. These oscillations systematically weaken when approaching the continuum limit, and reliable regimes are identified as a function of simulation time and wave packet momentum profile. Two-particle scattering simulations in interacting scalar field theory are also implemented, revealing artificial inelasticity arising from coarse local field digitization or deviation from the Nyquist-Shannon sampling point. With these artifacts under control, present simulations provide emerging evidence for physical inelastic processes in $φ^4$ theory. The constructions introduced in this work may provide new understanding of state preparation for the quantum simulation of scattering.",
+ "comment": "38 pages, 8 figures, 5 appendices",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.18552",
+  "pdf": "https://arxiv.org/pdf/2611.18552",
+  "html": "https://arxiv.org/html/2611.18552"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.18552v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-16T16:18:18.016Z",
+  "hook": "New wave packet preparation techniques in φ⁴ theory reveal Airy distortions that weaken near the continuum limit.",
+  "tldr": [
+   "The authors developed a method to prepare localized wave packets in interacting quantum field theory from the vacuum.",
+   "They used eigenvalue optimization and Lorentz symmetry to calibrate phases for accurate continuum limits.",
+   "They identified Airy distortions caused by interference and observed artificial inelasticity in two-particle scattering."
+  ],
+  "whyItMatters": "Accurately simulating particle scattering is a cornerstone of quantum field theory; this work helps distinguish real physical processes from simulation artifacts.",
+  "eli5": "When we try to simulate particles colliding on a computer grid, we often get 'ghost' signals or ripples that aren't real. This paper shows how to tune the simulation to remove these ripples so we can see the true physics of particle collisions.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "φ⁴ theory",
+    "shortDef": "A quantum field theory involving a scalar field with a quartic interaction term.",
+    "eli5Def": "A basic mathematical model used to study how particles interact and scatter.",
+    "wikiTitle": "Quartic interaction"
+   },
+   {
+    "term": "Airy distortions",
+    "shortDef": "Oscillatory interference patterns appearing in wave packet propagation.",
+    "eli5Def": "Wavy, blurry errors that appear in the simulation like ripples on a pond.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Continuum limit",
+    "shortDef": "The limit where the discrete lattice spacing goes to zero.",
+    "eli5Def": "Making the grid of the simulation so fine that it looks like smooth, continuous space.",
+    "wikiTitle": "Continuum limit"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

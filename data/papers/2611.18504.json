@@ -1,0 +1,70 @@
+{
+ "id": "2611.18504",
+ "version": 1,
+ "title": "Agentic AI for Discovering Fault-Tolerant Quantum Circuits",
+ "authors": [
+  {
+   "name": "Aritra Lahiri"
+  },
+  {
+   "name": "Florian Marquardt"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.AI"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-13T18:20:23Z",
+ "updated": "2026-11-13T18:20:23Z",
+ "abstract": "Scaling quantum computing toward practical quantum advantage is currently limited by the efficiency of circuits that operate on information encoded by quantum error-correcting codes. The full stack of quantum computing encompasses several tasks: preparation of logical code states, implementation of logical gates, logical routines on encoded qubits, etc. Yet, these circuits are largely designed by hand for individual cases, with some recent works incorporating machine learning for certain aspects. We formulate this problem as agentic evolutionary program synthesis, wherein a large language model, leveraging its pretraining knowledge and tool-use proficiency, and guided by a circuit verifier, evolves a program that defines a Clifford circuit for a wide range of curated tasks such as logical state preparation, logical gate design, and logical routines such as code-switching, code growth, etc. Our approach consistently finds fault-tolerant circuits for all of these tasks, each verified by an exhaustive check over faults.",
+ "comment": "20 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.18504",
+  "pdf": "https://arxiv.org/pdf/2611.18504",
+  "html": "https://arxiv.org/html/2611.18504"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.18504v1/llm_circ.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-16T16:18:18.016Z",
+  "hook": "An agentic AI system successfully discovers fault-tolerant quantum circuits for complex logical operations.",
+  "tldr": [
+   "The authors used an agentic evolutionary program synthesis approach to design quantum circuits.",
+   "A large language model, guided by a circuit verifier, evolved Clifford circuits for logical state preparation and gate design.",
+   "The system consistently found fault-tolerant circuits that were verified to be robust against faults."
+  ],
+  "whyItMatters": "Designing fault-tolerant quantum circuits by hand is incredibly difficult; automating this with AI could drastically accelerate the development of reliable quantum computers.",
+  "eli5": "Building a quantum computer is like building a complex machine where one wrong move breaks everything. The researchers taught an AI to experiment and find the 'blueprints' for these machines that are naturally resistant to errors.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Fault-tolerant",
+    "shortDef": "The ability of a system to continue operating properly in the event of component failures.",
+    "eli5Def": "A design that keeps working correctly even if some parts of the system glitch.",
+    "wikiTitle": "Fault-tolerant quantum computing"
+   },
+   {
+    "term": "Clifford circuit",
+    "shortDef": "A class of quantum circuits that can be efficiently simulated classically.",
+    "eli5Def": "A specific set of quantum operations that are easy for a regular computer to track.",
+    "wikiTitle": "Clifford gates"
+   },
+   {
+    "term": "Logical qubit",
+    "shortDef": "A group of physical qubits used to encode information robustly.",
+    "eli5Def": "Using many shaky, real-world qubits to act as one super-reliable, 'logical' qubit.",
+    "wikiTitle": "Quantum error correction"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

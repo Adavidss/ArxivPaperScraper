@@ -1,0 +1,105 @@
+{
+ "id": "2611.18476",
+ "version": 1,
+ "title": "Beyond Blossom: Accelerating MWPM Decoding for Surface Codes With Local Predecoding and Architecture-Aware Optimizations",
+ "authors": [
+  {
+   "name": "Jiayu Fu"
+  },
+  {
+   "name": "Zirong Shen"
+  },
+  {
+   "name": "Lin Gan"
+  },
+  {
+   "name": "Yiming Zhang"
+  },
+  {
+   "name": "Wenjing Han"
+  },
+  {
+   "name": "Xiaoming Sun"
+  },
+  {
+   "name": "Riling Li"
+  },
+  {
+   "name": "Guangwen Yang"
+  }
+ ],
+ "categories": [
+  "cs.IT",
+  "cs.PF",
+  "quant-ph"
+ ],
+ "primaryCategory": "cs.IT",
+ "published": "2026-11-13T17:49:31Z",
+ "updated": "2026-11-13T17:49:31Z",
+ "abstract": "Minimum-weight perfect matching (MWPM) is widely used to decode surface codes, but its computational cost increases with code distance. We present Beyond Blossom, a state-of-the-art CPU-based MWPM decoder for surface codes. It combines algorithmic optimization through local predecoding, architecture-aware optimization, and pipeline-wide parallelism to reduce matching workload and execution overhead while preserving MWPM optimality. Across rotated surface codes with distances 9-33 and circuit-level physical error rates of 0.05%-0.3%, on a single CPU core, Beyond Blossom achieves a 4.23$\\times$ geometric-mean speedup and up to 5.58$\\times$ speedup over Sparse Blossom in PyMatching. At distance 33 and a physical error rate of 0.1%, with 8 CPU cores, decoding a block of 33 measurement rounds takes 21.40 $μ$s on average, equivalent to 0.65 $μ$s per round.",
+ "comment": "11 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.18476",
+  "pdf": "https://arxiv.org/pdf/2611.18476",
+  "html": "https://arxiv.org/html/2611.18476"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.18476v1/surface_code_combined_v14.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-16T16:18:18.016Z",
+  "hook": "A new decoder, 'Beyond Blossom,' accelerates quantum error correction by up to 5.58x on standard CPUs.",
+  "tldr": [
+   "The team developed a CPU-based decoder for surface codes using local predecoding and architecture-aware optimizations.",
+   "They optimized the Minimum-Weight Perfect Matching (MWPM) algorithm to run efficiently on multi-core processors.",
+   "The decoder achieved a 4.23x speedup on average, with decoding times as low as 0.65 microseconds per round."
+  ],
+  "whyItMatters": "Quantum computers need to correct errors in real-time to be useful. This software-based speedup makes error correction much faster without needing specialized, expensive hardware.",
+  "eli5": "Quantum computers make lots of tiny mistakes. To fix them, we use a complex matching game to find where the errors are. This new software is like a super-fast player that can solve this game much quicker than previous versions, allowing the computer to keep running smoothly.",
+  "keyNumbers": [
+   {
+    "value": "5.58x",
+    "label": "Max speedup",
+    "context": "Maximum speedup achieved over the standard Sparse Blossom decoder."
+   },
+   {
+    "value": "0.65 μs",
+    "label": "Decoding time",
+    "context": "Average time to decode one measurement round at distance 33."
+   },
+   {
+    "value": "9-33",
+    "label": "Code distance",
+    "context": "Range of surface code distances tested in the study."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Minimum-weight perfect matching",
+    "shortDef": "An algorithm used to pair up error signals in quantum codes to minimize total error weight.",
+    "eli5Def": "A way to connect the dots of errors in the most efficient way possible.",
+    "wikiTitle": "Minimum weight perfect matching"
+   },
+   {
+    "term": "Surface code",
+    "shortDef": "A quantum error correction code where qubits are arranged on a 2D lattice.",
+    "eli5Def": "A grid-like layout of qubits designed to catch and fix errors as they happen.",
+    "wikiTitle": "Surface code"
+   },
+   {
+    "term": "Code distance",
+    "shortDef": "A measure of the error-correcting capability of a quantum code.",
+    "eli5Def": "A number that tells you how many errors the system can handle before it breaks.",
+    "wikiTitle": "Quantum error correction"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

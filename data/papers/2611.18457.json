@@ -1,0 +1,83 @@
+{
+ "id": "2611.18457",
+ "version": 1,
+ "title": "Symmetry-Controlled Quantum State Transfer in Poly-bi-[8]-annulenylene: From Heisenberg to Hubbard Dynamics",
+ "authors": [
+  {
+   "name": "Adnan Jaljuli"
+  },
+  {
+   "name": "Pablo Serra"
+  },
+  {
+   "name": "Ammar Ali"
+  },
+  {
+   "name": "Sabre Kais"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-13T17:28:22Z",
+ "updated": "2026-11-13T17:28:22Z",
+ "abstract": "We investigate quantum state transfer in the poly-bi-[8]-annulenylene lattice using isotropic Heisenberg and Hubbard models. For a 16-site lattice, reflection symmetry separates the single-excitation Hamiltonian into independent triplet and singlet sectors, allowing analytical determination of the energy spectra. Although perfect state transfer is forbidden for positive couplings, appropriately chosen coupling ratios enable pretty-good transfer with arbitrarily high fidelity. Remarkably, the triplet transfer probability is independent of the interchain rung coupling, while singlet transfer can be selectively enhanced or suppressed, enabling symmetry-selective quantum transport without time-dependent control. Extending the analysis to the Hubbard model, we show that the Heisenberg transfer dynamics emerge in the strong-interaction limit, while finite interactions delay all high-fidelity transfer peaks of a symmetry sector by the same fraction of their transfer time, set by the spectrum, and reduce the peak fidelity, even at the corrected time, by an amount that grows with the transfer time. These findings are relevant to future quantum-network architectures, where symmetry-controlled state transfer could provide a building block for connecting quantum memories and emitter-based interfaces within quantum nodes. Overall, our results demonstrate how molecular network geometry and symmetry can be exploited to engineer and control quantum-state transport in interacting spin systems, providing a theoretical framework for quantum information transfer in molecular-inspired quantum architectures.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.18457",
+  "pdf": "https://arxiv.org/pdf/2611.18457",
+  "html": "https://arxiv.org/html/2611.18457"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.18457v1/eigen_energies_and_loc.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-16T16:18:18.016Z",
+  "hook": "Symmetry in a 16-site molecular lattice allows for high-fidelity quantum state transfer without active control.",
+  "tldr": [
+   "Researchers modeled quantum state transfer in a poly-bi-[8]-annulenylene lattice using Heisenberg and Hubbard models.",
+   "They used reflection symmetry to split the Hamiltonian into independent sectors, enabling analytical energy calculations.",
+   "They found that symmetry allows for high-fidelity 'pretty-good' state transfer that is robust against certain coupling variations."
+  ],
+  "whyItMatters": "This research provides a blueprint for building quantum networks where the physical structure of the molecule itself manages information flow, simplifying the control requirements for quantum computers.",
+  "eli5": "Imagine a row of spinning tops connected by strings. By arranging them in a specific symmetric pattern, you can make a 'message' (a quantum state) travel from one end to the other perfectly, just by how they are built, without needing to constantly push or adjust them.",
+  "keyNumbers": [
+   {
+    "value": "16",
+    "label": "Lattice sites",
+    "context": "The size of the poly-bi-[8]-annulenylene lattice analyzed."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Heisenberg model",
+    "shortDef": "A mathematical model used to describe the behavior of interacting spins in a lattice.",
+    "eli5Def": "A way to calculate how tiny magnetic particles (spins) influence their neighbors.",
+    "wikiTitle": "Heisenberg model (quantum)"
+   },
+   {
+    "term": "Hubbard model",
+    "shortDef": "A model describing electrons moving on a lattice with interactions.",
+    "eli5Def": "A rulebook for how electrons hop between spots in a material while bumping into each other.",
+    "wikiTitle": "Hubbard model"
+   },
+   {
+    "term": "Fidelity",
+    "shortDef": "A measure of how closely a quantum state matches the intended target state.",
+    "eli5Def": "A score from 0 to 1 showing how well the information survived the trip.",
+    "wikiTitle": "Fidelity (quantum)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

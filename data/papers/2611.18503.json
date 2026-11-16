@@ -1,0 +1,74 @@
+{
+ "id": "2611.18503",
+ "version": 1,
+ "title": "Solution of the Qubit Marginal Problem from Fermionic Representability",
+ "authors": [
+  {
+   "name": "David A. Mazziotti"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el",
+  "physics.chem-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-13T18:19:19Z",
+ "updated": "2026-11-13T18:19:19Z",
+ "abstract": "Whether local reduced states are compatible with a global quantum state---the quantum marginal problem---is central to quantum information and simulation. Here we present a solution to the ensemble marginal problem for qubits based on the representability theory of fermions. Encoding each qubit as one fermion in two orbitals, we prove that the representable qubit marginals form an exposed face of the set of $N$-representable fermionic reduced density matrices, selected by the vanishing of every site-occupation variance. Complete hierarchies of fermionic representability conditions therefore transfer exactly to qubits. Applications to frustrated Heisenberg and transverse-field Ising rings show that the $(2,3)$-positivity conditions are exact at the Majumdar--Ghosh point and accurate to about 0.5% at criticality. Because the conditions hold for any quantum state, they also provide a framework for mitigating measurement errors on qubit-based quantum devices.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.18503",
+  "pdf": "https://arxiv.org/pdf/2611.18503",
+  "html": "https://arxiv.org/html/2611.18503"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.18503v1/fig1a.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-16T16:18:18.016Z",
+  "hook": "A new mathematical bridge links qubit states to fermionic physics, solving the long-standing quantum marginal problem.",
+  "tldr": [
+   "The author solves the ensemble marginal problem for qubits by mapping them onto fermionic representability theory.",
+   "By encoding qubits as fermions in two orbitals, the study shows that qubit marginals correspond to specific fermionic density matrices.",
+   "The method provides exact conditions for qubit states, achieving 0.5% accuracy at criticality in Ising rings."
+  ],
+  "whyItMatters": "This discovery provides a powerful new tool for verifying quantum states and correcting measurement errors, which are major bottlenecks in building reliable quantum computers.",
+  "eli5": "Imagine trying to figure out if a group of people can fit into a specific room based only on knowing who is standing next to whom. This paper shows that if you treat qubits like particles that follow strict social distancing rules (fermions), you can perfectly predict if a global quantum state is possible or just a mathematical fantasy.",
+  "keyNumbers": [
+   {
+    "value": "0.5%",
+    "label": "Accuracy error",
+    "context": "Accuracy of the conditions at criticality in transverse-field Ising rings."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum marginal problem",
+    "shortDef": "Determining if local quantum states are compatible with a single global state.",
+    "eli5Def": "Checking if the individual pieces of a puzzle could actually fit together to form the whole picture.",
+    "wikiTitle": "Quantum marginal problem"
+   },
+   {
+    "term": "Fermionic representability",
+    "shortDef": "The study of which density matrices can represent a system of fermions.",
+    "eli5Def": "A set of rules that define how particles like electrons are allowed to arrange themselves.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Reduced density matrix",
+    "shortDef": "A mathematical description of a subsystem within a larger quantum system.",
+    "eli5Def": "A summary of just one part of a quantum system, ignoring the rest.",
+    "wikiTitle": "Density matrix"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

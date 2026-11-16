@@ -1,25 +1,25 @@
 {
- "generatedAt": "2026-11-15T14:14:37.601Z",
+ "generatedAt": "2026-11-16T16:18:18.016Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
    "slug": "sabre-kais",
-   "score": 12,
+   "score": 14,
    "coAuthoredWith": [],
    "viaKeywords": [
     "SABRE"
    ],
    "viaCategories": [],
    "paperIds": [
+    "2611.18457",
     "2610.41782",
-    "2610.15998",
-    "2610.07308"
+    "2610.15998"
    ],
    "recentTitles": [
-    "Chiral Torsional Double Wells: Tunneling and Polarizability",
-    "A 4-Qubit Variational Quantum Classifier for Sequence-Specific Classification of DNMT3A and DNMT3B Flanking Methylation Preferences"
+    "Symmetry-Controlled Quantum State Transfer in Poly-bi-[8]-annulenylene: From Heisenberg to Hubbard Dynamics",
+    "Chiral Torsional Double Wells: Tunneling and Polarizability"
    ],
-   "paperCount": 6
+   "paperCount": 7
   },
   {
    "name": "Li Gao",

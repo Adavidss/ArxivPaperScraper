@@ -1,0 +1,86 @@
+{
+ "id": "2611.19049",
+ "version": 1,
+ "title": "Machine-learned active spaces enable quantum calculations of spin-state energetics of transition-metal complexes on quantum hardware",
+ "authors": [
+  {
+   "name": "Muhammad Arsalan Ali Akbar"
+  },
+  {
+   "name": "Thomas D. Kühne"
+  },
+  {
+   "name": "Sabre Kais"
+  },
+  {
+   "name": "Werner Dobrautz"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-14T00:44:57Z",
+ "updated": "2026-11-14T00:44:57Z",
+ "abstract": "Multireference calculations on transition-metal complexes, on classical or quantum hardware, depend on the choice of active space. The orbitals that belong in it are those that are strongly entangled in the correlated wavefunction, but measuring this entanglement requires the very correlated calculation that the active space is meant to make affordable. Here we present SpinAware, a machine-learning model that predicts density-matrix renormalization group (DMRG) single-orbital entropies and orbital-pair mutual information from the unrestricted Hartree-Fock (UHF) solution of each spin state, without any correlated calculation. Each of the 20 highest occupied and 20 lowest unoccupied orbitals is described by 60 descriptors computed from the UHF solution, among them the differences between its alpha and beta occupations and energies, its metal-d and ligand character, and its exchange coupling to the other orbitals, and a transformer predicts the entropy of each orbital in the context of all others. Trained on 3454 spin-pure DMRG calculations on mononuclear Cr-Ni complexes, the model transfers to experimentally characterized complexes with ligands, binding topologies, oxidation states and metals absent from training. Over 11 spin states it reproduces the DMRG entropy profiles with a mean absolute error of 0.027, and combining the predicted entropies with the predicted mutual information gives a candidate pool that contains 99% of the DMRG-active orbitals of the benchmark spin states while keeping, on average, only 15 of the 40 orbitals. Natural-orbital occupation scans then select compact active spaces from this pool for a nickel and a cobalt complex. Sample-based quantum diagonalization with samples from IBM quantum processors reproduces the exact CASCI energies of these spaces to within 0.3 kcal/mol and their spin-state gaps to within 0.10 kcal/mol for up to 32 qubits.",
+ "comment": "37 pages, 21 figures; Supplementary Information (54 pages) included",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.19049",
+  "pdf": "https://arxiv.org/pdf/2611.19049",
+  "html": "https://arxiv.org/html/2611.19049"
+ },
+ "source": "follow",
+ "matchedKeywords": [
+  "SABRE"
+ ],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-17T16:23:17.778Z",
+  "hook": "A new AI model predicts quantum orbital behavior, enabling complex chemistry simulations on current quantum hardware.",
+  "tldr": [
+   "The researchers created 'SpinAware,' a machine-learning model that predicts how electrons interact in transition-metal complexes.",
+   "The model uses descriptors from simple Hartree-Fock calculations to predict complex entanglement properties without expensive simulations.",
+   "This allows researchers to select a small, 'active' set of orbitals that accurately represent the whole system for quantum computer calculations."
+  ],
+  "whyItMatters": "Simulating transition metals is vital for designing new catalysts and materials, but it is computationally impossible for classical computers; this method makes it feasible on quantum hardware.",
+  "eli5": "Simulating complex molecules is like trying to track every person in a massive crowd. This AI acts like a smart scout that identifies the few 'key people' who actually influence the crowd's movement, so we only have to track them to understand the whole group.",
+  "keyNumbers": [
+   {
+    "value": "0.3 kcal/mol",
+    "label": "Energy accuracy",
+    "context": "Difference between quantum processor results and exact classical calculations."
+   },
+   {
+    "value": "99%",
+    "label": "Orbital capture rate",
+    "context": "Percentage of important orbitals correctly identified by the model."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Active space",
+    "shortDef": "A subset of orbitals chosen for detailed quantum mechanical treatment in a molecule.",
+    "eli5Def": "The small, important group of electrons we focus on to understand how a molecule behaves.",
+    "wikiTitle": "Complete active space"
+   },
+   {
+    "term": "Transition-metal complexes",
+    "shortDef": "Molecules containing a central metal atom surrounded by other molecules or ions.",
+    "eli5Def": "A central metal atom acting like a hub, surrounded by other chemical groups attached to it.",
+    "wikiTitle": "Coordination complex"
+   },
+   {
+    "term": "DMRG",
+    "shortDef": "A powerful numerical method for solving complex quantum many-body problems.",
+    "eli5Def": "A super-accurate way to calculate how electrons interact, though it is very slow.",
+    "wikiTitle": "Density matrix renormalization group"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 75
+ }
+}

@@ -1,35 +1,5 @@
 {
  "processed": {
-  "2609.02865": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-09-03"
-  },
-  "2609.02841": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-09-03"
-  },
-  "2609.02828": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-09-03"
-  },
-  "2609.02827": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-09-03"
-  },
-  "2609.02793": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-09-03"
-  },
-  "2609.02792": {
-   "version": 1,
-   "summarizedVersion": 1,
-   "firstSeen": "2026-09-03"
-  },
   "2609.04182": {
    "version": 1,
    "summarizedVersion": 1,
@@ -2052,7 +2022,7 @@
   },
   "2611.18510": {
    "version": 1,
-   "summarizedVersion": 0,
+   "summarizedVersion": 1,
    "firstSeen": "2026-11-16"
   },
   "2611.18504": {
@@ -2074,15 +2044,53 @@
    "version": 1,
    "summarizedVersion": 1,
    "firstSeen": "2026-11-16"
+  },
+  "2611.19792": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-17"
+  },
+  "2611.19049": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-17"
+  },
+  "2611.21609": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-17"
+  },
+  "2611.21578": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-17"
+  },
+  "2611.21567": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-17"
+  },
+  "2611.21560": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-17"
+  },
+  "2611.21552": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-17"
+  },
+  "2611.21546": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-17"
   }
  },
- "retryQueue": [
-  "2611.18510"
- ],
+ "retryQueue": [],
  "lastRun": {
-  "at": "2026-11-16T16:18:18.016Z",
-  "geminiCalls": 14,
-  "newPapers": 7,
+  "at": "2026-11-17T16:23:17.778Z",
+  "geminiCalls": 13,
+  "newPapers": 8,
   "quotaExhausted": false
  }
 }

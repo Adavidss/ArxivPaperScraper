@@ -1,0 +1,83 @@
+{
+ "id": "2611.21546",
+ "version": 1,
+ "title": "The speed limit of gravitational entanglement and the cost of noise",
+ "authors": [
+  {
+   "name": "Ekta Panwar"
+  },
+  {
+   "name": "Anubhav Chaturvedi"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-16T18:30:50Z",
+ "updated": "2026-11-16T18:30:50Z",
+ "abstract": "Is gravity quantum? A proposed test lets two small masses, each in a superposition of two places, become entangled through their mutual gravity. Gravity is weak, so the masses must stay coherent for seconds while random forces disturb them. Here we ask how fast gravity can entangle two masses, and what noise costs. Without noise we find the maximum rate exactly: it falls as the inverse cube of the separation, and two positions per mass achieve it. Above a noise level set by the masses and their separation, gravity's leading pull can be imitated by classical signals, and every strategy is limited to a rate falling at least as the inverse fourth power. Exact, continuous error correction shields the masses from noise but hides them from each other: the best rate falls as the inverse seventh power, and six positions on a hexagon come within 10% of it at large separation.",
+ "comment": "4 figures; supplementary material included",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.21546",
+  "pdf": "https://arxiv.org/pdf/2611.21546",
+  "html": "https://arxiv.org/html/2611.21546"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-17T16:23:17.778Z",
+  "hook": "Gravity's ability to entangle masses is strictly limited, with noise forcing a shift from inverse-cube to inverse-seventh scaling.",
+  "tldr": [
+   "The authors calculated the maximum rate at which gravity can entangle two masses in superposition.",
+   "They compared ideal conditions to noisy environments, finding that noise significantly degrades the entanglement rate.",
+   "They showed that error correction helps but imposes its own limits, forcing a steeper drop-off in entanglement speed over distance."
+  ],
+  "whyItMatters": "This research defines the fundamental limits for experiments trying to prove gravity is a quantum force, which is a major open question in physics.",
+  "eli5": "If you want to prove gravity is quantum, you have to get two objects to 'link' (entangle) through gravity. But gravity is weak and noise is everywhere. This paper shows that as you move the objects further apart, the 'link' gets weaker much faster than expected, especially when you try to protect it from noise.",
+  "keyNumbers": [
+   {
+    "value": "1/d^3",
+    "label": "Ideal entanglement rate",
+    "context": "The maximum rate of entanglement without noise as a function of separation d."
+   },
+   {
+    "value": "1/d^4",
+    "label": "Noisy entanglement rate",
+    "context": "The rate limit when noise is present and classical signals mimic gravity."
+   },
+   {
+    "value": "1/d^7",
+    "label": "Error-corrected rate",
+    "context": "The entanglement rate limit when using continuous error correction."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum entanglement",
+    "shortDef": "A physical phenomenon where particles become linked such that the state of one affects the other instantly.",
+    "eli5Def": "A 'spooky' connection where two objects share the same fate, no matter how far apart they are.",
+    "wikiTitle": "Quantum entanglement"
+   },
+   {
+    "term": "Superposition",
+    "shortDef": "The ability of a quantum system to be in multiple states at the same time until measured.",
+    "eli5Def": "Being in two places at once, like a spinning coin that is both heads and tails until it lands.",
+    "wikiTitle": "Quantum superposition"
+   },
+   {
+    "term": "Error correction",
+    "shortDef": "Techniques used to protect quantum information from noise and decoherence.",
+    "eli5Def": "A way to keep quantum information safe by constantly checking and fixing mistakes caused by the environment.",
+    "wikiTitle": "Quantum error correction"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 80
+ }
+}

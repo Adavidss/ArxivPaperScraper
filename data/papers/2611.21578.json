@@ -1,0 +1,1160 @@
+{
+ "id": "2611.21578",
+ "version": 1,
+ "title": "Resolving and Suppressing Temporally Correlated Noise in Quantum Error Correction",
+ "authors": [
+  {
+   "name": "Alec Eickbusch"
+  },
+  {
+   "name": "Nick Noll"
+  },
+  {
+   "name": "Michael Newman"
+  },
+  {
+   "name": "Matt McEwen"
+  },
+  {
+   "name": "Leigh S. Martin"
+  },
+  {
+   "name": "Alexis Morvan"
+  },
+  {
+   "name": "Gabrielle Roberts"
+  },
+  {
+   "name": "Chunyang Ding"
+  },
+  {
+   "name": "Volodymyr Sivak"
+  },
+  {
+   "name": "Nathan Lacroix"
+  },
+  {
+   "name": "Laura De Lorenzo"
+  },
+  {
+   "name": "Felix Borjans"
+  },
+  {
+   "name": "Yan-Cheng Wei"
+  },
+  {
+   "name": "Alexandre Bourassa"
+  },
+  {
+   "name": "Rodrigo G. Cortiñas"
+  },
+  {
+   "name": "Emma Rosenfeld"
+  },
+  {
+   "name": "Vladislav D. Kurilovich"
+  },
+  {
+   "name": "Andreas Bengtsson"
+  },
+  {
+   "name": "Kevin J. Satzinger"
+  },
+  {
+   "name": "Dmitry Abanin"
+  },
+  {
+   "name": "Amira Abbas"
+  },
+  {
+   "name": "Rajeev Acharya"
+  },
+  {
+   "name": "Laleh Aghababaie Beni"
+  },
+  {
+   "name": "Ross Alcaraz"
+  },
+  {
+   "name": "Sayra Alcaraz"
+  },
+  {
+   "name": "Trond I. Andersen"
+  },
+  {
+   "name": "Benjamin Anker"
+  },
+  {
+   "name": "Markus Ansmann"
+  },
+  {
+   "name": "Frank Arute"
+  },
+  {
+   "name": "Kunal Arya"
+  },
+  {
+   "name": "Walt Askew"
+  },
+  {
+   "name": "Nikita Astrakhantsev"
+  },
+  {
+   "name": "Juan Atalaya"
+  },
+  {
+   "name": "Lamia Ateshian"
+  },
+  {
+   "name": "Christopher Ayala"
+  },
+  {
+   "name": "Ryan Babbush"
+  },
+  {
+   "name": "Akim Babenko"
+  },
+  {
+   "name": "Brian Ballard"
+  },
+  {
+   "name": "Joseph C. Bardin"
+  },
+  {
+   "name": "Hector Bates"
+  },
+  {
+   "name": "Majid Bigdeli Karimi"
+  },
+  {
+   "name": "Alexander Bilmes"
+  },
+  {
+   "name": "Simon Bilodeau"
+  },
+  {
+   "name": "Chris Bohn"
+  },
+  {
+   "name": "Pablo Bonilla"
+  },
+  {
+   "name": "Jenna Bovaird"
+  },
+  {
+   "name": "Dylan Bowers"
+  },
+  {
+   "name": "Leon Brill"
+  },
+  {
+   "name": "Peter Brooks"
+  },
+  {
+   "name": "Michael Broughton"
+  },
+  {
+   "name": "David A. Browne"
+  },
+  {
+   "name": "Brett Buchea"
+  },
+  {
+   "name": "Bob B. Buckley"
+  },
+  {
+   "name": "Chris Bunch"
+  },
+  {
+   "name": "Tim Burger"
+  },
+  {
+   "name": "Brian Burkett"
+  },
+  {
+   "name": "Jamal Busnaina"
+  },
+  {
+   "name": "Nicholas Bushnell"
+  },
+  {
+   "name": "Jonas Bylander"
+  },
+  {
+   "name": "Anthony Cabrera"
+  },
+  {
+   "name": "Juan Campero"
+  },
+  {
+   "name": "Hung-Shen Chang"
+  },
+  {
+   "name": "Gloria Chen"
+  },
+  {
+   "name": "Larry Chen"
+  },
+  {
+   "name": "Silas Chen"
+  },
+  {
+   "name": "Federico Chianese"
+  },
+  {
+   "name": "Ben Chiaro"
+  },
+  {
+   "name": "Liang-Ying Chih"
+  },
+  {
+   "name": "Agnetta Y. Cleland"
+  },
+  {
+   "name": "Bryan Cochrane"
+  },
+  {
+   "name": "Matt Cockrell"
+  },
+  {
+   "name": "Josh Cogan"
+  },
+  {
+   "name": "Tom Connolly"
+  },
+  {
+   "name": "Harold Cook"
+  },
+  {
+   "name": "William Courtney"
+  },
+  {
+   "name": "Alexander L. Crook"
+  },
+  {
+   "name": "Ben Curtin"
+  },
+  {
+   "name": "Adam Dally"
+  },
+  {
+   "name": "Martin Damyanov"
+  },
+  {
+   "name": "Sayan Das"
+  },
+  {
+   "name": "Dripto M. Debroy"
+  },
+  {
+   "name": "Sean Demura"
+  },
+  {
+   "name": "Himadri Dey"
+  },
+  {
+   "name": "Leon Ding"
+  },
+  {
+   "name": "Howard A. Dobbs"
+  },
+  {
+   "name": "Ebru Dogan"
+  },
+  {
+   "name": "Paul Donohoe"
+  },
+  {
+   "name": "Ilya Drozdov"
+  },
+  {
+   "name": "Andrew Dunsworth"
+  },
+  {
+   "name": "Rasmus Edholm"
+  },
+  {
+   "name": "Valerie Ehimhen"
+  },
+  {
+   "name": "Aviv Moshe Elbag"
+  },
+  {
+   "name": "Lior Ella"
+  },
+  {
+   "name": "Mahmoud Elzouka"
+  },
+  {
+   "name": "David Enriquez"
+  },
+  {
+   "name": "Catherine Erickson"
+  },
+  {
+   "name": "Lara Faoro"
+  },
+  {
+   "name": "Parvin Fathi"
+  },
+  {
+   "name": "Vinicius S. Ferreira"
+  },
+  {
+   "name": "Marcos Flores"
+  },
+  {
+   "name": "Leslie Flores Burgos"
+  },
+  {
+   "name": "Sam Fontes"
+  },
+  {
+   "name": "Ebrahim Forati"
+  },
+  {
+   "name": "Jeremiah Ford"
+  },
+  {
+   "name": "Brooks Foxen"
+  },
+  {
+   "name": "Masaya Fukami"
+  },
+  {
+   "name": "Alan Wing Lun Fung"
+  },
+  {
+   "name": "Lenny Fuste"
+  },
+  {
+   "name": "Suhas Ganjam"
+  },
+  {
+   "name": "Gonzalo Garcia"
+  },
+  {
+   "name": "Christopher Garrick"
+  },
+  {
+   "name": "Robert Gasca"
+  },
+  {
+   "name": "Helge Gehring"
+  },
+  {
+   "name": "Robert Geiger"
+  },
+  {
+   "name": "Élie Genois"
+  },
+  {
+   "name": "William Giang"
+  },
+  {
+   "name": "Dar Gilboa"
+  },
+  {
+   "name": "James E. Goeders"
+  },
+  {
+   "name": "Edward C. Gonzales"
+  },
+  {
+   "name": "Sofia Gonzalez Garcia"
+  },
+  {
+   "name": "Mike Gore"
+  },
+  {
+   "name": "Raja Gosula"
+  },
+  {
+   "name": "Stijn J. de Graaf"
+  },
+  {
+   "name": "Alejandro Grajales Dau"
+  },
+  {
+   "name": "Dietrich Graumann"
+  },
+  {
+   "name": "Joel Grebel"
+  },
+  {
+   "name": "Alex Greene"
+  },
+  {
+   "name": "Jeremy Grill"
+  },
+  {
+   "name": "Jonathan A. Gross"
+  },
+  {
+   "name": "Jose Guerrero"
+  },
+  {
+   "name": "Loïck Le Guevel"
+  },
+  {
+   "name": "Marika Gugole"
+  },
+  {
+   "name": "Simon Gustavsson"
+  },
+  {
+   "name": "Steve Habegger"
+  },
+  {
+   "name": "Tanner Hadick"
+  },
+  {
+   "name": "Ali Hadjikhani"
+  },
+  {
+   "name": "Michael C. Hamilton"
+  },
+  {
+   "name": "Bianca Hanly"
+  },
+  {
+   "name": "Monica Hansen"
+  },
+  {
+   "name": "Matthew P. Harrigan"
+  },
+  {
+   "name": "Patrick Harrington"
+  },
+  {
+   "name": "Sean D. Harrington"
+  },
+  {
+   "name": "Jeanne Hartshorn"
+  },
+  {
+   "name": "Christian Heslin"
+  },
+  {
+   "name": "Stephen Heslin"
+  },
+  {
+   "name": "Paula Heu"
+  },
+  {
+   "name": "Oscar Higgott"
+  },
+  {
+   "name": "Reno Hiltermann"
+  },
+  {
+   "name": "Devon Hollowood"
+  },
+  {
+   "name": "Mike Hucka"
+  },
+  {
+   "name": "Christopher Hudspeth"
+  },
+  {
+   "name": "Ashley Huff"
+  },
+  {
+   "name": "William J. Huggins"
+  },
+  {
+   "name": "Lev B. Ioffe"
+  },
+  {
+   "name": "Aditya Jayaraman"
+  },
+  {
+   "name": "Evan Jeffrey"
+  },
+  {
+   "name": "Shaun Jevons"
+  },
+  {
+   "name": "Zhang Jiang"
+  },
+  {
+   "name": "Xiaoxuan Jin"
+  },
+  {
+   "name": "Tomas Jochym-O'Connor"
+  },
+  {
+   "name": "Shunnee Joseph"
+  },
+  {
+   "name": "Chaitali Joshi"
+  },
+  {
+   "name": "Kelsey Josund"
+  },
+  {
+   "name": "Kelsey Judd"
+  },
+  {
+   "name": "Pavol Juhas"
+  },
+  {
+   "name": "Andreas Kabel"
+  },
+  {
+   "name": "Hui Kang"
+  },
+  {
+   "name": "Kiseo Kang"
+  },
+  {
+   "name": "Bharath Kannan"
+  },
+  {
+   "name": "Amir H. Karamlou"
+  },
+  {
+   "name": "Ryan Kaufman"
+  },
+  {
+   "name": "Kostyantyn Kechedzhi"
+  },
+  {
+   "name": "Tanuj Khattar"
+  },
+  {
+   "name": "Mostafa Khezri"
+  },
+  {
+   "name": "Seon Kim"
+  },
+  {
+   "name": "Paul V. Klimov"
+  },
+  {
+   "name": "Can M. Knaut"
+  },
+  {
+   "name": "Tom Ko"
+  },
+  {
+   "name": "Bryce Kobrin"
+  },
+  {
+   "name": "Fedor Kostritsa"
+  },
+  {
+   "name": "John Mark Kreikebaum"
+  },
+  {
+   "name": "Ryuho Kudo"
+  },
+  {
+   "name": "Ben Kueffler"
+  },
+  {
+   "name": "Vitali Kutsko"
+  },
+  {
+   "name": "Dylan Lane"
+  },
+  {
+   "name": "Tiano Lange-Dei"
+  },
+  {
+   "name": "Brandon W. Langley"
+  },
+  {
+   "name": "Pavel Laptev"
+  },
+  {
+   "name": "Kim-Ming Lau"
+  },
+  {
+   "name": "Emma Leavell"
+  },
+  {
+   "name": "Justin Ledford"
+  },
+  {
+   "name": "Joy Lee"
+  },
+  {
+   "name": "Kenny Lee"
+  },
+  {
+   "name": "Nathalie de Leon"
+  },
+  {
+   "name": "Brian J. Lester"
+  },
+  {
+   "name": "Wendy Leung"
+  },
+  {
+   "name": "Lily Li"
+  },
+  {
+   "name": "Ming Li"
+  },
+  {
+   "name": "Wing Yan Li"
+  },
+  {
+   "name": "Alexander T. Lill"
+  },
+  {
+   "name": "Mike Lindmark"
+  },
+  {
+   "name": "William P. Livingston"
+  },
+  {
+   "name": "Matthew T. Lloyd"
+  },
+  {
+   "name": "Jing Lu"
+  },
+  {
+   "name": "Erik Lucero"
+  },
+  {
+   "name": "Daniel Lundahl"
+  },
+  {
+   "name": "Aaron Lunt"
+  },
+  {
+   "name": "Donald Macaskill"
+  },
+  {
+   "name": "Sid Madhuk"
+  },
+  {
+   "name": "Brian Maertz"
+  },
+  {
+   "name": "Aniket Maiti"
+  },
+  {
+   "name": "Ashley Maloney"
+  },
+  {
+   "name": "Salvatore Mandrà"
+  },
+  {
+   "name": "Bhavik Markana"
+  },
+  {
+   "name": "Orion Martin"
+  },
+  {
+   "name": "Eric Mascot"
+  },
+  {
+   "name": "Paul Masih Das"
+  },
+  {
+   "name": "Anselme Massimino"
+  },
+  {
+   "name": "Melvin Mathews"
+  },
+  {
+   "name": "Cameron Maxfield"
+  },
+  {
+   "name": "Jarrod R. McClean"
+  },
+  {
+   "name": "Seneca Meeks"
+  },
+  {
+   "name": "Anthony Megrant"
+  },
+  {
+   "name": "Tim Menke"
+  },
+  {
+   "name": "Zlatko K. Minev"
+  },
+  {
+   "name": "Reza Molavi"
+  },
+  {
+   "name": "Sebastian Molina"
+  },
+  {
+   "name": "Shirin Montazeri"
+  },
+  {
+   "name": "William Morong"
+  },
+  {
+   "name": "Wojtek Mruczkiewicz"
+  },
+  {
+   "name": "Aki Nakamura"
+  },
+  {
+   "name": "Konstantin Nesterov"
+  },
+  {
+   "name": "Roselle Ngaloy"
+  },
+  {
+   "name": "Anthony Nguyen"
+  },
+  {
+   "name": "Murray Nguyen"
+  },
+  {
+   "name": "Chia-Hung Ni"
+  },
+  {
+   "name": "Murphy Yuezhen Niu"
+  },
+  {
+   "name": "Sergey Novikov"
+  },
+  {
+   "name": "Ricky Oliver"
+  },
+  {
+   "name": "William D. Oliver"
+  },
+  {
+   "name": "Christopher Olson"
+  },
+  {
+   "name": "Raymond Orosco"
+  },
+  {
+   "name": "Amr Osman"
+  },
+  {
+   "name": "Kristoffer Ottosson"
+  },
+  {
+   "name": "Alice Pagano"
+  },
+  {
+   "name": "Agustin Di Paolo"
+  },
+  {
+   "name": "Seong Hyeon Park"
+  },
+  {
+   "name": "Manan Patel"
+  },
+  {
+   "name": "Sherman Peek"
+  },
+  {
+   "name": "David Peterson"
+  },
+  {
+   "name": "Alex Pizzuto"
+  },
+  {
+   "name": "Thomas Plumb-Reyes"
+  },
+  {
+   "name": "Elias Portoles"
+  },
+  {
+   "name": "Rebecca Potter"
+  },
+  {
+   "name": "Orion Pritchard"
+  },
+  {
+   "name": "Sam Probst"
+  },
+  {
+   "name": "Michael Qian"
+  },
+  {
+   "name": "Chris Quintana"
+  },
+  {
+   "name": "Matthew Rakher"
+  },
+  {
+   "name": "Ganesh Ramachandran"
+  },
+  {
+   "name": "Arpit Ranadive"
+  },
+  {
+   "name": "Armin Razavi"
+  },
+  {
+   "name": "Matthew J. Reagor"
+  },
+  {
+   "name": "Ants Remm"
+  },
+  {
+   "name": "Rachel Resnick"
+  },
+  {
+   "name": "Andrew Reynolds"
+  },
+  {
+   "name": "David M. Rhodes"
+  },
+  {
+   "name": "Daniel Riley"
+  },
+  {
+   "name": "Roberto Rodriguez"
+  },
+  {
+   "name": "Emma Ropes"
+  },
+  {
+   "name": "Lucia B. De Rose"
+  },
+  {
+   "name": "Eliott Rosenberg"
+  },
+  {
+   "name": "Dario Rosenstock"
+  },
+  {
+   "name": "Elizabeth Rossi"
+  },
+  {
+   "name": "Pedram Roushan"
+  },
+  {
+   "name": "David A. Rower"
+  },
+  {
+   "name": "Robert Salazar"
+  },
+  {
+   "name": "Kannan Sankaragomathi"
+  },
+  {
+   "name": "Murat Can Sarihan"
+  },
+  {
+   "name": "Max Schaefer"
+  },
+  {
+   "name": "Sebastian Schroeder"
+  },
+  {
+   "name": "Henry F. Schurkus"
+  },
+  {
+   "name": "Aria Shahingohar"
+  },
+  {
+   "name": "Michael J. Shearn"
+  },
+  {
+   "name": "Aaron Shorter"
+  },
+  {
+   "name": "Vladimir Shvarts"
+  },
+  {
+   "name": "Mauricio Sifontes"
+  },
+  {
+   "name": "Spencer Small"
+  },
+  {
+   "name": "W. Clarke Smith"
+  },
+  {
+   "name": "David A. Sobel"
+  },
+  {
+   "name": "Barrett Spells"
+  },
+  {
+   "name": "Sofia Springer"
+  },
+  {
+   "name": "Praveen Sriram"
+  },
+  {
+   "name": "George Sterling"
+  },
+  {
+   "name": "Scott Stonemeyer"
+  },
+  {
+   "name": "John Su"
+  },
+  {
+   "name": "Jordan Suchard"
+  },
+  {
+   "name": "Philippe Suchsland"
+  },
+  {
+   "name": "Youngkyu Sung"
+  },
+  {
+   "name": "Aaron Szasz"
+  },
+  {
+   "name": "Alexander Sztein"
+  },
+  {
+   "name": "Tomoyuki Tanaka"
+  },
+  {
+   "name": "Madeline Taylor"
+  },
+  {
+   "name": "Jothi Priyanka Thiruraman"
+  },
+  {
+   "name": "Douglas Thor"
+  },
+  {
+   "name": "Brandur Thorgrimsson"
+  },
+  {
+   "name": "Dogan Timucin"
+  },
+  {
+   "name": "Eifu Tomita"
+  },
+  {
+   "name": "Alfredo Torres"
+  },
+  {
+   "name": "M. Mert Torunbalci"
+  },
+  {
+   "name": "Edoardo Trabaldo"
+  },
+  {
+   "name": "Hao Tran"
+  },
+  {
+   "name": "Takahiro Tsunoda"
+  },
+  {
+   "name": "Justin Vargas"
+  },
+  {
+   "name": "Gopinath Vasalamarri"
+  },
+  {
+   "name": "Sergey Vdovichev"
+  },
+  {
+   "name": "Guifre Vidal"
+  },
+  {
+   "name": "Benjamin Villalonga"
+  },
+  {
+   "name": "Jeremy Volkman"
+  },
+  {
+   "name": "Meghan Voorhees"
+  },
+  {
+   "name": "Steven Waltman"
+  },
+  {
+   "name": "Jonathan Waltz"
+  },
+  {
+   "name": "Danni Wang"
+  },
+  {
+   "name": "Shannon X. Wang"
+  },
+  {
+   "name": "Brayden Ware"
+  },
+  {
+   "name": "James D. Watson"
+  },
+  {
+   "name": "Yonghua Wei"
+  },
+  {
+   "name": "Travis Weidel"
+  },
+  {
+   "name": "Tom Westerhout"
+  },
+  {
+   "name": "Theodore White"
+  },
+  {
+   "name": "Dominik Wild"
+  },
+  {
+   "name": "Kristi Wong"
+  },
+  {
+   "name": "Bryan W. K. Woo"
+  },
+  {
+   "name": "Christopher J. Wood"
+  },
+  {
+   "name": "Maddy Woodson"
+  },
+  {
+   "name": "Cheng Xing"
+  },
+  {
+   "name": "Z. Jamie Yao"
+  },
+  {
+   "name": "Ping Yeh"
+  },
+  {
+   "name": "Bicheng Ying"
+  },
+  {
+   "name": "Juhwan Yoo"
+  },
+  {
+   "name": "Noureldin Yosri"
+  },
+  {
+   "name": "Elliot Young"
+  },
+  {
+   "name": "Grayson Young"
+  },
+  {
+   "name": "Adam Zalcman"
+  },
+  {
+   "name": "Ran Zhang"
+  },
+  {
+   "name": "Yaxing Zhang"
+  },
+  {
+   "name": "Yiqing Zhou"
+  },
+  {
+   "name": "Ningfeng Zhu"
+  },
+  {
+   "name": "Nicholas Zobrist"
+  },
+  {
+   "name": "Zhenjie Zou"
+  },
+  {
+   "name": "Alexander N. Korotkov"
+  },
+  {
+   "name": "Sergio Boixo"
+  },
+  {
+   "name": "Hartmut Neven"
+  },
+  {
+   "name": "Kevin C. Miao"
+  },
+  {
+   "name": "Alex Opremcak"
+  },
+  {
+   "name": "Zijun Chen"
+  },
+  {
+   "name": "Cody Jones"
+  },
+  {
+   "name": "Julian Kelly"
+  },
+  {
+   "name": "Dvir Kafri"
+  },
+  {
+   "name": "Charles Neill"
+  },
+  {
+   "name": "Craig Gidney"
+  },
+  {
+   "name": "Yu Chen"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-16T18:49:49Z",
+ "updated": "2026-11-16T18:49:49Z",
+ "abstract": "Scaling fault-tolerant quantum error correction (QEC) requires suppressing errors in both space and time, yet standard logical memory experiments primarily probe spatial faults. Here, we use a 105-qubit Willow superconducting quantum processor to realize and scale the surface code stability experiment, which is alternatively sensitive to temporal error chains. Scaling from patch sizes of $3 \\times 3$ to $7 \\times 7$, we realize a timelike block suppression factor of $μ_T = 1.47 \\pm 0.25$, demonstrating the ability to maintain temporal error suppression as the number of qubits increases. By extending the stability experiment for many cycles, we uncover a sum-of-exponentials behavior in error suppression caused by a temporally correlated error: data-qubit heating to the third excited state $|3\\rangle$. We fully capture this effect with a parameter-free, device-level leakage model incorporating higher-state transport during syndrome extraction cycles. To suppress this error, we develop and realize a walking stability circuit, reaching a logical error probability floor of $\\le 3.20\\times 10^{-8}$ at 60 cycles---two orders of magnitude below the standard construction---and limited by ionizing radiation error bursts. Finally, by adaptively terminating syndrome extraction based on decoder confidence in an offline analysis, we reduce spacetime logical error by 38% and time overhead by 34% compared to the optimal fixed-cycle strategy.",
+ "comment": "34 pages, 18 figures, 6 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.21578",
+  "pdf": "https://arxiv.org/pdf/2611.21578",
+  "html": "https://arxiv.org/html/2611.21578"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.21578v1/Fig3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-17T16:23:17.778Z",
+  "hook": "A new 'walking stability' circuit cuts quantum error rates by 100x, pushing past a major hardware bottleneck.",
+  "tldr": [
+   "Researchers used a 105-qubit processor to study how temporal errors—errors that happen over time—affect quantum error correction.",
+   "They discovered that 'data-qubit heating' was a major source of error and created a model to account for it.",
+   "By adaptively managing syndrome extraction, they reduced logical error rates to below 3.20e-8 and improved efficiency."
+  ],
+  "whyItMatters": "Quantum computers are currently limited by noise; this work demonstrates a practical way to suppress errors that accumulate over time, a key step toward fault-tolerant computing.",
+  "eli5": "Quantum computers are like a game of telephone where the message gets garbled over time. The researchers found a way to 'listen' more carefully and catch the errors as they happen, making the final message much more reliable.",
+  "keyNumbers": [
+   {
+    "value": "3.20e-8",
+    "label": "Logical error probability",
+    "context": "The error floor reached after 60 cycles of the new circuit."
+   },
+   {
+    "value": "38%",
+    "label": "Error reduction",
+    "context": "Improvement in spacetime logical error using adaptive syndrome extraction."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Surface code",
+    "shortDef": "A quantum error correction code that protects information using a 2D grid of qubits.",
+    "eli5Def": "A way of arranging qubits in a grid so they can check each other for errors.",
+    "wikiTitle": "Surface code"
+   },
+   {
+    "term": "Syndrome extraction",
+    "shortDef": "The process of measuring qubits to detect errors without destroying the stored quantum information.",
+    "eli5Def": "A way to check for errors in a quantum computer without looking directly at the data.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Fault-tolerant",
+    "shortDef": "A system that continues to operate correctly even if some of its components fail.",
+    "eli5Def": "A machine that keeps working perfectly even if some of its parts break.",
+    "wikiTitle": "Fault-tolerant quantum computing"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 70
+ }
+}

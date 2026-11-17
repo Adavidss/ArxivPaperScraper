@@ -1,0 +1,90 @@
+{
+ "id": "2611.21560",
+ "version": 1,
+ "title": "Optimal Quantum Sensing Algorithms for Discrete-Frequency Spectroscopy",
+ "authors": [
+  {
+   "name": "Yu-Jie Liu"
+  },
+  {
+   "name": "Richard R. Allen"
+  },
+  {
+   "name": "Ruohan Shen"
+  },
+  {
+   "name": "Bingtian Ye"
+  },
+  {
+   "name": "Timothy T. Chang"
+  },
+  {
+   "name": "Joonhee Choi"
+  },
+  {
+   "name": "Soonwon Choi"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-16T18:39:57Z",
+ "updated": "2026-11-16T18:39:57Z",
+ "abstract": "Spectroscopy is a versatile tool that drives scientific discovery and underpins modern technologies. Quantum sensing offers promising opportunities to advance spectroscopy through enhanced sensitivity and spectral and spatial resolution. However, existing approaches largely focus on improving general measurement capabilities, often overlooking the structure of specific sensing tasks and leaving potential performance gains untapped. Here, we develop an algorithmic approach to quantum sensing tailored to various spectroscopic tasks, providing new avenues for improvement. Specifically, we consider general time-varying signals supported on a known set of $N$ candidate frequencies, a setting we call discrete-frequency spectroscopy. We formulate three types of practically motivated sensing tasks---Detection, Search, and Learning---that require progressively more spectral information. For all tasks, we design optimal quantum sensing algorithms achieving a $\\sqrt{N}$ speedup over conventional frequency-scanning approaches. Optimal Detection and Search need only a single-qubit sensor under $π$-pulse control, whereas optimal Learning provably requires coherent processing with a quantum computer. End-to-end numerical simulations incorporating various experimental imperfections predict up to two-orders-of-magnitude speedup in Detection. As an example, we analyze the feasibility of our Detection and Search algorithms for real-world molecular screening based on state-of-the-art nitrogen-vacancy centers. We also show how quantum-computing-enhanced Learning enables wireless communication in a weak-signal regime where conventional methods fail. Our results establish a practical route toward realizing quantum advantages via designing task-specific sensing algorithms.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.21560",
+  "pdf": "https://arxiv.org/pdf/2611.21560",
+  "html": "https://arxiv.org/html/2611.21560"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.21560v1/fig_overview_rra_116.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-17T16:23:17.778Z",
+  "hook": "New quantum sensing algorithms achieve a square-root speedup in discrete-frequency spectroscopy tasks.",
+  "tldr": [
+   "The researchers developed task-specific quantum algorithms for Detection, Search, and Learning in discrete-frequency spectroscopy.",
+   "They utilized single-qubit sensors with pi-pulse control for detection and quantum computing for learning tasks.",
+   "Numerical simulations show up to two-orders-of-magnitude speedup compared to conventional frequency-scanning methods."
+  ],
+  "whyItMatters": "By tailoring quantum algorithms to specific sensing tasks, we can significantly improve molecular screening and wireless communication efficiency.",
+  "eli5": "Think of finding a specific radio station in a sea of static. Conventional methods scan one by one. These new quantum algorithms act like a smart tuner that 'knows' where to look, finding the signal much faster by using quantum physics to process information more efficiently.",
+  "keyNumbers": [
+   {
+    "value": "sqrt(N)",
+    "label": "Speedup factor",
+    "context": "The improvement over conventional frequency-scanning approaches for N candidate frequencies."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Spectroscopy",
+    "shortDef": "The study of the interaction between matter and electromagnetic radiation.",
+    "eli5Def": "Using light or other waves to figure out what a material is made of.",
+    "wikiTitle": "Spectroscopy"
+   },
+   {
+    "term": "Nitrogen-vacancy center",
+    "shortDef": "A point defect in diamond that can be used as a quantum sensor.",
+    "eli5Def": "A tiny 'trap' in a diamond crystal that acts like a super-sensitive compass for magnetic fields.",
+    "wikiTitle": "Nitrogen-vacancy center"
+   },
+   {
+    "term": "Pi-pulse",
+    "shortDef": "A control pulse that rotates a qubit's state by 180 degrees.",
+    "eli5Def": "A precise 'flip' command that turns a quantum bit from 'on' to 'off' or vice versa.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

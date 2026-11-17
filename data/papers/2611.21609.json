@@ -1,0 +1,68 @@
+{
+ "id": "2611.21609",
+ "version": 1,
+ "title": "Double quantum dots as dynamical impurities in one-dimensional transport",
+ "authors": [
+  {
+   "name": "Yang-Zhi Chou"
+  }
+ ],
+ "categories": [
+  "cond-mat.mes-hall",
+  "cond-mat.dis-nn",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.mes-hall",
+ "published": "2026-11-16T18:59:51Z",
+ "updated": "2026-11-16T18:59:51Z",
+ "abstract": "We study single-electron scattering in a tight-binding chain capacitively coupled to double quantum dots, which act as dynamical two-level-system impurities with electrically tunable level splittings. For a single impurity, we solve the scattering problem exactly and show Feshbach-like perfect elastic reflection, whose resonant condition distinguishes the initial two-level state. For several impurities in a strongly reflecting chain, transmission peaks at an intermediate mean level splitting. At small splittings, energy exchange with the impurities can weaken constructive interference between backscattered paths, consistent with the initial rise in transmission. As excitation channels close, virtual transitions can enhance reflection and drive transmission below its purely elastic value $T_0$. At larger splittings, these virtual processes weaken and transmission approaches $T_0$. We discuss how gate-controlled transmission measurements in quantum-dot arrays could test these predictions.",
+ "comment": "8 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.21609",
+  "pdf": "https://arxiv.org/pdf/2611.21609",
+  "html": "https://arxiv.org/html/2611.21609"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.21609v1/Fig3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-17T16:23:17.778Z",
+  "hook": "Double quantum dots act as 'dynamical impurities' that can either block or boost electron flow in 1D wires.",
+  "tldr": [
+   "The author modeled a 1D chain of electrons interacting with double quantum dots that change their state based on electrical signals.",
+   "They found that these dots act as tunable impurities that can cause perfect reflection of electrons at specific energy levels.",
+   "Transmission through the chain is sensitive to the energy exchange between the electrons and the dots, which can be controlled via external gates."
+  ],
+  "whyItMatters": "Understanding how to control electron flow with quantum dots is essential for building future quantum circuits and nanoscale transistors.",
+  "eli5": "Think of a narrow hallway where electrons are walking. The quantum dots are like doors that can be opened or closed. By changing the 'energy' of these doors, we can make them bounce the electrons back or let them pass through.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum dot",
+    "shortDef": "A nanometer-scale semiconductor particle that confines electrons in all three dimensions.",
+    "eli5Def": "A tiny 'box' that traps electrons, forcing them to behave like they are in an atom.",
+    "wikiTitle": "Quantum dot"
+   },
+   {
+    "term": "Tight-binding chain",
+    "shortDef": "A model where electrons hop between neighboring sites in a lattice.",
+    "eli5Def": "A model of a material where electrons jump from one atom to the next like stepping stones.",
+    "wikiTitle": "Tight-binding model"
+   },
+   {
+    "term": "Feshbach resonance",
+    "shortDef": "A phenomenon where scattering is enhanced by a temporary bound state.",
+    "eli5Def": "When two things collide and briefly 'stick' together, causing a huge change in how they bounce off.",
+    "wikiTitle": "Feshbach resonance"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

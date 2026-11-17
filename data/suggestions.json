@@ -1,25 +1,25 @@
 {
- "generatedAt": "2026-11-16T16:18:18.016Z",
+ "generatedAt": "2026-11-17T16:23:17.778Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
    "slug": "sabre-kais",
-   "score": 14,
+   "score": 16,
    "coAuthoredWith": [],
    "viaKeywords": [
     "SABRE"
    ],
    "viaCategories": [],
    "paperIds": [
+    "2611.19049",
     "2611.18457",
-    "2610.41782",
-    "2610.15998"
+    "2610.41782"
    ],
    "recentTitles": [
-    "Symmetry-Controlled Quantum State Transfer in Poly-bi-[8]-annulenylene: From Heisenberg to Hubbard Dynamics",
-    "Chiral Torsional Double Wells: Tunneling and Polarizability"
+    "Machine-learned active spaces enable quantum calculations of spin-state energetics of transition-metal complexes on quantum hardware",
+    "Symmetry-Controlled Quantum State Transfer in Poly-bi-[8]-annulenylene: From Heisenberg to Hubbard Dynamics"
    ],
-   "paperCount": 7
+   "paperCount": 8
   },
   {
    "name": "Li Gao",
@@ -102,6 +102,26 @@
    "paperCount": 1
   },
   {
+   "name": "Soonwon Choi",
+   "slug": "soonwon-choi",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2611.21560",
+    "2609.31596",
+    "2609.30248"
+   ],
+   "recentTitles": [
+    "Optimal Quantum Sensing Algorithms for Discrete-Frequency Spectroscopy",
+    "Oracle Distillation"
+   ],
+   "paperCount": 4
+  },
+  {
    "name": "Matteo Fadel",
    "slug": "matteo-fadel",
    "score": 4,
@@ -181,25 +201,6 @@
     "Quantum Channel Stein Theorem beyond Definite Causal Order"
    ],
    "paperCount": 4
-  },
-  {
-   "name": "Manas Sajjan",
-   "slug": "manas-sajjan",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [
-    "SABRE"
-   ],
-   "viaCategories": [],
-   "paperIds": [
-    "2610.41782",
-    "2609.33617"
-   ],
-   "recentTitles": [
-    "Chiral Torsional Double Wells: Tunneling and Polarizability",
-    "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies"
-   ],
-   "paperCount": 2
   }
  ]
 }

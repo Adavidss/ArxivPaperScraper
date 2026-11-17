@@ -1,0 +1,73 @@
+{
+ "id": "2611.21552",
+ "version": 1,
+ "title": "Benchmarking memory and nonlinear processing capacity of quantum recurrent neural networks for time series prediction",
+ "authors": [
+  {
+   "name": "José Daniel Viqueira"
+  },
+  {
+   "name": "Andrés Gómez"
+  },
+  {
+   "name": "David Mera"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-16T18:32:05Z",
+ "updated": "2026-11-16T18:32:05Z",
+ "abstract": "Quantum machine learning has emerged as a promising approach to time series prediction. While quantum reservoir computing has been widely explored for this setting, variational quantum models tailored to sequential data remain comparatively understudied, largely because they are difficult to train. In this work, we present a rigorous benchmark of variational quantum recurrent neural networks (QRNNs) on time series prediction tasks, focusing on two key capabilities: memory and nonlinear processing. We introduce a task-driven methodology that quantifies model capacity, enabling an intuitive and fair comparison across architectures, including classical recurrent baselines. We evaluate the proposed framework on two generic benchmark tasks and on a synthetic dataset describing a chaotic system. Overall, the quantum models achieve performance comparable to their classical counterparts, but classical models scale better with the memory size within the range studied. Notably, one QRNN variant shows higher average capacity on the task designed to jointly probe memory and nonlinear capacity. Moreover, our results show that quantum models offer better capacity when we are able to find a good parameter initialization. However, the increasing sensitivity to initialization leads to a lower probability of finding good solutions as the model size increases. These results provide a principled starting point for designing richer quantum recurrent architectures and for assessing where they may offer practical benefits.",
+ "comment": "20 pages, 7 figures, 8 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.21552",
+  "pdf": "https://arxiv.org/pdf/2611.21552",
+  "html": "https://arxiv.org/html/2611.21552"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.21552v1/figs/boxplot_capacity_comparison.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-17T16:23:17.778Z",
+  "hook": "Quantum recurrent neural networks show comparable performance to classical models but struggle with parameter scaling.",
+  "tldr": [
+   "The study benchmarked variational quantum recurrent neural networks (QRNNs) against classical baselines for time series prediction.",
+   "They introduced a task-driven methodology to measure memory and nonlinear processing capacity.",
+   "Results indicate that while QRNNs can perform well, classical models currently scale better and are more robust to initialization."
+  ],
+  "whyItMatters": "This work provides a realistic assessment of quantum machine learning, helping researchers identify where quantum models actually outperform classical ones.",
+  "eli5": "Imagine comparing a new quantum computer brain to a standard classical one at predicting stock market trends. The quantum brain is good, but it's very 'picky'—if you don't set it up perfectly at the start, it fails, whereas the classical brain is more reliable as it gets bigger.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Recurrent neural network",
+    "shortDef": "A type of artificial neural network designed for sequential data by maintaining an internal state.",
+    "eli5Def": "A computer program that remembers what it saw previously to help it predict what happens next.",
+    "wikiTitle": "Recurrent neural network"
+   },
+   {
+    "term": "Variational quantum model",
+    "shortDef": "A hybrid quantum-classical algorithm that uses a parameterized quantum circuit to solve optimization problems.",
+    "eli5Def": "A quantum computer that adjusts its settings like a dial to find the best answer to a problem.",
+    "wikiTitle": "Variational quantum eigensolver"
+   },
+   {
+    "term": "Reservoir computing",
+    "shortDef": "A framework for computing that uses a fixed, complex dynamical system to process input signals.",
+    "eli5Def": "Using a messy, complex system as a 'memory' to help process information without needing to train every single part.",
+    "wikiTitle": "Reservoir computing"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 65
+ }
+}

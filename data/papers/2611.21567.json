@@ -1,0 +1,90 @@
+{
+ "id": "2611.21567",
+ "version": 1,
+ "title": "Peak state transfer in trees and the cost of distance",
+ "authors": [
+  {
+   "name": "Andrew Osborne"
+  },
+  {
+   "name": "Andrew A. Houck"
+  }
+ ],
+ "categories": [
+  "math.CO",
+  "math-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "math.CO",
+ "published": "2026-11-16T18:41:31Z",
+ "updated": "2026-11-16T18:41:31Z",
+ "abstract": "There is peak state transfer between vertices $u$ and $v$ in a graph $G$ if there exists a time $t$ for which $|(\\mathrm{e}^{\\mathrm i t M})_{u,v}|$ saturates the triangle inequality imposed by its spectral decomposition and $M$ is either the adjacency or Laplacian matrix. We show that peak state transfer at distance $d$ requires $\\frac{d^3}{24}(1 + o(1))$ edges in the adjacency case, $Ω(d^2)$ edges in the Laplacian case, and that the leading coefficient in the former is tight. We find a family of graphs with Laplacian peak state transfer at distance $d$ and $Θ(d^5)$ edges, showing that peak state transfer is achievable in a polynomial graph size. In contrast, Laplacian perfect state transfer costs at least $Ω(2^{d/2})$ edges when the distance partition of vertices around one vertex is almost equitable. Finally, we show that Laplacian peak state transfer in trees requires $Ω(d!)$ edges, and we characterize all trees of diameter $\\leq 4$ admitting Laplacian peak state transfer, thus answering a pair of questions posed by Coutinho, Guo, and Schmeits.",
+ "comment": "23 pages, 0 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.21567",
+  "pdf": "https://arxiv.org/pdf/2611.21567",
+  "html": "https://arxiv.org/html/2611.21567"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-17T16:23:17.778Z",
+  "hook": "Achieving peak state transfer in trees requires at least Ω(d!) edges, revealing a massive cost for quantum information.",
+  "tldr": [
+   "The authors analyzed the minimum number of edges required to achieve peak state transfer between two vertices in a graph at distance d.",
+   "They used spectral decomposition of adjacency and Laplacian matrices to derive lower bounds and construct specific graph families.",
+   "They proved that while polynomial graph sizes suffice for general graphs, trees require a factorial number of edges as distance increases."
+  ],
+  "whyItMatters": "Understanding the physical 'cost' of moving quantum states through networks is vital for designing efficient quantum architectures and communication protocols.",
+  "eli5": "Imagine you want to send a secret message across a network of rooms. This paper calculates how many hallways you need to build to ensure the message arrives perfectly. It turns out that if your network is shaped like a tree, you need an astronomically large number of paths to keep the message intact as the distance grows.",
+  "keyNumbers": [
+   {
+    "value": "d^3/24",
+    "label": "Adjacency edge cost",
+    "context": "The minimum edges required for peak state transfer at distance d in the adjacency case."
+   },
+   {
+    "value": "d^5",
+    "label": "Laplacian graph size",
+    "context": "The number of edges in a graph family that achieves Laplacian peak state transfer."
+   },
+   {
+    "value": "2^{d/2}",
+    "label": "Perfect state transfer cost",
+    "context": "The minimum edges required for Laplacian perfect state transfer."
+   },
+   {
+    "value": "d!",
+    "label": "Tree edge cost",
+    "context": "The minimum edges required for Laplacian peak state transfer in trees."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Peak state transfer",
+    "shortDef": "A condition where quantum state transfer between vertices saturates the triangle inequality of the spectral decomposition.",
+    "eli5Def": "A way to measure how effectively a quantum state can travel from one point to another in a network.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Adjacency matrix",
+    "shortDef": "A square matrix used to represent a finite graph, showing which vertices are adjacent to which.",
+    "eli5Def": "A grid that acts like a map, showing which points in a network are connected to each other.",
+    "wikiTitle": "Adjacency matrix"
+   },
+   {
+    "term": "Laplacian matrix",
+    "shortDef": "A matrix representation of a graph that captures its connectivity and is used in spectral graph theory.",
+    "eli5Def": "A mathematical tool that describes how 'flow' or information spreads across a network.",
+    "wikiTitle": "Laplacian matrix"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 75
+ }
+}

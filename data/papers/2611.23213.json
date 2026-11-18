@@ -1,0 +1,100 @@
+{
+ "id": "2611.23213",
+ "version": 1,
+ "title": "Modeling quantum information scrambling in realistic protein NMR experiments",
+ "authors": [
+  {
+   "name": "Alec F. White"
+  },
+  {
+   "name": "Joseph Haslehurst"
+  },
+  {
+   "name": "Daniel R. Moberg"
+  },
+  {
+   "name": "Justin Provazza"
+  },
+  {
+   "name": "Nicholas C. Rubin"
+  },
+  {
+   "name": "Thomas E. O'Brien"
+  },
+  {
+   "name": "Christian Bengs"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-17T18:52:24Z",
+ "updated": "2026-11-17T18:52:24Z",
+ "abstract": "Out-of-time-order correlators (OTOCs) are important probes of operator spreading and information scrambling, and have recently been proposed as a means of extracting molecular structural information through nuclear magnetic resonance (NMR). Realizing this potential requires accurate modeling of OTOCs in complex molecular environments within experimentally relevant settings. Here, we develop an end-to-end computational pipeline connecting molecular structures to OTOC dynamics in protein systems. Our framework incorporates molecular motion through molecular dynamics simulations, orientational averaging appropriate for powder samples, and spin-network truncation, using an experimentally realizable double-quantum effective Hamiltonian. We apply this framework to a dataset of over 350 carbon-carbon spin pairs across 10 protein systems, spanning interspin distances of 5-17 A. We find that OTOC arrival times scale approximately linearly with interspin distance, revealing system-dependent operator-spreading velocities that enable correlations to propagate over extended distances within milliseconds. Our sensitivity analysis further shows that individual OTOCs predominantly constrain a single structural parameter, primarily associated with interspin distance. Together, these findings highlight the potential of OTOCs to probe spatially extended spin correlations on timescales compatible with solid-state NMR experiments.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.23213",
+  "pdf": "https://arxiv.org/pdf/2611.23213",
+  "html": "https://arxiv.org/html/2611.23213"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.23213v1/OTOC_pipeline.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-18T15:55:02.995Z",
+  "hook": "OTOC arrival times scale linearly with distance, allowing correlations to propagate across proteins in milliseconds.",
+  "tldr": [
+   "The team built a computational pipeline to model information scrambling in proteins via NMR experiments.",
+   "They simulated over 350 carbon-carbon spin pairs across 10 different protein structures.",
+   "They found that OTOCs can effectively probe interspin distances between 5 and 17 Angstroms."
+  ],
+  "whyItMatters": "This provides a new, powerful tool for structural biology, allowing scientists to use quantum information scrambling to map the internal architecture of complex proteins.",
+  "eli5": "Think of a protein as a network of connected balls. By sending a 'quantum signal' through the network and measuring how it scrambles, researchers can figure out exactly how far apart the balls are, even inside a complex, folded protein.",
+  "keyNumbers": [
+   {
+    "value": "350",
+    "label": "carbon-carbon spin pairs",
+    "context": "The dataset size used to test the modeling framework."
+   },
+   {
+    "value": "10",
+    "label": "protein systems",
+    "context": "The number of distinct protein structures analyzed."
+   },
+   {
+    "value": "5-17 A",
+    "label": "interspin distances",
+    "context": "The range of distances between spin pairs measured in the study."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "OTOC",
+    "shortDef": "Out-of-time-order correlators: a tool to measure how quantum information spreads and scrambles.",
+    "eli5Def": "A mathematical 'timer' that tells us how fast information is getting mixed up and spreading out in a quantum system.",
+    "wikiTitle": "Out-of-time-order correlator"
+   },
+   {
+    "term": "NMR",
+    "shortDef": "Nuclear Magnetic Resonance: a technique to observe local magnetic fields around atomic nuclei.",
+    "eli5Def": "A way to look inside molecules using magnets to see how atoms are arranged and connected.",
+    "wikiTitle": "Nuclear magnetic resonance"
+   },
+   {
+    "term": "Information scrambling",
+    "shortDef": "The process by which local quantum information spreads into complex, non-local correlations.",
+    "eli5Def": "When information that was in one spot gets so mixed up with everything else that you can't find it anymore.",
+    "wikiTitle": "Quantum information scrambling"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

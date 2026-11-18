@@ -1,0 +1,71 @@
+{
+ "id": "2611.23224",
+ "version": 1,
+ "title": "From nonlocal correlations to local symmetry breaking: Asymmetry dynamics of crosscap states",
+ "authors": [
+  {
+   "name": "Konstantinos Chalas"
+  },
+  {
+   "name": "Pasquale Calabrese"
+  },
+  {
+   "name": "Colin Rylands"
+  }
+ ],
+ "categories": [
+  "cond-mat.stat-mech",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.stat-mech",
+ "published": "2026-11-17T18:57:40Z",
+ "updated": "2026-11-17T18:57:40Z",
+ "abstract": "Under unitary dynamics preserving a global symmetry, bipartite entanglement typically grows while an initially broken symmetry is locally restored. Here, we show that this conventional scenario can be reversed when symmetry-breaking coherence is initially encoded in long-range entanglement. We investigate this phenomenon in a family of charge deformed crosscap states, characterized by antipodal entangled pairs with tunable entanglement and symmetry breaking. We first characterize their static properties, finding a Page-like entanglement profile and an entanglement asymmetry that vanishes for subsystems smaller than half the system size, but grows logarithmically for larger subsystems. For symmetric subsystems, we also analyze the symmetry-resolved entanglement and investigate how it evolves as the subsystem is continuously deformed away from a symmetric partition. Following a quench to a free-fermion tight-binding chain, we uncover an unconventional dynamics in which the entanglement entropy decreases whereas the entanglement asymmetry increases, so that initially symmetric subsystems dynamically develop local symmetry breaking. This behavior is quantitatively captured by a quasiparticle picture describing the propagation of antipodal correlations. Our results reveal how symmetry-preserving dynamics can redistribute globally encoded symmetry-breaking coherence, making it locally accessible, and establish the initial entanglement structure as a key ingredient in determining the fate of local symmetries out of equilibrium.",
+ "comment": "29 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.23224",
+  "pdf": "https://arxiv.org/pdf/2611.23224",
+  "html": "https://arxiv.org/html/2611.23224"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-18T15:55:02.995Z",
+  "hook": "Symmetry-breaking coherence can be redistributed by unitary dynamics, causing initially symmetric systems to break symmetry.",
+  "tldr": [
+   "Researchers studied 'crosscap states'—quantum states with antipodal entanglement—using a free-fermion tight-binding chain.",
+   "They tracked how entanglement entropy and symmetry-breaking asymmetry evolve after a quench.",
+   "They found that entanglement entropy decreases while asymmetry increases, leading to local symmetry breaking."
+  ],
+  "whyItMatters": "This challenges the standard view that unitary dynamics always restore symmetry, showing that initial entanglement structure can actually drive the emergence of local symmetry breaking.",
+  "eli5": "Usually, if you shake up a system, it tries to become uniform and balanced. Here, the researchers found a special case where the system starts out 'balanced' but, because of how its parts were originally linked, the shaking actually causes it to develop a lopsided, broken-symmetry pattern locally.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Unitary dynamics",
+    "shortDef": "Quantum evolution that preserves the total probability and information of a system.",
+    "eli5Def": "A process where a quantum system changes over time without losing any information or 'leaking' into the environment.",
+    "wikiTitle": "Unitary transformation"
+   },
+   {
+    "term": "Crosscap states",
+    "shortDef": "Quantum states characterized by long-range, antipodal entanglement pairs.",
+    "eli5Def": "A specific arrangement of quantum particles where pairs on opposite sides of a system are strongly linked to each other.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Entanglement asymmetry",
+    "shortDef": "A measure of how much a quantum state violates a symmetry due to its entanglement structure.",
+    "eli5Def": "A way to measure how 'unbalanced' or lopsided the connections are between different parts of a quantum system.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 75
+ }
+}

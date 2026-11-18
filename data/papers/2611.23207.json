@@ -1,0 +1,85 @@
+{
+ "id": "2611.23207",
+ "version": 1,
+ "title": "Local interference algorithms for observables in large random circuits",
+ "authors": [
+  {
+   "name": "Philippe Suchsland"
+  },
+  {
+   "name": "Brayden Ware"
+  },
+  {
+   "name": "Vladislav D. Kurilovich"
+  },
+  {
+   "name": "Vadim Smelyanskiy"
+  },
+  {
+   "name": "Kostyantyn Kechedzhi"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.str-el"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-17T18:48:27Z",
+ "updated": "2026-11-17T18:48:27Z",
+ "abstract": "In quantum dynamics, it is generally believed that interference effects lead to a sign problem for classical Monte Carlo sampling methods, rendering sampling ineffective. In this paper we show that this is generically not the case for the task of simulating the evolution of observables in random instances of circuit dynamics. Specifically, we consider two examples of observables which give large signals despite the randomness of the dynamics: first order out-of-time-ordered correlators (OTOCs) in unstructured random circuits without conservation laws and time-ordered charge-charge correlators (TOCs) in particle number-preserving random circuits. We show that these observables can be approximated by classical stochastic processes and that these approximations can be systematically improved with a series expansion that incorporates coherent corrections associated with clusters of gates. We design and implement algorithms that combine Monte Carlo sampling and tensor network methods to approximate the series. We observe numerically that the computational complexity of approximating TOCs and OTOCs scales polynomially in the circuit size and in the target precision. We study the accuracy of these algorithms by directly mapping their ensemble-averaged errors to partition functions of replica statistical models, allowing for perturbative analysis and numerics in $1$d brickwork geometries. Our theoretical analysis explains the empirical observation of polynomial complexity of these algorithms and is consistent with polynomial complexity extending to arbitrarily small precision and to the thermodynamic limit.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.23207",
+  "pdf": "https://arxiv.org/pdf/2611.23207",
+  "html": "https://arxiv.org/html/2611.23207"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.23207v1/Fig1Sketch_wOTOC2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-18T15:55:02.995Z",
+  "hook": "Simulating quantum observables in large random circuits is computationally efficient, scaling polynomially with size.",
+  "tldr": [
+   "The authors developed algorithms to approximate OTOCs and TOCs in random quantum circuits.",
+   "They combined Monte Carlo sampling with tensor network methods to manage interference effects.",
+   "They proved and numerically verified that these algorithms scale polynomially, avoiding the 'sign problem'."
+  ],
+  "whyItMatters": "This work breaks the common assumption that quantum interference always makes classical simulation impossible, opening doors to simulating large-scale quantum dynamics efficiently.",
+  "eli5": "Usually, simulating quantum computers is thought to be impossible because quantum waves interfere in a way that confuses classical computers. The researchers found a clever way to 'ignore' the confusing parts, allowing them to simulate large quantum systems using standard computers much faster than expected.",
+  "keyNumbers": [
+   {
+    "value": "1",
+    "label": "dimension",
+    "context": "The geometry of the brickwork circuits studied."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Sign problem",
+    "shortDef": "A computational hurdle in quantum Monte Carlo where negative weights make sampling exponentially difficult.",
+    "eli5Def": "A math problem where some numbers are negative, causing the computer to get stuck trying to add up probabilities.",
+    "wikiTitle": "Sign problem"
+   },
+   {
+    "term": "OTOC",
+    "shortDef": "Out-of-time-order correlators: a measure of how quantum information spreads in a system.",
+    "eli5Def": "A way to measure how quickly information gets scrambled in a quantum system.",
+    "wikiTitle": "Out-of-time-order correlator"
+   },
+   {
+    "term": "Polynomial complexity",
+    "shortDef": "A computational scaling where resources grow at a manageable, power-law rate relative to input size.",
+    "eli5Def": "A way to say that a problem is 'easy' enough that a computer can solve it without taking forever as the problem gets bigger.",
+    "wikiTitle": "Computational complexity theory"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

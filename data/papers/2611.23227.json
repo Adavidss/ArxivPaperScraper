@@ -1,0 +1,75 @@
+{
+ "id": "2611.23227",
+ "version": 1,
+ "title": "Expressivity of two-dimensional Gaussian fermion tensor network states",
+ "authors": [
+  {
+   "name": "Pok Man Tam"
+  },
+  {
+   "name": "William Musk"
+  },
+  {
+   "name": "Zhehao Dai"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mes-hall",
+  "cond-mat.str-el",
+  "cond-mat.supr-con"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-17T18:59:22Z",
+ "updated": "2026-11-17T18:59:22Z",
+ "abstract": "Tensor network states (TNS) provide a family of efficiently compressed approximations to physically relevant many-body quantum states. An important quantity that characterizes the computational resources required by a TNS is its bond dimension. While in one dimension an area law for the Renyi-0 entropy guarantees an exact matrix product state representation with a bond dimension independent of the system size, an analogous statement does not hold for general states in two dimensions (2D). This leaves open the question of how the expressivity of 2D TNS is related to the entanglement properties of the states they represent. In this work, we focus on two families of 2D translation-invariant Gaussian fermionic states: single-band BCS superconductors and half-filled two-band insulators (including semimetals). For each family, we prove that an area law for the Renyi-0 entropy is equivalent to having an exact Gaussian fermionic TNS representation with a finite bond dimension determined by the Renyi-0 entropy. We also establish equivalent characterizations in terms of compactly supported Wannier-type orbitals and the momentum-space wavefunction, relating the spatial extent of these orbitals and the structure of the wavefunction to the required bond dimension.",
+ "comment": "Main: 17 pages, 2 figures, 2 tables; 4 appendices",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.23227",
+  "pdf": "https://arxiv.org/pdf/2611.23227",
+  "html": "https://arxiv.org/html/2611.23227"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.23227v1/Figure_1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-18T15:55:02.995Z",
+  "hook": "For 2D fermionic states, an area law for Renyi-0 entropy is equivalent to having an exact tensor network representation.",
+  "tldr": [
+   "The authors analyzed the expressivity of 2D Gaussian fermionic tensor network states (TNS).",
+   "They focused on BCS superconductors and half-filled two-band insulators using Renyi-0 entropy and Wannier-type orbitals.",
+   "They proved that an area law for Renyi-0 entropy guarantees an exact TNS representation with finite bond dimension."
+  ],
+  "whyItMatters": "This result bridges the gap between entanglement properties and the computational efficiency of simulating complex 2D quantum materials, helping physicists understand which systems are tractable for classical computers.",
+  "eli5": "Imagine trying to describe a massive, complex jigsaw puzzle by only looking at the edges of the pieces. The researchers found that for certain quantum materials, if the 'entanglement' (how connected the pieces are) follows a specific rule called an area law, you can perfectly represent the whole system using a much smaller, manageable set of data.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Tensor Network States",
+    "shortDef": "A method to represent many-body quantum states by decomposing them into smaller, interconnected tensors.",
+    "eli5Def": "A way to simplify a giant, impossible-to-solve quantum problem by breaking it into smaller, connected parts that are easier to calculate.",
+    "wikiTitle": "Tensor network"
+   },
+   {
+    "term": "Renyi-0 entropy",
+    "shortDef": "A measure of the 'size' or entanglement of a quantum state based on the number of non-zero eigenvalues.",
+    "eli5Def": "A mathematical score that tells you how 'tangled' or connected the different parts of a quantum system are.",
+    "wikiTitle": "Rényi entropy"
+   },
+   {
+    "term": "Wannier-type orbitals",
+    "shortDef": "Localized wavefunctions used to describe electrons in a crystal lattice.",
+    "eli5Def": "A way of mapping where electrons are likely to be found in a solid, focusing on specific spots rather than the whole material.",
+    "wikiTitle": "Wannier function"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

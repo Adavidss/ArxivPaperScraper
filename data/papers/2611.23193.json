@@ -1,0 +1,57 @@
+{
+ "id": "2611.23193",
+ "version": 1,
+ "title": "Performance analysis of a Rydberg atom THz radiometer concept",
+ "authors": [
+  {
+   "name": "Richard J. Murchie"
+  },
+  {
+   "name": "Petronilo Martin-Iglesias"
+  },
+  {
+   "name": "Julian Hofmann"
+  },
+  {
+   "name": "Christophe Buisset"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.ao-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-17T18:37:03Z",
+ "updated": "2026-11-17T18:37:03Z",
+ "abstract": "THz receiver technology lies between electronics and photonics; as such, its implementation is not as mature. This warrants investigation into alternative THz receivers such as Rydberg atom sensors, which are highly susceptible to electric fields. In particular, the conversion architecture has been demonstrated to coherently transduce thermal radiation. This system offers room-temperature operation and does not necessarily require a local oscillator at the frequency of the input signal. We provide an assessment of the feasibility of such sensors for THz radiometry within the context of Earth observation.",
+ "comment": "16 pages, 4 figures, conference",
+ "doi": "10.1117/12.3116900",
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.23193",
+  "pdf": "https://arxiv.org/pdf/2611.23193",
+  "html": "https://arxiv.org/html/2611.23193"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.23193v1/rydberg_schematic.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-11-18T15:55:02.995Z",
+  "hook": "THz receiver technology lies between electronics and photonics; as such, its implementation is not as mature.",
+  "tldr": [
+   "THz receiver technology lies between electronics and photonics; as such, its implementation is not as mature.",
+   "This warrants investigation into alternative THz receivers such as Rydberg atom sensors, which are highly susceptible to electric fields.",
+   "We provide an assessment of the feasibility of such sensors for THz radiometry within the context of Earth observation."
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 38
+ }
+}

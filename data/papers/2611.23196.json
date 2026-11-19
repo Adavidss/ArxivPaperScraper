@@ -39,21 +39,51 @@
  "matchedKeywords": [],
  "figure": null,
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-11-18T15:55:02.995Z",
-  "hook": "Ensemble prediction of nonlinear dynamics propagates a probability density whose linear transport equation retains the…",
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-19T15:59:06.141Z",
+  "hook": "Simulating complex fluid dynamics on quantum hardware could take just 1.62 hours on 560,000 physical qubits.",
   "tldr": [
-   "IBM hardware experiments demonstrate nonlinear radial KvN transport for this wake, using reference circuits to mitigate noise.",
-   "We couple polynomial reduced-order models fitted by sparse identification of nonlinear dynamics to Walsh-synthesized Koopman-von Neumann (KvN) transport and…",
-   "Balancing model accuracy against circuit costs makes reduced-model polynomial degree a design variable for early fault-tolerant quantum simulation."
+   "Researchers used polynomial reduced-order models to simulate nonlinear fluid flows on early fault-tolerant quantum computers.",
+   "They combined Koopman-von Neumann (KvN) transport with surface-code resource estimation to balance model accuracy and circuit costs.",
+   "Experiments on IBM hardware successfully demonstrated nonlinear radial KvN transport for a cylinder wake simulation."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 38
+  "whyItMatters": "Simulating fluid dynamics (like air over a wing) is computationally expensive. This research provides a roadmap for using quantum computers to solve these problems faster than classical supercomputers.",
+  "eli5": "Predicting how air flows around a car is really hard for normal computers. This team found a way to simplify the math so that a quantum computer can handle the simulation without getting overwhelmed by the complexity.",
+  "keyNumbers": [
+   {
+    "value": "1.62 h",
+    "label": "Estimated runtime",
+    "context": "Time to prepare, propagate, and sample a cylinder wake simulation."
+   },
+   {
+    "value": "560,000",
+    "label": "Physical qubits",
+    "context": "Estimated hardware requirement for the simulation."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Nonlinear dynamics",
+    "shortDef": "Systems where the output is not directly proportional to the input, often leading to chaotic behavior.",
+    "eli5Def": "Systems where small changes can lead to huge, unpredictable results, like weather.",
+    "wikiTitle": "Nonlinear system"
+   },
+   {
+    "term": "Fault-tolerant",
+    "shortDef": "Quantum computing that can correct its own errors, allowing for long, reliable calculations.",
+    "eli5Def": "A computer that can fix its own typos while it works.",
+    "wikiTitle": "Fault-tolerant quantum computing"
+   },
+   {
+    "term": "Koopman-von Neumann",
+    "shortDef": "A framework that maps nonlinear classical dynamics into a linear operator form.",
+    "eli5Def": "A mathematical trick to turn a messy, curved problem into a straight, easy-to-solve line.",
+    "wikiTitle": "Koopman operator theory"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 70
  }
 }

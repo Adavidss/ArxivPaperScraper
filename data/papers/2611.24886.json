@@ -1,0 +1,97 @@
+{
+ "id": "2611.24886",
+ "version": 1,
+ "title": "CREST: A Hardware-Aware GNN-Based Framework for High-Fidelity and Robust Superconducting Quantum Compilation",
+ "authors": [
+  {
+   "name": "Wenjie Sun"
+  },
+  {
+   "name": "Xiaoyu Li"
+  },
+  {
+   "name": "Zhigang Wang"
+  },
+  {
+   "name": "Yuchen He"
+  },
+  {
+   "name": "Shengbin Wang"
+  },
+  {
+   "name": "Hantao Sun"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-18T18:31:37Z",
+ "updated": "2026-11-18T18:31:37Z",
+ "abstract": "Quantum compilation on superconducting processors requires selecting a connected execution region whose topology and calibrated properties suit the input circuit. This choice constrains subsequent routing and influences the noise encountered during execution, yet aggregate hardware-quality metrics alone may not reliably predict the execution fidelity of a given circuit. Calibration updates can also change region suitability and trigger the rebuilding of calibration-dependent resource structures. We present CREST, a graph neural network (GNN)-based framework that evaluates circuit-region compatibility before routing. It encodes gate dependencies and logical-qubit interactions alongside each candidate region's connectivity and current calibration attributes; bidirectional cross-graph attention relates the two representations, while real-device execution outcomes supervise candidate ranking. The trained scorer is reused with updated calibration attributes. Evaluations on 324 circuits from seven datasets on TianYan-176 show that CREST improves mean measurement-distribution fidelity by 19.03% over the strongest baseline and achieves the highest mean fidelity on every dataset. Furthermore, using updated calibration attributes, the same trained model maintains the highest overall mean fidelity across six measurement dates without retraining. With a unified model of circuit-region compatibility, CREST improves execution fidelity across diverse workloads and sustains that advantage as hardware calibration changes.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.24886",
+  "pdf": "https://arxiv.org/pdf/2611.24886",
+  "html": "https://arxiv.org/html/2611.24886"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.24886v1/figures/crest_framework.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-19T15:59:06.141Z",
+  "hook": "CREST improves quantum circuit execution fidelity by 19.03% by using GNNs to match circuits to hardware topology.",
+  "tldr": [
+   "Researchers developed CREST, a framework that uses graph neural networks to predict how well a specific quantum circuit fits a hardware region.",
+   "It encodes gate dependencies and qubit interactions, using bidirectional cross-graph attention to rank candidate execution regions.",
+   "Tests on the TianYan-176 processor showed a 19.03% improvement in fidelity and sustained performance despite hardware calibration changes."
+  ],
+  "whyItMatters": "Quantum computers are notoriously noisy, and running a circuit on the wrong part of the chip can lead to errors. This tool helps squeeze more accuracy out of existing hardware without needing constant manual recalibration.",
+  "eli5": "Imagine trying to play a complex song on a piano where some keys are sticky. CREST is like a smart assistant that analyzes the song's notes and the piano's current condition to figure out exactly which section of the keyboard will sound the clearest before you start playing.",
+  "keyNumbers": [
+   {
+    "value": "19.03%",
+    "label": "Fidelity improvement",
+    "context": "Mean measurement-distribution fidelity increase over the strongest baseline on TianYan-176."
+   },
+   {
+    "value": "176",
+    "label": "Qubit count",
+    "context": "The TianYan-176 processor used for evaluations."
+   },
+   {
+    "value": "324",
+    "label": "Circuit count",
+    "context": "Total number of circuits evaluated across seven datasets."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum compilation",
+    "shortDef": "The process of translating a high-level quantum algorithm into the specific gate operations a quantum chip can run.",
+    "eli5Def": "Translating a computer program into the specific electrical signals a chip understands.",
+    "wikiTitle": "Quantum compiler"
+   },
+   {
+    "term": "Graph Neural Network",
+    "shortDef": "A type of AI designed to process data structured as graphs (nodes and connections).",
+    "eli5Def": "An AI that learns by looking at how different things are connected to each other, like a map of a city.",
+    "wikiTitle": "Graph neural network"
+   },
+   {
+    "term": "Fidelity",
+    "shortDef": "A measure of how closely the actual output of a quantum operation matches the ideal theoretical output.",
+    "eli5Def": "How accurately a machine performs the task it was given without making mistakes.",
+    "wikiTitle": "Fidelity (quantum)"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 60
+ }
+}

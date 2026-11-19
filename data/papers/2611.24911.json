@@ -1,0 +1,74 @@
+{
+ "id": "2611.24911",
+ "version": 1,
+ "title": "A Nonsecular Quantum Master Equation with Detailed Balance and Second-order Error Bound",
+ "authors": [
+  {
+   "name": "Ji-Hui Pei"
+  },
+  {
+   "name": "Jin-Fu Chen"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-18T18:46:37Z",
+ "updated": "2026-11-18T18:46:37Z",
+ "abstract": "An effective theory of open quantum systems should preserve the detailed balance structure inherited from microscopic reversibility and remain accurate throughout relaxation. Meeting both requirements is particularly challenging in quantum many-body systems, where dense spectra can invalidate the secular approximation even at weak coupling. Here we construct a nonsecular quantum master equation that satisfies time-reversal Kubo-Martin-Schwinger (TR-KMS) detailed balance. Under suitable conditions, we prove a time-uniform $O(λ^2)$ bound on the difference between the predicted and exact reduced density matrices, where $λ$ is the system-bath coupling strength. Our construction completes the Redfield generator by imposing detailed balance while matching its dissipative and coherent coefficients at resonance. In this approach, TR-KMS detailed balance is compatible with resonance matching, whereas its counterpart without time reversal is not. In a benchmark against the exact microscopic dynamics of two coupled oscillators, our equation maintains $O(λ^2)$ accuracy across secular and nonsecular regimes, outperforming the existing detailed-balance equations tested. These results provide a systematic route from microscopic models to thermodynamically consistent descriptions of open quantum dynamics beyond the secular approximation.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.24911",
+  "pdf": "https://arxiv.org/pdf/2611.24911",
+  "html": "https://arxiv.org/html/2611.24911"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-19T15:59:06.141Z",
+  "hook": "A new nonsecular quantum master equation maintains second-order accuracy and satisfies detailed balance.",
+  "tldr": [
+   "Constructed a nonsecular quantum master equation satisfying time-reversal Kubo-Martin-Schwinger detailed balance.",
+   "Proved a time-uniform error bound on the difference between predicted and exact reduced density matrices.",
+   "Benchmarked the equation against exact microscopic dynamics of two coupled oscillators."
+  ],
+  "whyItMatters": "Simulating open quantum systems is notoriously difficult because standard approximations break down in dense many-body systems. This work provides a mathematically rigorous bridge to thermodynamically consistent quantum simulations.",
+  "eli5": "When quantum systems interact with their environment, they lose energy and information. This paper provides a new rulebook for tracking those losses accurately without breaking fundamental laws of physics like time-reversibility.",
+  "keyNumbers": [
+   {
+    "value": "2",
+    "label": "Oscillators",
+    "context": "Coupled oscillators used for benchmarking the microscopic dynamics."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Detailed balance",
+    "shortDef": "A condition in statistical mechanics where every microscopic process is balanced by its reverse.",
+    "eli5Def": "Like a marketplace where the exact number of items being bought equals the number being sold at all times.",
+    "wikiTitle": "Detailed balance"
+   },
+   {
+    "term": "Secular approximation",
+    "shortDef": "An approximation that ignores rapidly oscillating terms in open quantum system dynamics.",
+    "eli5Def": "Ignoring fast, jittery wiggles to focus on the slow overall trend.",
+    "wikiTitle": "Secular approximation"
+   },
+   {
+    "term": "Redfield generator",
+    "shortDef": "A standard generator used to describe the evolution of open quantum systems.",
+    "eli5Def": "A mathematical formula used to predict how a quantum system changes when exposed to the outside world.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

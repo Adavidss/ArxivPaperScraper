@@ -37,21 +37,40 @@
   "url": "https://arxiv.org/html/2611.23193v1/rydberg_schematic.png"
  },
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-11-18T15:55:02.995Z",
-  "hook": "THz receiver technology lies between electronics and photonics; as such, its implementation is not as mature.",
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-19T15:59:06.141Z",
+  "hook": "Rydberg atom sensors offer a room-temperature alternative for THz radiometry in Earth observation.",
   "tldr": [
-   "THz receiver technology lies between electronics and photonics; as such, its implementation is not as mature.",
-   "This warrants investigation into alternative THz receivers such as Rydberg atom sensors, which are highly susceptible to electric fields.",
-   "We provide an assessment of the feasibility of such sensors for THz radiometry within the context of Earth observation."
+   "The authors evaluated Rydberg atom sensors as a potential technology for detecting Terahertz (THz) radiation.",
+   "They assessed the sensor's ability to coherently transduce thermal radiation without needing a local oscillator.",
+   "The study concludes that these sensors are a viable candidate for Earth observation applications due to their room-temperature operation."
   ],
-  "whyItMatters": "",
-  "eli5": "",
+  "whyItMatters": "THz radiation is useful for sensing, but current detectors often require bulky, cryogenic cooling. Rydberg sensors could make these devices portable and easier to deploy on satellites.",
+  "eli5": "Imagine a radio antenna that works by watching how atoms wiggle when they get hit by light. Because these atoms can work at room temperature, we don't need to carry around giant freezers to keep the sensor working.",
   "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 38
+  "glossary": [
+   {
+    "term": "Rydberg atom",
+    "shortDef": "An atom with one or more electrons excited to a very high principal quantum number.",
+    "eli5Def": "An atom where an electron is pushed way out to the edge, making it super sensitive to electric fields.",
+    "wikiTitle": "Rydberg atom"
+   },
+   {
+    "term": "Radiometry",
+    "shortDef": "The science of measuring electromagnetic radiation.",
+    "eli5Def": "Measuring how much light or heat energy is hitting a sensor.",
+    "wikiTitle": "Radiometry"
+   },
+   {
+    "term": "Local oscillator",
+    "shortDef": "An electronic oscillator used to mix with a signal to convert it to a different frequency.",
+    "eli5Def": "A reference signal used to tune into a specific radio station.",
+    "wikiTitle": "Local oscillator"
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 45
  }
 }

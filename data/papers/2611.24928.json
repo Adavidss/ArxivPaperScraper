@@ -1,0 +1,84 @@
+{
+ "id": "2611.24928",
+ "version": 1,
+ "title": "Residual Allan Stability under Periodic Auxiliary Ramsey Sampling",
+ "authors": [
+  {
+   "name": "Zhiqian Su"
+  }
+ ],
+ "categories": [
+  "physics.optics",
+  "physics.atom-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.optics",
+ "published": "2026-11-18T18:54:18Z",
+ "updated": "2026-11-18T18:54:18Z",
+ "abstract": "The timing of auxiliary Ramsey measurements can change the frequency stability associated with a drifting pulse shift at a fixed nominal Fisher-information rate for a constant shift. For periodic instantaneous observations of an Ornstein-Uhlenbeck shift with causal prediction between updates, we derive the exact residual covariance averaged over the update cycle and the corresponding Allan variance at arbitrary averaging times. Relative to a continuous Kalman reference at the same information rate, periodic estimation increases the cycle-averaged estimation-error variance, reduces the short-time residual Allan variance, and increases its long-time value. Its covariance decays more slowly at the origin and has a larger integral. We extend the result to instantaneous sensing of the sum of finitely many independent Ornstein-Uhlenbeck modes. Integrated observations preserve the short-time ordering for the scalar shift, and numerical calculations resolve the dependence of the crossover on window duration. A zero-order-hold comparison shows that the short-time ordering can change when the same estimator drives a different correction command. A three-level Ramsey model of coherent population trapping (CPT) maps the discriminator response to an effective information budget and illustrates how the dark times affect the choice of schedule.",
+ "comment": "23 pages in total, including 7 pages of Supplemental Material. 6 main figures, 2 tables, and 1 supplemental figure. Code and numerical data accompany the manuscript",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.24928",
+  "pdf": "https://arxiv.org/pdf/2611.24928",
+  "html": "https://arxiv.org/html/2611.24928"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.24928v1/fig3_crossing.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-19T15:59:06.141Z",
+  "hook": "Periodic auxiliary Ramsey measurements change frequency stability and reveal new tradeoffs in estimation-error variance.",
+  "tldr": [
+   "Derived exact residual covariance and Allan variance for periodic observations of an Ornstein-Uhlenbeck shift.",
+   "Used a three-level Ramsey model of coherent population trapping to map discriminator response to an effective information budget.",
+   "Showed periodic estimation reduces short-time residual Allan variance while increasing long-time values."
+  ],
+  "whyItMatters": "Precision timing and atomic clocks rely on Ramsey spectroscopy. Understanding how periodic measurement schedules affect stability helps design better atomic clocks and quantum sensors.",
+  "eli5": "Imagine checking a drifting clock at regular intervals instead of watching it constantly. This study figures out how the timing of those check-ins changes how accurate the clock's measurements are over short versus long periods.",
+  "keyNumbers": [
+   {
+    "value": "23",
+    "label": "Pages",
+    "context": "Total length of the manuscript including 7 pages of Supplemental Material."
+   },
+   {
+    "value": "7",
+    "label": "Supplemental Pages",
+    "context": "Portion of the manuscript containing supplementary material."
+   },
+   {
+    "value": "6",
+    "label": "Main Figures",
+    "context": "Number of main figures illustrating the models and data."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Allan variance",
+    "shortDef": "A measure of clock stability and frequency stability over time.",
+    "eli5Def": "A way to measure how much a clock drifts or loses accuracy over different time spans.",
+    "wikiTitle": "Allan variance"
+   },
+   {
+    "term": "Ornstein-Uhlenbeck process",
+    "shortDef": "A mathematical model for a random process that tends to drift back toward a central value.",
+    "eli5Def": "Like a random walk that is gently pulled back toward the center by a rubber band.",
+    "wikiTitle": "Ornstein–Uhlenbeck process"
+   },
+   {
+    "term": "Coherent population trapping",
+    "shortDef": "A quantum phenomenon where atoms are driven into a non-absorbing dark state.",
+    "eli5Def": "A trick using laser light that traps atoms in a specific state where they stop interacting with the light.",
+    "wikiTitle": "Coherent population trapping"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

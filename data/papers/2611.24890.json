@@ -1,0 +1,77 @@
+{
+ "id": "2611.24890",
+ "version": 1,
+ "title": "Residual-Algebraic Design of Symmetry-Preserving Variational Quantum Circuits",
+ "authors": [
+  {
+   "name": "Sahinur Reja"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-18T18:32:55Z",
+ "updated": "2026-11-18T18:32:55Z",
+ "abstract": "Symmetry-preserving (SP) variational quantum circuits restrict evolution to physically relevant sectors of Hilbert space, but symmetry preservation alone does not guarantee accessibility within those sectors. We show that a restricted generator set can possess a residual dynamical Lie algebra whose commutant further decomposes the target symmetry sector into invariant blocks. The associated block populations are conserved and impose a kinematic upper bound on the fidelity with a target state. We then invert this diagnostic into a circuit-design principle: candidate SP generators can be screened before variational optimization by asking whether they break the residual commutant, which invariant blocks they couple, and what adjoint module they generate under the residual algebra. For two orthogonal residual blocks we prove that a single elementary real inter-block rotation generates the full orthogonal algebra. We further derive a complex escape criterion: if the real and imaginary parts of an inter-block seed are independent over the residual intertwiner algebra, the generated module is the full complex coupling space and the enlarged algebra becomes special unitary. A connected residual-block graph yields a natural multi-block generalization and suggests minimum-cost spanning-tree circuit design. We demonstrate this design principle in the XXZ and Hubbard models, where residual-algebra screening identifies SP circuit extensions that remove the relevant accessibility obstructions. These examples establish a unified route from residual-symmetry diagnosis and fidelity bounds to predictive quantum circuit design.",
+ "comment": "11 pages, 6 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.24890",
+  "pdf": "https://arxiv.org/pdf/2611.24890",
+  "html": "https://arxiv.org/html/2611.24890"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.24890v1/Residual_Algebra_to_Fidelity_Constraints.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-19T15:59:06.141Z",
+  "hook": "Residual-algebra screening identifies symmetry-preserving quantum circuits that remove accessibility obstructions.",
+  "tldr": [
+   "Showed that restricted generator sets possess residual dynamical Lie algebras that impose kinematic upper bounds on fidelity.",
+   "Inverted this diagnostic into a circuit-design principle to screen candidate generators before variational optimization.",
+   "Demonstrated the design principle in XXZ and Hubbard models to remove accessibility obstructions."
+  ],
+  "whyItMatters": "Variational quantum algorithms often get stuck because they cannot reach certain target states due to hidden symmetry constraints. This mathematical framework helps design better quantum circuits from the ground up.",
+  "eli5": "When building quantum computer programs that obey strict physics rules, circuits sometimes get trapped and can't reach the answer. This paper provides a mathematical checklist to spot those dead ends before running the expensive calculations.",
+  "keyNumbers": [
+   {
+    "value": "11",
+    "label": "Pages",
+    "context": "Total length of the manuscript."
+   },
+   {
+    "value": "6",
+    "label": "Figures",
+    "context": "Number of figures illustrating the circuit design and models."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Variational quantum circuit",
+    "shortDef": "A parameterized quantum circuit tuned iteratively by a classical optimizer.",
+    "eli5Def": "A quantum program with adjustable knobs that a computer twists until it finds the best solution.",
+    "wikiTitle": "Variational quantum eigensolver"
+   },
+   {
+    "term": "Lie algebra",
+    "shortDef": "A mathematical structure used to study continuous symmetries and transformations.",
+    "eli5Def": "A toolkit of math rules used to describe continuous rotations and symmetries in physics.",
+    "wikiTitle": "Lie algebra"
+   },
+   {
+    "term": "Hubbard model",
+    "shortDef": "A simplified model for describing electrons in interacting lattice systems.",
+    "eli5Def": "A simplified physics sandbox used to study how electrons hop around and interact in materials.",
+    "wikiTitle": "Hubbard model"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

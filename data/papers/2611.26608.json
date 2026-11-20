@@ -1,0 +1,101 @@
+{
+ "id": "2611.26608",
+ "version": 1,
+ "title": "Local velocimetry for atomic superfluids: from Riemann rarefaction waves to quantized vortices",
+ "authors": [
+  {
+   "name": "Yansheng Zhang"
+  },
+  {
+   "name": "Yi Jiang"
+  },
+  {
+   "name": "Feiyang Wang"
+  },
+  {
+   "name": "Louis Depaepe"
+  },
+  {
+   "name": "J. Q. Matthew Chia"
+  },
+  {
+   "name": "Christoph Eigen"
+  },
+  {
+   "name": "Gehrig Carlse"
+  },
+  {
+   "name": "Zoran Hadzibabic"
+  }
+ ],
+ "categories": [
+  "cond-mat.quant-gas",
+  "physics.atom-ph",
+  "physics.flu-dyn",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.quant-gas",
+ "published": "2026-11-19T18:56:37Z",
+ "updated": "2026-11-19T18:56:37Z",
+ "abstract": "We demonstrate local velocimetry for atomic superfluids in two dimensions (2D). Using matter-wave interferometry based on Raman--Bragg beam splitters, we map the local gradient of the phase of the superfluid's wavefunction onto displacement of the interference fringes and reconstruct the 2D velocity field. We illustrate the capabilities of this technique by applying it to two canonical problems. First, we directly observe the self-similar evolution of the velocity field in 1D Riemann rarefaction flows. Second, we map out the full 2D velocity field around quantized vortices, explicitly demonstrating the quantization of velocity circulation.",
+ "comment": "11 pages, 8 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26608",
+  "pdf": "https://arxiv.org/pdf/2611.26608",
+  "html": "https://arxiv.org/html/2611.26608"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.26608v1/Fig1_v14.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-20T15:41:52.827Z",
+  "hook": "New local velocimetry maps 2D velocity fields in atomic superfluids, directly observing rarefaction waves and quantized vortices.",
+  "tldr": [
+   "Demonstrated local velocimetry for atomic superfluids in two dimensions using matter-wave interferometry with Raman-Bragg beam splitters.",
+   "Mapped the local gradient of the superfluid wavefunction phase onto interference fringe displacements to reconstruct the 2D velocity field.",
+   "Observed self-similar velocity evolution in 1D Riemann rarefaction flows and mapped velocity fields around quantized vortices to show circulation quantization."
+  ],
+  "whyItMatters": "Superfluids flow without friction, making them pristine testbeds for quantum hydrodynamics and cosmology. Measuring local velocities in these fragile systems has been notoriously difficult, but this new optical technique unlocks direct imaging of complex quantum flow phenomena.",
+  "eli5": "Superfluids are liquids that flow forever without slowing down. By shining laser beams to create interference patterns like ripples on water, scientists can track exactly how fast and in what direction invisible quantum whirlpools are spinning.",
+  "keyNumbers": [
+   {
+    "value": "2D",
+    "label": "Spatial dimensions",
+    "context": "Demonstrating local velocimetry for atomic superfluids in two dimensions."
+   },
+   {
+    "value": "1D",
+    "label": "Flow dimension",
+    "context": "Observing self-similar evolution of the velocity field in Riemann rarefaction flows."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Velocimetry",
+    "shortDef": "Experimental measurement of the speed and direction of moving fluids.",
+    "eli5Def": "A radar gun designed to track how fast liquids are moving.",
+    "wikiTitle": "Velocimetry"
+   },
+   {
+    "term": "Superfluid",
+    "shortDef": "A fluid with zero viscosity that flows without any friction or energy loss.",
+    "eli5Def": "A magical liquid that can climb up walls and flow forever without ever slowing down.",
+    "wikiTitle": "Superfluidity"
+   },
+   {
+    "term": "Quantized vortex",
+    "shortDef": "A whirlpool in a quantum fluid where circulation is restricted to discrete integer values.",
+    "eli5Def": "A spinning whirlpool in quantum liquid that can only rotate at very specific, allowed speeds.",
+    "wikiTitle": "Quantized vortex"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

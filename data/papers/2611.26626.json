@@ -1,0 +1,71 @@
+{
+ "id": "2611.26626",
+ "version": 1,
+ "title": "High-temperature Gibbs states are uniformly Markovian and trivial",
+ "authors": [
+  {
+   "name": "Andrew D. Kim"
+  },
+  {
+   "name": "Tai Hsuan Yang"
+  },
+  {
+   "name": "Jong Yeon Lee"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-19T18:59:49Z",
+ "updated": "2026-11-19T18:59:49Z",
+ "abstract": "We prove that, above a constant temperature threshold, Gibbs states of local noncommuting qudit Hamiltonians exhibit exponential decay of mutual information and conditional mutual information (CMI). Specifically, we prove exponential decay of the CMI for arbitrary spatial tripartitions $A \\sqcup B \\sqcup C$ which need not comprise the entire system, thereby establishing a \\textit{uniform Markov property} for high-temperature Gibbs states. A central obstruction to proving such bounds is that conventional cluster expansions for the logarithm of reduced Gibbs states can fail to converge due to noncommutativity. Our main insight is to construct a classical representation of the Gibbs state using an overcomplete basis. Although such representations generally involve negative quasiprobability weights, we show that a decomposition based on projective 2-designs admits a convergent cluster expansion with strictly positive weights at sufficiently high temperatures, allowing us to circumvent the obstruction. The separability of high-temperature Gibbs states is a natural byproduct of this decomposition. Finally, in the context of mixed-state phases of matter, our results imply that high-temperature Gibbs states belong to the same mixed-state phase as the maximally mixed state.",
+ "comment": "33 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26626",
+  "pdf": "https://arxiv.org/pdf/2611.26626",
+  "html": "https://arxiv.org/html/2611.26626"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-20T15:41:52.827Z",
+  "hook": "High-temperature quantum states become uniformly Markovian and trivial, sharing a phase with the maximally mixed state.",
+  "tldr": [
+   "Proved that high-temperature Gibbs states of local noncommuting qudit Hamiltonians exhibit exponential decay of mutual information and conditional mutual information.",
+   "Constructed a classical representation using an overcomplete basis with projective 2-designs to bypass cluster expansion failures caused by noncommutativity.",
+   "Demonstrated that high-temperature Gibbs states exhibit a uniform Markov property, are separable, and belong to the same mixed-state phase as the maximally mixed state."
+  ],
+  "whyItMatters": "Understanding the behavior of quantum systems at high temperatures is crucial for classifying phases of matter and studying thermal equilibrium in quantum mechanics. This work solves a long-standing mathematical obstacle involving noncommutativity to prove that hot quantum systems lose complex spatial correlations.",
+  "eli5": "Imagine a bowl of alphabet soup where every letter is magnetically connected to its neighbors. At room temperature, pulling one letter pulls others with it. But if you heat the soup up boiling hot, the soup bubbles so chaotically that picking up one letter tells you absolutely nothing about the others anymore.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Gibbs state",
+    "shortDef": "A mathematical state representing a physical system in thermal equilibrium at a given temperature.",
+    "eli5Def": "A snapshot of how atoms or particles arrange themselves when they settle down at a specific temperature.",
+    "wikiTitle": "Gibbs state"
+   },
+   {
+    "term": "Conditional mutual information",
+    "shortDef": "A measure of how much shared information remains between two subsystems given a third.",
+    "eli5Def": "How much secret info two people share even after someone tells you a third person's secret.",
+    "wikiTitle": "Conditional mutual information"
+   },
+   {
+    "term": "Projective 2-designs",
+    "shortDef": "A set of quantum states that mimics averages over all possible quantum states up to second order.",
+    "eli5Def": "A carefully chosen sample kit of quantum shapes that behaves just like having every possible shape in existence.",
+    "wikiTitle": "Welch bound"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

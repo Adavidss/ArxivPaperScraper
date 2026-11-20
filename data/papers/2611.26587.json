@@ -1,0 +1,82 @@
+{
+ "id": "2611.26587",
+ "version": 1,
+ "title": "High-Accuracy Neural-Network Quantum States via Randomized Real-Time Dynamics",
+ "authors": [
+  {
+   "name": "John M. Martyn"
+  },
+  {
+   "name": "Rod Rofougaran"
+  },
+  {
+   "name": "Samuel Stein"
+  },
+  {
+   "name": "Di Luo"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.dis-nn",
+  "cond-mat.str-el",
+  "physics.comp-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-19T18:45:45Z",
+ "updated": "2026-11-19T18:45:45Z",
+ "abstract": "Neural-network quantum states (NQSs) exhibit a disparity in converging to the ground state during energy minimization: while the energy converges quadratically with the error in the variational wave function, other observables converge only linearly, which limits the accuracy of physical predictions. Here we show how to close this gap by introducing a new algorithm that improves the accuracy of NQSs. Our method, termed dynamical averaging, estimates expectation values by averaging over a state (or observable) evolved in real-time. Using insights from quantum information, we prove an up-to-quadratic suppression of error in arbitrary ground state observables, thus matching the fast convergence of the energy. Importantly, this improved accuracy requires neither further energy minimization nor increased model complexity, but rather exploits the effect of randomization on quantum states. We demonstrate dynamical averaging on non-integrable spin models, where it accelerates convergence and substantially reduces errors in observables.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26587",
+  "pdf": "https://arxiv.org/pdf/2611.26587",
+  "html": "https://arxiv.org/html/2611.26587"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-20T15:41:52.827Z",
+  "hook": "A new dynamical averaging method closes the accuracy gap for neural-network quantum state predictions.",
+  "tldr": [
+   "They addressed the problem where physical observables converge slower than energy when using neural-network quantum states.",
+   "They developed dynamical averaging, a new algorithm that estimates expectation values by averaging over states evolved in real time.",
+   "They proved an up-to-quadratic suppression of error in arbitrary ground state observables, matching energy convergence speed."
+  ],
+  "whyItMatters": "Quantum machine learning models often struggle to predict physical properties accurately even when their overall energy looks correct. This fix improves predictions without needing extra computing power.",
+  "eli5": "When building a virtual model of a quantum system, it is easy to guess the total energy right away, but hard to pin down specific details. By letting the virtual system wiggle around in real-time and taking a smart average, scientists can get precise answers without doing extra heavy math.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Neural-network quantum states",
+    "shortDef": "Using artificial neural networks to represent complex quantum wave functions.",
+    "eli5Def": "Using AI brain-like computer programs to guess the quantum state of tiny particles.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Variational wave function",
+    "shortDef": "A trial mathematical function used to approximate the true quantum state of a system.",
+    "eli5Def": "A well-educated guess formula used to describe where quantum particles might be.",
+    "wikiTitle": "Variational method (quantum mechanics)"
+   },
+   {
+    "term": "Observables",
+    "shortDef": "Physical properties that can be measured in a quantum system.",
+    "eli5Def": "Things you can actually measure or observe in an experiment, like position or momentum.",
+    "wikiTitle": "Observable (physics)"
+   },
+   {
+    "term": "Non-integrable spin models",
+    "shortDef": "Complex quantum magnetic systems that cannot be solved by exact analytical formulas.",
+    "eli5Def": "Super complicated magnetic puzzles that computers have to simulate step-by-step because there is no shortcut formula.",
+    "wikiTitle": "Quantum integrable system"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "id": "2611.26604",
+ "version": 1,
+ "title": "Scalable Simulation of Strongly Correlated Fermions with Neural Gaussian Tensor Networks",
+ "authors": [
+  {
+   "name": "Runze Chi"
+  },
+  {
+   "name": "Ao Chen"
+  },
+  {
+   "name": "Garnet Kin-Lic Chan"
+  }
+ ],
+ "categories": [
+  "cond-mat.str-el",
+  "quant-ph"
+ ],
+ "primaryCategory": "cond-mat.str-el",
+ "published": "2026-11-19T18:55:44Z",
+ "updated": "2026-11-19T18:55:44Z",
+ "abstract": "Accurate simulations of strongly correlated electrons remain a central challenge in computational physics. We introduce neural-network Gaussian projected entangled-pair states (NN-GPEPS), which exploit the locally-entangled subspace of Gaussian states to give an architecture more compatible with modern neural networks and an exact contraction cost of $O(N^{3/2})$ on two-dimensional lattices. For the Hubbard model at $U/t=8$ and $1/8$ hole doping, we obtain state-of-the-art variational energies in large lattices of up to 1024 sites. These results demonstrate an accurate approach to strongly correlated fermions by connecting neural networks with Gaussian tensor networks.",
+ "comment": "16 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26604",
+  "pdf": "https://arxiv.org/pdf/2611.26604",
+  "html": "https://arxiv.org/html/2611.26604"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.26604v1/fig3.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-20T15:41:52.827Z",
+  "hook": "New neural-network Gaussian tensor networks simulate strongly correlated fermions in lattices up to 1024 sites.",
+  "tldr": [
+   "They introduced neural-network Gaussian projected entangled-pair states (NN-GPEPS) to simulate strongly correlated electrons.",
+   "They combined local Gaussian states with neural networks, achieving an exact contraction cost of O(N^(3/2)) on 2D lattices.",
+   "They obtained state-of-the-art variational energies for the Hubbard model at U/t=8 and 1/8 hole doping on lattices up to 1024 sites."
+  ],
+  "whyItMatters": "Simulating strongly correlated electrons is a major bottleneck in physics and materials science. This method provides a scalable way to model complex quantum systems accurately.",
+  "eli5": "Imagine trying to predict how thousands of dancers move together when they are tightly packed and constantly bumping into each other. Researchers built a smarter math helper that combines artificial intelligence with special grid patterns to map these complex quantum movements easily.",
+  "keyNumbers": [
+   {
+    "value": "O(N^(3/2))",
+    "label": "Contraction cost",
+    "context": "The computational cost scaling on two-dimensional lattices."
+   },
+   {
+    "value": "8",
+    "label": "U/t parameter",
+    "context": "The interaction strength parameter used for the Hubbard model simulation."
+   },
+   {
+    "value": "1/8",
+    "label": "Hole doping",
+    "context": "The level of electron removal used in the Hubbard model test."
+   },
+   {
+    "value": "1024",
+    "label": "Lattice sites",
+    "context": "The maximum size of the large lattices simulated."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Strongly correlated fermions",
+    "shortDef": "Particles like electrons whose behaviors are deeply intertwined, making them hard to calculate.",
+    "eli5Def": "A crowd of people where every single person's movement instantly affects everyone else around them.",
+    "wikiTitle": "Strongly correlated material"
+   },
+   {
+    "term": "Gaussian projected entangled-pair states",
+    "shortDef": "A mathematical tensor network used to represent quantum states of many particles efficiently.",
+    "eli5Def": "A specialized blueprint that keeps track of how quantum particles are linked together in a grid.",
+    "wikiTitle": "Tensor network"
+   },
+   {
+    "term": "Hubbard model",
+    "shortDef": "A simplified theoretical model used to study interacting electrons in a crystal lattice.",
+    "eli5Def": "A simplified board game rulebook scientists use to study how electrons move and interact in materials.",
+    "wikiTitle": "Hubbard model"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

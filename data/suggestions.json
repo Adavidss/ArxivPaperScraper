@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T15:59:06.141Z",
+ "generatedAt": "2026-11-20T15:41:52.827Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -20,6 +20,27 @@
     "Symmetry-Controlled Quantum State Transfer in Poly-bi-[8]-annulenylene: From Heisenberg to Hubbard Dynamics"
    ],
    "paperCount": 8
+  },
+  {
+   "name": "Jong Yeon Lee",
+   "slug": "jong-yeon-lee",
+   "score": 5,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+   ],
+   "paperIds": [
+    "2611.26626",
+    "2610.40651",
+    "2610.22357"
+   ],
+   "recentTitles": [
+    "High-temperature Gibbs states are uniformly Markovian and trivial",
+    "Renormalization for Robust Memory without Synchronization"
+   ],
+   "paperCount": 5
   },
   {
    "name": "Li Gao",
@@ -118,27 +139,6 @@
    "recentTitles": [
     "Non-interferometric tests of gravitational decoherence models with mechanical oscillators",
     "Probing gravity at megahertz frequencies with levitated rotors"
-   ],
-   "paperCount": 4
-  },
-  {
-   "name": "Jong Yeon Lee",
-   "slug": "jong-yeon-lee",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "cond-mat.stat-mech",
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2610.40651",
-    "2610.22357",
-    "2610.20591"
-   ],
-   "recentTitles": [
-    "Renormalization for Robust Memory without Synchronization",
-    "Stability of Quantum LDPC States under Local Pauli Noise"
    ],
    "paperCount": 4
   },

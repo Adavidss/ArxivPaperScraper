@@ -1,0 +1,76 @@
+{
+ "id": "2611.26542",
+ "version": 1,
+ "title": "Authenticating quantum key distribution through random position checks",
+ "authors": [
+  {
+   "name": "Florian J. Curchod"
+  },
+  {
+   "name": "Erik Woodhead"
+  },
+  {
+   "name": "Cameron Foreman"
+  },
+  {
+   "name": "Marcel Mordarski"
+  },
+  {
+   "name": "Harry Buhrman"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-19T18:18:32Z",
+ "updated": "2026-11-19T18:18:32Z",
+ "abstract": "Quantum key distribution (QKD) requires some form of authentication in order for the parties to be sure they are not unknowingly generating a key with an adversary pretending to be one of the honest parties. In this work, we propose a protocol in which the position of one of the parties is used as the authentication credential for key distribution. Our protocol essentially consists of a BB84 QKD protocol with quantum position verification (QPV) rounds randomly interleaved in. The approach is efficient compared with previous approaches, which required running an entire QPV protocol for every bit requiring authentication. We undertake an initial security analysis of the protocol for a restricted set of attacks.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26542",
+  "pdf": "https://arxiv.org/pdf/2611.26542",
+  "html": "https://arxiv.org/html/2611.26542"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-21T14:53:11.527Z",
+  "hook": "Randomly interleaved position checks secure quantum key distribution efficiently without running full protocols every time.",
+  "tldr": [
+   "Proposed a quantum key distribution protocol that uses the physical position of a party as an authentication credential.",
+   "Interleaved quantum position verification rounds randomly into the standard BB84 protocol.",
+   "Eliminated the previous requirement to run an entire verification protocol for every single authenticated bit."
+  ],
+  "whyItMatters": "Making quantum communication secure against imposters usually demands massive computational overhead. This efficiency boost makes realistic quantum cryptography much more practical.",
+  "eli5": "Instead of checking a visitor's full ID card, fingerprint, and password before every single word they speak, you randomly ask them where they are standing in the room to make sure they are who they claim to be.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum key distribution",
+    "shortDef": "A secure communication method that uses quantum mechanics to exchange cryptographic keys.",
+    "eli5Def": "A way for two people to share a secret password using beams of light so that any snooping is instantly noticed.",
+    "wikiTitle": "Quantum key distribution"
+   },
+   {
+    "term": "BB84",
+    "shortDef": "The first quantum cryptography protocol, developed by Charles Bennett and Gilles Brassard in 1984.",
+    "eli5Def": "The original rulebook for sharing secret codes using the weird behavior of light particles.",
+    "wikiTitle": "BB84"
+   },
+   {
+    "term": "Quantum position verification",
+    "shortDef": "Protocols that verify the physical geographic location of a quantum device.",
+    "eli5Def": "A system that proves you are physically standing in a specific spot and not calling in from somewhere else.",
+    "wikiTitle": "Quantum positioning system"
+   }
+  ],
+  "difficulty": 2,
+  "readSeconds": 40
+ }
+}

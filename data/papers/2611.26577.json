@@ -1,0 +1,83 @@
+{
+ "id": "2611.26577",
+ "version": 1,
+ "title": "Classically Trained Quantum Generative Models with Shared Training and Fine Tuning for Quantum Matter",
+ "authors": [
+  {
+   "name": "Mario Herrero-Gonzalez"
+  },
+  {
+   "name": "Elham Kashefi"
+  },
+  {
+   "name": "Mina Doosti"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-19T18:42:29Z",
+ "updated": "2026-11-19T18:42:29Z",
+ "abstract": "Ground-state measurement statistics characterize quantum matter. Selected correlations can guide the classical training of a quantum sampler even when sampling the full distribution is difficult. We ask whether training across related ground-state distributions helps the sampler reproduce their correlations more accurately. We train a hypernetwork to map Hamiltonian parameters to circuit angles, sharing information across the phase diagram before local fine-tuning with additional reference data for quantum deployment. For classical training, we derive an unbiased Monte Carlo estimator of Fourier coefficients for circuits built from general Pauli rotations, with a cost that depends on the circuit generators. We also introduce a CDF-KL loss for comparing selected marginals. We study the Haldane Hamiltonian and transverse-field Ising model, using an automated search to select reference calculations near phase transitions. On the twelve-site chain, the adaptively pretrained hypernetwork matches the independent fits' final mean total variation distance in fewer local updates and continues to a lower error. On a 1,024-site chain and a 4 by 256 lattice, the fine-tuned circuits have lower squared maximum mean discrepancy from the reference distributions than the independent circuits at the evaluated point in each geometry. These results motivate shared training for preparing quantum samplers across a phase diagram and local fine-tuning.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26577",
+  "pdf": "https://arxiv.org/pdf/2611.26577",
+  "html": "https://arxiv.org/html/2611.26577"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.26577v1/fig_01_workflow.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-21T14:53:11.527Z",
+  "hook": "Classically trained hypernetworks successfully map Hamiltonian parameters to quantum circuit angles for quantum matter.",
+  "tldr": [
+   "Trained a hypernetwork to map Hamiltonian parameters to circuit angles, sharing information across phase diagrams.",
+   "Derived an unbiased Monte Carlo estimator of Fourier coefficients for circuits built from general Pauli rotations.",
+   "Matched independent fit performance with fewer local updates and lower error across a twelve-site chain and large lattices."
+  ],
+  "whyItMatters": "Simulating quantum matter is notoriously difficult for classical computers. Finding smarter ways to train quantum samplers brings us closer to accurately modeling complex physical systems.",
+  "eli5": "Instead of guessing the settings for a complex physics machine from scratch every single time, researchers built a meta-brain that learns the general pattern first, making it much easier to tune the machine for specific experiments.",
+  "keyNumbers": [
+   {
+    "value": "12",
+    "label": "Site chain",
+    "context": "Size of the chain where the adaptively pretrained hypernetwork matched independent fits."
+   },
+   {
+    "value": "1,024",
+    "label": "Site chain",
+    "context": "Large geometry size where fine-tuned circuits achieved lower squared maximum mean discrepancy."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Hypernetwork",
+    "shortDef": "A neural network that generates the weights or parameters for another neural network.",
+    "eli5Def": "A manager brain that programs smaller worker brains on how to do their jobs.",
+    "wikiTitle": "Hypernetwork"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "A master rulebook that describes all the energy forces acting inside a quantum system.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Monte Carlo estimator",
+    "shortDef": "A computational algorithm that relies on repeated random sampling to obtain numerical results.",
+    "eli5Def": "Rolling a pair of dice thousands of times to guess the odds instead of doing heavy math.",
+    "wikiTitle": "Monte Carlo method"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

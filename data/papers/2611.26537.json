@@ -1,0 +1,70 @@
+{
+ "id": "2611.26537",
+ "version": 1,
+ "title": "On the design of sequential quantum repeaters with error detection",
+ "authors": [
+  {
+   "name": "Javier Rey-Domínguez"
+  },
+  {
+   "name": "Koji Azuma"
+  },
+  {
+   "name": "Mohsen Razavi"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-19T18:16:24Z",
+ "updated": "2026-11-19T18:16:24Z",
+ "abstract": "Long-distance, trust-free quantum communications rely on the development of scalable quantum repeater schemes. Sequential entanglement generation with error detection is a promising approach that combines manageable implementation requirements with a hop-by-hop architecture compatible with existing classical infrastructure. In this paper, we investigate key design choices for such schemes over a repeater chain using quantum key distribution as a benchmark. We find that simple quantum error-detecting codes, such as repetition codes or quantum parity codes, perform well under near-term hardware assumptions and outperform strategies without any encoding. In particular, we show that two-qubit repetition codes may well be all that we need to implement in many practical scenarios. We also examine different architectures for the generation of initial entanglement and assess their merits. Additionally, we show that moderate improvements in some hardware components can partially mitigate the slow technological progress of others.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26537",
+  "pdf": "https://arxiv.org/pdf/2611.26537",
+  "html": "https://arxiv.org/html/2611.26537"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-21T14:53:11.527Z",
+  "hook": "Two-qubit repetition codes may be all we need for practical long-distance quantum repeater networks.",
+  "tldr": [
+   "Investigated key design choices for sequential entanglement generation with error detection using quantum key distribution as a benchmark.",
+   "Evaluated simple quantum error-detecting codes and different architectures for initial entanglement generation over a repeater chain.",
+   "Demonstrated that simple codes like repetition or parity codes outperform unencoded strategies under near-term hardware assumptions."
+  ],
+  "whyItMatters": "Secure long-distance quantum communication is currently limited by signal loss, making scalable quantum repeaters essential for building a global quantum internet.",
+  "eli5": "Sending fragile quantum messages over long distances is like whispering a secret down a very long, noisy hallway. This paper shows that adding just a tiny bit of extra checking at each step helps the secret get through intact without needing a massive, complicated setup.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Quantum repeater",
+    "shortDef": "A device that extends the range of quantum communication by breaking a long link into shorter segments.",
+    "eli5Def": "A relay station that catches a fading quantum signal, fixes it, and passes it along.",
+    "wikiTitle": "Quantum repeater"
+   },
+   {
+    "term": "Quantum key distribution",
+    "shortDef": "A secure method for exchanging cryptographic keys between two parties using quantum mechanics.",
+    "eli5Def": "A way for two people to share a secret code in a manner that instantly reveals if a spy is listening.",
+    "wikiTitle": "Quantum key distribution"
+   },
+   {
+    "term": "Repetition code",
+    "shortDef": "An error-correcting code that repeats a message multiple times to protect against corruption.",
+    "eli5Def": "Saying your answer three times in a row so nobody mishears you.",
+    "wikiTitle": "Repetition code"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

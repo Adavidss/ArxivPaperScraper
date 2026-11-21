@@ -1,0 +1,65 @@
+{
+ "id": "2611.26574",
+ "version": 1,
+ "title": "Classical Oracle Separation of QMA from the QCMA Hierarchy and Quantum Cryptography Even When P = QCMA",
+ "authors": [
+  {
+   "name": "Alper Cakan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-19T18:40:14Z",
+ "updated": "2026-11-19T18:40:14Z",
+ "abstract": "Remark: This work is in submission at STOC'27 and thus the full manuscript has been publicly posted on the conference website since November 3rd, 2026. Inspired by the Codeword-Hash Structure problem recently introduced by Cakan (arXiV, 2026) to separate $\\mathsf{QMA}$ from $\\mathsf{QCIP}$, we introduce a new problem called Codeword-Hash pairs in Noise ($\\mathsf{CHN}$) and prove that, in the query complexity model, it is in $\\mathsf{QMA}$ but hard for the $\\mathsf{QCMA}$ hierarchy $\\mathsf{QCMAH} = \\bigcup_{d\\geq1}\\mathsf{QCMA}^{\\mathsf{QCMA}^{\\cdots^{\\mathsf{QCMA}}}}$, the classical-witness quantum-verifier analogue of $\\mathsf{PH}=\\bigcup_{d\\ge1}\\mathsf{NP}^{\\mathsf{NP}^{\\cdots^{\\mathsf{NP}}}}$. Using this problem, we show that there exists a classical oracle ${O}$ such that $\\mathsf{P}^{O}=\\mathsf{BQP}^{O}=\\mathsf{QCMA}^{O} =\\mathsf{QCMAH}^{O} \\subset \\mathsf{QMA}^{O} \\text{ but } \\mathsf{QMA}^{O}\\not\\subseteq\\mathsf{QCMAH}^{O},$ thus showing that quantum state or quantum proof advantage could exist even if classical computers can efficiently solve any problem that can be quantumly verified with a classical proof. Further, using our problem, we show that various quantum cryptographic primitives can exist even when $\\mathsf{P} = \\mathsf{QCMA}$ and thus neither quantum-computable one-way functions nor (verifiable) quantum computational advantage exist. In particular, relative to a classical oracle ${O}$ with $\\mathsf{P}^{O}=\\mathsf{BQP}^{O}=\\mathsf{QCMA}^{O}=\\mathsf{QCMAH}^{O}$, there exist pseudorandom states with classical keys and public-key encryption with copy-protected quantum decryption keys and classical public keys and ciphertexts, among other primitives, answering an open question of Kretschmer, Qian, and Tal (STOC 2025).",
+ "comment": "In submission at STOC'27",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26574",
+  "pdf": "https://arxiv.org/pdf/2611.26574",
+  "html": "https://arxiv.org/html/2611.26574"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-21T14:53:11.527Z",
+  "hook": "Quantum cryptographic primitives can exist even when classical computers can efficiently verify quantum proofs.",
+  "tldr": [
+   "Introduced a new problem called Codeword-Hash pairs in Noise to separate QMA from the QCMA hierarchy.",
+   "Proved the existence of a classical oracle where P equals QCMA but QMA remains strictly larger.",
+   "Demonstrated that pseudorandom states and public-key encryption can exist even if P equals QCMA."
+  ],
+  "whyItMatters": "This theoretical breakthrough resolves open questions in computer science by proving that quantum cryptographic advantages can survive in unexpected computational landscapes.",
+  "eli5": "Think of finding a secret lock combination that remains secure even if you give everyone a cheat sheet for a simpler puzzle. It shows that certain quantum security tricks are tougher than we thought.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "QMA",
+    "shortDef": "Quantum Merlin-Arthur, the quantum analogue of the complexity class NP.",
+    "eli5Def": "Problems where a super-smart wizard can give you a quantum clue, and you can easily check if it is correct.",
+    "wikiTitle": "QMA"
+   },
+   {
+    "term": "Oracle",
+    "shortDef": "A hypothetical black box that can instantly solve specific computational problems.",
+    "eli5Def": "A magical helper box that gives you an instant answer whenever you ask it a difficult question.",
+    "wikiTitle": "Oracle machine"
+   },
+   {
+    "term": "Cryptographic primitives",
+    "shortDef": "Basic building blocks used to create secure cryptographic protocols and systems.",
+    "eli5Def": "The basic digital locks and keys used to build secure secret codes on the internet.",
+    "wikiTitle": "Cryptographic primitive"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
+ }
+}

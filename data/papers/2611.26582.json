@@ -1,0 +1,79 @@
+{
+ "id": "2611.26582",
+ "version": 1,
+ "title": "End-to-End Quantum Algorithm for Differential Equations: Application to Simulating a Biomolecular System",
+ "authors": [
+  {
+   "name": "Mohsen Bagherimehrab"
+  },
+  {
+   "name": "Daniyaal Farooqi"
+  },
+  {
+   "name": "Gavin K. Brennen"
+  },
+  {
+   "name": "Barry C. Sanders"
+  },
+  {
+   "name": "Alán Aspuru-Guzik"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.DS"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-19T18:43:32Z",
+ "updated": "2026-11-19T18:43:32Z",
+ "abstract": "Quantum algorithms for differential equations have the potential for substantial algorithmic speedups over classical methods. However, they rely on certain assumptions and abstract oracle specifications that leave their practical feasibility and computational advantages for realistic applications unclear. Here we formalize the concept of an end-to-end quantum algorithm for differential equations as one that accepts classical inputs and returns classical outputs, and provide implementations for algorithmic primitives in constructing such algorithms. We present a tailored end-to-end quantum algorithm for the linearized Poisson-Boltzmann (LPB) equation, a partial differential equation (PDE) with variable coefficients widely used in simulating a biomolecular system. We explicitly implement all aspects of the algorithm, from preparing an initial state to generating a quantum solution and estimating properties of the system. In particular, we develop a new discrete representation for variable-coefficient PDEs on a grid that enables efficient implementation of the operator oracle, and build on a recent technique based on optimal wavelet preconditioning to generate a quantum solution with a cost independent of the condition number of the discretized operator. We show the algorithm can be implemented by quantum circuits of size polylogarithmic in both the number of grid points $N_g$ and the inverse of the desired accuracy $\\varepsilon$, with an overall gate cost polylogarithmic in $N_g$ and quasilinear in $1/\\varepsilon$. We also show the classical preprocessing to construct the circuits has polylogarithmic cost in $N_g$ and $1/\\varepsilon$. Our work provides a concrete end-to-end quantum algorithm for a PDE of practical value, demonstrates an exponential improvement in scaling with $N_g$ over classical methods, and provides a foundation for assessing its potential quantum advantage in practice.",
+ "comment": "61 pages, 11 figures, 3 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26582",
+  "pdf": "https://arxiv.org/pdf/2611.26582",
+  "html": "https://arxiv.org/html/2611.26582"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.26582v1/lattice.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-21T14:53:11.527Z",
+  "hook": "New quantum algorithm solves complex differential equations with an exponential speedup over classical methods.",
+  "tldr": [
+   "Built a concrete end-to-end quantum algorithm for the linearized Poisson-Boltzmann equation with classical inputs and outputs.",
+   "Created a new discrete representation for variable-coefficient PDEs on a grid and used optimal wavelet preconditioning.",
+   "Achieved a gate cost polylogarithmic in grid points and quasilinear in inverse accuracy, showing exponential scaling improvements."
+  ],
+  "whyItMatters": "Differential equations are essential for simulating biomolecular systems, meaning this advance helps bridge the gap between abstract quantum theory and practical chemistry applications.",
+  "eli5": "Imagine trying to map out every single drop of water in a massive ocean using a simple calculator. This new quantum method is like having a super-powered blueprint that lets you instantly understand the whole ocean's flow without counting every drop.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Linearized Poisson-Boltzmann equation",
+    "shortDef": "A partial differential equation widely used to simulate biomolecular systems.",
+    "eli5Def": "A complex math formula scientists use to figure out how biological molecules interact with their environment.",
+    "wikiTitle": "Poisson-Boltzmann equation"
+   },
+   {
+    "term": "Wavelet preconditioning",
+    "shortDef": "A mathematical technique to transform a problem into an easier-to-solve form.",
+    "eli5Def": "Pre-sorting a giant, tangled pile of puzzle pieces so they are much easier to put together.",
+    "wikiTitle": "Preconditioner"
+   },
+   {
+    "term": "Polylogarithmic",
+    "shortDef": "Growing at a rate proportional to a polynomial of the logarithm of the input size.",
+    "eli5Def": "A way of saying that as a problem gets massively bigger, the time it takes to solve barely creeps up.",
+    "wikiTitle": "Polylogarithmic time"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

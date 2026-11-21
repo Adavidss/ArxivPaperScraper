@@ -1,0 +1,81 @@
+{
+ "id": "2611.26523",
+ "version": 1,
+ "title": "Hamiltonian Stabilization of the Two-Photon Dicke Model",
+ "authors": [
+  {
+   "name": "Pradip Laha"
+  },
+  {
+   "name": "Kingshuk Adhikary"
+  },
+  {
+   "name": "Subhashish Banerjee"
+  },
+  {
+   "name": "Peter van Loock"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-19T18:00:36Z",
+ "updated": "2026-11-19T18:00:36Z",
+ "abstract": "Collective two-photon light--matter interactions enable pair amplification but can destroy spectral confinement, preventing a stable thermodynamic bright phase. We show that a positive Kac-scaled number-Kerr interaction renders the two-photon Dicke Hamiltonian of \\(N\\) emitters lower-bounded at all couplings while preserving its generalized \\(\\mathbb Z_4\\) symmetry. We determine the exact zero-temperature thermodynamic energy density with \\(O(N^{-1})\\) finite-size control and obtain the global phase diagram. A bright minimum is born at a saddle-node and exchanges global stability with the normal minimum at coexistence, producing a discontinuous photon-density jump. Symmetry-resolved exact diagonalization through \\(N=128\\) supports the predicted density jump and an exponentially closing same-sector normal--bright tunneling gap. Spectral collapse thus becomes the singular zero-Kerr point of a first-order phase diagram, identifying a Hamiltonian route to stabilizing pair amplification.",
+ "comment": "Preliminary draft, comments are welcome",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26523",
+  "pdf": "https://arxiv.org/pdf/2611.26523",
+  "html": "https://arxiv.org/html/2611.26523"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.26523v1/schematic2.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-21T14:53:11.527Z",
+  "hook": "Adding a number-Kerr interaction stabilizes the two-photon Dicke model and prevents spectral collapse.",
+  "tldr": [
+   "Analyzed how collective two-photon light-matter interactions can destroy spectral confinement and prevent a stable thermodynamic bright phase.",
+   "Applied a positive Kac-scaled number-Kerr interaction to render the two-photon Dicke Hamiltonian of N emitters lower-bounded at all couplings.",
+   "Found exact thermodynamic energy density, global phase diagrams, and confirmed a discontinuous photon-density jump up to N=128."
+  ],
+  "whyItMatters": "Controlling complex light-matter interactions at the quantum level is crucial for developing advanced optical devices and understanding fundamental quantum phases.",
+  "eli5": "When light and matter interact in pairs, they usually blow up or fall apart instead of settling down. The researchers found a specific mathematical rule to add that acts like a brake, keeping the system stable so it can form a bright, steady state.",
+  "keyNumbers": [
+   {
+    "value": "128",
+    "label": "Maximum emitters (N)",
+    "context": "Used in symmetry-resolved exact diagonalization to support the predicted density jump."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Dicke model",
+    "shortDef": "A theoretical model describing the interaction between a collection of two-level atoms and a quantized light field.",
+    "eli5Def": "A math recipe for how a bunch of tiny atomic lights talk to each other inside a mirrored box.",
+    "wikiTitle": "Dicke model"
+   },
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator corresponding to the total energy of a system in quantum mechanics.",
+    "eli5Def": "The master rulebook that tells a quantum system how its energy works and how it changes over time.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Phase diagram",
+    "shortDef": "A chart showing the stable states of a system under different physical conditions like temperature and coupling.",
+    "eli5Def": "A map showing where water turns into ice, steam, or liquid depending on temperature and pressure.",
+    "wikiTitle": "Phase diagram"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

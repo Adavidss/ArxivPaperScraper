@@ -1,0 +1,96 @@
+{
+ "id": "2611.26506",
+ "version": 1,
+ "title": "When the Noise Gets Noisy: Quantum Error Correction with Disordered Noise and Misinformed Decoding",
+ "authors": [
+  {
+   "name": "Cory T. Aitchison"
+  },
+  {
+   "name": "Lucas H. English"
+  },
+  {
+   "name": "Benjamin Béri"
+  },
+  {
+   "name": "Dominic J. Williamson"
+  },
+  {
+   "name": "Campbell K. McLauchlan"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-19T17:55:21Z",
+ "updated": "2026-11-19T17:55:21Z",
+ "abstract": "Experimental demonstrations of quantum error correction often exhibit noise that varies across space and time, and attempting to characterize this disorder has been shown to substantially improve decoding performance. However, theoretical studies of quantum error correction typically assume fixed, perfectly known, homogeneous noise. Here we model decoding with incomplete or inaccurate knowledge of disordered noise channels by treating physical error rates as random variables. We show that the decoding performance is set by a small number of information-theoretic functionals of the noise distribution: the entropy determines the threshold while Bhattacharyya coefficients bound the deep sub-threshold decay rate of logical failures. Furthermore, our results give a quantitative measure of the benefits of characterizing this noise. We numerically investigate both maximum-likelihood and minimum-weight-error decoding of surface codes, showing good agreement with theory across the code-capacity, phenomenological, and circuit-level noise settings, including with noise distributions seen in open-access superconducting devices. When it comes to error correction in realistic settings, reporting the average entropy and Bhattacharyya coefficient of noise distributions could therefore be more informative than the mean or median error rates of a device's components.",
+ "comment": "36 pages, 13 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26506",
+  "pdf": "https://arxiv.org/pdf/2611.26506",
+  "html": "https://arxiv.org/html/2611.26506"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.26506v1/surface_code_diagram.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-22T14:48:31.649Z",
+  "hook": "Quantum error correction performance is set by noise entropy and Bhattacharyya coefficients under disordered noise.",
+  "tldr": [
+   "They modeled decoding with incomplete or inaccurate knowledge of disordered noise channels by treating physical error rates as random variables.",
+   "They used information-theoretic functionals of the noise distribution like entropy and Bhattacharyya coefficients to study decoding performance.",
+   "They showed these metrics determine the threshold and bound failure rates, matching numerical results for surface codes."
+  ],
+  "whyItMatters": "Real quantum computers suffer from messy, fluctuating noise instead of uniform ideal noise. Understanding how this disorder impacts error correction helps us build more reliable hardware.",
+  "eli5": "Imagine trying to hear a friend in a room where some people are whispering and others are yelling randomly. Instead of guessing every single noise level, scientists found that just two summary numbers can tell us if we can still understand the message.",
+  "keyNumbers": [
+   {
+    "value": "36",
+    "label": "pages",
+    "context": "Length of the paper manuscript"
+   },
+   {
+    "value": "13",
+    "label": "figures",
+    "context": "Number of figures included in the study"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum error correction",
+    "shortDef": "Methods to protect quantum information from errors due to decoherence and noise.",
+    "eli5Def": "Adding extra backup steps and qubits so a quantum computer can fix its own mistakes when things go wrong.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Entropy",
+    "shortDef": "A measure of randomness, uncertainty, or disorder in a system.",
+    "eli5Def": "How messy or unpredictable a set of random events is.",
+    "wikiTitle": "Entropy (information theory)"
+   },
+   {
+    "term": "Bhattacharyya coefficient",
+    "shortDef": "A statistical measure of the overlap between two statistical samples or distributions.",
+    "eli5Def": "A mathematical score for how much two different random patterns look alike.",
+    "wikiTitle": "Bhattacharyya distance"
+   },
+   {
+    "term": "Surface code",
+    "shortDef": "A leading topological quantum error-correcting code defined on a 2D grid of physical qubits.",
+    "eli5Def": "A chessboard-like grid of qubits used to trap and fix quantum errors safely.",
+    "wikiTitle": "Surface code"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

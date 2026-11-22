@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T14:53:11.527Z",
+ "generatedAt": "2026-11-22T14:48:31.649Z",
  "windowDays": 75,
  "items": [
   {
@@ -202,6 +202,57 @@
    "published": "2026-11-19",
    "difficulty": 4,
    "readSeconds": 60,
+   "source": "foryou",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2611.26506",
+   "title": "When the Noise Gets Noisy: Quantum Error Correction with Disordered Noise and Misinformed Decoding",
+   "hook": "Quantum error correction performance is set by noise entropy and Bhattacharyya coefficients under disordered noise.",
+   "authorsLine": "Aitchison, English +3",
+   "followedIds": [],
+   "matchedKeywords": [],
+   "figureUrl": "https://arxiv.org/html/2611.26506v1/surface_code_diagram.png",
+   "firstSeen": "2026-11-22",
+   "primaryCategory": "quant-ph",
+   "published": "2026-11-19",
+   "difficulty": 4,
+   "readSeconds": 55,
+   "source": "foryou",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2611.26497",
+   "title": "Optimal Error corrected Hamiltonian estimation with nuisance parameters",
+   "hook": "Local suppression of nuisance parameters is unnecessary and restrictive in quantum sensing with Markovian noise.",
+   "authorsLine": "Hu, Yuan +2",
+   "followedIds": [],
+   "matchedKeywords": [],
+   "figureUrl": null,
+   "firstSeen": "2026-11-22",
+   "primaryCategory": "quant-ph",
+   "published": "2026-11-19",
+   "difficulty": 5,
+   "readSeconds": 60,
+   "source": "foryou",
+   "biteStatus": "ok",
+   "withdrawn": false
+  },
+  {
+   "id": "2611.26447",
+   "title": "Scaling classical hardware for accurate real-time quantum error correction",
+   "hook": "Rapids decodes surface code syndromes in under a microsecond on a single FPGA with 240x lower logical error rate.",
+   "authorsLine": "Jin, Yelin +1",
+   "followedIds": [],
+   "matchedKeywords": [],
+   "figureUrl": "https://arxiv.org/html/2611.26447v1/fig1.png",
+   "firstSeen": "2026-11-22",
+   "primaryCategory": "quant-ph",
+   "published": "2026-11-19",
+   "difficulty": 3,
+   "readSeconds": 50,
    "source": "foryou",
    "biteStatus": "ok",
    "withdrawn": false
@@ -7072,25 +7123,6 @@
    "difficulty": 5,
    "readSeconds": 50,
    "source": "foryou",
-   "biteStatus": "ok",
-   "withdrawn": false
-  },
-  {
-   "id": "2609.07776",
-   "title": "QROB: Quantifying Realization Overhead in Quantum Compilation via Reverse Construction",
-   "hook": "Existing quantum compilers incur up to 24.1x excess SWAP costs, but QROB closes the gap to boost physical survival by 1.65x.",
-   "authorsLine": "Li, Li +8",
-   "followedIds": [],
-   "matchedKeywords": [
-    "SABRE"
-   ],
-   "figureUrl": "https://arxiv.org/html/2609.07776v1/qrob_framework4.png",
-   "firstSeen": "2026-09-09",
-   "primaryCategory": "quant-ph",
-   "published": "2026-09-07",
-   "difficulty": 3,
-   "readSeconds": 45,
-   "source": "follow",
    "biteStatus": "ok",
    "withdrawn": false
   }

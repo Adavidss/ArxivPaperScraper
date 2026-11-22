@@ -1,0 +1,38 @@
+{
+ "date": "2026-11-22",
+ "generatedAt": "2026-11-22T14:48:31.649Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Advances in Quantum Error Correction & Sensing",
+ "summary": "Today's research explores fundamental and practical frontiers in quantum information, spanning disordered noise decoding, optimal parameter estimation, and ultra-fast FPGA hardware for real-time error correction. Together, these studies address the critical bottleneck of managing noise and decoding latency in scalable quantum systems.",
+ "themes": [
+  {
+   "title": "Quantum Error Correction and Decoding",
+   "body": "New theoretical and hardware frameworks advance how quantum error correction handles complex noise and real-time processing constraints. Studies investigate information-theoretic limits under disordered noise and introduce sub-microsecond FPGA-based neural decoders for surface codes.",
+   "paperIds": [
+    "2611.26506",
+    "2611.26447"
+   ]
+  },
+  {
+   "title": "Quantum Sensing and Hamiltonian Estimation",
+   "body": "Recent work establishes optimal precision bounds for quantum sensing with time-dependent Hamiltonians in the presence of Markovian noise and nuisance parameters, revealing distinct strategies for noise suppression versus parameter handling.",
+   "paperIds": [
+    "2611.26497"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both works tackle the challenge of mitigating adverse physical effects in quantum architectures—specifically addressing how to handle unknown or disordered noise distributions during decoding and parameter estimation.",
+   "paperIds": [
+    "2611.26506",
+    "2611.26497"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2611.26506",
+  "2611.26497",
+  "2611.26447"
+ ]
+}

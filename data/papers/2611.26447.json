@@ -1,0 +1,95 @@
+{
+ "id": "2611.26447",
+ "version": 1,
+ "title": "Scaling classical hardware for accurate real-time quantum error correction",
+ "authors": [
+  {
+   "name": "Chenyang Jin"
+  },
+  {
+   "name": "Susanne F. Yelin"
+  },
+  {
+   "name": "Andi Gu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.AR",
+  "cs.LG"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-19T17:16:21Z",
+ "updated": "2026-11-19T17:16:21Z",
+ "abstract": "Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency. This is most demanding for superconducting processors, whose fast syndrome cycles force a trade-off between decoding speed and accuracy. Decoders fast enough to keep up sacrifice accuracy, which must be compensated for with larger codes and thus additional physical qubits. Here we introduce Rapids, a streaming neural decoder that is both fast and accurate. We achieve this by co-designing the decoder with a field-programmable gate array (FPGA): the network is built from operations that map cheaply onto the device and trained in its integer arithmetic. For the distance-19 surface code, Rapids decodes each round of syndromes in under a microsecond on a single FPGA, fast enough for superconducting processors, and returns its decisions with the low latency that fault-tolerant algorithms require. Its logical error rate is 240 times lower than that of existing real-time hardware decoders. The same design extends to the color code and the [[144,12,12]] bivariate-bicycle code, on which our decoder is 16 times more accurate than the real-time Relay decoder. We further show that the decoder scales: spread over several FPGAs or hardened into custom silicon, it becomes faster, more accurate, or able to decode larger codes. Classical hardware thus becomes a further resource, alongside qubits, that can be scaled to improve fault-tolerant quantum computers.",
+ "comment": "13 pages, 5 figures, 4 Extended Data figures, 1 Extended Data table",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.26447",
+  "pdf": "https://arxiv.org/pdf/2611.26447",
+  "html": "https://arxiv.org/html/2611.26447"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.26447v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-22T14:48:31.649Z",
+  "hook": "Rapids decodes surface code syndromes in under a microsecond on a single FPGA with 240x lower logical error rate.",
+  "tldr": [
+   "They introduced Rapids, a streaming neural decoder co-designed with a field-programmable gate array for real-time quantum error correction.",
+   "They built the network from integer arithmetic operations that map cheaply onto the FPGA hardware.",
+   "They demonstrated sub-microsecond decoding per round on a distance-19 surface code with drastically lower error rates than existing hardware."
+  ],
+  "whyItMatters": "Building a working quantum computer requires fixing errors faster than they happen. This new hardware design proves classical chips can keep up without sacrificing accuracy.",
+  "eli5": "Think of a referee trying to call fouls in a super-fast video game. Old refs were either too slow or missed calls; this new AI referee is fast enough to keep up with the game and makes 240 times fewer mistakes.",
+  "keyNumbers": [
+   {
+    "value": "19",
+    "label": "distance",
+    "context": "Distance of the surface code tested"
+   },
+   {
+    "value": "240",
+    "label": "factor",
+    "context": "How much lower the logical error rate is compared to existing real-time hardware decoders"
+   },
+   {
+    "value": "16",
+    "label": "factor",
+    "context": "How much more accurate the decoder is compared to the Relay decoder on specific codes"
+   },
+   {
+    "value": "13",
+    "label": "pages",
+    "context": "Length of the paper manuscript"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Field-programmable gate array",
+    "shortDef": "An integrated circuit designed to be configured by a customer or a designer after manufacturing.",
+    "eli5Def": "A computer chip whose internal wiring can be completely rewired and customized for a specific task.",
+    "wikiTitle": "Field-programmable gate array"
+   },
+   {
+    "term": "Syndrome measurements",
+    "shortDef": "Measurements that reveal whether errors have occurred without exposing the stored quantum information.",
+    "eli5Def": "Clues gathered to figure out if something went wrong without looking inside the box.",
+    "wikiTitle": "Quantum error correction"
+   },
+   {
+    "term": "Fault-tolerant",
+    "shortDef": "The property enabling a system to continue operating properly in the event of the failure of some of its parts.",
+    "eli5Def": "A machine built so cleverly that even when individual parts break, the overall system still works perfectly.",
+    "wikiTitle": "Fault-tolerant quantum computing"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 50
+ }
+}

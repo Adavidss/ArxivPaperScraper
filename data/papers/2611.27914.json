@@ -1,0 +1,92 @@
+{
+ "id": "2611.27914",
+ "version": 1,
+ "title": "The moments and asymptotic spectral distribution of the Grassmannian ensemble",
+ "authors": [
+  {
+   "name": "Aryan Gadhave"
+  },
+  {
+   "name": "Asghar Ghorbanpour"
+  },
+  {
+   "name": "Liam Hickey"
+  },
+  {
+   "name": "Masoud Khalkhali"
+  },
+  {
+   "name": "Allison Klingler"
+  },
+  {
+   "name": "Nathan Pagliaroli"
+  },
+  {
+   "name": "Andrew Parks"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph",
+  "math.PR"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-20T17:51:58Z",
+ "updated": "2026-11-20T17:51:58Z",
+ "abstract": "In this paper, we study random density matrices constructed by taking partial traces of projections onto random subspaces of a bipartite Hilbert space $\\mathcal{H}_A \\otimes \\mathcal{H}_{B}$ distributed according to the pushforward measure of the action of the unitary group on the Grassmannian $\\text{Gr}_{n}(\\mathcal{H}_A \\otimes \\mathcal{H}_{B})$. This ensemble models a `typical' quantum subspace. All tracial moments of the density operator, as well as mixed tracial moments of reduced density operators, are computed explicitly using Weingarten calculus. There are several consequences of these results. In particular, we prove that the empirical spectral distribution of the density operator converges almost surely to a rescaled Marchenko-Pastur law. We also prove that this ensemble can be written as a sum of asymptotically free random density operators, leading to an alternative proof of the convergence of the spectral distribution. Finally, we compute the asymptotic expansion of the average entanglement entropy.",
+ "comment": "21 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.27914",
+  "pdf": "https://arxiv.org/pdf/2611.27914",
+  "html": "https://arxiv.org/html/2611.27914"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.27914v1/eigenvalue_distribution.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-23T18:39:54.518Z",
+  "hook": "Random quantum subspaces follow a Marchenko-Pastur law, revealing the statistical structure of typical density matrices.",
+  "tldr": [
+   "Researchers analyzed random density matrices derived from partial traces of projections onto random subspaces in bipartite Hilbert spaces.",
+   "They used Weingarten calculus to explicitly compute all tracial and mixed tracial moments of these density operators.",
+   "The study proves that the spectral distribution converges to a rescaled Marchenko-Pastur law and provides an asymptotic expansion for entanglement entropy."
+  ],
+  "whyItMatters": "Understanding the behavior of 'typical' quantum subspaces is essential for characterizing entanglement and the statistical properties of complex quantum systems.",
+  "eli5": "Imagine you have a giant, messy quantum system. If you pick a random piece of it, how does that piece behave? This paper shows that these random pieces follow a very specific mathematical pattern, similar to how the heights of people in a large crowd follow a bell curve.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Grassmannian",
+    "shortDef": "A space that parameterizes all linear subspaces of a given dimension in a vector space.",
+    "eli5Def": "A mathematical way to describe the set of all possible 'slices' or 'subspaces' you can take out of a larger space.",
+    "wikiTitle": "Grassmannian"
+   },
+   {
+    "term": "Weingarten calculus",
+    "shortDef": "A technique for integrating polynomial functions over compact groups like the unitary group.",
+    "eli5Def": "A specialized math tool used to calculate averages when dealing with complex, rotating quantum systems.",
+    "wikiTitle": "Weingarten calculus"
+   },
+   {
+    "term": "Marchenko-Pastur law",
+    "shortDef": "A probability distribution describing the singular values of large random matrices.",
+    "eli5Def": "A famous pattern that appears when you look at the 'spread' of values in very large, random tables of numbers.",
+    "wikiTitle": "Marchenko–Pastur distribution"
+   },
+   {
+    "term": "Bipartite Hilbert space",
+    "shortDef": "A quantum state space composed of two distinct subsystems.",
+    "eli5Def": "A system made of two parts that can be linked together, like two entangled particles.",
+    "wikiTitle": "Hilbert space"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

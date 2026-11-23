@@ -1,0 +1,83 @@
+{
+ "id": "2611.27942",
+ "version": 1,
+ "title": "A Microwave-Photonics Formulation of the Rydberg-Atom Receiver",
+ "authors": [
+  {
+   "name": "David Rosser"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "eess.SP",
+  "physics.app-ph",
+  "physics.atom-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-20T18:16:06Z",
+ "updated": "2026-11-20T18:16:06Z",
+ "abstract": "The performance of Rydberg-atom receivers is seldom stated as a radio-frequency (RF) link budget. The receiver is shown to be an intensity-modulated direct-detection analog optical link whose modulator is the laser-driven vapor. The transmission of a warm vapor is derived in closed form by averaging the four-level response over atomic velocities. The conversion gain, noise figure, bandwidth, intercept points, and spurious-free dynamic range follow from this one function. For a weak probe the instantaneous bandwidth is half the width of the transparency window in two-photon detuning. The local-oscillator beat places the second-order intercept near twice the local-oscillator field, so the local oscillator sets the even-order linearity. For a rubidium transition at 17.04 GHz the closed forms agree with a velocity-resolved density-matrix model to 1% for the slope and the intercepts and to 10% for the bandwidth. They underestimate the group delay by a third. The response is tied to atomic constants, and the sensing volume escapes the Chu limit. However, the noise figure of a warm vapor rules it out as a general replacement for an antenna and low-noise amplifier.",
+ "comment": "40 pages, 5 figures, 3 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.27942",
+  "pdf": "https://arxiv.org/pdf/2611.27942",
+  "html": "https://arxiv.org/html/2611.27942"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-23T18:39:54.518Z",
+  "hook": "Rydberg-atom receivers function as intensity-modulated optical links, but their noise levels limit practical use.",
+  "tldr": [
+   "The author modeled Rydberg-atom receivers as analog optical links where laser-driven vapor acts as the modulator.",
+   "They derived closed-form expressions for performance metrics like gain, bandwidth, and noise figure.",
+   "Results show high accuracy for rubidium transitions but reveal that noise levels prevent them from replacing standard antennas."
+  ],
+  "whyItMatters": "While Rydberg atoms are promising for high-frequency sensing, this work provides a reality check on their performance compared to traditional radio technology.",
+  "eli5": "Scientists are trying to use clouds of atoms as super-sensitive radio antennas. This paper shows that while they work well for specific tasks, they are currently too 'noisy' to replace the antennas in your phone or radio.",
+  "keyNumbers": [
+   {
+    "value": "17.04 GHz",
+    "label": "Rubidium transition frequency",
+    "context": "The specific frequency tested for the Rydberg-atom receiver model."
+   },
+   {
+    "value": "1%",
+    "label": "Slope/intercept accuracy",
+    "context": "Agreement between the closed-form model and the velocity-resolved density-matrix model."
+   },
+   {
+    "value": "10%",
+    "label": "Bandwidth accuracy",
+    "context": "Agreement between the closed-form model and the velocity-resolved density-matrix model."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Rydberg atom",
+    "shortDef": "An atom with one or more electrons excited to a very high principal quantum number.",
+    "eli5Def": "An atom where an electron is pushed way out to the edge, making the atom huge and very sensitive to electric fields.",
+    "wikiTitle": "Rydberg atom"
+   },
+   {
+    "term": "Chu limit",
+    "shortDef": "A fundamental limit on the bandwidth and efficiency of small antennas.",
+    "eli5Def": "A rule of physics that says you can't make an antenna both tiny and super-efficient at the same time.",
+    "wikiTitle": "Chu-Harrington limit"
+   },
+   {
+    "term": "Noise figure",
+    "shortDef": "A measure of the degradation of signal-to-noise ratio caused by a component.",
+    "eli5Def": "How much 'static' or 'hiss' a device adds to the signal it is trying to receive.",
+    "wikiTitle": "Noise figure"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 80
+ }
+}

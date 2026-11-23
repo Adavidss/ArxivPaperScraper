@@ -1,0 +1,89 @@
+{
+ "id": "2611.27896",
+ "version": 1,
+ "title": "Optimised 8th-Order Trotter-Suzuki Schemes for Quantum Simulation",
+ "authors": [
+  {
+   "name": "Marko Maležič"
+  },
+  {
+   "name": "Johann Ostmeyer"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "cond-mat.str-el",
+  "hep-lat"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-20T17:36:11Z",
+ "updated": "2026-11-20T17:36:11Z",
+ "abstract": "Simulating quantum dynamics in many-body systems is one of the most promising applications of quantum computers. Product formulas are a natural choice for this task, since they map directly onto quantum gates, and increasing their order $n$ could lead to reduced gate depths, provided the parameters are chosen efficiently. So far, schemes beyond $6^{\\textrm{th}}$ order have only been built as compositions of second-order schemes, while more general product formulas are known only up to $6^{\\textrm{th}}$ order. In this work, we extend our optimisation framework to order $n = 8$, and find both more efficient compositions and the first $8^{\\textrm{th}}$ order general schemes. Our formulas improve on the theoretical efficiency of the state-of-the-art schemes by Morales et al and we recommend two schemes explicitly. In simulations of the Heisenberg XZ chain one of our recommended schemes always outperforms those by Morales et al, though it is not always the same scheme that performs best. More generally, we observe that for Hamiltonians split into many non-commuting operators the uniformity of a Trotter decomposition becomes the main indicator of a scheme's performance. To assess the schemes' use on quantum hardware, we simulate noisy circuits with our new Qiskit plugin qiskit-omelyan. At current noise levels, the Leapfrog scheme remains the best choice, but as noise rates decrease toward fault tolerance, our recommended schemes become competitive.",
+ "comment": "13 + 4 pages, 6 + 1 figures, 5 + 4 tables",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.27896",
+  "pdf": "https://arxiv.org/pdf/2611.27896",
+  "html": "https://arxiv.org/html/2611.27896"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.27896v1/scheme_manifold_q17_18.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-23T18:39:54.518Z",
+  "hook": "New 8th-order Trotter-Suzuki schemes reduce quantum gate requirements, outperforming previous state-of-the-art methods.",
+  "tldr": [
+   "The authors developed the first general 8th-order product formulas for simulating quantum dynamics, extending beyond previous 6th-order limits.",
+   "They used an optimization framework to create more efficient schemes and tested them on Heisenberg XZ chain simulations.",
+   "Results show these schemes outperform existing methods, becoming competitive as quantum hardware noise levels approach fault tolerance."
+  ],
+  "whyItMatters": "Efficiently simulating quantum systems is a primary goal for quantum computers; reducing gate depth is crucial for running complex algorithms on near-term hardware.",
+  "eli5": "Simulating quantum physics on a computer is like trying to draw a smooth curve using only straight lines. The higher the 'order' of the math, the fewer lines you need to get a perfect result. This paper found a much better way to draw those lines, saving precious space on quantum chips.",
+  "keyNumbers": [
+   {
+    "value": "8",
+    "label": "Order of scheme",
+    "context": "The order of the new Trotter-Suzuki product formulas developed."
+   },
+   {
+    "value": "6",
+    "label": "Previous limit",
+    "context": "The previous maximum order for general product formulas."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Trotter-Suzuki decomposition",
+    "shortDef": "A method to approximate the evolution of a quantum system by breaking it into smaller, manageable parts.",
+    "eli5Def": "A way to break a complex quantum movement into tiny, simple steps that a computer can actually calculate.",
+    "wikiTitle": "Lie product formula"
+   },
+   {
+    "term": "Gate depth",
+    "shortDef": "The number of sequential quantum gates required to execute a circuit.",
+    "eli5Def": "The total number of steps a quantum computer has to take to finish a calculation; fewer steps mean less chance for errors.",
+    "wikiTitle": "Quantum circuit"
+   },
+   {
+    "term": "Fault tolerance",
+    "shortDef": "The ability of a quantum computer to perform reliable calculations despite hardware noise.",
+    "eli5Def": "A state where a computer is so good at correcting its own mistakes that it can run forever without failing.",
+    "wikiTitle": "Fault-tolerant quantum computing"
+   },
+   {
+    "term": "Heisenberg XZ chain",
+    "shortDef": "A model of interacting quantum spins arranged in a line.",
+    "eli5Def": "A simple model of magnets lined up in a row, used to test how well quantum computers can simulate nature.",
+    "wikiTitle": "Heisenberg model (quantum)"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 75
+ }
+}

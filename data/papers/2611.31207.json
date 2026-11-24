@@ -1,0 +1,52 @@
+{
+ "id": "2611.31207",
+ "version": 1,
+ "title": "Advancing the Theory of Pretty Good Quantum Operations",
+ "authors": [
+  {
+   "name": "Bikun Li"
+  },
+  {
+   "name": "Guo Zheng"
+  },
+  {
+   "name": "Liang Jiang"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-23T18:53:22Z",
+ "updated": "2026-11-23T18:53:22Z",
+ "abstract": "Finding optimal quantum measurements or recovery maps is often demanding. Pretty good measurements and Petz maps offer explicit approximations achieving at least the square of optimal performance by the Barnum-Knill bound. We unify these operations in a semidefinite programming framework with a tunable power, extending them to broader quantum tasks. We prove a stronger bound for powers above one up to three that peaks at quadratic power. For structured channels such as stabilizer codes under Pauli noise, large powers steer recovery to a maximum likelihood decoder for maximally mixed inputs.",
+ "comment": "19 pages, 2 figures, including Supplemental Material",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.31207",
+  "pdf": "https://arxiv.org/pdf/2611.31207",
+  "html": "https://arxiv.org/html/2611.31207"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-11-24T18:09:10.262Z",
+  "hook": "Finding optimal quantum measurements or recovery maps is often demanding.",
+  "tldr": [
+   "Finding optimal quantum measurements or recovery maps is often demanding.",
+   "Pretty good measurements and Petz maps offer explicit approximations achieving at least the square of optimal performance by the Barnum-Knill bound.",
+   "For structured channels such as stabilizer codes under Pauli noise, large powers steer recovery to a maximum likelihood decoder for maximally mixed inputs."
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 38
+ }
+}

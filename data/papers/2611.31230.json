@@ -1,0 +1,49 @@
+{
+ "id": "2611.31230",
+ "version": 1,
+ "title": "Simple design of adaptive protocols for quantum metrology with limited data",
+ "authors": [
+  {
+   "name": "Ricard Ravell Rodríguez"
+  },
+  {
+   "name": "Jesús Rubio"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "physics.data-an"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-23T18:59:05Z",
+ "updated": "2026-11-23T18:59:05Z",
+ "abstract": "Recent sensing experiments have used a Bayesian notion of precision gain to adapt control parameters for fixed measurements. Here, we advocate a simple design principle based on Personick's minimum mean square loss formalism to extend this procedure in order to include measurement optimisation, determining the optimal measurement for each probe and providing a prior-dependent precision gain to optimise the probe itself. This offers a Bayesian counterpart to protocol design based on the Fisher information, with a similar algebraic structure but incorporating the full prior. We apply this principle to adaptive phase estimation with single-mode Gaussian probes, showing that joint optimisation outperforms both adaptive homodyne detection and a fixed-probe strategy optimised for the initial prior, with a maximum reduction of 32% in mean posterior variance relative to homodyne detection. Our results illustrate the potential of simple Bayesian design for quantum metrology with limited data when measurement bases can be controlled.",
+ "comment": "8 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.31230",
+  "pdf": "https://arxiv.org/pdf/2611.31230",
+  "html": "https://arxiv.org/html/2611.31230"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-11-24T18:09:10.262Z",
+  "hook": "Recent sensing experiments have used a Bayesian notion of precision gain to adapt control parameters for fixed…",
+  "tldr": [
+   "Recent sensing experiments have used a Bayesian notion of precision gain to adapt control parameters for fixed measurements.",
+   "Here, we advocate a simple design principle based on Personick's minimum mean square loss formalism to extend this procedure in order to include measurement…",
+   "Our results illustrate the potential of simple Bayesian design for quantum metrology with limited data when measurement bases can be controlled."
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 41
+ }
+}

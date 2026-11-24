@@ -1,0 +1,53 @@
+{
+ "id": "2611.31179",
+ "version": 1,
+ "title": "Floquet spectra and parameter sensitivity of entanglement in the quantum kicked top",
+ "authors": [
+  {
+   "name": "Dyari Jarvis"
+  },
+  {
+   "name": "Peter A. Rose"
+  },
+  {
+   "name": "Arjendu K. Pattanayak"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-23T18:34:44Z",
+ "updated": "2026-11-23T18:34:44Z",
+ "abstract": "We investigate the relationship between the Floquet spectrum and the sensitivity of the entanglement landscape to parameter and initial condition change in the quantum kicked top. We focus on the case of four qubits and on locating degeneracies in its Floquet eigenphases using the resultant of its characteristic polynomial $p$ and its derivative $\\partial_λp$ and quantitatively map the sensitivity of the entanglement landscape to changes in kicking strength over the sphere of spin coherent initial states. We find that prominent sensitivity maxima coincide with either Floquet eigenphase degeneracies or kick strengths exhibiting short-period quantum revivals, with some points satisfying both conditions. These results establish a connection between the spectral structure of the Floquet operator and entanglement landscape sensitivity, demonstrating the utility of the resultant in studying the dynamics of small-$j$ quantum kicked tops. Since this structure extends to all values of $j$, the central lessons apply completely generally.",
+ "comment": "9 pages, 10 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.31179",
+  "pdf": "https://arxiv.org/pdf/2611.31179",
+  "html": "https://arxiv.org/html/2611.31179"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.31179v1/publication_Representative_2d_Plot.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-11-24T18:09:10.262Z",
+  "hook": "We investigate the relationship between the Floquet spectrum and the sensitivity of the entanglement landscape to…",
+  "tldr": [
+   "We find that prominent sensitivity maxima coincide with either Floquet eigenphase degeneracies or kick strengths exhibiting short-period quantum revivals,…",
+   "We focus on the case of four qubits and on locating degeneracies in its Floquet eigenphases using the resultant of its characteristic polynomial $p$ and its…",
+   "Since this structure extends to all values of $j$, the central lessons apply completely generally."
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

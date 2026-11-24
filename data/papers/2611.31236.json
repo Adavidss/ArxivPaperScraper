@@ -1,0 +1,45 @@
+{
+ "id": "2611.31236",
+ "version": 1,
+ "title": "Two messages suffice for quantum interactive proof systems",
+ "authors": [
+  {
+   "name": "Yupan Liu"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.CC"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-23T18:59:31Z",
+ "updated": "2026-11-23T18:59:31Z",
+ "abstract": "Quantum interactive proof systems can be parallelized to three messages, as shown by Kitaev and Watrous (STOC 2000), perhaps their most striking distinction from classical counterparts. In this work, we establish that any quantum interactive proof system can further be parallelized to two messages, with the verifier sending halves of EPR pairs (``quantum public coins'') and, after the prover's response, using only stoquastic verification. Technically, we strengthen ${\\sf QIP}(3) = {\\sf QIP} = {\\sf PSPACE}$ of Jain, Ji, Upadhyay, and Watrous (JACM, 2011) and fully characterize two-message quantum interactive proof systems by proving \\[ {\\rm qq}\\text{-}{\\sf StoqAM} = {\\rm qq}\\text{-}{\\sf QAM} = {\\sf QIP}(2) = {\\sf QIP} = {\\sf PSPACE}. \\] Our main technical contributions show that Close Image to Uniform (CIUniform), which is naturally in the stoquastic version of ${\\rm qq}\\text{-}{\\sf QAM}$, is $\\sf PSPACE$-hard via transforming the sum-check protocol of Shamir (JACM, 1992) and Shen (JACM, 1992) into a CIUniform instance consisting of an efficient sampler whose image distribution is exactly uniform for some input distribution when the underlying quantified Boolean formula is true.",
+ "comment": "17 pages, 2 protocols",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.31236",
+  "pdf": "https://arxiv.org/pdf/2611.31236",
+  "html": "https://arxiv.org/html/2611.31236"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-11-24T18:09:10.262Z",
+  "hook": "Quantum interactive proof systems can be parallelized to three messages, as shown by Kitaev and Watrous (STOC 2000),…",
+  "tldr": [
+   "\\] Our main technical contributions show that Close Image to Uniform (CIUniform), which is naturally in the stoquastic version of ${\\rm qq}\\text{-}{\\sf QAM}$,…",
+   "In this work, we establish that any quantum interactive proof system can further be parallelized to two messages, with the verifier sending halves of EPR…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 36
+ }
+}

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T18:39:54.518Z",
+ "generatedAt": "2026-11-24T18:09:10.262Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -143,26 +143,6 @@
    "paperCount": 4
   },
   {
-   "name": "Zi-Wen Liu",
-   "slug": "zi-wen-liu",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2610.02172",
-    "2609.30159",
-    "2609.28461"
-   ],
-   "recentTitles": [
-    "Robust exponential lower bounds for fermionic and bosonic Gaussian ranks",
-    "Non-Abelian sheaf quantum LDPC codes: good and magical"
-   ],
-   "paperCount": 4
-  },
-  {
    "name": "Xin Wang",
    "slug": "xin-wang",
    "score": 4,
@@ -198,6 +178,25 @@
    "recentTitles": [
     "Chiral Torsional Double Wells: Tunneling and Polarizability",
     "Accelerating Quantum Simulations of Materials Through Parameter and Ansatz Transfer Strategies"
+   ],
+   "paperCount": 2
+  },
+  {
+   "name": "Ethan Dickey",
+   "slug": "ethan-dickey",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [
+    "SABRE"
+   ],
+   "viaCategories": [],
+   "paperIds": [
+    "2610.07308",
+    "2609.14620"
+   ],
+   "recentTitles": [
+    "Quantum dynamics of spin systems using quantum-like resources",
+    "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
    ],
    "paperCount": 2
   }

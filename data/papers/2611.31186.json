@@ -1,0 +1,50 @@
+{
+ "id": "2611.31186",
+ "version": 1,
+ "title": "Self-guided estimation of the stabilizer fidelity with single-copy Pauli measurements",
+ "authors": [
+  {
+   "name": "M. Torres"
+  },
+  {
+   "name": "J. Gidi"
+  },
+  {
+   "name": "L. Pereira"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-23T18:39:21Z",
+ "updated": "2026-11-23T18:39:21Z",
+ "abstract": "The stabilizer fidelity quantifies the non-stabilizerness of pure states, but it is hard to estimate because it requires optimizing over $2^{O(n^2)}$ stabilizer states for $n$ qubits. Here, we propose a self-guided estimation protocol for the stabilizer fidelity of an unknown state, pure or mixed, which requires only Pauli measurements on single copies. The protocol moves through the graph of neighboring stabilizer states, obtains the fidelities of a whole stabilizer basis from a single direct fidelity estimation, and reuses previous outcomes, which also provide a restart point that mitigates the barren plateau of a random start. In addition, it certifies the global optimum when the lower confidence bound of the estimated fidelity exceeds $\\cos^2(π/8)$. In numerical simulations of up to 14 qubits, the protocol reached the optimum in all runs, with the number of iterations remaining small and increasing only slightly with $n$.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.31186",
+  "pdf": "https://arxiv.org/pdf/2611.31186",
+  "html": "https://arxiv.org/html/2611.31186"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-11-24T18:09:10.262Z",
+  "hook": "The stabilizer fidelity quantifies the non-stabilizerness of pure states, but it is hard to estimate because it…",
+  "tldr": [
+   "Here, we propose a self-guided estimation protocol for the stabilizer fidelity of an unknown state, pure or mixed, which requires only Pauli measurements on…",
+   "In numerical simulations of up to 14 qubits, the protocol reached the optimum in all runs, with the number of iterations remaining small and increasing only…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 37
+ }
+}

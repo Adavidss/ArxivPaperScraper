@@ -1,0 +1,79 @@
+{
+ "id": "2611.33128",
+ "version": 1,
+ "title": "Classical algorithms for sparse random Hamiltonians via free probability",
+ "authors": [
+  {
+   "name": "Matthew Ding"
+  },
+  {
+   "name": "Robbie King"
+  },
+  {
+   "name": "Thomas Schuster"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.DS"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-24T18:52:30Z",
+ "updated": "2026-11-24T18:52:30Z",
+ "abstract": "The search for quantum advantage in average-case problems is a pressing open question in physics and computer science. The widest conjectured example of such an advantage is in simulation of quantum many-body systems, where sign problems and entanglement growth cause the breakdown of many classical methods. Nonetheless, theoretical evidence for or against such an advantage remains scarce. Here, we investigate this in sparse random non-local Hamiltonians. We design a classical algorithm for such Hamiltonians that enables accurate computation of spectral fluctuations, thermal values, and time-ordered and out-of-time-order correlation functions. For any subexponential precision $\\varepsilon$, our algorithm runs in time $(1/\\varepsilon)^{2+o(1)}$, nearly identical to a quantum simulation. Crucially, this applies even at late evolution times, low temperatures, and near critical points, where existing classical methods require exponential time. Rather than directly simulating a quantum state or operator, our algorithm first computes the model's mean behavior and then a short hierarchy of instance-dependent corrections. These corrections predict long-time behavior based on short-time data using free probability theory.",
+ "comment": "15+114 pages, 3+4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.33128",
+  "pdf": "https://arxiv.org/pdf/2611.33128",
+  "html": "https://arxiv.org/html/2611.33128"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.33128v1/figure1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-25T17:31:36.952Z",
+  "hook": "A new classical algorithm simulates complex quantum Hamiltonians in subexponential time, rivaling quantum computers.",
+  "tldr": [
+   "The authors developed a classical algorithm for sparse random Hamiltonians that avoids the usual exponential slowdown.",
+   "The method uses free probability theory to compute spectral fluctuations and correlation functions.",
+   "It achieves precision (1/ε)^(2+o(1)), matching the performance of quantum simulations even at late evolution times."
+  ],
+  "whyItMatters": "This challenges the assumption that quantum computers are strictly necessary for simulating many-body quantum systems, potentially narrowing the gap for 'quantum advantage'.",
+  "eli5": "Usually, simulating many quantum particles is so hard that even supercomputers give up. This paper found a clever shortcut: instead of tracking every single particle, they calculate the 'average behavior' and then add small, precise corrections to get the right answer quickly.",
+  "keyNumbers": [
+   {
+    "value": "(1/ε)^(2+o(1))",
+    "label": "Runtime complexity",
+    "context": "The time required for the algorithm to reach precision ε."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Hamiltonian",
+    "shortDef": "An operator representing the total energy of a quantum system.",
+    "eli5Def": "A mathematical rulebook that tells you how a quantum system will change over time.",
+    "wikiTitle": "Hamiltonian (quantum mechanics)"
+   },
+   {
+    "term": "Free probability",
+    "shortDef": "A branch of mathematics dealing with non-commuting random variables.",
+    "eli5Def": "A way to do statistics on things that don't follow the normal rules of addition.",
+    "wikiTitle": "Free probability"
+   },
+   {
+    "term": "Quantum advantage",
+    "shortDef": "The point where a quantum computer performs a task faster than any classical computer.",
+    "eli5Def": "When a quantum computer finally does something a regular computer can't do in a reasonable time.",
+    "wikiTitle": "Quantum supremacy"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 75
+ }
+}

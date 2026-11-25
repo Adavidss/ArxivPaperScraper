@@ -1,0 +1,66 @@
+{
+ "id": "2611.33112",
+ "version": 1,
+ "title": "Robust growth of $α$-tantalum on sapphire at room temperature using atomically thin titanium seed layer",
+ "authors": [
+  {
+   "name": "Anand Kamlapure"
+  },
+  {
+   "name": "Lucas Hak"
+  },
+  {
+   "name": "Kishore Kumar Thiyagarajan"
+  },
+  {
+   "name": "Hozanna Miro"
+  },
+  {
+   "name": "Marc Beekman"
+  },
+  {
+   "name": "Matvey Finkel"
+  },
+  {
+   "name": "Leonardo DiCarlo"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.mtrl-sci"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-24T18:44:13Z",
+ "updated": "2026-11-24T18:44:13Z",
+ "abstract": "Tantalum (Ta) based superconducting circuits have attracted attention for their low microwave loss. However, reproducible growth of high-quality $α$-phase Ta films remains challenging because film properties are highly sensitive to growth conditions. We present a robust, room-temperature route for $α$-Ta growth on sapphire substrates using an ultrathin Ti seed layer, which significantly widens the accessible deposition parameter space. We compare this approach to Ta films grown at high temperature without a seed layer and at room temperature with a Nb seed. We assess films using structural and surface characterization and quantify microwave loss with coplanar-waveguide (CPW) resonators measured in the quantum regime. We obtain two-level-system (TLS)-limited quality factors comparable to the state of the art for Ta-on-sapphire CPW resonators with similar geometries. In addition, temperature-dependent measurements reveal that high-temperature-grown films and films subjected to extended buffered-oxide etch treatment exhibit additional temperature activated loss, highlighting the role of growth route and post-processing in microwave performance. Our results establish ultrathin seed-layer engineering as a reliable alternative route to reproducible, low-loss $α$-Ta films and motivate closer study of the interfacial mechanisms that govern Ta phase formation.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.33112",
+  "pdf": "https://arxiv.org/pdf/2611.33112",
+  "html": "https://arxiv.org/html/2611.33112"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.33112v1/fig_1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "fallback",
+ "bite": {
+  "model": "extractive",
+  "generatedAt": "2026-11-25T17:31:36.952Z",
+  "hook": "Tantalum (Ta) based superconducting circuits have attracted attention for their low microwave loss.",
+  "tldr": [
+   "We present a robust, room-temperature route for $α$-Ta growth on sapphire substrates using an ultrathin Ti seed layer, which significantly widens the…",
+   "We obtain two-level-system (TLS)-limited quality factors comparable to the state of the art for Ta-on-sapphire CPW resonators with similar geometries.",
+   "In addition, temperature-dependent measurements reveal that high-temperature-grown films and films subjected to extended buffered-oxide etch treatment exhibit…"
+  ],
+  "whyItMatters": "",
+  "eli5": "",
+  "keyNumbers": [],
+  "glossary": [],
+  "difficulty": 3,
+  "readSeconds": 40
+ }
+}

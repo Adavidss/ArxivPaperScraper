@@ -1,0 +1,65 @@
+{
+ "id": "2611.33129",
+ "version": 1,
+ "title": "A Koashi--Imoto Criterion for Holevo-Rate Visible Compression",
+ "authors": [
+  {
+   "name": "Anthony M. Polloreno"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-24T18:52:33Z",
+ "updated": "2026-11-24T18:52:33Z",
+ "abstract": "For a finite memoryless quantum source whose encoder knows the sequence of classical labels, we determine when the Holevo rate is achievable with shared classical randomness and no shared entanglement. In the maximal Koashi--Imoto decomposition of the signal ensemble, this occurs exactly when each signal is pure on the quantum part of every sector it occupies. For qubits, this means that the signals are all pure or commute pairwise. If any occupied quantum part is mixed, every code with sufficiently small mean local error has rate bounded away from the Holevo information, uniformly in blocklength. To prove the converse, we apply Fawzi--Renner recovery to a hypothetical sequence of visible codes approaching the Holevo rate at vanishing local error, then invoke a decoupling bound of Baghali Khanian and Winter for blind compression.",
+ "comment": "7 pages, 2 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.33129",
+  "pdf": "https://arxiv.org/pdf/2611.33129",
+  "html": "https://arxiv.org/html/2611.33129"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-25T17:31:36.952Z",
+  "hook": "A new criterion determines exactly when quantum data can be compressed at the theoretical Holevo rate.",
+  "tldr": [
+   "The author identified the condition for achieving the Holevo rate in quantum source coding using shared classical randomness.",
+   "The condition requires that in the Koashi-Imoto decomposition, every signal must be pure on the quantum part of its sector.",
+   "If this condition isn't met, the code's rate is strictly bounded away from the Holevo information."
+  ],
+  "whyItMatters": "Understanding the limits of quantum data compression is essential for building efficient quantum networks and communication protocols.",
+  "eli5": "Think of trying to pack a suitcase as tightly as possible. This paper defines the exact 'shape' your items must have to fit perfectly into the smallest possible space. If your items are 'mixed' or messy, you simply cannot pack them as efficiently as the theoretical limit allows.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Holevo rate",
+    "shortDef": "The theoretical maximum amount of classical information that can be sent via quantum states.",
+    "eli5Def": "The absolute speed limit for how much data you can cram into a quantum message.",
+    "wikiTitle": "Holevo's theorem"
+   },
+   {
+    "term": "Koashi-Imoto decomposition",
+    "shortDef": "A mathematical way to break down a quantum state into distinct, manageable parts.",
+    "eli5Def": "Taking a complex object apart into simpler, independent pieces to see how it works.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Memoryless source",
+    "shortDef": "A data source where each piece of information is independent of the previous one.",
+    "eli5Def": "A source that doesn't remember what it sent a second ago; every message is a fresh start.",
+    "wikiTitle": "Memoryless system"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

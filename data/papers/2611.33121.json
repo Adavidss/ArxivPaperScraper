@@ -1,0 +1,65 @@
+{
+ "id": "2611.33121",
+ "version": 1,
+ "title": "Anomalies and the Berry Phase: From $π^0\\toγγ$ to the geometry of the fermion vacuum",
+ "authors": [
+  {
+   "name": "Spenta R. Wadia"
+  }
+ ],
+ "categories": [
+  "hep-th",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-th",
+ "published": "2026-11-24T18:49:43Z",
+ "updated": "2026-11-24T18:49:43Z",
+ "abstract": "We review the chiral anomaly from a historical perspective, from the $π^0\\toγγ$ puzzle and the work of Adler, Bell and Jackiw, to the Wess-Zumino-Witten (WZW) term. We then describe how the WZW term was motivated from quantum chromodynamics in 1983-85. Integrating out the non-Abelian gauge fields, that have a gapped spectrum, gives a Nambu-Jona-Lasinio type theory of quarks, and integrating out the quarks, which are gapped by chiral symmetry breaking, gives the WZW model. The fermion determinant splits into a regulator-dependent modulus, which gives the dynamics of mesons, and a universal phase, which is fixed by the anomaly and is the WZW term. Restricted to the collective coordinates of the baryon soliton, the WZW term imposes a U(1) constraint that makes the baryon wave functions monopole harmonics and fixes their spin, statistics and flavour multiplets. We then explain that this phase is a Berry phase: the Schwinger terms of current algebra are the curvature of a U(1) connection on the space of chiral field configurations, and the WZW term is its holonomy, which we call a Berry-Wilson loop. In 1+1 dimensions we write the connection explicitly in terms of Euler angles, exhibiting a Dirac monopole whose quantised charge is the level of the current algebra.",
+ "comment": "17 Pages",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.33121",
+  "pdf": "https://arxiv.org/pdf/2611.33121",
+  "html": "https://arxiv.org/html/2611.33121"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-3.1-flash-lite",
+  "generatedAt": "2026-11-25T17:31:36.952Z",
+  "hook": "The chiral anomaly is reinterpreted as a 'Berry-Wilson loop,' linking particle physics to geometric phase shifts.",
+  "tldr": [
+   "The author reviews the history of the chiral anomaly from the pion decay puzzle to the Wess-Zumino-Witten (WZW) model.",
+   "They show that the WZW term acts as a Berry phase, representing the curvature of a connection in field space.",
+   "In 1+1 dimensions, this connection is explicitly linked to a Dirac monopole, fixing the properties of baryon wave functions."
+  ],
+  "whyItMatters": "This provides a deeper geometric understanding of how fundamental particles like protons and neutrons get their properties, bridging abstract math and physical reality.",
+  "eli5": "Imagine walking in a circle on a sphere. When you return to the start, you might be facing a different direction than when you began. This paper shows that fundamental particles experience a similar 'geometric twist' when they move through space, which explains why they behave the way they do.",
+  "keyNumbers": [],
+  "glossary": [
+   {
+    "term": "Chiral anomaly",
+    "shortDef": "A quantum effect where a classical symmetry is broken by quantum corrections.",
+    "eli5Def": "When a rule that should be true in physics is broken because of quantum weirdness.",
+    "wikiTitle": "Chiral anomaly"
+   },
+   {
+    "term": "Berry phase",
+    "shortDef": "A geometric phase acquired over a cycle of parameter changes.",
+    "eli5Def": "A 'leftover' shift you get after moving through a cycle in a complex system.",
+    "wikiTitle": "Geometric phase"
+   },
+   {
+    "term": "Wess-Zumino-Witten model",
+    "shortDef": "A specific type of quantum field theory used to describe low-energy particle interactions.",
+    "eli5Def": "A mathematical model that helps physicists describe how particles interact at low energies.",
+    "wikiTitle": "Wess–Zumino–Witten model"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 90
+ }
+}

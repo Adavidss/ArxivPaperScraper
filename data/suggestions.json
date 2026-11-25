@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T18:09:10.262Z",
+ "generatedAt": "2026-11-25T17:31:36.952Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -143,26 +143,6 @@
    "paperCount": 4
   },
   {
-   "name": "Xin Wang",
-   "slug": "xin-wang",
-   "score": 4,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph"
-   ],
-   "paperIds": [
-    "2609.38134",
-    "2609.30268",
-    "2609.17465"
-   ],
-   "recentTitles": [
-    "Resource Compatibility in Optimal Quantum Symmetry Testing",
-    "Quantum Channel Stein Theorem beyond Definite Causal Order"
-   ],
-   "paperCount": 4
-  },
-  {
    "name": "Manas Sajjan",
    "slug": "manas-sajjan",
    "score": 4,
@@ -199,6 +179,26 @@
     "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Networks"
    ],
    "paperCount": 2
+  },
+  {
+   "name": "Susanne F. Yelin",
+   "slug": "susanne-f-yelin",
+   "score": 3,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph"
+   ],
+   "paperIds": [
+    "2611.26447",
+    "2610.37665",
+    "2610.22367"
+   ],
+   "recentTitles": [
+    "Scaling classical hardware for accurate real-time quantum error correction",
+    "Exact Analytical Treatment of Collectively Pumped Dicke Superradiance"
+   ],
+   "paperCount": 3
   }
  ]
 }

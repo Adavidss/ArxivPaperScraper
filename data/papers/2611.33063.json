@@ -36,21 +36,51 @@
   "url": "https://arxiv.org/html/2611.33063v1/alpha_contours_g.png"
  },
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-11-25T17:31:36.952Z",
-  "hook": "Near the superradiant phase transition of the Dicke model, the lowest-frequency excitation softens and its losses can…",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "We develop a finite-temperature theory of superradiant criticality in an open Dicke model.",
   "tldr": [
-   "We develop a finite-temperature theory of this transition in the open system, with no restriction on the strength of the system-bath coupling.",
-   "The cavity mode and the atomic ensemble are coupled to independent reservoirs, the first at zero temperature and the second at temperature $T$, and we assume…",
-   "We also identify conditions under which the system behaves, at specific frequencies, as both a perfect absorber and a perfect emitter."
+   "We developed a finite-temperature theory of the superradiant phase transition in an open system without assuming weak system-bath coupling.",
+   "We coupled the cavity mode and atomic ensemble to independent reservoirs and analyzed how thermal effects and spectral densities alter coupling and damping.",
+   "We calculated reflection and thermal emission spectra for normal and superradiant phases and identified conditions for perfect absorption and emission."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 43
+  "whyItMatters": "Understanding how light and matter interact at finite temperatures near phase transitions helps us design better quantum devices, absorbers, and emitters.",
+  "eli5": "Think of a massive crowd of people whispering in a room until they suddenly start chanting in perfect unison. This paper figures out how adding heat changes the exact moment that sudden synchronization happens.",
+  "keyNumbers": [
+   {
+    "value": "19",
+    "label": "pages",
+    "context": "Length of the research paper."
+   },
+   {
+    "value": "7",
+    "label": "figures",
+    "context": "Number of illustrations included in the paper."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "superradiant",
+    "shortDef": "A phenomenon where a collection of emitters interacts collectively with a light field to radiate intensely.",
+    "eli5Def": "When a bunch of glowing atoms suddenly team up to shine much brighter together than they ever could alone.",
+    "wikiTitle": "Superradiance"
+   },
+   {
+    "term": "Dicke model",
+    "shortDef": "A theoretical model describing atoms interacting with a single light mode in an optical cavity.",
+    "eli5Def": "A mathematical playground used by physicists to study how light and matter talk to each other inside a mirrored box.",
+    "wikiTitle": "Dicke model"
+   },
+   {
+    "term": "polariton",
+    "shortDef": "A quasiparticle resulting from strong coupling of light with an electric dipole excitation.",
+    "eli5Def": "A half-light, half-matter hybrid particle created when a photon and an atom get deeply entangled.",
+    "wikiTitle": "Polariton"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
  }
 }

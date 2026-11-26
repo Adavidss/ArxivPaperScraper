@@ -1,0 +1,83 @@
+{
+ "id": "2611.34916",
+ "version": 1,
+ "title": "Complementary mechanisms of critical quantum metrology",
+ "authors": [
+  {
+   "name": "Nikita Leppenen"
+  },
+  {
+   "name": "Shaked Levy"
+  },
+  {
+   "name": "Ephraim Shahmoon"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-25T18:57:52Z",
+ "updated": "2026-11-25T18:57:52Z",
+ "abstract": "Critical metrology conventionally exploits enhanced susceptibility to a system parameter near a phase transition. Here we identify a complementary mechanism for critically enhanced estimation of intrinsic system parameters via suppressed quantum noise rather than enhanced response. We demonstrate both mechanisms in coherently radiating spin states (CRSS)-correlated states of $N$ spin-$1/2$ particles defined as asymptotic eigenstates of the collective-spin lowering operator with complex eigenvalue $r e^{-i\\varphi}$. At the critical value $r=1$, CRSS exhibit a second-order transition. We show that near criticality, estimation of $r$ benefits from enhanced susceptibility despite increased noise, whereas estimation of $\\varphi$ benefits from suppressed quantum noise without enhanced response. Remarkably, both yield the same estimation error $\\sim N^{-2/3}$, improving over the standard quantum limit $N^{-1/2}$. For $\\varphi$, this establishes quantum-enhanced metrology of phases intrinsic to the critical system, rather than phases externally encoded by interferometry. We demonstrate these results for CRSS realizations in both dissipative (superradiant) and Hamiltonian (Ising) systems relevant to cavity QED and trapped ions, where fast preparation of CRSS is shown possible thanks to gap opening. Applications to metrology of coupling rates and phases or optical lengths are discussed.",
+ "comment": "9 pages, 5 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.34916",
+  "pdf": "https://arxiv.org/pdf/2611.34916",
+  "html": "https://arxiv.org/html/2611.34916"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.34916v1/fig1.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "We identify a mechanism for critical quantum metrology using suppressed quantum noise rather than enhanced response.",
+  "tldr": [
+   "Investigated coherently radiating spin states (CRSS) of N spin-1/2 particles near a second-order critical transition.",
+   "Analyzed parameter estimation strategies near the critical value r=1 for both dissipation and Hamiltonian systems.",
+   "Found that estimating phase yields an estimation error scaling as N^(-2/3), improving over the standard quantum limit N^(-1/2)."
+  ],
+  "whyItMatters": "Better precision in quantum measurements without needing massive energy boosts helps build ultra-sensitive sensors, atomic clocks, and optical devices.",
+  "eli5": "Usually, to measure things very precisely, you need to shout louder and react more strongly. This paper shows you can get super-accurate measurements simply by wearing noise-canceling headphones to quiet down the universe's random static.",
+  "keyNumbers": [
+   {
+    "value": "-2/3",
+    "label": "Scaling exponent",
+    "context": "Both mechanisms yield the same estimation error scaling as N^{-2/3}."
+   },
+   {
+    "value": "-1/2",
+    "label": "Standard limit",
+    "context": "The N^{-2/3} scaling improves over the standard quantum limit N^{-1/2}."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum metrology",
+    "shortDef": "The science of using quantum mechanics to make ultra-precise measurements.",
+    "eli5Def": "Building super-sensitive rulers and clocks using quantum tricks.",
+    "wikiTitle": "Quantum metrology"
+   },
+   {
+    "term": "Phase transition",
+    "shortDef": "A sudden qualitative change in a system's state as a parameter is varied.",
+    "eli5Def": "When ice suddenly melts into water, or a system dramatically shifts its behavior at a tipping point.",
+    "wikiTitle": "Phase transition"
+   },
+   {
+    "term": "Cavity QED",
+    "shortDef": "The study of light-matter interaction inside a reflective optical container.",
+    "eli5Def": "Trapping light bouncing between two mirrors so it strongly interacts with individual atoms.",
+    "wikiTitle": "Cavity quantum electrodynamics"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T17:31:36.952Z",
+ "generatedAt": "2026-11-26T17:14:17.957Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -20,27 +20,6 @@
     "Symmetry-Controlled Quantum State Transfer in Poly-bi-[8]-annulenylene: From Heisenberg to Hubbard Dynamics"
    ],
    "paperCount": 8
-  },
-  {
-   "name": "Jong Yeon Lee",
-   "slug": "jong-yeon-lee",
-   "score": 5,
-   "coAuthoredWith": [],
-   "viaKeywords": [],
-   "viaCategories": [
-    "quant-ph",
-    "cond-mat.stat-mech"
-   ],
-   "paperIds": [
-    "2611.26626",
-    "2610.40651",
-    "2610.22357"
-   ],
-   "recentTitles": [
-    "High-temperature Gibbs states are uniformly Markovian and trivial",
-    "Renormalization for Robust Memory without Synchronization"
-   ],
-   "paperCount": 5
   },
   {
    "name": "Li Gao",
@@ -121,6 +100,27 @@
     "Low-Field J-Coupling Spectroscopy Measured with a Diamond Nitrogen Vacancy Spectrometer"
    ],
    "paperCount": 1
+  },
+  {
+   "name": "Jong Yeon Lee",
+   "slug": "jong-yeon-lee",
+   "score": 4,
+   "coAuthoredWith": [],
+   "viaKeywords": [],
+   "viaCategories": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+   ],
+   "paperIds": [
+    "2611.26626",
+    "2610.40651",
+    "2610.22357"
+   ],
+   "recentTitles": [
+    "High-temperature Gibbs states are uniformly Markovian and trivial",
+    "Renormalization for Robust Memory without Synchronization"
+   ],
+   "paperCount": 4
   },
   {
    "name": "Matteo Fadel",

@@ -1,0 +1,89 @@
+{
+ "id": "2611.34891",
+ "version": 1,
+ "title": "Neural Network Decoders For Qubit Loss",
+ "authors": [
+  {
+   "name": "J. Wilson Staples"
+  },
+  {
+   "name": "Winston Fu"
+  },
+  {
+   "name": "Yihe Dong"
+  },
+  {
+   "name": "Jeff D. Thompson"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-25T18:47:12Z",
+ "updated": "2026-11-25T18:47:12Z",
+ "abstract": "Qubit loss is a significant source of error in many quantum hardware platforms, requiring circuits that periodically replace or reset qubits to maintain fault-tolerance. When the reset process includes loss-resolving measurements, this information can improve decoding and substantially reduce overhead compared to the case where this information is not available. Prior work has demonstrated loss-tolerant circuits for the surface code that show significantly improved thresholds and subthreshold scaling by incorporating loss information. However, the computational complexity of loss simulation and decoding, which falls outside of the usual stabilizer framework, has limited extending these studies to high-rate qLDPC codes, which are already challenging to decode in the absence of loss. In this work, we present a loss-aware convolutional neural-network (CNN) decoder framework that circumvents this challenge. Training is enabled by a novel sampler, \\texttt{slim}, which achieves a throughput for circuits with Pauli noise and loss that is comparable to the state-of-the-art for pure Pauli noise. On the surface code with loss, the decoder matches the accuracy of computationally expensive most-likely error (MLE) decoders at much lower latency. For the $[[144,12,12]]$ bivariate bicycle (Gross) code, we study a walking syndrome extraction circuit with Pauli and loss errors. For physical error rates $p<1\\%$, we observe a more than $10^3$-fold lower logical error rate for a pure loss model, relative to a pure Pauli error model at the same physical error rate, along with significantly enhanced sub-threshold error rate scaling. This demonstrates that loss-dominated error models can also significantly improve performance in a high-rate qLDPC code, and provides a simulation and decoder training platform that can be extended to other codes and algorithmic gadgets.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.34891",
+  "pdf": "https://arxiv.org/pdf/2611.34891",
+  "html": "https://arxiv.org/html/2611.34891"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "A new loss-aware CNN decoder achieves a 10^3-fold lower logical error rate for pure loss models in qLDPC codes.",
+  "tldr": [
+   "Developed a loss-aware convolutional neural-network decoder framework for quantum error correction.",
+   "Used a novel sampler called slim to enable efficient training with Pauli noise and loss.",
+   "Demonstrated drastically lower logical error rates and enhanced sub-threshold scaling in high-rate qLDPC codes."
+  ],
+  "whyItMatters": "Quantum computers lose fragile qubits constantly, and fixing this efficiently is a massive hurdle for building scalable quantum machines.",
+  "eli5": "Quantum computers are like fragile towers of cards where pieces keep vanishing. Researchers built a smart computer program that spots these missing pieces much faster so the machine keeps working.",
+  "keyNumbers": [
+   {
+    "value": "144,12,12",
+    "label": "Code parameters",
+    "context": "Parameters for the bivariate bicycle Gross code"
+   },
+   {
+    "value": "1%",
+    "label": "Physical error rate",
+    "context": "Threshold below which dramatic error reductions were observed"
+   },
+   {
+    "value": "10^3",
+    "label": "Lower error rate",
+    "context": "Improvement factor for pure loss model relative to Pauli model"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Qubit",
+    "shortDef": "The basic unit of quantum information, analogous to a classical computer bit.",
+    "eli5Def": "A quantum coin that can be heads, tails, or spinning as both at once.",
+    "wikiTitle": "Qubit"
+   },
+   {
+    "term": "Surface code",
+    "shortDef": "A leading topological quantum error-correcting code.",
+    "eli5Def": "A grid layout of qubits that helps catch errors by checking neighbors.",
+    "wikiTitle": "Surface code"
+   },
+   {
+    "term": "Convolutional neural network",
+    "shortDef": "A class of deep neural networks commonly used for analyzing visual imagery.",
+    "eli5Def": "A computer brain specialized in finding patterns in grids of data like images.",
+    "wikiTitle": "Convolutional neural network"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
+ }
+}

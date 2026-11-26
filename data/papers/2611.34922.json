@@ -1,0 +1,73 @@
+{
+ "id": "2611.34922",
+ "version": 1,
+ "title": "Vacuum correlation measures as CFT partition functions",
+ "authors": [
+  {
+   "name": "Hewei Frederic Jia"
+  }
+ ],
+ "categories": [
+  "hep-th",
+  "cond-mat.stat-mech",
+  "math-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "hep-th",
+ "published": "2026-11-25T18:58:51Z",
+ "updated": "2026-11-25T18:58:51Z",
+ "abstract": "We show that in any $d$-dimensional CFT, the vacuum sandwiched Rényi mutual information (SRMI) of integer order $n$ between two disjoint balls maps to a CFT partition function on a manifold of topology $\\#^{n-1}(S^1 \\times S^{d-1})$, with moduli fixed by the ball configuration and single-ball modular flow. At $n=2$, it is given by the thermal partition function on $S^{d-1}$, upper-bounding the von Neumann mutual information. For $n>2$, SRMI diverges at finite separation due to a hot-spot limit of the partition function. Explicit CFT evaluations agree well with density matrix computations.",
+ "comment": "7 pages, 4 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.34922",
+  "pdf": "https://arxiv.org/pdf/2611.34922",
+  "html": "https://arxiv.org/html/2611.34922"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "We map vacuum Rényi mutual information between disjoint balls to a CFT partition function on a complex manifold.",
+  "tldr": [
+   "Studied vacuum sandwiched Rényi mutual information (SRMI) of integer order n between two disjoint balls in any d-dimensional CFT.",
+   "Mapped the SRMI mathematically to a conformal field theory partition function on a specific multi-sheeted manifold topology.",
+   "Found that at n=2 it equals a thermal partition function, while for n>2 it diverges at finite separation due to a hot-spot limit."
+  ],
+  "whyItMatters": "Connecting quantum information measures like Rényi mutual information to geometric partition functions gives physicists new mathematical tools to probe the structure of quantum field theories and spacetime.",
+  "eli5": "Imagine trying to measure how much two separate regions in a quantum sea share information. The author found a neat mathematical trick: instead of calculating the messy information directly, you can calculate the heat and energy flowing on a bizarre, multi-layered geometric donut.",
+  "keyNumbers": [
+   {
+    "value": "2",
+    "label": "n value",
+    "context": "At n=2, the SRMI is given by the thermal partition function on S^{d-1}."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Conformal Field Theory",
+    "shortDef": "A quantum field theory that looks the same at any scale, preserving angles.",
+    "eli5Def": "A physics rulebook for fields that looks identical whether you zoom in or zoom out, like looking at a fractal.",
+    "wikiTitle": "Conformal field theory"
+   },
+   {
+    "term": "Rényi mutual information",
+    "shortDef": "A generalized measure of how much information two subsystems share.",
+    "eli5Def": "A mathematical score of how much secret communication two separate quantum regions share.",
+    "wikiTitle": "Rényi entropy"
+   },
+   {
+    "term": "Partition function",
+    "shortDef": "A mathematical sum that encodes all the statistical properties of a system.",
+    "eli5Def": "A master equation that adds up all possible states a system can be in to figure out its overall behavior.",
+    "wikiTitle": "Partition function (statistical mechanics)"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 45
+ }
+}

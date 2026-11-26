@@ -1,0 +1,84 @@
+{
+ "id": "2611.34895",
+ "version": 1,
+ "title": "Schrödinger's Legacy: The Wave Function and Quantum Reality",
+ "authors": [
+  {
+   "name": "Davide Romano"
+  },
+  {
+   "name": "Massimiliano Badino"
+  }
+ ],
+ "categories": [
+  "physics.hist-ph",
+  "quant-ph"
+ ],
+ "primaryCategory": "physics.hist-ph",
+ "published": "2026-11-25T18:48:14Z",
+ "updated": "2026-11-25T18:48:14Z",
+ "abstract": "The article discusses how Schrödinger arrived at the formulation of wave mechanics and his legacy on the philosophy of quantum mechanics, focusing in particular on the metaphysics of the wave function. Schrödinger's interpretation of the wave function as electron charge density is generally dismissed or presented only as a curious historical example in the literature. On a closer look, however, while this interpretation was eventually abandoned in favor of Born's statistical interpretation, Schrödinger's idea survived in modern realist approaches to the wave function, such as the mass-density approach and the multi-field interpretation. It also proved to be of great utility in modern techniques and approximations in quantum chemistry to compute the shape of atoms and molecules. Overall, Schrödinger's interpretation of the wave function and his realist understanding of quantum mechanics paved the way to modern attempts to define a clear ontology of the microscopic world, a tradition that survived the Copenhagen interpretation of Bohr and Heisenberg and that is still present today.",
+ "comment": "27 pages, 1 figure, 1 table. Forthcoming in R. Arroyo and M. Morganti (eds.), Quantum Dilemmas: Philosophical Issues in Quantum Theory after One Century, Springer",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.34895",
+  "pdf": "https://arxiv.org/pdf/2611.34895",
+  "html": "https://arxiv.org/html/2611.34895"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "Schrödinger's abandoned electron charge density idea actually survived in modern realist quantum approaches.",
+  "tldr": [
+   "Investigated the history of Schrödinger's wave mechanics and his metaphysics of the wave function.",
+   "Analyzed how his early electron charge density interpretation compares to Born's statistical view.",
+   "Found that Schrödinger's ideas survived in modern realist approaches and quantum chemistry approximations."
+  ],
+  "whyItMatters": "Understanding the philosophical roots of quantum mechanics helps clarify how physicists today think about what microscopic reality is actually made of.",
+  "eli5": "Imagine trying to figure out if a ghost is a solid cloud or just a random chance of appearing. Even though scientists mostly chose the chance version, parts of the solid cloud idea are still used today to calculate how atoms look.",
+  "keyNumbers": [
+   {
+    "value": "27",
+    "label": "Pages",
+    "context": "Length of the article manuscript"
+   },
+   {
+    "value": "1",
+    "label": "Figure",
+    "context": "Included in the publication"
+   },
+   {
+    "value": "1",
+    "label": "Table",
+    "context": "Included in the publication"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Wave function",
+    "shortDef": "A mathematical description of the quantum state of a system.",
+    "eli5Def": "A math recipe that describes all the possible places a tiny particle might be.",
+    "wikiTitle": "Wave function"
+   },
+   {
+    "term": "Metaphysics",
+    "shortDef": "The branch of philosophy that examines the fundamental nature of reality.",
+    "eli5Def": "Asking deep questions about what is actually real behind what we can see.",
+    "wikiTitle": "Metaphysics"
+   },
+   {
+    "term": "Copenhagen interpretation",
+    "shortDef": "A standard interpretation of quantum mechanics developed by Bohr and Heisenberg.",
+    "eli5Def": "The traditional rulebook saying particles don't have definite states until you look at them.",
+    "wikiTitle": "Copenhagen interpretation"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 45
+ }
+}

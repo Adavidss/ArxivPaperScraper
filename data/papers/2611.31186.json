@@ -31,20 +31,46 @@
  "matchedKeywords": [],
  "figure": null,
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-11-24T18:09:10.262Z",
-  "hook": "The stabilizer fidelity quantifies the non-stabilizerness of pure states, but it is hard to estimate because it…",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "A new self-guided protocol estimates stabilizer fidelity using only single-copy Pauli measurements on up to 14 qubits.",
   "tldr": [
-   "Here, we propose a self-guided estimation protocol for the stabilizer fidelity of an unknown state, pure or mixed, which requires only Pauli measurements on…",
-   "In numerical simulations of up to 14 qubits, the protocol reached the optimum in all runs, with the number of iterations remaining small and increasing only…"
+   "Proposed a self-guided protocol to estimate the stabilizer fidelity of unknown quantum states.",
+   "Used only single-copy Pauli measurements and moved through a graph of neighboring stabilizer states.",
+   "Reached the global optimum in all numerical simulations of up to 14 qubits with few iterations."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 37
+  "whyItMatters": "Measuring the non-stabilizerness of a quantum state is notoriously hard because it requires checking massive numbers of states. This protocol makes measuring quantum complexity practical and efficient.",
+  "eli5": "Checking how 'quantum' a complex state is usually requires testing an impossible number of combinations. This paper introduces a smart hiking algorithm that explores neighboring states step-by-step until it finds the peak, avoiding getting stuck in flat areas.",
+  "keyNumbers": [
+   {
+    "value": "14",
+    "label": "Qubits tested",
+    "context": "Numerical simulations tested systems of up to 14 qubits."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Stabilizer fidelity",
+    "shortDef": "A measure of the non-stabilizerness or quantum magic of a quantum state.",
+    "eli5Def": "A score that tells you how hard a quantum state is to simulate on a normal computer.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Pauli measurements",
+    "shortDef": "Standard quantum measurements corresponding to Pauli matrices.",
+    "eli5Def": "The basic knobs you twist to measure a qubit along the X, Y, or Z axis.",
+    "wikiTitle": "Pauli matrices"
+   },
+   {
+    "term": "Barren plateau",
+    "shortDef": "A flat optimization landscape where gradients vanish exponentially.",
+    "eli5Def": "A desert-like landscape where your algorithm has no clue which way is uphill because everywhere is flat.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
  }
 }

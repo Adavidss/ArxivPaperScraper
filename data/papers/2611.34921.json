@@ -1,0 +1,78 @@
+{
+ "id": "2611.34921",
+ "version": 1,
+ "title": "Bound Entanglement with Negative Partial Transpose Exists",
+ "authors": [
+  {
+   "name": "Islam Faisal"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.other",
+  "cs.CC",
+  "cs.IT"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-25T18:58:48Z",
+ "updated": "2026-11-25T18:58:48Z",
+ "abstract": "We show that the Werner state $ρ= (23 I - 3\\,\\mathrm{SWAP})/1448$ on $\\mathbb{C}^8 \\otimes \\mathbb{C}^8$ has a negative partial transpose and is bound entangled: no LOCC protocol can distill entanglement from any number of copies of $ρ$, and even with separable operations the fidelity of a two-qubit output with a Bell state never exceeds $(1+\\sqrt{2})/4 \\approx 0.604$. It follows that distillable entanglement is neither additive nor convex.",
+ "comment": "Initial version",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.34921",
+  "pdf": "https://arxiv.org/pdf/2611.34921",
+  "html": "https://arxiv.org/html/2611.34921"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "Proved that a specific Werner state in C^8 tensor C^8 is bound entangled with a negative partial transpose.",
+  "tldr": [
+   "Analyzed a specific Werner state defined on an 8-by-8 complex vector space.",
+   "Tested its entanglement properties using partial transpose and local operations with classical communication (LOCC).",
+   "Found it is bound entangled with a negative partial transpose, proving distillable entanglement is neither additive nor convex."
+  ],
+  "whyItMatters": "This resolves fundamental mathematical questions about the nature of quantum entanglement, showing that some types of locked quantum correlations cannot be neatly broken down or added together.",
+  "eli5": "Think of quantum entanglement like locked puzzle boxes. The author found a specific box that is glued shut in such a weird way that you can prove the pieces are linked, but you can never actually pull a clean, usable piece out of it.",
+  "keyNumbers": [
+   {
+    "value": "1448",
+    "label": "Denominator",
+    "context": "The Werner state rho is defined with a denominator of 1448."
+   },
+   {
+    "value": "0.604",
+    "label": "Max Fidelity",
+    "context": "The fidelity of a two-qubit output with a Bell state never exceeds approximately 0.604."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Werner state",
+    "shortDef": "A specific family of mixed quantum states invariant under joint unitary operations.",
+    "eli5Def": "A classic standard recipe used by quantum physicists to test weird mixtures of particles.",
+    "wikiTitle": "Werner state"
+   },
+   {
+    "term": "Bound entanglement",
+    "shortDef": "Entanglement that cannot be turned into free, usable Bell pairs using local operations.",
+    "eli5Def": "A tangled connection between particles that is trapped; you can prove it's there, but you can't use it to teleport anything.",
+    "wikiTitle": "Bound entanglement"
+   },
+   {
+    "term": "Partial transpose",
+    "shortDef": "A mathematical operation that flips part of a density matrix to test for entanglement.",
+    "eli5Def": "Flipping half of a math grid upside down to see if the equations break, which reveals if particles are quantum-linked.",
+    "wikiTitle": "Peres–Horodecki criterion"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
+ }
+}

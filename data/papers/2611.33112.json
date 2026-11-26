@@ -46,21 +46,40 @@
   "url": "https://arxiv.org/html/2611.33112v1/fig_1.png"
  },
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-11-25T17:31:36.952Z",
-  "hook": "Tantalum (Ta) based superconducting circuits have attracted attention for their low microwave loss.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "Grow high-quality alpha-tantalum films at room temperature using an atomically thin titanium seed layer.",
   "tldr": [
-   "We present a robust, room-temperature route for $α$-Ta growth on sapphire substrates using an ultrathin Ti seed layer, which significantly widens the…",
-   "We obtain two-level-system (TLS)-limited quality factors comparable to the state of the art for Ta-on-sapphire CPW resonators with similar geometries.",
-   "In addition, temperature-dependent measurements reveal that high-temperature-grown films and films subjected to extended buffered-oxide etch treatment exhibit…"
+   "We developed a robust, room-temperature growth method for alpha-tantalum films on sapphire substrates using an ultrathin titanium seed layer.",
+   "We compared this approach against high-temperature growth without a seed and room-temperature growth with a niobium seed using structural characterization and microwave loss measurements.",
+   "We obtained two-level-system-limited quality factors comparable to the state of the art for tantalum-on-sapphire coplanar-waveguide resonators."
   ],
-  "whyItMatters": "",
-  "eli5": "",
+  "whyItMatters": "Tantalum-based superconducting circuits are vital for quantum computing due to their low microwave loss, but making them reproducibly has historically been very difficult.",
+  "eli5": "Imagine trying to build a house of cards on a slippery glass table; it falls apart easily. The researchers added a microscopic sticky tape layer underneath so the cards stay put and stable at normal room temperatures.",
   "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 40
+  "glossary": [
+   {
+    "term": "alpha-tantalum",
+    "shortDef": "The desirable crystalline phase of tantalum used for low-loss superconducting circuits.",
+    "eli5Def": "A specific ordered arrangement of tantalum atoms that helps electricity flow without losing energy.",
+    "wikiTitle": "Tantalum"
+   },
+   {
+    "term": "coplanar-waveguide resonators",
+    "shortDef": "Devices used to test and quantify microwave loss in superconducting thin films.",
+    "eli5Def": "Special metal tracks on a chip that trap and bounce microwaves back and forth to test how well the material performs.",
+    "wikiTitle": "Coplanar waveguide"
+   },
+   {
+    "term": "two-level-system",
+    "shortDef": "A quantum system with two energy states that causes microwave loss in superconducting devices.",
+    "eli5Def": "Microscopic defects that trap microwave energy like tiny energy sponges, making the quantum circuit less efficient.",
+    "wikiTitle": "Two-level system"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 45
  }
 }

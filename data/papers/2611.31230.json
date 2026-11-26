@@ -29,21 +29,56 @@
  "matchedKeywords": [],
  "figure": null,
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-11-24T18:09:10.262Z",
-  "hook": "Recent sensing experiments have used a Bayesian notion of precision gain to adapt control parameters for fixed…",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "Adaptive phase estimation achieves a 32% maximum reduction in mean posterior variance over standard homodyne detection.",
   "tldr": [
-   "Recent sensing experiments have used a Bayesian notion of precision gain to adapt control parameters for fixed measurements.",
-   "Here, we advocate a simple design principle based on Personick's minimum mean square loss formalism to extend this procedure in order to include measurement…",
-   "Our results illustrate the potential of simple Bayesian design for quantum metrology with limited data when measurement bases can be controlled."
+   "Designed a simple adaptive protocol for quantum metrology based on Personick's minimum mean square loss.",
+   "Applied the Bayesian design principle to adaptive phase estimation with single-mode Gaussian probes.",
+   "Demonstrated that joint optimization outperforms adaptive homodyne detection and fixed-probe strategies."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 41
+  "whyItMatters": "Better precision in quantum measurement is critical for building ultra-accurate sensors, clocks, and navigation tools.",
+  "eli5": "If you are trying to guess the weight of a tiny object on a scale, constantly adjusting how you measure based on your last guess helps you get the right answer much faster.",
+  "keyNumbers": [
+   {
+    "value": "32%",
+    "label": "Reduction",
+    "context": "Maximum reduction in mean posterior variance relative to homodyne detection"
+   },
+   {
+    "value": "8",
+    "label": "Pages",
+    "context": "Length of the paper manuscript"
+   },
+   {
+    "value": "1",
+    "label": "Figure",
+    "context": "Included in the paper"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum metrology",
+    "shortDef": "The field of using quantum mechanics to enhance precision measurements.",
+    "eli5Def": "Using quantum tricks to build super-accurate rulers and clocks.",
+    "wikiTitle": "Quantum metrology"
+   },
+   {
+    "term": "Bayesian",
+    "shortDef": "A statistical approach where probabilities are updated as new evidence becomes available.",
+    "eli5Def": "Updating your guess whenever you learn a new clue.",
+    "wikiTitle": "Bayesian statistics"
+   },
+   {
+    "term": "Homodyne detection",
+    "shortDef": "An optical measurement technique used to measure a signal wave against a local oscillator.",
+    "eli5Def": "Comparing a faint light wave with a steady reference beam to measure it.",
+    "wikiTitle": "Homodyne detection"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 40
  }
 }

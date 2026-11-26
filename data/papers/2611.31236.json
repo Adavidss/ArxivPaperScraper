@@ -26,20 +26,61 @@
  "matchedKeywords": [],
  "figure": null,
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-11-24T18:09:10.262Z",
-  "hook": "Quantum interactive proof systems can be parallelized to three messages, as shown by Kitaev and Watrous (STOC 2000),…",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "Any quantum interactive proof system can be parallelized to just two messages.",
   "tldr": [
-   "\\] Our main technical contributions show that Close Image to Uniform (CIUniform), which is naturally in the stoquastic version of ${\\rm qq}\\text{-}{\\sf QAM}$,…",
-   "In this work, we establish that any quantum interactive proof system can further be parallelized to two messages, with the verifier sending halves of EPR…"
+   "Studied the parallelization limits of quantum interactive proof systems.",
+   "Proved that two messages suffice by using quantum public coins and stoquastic verification.",
+   "Established that qq-StoqAM equals PSPACE and fully characterized two-message quantum interactive proofs."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 36
+  "whyItMatters": "Simplifying how quantum systems verify proofs deepens our fundamental understanding of computational complexity and limits.",
+  "eli5": "Proving that a math answer is correct usually takes a long conversation back and forth. This paper shows you can shrink the whole chat down to just two quick exchanges.",
+  "keyNumbers": [
+   {
+    "value": "2",
+    "label": "Messages",
+    "context": "Number of messages sufficient for quantum interactive proof systems"
+   },
+   {
+    "value": "3",
+    "label": "Messages",
+    "context": "Previous parallelization limit shown by Kitaev and Watrous"
+   },
+   {
+    "value": "2000",
+    "label": "Year",
+    "context": "Publication year of the prior STOC result by Kitaev and Watrous"
+   },
+   {
+    "value": "2011",
+    "label": "Year",
+    "context": "Publication year of the QIP=PSPACE result by Jain et al."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Interactive proof system",
+    "shortDef": "A formal model of computation where a verifier interacts with a prover to verify a claim.",
+    "eli5Def": "A game where a skeptical teacher quizzes a student to see if they actually know an answer.",
+    "wikiTitle": "Interactive proof system"
+   },
+   {
+    "term": "PSPACE",
+    "shortDef": "The complexity class of problems solvable by a Turing machine using a polynomial amount of space.",
+    "eli5Def": "A category of extremely tough puzzle problems that take up a lot of memory to solve.",
+    "wikiTitle": "PSPACE"
+   },
+   {
+    "term": "EPR pairs",
+    "shortDef": "Pairs of qubits that are maximally entangled.",
+    "eli5Def": "Two magic dice linked together so whatever one rolls, the other instantly matches.",
+    "wikiTitle": "Quantum entanglement"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 55
  }
 }

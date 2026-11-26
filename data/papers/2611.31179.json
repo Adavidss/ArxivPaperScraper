@@ -33,21 +33,46 @@
   "url": "https://arxiv.org/html/2611.31179v1/publication_Representative_2d_Plot.png"
  },
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-11-24T18:09:10.262Z",
-  "hook": "We investigate the relationship between the Floquet spectrum and the sensitivity of the entanglement landscape to…",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "Prominent sensitivity maxima in quantum kicked tops coincide with Floquet eigenphase degeneracies or short-period revivals.",
   "tldr": [
-   "We find that prominent sensitivity maxima coincide with either Floquet eigenphase degeneracies or kick strengths exhibiting short-period quantum revivals,…",
-   "We focus on the case of four qubits and on locating degeneracies in its Floquet eigenphases using the resultant of its characteristic polynomial $p$ and its…",
-   "Since this structure extends to all values of $j$, the central lessons apply completely generally."
+   "Investigated the relationship between the Floquet spectrum and entanglement sensitivity in the quantum kicked top.",
+   "Focused on four qubits, locating eigenphase degeneracies using resultants of characteristic polynomials.",
+   "Found that sensitivity maxima match Floquet degeneracies or kick strengths exhibiting quantum revivals."
   ],
-  "whyItMatters": "",
-  "eli5": "",
-  "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 40
+  "whyItMatters": "Understanding how chaos and entanglement behave in simple quantum models helps physicists gain deep insights into quantum many-body systems and complex quantum dynamics.",
+  "eli5": "Imagine spinning a top and kicking it at regular intervals. By analyzing the mathematical notes (frequencies) of the spinning top, researchers found that the moments where the system becomes super sensitive to tiny pushes match up with specific mathematical collisions.",
+  "keyNumbers": [
+   {
+    "value": "four",
+    "label": "Qubits",
+    "context": "The study focused specifically on the case of four qubits."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Floquet spectrum",
+    "shortDef": "The set of eigenvalues of the Floquet operator for periodically driven quantum systems.",
+    "eli5Def": "The set of allowed energy-like notes for a quantum system that gets shaken periodically.",
+    "wikiTitle": "Floquet theory"
+   },
+   {
+    "term": "Quantum kicked top",
+    "shortDef": "A chaotic model of angular momentum used in quantum chaos studies.",
+    "eli5Def": "A theoretical spinning top that receives regular quantum slaps to study how chaos emerges.",
+    "wikiTitle": "Quantum kicked top"
+   },
+   {
+    "term": "Resultant",
+    "shortDef": "A mathematical tool used to determine whether two polynomials share a common root.",
+    "eli5Def": "An equation check that tells you if two different curves cross each other at zero.",
+    "wikiTitle": "Resultant"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 60
  }
 }

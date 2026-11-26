@@ -1,0 +1,42 @@
+{
+ "date": "2026-11-26",
+ "generatedAt": "2026-11-26T17:14:17.957Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Quantum Foundations, Entanglement, and Thermodynamics",
+ "summary": "Today's research spans the fundamental mechanics of quantum systems, exploring quantum information theory, critical metrology, and thermodynamic costs. Papers examine everything from partition functions and entanglement bounds to neural decoders and the history of the wave function.",
+ "themes": [
+  {
+   "title": "Quantum Information and Entanglement",
+   "body": "Investigations into foundational quantum states and information metrics include mapping vacuum Rényi mutual information to CFT partition functions and proving the existence of bound entanglement with negative partial transpose.",
+   "paperIds": [
+    "2611.34922",
+    "2611.34921"
+   ]
+  },
+  {
+   "title": "Metrology, Thermodynamics, and Measurement",
+   "body": "New results analyze the thermodynamic budget of objectivity in record creation and explore complementary mechanisms for critical quantum metrology using suppressed noise to improve estimation scaling.",
+   "paperIds": [
+    "2611.34916",
+    "2611.34909"
+   ]
+  },
+  {
+   "title": "Error Correction and Foundations",
+   "body": "Practical approaches are represented by a loss-aware neural network decoder for qLDPC codes, while historical analysis traces how Schrödinger's early views on the wave function persist in modern realist frameworks.",
+   "paperIds": [
+    "2611.34895",
+    "2611.34891"
+   ]
+  }
+ ],
+ "connections": [],
+ "paperIds": [
+  "2611.34922",
+  "2611.34921",
+  "2611.34916",
+  "2611.34909",
+  "2611.34895",
+  "2611.34891"
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "id": "2611.34909",
+ "version": 1,
+ "title": "The thermodynamic budget of objectivity",
+ "authors": [
+  {
+   "name": "Wonyong Chung"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "physics.ins-det"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-25T18:56:11Z",
+ "updated": "2026-11-25T18:56:11Z",
+ "abstract": "An event becomes a fact when enough independent records of it exist such that no operation is possible that leaves all observers ignorant of it again. Records are physical, and creating, keeping, and destroying them have thermodynamic costs. We compute these costs exactly in a minimal broadcast model with a driven central qubit writing records into $N$ initially thermal registers, with work sources and baths at temperature $T$. The basic arguments for the operations are outlined here, with full treatment in the text. Creation of one event record at redundancy $R$ and information deficit $δ$ requires work $W \\ge R\\, k_\\mathrm{B}T \\ln 2\\, (1-δ) H(\\varepsilon)$, linear in redundancy at the Landauer coefficient. Recording in a basis misaligned by $θ$ with the einselecting interaction fails at a critical angle, $θ_c = 2\\arcsin\\sqrt{H_2^{-1}(δ)}$, beyond which objectivity is unreachable at any work, and below $θ_c$ the optimal work is a closed form in the pointer basis that minimizes the work of objectivity. Reducing objectivity is impossible at any work with access to fewer than $R - R_{\\min} + 1$ records, while work protects nothing if given access. Inter-record redundancy is extractable free energy and erasing the accessed records yields a net gain of work beyond the first copy. The second law constrains the destruction of the correlation: erasing a fact from a sector an adversary controls dissipates at least the mutual information erased, but a consolidation dissipates nothing. Records in re-thermalizing media are nonequilibrium steady states, and the minimal power to maintain a record at $(R,δ)$ is the known two-state driving bound evaluated at the record-quality boundary.",
+ "comment": "9 pages, 1 figure",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.34909",
+  "pdf": "https://arxiv.org/pdf/2611.34909",
+  "html": "https://arxiv.org/html/2611.34909"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "Creating one event record at redundancy R requires work linear in redundancy at the Landauer coefficient.",
+  "tldr": [
+   "Computed the thermodynamic costs of creating, keeping, and destroying physical records in a minimal broadcast model.",
+   "Derived exact work formulas for recording events into N thermal registers using work sources and baths at temperature T.",
+   "Found that recording fails past a critical angle misalignment and that inter-record redundancy acts as extractable free energy."
+  ],
+  "whyItMatters": "Information isn't abstract—writing down facts and making data redundant burns thermodynamic energy, linking the laws of physics directly to the cost of making history objective.",
+  "eli5": "If you want something to become an undeniable historical fact, the universe forces you to print copies of it everywhere. This paper calculates the exact energy bill required to make sure everyone agrees an event actually happened.",
+  "keyNumbers": [
+   {
+    "value": "2",
+    "label": "States / Log base",
+    "context": "Work requires R k_B T ln 2 terms."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Objectivity",
+    "shortDef": "The property where multiple independent observers can access the same fact without disturbing it.",
+    "eli5Def": "When a tree falls in a forest and everyone agrees it happened because thousands of independent photos were snapped.",
+    "wikiTitle": null
+   },
+   {
+    "term": "Landauer's principle",
+    "shortDef": "A physical principle establishing the minimum possible amount of energy required to erase one bit of information.",
+    "eli5Def": "The universal rule that throwing away data always generates a tiny, unavoidable amount of heat.",
+    "wikiTitle": "Landauer's principle"
+   },
+   {
+    "term": "Einselection",
+    "shortDef": "Environment-induced superselection, where the environment forces a quantum system into classical states.",
+    "eli5Def": "How the noisy outside world forces fuzzy quantum possibilities to pick a single definite reality.",
+    "wikiTitle": "Environment-induced superselection"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

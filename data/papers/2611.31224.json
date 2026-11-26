@@ -30,21 +30,40 @@
   "url": "https://arxiv.org/html/2611.31224v1/fig2.png"
  },
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-11-24T18:09:10.262Z",
-  "hook": "Monitored random quantum circuits naturally generate quantum error-correcting codes.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "Small-world random quantum circuits produce quantum codes at logarithmic depth ln n instead of polynomial depths.",
   "tldr": [
-   "Monitored random quantum circuits naturally generate quantum error-correcting codes.",
-   "We generate quantum codes with tunable properties by implementing random Clifford circuits on Watts--Strogatz `small-world' networks and tailor code…",
-   "Connectivity is thus a knob for designing codes."
+   "Generated quantum error-correcting codes using random Clifford circuits on Watts-Strogatz small-world networks.",
+   "Varied three knobs: nonlocal graph rewiring, measurement rate, and circuit depth.",
+   "Found that logarithmic depth produces codes with a finite rate and low failure probability compared to local circuits."
   ],
-  "whyItMatters": "",
-  "eli5": "",
+  "whyItMatters": "Building fault-tolerant quantum computers requires efficient quantum error-correcting codes. Showing that network connectivity can act as a design knob opens new, faster pathways to generate these vital codes.",
+  "eli5": "Imagine trying to send a secret message across a group of friends. If everyone only talks to their immediate neighbors, information travels very slowly. But if a few long-distance phone lines are added—a small-world network—messages zip across instantly, helping build sturdy quantum error-codes much faster.",
   "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 32
+  "glossary": [
+   {
+    "term": "Watts-Strogatz network",
+    "shortDef": "A graph model with high local clustering and small average path lengths.",
+    "eli5Def": "A network where most things are connected to their neighbors, but a few random long-distance connections are thrown in.",
+    "wikiTitle": "Watts–Strogatz model"
+   },
+   {
+    "term": "Clifford circuits",
+    "shortDef": "A class of quantum circuits that can be efficiently simulated on classical computers.",
+    "eli5Def": "A specific set of basic building blocks for quantum computers that are relatively easy to calculate.",
+    "wikiTitle": "Clifford algebra"
+   },
+   {
+    "term": "Purification transition",
+    "shortDef": "A sharp change in the entanglement properties of a monitored quantum system.",
+    "eli5Def": "A tipping point where a messy quantum system suddenly cleans up and becomes ordered.",
+    "wikiTitle": null
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
  }
 }

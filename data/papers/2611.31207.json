@@ -32,21 +32,40 @@
  "matchedKeywords": [],
  "figure": null,
  "withdrawn": false,
- "biteStatus": "fallback",
+ "biteStatus": "ok",
  "bite": {
-  "model": "extractive",
-  "generatedAt": "2026-11-24T18:09:10.262Z",
-  "hook": "Finding optimal quantum measurements or recovery maps is often demanding.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26T17:14:17.957Z",
+  "hook": "Pretty good measurements and Petz maps are unified in a semidefinite programming framework with a tunable power.",
   "tldr": [
-   "Finding optimal quantum measurements or recovery maps is often demanding.",
-   "Pretty good measurements and Petz maps offer explicit approximations achieving at least the square of optimal performance by the Barnum-Knill bound.",
-   "For structured channels such as stabilizer codes under Pauli noise, large powers steer recovery to a maximum likelihood decoder for maximally mixed inputs."
+   "Studied optimal quantum measurements and recovery maps using explicit approximations.",
+   "Unified pretty good measurements and Petz maps within a semidefinite programming framework.",
+   "Proved a stronger bound for powers above one up to three that peaks at quadratic power."
   ],
-  "whyItMatters": "",
-  "eli5": "",
+  "whyItMatters": "Finding optimal quantum operations is notoriously difficult. Better approximations and unified frameworks make it easier to design robust quantum communication and error-correction protocols.",
+  "eli5": "In quantum physics, figuring out the absolute best way to measure or fix a broken quantum state is extremely hard. Scientists use clever shortcuts called 'pretty good measurements,' and this paper figures out a way to supercharge and unify these shortcuts.",
   "keyNumbers": [],
-  "glossary": [],
-  "difficulty": 3,
-  "readSeconds": 38
+  "glossary": [
+   {
+    "term": "Petz maps",
+    "shortDef": "Explicit quantum recovery maps used in quantum information theory.",
+    "eli5Def": "A mathematical formula used to try and reverse damage done to a quantum state.",
+    "wikiTitle": "Petz recovery map"
+   },
+   {
+    "term": "Semidefinite programming",
+    "shortDef": "A subfield of optimization concerned with the optimization of a linear objective function.",
+    "eli5Def": "A powerful mathematical toolkit used to find the absolute best solution out of many possibilities.",
+    "wikiTitle": "Semidefinite programming"
+   },
+   {
+    "term": "Stabilizer codes",
+    "shortDef": "Quantum error-correcting codes defined by a set of stabilizer operators.",
+    "eli5Def": "A special recipe for protecting quantum information by checking it with mathematical rules.",
+    "wikiTitle": "Stabilizer code"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 50
  }
 }

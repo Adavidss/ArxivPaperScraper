@@ -1977,32 +1977,32 @@
   },
   "2611.31236": {
    "version": 1,
-   "summarizedVersion": 0,
+   "summarizedVersion": 1,
    "firstSeen": "2026-11-24"
   },
   "2611.31230": {
    "version": 1,
-   "summarizedVersion": 0,
+   "summarizedVersion": 1,
    "firstSeen": "2026-11-24"
   },
   "2611.31224": {
    "version": 1,
-   "summarizedVersion": 0,
+   "summarizedVersion": 1,
    "firstSeen": "2026-11-24"
   },
   "2611.31207": {
    "version": 1,
-   "summarizedVersion": 0,
+   "summarizedVersion": 1,
    "firstSeen": "2026-11-24"
   },
   "2611.31186": {
    "version": 1,
-   "summarizedVersion": 0,
+   "summarizedVersion": 1,
    "firstSeen": "2026-11-24"
   },
   "2611.31179": {
    "version": 1,
-   "summarizedVersion": 0,
+   "summarizedVersion": 1,
    "firstSeen": "2026-11-24"
   },
   "2611.33138": {
@@ -2027,29 +2027,50 @@
   },
   "2611.33112": {
    "version": 1,
-   "summarizedVersion": 0,
+   "summarizedVersion": 1,
    "firstSeen": "2026-11-25"
   },
   "2611.33063": {
    "version": 1,
-   "summarizedVersion": 0,
+   "summarizedVersion": 1,
    "firstSeen": "2026-11-25"
+  },
+  "2611.34922": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-26"
+  },
+  "2611.34921": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-26"
+  },
+  "2611.34916": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-26"
+  },
+  "2611.34909": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-26"
+  },
+  "2611.34895": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-26"
+  },
+  "2611.34891": {
+   "version": 1,
+   "summarizedVersion": 1,
+   "firstSeen": "2026-11-26"
   }
  },
- "retryQueue": [
-  "2611.31236",
-  "2611.31230",
-  "2611.31224",
-  "2611.31207",
-  "2611.31186",
-  "2611.31179",
-  "2611.33112",
-  "2611.33063"
- ],
+ "retryQueue": [],
  "lastRun": {
-  "at": "2026-11-25T17:31:36.952Z",
-  "geminiCalls": 13,
+  "at": "2026-11-26T17:14:17.957Z",
+  "geminiCalls": 11,
   "newPapers": 6,
-  "quotaExhausted": true
+  "quotaExhausted": false
  }
 }

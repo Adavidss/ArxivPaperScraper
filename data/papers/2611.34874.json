@@ -1,0 +1,81 @@
+{
+ "id": "2611.34874",
+ "version": 1,
+ "title": "Exact monogamy of steering and remote Wigner negativity for multimode Gaussian nodes",
+ "authors": [
+  {
+   "name": "Sudip Chakrabarty"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-25T18:36:27Z",
+ "updated": "2026-11-25T18:36:27Z",
+ "abstract": "Optical quantum networks route correlations through nodes that hold several modes and are linked to many neighbors. Steering is the correlation behind one-sided device-independent tasks and behind the remote preparation of non-Gaussian states. It is monogamous for a single mode, which can be steered by only one party, but how many neighbors can steer a node with $k$ modes was not known. We show that for Gaussian states the answer is exactly $2k-1$ when the neighbors use Gaussian measurements, with any number of measurement settings. The limit follows from a simple bound. To every neighbor we assign a share, computed from the covariance matrix, and we prove that the shares of all neighbors add up to at most $k$, irrespective of the amount of squeezing, amplification or noise the network contains. A neighbor steers the node by Gaussian measurements exactly when its share exceeds one half, and a network built from a harmonic tight frame reaches the limit. The same number governs remote Wigner negativity. A heralded non-Gaussian operation at the node can make at most $2k-1$ neighbors Wigner negative, and in our network a single heralded projection makes all of them negative in the same run. With $n$ settings of arbitrary measurements, at most $nk-1$ neighbors can steer the node or violate a Bell inequality with it. More than $2k-1$ neighbors can therefore steer the node or violate a Bell inequality with it only if they use non-Gaussian measurements with at least three settings, whereas entanglement can reach any number of neighbors. These results determine exactly how many neighbors one multimode node can serve with steering and with remote Wigner negativity.",
+ "comment": "43 pages, 7 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.34874",
+  "pdf": "https://arxiv.org/pdf/2611.34874",
+  "html": "https://arxiv.org/html/2611.34874"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-27T16:55:27.327Z",
+  "hook": "A central quantum node with k modes can be steered by at most 2k - 1 neighbors via Gaussian measurements.",
+  "tldr": [
+   "Proved an exact monogamy bound on quantum steering and remote Wigner negativity for multimode Gaussian nodes.",
+   "Introduced an additive share invariant from covariance matrices showing shares sum to at most k.",
+   "Demonstrated that exactly 2k - 1 neighbors can steer the node using Gaussian measurements, achievable via harmonic tight frames."
+  ],
+  "whyItMatters": "Quantum routing protocols rely on knowing strictly how many communication partners can simultaneously control or verify a shared quantum state without interference.",
+  "eli5": "Think of a central router connecting multiple people. If it has k channels, you might hope it can share special quantum control with everyone, but mathematics strictly caps that control to at most 2k - 1 partners.",
+  "keyNumbers": [
+   {
+    "value": "2k-1",
+    "label": "Maximum steering neighbors",
+    "context": "Upper limit of neighbors able to steer a k-mode Gaussian node with Gaussian measurements"
+   },
+   {
+    "value": "nk-1",
+    "label": "Max neighbors for n settings",
+    "context": "Upper bound on neighbors that can steer or violate Bell inequalities under arbitrary measurements"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Quantum Steering",
+    "shortDef": "A non-local correlation enabling one observer to manipulate another party's quantum state remotely.",
+    "eli5Def": "A quantum connection where measuring your particle immediately steers the shape of a distant partner's particle.",
+    "wikiTitle": "Quantum steering"
+   },
+   {
+    "term": "Monogamy of Entanglement",
+    "shortDef": "The principle that quantum correlations cannot be freely shared among an arbitrary number of parties.",
+    "eli5Def": "The rule that if two quantum systems are closely entangled, they cannot share that same connection with a third system.",
+    "wikiTitle": "Monogamy of entanglement"
+   },
+   {
+    "term": "Wigner Negativity",
+    "shortDef": "Negative regions in the Wigner quasiprobability distribution, indicating non-classical quantum character.",
+    "eli5Def": "A mathematical sign that a quantum state behaves in a truly weird way that no classical physics can explain.",
+    "wikiTitle": "Wigner quasiprobability distribution"
+   },
+   {
+    "term": "Tight Frame",
+    "shortDef": "A redundant set of vectors in a Hilbert space generalizing an orthonormal basis.",
+    "eli5Def": "A set of reference vectors that covers all directions smoothly, even if there are more vectors than dimensions.",
+    "wikiTitle": "Frame (linear algebra)"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 55
+ }
+}

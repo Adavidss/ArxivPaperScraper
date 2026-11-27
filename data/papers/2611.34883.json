@@ -1,0 +1,88 @@
+{
+ "id": "2611.34883",
+ "version": 1,
+ "title": "Transition Path Sampling for Rare Events in Non-Markovian Open Quantum Systems",
+ "authors": [
+  {
+   "name": "Ritesh Pant"
+  },
+  {
+   "name": "Kai Müller"
+  },
+  {
+   "name": "Tarun Gera"
+  },
+  {
+   "name": "Doran I. G. B. Raccah"
+  }
+ ],
+ "categories": [
+  "quant-ph",
+  "cond-mat.stat-mech",
+  "physics.chem-ph",
+  "physics.optics"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-25T18:40:27Z",
+ "updated": "2026-11-25T18:40:27Z",
+ "abstract": "Rare transitions govern the dynamics of many open quantum systems, but their probabilities and rates are difficult to calculate. Transition path sampling (TPS) of quantum systems has so far been limited to Markovian, perturbative descriptions. Here, we formulate TPS for non-Markovian quantum state diffusion, which is exact for Gaussian baths, extending it to non-Markovian and strongly coupled open quantum systems. For normal-to-superradiant tunneling in the unbalanced open Dicke model, we determine probabilities down to $10^{-8}$ and rates beyond the reach of brute force.",
+ "comment": "Letter: 6 pages, 3 figures; Supplemental Material: 14 pages, 5 figures. Code and data: https://doi.org/10.5281/zenodo.24538275",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.34883",
+  "pdf": "https://arxiv.org/pdf/2611.34883",
+  "html": "https://arxiv.org/html/2611.34883"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-27T16:55:27.327Z",
+  "hook": "A new quantum path sampling method captures ultra-rare quantum transitions down to probabilities of 10⁻⁸.",
+  "tldr": [
+   "Formulated transition path sampling for non-Markovian quantum state diffusion exact for Gaussian environments.",
+   "Extended sampling to strongly coupled open quantum dynamics beyond perturbative and memoryless limits.",
+   "Calculated normal-to-superradiant tunneling rates in the Dicke model for rare events down to probabilities of 10⁻⁸."
+  ],
+  "whyItMatters": "Crucial quantum events like tunneling or chemical reactions occur very rarely, making standard simulations impossibly expensive. This approach enables tracking such rare events in realistic, memory-retaining environments.",
+  "eli5": "Simulating a rare quantum event by waiting for it is like rolling a 100-sided die millions of times hoping for all sixes. This method skips the waiting and directly samples only the rare lucky paths where the transition happens.",
+  "keyNumbers": [
+   {
+    "value": "10^-8",
+    "label": "Transition probability",
+    "context": "Lowest calculated tunneling probability for the unbalanced open Dicke model"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Transition Path Sampling",
+    "shortDef": "A computational method to harvest rare transition trajectories between metastable states.",
+    "eli5Def": "A computational trick that zooms in straight on rare, pivotal moments rather than simulating years of nothing happening.",
+    "wikiTitle": "Transition path sampling"
+   },
+   {
+    "term": "Non-Markovian",
+    "shortDef": "Processes where future behavior depends on past history rather than solely the present state.",
+    "eli5Def": "A process that has memory, so what happens next depends on what happened in the past.",
+    "wikiTitle": "Markov process"
+   },
+   {
+    "term": "Dicke Model",
+    "shortDef": "A foundational quantum optics model describing an ensemble of two-level atoms interacting with a light mode.",
+    "eli5Def": "A classic physics model describing a group of atoms interacting together inside a cavity of light.",
+    "wikiTitle": "Dicke model"
+   },
+   {
+    "term": "Superradiant",
+    "shortDef": "A coherent quantum state where atoms emit radiation collectively at an enhanced rate.",
+    "eli5Def": "A state where multiple atoms synchronize their light emissions to release a sudden, intense burst.",
+    "wikiTitle": "Superradiance"
+   }
+  ],
+  "difficulty": 4,
+  "readSeconds": 50
+ }
+}

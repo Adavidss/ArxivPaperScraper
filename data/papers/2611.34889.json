@@ -1,0 +1,97 @@
+{
+ "id": "2611.34889",
+ "version": 1,
+ "title": "The Price of Quantum Advantage in Computational Chemistry",
+ "authors": [
+  {
+   "name": "Haejung Koh"
+  },
+  {
+   "name": "Katerina Gratsea"
+  },
+  {
+   "name": "Hao Zhang"
+  },
+  {
+   "name": "Matthew Otten"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-25T18:45:50Z",
+ "updated": "2026-11-25T18:45:50Z",
+ "abstract": "As the fault-tolerant era approaches, the question shifts from ``is it possible'' to ``is it worthwhile.'' To assess practical quantum advantage against reliable classical baselines, we examine 26 benchmark instances including FeMoco, iron-sulfur clusters, cytochrome P450, and ruthenium catalysts using two selected configuration interaction solvers, SHCI and TrimCI. Comparing classical workloads with fault-tolerant resource estimates, we calculate the break-even whole-QPU hourly price. Even at an optimistic price of US\\$7{,}000 per whole-QPU hour, and with mid-range CPU clusters, classical computation remains cheaper for six of seven systems. FeMoco alone remains sensitive to the classical method and extrapolation strategy. Wavefunction analysis further reveals how orbital choice affects the determinant support required for target-state overlap in quantum phase estimation (QPE). Our results highlight the importance of reliable classical references and trial-state characterization, and quantify the economic conditions under which quantum computing can become competitive with classical alternatives.",
+ "comment": null,
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.34889",
+  "pdf": "https://arxiv.org/pdf/2611.34889",
+  "html": "https://arxiv.org/html/2611.34889"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": {
+  "url": "https://arxiv.org/html/2611.34889v1/image/image312.png"
+ },
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-27T16:55:27.327Z",
+  "hook": "At an optimistic $7,000/hour QPU cost, classical computers still beat quantum hardware for 6 out of 7 benchmark systems.",
+  "tldr": [
+   "Compared fault-tolerant quantum resource needs against selected configuration interaction solvers (SHCI, TrimCI) across 26 chemistry benchmarks.",
+   "Calculated the break-even whole-QPU hourly operating price and evaluated wavefunctions for quantum phase estimation overlap.",
+   "Found classical clusters remain cheaper for six of seven systems even at $7,000/hr, with only FeMoco exhibiting method-sensitive quantum advantage."
+  ],
+  "whyItMatters": "Practical quantum computing requires economic value, not just theoretical supremacy. This study grounds quantum chemistry hype by showing classical algorithms remain remarkably cost-competitive.",
+  "eli5": "Imagine hiring an ultra-fast rocket to deliver a package, but it costs $7,000 every hour to rent. If a standard delivery van can do almost the exact same job for much less money, the rocket simply isn't worth hiring yet.",
+  "keyNumbers": [
+   {
+    "value": "26",
+    "label": "Benchmark instances",
+    "context": "Examined across molecules like FeMoco, cytochrome P450, and ruthenium catalysts"
+   },
+   {
+    "value": "US$7,000",
+    "label": "Whole-QPU hourly price",
+    "context": "Optimistic break-even threshold evaluated against mid-range CPU clusters"
+   },
+   {
+    "value": "6 of 7",
+    "label": "Systems cheaper classically",
+    "context": "Molecules where mid-range classical clusters beat quantum processors economically"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "QPU",
+    "shortDef": "Quantum Processing Unit; the physical quantum chip executing quantum logic circuits.",
+    "eli5Def": "The brain of a quantum computer, doing calculations with qubits instead of standard computer chips.",
+    "wikiTitle": "Quantum computing"
+   },
+   {
+    "term": "FeMoco",
+    "shortDef": "Iron-molybdenum cofactor, the primary catalytic active site in nitrogenase enzymes.",
+    "eli5Def": "A complex chemical cluster in bacteria that turns airborne nitrogen into fertilizer naturally.",
+    "wikiTitle": "FeMoco"
+   },
+   {
+    "term": "Quantum Phase Estimation",
+    "shortDef": "A quantum algorithm designed to calculate the eigenenergies of a given Hamiltonian.",
+    "eli5Def": "A quantum recipe used to precisely read out the true energy levels of a molecule.",
+    "wikiTitle": "Quantum phase estimation algorithm"
+   },
+   {
+    "term": "Selected Configuration Interaction",
+    "shortDef": "A classical electronic structure method picking the most important quantum determinants iteratively.",
+    "eli5Def": "A smart classical algorithm that calculates molecular energies by focusing only on the most important configurations.",
+    "wikiTitle": "Configuration interaction"
+   }
+  ],
+  "difficulty": 3,
+  "readSeconds": 55
+ }
+}

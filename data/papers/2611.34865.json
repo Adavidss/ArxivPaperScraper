@@ -1,0 +1,75 @@
+{
+ "id": "2611.34865",
+ "version": 1,
+ "title": "State convertibility in quantum-state texture from a general form of free operations",
+ "authors": [
+  {
+   "name": "Jose Alfredo de Leon"
+  }
+ ],
+ "categories": [
+  "quant-ph"
+ ],
+ "primaryCategory": "quant-ph",
+ "published": "2026-11-25T18:30:55Z",
+ "updated": "2026-11-25T18:30:55Z",
+ "abstract": "State convertibility specifies which transformations between states a quantum resource theory allows. In quantum-state texture, deterministic conversion criteria are known for qubits and pure sources in arbitrary dimension, but a general criterion for mixed states in higher dimensions is missing. We derive this exact criterion from a complete characterization of free operations in arbitrary finite dimension. Because the unique free state is pure, every free operation splits into a quantum filter and a residual completely positive map. Using this decomposition, we show that every allowed conversion admits a two-outcome measurement that retains the filtered state after one outcome and prepares a fixed state after the other. Conversion thus reduces to finding such a filter whose unnormalized output leaves a positive semidefinite remainder when subtracted from the target, a search we show to be solvable by semidefinite programming. Beyond deterministic conversion, the characterization of free operations can be used to study probabilistic and assisted manipulation of quantum-state texture. More broadly, since the construction relies on a pure fixed state, it also applies to other resource theories defined by free operations fixing such a state.",
+ "comment": "16 pages, 3 figures",
+ "doi": null,
+ "links": {
+  "abs": "https://arxiv.org/abs/2611.34865",
+  "pdf": "https://arxiv.org/pdf/2611.34865",
+  "html": "https://arxiv.org/html/2611.34865"
+ },
+ "source": "foryou",
+ "matchedKeywords": [],
+ "figure": null,
+ "withdrawn": false,
+ "biteStatus": "ok",
+ "bite": {
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-27T16:55:27.327Z",
+  "hook": "Exact conversion criteria derived for mixed states in quantum-state texture using semidefinite programming.",
+  "tldr": [
+   "Derived an exact criterion for state convertibility of mixed states in arbitrary higher dimensions.",
+   "Characterized free operations by decomposing them into a quantum filter and a residual completely positive map.",
+   "Showed that allowed conversions reduce to a search solvable efficiently by semidefinite programming."
+  ],
+  "whyItMatters": "Understanding how to transform quantum resources from one form into another is a foundational building block for quantum information processing and quantum technologies.",
+  "eli5": "Think of sorting and recycling different grades of plastic materials. This paper figures out the exact rulebook for whether you can cleanly transform one complex quantum state texture into another using only allowed free tools.",
+  "keyNumbers": [
+   {
+    "value": "16",
+    "label": "Pages",
+    "context": "Total length of the research paper"
+   },
+   {
+    "value": "3",
+    "label": "Figures",
+    "context": "Number of figures included in the manuscript"
+   }
+  ],
+  "glossary": [
+   {
+    "term": "quantum resource theory",
+    "shortDef": "A framework to study what can be achieved when certain quantum operations or states are forbidden.",
+    "eli5Def": "A rulebook for a game that tells you what special tools you are allowed to use and what you can build with them.",
+    "wikiTitle": "Resource theory"
+   },
+   {
+    "term": "mixed states",
+    "shortDef": "A statistical ensemble of different quantum states, representing incomplete knowledge of the system.",
+    "eli5Def": "Like a spinning coin where you do not know heads or tails for sure, but have probabilities for each.",
+    "wikiTitle": "Quantum state"
+   },
+   {
+    "term": "semidefinite programming",
+    "shortDef": "A subfield of optimization concerned with the optimization of a linear objective function.",
+    "eli5Def": "A powerful computer method that solves complex puzzle-like math problems by finding the absolute best balance of variables.",
+    "wikiTitle": "Semidefinite programming"
+   }
+  ],
+  "difficulty": 5,
+  "readSeconds": 60
+ }
+}

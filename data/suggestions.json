@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T17:14:17.957Z",
+ "generatedAt": "2026-11-27T16:55:27.327Z",
  "suggestions": [
   {
    "name": "Sabre Kais",
@@ -181,8 +181,8 @@
    "paperCount": 2
   },
   {
-   "name": "Susanne F. Yelin",
-   "slug": "susanne-f-yelin",
+   "name": "Jens Eisert",
+   "slug": "jens-eisert",
    "score": 3,
    "coAuthoredWith": [],
    "viaKeywords": [],
@@ -190,13 +190,13 @@
     "quant-ph"
    ],
    "paperIds": [
-    "2611.26447",
-    "2610.37665",
-    "2610.22367"
+    "2611.34872",
+    "2610.02145",
+    "2609.35656"
    ],
    "recentTitles": [
-    "Scaling classical hardware for accurate real-time quantum error correction",
-    "Exact Analytical Treatment of Collectively Pumped Dicke Superradiance"
+    "Bound magic in multi-qubit systems",
+    "A provable quantum advantage for approximate optimization via decoded quantum interferometry"
    ],
    "paperCount": 3
   }

@@ -1,0 +1,50 @@
+{
+ "date": "2026-11-27",
+ "generatedAt": "2026-11-27T16:55:27.327Z",
+ "model": "gemini-flash-lite-latest",
+ "headline": "Quantum Economics, Bound States, and Rare Events",
+ "summary": "Today's papers explore the practical and theoretical limits of quantum systems, spanning cost-benefit analyses of quantum advantage in chemistry and the fundamental physics of bound magic and steering. Researchers are finding new boundaries for what quantum hardware can achieve and how non-classical resources behave.",
+ "themes": [
+  {
+   "title": "Quantum Advantage and Chemistry Economics",
+   "body": "Evaluating the real-world utility of quantum algorithms against classical benchmarks and developing new computational frameworks for excited states.",
+   "paperIds": [
+    "2611.34889",
+    "2611.34871"
+   ]
+  },
+  {
+   "title": "Fundamental Resource Theory and Bound States",
+   "body": "Uncovering strict limitations in quantum resource distribution, including bound magic states that cannot be distilled and exact monogamy bounds for steering.",
+   "paperIds": [
+    "2611.34874",
+    "2611.34872",
+    "2611.34865"
+   ]
+  },
+  {
+   "title": "Open Quantum Dynamics and Rare Events",
+   "body": "Advancing transition path sampling to model ultra-rare quantum transitions in non-Markovian open environments down to probabilities of 10⁻⁸.",
+   "paperIds": [
+    "2611.34883"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "body": "Both papers deal with fundamental resource restrictions and convertibility limitations in multi-party or multi-qubit quantum systems.",
+   "paperIds": [
+    "2611.34874",
+    "2611.34872"
+   ]
+  }
+ ],
+ "paperIds": [
+  "2611.34889",
+  "2611.34883",
+  "2611.34874",
+  "2611.34872",
+  "2611.34871",
+  "2611.34865"
+ ]
+}
